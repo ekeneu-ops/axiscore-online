@@ -1,0 +1,63 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1468529",
+ "bid_number": "1468529",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "HYDRORANGER LT500 CONTROLLERS",
+ "close": "8/20/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "HYDRORANGER LT500 mA HART VERSION ARTICLE NO 7ML60-03-0BC20 SIEMENS LT500 HydroRanger Ultrasonic Level Measurement Controller Dual point version; 6 relay; Panel Mount; 110 to 230 VAC; FM/CSA UL Manufacturer: SIEMENS Manufacturer PART #: 7ML60-03-0BC20-1AA3 NOTE: Shipping shall be included in the pricing. Additional Details: Siemens SITRANS LT500 universal level controller - Continuous, non-contact, - For liquids, slurries, and solids. - Monitors level, volume, and volume flow, for virtually any application in a wide range of process industries. - Product Type: HydroRanger Level, Volume and Flow (MCERTS class 2 certified) - Sensor input type: 4-20 mA input(s) - Number of measurement points: Dual point version - Relay output: 6 relays (4 Form A, 2 Form C), 250 V AC Mounting. - Enclosure design: Panel mount - Type of protection: Ordinary Locations/General Purpose (Non-Ex) - cCSAus, cULus, FM, CE, UKCA, RCM and EAC Certification - Removable data storage: Included (8GB micro SD) - Input Voltage: 100 - 230 V AC",
+   "qty": "10",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.9,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 219404,
+  "max_fetch_seconds": 0.77,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-16T08:24:09.077292+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/san-antonio-water-system-tx-1468529/coverage.json"
+}

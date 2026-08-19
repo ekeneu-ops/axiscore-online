@@ -1,0 +1,524 @@
+{
+ "bid_id": "city-of-clinton-ia-r-2026",
+ "bid_number": "R-2026",
+ "agency": "City of Clinton, IA",
+ "src": "Open",
+ "title": "Rock Creek Restoration Project",
+ "close": "7/14/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 22,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 22,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Clearing and Grubbing",
+   "qty": "1",
+   "uom": "LS",
+   "note": "SUDAS 2010-C See CD.1 sheet for tree removal. All trees not identified for removal shall remain in place and be protected from construction equipment. Contractor shall meet with Engineer and Arboretum staff be mark each tree proposed for removal with a ribbon a minimum of one week before proposed removal.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Clearing and Grubbing 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Excavation, Class 13",
+   "qty": "3905",
+   "uom": "CY",
+   "note": "SUDAS 2010-E This bid item is to pay for the removal, haul, placement and compacting of Class 13 material. Contractor will be paid plan quantity unless adjusted for authorized changes or correction to calculation errors. Contractor shall identify and arrange for suitable site(s) to haul waste soil and submit to Engineer for approval.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Excavation, Class 13 3905 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Trench Compaction Testing",
+   "qty": "1",
+   "uom": "LS",
+   "note": "SUDAS 3010-H Contractor is responsible for trench compaction testing and all payments associated with retesting resulting from failure of initial tests.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Trench Compaction Testing 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Storm Sewer, Trenched, RCP, 18 in.",
+   "qty": "17",
+   "uom": "LF",
+   "note": "SUDAS 4020-A-1 Unit price includes, but is not limited to, trench excavation; dewatering; furnishing and installing pipe; furnishing, placing and compacting bedding and backfill materials; joint wrapping; wyes and other fittings; pipe joints; pipe connections; testing; and inspection. See M sheet for location and elevations.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Storm Sewer, Trenched, RCP, 18 in. 17 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Removal of Storm Sewer, CMP, 18 in.",
+   "qty": "20",
+   "uom": "LF",
+   "note": "SUDAS 4020-D Item includes, but is not limited to, removal, and disposal of pipe and FES; and furnishing, placing and compacting backfill material. See CD sheet for proposed removal location and length.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Removal of Storm Sewer, CMP, 18 in. 20 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Manhole, SW-406",
+   "qty": "1",
+   "uom": "EA",
+   "note": "SUDAS 6010-A Item includes, but is not limited to, excavation; furnishing and installing pipe; furnishing, placing and compacting bedding and backfill material; base; structural concrete; reinforcing steel; precast units (if used); concrete fillets; pipe connections; castings and adjustment rings. See M sheet for placement and pipe connections. Casting shall be Neenah R-2556-A; inlet frame; concave gate, heavy duty, or equivalent.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Manhole, SW-406 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Remove Manhole",
+   "qty": "1",
+   "uom": "EA",
+   "note": "SUDAS 6010-H-1 Item includes, but is not limited to, removal of casting, concrete, and reinforcement of entire structure, and placing and removal of any temporary compacted fill to finished grade. See M sheet for placement and profile.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Remove Manhole 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Temporary Traffic Control",
+   "qty": "1",
+   "uom": "LS",
+   "note": "SUDAS 8030-A Project site is an arboretum open to the public. Construction and equipment shall remain within construction limits shown in plans or as allowed by Engineer. Any work impacting public roadways shall follow City of Clinton requirements for work within right-of-way.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Temporary Traffic Control 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Hydraulic Seeding, Seeding, Fertilizing and Mulching, Type 1 Item rounded up to nearest whole number for bidding purposes - payment will be made on actual measurement.",
+   "qty": "1",
+   "uom": "ACRE",
+   "note": "SUDAS 9010-B Item includes removal of rock and other debris from the area; repairing rills and washes; preparing the seedbed; furnishing and placing seed, including any treatment required; furnishing and placing mulch; and furnishing other care during the care period. This line item is to reseed lawn areas disturbed with construction limits not identified for native seeding.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Hydraulic Seeding, Seeding, Fertilizing and Mulching, Type 1 Item rounded up to nearest whole number for bidding purposes - payment will be made on actual measurement. 1 ACRE No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Hydraulic Seeding, Seeding, Fertilizing and Mulching, Native Stream Bench/Toe Item rounded up to nearest whole number for bidding purposes - payment will be made on actual measurement.",
+   "qty": "1",
+   "uom": "ACRE",
+   "note": "SUDAS 9010-B Item includes removal of rock and other debris from the area; repairing rills and washes; preparing the seedbed; furnishing and placing seed; including any treatment required; furnishing and placing mulch; and furnishing other care during the care period. No fertilizer shall be applied on the areas indicated for native seeding on RR sheets. Native seed shall be broadcast seeded first followed by spraying hydro mulch slurry containing nurse crop on broadcast areas.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Hydraulic Seeding, Seeding, Fertilizing and Mulching, Native Stream Bench/Toe Item rounded up to nearest whole number for bidding purposes - payment will be made on actual measurement. 1 ACRE No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "Hydraulic Seeding, Seeding, Fertilizing and Mulching, Native Stream Bank Slope Item rounded up to nearest whole number for bidding purposes - payment will be made on actual measurement.",
+   "qty": "1",
+   "uom": "ACRE",
+   "note": "SUDAS 9010-B Item includes removal of rock and other debris from the area; repairing rills and washes; preparing the seedbed; furnishing and placing seed, including any treatment required; furnishing and placing mulch; and furnishing other care during the care period. No fertilizer shall be applied on the areas indicated for native seeding on RR sheets. Native seed shall be broadcast seeded first following by spraying hydromulch slurry containing nurse crop on broadcast areas.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 Hydraulic Seeding, Seeding, Fertilizing and Mulching, Native Stream Bank Slope Item rounded up to nearest whole number for bidding purposes - payment will be made on actual measurement. 1 ACRE No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "Warranty",
+   "qty": "1",
+   "uom": "LS",
+   "note": "SUDAS 9010-E All work required to correct any defects in the original placement of the seeding for the period of twelve (12) months.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "Filter Sock, 9 in.",
+   "qty": "1315",
+   "uom": "LF",
+   "note": "SUDAS 9040-D-1 Reference sheet RR.1 for proposed installation sites of filter socks. Item includes furnishing and installation of anchoring stakes.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 Filter Sock, 9 in. 1315 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "Filter Sock, Removal",
+   "qty": "1315",
+   "uom": "LF",
+   "note": "SUDAS 9040-D-2 Reference sheet RR.1 for proposed installation sites of filter socks.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 Filter Sock, Removal 1315 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "Temporary RECP, Type 2.B",
+   "qty": "310",
+   "uom": "SY",
+   "note": "SUDAS 9040-E Reference RR sheets for proposed placement.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 Temporary RECP, Type 2.B 310 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "Track-out Control",
+   "qty": "135",
+   "uom": "SY",
+   "note": "SUDAS 9040-O-1 Reference RR.1 for proposed placement. Minimum of 6-inch thickness.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 Track-out Control 135 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "Erosion Control Mulching, Hydromulching, BFM Item rounded up to nearest whole number for bidding purposes - payment will be made on actual measurement.",
+   "qty": "1",
+   "uom": "ACRE",
+   "note": "SUDAS 9040-Q-2 Furnishing mulch and tackifier, providing equipment specific to hyrdomulching, and applying the mulch to the specified area. This item is intended to be used in areas that cannot be seeded and covered in permanent erosion control within 14 days of the area being disturbed or before a rain event that could result in sediment loss.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 Erosion Control Mulching, Hydromulching, BFM Item rounded up to nearest whole number for bidding purposes - payment will be made on actual measurement. 1 ACRE No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "Turf Reinforcement Mats, Type 5.B",
+   "qty": "3490",
+   "uom": "SY",
+   "note": "SUDAS 9040-R Reference RR, RU and U sheets for site placement. Item includes, but is not limited to, excavation, staples, anchoring devices, and materials for anchoring slots. See R sheets for installation locations. Material shall be suitable for placement where prescribed burns are completed.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 Turf Reinforcement Mats, Type 5.B 3490 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "Temporary Fence, Orange Mesh Safety Fence, 48 in.",
+   "qty": "2035",
+   "uom": "LF",
+   "note": "SUDAS 9060-F Furnishing, installing, and removing posts, fabric, ties, and fittings. Comply with IDOT Article 4188.03. Fencing will be installed to maximize the protection of tree roots from compaction from all vehicles.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 Temporary Fence, Orange Mesh Safety Fence, 48 in. 2035 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "Construction Survey",
+   "qty": "1",
+   "uom": "LS",
+   "note": "SUDAS 11,010-A Reference sheet G.1 for survey control locations. Resetting of any survey monuments disturbed during construction is incidental to this item.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 Construction Survey 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "Mobilization",
+   "qty": "1",
+   "uom": "LS",
+   "note": "SUDAS 11,020-A The movement of personnel, equipment, and supplies to the project site; the establishment of offices, buildings, and other facilities necessary for the project; and bonding, permits and other expenses incurred prior to construction.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 Mobilization 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "Concrete Washout",
+   "qty": "1",
+   "uom": "LS",
+   "note": "SUDAS 11,050-A Providing concrete washwater containment, collection and disposal.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 Concrete Washout 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "00000 Certify_Signed _ Index.pdf",
+  "R-2026 - additional documents listing.doc",
+  "00050 Notice to Biddersx.pdf",
+  "00310 Proposal.pdf",
+  "R-2026 - DOL Bidder Status form.pdf",
+  "SPECIAL PROJECT REQUIREMENTS - Required.pdf",
+  "00410 Bid Bondx.pdf",
+  "00510 Contract.pdf",
+  "00610 bond.pdf",
+  "00700 General CondiitonsX.pdf",
+  "00810 Spec Conditionsx.pdf",
+  "00850 Plans list.pdf",
+  "01010 Gen Provisionsx.pdf",
+  "01040 Spec Constrx.pdf",
+  "01150 Measure _ Payx.pdf",
+  "01300 Submittalsx.pdf",
+  "01310 Constr Progress Schedx.pdf",
+  "01500 Temp Constr Fac _ Utilitiesx.pdf",
+  "01600 Matl and Equipmentx.pdf",
+  "01720 Proj Record Docsx.pdf",
+  "Appendix A IM Agreement.pdf",
+  "Appendix B Seeding.pdf",
+  "R-2026 - bidder certification form.doc",
+  "R-2026 - certification of subcontractor payments.doc",
+  "R-2026 - instructions to bidders.doc",
+  "R-2026 - City of Clinton Safety Manual - 2026.pdf",
+  "R-2026 - City of Clinton Safety Manual - acknowledgement page.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "00000 Certify_Signed _ Index.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "R-2026 - additional documents listing.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "00050 Notice to Biddersx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00310 Proposal.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "R-2026 - DOL Bidder Status form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SPECIAL PROJECT REQUIREMENTS - Required.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00410 Bid Bondx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00510 Contract.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00610 bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00700 General CondiitonsX.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00810 Spec Conditionsx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00850 Plans list.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "01010 Gen Provisionsx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "01040 Spec Constrx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "01150 Measure _ Payx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "01300 Submittalsx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "01310 Constr Progress Schedx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "01500 Temp Constr Fac _ Utilitiesx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "01600 Matl and Equipmentx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "01720 Proj Record Docsx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix A IM Agreement.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix B Seeding.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "R-2026 - bidder certification form.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "R-2026 - certification of subcontractor payments.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "R-2026 - instructions to bidders.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "R-2026 - City of Clinton Safety Manual - 2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "R-2026 - City of Clinton Safety Manual - acknowledgement page.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 112.0,
+  "attachment_fetches": 28,
+  "attachment_seconds": 96.6,
+  "attachment_bytes": 11057267,
+  "max_fetch_seconds": 45.01,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:31:32.360903+00:00",
+ "extract_attempts": 1,
+ "lines_total": 21,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-clinton-ia-r-2026/coverage.json"
+}

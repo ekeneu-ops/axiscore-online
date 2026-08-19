@@ -1,0 +1,143 @@
+{
+ "bid_id": "eagle-mountain-saginaw-isd-tx-2324-015-2029-b-addendum-1",
+ "bid_number": "2324-015-2029-B Addendum 1",
+ "agency": "Eagle Mountain-Saginaw ISD, TX",
+ "src": "Open",
+ "title": "Law Enforcement and Rapid Responses Team Supplies, Equipment, and Related Services",
+ "close": "2/28/2027 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "17",
+   "desc": "Hourly Rate For Emergency Preparedness Services.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 Hourly Rate For Emergency Preparedness Services. 1 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "18",
+   "desc": "Hourly Rate For Law Enforcement Vehicles And ATV Services.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 Hourly Rate For Law Enforcement Vehicles And ATV Services. 1 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "19",
+   "desc": "Hourly Rate For Police K9 Services.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 Hourly Rate For Police K9 Services. 1 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "20",
+   "desc": "Hourly Rate For Public Safety Services.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 Hourly Rate For Public Safety Services. 1 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine30",
+   "kind": "line",
+   "line": "21",
+   "desc": "Other Hourly Labor Rate For Law Enforcement and Rapid Response Team Supplies, Equipment, and Related Services Not Listed Above.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This line item is for the services of \"Other\" Law Enforcement and Rapid Response Team Supplies, Equipment, and Related Services not listed above only.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 Other Hourly Labor Rate For Law Enforcement and Rapid Response Team Supplies, Equipment, and Related Services Not Listed Above. 1 EA No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "Electronic Submission Instructions 2016.pdf",
+  "2324-015-2029-B SPECIAL TERMS COND SPECS Law Enforcement MAC.pdf",
+  "EMS_ISD_STANDARD_TERMS_AND_CONDITIONS_Rev_5.17.2024.pdf",
+  "Vendor Data Form June 2024.pdf",
+  "fw9.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Electronic Submission Instructions 2016.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2324-015-2029-B SPECIAL TERMS COND SPECS Law Enforcement MAC.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EMS_ISD_STANDARD_TERMS_AND_CONDITIONS_Rev_5.17.2024.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Data Form June 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 16.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 4.4,
+  "attachment_bytes": 1030655,
+  "max_fetch_seconds": 1.06,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:29:35.593699+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/eagle-mountain-saginaw-isd-tx-2324-015-2029-b-addendum-1/coverage.json"
+}

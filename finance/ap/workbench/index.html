@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP Workbench — Axiscore</title>
+<style>
+  :root{
+    --bg:#f6f8fa; --panel:#ffffff; --panel2:#eef1f4; --line:#d0d7de; --ink:#1f2328;
+    --mut:#59636e; --acc:#0969da; --pay:#1a7f37; --review:#9a6700; --wait:#6e7781;
+    --audit:#bc4c00; --out:#6639ba; --recent:#1f6feb; --bad:#cf222e; --chip:#eef2f5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--acc)}
+  header{padding:14px 18px;border-bottom:1px solid var(--line);
+    display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;background:var(--panel)}
+  header h1{font-size:16px;margin:0;font-weight:650;letter-spacing:.2px}
+  header .sub{color:var(--mut);font-size:11.5px}
+  .wrap{padding:14px 18px 60px}
+  .feeds{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 12px}
+  .feed{font-size:11px;color:var(--mut);background:var(--panel);border:1px solid var(--line);
+    border-radius:6px;padding:3px 8px}
+  .feed b{color:var(--ink);font-weight:600}
+  .feed .ok{color:var(--pay)} .feed .pend{color:var(--review)} .feed .err{color:var(--bad)}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+  .chip{cursor:pointer;user-select:none;border:1px solid var(--line);background:var(--chip);
+    border-radius:20px;padding:5px 12px;font-size:12px;color:var(--ink);display:flex;gap:7px;align-items:center}
+  .chip .n{color:var(--mut);font-variant-numeric:tabular-nums}
+  .chip.active{border-color:var(--acc);background:#1b3147}
+  .chip .dot{width:8px;height:8px;border-radius:50%}
+  .dot.OUTSTANDING{background:var(--out)} .dot.RECENT{background:var(--recent)}
+  .dot.PAY{background:var(--pay)} .dot.REVIEW{background:var(--review)}
+  .dot.WAIT{background:var(--wait)} .dot.AUDIT{background:var(--audit)} .dot.UNSCORED{background:#8b949e}
+  .filters{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end;background:var(--panel);
+    border:1px solid var(--line);border-radius:8px;padding:12px;margin:0 0 12px}
+  .fg{display:flex;flex-direction:column;gap:4px}
+  .fg label{font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut)}
+  .fg input,.fg select{background:var(--panel2);border:1px solid var(--line);color:var(--ink);
+    border-radius:6px;padding:5px 7px;font-size:12px;min-width:90px}
+  .fg .row{display:flex;gap:6px}
+  .fg input[type=number]{width:84px;min-width:0}
+  .roll{display:flex;gap:10px;flex-wrap:wrap}
+  .roll label{display:flex;gap:5px;align-items:center;text-transform:none;letter-spacing:0;
+    font-size:12px;color:var(--ink)}
+  .btn{cursor:pointer;border:1px solid var(--line);background:var(--panel2);color:var(--ink);
+    border-radius:6px;padding:6px 11px;font-size:12px}
+  .btn:hover{border-color:var(--acc)}
+  .btn.primary{background:#1b3147;border-color:var(--acc)}
+  .btn.move{background:#15321f;border-color:var(--pay);color:#bfeccf}
+  .btn:disabled{opacity:.45;cursor:not-allowed}
+  .totals{display:flex;gap:18px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);
+    border-radius:8px;padding:10px 14px;margin:0 0 10px;font-variant-numeric:tabular-nums}
+  .totals .t{display:flex;flex-direction:column}
+  .totals .t .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut)}
+  .totals .t .v{font-size:15px;font-weight:600}
+  .bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 10px}
+  .bar .sp{flex:1}
+  .note{font-size:11.5px;color:var(--mut)}
+  .banner{background:#3a2a12;border:1px solid var(--review);color:#f0d79a;border-radius:8px;
+    padding:9px 12px;margin:0 0 12px;font-size:12px;display:none}
+  .banner.show{display:block}
+  .tablewrap{border:1px solid var(--line);border-radius:8px;overflow:auto;max-height:64vh}
+  table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+  th,td{padding:6px 9px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+  th{position:sticky;top:0;background:var(--panel2);cursor:pointer;user-select:none;
+    font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--mut);z-index:2}
+  th.num,td.num{text-align:right}
+  th .ar{color:var(--acc)}
+  tbody tr:nth-child(even){background:rgba(255,255,255,.018)}
+  tbody tr:hover{background:rgba(78,161,255,.07)}
+  td.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px}
+  .pill{font-size:10px;padding:1px 7px;border-radius:10px;border:1px solid var(--line)}
+  .pill.OUTSTANDING{color:#ccc6ff;border-color:var(--out)} .pill.RECENT{color:#bfe2f2;border-color:var(--recent)}
+  .pill.PAY{color:#bfeccf;border-color:var(--pay)} .pill.REVIEW{color:#f0d79a;border-color:var(--review)}
+  .pill.WAIT{color:#c4ced6;border-color:var(--wait)} .pill.AUDIT{color:#f0c3a8;border-color:var(--audit)}
+  .flag{font-size:10px;padding:1px 6px;border-radius:4px}
+  .flag.MOVED{background:#15321f;color:#bfeccf} .flag.CHANGED{background:#3a1c18;color:#f0a89a}
+  .flag.PENDING{background:#2a2440;color:#ccc6ff}
+  .neg{color:#f0a89a} .pos{color:#9adcb6}
+  .empty{padding:26px;text-align:center;color:var(--mut)}
+  footer{position:fixed;bottom:0;left:0;right:0;background:var(--panel);border-top:1px solid var(--line);
+    padding:6px 18px;font-size:11px;color:var(--mut);display:flex;gap:14px;justify-content:space-between}
+  /* light theme: override the dark-only hardcoded colors */
+  .chip.active{background:#ddf4ff;border-color:var(--acc)}
+  .btn.primary{background:#ddf4ff;border-color:var(--acc)}
+  .btn.move{background:#dafbe1;border-color:var(--pay);color:#116329}
+  .banner{background:#fff8c5;border-color:#d4a72c;color:#633c01}
+  tbody tr:nth-child(even){background:#f6f8fa}
+  tbody tr:hover{background:#ddf4ff}
+  .neg{color:#cf222e} .pos{color:#1a7f37}
+  .pill{background:#f6f8fa}
+  .pill.OUTSTANDING{color:#512a97;border-color:var(--out)}
+  .pill.RECENT{color:#0a52c7;border-color:var(--recent)}
+  .pill.PAY{color:#116329;border-color:var(--pay)}
+  .pill.REVIEW{color:#7d4e00;border-color:var(--review)}
+  .pill.WAIT{color:#57606a;border-color:var(--wait)}
+  .pill.AUDIT{color:#9a3d00;border-color:var(--audit)}
+  .pill.UNSCORED{color:#57606a;border-color:#8b949e}
+  .flag.MOVED{background:#dafbe1;color:#116329}
+  .flag.CHANGED{background:#ffebe9;color:#cf222e}
+  .flag.PENDING{background:#fbeeff;color:#6639ba}
+</style>
+</head>
+<body>
+<header>
+  <h1>AP Workbench</h1>
+  <span class="sub" id="asof">loading…</span>
+  <span class="sub" id="who"></span>
+</header>
+<div class="wrap">
+  <div class="feeds" id="feeds"></div>
+  <div class="banner" id="banner"></div>
+  <div class="chips" id="chips"></div>
+
+  <div class="filters" id="filters">
+    <div class="fg"><label>Supplier (rollup)</label><div class="roll" id="rollups"></div></div>
+    <div class="fg"><label>Account code</label><select id="accounts" multiple size="1"></select></div>
+    <div class="fg"><label>Date field</label>
+      <select id="dateField">
+        <option value="invoice_date">invoice date</option>
+        <option value="order_date">order date</option>
+        <option value="_raw.due_date">due date (pay/review)</option>
+      </select>
+    </div>
+    <div class="fg"><label>From / To</label><div class="row">
+      <input type="date" id="from"><input type="date" id="to"></div></div>
+    <div class="fg"><label>Amount $</label><div class="row">
+      <input type="number" id="amountMin" placeholder="min"><input type="number" id="amountMax" placeholder="max"></div></div>
+    <div class="fg"><label>Deviation $</label><div class="row">
+      <input type="number" id="devMin" placeholder="min"><input type="number" id="devMax" placeholder="max"></div></div>
+    <div class="fg"><label>Search</label><input type="text" id="text" placeholder="order # / invoice # / supplier"></div>
+    <div class="fg"><label>&nbsp;</label><button class="btn" id="clear">Clear filters</button></div>
+  </div>
+
+  <div class="totals" id="totals"></div>
+
+  <div class="bar">
+    <button class="btn primary" id="exportFiltered">⭳ Export filtered CSV</button>
+    <button class="btn" id="exportChecked" disabled>⭳ Export checked (batch)</button>
+    <span class="sp"></span>
+    <button class="btn move" id="moveToPay" disabled>Move checked → PAY</button>
+    <button class="btn" id="moveToReview" disabled>Return checked → REVIEW</button>
+    <span class="note" id="selnote"></span>
+  </div>
+
+  <div class="tablewrap">
+    <table id="tbl">
+      <thead><tr id="head"></tr></thead>
+      <tbody id="body"></tbody>
+    </table>
+    <div class="empty" id="empty" style="display:none">No rows match the current filters.</div>
+  </div>
+</div>
+<footer>
+  <span id="status">—</span>
+  <span>Axiscore AP Workbench · reads live feeds · moves persist via server (not this browser)</span>
+</footer>
+
+<script>
+
+/* AP Workbench — pure logic (no DOM). Shared by the page and the node tests.
+ * Builds a unified row model over four sources, then filters/sorts/exports/persists.
+ * Loaded in the browser as a global (window.WB) and in node via module.exports.
+ * Keep this file pure + deterministic: the same fingerprint recipe runs server-side
+ * (moves fold) and client-side (material-change re-grade), so do NOT change it casually.
+ */
+(function (root, factory) {
+  if (typeof module === 'object' && module.exports) module.exports = factory();
+  else root.WB = factory();
+}(typeof self !== 'undefined' ? self : this, function () {
+  'use strict';
+
+  // ---- supplier rollup (mirrors spine-ap-refresh.yml vendor rule) -------------
+  // numeric account code -> Essendant; 'rich'/'1045202' -> SPR; ISG / FedEx by name.
+  function rollupFromAccount(code) {
+    if (code == null) return null;
+    var s = String(code).trim();
+    if (s === '') return null;
+    if (/rich/i.test(s) || /^1045202/.test(s)) return 'SPR';
+    if (/^\d+$/.test(s)) return 'ESS';
+    if (/isg|independent|trimega/i.test(s)) return 'ISG';
+    if (/fedex/i.test(s)) return 'FEDEX';
+    return s.toUpperCase();
+  }
+  function rollupFromVendorName(name) {
+    if (name == null) return null;
+    var s = String(name);
+    if (/essendant/i.test(s)) return 'ESS';
+    if (/rich|1045202/i.test(s)) return 'SPR';
+    if (/isg|independent|trimega/i.test(s)) return 'ISG';
+    if (/fedex/i.test(s)) return 'FEDEX';
+    return null;
+  }
+  // pull a bare account code out of a vendor_name like 'Essendant 029338'
+  function accountFromVendorName(name) {
+    if (name == null) return null;
+    var m = String(name).match(/(\d{4,})/);
+    return m ? m[1] : null;
+  }
+
+  function num(x) {
+    if (x == null || x === '') return null;
+    var n = typeof x === 'number' ? x : parseFloat(String(x).replace(/,/g, ''));
+    return isFinite(n) ? n : null;
+  }
+  function money2(n) { return n == null ? null : Math.round(n * 100) / 100; }
+
+  // ---- normalizers: each source -> array of unified rows -----------------------
+  // unified row shape (see README): src,bucket,account,rollup,supplier_label,
+  // invoice_no,invoice_date,order_id,order_date,amount,exp_item,exp_ship,act_item,
+  // act_ship,deviation,credited,net_dev,remaining,status,bucket_reason,workflow_state
+
+  function fromRowsJson(rows) { // finance/ap/rows.json (the new enriched feed)
+    if (!rows) return [];
+    var arr = Array.isArray(rows) ? rows : (rows.rows || []);
+    return arr.map(function (r) {
+      var acct = r.vendor_code != null ? String(r.vendor_code) : null;
+      var roll = r.rollup ? String(r.rollup).toUpperCase() : rollupFromAccount(acct);
+      var st = r.invoice_status;
+      // invoice_status 0 = open/outstanding in the warehouse convention
+      var open = (st === 0 || st === '0' || /open|outstand/i.test(String(st)));
+      return {
+        src: open ? 'OUTSTANDING' : 'RECENT',
+        bucket: open ? 'OUTSTANDING' : 'RECENT',
+        account: acct,
+        rollup: roll,
+        supplier_label: roll || acct || '',
+        invoice_no: r.invoice_id != null ? String(r.invoice_id) : null,
+        invoice_date: r.invoice_date || null,
+        order_id: r.channel_order_id != null ? String(r.channel_order_id) : null,
+        order_date: r.order_date || null,
+        amount: money2(num(r.total_cost)),
+        exp_item: null, exp_ship: null, act_item: null, act_ship: null,
+        deviation: null, credited: null, net_dev: null, remaining: money2(num(r.total_cost)),
+        status: String(st == null ? '' : st),
+        bucket_reason: null, workflow_state: null, _raw: r
+      };
+    });
+  }
+
+  function fromEssAudit(j) { // finance/ap/ess_audit.json -> offenders[]
+    if (!j || !j.offenders) return [];
+    return j.offenders.map(function (r) {
+      var dev = money2(num(r.tot_dev));
+      return {
+        src: 'ESS_AUDIT',
+        bucket: 'AUDIT',
+        account: null,                 // ess audit is Essendant-only, no per-row code
+        rollup: 'ESS',
+        supplier_label: 'Essendant (audit)',
+        invoice_no: r.invoices != null ? String(r.invoices) : null, // space-joined list
+        invoice_date: r.last_inv || r.first_inv || null,
+        order_id: r.coid != null ? String(r.coid) : null,
+        order_date: null,              // not carried by ess_audit
+        amount: money2(num(r.act_item) != null || num(r.act_ship) != null
+                   ? (num(r.act_item) || 0) + (num(r.act_ship) || 0) : null),
+        exp_item: money2(num(r.exp_item)), exp_ship: money2(num(r.exp_ship)),
+        act_item: money2(num(r.act_item)), act_ship: money2(num(r.act_ship)),
+        deviation: dev,
+        credited: money2(num(r.credited)),
+        net_dev: money2(num(r.net_dev)),
+        remaining: money2(num(r.net_dev)),
+        status: r.status != null ? String(r.status) : '',
+        bucket_reason: null, workflow_state: null, _raw: r
+      };
+    });
+  }
+
+  function fromPayReview(j) { // finance/data/_latest_pay_review_wait.json
+    if (!j) return [];
+    var out = [];
+    ['pay', 'review', 'wait'].forEach(function (k) {
+      var items = (j[k] && j[k].items) || [];
+      items.forEach(function (r) {
+        var roll = rollupFromVendorName(r.vendor_name);
+        out.push({
+          src: 'PAYREVIEW',
+          bucket: (r.bucket || k).toUpperCase(),  // PAY / REVIEW / WAIT
+          account: accountFromVendorName(r.vendor_name),
+          rollup: roll,
+          supplier_label: r.vendor_name || roll || (r.channel || ''),
+          invoice_no: null,                         // not carried by this feed
+          invoice_date: r.invoice_date || null,
+          order_id: r.channel_order_id != null ? String(r.channel_order_id) : null,
+          order_date: r.created_at || null,
+          amount: money2(num(r.pay_amount)),
+          exp_item: null, exp_ship: null, act_item: null, act_ship: null,
+          deviation: null, credited: null, net_dev: null,
+          remaining: money2(num(r.payable_outstanding != null ? r.payable_outstanding : r.t_outstanding)),
+          status: r.status_flag || '',
+          bucket_reason: r.bucket_reason || null,
+          workflow_state: r.workflow_state || null,
+          _raw: r
+        });
+      });
+    });
+    return out;
+  }
+
+  function fromDataRecent(data) { // fallback RECENT from finance/ap/data.json.recent.rows
+    if (!data || !data.recent || !data.recent.rows) return [];
+    return data.recent.rows.map(function (r) {
+      var roll = r.vend ? String(r.vend).toUpperCase() : null;
+      return {
+        src: 'RECENT', bucket: 'RECENT',
+        account: null, rollup: roll, supplier_label: roll || '',
+        invoice_no: null, invoice_date: r.d || null,
+        order_id: r.o != null ? String(r.o) : null, order_date: r.d || null,
+        amount: money2(num(r.a)),
+        exp_item: null, exp_ship: null, act_item: null, act_ship: null,
+        deviation: null, credited: null, net_dev: null, remaining: money2(num(r.a)),
+        status: 'recent', bucket_reason: null, workflow_state: null, _raw: r
+      };
+    });
+  }
+
+  // ap_classify.json — the CORRECTED, statement-as-truth classification feed. Each
+  // row is an OWED order already bucketed PAY/REVIEW/WAIT/UNSCORED by post-credit
+  // deviation. This is the authoritative AP source.
+  function fromClassify(j) {
+    if (!j || !j.rows) return [];
+    return j.rows.map(function (r) {
+      return {
+        src: 'AP',
+        bucket: r.bucket,                 // PAY / REVIEW / WAIT / UNSCORED
+        account: r.primary_vendor_code != null ? String(r.primary_vendor_code) : null,
+        rollup: r.rollup || null,
+        supplier_label: r.vendor_name || r.rollup || '',
+        invoice_no: null, invoice_date: null,
+        order_id: r.order_id != null ? String(r.order_id) : null,
+        order_date: r.created_at || null,
+        amount: money2(num(r.owed)),
+        exp_item: money2(num(r.exp)), exp_ship: null,
+        act_item: money2(num(r.act)), act_ship: null,
+        deviation: money2(num(r.net_dev)),
+        credited: money2(num(r.credit)),
+        net_dev: money2(num(r.net_dev)),
+        remaining: money2(num(r.owed)),
+        status: r.bucket + (r.dir ? (' ' + r.dir) : ''),
+        bucket_reason: r.class || null,
+        workflow_state: r.workflow_state || null,
+        dir: r.dir || null,
+        _raw: r
+      };
+    });
+  }
+
+  // Build the unified model. ap_classify.json (corrected, statement-as-truth owed
+  // set) is authoritative for the AP buckets. The legacy rows.json / pay_review_wait
+  // sources are RETIRED: rows.json over-stated owed ~12x (raw warehouse invoices),
+  // and pay_review_wait bucketed on payment-timing, not deviation. Falls back to the
+  // legacy sources only if the classify feed is absent.
+  function buildModel(src) {
+    src = src || {};
+    if (src.classify && src.classify.rows) return fromClassify(src.classify);
+    var rowsModel = fromRowsJson(src.rowsJson);
+    var hasRowsRecent = rowsModel.some(function (r) { return r.bucket === 'RECENT'; });
+    return [].concat(rowsModel, fromEssAudit(src.essAudit), fromPayReview(src.payReview),
+      hasRowsRecent ? [] : fromDataRecent(src.data));
+  }
+
+  // ---- filtering (composes: every active clause AND-ed) -----------------------
+  function applyFilters(rows, f) {
+    f = f || {};
+    var df = f.dateField || 'invoice_date';
+    return rows.filter(function (r) {
+      if (f.datasets && f.datasets.length && f.datasets.indexOf(r.src) < 0) return false;
+      if (f.buckets && f.buckets.length && f.buckets.indexOf(r.bucket) < 0) return false;
+      if (f.rollups && f.rollups.length && f.rollups.indexOf(r.rollup) < 0) return false;
+      if (f.accounts && f.accounts.length && f.accounts.indexOf(r.account) < 0) return false;
+      if (f.statuses && f.statuses.length && f.statuses.indexOf(r.status) < 0) return false;
+      if (f.from || f.to) {
+        var d = r[df];
+        if (!d) return false;                 // no date on this row -> excluded by a date filter
+        if (f.from && d < f.from) return false;
+        if (f.to && d > f.to) return false;
+      }
+      if (f.amountMin != null && (r.amount == null || r.amount < f.amountMin)) return false;
+      if (f.amountMax != null && (r.amount == null || r.amount > f.amountMax)) return false;
+      if (f.devMin != null && (r.deviation == null || r.deviation < f.devMin)) return false;
+      if (f.devMax != null && (r.deviation == null || r.deviation > f.devMax)) return false;
+      if (f.text) {
+        var t = f.text.toLowerCase();
+        var hay = [r.order_id, r.invoice_no, r.supplier_label, r.account, r.bucket_reason]
+          .filter(Boolean).join(' ').toLowerCase();
+        if (hay.indexOf(t) < 0) return false;
+      }
+      return true;
+    });
+  }
+
+  function computeTotals(rows) {
+    var t = { count: rows.length, amount: 0, deviation: 0, credited: 0, net_dev: 0, remaining: 0 };
+    rows.forEach(function (r) {
+      if (r.amount) t.amount += r.amount;
+      if (r.deviation) t.deviation += r.deviation;
+      if (r.credited) t.credited += r.credited;
+      if (r.net_dev) t.net_dev += r.net_dev;
+      if (r.remaining) t.remaining += r.remaining;
+    });
+    ['amount', 'deviation', 'credited', 'net_dev', 'remaining'].forEach(function (k) {
+      t[k] = Math.round(t[k] * 100) / 100;
+    });
+    return t;
+  }
+
+  function sortRows(rows, key, dir) {
+    var s = rows.slice();
+    var mul = dir === 'asc' ? 1 : -1;
+    s.sort(function (a, b) {
+      var x = a[key], y = b[key];
+      if (x == null && y == null) return 0;
+      if (x == null) return 1;          // nulls last regardless of dir
+      if (y == null) return -1;
+      if (typeof x === 'number' && typeof y === 'number') return (x - y) * mul;
+      x = String(x); y = String(y);
+      return x < y ? -1 * mul : x > y ? 1 * mul : 0;
+    });
+    return s;
+  }
+
+  // ---- CSV export (filter-aware; columns per the 2026-06-11 spec) -------------
+  var CSV_COLUMNS = [
+    ['account', 'supplier account'],
+    ['invoice_no', 'supplier invoice #'],
+    ['invoice_date', 'invoice date'],
+    ['order_id', 'order ID'],
+    ['order_date', 'order date'],
+    ['exp_item', 'expected item'],
+    ['exp_ship', 'expected ship'],
+    ['act_item', 'actual item'],
+    ['act_ship', 'actual ship'],
+    ['deviation', 'deviation'],
+    ['credited', 'credited'],
+    ['net_dev', 'net_dev'],
+    ['amount', 'amount'],
+    ['remaining', 'remaining'],
+    ['rollup', 'supplier'],
+    ['bucket', 'status']
+  ];
+  function csvEscape(v) {
+    if (v == null) return '';
+    var s = String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+  function toCSV(rows, columns) {
+    columns = columns || CSV_COLUMNS;
+    var head = columns.map(function (c) { return csvEscape(c[1]); }).join(',');
+    var body = rows.map(function (r) {
+      return columns.map(function (c) { return csvEscape(r[c[0]]); }).join(',');
+    });
+    return [head].concat(body).join('\n');
+  }
+
+  // filename: {rollup}_{account|all}_{status|all}_{YYYY-MM-DD}.csv
+  function buildFilename(filters, today) {
+    filters = filters || {};
+    function pick(arr) { return arr && arr.length === 1 ? String(arr[0]) : (arr && arr.length ? 'multi' : 'all'); }
+    var roll = pick(filters.rollups).toLowerCase();
+    var acct = pick(filters.accounts).toLowerCase();
+    var stat = (filters.buckets && filters.buckets.length ? pick(filters.buckets)
+      : pick(filters.statuses)).toLowerCase();
+    var d = today || localISODate(new Date());
+    return [roll, acct, stat, d].join('_').replace(/[^a-z0-9_\-]/g, '') + '.csv';
+  }
+  // local YYYY-MM-DD (never toISOString -> avoids the UTC off-by-one in the evening)
+  function localISODate(dt) {
+    var y = dt.getFullYear(), m = dt.getMonth() + 1, d = dt.getDate();
+    return y + '-' + (m < 10 ? '0' + m : m) + '-' + (d < 10 ? '0' + d : d);
+  }
+
+  // ---- persistence: moves + material-change re-grade --------------------------
+  // canonical material string -> stable hash. MUST match the server-side fold.
+  // Superset of the 6/11 spec (exp/act/credited) and the 6/15 transfer
+  // (amount/remaining/credited/invoice#) so re-grade fires for either row family.
+  function canonicalMaterial(r) {
+    function f(x) { return x == null ? '~' : (Math.round(x * 100) / 100).toFixed(2); }
+    return [
+      f(r.amount), f(r.remaining), f(r.credited), f(r.deviation),
+      f(r.exp_item), f(r.exp_ship), f(r.act_item), f(r.act_ship),
+      (r.invoice_no == null ? '~' : String(r.invoice_no))
+    ].join('|');
+  }
+  function fingerprint(r) {
+    // FNV-1a 32-bit hex of the canonical material string.
+    var s = canonicalMaterial(r), h = 0x811c9dc5;
+    for (var i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = (h + ((h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24))) >>> 0;
+    }
+    return ('0000000' + h.toString(16)).slice(-8);
+  }
+
+  // moves: array of {order_id, from, to, moved_by, moved_at, snapshot_hash}
+  // Applies sticky REVIEW->PAY moves; if the row's current fingerprint differs from
+  // the stored snapshot_hash, the move is dropped and the row is flagged for re-review.
+  function applyMoves(rows, moves) {
+    var byOrder = {};
+    (moves || []).forEach(function (m) {
+      if (m && m.order_id != null) byOrder[String(m.order_id)] = m;
+    });
+    return rows.map(function (r) {
+      var m = r.order_id != null ? byOrder[String(r.order_id)] : null;
+      if (!m || m.to !== 'PAY') return r;   // override layer: applies to any AP row
+      if (r.bucket !== 'REVIEW' && r.bucket !== 'PAY') return r;
+      var fp = fingerprint(r);
+      var copy = Object.assign({}, r);
+      if (m.snapshot_hash && fp !== m.snapshot_hash) {
+        copy.bucket = 'REVIEW';
+        copy.moved_flag = 'CHANGED';
+        copy.moved_note = 'data changed since manual move (was manually moved ' +
+          (m.moved_at ? String(m.moved_at).slice(0, 10) : '?') + ')';
+      } else {
+        copy.bucket = 'PAY';
+        copy.moved_flag = 'MOVED';
+        copy.moved_note = 'manually moved to PAY ' +
+          (m.moved_at ? String(m.moved_at).slice(0, 10) : '') +
+          (m.moved_by ? ' by ' + m.moved_by : '');
+      }
+      return copy;
+    });
+  }
+
+  // build the payload the page POSTs to the moves webhook (flat array per the
+  // apps_script_proxy_append_format memory): [order_id, from, to, moved_by, moved_at, snapshot_hash]
+  function movePayload(row, to, who) {
+    return [String(row.order_id), row.bucket, to, who || 'workbench',
+      new Date().toISOString(), fingerprint(row)];
+  }
+
+  return {
+    rollupFromAccount: rollupFromAccount,
+    rollupFromVendorName: rollupFromVendorName,
+    accountFromVendorName: accountFromVendorName,
+    fromRowsJson: fromRowsJson, fromEssAudit: fromEssAudit,
+    fromPayReview: fromPayReview, fromDataRecent: fromDataRecent,
+    fromClassify: fromClassify, buildModel: buildModel,
+    applyFilters: applyFilters, computeTotals: computeTotals, sortRows: sortRows,
+    toCSV: toCSV, buildFilename: buildFilename, localISODate: localISODate,
+    CSV_COLUMNS: CSV_COLUMNS,
+    canonicalMaterial: canonicalMaterial, fingerprint: fingerprint,
+    applyMoves: applyMoves, movePayload: movePayload
+  };
+}));
+
+
+</script>
+<script>
+(function(){
+  'use strict';
+  var WB = window.WB;
+
+  // ---- config ----------------------------------------------------------------
+  var FEEDS = {
+    classify: '../ap_classify.json',   // CORRECTED statement-as-truth classification (authoritative buckets)
+    data:     '../data.json',          // finance/ap/data.json (freshness stamp)
+    moves:    '../moves.json'          // finance/ap/moves.json (move overrides overlay)
+  };
+  // Set once the moves webhook is wired (Apps Script proxy). Empty => optimistic,
+  // local-only moves with a clear "not yet persisted" notice.
+  var WEBHOOK_URL = '';
+  var WHO = (localStorage.getItem('wb_who') || 'ekene');
+
+  var BUCKETS = ['PAY','REVIEW','WAIT','UNSCORED'];
+  var RENDER_CAP = 1500;   // cap DOM rows for snappiness; CSV export still includes ALL filtered rows
+  var COLS = [
+    ['account','account',0],['rollup','supplier',0],['invoice_no','invoice #',0],
+    ['invoice_date','inv date',0],['order_id','order id',0],['order_date','order date',0],
+    ['amount','amount',1],['deviation','deviation',1],['credited','credited',1],
+    ['remaining','remaining',1],['bucket','bucket',0],['moved_flag','flag',0]
+  ];
+
+  var state = { model:[], view:[], filters:{buckets:[],rollups:[],accounts:[]},
+    sortKey:'invoice_date', sortDir:'desc', checked:{}, feedStatus:{} };
+
+  // ---- load ------------------------------------------------------------------
+  function getJSON(url){
+    return fetch(url, {cache:'no-store'}).then(function(r){
+      if(!r.ok) throw new Error(r.status); return r.json();
+    });
+  }
+  function load(){
+    var keys = Object.keys(FEEDS);
+    return Promise.all(keys.map(function(k){
+      return getJSON(FEEDS[k]).then(
+        function(j){ state.feedStatus[k]={ok:true}; return [k,j]; },
+        function(e){ state.feedStatus[k]={ok:false,err:String(e.message||e)}; return [k,null]; }
+      );
+    })).then(function(pairs){
+      var src={}; pairs.forEach(function(p){ src[p[0]]=p[1]; });
+      state.src = src;
+      state.model = WB.buildModel(src);
+      if(src.moves && Array.isArray(src.moves)) state.model = WB.applyMoves(state.model, src.moves);
+      else if(src.moves && src.moves.moves) state.model = WB.applyMoves(state.model, src.moves.moves);
+      renderAll(src);
+    });
+  }
+
+  // ---- render ----------------------------------------------------------------
+  function fmt$(n){ return n==null?'':'$'+n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+  function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e; }
+
+  function renderFeeds(src){
+    var f=document.getElementById('feeds'); f.innerHTML='';
+    var labels={classify:'ap_classify (owed buckets)',data:'data.json',moves:'moves.json'};
+    Object.keys(FEEDS).forEach(function(k){
+      var s=state.feedStatus[k]||{}; var d=el('span','feed');
+      var cls = s.ok ? 'ok' : (k==='moves' ? 'pend':'err');
+      var word = s.ok ? 'loaded' : (k==='moves' ? 'none yet' : 'error');
+      d.innerHTML='<b>'+labels[k]+'</b> · <span class="'+cls+'">'+word+'</span>';
+      f.appendChild(d);
+    });
+    var stamp = (src.data&&src.data.generated)||'';
+    var cg = src.classify&&src.classify.generated?(' · classified '+src.classify.generated):'';
+    document.getElementById('asof').textContent = (stamp?('data.json '+stamp):'')+cg;
+    document.getElementById('who').textContent = 'mover: '+WHO;
+  }
+
+  function counts(){ var c={}; BUCKETS.forEach(function(b){c[b]=0;});
+    state.model.forEach(function(r){ if(c[r.bucket]!=null)c[r.bucket]++; }); return c; }
+
+  function renderChips(){
+    var c=counts(); var box=document.getElementById('chips'); box.innerHTML='';
+    BUCKETS.forEach(function(b){
+      var on = state.filters.buckets.indexOf(b)>=0;
+      var chip=el('div','chip'+(on?' active':''));
+      chip.innerHTML='<span class="dot '+b+'"></span>'+b+' <span class="n">'+c[b]+'</span>';
+      chip.onclick=function(){ toggle(state.filters.buckets,b); renderChips(); apply(); };
+      box.appendChild(chip);
+    });
+  }
+  function toggle(arr,v){ var i=arr.indexOf(v); if(i>=0)arr.splice(i,1); else arr.push(v); }
+
+  function renderControls(){
+    var rolls=['ESS','SPR','ISG','FEDEX'].filter(function(r){
+      return state.model.some(function(m){return m.rollup===r;}); });
+    var rb=document.getElementById('rollups'); rb.innerHTML='';
+    rolls.forEach(function(r){
+      var l=el('label'); var cb=el('input'); cb.type='checkbox'; cb.value=r;
+      cb.onchange=function(){ toggle(state.filters.rollups,r); apply(); };
+      l.appendChild(cb); l.appendChild(document.createTextNode(r)); rb.appendChild(l);
+    });
+    var accs={}; state.model.forEach(function(m){ if(m.account)accs[m.account]=1; });
+    var as=document.getElementById('accounts'); as.innerHTML='';
+    as.size=Math.min(5,Math.max(1,Object.keys(accs).length));
+    Object.keys(accs).sort().forEach(function(a){
+      var o=el('option',null,a); o.value=a; as.appendChild(o); });
+    as.onchange=function(){
+      state.filters.accounts=Array.prototype.slice.call(as.selectedOptions).map(function(o){return o.value;});
+      apply();
+    };
+  }
+
+  function readFilters(){
+    var f=state.filters;
+    f.dateField=document.getElementById('dateField').value;
+    f.from=document.getElementById('from').value||null;
+    f.to=document.getElementById('to').value||null;
+    f.amountMin=numOrNull('amountMin'); f.amountMax=numOrNull('amountMax');
+    f.devMin=numOrNull('devMin'); f.devMax=numOrNull('devMax');
+    f.text=document.getElementById('text').value.trim()||null;
+    return f;
+  }
+  function numOrNull(id){ var v=document.getElementById(id).value; return v===''?null:parseFloat(v); }
+
+  // support nested dateField like _raw.due_date
+  function withDateAccessor(rows,field){
+    if(field.indexOf('.')<0) return {rows:rows,field:field};
+    var parts=field.split('.');
+    var mapped=rows.map(function(r){
+      var v=r; for(var i=0;i<parts.length;i++){ v=v?v[parts[i]]:null; }
+      var c=Object.assign({},r); c.__d=v; return c;
+    });
+    return {rows:mapped,field:'__d'};
+  }
+
+  function apply(){
+    var f=readFilters();
+    var wa=withDateAccessor(state.model, f.dateField);
+    var ff=Object.assign({},f,{dateField:wa.field});
+    var view=WB.applyFilters(wa.rows, ff);
+    view=WB.sortRows(view, state.sortKey==='invoice_date'&&wa.field==='__d'?state.sortKey:state.sortKey, state.sortDir);
+    state.view=view;
+    renderTotals(view); renderTable(view); renderChips();
+    updateSelControls();
+    document.getElementById('status').textContent =
+      view.length+' of '+state.model.length+' rows · sorted by '+state.sortKey+' '+state.sortDir+
+      (view.length>RENDER_CAP ? ' · showing first '+RENDER_CAP+' (export gives all '+view.length+')' : '');
+  }
+
+  function renderTotals(view){
+    var t=WB.computeTotals(view);
+    var box=document.getElementById('totals'); box.innerHTML='';
+    [['rows',t.count,0],['amount',t.amount,1],['deviation',t.deviation,1],
+     ['credited',t.credited,1],['remaining',t.remaining,1]].forEach(function(p){
+      var d=el('div','t'); d.appendChild(el('span','k',p[0]));
+      d.appendChild(el('span','v',p[2]?fmt$(p[1]):String(p[1]))); box.appendChild(d);
+    });
+  }
+
+  function renderHead(){
+    var tr=document.getElementById('head'); tr.innerHTML='';
+    var chk=el('th'); chk.style.cursor='default'; chk.textContent=''; tr.appendChild(chk);
+    COLS.forEach(function(c){
+      var th=el('th',c[2]?'num':null);
+      th.textContent=c[1];
+      if(state.sortKey===c[0]){ var ar=el('span','ar',' '+(state.sortDir==='asc'?'▲':'▼')); th.appendChild(ar); }
+      th.onclick=function(){
+        if(state.sortKey===c[0]) state.sortDir=state.sortDir==='asc'?'desc':'asc';
+        else { state.sortKey=c[0]; state.sortDir=c[2]?'desc':'asc'; }
+        apply();
+      };
+      tr.appendChild(th);
+    });
+  }
+
+  function renderTable(view){
+    renderHead();
+    var b=document.getElementById('body'); b.innerHTML='';
+    document.getElementById('empty').style.display=view.length?'none':'block';
+    var frag=document.createDocumentFragment();
+    view.slice(0,RENDER_CAP).forEach(function(r){
+      var tr=el('tr');
+      var movable=(r.src==='PAYREVIEW'&&(r.bucket==='REVIEW'||r.bucket==='PAY'));
+      var td0=el('td');
+      if(movable){
+        var cb=el('input'); cb.type='checkbox'; cb.checked=!!state.checked[r.order_id+'|'+r.bucket];
+        cb.onchange=function(){ if(cb.checked)state.checked[r.order_id+'|'+r.bucket]=r; else delete state.checked[r.order_id+'|'+r.bucket]; updateSelControls(); };
+        td0.appendChild(cb);
+      }
+      tr.appendChild(td0);
+      COLS.forEach(function(c){
+        var key=c[0], v=r[key], td=el('td',c[2]?'num':null);
+        if(key==='bucket'){ var p=el('span','pill '+r.bucket,r.bucket); td.appendChild(p); }
+        else if(key==='moved_flag'){
+          if(r.moved_flag){ var fl=el('span','flag '+r.moved_flag, r.moved_flag); fl.title=r.moved_note||''; td.appendChild(fl); }
+        }
+        else if(key==='rollup'){ td.textContent=r.rollup||r.supplier_label||''; }
+        else if(c[2]){ td.textContent=fmt$(v); if(key==='deviation'&&v){td.className='num '+(v>0?'neg':'pos');} }
+        else if(key==='order_id'||key==='invoice_no'){ td.className='mono'; td.textContent=v||''; }
+        else td.textContent=v==null?'':v;
+        tr.appendChild(td);
+      });
+      frag.appendChild(tr);
+    });
+    b.appendChild(frag);
+  }
+
+  // ---- selection + moves -----------------------------------------------------
+  function selected(){ return Object.keys(state.checked).map(function(k){return state.checked[k];}); }
+  function updateSelControls(){
+    var sel=selected(); var n=sel.length;
+    document.getElementById('exportChecked').disabled=!n;
+    var anyReview=sel.some(function(r){return r.bucket==='REVIEW';});
+    var anyPay=sel.some(function(r){return r.bucket==='PAY';});
+    document.getElementById('moveToPay').disabled=!anyReview;
+    document.getElementById('moveToReview').disabled=!anyPay;
+    document.getElementById('selnote').textContent=n?(n+' checked'):'';
+  }
+
+  function doMove(to){
+    var sel=selected().filter(function(r){ return to==='PAY'?r.bucket==='REVIEW':r.bucket==='PAY'; });
+    if(!sel.length) return;
+    var payloads=sel.map(function(r){ return WB.movePayload(r,to,WHO); });
+    // optimistic UI
+    sel.forEach(function(r){
+      r.bucket=to; r.moved_flag=WEBHOOK_URL?'PENDING':'PENDING'; r.moved_note='pending server sync';
+    });
+    state.checked={};
+    if(WEBHOOK_URL){
+      Promise.all(payloads.map(function(p){
+        return fetch(WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({type:'ap_move',row:p})}).then(function(r){return r.ok;});
+      })).then(function(res){
+        var okAll=res.every(Boolean);
+        setBanner(okAll?('Submitted '+sel.length+' move(s) to the server queue. They become permanent on tonight’s refresh.')
+          :'Some moves failed to submit — re-check and retry.', !okAll);
+      });
+    } else {
+      setBanner('Moves are LOCAL ONLY: the server write path (moves webhook) is not wired yet, so these '+sel.length+' move(s) will NOT survive a reload. Wire WEBHOOK_URL to persist.', true);
+    }
+    apply();
+  }
+  function setBanner(msg,warn){ var b=document.getElementById('banner'); b.textContent=msg; b.className='banner show'; }
+
+  // ---- CSV -------------------------------------------------------------------
+  function download(name,text){
+    var blob=new Blob([text],{type:'text/csv;charset=utf-8'});
+    var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name;
+    document.body.appendChild(a); a.click(); setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},0);
+  }
+  function exportRows(rows){
+    var name=WB.buildFilename(state.filters, WB.localISODate(new Date()));
+    download(name, WB.toCSV(rows));
+    document.getElementById('status').textContent='exported '+rows.length+' rows → '+name;
+  }
+
+  // ---- material-change banner on load ---------------------------------------
+  function changeBanner(){
+    var changed=state.model.filter(function(r){return r.moved_flag==='CHANGED';});
+    if(changed.length) setBanner(changed.length+' order(s) were manually moved to PAY but their data has since changed — returned to REVIEW and flagged. Re-review them.', true);
+  }
+
+  // ---- wire ------------------------------------------------------------------
+  function renderAll(src){
+    renderFeeds(src); renderControls(); renderChips(); changeBanner(); apply();
+  }
+  ['from','to','amountMin','amountMax','devMin','devMax','dateField'].forEach(function(id){
+    document.getElementById(id).addEventListener('change',apply);
+  });
+  document.getElementById('text').addEventListener('input',apply);
+  document.getElementById('clear').onclick=function(){
+    state.filters={buckets:[],rollups:[],accounts:[]};
+    ['from','to','amountMin','amountMax','devMin','devMax','text'].forEach(function(id){document.getElementById(id).value='';});
+    document.getElementById('dateField').value='invoice_date';
+    document.querySelectorAll('#rollups input').forEach(function(c){c.checked=false;});
+    var as=document.getElementById('accounts'); Array.prototype.slice.call(as.options).forEach(function(o){o.selected=false;});
+    renderChips(); apply();
+  };
+  document.getElementById('exportFiltered').onclick=function(){ exportRows(state.view); };
+  document.getElementById('exportChecked').onclick=function(){ exportRows(selected()); };
+  document.getElementById('moveToPay').onclick=function(){ doMove('PAY'); };
+  document.getElementById('moveToReview').onclick=function(){ doMove('REVIEW'); };
+
+  load().catch(function(e){ document.getElementById('status').textContent='load error: '+e; });
+})();
+</script>
+</body>
+</html>

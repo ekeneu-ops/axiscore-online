@@ -1,0 +1,99 @@
+{
+ "bid_id": "olmsted-county-mn-rfq2026-208-addendum-1",
+ "bid_number": "RFQ2026-208 Addendum 1",
+ "agency": "Olmsted County, MN",
+ "src": "Invited",
+ "title": "Technical Specifications for a 300KVA Dry Type Transformer",
+ "close": "8/17/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "ProductSpec Medium Voltage Transformers - Dry Type _1_.pdf",
+  "Addendum508C_05012020.pdf",
+  "261216 Medium Voltage Transformers - Dry Type _1_.pdf",
+  "ContractTermsandConditions_General508C_06042025.pdf",
+  "RFQTermsandConditions508C_11102025.pdf",
+  "InsandBondRequirements508C02092026 _2_.pdf",
+  "St3 Form Exemption 29 Resource Recovery 2023.pdf",
+  "SDEFORM.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ProductSpec Medium Voltage Transformers - Dry Type _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum508C_05012020.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "261216 Medium Voltage Transformers - Dry Type _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ContractTermsandConditions_General508C_06042025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFQTermsandConditions508C_11102025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "InsandBondRequirements508C02092026 _2_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "St3 Form Exemption 29 Resource Recovery 2023.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SDEFORM.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.6,
+  "attachment_fetches": 8,
+  "attachment_seconds": 7.1,
+  "attachment_bytes": 1454057,
+  "max_fetch_seconds": 2.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-12T08:16:17.451036+00:00",
+ "extract_attempts": 1
+}

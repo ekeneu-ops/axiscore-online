@@ -1,0 +1,94 @@
+{
+ "bid_id": "city-of-punta-gorda-fl-q2025124",
+ "bid_number": "Q2025124",
+ "agency": "City of Punta Gorda, FL",
+ "src": "Open",
+ "title": "MAT-RAILINGSGAZ/0919/2 - Gilchrist Park Gazebo Railings",
+ "close": "7/10/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Q202512Notice.pdf",
+  "Q2025124D.pdf",
+  "Q2025124E1.pdf",
+  "Q2025124E2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Q202512Notice.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Q2025124D.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Q2025124E1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Q2025124E2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Q2025124D.pdf",
+   "sheet": 7,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "UOM",
+    "Total Cost"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "All labor, material, equipment, freight, handling, surcharges,\nand all other incidental costs to furnish and deliver aluminum\nrailing materials for repairs to the gazebo and ADA access\nramp located at Gilchrist Park as defined in this solicitation.",
+     "LS",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.2,
+  "attachment_fetches": 4,
+  "attachment_seconds": 5.5,
+  "attachment_bytes": 1982497,
+  "max_fetch_seconds": 2.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:14:48.688142+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-punta-gorda-fl-q2025124/coverage.json"
+}

@@ -1,0 +1,59 @@
+{
+ "bid_id": "reno-tahoe-airport-authority-rfp-25-26-17-addendum-2",
+ "bid_number": "RFP #25/26-17 Addendum 2",
+ "agency": "Reno-Tahoe Airport Authority",
+ "src": "Open",
+ "title": "Food & Beverage and Retail Concessions",
+ "close": "8/31/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 2526-17_F_B and Retail Concessions_Final.pdf",
+  "Addendum _1_Final.pdf",
+  "Addendum _2_Q_A_Final.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2526-17_F_B and Retail Concessions_Final.pdf",
+   "kind": "pdf",
+   "tables": 25,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum _1_Final.pdf",
+   "kind": "pdf",
+   "tables": 21,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum _2_Q_A_Final.pdf",
+   "kind": "pdf",
+   "tables": 142,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 29.6,
+  "attachment_fetches": 3,
+  "attachment_seconds": 18.7,
+  "attachment_bytes": 10633980,
+  "max_fetch_seconds": 9.64,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:09:19.857829+00:00",
+ "extract_attempts": 1
+}

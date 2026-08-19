@@ -1,0 +1,71 @@
+{
+ "bid_id": "tarrant-county-tx-i20260268",
+ "bid_number": "I20260268",
+ "agency": "Tarrant County, TX",
+ "src": "Invited",
+ "title": "Visix Players Annual Subscription",
+ "close": "8/17/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Visix - Subscription - Hosted - 50 to 99 Players Annual Subscription Service Term 9/1/2026 - 08/31/2027",
+   "qty": "60",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Visix - Subscription - Hosted - 50 to 99 Players Annual Subscription Service Term 9/1/2026 - 08/31/2027 60 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+  "TC_Special_Terms_and_Conditions_Standard091724.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_Special_Terms_and_Conditions_Standard091724.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.7,
+  "attachment_fetches": 2,
+  "attachment_seconds": 2.1,
+  "attachment_bytes": 186751,
+  "max_fetch_seconds": 1.68,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-13T08:11:12.267295+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/tarrant-county-tx-i20260268/coverage.json"
+}

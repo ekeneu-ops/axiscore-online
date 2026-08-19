@@ -1,0 +1,33 @@
+{
+  "schema": "held_published_v2",
+  "as_of": "2026-08-12T09:03:13.007Z",
+  "source": "Seller Central Payments balance API (LIVE): GET /payments/api/balances/Total + /payments/api/balances/AvailableNow, read from the Mac Mini Chrome session (residential IP). No SP-API (no balance endpoint exists); no estimate.",
+  "pull_method": "live_seller_central_session_read",
+  "standard": {
+    "total": 2116.71,
+    "avail": 2013.84
+  },
+  "invoiced": {
+    "total": 18.44,
+    "avail": 18.44
+  },
+  "deferred": {
+    "total": 139252.99,
+    "avail": 0
+  },
+  "all_total": 141388.14,
+  "all_avail": 2032.28,
+  "bucket_mapping": "Buckets keyed by marketplaceName (Standard Orders / Invoiced Orders / Deferred Transactions). NOTE: both Invoiced AND Deferred carry accountType=INVOICING — do NOT map by accountType, use marketplaceName.",
+  "precision_note": "amount.amount is already major USD units (e.g. 56034.21 = $56,034.21). Do NOT divide by currencyPrecision.",
+  "stale_rule": "Surfaces flag STALE when as_of is older than 24h. The last good values are held until a fresh read succeeds; a wrong/blank number is never written as if live.",
+  "fallback": "When stale, surfaces additionally show ap/data.json.held.net labeled 'API estimate — lags ~48h, not Seller Central; cannot split Standard vs Invoiced'. Never the headline, never feeds cash-impact.",
+  "cash_impact": {
+    "uses": "all_total (live SC) when fresh; last-good SC reading (stamped with age) when stale; NEVER the API assembly",
+    "nci_live": 196342.5,
+    "nci_formula": "EP 99,467.11 + AP-not-paid 238,545.25 - held(all_total 186,597.95) - AR 281.72",
+    "as_of": "2026-08-12T09:03:13.007Z"
+  },
+  "estimate_retired": "gross×0.75 'NET RESERVE' computation deleted system-wide.",
+  "refresh": "A twice-daily scheduled Mac Mini Chrome read recommits this file from the live SC balance API. Fail-closed: on session expiry it does NOT overwrite (page auto-goes STALE) and alerts Ekene to log in once.",
+  "one_time_setup": "Ekene logs into Seller Central once in the Mac Mini's Chrome with 'Keep me signed in' + trust the device. Re-auth needed ~every 1-2 weeks when Amazon expires the session (alert fires)."
+}

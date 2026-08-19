@@ -1,0 +1,122 @@
+{
+ "schema": "v2",
+ "bid_id": "city-of-laredo-tx-fy26-eng-52",
+ "agency": "City of Laredo, TX",
+ "bid_number": "FY26-ENG-52",
+ "title": "Springfield Avenue Extension Phase 1",
+ "src": "Invited",
+ "close": "9/10/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-08-18T09:18:02.966398+00:00",
+ "cost_source": "best_cost_full_2026-08-17.csv",
+ "margin_pct": 15.0,
+ "items_source": "attachments:Specifications - FY26-ENG-52 Springfield Avenue Extension Phase 1.pdf",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 9,
+ "priced_lines": 0,
+ "gap_lines": 9,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 9
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "Schedule of Unit Price Work - BASE BID",
+   "qty": 0.0,
+   "uom": "",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 2,
+   "desc": "104.1",
+   "qty": 175.0,
+   "uom": "LF",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 3,
+   "desc": "104.2",
+   "qty": 2311.0,
+   "uom": "LF",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 4,
+   "desc": "110.1",
+   "qty": 2.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 5,
+   "desc": "110.2",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 6,
+   "desc": "112",
+   "qty": 8.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 7,
+   "desc": "114",
+   "qty": 2.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 8,
+   "desc": "115.1",
+   "qty": 8.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 9,
+   "desc": "115.2",
+   "qty": 1.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  }
+ ]
+}

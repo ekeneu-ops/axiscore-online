@@ -1,0 +1,162 @@
+{
+ "bid_id": "el-paso-water-tx-bid-25-26-addendum-1",
+ "bid_number": "Bid 25-26 Addendum 1",
+ "agency": "El Paso Water, TX",
+ "src": "Open",
+ "title": "TOW TRUCK AND RECOVERY SERVICES",
+ "close": "7/15/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 18,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "25-26  EXCEL BID FORM Tow Truck Final Draft 2-26-26.xlsx",
+  "W-9 Form.pdf",
+  "1295 - Certificate of Interested Parties.pdf",
+  "Conflict of Interest Form.pdf",
+  "No_Bid_Sheet Bid 25-26.docx",
+  "25-26 TOW TRUCK AND RECOVERY SERVICES.pdf",
+  "_Addendum 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "25-26  EXCEL BID FORM Tow Truck Final Draft 2-26-26.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "W-9 Form.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295 - Certificate of Interested Parties.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "No_Bid_Sheet Bid 25-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "25-26 TOW TRUCK AND RECOVERY SERVICES.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "_Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "25-26  EXCEL BID FORM Tow Truck Final Draft 2-26-26.xlsx",
+   "sheet": 0,
+   "header_row": 4,
+   "headers": [
+    "ITEM",
+    "UNIT",
+    "*QTY",
+    "DESCRIPTION",
+    "UNIT COST",
+    "TOTAL",
+    "4",
+    "PLEASE DO NOT CHANGE THE FORMAT OR CONTENTS OF THIS WORKSHEET IN ANY WAY",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 18,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "5",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Ea.",
+     "1",
+     "Class 1: up to 6,000 lbs. ex. passanger cars, compact pickup small suv",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Ea.",
+     "1",
+     "Class 2: 6,001 \u2013 10,000 lbs. ex. Light pickups, vans and cargo vans",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 30.9,
+  "attachment_fetches": 7,
+  "attachment_seconds": 19.5,
+  "attachment_bytes": 1672097,
+  "max_fetch_seconds": 10.89,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:48:00.586055+00:00",
+ "extract_attempts": 1,
+ "lines_total": 7,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/el-paso-water-tx-bid-25-26-addendum-1/coverage.json"
+}

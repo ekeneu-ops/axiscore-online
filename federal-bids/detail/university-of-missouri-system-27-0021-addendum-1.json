@@ -1,0 +1,103 @@
+{
+ "bid_id": "university-of-missouri-system-27-0021-addendum-1",
+ "bid_number": "27-0021 Addendum 1",
+ "agency": "University of Missouri System",
+ "src": "Open",
+ "title": "Double Side Mask Alignment System",
+ "close": "8/21/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Double Side Mask Alignment System & Accessories",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Please provide detailed literature regarding this equipment.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Double Side Mask Alignment System & Accessories 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Software/Hardware (If applicable)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Please provide detailed literature on the software/hardware package.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Software/Hardware (If applicable) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Discount",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Please provide you best discount for this purchase.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Double Side Mask Alignment System & Accessories 1 EA No Response Item Note: Please provide detailed literature regarding this equipment. No Bid Add Notes 2 Software/Hardware (If applicable) 1 EA No Response Item Note: Please provide detailed literature on the software/hardware package. No Bid Add Notes 3 Maintenance & Service Agreement No Response Item Note: Please provide detailed literature of the terms of services and what services will be provided. No Bid Add Notes 4 Training (If Applicable) No Response No Bid Add Notes 5 Installation (If Applicable) No Response Item Note: Please provide detailed literature regarding what the installation will involve. No Bid Add Notes 6 Shipping/Freight (Including duties, fees and tariff's) No Response No Bid Add Notes 7 Discount 1 EA No Response Item Note: Please provide you best discount for this purchase. No Bid Add Notes"
+  }
+ ],
+ "attachments_saved": [
+  "Solicitation Terms and Conditions 01-26-26.pdf",
+  "Instructions to Respondents 01.26.26.pdf",
+  "IdP Questionnaire 2026.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Solicitation Terms and Conditions 01-26-26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions to Respondents 01.26.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "IdP Questionnaire 2026.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 15.2,
+  "attachment_fetches": 3,
+  "attachment_seconds": 1.6,
+  "attachment_bytes": 320975,
+  "max_fetch_seconds": 0.6,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:20:40.597534+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-missouri-system-27-0021-addendum-1/coverage.json"
+}

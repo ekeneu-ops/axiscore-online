@@ -1,0 +1,757 @@
+{
+ "bid_id": "el-paso-county-tx-26-024",
+ "bid_number": "26-024",
+ "agency": "El Paso County, TX",
+ "src": "Invited",
+ "title": "On call Traffic Signal Electrical Services for El Paso County Public Works Department",
+ "close": "9/17/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:traffic sign",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 35,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 49,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Barricades, Signs, and Trf Handling (MOB OP)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Barricades, Signs, and Trf Handling (MOB OP) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Repl 12\u201d LED Trf Sign Lamp Unit (Red)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Repl 12\u201d LED Trf Sign Lamp Unit (Red) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Repl 12\u201d LED Trf Sign Lamp Unit (Amber)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Repl 12\u201d LED Trf Sign Lamp Unit (Amber) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Repl 12\u201d LED Trf Sign Lamp Unit (Green)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Repl 12\u201d LED Trf Sign Lamp Unit (Green) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Repl 12\u201d LED Trf Sign Lamp Unit (Green Arrow)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Repl 12\u201d LED Trf Sign Lamp Unit (Green Arrow) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Repl 12\u201d LED Trf Sign Lamp Unit (Amber Arrow)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Repl 12\u201d LED Trf Sign Lamp Unit (Amber Arrow) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Barr., Signs, and Trf Handling (Main Lanes)",
+   "qty": "1",
+   "uom": "CYC",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Barr., Signs, and Trf Handling (Main Lanes) 1 CYC No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Replace Communication Cable (Coax Cable)",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Replace Communication Cable (Coax Cable) 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Trouble Shoot Equipment (Day)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Trouble Shoot Equipment (Day) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "Trouble Shoot Equipment (Night/Weekend/Holiday)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 Trouble Shoot Equipment (Night/Weekend/Holiday) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "Replace Signal Cable (CONDR)(No. 14 \u2013 No. 16)",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 Replace Signal Cable (CONDR)(No. 14 \u2013 No. 16) 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "Replace Signal Cable (CONDR)(No. 10 \u2013 No. 12)",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 Replace Signal Cable (CONDR)(No. 10 \u2013 No. 12) 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "Replace Signal Cable (CONDR)(No. 6 \u2013 No. 8)",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 Replace Signal Cable (CONDR)(No. 6 \u2013 No. 8) 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "Replace Signal Cable (CONDR)(No. 2 \u2013 No. 4)",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 Replace Signal Cable (CONDR)(No. 2 \u2013 No. 4) 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "Troubleshoot Power Cable (Day)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 Troubleshoot Power Cable (Day) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "Troubleshoot Power Cable (Night/Weekend/Holiday)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 Troubleshoot Power Cable (Night/Weekend/Holiday) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "Troubleshoot Signal Cable (Day)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 Troubleshoot Signal Cable (Day) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "Troubleshoot Signal Cable (Night/Weekend/Holiday)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 Troubleshoot Signal Cable (Night/Weekend/Holiday) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "Troubleshoot Interconn Cbl (Day)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 Troubleshoot Interconn Cbl (Day) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "Troubleshoot Interconn Cbl (Night/Weekend/Holiday)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 Troubleshoot Interconn Cbl (Night/Weekend/Holiday) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "Troubleshoot Comm Cable (Day)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 Troubleshoot Comm Cable (Day) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "Troubleshoot Comm Cable (Night/Weekend/Holiday)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 Troubleshoot Comm Cable (Night/Weekend/Holiday) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "Graffiti Removal (Cabinet)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 Graffiti Removal (Cabinet) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "25",
+   "desc": "Graffiti Removal (Pole)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 Graffiti Removal (Pole) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "Graffiti Removal (Building)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 Graffiti Removal (Building) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "27",
+   "desc": "Replace Device (Copper Modem)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "27 Replace Device (Copper Modem) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "28",
+   "desc": "Replace Device (Fiber Modem)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 Replace Device (Fiber Modem) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "29",
+   "desc": "Adjust CCTV Camera",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "29 Adjust CCTV Camera 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine30",
+   "kind": "line",
+   "line": "30",
+   "desc": "Clean CCTV Camera",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "30 Clean CCTV Camera 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine31",
+   "kind": "line",
+   "line": "31",
+   "desc": "Preventive Maintenance of CCTV Camera System",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "31 Preventive Maintenance of CCTV Camera System 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine32",
+   "kind": "line",
+   "line": "32",
+   "desc": "Replace NEMA Cabinet (Empty Shell)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "32 Replace NEMA Cabinet (Empty Shell) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine33",
+   "kind": "line",
+   "line": "33",
+   "desc": "Replace NEMA Cabinet & Controlller",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "33 Replace NEMA Cabinet & Controlller 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine34",
+   "kind": "line",
+   "line": "34",
+   "desc": "Replace NEMA Load Switch",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "34 Replace NEMA Load Switch 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine35",
+   "kind": "line",
+   "line": "35",
+   "desc": "Replace NEMA Flasher",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "35 Replace NEMA Flasher 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine36",
+   "kind": "line",
+   "line": "36",
+   "desc": "Replace Flash Transfer Relay",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "36 Replace Flash Transfer Relay 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine37",
+   "kind": "line",
+   "line": "37",
+   "desc": "Replace TS2 BIU Card",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "37 Replace TS2 BIU Card 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine38",
+   "kind": "line",
+   "line": "38",
+   "desc": "Replace TS2 Conflict Monitor",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "38 Replace TS2 Conflict Monitor 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine39",
+   "kind": "line",
+   "line": "39",
+   "desc": "Replace TS2 Controller",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "39 Replace TS2 Controller 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine40",
+   "kind": "line",
+   "line": "40",
+   "desc": "Replace TS2 Cabinet Power Supply",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "40 Replace TS2 Cabinet Power Supply 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine41",
+   "kind": "line",
+   "line": "41",
+   "desc": "Replace VIVIDS Card Rack",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "41 Replace VIVIDS Card Rack 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine42",
+   "kind": "line",
+   "line": "42",
+   "desc": "Replace VIVIDS Processor System",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "42 Replace VIVIDS Processor System 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine43",
+   "kind": "line",
+   "line": "43",
+   "desc": "Replace Power Connection (Excluding Poles)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "43 Replace Power Connection (Excluding Poles) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine44",
+   "kind": "line",
+   "line": "44",
+   "desc": "Replace Power Service Pole (Excl Services)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "44 Replace Power Service Pole (Excl Services) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine45",
+   "kind": "line",
+   "line": "45",
+   "desc": "Conduit (PVC) (Schd 40) (2\u201d)",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "45 Conduit (PVC) (Schd 40) (2\u201d) 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine46",
+   "kind": "line",
+   "line": "46",
+   "desc": "Conduit (PVC) (Schd 40) (2\u201d) Bore",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "46 Conduit (PVC) (Schd 40) (2\u201d) Bore 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine47",
+   "kind": "line",
+   "line": "47",
+   "desc": "Conduit (PVC) (Schd 40) (3\u201d)",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "47 Conduit (PVC) (Schd 40) (3\u201d) 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine48",
+   "kind": "line",
+   "line": "48",
+   "desc": "Conduit (PVC) (Schd 40) (3\u201d) Bore",
+   "qty": "1",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "48 Conduit (PVC) (Schd 40) (3\u201d) Bore 1 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine49",
+   "kind": "line",
+   "line": "49",
+   "desc": "Replace Ground Box TY A (122311) w/Apron",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "49 Replace Ground Box TY A (122311) w/Apron 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine50",
+   "kind": "line",
+   "line": "50",
+   "desc": "Replace Ground Box TY D (162922) w/Apron",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "50 Replace Ground Box TY D (162922) w/Apron 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-024b Advertisement.pdf",
+  "26-024b Solicitation.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-024b Advertisement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "26-024b Solicitation.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 3
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "26-024b Solicitation.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "Qty",
+    "UOM",
+    "Cost"
+   ],
+   "score": 3,
+   "n_rows": 34,
+   "sample": [
+    [
+     "1",
+     "Barricades, Signs, and Trf Handling (MOB OP)",
+     "1.00",
+     "HR",
+     ""
+    ],
+    [
+     "2",
+     "Repl 12\u201d LED Trf Sign Lamp Unit (Red)",
+     "1.00",
+     "EA",
+     ""
+    ],
+    [
+     "3",
+     "Repl 12\u201d LED Trf Sign Lamp Unit (Amber)",
+     "1.00",
+     "EA",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "26-024b Solicitation.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "Qty",
+    "UOM",
+    "Cost"
+   ],
+   "score": 3,
+   "n_rows": 35,
+   "sample": [
+    [
+     "35",
+     "Replace Flash Transfer Relay",
+     "1.00",
+     "EA",
+     ""
+    ],
+    [
+     "36",
+     "Replace TS2 BIU Card",
+     "1.00",
+     "EA",
+     ""
+    ],
+    [
+     "37",
+     "Replace TS2 Conflict Monitor",
+     "1.00",
+     "EA",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "26-024b Solicitation.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "Qty",
+    "UOM",
+    "Cost"
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "70",
+     "Replace Accessible Pedestrian Signal Module (Button)",
+     "1.00",
+     "EA",
+     ""
+    ],
+    [
+     "71",
+     "Portable Message Board",
+     "1.00",
+     "DAY",
+     ""
+    ],
+    [
+     "72",
+     "Attenuator Truck w/Driver",
+     "1.00",
+     "HR",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 17.8,
+  "attachment_fetches": 2,
+  "attachment_seconds": 4.2,
+  "attachment_bytes": 3572124,
+  "max_fetch_seconds": 3.44,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-19T08:46:36.519780+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/el-paso-county-tx-26-024/coverage.json"
+}

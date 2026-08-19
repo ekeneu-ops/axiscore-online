@@ -1,0 +1,81 @@
+bid_id,line_no,match_method,match_status,material_or_type,primary_dimension,pack_size,uom,matched_vendor,matched_sku,matched_manufacturer,matched_desc,candidate_count,or_equal,price_status,pack_to_each_factor,qty_each,raw_merch_cost_each,extended_merch_cost,freight_each,freight_status,reason
+goodbuy:birdville-isd-tx:003-27,1,NON_PRODUCT,non_product,,,,,,,,,0,False,,,,,,,,display-only/catalog-discount/delivery-term line
+goodbuy:birdville-isd-tx:003-27,2,NEEDS_REVIEW,needs_review,ALKALINE_BATTERY,AA,24,BX,Essendant,DURAACTBULK36,,"Power Boost CopperTop Alkaline AA Batteries, 36/Pack",110,True,needs_review,,,,,,,>1 SPEC_EXACT catalog candidate — manual pick required
+goodbuy:birdville-isd-tx:003-27,3,SPEC_EXACT,matched,ALKALINE_BATTERY,DCELL,1,EA,ORS Nasco,827-EN95,ENERGIZER HOLDI,ENERGIZER INDUSTRIAL D BATTERIES D CELL ALKALINE,1,True,priced,337.0,208.0,0.039881,8.2952,,undetermined,single SPEC_EXACT match; open spec (no mandated mfr) -> or-equal valid
+goodbuy:birdville-isd-tx:003-27,4,SPEC_EXACT,matched,ALKALINE_BATTERY,CCELL,1,EA,ORS Nasco,827-EN93,ENERGIZER HOLDI,ENERGIZER INDUSTRIAL C BATTERIES C CELL ALKALINE,1,True,priced,227.0,58.0,0.037533,2.1769,,undetermined,single SPEC_EXACT match; open spec (no mandated mfr) -> or-equal valid
+goodbuy:birdville-isd-tx:003-27,5,NEEDS_REVIEW,needs_review,ALKALINE_BATTERY,AAA,24,BX,Essendant,DURMN2400B10Z,,"Power Boost CopperTop Alkaline AAA Batteries, 10/Pack",84,True,needs_review,,,,,,,>1 SPEC_EXACT catalog candidate — manual pick required
+goodbuy:birdville-isd-tx:003-27,6,NEEDS_REVIEW,needs_review,ALKALINE_BATTERY,9V,1,EA,Essendant,DURMN1604B2Z,,"Coppertop Alkaline 9v Batteries, 2/pack",37,True,needs_review,,,,,,,>1 SPEC_EXACT catalog candidate — manual pick required
+goodbuy:birdville-isd-tx:003-27,7,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,8,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,9,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,10,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,11,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,12,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,13,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,14,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,15,GAP,gap,BULLETIN_PAPER,,,ROLL,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,16,GAP,gap,LAMINATING_FILM,,,BX,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,17,GAP,gap,SPIRAL_NOTEBOOK,,6,PK,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,18,GAP,gap,COMPOSITION_BOOK,,1,EA,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,19,GAP,gap,RING_BINDER,,1,EA,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,20,GAP,gap,FILLER_PAPER,,100,PK,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,21,GAP,gap,LAMINATING_POUCH,,,PK,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,22,GAP,gap,COLORED_PENCIL,,,BX,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,23,GAP,gap,CRAYON,,,BX,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,24,NON_PRODUCT,non_product,,,,,,,,,0,False,,,,,,,,display-only/catalog-discount/delivery-term line
+goodbuy:birdville-isd-tx:003-27,25,GAP,gap,CORRUGATED_BOX,18x18x12,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:birdville-isd-tx:003-27,26,GAP,gap,STORAGE_BOX,15x12x10,12,PK,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:birdville-isd-tx:003-27,27,GAP,gap,STRETCH_WRAP,,1,EA,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,28,GAP,gap,UTILITY_BLADE,,5,PK,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,29,NON_PRODUCT,non_product,,,,,,,,,0,False,,,,,,,,display-only/catalog-discount/delivery-term line
+goodbuy:birdville-isd-tx:003-27,30,GAP,gap,TOILET_SEAT,,1,EA,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,31,GAP,gap,FLOOR_PAD,,5,CS,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,32,GAP,gap,FLOOR_PAD,,5,CS,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,33,GAP,gap,ACOUSTICAL_PANEL,,8,CS,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,34,GAP,gap,ACOUSTICAL_PANEL,,16,CS,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,35,GAP,gap,HAND_SOAP,,2,CS,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing primary_dimension
+goodbuy:birdville-isd-tx:003-27,36,GAP,gap,FLOOR_FINISH,,,BX,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:birdville-isd-tx:003-27,37,NON_PRODUCT,non_product,,,,,,,,,0,False,,,,,,,,display-only/catalog-discount/delivery-term line
+goodbuy:campbell-county-school-district-wy:26-052,1,GAP,gap,AIR_FILTER_MERV8,22x22x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,2,GAP,gap,AIR_FILTER_MERV8,20x25x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,3,GAP,gap,AIR_FILTER_MERV8,20x20x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,4,GAP,gap,AIR_FILTER_MERV8,18x25x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,5,GAP,gap,AIR_FILTER_MERV8,16x25x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,6,GAP,gap,AIR_FILTER_MERV8,16x22x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,7,GAP,gap,AIR_FILTER_MERV8,16x20x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,8,GAP,gap,AIR_FILTER_MERV8,14x20x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,9,GAP,gap,AIR_FILTER_MERV8,10x30x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,10,GAP,gap,AIR_FILTER_MERV8,10x20x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,11,GAP,gap,AIR_FILTER_MERV8,8.75x43.75x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,12,GAP,gap,AIR_FILTER_MERV8,24x24x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,13,GAP,gap,AIR_FILTER_MERV8,20x25x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,14,GAP,gap,AIR_FILTER_MERV8,20x24x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,15,GAP,gap,AIR_FILTER_MERV8,20x20x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,16,GAP,gap,AIR_FILTER_MERV8,18x20x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,17,GAP,gap,AIR_FILTER_MERV8,18x24x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,18,GAP,gap,AIR_FILTER_MERV8,20x24x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,19,GAP,gap,AIR_FILTER_MERV8,18x22x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,20,GAP,gap,AIR_FILTER_MERV8,18x8.5x1,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,21,GAP,gap,AIR_FILTER_MERV8,18x24x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,22,GAP,gap,AIR_FILTER_MERV8,16x20x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,23,GAP,gap,AIR_FILTER_MERV8,18x25x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,24,GAP,gap,AIR_FILTER_MERV8,16x24x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,25,GAP,gap,AIR_FILTER_MERV8,16x25x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,26,GAP,gap,AIR_FILTER_MERV8,12x24x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,27,GAP,gap,AIR_FILTER_MERV8,18x20x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,28,GAP,gap,AIR_FILTER_MERV8,16x16x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,29,GAP,gap,AIR_FILTER_MERV8,28.5x28.5x2,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,30,GAP,gap,AIR_FILTER_MERV8,16x20x4,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,31,GAP,gap,AIR_FILTER_MERV8,20x25x4,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,32,GAP,gap,AIR_FILTER_MERV8,20x24x4,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,33,GAP,gap,AIR_FILTER_MERV8,24x24x4,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,34,GAP,gap,AIR_FILTER_MERV8,12x24x4,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,35,GAP,gap,AIR_FILTER_MERV8,20x20x4,1,EA,,,,,0,False,gap,,,,,,,no MPN_EXACT/SPEC_EXACT catalog match
+goodbuy:campbell-county-school-district-wy:26-052,36,NON_PRODUCT,non_product,,,1,EA,,,,,0,False,,,,,,,,display-only/catalog-discount/delivery-term line
+goodbuy:city-of-council-bluffs-ia:purch-2026-36,1,NON_PRODUCT,non_product,,,,LS,,,,,0,False,,,,,,,,display-only/catalog-discount/delivery-term line
+goodbuy:city-of-council-bluffs-ia:purch-2026-36,2,GAP,gap,ENVELOPE,,,BOXES,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:city-of-council-bluffs-ia:purch-2026-36,3,GAP,gap,ENVELOPE,,,BOXES,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:city-of-council-bluffs-ia:purch-2026-36,4,GAP,gap,ENVELOPE,,,BOXES,,,,,0,False,gap,,,,,,,"SPEC_EXACT not attempted — missing primary_dimension, pack_size"
+goodbuy:city-of-council-bluffs-ia:purch-2026-36,5,GAP,gap,ENVELOPE,9x12,,BOXES,,,,,0,False,gap,,,,,,,SPEC_EXACT not attempted — missing pack_size
+goodbuy:city-of-council-bluffs-ia:purch-2026-36,6,NON_PRODUCT,non_product,,,,LS,,,,,0,False,,,,,,,,display-only/catalog-discount/delivery-term line
+goodbuy:harlingen-cisd-tx:clib0626,1,NON_PRODUCT,non_product,,,1,EA,,,,,0,False,,,,,,,,display-only/catalog-discount/delivery-term line

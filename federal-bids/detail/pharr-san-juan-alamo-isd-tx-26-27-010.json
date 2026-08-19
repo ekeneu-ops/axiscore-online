@@ -1,0 +1,147 @@
+{
+ "bid_id": "pharr-san-juan-alamo-isd-tx-26-27-010",
+ "bid_number": "# 26-27-010",
+ "agency": "Pharr-San Juan-Alamo ISD, TX",
+ "src": "Open",
+ "title": "Special Education Equipment, Services and Supplies",
+ "close": "7/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 8,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 8,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "If providing service (labor) only - hourly labor charge - straight time",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 If providing service (labor) only - hourly labor charge - straight time 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "If providing service (labor) only - hourly labor charge - overtime including after 5:00 pm and weekends and holidays.",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 If providing service (labor) only - hourly labor charge - overtime including after 5:00 pm and weekends and holidays. 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "If providing service (labor) only - hourly labor charge extra man - straight time",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 If providing service (labor) only - hourly labor charge extra man - straight time 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "If providing service (labor) only - hourly labor charge extra man - overtime including after 5:00 pm and weekends and holidays",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 If providing service (labor) only - hourly labor charge extra man - overtime including after 5:00 pm and weekends and holidays 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Percentage of discount price",
+   "qty": "",
+   "uom": "Percentage",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Percentage of discount price Percentage No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Percentage of discount off-shelf",
+   "qty": "",
+   "uom": "Percentage",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Percentage of discount off-shelf Percentage No Response"
+  },
+  {
+   "ctl": "ucPackageLine9",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "Percentage of cost-plus pricing",
+   "qty": "",
+   "uom": "Percentage",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 Percentage of cost-plus pricing Percentage No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "2.4",
+   "desc": "Please provide percentage mark up if providing service (labor) materials/parts to include freight charges",
+   "qty": "",
+   "uom": "Percentage",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.4 Please provide percentage mark up if providing service (labor) materials/parts to include freight charges Percentage No Response"
+  }
+ ],
+ "attachments_saved": [
+  "W9 2024 _2_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "W9 2024 _2_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 15.1,
+  "attachment_fetches": 1,
+  "attachment_seconds": 2.0,
+  "attachment_bytes": 140815,
+  "max_fetch_seconds": 1.97,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:14:41.594080+00:00",
+ "extract_attempts": 1,
+ "lines_total": 6,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/pharr-san-juan-alamo-isd-tx-26-27-010/coverage.json"
+}

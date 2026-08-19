@@ -1,0 +1,69 @@
+{
+ "bid_id": "coppell-isd-tx-785-23r4-addendum-2",
+ "bid_number": "785-23R4 Addendum 2",
+ "agency": "Coppell ISD, TX",
+ "src": "Open",
+ "title": "School Equipment, Teaching Aids, Supplies and Related Services including Online Subscriptions",
+ "close": "5/31/2028 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:teaching aid",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Coppell_ISD_Standard_Terms_and_Conditions_-_RFP_03262021.pdf",
+  "Vendor_Profile_Packet_last_revised_9-2025_Fillable _1_.pdf",
+  "TX Student Data Privacy Agreement - Coppell ISD.pdf",
+  "edgar_contract_addendum.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Coppell_ISD_Standard_Terms_and_Conditions_-_RFP_03262021.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor_Profile_Packet_last_revised_9-2025_Fillable _1_.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "TX Student Data Privacy Agreement - Coppell ISD.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "edgar_contract_addendum.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
+ ],
+ "latency": {
+  "bid_seconds": 104.1,
+  "attachment_fetches": 5,
+  "attachment_seconds": 91.1,
+  "attachment_bytes": 4426881,
+  "max_fetch_seconds": 45.0,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T19:05:56.338983+00:00",
+ "extract_attempts": 1
+}

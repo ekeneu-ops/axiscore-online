@@ -1,0 +1,91 @@
+{
+ "bid_id": "urban-redevelopment-authority-of-pittsburgh-pa-051826",
+ "bid_number": "051826",
+ "agency": "Urban Redevelopment Authority of Pittsburgh, PA",
+ "src": "Open",
+ "title": "Riverfront Site at S 18th & Riverside Mews",
+ "close": "7/10/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Riverfront Site at 18th _ Merriman RFP Final 5.18.26 V2.pdf",
+  "Exhibit A - Site Plan.png",
+  "Exhibit B - RFP Summary Sheet.pdf",
+  "Exhibit C - Sources _ Uses Budget.xlsx",
+  "Exhibit D - MWBE Narrative Template.docx",
+  "Exhibit E - MWI Narrative Template .docx",
+  "Exhibit F - URA Disposition Process Overview.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Riverfront Site at 18th _ Merriman RFP Final 5.18.26 V2.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A - Site Plan.png",
+   "kind": ".png",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B - RFP Summary Sheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C - Sources _ Uses Budget.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D - MWBE Narrative Template.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E - MWI Narrative Template .docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit F - URA Disposition Process Overview.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 27.7,
+  "attachment_fetches": 7,
+  "attachment_seconds": 18.7,
+  "attachment_bytes": 4166387,
+  "max_fetch_seconds": 9.4,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:20:31.678291+00:00",
+ "extract_attempts": 1
+}

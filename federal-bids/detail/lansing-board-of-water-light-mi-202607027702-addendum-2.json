@@ -1,0 +1,155 @@
+{
+ "bid_id": "lansing-board-of-water-light-mi-202607027702-addendum-2",
+ "bid_number": "202607027702 Addendum 2",
+ "agency": "Lansing Board of Water & Light, MI",
+ "src": "Open",
+ "title": "Evaluation, Measurement and Verification of Energy Optimization Programs",
+ "close": "8/21/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Proposal",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Proposal 1 EA No Response No Bid Add Notes"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders.doc",
+  "Energy Optimization Evaluation RFP_2026_2029_063026.docx",
+  "BWL Energy Optimization Plan 2026-2029_11.21.25_FINAL.pdf",
+  "Sworn_and_Notarized_Affidavit_of_Compliance_-_Iran_Economic_Sanctions_Act_Revised_May_2018.pdf",
+  "Supplier Bid Response Tutorial.pdf",
+  "iPayables User Guide.pdf",
+  "Terms and Conditions for Services_Approved Jan 2026.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Energy Optimization Evaluation RFP_2026_2029_063026.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "BWL Energy Optimization Plan 2026-2029_11.21.25_FINAL.pdf",
+   "kind": "pdf",
+   "tables": 82,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Sworn_and_Notarized_Affidavit_of_Compliance_-_Iran_Economic_Sanctions_Act_Revised_May_2018.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Bid Response Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "iPayables User Guide.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Terms and Conditions for Services_Approved Jan 2026.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "BWL Energy Optimization Plan 2026-2029_11.21.25_FINAL.pdf",
+   "sheet": 42,
+   "header_row": 0,
+   "headers": [
+    "",
+    "done and to promote the energy-saving benefits. All in-unit direct install measures will be\nfree to the customer.\n\u2022 Comprehensive remodeling and new construction. The utility\u2019s implementation\ncontractor will provide direct outreach and consultation to multifamily property owners\nand developers who are considering new construction or major remodeling projects.\nInformation about potential in-unit electric savings and product/service availability will be\ndiscussed. Flexible incentive packages may be negotiated.",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "Marketing Strategy",
+     "A targeted marketing strategy will be employed for the Multifamily program. Eligible properties\nwill be identified from the utility\u2019s customer information system. The program will also be\nmarketed through local landlord and property management associations.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "EM&V Requirements",
+     "Savings values are based on documented values from the Michigan Energy Measures\nDatabase. Evaluation activity will focus on verification of installation and estimates of deemed\nsavings.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Estimated\nParticipation",
+     "",
+     "Participation (in Units of Installed Measures)",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 26.1,
+  "attachment_fetches": 7,
+  "attachment_seconds": 10.8,
+  "attachment_bytes": 7932240,
+  "max_fetch_seconds": 4.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:19:38.215436+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/lansing-board-of-water-light-mi-202607027702-addendum-2/coverage.json"
+}

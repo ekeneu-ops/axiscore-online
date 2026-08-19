@@ -1,0 +1,496 @@
+# .github/workflows/spine-ap-refresh.yml
+# HANDS-FREE daily refresh of the Vendor AP dashboard data.
+#
+# Runs after the 07:00 UTC vendor-invoice ingestion, queries the warehouse as the
+# least-privilege finance_runner (read-only, un-gated spine-read env), builds the
+# dashboard data JSON entirely server-side, and commits finance/ap/data.json.
+# The dashboard (finance/ap/index.html) fetches that file, so the Recent-invoices,
+# Held-funds and as-of numbers move every day with NO human in the loop.
+#
+# The big JSON is base64-encoded in SQL so it survives the CloudWatch log channel
+# (no CSV-quoting / newline issues); the job decodes it back to data.json.
+name: spine-ap-refresh
+
+on:
+  schedule:
+    # Every ~6h. The two mirror-aligned slots are load-bearing and MUST stay:
+    #   08:00Z -> ~1h after the 07:00Z morning vendor-invoice mirror
+    #   23:00Z -> ~1.5h after the 21:30Z evening mirror (captures same-day SPR)
+    # 02/14/20Z are intermediate refreshes: net_after_credits moves DURING the day as
+    # operators record payments into ap.paid_ledger, so the AP figure goes stale between
+    # mirrors even when no new invoice has landed.
+    # Cadence also has to beat the page's 12h "LIVE" threshold WITH GitHub's real cron
+    # drift — scheduled runs are best-effort and the old 08:00Z job has fired as late as
+    # 11:30Z. Max gap here is 6h, leaving ~6h of headroom for that drift.
+    - cron: "0 2,8,14,20,23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  id-token: write     # OIDC to assume the read-only AWS role
+  contents: write     # commit data.json back to the repo
+
+env:
+  AWS_REGION: us-east-1
+  ROLE_ARN: arn:aws:iam::114812789687:role/mc-spine-finance-reader
+  CLUSTER: mc-spine-cluster
+  TASK_DEF: mc-spine-finance-runner
+  LOG_GROUP: /mc-spine/finance-runner
+  SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
+  SECURITY_GROUPS: sg-0b0521438f059e5fc
+  # SPR EDI feed (operational connection only; password is the SPR_FTP_PASSWORD repo secret)
+  SPR_FTP_HOST: 52.15.173.149
+  SPR_FTP_USER: ftp_ai_usr
+  SPR_FTP_DIR: var/www/html/data/edi/spr/archived
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment: spine-read   # un-gated: no required reviewers
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials via OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Run AP-data query (Fargate, private subnets, no public IP)
+        id: run
+        env:
+          # Builds the whole data.json server-side, then base64-encodes it (whitespace
+          # stripped) so it comes back as one clean token in the logs.
+          SQL_TEXT_INLINE: |
+            WITH vv AS (
+              SELECT v.channel_order_id o, v.vendor_code vc, v.invoice_date d, v.total_cost a,
+                     COALESCE(p.vendor_code, CASE WHEN v.vendor_code ILIKE '%rich%' OR v.vendor_code LIKE '1045202%' THEN 'spr' ELSE 'ess' END) vend
+              FROM mirror_erp_advance.vendor_invoice_list v
+              LEFT JOIN mirror_erp_advance.master_vendor_profile_list p ON p.profile_code = v.vendor_code
+              WHERE v.invoice_date > '2026-06-03'
+            )
+            SELECT regexp_replace(encode(convert_to((json_build_object(
+              'generated', to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'),
+              'mirror_through', (SELECT max(invoice_date) FROM mirror_erp_advance.vendor_invoice_list),
+              'statement_asof', '2026-06-03',
+              'spr_imported_through', (SELECT max(v.invoice_date) FROM mirror_erp_advance.vendor_invoice_list v LEFT JOIN mirror_erp_advance.master_vendor_profile_list p ON p.profile_code=v.vendor_code WHERE COALESCE(p.vendor_code, CASE WHEN v.vendor_code ILIKE '%rich%' OR v.vendor_code LIKE '1045202%' THEN 'spr' ELSE 'ess' END)='spr'),
+              'ess_imported_through', (SELECT max(v.invoice_date) FROM mirror_erp_advance.vendor_invoice_list v LEFT JOIN mirror_erp_advance.master_vendor_profile_list p ON p.profile_code=v.vendor_code WHERE COALESCE(p.vendor_code, CASE WHEN v.vendor_code ILIKE '%rich%' OR v.vendor_code LIKE '1045202%' THEN 'spr' ELSE 'ess' END)='ess'),
+              'recent', (SELECT json_build_object(
+                  'count', count(*),
+                  'sum', round(coalesce(sum(a),0)::numeric,2),
+                  'ess_count', count(*) FILTER (WHERE vend='ess'),
+                  'ess_sum', round(coalesce(sum(a) FILTER (WHERE vend='ess'),0)::numeric,2),
+                  'spr_count', count(*) FILTER (WHERE vend='spr'),
+                  'spr_sum', round(coalesce(sum(a) FILTER (WHERE vend='spr'),0)::numeric,2),
+                  'by_date', (SELECT json_agg(json_build_array(dd,c,s) ORDER BY dd)
+                              FROM (SELECT d dd, count(*) c, round(sum(a)::numeric,2) s FROM vv GROUP BY d) z),
+                  'rows', (SELECT json_agg(json_build_object('o',o,'vend',vend,'d',d,'a',round(a::numeric,2)) ORDER BY d DESC, o) FROM vv)
+                ) FROM vv),
+              'held', (WITH bnd2 AS (SELECT max(period_end) e FROM spapi.settlements),
+                p2 AS (SELECT o1.amazon_order_id id FROM spapi.orders o1 WHERE o1.order_status='Shipped' AND NOT EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE sl.amazon_order_id=o1.amazon_order_id)),
+                cls2 AS (SELECT amazon_order_id cid, event_type et, posted_date pdt, amount a FROM spapi.financial_events),
+                lp2 AS (SELECT p2.id, max(c3.pdt) lpd FROM p2 LEFT JOIN cls2 c3 ON c3.cid=p2.id AND c3.et='Shipment' GROUP BY 1),
+                ar2 AS (SELECT lp2.id FROM lp2, bnd2 WHERE lp2.lpd > bnd2.e),
+                a2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s, count(DISTINCT cls2.cid) n FROM cls2 JOIN ar2 ON ar2.id=cls2.cid WHERE cls2.et='Shipment'),
+                d2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM cls2, bnd2 WHERE et='Shipment' AND pdt > bnd2.e AND EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE sl.amazon_order_id=cls2.cid)),
+                b2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM cls2, bnd2 WHERE et='Refund' AND pdt > bnd2.e),
+                c2x AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM cls2, bnd2 WHERE et IN ('Adjustment','ServiceFee') AND pdt > bnd2.e),
+                df2 AS (SELECT round(coalesce(sum(total),0)::numeric,2) s, count(*) n, count(DISTINCT amazon_order_id) no, max(snapshot_at) snap FROM spapi.deferred_transactions)
+                -- 2026-06-12 P1: held = VALIDATED event-derived NET: released-undisbursed (shipment events posted
+                -- after last closed settlement on unsettled orders) + Amazon deferred-transactions snapshot +
+                -- pending refunds + account events + post-settlement shipments. Replaces gross order_total over
+                -- no-settlement-lines orders ((a) counted Canceled/Pending, (b) counted orders settled in reports
+                -- beyond the 90d listing horizon, (c) never netted fees/tax). Validated vs Seller Central
+                -- transaction view 2026-06-12T02:15Z: SC 168,440.58 vs derived 168,657.92 (delta 217.34, PASS).
+                SELECT json_build_object(
+                 'net', round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM b2)+(SELECT s FROM c2x)+(SELECT s FROM df2),2),
+                 'total_sum', round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM b2)+(SELECT s FROM c2x)+(SELECT s FROM df2),2),
+                 'total_count', (SELECT n FROM a2)+(SELECT no FROM df2),
+                 'latest', (SELECT max(lpd)::date FROM lp2),
+                 'walk', json_build_object('released_net',(SELECT s FROM a2),'released_orders',(SELECT n FROM a2),
+                   'postsettle_net',(SELECT s FROM d2),'refunds_pending',(SELECT s FROM b2),
+                   'account_events',(SELECT s FROM c2x),'deferred_net',(SELECT s FROM df2),
+                   'deferred_txns',(SELECT n FROM df2),'deferred_orders',(SELECT no FROM df2),
+                   'deferred_snapshot',to_char((SELECT snap FROM df2),'YYYY-MM-DD"T"HH24:MI"Z"'),
+                   'last_settlement_end',(SELECT e::date FROM bnd2),
+                   'fev_through',to_char((SELECT max(pdt) FROM cls2),'YYYY-MM-DD"T"HH24:MI"Z"')),
+                 'validated', json_build_object('at','2026-06-12T02:15Z','seller_central',168440.58,'derived',168657.92,'delta',217.34,'verdict','PASS')
+                )),
+              'credits', (WITH oc AS (
+                  SELECT COALESCE(p.vendor_code, CASE WHEN c.vendor_code ILIKE '%rich%' OR c.vendor_code LIKE '1045202%' THEN 'spr' ELSE 'ess' END) vend,
+                         NULLIF(c.channel_order_id,'') ord, c.credit_id cid, c.total_amount amt, c.credit_date cdt
+                  FROM mirror_erp_advance.vendor_credit_list c
+                  LEFT JOIN mirror_erp_advance.master_vendor_profile_list p ON p.profile_code=c.vendor_code
+                  WHERE c.credit_status=0),
+                oi AS (SELECT NULLIF(channel_order_id,'') ord, count(*) FILTER (WHERE invoice_status=0) nopen, count(*) nall, round(coalesce(sum(total_cost),0)::numeric,2) gross
+                       FROM mirror_erp_advance.vendor_invoice_list WHERE NULLIF(channel_order_id,'') IS NOT NULL GROUP BY 1),
+                cl AS (SELECT oc.vend, oc.ord, oc.cid, oc.amt, oc.cdt, COALESCE(oi.nopen,0) nopen, COALESCE(oi.nall,0) nall, COALESCE(oi.gross,0) gross
+                       FROM oc LEFT JOIN oi ON oi.ord=oc.ord)
+                SELECT json_build_object(
+                  'asof', to_char(now() at time zone 'UTC','YYYY-MM-DD'),
+                  'open_count', (SELECT count(*) FROM cl),
+                  'open_sum', (SELECT round(coalesce(sum(amt),0)::numeric,2) FROM cl),
+                  'net_sum', (SELECT round(coalesce(sum(amt) FILTER (WHERE ord IS NOT NULL AND nopen>0),0)::numeric,2) FROM cl),
+                  'recover_sum', (SELECT round(coalesce(sum(amt) FILTER (WHERE ord IS NOT NULL AND nopen=0),0)::numeric,2) FROM cl),
+                  'unlinked_sum', (SELECT round(coalesce(sum(amt) FILTER (WHERE ord IS NULL),0)::numeric,2) FROM cl),
+                  'by_vendor', (SELECT json_object_agg(vend, j) FROM (SELECT vend, json_build_object(
+                       'open_n',count(*),'open_sum',round(coalesce(sum(amt),0)::numeric,2),
+                       'net_sum',round(coalesce(sum(amt) FILTER (WHERE ord IS NOT NULL AND nopen>0),0)::numeric,2),
+                       'recover_sum',round(coalesce(sum(amt) FILTER (WHERE ord IS NOT NULL AND nopen=0),0)::numeric,2),
+                       'unlinked_sum',round(coalesce(sum(amt) FILTER (WHERE ord IS NULL),0)::numeric,2)) j FROM cl GROUP BY vend) z),
+                  'recover', (SELECT coalesce(json_agg(json_build_object('v',vend,'o',ord,'m',cid,'a',round(amt::numeric,2),'d',cdt) ORDER BY amt DESC),'[]'::json) FROM cl WHERE ord IS NOT NULL AND nopen=0),
+                  'dup', (SELECT coalesce(json_agg(json_build_object('v',vend,'o',ord,'ninv',nall,'gross',gross,'cred',cred,'resid',resid) ORDER BY resid DESC),'[]'::json)
+                          FROM (SELECT vend, ord, max(nall) nall, max(gross) gross, round(sum(amt)::numeric,2) cred,
+                                       round((max(gross)*(max(nall)-1)/NULLIF(max(nall),0) - sum(amt))::numeric,2) resid
+                                FROM cl WHERE ord IS NOT NULL AND nall>1 GROUP BY vend,ord) d)
+                ))
+            ))::text,'UTF8'),'base64'),'\s','','g') AS d;
+          SQL2_TEXT_INLINE: >-
+            SELECT regexp_replace(encode(convert_to((WITH oc AS (SELECT NULLIF(c.channel_order_id,'') ord, c.total_amount amt
+            FROM mirror_erp_advance.vendor_credit_list c WHERE c.credit_status = 0)
+            SELECT coalesce(json_object_agg(upper(bo.ord), bo.js),'{}'::json)
+            FROM (SELECT ord, json_build_object('s',round(sum(amt)::numeric,2),'n',count(*)) js FROM oc WHERE ord IS NOT NULL GROUP BY ord) bo
+            )::text,'UTF8'),'base64'),'\s','','g') AS d;
+          # SQL3: the AP APP's AUTHORITATIVE HEADER FIGURE ("Net after credits") — the number
+          # Ekene works from at https://ap.axiscoreshop.com/. That app is behind ALB->Cognito
+          # OAuth with no CORS, so the public net-position page cannot fetch it client-side;
+          # we publish the identical figure here instead.
+          #
+          # Reproduces platform/ap_app/app/db.py totals() + the netAfter arithmetic in
+          # platform/ap_app/web/app.jsx:
+          #   net = PAY + REVIEW + WAIT + UNSCORED + UNRESOLVED, summed from the PER-BUCKET
+          #         ROUNDED totals (db.totals() rounds each bucket, then the app's JS sums
+          #         those rounded values — round the same way or it misses by cents)
+          #   net_after_credits = net - open credits
+          # eff_bucket mirrors db._eff_sql EXACTLY, in this CASE order:
+          #   vendor_settled -> SETTLED  (vendor's own records show it settled, never payable)
+          #   rollup FEDEX   -> PARKED   (Ekene's standing decision, excluded from net)
+          #   sticky REVIEW->PAY move via ap.review_moves (UNIQUE(invoice_id), cannot fan out;
+          #   net-invariant anyway, since PAY and REVIEW are both inside net)
+          # credits come from ap.v_open_credits SCOPED to rollups that actually have a payable
+          # book, so a credit is never deducted with no invoices to apply against. This is NOT
+          # this file's separate 'credits' block (looser: no override / attributability filter),
+          # which would over-deduct.
+          #
+          # This runs as its OWN Fargate task because ECS RunTask caps containerOverrides at
+          # 8192 bytes and SQL_TEXT_INLINE already spends ~7.98KB of that (208B spare) — an
+          # inline attempt fails with InvalidParameterException. Keeping these notes as YAML
+          # comments (OUTSIDE the SQL string) is deliberate: bytes inside SQL_TEXT count.
+          # Read-only via finance_runner's existing grants: 0003:310-312 (v_outstanding,
+          # review_moves) and 0022:53 (v_open_credits). No migration, no new grant.
+          # Verified live 2026-07-25 (spine-finance-query-degated run 30141481519):
+          #   net 165,994.98 - credits 5,051.78 (31) = net_after_credits 160,943.20
+          #   by_rollup ESS 110,984.18 | ISG 2,050.47 | SPR 52,960.33 (sums exactly to net)
+          SQL3_TEXT_INLINE: >-
+            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup,
+            CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' THEN 'PARKED'
+            WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket
+            FROM ap.v_outstanding v LEFT JOIN ap.review_moves m ON m.invoice_id=v.invoice_id),
+            bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1),
+            nt AS (SELECT round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')),
+            cr AS (SELECT count(*) n, round(COALESCE(sum(oc.amount),0)::numeric,2) s FROM ap.v_open_credits oc
+            WHERE oc.rollup IN (SELECT DISTINCT rollup FROM eff WHERE eff_bucket NOT IN ('SETTLED','PARKED')))
+            SELECT json_build_object('net',(SELECT s FROM nt),'credits',(SELECT s FROM cr),
+            'credit_count',(SELECT n FROM cr),
+            'net_after_credits',round(((SELECT s FROM nt)-(SELECT s FROM cr))::numeric,2),
+            'buckets',(SELECT COALESCE(json_object_agg(b,json_build_object('count',n,'total',t)),'{}'::json) FROM bk),
+            'by_rollup',(SELECT COALESCE(json_object_agg(COALESCE(rollup,'UNMAPPED'),json_build_object('count',n,'total',t)),'{}'::json)
+            FROM (SELECT rollup, count(*) n, round(sum(amount)::numeric,2) t FROM eff
+            WHERE eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z),
+            'book_from','2026-01-01','asof',to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'),
+            'definition','PAY+REVIEW+WAIT+UNSCORED+UNRESOLVED less open credits, SETTLED and PARKED/FEDEX excluded')
+            )::text,'UTF8'),'base64'),'\s','','g') AS d;
+        run: |
+          OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
+            '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
+          TASK_ARN=$(aws ecs run-task \
+            --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          if [ -z "$TASK_ARN" ] || [ "$TASK_ARN" = "None" ]; then echo "run-task returned no ARN" >&2; exit 1; fi
+          echo "task_arn=$TASK_ARN" >> "$GITHUB_OUTPUT"
+          echo "Started $TASK_ARN"
+          OVERRIDES2=$(jq -nc --arg sql "$SQL2_TEXT_INLINE" \
+            '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
+          TASK2_ARN=$(aws ecs run-task \
+            --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES2" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          if [ -z "$TASK2_ARN" ] || [ "$TASK2_ARN" = "None" ]; then echo "run-task 2 returned no ARN" >&2; exit 1; fi
+          echo "task2_arn=$TASK2_ARN" >> "$GITHUB_OUTPUT"
+          echo "Started credits task $TASK2_ARN"
+          OVERRIDES3=$(jq -nc --arg sql "$SQL3_TEXT_INLINE" \
+            '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
+          TASK3_ARN=$(aws ecs run-task \
+            --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES3" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          if [ -z "$TASK3_ARN" ] || [ "$TASK3_ARN" = "None" ]; then echo "run-task 3 returned no ARN" >&2; exit 1; fi
+          echo "task3_arn=$TASK3_ARN" >> "$GITHUB_OUTPUT"
+          echo "Started AP-app totals task $TASK3_ARN"
+
+      - name: Wait for task to stop
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"
+          for i in $(seq 1 120); do
+            STATUS=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].lastStatus' --output text)
+            echo "poll $i: $STATUS"
+            if [ "$STATUS" = "STOPPED" ]; then break; fi
+            if [ "$i" -eq 120 ]; then echo "timed out" >&2; exit 1; fi
+            sleep 15
+          done
+          TASK2_ARN="${{ steps.run.outputs.task2_arn }}"
+          for i in $(seq 1 60); do
+            S2=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK2_ARN" --query 'tasks[0].lastStatus' --output text)
+            if [ "$S2" = "STOPPED" ]; then break; fi
+            if [ "$i" -eq 60 ]; then echo "task2 timed out" >&2; exit 1; fi
+            sleep 10
+          done
+          TASK3_ARN="${{ steps.run.outputs.task3_arn }}"
+          for i in $(seq 1 60); do
+            S3=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK3_ARN" --query 'tasks[0].lastStatus' --output text)
+            if [ "$S3" = "STOPPED" ]; then break; fi
+            if [ "$i" -eq 60 ]; then echo "task3 timed out" >&2; exit 1; fi
+            sleep 10
+          done
+
+      - name: Decode result to data.json and commit
+        env:
+          SPR_FTP_PASSWORD: ${{ secrets.SPR_FTP_PASSWORD }}
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"
+          TASK_ID="${TASK_ARN##*/}"
+          EXIT_CODE=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "exitCode=$EXIT_CODE"
+          aws logs get-log-events --log-group-name "$LOG_GROUP" \
+            --log-stream-name "query/finance-runner/$TASK_ID" \
+            --query 'events[].message' --output text > /tmp/aplog.txt || { echo "no logs" >&2; exit 1; }
+          python3 - <<'PY'
+          import re, base64, json, sys
+          log = open('/tmp/aplog.txt', 'r', errors='replace').read()
+          m = re.search(r'BEGIN CSV RESULT(.*?)END CSV RESULT', log, re.S)
+          if not m:
+              print("No CSV markers in log"); sys.exit(1)
+          body = m.group(1)
+          # The payload is base64 (all whitespace stripped server-side) emitted as ONE CSV
+          # value. It arrives here as ONE OR MORE fragments: the CloudWatch/awslogs channel
+          # splits long stdout lines across events (hard cap 256 KB/event, and the Fargate
+          # log driver can split large lines below that), and `get-log-events --output text`
+          # returns the events TAB/newline-separated. Reassemble by concatenating EVERY
+          # base64 run in order — get-log-events returns events chronologically and
+          # re.findall preserves order, so the join rebuilds the blob byte-for-byte,
+          # AGNOSTIC to why/where it fragmented. The only non-payload token between the
+          # markers is the 1-char CSV header 'd' (drop it); the '-----' rules and the
+          # \t / \n separators contain no base64 chars so they inject nothing.
+          # (Old code kept max(len) = a SINGLE fragment -> truncated -> "Incorrect padding"
+          #  whenever the blob split into >1 event. Only AP hits this; Plaid's blob is tiny.)
+          toks = [t for t in re.findall(r'[A-Za-z0-9+/=]+', body) if t != 'd']
+          if not toks:
+              print("No base64 token found"); sys.exit(1)
+          # Diagnostic: make fragmentation observable (the split boundary was opaque before).
+          print("decode: %d fragment(s) lengths=%s total=%d"
+                % (len(toks), [len(t) for t in toks][:10], sum(len(t) for t in toks)))
+          b64 = "".join(toks)
+          b64 += "=" * (-len(b64) % 4)      # repair padding (no-op on a complete blob)
+          data = base64.b64decode(b64)
+          obj = json.loads(data)            # validate — any bad reassembly fails LOUD here
+          # P1 self-check: >20% day-over-day move in held.net suppresses publish (suspect flag).
+          import os
+          prev = None
+          try:
+              if os.path.exists('finance/ap/data.json'):
+                  prev = ((json.load(open('finance/ap/data.json')) or {}).get('held') or {}).get('net')
+          except Exception:
+              prev = None
+          h = obj.get('held') or {}
+          net = h.get('net')
+          if prev not in (None, 0) and net is not None and abs(net - prev) / abs(prev) > 0.20:
+              h['suspect'] = True
+              h['alert'] = ('SUSPECT: held.net moved %+.1f%% day-over-day (prev %.2f -> new %.2f); '
+                            'publish suppressed pending review') % ((net - prev) / abs(prev) * 100, prev, net)
+              h['net_suppressed'] = net
+              h['net'] = None
+              h['total_sum'] = None
+              obj['held'] = h
+          with open('finance/ap/data.json', 'wb') as f:
+              f.write(json.dumps(obj, separators=(',', ':')).encode('utf-8'))
+          print("data.json ok: recent=%s held_total=%s through=%s" % (
+              (obj.get('recent') or {}).get('count'),
+              (obj.get('held') or {}).get('total_sum'),
+              obj.get('mirror_through')))
+          walk = (h.get('walk') or {})
+          json.dump({'asof': obj.get('generated'), 'net': h.get('net'), 'suspect': h.get('suspect', False),
+                     'alert': h.get('alert'), 'walk': walk, 'validated': h.get('validated')},
+                    open('finance/ap/held_walk.json', 'w'), indent=1)
+          with open('finance/ap/held_walk.csv', 'w') as cf:
+              cf.write('component,amount\n')
+              for k in ('released_net', 'postsettle_net', 'refunds_pending', 'account_events', 'deferred_net'):
+                  cf.write('%s,%s\n' % (k, walk.get(k)))
+              cf.write('TOTAL_NET,%s\n' % (h.get('net') if h.get('net') is not None else h.get('net_suppressed')))
+          PY
+          if [ "$EXIT_CODE" != "0" ]; then echo "query task failed" >&2; exit 1; fi
+
+          # --- SPR EDI watchdog: are invoice files landing on the FTP but not imported? ---
+          # IMPORTANT: compare like-for-like. The warehouse stores INVOICE dates; the FTP file
+          # date is ~1 business day AHEAD of the invoices it carries (a Monday file holds the
+          # prior Friday's invoices). So we parse the NEWEST file's actual InvDate values
+          # (MMDDYYYY) and compare THAT to the warehouse. A real stall = invoice data that is
+          # at least ~2 days old yet still missing -> tolerates the normal overnight mirror
+          # cycle (afternoon import -> next 07:00 UTC mirror) and weekends (no Sat/Sun invoices).
+          FTP_RAW=$(curl -sS --connect-timeout 25 --ftp-method singlecwd \
+            --user "$SPR_FTP_USER:$SPR_FTP_PASSWORD" \
+            "ftp://$SPR_FTP_HOST//$SPR_FTP_DIR/" 2>&1 || true)
+          export FTP_RAW
+          NEWEST=$(printf '%s\n' "$FTP_RAW" | awk '{print $NF}' \
+            | grep -E '^AXS\.x12_810_\.[0-9]{4}\.inv' | sort -t. -k3 -n | tail -1)
+          export NEWEST
+          if [ -n "$NEWEST" ]; then
+            curl -sS --connect-timeout 25 --user "$SPR_FTP_USER:$SPR_FTP_PASSWORD" \
+              "ftp://$SPR_FTP_HOST//$SPR_FTP_DIR/$NEWEST" -o /tmp/newest_spr.xml 2>/dev/null || true
+          fi
+          python3 - <<'PY'
+          import os, json, datetime
+          import xml.etree.ElementTree as ET
+          d = json.load(open('finance/ap/data.json'))
+          imp = d.get('spr_imported_through')
+          raw = os.environ.get('FTP_RAW','')
+          mon = {m:i for i,m in enumerate(['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],1)}
+          today = datetime.date.today(); fdates=[]
+          for ln in raw.splitlines():
+              p = ln.split()
+              if len(p) < 9 or not p[0] or p[0][0] not in '-dl':
+                  continue
+              mo = mon.get(p[5])
+              if not mo:
+                  continue
+              try:
+                  day = int(p[6]); yt = p[7]
+                  if ':' in yt:
+                      dt = datetime.date(today.year, mo, day)
+                      if dt > today + datetime.timedelta(days=1):
+                          dt = datetime.date(today.year-1, mo, day)
+                  else:
+                      dt = datetime.date(int(yt), mo, day)
+                  fdates.append(dt)
+              except Exception:
+                  pass
+          reachable = bool(fdates)
+          file_date_latest = max(fdates).isoformat() if fdates else None
+          ftp_invoice_through = None
+          try:
+              root = ET.parse('/tmp/newest_spr.xml').getroot()
+              idates = []
+              for inv in (root.findall('.//Invoice') or []):
+                  h = inv.find('InvHeader')
+                  s = h.findtext('InvDate') if h is not None else None
+                  if s and len(s) == 8 and s.isdigit():
+                      idates.append(datetime.date(int(s[4:8]), int(s[0:2]), int(s[2:4])).isoformat())
+              if idates:
+                  ftp_invoice_through = max(idates)
+              elif file_date_latest:
+                  ftp_invoice_through = (max(fdates) - datetime.timedelta(days=1)).isoformat()
+          except Exception:
+              if file_date_latest:
+                  ftp_invoice_through = (max(fdates) - datetime.timedelta(days=1)).isoformat()
+          pending = bool(ftp_invoice_through and imp and ftp_invoice_through > imp)
+          overdue = bool(ftp_invoice_through and ftp_invoice_through < (today - datetime.timedelta(days=1)).isoformat())
+          stalled = bool(pending and overdue)
+          unprocessed = 1 if pending else 0
+          d['edi'] = {'reachable': reachable, 'ftp_latest': ftp_invoice_through, 'file_date_latest': file_date_latest,
+                      'imported_through': imp, 'pending': pending, 'stalled': stalled,
+                      'unprocessed_files': unprocessed, 'file_count': len(fdates),
+                      'checked_at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ')}
+          json.dump(d, open('finance/ap/data.json','w'), separators=(',',':'))
+          print('EDI watchdog:', d['edi'])
+          PY
+
+          TASK2_ARN="${{ steps.run.outputs.task2_arn }}"
+          TASK2_ID="${TASK2_ARN##*/}"
+          aws logs get-log-events --log-group-name "$LOG_GROUP" \
+            --log-stream-name "query/finance-runner/$TASK2_ID" \
+            --query 'events[].message' --output text > /tmp/aplog2.txt || { echo "no logs (by_order)" >&2; exit 1; }
+          python3 - <<'PY'
+          import re, base64, json
+          log = open('/tmp/aplog2.txt', 'r', errors='replace').read()
+          m = re.search(r'BEGIN CSV RESULT(.*?)END CSV RESULT', log, re.S)
+          bo = {}
+          if m:
+              # Same reassembly as the main payload: join every base64 run (agnostic to
+              # fragmentation), drop the 1-char CSV header 'd'. Small today, grows w/ vendors.
+              toks = [t for t in re.findall(r'[A-Za-z0-9+/=]+', m.group(1)) if t != 'd']
+              if toks:
+                  b64 = "".join(toks); b64 += "=" * (-len(b64) % 4)
+                  bo = json.loads(base64.b64decode(b64))
+          d = json.load(open('finance/ap/data.json'))
+          d.setdefault('credits', {})['by_order'] = bo
+          json.dump(d, open('finance/ap/data.json', 'w'), separators=(',', ':'))
+          print('credits.by_order orders:', len(bo))
+          PY
+
+          # AP-app authoritative header figure ("Net after credits") -> data.json.totals.
+          # The public net-position page renders this as its Vendor AP line, so publish it
+          # FAIL-CLOSED: if the task produced no usable number, leave the PREVIOUS totals
+          # block untouched (the page keeps the last good value, stamped with its own asof)
+          # rather than publishing a wrong or blank AP figure.
+          TASK3_ARN="${{ steps.run.outputs.task3_arn }}"
+          TASK3_ID="${TASK3_ARN##*/}"
+          EXIT3=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK3_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "totals task exitCode=$EXIT3"
+          aws logs get-log-events --log-group-name "$LOG_GROUP" \
+            --log-stream-name "query/finance-runner/$TASK3_ID" \
+            --query 'events[].message' --output text > /tmp/aplog3.txt || { echo "no logs (totals)" >&2; exit 1; }
+          python3 - <<'PY'
+          import re, base64, json, sys
+          log = open('/tmp/aplog3.txt', 'r', errors='replace').read()
+          m = re.search(r'BEGIN CSV RESULT(.*?)END CSV RESULT', log, re.S)
+          if not m:
+              print('totals: no CSV markers -- leaving previous totals untouched'); sys.exit(1)
+          toks = [t for t in re.findall(r'[A-Za-z0-9+/=]+', m.group(1)) if t != 'd']
+          if not toks:
+              print('totals: no base64 token -- leaving previous totals untouched'); sys.exit(1)
+          b64 = "".join(toks); b64 += "=" * (-len(b64) % 4)
+          t = json.loads(base64.b64decode(b64))
+          # Sanity gates: net_after_credits feeds the page headline, so refuse to publish an
+          # internally inconsistent payload. A 0 net_after_credits IS valid (fully credited
+          # book), hence >= 0 rather than > 0.
+          net, cr, na = t.get('net'), t.get('credits'), t.get('net_after_credits')
+          if not all(isinstance(x, (int, float)) for x in (net, cr, na)):
+              print('totals: non-numeric net/credits/net_after_credits -- refusing to publish'); sys.exit(1)
+          if na < 0:
+              print('totals: net_after_credits < 0 (%s) -- refusing to publish' % na); sys.exit(1)
+          if abs((net - cr) - na) > 0.01:
+              print('totals: walk does not tie (%s - %s != %s) -- refusing' % (net, cr, na)); sys.exit(1)
+          br = t.get('by_rollup') or {}
+          rs = round(sum((v or {}).get('total', 0) for v in br.values()), 2)
+          if br and abs(rs - net) > 0.01:
+              print('totals: by_rollup %s != net %s -- refusing to publish' % (rs, net)); sys.exit(1)
+          d = json.load(open('finance/ap/data.json'))
+          d['totals'] = t
+          json.dump(d, open('finance/ap/data.json', 'w'), separators=(',', ':'))
+          print('totals: net %.2f - credits %.2f (%s) = net_after_credits %.2f | %s'
+                % (net, cr, t.get('credit_count'), na,
+                   ' '.join('%s=%.2f' % (k, (v or {}).get('total', 0)) for k, v in sorted(br.items()))))
+          PY
+          if [ "$EXIT3" != "0" ]; then echo "totals query task failed" >&2; exit 1; fi
+
+          git config user.name "ap-refresh-bot"
+          git config user.email "ap-refresh@users.noreply.github.com"
+          git add finance/ap/data.json finance/ap/held_walk.json finance/ap/held_walk.csv
+          if git diff --cached --quiet; then
+            echo "data.json unchanged - nothing to commit."
+          else
+            git commit -m "AP auto-refresh: data.json $(date -u +%F) [skip ci]"
+            # Self-heal: another commit can land on main during this ~70s run.
+            # Rebase onto latest main and retry instead of discarding fresh data.
+            pushed=0
+            for attempt in 1 2 3 4 5; do
+              if git push; then echo "pushed"; pushed=1; break; fi
+              echo "push rejected (attempt $attempt) - rebasing on latest main"
+              git pull --rebase --autostash origin main || { echo "rebase failed" >&2; exit 1; }
+              sleep $((RANDOM % 4 + 2))
+            done
+            if [ "$pushed" != "1" ]; then echo "push failed after retries" >&2; exit 1; fi
+          fi

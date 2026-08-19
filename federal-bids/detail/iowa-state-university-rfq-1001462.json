@@ -1,0 +1,127 @@
+{
+ "bid_id": "iowa-state-university-rfq-1001462",
+ "bid_number": "RFQ-1001462",
+ "agency": "Iowa State University",
+ "src": "Open",
+ "title": "Potting Soil - Central Stores",
+ "close": "7/17/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "POTTING SOIL, LC-1 DIRT/BEDDING MIX, BAG, PRO. GROWING MIX, SUN- GRO, 54/PALLET (Do Not Substitute)",
+   "qty": "1000",
+   "uom": "2.8cu ft bag",
+   "note": "Quantity is an estimated amount for 1 year. Include freight/shipping in line pricing above",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 POTTING SOIL, LC-1 DIRT/BEDDING MIX, BAG, PRO. GROWING MIX, SUN- GRO, 54/PALLET (Do Not Substitute) 1000 2.8cu ft bag No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "2",
+   "desc": "POTTING SOIL, SUNGRO FAFARD 3B/METRO MIX 830 BAG, 48/PALLET (Do Not Substitute)",
+   "qty": "550",
+   "uom": "2.8cu ft bags",
+   "note": "Quantity is an estimated amount for 1 year. Include freight/shipping in line pricing above",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 POTTING SOIL, SUNGRO FAFARD 3B/METRO MIX 830 BAG, 48/PALLET (Do Not Substitute) 550 2.8cu ft bags No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "3",
+   "desc": "POTTING, PEAT MOSS BALE (Do Not Substitute)",
+   "qty": "20",
+   "uom": "3.0 cu ft bags",
+   "note": "Quantity is an estimated amount for 1 year. Include freight/shipping in line pricing above",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 POTTING, PEAT MOSS BALE (Do Not Substitute) 20 3.0 cu ft bags No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "4",
+   "desc": "POTTING, SPHAGNUM LONG FIBERED MOSS (Do Not Substitute)",
+   "qty": "10",
+   "uom": "3.5 cu ft bags",
+   "note": "Quantity is an estimated amount for 1 year. Include freight/shipping in line pricing above",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 POTTING, SPHAGNUM LONG FIBERED MOSS (Do Not Substitute) 10 3.5 cu ft bags No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "5",
+   "desc": "POTTING SOIL, SUNGRO FAFARD 3B/METRO MIX 830 BULK BAG (Do Not Substitute)",
+   "qty": "10",
+   "uom": "60 cu ft bags",
+   "note": "Quantity is an estimated amount for 1 year. Include freight/shipping in line pricing above",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 POTTING SOIL, SUNGRO FAFARD 3B/METRO MIX 830 BULK BAG (Do Not Substitute) 10 60 cu ft bags No Response"
+  }
+ ],
+ "attachments_saved": [
+  "ISU Instructions.pdf",
+  "ISU General Terms _ Conditions.pdf",
+  "Insurance Language - Service and Delivery.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ISU Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ISU General Terms _ Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Language - Service and Delivery.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 24.9,
+  "attachment_fetches": 3,
+  "attachment_seconds": 7.9,
+  "attachment_bytes": 746903,
+  "max_fetch_seconds": 4.24,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:17:46.284173+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/iowa-state-university-rfq-1001462/coverage.json"
+}

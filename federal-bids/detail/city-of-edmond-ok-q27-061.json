@@ -1,0 +1,54 @@
+{
+ "bid_id": "city-of-edmond-ok-q27-061",
+ "bid_number": "Q27-061",
+ "agency": "City of Edmond, OK",
+ "src": "Open",
+ "title": "Print Edmond Connect Table Cover",
+ "close": "8/17/2026 03:15 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Project: Hemmed Open-Back UltraFit Table Cover 6' Quantity: 1 Dimensions: 29\" x 72\" x 30\" Material: Poly-Stretch Imprint Color: Full Color Product Details: Open-Back, 3-sided table cover with wrinkle-resistant properties. Product Reference: https://www.4imprint.com/product/117195-6-FC/Hemmed-Open-Back-UltraFit-Table-Cover-6-Full-Color",
+   "qty": "1",
+   "uom": "LOT",
+   "note": "Delivery deadline is three weeks (15 business days) from delivery of artwork to awarded vendor. We will provide artwork.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Project: Hemmed Open-Back UltraFit Table Cover 6' Quantity: 1 Dimensions: 29\" x 72\" x 30\" Material: Poly-Stretch Imprint Color: Full Color Product Details: Open-Back, 3-sided table cover with wrinkle-resistant properties. Product Reference: https://www.4imprint.com/product/117195-6-FC/Hemmed-Open-Back-UltraFit-Table-Cover-6-Full-Color 1 LOT No Response"
+  }
+ ],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 7.7,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-14T08:19:22.668562+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-edmond-ok-q27-061/coverage.json"
+}

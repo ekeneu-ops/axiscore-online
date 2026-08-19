@@ -1,0 +1,134 @@
+{
+ "bid_id": "city-of-el-paso-tx-2026-0322",
+ "bid_number": "2026-0322",
+ "agency": "City of El Paso, TX",
+ "src": "Invited",
+ "title": "Crack Seal Material",
+ "close": "7/15/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 11,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026-0322 Bid Form.xlsx _76 KB_",
+  "2026-0322 Bid Form.xlsx",
+  "W-9.pdf",
+  "Form 1295 Instructions and Example.pdf",
+  "2026-0322 Mandatory Forms.pdf",
+  "2026-0322 Amendment Acknowledgement _For Paper Bids Only_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-0322 Bid Form.xlsx _76 KB_",
+   "kind": ".xlsx _76 kb_",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2026-0322 Bid Form.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "W-9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form 1295 Instructions and Example.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-0322 Mandatory Forms.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-0322 Amendment Acknowledgement _For Paper Bids Only_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2026-0322 Bid Form.xlsx",
+   "sheet": 0,
+   "header_row": 18,
+   "headers": [
+    "Item No.",
+    "Description",
+    "Unit of Measure",
+    "Approximate/Estimate Quantity",
+    "Price",
+    "Yearly Total\nC=AXB",
+    "3-Year Total \nD=CX3"
+   ],
+   "score": 3,
+   "n_rows": 11,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "(A)",
+     "(B)",
+     "(C )",
+     "(D)"
+    ],
+    [
+     "1",
+     "Hot Applied Crack Seal Material - Delivered",
+     "Lbs. ",
+     "210000",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Total",
+     "0",
+     "0"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.1,
+  "attachment_fetches": 6,
+  "attachment_seconds": 12.7,
+  "attachment_bytes": 3532937,
+  "max_fetch_seconds": 6.59,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:29:42.518144+00:00",
+ "extract_attempts": 1,
+ "lines_total": 6,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-el-paso-tx-2026-0322/coverage.json"
+}

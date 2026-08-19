@@ -1,0 +1,59 @@
+{
+ "bid_id": "miami-u-ohio-u-purchasing-group-0620262416",
+ "bid_number": "0620262416",
+ "agency": "Miami U & Ohio U Purchasing Group",
+ "src": "Open",
+ "title": "Ohio University - Instructional Design Services",
+ "close": "7/17/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Services_Agreement_May 2026_INSTRUCTIONAL DESIGN.docx",
+  "IT Security Outsourcing Technology Questionnaire.docx",
+  "Accessibility_Workbook_for_Vendors.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Services_Agreement_May 2026_INSTRUCTIONAL DESIGN.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "IT Security Outsourcing Technology Questionnaire.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Accessibility_Workbook_for_Vendors.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 8.9,
+  "attachment_fetches": 3,
+  "attachment_seconds": 1.9,
+  "attachment_bytes": 98895,
+  "max_fetch_seconds": 0.72,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:12:33.543524+00:00",
+ "extract_attempts": 1
+}

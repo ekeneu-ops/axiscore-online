@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Axiscore Mission Control — 540 CRM</title>
+<style>
+:root{
+ --bg:#f0ebe3; --surface:#ffffff; --surface-2:#e8e2d9; --surface-hover:#f5f0e8;
+ --border:#d9d0c4; --border-light:#c9bfb3; --text:#2c2825; --text-muted:#6b6259; --text-dim:#9a9089;
+ --accent:#5a9e2f; --accent-dim:rgba(90,158,47,0.12); --accent-hover:#4d8a28; --btn-text:#fff;
+ --red:#dc2626; --red-dim:rgba(220,38,38,.10); --amber:#b45309; --amber-dim:rgba(180,83,9,.12);
+ --blue:#2563eb; --blue-dim:rgba(37,99,235,.10); --purple:#7c3aed; --purple-dim:rgba(124,58,237,.12);
+ --cyan:#0891b2; --cyan-dim:rgba(8,145,178,.12);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.logo{font-size:13px;color:var(--text-dim);font-weight:600;letter-spacing:.04em}
+.logo-sub{font-size:20px;color:var(--text);font-weight:800;letter-spacing:-.01em}
+header{padding:16px 26px;border-bottom:1px solid var(--border);background:var(--surface);display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+header .grow{flex:1}
+a.navlink{color:var(--text-muted);font-weight:600;text-decoration:none;font-size:13px}
+a.navlink:hover{color:var(--accent)}
+main{padding:22px 26px 60px;max-width:1180px;margin:0 auto}
+h2{font-size:22px;font-weight:800;margin:0 0 4px}
+.muted{color:var(--text-muted)}
+.statbar{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0 10px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:14px 18px;min-width:118px;cursor:pointer;border-left-width:4px;border-left-color:var(--border)}
+.stat .n{font-size:30px;font-weight:800;line-height:1}.stat .l{color:var(--text-muted);font-size:12.5px;margin-top:5px}
+.stat.new{border-left-color:var(--blue)} .stat.new .n{color:var(--blue)}
+.stat.contacted{border-left-color:var(--cyan)} .stat.contacted .n{color:var(--cyan)}
+.stat.engaged{border-left-color:var(--purple)} .stat.engaged .n{color:var(--purple)}
+.stat.quoted{border-left-color:var(--amber)} .stat.quoted .n{color:var(--amber)}
+.stat.won{border-left-color:var(--accent)} .stat.won .n{color:var(--accent)}
+.stat.dormant .n{color:var(--text-dim)}
+.stat.dnc{border-left-color:var(--red)} .stat.dnc .n{color:var(--red)}
+.stat.active{box-shadow:0 0 0 2px var(--accent-dim)}
+.srchealth{display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px;margin:6px 0 18px;font-size:12.5px}
+.dot{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;border:1px solid var(--border);font-weight:600}
+.dot::before{content:"";width:8px;height:8px;border-radius:50%}
+.dot.ok{color:var(--accent);background:var(--accent-dim)}.dot.ok::before{background:var(--accent)}
+.dot.warn{color:var(--amber);background:var(--amber-dim)}.dot.warn::before{background:var(--amber)}
+.sect{margin:22px 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-muted);border-bottom:1px solid var(--border);padding-bottom:6px;display:flex;gap:8px;align-items:center}
+.sect .cnt{background:var(--surface-2);border-radius:999px;padding:0 8px;font-size:11px;color:var(--text-muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 15px;display:flex;flex-direction:column;gap:7px;border-left:4px solid var(--border);cursor:pointer}
+.card:hover{background:var(--surface-hover)}
+.card.NEW{border-left-color:var(--blue)} .card.CONTACTED{border-left-color:var(--cyan)}
+.card.ENGAGED{border-left-color:var(--purple)} .card.QUOTED{border-left-color:var(--amber)}
+.card.WON{border-left-color:var(--accent)} .card.DORMANT{border-left-color:var(--border-light)}
+.card.DO_NOT_CONTACT{border-left-color:var(--red)}
+.card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.title{font-weight:700;font-size:14.5px;line-height:1.35}
+.meta{font-size:12.5px;color:var(--text-muted)}
+.badge{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
+.b-NEW{color:var(--blue);background:var(--blue-dim)} .b-CONTACTED{color:var(--cyan);background:var(--cyan-dim)}
+.b-ENGAGED{color:var(--purple);background:var(--purple-dim)} .b-QUOTED{color:var(--amber);background:var(--amber-dim)}
+.b-WON{color:var(--accent);background:var(--accent-dim)} .b-DORMANT{color:var(--text-dim);background:var(--surface-2)}
+.b-DO_NOT_CONTACT{color:var(--red);background:var(--red-dim)}
+.due{font-size:12.5px;font-weight:600}.due.over{color:var(--red)}.due .days{color:var(--text-dim);font-weight:500}
+.contact{font-size:12px;color:var(--text-muted);border-top:1px dashed var(--border);padding-top:7px;display:flex;flex-direction:column;gap:2px}
+.contact a{color:var(--accent);text-decoration:none;font-weight:600}
+.next{font-size:12px;border-top:1px dashed var(--border);padding-top:7px}
+.btn{background:var(--accent);color:var(--btn-text);border:none;border-radius:8px;padding:8px 14px;font-weight:700;font-size:13px;cursor:pointer}
+.btn.ghost{background:var(--surface);color:var(--text);border:1px solid var(--border)}
+.banner{background:var(--amber-dim);border:1px solid #e3c9a0;color:var(--amber);border-radius:10px;padding:12px 16px;margin:14px 0;font-size:13px}
+.banner.err{background:var(--red-dim);border-color:#e8b4b4;color:var(--red)}
+input[type=text],input[type=password],input[type=search]{background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);padding:8px 10px;font-size:13px;width:100%}
+.setup{max-width:560px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px}
+.setup label{display:block;font-size:12.5px;color:var(--text-muted);font-weight:600;margin:10px 0 4px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.empty{color:var(--text-dim);font-size:13px;padding:8px 0}
+.searchbox{max-width:420px;margin:4px 0 12px}
+.detail{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px;margin:10px 0 18px}
+.detail .head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:3px 12px;font-size:12.5px;margin:10px 0}
+.kv .k{color:var(--text-dim)} .kv .v{color:var(--text)}
+.tl{border-left:2px solid var(--border);margin:12px 0 0 6px;padding-left:16px;display:flex;flex-direction:column;gap:10px}
+.ev{position:relative;font-size:12.5px}
+.ev::before{content:"";position:absolute;left:-21px;top:5px;width:8px;height:8px;border-radius:50%;background:var(--border-light)}
+.ev.INGEST::before{background:var(--blue)} .ev.STAGE_CHANGE::before{background:var(--amber)}
+.ev.FIELD_UPDATE::before{background:var(--cyan)} .ev.INTERACTION::before{background:var(--accent)}
+.ev .when{color:var(--text-dim);font-size:11.5px}
+.ev .sum{font-weight:600}
+.ev pre{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px;font-size:11px;overflow-x:auto;margin:5px 0 0;max-height:180px}
+</style>
+</head>
+<body>
+<header>
+  <div><div class="logo">AXISCORE</div><div class="logo-sub">Mission Control</div></div>
+  <div class="grow"></div>
+  <a class="navlink" href="../federal-bids/decision-queue.html">← Decision Queue</a>
+  <a class="navlink" href="#" id="settingsLink">⚙ Settings</a>
+</header>
+<main>
+  <h2>540 CRM — Outreach Pipeline</h2>
+  <div class="muted">Goodbuy cooperative members · who to contact today, live from <code>crm.outreach_queue</code>.</div>
+
+  <div id="setup" class="setup" style="display:none">
+    <div style="font-weight:800;font-size:16px;margin-bottom:4px">Connect the console</div>
+    <div class="muted" style="font-size:12.5px">Member data is served by the authed read path. Nothing is stored in the public site — these values live only in this browser.</div>
+    <label>Read-path endpoint (CloudFront)</label>
+    <input type="text" id="cfgEndpoint" placeholder="https://xxxx.cloudfront.net/"/>
+    <label>Access token (read) <span class="muted" id="cfgTokenLen"></span></label>
+    <input type="password" id="cfgToken" placeholder="paste the mc-spine/crm-console-token value"/>
+    <label>Write token (enables actions — mc-spine/crm-write-token) <span class="muted" id="cfgWriteTokenLen"></span></label>
+    <input type="password" id="cfgWriteToken" placeholder="optional: paste to enable Log/Advance/etc."/>
+    <label style="display:flex;align-items:center;gap:6px;font-weight:400;cursor:pointer">
+      <input type="checkbox" id="cfgShowTokens" style="width:auto"/> Show token values
+    </label>
+    <label>Your name (stamped on every action you take)</label>
+    <input type="text" id="cfgActor" placeholder="ekene"/>
+    <div class="row" style="margin-top:14px">
+      <button class="btn" id="cfgSave">Save &amp; connect</button>
+      <button class="btn ghost" id="cfgCancel">Cancel</button>
+    </div>
+  </div>
+
+  <div id="app" style="display:none">
+    <div class="statbar" id="statbar"></div>
+    <div class="srchealth" id="srchealth"></div>
+    <div id="banner"></div>
+    <div class="sect">Campaigns</div>
+    <div id="campaigns"></div>
+    <details id="composer" style="margin:8px 0 18px">
+      <summary style="cursor:pointer;font-weight:700;color:var(--accent)">＋ New campaign</summary>
+      <div class="detail" style="margin-top:10px">
+        <div class="kv" style="grid-template-columns:110px 1fr">
+          <div class="k">Name</div><div class="v"><input type="text" id="cName" placeholder="e.g. Goodbuy intro wave July"/></div>
+          <div class="k">Reply-to</div><div class="v"><input type="text" id="cReplyTo" placeholder="ekeneu@axiscoreonline.com"/></div>
+          <div class="k">Subject</div><div class="v"><input type="text" id="cSubject" placeholder="{{entity_name}} — your Goodbuy catalog pricing"/></div>
+        </div>
+        <textarea id="cBody" rows="9" style="width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px;font-size:13px" placeholder="Hi {{first_name}},&#10;&#10;..."></textarea>
+        <div class="muted" style="font-size:11.5px;margin:4px 0 10px">Merge fields: {{contact_name}} {{first_name}} {{entity_name}} {{company}} {{city}} {{region}} {{order_count}} {{total_value}} {{most_recent_order_date}} · unsubscribe footer added automatically</div>
+        <div class="row" style="align-items:flex-start">
+          <div><label class="muted" style="font-size:11.5px">Stages</label><div id="cStages" class="row" style="gap:6px"></div></div>
+          <div><label class="muted" style="font-size:11.5px">Vehicles (empty = all)</label><div id="cVehicles" class="row" style="gap:6px"></div></div>
+        </div>
+        <div class="row" style="margin-top:12px">
+          <button class="btn ghost" id="cPreview">Preview 3 + count</button>
+          <button class="btn" id="cCreate">Create draft</button>
+        </div>
+        <div id="cPreviewOut"></div>
+      </div>
+    </details>
+
+    <div class="sect">Member search</div>
+    <div class="searchbox"><input type="search" id="q" placeholder="Search members — name, contact, city, region, email (min 2 chars)"/></div>
+    <div id="detail"></div>
+    <div id="results"></div>
+    <div id="queue"></div>
+    <div class="muted" id="foot" style="margin-top:24px;font-size:12px"></div>
+  </div>
+</main>
+<!-- Committed endpoint config (endpoint ONLY — never the token). -->
+<script src="crm-config.js"></script>
+<script>
+const LS_ENDPOINT="crm.endpoint", LS_TOKEN="crm.token", LS_WTOKEN="crm.writetoken", LS_ACTOR="crm.actor";
+const REFRESH_MS=60000;
+const STAGES=[["cnt_new","NEW","new"],["cnt_contacted","CONTACTED","contacted"],["cnt_engaged","ENGAGED","engaged"],
+              ["cnt_quoted","QUOTED","quoted"],["cnt_won","WON","won"],["cnt_dormant","DORMANT","dormant"],
+              ["cnt_do_not_contact","DO NOT CONTACT","dnc"]];
+let timer=null, activeStage=null, lastData=null;
+
+function cfg(){return {endpoint:localStorage.getItem(LS_ENDPOINT)||"", token:localStorage.getItem(LS_TOKEN)||"",
+  wtoken:localStorage.getItem(LS_WTOKEN)||"", actor:localStorage.getItem(LS_ACTOR)||"ekene"};}
+function showSetup(){
+  const c=cfg();
+  document.getElementById("cfgEndpoint").value=c.endpoint;
+  document.getElementById("cfgToken").value=c.token;
+  document.getElementById("cfgWriteToken").value=c.wtoken;
+  document.getElementById("cfgActor").value=c.actor;
+  tokenLen("cfgToken","cfgTokenLen");
+  tokenLen("cfgWriteToken","cfgWriteTokenLen");
+  document.getElementById("setup").style.display="block";
+  document.getElementById("app").style.display="none";
+}
+function hideSetup(){document.getElementById("setup").style.display="none";document.getElementById("app").style.display="block";}
+// Token visibility + live length check. A bare token is 48 chars; a pasted
+// JSON wrapper ({"token": "..."}) is longer and flagged, so a bad paste is
+// visible BEFORE hitting Save instead of surfacing later as a 401.
+document.getElementById("cfgShowTokens").onchange=e=>{
+  const t=e.target.checked?"text":"password";
+  document.getElementById("cfgToken").type=t;
+  document.getElementById("cfgWriteToken").type=t;
+};
+function tokenLen(inputId,spanId){
+  const v=document.getElementById(inputId).value;
+  const el=document.getElementById(spanId);
+  if(!v){el.textContent="";return;}
+  let note=v.length+" chars";
+  if(/^\s*\{/.test(v))note+=" — looks like JSON: paste only the value inside \"token\"";
+  else if(v.trim()!==v)note+=" — has leading/trailing whitespace";
+  el.textContent="("+note+")";
+}
+document.getElementById("cfgToken").oninput=()=>tokenLen("cfgToken","cfgTokenLen");
+document.getElementById("cfgWriteToken").oninput=()=>tokenLen("cfgWriteToken","cfgWriteTokenLen");
+document.getElementById("settingsLink").onclick=e=>{e.preventDefault();showSetup();};
+document.getElementById("cfgCancel").onclick=()=>{if(cfg().endpoint&&cfg().token){hideSetup();load();}};
+document.getElementById("cfgSave").onclick=async()=>{
+  const ep=document.getElementById("cfgEndpoint").value.trim().replace(/\/+$/,"");
+  const tk=document.getElementById("cfgToken").value.trim();
+  if(!ep||!tk){alert("Endpoint and read token are required.");return;}
+  // Diagnose-before-commit: a silent failure here (blocked storage, blocked
+  // cross-origin fetch, rejected token) previously looked identical to a good
+  // save until the next load 401'd. Test the exact values first and say
+  // precisely which link in the chain failed.
+  const btn=document.getElementById("cfgSave");btn.disabled=true;btn.textContent="Testing…";
+  let r;
+  try{r=await fetch(ep+"/",{headers:{"x-crm-token":tk},cache:"no-store"});}
+  catch(err){
+    btn.disabled=false;btn.textContent="Save & connect";
+    alert("Could not reach the API at all ("+err.message+").\nThe token was never even evaluated. Usual causes: an ad-blocker/shield blocking the request from this site to "+ep+", a VPN/proxy, or no network. Try disabling extensions for this page or another browser.");
+    return;
+  }
+  btn.disabled=false;btn.textContent="Save & connect";
+  if(r.status===401){alert("The API answered and REJECTED this read token (401). The token string in the field is not the current mc-spine/crm-console-token value.");return;}
+  if(!r.ok){alert("The API answered with HTTP "+r.status+" — endpoint reachable, token not the problem. Report this status.");return;}
+  try{
+    localStorage.setItem(LS_ENDPOINT,ep);localStorage.setItem(LS_TOKEN,tk);
+    localStorage.setItem(LS_WTOKEN,document.getElementById("cfgWriteToken").value.trim());
+    localStorage.setItem(LS_ACTOR,document.getElementById("cfgActor").value.trim()||"ekene");
+  }catch(err){
+    alert("Connection test PASSED, but this browser refuses to store the tokens ("+err.name+").\nThat is why old values keep coming back. Usual causes: a Private/Incognito window, or Settings blocking site data/cookies for this site. Open the console in a normal window or allow site data, then paste again.");
+    return;
+  }
+  hideSetup();load();
+};
+
+function esc(s){return (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+async function api(path){
+  const c=cfg();
+  const r=await fetch(c.endpoint+path,{headers:{"x-crm-token":c.token},cache:"no-store"});
+  if(r.status===401)throw Object.assign(new Error("401"),{code:401});
+  if(!r.ok)throw Object.assign(new Error("http "+r.status),{code:r.status});
+  return r.json();
+}
+function banner(msg,err){document.getElementById("banner").innerHTML=msg?`<div class="banner ${err?'err':''}">${esc(msg)}</div>`:"";}
+async function sha256hex(s){
+  const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(s));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+async function act(payload){
+  const c=cfg();
+  if(!c.wtoken){alert("No write token set. Open ⚙ Settings and paste the mc-spine/crm-write-token value.");throw new Error("no write token");}
+  const body=JSON.stringify({...payload,actor:c.actor});
+  // CloudFront OAC signs headers but NOT the body; Lambda URLs therefore require
+  // the caller to supply the payload hash or every POST 403s at the front door.
+  const r=await fetch(c.endpoint+"/action",{method:"POST",cache:"no-store",
+    headers:{"x-crm-write-token":c.wtoken,"content-type":"application/json",
+             "x-amz-content-sha256":await sha256hex(body)},
+    body});
+  const resp=await r.json().catch(()=>({}));
+  if(r.status===401)throw new Error("write token rejected (401) — check ⚙ Settings");
+  if(!r.ok)throw new Error(resp.error||("http "+r.status));
+  return resp;
+}
+function daysFrom(d){if(!d)return null;return Math.round((new Date(d+"T00:00:00")-new Date(new Date().toDateString()))/86400000);}
+
+function contactBlock(m){
+  const bits=[];
+  if(m.contact_name)bits.push(`<span>${esc(m.contact_name)}${m.contact_title?" · "+esc(m.contact_title):""}</span>`);
+  if(m.contact_email)bits.push(`<a href="mailto:${esc(m.contact_email)}">${esc(m.contact_email)}</a>`);
+  if(m.contact_phone)bits.push(`<span>${esc(m.contact_phone)}</span>`);
+  if(!bits.length)bits.push(`<span style="color:var(--amber)">no contact info — incomplete</span>`);
+  return `<div class="contact">${bits.join("")}</div>`;
+}
+function memberCard(m,extra){
+  const d=daysFrom(m.next_action_due);
+  const due=m.next_action_due?`<div class="due ${d<0?'over':''}">Next action due ${esc(m.next_action_due)}${d!=null?` <span class="days">(${d<0?Math.abs(d)+"d overdue":d+"d"})</span>`:""}</div>`:"";
+  return `<div class="card ${esc(m.stage)}" data-id="${m.member_id}">
+    <div class="top"><div class="title">${esc(m.entity_name)}</div><span class="badge b-${esc(m.stage)}">${esc(m.stage)}</span></div>
+    <div class="meta">${esc([m.city,m.region].filter(Boolean).join(", "))}${m.member_category?" · "+esc(m.member_category):""}${m.owner?" · owner: "+esc(m.owner):""}</div>
+    ${due}
+    ${m.next_action?`<div class="next"><b>Next:</b> ${esc(m.next_action)}</div>`:""}
+    ${contactBlock(m)}
+    ${extra||""}
+  </div>`;
+}
+
+function renderOverview(data){
+  lastData=data;
+  const c=data.counts||{};
+  document.getElementById("statbar").innerHTML=STAGES.map(([k,l,cls])=>
+    `<div class="stat ${cls} ${activeStage===k?'active':''}" data-k="${k}"><div class="n">${c[k]??0}</div><div class="l">${l}</div></div>`).join("")
+    +`<div class="stat"><div class="n">${c.total_members??0}</div><div class="l">TOTAL MEMBERS</div></div>`;
+  document.querySelectorAll(".stat[data-k]").forEach(el=>el.onclick=()=>{activeStage=activeStage===el.dataset.k?null:el.dataset.k;renderOverview(lastData);});
+
+  const h=data.health||{};
+  const li=h.last_ingest_at?new Date(h.last_ingest_at).toLocaleString():"never";
+  document.getElementById("srchealth").innerHTML=
+    `<b style="color:var(--text-muted)">Source</b>`
+    +`<span class="dot ok">directory: ${esc(h.last_ingest_source||"?")} · ${li}</span>`
+    +`<span class="dot ${(+h.incomplete_contacts||0)>0?'warn':'ok'}">incomplete contacts: ${h.incomplete_contacts??"?"}</span>`
+    +`<span class="dot ok">members: ${h.total_members??"?"}</span>`;
+
+  let queue=(data.queue||[]);
+  const stageOfK=k=>({cnt_new:"NEW",cnt_contacted:"CONTACTED",cnt_engaged:"ENGAGED",cnt_quoted:"QUOTED",cnt_won:"WON",cnt_dormant:"DORMANT",cnt_do_not_contact:"DO_NOT_CONTACT"})[k];
+  if(activeStage)queue=queue.filter(m=>m.stage===stageOfK(activeStage));
+  document.getElementById("queue").innerHTML=
+    `<div class="sect">Today — contact these <span class="cnt">${queue.length}</span></div>`
+    +(queue.length?`<div class="grid">${queue.map(m=>memberCard(m)).join("")}</div>`
+                  :`<div class="empty">Queue clear — no outreach due today. ✅</div>`);
+  bindCards();
+  document.getElementById("foot").textContent="Live from crm.outreach_queue · updated "+new Date(data.generated_at||Date.now()).toLocaleString()+" · auto-refresh 60s";
+  banner("");
+}
+
+function bindCards(){
+  document.querySelectorAll(".card[data-id]").forEach(el=>el.onclick=()=>openMember(el.dataset.id));
+}
+
+async function openMember(id){
+  try{
+    const d=await api("/member/"+id);
+    const m=d.member;
+    const kv=[["Entity",m.entity_name],["Category",m.member_category],["Region",m.region],["Address",[m.street_address,m.city,m.postal_code].filter(Boolean).join(", ")],
+              ["Contact",[m.contact_name,m.contact_title].filter(Boolean).join(" · ")],["Email",m.contact_email],["Phone",m.contact_phone],["Fax",m.fax],
+              ["Vehicles",(m.vehicles||[]).join(", ")],["Owner",m.owner],["Next action",m.next_action],["Due",m.next_action_due],
+              ["Last touch",m.last_touch_at],["Source",m.source+(m.source_row_ref?" ("+m.source_row_ref+")":"")],["Notes",m.notes]]
+      .filter(([k,v])=>v);
+    const tl=(d.events||[]).map(e=>`<div class="ev ${esc(e.event_type)}">
+        <div class="when">${new Date(e.occurred_at).toLocaleString()} · ${esc(e.event_type)} · ${esc(e.actor)}${e.channel?" · "+esc(e.channel):""}</div>
+        <div class="sum">${esc(e.summary||"")}</div>
+        ${e.payload?`<pre>${esc(JSON.stringify(e.payload,null,1))}</pre>`:""}
+      </div>`).join("");
+    document.getElementById("detail").innerHTML=`<div class="detail">
+      <div class="head"><div class="title" style="font-size:17px">${esc(m.entity_name)} <span class="badge b-${esc(m.stage)}">${esc(m.stage)}</span></div>
+        <button class="btn ghost" id="closeDetail">Close</button></div>
+      <div class="kv">${kv.map(([k,v])=>`<div class="k">${esc(k)}</div><div class="v">${esc(v)}</div>`).join("")}</div>
+      <div class="sect">Actions</div>
+      <div class="row" style="align-items:flex-end;gap:14px" id="actionBar">
+        <div style="min-width:280px;flex:1">
+          <label class="muted" style="font-size:11.5px">Log interaction</label>
+          <div class="row">
+            <select id="aChan" style="padding:7px;border-radius:8px;border:1px solid var(--border)">
+              <option>call</option><option>email</option><option>meeting</option><option>portal</option><option>system</option></select>
+            <select id="aDir" style="padding:7px;border-radius:8px;border:1px solid var(--border)">
+              <option>outbound</option><option>inbound</option></select>
+          </div>
+          <input type="text" id="aSummary" placeholder="what happened" style="margin-top:6px"/>
+          <div class="row" style="margin-top:6px">
+            <input type="text" id="aNext" placeholder="next action (optional)" style="flex:1"/>
+            <input type="date" id="aDue" style="padding:7px;border:1px solid var(--border);border-radius:8px"/>
+            <button class="btn" id="aLog">Log</button>
+          </div>
+        </div>
+        <div>
+          <label class="muted" style="font-size:11.5px">Advance stage</label>
+          <div class="row">
+            <select id="aStage" style="padding:7px;border-radius:8px;border:1px solid var(--border)">
+              <option>NEW</option><option>CONTACTED</option><option>ENGAGED</option><option>QUOTED</option>
+              <option>WON</option><option>DORMANT</option></select>
+            <input type="text" id="aReason" placeholder="reason" style="width:150px"/>
+            <button class="btn" id="aAdvance">Advance</button>
+          </div>
+        </div>
+        <div>
+          <label class="muted" style="font-size:11.5px">Owner</label>
+          <div class="row">
+            <input type="text" id="aOwner" placeholder="owner" style="width:110px"/>
+            <button class="btn ghost" id="aSetOwner">Set</button>
+            <button class="btn ghost" id="aDnc" style="color:var(--red);border-color:var(--red)">Do not contact</button>
+          </div>
+        </div>
+      </div>
+      <div class="sect">History <span class="cnt">${(d.events||[]).length}</span></div>
+      <div class="tl">${tl||'<div class="empty">no events</div>'}</div>
+    </div>`;
+    document.getElementById("closeDetail").onclick=()=>{document.getElementById("detail").innerHTML="";};
+    const refresh=async()=>{await openMember(m.member_id);try{renderOverview(await api("/"));}catch(_){}};
+    const guard=fn=>async()=>{try{await fn();await refresh();}catch(e){banner(e.message,true);}};
+    document.getElementById("aLog").onclick=guard(async()=>{
+      const summary=document.getElementById("aSummary").value.trim();
+      if(!summary){alert("Summary is required.");throw new Error("no summary");}
+      const p={action:"log_interaction",member_id:m.member_id,
+               channel:document.getElementById("aChan").value,direction:document.getElementById("aDir").value,summary};
+      const na=document.getElementById("aNext").value.trim(), due=document.getElementById("aDue").value;
+      if(na){p.next_action=na;if(due)p.next_action_due=due;}
+      await act(p);});
+    document.getElementById("aAdvance").onclick=guard(async()=>{
+      await act({action:"advance_stage",member_id:m.member_id,
+                 new_stage:document.getElementById("aStage").value,
+                 reason:document.getElementById("aReason").value.trim()||undefined});});
+    document.getElementById("aSetOwner").onclick=guard(async()=>{
+      const owner=document.getElementById("aOwner").value.trim();
+      if(!owner){alert("Owner is required.");throw new Error("no owner");}
+      await act({action:"set_owner",member_id:m.member_id,owner});});
+    document.getElementById("aDnc").onclick=guard(async()=>{
+      const reason=prompt("Reason for DO NOT CONTACT (required, goes in the audit log):");
+      if(!reason||!reason.trim())throw new Error("cancelled");
+      await act({action:"mark_do_not_contact",member_id:m.member_id,reason:reason.trim()});});
+    document.getElementById("detail").scrollIntoView({behavior:"smooth"});
+  }catch(e){banner(e.code===401?"Access token rejected (401). Open ⚙ Settings and re-enter the token.":"Could not load member ("+esc(e.message)+").",true);}
+}
+
+let searchTimer=null;
+document.getElementById("q")?.addEventListener("input",e=>{
+  clearTimeout(searchTimer);
+  const q=e.target.value.trim();
+  if(q.length<2){document.getElementById("results").innerHTML="";return;}
+  searchTimer=setTimeout(async()=>{
+    try{
+      const d=await api("/member?q="+encodeURIComponent(q));
+      const ms=d.members||[];
+      document.getElementById("results").innerHTML=
+        `<div class="sect">Search results <span class="cnt">${ms.length}</span></div>`
+        +(ms.length?`<div class="grid">${ms.map(m=>memberCard(m)).join("")}</div>`:`<div class="empty">no members match “${esc(q)}”</div>`);
+      bindCards();
+    }catch(err){banner("Search failed ("+esc(err.message)+").",true);}
+  },300);
+});
+
+async function load(){
+  const c=cfg();
+  if(!c.endpoint||!c.token){showSetup();return;}
+  hideSetup();
+  try{
+    renderOverview(await api("/"));
+    loadCampaigns();
+  }catch(e){
+    if(e.code===401){banner("Access token rejected (401). Open ⚙ Settings and re-enter the token.",true);}
+    else banner("Could not reach the read path. Retrying on next refresh.",true);
+  }
+  if(timer)clearTimeout(timer);
+  timer=setTimeout(load,REFRESH_MS);
+}
+
+const C_STAGES=["NEW","CONTACTED","ENGAGED","QUOTED","WON","DORMANT"];
+const C_VEHICLES=["goodbuy_2b000","goodbuy_6z000","gsa_47qsms26d002z","gsa_gs02f0191v","gov_store"];
+function chks(el,items,name){document.getElementById(el).innerHTML=items.map(v=>
+  `<label style="font-size:12px;border:1px solid var(--border);border-radius:7px;padding:3px 8px;cursor:pointer">
+   <input type="checkbox" name="${name}" value="${v}"> ${v}</label>`).join("");}
+chks("cStages",C_STAGES,"cstage");chks("cVehicles",C_VEHICLES,"cveh");
+function segSpec(){
+  const stages=[...document.querySelectorAll('input[name=cstage]:checked')].map(i=>i.value);
+  const vehicles=[...document.querySelectorAll('input[name=cveh]:checked')].map(i=>i.value);
+  if(!stages.length){alert("Pick at least one stage for the segment.");throw new Error("no stages");}
+  return {stages,vehicles};
+}
+async function campaignApi(payload){
+  const c=cfg();
+  if(!c.wtoken){alert("No write token set. Open ⚙ Settings.");throw new Error("no write token");}
+  const body=JSON.stringify({...payload,actor:c.actor});
+  const r=await fetch(c.endpoint+"/campaign",{method:"POST",cache:"no-store",
+    headers:{"x-crm-write-token":c.wtoken,"content-type":"application/json",
+             "x-amz-content-sha256":await sha256hex(body)},body});
+  const resp=await r.json().catch(()=>({}));
+  if(!r.ok)throw new Error(resp.error||("http "+r.status));
+  return resp;
+}
+document.getElementById("cPreview").onclick=async()=>{try{
+  const d=await campaignApi({op:"preview",segment:segSpec(),
+    subject_tpl:document.getElementById("cSubject").value,body_tpl:document.getElementById("cBody").value});
+  document.getElementById("cPreviewOut").innerHTML=
+    `<div class="banner">Segment matches <b>${d.sendable_count}</b> sendable members.</div>`
+    +(d.samples||[]).map(sm=>`<div class="card" style="cursor:default;margin:8px 0"><div class="title">${esc(sm.subject)}</div>
+      <div class="meta">to ${esc(sm.to)} (${esc(sm.entity_name)})</div><pre style="white-space:pre-wrap;font-size:12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px">${esc(sm.body)}</pre></div>`).join("");
+}catch(e){banner("Preview failed: "+esc(e.message),true);}};
+document.getElementById("cCreate").onclick=async()=>{try{
+  const d=await campaignApi({op:"create",segment:segSpec(),name:document.getElementById("cName").value,
+    reply_to:document.getElementById("cReplyTo").value||undefined,
+    subject_tpl:document.getElementById("cSubject").value,body_tpl:document.getElementById("cBody").value});
+  banner(`Draft #${d.campaign_id} created (${d.sendable_count} sendable in segment). Approve it below when ready.`);
+  loadCampaigns();
+}catch(e){banner("Create failed: "+esc(e.message),true);}};
+async function loadCampaigns(){
+  try{
+    const d=await api("/campaigns");
+    const cs=d.campaigns||[];
+    document.getElementById("campaigns").innerHTML=!cs.length?`<div class="empty">No campaigns yet — create one below.</div>`
+      :cs.map(cm=>{
+        const st=cm.status, acts=[];
+        if(st==="DRAFT")acts.push(`<button class="btn" data-op="approve" data-id="${cm.campaign_id}">Approve</button>`,
+                                  `<button class="btn ghost" data-op="cancel" data-id="${cm.campaign_id}">Cancel</button>`);
+        if(st==="APPROVED")acts.push(`<button class="btn" data-op="send" data-id="${cm.campaign_id}">Send now</button>`,
+                                     `<button class="btn ghost" data-op="cancel" data-id="${cm.campaign_id}">Cancel</button>`);
+        return `<div class="card" style="cursor:default;margin-bottom:8px"><div class="top">
+          <div class="title">#${cm.campaign_id} ${esc(cm.name)} <span class="badge b-${st==="SENT"?"WON":st==="SENDING"?"QUOTED":st==="CANCELLED"?"DO_NOT_CONTACT":st==="APPROVED"?"ENGAGED":"NEW"}">${esc(st)}</span></div>
+          <div class="row">${acts.join("")}</div></div>
+          <div class="meta">${esc(cm.subject_tpl)} · recipients ${cm.recipients??0} · sent ${cm.sent??0} · pending ${cm.pending??0} · bounced ${cm.bounced??0} · unsub ${cm.unsubscribed??0}</div></div>`;}).join("");
+    document.querySelectorAll("#campaigns [data-op]").forEach(b=>b.onclick=async()=>{
+      const op=b.dataset.op, id=+b.dataset.id;
+      if(op==="approve"&&!confirm(`Approve campaign #${id}? This snapshots the recipient list.`))return;
+      if(op==="send"&&!confirm(`SEND campaign #${id} now? Emails go out immediately and cannot be recalled.`))return;
+      try{await campaignApi({op,campaign_id:id});banner(`Campaign #${id}: ${op} ok.`);loadCampaigns();}
+      catch(e){banner(`${op} failed: `+esc(e.message),true);}});
+  }catch(e){document.getElementById("campaigns").innerHTML=`<div class="empty">campaigns unavailable (${esc(e.message)})</div>`;}
+}
+
+// The committed crm-config.js sets window.CRM_ENDPOINT (endpoint only — never the
+// token). It is authoritative when non-empty: an endpoint rotation deploy-side
+// self-heals every browser; only the token stays manual.
+if(window.CRM_ENDPOINT){localStorage.setItem(LS_ENDPOINT,window.CRM_ENDPOINT.replace(/\/+$/,""));}
+load();
+</script>
+</html>

@@ -1,0 +1,75 @@
+{
+ "bid_id": "city-of-farmington-nm-27-168028",
+ "bid_number": "27-168028",
+ "agency": "City of Farmington, NM",
+ "src": "Open",
+ "title": "LAMB/MUTTON MEAT FOR FARMINGTON INDIAN CENTER MULTI-TERM CONTRACT",
+ "close": "8/18/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Lamb Meat",
+   "qty": "2600",
+   "uom": "LB",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Lamb Meat 2600 LB No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Mutton Meat",
+   "qty": "2600",
+   "uom": "LB",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Mutton Meat 2600 LB No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bid Specification 27-168028.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid Specification 27-168028.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 12.0,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 183058,
+  "max_fetch_seconds": 0.52,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-14T08:27:47.302502+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-farmington-nm-27-168028/coverage.json"
+}

@@ -1,0 +1,179 @@
+# .github/workflows/spine-ap-rows.yml
+# AP Workbench per-invoice feed. workflow_dispatch + daily schedule.
+# Runs ONE read-only SELECT via the finance-runner image (MODE=query) using the
+# de-gated mc-spine-finance-reader role + un-gated spine-read environment (identical
+# pattern to spine-ess-audit / spine-finance-query-degated). The SELECT builds the
+# whole rows.json server-side (per-invoice OUTSTANDING + RECENT rows, with order_date
+# joined from Magento) and base64-encodes it; this job decodes it to
+# finance/ap/rows.json and commits. ADDITIVE: it does NOT touch finance/ap/data.json
+# or the spine-ap-refresh job — the live AP dashboard is unaffected.
+#
+# Row definition:
+#   population = every vendor invoice (ESS + SPR) with invoice_date in 2026
+#   order_date = mirror_magento.sales_flat_order.created_at, joined increment_id = channel_order_id
+#   rollup     = master_vendor_profile_list.profile_code -> vendor_code, else numeric->ess / rich|1045202->spr
+name: spine-ap-rows
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "45 8 * * *"   # 08:45 UTC, after the 07:00 mirror + 08:00 ap-refresh + 08:30 ess-audit
+
+permissions:
+  id-token: write
+  contents: write
+
+env:
+  AWS_REGION: us-east-1
+  READER_ROLE: arn:aws:iam::114812789687:role/mc-spine-finance-reader
+  CLUSTER: mc-spine-cluster
+  TASK_DEF: mc-spine-finance-runner
+  LOG_GROUP: /mc-spine/finance-runner
+  SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
+  SECURITY_GROUPS: sg-0b0521438f059e5fc
+
+jobs:
+  rows:
+    runs-on: ubuntu-latest
+    environment: spine-read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: AWS creds via OIDC (de-gated reader role)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.READER_ROLE }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: RunTask MODE=query (build rows.json server-side)
+        id: run
+        env:
+          SQL_TEXT_INLINE: |
+            WITH v AS (
+              SELECT v.channel_order_id AS coid,
+                     v.invoice_id       AS inv,
+                     v.vendor_code      AS vc,
+                     v.invoice_date     AS idt,
+                     v.total_cost       AS amt,
+                     v.invoice_status   AS ist,
+                     COALESCE(p.vendor_code,
+                       CASE WHEN v.vendor_code ILIKE '%rich%' OR v.vendor_code LIKE '1045202%'
+                            THEN 'spr' ELSE 'ess' END) AS rollup
+              FROM mirror_erp_advance.vendor_invoice_list v
+              LEFT JOIN mirror_erp_advance.master_vendor_profile_list p
+                     ON p.profile_code = v.vendor_code
+              WHERE v.invoice_date >= DATE '2026-01-01' AND v.invoice_date < DATE '2027-01-01'
+                AND (v.invoice_status = 0 OR v.invoice_date >= (CURRENT_DATE - INTERVAL '90 days'))
+            ),
+            vo AS (
+              SELECT v.*, max(o.created_at) AS odt
+              FROM v
+              LEFT JOIN mirror_magento.sales_flat_order o ON o.increment_id = v.coid
+              GROUP BY v.coid, v.inv, v.vc, v.idt, v.amt, v.ist, v.rollup
+            )
+            SELECT translate(encode(convert_to((json_build_object(
+              'generated', to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'),
+              'scope', 'ap_rows_open_plus_90d',
+              'count', (SELECT count(*) FROM vo),
+              'rows', (SELECT coalesce(json_agg(json_build_object(
+                   'invoice_id', inv,
+                   'invoice_date', idt::text,
+                   'vendor_code', vc,
+                   'rollup', rollup,
+                   'channel_order_id', coid,
+                   'order_date', CASE WHEN odt IS NOT NULL THEN odt::date::text ELSE NULL END,
+                   'total_cost', round(amt::numeric,2),
+                   'invoice_status', ist
+                 ) ORDER BY idt DESC, coid), '[]'::json) FROM vo)
+            ))::text, 'UTF8'), 'base64'), E'\n', '')
+        run: |
+          OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
+            '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
+          TASK_ARN=$(aws ecs run-task --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          [ -n "$TASK_ARN" ] && [ "$TASK_ARN" != "None" ] || { echo "no task ARN"; exit 1; }
+          echo "task_arn=$TASK_ARN" >> "$GITHUB_OUTPUT"
+          echo "Started $TASK_ARN"
+
+      - name: Wait for task to stop
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"
+          for i in $(seq 1 120); do
+            S=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].lastStatus' --output text)
+            echo "poll $i: $S"; [ "$S" = "STOPPED" ] && break; sleep 10
+          done
+
+      - name: Decode rows JSON, write feed, commit
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"
+          TASK_ID="${TASK_ARN##*/}"
+          EXIT_CODE=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "exitCode=$EXIT_CODE"
+          # Read the WHOLE stream from the head, paginating until exhausted. A single
+          # get-log-events returns <=1MB and DEFAULTS TO THE TAIL, which drops the BEGIN
+          # marker when the base64 payload spans multiple pages. --start-from-head + the
+          # nextForwardToken loop reassembles every event in order.
+          STREAM="query/finance-runner/$TASK_ID"
+          : > /tmp/rowslog.txt
+          TOK="START"
+          for i in $(seq 1 80); do
+            if [ "$TOK" = "START" ]; then
+              aws logs get-log-events --log-group-name "$LOG_GROUP" --log-stream-name "$STREAM" \
+                --start-from-head --output json > /tmp/_resp.json || { echo "no logs" >&2; exit 1; }
+            else
+              aws logs get-log-events --log-group-name "$LOG_GROUP" --log-stream-name "$STREAM" \
+                --start-from-head --next-token "$TOK" --output json > /tmp/_resp.json || { echo "no logs" >&2; exit 1; }
+            fi
+            python3 - <<'PY'
+          import json
+          d = json.load(open('/tmp/_resp.json'))
+          with open('/tmp/rowslog.txt', 'a') as f:
+              # newline-join so the one-word 'translate' header stays a SEPARATE token
+              # (an empty join glues it onto the base64 -> decode starts at byte 0xb6).
+              f.write('\n'.join(e['message'] for e in d['events']) + '\n')
+          open('/tmp/_tok', 'w').write(d.get('nextForwardToken', ''))
+          open('/tmp/_n', 'w').write(str(len(d['events'])))
+          PY
+            N=$(cat /tmp/_n); NT=$(cat /tmp/_tok)
+            [ "$N" = "0" ] && break
+            [ "$NT" = "$TOK" ] && break
+            TOK="$NT"
+          done
+          if [ "$EXIT_CODE" != "0" ]; then echo "query task failed"; exit 1; fi
+          mkdir -p finance/ap
+          python3 - <<'PY'
+          import re, base64, json, sys
+          log = open('/tmp/rowslog.txt', 'r', errors='replace').read()
+          m = re.search(r'BEGIN CSV RESULT(.*?)END CSV RESULT', log, re.S)
+          if not m:
+              print("No CSV markers in log"); sys.exit(1)
+          # awslogs splits lines >16KB across events; reassemble all base64 fragments,
+          # dropping the one-word column header ('translate'/'column').
+          toks = re.findall(r'[A-Za-z0-9+/=]+', m.group(1))
+          toks = [t for t in toks if t not in ('translate', 'column')]
+          if not toks:
+              print("No base64 token found"); sys.exit(1)
+          obj = json.loads(base64.b64decode(''.join(toks)))
+          with open('finance/ap/rows.json', 'wb') as f:
+              f.write(json.dumps(obj, separators=(',', ':')).encode('utf-8'))
+          rows = obj.get('rows', [])
+          dated = sum(1 for r in rows if r.get('order_date'))
+          opn = sum(1 for r in rows if r.get('invoice_status') == 0)
+          print("rows.json ok: count=%s open=%s with_order_date=%s scope=%s" % (
+              obj.get('count'), opn, dated, obj.get('scope')))
+          PY
+          git config user.name "ap-rows-bot"
+          git config user.email "ap-rows@users.noreply.github.com"
+          git add finance/ap/rows.json
+          if git diff --cached --quiet; then
+            echo "rows.json unchanged - nothing to commit."
+          else
+            git commit -m "AP rows feed refresh $(date -u +%F) [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              if git push; then echo "pushed"; break; fi
+              echo "push rejected (attempt $attempt) - rebasing"
+              git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
+            done
+          fi

@@ -1,0 +1,79 @@
+# .github/workflows/spine-bids-feed-run.yml
+# Daily bids INGEST (the Fargate Chromium scan is RETIRED — decision 2026-07-05; the
+# Mac Mini is the scanner of record and publishes federal-bids/bids_latest.json ~07:45
+# UTC). This workflow builds the lightweight ingest image (no Chromium/xvfb), runs the
+# mc-spine-bids-ingest Fargate task, which fail-closed validates the published snapshot
+# (staleness >26h -> red; any missing required field -> STOP, nothing loaded), upserts
+# goodbuy.bid_events (sha-keyed, scanner columns preserved), and runs
+# capture.sync_from_sources(). Hard in-task timeout: 540s.
+# OIDC via the de-gated mc-spine-bids-feed-reader role in the UNGATED spine-read
+# environment — a daily schedule must not wait on approval clicks.
+name: spine-bids-feed-run
+
+on:
+  schedule:
+    - cron: "30 8 * * *"   # ≥30 min after the ~07:45 UTC Mac Mini publish window
+  workflow_dispatch: {}
+
+permissions:
+  id-token: write     # assume the AWS reader role (no repo writes — data flows INTO the warehouse)
+
+env:
+  AWS_REGION: us-east-1
+  ROLE_ARN: arn:aws:iam::114812789687:role/mc-spine-bids-feed-reader
+  ECR_REPO: 114812789687.dkr.ecr.us-east-1.amazonaws.com/mc-spine-portal
+  IMAGE_TAG: ingest
+  CLUSTER: mc-spine-cluster
+  TASK_DEF: mc-spine-bids-ingest
+  LOG_GROUP: /mc-spine/portal
+  SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
+  SECURITY_GROUPS: sg-0b0521438f059e5fc
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    environment: spine-read          # UNGATED (0 reviewers): scheduled ingest runs unattended
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials via OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: ECR login
+        run: aws ecr get-login-password --region "$AWS_REGION" | docker login --username AWS --password-stdin "${ECR_REPO%/*}"
+
+      - name: Build + push ingest image (python-slim; no Chromium)
+        run: |
+          docker build -f platform/ingestion/bids_ingest/Dockerfile -t "$ECR_REPO:$IMAGE_TAG" platform/ingestion/bids_ingest
+          docker push "$ECR_REPO:$IMAGE_TAG"
+
+      - name: Run bids-ingest task (Fargate, private subnets)
+        id: run
+        run: |
+          TASK_ARN=$(aws ecs run-task --cluster "$CLUSTER" --launch-type FARGATE \
+            --task-definition "$TASK_DEF" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          [ -n "$TASK_ARN" ] && [ "$TASK_ARN" != "None" ] || { echo "run-task gave no ARN" >&2; exit 1; }
+          echo "task_arn=$TASK_ARN" >> "$GITHUB_OUTPUT"; echo "Started $TASK_ARN"
+
+      - name: Wait for task to stop (task self-limits to 9 min; poll up to 12)
+        run: |
+          for i in $(seq 1 48); do
+            S=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "${{ steps.run.outputs.task_arn }}" --query 'tasks[0].lastStatus' --output text)
+            echo "poll $i: $S"; [ "$S" = "STOPPED" ] && break; [ "$i" -eq 48 ] && { echo "timeout" >&2; exit 1; }; sleep 15
+          done
+
+      - name: Check exit + surface the ingest summary (fail red on non-zero)
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"; TASK_ID="${TASK_ARN##*/}"
+          EXIT_CODE=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "container exitCode: $EXIT_CODE  (0 ok · 2 stale snapshot · 3 validation gap · 4 fetch · 124 timeout)"
+          aws logs get-log-events --log-group-name "$LOG_GROUP" --log-stream-name "ingest/ingest/$TASK_ID" \
+            --query 'events[].message' --output text | tr '\t' '\n' > /tmp/ingest.log || true
+          echo "----- ingest log -----"; cat /tmp/ingest.log; echo "----------------------"
+          grep "INGEST SUMMARY" /tmp/ingest.log >> "$GITHUB_STEP_SUMMARY" || true
+          [ "$EXIT_CODE" = "0" ] || { echo "ingest failed ($EXIT_CODE)"; exit 1; }

@@ -1,0 +1,151 @@
+{
+ "bid_id": "brazos-county-cip-26-533",
+ "bid_number": "CIP 26-533",
+ "agency": "Brazos County",
+ "src": "Open",
+ "title": "Brazos County - Master Plan",
+ "close": "8/11/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP - CIP 26-533 Brazos County - Master Plan.pdf",
+  "Exhibit A - Brazos County Existing Software Systems.pdf",
+  "Exhibit B - Compensation _ Benefits Study.pdf",
+  "Exhibit C _ Brazos County Capital Improvements Program for Fiscal Years 2026-2030.pdf",
+  "Exhibit D _ Brazos County_ Texas Adopted Budget for Fiscal Year 2026.pdf",
+  "Exhibit E - Existing Brazos County Policies.pdf",
+  "Exhibit F - Brazos County Facility Design Guidelines.pdf",
+  "Exhibit G - Brazos County Consultant Contract.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP - CIP 26-533 Brazos County - Master Plan.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A - Brazos County Existing Software Systems.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B - Compensation _ Benefits Study.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C _ Brazos County Capital Improvements Program for Fiscal Years 2026-2030.pdf",
+   "kind": "pdf",
+   "tables": 81,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Exhibit D _ Brazos County_ Texas Adopted Budget for Fiscal Year 2026.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E - Existing Brazos County Policies.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit F - Brazos County Facility Design Guidelines.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit G - Brazos County Consultant Contract.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Exhibit C _ Brazos County Capital Improvements Program for Fiscal Years 2026-2030.pdf",
+   "sheet": 29,
+   "header_row": 3,
+   "headers": [
+    "8.Project Description and Scope",
+    "This project includes a new building, parking garage, and pedestrian bridge at the 101 N.\nTexas Ave. site. The current programming plan is for this new building to house the Public\nDefender's Office, Community Supervision and Corrections Department/Adult Probation,\nJustice of the Peace - Precinct 4, and Constable - Precinct 4 offices. The site will also\ninclude a parking structure for the public and our employees, as well as a pedestrian\nbridge connecting this new building to the Courthouse at a to-be-determined location.\nThere will be future growth space allocated for each department, and potentially a 4th\nfloor shell space for future use."
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "9.Purpose and Need Including Efficiencies and Savings",
+     "This new building will provide space for several departments in need of it. The Public\nDefender's Office currently does not have a permanent office location. The\nJP4/Constable 4 offices are inconveniently located on the 4th floor of the Courthouse.\nAdult Probation has no room to grow, and we can create some efficiencies in their\nworkflows by re-designing their space. By vacating the spaces that these departments\ncurrently occupy, it gives the County some flexibility to pursue additional courtroom space\nin the courthouse. The pedestrian bridge will allow for the safe crossing of Texas Ave. for\nthe many folks moving back and forth between these two buildings. A 4th floor shell\nspace would allow for a future buildout, and give the County an additional 20,000 square\nfeet in our downtown footprint, which is invaluable as we continue to grow and plan for the\nfuture."
+    ],
+    [
+     "10.History and Current Status",
+     "This project is currently at 100% Schematic Design in the design process, with a tentative\nGMP date of 02/2016, and a notice to proceed on 02/16/2025."
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit C _ Brazos County Capital Improvements Program for Fiscal Years 2026-2030.pdf",
+   "sheet": 51,
+   "header_row": 8,
+   "headers": [
+    "8.Project Description and Scope",
+    "Upgrade to NovusAgenda Software used to create electronic agendas for all meeting\ntypes and to meet the need of Commissioners Court and the public. The newest version\nof the software supports voting via iPad, so this cost includes an iPad for each court\nmember and the cellular costs associated with those iPads."
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "9.Purpose and Need Including Efficiencies and Savings",
+     "Mandatory requirement for publication of all meeting types for Commissioners Court\nmembers. This allows availability for viewing prior to the meeting for the court and the\npublic."
+    ],
+    [
+     "10.History and Current Status",
+     "The current agenda software is being discontinued by the manufacturer. The end of\nsupport for the software by the manufacturer means this must be replaced. That end of\nsupport date is October 31st, 2024. The end of life date for the software is September\n30th, 2025."
+    ],
+    [
+     "11.Project Priority",
+     "Priority I: Imperative / Urgent"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 35.5,
+  "attachment_fetches": 8,
+  "attachment_seconds": 17.9,
+  "attachment_bytes": 24779496,
+  "max_fetch_seconds": 6.42,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:54:55.172850+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/brazos-county-cip-26-533/coverage.json"
+}

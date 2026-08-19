@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-08-19T15:22:53.460926+00:00",
+  "source_pipeline": "aws_finance_read_runner",
+  "schema": "net_position_v3",
+  "ap": {
+    "outstanding": 229867.37,
+    "fetched_at": "2026-06-09T17:27:00Z",
+    "as_of_statement": "2026-06-03",
+    "as_of_recent": "2026-06-08",
+    "source": "ap_scrutiny_live_statement_plus_recent",
+    "breakdown": {
+      "essendant": 208081.34,
+      "sp_richards": 21786.03,
+      "statement_total": 197723.99,
+      "recent_total": 32143.38
+    },
+    "note": "Live = statement $197,723.99 (sticky, updates on new vendor statement) + recent $32,143.38 (live daily from finance/ap/data.json) = $229,867.37. The page recomputes total = statement_total + data.json.recent.sum each load, so it tracks the AP dashboard and refreshes daily. ESS $208,081.34 (stmt 178,326.39 + recent 29,754.95) + SPR $21,786.03. Off-statement manual items (ZOLL K4080 $3,934.14, Veritiv ~$67K) tracked separately."
+  },
+  "fedex": {
+    "outstanding": 14000.0,
+    "fetched_at": "2026-07-25T00:00:00-04:00",
+    "source": "manual_ekene_2026-07-25",
+    "confirm_live": true,
+    "note": "MANUAL \u2014 $14,000 set by Ekene 2026-07-25 (was $12,000). NOT live. B1 finding 2026-06-12: FedEx exposes no billing/invoice API; path is B2 = FedEx Billing Online automated recurring reports + collect-only ingestion (no headless portal login). Goes live only when fedex.invoices flows and the line walk is fully derived."
+  },
+  "isg_payable": {
+    "outstanding": 5343.41,
+    "fetched_at": "2026-06-08T07:00:00-04:00",
+    "source": "portal_feed_isg",
+    "confirm_live": true,
+    "note": "STUB \u2014 EDI onboarding in progress (decision of record 2026-06-12: ISG AP arrives via EDI 810/855/856 over FTP from FTP.TRIMEGA.ORG; parser built+tested in platform/ingestion/isg_edi, awaiting connectivity from ISG). Value = last-known recon $5,343.41, NOT live. Goes live only when isg.invoices flows and the line walk is fully derived."
+  },
+  "amazon_held": {
+    "net": null,
+    "awaiting_precise_net": true,
+    "source": "finance/ap/data.json.held",
+    "note": "NO hand-entered value. The page reads held entirely from the live finance/ap/data.json.held feed: gross/count/tail are live now; the precise NET is shown the moment the held feed publishes held.net (Amazon's SP-API Finances reserve). Until then the line is flagged NET PENDING - never a fabricated number."
+  },
+  "fba_stock": {
+    "value": 10500.0,
+    "fetched_at": "2026-07-25T00:00:00-04:00",
+    "source": "manual_ekene_2026-07-25",
+    "confirm_live": true,
+    "note": "MANUAL \u2014 unsold FBA stock valued at $10,500 by Ekene 2026-07-25. Inventory at cost, NOT cash: it converts only as units sell and Amazon settles. Included in the computed position at Ekene's instruction. Goes live only if an SP-API inventory valuation feed is wired up."
+  },
+  "plaid": {
+    "fetched_at": "2026-08-19T15:22:25.474591+00:00",
+    "env": "production",
+    "source": "plaid_balance_v1_aws",
+    "feed_runtime": "aws_read_runner",
+    "accounts": [
+      {
+        "key": "boa_checking_4908",
+        "label": "BOA Checking (4908)",
+        "type": "depository",
+        "amount": 42535.95
+      },
+      {
+        "key": "boa_savings_4911",
+        "label": "BOA Savings (4911)",
+        "type": "depository",
+        "amount": 503.49
+      },
+      {
+        "key": "boa_checking_6503",
+        "label": "BOA Checking (6503)",
+        "type": "depository",
+        "amount": 140.15
+      },
+      {
+        "key": "amex",
+        "label": "Amex owed",
+        "type": "credit",
+        "amount": -14388.24
+      },
+      {
+        "key": "paypal",
+        "label": "PayPal",
+        "type": "depository",
+        "amount": 0.0
+      }
+    ],
+    "errors": []
+  }
+}

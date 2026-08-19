@@ -1,0 +1,335 @@
+{
+ "bid_id": "city-of-lincoln-ne-26-158",
+ "bid_number": "26-158",
+ "agency": "City of Lincoln, NE",
+ "src": "Open",
+ "title": "Temporary Help Services to Support Field Operations",
+ "close": "8/19/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 15,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 15,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Labor Rate, per person - not using any equipment or vehicles; may require use of hand tools (shovels/brooms/rakes)",
+   "qty": "16650",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Labor Rate, per person - not using any equipment or vehicles; may require use of hand tools (shovels/brooms/rakes) 16650 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Labor Rate, per person - using power tools, small equipment",
+   "qty": "820",
+   "uom": "Hour",
+   "note": "Per specifications, section 4.1.3.1 - small powered equipment, push and riding mowers, snowblowers, weed eaters, and chainsaws.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Labor Rate, per person - using power tools, small equipment 820 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Labor Rate, per person - using provided small construction equipment, utility/unlicensed vehicles",
+   "qty": "100",
+   "uom": "Hour",
+   "note": "Per specifications, section 4.1.3.2 - small construction equipment such as skid steer/compact track loader and RTV/ATV/Side-by-Side, and golf carts.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Labor Rate, per person - using provided small construction equipment, utility/unlicensed vehicles 100 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Labor Rate, per person - using mid-sized construction equipment",
+   "qty": "50",
+   "uom": "Hour",
+   "note": "Per specifications, section 4.1.3.3 - mid-sized construction equipment such as ag tractor, water application truck/equipment, small articulated front-end loader, mini rear load refuse truck (non CDL)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Labor Rate, per person - using mid-sized construction equipment 50 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Labor Rate, per person - using licensed vehicles, including those requiring a CDL",
+   "qty": "200",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Labor Rate, per person - using licensed vehicles, including those requiring a CDL 200 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Labor Rate, per person - supervising Contractor provided individuals; may include using licensed vehicle",
+   "qty": "1850",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Labor Rate, per person - supervising Contractor provided individuals; may include using licensed vehicle 1850 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Equipment Rate, Contractor provided Pickup Truck",
+   "qty": "350",
+   "uom": "Hour",
+   "note": "Hourly rate applies only for time the equipment is physically on the job site or for travel time to the landfill/recycling facility, and for the unloading time. Travel from Contractor office/yard to jobsite and travel from jobsite or landfill/recycling facility to Contractor office/yard is not eligible for invoicing for the bid items related to Contractor providing equipment.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Equipment Rate, Contractor provided Pickup Truck 350 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Equipment Rate, Contractor provided Pickup Truck with Approved Trailer",
+   "qty": "475",
+   "uom": "Hour",
+   "note": "Hourly rate applies only for time the equipment is physically on the job site or for travel time to the landfill/recycling facility, and for the unloading time. Travel from Contractor office/yard to jobsite and travel from jobsite or landfill/recycling facility to Contractor office/yard is not eligible for invoicing for the bid items related to Contractor providing equipment.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Equipment Rate, Contractor provided Pickup Truck with Approved Trailer 475 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Equipment Rate, Contractor provided Pickup Truck with Dump Box",
+   "qty": "10",
+   "uom": "Hour",
+   "note": "Hourly rate applies only for time the equipment is physically on the job site or for travel time to the landfill/recycling facility, and for the unloading time. Travel from Contractor office/yard to jobsite and travel from jobsite or landfill/recycling facility to Contractor office/yard is not eligible for invoicing for the bid items related to Contractor providing equipment.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Equipment Rate, Contractor provided Pickup Truck with Dump Box 10 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Equipment Rate, Contractor provided Dump Truck",
+   "qty": "10",
+   "uom": "Hour",
+   "note": "Hourly rate applies only for time the equipment is physically on the job site or for travel time to the landfill/recycling facility, and for the unloading time. Travel from Contractor office/yard to jobsite and travel from jobsite or landfill/recycling facility to Contractor office/yard is not eligible for invoicing for the bid items related to Contractor providing equipment.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Equipment Rate, Contractor provided Dump Truck 10 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "Equipment Rate, Contractor provided Skid Steer/Compact Track Loader",
+   "qty": "10",
+   "uom": "Hour",
+   "note": "Hourly rate applies only for time the equipment is physically on the job site or for travel time to the landfill/recycling facility, and for the unloading time. Travel from Contractor office/yard to jobsite and travel from jobsite or landfill/recycling facility to Contractor office/yard is not eligible for invoicing for the bid items related to Contractor providing equipment.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 Equipment Rate, Contractor provided Skid Steer/Compact Track Loader 10 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "Equipment Rate, Contractor provided Articulated Front-End Loader",
+   "qty": "10",
+   "uom": "Hour",
+   "note": "Hourly rate applies only for time the equipment is physically on the job site or for travel time to the landfill/recycling facility, and for the unloading time. Travel from Contractor office/yard to jobsite and travel from jobsite or landfill/recycling facility to Contractor office/yard is not eligible for invoicing for the bid items related to Contractor providing equipment.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 Equipment Rate, Contractor provided Articulated Front-End Loader 10 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "Equipment Rate, Contractor provided Rear-Loading Refuse Truck",
+   "qty": "20",
+   "uom": "Hour",
+   "note": "Hourly rate applies only for time the equipment is physically on the job site or for travel time to the landfill/recycling facility, and for the unloading time. Travel from Contractor office/yard to jobsite and travel from jobsite or landfill/recycling facility to Contractor office/yard is not eligible for invoicing for the bid items related to Contractor providing equipment.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 Equipment Rate, Contractor provided Rear-Loading Refuse Truck 20 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "Equipment Rate, Contractor provided 20-Yard Roll-Off Box, delivery and dump (do not include pass thru fees for disposal facility charges)",
+   "qty": "22",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 Equipment Rate, Contractor provided 20-Yard Roll-Off Box, delivery and dump (do not include pass thru fees for disposal facility charges) 22 Each No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "Equipment Rate, Contractor provided 30-Yard Roll-Off Box, delivery and dump (do not include pass thru fees for disposal facility charges)",
+   "qty": "10",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 Equipment Rate, Contractor provided 30-Yard Roll-Off Box, delivery and dump (do not include pass thru fees for disposal facility charges) 10 Each No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders 11-2023.pdf",
+  "Contract - City Service.pdf",
+  "Temporary Help - Insurance Determination Form.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "26-158 Temporary Help Services to Support Field Operations Specifications.pdf",
+  "Map - District Designations for Illegal Dumping Monthly Sweeps.pdf",
+  "Form - SWEEP Report.pdf",
+  "Form - Illegal Dumping Report.pdf",
+  "Illegal Dumping Daily Summary Expense form.pdf",
+  "Empl_Class_Act_Aff.pdf",
+  "Empl_Class_Act_EO.pdf",
+  "United States Citizenship Attestation Form.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Service.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Temporary Help - Insurance Determination Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-158 Temporary Help Services to Support Field Operations Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Map - District Designations for Illegal Dumping Monthly Sweeps.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form - SWEEP Report.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Form - Illegal Dumping Report.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Illegal Dumping Daily Summary Expense form.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_Aff.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_EO.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 39.6,
+  "attachment_fetches": 14,
+  "attachment_seconds": 22.8,
+  "attachment_bytes": 6504946,
+  "max_fetch_seconds": 10.8,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:28:56.677214+00:00",
+ "extract_attempts": 1,
+ "lines_total": 9,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-lincoln-ne-26-158/coverage.json"
+}

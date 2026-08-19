@@ -1,0 +1,63 @@
+{
+ "bid_id": "city-of-fayetteville-ar-bid-26-50",
+ "bid_number": "Bid 26-50",
+ "agency": "City of Fayetteville, AR",
+ "src": "Invited",
+ "title": "Noland Sludge Blower",
+ "close": "9/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Noland Sludge Blower: Provide three (3) Noland sludge blowers, each complete with an individual external soft starter and discharge butterfly valve",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Noland Sludge Blower: Provide three (3) Noland sludge blowers, each complete with an individual external soft starter and discharge butterfly valve 3 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bid 26-50_ Bid Form - Final.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid 26-50_ Bid Form - Final.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 17.7,
+  "attachment_fetches": 1,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 1582473,
+  "max_fetch_seconds": 1.35,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-18T08:21:50.534203+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-fayetteville-ar-bid-26-50/coverage.json"
+}

@@ -1,0 +1,143 @@
+{
+ "bid_id": "canyons-school-district-ut-27-00003mm-p5",
+ "bid_number": "27-00003MM-P5",
+ "agency": "Canyons School District, UT",
+ "src": "Invited",
+ "title": "Districtwide Snow Removal",
+ "close": "7/15/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Please provide an hourly rate for the following: 3/4 ton four-wheel drive truck w/plow",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Please provide an hourly rate for the following: 3/4 ton four-wheel drive truck w/plow 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Please provide an hourly rate for the following: Skid Steer w/box",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Please provide an hourly rate for the following: Skid Steer w/box 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Please provide an hourly rate for the following: 10-wheeler w/plow",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Please provide an hourly rate for the following: 10-wheeler w/plow 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Please provide an hourly rate for the following: Front end loader w/box",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Please provide an hourly rate for the following: Front end loader w/box 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Please provide an hourly rate for the following: Backhoe w/box",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Please provide an hourly rate for the following: Backhoe w/box 1 HOUR No Response"
+  }
+ ],
+ "attachments_saved": [
+  "CSD Purchasing Terms_Conditions Rev 2-4-26.pdf",
+  "CSD Location Map 2024.pdf",
+  "RFP Schedules A-E - Response Attachments _35_Snow Removal RFP.docx",
+  "CSD_Public_Contract_Boycott_Restrictions_Certification_5-9-23 _1_.pdf",
+  "Reference Sheet -- Fillable -- revised 03-02-2026.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CSD Purchasing Terms_Conditions Rev 2-4-26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CSD Location Map 2024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Schedules A-E - Response Attachments _35_Snow Removal RFP.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "CSD_Public_Contract_Boycott_Restrictions_Certification_5-9-23 _1_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Reference Sheet -- Fillable -- revised 03-02-2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 22.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 8.1,
+  "attachment_bytes": 2403017,
+  "max_fetch_seconds": 4.84,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:32:02.883537+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/canyons-school-district-ut-27-00003mm-p5/coverage.json"
+}

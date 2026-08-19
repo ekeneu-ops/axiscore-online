@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Axiscore Mission Control — Daily Decision Queue</title>
+<style>
+:root{
+ --bg:#f0ebe3; --surface:#ffffff; --surface-2:#e8e2d9; --surface-hover:#f5f0e8;
+ --border:#d9d0c4; --border-light:#c9bfb3; --text:#2c2825; --text-muted:#6b6259; --text-dim:#9a9089;
+ --accent:#5a9e2f; --accent-dim:rgba(90,158,47,0.12); --accent-hover:#4d8a28; --btn-text:#fff;
+ --red:#dc2626; --red-dim:rgba(220,38,38,.10); --amber:#b45309; --amber-dim:rgba(180,83,9,.12);
+ --blue:#2563eb; --blue-dim:rgba(37,99,235,.10); --purple:#7c3aed; --purple-dim:rgba(124,58,237,.12);
+ --cyan:#0891b2; --cyan-dim:rgba(8,145,178,.12);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.logo{font-size:13px;color:var(--text-dim);font-weight:600;letter-spacing:.04em}
+.logo-sub{font-size:20px;color:var(--text);font-weight:800;letter-spacing:-.01em}
+header{padding:16px 26px;border-bottom:1px solid var(--border);background:var(--surface);display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+header .grow{flex:1}
+a.navlink{color:var(--text-muted);font-weight:600;text-decoration:none;font-size:13px}
+a.navlink:hover{color:var(--accent)}
+main{padding:22px 26px 60px;max-width:1180px;margin:0 auto}
+h2{font-size:22px;font-weight:800;margin:0 0 4px}
+.muted{color:var(--text-muted)}
+.statbar{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0 10px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:14px 18px;min-width:150px;cursor:pointer;border-left-width:4px}
+.stat .n{font-size:30px;font-weight:800;line-height:1}.stat .l{color:var(--text-muted);font-size:12.5px;margin-top:5px}
+.stat.submit{border-left-color:var(--accent)} .stat.submit .n{color:var(--accent)}
+.stat.risk{border-left-color:var(--amber)} .stat.risk .n{color:var(--amber)}
+.stat.nobid{border-left-color:var(--red)} .stat.nobid .n{color:var(--red)}
+.stat.active{box-shadow:0 0 0 2px var(--accent-dim)}
+.srchealth{display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px;margin:6px 0 18px;font-size:12.5px}
+.dot{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;border:1px solid var(--border);font-weight:600}
+.dot::before{content:"";width:8px;height:8px;border-radius:50%}
+.dot.ok{color:var(--accent);background:var(--accent-dim)}.dot.ok::before{background:var(--accent)}
+.dot.stale{color:var(--amber);background:var(--amber-dim)}.dot.stale::before{background:var(--amber)}
+.dot.missing{color:var(--red);background:var(--red-dim)}.dot.missing::before{background:var(--red)}
+.sect{margin:22px 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-muted);border-bottom:1px solid var(--border);padding-bottom:6px;display:flex;gap:8px;align-items:center}
+.sect .cnt{background:var(--surface-2);border-radius:999px;padding:0 8px;font-size:11px;color:var(--text-muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 15px;display:flex;flex-direction:column;gap:8px;border-left:4px solid var(--border)}
+.card.submit{border-left-color:var(--accent)} .card.risk{border-left-color:var(--amber)} .card.nobid{border-left-color:var(--red)}
+.card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.title{font-weight:700;font-size:14.5px;line-height:1.35}
+.meta{font-size:12.5px;color:var(--text-muted)}
+.badge{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
+.b-submit{color:var(--accent);background:var(--accent-dim)}
+.b-risk{color:var(--amber);background:var(--amber-dim)}
+.b-nobid{color:var(--red);background:var(--red-dim)}
+.close{font-size:12.5px;font-weight:600}.close.soon{color:var(--red)}.close .days{color:var(--text-dim);font-weight:500}
+.reason{font-size:12px;color:var(--text-muted);border-top:1px dashed var(--border);padding-top:7px}
+.arts{display:flex;gap:8px;flex-wrap:wrap;border-top:1px dashed var(--border);padding-top:7px}
+.arts a{font-size:11.5px;color:var(--accent);font-weight:700;text-decoration:none;border:1px solid var(--border);border-radius:7px;padding:2px 8px}
+.arts a:hover{text-decoration:underline;border-color:var(--accent)}
+.btn{background:var(--accent);color:var(--btn-text);border:none;border-radius:8px;padding:8px 14px;font-weight:700;font-size:13px;cursor:pointer}
+.btn.ghost{background:var(--surface);color:var(--text);border:1px solid var(--border)}
+.banner{background:var(--amber-dim);border:1px solid #e3c9a0;color:var(--amber);border-radius:10px;padding:12px 16px;margin:14px 0;font-size:13px}
+.banner.err{background:var(--red-dim);border-color:#e8b4b4;color:var(--red)}
+input[type=text],input[type=password]{background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);padding:8px 10px;font-size:13px;width:100%}
+.setup{max-width:560px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px}
+.setup label{display:block;font-size:12.5px;color:var(--text-muted);font-weight:600;margin:10px 0 4px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.empty{color:var(--text-dim);font-size:13px;padding:8px 0}
+</style>
+</head>
+<body>
+<header>
+  <div><div class="logo">AXISCORE</div><div class="logo-sub">Mission Control</div></div>
+  <div class="grow"></div>
+  <a class="navlink" href="index.html">← Federal Bids</a>
+  <a class="navlink" href="#" id="settingsLink">⚙ Settings</a>
+</header>
+<main>
+  <h2>Daily Decision Queue</h2>
+  <div class="muted" id="sub">The one surface: everything waiting on Ken, soonest-due first.</div>
+
+  <div id="setup" class="setup" style="display:none">
+    <div style="font-weight:800;font-size:16px;margin-bottom:4px">Connect the console</div>
+    <div class="muted" style="font-size:12.5px">Live bid data is served by the authed read path. Nothing is stored in the public site — these values live only in this browser.</div>
+    <label>Read-path endpoint (Lambda Function URL)</label>
+    <input type="text" id="cfgEndpoint" placeholder="https://xxxx.lambda-url.us-east-1.on.aws/"/>
+    <label>Access token</label>
+    <input type="password" id="cfgToken" placeholder="paste the mc-spine/capture-console-token value"/>
+    <div class="row" style="margin-top:14px">
+      <button class="btn" id="cfgSave">Save & connect</button>
+      <button class="btn ghost" id="cfgCancel">Cancel</button>
+    </div>
+  </div>
+
+  <div id="app" style="display:none">
+    <div class="statbar" id="statbar"></div>
+    <div class="srchealth" id="srchealth"></div>
+    <div id="banner"></div>
+    <div id="queue"></div>
+    <div class="muted" id="foot" style="margin-top:24px;font-size:12px"></div>
+  </div>
+</body>
+<!-- Committed endpoint config (endpoint ONLY — never the token). Sets window.CAPTURE_ENDPOINT
+     to the CloudFront console endpoint so Ken only has to paste the access token once. -->
+<script src="capture-config.js"></script>
+<script>
+const LS_ENDPOINT="capture.endpoint", LS_TOKEN="capture.token";
+const REFRESH_MS=60000;
+let activeFilter=null, timer=null;
+
+function cfg(){return {endpoint:localStorage.getItem(LS_ENDPOINT)||"", token:localStorage.getItem(LS_TOKEN)||""};}
+function showSetup(pref){
+  const c=cfg();
+  document.getElementById("cfgEndpoint").value=pref&&pref.endpoint!=null?pref.endpoint:c.endpoint;
+  document.getElementById("cfgToken").value=c.token;
+  document.getElementById("setup").style.display="block";
+  document.getElementById("app").style.display="none";
+}
+function hideSetup(){document.getElementById("setup").style.display="none";document.getElementById("app").style.display="block";}
+
+document.getElementById("settingsLink").onclick=e=>{e.preventDefault();showSetup();};
+document.getElementById("cfgCancel").onclick=()=>{if(cfg().endpoint&&cfg().token){hideSetup();load();}};
+document.getElementById("cfgSave").onclick=()=>{
+  const ep=document.getElementById("cfgEndpoint").value.trim().replace(/\/+$/,"");
+  const tk=document.getElementById("cfgToken").value.trim();
+  if(!ep||!tk){alert("Both fields are required.");return;}
+  localStorage.setItem(LS_ENDPOINT,ep);localStorage.setItem(LS_TOKEN,tk);
+  hideSetup();load();
+};
+
+function daysTo(iso){if(!iso)return null;const d=(new Date(iso)-Date.now())/86400000;return Math.ceil(d);}
+function fmtDue(iso,raw){if(!iso)return raw||"no due date";const d=new Date(iso);return d.toLocaleString([], {month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});}
+function esc(s){return (s==null?"":String(s)).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
+
+function render(data){
+  const bmap={staged_ready:"submit",risk_call:"risk",no_bid:"nobid"};
+  let all=(data.queue||[]).map(j=>({...j,k:bmap[j.bucket]||"risk"}));
+  // NO-BID scoped to OPEN/recent bids only: a no-bid past its due date is history, not a
+  // decision — without this the risk calls drown in stale filtered scans. Keep a no-bid
+  // card only while the bid is still open (due date in the future, 24h grace) or undated.
+  const cutoff=Date.now()-86400000;
+  const isOpen=j=>!j.due_date||new Date(j.due_date)>=cutoff;
+  // Past-due items age OUT of the actionable cards (both risk calls and no-bids: a
+  // decision after the bid closed is history, not work) but stay visible as counts
+  // on their tiles, so misses are seen — never silently dropped.
+  const totalNobid=all.filter(j=>j.k==="nobid").length;
+  const missedRisk=all.filter(j=>j.k==="risk"&&!isOpen(j)).length;
+  all=all.filter(j=>j.k==="submit"||isOpen(j));
+  // Tile counts computed from the SCOPED rows so tiles always match the cards below.
+  const n={submit:0,risk:0,nobid:0}; all.forEach(j=>n[j.k]++);
+  const hidden=totalNobid-n.nobid;
+  const suffix={risk:missedRisk>0?` · ${missedRisk} missed`:"",
+                nobid:hidden>0?` · ${hidden} closed hidden`:""};
+  const tiles=[["submit","Staged & ready to submit"],
+               ["risk","Needs a risk call"],
+               ["nobid","Flagged NO-BID (open)"]];
+  document.getElementById("statbar").innerHTML=tiles.map(([k,l])=>
+    `<div class="stat ${k} ${activeFilter===k?'active':''}" data-b="${k}"><div class="n">${n[k]}</div><div class="l">${l}${suffix[k]||""}</div></div>`).join("");
+  document.querySelectorAll(".stat").forEach(el=>el.onclick=()=>{activeFilter=activeFilter===el.dataset.b?null:el.dataset.b;render(data);});
+
+  const sh=(data.sources||[]).map(s=>{
+    const cls=s.auth_status==="ok"?"ok":(s.auth_status==="stale"?"stale":"missing");
+    const t=s.last_success_at?(" · "+new Date(s.last_success_at).toLocaleDateString()):"";
+    return `<span class="dot ${cls}" title="${esc(s.last_error||s.notes||'')}">${esc(s.source)}: ${esc(s.auth_status)}${t}</span>`;}).join("");
+  document.getElementById("srchealth").innerHTML=`<b style="color:var(--text-muted)">Sources</b>${sh||'<span class="empty">no sources registered</span>'}`;
+
+  const labels={submit:["Staged & ready to submit","b-submit"],risk:["Needs a risk call","b-risk"],nobid:["Flagged NO-BID (open)","b-nobid"]};
+  let items=all;
+  if(activeFilter)items=items.filter(j=>j.k===activeFilter);
+
+  const order=["submit","risk","nobid"];
+  let html="";
+  for(const k of order){
+    const rows=items.filter(j=>j.k===k);
+    if(!rows.length)continue;
+    html+=`<div class="sect">${labels[k][0]} <span class="cnt">${rows.length}</span></div><div class="grid">`;
+    for(const j of rows){
+      const dd=daysTo(j.due_date), soon=dd!==null&&dd<=3;
+      const arts=Object.entries(j.artifact_pointers||{})
+        .filter(([n,p])=>typeof p==="string"&&p.includes("/")&&!/^https?:|^\//.test(p))
+        .map(([n,p])=>`<a href="../${esc(p)}" target="_blank" rel="noopener">${esc(n)}</a>`).join("");
+      const link=j.solicitation_url?`<a class="badge b-${k=='submit'?'submit':k}" href="${esc(j.solicitation_url)}" target="_blank" rel="noopener" style="text-decoration:none">open portal ↗</a>`:"";
+      html+=`<div class="card ${k}">
+        <div class="top"><div class="title">${esc(j.title||j.job_id)}</div><span class="badge ${labels[k][1]}">${esc(j.stage||"")}</span></div>
+        <div class="meta">${esc(j.agency||"")} · ${esc(j.source_ref||"")}${j.sourceability_score!=null?` · ${j.sourceability_score}% sourceable`:""}</div>
+        <div class="close ${soon?'soon':''}">Due ${fmtDue(j.due_date,j.due_raw)}${dd!==null?` <span class="days">(${dd}d)</span>`:""}</div>
+        ${j.qualification_reason?`<div class="reason">${esc(j.qualification_reason)}</div>`:""}
+        ${(arts||link)?`<div class="arts">${arts}${link}</div>`:""}
+      </div>`;
+    }
+    html+=`</div>`;
+  }
+  document.getElementById("queue").innerHTML=html||`<div class="empty">Queue clear — nothing waiting on you. ✅</div>`;
+  document.getElementById("foot").textContent="Live from capture.decision_queue · updated "+new Date(data.generated_at||Date.now()).toLocaleString()+" · auto-refresh 60s";
+  document.getElementById("banner").innerHTML="";
+}
+
+function banner(msg,err){document.getElementById("banner").innerHTML=`<div class="banner ${err?'err':''}">${esc(msg)}</div>`;}
+
+async function load(){
+  const c=cfg();
+  if(!c.endpoint||!c.token){showSetup();return;}
+  hideSetup();
+  try{
+    // Token travels in x-capture-token: the CloudFront OAC front overwrites the
+    // Authorization header with its own SigV4 signature, so a bearer would be lost.
+    const r=await fetch(c.endpoint,{headers:{"x-capture-token":c.token},cache:"no-store"});
+    if(r.status===401){banner("Access token rejected (401). Open ⚙ Settings and re-enter the token.",true);return;}
+    if(!r.ok){banner("Read path returned "+r.status+". Retrying on next refresh.",true);return;}
+    render(await r.json());
+  }catch(e){banner("Could not reach the read path (network/VPC). Retrying on next refresh.",true);}
+  if(timer)clearTimeout(timer);
+  timer=setTimeout(load,REFRESH_MS);
+}
+
+// The committed capture-config.js sets window.CAPTURE_ENDPOINT (endpoint only — never
+// the token). It is authoritative: always sync it so an endpoint rotation deploy-side
+// self-heals every browser; only the token stays manual.
+if(window.CAPTURE_ENDPOINT){localStorage.setItem(LS_ENDPOINT,window.CAPTURE_ENDPOINT.replace(/\/+$/,""));}
+load();
+</script>
+</html>

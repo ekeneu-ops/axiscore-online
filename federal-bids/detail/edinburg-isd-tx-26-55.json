@@ -1,0 +1,59 @@
+{
+ "bid_id": "edinburg-isd-tx-26-55",
+ "bid_number": "26-55",
+ "agency": "Edinburg ISD , TX",
+ "src": "Open",
+ "title": "PRE-EMPLOYMENT TESTING SERVICES",
+ "close": "8/19/2026 04:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
+  "CIQ Form.pdf",
+  "W9 _ Direct Deposit Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9 _ Direct Deposit Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.9,
+  "attachment_fetches": 3,
+  "attachment_seconds": 3.7,
+  "attachment_bytes": 852495,
+  "max_fetch_seconds": 1.67,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:33:43.957582+00:00",
+ "extract_attempts": 1
+}

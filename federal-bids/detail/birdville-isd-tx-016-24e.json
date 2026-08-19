@@ -1,0 +1,87 @@
+{
+ "bid_id": "birdville-isd-tx-016-24e",
+ "bid_number": "016-24E",
+ "agency": "Birdville ISD, TX",
+ "src": "Open",
+ "title": "Local Retail & Grocery - Supplemental",
+ "close": "6/1/2027 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Catalog Discount This is a required section, if no discount offered, please enter 0%",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This proposal is broad and covers a wide variety of goods and services, including but not limited to: - Retail Shops - Groceries - Fundraisers - Restaurants/Catering - Food Trucks - Bounce Houses - Event Rentals (Tables, Chairs, Decorations etc) - Photography Services - Dry Cleaning/Alteration Services - Promotional Items and Services - Entertainment - Travel - Embroidery - Printing - Small Appliance Repair - Any other goods or services that the district utilizes",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Catalog Discount This is a required section, if no discount offered, please enter 0% 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "BISD Standard Terms and Conditions _Updated April 2023_.pdf",
+  "fw9.pdf",
+  "CIQ2021.pdf",
+  "1295 Instructions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "BISD Standard Terms and Conditions _Updated April 2023_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ2021.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295 Instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 19.5,
+  "attachment_fetches": 4,
+  "attachment_seconds": 7.8,
+  "attachment_bytes": 2675731,
+  "max_fetch_seconds": 4.6,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:33:49.495784+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/birdville-isd-tx-016-24e/coverage.json"
+}

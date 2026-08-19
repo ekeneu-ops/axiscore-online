@@ -1,0 +1,99 @@
+{
+ "bid_id": "north-east-isd-tx-31-23-addendum-1",
+ "bid_number": "31-23 Addendum 1",
+ "agency": "North East ISD, TX",
+ "src": "Open",
+ "title": "Campus Event Related Products and Services",
+ "close": "4/30/2028 09:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "North East ISD  Bids Terms and Conditions.pdf",
+  "Form_CIQ_with_Instructions.pdf",
+  "Hold_Harmless_Agreement_Form.pdf",
+  "Contractor_Fingerpring_Packet.pdf",
+  "W-9_Form.pdf",
+  "Vendor_Inquiry_Form.pdf",
+  "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+  "NEISD_Insurance Requirements_05092024.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "North East ISD  Bids Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Form_CIQ_with_Instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Hold_Harmless_Agreement_Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractor_Fingerpring_Packet.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W-9_Form.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor_Inquiry_Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_Insurance Requirements_05092024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 62.8,
+  "attachment_fetches": 8,
+  "attachment_seconds": 50.4,
+  "attachment_bytes": 2871759,
+  "max_fetch_seconds": 15.77,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:59:04.882330+00:00",
+ "extract_attempts": 1
+}

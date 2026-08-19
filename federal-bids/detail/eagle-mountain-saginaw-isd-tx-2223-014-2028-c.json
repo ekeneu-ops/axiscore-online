@@ -1,0 +1,111 @@
+{
+ "bid_id": "eagle-mountain-saginaw-isd-tx-2223-014-2028-c",
+ "bid_number": "2223-014-2028-C",
+ "agency": "Eagle Mountain-Saginaw ISD, TX",
+ "src": "Open",
+ "title": "Special Education Supplies, Equipment, and Related Equipment Services",
+ "close": "5/31/2027 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "28",
+   "desc": "HOURLY LABOR RATE for Special Education EQUIPMENT SERVICES.",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 HOURLY LABOR RATE for Special Education EQUIPMENT SERVICES. 1 HR No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Electronic Submission Instructions 2016.pdf",
+  "2223-014-2028-C Special Ed SPECIAL TERMS COND AND SPECS.pdf",
+  "Standard Terms Conditions 4.23.2026.pdf",
+  "FEDERAL Vendor Certifications _EDGAR_ 5.22.25 _34_.pdf",
+  "Vendor Data Form June 2024.pdf",
+  "fw9.pdf",
+  "CIQ - 1.1.21.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Electronic Submission Instructions 2016.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2223-014-2028-C Special Ed SPECIAL TERMS COND AND SPECS.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Terms Conditions 4.23.2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "FEDERAL Vendor Certifications _EDGAR_ 5.22.25 _34_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Data Form June 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ - 1.1.21.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 22.3,
+  "attachment_fetches": 7,
+  "attachment_seconds": 9.6,
+  "attachment_bytes": 1540188,
+  "max_fetch_seconds": 2.89,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:32:17.065192+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/eagle-mountain-saginaw-isd-tx-2223-014-2028-c/coverage.json"
+}

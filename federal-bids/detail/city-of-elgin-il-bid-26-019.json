@@ -1,0 +1,656 @@
+{
+ "bid_id": "city-of-elgin-il-bid-26-019",
+ "bid_number": "Bid 26-019",
+ "agency": "City of Elgin, IL",
+ "src": "Open",
+ "title": "2026 Traffic Signal Capital Improvement",
+ "close": "7/9/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:traffic sign",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 38,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 37,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "SIGN PANEL - TYPE 2",
+   "qty": "10",
+   "uom": "SQ FT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 SIGN PANEL - TYPE 2 10 SQ FT No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "REMOVE AND RELOCATE SIGN PANEL - TYPE 1",
+   "qty": "46",
+   "uom": "SQ FT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 REMOVE AND RELOCATE SIGN PANEL - TYPE 1 46 SQ FT No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "TELESCOPING STEEL SIGN SUPPORT",
+   "qty": "60",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 TELESCOPING STEEL SIGN SUPPORT 60 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "MODIFIED URETHANE PAVEMENT MARKING - LETTERS AND SYMBOLS",
+   "qty": "150",
+   "uom": "SQ FT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 MODIFIED URETHANE PAVEMENT MARKING - LETTERS AND SYMBOLS 150 SQ FT No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "MODIFIED URETHANE PAVEMENT MARKING - LINE 4\"",
+   "qty": "430",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 MODIFIED URETHANE PAVEMENT MARKING - LINE 4\" 430 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "MODIFIED URETHANE PAVEMENT MARKING - LINE 6\"",
+   "qty": "140",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 MODIFIED URETHANE PAVEMENT MARKING - LINE 6\" 140 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "MODIFIED URETHANE PAVEMENT MARKING - LINE 8\"",
+   "qty": "380",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 MODIFIED URETHANE PAVEMENT MARKING - LINE 8\" 380 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "MODIFIED URETHANE PAVEMENT MARKING - LINE 12\"",
+   "qty": "90",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 MODIFIED URETHANE PAVEMENT MARKING - LINE 12\" 90 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "MODIFIED URETHANE PAVEMENT MARKING - LINE 24\"",
+   "qty": "75",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 MODIFIED URETHANE PAVEMENT MARKING - LINE 24\" 75 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "PAVEMENT MARKING REMOVAL - WATER BLASTING",
+   "qty": "700",
+   "uom": "SQ FT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 PAVEMENT MARKING REMOVAL - WATER BLASTING 700 SQ FT No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "UNDERGROUND CONDUIT, COILABLE NONMETALLIC CONDUIT, 2\" DIA.",
+   "qty": "278",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 UNDERGROUND CONDUIT, COILABLE NONMETALLIC CONDUIT, 2\" DIA. 278 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "CONDUIT ATTACHED TO STRUCTURE, 2\" DIA., GALVANIZED STEEL",
+   "qty": "20",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 CONDUIT ATTACHED TO STRUCTURE, 2\" DIA., GALVANIZED STEEL 20 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "JUNCTION BOX, STAINLESS STEEL, ATTACHED TO STRUCTURE, 12\" X 12\" X 4\"",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 JUNCTION BOX, STAINLESS STEEL, ATTACHED TO STRUCTURE, 12\" X 12\" X 4\" 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "MAINTENANCE OF EXISTING TRAFFIC SIGNAL INSTALLATION",
+   "qty": "10",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 MAINTENANCE OF EXISTING TRAFFIC SIGNAL INSTALLATION 10 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "PAINT NEW TRAFFIC SIGNAL POST",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 PAINT NEW TRAFFIC SIGNAL POST 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "ELECTRIC CABLE IN CONDUIT, TRACER, NO. 14 1C",
+   "qty": "2815",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 ELECTRIC CABLE IN CONDUIT, TRACER, NO. 14 1C 2815 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "ELECTRIC CABLE IN CONDUIT, SIGNAL NO. 14 5C",
+   "qty": "250",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 ELECTRIC CABLE IN CONDUIT, SIGNAL NO. 14 5C 250 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "ELECTRIC CABLE IN CONDUIT, SIGNAL NO. 14 7C",
+   "qty": "960",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 ELECTRIC CABLE IN CONDUIT, SIGNAL NO. 14 7C 960 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "TRAFFIC SIGNAL POST, GALVANIZED STEEL 16 FT.",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 TRAFFIC SIGNAL POST, GALVANIZED STEEL 16 FT. 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "DRILL EXISTING HANDHOLE",
+   "qty": "6",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 DRILL EXISTING HANDHOLE 6 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "SIGNAL HEAD, LED, 1-FACE, 3-SECTION, MAST-ARM MOUNTED",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 SIGNAL HEAD, LED, 1-FACE, 3-SECTION, MAST-ARM MOUNTED 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "SIGNAL HEAD, LED, 1-FACE, 5-SECTION, BRACKET MOUNTED",
+   "qty": "3",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 SIGNAL HEAD, LED, 1-FACE, 5-SECTION, BRACKET MOUNTED 3 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "SIGNAL HEAD, LED, 1-FACE, 5-SECTION, MAST-ARM MOUNTED",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 SIGNAL HEAD, LED, 1-FACE, 5-SECTION, MAST-ARM MOUNTED 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "TRAFFIC SIGNAL BACKPLATE, LOUVERED, FORMED PLASTIC",
+   "qty": "2",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 TRAFFIC SIGNAL BACKPLATE, LOUVERED, FORMED PLASTIC 2 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "25",
+   "desc": "RELOCATE EXISTING TRAFFIC SIGNAL EQUIPMENT",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 RELOCATE EXISTING TRAFFIC SIGNAL EQUIPMENT 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "MODIFY EXISTING CONTROLLER CABINET",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 MODIFY EXISTING CONTROLLER CABINET 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "27",
+   "desc": "REMOVE ELECTRIC CABLE FROM CONDUIT",
+   "qty": "570",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "27 REMOVE ELECTRIC CABLE FROM CONDUIT 570 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "28",
+   "desc": "REMOVE EXISTING TRAFFIC SIGNAL EQUIPMENT",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 REMOVE EXISTING TRAFFIC SIGNAL EQUIPMENT 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "29",
+   "desc": "FIBER OPTIC CABLE IN CONDUIT, 12 FIBERS, SINGLE MODE",
+   "qty": "580",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "29 FIBER OPTIC CABLE IN CONDUIT, 12 FIBERS, SINGLE MODE 580 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine30",
+   "kind": "line",
+   "line": "30",
+   "desc": "FIBER OPTIC CABLE IN CONDUIT, 24 FIBERS, SINGLE MODE",
+   "qty": "2550",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "30 FIBER OPTIC CABLE IN CONDUIT, 24 FIBERS, SINGLE MODE 2550 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine31",
+   "kind": "line",
+   "line": "31",
+   "desc": "RECTANGULAR RAPID FLASHING BEACON ASSEMBLY (COMPLETE)",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "31 RECTANGULAR RAPID FLASHING BEACON ASSEMBLY (COMPLETE) 1 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine32",
+   "kind": "line",
+   "line": "32",
+   "desc": "TRAFFIC CONTROL AND PROTECTION, (SPECIAL)",
+   "qty": "1",
+   "uom": "L SUM",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "32 TRAFFIC CONTROL AND PROTECTION, (SPECIAL) 1 L SUM No Response"
+  },
+  {
+   "ctl": "ucBidLine33",
+   "kind": "line",
+   "line": "33",
+   "desc": "FULL-ACTUATED CONTROLLER IN EXISTING CABINET",
+   "qty": "5",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "33 FULL-ACTUATED CONTROLLER IN EXISTING CABINET 5 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine34",
+   "kind": "line",
+   "line": "34",
+   "desc": "FIBER OPTIC INNERDUCT 1 1/4\" DIA.",
+   "qty": "90",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "34 FIBER OPTIC INNERDUCT 1 1/4\" DIA. 90 FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine35",
+   "kind": "line",
+   "line": "35",
+   "desc": "LED SIGNAL MODULE REPLACMENT",
+   "qty": "308",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "35 LED SIGNAL MODULE REPLACMENT 308 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine36",
+   "kind": "line",
+   "line": "36",
+   "desc": "VIDEO VEHICLE DETECTION SYSTEM, SINGLE APPROACH",
+   "qty": "5",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "36 VIDEO VEHICLE DETECTION SYSTEM, SINGLE APPROACH 5 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine37",
+   "kind": "line",
+   "line": "37",
+   "desc": "DRILL HOLE THROUGH BUILDING WALL",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "37 DRILL HOLE THROUGH BUILDING WALL 1 EACH No Response"
+  }
+ ],
+ "attachments_saved": [
+  "AGREEMENT.pdf",
+  "BID BOND.pdf",
+  "BIDDER_S EMPLOYEE UTILIZATION FORM.pdf",
+  "CERTIFICATION REQUIREMENTS.pdf",
+  "EQUAL EMPLOYMENT WRITTEN COMMITMENT GUIDELINES.pdf",
+  "INSURANCE REQUIREMENTS.pdf",
+  "PRICING SHEET.pdf",
+  "REFERENCES.pdf",
+  "RESPONSIBLE BIDDER AFFIDAVIT.pdf",
+  "SEXUAL HARASSMENT.pdf",
+  "Bid 26-019 2026 Traffic Signal Capital Improvements.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "AGREEMENT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID BOND.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BIDDER_S EMPLOYEE UTILIZATION FORM.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CERTIFICATION REQUIREMENTS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EQUAL EMPLOYMENT WRITTEN COMMITMENT GUIDELINES.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "INSURANCE REQUIREMENTS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "PRICING SHEET.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "REFERENCES.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RESPONSIBLE BIDDER AFFIDAVIT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SEXUAL HARASSMENT.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid 26-019 2026 Traffic Signal Capital Improvements.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "PRICING SHEET.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "PAY ITEM",
+    "ITEM",
+    "UNIT",
+    "QUANTITY",
+    "UNIT PRICE",
+    "TOTAL COST"
+   ],
+   "score": 3,
+   "n_rows": 38,
+   "sample": [
+    [
+     "1",
+     "SIGN PANEL - TYPE 2",
+     "SQ FT",
+     "10",
+     "",
+     "$ -"
+    ],
+    [
+     "2",
+     "REMOVE AND RELOCATE SIGN PANEL - TYPE 1",
+     "SQ FT",
+     "46",
+     "",
+     "$ -"
+    ],
+    [
+     "3",
+     "TELESCOPING STEEL SIGN SUPPORT",
+     "FOOT",
+     "60",
+     "",
+     "$ -"
+    ]
+   ]
+  },
+  {
+   "source": "Bid 26-019 2026 Traffic Signal Capital Improvements.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "PAY ITEM",
+    "ITEM",
+    "UNIT",
+    "QUANTITY",
+    "UNIT PRICE",
+    "TOTAL COST"
+   ],
+   "score": 3,
+   "n_rows": 38,
+   "sample": [
+    [
+     "1",
+     "SIGN PANEL - TYPE 2",
+     "SQ FT",
+     "10",
+     "",
+     "$ -"
+    ],
+    [
+     "2",
+     "REMOVE AND RELOCATE SIGN PANEL - TYPE 1",
+     "SQ FT",
+     "46",
+     "",
+     "$ -"
+    ],
+    [
+     "3",
+     "TELESCOPING STEEL SIGN SUPPORT",
+     "FOOT",
+     "60",
+     "",
+     "$ -"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 60.4,
+  "attachment_fetches": 11,
+  "attachment_seconds": 43.0,
+  "attachment_bytes": 15338559,
+  "max_fetch_seconds": 24.64,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:06:25.033488+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-elgin-il-bid-26-019/coverage.json"
+}

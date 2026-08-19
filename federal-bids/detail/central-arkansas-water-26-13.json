@@ -1,0 +1,137 @@
+{
+ "bid_id": "central-arkansas-water-26-13",
+ "bid_number": "26-13",
+ "agency": "Central Arkansas Water",
+ "src": "Open",
+ "title": "LMPS Stainless Steel Intake Strainers",
+ "close": "7/16/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "ITB 26-13 LMPS Stainless Steel Intake Strainers.pdf",
+  "Strainers Official Bid Price Sheet.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ITB 26-13 LMPS Stainless Steel Intake Strainers.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Strainers Official Bid Price Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Strainers Official Bid Price Sheet.xlsx",
+   "sheet": 0,
+   "header_row": 7,
+   "headers": [
+    "Item #",
+    "Quantity",
+    "Description",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Subtotal",
+    "",
+    "Total",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Price",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "6",
+     "Fabrication  Stainless Steel Strainers Materials",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "6",
+     "Fabrication  Stainless Steel Strainers Labor",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.1,
+  "attachment_fetches": 2,
+  "attachment_seconds": 5.8,
+  "attachment_bytes": 2025106,
+  "max_fetch_seconds": 5.47,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:00:05.368096+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/central-arkansas-water-26-13/coverage.json"
+}

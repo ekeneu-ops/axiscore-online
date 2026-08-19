@@ -1,0 +1,135 @@
+{
+ "bid_id": "lansing-board-of-water-light-mi-202606057701-addendum-1",
+ "bid_number": "202606057701 Addendum 1",
+ "agency": "Lansing Board of Water & Light, MI",
+ "src": "Open",
+ "title": "Delta Energy Park Clean Energy",
+ "close": "8/3/2026 11:55 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Proposal - submit detailed costs in Exhibit A - Offer Form",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Proposal - submit detailed costs in Exhibit A - Offer Form 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Supplier Bid Response Tutorial.pdf",
+  "Exhibit B - Power Purchase Agreement.docx",
+  "Exhibit C - Tolling Agreement.docx",
+  "Exhibit D _ EPC Agreement.pdf",
+  "Sworn_and_Notarized_Affidavit_of_Compliance_-_Iran_Economic_Sanctions_Act_Revised_May_2018.pdf",
+  "iPayables User Guide.pdf",
+  "Exhibit A -Offer Form.xlsx",
+  "DEP Clean Energy RFP 1JUL26.pdf",
+  "DEP Site Clean Energy RFP Bidder Presentation.pptx",
+  "DEP Clean Energy Pre-Bid Meeting.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier Bid Response Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B - Power Purchase Agreement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C - Tolling Agreement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D _ EPC Agreement.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sworn_and_Notarized_Affidavit_of_Compliance_-_Iran_Economic_Sanctions_Act_Revised_May_2018.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "iPayables User Guide.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A -Offer Form.xlsx",
+   "kind": "xlsx",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "DEP Clean Energy RFP 1JUL26.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "DEP Site Clean Energy RFP Bidder Presentation.pptx",
+   "kind": ".pptx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "DEP Clean Energy Pre-Bid Meeting.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 63.9,
+  "attachment_fetches": 10,
+  "attachment_seconds": 48.0,
+  "attachment_bytes": 36919128,
+  "max_fetch_seconds": 14.77,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:41:07.444979+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/lansing-board-of-water-light-mi-202606057701-addendum-1/coverage.json"
+}

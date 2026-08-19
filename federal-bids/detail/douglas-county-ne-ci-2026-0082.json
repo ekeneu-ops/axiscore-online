@@ -1,0 +1,128 @@
+{
+ "bid_id": "douglas-county-ne-ci-2026-0082",
+ "bid_number": "CI-2026-0082",
+ "agency": "Douglas County, NE",
+ "src": "Open",
+ "title": "OPW 54706: Fire Station #70",
+ "close": "7/22/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Lump Sum",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "OPW 54706 _ Specifications.pdf",
+  "OPW 54706 - eBidBond.xlsx",
+  "Exhibit A_SEB Participation Disclosure form _bidders_ ADA.docx",
+  "Exhibit B_Certificate of Compliance _ADA_.docx",
+  "Exhibit C_Responsible Contractor Compliance Form _ADA_.docx",
+  "Exhibit D_Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+  "Exhibit E_Apprentice Incentive form _AIF_ _ADA_.docx",
+  "2025 ESP Rules and Plan Template.pdf",
+  "Bid Submittal I_ C_ P or JV form _ADA_.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "OPW 54706 _ Specifications.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "OPW 54706 - eBidBond.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A_SEB Participation Disclosure form _bidders_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B_Certificate of Compliance _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C_Responsible Contractor Compliance Form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D_Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E_Apprentice Incentive form _AIF_ _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2025 ESP Rules and Plan Template.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Submittal I_ C_ P or JV form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 119.2,
+  "attachment_fetches": 10,
+  "attachment_seconds": 105.4,
+  "attachment_bytes": 21140326,
+  "max_fetch_seconds": 45.01,
+  "throttle_signals": 3,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:33:46.335903+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/douglas-county-ne-ci-2026-0082/coverage.json"
+}

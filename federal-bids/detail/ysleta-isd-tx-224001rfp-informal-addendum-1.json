@@ -1,0 +1,99 @@
+{
+ "bid_id": "ysleta-isd-tx-224001rfp-informal-addendum-1",
+ "bid_number": "224001RFP-Informal Addendum 1",
+ "agency": "Ysleta ISD, TX",
+ "src": "Open",
+ "title": "Fine Arts Professional Services",
+ "close": "10/31/2027 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Local Hourly Rate - Please provide an hourly fee for Fine Arts Professional Services, to include but not limited to Judges (Academic, Art, Athletics, Music), Accompanist, Coordinators, Consultant/Instructors (Bagpipe, Clarinet, Dance, etc.), Contest Chair, Grader, Guest Arts, Trainers/Clinicians, etc. If not applicable click on \"No Bid\"",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. Local Hourly Rate - Please provide an hourly fee for Fine Arts Professional Services, to include but not limited to Judges (Academic, Art, Athletics, Music), Accompanist, Coordinators, Consultant/Instructors (Bagpipe, Clarinet, Dance, etc.), Contest Chair, Grader, Guest Arts, Trainers/Clinicians, etc. If not applicable click on \"No Bid\" 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "2",
+   "desc": "Out of Town Rate - Please provide an all inclusive per event fee. Fee must be all inclusive, including but not limited to travel, lodging and meal expenses. If not applicable click on \"No Bid\"",
+   "qty": "1",
+   "uom": "DAILY EVENT FEE",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 This item has been changed as part of an addendum. See 'Bid History' for details. Out of Town Rate - Please provide an all inclusive per event fee. Fee must be all inclusive, including but not limited to travel, lodging and meal expenses. If not applicable click on \"No Bid\" 1 DAILY EVENT FEE No Response"
+  }
+ ],
+ "attachments_saved": [
+  "19.8. Section 1 - Instructions Aug 8_ 19 to.docx",
+  "23.4  Solicitation T_C_ Apr 1_ 23 to.docx",
+  "21.9 Exhibit.Forms_ Others  Sep 1_ 21.docx",
+  "EXAMPLES OF FEE PROPOSALS.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "19.8. Section 1 - Instructions Aug 8_ 19 to.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "23.4  Solicitation T_C_ Apr 1_ 23 to.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "21.9 Exhibit.Forms_ Others  Sep 1_ 21.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "EXAMPLES OF FEE PROPOSALS.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 17.8,
+  "attachment_fetches": 4,
+  "attachment_seconds": 7.9,
+  "attachment_bytes": 1138173,
+  "max_fetch_seconds": 4.73,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:48:57.668635+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/ysleta-isd-tx-224001rfp-informal-addendum-1/coverage.json"
+}

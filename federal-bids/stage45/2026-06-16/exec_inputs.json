@@ -1,0 +1,61 @@
+{
+ "run_date": "2026-06-16",
+ "generated_at": "2026-06-16T16:26:35.063107+00:00",
+ "cost_source": "best_cost_full_2026-06-16.csv",
+ "catalog_rows": 3021360,
+ "manufacturers_dict": 5212,
+ "totals": {
+  "lines": 80,
+  "matched": 2,
+  "needs_review": 3,
+  "gap": 67,
+  "non_product": 8
+ },
+ "by_bid": {
+  "goodbuy:birdville-isd-tx:003-27": {
+   "matched": 2,
+   "needs_review": 3,
+   "gap": 28,
+   "non_product": 4,
+   "lines": 37,
+   "pipeline": "LINES_EXTRACTED",
+   "note": "Stage4/5 incomplete: 28 gap / 3 review (held for review)"
+  },
+  "goodbuy:campbell-county-school-district-wy:26-052": {
+   "matched": 0,
+   "needs_review": 0,
+   "gap": 35,
+   "non_product": 1,
+   "lines": 36,
+   "pipeline": "LINES_EXTRACTED",
+   "note": "no priced product lines (1 non-product / 35 gap / 0 review)"
+  },
+  "goodbuy:city-of-council-bluffs-ia:purch-2026-36": {
+   "matched": 0,
+   "needs_review": 0,
+   "gap": 4,
+   "non_product": 2,
+   "lines": 6,
+   "pipeline": "LINES_EXTRACTED",
+   "note": "no priced product lines (2 non-product / 4 gap / 0 review)"
+  },
+  "goodbuy:city-of-hutchinson-ks:2026-25": {
+   "pipeline": "LINES_EXTRACTED",
+   "note": "parked: document-only (0 lines); Stage 3 doc acquisition pending"
+  },
+  "goodbuy:harlingen-cisd-tx:clib0626": {
+   "matched": 0,
+   "needs_review": 0,
+   "gap": 0,
+   "non_product": 1,
+   "lines": 1,
+   "pipeline": "LINES_EXTRACTED",
+   "note": "no priced product lines (1 non-product / 0 gap / 0 review)"
+  }
+ },
+ "spec_exact_interpretation": "identity=type+dimension; pack/uom=normalization (flagged for review)",
+ "master_csv": [
+  "/Users/ekeneudoye/Library/CloudStorage/GoogleDrive-ekeneu@axiscoreonline.com/My Drive/Axiscore Agent Team/Mission Control/Bid Pipeline/Stage4-5_Runs/2026-06-16/FB11_Stage45_MASTER_2026-06-16.csv"
+ ],
+ "per_bid_filed": 0
+}

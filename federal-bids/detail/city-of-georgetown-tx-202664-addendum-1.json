@@ -1,0 +1,171 @@
+{
+ "bid_id": "city-of-georgetown-tx-202664-addendum-1",
+ "bid_number": "202664 Addendum 1",
+ "agency": "City of Georgetown, TX",
+ "src": "Open",
+ "title": "Tree Pruning and Removal Services",
+ "close": "8/18/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 6,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Tree Pruning and Removal Services, including all labor, travel, equipment, supplies and disposal, 3 person crew under direct supervision of certified arboris - Regualar Hours (M_F 8:0AM to 5:00PM)",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Tree Pruning and Removal Services, including all labor, travel, equipment, supplies and disposal, 3 person crew under direct supervision of certified arboris - Regualar Hours (M_F 8:0AM to 5:00PM) 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Tree Pruning and Removal Services, including all labor, travel, equipment, supplies and disposal, 3 person crew under direct supervision of certified arboris - Emergency/Afterhours",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Tree Pruning and Removal Services, including all labor, travel, equipment, supplies and disposal, 3 person crew under direct supervision of certified arboris - Emergency/Afterhours 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Stump Grinding Services",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Stump Grinding Services 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Treatment of tree insects and diseases (includes labor and materials)",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Treatment of tree insects and diseases (includes labor and materials) 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Soil aeration, root excavation, deep root fertilization and air spading services (includes labor and materials)",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Soil aeration, root excavation, deep root fertilization and air spading services (includes labor and materials) 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Arborist Consultation Services - By certified arborist",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Arborist Consultation Services - By certified arborist 1 Per Hour No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP-202664 Tree Pruning and Removal Services.pdf",
+  "ATTACHMENT A - QUESTIONNAIRE.pdf",
+  "RFP  202662 A1 01 Addendum No. 1_ wQA _ Attendees.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP-202664 Tree Pruning and Removal Services.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "ATTACHMENT A - QUESTIONNAIRE.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP  202662 A1 01 Addendum No. 1_ wQA _ Attendees.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP-202664 Tree Pruning and Removal Services.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "No.",
+    "Description",
+    "Unit",
+    "Unit\nCost"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "1",
+     "Tree Pruning and Removal Services, including all\nlabor, travel, equipment, supplies and disposal, 3\nperson crew under direct supervision of certified\narboris - Regualar Hours (M_F 8:0AM to 5:00PM)",
+     "Per\nHour",
+     ""
+    ],
+    [
+     "2",
+     "Tree Pruning and Removal Services, including all\nlabor, travel, equipment, supplies and disposal, 3\nperson crew under direct supervision of certified\narboris - Emergency/Afterhours",
+     "Per\nHour",
+     ""
+    ],
+    [
+     "3",
+     "Stump Grinding Services per hour",
+     "Per\nHour",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.5,
+  "attachment_fetches": 3,
+  "attachment_seconds": 2.6,
+  "attachment_bytes": 1681866,
+  "max_fetch_seconds": 1.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-14T08:23:19.321596+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-georgetown-tx-202664-addendum-1/coverage.json"
+}

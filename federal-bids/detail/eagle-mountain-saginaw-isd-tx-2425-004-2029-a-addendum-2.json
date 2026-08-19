@@ -1,0 +1,115 @@
+{
+ "bid_id": "eagle-mountain-saginaw-isd-tx-2425-004-2029-a-addendum-2",
+ "bid_number": "2425-004-2029-A Addendum 2",
+ "agency": "Eagle Mountain-Saginaw ISD, TX",
+ "src": "Open",
+ "title": "Print Services, Awards/Recognition Items, Promotional/Spirit Items, Apparel, and Related Services",
+ "close": "7/31/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:promotional",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "24",
+   "desc": "HOURLY RATE for INFLATABLES/BOUNCE HOUSE RENTAL SERVICES.",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 HOURLY RATE for INFLATABLES/BOUNCE HOUSE RENTAL SERVICES. 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "25",
+   "desc": "HOURLY LABOR RATE FOR OTHER RELATED SERVICES. Services include, but are not limited to: repairs, etc. not listed above.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This line item is for the purchase of \"Other\" HOURLY LABOR RATE FOR OTHER RELATED SERVICES. Services include, but are not limited to: repairs, etc. not listed above only.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 HOURLY LABOR RATE FOR OTHER RELATED SERVICES. Services include, but are not limited to: repairs, etc. not listed above. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Electronic Submission Instructions 2016.pdf",
+  "2425-004-2029-A SPECIAL TERMS COND SPECS PRINT SVC AWARDS PROMO APPAREL MAC _2_.pdf",
+  "EMS_ISD_STANDARD_TERMS_AND_CONDITIONS_Rev_5.17.2024.pdf",
+  "FEDERAL Vendor Certifications _EDGAR_ 5.22.25 _6_.pdf",
+  "W-9 Jan 2019.pdf",
+  "Vendor Data Packet August 2024.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Electronic Submission Instructions 2016.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2425-004-2029-A SPECIAL TERMS COND SPECS PRINT SVC AWARDS PROMO APPAREL MAC _2_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EMS_ISD_STANDARD_TERMS_AND_CONDITIONS_Rev_5.17.2024.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FEDERAL Vendor Certifications _EDGAR_ 5.22.25 _6_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Jan 2019.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Data Packet August 2024.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 22.4,
+  "attachment_fetches": 6,
+  "attachment_seconds": 3.9,
+  "attachment_bytes": 1298164,
+  "max_fetch_seconds": 0.87,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:39:48.356669+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/eagle-mountain-saginaw-isd-tx-2425-004-2029-a-addendum-2/coverage.json"
+}

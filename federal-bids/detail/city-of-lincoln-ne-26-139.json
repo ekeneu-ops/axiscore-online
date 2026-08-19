@@ -1,0 +1,147 @@
+{
+ "bid_id": "city-of-lincoln-ne-26-139",
+ "bid_number": "26-139",
+ "agency": "City of Lincoln, NE",
+ "src": "Invited",
+ "title": "Well Pipe",
+ "close": "7/15/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "10\" x 10' Flanged Column with a minimum column wall of .375 and manufactured without blanking for steady rest and flange thickness shall be a minimum of 1\"",
+   "qty": "2",
+   "uom": "EA",
+   "note": "Pipe shall be coated with an epoxy coating approved for potable water. Pipe shall be coated on both the inside and out.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 10\" x 10' Flanged Column with a minimum column wall of .375 and manufactured without blanking for steady rest and flange thickness shall be a minimum of 1\" 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "10\" x 5' Flanged Column with a minimum column wall of .375 and manufactured without blanking for steady rest and flange thickness shall be a minimum of 1\"",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Pipe shall be coated with an epoxy coating approved for potable water. Pipe shall be coated on both the inside and out.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 10\" x 5' Flanged Column with a minimum column wall of .375 and manufactured without blanking for steady rest and flange thickness shall be a minimum of 1\" 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "12\" x 10' Flanged Column with a minimum column wall of .375 and manufactured without blanking for steady rest and flange thickness shall be a minimum of 1\"",
+   "qty": "8",
+   "uom": "EA",
+   "note": "Pipe shall be coated with an epoxy coating approved for potable water. Pipe shall be coated on both the inside and out.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 12\" x 10' Flanged Column with a minimum column wall of .375 and manufactured without blanking for steady rest and flange thickness shall be a minimum of 1\" 8 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "12\" x 5' Flanged Column Pipe with a minimum column wall of .375 and manufactured without blanking for steady rest and flange thickness shall be a minimum of 1\"",
+   "qty": "8",
+   "uom": "EA",
+   "note": "Pipe shall be coated with an epoxy coating approved for potable water. Pipe shall be coated on both the inside and out.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 12\" x 5' Flanged Column Pipe with a minimum column wall of .375 and manufactured without blanking for steady rest and flange thickness shall be a minimum of 1\" 8 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-139 Contractual Insurance Determination Form.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "Instructions to Bidders 11-2023.pdf",
+  "Contract - City Annual.pdf",
+  "United States Citizenship Attestation Form.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-139 Contractual Insurance Determination Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Annual.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 50.7,
+  "attachment_fetches": 7,
+  "attachment_seconds": 33.7,
+  "attachment_bytes": 952883,
+  "max_fetch_seconds": 8.24,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:26:42.501244+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-lincoln-ne-26-139/coverage.json"
+}

@@ -1,0 +1,71 @@
+{
+ "bid_id": "city-of-clinton-ia-2026-roof-program-3313-garfield-street",
+ "bid_number": "2026 - Roof Program - 3313 Garfield Street",
+ "agency": "City of Clinton, IA",
+ "src": "Open",
+ "title": "City Roof Program - 3313 Garfield Street",
+ "close": "8/19/2026 10:30 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Base Bid: 1) Remove and dispose of all roofing materials, including drip edge, gutter apron, pipe/chimney flashing, and venting (Leave step flashing and any power hoods). 2) Install ice and water barrier (at the lowest edge of the roof and extending not less than 24 inches up from the exterior wall line R905.1.2) and in the valleys (not less than 36 inches wide valley lining R905.2.8.2), and around applicable roof penetrations. 3) Install underlayment (R905.1.1) (over the drip edge at eaves, and under the drip edge at rake R905.2.8.5). Install two rows of underlayment, overlapped 19 inches, for any section of roof under 4:12 pitch. 4) Install new drip edging/gutter apron (R905.2.8.5), metal flashing (R905.2.8.3), and pipe/chimney flashing (R905.2.8.4), where required. 5) Install 30-year architectural asphalt shingles (R905.2.4) on all pitches that are more than 2:12 pitch. 6) Install membrane (not rolled roofing) roofing material on any section of roof that is less than 2:12 pitch. 7) Install shingle-over ridge vent the entire length of the ridge (if applicable) and/or provide adequate amount of roof vents where applicable (per shingle manufacturer recommendations) (R806.1). 8) Pick up yard of excess roofing materials, debris, and drag a magnet to ensure no nails are left in yard (leave the yard in the yard in same or better than it was before starting the project).",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Enter your base bid for the roof. Do not include the permit fee in your base bid. Bids shall include sales tax and all other applicable taxes and fees (excluding the permit fee). Bids as received must be for the execution of the entire job as called for in the project specifications provide.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "3313 Garfield Bid packet .pdf",
+  "3313 Garfield Subcontractors.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "3313 Garfield Bid packet .pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "3313 Garfield Subcontractors.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 19.3,
+  "attachment_fetches": 2,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 319523,
+  "max_fetch_seconds": 0.65,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:17:22.717472+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-clinton-ia-2026-roof-program-3313-garfield-street/coverage.json"
+}

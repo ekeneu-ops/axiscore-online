@@ -1,0 +1,75 @@
+{
+ "bid_id": "canyons-school-district-ut-26-00090dn-p5",
+ "bid_number": "26-00090DN-P5",
+ "agency": "Canyons School District, UT",
+ "src": "Open",
+ "title": "Beverage Vending - High Schools",
+ "close": "7/16/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CSD Purchasing Terms_Conditions Rev 2-4-26.pdf",
+  "RFP Schedules A-D - Response Attachments.docx",
+  "RFP Schedules E - Reference Sheet.pdf",
+  "Schedule F - Beverage Price Proposal.docx",
+  "USDA Smart Snacks Guide.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CSD Purchasing Terms_Conditions Rev 2-4-26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Schedules A-D - Response Attachments.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Schedules E - Reference Sheet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Schedule F - Beverage Price Proposal.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "USDA Smart Snacks Guide.pdf",
+   "kind": "pdf",
+   "tables": 14,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 20.8,
+  "attachment_fetches": 5,
+  "attachment_seconds": 12.2,
+  "attachment_bytes": 2454164,
+  "max_fetch_seconds": 9.31,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:07:24.821305+00:00",
+ "extract_attempts": 1
+}

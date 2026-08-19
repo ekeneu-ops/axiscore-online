@@ -1,0 +1,174 @@
+{
+ "bid_id": "city-of-conway-2026-2009",
+ "bid_number": "2026.2009",
+ "agency": "City of Conway",
+ "src": "Open",
+ "title": "Workers' Compensation",
+ "close": "7/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 37,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026.2009 Workers Compensation RFP.pdf",
+  "2026.2009 Proposal Response Packet.docx",
+  "2026.2009 Official Price Sheet.xlsx",
+  "2026.2009 AML 2026 Estimated Payroll.pdf",
+  "2026.2009 AML 2026 Payroll Totals.pdf",
+  "2026.2009 Conway of Claims By Class_Employer.xlsx",
+  "2026.2009 Largest claims last 5 years.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026.2009 Workers Compensation RFP.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026.2009 Proposal Response Packet.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2026.2009 Official Price Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 4,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026.2009 AML 2026 Estimated Payroll.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "2026.2009 AML 2026 Payroll Totals.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "2026.2009 Conway of Claims By Class_Employer.xlsx",
+   "kind": "xlsx",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026.2009 Largest claims last 5 years.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2026.2009 Official Price Sheet.xlsx",
+   "sheet": 2,
+   "header_row": 7,
+   "headers": [
+    "",
+    "Item",
+    "Quantity",
+    "",
+    "",
+    "Service",
+    "Cost",
+    "",
+    "Excess Attachment Point",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 37,
+   "sample": [
+    [
+     "",
+     "Expected Medical Only Claims",
+     "283",
+     "",
+     "",
+     "Claims Portal Access",
+     "0",
+     "",
+     "Excess Premium",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Expected Lost Time Claims",
+     "38",
+     "",
+     "",
+     "Dashboard Reporting",
+     "0",
+     "",
+     "Estimated Annual Excess Premium",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Expected Incident/Report Only Claims (if applicable)",
+     "23",
+     "",
+     "",
+     "Ad Hoc Reporting",
+     "0",
+     "",
+     "Coverage Limit",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.8,
+  "attachment_fetches": 7,
+  "attachment_seconds": 5.6,
+  "attachment_bytes": 1042516,
+  "max_fetch_seconds": 1.94,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:31:50.937055+00:00",
+ "extract_attempts": 1,
+ "lines_total": 34,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-conway-2026-2009/coverage.json"
+}

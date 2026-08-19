@@ -1,0 +1,207 @@
+{
+ "bid_id": "johnson-county-ks-2026-005-addendum-2",
+ "bid_number": "2026-005 Addendum 2",
+ "agency": "Johnson County, KS",
+ "src": "Open",
+ "title": "Douglas L. Smith Middle Basin Asset Renewal Project",
+ "close": "7/16/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Total Base Bid for All Work designated in the Contract Documents for the Asset Renewal Project except as included in Items 1.2-1.7",
+   "qty": "1",
+   "uom": "Lump Sum (LS)",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Total Base Bid for All Work designated in the Contract Documents for the Asset Renewal Project except as included in Items 1.2-1.7 1 Lump Sum (LS) No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "2",
+   "desc": "Alternative 01 (A-01) \u2013New 6\u201d PS Force Main",
+   "qty": "1",
+   "uom": "Lump Sum (LS)",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Alternative 01 (A-01) \u2013New 6\u201d PS Force Main 1 Lump Sum (LS) No Response"
+  }
+ ],
+ "attachments_saved": [
+  "05-Questionnaire-202510.docx",
+  "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+  "2026-005 Addendum No. 1.docx",
+  "2026-005 Addendum No. 2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "05-Questionnaire-202510.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "2026-005 Addendum No. 1.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2026-005 Addendum No. 2.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Estimated\nQuantity",
+    "Unit",
+    "Unit Price",
+    "Total Price"
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "1.1",
+     "Total Base Bid for All Work\ndesignated in the Contract\nDocuments for the Asset\nRenewal Project except as\nincluded in Items 1.2-1.7",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$"
+    ],
+    [
+     "1.2",
+     "Pre-negotiated Equipment\n\u2013 Eaton Variable\nFrequency Drives to\nfurnish equipment and\nservices as specified in\nSection 26_29_24,\nAppendix A",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$74,557.60"
+    ],
+    [
+     "1.3",
+     "Pre-negotiated Scope \u2013\nProcess Control Integrator\n(R.E. Pedrotti Co., Inc.) to\nfurnish services as\nspecified in Section\n40_61_00, Appendix A",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$93,812.00"
+    ]
+   ]
+  },
+  {
+   "source": "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Estimated\nQuantity",
+    "Unit",
+    "Unit Price",
+    "Total Price"
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "1.4",
+     "Pre-negotiated Equipment\n\u2013 Boerger Rotary Lobe\nPumps to furnish\nequipment and services as\nspecified in Section\n43_23_58.13, Appendix A",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$237,710.00"
+    ],
+    [
+     "1.5",
+     "Pre-negotiated Equipment\n\u2013 WEMCO Grit Classifying\nand Dewatering\nEquipment to furnish\nequipment and services as\nspecified in Section\n46_23_63, Appendix A",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$551,663.00"
+    ],
+    [
+     "1.6",
+     "Allowance: MB-8 \u2013 Settled\nSewage Pump Station\nSettled Sewage Wet Well\nConcrete Repairs",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$75,000.00"
+    ]
+   ]
+  },
+  {
+   "source": "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Estimated\nQuantity",
+    "Unit",
+    "Unit Price",
+    "Total Price"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "2",
+     "Alternative 01 (A-01) \u2013\nNew 6\u201d PS Force Main",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
+ ],
+ "latency": {
+  "bid_seconds": 79.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 59.9,
+  "attachment_bytes": 19156465,
+  "max_fetch_seconds": 45.0,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:02:18.433659+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/johnson-county-ks-2026-005-addendum-2/coverage.json"
+}

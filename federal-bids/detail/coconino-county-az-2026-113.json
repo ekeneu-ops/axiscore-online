@@ -1,0 +1,43 @@
+{
+ "bid_id": "coconino-county-az-2026-113",
+ "bid_number": "2026-113",
+ "agency": "Coconino County, AZ",
+ "src": "Open",
+ "title": "Coconino County Workforce Development Area One-Stop Operator",
+ "close": "7/29/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 2026-113 One Stop Operator.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2026-113 One Stop Operator.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.8,
+  "attachment_fetches": 1,
+  "attachment_seconds": 4.5,
+  "attachment_bytes": 422479,
+  "max_fetch_seconds": 4.48,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:26:00.301605+00:00",
+ "extract_attempts": 1
+}

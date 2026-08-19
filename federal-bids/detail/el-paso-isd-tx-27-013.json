@@ -1,0 +1,411 @@
+{
+ "bid_id": "el-paso-isd-tx-27-013",
+ "bid_number": "27-013",
+ "agency": "El Paso ISD, TX",
+ "src": "Invited",
+ "title": "FNS Grease Traps Maintenance & Service",
+ "close": "9/9/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 13,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 20,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "PART A - Basic Services Service Call for Grease Traps 149 gallons or less",
+   "qty": "66",
+   "uom": "EA",
+   "note": "Basic Services (For work listed on Service Schedule)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 PART A - Basic Services Service Call for Grease Traps 149 gallons or less 66 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "PART A - Basic Services Service Call for Grease Traps 150 gallons or larger (price will be per gallon removed)",
+   "qty": "60000",
+   "uom": "EA",
+   "note": "Basic Services (For work listed on Service Schedule)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 PART A - Basic Services Service Call for Grease Traps 150 gallons or larger (price will be per gallon removed) 60000 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "PART B - Demand Services Grease Traps less than 149 gallons (price per trap) - BUSINESS HOURS",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Demand Service Vehicle, Per Diem, Vehicle Mileage Charges Administrative/Overhead Expenses and all other miscellaneous expenses shall be included/incorporated in the unit price schedule rates proposed for performing Demand Services. Non-Emergency Demand Service - 24 Hr. Response Time Emergency Demand Service - 2 Hr. Response Time",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 PART B - Demand Services Grease Traps less than 149 gallons (price per trap) - BUSINESS HOURS 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "PART B - Demand Services Grease Traps less than 149 gallons (price per trap) - NON-BUSINESS HOURS, Monday through Friday",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Demand Service Vehicle, Per Diem, Vehicle Mileage Charges Administrative/Overhead Expenses and all other miscellaneous expenses shall be included/incorporated in the unit price schedule rates proposed for performing Demand Services. Non-Emergency Demand Service - 24 Hr. Response Time Emergency Demand Service - 2 Hr. Response Time",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 PART B - Demand Services Grease Traps less than 149 gallons (price per trap) - NON-BUSINESS HOURS, Monday through Friday 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "PART B - Demand Services Grease Traps less than 149 gallons (price per trap) - SATURDAYS",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Demand Service Vehicle, Per Diem, Vehicle Mileage Charges Administrative/Overhead Expenses and all other miscellaneous expenses shall be included/incorporated in the unit price schedule rates proposed for performing Demand Services. Non-Emergency Demand Service - 24 Hr. Response Time Emergency Demand Service - 2 Hr. Response Time",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 PART B - Demand Services Grease Traps less than 149 gallons (price per trap) - SATURDAYS 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "PART B - Demand Services Grease Traps less than 149 gallons (price per trap) - SUNDAYS & HOLIDAYS",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Demand Service Vehicle, Per Diem, Vehicle Mileage Charges Administrative/Overhead Expenses and all other miscellaneous expenses shall be included/incorporated in the unit price schedule rates proposed for performing Demand Services. Non-Emergency Demand Service - 24 Hr. Response Time Emergency Demand Service - 2 Hr. Response Time",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 PART B - Demand Services Grease Traps less than 149 gallons (price per trap) - SUNDAYS & HOLIDAYS 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "PART B - Demand Services Grease Traps 150 gallons and larger (price per gallon removed) - BUSINESS HOURS",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Demand Service Vehicle, Per Diem, Vehicle Mileage Charges Administrative/Overhead Expenses and all other miscellaneous expenses shall be included/incorporated in the unit price schedule rates proposed for performing Demand Services. Non-Emergency Demand Service - 24 Hr. Response Time Emergency Demand Service - 2 Hr. Response Time",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 PART B - Demand Services Grease Traps 150 gallons and larger (price per gallon removed) - BUSINESS HOURS 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "PART B - Demand Services Grease Traps 150 gallons and larger (price per gallon removed) - NON-BUSINESS HOURS",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Demand Service Vehicle, Per Diem, Vehicle Mileage Charges Administrative/Overhead Expenses and all other miscellaneous expenses shall be included/incorporated in the unit price schedule rates proposed for performing Demand Services. Non-Emergency Demand Service - 24 Hr. Response Time Emergency Demand Service - 2 Hr. Response Time",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 PART B - Demand Services Grease Traps 150 gallons and larger (price per gallon removed) - NON-BUSINESS HOURS 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "PART B - Demand Services Grease Traps 150 gallons and larger (price per gallon removed) - SATURDAYS",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Demand Service Vehicle, Per Diem, Vehicle Mileage Charges Administrative/Overhead Expenses and all other miscellaneous expenses shall be included/incorporated in the unit price schedule rates proposed for performing Demand Services. Non-Emergency Demand Service - 24 Hr. Response Time Emergency Demand Service - 2 Hr. Response Time",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 PART B - Demand Services Grease Traps 150 gallons and larger (price per gallon removed) - SATURDAYS 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "PART B - Demand Services Grease Traps 150 gallons and larger (price per gallon removed) - SUNDAYS & HOLIDAYS",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Demand Service Vehicle, Per Diem, Vehicle Mileage Charges Administrative/Overhead Expenses and all other miscellaneous expenses shall be included/incorporated in the unit price schedule rates proposed for performing Demand Services. Non-Emergency Demand Service - 24 Hr. Response Time Emergency Demand Service - 2 Hr. Response Time",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 PART B - Demand Services Grease Traps 150 gallons and larger (price per gallon removed) - SUNDAYS & HOLIDAYS 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "ADDITIONAL COST SERVICES Non-Emergency Demand Service - 24 Hr. Response Time - LABOR During Business Hours, 8:00am - 5:00pm",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "Per Diem and all other miscellaneous expenses shall be included/incorporated into the hourly rates proposed for performing Demand Services.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 ADDITIONAL COST SERVICES Non-Emergency Demand Service - 24 Hr. Response Time - LABOR During Business Hours, 8:00am - 5:00pm 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "ADDITIONAL COST SERVICES Non-Emergency Demand Service - 24 Hr. Response Time - MILEAGE CHARGE for Demand Services Only (if applicable)",
+   "qty": "1",
+   "uom": "MILE",
+   "note": "Per Diem and all other miscellaneous expenses shall be included/incorporated into the hourly rates proposed for performing Demand Services.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 ADDITIONAL COST SERVICES Non-Emergency Demand Service - 24 Hr. Response Time - MILEAGE CHARGE for Demand Services Only (if applicable) 1 MILE No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "ADDITIONAL COST SERVICES Emergency Demand Service - 24 Hr. Response Time - LABOR during BUSINESS HOURS, 8:00 AM - 5:00 PM",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "Per Diem and all other miscellaneous expenses shall be included/incorporated into the hourly rates proposed for performing Demand Services.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 ADDITIONAL COST SERVICES Emergency Demand Service - 24 Hr. Response Time - LABOR during BUSINESS HOURS, 8:00 AM - 5:00 PM 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "ADDITIONAL COST SERVICES Emergency Demand Service - 2 Hr. Response Time - LABOR during NON-BUSINESS HOURS, 5:00 PM - 8:00 AM",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "Per Diem and all other miscellaneous expenses shall be included/incorporated into the hourly rates proposed for performing Demand Services.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 ADDITIONAL COST SERVICES Emergency Demand Service - 2 Hr. Response Time - LABOR during NON-BUSINESS HOURS, 5:00 PM - 8:00 AM 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "ADDITIONAL COST SERVICES Emergency Demand Service - 2 Hr. Response Time - LABOR SATURDAYS",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "Per Diem and all other miscellaneous expenses shall be included/incorporated into the hourly rates proposed for performing Demand Services.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 ADDITIONAL COST SERVICES Emergency Demand Service - 2 Hr. Response Time - LABOR SATURDAYS 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "ADDITIONAL COST SERVICES Emergency Demand Service - 2 Hr. Response Time - LABOR SUNDAYS and HOLIDAYS",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "Per Diem and all other miscellaneous expenses shall be included/incorporated into the hourly rates proposed for performing Demand Services.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 ADDITIONAL COST SERVICES Emergency Demand Service - 2 Hr. Response Time - LABOR SUNDAYS and HOLIDAYS 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "ADDITIONAL COST SERVICES Emergency Demand Service - 24 Hr. Response Time - MILEAGE CHARGE for Demand Services Only (if applicable)",
+   "qty": "1",
+   "uom": "MILE",
+   "note": "Per Diem and all other miscellaneous expenses shall be included/incorporated into the hourly rates proposed for performing Demand Services.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 ADDITIONAL COST SERVICES Emergency Demand Service - 24 Hr. Response Time - MILEAGE CHARGE for Demand Services Only (if applicable) 1 MILE No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "RENTAL EQUIPMENT Any rental equipment required by the Contractor for performing Demand Repair Services or Additional Cost Services, shall be billed to the District at Contractor\u2019s actual cost. Contractor\u2019s original invoices for rental equipment shall accompany the monthly billing.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 RENTAL EQUIPMENT Any rental equipment required by the Contractor for performing Demand Repair Services or Additional Cost Services, shall be billed to the District at Contractor\u2019s actual cost. Contractor\u2019s original invoices for rental equipment shall accompany the monthly billing. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "PROPOSAL EVALUATION Base Bid Total for Basic Services for Grease Traps 149 gallons or Less",
+   "qty": "4",
+   "uom": "EA",
+   "note": "The extension is based on the quarterly clean out requirement per the Public Service Board\u2019s rule 15[1] EP County Mandate. (Refer to PART A - Basic Services Total for the Per Unit Cost)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 PROPOSAL EVALUATION Base Bid Total for Basic Services for Grease Traps 149 gallons or Less 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "PROPOSAL EVALUATION Base Bid Total for Basic Services for Grease Traps 150 gallons or Larger",
+   "qty": "4",
+   "uom": "EA",
+   "note": "The extension is based on the quarterly clean out requirement per the Public Service Board\u2019s rule 15[1] EP County Mandate. (Refer to PART A - Basic Services Total for the Per Unit Cost)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 PROPOSAL EVALUATION Base Bid Total for Basic Services for Grease Traps 150 gallons or Larger 4 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "EPISD Agreement - Services Only.pdf",
+  "Pre-Employment Pre-Service Affidavit _R_.pdf",
+  "REQUIRED Forms.pdf",
+  "Child Nutrition REQUIRED FORMS.pdf",
+  "Vendor Information.pdf",
+  "EDGAR_Certifications.pdf",
+  "CIP_Form_1295.pdf",
+  "General_Terms_and_Conditions.pdf",
+  "RFP_Goods_and_Services_Requirements.pdf",
+  "Deviations_Form.pdf",
+  "2024_W9_Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "EPISD Agreement - Services Only.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Pre-Employment Pre-Service Affidavit _R_.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "REQUIRED Forms.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Child Nutrition REQUIRED FORMS.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Vendor Information.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR_Certifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIP_Form_1295.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "General_Terms_and_Conditions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP_Goods_and_Services_Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Deviations_Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2024_W9_Form.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Child Nutrition REQUIRED FORMS.pdf",
+   "sheet": 4,
+   "header_row": 10,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "2. Domestic product is not available in the specified quantity or quality.",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 13,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "3. The cost difference of domestic product vs non-domestic is unreasonable.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "1. There is no domestic alternative source or substitute food product.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "2. Domestic product is not available in the specified quantity or quality.",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 34.7,
+  "attachment_fetches": 11,
+  "attachment_seconds": 14.1,
+  "attachment_bytes": 6554285,
+  "max_fetch_seconds": 1.99,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-19T08:43:11.677025+00:00",
+ "extract_attempts": 1,
+ "lines_total": 13,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/el-paso-isd-tx-27-013/coverage.json"
+}

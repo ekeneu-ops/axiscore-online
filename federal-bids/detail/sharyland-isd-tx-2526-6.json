@@ -1,0 +1,159 @@
+{
+ "bid_id": "sharyland-isd-tx-2526-6",
+ "bid_number": "2526-6",
+ "agency": "Sharyland ISD, TX",
+ "src": "Open",
+ "title": "Local Food Vendors (Restaurants, Fast Food, Food Trucks, Catering)",
+ "close": "7/21/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Delivery Fee (If Any)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Delivery Fee (If Any) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Minimum Order (If Any)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Minimum Order (If Any) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "2",
+   "desc": "Set Pricing Per Meal If you are proposing a set price per meal or per item please attch your menu as follows: Meal/Item Name Description Set Price Delivery Fee (if any) Minimum Order (if any)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Set Pricing Per Meal If you are proposing a set price per meal or per item please attch your menu as follows: Meal/Item Name Description Set Price Delivery Fee (if any) Minimum Order (if any) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "3",
+   "desc": "Catering Packages (Per Person) If you are proposing a set price per meal or per item please attch your menu as follows: Package Name What's Included Price Per Person Minimum Order (if any)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Catering Packages (Per Person) If you are proposing a set price per meal or per item please attch your menu as follows: Package Name What's Included Price Per Person Minimum Order (if any) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "4",
+   "desc": "Food Truck Vendors If you are proposing a set price per meal or per item please attch your menu as follows: Item/Combo Description Set Price Service Fee (if Any)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Food Truck Vendors If you are proposing a set price per meal or per item please attch your menu as follows: Item/Combo Description Set Price Service Fee (if Any) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "1295 Form _unsworn declaration_ _2_.pdf",
+  "CIQ 1-21-21.pdf",
+  "SISD Vendor Insurance Requirements.pdf",
+  "W-9.pdf",
+  "Sharyland ISD Standard Terms _ Conditions Rev 5-2026.pdf",
+  "EDGAR_Certifications_Addendum__Word-Formatted_Version_.pdf",
+  "Purchase Order Terms and Conditions Rev 1-2026.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "1295 Form _unsworn declaration_ _2_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ 1-21-21.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SISD Vendor Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W-9.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sharyland ISD Standard Terms _ Conditions Rev 5-2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR_Certifications_Addendum__Word-Formatted_Version_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Order Terms and Conditions Rev 1-2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 18.5,
+  "attachment_fetches": 7,
+  "attachment_seconds": 6.0,
+  "attachment_bytes": 942157,
+  "max_fetch_seconds": 1.47,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:24:46.856137+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/sharyland-isd-tx-2526-6/coverage.json"
+}

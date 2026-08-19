@@ -1,0 +1,107 @@
+SPR TIE-OUT — GAP DECOMPOSITION (date-bounded <= 2026-06-25)   [computed vs statement]
+========================================================================================
+RECONCILIATION (all figures live, date-bounded to the statement date 2026-06-25):
+  Sum live invoices for the 226 open orders (<= 6/25) .......... $21,500.98
+  - vendor_credit_list per-order credits the recon applied ..... -$  345.69
+  = per-order computed ......................................... $21,155.29
+  - non-order credits (no order key; freight/adjustments) ...... -$  195.70
+  = computed outstanding (what the app/seed shows) ............. $20,959.59
+  vs statement owed_by_order (gross) ........................... $20,949.02  -> +$10.57
+  vs spec target $20,925 ....................................... +$34.59
+  vs statement net_total $20,584.67 ............................ +$374.92
+  (post-statement invoices, dated > 6/25, carried into PAY separately: ~$699 / 11 inv)
+
+So AFTER applying every credit we actually have, the recon sits ~$10 over the statement
+GROSS. The remaining spread is a few specific orders — check these in Magento:
+
+------------------------------------------------------------------------------------------
+(1) DOMINANT DRIVER — DUPLICATE/REPLACEMENT INVOICE (not a credit issue): +$542.26
+  Order 114-1192572-0386602 (magento 370321). Statement owes $542.26; live has $1,084.52:
+    invoice 02-BV5P1U  $542.26  2026-06-12   <- matches the statement
+    invoice 02-BVLR77  $271.13  2026-06-24   \_ two identical $271.13 invoices same day
+    invoice 09-BVM598  $271.13  2026-06-24   /   = another $542.26 the statement doesn't show
+  ACTION: open this order in Magento — are the two 6/24 invoices a duplicate/replacement of
+  the 6/12 one, or genuinely additional? If duplicate, the extra $542 shouldn't be owed.
+
+(2) CREDITS THE RECON APPLIED BUT THE STATEMENT DOES NOT (-$345.69): check if these
+    vendor_credit_list credits are real (issued by SPR) or premature. Each is an OPEN
+    credit (credit_status=0) the recon subtracts; the statement counts the full invoice:
+      47QDCC26M8FG1        credit -$106.61
+      112-8234246-9453859  credit -$ 54.89
+      113-9719026-4956234  credit -$ 54.89
+      113-4072079-8008258  credit -$ 33.82
+      111-6409561-5377841  credit -$ 26.41
+      113-1060569-5425812  credit -$ 25.01
+      113-9768130-7598600  credit -$ 18.93
+      111-0849514-8744228  credit -$ 13.18
+      112-7211903-5838662  credit -$ 11.95
+  ACTION: confirm SPR actually issued these credits (comment / credit note). If yes, the
+  statement is stale; if no, the recon is subtracting a not-yet-real credit.
+
+(3) NON-ORDER CREDITS — exist but NO order/invoice key to join (answer (a)): -$195.70
+      02-057808  $ 12.88  2026-05-28  SPRADJUSTMENT
+      04-058355  $ 16.01  2026-02-06  SPRFREIGHT
+      19-093184  $ 50.50  2026-05-28  SPRADJUSTMENT
+      07-065933  $116.31  2026-03-12  SPRFREIGHT
+  These are vendor-level freight/adjustment credits (order_id NULL, extra_data SKU=
+  SPRFREIGHT/SPRADJUSTMENT). The recon subtracts them at the vendor level but can't attribute
+  them to an order. ACTION: match by amount/date in Magento if you want per-order attribution.
+
+(4) CREDITMEMOS INGESTED BUT NOT APPLIED BY THE RECON (engine gap, answer (b)): $133.62
+    sales_flat_creditmemo IS ingested into the warehouse, but the recon only uses
+    vendor_credit_list — it never subtracts these. All 2025-dated, on orders that currently
+    tie (the statement also ignores them), so they don't drive THIS delta, but they are real
+    unapplied credits:
+      111-8788653-8581827  creditmemo $76.84  incr 100017208  2025-07-30
+      111-7438689-6995421  creditmemo $43.38  incr 100017234  2025-08-05
+      114-2161428-4462666  creditmemo $ 4.96  incr 100017153  2025-07-18
+      113-1542330-1613001  creditmemo $ 4.24  incr 100017154  2025-07-19
+      114-4745504-0289869  creditmemo $ 4.20  incr 100017151  2025-07-18
+
+------------------------------------------------------------------------------------------
+PROCESS ANSWER (are Magento credits/comments ingested + applied?):
+  * sales_flat_creditmemo (+_item/_grid): INGESTED into mirror_magento, but the recon does
+    NOT read it -> ENGINE GAP (b). $133.62 latent here.
+  * sales_flat_order_status_history (rep comments): INGESTED into mirror_magento, but the
+    recon does NOT parse it -> ENGINE GAP (c) — the standing rule to treat rep comments as
+    first-class input is NOT yet wired into v_order_recon (it uses only vendor_credit_list).
+  * The 4 non-order credits: (a) exist in vendor_credit_list but have no order key.
+  Net: the ~$10-35 residual (after all credits) is NOT primarily missing credits — it is the
+  duplicate-invoice order (+$542) offset by credits the statement hasn't caught up to (-$345).
+
+========================================================================================
+UPDATE 2026-07-03 — VERIFICATION + RECOVERY LOG (post dry-run)
+========================================================================================
+(1) THE NINE CREDITS — VERIFIED. Each is a real SPR-issued credit memo recorded in the
+    ERP (mirror_erp_advance.vendor_credit_list) with a credit ID and SKU-level line items:
+      47QDCC26M8FG1        26-004823  $106.61  2026-06-29  (SOU984C)
+      113-9719026-4956234  16-004088  $ 54.89  2026-06-17  (AAGSD37413)
+      112-8234246-9453859  09-026839  $ 54.89  2026-06-17  (AAGSD37413)
+      113-4072079-8008258  09-026758  $ 33.82  2026-06-15  (AAG760105)
+      111-6409561-5377841  24-095690  $ 26.41  2026-06-04  (MXB50FE)
+      113-1060569-5425812  09-026752  $ 25.01  2026-06-15  (AAG70100X45)
+      113-9768130-7598600  26-004467  $ 18.93  2026-06-22  (UNV35302)
+      111-0849514-8744228  26-004742  $ 13.18  2026-06-26  (UNV35946)
+      112-7211903-5838662  08-042729  $ 11.95  2026-06-22  (AAGSK4600)
+    Sum $345.69. Several are dated ON/AFTER the 6/25 statement — credit-timing, exactly
+    as hypothesized. The statement counts those invoices at full value; the ERP has the
+    credits. Not an engine error.
+
+(2) OPEN RECOVERY ITEM — order 114-1192572-0386602 (magento 370321), the +$542.26:
+      invoice 02-BV5P1U  $542.26  2026-06-12   <- on statement
+      invoice 02-BVLR77  $271.13  2026-06-24   \_ duplicate pair the statement
+      invoice 09-BVM598  $271.13  2026-06-24   /  does not carry
+    STATUS: SPR has ALREADY credited $271.13 (recorded in vendor_credit_list since
+    2026-07-01) — half the duplicate. REMAINING TO RECOVER: $271.13 (the second 6/24
+    duplicate). EVIDENCE: Ekene's Magento review found an aiza comment dated 6/29
+    chasing this credit (not yet synced to the mirror; the mirror's status history for
+    370321 shows the aiza credit-chase pattern incl. credit memo #2344099 from a prior
+    episode). GUARD: the order buckets REVIEW (net_dev $662.89 > $1) — its invoices can
+    NEVER auto-pay while the recovery is open; PAY requires an explicit human move that
+    re-flags on any data change (fingerprint).
+
+(3) SPR SEED TOLERANCE — set to $160 (evidence-backed, narrow): the dry-run delta of
+    +$154.38 is now fully explained = the $542.26 duplicate pair (recovery item above)
+    net of the verified credit-timing credits. Tolerance covers ONLY that explained
+    residual + cents of daily drift; anything new > ~$6 fails the gate again. ESS stays
+    at $1 until its own decomposition; ISG stays at $1 (feed empty — separate issue).

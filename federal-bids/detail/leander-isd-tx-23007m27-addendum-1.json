@@ -1,0 +1,51 @@
+{
+ "bid_id": "leander-isd-tx-23007m27-addendum-1",
+ "bid_number": "23007M27 Addendum 1",
+ "agency": "Leander ISD, TX",
+ "src": "Open",
+ "title": "Creative Contracted Services",
+ "close": "12/31/2027 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "fw9--2024.pdf",
+  "LISD General Terms FINAL rev2 20221118.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "fw9--2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "LISD General Terms FINAL rev2 20221118.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.0,
+  "attachment_fetches": 2,
+  "attachment_seconds": 4.3,
+  "attachment_bytes": 425027,
+  "max_fetch_seconds": 2.49,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:51:08.739207+00:00",
+ "extract_attempts": 1
+}

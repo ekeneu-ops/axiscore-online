@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Axiscore Finance — Vendor Cash Reconciliation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500;6..72,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #faf7f0; --bg-panel: #ffffff; --bg-panel-soft: #fdfaf3; --bg-elevated: #fffcf5;
+    --border: #e8e2d3; --border-strong: #d6cfbd;
+    --text-primary: #1c1917; --text-secondary: #57534e; --text-tertiary: #a8a29e;
+    --accent: #b45309; --accent-soft: #fef3c7;
+    --class-a: #047857; --class-b: #ca8a04; --class-c: #b91c1c;
+    --class-d: #57534e; --class-e: #b45309; --class-f: #7e22ce;
+    --shadow-sm: 0 1px 2px rgba(28,25,23,0.04); --shadow-md: 0 4px 12px rgba(28,25,23,0.06);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); color: var(--text-primary); font-family: 'DM Sans', sans-serif; -webkit-font-smoothing: antialiased; line-height: 1.5; min-height: 100vh; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+  .serif { font-family: 'Newsreader', serif; }
+
+  header.top { border-bottom: 1px solid var(--border); background: rgba(250,247,240,0.92); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 50; }
+  header.top .row { padding: 14px 24px; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  header.top h1 { font-family: 'Newsreader', serif; font-weight: 400; font-size: 1.625rem; letter-spacing: -0.01em; }
+  header.top .subtitle { font-size: 12px; text-transform: uppercase; letter-spacing: 0.25em; color: var(--text-secondary); }
+  header.top .version { font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 2px 6px; border: 1px solid var(--accent); color: var(--accent); border-radius: 2px; background: var(--accent-soft); }
+  header.top .refresh { display: flex; gap: 16px; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+  header.top .refresh-item { display: flex; align-items: center; gap: 6px; color: var(--text-secondary); }
+  .dot { width: 6px; height: 6px; border-radius: 50%; display: inline-block; }
+  .dot-live { background: var(--class-a); animation: pulse 2s infinite; }
+  .dot-stale { background: var(--accent); }
+  .dot-error { background: var(--class-c); }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+  .kpi-strip { border-bottom: 1px solid var(--border); background: var(--bg-panel-soft); padding: 24px; display: grid; grid-template-columns: repeat(6, 1fr); gap: 24px; }
+  @media (max-width: 1200px) { .kpi-strip { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 700px) { .kpi-strip { grid-template-columns: repeat(2, 1fr); } }
+  .stat .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-secondary); font-weight: 500; }
+  .stat .value { font-family: 'JetBrains Mono', monospace; font-size: 2rem; font-weight: 500; letter-spacing: -0.02em; margin-top: 4px; line-height: 1; }
+  .stat .value.serif { font-family: 'Newsreader', serif; font-weight: 400; }
+  .stat .value.accent { color: var(--accent); }
+  .stat .sublabel { font-size: 13px; color: var(--text-tertiary); margin-top: 4px; }
+
+  .class-dist { padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--bg); }
+  .class-dist .top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+  .class-dist .top .lbl { font-size: 12px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--text-secondary); }
+  .class-dist .top .hint { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-tertiary); }
+  .dist-bar { height: 36px; width: 100%; border-radius: 3px; overflow: hidden; display: flex; border: 1px solid var(--border); }
+  .dist-seg { display: flex; align-items: center; justify-content: center; transition: opacity 0.15s; cursor: pointer; border: none; color: white; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; }
+  .dist-seg:hover { opacity: 0.85; }
+  .dist-seg.dim { opacity: 0.35; }
+  .dist-legend { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+  .dist-legend-item { display: flex; align-items: center; gap: 6px; color: var(--text-secondary); }
+  .legend-sq { width: 8px; height: 8px; }
+
+  .filters-bar { padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--bg-panel-soft); display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  .search-box { position: relative; flex: 1; min-width: 240px; max-width: 420px; }
+  .search-box input { width: 100%; background: var(--bg-panel); border: 1px solid var(--border-strong); border-radius: 3px; padding: 8px 12px 8px 32px; font-size: 14px; color: var(--text-primary); font-family: 'JetBrains Mono', monospace; outline: none; transition: border-color 0.15s; }
+  .search-box input:focus { border-color: var(--accent); }
+  .search-box svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text-tertiary); }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 5px 10px; border-radius: 3px; border: 1px solid var(--border-strong); background: var(--bg-panel); color: var(--text-secondary); cursor: pointer; transition: all 0.15s; font-weight: 500; }
+  .chip:hover { border-color: var(--accent); color: var(--text-primary); }
+  .chip.active { background: var(--text-primary); color: var(--bg); border-color: var(--text-primary); }
+  .chip.class-c.active { background: var(--class-c); border-color: var(--class-c); color: white; }
+  .chip.class-e.active { background: var(--class-e); border-color: var(--class-e); color: white; }
+  .chip.class-a.active { background: var(--class-a); border-color: var(--class-a); color: white; }
+  .chip.class-d.active { background: var(--class-d); border-color: var(--class-d); color: white; }
+  .chip.class-f.active { background: var(--class-f); border-color: var(--class-f); color: white; }
+  .reset-btn { background: none; border: none; color: var(--text-secondary); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; cursor: pointer; font-family: 'DM Sans', sans-serif; }
+  .reset-btn:hover { color: var(--accent); }
+
+  .sort-control { display: flex; align-items: center; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+  .sort-control label { color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 500; }
+  .sort-control select { background: var(--bg-panel); border: 1px solid var(--border-strong); border-radius: 3px; padding: 6px 10px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-primary); cursor: pointer; outline: none; }
+  .sort-control select:focus { border-color: var(--accent); }
+
+  .legend-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--bg-panel); border: 1px solid var(--border-strong); color: var(--text-secondary); font-family: 'DM Sans', sans-serif; font-size: 12px; padding: 6px 10px; border-radius: 3px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 500; transition: all 0.15s; }
+  .legend-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .legend-btn.active { background: var(--text-primary); color: var(--bg); border-color: var(--text-primary); }
+
+  /* Filter drawer */
+  .filter-drawer { padding: 18px 24px; border-bottom: 1px solid var(--border); background: var(--bg-panel); }
+  .filter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; margin-bottom: 14px; }
+  .filter-field { display: flex; flex-direction: column; gap: 4px; }
+  .filter-field label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); font-weight: 600; }
+  .filter-field input, .filter-field select { background: var(--bg-panel-soft); border: 1px solid var(--border-strong); border-radius: 3px; padding: 7px 10px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-primary); outline: none; }
+  .filter-field input:focus, .filter-field select:focus { border-color: var(--accent); }
+  .filter-drawer-actions { display: flex; gap: 10px; }
+
+  /* Popover (modal) */
+  .popover { position: fixed; inset: 0; background: rgba(28,25,23,0.4); z-index: 100; display: flex; align-items: flex-start; justify-content: center; padding: 80px 20px 20px; overflow-y: auto; }
+  .popover-inner { background: var(--bg-panel); border: 1px solid var(--border-strong); border-radius: 6px; max-width: 640px; width: 100%; box-shadow: 0 12px 48px rgba(28,25,23,0.18); }
+  .popover-header { display: flex; align-items: center; justify-content: space-between; padding: 18px 22px 14px; border-bottom: 1px solid var(--border); }
+  .popover-title { font-family: 'Newsreader', serif; font-size: 1.375rem; font-weight: 500; color: var(--text-primary); }
+  .popover-close { background: none; border: none; font-size: 28px; line-height: 1; color: var(--text-tertiary); cursor: pointer; padding: 0 4px; transition: color 0.15s; }
+  .popover-close:hover { color: var(--text-primary); }
+  .popover-body { padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 14px; }
+  .legend-entry { display: grid; grid-template-columns: 40px 1fr; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--border); align-items: flex-start; }
+  .legend-entry:last-child { border-bottom: none; padding-bottom: 0; }
+  .legend-entry .code-badge { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 4px; border: 1.5px solid; font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 18px; }
+  .legend-entry .right .name { font-size: 14px; color: var(--text-primary); font-weight: 600; margin-bottom: 3px; }
+  .legend-entry .right .desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+  .legend-entry .right .action { font-size: 12px; color: var(--text-tertiary); margin-top: 6px; font-style: italic; }
+
+  .order-count { padding: 10px 24px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-tertiary); border-bottom: 1px solid var(--border); background: var(--bg); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 10; gap: 12px; flex-wrap: wrap; }
+  .order-count .actions { display: flex; gap: 8px; align-items: center; }
+  .action-select { background: var(--bg-panel); border: 1px solid var(--border-strong); border-radius: 3px; padding: 6px 10px; font-family: 'DM Sans', sans-serif; font-size: 12px; color: var(--text-primary); cursor: pointer; outline: none; text-transform: none; letter-spacing: normal; }
+  .action-select:focus { border-color: var(--accent); }
+  .action-select:disabled { opacity: 0.4; cursor: not-allowed; }
+  .action-btn { background: var(--text-primary); color: var(--bg); border: none; padding: 6px 12px; font-family: 'DM Sans', sans-serif; font-size: 12px; border-radius: 3px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 500; }
+  .action-btn:hover { background: var(--accent); }
+  .action-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .export-btn { background: none; border: 1px solid var(--border-strong); color: var(--text-secondary); padding: 6px 12px; font-family: 'DM Sans', sans-serif; font-size: 12px; border-radius: 3px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 500; }
+  .export-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .order-list { background: var(--bg); }
+  .order-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .order-table thead th { position: sticky; top: 41px; background: var(--bg-panel-soft); padding: 10px 8px; text-align: left; font-family: 'DM Sans', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); border-bottom: 1px solid var(--border-strong); font-weight: 600; white-space: nowrap; }
+  .order-table thead th.r { text-align: right; }
+  .order-table thead th.c { text-align: center; }
+  .order-table thead th.sortable { cursor: pointer; user-select: none; }
+  .order-table thead th.sortable:hover { color: var(--accent); }
+  .order-table thead th .sort-ind { color: var(--accent); font-size: 10px; margin-left: 4px; }
+  .order-table tbody tr { border-bottom: 1px solid var(--border); background: var(--bg-panel); border-left: 3px solid transparent; cursor: pointer; transition: background 0.1s; }
+  .order-table tbody tr:hover { background: var(--bg-elevated); border-left-color: var(--accent); }
+  .order-table tbody tr.selected { background: var(--accent-soft); }
+  .order-table tbody td { padding: 10px 8px; font-family: 'JetBrains Mono', monospace; color: var(--text-primary); white-space: nowrap; }
+  .order-table tbody td.r { text-align: right; }
+  .order-table tbody td.c { text-align: center; }
+  .order-table tbody td.text { font-family: 'DM Sans', sans-serif; }
+  .order-table tbody td.muted { color: var(--text-tertiary); }
+  .order-table .checkbox-cell { padding-left: 12px; padding-right: 0; width: 28px; }
+  .order-table input[type="checkbox"] { cursor: pointer; }
+  .order-table .order-id { font-weight: 500; }
+  .order-table .recovery-cell { color: var(--class-c); font-weight: 600; }
+  .order-table .disc-pos { color: var(--class-a); }
+  .order-table .disc-neg { color: var(--class-c); }
+  .badge-sm { display: inline-flex; align-items: center; gap: 4px; padding: 2px 6px; border-radius: 2px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; border: 1px solid; }
+  .badge-sm .dot-class { width: 5px; height: 5px; border-radius: 50%; }
+  .badge-sm.class-A { color: var(--class-a); border-color: var(--class-a); background: rgba(4,120,87,0.08); }
+  .badge-sm.class-A .dot-class { background: var(--class-a); }
+  .badge-sm.class-B { color: var(--class-b); border-color: var(--class-b); background: rgba(202,138,4,0.08); }
+  .badge-sm.class-B .dot-class { background: var(--class-b); }
+  .badge-sm.class-C { color: var(--class-c); border-color: var(--class-c); background: rgba(185,28,28,0.08); }
+  .badge-sm.class-C .dot-class { background: var(--class-c); }
+  .badge-sm.class-D { color: var(--class-d); border-color: var(--class-d); background: rgba(87,83,78,0.08); }
+  .badge-sm.class-D .dot-class { background: var(--class-d); }
+  .badge-sm.class-E { color: var(--class-e); border-color: var(--class-e); background: rgba(180,83,9,0.08); }
+  .badge-sm.class-E .dot-class { background: var(--class-e); }
+  .badge-sm.class-F { color: var(--class-f); border-color: var(--class-f); background: rgba(126,34,206,0.08); }
+  .badge-sm.class-F .dot-class { background: var(--class-f); }
+
+  /* Workflow state badges */
+  .state-badge { display: inline-block; padding: 2px 6px; border-radius: 2px; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; border: 1px solid; }
+  .state-OPEN { color: var(--text-secondary); border-color: var(--border-strong); background: var(--bg-panel-soft); }
+  .state-UNDER_REVIEW { color: var(--class-e); border-color: var(--class-e); background: rgba(180,83,9,0.08); }
+  .state-READY_TO_PAY { color: var(--class-a); border-color: var(--class-a); background: rgba(4,120,87,0.08); }
+  .state-PAID { color: var(--text-tertiary); border-color: var(--text-tertiary); background: var(--bg-panel-soft); opacity: 0.7; }
+  /* Old card-row CSS removed in v3 — replaced by .order-table */
+
+  .badge { display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px; border-radius: 2px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.02em; border: 1px solid; }
+  .badge.large { padding: 6px 12px; font-size: 14px; }
+  .badge .dot-class { width: 6px; height: 6px; border-radius: 50%; }
+  .badge.class-A { color: var(--class-a); border-color: var(--class-a); background: rgba(4,120,87,0.08); }
+  .badge.class-A .dot-class { background: var(--class-a); }
+  .badge.class-B { color: var(--class-b); border-color: var(--class-b); background: rgba(202,138,4,0.08); }
+  .badge.class-B .dot-class { background: var(--class-b); }
+  .badge.class-C { color: var(--class-c); border-color: var(--class-c); background: rgba(185,28,28,0.08); }
+  .badge.class-C .dot-class { background: var(--class-c); }
+  .badge.class-D { color: var(--class-d); border-color: var(--class-d); background: rgba(87,83,78,0.08); }
+  .badge.class-D .dot-class { background: var(--class-d); }
+  .badge.class-E { color: var(--class-e); border-color: var(--class-e); background: rgba(180,83,9,0.08); }
+  .badge.class-E .dot-class { background: var(--class-e); }
+  .badge.class-F { color: var(--class-f); border-color: var(--class-f); background: rgba(126,34,206,0.08); }
+  .badge.class-F .dot-class { background: var(--class-f); }
+
+  .back-bar { padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--bg-panel-soft); display: flex; align-items: center; gap: 8px; }
+  .back-link { display: inline-flex; align-items: center; gap: 6px; background: none; border: none; color: var(--text-secondary); font-family: 'DM Sans', sans-serif; font-size: 14px; cursor: pointer; padding: 4px 8px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 500; transition: color 0.15s; }
+  .back-link:hover { color: var(--accent); }
+
+  .drill-container { padding: 24px; max-width: 1280px; display: flex; flex-direction: column; gap: 20px; }
+  .drill-header { padding-bottom: 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
+  .drill-header .left { display: flex; flex-direction: column; gap: 8px; }
+  .drill-header .badges { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .drill-header h2 { font-family: 'JetBrains Mono', monospace; font-size: 1.625rem; font-weight: 500; color: var(--text-primary); margin-top: 4px; word-break: break-all; }
+  .drill-header .meta { color: var(--text-secondary); font-size: 14px; }
+  .recovery-target-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--class-c); font-weight: 500; }
+  .recovery-target-value { font-family: 'Newsreader', serif; font-size: 2.25rem; color: var(--class-c); margin-top: 4px; font-weight: 400; }
+
+  .panel { border: 1px solid var(--border); background: var(--bg-panel); border-radius: 4px; padding: 20px; box-shadow: var(--shadow-sm); }
+  .panel-header { display: flex; align-items: center; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid var(--border); margin-bottom: 16px; }
+  .panel-header svg { color: var(--accent); flex-shrink: 0; }
+  .panel-header .title { font-size: 13px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--text-primary); font-weight: 600; }
+  .panel-header .subtitle { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+
+  .lifecycle { display: flex; align-items: stretch; gap: 0; overflow-x: auto; padding: 8px 0; }
+  .stage { flex: 1; min-width: 110px; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 0 6px; }
+  .stage-dot { width: 36px; height: 36px; border-radius: 50%; border: 1.5px solid; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
+  .stage-dot.complete { background: rgba(4,120,87,0.1); border-color: var(--class-a); color: var(--class-a); }
+  .stage-dot.incomplete { background: rgba(168,162,158,0.15); border-color: var(--text-tertiary); color: var(--text-tertiary); }
+  .stage-dot.missing { background: rgba(185,28,28,0.1); border-color: var(--class-c); color: var(--class-c); }
+  .stage-dot.conflict { background: rgba(202,138,4,0.1); border-color: var(--class-b); color: var(--class-b); }
+  .stage-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-primary); font-weight: 600; }
+  .stage-sublabel { font-size: 12px; color: var(--text-secondary); margin-top: 3px; overflow: hidden; text-overflow: ellipsis; width: 100%; }
+  .stage-amount { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-primary); margin-top: 6px; font-weight: 500; }
+  .stage-arrow { display: flex; align-items: center; padding-top: 16px; color: var(--text-tertiary); flex-shrink: 0; }
+
+  .data-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  @media (max-width: 900px) { .data-grid { grid-template-columns: 1fr; } }
+  .field-row { display: flex; justify-content: space-between; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--border); gap: 8px; }
+  .field-row:last-child { border-bottom: none; }
+  .field-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-secondary); font-weight: 500; white-space: nowrap; }
+  .field-value { font-family: 'JetBrains Mono', monospace; font-size: 15px; color: var(--text-primary); font-weight: 500; text-align: right; }
+  .field-value.text { font-family: 'DM Sans', sans-serif; }
+  .field-value.accent { color: var(--accent); font-weight: 600; }
+
+  /* Detail data tables */
+  .detail-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .detail-table thead th { text-align: left; font-family: 'DM Sans', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); padding: 8px 10px; border-bottom: 1px solid var(--border-strong); font-weight: 600; background: var(--bg-panel-soft); }
+  .detail-table thead th.r { text-align: right; }
+  .detail-table tbody td { padding: 8px 10px; border-bottom: 1px solid var(--border); font-family: 'JetBrains Mono', monospace; color: var(--text-primary); }
+  .detail-table tbody td.r { text-align: right; }
+  .detail-table tbody td.text { font-family: 'DM Sans', sans-serif; }
+  .detail-table tbody tr:hover { background: var(--bg-panel-soft); }
+  .detail-table tfoot td { padding: 10px; border-top: 2px solid var(--border-strong); font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--text-primary); background: var(--bg-panel-soft); }
+  .detail-table tfoot td.r { text-align: right; }
+  .detail-table .accent-cell { color: var(--accent); font-weight: 600; }
+  .detail-table .muted { color: var(--text-tertiary); }
+
+  /* Comments timeline */
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+  .timeline-item { display: grid; grid-template-columns: 130px 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--border); align-items: flex-start; }
+  .timeline-item:last-child { border-bottom: none; }
+  .timeline-date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-secondary); }
+  .timeline-date .status { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-tertiary); margin-top: 4px; font-family: 'DM Sans', sans-serif; font-weight: 600; }
+  .timeline-content { font-size: 14px; color: var(--text-primary); line-height: 1.55; }
+  .timeline-tags { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+  .tag { font-family: 'JetBrains Mono', monospace; font-size: 10px; padding: 2px 6px; border-radius: 2px; background: var(--bg-panel-soft); color: var(--text-secondary); border: 1px solid var(--border); text-transform: uppercase; letter-spacing: 0.05em; }
+  .tag.customer { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+  .tag.front { background: rgba(4,120,87,0.1); color: var(--class-a); border-color: var(--class-a); }
+
+  /* Refund truth box (existing) */
+  .refund-truth-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+  @media (max-width: 700px) { .refund-truth-grid { grid-template-columns: 1fr; } }
+  .source-card { background: var(--bg-panel-soft); border: 1px solid var(--border); border-radius: 3px; padding: 14px; }
+  .source-card .src-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-secondary); font-weight: 600; margin-bottom: 4px; }
+  .source-card .src-formula { font-size: 12px; color: var(--text-tertiary); font-family: 'JetBrains Mono', monospace; line-height: 1.5; margin-bottom: 12px; }
+  .source-card .src-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+  .source-card .src-key { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-tertiary); }
+  .source-card .src-val { font-family: 'JetBrains Mono', monospace; font-size: 18px; color: var(--text-primary); font-weight: 500; }
+  .source-card .src-val.small { font-size: 13px; }
+  .delta-card { background: var(--bg-panel-soft); border: 1px solid var(--border); border-radius: 3px; padding: 14px; }
+  .delta-card .row { display: flex; justify-content: space-between; align-items: baseline; padding: 6px 0; }
+  .delta-card .row.border-top { border-top: 1px solid var(--border); padding-top: 10px; margin-top: 4px; }
+  .delta-card .row .lbl { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-secondary); }
+  .delta-card .row .val { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+  .val-true { color: var(--class-a); }
+  .val-false { color: var(--class-d); }
+  .val-conflict { color: var(--class-b); }
+
+  .class-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 16px; }
+  @media (max-width: 700px) { .class-stats { grid-template-columns: 1fr; } }
+  .reasoning { padding: 16px; background: var(--bg-panel-soft); border-left: 3px solid; font-family: 'Newsreader', serif; font-size: 17px; line-height: 1.65; color: var(--text-primary); border-radius: 0 3px 3px 0; }
+  .reasoning.class-A { border-left-color: var(--class-a); }
+  .reasoning.class-B { border-left-color: var(--class-b); }
+  .reasoning.class-C { border-left-color: var(--class-c); }
+  .reasoning.class-D { border-left-color: var(--class-d); }
+  .reasoning.class-E { border-left-color: var(--class-e); }
+  .reasoning.class-F { border-left-color: var(--class-f); }
+
+  /* Loading + error states */
+  .loading-state, .error-state { padding: 80px 24px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; }
+  .spinner { width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-state .label, .error-state .label { font-family: 'JetBrains Mono', monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--text-secondary); }
+  .error-state { color: var(--class-c); }
+  .error-state .detail { font-family: 'DM Sans', sans-serif; font-size: 14px; color: var(--text-secondary); max-width: 480px; text-transform: none; letter-spacing: 0; }
+  .retry-btn { padding: 8px 16px; background: var(--text-primary); color: var(--bg); border: none; border-radius: 3px; font-family: 'DM Sans', sans-serif; font-size: 13px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 500; }
+  .retry-btn:hover { background: var(--accent); }
+
+  footer.bottom { border-top: 1px solid var(--border); padding: 14px 24px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-tertiary); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; background: var(--bg-panel-soft); }
+  .hidden { display: none !important; }
+
+  /* ===== PAY / REVIEW / WAIT primary view (v1.4.4) ===== */
+  :root {
+    --bucket-pay: #047857;
+    --bucket-review: #b45309;
+    --bucket-wait: #a8a29e;
+  }
+
+  .view-toggle { display: flex; gap: 0; padding: 12px 24px 0; background: var(--bg); align-items: center; }
+  .view-toggle .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--text-secondary); margin-right: 16px; font-weight: 500; }
+  .view-toggle button { font-family: 'DM Sans', sans-serif; font-size: 13px; padding: 8px 16px; background: var(--bg-panel); border: 1px solid var(--border-strong); color: var(--text-secondary); cursor: pointer; transition: all 0.15s; letter-spacing: 0.05em; }
+  .view-toggle button:first-of-type { border-radius: 3px 0 0 3px; }
+  .view-toggle button:last-of-type { border-radius: 0 3px 3px 0; border-left: none; }
+  .view-toggle button.active { background: var(--text-primary); color: var(--bg); border-color: var(--text-primary); font-weight: 500; }
+  .view-toggle button:hover:not(.active) { background: var(--bg-panel-soft); color: var(--text-primary); }
+
+  .prw-section { padding: 24px; background: var(--bg); border-bottom: 1px solid var(--border); }
+  .prw-cards { display: grid; grid-template-columns: 2fr 1.5fr 1fr; gap: 16px; margin-bottom: 24px; }
+  @media (max-width: 1100px) { .prw-cards { grid-template-columns: 1fr; } }
+  .prw-card { background: var(--bg-panel); border: 1px solid var(--border-strong); border-radius: 4px; padding: 18px 20px; border-left-width: 4px; }
+  .prw-card.pay { border-left-color: var(--bucket-pay); }
+  .prw-card.review { border-left-color: var(--bucket-review); }
+  .prw-card.wait { border-left-color: var(--bucket-wait); background: var(--bg-panel-soft); }
+  .prw-card .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+  .prw-card .name { font-family: 'Newsreader', serif; font-size: 1.5rem; font-weight: 500; color: var(--text-primary); letter-spacing: -0.01em; }
+  .prw-card.pay .name { color: var(--bucket-pay); }
+  .prw-card.review .name { color: var(--bucket-review); }
+  .prw-card .count { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-secondary); }
+  .prw-card .amount { font-family: 'JetBrains Mono', monospace; font-size: 2rem; font-weight: 500; letter-spacing: -0.02em; color: var(--text-primary); margin-bottom: 8px; line-height: 1; }
+  .prw-card.pay .amount { color: var(--bucket-pay); }
+  .prw-card .meta { font-size: 12px; color: var(--text-secondary); line-height: 1.55; }
+  .prw-card .meta .em { color: var(--text-primary); font-weight: 500; font-family: 'JetBrains Mono', monospace; }
+  .prw-card .meta .imminent { color: var(--accent); }
+  .prw-card .meta .overdue { color: var(--class-c); font-weight: 600; }
+
+  .prw-table-wrap { background: var(--bg-panel); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin-bottom: 24px; }
+  .prw-table-head { display: flex; justify-content: space-between; align-items: baseline; padding: 14px 18px; border-bottom: 1px solid var(--border); background: var(--bg-panel-soft); }
+  .prw-table-head .title { font-family: 'Newsreader', serif; font-size: 1.125rem; font-weight: 500; }
+  .prw-table-head .title.pay { color: var(--bucket-pay); }
+  .prw-table-head .title.review { color: var(--bucket-review); }
+  .prw-table-head .summary { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-secondary); }
+  .prw-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .prw-table thead th { text-align: left; font-family: 'DM Sans', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); padding: 10px 14px; border-bottom: 1px solid var(--border-strong); font-weight: 600; background: var(--bg-panel-soft); position: sticky; top: 0; }
+  .prw-table thead th.r { text-align: right; }
+  .prw-table tbody td { padding: 10px 14px; border-bottom: 1px solid var(--border); font-family: 'JetBrains Mono', monospace; color: var(--text-primary); }
+  .prw-table tbody td.r { text-align: right; }
+  .prw-table tbody td.text { font-family: 'DM Sans', sans-serif; }
+  .prw-table tbody tr:hover { background: var(--bg-panel-soft); cursor: pointer; }
+  .prw-table tbody tr:last-child td { border-bottom: none; }
+  .prw-table tfoot td { padding: 12px 14px; border-top: 2px solid var(--border-strong); font-family: 'JetBrains Mono', monospace; font-weight: 600; background: var(--bg-panel-soft); }
+  .prw-table tfoot td.r { text-align: right; }
+  .prw-scroll { max-height: 560px; overflow-y: auto; }
+
+  .status-pill { font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 2px 8px; border-radius: 10px; display: inline-block; font-weight: 600; letter-spacing: 0.04em; }
+  .status-pill.ontime { background: rgba(4,120,87,0.1); color: var(--bucket-pay); }
+  .status-pill.ingrace { background: var(--accent-soft); color: var(--accent); }
+  .status-pill.overdue { background: rgba(185,28,28,0.1); color: var(--class-c); }
+
+  .reason-tag { font-family: 'JetBrains Mono', monospace; font-size: 10px; padding: 2px 6px; border-radius: 2px; background: var(--bg-panel-soft); color: var(--text-secondary); border: 1px solid var(--border); text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+
+  .prw-wait-line { background: var(--bg-panel-soft); border: 1px solid var(--border); border-radius: 4px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-secondary); }
+  .prw-wait-line .wait-label { color: var(--text-primary); font-weight: 500; }
+  .prw-wait-line button { font-family: 'DM Sans', sans-serif; font-size: 12px; padding: 6px 12px; background: var(--bg-panel); border: 1px solid var(--border-strong); border-radius: 3px; color: var(--text-secondary); cursor: pointer; }
+  .prw-wait-line button:hover { color: var(--text-primary); border-color: var(--accent); }
+
+  .prw-terms-note { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-tertiary); padding: 12px 18px 0; line-height: 1.55; }
+  .prw-terms-note .warn { color: var(--accent); }
+
+  .prw-tabs { display: flex; gap: 0; border-bottom: 1px solid var(--border); margin-bottom: 16px; }
+  .prw-tabs button { background: none; border: none; padding: 10px 16px; font-family: 'DM Sans', sans-serif; font-size: 13px; color: var(--text-secondary); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .prw-tabs button.active { color: var(--text-primary); border-bottom-color: var(--accent); font-weight: 500; }
+  .prw-tabs button:hover:not(.active) { color: var(--text-primary); }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="row">
+    <div style="display:flex; align-items:baseline; gap:16px; flex-wrap:wrap;">
+      <h1>Axiscore Finance</h1>
+      <span class="subtitle">Vendor Cash Reconciliation</span>
+      <span class="version" id="version-tag">v1.2</span>
+    </div>
+    <div class="refresh">
+      <div class="refresh-item"><span class="dot dot-live" id="dot-magento"></span><span id="refresh-magento">Magento —</span></div>
+      <div class="refresh-item"><span class="dot dot-stale" id="dot-erp"></span><span id="refresh-erp">ERP —</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="kpi-strip" id="kpi-strip">
+  <div class="loading-state"><div class="spinner"></div><div class="label">Loading data…</div></div>
+</section>
+
+<!-- =========== PAY / REVIEW / WAIT primary view (v1.4.4) =========== -->
+<nav class="view-toggle hidden" id="view-toggle">
+  <span class="label">View</span>
+  <button id="view-toggle-prw" class="active" type="button">Pay · Review · Wait</button>
+  <button id="view-toggle-class" type="button">Class Detail</button>
+</nav>
+<section class="prw-section hidden" id="prw-section">
+  <div class="prw-cards" id="prw-cards"></div>
+  <div id="prw-pay-table"></div>
+  <div id="prw-review-table"></div>
+  <div id="prw-wait-summary"></div>
+  <div class="prw-terms-note" id="prw-terms-note"></div>
+</section>
+
+<section class="class-dist hidden" id="class-dist"></section>
+
+<div id="view-list">
+  <section class="filters-bar hidden" id="filters-bar">
+    <div class="search-box">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="search-input" placeholder="Search order ID, entity, vendor…" />
+    </div>
+    <div class="chips" id="filter-chips"></div>
+    <div class="chips" id="state-chips" style="margin-left:auto;"></div>
+    <div class="sort-control">
+      <label for="sort-select">Sort</label>
+      <select id="sort-select">
+        <option value="date_desc">Date · newest first</option>
+        <option value="date_asc">Date · oldest first</option>
+        <option value="class">Class priority (C→E→A→F→B→D)</option>
+        <option value="recovery_desc">Recovery target · high→low</option>
+        <option value="disc_desc">Discrepancy · |amt| high→low</option>
+      </select>
+    </div>
+    <button class="legend-btn" id="filters-toggle-btn" type="button" title="Advanced filters">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+      Filters
+    </button>
+    <button class="legend-btn" id="legend-btn" type="button" title="What do the classes mean?">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      Classes
+    </button>
+    <button class="legend-btn" id="states-btn" type="button" title="What do the workflow states mean?">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+      States
+    </button>
+    <button class="reset-btn" id="reset-btn">Reset</button>
+  </section>
+
+  <!-- Advanced filter drawer -->
+  <section class="filter-drawer hidden" id="filter-drawer">
+    <div class="filter-grid">
+      <div class="filter-field">
+        <label>Date from</label>
+        <input type="date" id="filter-date-from" />
+      </div>
+      <div class="filter-field">
+        <label>Date to</label>
+        <input type="date" id="filter-date-to" />
+      </div>
+      <div class="filter-field">
+        <label>Days old (≥)</label>
+        <input type="number" id="filter-days-old" placeholder="e.g. 30" min="0" />
+      </div>
+      <div class="filter-field">
+        <label>Vendor</label>
+        <select id="filter-vendor">
+          <option value="ALL">All vendors</option>
+        </select>
+      </div>
+      <div class="filter-field">
+        <label>Store</label>
+        <select id="filter-store">
+          <option value="ALL">All stores</option>
+        </select>
+      </div>
+      <div class="filter-field">
+        <label>Discrepancy min ($)</label>
+        <input type="number" id="filter-disc-min" placeholder="e.g. 5" step="0.01" />
+      </div>
+      <div class="filter-field">
+        <label>Discrepancy max ($)</label>
+        <input type="number" id="filter-disc-max" placeholder="e.g. 100" step="0.01" />
+      </div>
+    </div>
+    <div class="filter-drawer-actions">
+      <button class="action-btn" id="apply-filters-btn">Apply filters</button>
+      <button class="export-btn" id="clear-filters-btn">Clear all</button>
+    </div>
+  </section>
+
+  <!-- Class legend popover (hidden by default) -->
+  <div id="legend-popover" class="popover hidden">
+    <div class="popover-inner">
+      <div class="popover-header">
+        <div class="popover-title">Class Definitions</div>
+        <button class="popover-close" id="legend-close" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="popover-body" id="legend-body"></div>
+    </div>
+  </div>
+
+  <!-- Workflow states popover (hidden by default) -->
+  <div id="states-popover" class="popover hidden">
+    <div class="popover-inner">
+      <div class="popover-header">
+        <div class="popover-title">Workflow States</div>
+        <button class="popover-close" id="states-close" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="popover-body" id="states-body"></div>
+    </div>
+  </div>
+  <div class="order-count hidden" id="order-count"></div>
+  <div class="order-list" id="order-list"></div>
+</div>
+
+<div id="view-detail" class="hidden">
+  <div class="back-bar">
+    <button class="back-link" id="back-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Back to orders
+    </button>
+  </div>
+  <div class="drill-container" id="drill-container"></div>
+</div>
+
+<footer class="bottom">
+  <span id="footer-left">Axiscore LLC · Finance System v3 · Vendor Cash Recon</span>
+  <span id="footer-meta">—</span>
+</footer>
+
+<script>
+// ============================================================================
+// CONFIG
+// ============================================================================
+const CONFIG = {
+  TIER1_URL: './data/_latest.json',
+  PRW_URL: './data/_latest_pay_review_wait.json',  // Pay/Review/Wait primary view payload
+  DETAIL_URL: (cls, ym) => cls === 'CLASS_D'
+    ? `./data/_latest_detail_class_D_${ym}.json`
+    : `./data/_latest_detail_class_${cls.replace('CLASS_', '')}.json`,
+  // Cache-bust hint (re-fetch in this session if user refreshes)
+  CACHE_BUST: () => `?t=${Date.now()}`
+};
+
+const CLASS_META = {
+  'CLASS_A': { short: 'A', label: 'Refunded — vendor credited within retention', color: '#047857', meaning: 'No action. Vendor properly credited.' },
+  'CLASS_B': { short: 'B', label: 'Pre-ship cancel — vendor underpaid credit', color: '#ca8a04', meaning: 'No orders typically meet criteria.' },
+  'CLASS_C': { short: 'C', label: 'Refunded — gap exceeds retention, recovery eligible', color: '#b91c1c', meaning: 'Recovery eligible. Evidence trail complete.' },
+  'CLASS_D': { short: 'D', label: 'Clean / no refund occurred / no anomaly', color: '#57534e', meaning: 'No action. Legitimately paid and shipped.' },
+  'CLASS_E': { short: 'E', label: 'Data conflict — review required', color: '#b45309', meaning: 'Held back. Most resolve in next settlement batch.' },
+  'CLASS_F': { short: 'F', label: 'Amazon revenue, no vendor invoice — investigate', color: '#7e22ce', meaning: 'Unattributed. Park; dedicated investigation later.' }
+};
+
+const STATES_META = {
+  'OPEN': { short: 'O', label: 'Open — awaiting review', color: '#57534e', meaning: 'Default state. Order has not been triaged yet.' },
+  'UNDER_REVIEW': { short: 'R', label: 'Under Review — analyst working it', color: '#b45309', meaning: 'Currently being analyzed. May need vendor follow-up, evidence gathering, or escalation.' },
+  'READY_TO_PAY': { short: 'P', label: 'Ready to Pay — cleared for weekly payment cycle', color: '#047857', meaning: 'Analysis complete, invoice verified. Will be included in the next weekly Essendant remittance batch.' },
+  'PAID': { short: '✓', label: 'Paid — remittance sent', color: '#a8a29e', meaning: 'Payment issued. Remittance CSV generated. Final state unless reopened.' }
+};
+
+// ============================================================================
+// STATE
+// ============================================================================
+const STATE = {
+  metadata: null,
+  summary: null,
+  transition: null,
+  vendorDist: null,
+  orders: [],
+  selectedOrderId: null,
+  selectedDetail: null,
+  detailCache: {},
+  detailLoading: false,
+  filterClass: 'ALL',
+  filterState: 'ALL',
+  filterVendor: 'ALL',
+  filterStore: 'ALL',
+  filterDateFrom: null,
+  filterDateTo: null,
+  filterDiscMin: null,
+  filterDiscMax: null,
+  filterDaysOld: null,
+  searchQuery: '',
+  sortMode: 'date_desc',
+  filterPanelOpen: false,
+  selectedRowIds: new Set(),
+  workflowStates: {} // channel_order_id -> 'OPEN'|'UNDER_REVIEW'|'READY_TO_PAY'|'PAID'
+};
+
+// Workflow state persistence — kept in localStorage for now. Survives page reloads.
+// Once pipeline backend persists state, swap to fetch/POST. Until then it's per-browser-per-user.
+function loadWorkflowStates() {
+  try {
+    const raw = localStorage.getItem('axiscore_finance_workflow_states');
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) { return {}; }
+}
+function saveWorkflowStates() {
+  try {
+    localStorage.setItem('axiscore_finance_workflow_states', JSON.stringify(STATE.workflowStates));
+  } catch (e) { /* quota or disabled */ }
+}
+function getWorkflowState(orderId) {
+  return STATE.workflowStates[orderId] || 'OPEN';
+}
+function setWorkflowState(orderId, state) {
+  if (state === 'OPEN') delete STATE.workflowStates[orderId];
+  else STATE.workflowStates[orderId] = state;
+  saveWorkflowStates();
+}
+
+// Given an order from Tier 1, compute the financial columns. Pipeline may add these directly later;
+// for now, derive from whatever is present in Tier 1. Returns same object with derived fields attached.
+function computeOrderFinancials(o) {
+  // Pipeline may already provide these; if not, compute conservative defaults.
+  if (o.exp_item_cost == null) o.exp_item_cost = o.magento_exp_item_cost ?? 0;
+  if (o.exp_ship_cost == null) o.exp_ship_cost = o.magento_exp_ship_cost ?? 0;
+  if (o.act_item_cost == null) o.act_item_cost = o.vendor_invoice_subtotal_sum ?? 0;
+  if (o.act_ship_cost == null) o.act_ship_cost = o.vendor_invoice_ship_sum ?? 0;
+  if (o.disc_amt == null) {
+    const exp = (o.exp_item_cost || 0) + (o.exp_ship_cost || 0);
+    const act = (o.act_item_cost || 0) + (o.act_ship_cost || 0);
+    o.disc_amt = exp - act;
+  }
+  if (o.t_outstanding == null) o.t_outstanding = o.vendor_outstanding ?? 0;
+  if (o.t_paid == null) o.t_paid = o.vendor_paid ?? 0;
+  if (o.amazon_refunded_actual == null) o.amazon_refunded_actual = o.refund_amount ?? 0;
+  return o;
+}
+const fmt = (n, opts = {}) => {
+  if (n === null || n === undefined) return '—';
+  const { decimals = 2, dollar = false } = opts;
+  const formatted = Number(n).toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+  return dollar ? '$' + formatted : formatted;
+};
+const fmtInt = (n) => (n === null || n === undefined) ? '—' : Number(n).toLocaleString('en-US');
+const fmtDate = (s) => !s ? '—' : String(s).split(' ')[0];
+const fmtDateTime = (s) => !s ? '—' : String(s).replace('T', ' ').substring(0, 16);
+const fmtMoney = (n) => fmt(n, { dollar: true });
+const escape = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const classCss = (cls) => 'class-' + cls.replace('CLASS_', '');
+const classColor = (cls) => CLASS_META[cls]?.color || '#6b7280';
+
+const ICONS = {
+  search: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>',
+  receipt: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 2v20l2-2 2 2 2-2 2 2 2-2 2 2 2-2 2 2V2l-2 2-2-2-2 2-2-2-2 2-2-2-2 2-2-2zM16 8H8M16 12H8M16 16H8"/></svg>',
+  file: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>',
+  truck: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 18H3V6h14v12h-4M14 6v12M9 18h6M16 11h4l3 3v4h-2"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>',
+  alert: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>',
+  check: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/></svg>',
+  arrowRight: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>',
+  package: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16.5 9.4 7.55 4.24M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>',
+  help: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>',
+  info: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>',
+  msg: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+  list: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>'
+};
+
+// ============================================================================
+// FETCHERS
+// ============================================================================
+async function fetchPRW() {
+  // Pay/Review/Wait primary view payload. Optional — dashboard still renders Tier 1 if missing.
+  try {
+    const resp = await fetch(CONFIG.PRW_URL + CONFIG.CACHE_BUST(), { cache: 'no-store' });
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch (e) {
+    console.warn('PRW payload not available:', e.message);
+    return null;
+  }
+}
+
+async function fetchTier1() {
+  const resp = await fetch(CONFIG.TIER1_URL + CONFIG.CACHE_BUST(), { cache: 'no-store' });
+  if (!resp.ok) throw new Error(`Tier 1 fetch failed: HTTP ${resp.status}`);
+  return await resp.json();
+}
+
+async function fetchDetail(order) {
+  const ym = order.class === 'CLASS_D' ? String(order.created_at).substring(0, 7) : null;
+  const cacheKey = ym ? `D-${ym}` : order.class.replace('CLASS_', '');
+  if (STATE.detailCache[cacheKey]) return STATE.detailCache[cacheKey];
+
+  const url = CONFIG.DETAIL_URL(order.class, ym);
+  const resp = await fetch(url + CONFIG.CACHE_BUST(), { cache: 'no-store' });
+  if (!resp.ok) throw new Error(`Detail fetch failed: HTTP ${resp.status} (${url})`);
+  const data = await resp.json();
+  STATE.detailCache[cacheKey] = data;
+  return data;
+}
+
+// ============================================================================
+// INIT
+// ============================================================================
+async function init() {
+  try {
+    const tier1 = await fetchTier1();
+    STATE.metadata = tier1.metadata;
+    STATE.summary = tier1.summary;
+    STATE.transition = tier1.class_transition_vs_stage2 || [];
+    STATE.vendorDist = tier1.vendor_distribution_in_scope || [];
+    STATE.orders = (tier1.orders || []).map(computeOrderFinancials);
+    STATE.workflowStates = loadWorkflowStates();
+
+    document.getElementById('version-tag').textContent = STATE.metadata.methodology_version || 'v1.2';
+    document.getElementById('refresh-magento').textContent = 'Magento ' + (STATE.metadata.refresh_status?.magento_last_update || '—');
+    document.getElementById('refresh-erp').textContent = 'ERP ' + (STATE.metadata.refresh_status?.erp_advance_last_update || '—');
+    document.getElementById('footer-meta').textContent = 'Generated ' + (STATE.metadata.generated_at || '—') + ' · window ' + STATE.metadata.data_window.start + ' → ' + STATE.metadata.data_window.end;
+
+    // Load Pay/Review/Wait payload (presentation-layer rebuild — v1.4.4)
+    STATE.prw = await fetchPRW();
+
+    renderKpis();
+    renderClassDist();
+    renderFilterChips();
+    renderStateChips();
+    populateFilterDrawer();
+
+    // Wire up Pay/Review/Wait primary view
+    if (STATE.prw) {
+      renderPRW();
+      document.getElementById('view-toggle').classList.remove('hidden');
+      switchView('prw');  // default to PAY/REVIEW/WAIT
+      document.getElementById('view-toggle-prw').addEventListener('click', () => switchView('prw'));
+      document.getElementById('view-toggle-class').addEventListener('click', () => switchView('class'));
+    } else {
+      // Fallback: show class detail directly
+      document.getElementById('filters-bar').classList.remove('hidden');
+      document.getElementById('class-dist').classList.remove('hidden');
+      document.getElementById('order-count').classList.remove('hidden');
+    }
+    renderOrderList();
+
+    document.getElementById('search-input').addEventListener('input', (e) => {
+      STATE.searchQuery = e.target.value;
+      renderOrderList();
+    });
+    document.getElementById('sort-select').addEventListener('change', (e) => {
+      STATE.sortMode = e.target.value;
+      renderOrderList();
+    });
+    document.getElementById('reset-btn').addEventListener('click', resetAllFilters);
+    document.getElementById('back-btn').addEventListener('click', showList);
+
+    // Legend popover wiring
+    document.getElementById('legend-btn').addEventListener('click', openLegend);
+    document.getElementById('legend-close').addEventListener('click', closeLegend);
+    document.getElementById('legend-popover').addEventListener('click', (e) => {
+      if (e.target.id === 'legend-popover') closeLegend();
+    });
+    document.getElementById('states-btn').addEventListener('click', openStates);
+    document.getElementById('states-close').addEventListener('click', closeStates);
+    document.getElementById('states-popover').addEventListener('click', (e) => {
+      if (e.target.id === 'states-popover') closeStates();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') { closeLegend(); closeStates(); }
+    });
+
+    // Filter drawer wiring
+    document.getElementById('filters-toggle-btn').addEventListener('click', () => {
+      STATE.filterPanelOpen = !STATE.filterPanelOpen;
+      const drawer = document.getElementById('filter-drawer');
+      const btn = document.getElementById('filters-toggle-btn');
+      drawer.classList.toggle('hidden', !STATE.filterPanelOpen);
+      btn.classList.toggle('active', STATE.filterPanelOpen);
+    });
+    document.getElementById('apply-filters-btn').addEventListener('click', applyDrawerFilters);
+    document.getElementById('clear-filters-btn').addEventListener('click', clearDrawerFilters);
+  } catch (err) {
+    showInitError(err.message);
+  }
+}
+
+function showInitError(msg) {
+  document.getElementById('kpi-strip').innerHTML = `
+    <div class="error-state" style="grid-column: 1 / -1;">
+      <div class="label">Data load failed</div>
+      <div class="detail">${escape(msg)}</div>
+      <button class="retry-btn" onclick="location.reload()">Retry</button>
+    </div>`;
+}
+
+// ============================================================================
+// KPIS
+// ============================================================================
+function renderKpis() {
+  const s = STATE.summary;
+  const cC = s.classes.find(c => c.code === 'CLASS_C')?.count ?? 0;
+  const cE = s.classes.find(c => c.code === 'CLASS_E')?.count ?? 0;
+  // Compute financial totals across all in-scope orders (using vendor.invoiced_gross which is on the Tier 1 list)
+  let totInvoicedValue = 0, totRefunded = 0, totDiscrepancy = 0, totOutstanding = 0;
+  for (const o of STATE.orders) {
+    totInvoicedValue += (o.act_item_cost || 0) + (o.act_ship_cost || 0);
+    totRefunded += (o.amazon_refunded_actual || 0);
+    totDiscrepancy += (o.disc_amt || 0);
+    totOutstanding += (o.t_outstanding || 0);
+  }
+  document.getElementById('kpi-strip').innerHTML = `
+    <div class="stat"><div class="label">Orders in scope</div><div class="value">${fmtInt(STATE.metadata.universe_count)}</div><div class="sublabel">${STATE.metadata.data_window.start} → ${STATE.metadata.data_window.end}</div></div>
+    <div class="stat"><div class="label">Total invoiced value</div><div class="value">${fmtMoney(totInvoicedValue)}</div><div class="sublabel">vendor invoice gross sum</div></div>
+    <div class="stat"><div class="label">Total outstanding</div><div class="value">${fmtMoney(totOutstanding)}</div><div class="sublabel">unpaid vendor invoices</div></div>
+    <div class="stat"><div class="label">Recovery target</div><div class="value serif accent">${fmtMoney(s.recovery_target)}</div><div class="sublabel">${cC} CLASS_C orders</div></div>
+    <div class="stat"><div class="label">Total discrepancy</div><div class="value">${fmtMoney(totDiscrepancy)}</div><div class="sublabel">exp vs act variance · ${s.refund_detection_rate_percent.toFixed(2)}% refund rate</div></div>
+    <div class="stat"><div class="label">Review queue</div><div class="value">${fmtInt(cE)}</div><div class="sublabel">CLASS_E (data conflict)</div></div>
+  `;
+}
+
+// ============================================================================
+// CLASS DIST
+// ============================================================================
+function renderClassDist() {
+  const total = STATE.summary.classes.reduce((s, c) => s + c.count, 0);
+  const segs = STATE.summary.classes.filter(c => c.count > 0).map(c => {
+    const pct = (c.count / total) * 100;
+    const dim = STATE.filterClass !== 'ALL' && STATE.filterClass !== c.code;
+    const meta = CLASS_META[c.code];
+    return `<button class="dist-seg ${dim ? 'dim' : ''}" data-class="${c.code}" style="width:${pct}%; background:${meta.color}; min-width:${pct < 1 ? '8px' : 'auto'};" title="${c.code}: ${fmtInt(c.count)} orders (${pct.toFixed(1)}%)">${pct > 4 ? meta.short + ' · ' + fmtInt(c.count) : ''}</button>`;
+  }).join('');
+  const legend = STATE.summary.classes.map(c => {
+    const meta = CLASS_META[c.code];
+    return `<div class="dist-legend-item"><span class="legend-sq" style="background:${meta.color}"></span><span>${c.code}</span><span style="color:var(--text-tertiary)">${fmtInt(c.count)}</span></div>`;
+  }).join('');
+  document.getElementById('class-dist').innerHTML = `
+    <div class="top">
+      <div class="lbl">Class distribution · ${fmtInt(total)} orders</div>
+      <div class="hint">tap a segment to filter</div>
+    </div>
+    <div class="dist-bar">${segs}</div>
+    <div class="dist-legend">${legend}</div>
+  `;
+  document.querySelectorAll('.dist-seg').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cls = btn.dataset.class;
+      STATE.filterClass = STATE.filterClass === cls ? 'ALL' : cls;
+      renderClassDist();
+      renderFilterChips();
+      renderOrderList();
+    });
+  });
+}
+
+// ============================================================================
+// FILTERS
+// ============================================================================
+function renderFilterChips() {
+  const chips = ['<button class="chip ' + (STATE.filterClass === 'ALL' ? 'active' : '') + '" data-class="ALL">ALL</button>'];
+  STATE.summary.classes.filter(c => c.count > 0).forEach(c => {
+    const meta = CLASS_META[c.code];
+    const active = STATE.filterClass === c.code;
+    chips.push(`<button class="chip ${classCss(c.code)} ${active ? 'active' : ''}" data-class="${c.code}">${meta.short} · ${fmtInt(c.count)}</button>`);
+  });
+  document.getElementById('filter-chips').innerHTML = chips.join('');
+  document.querySelectorAll('#filter-chips .chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      STATE.filterClass = btn.dataset.class;
+      renderClassDist();
+      renderFilterChips();
+      renderOrderList();
+    });
+  });
+}
+
+function filteredOrders() {
+  return STATE.orders.filter(o => {
+    if (STATE.filterClass !== 'ALL' && o.class !== STATE.filterClass) return false;
+    if (STATE.filterState !== 'ALL' && getWorkflowState(o.channel_order_id) !== STATE.filterState) return false;
+    if (STATE.filterVendor !== 'ALL' && String(o.primary_vendor_code || '') !== STATE.filterVendor) return false;
+    if (STATE.filterStore !== 'ALL' && String(o.store_id || '') !== STATE.filterStore) return false;
+    if (STATE.filterDateFrom && String(o.created_at || '').substring(0, 10) < STATE.filterDateFrom) return false;
+    if (STATE.filterDateTo && String(o.created_at || '').substring(0, 10) > STATE.filterDateTo) return false;
+    if (STATE.filterDaysOld != null && o.created_at) {
+      const days = (Date.now() - new Date(o.created_at).getTime()) / (1000 * 60 * 60 * 24);
+      if (days < STATE.filterDaysOld) return false;
+    }
+    if (STATE.filterDiscMin != null && Math.abs(o.disc_amt || 0) < STATE.filterDiscMin) return false;
+    if (STATE.filterDiscMax != null && Math.abs(o.disc_amt || 0) > STATE.filterDiscMax) return false;
+    if (STATE.searchQuery) {
+      const q = STATE.searchQuery.toLowerCase();
+      return o.channel_order_id.toLowerCase().includes(q)
+        || (o.magento_entity_id != null && String(o.magento_entity_id).includes(q))
+        || (o.primary_vendor_code && String(o.primary_vendor_code).toLowerCase().includes(q))
+        || (o.vendor_name && String(o.vendor_name).toLowerCase().includes(q));
+    }
+    return true;
+  });
+}
+
+function renderStateChips() {
+  const states = ['ALL', 'OPEN', 'UNDER_REVIEW', 'READY_TO_PAY', 'PAID'];
+  const counts = {};
+  for (const s of states) counts[s] = 0;
+  for (const o of STATE.orders) {
+    const s = getWorkflowState(o.channel_order_id);
+    counts[s] = (counts[s] || 0) + 1;
+    counts.ALL++;
+  }
+  const html = states.map(s => {
+    const active = STATE.filterState === s;
+    const label = s === 'ALL' ? 'All states' : s.replace('_', ' ');
+    return `<button class="chip ${active ? 'active' : ''}" data-state="${s}">${label} · ${fmtInt(counts[s])}</button>`;
+  }).join('');
+  document.getElementById('state-chips').innerHTML = html;
+  document.querySelectorAll('#state-chips .chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      STATE.filterState = btn.dataset.state;
+      renderStateChips();
+      renderOrderList();
+    });
+  });
+}
+
+function populateFilterDrawer() {
+  // Vendor dropdown — unique values from orders
+  const vendors = {};
+  const stores = {};
+  for (const o of STATE.orders) {
+    if (o.primary_vendor_code) {
+      vendors[o.primary_vendor_code] = o.vendor_name || o.primary_vendor_code;
+    }
+    if (o.store_id != null) {
+      stores[o.store_id] = `Store ${o.store_id}` + (o.channel ? ` (${o.channel})` : '');
+    }
+  }
+  const vendorSel = document.getElementById('filter-vendor');
+  for (const [code, name] of Object.entries(vendors).sort((a, b) => a[1].localeCompare(b[1]))) {
+    const opt = document.createElement('option');
+    opt.value = code; opt.textContent = name;
+    vendorSel.appendChild(opt);
+  }
+  const storeSel = document.getElementById('filter-store');
+  for (const [id, label] of Object.entries(stores).sort((a, b) => Number(a[0]) - Number(b[0]))) {
+    const opt = document.createElement('option');
+    opt.value = id; opt.textContent = label;
+    storeSel.appendChild(opt);
+  }
+}
+
+function applyDrawerFilters() {
+  STATE.filterDateFrom = document.getElementById('filter-date-from').value || null;
+  STATE.filterDateTo = document.getElementById('filter-date-to').value || null;
+  STATE.filterDaysOld = parseInt(document.getElementById('filter-days-old').value, 10);
+  if (isNaN(STATE.filterDaysOld)) STATE.filterDaysOld = null;
+  STATE.filterVendor = document.getElementById('filter-vendor').value;
+  STATE.filterStore = document.getElementById('filter-store').value;
+  const discMin = parseFloat(document.getElementById('filter-disc-min').value);
+  const discMax = parseFloat(document.getElementById('filter-disc-max').value);
+  STATE.filterDiscMin = isNaN(discMin) ? null : discMin;
+  STATE.filterDiscMax = isNaN(discMax) ? null : discMax;
+  renderOrderList();
+}
+
+function clearDrawerFilters() {
+  STATE.filterDateFrom = null;
+  STATE.filterDateTo = null;
+  STATE.filterDaysOld = null;
+  STATE.filterVendor = 'ALL';
+  STATE.filterStore = 'ALL';
+  STATE.filterDiscMin = null;
+  STATE.filterDiscMax = null;
+  document.getElementById('filter-date-from').value = '';
+  document.getElementById('filter-date-to').value = '';
+  document.getElementById('filter-days-old').value = '';
+  document.getElementById('filter-vendor').value = 'ALL';
+  document.getElementById('filter-store').value = 'ALL';
+  document.getElementById('filter-disc-min').value = '';
+  document.getElementById('filter-disc-max').value = '';
+  renderOrderList();
+}
+
+function resetAllFilters() {
+  STATE.filterClass = 'ALL';
+  STATE.filterState = 'ALL';
+  STATE.searchQuery = '';
+  STATE.sortMode = 'date_desc';
+  STATE.selectedRowIds.clear();
+  clearDrawerFilters();
+  document.getElementById('search-input').value = '';
+  document.getElementById('sort-select').value = 'date_desc';
+  renderClassDist();
+  renderFilterChips();
+  renderStateChips();
+  renderOrderList();
+}
+
+// ============================================================================
+// ORDER LIST (table view)
+// ============================================================================
+function renderOrderList() {
+  const orders = filteredOrders();
+  const selCount = STATE.selectedRowIds.size;
+  // Action toolbar (top bar)
+  document.getElementById('order-count').innerHTML = `
+    <span id="visible-count-label">${fmtInt(orders.length)} order${orders.length !== 1 ? 's' : ''} match${orders.length === 1 ? 'es' : ''}${selCount > 0 ? ` · ${fmtInt(selCount)} selected` : ''}</span>
+    <div class="actions">
+      <select class="action-select" id="bulk-action-select" ${selCount === 0 ? 'disabled' : ''}>
+        <option value="">Bulk action…</option>
+        <option value="send_review">Send to Review</option>
+        <option value="send_ready">Send to Ready to Pay</option>
+        <option value="mark_paid">Mark as Paid</option>
+        <option value="reopen">Reopen (back to OPEN)</option>
+        <option value="export_selected">Export Selected to CSV</option>
+      </select>
+      <button class="action-btn" id="bulk-action-apply" ${selCount === 0 ? 'disabled' : ''}>Apply</button>
+      <button class="export-btn" id="export-csv-btn">Export CSV</button>
+      <span style="color:var(--text-tertiary); font-size:11px;">${fmtInt(STATE.orders.length)} total · sorted by ${sortLabel(STATE.sortMode)}</span>
+    </div>
+  `;
+  document.getElementById('bulk-action-apply').addEventListener('click', applyBulkAction);
+  document.getElementById('export-csv-btn').addEventListener('click', () => exportCsv(orders));
+
+  const list = document.getElementById('order-list');
+  if (orders.length === 0) {
+    list.innerHTML = '<div style="padding:32px; text-align:center; color:var(--text-tertiary); font-size:14px;">No orders match the filter.</div>';
+    return;
+  }
+  const sorted = sortOrders(orders, STATE.sortMode);
+  const allVisibleSelected = sorted.length > 0 && sorted.every(o => STATE.selectedRowIds.has(o.channel_order_id));
+
+  const headerHtml = `
+    <thead>
+      <tr>
+        <th class="checkbox-cell"><input type="checkbox" id="select-all-visible" ${allVisibleSelected ? 'checked' : ''} title="Select all visible" /></th>
+        <th class="c">Class</th>
+        <th class="c">State</th>
+        <th class="sortable" data-sort="date_desc">Order Date</th>
+        <th>Order ID</th>
+        <th>Vendor</th>
+        <th class="r">Exp. Item</th>
+        <th class="r">Exp. Ship</th>
+        <th class="r">Act. Item</th>
+        <th class="r">Act. Ship</th>
+        <th class="r">Disc. Amt</th>
+        <th class="r">T. Out</th>
+        <th class="r">T. Paid</th>
+        <th class="r">Recovery</th>
+      </tr>
+    </thead>`;
+
+  const bodyHtml = sorted.map(o => {
+    const sel = STATE.selectedRowIds.has(o.channel_order_id);
+    const ws = getWorkflowState(o.channel_order_id);
+    const disc = o.disc_amt || 0;
+    const discClass = disc > 0.01 ? 'disc-pos' : (disc < -0.01 ? 'disc-neg' : 'muted');
+    return `
+      <tr class="${sel ? 'selected' : ''}" data-id="${escape(o.channel_order_id)}">
+        <td class="checkbox-cell" data-noclick="1"><input type="checkbox" class="row-check" data-id="${escape(o.channel_order_id)}" ${sel ? 'checked' : ''} /></td>
+        <td class="c"><span class="badge-sm class-${o.class.replace('CLASS_', '')}"><span class="dot-class"></span>${o.class.replace('CLASS_', '')}</span></td>
+        <td class="c"><span class="state-badge state-${ws}">${ws.replace('_', ' ')}</span></td>
+        <td>${fmtDate(o.created_at)}</td>
+        <td class="order-id">${escape(o.channel_order_id)}</td>
+        <td class="text muted">${escape((o.vendor_name || o.primary_vendor_code || '—'))}</td>
+        <td class="r ${(o.exp_item_cost || 0) === 0 ? 'muted' : ''}">${fmtMoney(o.exp_item_cost)}</td>
+        <td class="r ${(o.exp_ship_cost || 0) === 0 ? 'muted' : ''}">${fmtMoney(o.exp_ship_cost)}</td>
+        <td class="r ${(o.act_item_cost || 0) === 0 ? 'muted' : ''}">${fmtMoney(o.act_item_cost)}</td>
+        <td class="r ${(o.act_ship_cost || 0) === 0 ? 'muted' : ''}">${fmtMoney(o.act_ship_cost)}</td>
+        <td class="r ${discClass}">${fmtMoney(disc)}</td>
+        <td class="r ${(o.t_outstanding || 0) === 0 ? 'muted' : ''}">${fmtMoney(o.t_outstanding)}</td>
+        <td class="r ${(o.t_paid || 0) === 0 ? 'muted' : ''}">${fmtMoney(o.t_paid)}</td>
+        <td class="r ${o.recovery_target > 0 ? 'recovery-cell' : 'muted'}">${o.recovery_target > 0 ? fmtMoney(o.recovery_target) : '—'}</td>
+      </tr>`;
+  }).join('');
+
+  list.innerHTML = `<table class="order-table">${headerHtml}<tbody>${bodyHtml}</tbody></table>`;
+
+  // Row click → drill-down (but ignore clicks on checkbox cells)
+  list.querySelectorAll('tbody tr').forEach(tr => {
+    tr.addEventListener('click', (e) => {
+      if (e.target.closest('[data-noclick]') || e.target.tagName === 'INPUT') return;
+      selectOrder(tr.dataset.id);
+    });
+  });
+  list.querySelectorAll('.row-check').forEach(cb => {
+    cb.addEventListener('change', (e) => {
+      e.stopPropagation();
+      const id = e.target.dataset.id;
+      const tr = e.target.closest('tr');
+      if (e.target.checked) {
+        STATE.selectedRowIds.add(id);
+        if (tr) tr.classList.add('selected');
+      } else {
+        STATE.selectedRowIds.delete(id);
+        if (tr) tr.classList.remove('selected');
+      }
+      updateSelectionToolbar(orders.length);
+    });
+  });
+  const selectAll = document.getElementById('select-all-visible');
+  if (selectAll) {
+    selectAll.addEventListener('change', (e) => {
+      e.stopPropagation();
+      const checked = e.target.checked;
+      sorted.forEach(o => {
+        if (checked) STATE.selectedRowIds.add(o.channel_order_id);
+        else STATE.selectedRowIds.delete(o.channel_order_id);
+      });
+      // Touch only the visible DOM rows instead of full re-render
+      list.querySelectorAll('tbody tr').forEach(tr => {
+        const cb = tr.querySelector('.row-check');
+        if (cb) cb.checked = checked;
+        tr.classList.toggle('selected', checked);
+      });
+      updateSelectionToolbar(orders.length);
+    });
+  }
+}
+
+function updateSelectionToolbar(visibleCount) {
+  // Touch-only update for the order-count bar — no row HTML rebuild.
+  const selCount = STATE.selectedRowIds.size;
+  const label = document.getElementById('visible-count-label');
+  if (label) {
+    const n = visibleCount;
+    label.textContent = `${fmtInt(n)} order${n !== 1 ? 's' : ''} match${n === 1 ? 'es' : ''}${selCount > 0 ? ` · ${fmtInt(selCount)} selected` : ''}`;
+  }
+  const selEl = document.getElementById('bulk-action-select');
+  const btnEl = document.getElementById('bulk-action-apply');
+  if (selEl) selEl.disabled = (selCount === 0);
+  if (btnEl) btnEl.disabled = (selCount === 0);
+}
+
+function applyBulkAction() {
+  const sel = document.getElementById('bulk-action-select');
+  const action = sel.value;
+  if (!action || STATE.selectedRowIds.size === 0) return;
+  // Handle export_selected separately (no state change)
+  if (action === 'export_selected') {
+    const selectedOrders = STATE.orders.filter(o => STATE.selectedRowIds.has(o.channel_order_id));
+    exportCsv(selectedOrders, `axiscore_finance_selected_${new Date().toISOString().substring(0,10)}.csv`, false);
+    sel.value = '';
+    return;
+  }
+  const map = {
+    send_review: 'UNDER_REVIEW',
+    send_ready: 'READY_TO_PAY',
+    mark_paid: 'PAID',
+    reopen: 'OPEN'
+  };
+  const newState = map[action];
+  if (!newState) return;
+  if (action === 'mark_paid' && !confirm(`Mark ${STATE.selectedRowIds.size} order(s) as PAID? An Essendant remittance CSV will be generated.`)) return;
+
+  for (const id of STATE.selectedRowIds) setWorkflowState(id, newState);
+
+  if (action === 'mark_paid') {
+    const paidOrders = STATE.orders.filter(o => STATE.selectedRowIds.has(o.channel_order_id));
+    exportCsv(paidOrders, `essendant_remittance_${new Date().toISOString().substring(0,10)}.csv`, true);
+  }
+  STATE.selectedRowIds.clear();
+  sel.value = '';
+  renderOrderList();
+}
+
+function exportCsv(orders, filename, vendorRemit) {
+  filename = filename || `axiscore_finance_export_${new Date().toISOString().substring(0,10)}.csv`;
+  // Header — vendor remittance view (for Tom at Essendant) excludes ASIN, includes vendor SKU
+  // General export: all financial columns + entity_id, vendor invoice numbers, vendor credit numbers, refund flags
+  const headers = [
+    'order_date', 'channel_order_id', 'magento_entity_id', 'vendor_code', 'vendor_name', 'class', 'workflow_state',
+    'exp_item_cost', 'exp_ship_cost', 'act_item_cost', 'act_ship_cost', 'disc_amt', 't_outstanding', 't_paid',
+    'recovery_target', 'vendor_invoice_numbers', 'vendor_credit_numbers', 'vendor_sku', 'qty_shipped',
+    'magento_state', 'magento_status', 'grand_total', 'refund_occurred', 'class_reason'
+  ];
+  const rows = orders.map(o => {
+    return headers.map(h => {
+      let v;
+      switch (h) {
+        case 'order_date': v = fmtDate(o.created_at); break;
+        case 'workflow_state': v = getWorkflowState(o.channel_order_id); break;
+        case 'vendor_invoice_numbers': v = (o.vendor_invoice_numbers || []).join(';'); break;
+        case 'vendor_credit_numbers': v = (o.vendor_credit_numbers || []).join(';'); break;
+        case 'vendor_sku': v = (o.vendor_sku_list || []).join(';'); break;
+        case 'refund_occurred': v = o.refund_occurred ? 'TRUE' : 'FALSE'; break;
+        default: v = o[h];
+      }
+      if (v === null || v === undefined) return '';
+      const s = String(v);
+      // Quote if contains comma, quote, or newline
+      if (s.includes(',') || s.includes('"') || s.includes('\n')) return '"' + s.replace(/"/g, '""') + '"';
+      return s;
+    }).join(',');
+  });
+  const csv = [headers.join(','), ...rows].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename; a.click();
+  URL.revokeObjectURL(url);
+}
+
+function sortOrders(orders, mode) {
+  const classPriority = ['CLASS_C', 'CLASS_E', 'CLASS_A', 'CLASS_F', 'CLASS_B', 'CLASS_D'];
+  const copy = [...orders];
+  if (mode === 'date_desc') {
+    return copy.sort((a, b) => String(b.created_at || '').localeCompare(String(a.created_at || '')));
+  }
+  if (mode === 'date_asc') {
+    return copy.sort((a, b) => String(a.created_at || '').localeCompare(String(b.created_at || '')));
+  }
+  if (mode === 'recovery_desc') {
+    return copy.sort((a, b) => (b.recovery_target || 0) - (a.recovery_target || 0)
+      || String(b.created_at || '').localeCompare(String(a.created_at || '')));
+  }
+  if (mode === 'disc_desc') {
+    return copy.sort((a, b) => Math.abs(b.disc_amt || 0) - Math.abs(a.disc_amt || 0)
+      || String(b.created_at || '').localeCompare(String(a.created_at || '')));
+  }
+  // 'class' priority
+  return copy.sort((a, b) => {
+    const oa = classPriority.indexOf(a.class), ob = classPriority.indexOf(b.class);
+    if (oa !== ob) return oa - ob;
+    return (b.recovery_target || 0) - (a.recovery_target || 0);
+  });
+}
+
+function sortLabel(mode) {
+  return {
+    'date_desc': 'date (newest first)',
+    'date_asc': 'date (oldest first)',
+    'class': 'class priority',
+    'recovery_desc': 'recovery target (high→low)',
+    'disc_desc': 'discrepancy magnitude'
+  }[mode] || mode;
+}
+
+// ============================================================================
+// LEGEND POPOVER
+// ============================================================================
+function openLegend() {
+  const body = document.getElementById('legend-body');
+  body.innerHTML = Object.entries(CLASS_META).map(([code, meta]) => `
+    <div class="legend-entry">
+      <span class="code-badge" style="color:${meta.color}; border-color:${meta.color}; background:${meta.color}1a;">${meta.short}</span>
+      <div class="right">
+        <div class="name">${code}</div>
+        <div class="desc">${escape(meta.label)}</div>
+        <div class="action">${escape(meta.meaning)}</div>
+      </div>
+    </div>
+  `).join('');
+  document.getElementById('legend-popover').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLegend() {
+  document.getElementById('legend-popover').classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+function openStates() {
+  const body = document.getElementById('states-body');
+  body.innerHTML = Object.entries(STATES_META).map(([code, meta]) => `
+    <div class="legend-entry">
+      <span class="code-badge" style="color:${meta.color}; border-color:${meta.color}; background:${meta.color}1a;">${meta.short}</span>
+      <div class="right">
+        <div class="name">${code.replace('_', ' ')}</div>
+        <div class="desc">${escape(meta.label)}</div>
+        <div class="action">${escape(meta.meaning)}</div>
+      </div>
+    </div>
+  `).join('') + `
+    <div style="margin-top:14px; padding-top:14px; border-top:1px solid var(--border); font-size:12px; color:var(--text-tertiary); line-height:1.55;">
+      <strong style="color:var(--text-secondary);">Transitions:</strong> Any state can return to OPEN via the Reopen action. OPEN → UNDER_REVIEW → READY_TO_PAY → PAID is the standard forward flow. State is independent of analytical class (e.g. a CLASS_D order can move OPEN → READY_TO_PAY once verified clean).
+    </div>`;
+  document.getElementById('states-popover').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeStates() {
+  document.getElementById('states-popover').classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+// ============================================================================
+// SELECT ORDER (lazy fetch detail)
+// ============================================================================
+async function selectOrder(channelOrderId) {
+  const order = STATE.orders.find(o => o.channel_order_id === channelOrderId);
+  if (!order) return;
+  STATE.selectedOrderId = channelOrderId;
+  STATE.selectedDetail = null;
+  document.getElementById('view-list').classList.add('hidden');
+  document.getElementById('view-detail').classList.remove('hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  document.getElementById('drill-container').innerHTML = `
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <div class="label">Loading ${order.class} detail…</div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--text-tertiary);">${escape(channelOrderId)}</div>
+    </div>`;
+
+  try {
+    const detail = await fetchDetail(order);
+    const orderDetail = detail.orders.find(o => o.channel_order_id === channelOrderId);
+    if (!orderDetail) {
+      throw new Error(`Order ${channelOrderId} not found in detail file. Pipeline may need re-run.`);
+    }
+    STATE.selectedDetail = orderDetail;
+    renderDetail(orderDetail);
+  } catch (err) {
+    document.getElementById('drill-container').innerHTML = `
+      <div class="error-state">
+        <div class="label">Could not load order detail</div>
+        <div class="detail">${escape(err.message)}</div>
+        <button class="retry-btn" onclick="selectOrder('${escape(channelOrderId)}')">Retry</button>
+      </div>`;
+  }
+}
+
+function showList() {
+  STATE.selectedOrderId = null;
+  STATE.selectedDetail = null;
+  document.getElementById('view-detail').classList.add('hidden');
+  document.getElementById('view-list').classList.remove('hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ============================================================================
+// DETAIL RENDER
+// ============================================================================
+function renderDetail(o) {
+  const meta = CLASS_META[o.class];
+  const az = o.amazon || {};
+  const mg = o.magento || {};
+  const vd = o.vendor || {};
+  const rt = o.refund_truth || {};
+  const cl = o.classification || {};
+
+  const recoveryHtml = o.recovery_target > 0 ? `
+    <div style="text-align:right;">
+      <div class="recovery-target-label">Recovery Target</div>
+      <div class="recovery-target-value">${fmtMoney(o.recovery_target)}</div>
+    </div>` : '';
+
+  // Lifecycle
+  const stages = [
+    { label: 'Amazon Order', sub: 'Customer places order', complete: !!o.created_at, amount: az.gross_revenue || o.grand_total, icon: 'receipt' },
+    { label: 'Magento Created', sub: 'Entity ' + (o.magento_entity_id || '—'), complete: !!o.magento_entity_id, icon: 'file' },
+    { label: 'Fulfillment', sub: (o.qty_shipped ?? '?') + ' shipped', complete: o.qty_shipped > 0, icon: 'truck' },
+    { label: 'Vendor Invoice', sub: (vd.invoice_count ?? 0) + ' inv · ' + (o.primary_vendor_code || '—'), amount: vd.invoiced_gross, complete: (vd.invoice_count || 0) > 0, icon: 'receipt' },
+    { label: rt.refund_occurred ? 'Customer Refund' : 'No Refund', sub: rt.refund_occurred ? 'Both sides match' : (rt.creditmemo_amazon_match === false ? 'Conflict' : '—'), amount: rt.amazon_refunded_actual, complete: rt.refund_occurred, conflict: rt.creditmemo_amazon_match === false, icon: 'alert' },
+    { label: 'Vendor Credit', sub: (vd.credit_count || 0) > 0 ? (vd.credit_count + ' credit') : 'No credit issued', amount: vd.credited_total, complete: (vd.credit_count || 0) > 0, missing: rt.refund_occurred && (vd.credit_count || 0) === 0, icon: 'check' }
+  ];
+
+  const stageHtml = stages.map((s, i) => {
+    let dotClass = 'incomplete';
+    if (s.missing) dotClass = 'missing';
+    else if (s.conflict) dotClass = 'conflict';
+    else if (s.complete) dotClass = 'complete';
+    return `
+      <div class="stage">
+        <div class="stage-dot ${dotClass}">${ICONS[s.icon]}</div>
+        <div class="stage-label">${s.label}</div>
+        <div class="stage-sublabel">${escape(s.sub)}</div>
+        ${(s.amount !== undefined && s.amount !== null) ? `<div class="stage-amount">${fmtMoney(s.amount)}</div>` : ''}
+      </div>
+      ${i < stages.length - 1 ? `<div class="stage-arrow">${ICONS.arrowRight}</div>` : ''}
+    `;
+  }).join('');
+
+  // Refund truth
+  const sourceA = rt.amazon_refunded_actual || 0;
+  const sourceB = rt.magento_creditmemo_total || 0;
+  const delta = Math.abs(sourceA - sourceB);
+
+  document.getElementById('drill-container').innerHTML = `
+    <div class="drill-header">
+      <div class="left">
+        <div class="badges">
+          <span class="badge large ${classCss(o.class)}"><span class="dot-class"></span>${o.class}</span>
+          <span style="font-size:14px; color:var(--text-secondary);">${escape(meta?.label || '')}</span>
+        </div>
+        <h2>${escape(o.channel_order_id)}</h2>
+        <div class="meta">Magento entity ${o.magento_entity_id ?? '—'} · ${escape(o.vendor_name || '—')} · ${escape(o.channel || '—')}</div>
+      </div>
+      ${recoveryHtml}
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">${ICONS.package}<div><div class="title">Lifecycle</div><div class="subtitle">Amazon order → Magento → fulfillment → vendor invoice → refund truth → vendor credit</div></div></div>
+      <div class="lifecycle">${stageHtml}</div>
+    </div>
+
+    <div class="data-grid">
+      <div class="panel">
+        <div class="panel-header">${ICONS.receipt}<div><div class="title">Amazon Side</div><div class="subtitle">amazon_order_list + settlement</div></div></div>
+        ${fieldRow('Order created', fmtDate(o.created_at))}
+        ${fieldRow('Status', az.status || '—', true)}
+        ${fieldRow('FBA channel', az.is_afn_channel === true ? 'Yes' : az.is_afn_channel === false ? 'No' : '—', true)}
+        ${fieldRow('Qty purchased / shipped', `${fmtInt(az.qty_shipped + (az.qty_unshipped || 0))} / ${fmtInt(az.qty_shipped)}`)}
+        ${fieldRow('Gross revenue', fmtMoney(az.gross_revenue))}
+        ${fieldRow('Fees total', fmtMoney(az.fees_total))}
+        ${fieldRow('Refund settlement rows', fmtInt(az.refund_tx_count))}
+        ${fieldRow('Refund principal sum', fmtMoney(az.refund_principal_sum), false, az.refund_principal_sum > 0)}
+      </div>
+      <div class="panel">
+        <div class="panel-header">${ICONS.file}<div><div class="title">Magento Side</div><div class="subtitle">sales_flat_order + items + creditmemos</div></div></div>
+        ${fieldRow('Entity ID', o.magento_entity_id ?? '—')}
+        ${fieldRow('State / Status', (o.magento_state ?? '—') + ' / ' + (o.magento_status ?? '—'), true)}
+        ${fieldRow('Grand total', fmtMoney(o.grand_total))}
+        ${fieldRow('Qty shipped / refunded', `${fmtInt(o.qty_shipped)} / ${fmtInt(o.qty_refunded)}`)}
+        ${fieldRow('Qty canceled', fmtInt(o.qty_canceled))}
+        ${fieldRow('Creditmemo count', fmtInt((mg.creditmemos || []).length))}
+        ${fieldRow('Creditmemo total', fmtMoney(rt.magento_creditmemo_total), false, (rt.magento_creditmemo_total || 0) > 0)}
+      </div>
+      <div class="panel">
+        <div class="panel-header">${ICONS.truck}<div><div class="title">Vendor Side</div><div class="subtitle">vendor_invoice_list + vendor_credit_list</div></div></div>
+        ${fieldRow('Primary vendor', o.primary_vendor_code ?? '—', true)}
+        ${fieldRow('Invoice count', fmtInt(vd.invoice_count))}
+        ${fieldRow('Invoiced gross', fmtMoney(vd.invoiced_gross))}
+        ${fieldRow('Credit count', fmtInt(vd.credit_count))}
+        ${fieldRow('Credited total', fmtMoney(vd.credited_total), false, (vd.credited_total || 0) > 0)}
+        ${fieldRow('Net (invoiced − credited)', fmtMoney(vd.invoiced_minus_credited_net))}
+        ${cl.refund_to_vendor_credit_gap != null ? fieldRow('Refund − credit gap', fmtMoney(cl.refund_to_vendor_credit_gap), false, o.recovery_target > 0) : ''}
+      </div>
+    </div>
+
+    ${renderInvoices(vd.invoices)}
+    ${renderCredits(vd.credits)}
+    ${renderSettlement(az.settlement_transactions)}
+    ${renderCreditmemos(mg.creditmemos)}
+    ${renderLineItems(az.line_items, mg.items)}
+    ${renderComments(o.comments)}
+
+    <div class="panel">
+      <div class="panel-header">${ICONS.help}<div><div class="title">Refund Truth Predicate</div><div class="subtitle">F7 rule — magento_state is not used; refund evidence reconciled across both sides</div></div></div>
+      <div class="refund-truth-grid">
+        <div class="source-card">
+          <div class="src-label">Source A — Amazon</div>
+          <div class="src-formula">amazon_settlement_transactions where transaction_type IN ('Refund', 'Order_Retrocharge') AND amount_description = 'Principal'</div>
+          <div class="src-row"><span class="src-key">amazon_refunded_actual</span><span class="src-val">${fmtMoney(sourceA)}</span></div>
+          <div class="src-row"><span class="src-key">refund_tx_count</span><span class="src-val small">${fmtInt(az.refund_tx_count)}</span></div>
+        </div>
+        <div class="source-card">
+          <div class="src-label">Source B — Magento</div>
+          <div class="src-formula">sales_flat_creditmemo.grand_total summed across creditmemos for order</div>
+          <div class="src-row"><span class="src-key">magento_creditmemo_total</span><span class="src-val">${fmtMoney(sourceB)}</span></div>
+          <div class="src-row"><span class="src-key">memo_count</span><span class="src-val small">${fmtInt((mg.creditmemos || []).length)}</span></div>
+        </div>
+      </div>
+      <div class="delta-card">
+        <div class="row"><span class="lbl">Delta · |Source A − Source B|</span><span class="val ${rt.creditmemo_amazon_match ? 'val-true' : 'val-conflict'}">${fmtMoney(delta)}</span></div>
+        <div class="row"><span class="lbl">creditmemo_amazon_match · |delta| ≤ $1.00</span><span class="val ${rt.creditmemo_amazon_match ? 'val-true' : 'val-conflict'}">${rt.creditmemo_amazon_match ? 'TRUE' : 'FALSE'}</span></div>
+        <div class="row border-top"><span class="lbl">refund_occurred · match AND (A &gt; 0 OR B &gt; 0)</span><span class="val ${rt.refund_occurred ? 'val-true' : 'val-false'}">${rt.refund_occurred ? 'TRUE' : 'FALSE'}</span></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">${ICONS.receipt}<div><div class="title">Per-Order Net (P&amp;L preview)</div><div class="subtitle">Amazon net (rev − fees − refunds) − vendor cost + vendor credits. Pending settlement for recent orders (F5 — settlement lags ~5 days).</div></div></div>
+      ${renderNetPanel(o, az, vd, rt)}
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">${ICONS.info}<div><div class="title">Classification Reasoning</div><div class="subtitle">Predicate: ${escape(o.class_reason || '')}</div></div></div>
+      <div class="class-stats">
+        <div class="stat"><div class="label">Freight retention threshold</div><div class="value">${fmtMoney(cl.freight_retention_threshold)}</div><div class="sublabel">${escape(cl.freight_retention_basis || 'max(12% of vendor cost, $80 floor)')}</div></div>
+        <div class="stat"><div class="label">Refund → vendor credit gap</div><div class="value ${o.recovery_target > 0 ? 'accent' : ''}">${fmtMoney(cl.refund_to_vendor_credit_gap)}</div><div class="sublabel">amount vendor did not credit back</div></div>
+        <div class="stat"><div class="label">Recovery target</div><div class="value ${o.recovery_target > 0 ? 'accent' : ''}">${fmtMoney(o.recovery_target)}</div><div class="sublabel">gap minus retention threshold</div></div>
+      </div>
+      <div class="reasoning ${classCss(o.class)}">${escape(cl.reasoning || '—')}</div>
+    </div>
+
+    <div style="display:flex; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--text-tertiary); padding-top:8px;">
+      ${ICONS.info}
+      <span>evidence_source: ${rt.evidence_source || '—'} · refund_occurred: ${rt.refund_occurred} · creditmemo_amazon_match: ${rt.creditmemo_amazon_match} · manual_comment_count: ${o.manual_comment_count ?? '—'}</span>
+    </div>
+  `;
+}
+
+function fieldRow(label, value, isText, isAccent) {
+  return `<div class="field-row"><span class="field-label">${label}</span><span class="field-value ${isText ? 'text' : ''} ${isAccent ? 'accent' : ''}">${value}</span></div>`;
+}
+
+function renderNetPanel(o, az, vd, rt) {
+  // Net = (amazon_revenue − |amazon_fees| − |amazon_refunds|) − vendor_invoiced + vendor_credited
+  const amazonRev = az.gross_revenue || 0;
+  const amazonFees = Math.abs(az.fees_total || 0);
+  const amazonRefunds = Math.abs(az.refund_principal_sum || 0);
+  const vendorCost = vd.invoiced_gross || 0;
+  const vendorCredits = vd.credited_total || 0;
+  const amazonNet = amazonRev - amazonFees - amazonRefunds;
+  const pipelineNet = o.net_cash_profit;
+  const computedNet = amazonNet - vendorCost + vendorCredits;
+  const netValue = pipelineNet != null ? pipelineNet : computedNet;
+  const isPipelineValue = pipelineNet != null;
+  const netColor = netValue > 0 ? 'var(--class-a)' : (netValue < 0 ? 'var(--class-c)' : 'var(--text-secondary)');
+  const ageDays = o.created_at ? (Date.now() - new Date(o.created_at).getTime()) / (1000*60*60*24) : 999;
+  const settlementPending = (az.fees_total == null || az.fees_total === 0) && ageDays < 7;
+  return `
+    <div class="data-grid" style="grid-template-columns: 1fr 1fr;">
+      <div>
+        ${fieldRow('Amazon revenue', fmtMoney(amazonRev))}
+        ${fieldRow('Amazon fees', '−' + fmtMoney(amazonFees))}
+        ${fieldRow('Refunds to customer', '−' + fmtMoney(amazonRefunds))}
+        <div class="field-row" style="border-top:1px solid var(--border-strong); padding-top:8px; margin-top:4px;"><span class="field-label" style="font-weight:600;">Amazon net</span><span class="field-value" style="font-weight:600;">${fmtMoney(amazonNet)}</span></div>
+      </div>
+      <div>
+        ${fieldRow('Vendor cost (invoiced)', '−' + fmtMoney(vendorCost))}
+        ${fieldRow('Vendor credits received', '+' + fmtMoney(vendorCredits))}
+        <div class="field-row" style="border-top:2px solid var(--border-strong); padding-top:10px; margin-top:6px;"><span class="field-label" style="font-weight:700; font-size:13px;">NET CASH PROFIT</span><span class="field-value" style="font-family:'Newsreader',serif; font-size:1.5rem; font-weight:500; color:${netColor};">${fmtMoney(netValue)}</span></div>
+        ${settlementPending ? '<div style="font-size:11px; color:var(--accent); margin-top:6px; font-style:italic;">Pending settlement — fees and refunds may be incomplete for orders &lt; 7 days old.</div>' : ''}
+        ${!isPipelineValue ? '<div style="font-size:11px; color:var(--text-tertiary); margin-top:4px;">Computed client-side. Will use pipeline net_cash_profit field once Change 6 lands.</div>' : ''}
+      </div>
+    </div>`;
+}
+
+// ============================================================================
+// DETAIL SUB-SECTIONS
+// ============================================================================
+function renderInvoices(invoices) {
+  if (!invoices || invoices.length === 0) {
+    return `<div class="panel"><div class="panel-header">${ICONS.receipt}<div><div class="title">Vendor Invoices</div><div class="subtitle">No invoices for this order</div></div></div></div>`;
+  }
+  const subtitle = invoices.length === 1 ? '1 invoice' : `${invoices.length} invoices · multi-shipment split preserved as separate rows`;
+  const totalSubtotal = invoices.reduce((s, i) => s + (i.subtotal || 0), 0);
+  const totalShip = invoices.reduce((s, i) => s + (i.ship_cost || 0), 0);
+  const totalTax = invoices.reduce((s, i) => s + (i.tax || 0), 0);
+  const totalCost = invoices.reduce((s, i) => s + (i.total_cost || 0), 0);
+  const rows = invoices.map(inv => `
+    <tr>
+      <td class="text">${escape(inv.invoice_number || '—')}</td>
+      <td>${fmtDate(inv.invoice_date)}</td>
+      <td class="text">${escape(inv.vendor_code || '—')}</td>
+      <td class="r">${fmtMoney(inv.subtotal)}</td>
+      <td class="r">${fmtMoney(inv.ship_cost)}</td>
+      <td class="r">${fmtMoney(inv.tax)}</td>
+      <td class="r accent-cell">${fmtMoney(inv.total_cost)}</td>
+    </tr>`).join('');
+  return `
+    <div class="panel">
+      <div class="panel-header">${ICONS.receipt}<div><div class="title">Vendor Invoices</div><div class="subtitle">${subtitle}</div></div></div>
+      <table class="detail-table">
+        <thead><tr><th>Invoice #</th><th>Date</th><th>Vendor</th><th class="r">Subtotal</th><th class="r">Ship</th><th class="r">Tax</th><th class="r">Total</th></tr></thead>
+        <tbody>${rows}</tbody>
+        <tfoot><tr><td colspan="3" class="r">Totals:</td><td class="r">${fmtMoney(totalSubtotal)}</td><td class="r">${fmtMoney(totalShip)}</td><td class="r">${fmtMoney(totalTax)}</td><td class="r">${fmtMoney(totalCost)}</td></tr></tfoot>
+      </table>
+    </div>`;
+}
+
+function renderCredits(credits) {
+  if (!credits || credits.length === 0) {
+    return `<div class="panel"><div class="panel-header">${ICONS.check}<div><div class="title">Vendor Credits</div><div class="subtitle">No credits issued for this order</div></div></div></div>`;
+  }
+  const totalCost = credits.reduce((s, c) => s + (c.total_cost || 0), 0);
+  const rows = credits.map(cr => `
+    <tr>
+      <td class="text">${escape(cr.credit_number || '—')}</td>
+      <td>${fmtDate(cr.credit_date)}</td>
+      <td class="text">${escape(cr.vendor_code || '—')}</td>
+      <td class="r accent-cell">${fmtMoney(cr.total_cost)}</td>
+    </tr>`).join('');
+  return `
+    <div class="panel">
+      <div class="panel-header">${ICONS.check}<div><div class="title">Vendor Credits</div><div class="subtitle">${credits.length} credit${credits.length !== 1 ? 's' : ''}</div></div></div>
+      <table class="detail-table">
+        <thead><tr><th>Credit #</th><th>Date</th><th>Vendor</th><th class="r">Total</th></tr></thead>
+        <tbody>${rows}</tbody>
+        <tfoot><tr><td colspan="3" class="r">Total credited:</td><td class="r">${fmtMoney(totalCost)}</td></tr></tfoot>
+      </table>
+    </div>`;
+}
+
+function renderSettlement(txs) {
+  if (!txs || txs.length === 0) {
+    return `<div class="panel"><div class="panel-header">${ICONS.list}<div><div class="title">Amazon Settlement Transactions</div><div class="subtitle">No settlement rows for this order</div></div></div></div>`;
+  }
+  const subtitle = `${txs.length} settlement line items · refund predicate: transaction_type IN ('Refund', 'Order_Retrocharge') AND amount_description = 'Principal'`;
+  const rows = txs.map(t => {
+    const isRefund = (t.transaction_type === 'Refund' || t.transaction_type === 'Order_Retrocharge') && t.amount_description === 'Principal';
+    return `
+      <tr>
+        <td>${fmtDate(t.posted_date)}</td>
+        <td class="text">${escape(t.transaction_type || '—')}</td>
+        <td class="text">${escape(t.amount_description || '—')}</td>
+        <td class="text muted">${escape(t.sku || '—')}</td>
+        <td class="r ${isRefund ? 'accent-cell' : ''}">${fmtMoney(t.amount)}</td>
+      </tr>`;
+  }).join('');
+  return `
+    <div class="panel">
+      <div class="panel-header">${ICONS.list}<div><div class="title">Amazon Settlement Transactions</div><div class="subtitle">${subtitle}</div></div></div>
+      <table class="detail-table">
+        <thead><tr><th>Posted</th><th>Type</th><th>Description</th><th>SKU</th><th class="r">Amount</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
+function renderCreditmemos(memos) {
+  if (!memos || memos.length === 0) {
+    return '';
+  }
+  const rows = memos.map(m => `
+    <tr>
+      <td>${escape(m.increment_id || m.creditmemo_id || '—')}</td>
+      <td>${fmtDate(m.created_at)}</td>
+      <td class="text">${escape(m.state || '—')}</td>
+      <td class="r">${fmtInt((m.items || []).length)}</td>
+      <td class="r accent-cell">${fmtMoney(m.grand_total)}</td>
+    </tr>`).join('');
+  return `
+    <div class="panel">
+      <div class="panel-header">${ICONS.file}<div><div class="title">Magento Credit Memos</div><div class="subtitle">${memos.length} creditmemo${memos.length !== 1 ? 's' : ''}</div></div></div>
+      <table class="detail-table">
+        <thead><tr><th>Memo #</th><th>Created</th><th>State</th><th class="r">Line items</th><th class="r">Total</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
+function renderLineItems(azItems, mgItems) {
+  const az = azItems || [];
+  const mg = mgItems || [];
+  if (az.length === 0 && mg.length === 0) return '';
+  const azRows = az.map(i => `
+    <tr>
+      <td class="text">${escape(i.sku || '—')}</td>
+      <td class="text">${escape(i.asin || '—')}</td>
+      <td class="r">${fmtInt(i.qty_purchased)}</td>
+      <td class="r">${fmtMoney(i.price)}</td>
+      <td class="r">${fmtMoney(i.amazon_fee)}</td>
+    </tr>`).join('');
+  const mgRows = mg.map(i => `
+    <tr>
+      <td class="text">${escape(i.sku || '—')}</td>
+      <td class="r">${fmtInt(i.qty_ordered)}</td>
+      <td class="r">${fmtInt(i.qty_shipped)}</td>
+      <td class="r">${fmtInt(i.qty_refunded)}</td>
+      <td class="r">${fmtMoney(i.base_cost)}</td>
+      <td class="r">${fmtMoney(i.shipping_cost)}</td>
+      <td class="r">${fmtMoney(i.price)}</td>
+    </tr>`).join('');
+  return `
+    <div class="panel">
+      <div class="panel-header">${ICONS.list}<div><div class="title">Line Items</div><div class="subtitle">Amazon side · Magento side</div></div></div>
+      ${az.length > 0 ? `
+        <div style="margin-bottom:12px; font-size:12px; text-transform:uppercase; letter-spacing:0.1em; color:var(--text-secondary); font-weight:600;">Amazon (amazon_order_item_list)</div>
+        <table class="detail-table" style="margin-bottom: 24px;">
+          <thead><tr><th>SKU</th><th>ASIN</th><th class="r">Qty</th><th class="r">Price</th><th class="r">Amazon fee</th></tr></thead>
+          <tbody>${azRows}</tbody>
+        </table>` : ''}
+      ${mg.length > 0 ? `
+        <div style="margin-bottom:12px; font-size:12px; text-transform:uppercase; letter-spacing:0.1em; color:var(--text-secondary); font-weight:600;">Magento (sales_flat_order_item)</div>
+        <table class="detail-table">
+          <thead><tr><th>SKU</th><th class="r">Ordered</th><th class="r">Shipped</th><th class="r">Refunded</th><th class="r">Base cost</th><th class="r">Ship cost</th><th class="r">Price</th></tr></thead>
+          <tbody>${mgRows}</tbody>
+        </table>` : ''}
+    </div>`;
+}
+
+function renderComments(comments) {
+  if (!comments || comments.length === 0) {
+    return `<div class="panel"><div class="panel-header">${ICONS.msg}<div><div class="title">Order Timeline</div><div class="subtitle">No comments recorded</div></div></div></div>`;
+  }
+  const items = comments.map(c => {
+    const tags = [];
+    if (c.is_customer_notified) tags.push('<span class="tag customer">Customer notified</span>');
+    if (c.is_visible_on_front) tags.push('<span class="tag front">Customer-facing</span>');
+    if (!c.is_customer_notified && !c.is_visible_on_front) tags.push('<span class="tag">Internal</span>');
+    return `
+      <div class="timeline-item">
+        <div class="timeline-date">
+          ${fmtDateTime(c.created_at)}
+          ${c.status ? `<span class="status">${escape(c.status)}</span>` : ''}
+        </div>
+        <div class="timeline-content">
+          ${escape(c.comment || '(no comment text)')}
+          <div class="timeline-tags">${tags.join('')}</div>
+        </div>
+      </div>`;
+  }).join('');
+  return `
+    <div class="panel">
+      <div class="panel-header">${ICONS.msg}<div><div class="title">Order Timeline</div><div class="subtitle">${comments.length} status_history rows · oldest first · full text preserved per F8</div></div></div>
+      <div class="timeline">${items}</div>
+    </div>`;
+}
+
+// ============================================================================
+// PAY / REVIEW / WAIT (v1.4.4 — presentation-layer rebuild)
+// ============================================================================
+function fmtUSD(n) {
+  if (n == null || isNaN(n)) return '—';
+  return '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+// fmtInt declared once as const above (line ~617) — duplicate removed 2026-05-28
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function statusPill(flag) {
+  if (!flag) return '<span class="muted">—</span>';
+  const cls = flag === 'ON_TIME' ? 'ontime' : flag === 'IN_GRACE' ? 'ingrace' : 'overdue';
+  return `<span class="status-pill ${cls}">${flag.replace('_', ' ')}</span>`;
+}
+function reasonLabel(r) {
+  // human-readable mapping
+  const map = {
+    'matched_within_tolerance': 'Matched · pay',
+    'isg_invoice_owed': 'ISG invoice owed',
+    'price_gap_vendor_overbilled_small': 'Overbilled (<$5)',
+    'price_gap_vendor_overbilled_medium': 'Overbilled ($5–$25)',
+    'price_gap_vendor_overbilled_large': 'Overbilled (≥$25)',
+    'price_gap_vendor_underbilled_small': 'Underbilled (<$5)',
+    'price_gap_vendor_underbilled_medium': 'Underbilled ($5–$25)',
+    'price_gap_vendor_underbilled_large': 'Underbilled (≥$25)',
+    'data_conflict_stale_15_30d': 'Data conflict 15–30d',
+    'data_conflict_stale_30_60d': 'Data conflict 30–60d',
+    'data_conflict_stale_60_90d': 'Data conflict 60–90d',
+    'data_conflict_stale_over_90d': 'Data conflict >90d',
+    'recoverable_overcharge_credit_pending': 'Recoverable overcharge — credit pending',
+    'comment_flag_credit_or_dispute': 'Comment flag — credit/dispute',
+    'unclassified_open_with_invoice': 'Unclassified open',
+    'already_paid': 'Already paid',
+    'cancelled_or_closed': 'Cancelled/closed',
+    'no_invoice_yet': 'Waiting on invoice',
+    'a_family_settled': 'Settled (A-family)',
+    'data_conflict_fresh_self_resolves': 'Fresh data conflict (self-resolves)',
+    'd_no_invoice_anomaly': 'D · no invoice yet',
+    'class_b_empty': 'Empty class',
+    'paid_signal_paid_date_set': 'Paid (paid_date set) — was OPEN',
+    'paid_signal_cc_paid_vendor': 'Paid (CC/Amex vendor) — was OPEN',
+    'paid_signal_paid_invoice_count_gt_0': 'Paid (invoice count > 0) — was OPEN',
+    'paid_signal_vendor_invoices_paid_listed': 'Paid (invoices listed) — was OPEN',
+    'paid_signal_paid_batch_tabs_set': 'Paid (batch tab) — was OPEN',
+    'paid_signal_t_paid_gt_0': 'Paid (t_paid > 0) — was OPEN',
+    'paid_signal_amex_payment_matched': 'Paid (Amex matched) — was OPEN',
+    'paid_signal_t_outstanding_zero': 'Paid ($0 outstanding) — was OPEN',
+    'isg_invoice_settled': 'ISG invoice settled',
+
+  };
+  return map[r] || r;
+}
+
+function renderPRW() {
+  const d = STATE.prw;
+  if (!d) return;
+  const t = d.totals;
+  const tx = d.terms;
+
+  // ---- 1. The three summary cards ----
+  document.getElementById('prw-cards').innerHTML = `
+    <div class="prw-card pay">
+      <div class="head"><div class="name">Pay <span style="font-size:11px;font-weight:400;color:var(--text-tertiary);text-transform:uppercase;letter-spacing:0.1em;">best-known still-owed</span></div><div class="count">${fmtInt(t.PAY.count)} orders</div></div>
+      <div class="amount">${fmtUSD(t.PAY.dollars)}</div>
+      <div class="meta">
+        Due in next 7 days: <span class="em imminent">${fmtUSD(d.pay.imminent_dollars)}</span><br>
+        Overdue (>45d grace): <span class="em overdue">${fmtUSD(d.pay.overdue_dollars)}</span>
+      </div>
+    </div>
+    <div class="prw-card review">
+      <div class="head"><div class="name">Review</div><div class="count">${fmtInt(t.REVIEW.count)} orders</div></div>
+      <div class="amount">${fmtUSD(t.REVIEW.dollars)}</div>
+      <div class="meta">
+        ${d.review.reason_breakdown.slice(0, 4).map(r =>
+          `<span class="em">${fmtInt(r.count)}</span> ${escapeHtml(reasonLabel(r.reason))}`).join(' &middot; ')}
+      </div>
+    </div>
+    <div class="prw-card wait">
+      <div class="head"><div class="name">Wait</div><div class="count">${fmtInt(t.WAIT.count)} orders</div></div>
+      <div class="amount">${fmtUSD(t.WAIT.dollars)}</div>
+      <div class="meta">Settled, paid, cancelled, or no invoice yet. Nothing actionable.</div>
+    </div>
+  `;
+
+  // ---- 2. PAY table (sorted soonest first) ----
+  const pay = d.pay.items;
+  const payRows = pay.slice(0, 500).map(o => `
+    <tr>
+      <td class="text">${escapeHtml(o.channel_order_id)}</td>
+      <td class="text">${escapeHtml(o.vendor_name || '—')}</td>
+      <td>${o.invoice_date || '—'}</td>
+      <td>${o.due_date || '—'}</td>
+      <td>${o.days_until_due == null ? '—' : (o.days_until_due >= 0 ? o.days_until_due + 'd' : (o.days_until_due + 'd'))}</td>
+      <td>${statusPill(o.status_flag)}</td>
+      <td class="r">${fmtUSD(o.pay_amount)}</td>
+    </tr>
+  `).join('');
+  document.getElementById('prw-pay-table').innerHTML = `
+    <div class="prw-table-wrap">
+      <div class="prw-table-head">
+        <div class="title pay">Pay queue — sorted by due date</div>
+        <div class="summary">${fmtInt(pay.length)} orders · ${fmtUSD(t.PAY.dollars)} ${pay.length > 500 ? '· showing first 500' : ''}</div>
+      </div>
+      <div class="prw-scroll">
+        <table class="prw-table">
+          <thead><tr><th>Order ID</th><th>Vendor</th><th>Invoice date</th><th>Due (inv+30)</th><th class="r">Days until due</th><th>Status</th><th class="r">Amount</th></tr></thead>
+          <tbody>${payRows || '<tr><td colspan="7" class="text">No PAY items.</td></tr>'}</tbody>
+          <tfoot><tr><td colspan="6" class="text">Total · ${fmtInt(pay.length)} orders · Imminent (≤7d): ${fmtUSD(d.pay.imminent_dollars)} · Overdue: ${fmtUSD(d.pay.overdue_dollars)}</td><td class="r">${fmtUSD(t.PAY.dollars)}</td></tr></tfoot>
+        </table>
+      </div>
+    </div>
+  `;
+
+  // ---- 3. REVIEW table ----
+  const rev = d.review.items;
+  const revRows = rev.slice(0, 500).map(o => `
+    <tr>
+      <td class="text">${escapeHtml(o.channel_order_id)}</td>
+      <td class="text">${escapeHtml(o.vendor_name || '—')}</td>
+      <td class="text">${escapeHtml(reasonLabel(o.bucket_reason))}</td>
+      <td>${o.class.replace('CLASS_', '')}</td>
+      <td>${o.created_at || '—'}</td>
+      <td class="r">${fmtUSD(o.t_outstanding || o.pay_amount)}</td>
+      <td class="r">${fmtUSD(o.disc_amt)}</td>
+    </tr>
+  `).join('');
+  document.getElementById('prw-review-table').innerHTML = `
+    <div class="prw-table-wrap">
+      <div class="prw-table-head">
+        <div class="title review">Review queue — Ekene reviews</div>
+        <div class="summary">${fmtInt(rev.length)} orders · ${fmtUSD(t.REVIEW.dollars)} ${rev.length > 500 ? '· showing first 500' : ''}</div>
+      </div>
+      <div class="prw-scroll">
+        <table class="prw-table">
+          <thead><tr><th>Order ID</th><th>Vendor</th><th>Reason (one-line)</th><th>Class</th><th>Order date</th><th class="r">Open $</th><th class="r">Price gap</th></tr></thead>
+          <tbody>${revRows || '<tr><td colspan="7" class="text">No REVIEW items.</td></tr>'}</tbody>
+          <tfoot><tr><td colspan="5" class="text">Total · ${fmtInt(rev.length)} orders</td><td class="r">${fmtUSD(t.REVIEW.dollars)}</td><td></td></tr></tfoot>
+        </table>
+      </div>
+    </div>
+  `;
+
+  // ---- 4. WAIT collapsed summary ----
+  const reasons = d.wait.reason_breakdown.map(r => `${fmtInt(r.count)} ${reasonLabel(r.reason).toLowerCase()}`).join(' · ');
+  document.getElementById('prw-wait-summary').innerHTML = `
+    <div class="prw-wait-line">
+      <div><span class="wait-label">Wait</span> — ${fmtInt(t.WAIT.count)} orders, nothing to do · ${escapeHtml(reasons)}</div>
+      <button type="button" id="prw-wait-expand">Expand</button>
+    </div>
+    <div id="prw-wait-expanded" class="hidden"></div>
+  `;
+
+  // ---- 5. Terms note ----
+  const placeholderWarn = (tx.placeholder_for_vendors && tx.placeholder_for_vendors.length > 0)
+    ? `<span class="warn">Per-vendor terms for ${tx.placeholder_for_vendors.join(', ')} not on file — Essendant terms applied as placeholder; confirm.</span>`
+    : `Net-30 + 15d grace applies to all vendors (confirmed 2026-05-26).`;
+  const accuracyNote = tx.pay_accuracy_note
+    ? `<br><span class="warn">${escapeHtml(tx.pay_accuracy_note)}</span>`
+    : '';
+  document.getElementById('prw-terms-note').innerHTML = `
+    Terms: net-${tx.net_days} + ${tx.grace_days}-day grace (clock from invoice_date).
+    Imminent window: next ${tx.imminent_window_days} days.
+    Tolerance: ±$${tx.tolerance.toFixed(2)}.
+    ${placeholderWarn}${accuracyNote}
+    &nbsp;|&nbsp; Generated ${escapeHtml(STATE.prw.metadata.generated_at || '')} · window ${STATE.prw.metadata.data_window.start} → ${STATE.prw.metadata.data_window.end} · as of ${STATE.prw.as_of}
+  `;
+}
+
+function switchView(which) {
+  const prwBtn = document.getElementById('view-toggle-prw');
+  const clsBtn = document.getElementById('view-toggle-class');
+  const prwSec = document.getElementById('prw-section');
+  const classDist = document.getElementById('class-dist');
+  const viewList = document.getElementById('view-list');
+  const filtersBar = document.getElementById('filters-bar');
+  const orderCount = document.getElementById('order-count');
+  if (which === 'prw') {
+    prwBtn.classList.add('active'); clsBtn.classList.remove('active');
+    prwSec.classList.remove('hidden');
+    classDist.classList.add('hidden');
+    filtersBar.classList.add('hidden');
+    orderCount.classList.add('hidden');
+    viewList.style.display = 'none';
+  } else {
+    clsBtn.classList.add('active'); prwBtn.classList.remove('active');
+    prwSec.classList.add('hidden');
+    classDist.classList.remove('hidden');
+    filtersBar.classList.remove('hidden');
+    orderCount.classList.remove('hidden');
+    viewList.style.display = '';
+  }
+}
+
+// ============================================================================
+// START
+// ============================================================================
+init();
+</script>
+</body>
+</html>

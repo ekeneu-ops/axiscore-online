@@ -1,0 +1,235 @@
+{
+ "bid_id": "city-of-north-las-vegas-2026-023",
+ "bid_number": "2026-023",
+ "agency": "City of North Las Vegas",
+ "src": "Open",
+ "title": "Job Order Contracting Services",
+ "close": "8/20/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CNLV JOC Supplemental Conditions - July 2026.pdf",
+  "JOC RFP 2026-023-Job Order Contracting-signed.pdf",
+  "JOC Code in NRS 338.156 to 338.1576.pdf",
+  "CNLV JOC RFP 2026-023 - July 2026.pdf",
+  "General Conditions.pdf",
+  "Draft Construction Contract - July 2026.pdf",
+  "Final Job Order Contracting _JOC_ Policy- Effective 6.17.26.pdf",
+  "Special Conditions for JOC - July 2026.pdf",
+  "Section 100 Documents.pdf",
+  "Response Attachment 1.1 - Comparable Construction Experience - Projects Less than 250K.pdf",
+  "Response Attachment 1.2 - Comparable Construction Experience - Projects Between 250 and 1M.pdf",
+  "Subcontractor Forms to be Submitted with Each  Job Order.pdf",
+  "Response Attachment 1.3 - Comparable Construction Experience - Projects Greater than 1M.pdf",
+  "Response Attachment 1.4 - Key Personnel - Project Manager.pdf",
+  "Response Attachment 1.5 - Key Personnel - Superintendent.pdf",
+  "Response Attachment 1.6 - Bid Proposal for Non-Federal Work.pdf",
+  "Response Attachment 1.6F - Bid Proposal for Federally Funded Work.pdf",
+  "Response Attachment 1.7 - Exhibit A - Offer Statement and Business Form.pdf",
+  "Response Attachment 1.8 - EXHIBIT B - Disclosure of Ownership and Principals.pdf",
+  "Response Attachment 1.9 - EXHIBIT D - Affidavit of Rejection of Workers Compensation.pdf",
+  "Response Attachment 1.10 - EXHIBIT E - Non-Collusion Affidavit.pdf",
+  "Response Attachment 1.11 - EXHIBIT G - Exceptions to the Owner Contractor Agreement.pdf",
+  "Exhibit H - Performance Bond.pdf",
+  "Exhibit I - Payment Bond.pdf",
+  "Exhibit J - Guarantee Bond.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CNLV JOC Supplemental Conditions - July 2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "JOC RFP 2026-023-Job Order Contracting-signed.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "JOC Code in NRS 338.156 to 338.1576.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CNLV JOC RFP 2026-023 - July 2026.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "General Conditions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Draft Construction Contract - July 2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Final Job Order Contracting _JOC_ Policy- Effective 6.17.26.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Special Conditions for JOC - July 2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Section 100 Documents.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.1 - Comparable Construction Experience - Projects Less than 250K.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.2 - Comparable Construction Experience - Projects Between 250 and 1M.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Subcontractor Forms to be Submitted with Each  Job Order.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.3 - Comparable Construction Experience - Projects Greater than 1M.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.4 - Key Personnel - Project Manager.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.5 - Key Personnel - Superintendent.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.6 - Bid Proposal for Non-Federal Work.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.6F - Bid Proposal for Federally Funded Work.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.7 - Exhibit A - Offer Statement and Business Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.8 - EXHIBIT B - Disclosure of Ownership and Principals.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.9 - EXHIBIT D - Affidavit of Rejection of Workers Compensation.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.10 - EXHIBIT E - Non-Collusion Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Response Attachment 1.11 - EXHIBIT G - Exceptions to the Owner Contractor Agreement.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit H - Performance Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit I - Payment Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit J - Guarantee Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 41.1,
+  "attachment_fetches": 25,
+  "attachment_seconds": 25.1,
+  "attachment_bytes": 5239873,
+  "max_fetch_seconds": 2.62,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-16T08:25:05.203494+00:00",
+ "extract_attempts": 1
+}

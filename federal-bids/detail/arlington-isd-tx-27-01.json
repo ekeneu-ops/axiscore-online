@@ -1,0 +1,67 @@
+{
+ "bid_id": "arlington-isd-tx-27-01",
+ "bid_number": "27-01",
+ "agency": "Arlington ISD, TX",
+ "src": "Open",
+ "title": "Groceries and Catering",
+ "close": "7/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:groceries",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "BT_LEGAL_.pdf",
+  "27-01 Groceries and Catering Bid Coversheet.pdf",
+  "27-01 Groceries and Catering Bid Specs.pdf",
+  "W9_Updated_March2024.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "BT_LEGAL_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "27-01 Groceries and Catering Bid Coversheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "27-01 Groceries and Catering Bid Specs.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9_Updated_March2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.3,
+  "attachment_fetches": 4,
+  "attachment_seconds": 3.9,
+  "attachment_bytes": 572232,
+  "max_fetch_seconds": 1.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:53:41.655512+00:00",
+ "extract_attempts": 1
+}

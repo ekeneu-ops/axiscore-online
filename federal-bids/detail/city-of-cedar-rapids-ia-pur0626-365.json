@@ -1,0 +1,87 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0626-365",
+ "bid_number": "PUR0626-365",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Open",
+ "title": "Pay Practices Audit",
+ "close": "8/17/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:svc:audit",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Firm fixed lump sum price for the Pay Practices Audit as described in the Pay Practices Scope of Services Attachment.",
+   "qty": "",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Firm fixed lump sum price for the Pay Practices Audit as described in the Pay Practices Scope of Services Attachment. LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Pay Practices Audit Scope of Services.pdf",
+  "Certificate to Obtain Insurance.pdf",
+  "Insurance Requirements - Consultant.pdf",
+  "RFP Contract T_C.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Pay Practices Audit Scope of Services.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate to Obtain Insurance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements - Consultant.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Contract T_C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 14.3,
+  "attachment_fetches": 4,
+  "attachment_seconds": 2.6,
+  "attachment_bytes": 553122,
+  "max_fetch_seconds": 0.91,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-14T08:20:24.021390+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-cedar-rapids-ia-pur0626-365/coverage.json"
+}

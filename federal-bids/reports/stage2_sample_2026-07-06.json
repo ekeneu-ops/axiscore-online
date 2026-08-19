@@ -1,0 +1,1951 @@
+{
+ "generated_at": "2026-07-06T11:56:45.572348+00:00",
+ "scan": {
+  "survivors": 541,
+  "scanned": 912
+ },
+ "bids": [
+  {
+   "bid_id": "killeen-isd-tx-26-31-07-091",
+   "bid_number": "26-31-07-091",
+   "agency": "Killeen ISD, TX",
+   "src": "Invited",
+   "title": "Laptops for Child Nutrition Supper Program",
+   "close": "7/9/2026 03:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "IN_SCOPE",
+   "scope_reason": "inc:ppe",
+   "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+   "items_source": null,
+   "lines_recovered": 0,
+   "grid_empty_or_form": true,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 0,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "Download All",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "Specification Packet -Laptops for Child Nutrition Supper Program.pdf (782 KB)",
+       "RFP Packet -Laptops for Child Nutrition Supper Program"
+      ],
+      [
+       "2",
+       "Download",
+       "Texas Regulations Certifications.pdf (1.19 MB)",
+       "Upload all forms to the 'Response Attachments' tab."
+      ],
+      [
+       "3",
+       "Download",
+       "Federal Regulations Certifications - Laptops.pdf (435 KB)",
+       "Upload all forms to the 'Response Attachments' tab."
+      ],
+      [
+       "4",
+       "Download",
+       "Standard Terms and Conditions.pdf (372 KB)",
+       "Standard Terms & Conditions"
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [],
+   "attachments_saved": [
+    "Specification Packet -Laptops for Child Nutrition Supper Program.pdf",
+    "Texas Regulations Certifications.pdf",
+    "Federal Regulations Certifications - Laptops.pdf",
+    "Standard Terms and Conditions.pdf"
+   ],
+   "parsed_docs": [
+    {
+     "name": "Specification Packet -Laptops for Child Nutrition Supper Program.pdf",
+     "kind": "pdf",
+     "tables": 2,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Texas Regulations Certifications.pdf",
+     "kind": "pdf",
+     "tables": 2,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Federal Regulations Certifications - Laptops.pdf",
+     "kind": "pdf",
+     "tables": 5,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Standard Terms and Conditions.pdf",
+     "kind": "pdf",
+     "tables": 2,
+     "note": "",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 2.03,
+     "bytes": 801788
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 5.39,
+     "bytes": 1249793
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.98,
+     "bytes": 445623
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.41,
+     "bytes": 381929
+    }
+   ],
+   "notes": [],
+   "latency": {
+    "bid_seconds": 21.0,
+    "attachment_fetches": 4,
+    "attachment_seconds": 10.8,
+    "attachment_bytes": 2879133,
+    "max_fetch_seconds": 5.39,
+    "throttle_signals": 0,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:50:01.167795+00:00"
+  },
+  {
+   "bid_id": "buyboard-purchasing-coop-tx-820-26-addendum-1",
+   "bid_number": "820-26 Addendum 1",
+   "agency": "BuyBoard Purchasing Coop, TX",
+   "src": "Invited",
+   "title": "HVAC Equipment, Supplies, and Installation",
+   "close": "7/9/2026 05:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACTED",
+   "items_source": "grid-only",
+   "lines_recovered": 5,
+   "grid_empty_or_form": false,
+   "onscreen_grid_count": 0,
+   "onscreen_priced_lines": 5,
+   "onscreen_grids": [],
+   "onscreen_lines": [
+    {
+     "ctl": "ucBidLine25",
+     "kind": "line",
+     "line": "13",
+     "desc": "Section II: Installation and Repair Service Standard Hourly Labor Rate for Installation/Repair Service of HVAC Equipment and Products - Not to Exceed hourly labor rate for Installation/Repair Service of Equipment and Products.",
+     "qty": "1",
+     "uom": "Hourly Labor Rate",
+     "note": "PROPOSAL NOTE 5: For installation and repair services of HVAC Equipment and Products, the proposal specifications allow Vendors to propose either a not-to-exceed hourly labor rate and/or a coefficient labor rate to be applied to the Gordian RSMeans unit price book. To the extent a Vendor proposes based on a coefficient to be applied to the unit price book, Vendor must submit a coefficient for both Standard Hours and Non-Standard Hours. Whether proposing installation and/or repair services based on an hourly rate and/or coefficient, Vendors are expected to pursue the contracted tasks during the hours of 7 a.m. to 5 p.m. Monday through Friday (\u201cStandard Hours\u201d). Hours other than Standard Hours shall be considered non-standard hours (\u201cNon-Standard Hours\u201d). Non-Standard Hour rates are permissible only where work during Non-Standard Hours is either specifically requested or approved in writing by the Cooperative member. If a vendor elects to perform services during Non-Standard Hours, at its own option for Vendor\u2019s own convenience when neither requested nor required by the Cooperative member, Vendor must perform such work at Standard Hours rates and satisfy the following requirements: 1. Vendor submits a request to the Cooperative member in writing at least two working days in advance stating the specific times of the Non-Standard Hours during which the Vendor wishes to perform work; 2. There is no additional cost to the Cooperative member; 3. An authorized representative of the Cooperative member approves the request in advance in writing; and 4. Vendor agrees to any special conditions imposed by the Cooperative member as set forth in the approval document. PROPOSAL NOTE 6: For this Proposal Invitation, the unit price book will be the current calendar year issue of the Gordian Facilities Construction Cost Data Book with RSMeans Data with updates as applicable (\u201cUnit Price Book\u201d). The Proposer\u2019s Coefficient is the price multiplier that the Vendor proposes to be applied to the Unit Price Book (\u201cProposer\u2019s Coefficient\u201d). Much of the work may be performed during normal operating hours. However, as is typical with educational or other public facilities work, other work hours may be necessary. Vendors shall propose a Proposer\u2019s Coefficient that is a net decrease from or increase to the \"Total Including O&P\" costs column in the Unit Price Book, and not the \"Bare Total\" column. If necessary, the \"Total Including O&P\" shall also be adjusted for the nearest city, and not the national average listed in the Unit Price Book. Proposer\u2019s Coefficient shall be carried to two (2) decimal places only.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine26",
+     "kind": "line",
+     "line": "14",
+     "desc": "Section II: Installation and Repair Service Non-Standard Hourly Labor Rate for Installation/Repair Service of HVAC Equipment and Products - Not to Exceed hourly labor rate for Installation/Repair Service of Equipment and Products.",
+     "qty": "1",
+     "uom": "Hourly Labor Rate",
+     "note": "PROPOSAL NOTE 5: For installation and repair services of HVAC Equipment and Products, the proposal specifications allow Vendors to propose either a not-to-exceed hourly labor rate and/or a coefficient labor rate to be applied to the Gordian RSMeans unit price book. To the extent a Vendor proposes based on a coefficient to be applied to the unit price book, Vendor must submit a coefficient for both Standard Hours and Non-Standard Hours. Whether proposing installation and/or repair services based on an hourly rate and/or coefficient, Vendors are expected to pursue the contracted tasks during the hours of 7 a.m. to 5 p.m. Monday through Friday (\u201cStandard Hours\u201d). Hours other than Standard Hours shall be considered non-standard hours (\u201cNon-Standard Hours\u201d). Non-Standard Hour rates are permissible only where work during Non-Standard Hours is either specifically requested or approved in writing by the Cooperative member. If a vendor elects to perform services during Non-Standard Hours, at its own option for Vendor\u2019s own convenience when neither requested nor required by the Cooperative member, Vendor must perform such work at Standard Hours rates and satisfy the following requirements: 1. Vendor submits a request to the Cooperative member in writing at least two working days in advance stating the specific times of the Non-Standard Hours during which the Vendor wishes to perform work; 2. There is no additional cost to the Cooperative member; 3. An authorized representative of the Cooperative member approves the request in advance in writing; and 4. Vendor agrees to any special conditions imposed by the Cooperative member as set forth in the approval document. PROPOSAL NOTE 6: For this Proposal Invitation, the unit price book will be the current calendar year issue of the Gordian Facilities Construction Cost Data Book with RSMeans Data with updates as applicable (\u201cUnit Price Book\u201d). The Proposer\u2019s Coefficient is the price multiplier that the Vendor proposes to be applied to the Unit Price Book (\u201cProposer\u2019s Coefficient\u201d). Much of the work may be performed during normal operating hours. However, as is typical with educational or other public facilities work, other work hours may be necessary. Vendors shall propose a Proposer\u2019s Coefficient that is a net decrease from or increase to the \"Total Including O&P\" costs column in the Unit Price Book, and not the \"Bare Total\" column. If necessary, the \"Total Including O&P\" shall also be adjusted for the nearest city, and not the national average listed in the Unit Price Book. Proposer\u2019s Coefficient shall be carried to two (2) decimal places only.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine27",
+     "kind": "line",
+     "line": "15",
+     "desc": "Section II: Installation and Repair Service Coefficient for Standard Hours of Installation/Repair Service of HVAC Equipment and Products - RSMeans Cost Data from the Total INCL O&P column (most current edition).",
+     "qty": "1",
+     "uom": "EA",
+     "note": "PROPOSAL NOTE 5: For installation and repair services of HVAC Equipment and Products, the proposal specifications allow Vendors to propose either a not-to-exceed hourly labor rate and/or a coefficient labor rate to be applied to the Gordian RSMeans unit price book. To the extent a Vendor proposes based on a coefficient to be applied to the unit price book, Vendor must submit a coefficient for both Standard Hours and Non-Standard Hours. Whether proposing installation and/or repair services based on an hourly rate and/or coefficient, Vendors are expected to pursue the contracted tasks during the hours of 7 a.m. to 5 p.m. Monday through Friday (\u201cStandard Hours\u201d). Hours other than Standard Hours shall be considered non-standard hours (\u201cNon-Standard Hours\u201d). Non-Standard Hour rates are permissible only where work during Non-Standard Hours is either specifically requested or approved in writing by the Cooperative member. If a vendor elects to perform services during Non-Standard Hours, at its own option for Vendor\u2019s own convenience when neither requested nor required by the Cooperative member, Vendor must perform such work at Standard Hours rates and satisfy the following requirements: 1. Vendor submits a request to the Cooperative member in writing at least two working days in advance stating the specific times of the Non-Standard Hours during which the Vendor wishes to perform work; 2. There is no additional cost to the Cooperative member; 3. An authorized representative of the Cooperative member approves the request in advance in writing; and 4. Vendor agrees to any special conditions imposed by the Cooperative member as set forth in the approval document. PROPOSAL NOTE 6: For this Proposal Invitation, the unit price book will be the current calendar year issue of the Gordian Facilities Construction Cost Data Book with RSMeans Data with updates as applicable (\u201cUnit Price Book\u201d). The Proposer\u2019s Coefficient is the price multiplier that the Vendor proposes to be applied to the Unit Price Book (\u201cProposer\u2019s Coefficient\u201d). Much of the work may be performed during normal operating hours. However, as is typical with educational or other public facilities work, other work hours may be necessary. Vendors shall propose a Proposer\u2019s Coefficient that is a net decrease from or increase to the \"Total Including O&P\" costs column in the Unit Price Book, and not the \"Bare Total\" column. If necessary, the \"Total Including O&P\" shall also be adjusted for the nearest city, and not the national average listed in the Unit Price Book. Proposer\u2019s Coefficient shall be carried to two (2) decimal places only.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine28",
+     "kind": "line",
+     "line": "16",
+     "desc": "Section II: Installation and Repair Service Coefficient for Non-Standard Hours for Installation/Repair Service of HVAC Equipment and Products - RSMeans Cost Data from the Total INCL O&P column (most current edition).",
+     "qty": "1",
+     "uom": "EA",
+     "note": "PROPOSAL NOTE 5: For installation and repair services of HVAC Equipment and Products, the proposal specifications allow Vendors to propose either a not-to-exceed hourly labor rate and/or a coefficient labor rate to be applied to the Gordian RSMeans unit price book. To the extent a Vendor proposes based on a coefficient to be applied to the unit price book, Vendor must submit a coefficient for both Standard Hours and Non-Standard Hours. Whether proposing installation and/or repair services based on an hourly rate and/or coefficient, Vendors are expected to pursue the contracted tasks during the hours of 7 a.m. to 5 p.m. Monday through Friday (\u201cStandard Hours\u201d). Hours other than Standard Hours shall be considered non-standard hours (\u201cNon-Standard Hours\u201d). Non-Standard Hour rates are permissible only where work during Non-Standard Hours is either specifically requested or approved in writing by the Cooperative member. If a vendor elects to perform services during Non-Standard Hours, at its own option for Vendor\u2019s own convenience when neither requested nor required by the Cooperative member, Vendor must perform such work at Standard Hours rates and satisfy the following requirements: 1. Vendor submits a request to the Cooperative member in writing at least two working days in advance stating the specific times of the Non-Standard Hours during which the Vendor wishes to perform work; 2. There is no additional cost to the Cooperative member; 3. An authorized representative of the Cooperative member approves the request in advance in writing; and 4. Vendor agrees to any special conditions imposed by the Cooperative member as set forth in the approval document. PROPOSAL NOTE 6: For this Proposal Invitation, the unit price book will be the current calendar year issue of the Gordian Facilities Construction Cost Data Book with RSMeans Data with updates as applicable (\u201cUnit Price Book\u201d). The Proposer\u2019s Coefficient is the price multiplier that the Vendor proposes to be applied to the Unit Price Book (\u201cProposer\u2019s Coefficient\u201d). Much of the work may be performed during normal operating hours. However, as is typical with educational or other public facilities work, other work hours may be necessary. Vendors shall propose a Proposer\u2019s Coefficient that is a net decrease from or increase to the \"Total Including O&P\" costs column in the Unit Price Book, and not the \"Bare Total\" column. If necessary, the \"Total Including O&P\" shall also be adjusted for the nearest city, and not the national average listed in the Unit Price Book. Proposer\u2019s Coefficient shall be carried to two (2) decimal places only.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine29",
+     "kind": "line",
+     "line": "17",
+     "desc": "Section II: Installation and Repair Service Hourly Labor Rate for Installation/Repair Service for HVAC Filter Change Out Service (includes labor, replacement of filter, and removal/disposal of product) - Not to exceed hourly labor rate for installation of HVAC Filter products and change out service.",
+     "qty": "1",
+     "uom": "Hourly Labor Rate",
+     "note": "PROPOSAL NOTE 5: For installation and repair services of HVAC Equipment and Products, the proposal specifications allow Vendors to propose either a not-to-exceed hourly labor rate and/or a coefficient labor rate to be applied to the Gordian RSMeans unit price book. To the extent a Vendor proposes based on a coefficient to be applied to the unit price book, Vendor must submit a coefficient for both Standard Hours and Non-Standard Hours. Whether proposing installation and/or repair services based on an hourly rate and/or coefficient, Vendors are expected to pursue the contracted tasks during the hours of 7 a.m. to 5 p.m. Monday through Friday (\u201cStandard Hours\u201d). Hours other than Standard Hours shall be considered non-standard hours (\u201cNon-Standard Hours\u201d). Non-Standard Hour rates are permissible only where work during Non-Standard Hours is either specifically requested or approved in writing by the Cooperative member. If a vendor elects to perform services during Non-Standard Hours, at its own option for Vendor\u2019s own convenience when neither requested nor required by the Cooperative member, Vendor must perform such work at Standard Hours rates and satisfy the following requirements: 1. Vendor submits a request to the Cooperative member in writing at least two working days in advance stating the specific times of the Non-Standard Hours during which the Vendor wishes to perform work; 2. There is no additional cost to the Cooperative member; 3. An authorized representative of the Cooperative member approves the request in advance in writing; and 4. Vendor agrees to any special conditions imposed by the Cooperative member as set forth in the approval document. PROPOSAL NOTE 6: For this Proposal Invitation, the unit price book will be the current calendar year issue of the Gordian Facilities Construction Cost Data Book with RSMeans Data with updates as applicable (\u201cUnit Price Book\u201d). The Proposer\u2019s Coefficient is the price multiplier that the Vendor proposes to be applied to the Unit Price Book (\u201cProposer\u2019s Coefficient\u201d). Much of the work may be performed during normal operating hours. However, as is typical with educational or other public facilities work, other work hours may be necessary. Vendors shall propose a Proposer\u2019s Coefficient that is a net decrease from or increase to the \"Total Including O&P\" costs column in the Unit Price Book, and not the \"Bare Total\" column. If necessary, the \"Total Including O&P\" shall also be adjusted for the nearest city, and not the national average listed in the Unit Price Book. Proposer\u2019s Coefficient shall be carried to two (2) decimal places only.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    }
+   ],
+   "attachments_saved": [],
+   "parsed_docs": [],
+   "candidate_tables": [],
+   "fetches": [],
+   "notes": [
+    "no Attachments tab on this bid",
+    "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+   ],
+   "latency": {
+    "bid_seconds": 7.4,
+    "attachment_fetches": 0,
+    "attachment_seconds": 0,
+    "attachment_bytes": 0,
+    "max_fetch_seconds": 0,
+    "throttle_signals": 0,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:50:10.036771+00:00"
+  },
+  {
+   "bid_id": "johnson-county-ks-2026-031-addendum-1",
+   "bid_number": "2026-031 Addendum 1",
+   "agency": "Johnson County, KS",
+   "src": "Invited",
+   "title": "Johnson County Administration Building HVAC Renewal Project",
+   "close": "7/10/2026 03:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACTED",
+   "items_source": "attachments",
+   "lines_recovered": 13,
+   "grid_empty_or_form": false,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 2,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "Download All",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "2026-031 Addendum No. 1 Package (6.26.2026).zip (2.80 MB)",
+       "2026-031 Addendum No. 1 Package (6.26.2026)"
+      ],
+      [
+       "2",
+       "Download",
+       "2026-031 Johnson County Administration Building HVAC Renewal Project Plans (6.04.2026).pdf (8.72 MB)",
+       "2026-031 Johnson County Administration Building HVAC Renewal Project Plans (6.04.2026)"
+      ],
+      [
+       "3",
+       "Download",
+       "2026-031 Johnson County Administration Building HVAC Renewal Project Manual (6.16.2026).pdf (100.93 MB)",
+       "2026-031 Johnson County Administration Building HVAC Renewal Project Manual (6.16.2026)"
+      ],
+      [
+       "4",
+       "Download",
+       "2026-031 Bid Bond Form (Word).docx (27 KB)",
+       "2026-031 Bid Bond Form (made available in Word)"
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [
+    {
+     "ctl": "ucBidLine1",
+     "kind": "line",
+     "line": "1",
+     "desc": "BASE BID #1 (LUMP SUM): Provide all labor, materials, equipment, and services necessary to complete the Johnson County Administration Building HVAC Renewal Project in accordance with the Adams Architects Drawings dated June 4, 2026, and Project Manual dated June 16, 2026.",
+     "qty": "1",
+     "uom": "LS",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine3",
+     "kind": "line",
+     "line": "3",
+     "desc": "ALTERNATE #1 Provide the additive cost to replace the entire AHU units (1-4) instead of the indicated scope of Base Bid #1 that includes fan array renewal, coil cleaning and associated demo.",
+     "qty": "1",
+     "uom": "LS",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    }
+   ],
+   "attachments_saved": [
+    "2026-031 Addendum No. 1 Package _6.26.2026_.zip",
+    "2026-031 Johnson County Administration Building HVAC Renewal Project Plans _6.04.2026_.pdf",
+    "2026-031 Bid Bond Form _Word_.docx"
+   ],
+   "parsed_docs": [
+    {
+     "name": "2026-031 Addendum No. 1 Package _6.26.2026_.zip",
+     "kind": ".zip",
+     "tables": 0,
+     "note": "unsupported format",
+     "candidates": 0
+    },
+    {
+     "name": "2026-031 Johnson County Administration Building HVAC Renewal Project Plans _6.04.2026_.pdf",
+     "kind": "pdf",
+     "tables": 409,
+     "note": "",
+     "candidates": 3
+    },
+    {
+     "name": "2026-031 Bid Bond Form _Word_.docx",
+     "kind": ".docx",
+     "tables": 0,
+     "note": "unsupported format",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [
+    {
+     "source": "2026-031 Johnson County Administration Building HVAC Renewal Project Plans _6.04.2026_.pdf",
+     "sheet": 21,
+     "header_row": 0,
+     "headers": [
+      "FACILITY TYPE OF CONSTRUCTION: SYMBOL DESCRIPTION PROTECTIVE ELEMENTS\nMEANS OF EGRESS:\nExisting three Story County Adminstration Building with a walkout\nDESIGN OCCUPANT LOAD PER TABLE 1004.5:\nlower level and mechanical penthouse. The scope of work for this CONSTRUCTION CLASSIFICATION: TYPE -III(602.5) 12\nproject is the replacement of the HVAC mechanical system and is FIRE RESISTANCE RATING -B (TABLE 601) PENTHOUSE: MECHANICAL, 1 PER 300 GROSS, 11,900 / 300 = 40 EXIT -EXTERIOR\nTOTAL OCCUPANT LOAD = 40\nlimited to the penthouse.\nEXIT -INTERIOR (Assembly occ.\nBUILDING ELEMENTS RESISTANCE RATING: (TABLE 601) 12\nBUILDING DESCRIPTION EGRESS WIDTH: over 50 and exits from floors.)\nSTRUCTURAL FRAME 0 HR\nExisting three building with a walkout lower level and mechanical DOORWAYS: 0.15\" PER OCCUPANT FIRE EXTINGUISHER\nBEARING WALLS, EXTERIOR 0 HR >= 30'*\npenthouse. The building is constructed with concrete columns, STAIRWAYS: 0.20\" PER OCCUPANT\nBEARING WALLS, INTERIOR 0 HR FIRE EXTINGUISHER SPACING\nconcrete waffle slab floors and roof structure, with a brick and stone NON-BEARING WALLS, EXTERIOR 0 HR >= 30'* (Show radius)\nexterior. REF: PLANS FOR WIDTH REQUIRED & PROVIDED AT EXITS.\nNON-BEARING WALLS, INTERIOR 0 HR 1/2 1/2 0.5 hour corridor\n1/2 HOUR EXIT PASSAGEWAY\nFLOOR CONSTRUCTION 0 HR\nAPPLICABLE CODES: (With City Of Olathe Ordinances) MINIMUM CLEAR DIMENSIONS:\n2018 International Building Code -(Ordinance 19-27) ROOF CONSTRUCTION 0 HR DOORS: 32\" 1 1 1 HOUR EXIT PASSAGEWAY 1-Hour Fire Partition construction.\n2018 International Existing Building Code -(Ordinance 19-29) LANDING: 44\"\n2018 International Plumbing Code -(Ordinance 19-30) * PER TABLE 602 CORRIDORS: 44\" 1 1 1 HOUR SHAFT 1-Hour Fire Barrier construction.\n2018 International Mechanical Code -(Ordinance 19-31) STAIRS : 44\"\nMAX. AREA OF EXTERIOR WALL OPENINGS (TABLE 705.8 P 129) 2 2 2 HOUR SHAFT 2-Hour Fire Barrier construction.\n2018 International Fuel Gas Code -(Ordinance 19-32)\nPER SECTION 705.8.1 EXCEPTION 2. BUILDINGS WHOSE\n2017 National Electrical Code \u2013NFPA 70 -(Ordinance 19-33) EXTERIOR BEARING WALLS, EXTERIOR NONBEARING WALLS 1/2 HOUR FIRE PARTITION\n2018 International Energy Conservation Code -(Ordinance 19-34) (Corridor walls) 1/3-hour rated door assembly. Fire Dampers\nAND EXTERIOR PRIMARY STRUCTURAL FRAME ARE NOT FIRE EXTINGUISHERS -FE (2018 IFC and local Admendments):\n2 2 0 0 1 1 8 8 I I n n t t e e r r n n a a t t i i o o n n a a l l P Fi r r o e p C er o ty d e M - a ( i O nt r e d n in a a n n c c e e C 1 o 9 d - e 3 7 - ) (Ordinance 19-36) REQUIRED TO BE FIRE-RESISTANCE RATED SHALL BE (TABLE 906.3 (1)) 1 (D H w O el U lin R g F u I n R it E s P ep A a R ra T t I i T o I n O ) N 3/4-hour rated door assembly. Fire Dampers\nPERMITTED TO HAVE UNLIMITED UNPROTECTED OPENINGS. REQUIRED : 1 UNIT OF A PER 1,500 SF\nNo openings other than required exit doors. 1-hour door assembly.\nMAX OF 11,250 SF PER EXTINGUISHER 1 HOUR FIRE BARRIER Fire & Smoke Dampers\nUSE & OCCUPANCY CLASSIFICATION:(302.1)\n75' MAX OF TRAVEL DISTANCE\nOVERALL BUILDING: 172, 995 SF\nPROVIDED: 8 UNITS OF A 0 HOUR SMOKE PARTITION Smoke-rated doors\nLower Level: Business 23,834 SF ACTIVE FIRE PROTECTION SYSTEMS: TYPE: 4-A:10-B:C FE 6 / .9\" ACCUMULATED EXIT WIDTH AT Occupants / Required width\nLOCATION: INDICACATED ON PLAN 5.4 REQUIRED EXIT (clear width) Provided width\nMain Level: Business 45,061 SF\nAUTOMATIC SPRINKLER SYSTEMS -NFPA 13 FIRE ALARM SYSTEM\nROOM DESIGNATION Room type / Occupancy type\nSecond Level: Business 46,100 SF\nSMOKE DETECTORS W/ BATTERY BACK-UP PORTABLE FIRE EXTINGUISHERS Maximum Allowable occupants\nThird Level: Business 46,100 SF\nPenthouse : Mechanical 11,900 SF x x + y SHOW ACCUMULATED OCCUPANT\ny LOADS FOR COMPLEX EXIT PATHS\nCODE PLAN LEGEND",
+      "",
+      "C25.149.07",
+      ""
+     ],
+     "score": 2,
+     "n_rows": 14,
+     "sample": [
+      [
+       "",
+       "",
+       "PERMIT\nDOCUMENTS",
+       ""
+      ],
+      [
+       "",
+       "",
+       "CAVH\n-\n.nimdA\n.TS\nsasnaK\n,yrrehC\nytnuoC\n,ehtalO\n.S\n111\nnosnhoJ",
+       ""
+      ],
+      [
+       "1 2 2.3 3 3.1 4 5 5.1 5.2 6 6.1 6.2 7 7.1 7.2 8 9 10 11 12 12.1\n283'-8\"\n14'-0\" 28'-0\" 14'-0\" 20'-6\" 7'-6\" 28'-0\" 14'-0\" 13'-1 1/2\" 13'-1 1/2\" 14'-0\" 13'-0\" 1'-0\" 14'-0\" 28'-0\" 28'-0\" 14'-0\" 14'-0\" 3'-8\"\nA A\n10 1/2\" 10 1/2\"\n\"4-'1\nA.1 A.1\n\"0-'2\nB B\n\"0-'61\n\"0-'41\nC C\n\"0-'82\nC.1\nD D\n10'-10 1/2\" 14'-6\" 8'-0\" 5'-6\" 19'-6\" 8'-6\" 8'-6\" 19'-6\" 10'-7\" 8'-0\" 19'-5\"\n\"0-'82\n96\" x 96\" RELIEF AIR LOUVER 96\" x 96\" O.A. LOUVER 96\" x 96\" RELIEF AIR LOUVER\n\"0-'01\nDN\nE E\n\"0-'4\nELEVATOR\n5'-5\"\n\"4-'51 \"4-'6\n\"3-'7\n\"01-'4\nE.1 E.1\n11'-6\"\n\"8-'7 \"6-'8\n4'-0\"\n19'-2\"\nF F \"6-'1\n\"4-'102 \"4-'102 FH\nCOOLING\n\"0-'42 VAULTED AREA LIGHT SHAFT\nTOWER AREA\nTO FLOOR TO FLOOR\nOUTSIDE\nBELOW BELOW\nG G FH\n\"8-'7\n28'-0\"\nG.1\n\"01-'2\n\"4-'51 \"4-'8 4'-6\"\n\"0-'4\nH H\n\"0-'01\n\"0-'5 \"0-'5\n96\" x 96\" RELIEF AIR LOUVER \"0-'82\n96\" x 96\" O.A. LOUVER\n96\" x 96\" RELIEF AIR LOUVER\n10'-10 1/2\" 15'-6\" 8'-0\" 4'-6\" 19'-6\" 17'-0\" 19'-6\" 3'-0\" 8'-0\" 17'-0\" 10'-0\"\nJ J\n11 12\n\"0-'82\nJ.1\nK K \"0-'2\nL\n1 2 2.3 3 3.1 4 4.1 5 5.2 6 6.1 6.2 7 7.2 8 9 10 12.1 L\nN\nA1\nCODE PLAN - PENTHOUSE LEVEL\n3/32\" = 1'-0\"\n0 2' 4' 8' 16' 24'",
+       "",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "source": "2026-031 Johnson County Administration Building HVAC Renewal Project Plans _6.04.2026_.pdf",
+     "sheet": 337,
+     "header_row": 0,
+     "headers": [
+      "GENERAL WIRING DEVICES SPECIAL SYSTEMS FIRE ALARM HVAC PLUMBING PIPING\n1 MECHANICAL NOTE REFERENCE DUPLEX RECEPTACLE M MICROPHONE OUTLET FAAP FIRE ALARM ANNUNCIATION PANEL CHWS CHILLED WATER SUPPLY DOMESTIC COLD WATER ELBOW DOWN\n2 ELECTRICAL NOTE REFERENCE FOURPLEX RECEPTACLE S SPEAKER FACP FIRE ALARM CONTROL PANEL CHWR CHILLED WATER RETURN DOMESTIC HOT WATER ELBOW UP\n3 DEMOLITION NOTE REFERENCE SIMPLEX/SPECIAL RECEPTACLE (NEMA CONFIG. NOTED) H HORN TYPE SPEAKER F MANUAL PULL STATION DTS DUAL TEMP SUPPLY 140\u00b0 DOMESTIC HOT WATER 140\u00b0 TEE UP\nREVISION NOTE REFERENCE LINE THRU DEVICE INDICATES ABOVE COUNTER V SPEAKER VOLUME CONTROL S SMOKE DETECTOR DTR DUAL TEMP RETURN TW DOMESTIC TEMPER WATER TEE DOWN\n4\nCONNECT TO EXISTING WORK IG GFI U PA PUBLIC ADDRESS AMPLIFIER AND CABINET SD SMOKE DETECTOR - DUCT MOUNTED CWS CONDENSER SUPPLY + SOFT DOMESTIC COLD WATER CAP\nRECEPTACLE TYPES - (IG) ISOLATED GROUND,\n(GFI) GROUNDFAULT, (U) UPS, (USB) W/ INTEGRAL USB,\n1 USB S C (S) SPLIT WIRED, (C) OCCUPANCY CONTROLED (SEE DETAIL) B DOOR BELL SB SMOKE DETECTOR - WITH SOUNDER BASE CWR CONDENSER RETURN ++ SOFT DOMESTIC HOT WATER UNION\nDETAIL REFERENCE - NO./SHEET NO.\nM1 DUPLEX RECEPTACLE SUPPLIED BY GENERATOR I INTERCOM STATION SO COMBINATION SMOKE/CARBON MONOXIDE DETECTOR HWS HEATING HOT WATER SUPPLY +++ SOFT HOT WATER RECIRC PIPE FLEX\n(SINGLE, FOURPLEX AND SPECIAL ARE SIMILAR)\nA CEILING MOUNTED RECEPTACLE MI INTERCOM STATION - MASTER CO CARBON MONOXIDE DETECTOR HWR HEATING HOT WATER RETURN DOMESTIC HOT WATER RECIRC STRAINER\nSECTION CUT - SECTION/SHEET NO.\nM1\nAV AUDIO/VISUAL BOX SBO COMBO SMOKE/CARBON MONOXIDE/SOUNDER BASE STM STEAM SUPPLY 140\u00b0 DOMESTIC HOT WATER RECIRC 140\u00b0\nRECESSED FLOOR BOX W/DUPLEX RECEPTACLE\nPRESSURE GAUGE WITH\nBRACKET DENOTES A WALL MOUNTED DEVICE, TYP AV CEILING MOUNTED AUDIO/VISUAL BOX H THERMODETECTOR(HEAT) DETECTOR STR STEAM CONDENSATE RETURN DI DOMESTIC DEIONIZED WATER GAUGE COCK\nMULTI-SERVICE WALL BOX (SEE DETAIL WHEN TAGGED WITH \"C\")\nMULTI-SERVICE FLOOR BOX (SEE DETAIL WHEN TAGGED WITH \"C\") HD THERMODETECTOR(HEAT) DETECTOR - DUCT MOUNTED D HVAC DRAIN (CONDENSATE) RO REVERSE OSMOSIS WATER T\nCONDUIT AND WIRE SECURITY TEMPERATURE GAUGE\nDH DOOR HOLDER R REFRIGERANT CA COMPRESSED AIR\nDIVIDED POWER POLE (SEE DETAIL WHEN TAGGED WITH \"C\")\nSURVEILLANCE CAMERA ('F' DENOTES FISH-EYE TYPE) C CHIME T THERMOSTAT SAN SANITARY WASTE\nMULTI-OUTLET ASSEMBLY\nCONDUIT RUN CONCEALED IN WALL OR ABOVE CEILING.\nTHERMOMETER.\n3-#12 AWG CONDUCTORS, UNLESS NOTED OTHERWISE.\nF BELL TS TEMPERATURE SENSOR SAN SANITARY WASTE UNDERGROUND\nPTZ SURVEILLANCE CAMERA\nPOWER DEVICE AND CONTROLS\nTICK MARKS (UN-SWITCHED LINE, NEUTRAL, GROUND) F FIRE ALARM HORN H HUMIDITY SENSOR V VENT SITE GLASS\nARROW INDICATES HOME RUN TO PANEL. SURVEILLANCE CAMERA WITH 180\u00b0 VIEWING ANGLE S FIRE ALARM SPEAKER CO2 CARBON DIOXIDE SENSOR PD PUMP DISCHARGE FD FILTER-DRIER\nDISCONNECT SWITCH. 30A/3P NON-FUSED\n(PANORAMIC STYLE)\nEXCEPT AS NOTED OTHERWISE.\nCONDUIT RUN UNDERGROUND OR CONCEALED IN SLAB.D) FIRE ALARM STROBE T/C THERMOSTAT / CO2 SENSOR COMBO GREASE GREASE WASTE\nBASKET STRAINER\nLOW VOLTAGE WIRING/CONDUIT RUN MAGNETIC MOTOR STARTER F COMBINATION FIRE ALARM HORN AND STROBE TCH THERMOSTAT / CO2 / HUMIDITY SENSOR COMBO GREASE GREASE WASTE UNDERGROUND\nSURVEILLANCE CAMERA WITH 360\u00b0 VIEWING ANGLE\n(PANORAMIC STYLE, WITH MULTIPLE CAMERA LENSES)\nCOMBINATION MOTOR STARTER AND DISCONNECT SWITCH S COMBINATION FIRE ALARM SPEAKER AND STROBE CL CHLORINE SENSOR ST STORM DRAIN SHUTOFF VALVE\nLIGHTING\nMOTOR CCTV CCTV DISPLAY SCREEN RL REMOTE ALARM LAMP P SPACE PRESSURE MONITOR ST STORM DRAIN UNDERGROUND SHUTOFF VALVE IN RISER\nBATTERY OPERATED EMERGENCY LIGHT (WALL MOUNTED) PANELBOARD (SEE ONE-LINE) CR CARD READER ('D' DENOTES A DUAL LEVEL TYPE (W/PIN) PI POST INDICATOR SWITCH CO CARBON MONOXIDE SENSOR ST/O STORM OVERFLOW DRAIN BALANCING VALVE\nBATTERY OPERATED EMERGENCY LIGHT (CEILING MOUNTED) CONTACTOR DI ACCESS CONTROL DOOR INTERFACE FS FLOW SWITCH NO2 NITROGEN DIOXIDE SENSOR ST/O STORM OVERFLOW DRAIN UNDERGROUND\nRELIEF VALVE\nSURFACE/RECESSED LIGHT FIXTURE AUTOMATIC TRANSFER SWITCH PS DOOR HARDWARE POWER SUPPLY TS TAMPER SWITCH C/N CARBON MONOXIDE / NITROGEN DIOXIDE SENSOR HOSE BIBB, WALL / ROOF / YARD HYDRANT\nDENOTES A WALL MOUNTED FIXTURE J JUNCTION BOX DR DUAL AUTHENTICATION CARD READER (WITH KEYPAD) AI ADDRESSABLE INTERFACE S WALL SWITCH CO/WCO CLEAN OUT, WALL CLEAN OUT TEST PLUG\n2X4 LIGHT FIXTURE J F JUNCTION BOX - FURNITURE FEED WHIP CONNECTION BM BALANCED MAGNETIC SWITCH HUMIDIFIER FLOOR CLEAN OUT TRIPLE DUTY VALVE\nNURSE CALL\n2X2 LIGHT FIXTURE PUSHBUTTON MS MOTION SENSOR REQUEST TO EXIT ABOVE DOOR FLOOR / AREA DRAIN CHECK VALVE\nFIRE PROTECTION\n1X4 LIGHT FIXTURE EPO EMERGENCY POWER OFF PUSHBUTTON RX REQUEST TO EXIT PUSHBUTTON NM MASTER STATION FLOOR SINK / TROUGH AUTOMATIC CONTROL\nVALVE (2-WAY)\nSTRIP / LINEAR LIGHT FIXTURE T TRANSFORMER PB DELAYED EGRESS PANIC BAR NMS MASTER STATION W/ SPEAKER (HANDSET) FP FIRE PROTECTION PIPING RD ROOF DRAIN / OVERFLOW ROOF DRAIN\nORD\nAUTOMATIC CONTROL\nSHADING DENOTES EMERGENCY FIXTURE R CONTROL RELAY EL ELECTRIFIED LOCKSET NSS STAFF STATION W/ SPEAKER FHC FIRE HOSE CABINET TRENCH DRAIN VALVE (3-WAY)\nPOLE MOUNTED LIGHT FIXTURE - SINGLE HEAD ES ELECTRIFIC DOOR STRIKE ND DUTY STATION FDV FIRE DEPARTMENT VALVE REDUCED PRESSURE BACKFLOW PREVENTER S\nTELECOMMUNICATIONS SOLENOID VALVE\nP\nPOLE MOUNTED LIGHT FIXTURE - DUAL HEAD ML MAGNETIC DOOR LOCK NDS DUTY STATION W/ SPEAKER UPRIGHT SPRINKLER HEAD # PLUMBING RISER CALL-OUT NUMBER\nPOLE MOUNTED LIGHT FIXTURE - PEDESTRIAN SCALE TELEPHONE OUTLET ACS ACCESS CONTROL STATION (ENROLLMENT) NE EMERGENCY PULLCORD PENDENT SPRINKLER P PRESSURE REDUCING VALVE /\nMEDICAL / LABORATORY PRESSURE REGULATOR\nEXIT LIGHT - DOUBLE FACE - ARROWS AS SHOWN DATA OUTLET SMS SECURITY MANAGEMENT STATION NES EMERGENCY PULLCORD W/ SPEAKER RECESSED SPRINKLER\nFUEL UTILITIES\nEXIT LIGHT - SINGLE FACE - ARROWS AS SHOWN TELEPHONE/DATA OUTLET KP INTRUSION - ACTIVATION/DEACTIVATION KEYPAD NC CODE BUTTON MA MEDICAL COMPRESSED AIR\nCONCEALED SPRINKLER\nS S3 S4 SK SPS D LINE VOLTAGE SWITCHES-SINGLE POLE, 3-WAY, 4-WAY, TV TELEVISION OUTLET DC DOOR CONTACT NA STAFF ASSIST BUTTON VAC MEDICAL VACUUM FOS FUEL OIL SUPPLY\nKEY, PILOT LIGHT, DIMMER\nS VS VACANCY SWITCH WAP ABOVE CEILING DATA OUTLET FOR WIRELESS ACCESS POINT RA REFRIGERATOR ALARM NCA CODE AND STAFF ASSIST BUTTONS SIDEWALL SPRINKLER. DVAC DENTAL VACUUM FOR FUEL OIL RETURN\nS VD VACANCY DIMMER SWITCH LINE THRU DEVICE INDICATES ABOVE COUNTER M MOTION SENSOR - SECURITY NP PATIENT STATION - SINGLE OX OXYGEN LP LIQUID PETROLEUM\nDOUBLE CHECK DETECTOR\nS LS LOW VOLTAGE SWITCH CIRCLE INDICATES FLOOR MOUNTED OUTLET G GLASS BREAK SENSOR NPP PATIENT STATION - DUAL BACKFLOW PREVENTER N NITROGEN G NATURAL GAS\nS LD LOW VOLTAGE DIMMER SWITCH SQUARE INDICATES CEILING MOUNTED OUTLET W WINDOW MESH SENSOR NPCA PATIENT STATION W/ CODE/STAFF ASSIST FIRE DEPARTMENT CONNECTION NO NITROUS OXIDE\nAUTOMOTIVE\nS LC LOW VOLTAGE SCENE SWITCH PD WIRELESS DURESS (PANIC) BUTTON - CONCEALED AT DESK NB BED INTERFACE POST INDICATOR VALVE WAGD WAG LINE\nS LT LOW VOLTAGE TOUCHSCREEN PW WIRELESS DURESS (PANIC) BUTTON - WALL MOUNT TYPE NX AUXILIARY INPUT - SINGLE IA INSTRUMENT COMPRESSED AIR ACA AUTOMOTIVE COMPRESSED AIR\nS TS DIGITAL TIMER SWITCH DP DURESS PHONE, PEDESTAL TYPE (\"CODE BLUE PHONE\") NXX AUXILIARY INPUT - DUAL X OXYGEN OUTLET ATF TRANSMISSION FLUID\nOCCUPANCY SENSOR (LETTER DENOTES TYPE) PMS DURESS (PANIC) MASTER STATION/ANNUNCIATION PANEL NL DOME LIGHT V MEDICAL VACUUM OUTLET ACO COOLANT\n(A)\nPC PHOTOCELL NZ DOME LIGHT - ZONE TYPE A MEDICAL AIR OUTLET LUBE LUBE OIL\n# LIGHTING CONTROL NOTE NO NITROUS OXIDE OUTLET AIR COMPRESSED AIR OUTLET\nIA INSTRUMENT AIR OUTLET OIL LUBE OIL OUTLET\nTURNING VANES\nA AMPS CKT CIRCUIT G GROUND MCC MOTOR CONTROL CENTER SD SMOKE DAMPER DUCT SIZES INDICATED ON\nSUPPLY / OUTSIDE DRAWINGS ARE SHEET\nCO CLEANOUT, CARBON MONOXIDE SUPPLY 24 = SIZE OF DIFFUSER\nA/C AIR CONDITIONING GCO GRADE CLEANOUT MD MOTORIZED DAMPER SF SQUARE FEET AIR UP METAL DIMENSIONS DIFFUSER HIGH EFFICIENCY TAKE-OFF 08 = SIZE OF THROAT\nSUPPLY / WITH MANUAL DAMPER\nCO2 CARBON DIOXIDE GROUND FAULT CIRCUIT MAXIMUM OVERCURRENT CIRCUIT\nAD ACCESS DOOR GFI/GFCI MOCP SP STATIC PRESSURE OUTSIDE AIR DN 12\"x12\"\nINTERRUPTER PROTECTION RETURN DUCT SIZE EQUAL TO 2408\nAFC ABOVE FINISH CEILING CU COPPER, CONDENSING UNIT GND GROUND MFR MANUFACTURER SWBD SWITCHBOARD RETURN UP BRANCH DUCT GRILLE THROAT OF DIFFUSER SD-1\nWITH 45\u00b0 TAP 200 CFM\nAFG ABOVE FINISH GRADE CW DOMESTIC COLD WATER GPM GALLONS PER MINUTE MLO MAIN LUGS ONLY TOD TOP OF DUCT INSULATED FLEX\nRETURN DN BOTTOM OR TOP EXHAUST DUCT, MAX 5' LENGTH 48 = LENGTH OF DIFFUSER\nDDC DIRECT DIGITAL CONTROL TRANSITION 08 = SIZE OF PLENUM CONNECTION\nAFF ABOVE FINISHED FLOOR HOA HAND OFF AUTOMATIC MU MAKE UP TOP TOP OF PIPE EXHAUST / GRILLE\n4808\nBD BACKDRAFT DAMPER DN DOWN HW DOMESTIC HOT WATER N/A NOT APPLICABLE TSTAT THERMOSTAT RELIEF AIR UP CENTER TRANSITION LINEAR SLOT SD-1\nEXHAUST / DIFFUSER 200 CFM\nBFF BELOW FINISHED FLOOR DX DIRECT EXPANSION IE INVERT ELEVATION N/C NORMALLY CLOSED UNO UNLESS NOTED OTHERWISE RELIEF AIR DN SIDE TRANSITION\nEA EXHAUST AIR INSULATED SIDEWALL SUPPLY DIFFUSER\nBFG BELOW FINISHED GRADE IG ISOLATED GROUND N/O NORMALLY OPEN UPS UNINTERRUPTIBLE POWER SUPPLY SQUARE TO ROUND\nFLEX DUCT OR RETURN GRILLE\nTRANSITION\nEAT ENTERING AIR TEMPERATURE\nBFP BACKFLOW PREVENTER KV KILOVOLT NF NON-FUSED DEVICE VAV VARIABLE AIR VOLUME RISE OR DROP IN\nSUPPLY AIR R\nDUCTWORK - ARROW IN\nEC ELECTRICAL CONTRACTOR FLOW INDICATOR\nBKR BREAKER KVA KILOVOLT AMPS NIC NOT IN CONTRACT VD MANUAL VOLUME DAMPER DIRECTION OF AIRFLOW\nEPO EMERGENCY POWER OFF RETURN / EXHAUST AIR\nBOD BOTTOM OF DUCT KW KILOWATT NL NIGHT LIGHT VTR VENT THROUGH ROOF FLOW INDICATOR\nETR EXISTING TO REMAIN\nBOP BOTTOM OF PIPE KWH KILOWATT HOUR OA OUTSIDE AIR W WATT(S)\nMANUAL VOLUME DAMPER\nEWB ENTERING WET BULB\nBOS BOTTOM OF STRUCTURE LAT LEAVING AIR TEMPERATURE PH PHASE W/ WITH FD=FIRE DAMPER\nFS=FIRE/SMOKE\nBTU BRITISH THERMAL UNIT EXH EXHAUST LDB LEAVING DRY BULB PRV PRESSURE REDUCING VALVE W/O WITHOUT FD/FS/SD/MD SD=SMOKE DAMPER\nMD=MOTORIZED DAMPER\nCONDUIT OR \"OCCUPANCY F/S COMBINATION FIRE AND SMOKE DAMPER LRA LOCKED ROTOR AMPS QTY QUANTITY WB WET BULB\nC CONTROLLED\" WHEN USED AS A\nWIRING DEVICE TAG FACP FIRE ALARM CONTROL PANEL\nLV LOW VOLTAGE RA RETURN AIR WCO WALL CLEANOUT\nCA COMPRESSED AIR FAACP FIRE ALARM ANNUNCIATOR CONTROL PANEL\nLWB LEAVING WET BULB REV REVISION WP WEATHERPROOF\nCATV CABLE TELEVISION SYSTEM FCO FLOOR CLEANOUT\nLWT LEAVING WATER TEMPERATURE RH RELATIVE HUMIDITY XFMR TRANSFORMER\nCB CIRCUIT BREAKER F/D FIRE DAMPER\nMBH 1000 BTU PER HOUR RLA RELIEF AIR, RUNNING LOAD AMPS XP EXPLOSION PROOF\nCCTV CLOSED CIRCUIT TELEVISION FLA FULL LOAD AMPS\nMC MECHANICAL CONTRACTOR RPM REVOLUTIONS PER MINUTE\nCFM CUBIC FEET PER MINUTE FL FLOW LINE\nMCA MINIMUM CIRCUIT AMPACITY SA SUPPLY AIR\nMECHANICAL AND ELECTRICAL SYMBOLS AND ABBREVIATIONS\n\"SOME SYMBOLS AND ABBREVIATIONS ON THIS LEGEND MAY NOT BE USED. REFER TO FLOOR PLANS FOR ALL SYMBOLS AND ABBREVIATIONS.\"\nproject number 2527300",
+      "C25.149.07",
+      ""
+     ],
+     "score": 3,
+     "n_rows": 13,
+     "sample": [
+      [
+       "",
+       "PERMIT DOCUMENTS",
+       ""
+      ],
+      [
+       "",
+       "CAVH\n-\n.nimdA\n.TS\nsasnaK\nyrrehC\nytnuoC\n,ehtalO\n.S\n111\nnosnhoJ",
+       ""
+      ],
+      [
+       "",
+       "700 Massachusetts St.\nSuite 307\nLawrence, Kansas 66044\n(785) 218-3980\nwww.adamsarchs.com",
+       ""
+      ]
+     ]
+    },
+    {
+     "source": "2026-031 Johnson County Administration Building HVAC Renewal Project Plans _6.04.2026_.pdf",
+     "sheet": 407,
+     "header_row": 0,
+     "headers": [
+      "GAS SUPPLY\nTO SYSTEM\nCIRCUIT SETTER\nFULL SIZE MANIFOLD\nFROM SYSTEM\nH\nW\nS\nH MAINTAIN MAINTENANCE CLEARANCE PER\nW\nFLOW SWITCH (TYP.) R BOILER MANUFACTURE'S REQ'MENTS (TYP.)\nCOMB-AIR INTAKE PIPE\nPRESSURE\nGAUGE (TYP.)\nG\nFLEX CONN (TYP.) RELIEF VALVE, ROUTE\nTO FLOOR DRAIN\nAUTOMATIC VALVE\nINDIVIDUAL GAS SUPPLY\nTO EA. BOILER (TYP.)\nGAS SERVICE BALL\nVALVE (TYP.)\nCHECK VALVE (TYP.) DIRT LEG (TYP.) FULL\nSIZE, MIN 6\" DEEP\nUNION (TYP.)\n4\" CONCRETE\nHOUSEKEEPING PAD GAS TRAIN WITH\nAPPLIANCE REGULATOR\nVENTED TO OUTSIDE OF\nAUTOMATIC VALVE\nBUILDING (TYP.)\nCONDENSING\nCOMBUTION EXHAUST PIPING\nBOILER (TYP.)\nUP THROUGH ROOF. SEE ROOF\nPLAN FOR CONTINUATION, TYP.\nBOILER MANUFACTURER'S\nCOND DRAIN KIT WITH TRAP\nAND ACID NEUTRALIZATION KIT,\nROUTE TO FLOOR SINK (TYP.)\nVARIABLE PRIMARY MODULAR\nCONDENSING BOILER DETAIL\nSCALE: NOT TO SCALE 235216-01\n2 1 3 4\nSWHC RWHC\nRWC SWC\n8\n9\n6\n5\n12\n13 11 13\n16 FM\n7\n7\nWATER COOLED DP DP\nCHILLER\n10 10\nFLOOR\n14\n15\nPLAN NOTES:\n1 CHILLED WATER RETURN FROM PUMP DISCHARGE.\n2 CHILLED WATER SUPPLY TO SYSTEM\n3 COOLING TOWER SUPPLY FROM PUMP DISCHARGE\n4 COOLING TOWER RETURN TO COOLING TOWER\n5 PRESSURE GUAGE. (TYP.)\n6 THERMOMETER. (TYP.)\n7 CONTROL VALVE.\n8 SHUT-OFF VALVE. (TYP.)\n9 PETE'S PLUG. (TYP.)\nDIFFERENTIAL PRESSURE SENSOR.\n10\n11 FLEXIBLE CONNECTION. (TYP.)\n12 BALANCE VALVE. (TYP.)\n13 STRAINER\n14 DRAIN VALVE, TERMINATE PIPING OVER FLOOR DRAIN. (TYP.)\n15 CONCRETE HOUSEKEEPING PAD\n16 FLOW METER\nWATER COOLED CHILLER PIPING SCHEMATIC\n235700-01 NO SCALE",
+      "GAS SUPPLY\nTO SYSTEM\nCIRCUIT SETTER\nFULL SIZE MANIFOLD\nFROM SYSTEM\nH\nW\nS\nH MAINTAIN MAINTENANCE CLEARANCE PER\nW\nFLOW SWITCH (TYP.) R BOILER MANUFACTURE'S REQ'MENTS (TYP.)\nCOMB-AIR INTAKE PIPE\nPRESSURE\nGAUGE (TYP.)\nG\nFLEX CONN (TYP.) RELIEF VALVE, ROUTE\nTO FLOOR DRAIN\nAUTOMATIC VALVE\nINDIVIDUAL GAS SUPPLY\nTO EA. BOILER (TYP.)\nGAS SERVICE BALL\nVALVE (TYP.)\nCHECK VALVE (TYP.) DIRT LEG (TYP.) FULL\nSIZE, MIN 6\" DEEP\nUNION (TYP.)\n4\" CONCRETE\nHOUSEKEEPING PAD GAS TRAIN WITH\nAPPLIANCE REGULATOR\nVENTED TO OUTSIDE OF\nAUTOMATIC VALVE\nBUILDING (TYP.)\nCONDENSING\nCOMBUTION EXHAUST PIPING\nBOILER (TYP.)\nUP THROUGH ROOF. SEE ROOF\nPLAN FOR CONTINUATION, TYP.\nBOILER MANUFACTURER'S\nCOND DRAIN KIT WITH TRAP\nAND ACID NEUTRALIZATION KIT,\nROUTE TO FLOOR SINK (TYP.)",
+      "project number 2527300",
+      "C25.149.07",
+      ""
+     ],
+     "score": 2,
+     "n_rows": 16,
+     "sample": [
+      [
+       "",
+       "",
+       "",
+       "PERMIT DOCUMENTS",
+       ""
+      ],
+      [
+       "",
+       "",
+       "",
+       "CAVH\n-\n.nimdA\n.TS\nsasnaK\nyrrehC\nytnuoC\n,ehtalO\n.S\n111\nnosnhoJ",
+       ""
+      ],
+      [
+       "",
+       "VARIABLE PRIMARY MODULAR\nCONDENSING BOILER DETAIL\nSCALE: NOT TO SCALE 235216-01",
+       "",
+       "",
+       ""
+      ]
+     ]
+    }
+   ],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 7.36,
+     "bytes": 2939413
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 7.67,
+     "bytes": 9146968
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": null,
+     "seconds": 45.02,
+     "bytes": 0,
+     "error": "APIRequestContext.get: Timeout 45000ms exceeded.\nCall log:\n  - \u2192 GET https://supplier.ionwave.net/Extract.aspx?e=98mN9QS",
+     "throttle_signal": true
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.77,
+     "bytes": 27741
+    }
+   ],
+   "notes": [
+    "broken link: https://supplier.ionwave.net/Extract.aspx"
+   ],
+   "latency": {
+    "bid_seconds": 81.4,
+    "attachment_fetches": 4,
+    "attachment_seconds": 60.8,
+    "attachment_bytes": 12114122,
+    "max_fetch_seconds": 45.02,
+    "throttle_signals": 1,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:51:32.946827+00:00"
+  },
+  {
+   "bid_id": "granbury-isd-tx-2026-4",
+   "bid_number": "2026-4",
+   "agency": "Granbury ISD, TX",
+   "src": "Invited",
+   "title": "Physical Therapy, Occupational Therapist, Speech Language Pathologist, SLP Bilingual",
+   "close": "7/10/2026 03:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACTED",
+   "items_source": "grid-only",
+   "lines_recovered": 2,
+   "grid_empty_or_form": false,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 2,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "Download All",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "General Terms and Conditions 4-17-17a.pdf (108 KB)",
+       "General Terms and Conditions"
+      ],
+      [
+       "2",
+       "Download",
+       "IWT bidder_requirements rev 4-25-25 (1) (2).pdf (165 KB)",
+       "IWT Bidders Requirements"
+      ],
+      [
+       "3",
+       "Download",
+       "2038 - SENATE BILL 252 CERTIFICATION FORM.pdf (196 KB)",
+       "Senate Bill Certification Form"
+      ],
+      [
+       "4",
+       "Download",
+       "2032 - NON-ABORTION AFFILIATION.pdf (200 KB)",
+       "Non-Abortion Affiliation"
+      ],
+      [
+       "5",
+       "Download",
+       "2028 - DEBARMENT OR SUSPENSION CERTIFICATION FORM.pdf (166 KB)",
+       "Debarment or Suspension Certification"
+      ],
+      [
+       "6",
+       "Download",
+       "2027 - RESIDENT BIDDERS CERTIFICATION.pdf (163 KB)",
+       "Resident Bidder Form"
+      ],
+      [
+       "7",
+       "Download",
+       "2022 - DOES NOT BOYCOTT CERTAIN ENERGY COMPANIES.pdf (184 KB)",
+       "Does not Boycott"
+      ],
+      [
+       "8",
+       "Download",
+       "2019 - CERTIFICATION REGARDING LOBBYING.pdf (188 KB)",
+       "Certification Regarding Lobbying"
+      ],
+      [
+       "9",
+       "Download",
+       "RFP - PT, OT, SLP, SLP - Bilingual.pdf (110 KB)",
+       "Scope of Work"
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [
+    {
+     "ctl": "ucBidLine1",
+     "kind": "line",
+     "line": "1",
+     "desc": "Hourly Rate",
+     "qty": "1",
+     "uom": "EA",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine2",
+     "kind": "line",
+     "line": "2",
+     "desc": "Daily Rate",
+     "qty": "1",
+     "uom": "EA",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    }
+   ],
+   "attachments_saved": [
+    "General Terms and Conditions 4-17-17a.pdf",
+    "IWT bidder_requirements rev 4-25-25 _1_ _2_.pdf",
+    "2038 - SENATE BILL 252 CERTIFICATION FORM.pdf",
+    "2032 - NON-ABORTION AFFILIATION.pdf",
+    "2028 - DEBARMENT OR SUSPENSION CERTIFICATION FORM.pdf",
+    "2027 - RESIDENT BIDDERS CERTIFICATION.pdf",
+    "2022 - DOES NOT BOYCOTT CERTAIN ENERGY COMPANIES.pdf",
+    "2019 - CERTIFICATION REGARDING LOBBYING.pdf",
+    "RFP - PT_ OT_ SLP_ SLP - Bilingual.pdf"
+   ],
+   "parsed_docs": [
+    {
+     "name": "General Terms and Conditions 4-17-17a.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "IWT bidder_requirements rev 4-25-25 _1_ _2_.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "2038 - SENATE BILL 252 CERTIFICATION FORM.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "2032 - NON-ABORTION AFFILIATION.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "2028 - DEBARMENT OR SUSPENSION CERTIFICATION FORM.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "2027 - RESIDENT BIDDERS CERTIFICATION.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "2022 - DOES NOT BOYCOTT CERTAIN ENERGY COMPANIES.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "2019 - CERTIFICATION REGARDING LOBBYING.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "RFP - PT_ OT_ SLP_ SLP - Bilingual.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.7,
+     "bytes": 111014
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.93,
+     "bytes": 169453
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.98,
+     "bytes": 201505
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.85,
+     "bytes": 204835
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.71,
+     "bytes": 170231
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.94,
+     "bytes": 167860
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.63,
+     "bytes": 188878
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.69,
+     "bytes": 192847
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.6,
+     "bytes": 113606
+    }
+   ],
+   "notes": [
+    "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+   ],
+   "latency": {
+    "bid_seconds": 20.2,
+    "attachment_fetches": 9,
+    "attachment_seconds": 7.0,
+    "attachment_bytes": 1520229,
+    "max_fetch_seconds": 0.98,
+    "throttle_signals": 0,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:51:54.609635+00:00"
+  },
+  {
+   "bid_id": "san-antonio-water-system-tx-1459533",
+   "bid_number": "1459533",
+   "agency": "San Antonio Water System, TX",
+   "src": "Invited",
+   "title": "BRUSH ALGAE POOL SIZE 9 IN SS",
+   "close": "7/10/2026 04:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACTED",
+   "items_source": "grid-only",
+   "lines_recovered": 1,
+   "grid_empty_or_form": false,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 1,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "Terms and Conditions One-Time Purchasing Buys under $50K 040323.pdf (214 KB)",
+       "Terms and Conditions under $50,000"
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [
+    {
+     "ctl": "ucBidLine1",
+     "kind": "line",
+     "line": "1",
+     "desc": "Brush, Algae Pool, Size 9 in., Stainless Steel, Includes Shipping Reference Specifications: 1.Item Description: Pool algae cleaning brush for removal of algae, dirt, and debris from pool walls, floors, steps, and hard-to-reach areas. 2. Brush Size: 9 inches (230 mm) nominal width. 3.Material (Frame/Handle): Corrosion-resistant stainless steel construction suitable for continuous use in wet and chemically treated pool environments. 4. Bristles: Heavy-duty stainless steel wire bristles securely fastened to the brush body for effective algae removal. 5. Handle Connection: Compatible with standard telescopic pool poles; equipped with reinforced mounting bracket or pole attachment. 6. Durability: Resistant to rust, corrosion, pool chemicals, and UV exposure. 7. Application: Suitable for commercial and industrial swimming pools, water tanks, fountains, and similar surfaces requiring aggressive algae removal. 8. Finish: Smooth, burr-free stainless steel finish with no sharp exposed edges other than the intended bristle surface. 9. Quality Requirements: New, unused, and free from defects in material and workmanship. 10. Compliance: Manufactured in accordance with applicable industry standards for pool maintenance equipment. 11. Warranty: Standard manufacturer's warranty against manufacturing defects. 12. Size: 9 in. (230 mm) 13. Material: Stainless Steel (SS) 14. Type: Algae Cleaning Brush for Pool Maintenance",
+     "qty": "15",
+     "uom": "BOX",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    }
+   ],
+   "attachments_saved": [
+    "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf"
+   ],
+   "parsed_docs": [
+    {
+     "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.97,
+     "bytes": 219404
+    }
+   ],
+   "notes": [
+    "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+   ],
+   "latency": {
+    "bid_seconds": 12.2,
+    "attachment_fetches": 1,
+    "attachment_seconds": 1.0,
+    "attachment_bytes": 219404,
+    "max_fetch_seconds": 0.97,
+    "throttle_signals": 0,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:52:08.269152+00:00"
+  },
+  {
+   "bid_id": "city-of-laredo-tx-informal-fy26-eng-50",
+   "bid_number": "Informal FY26-ENG-50",
+   "agency": "City of Laredo, TX",
+   "src": "Invited",
+   "title": "Informal: FY26-ENG-50: Jacaman Road & McPherson Road \u2013 Site Improvements (Phase 3) Engineering Department",
+   "close": "7/10/2026 04:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACTED",
+   "items_source": "grid-only",
+   "lines_recovered": 9,
+   "grid_empty_or_form": false,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 9,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "Download All",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf (87 KB)",
+       "Conflict of Interest Questionnaire (CIQ)"
+      ],
+      [
+       "2",
+       "Download",
+       "Non-Collusive Affidavit Form.pdf (21 KB)",
+       "Non-Collusive Affidavit Form"
+      ],
+      [
+       "3",
+       "Download",
+       "Informal Bid FY26-ENG-50 Ph3.pdf (6.82 MB)",
+       "Informal Bid FY26-ENG-50 Phase 3"
+      ],
+      [
+       "4",
+       "Download",
+       "FY26-050 Attachment A McPherson & Jacaman Ph3.pdf (14.16 MB)",
+       "Informal FY26-ENG-50 Attachment A"
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [
+    {
+     "ctl": "ucPackageLine2",
+     "kind": "package_line",
+     "line": "1.1",
+     "desc": "Street Paving 6\u201d Reinforced Concrete Flatwork / Median - Furnish all resources required to construct a reinforced concrete sidewalk in accordance with City Specifications/standard details and provided construction plans. Scope includes but is not limited to mobilization, site preparation, furnishing and placing concrete/reinforcement, jointing, doweling, and curing. All work Shall be bid as \"Complete-in-Place\" covering all incidentals necessary for a finished product.",
+     "qty": "2987",
+     "uom": "Square Footage",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    },
+    {
+     "ctl": "ucPackageLine3",
+     "kind": "package_line",
+     "line": "1.2",
+     "desc": "Traffic Control System Improvements Traffic Control All labor and equipment required to provide site safety and traffic management per City Specifications and Plan Specifications. Scope includes but is not limited to all temporary traffic control devices, pedestrian detours for sidewalk construction, daily maintenance of the work zone, obtaining necessary permits, implementing lane closures. Bid as \"Complete-in-Place\" covering all incidentals necessary for a finished product.",
+     "qty": "1",
+     "uom": "Lump Sum",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    },
+    {
+     "ctl": "ucPackageLine4",
+     "kind": "package_line",
+     "line": "1.3",
+     "desc": "Traffic Control System Improvements Pavement Striping All labor and equipment required to provide the layout and application of high-visibility traffic-grade markings to the cured asphalt surface in Strict accordance with plans, ADA standards and per City Specifications. Scope includes but is not limited to the application of premium acrylic waterborne or thermoplastic paint to define all parking stalls, directional arrows, and fire lanes, ensuring crisp edges and a uniform wet film thickness of 15 to 18 mils. Bid as \"Complete-in-Place\" covering all incidentals necessary for a finished product.",
+     "qty": "983",
+     "uom": "Linear Footage",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    },
+    {
+     "ctl": "ucPackageLine5",
+     "kind": "package_line",
+     "line": "1.4",
+     "desc": "Traffic Control System Improvements Pavement Marking Symbols Pavement Marking Symbols - All labor and equipment required to provide the layout and application of high-visibility traffic-grade markings symbols to the cured asphalt surface in strict accordance with plans, ADA standards and per City Specifications. Scope includes but is not limited to the application of premium acrylic waterborne or thermoplastic paint to define all directional arrows symbols, etc., ensuring crisp edges and a uniform wet film thickness of 15 to 18 mils. For designated accessible spaces, the work specifically includes the application of Handicap Blue backgrounds with a white International Symbol of Accessibility (ISA) stencil, along with the required cross-hatched loading zones. Bid as \"Complete-in-Place\" covering all incidentals necessary for a finished product.",
+     "qty": "2",
+     "uom": "Each",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    },
+    {
+     "ctl": "ucPackageLine6",
+     "kind": "package_line",
+     "line": "1.5",
+     "desc": "Storm Water Pollution Prevention Concrete Washout Pit Furnish all labor, equipment, and materials to install, maintain, and eventually remove a designated leak-proof concrete washout facility in accordance with City Specifications and environmental regulations. Scope includes the containment of all concrete-related wastewater and solids, regular maintenance to prevent overflow, and the legal disposal of all accumulated waste off-site. Bid as \"Complete-in-Place\" covering all incidentals necessary for a finished product.",
+     "qty": "1",
+     "uom": "Each",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    },
+    {
+     "ctl": "ucPackageLine7",
+     "kind": "package_line",
+     "line": "1.6",
+     "desc": "Storm Water Pollution Prevention Trash & Debris Containment Furnish all resources to prevent the accumulation of waste, scrap, and rubbish on the project site or adjacent residential properties as per city standards. Item includes providing secured containment for all construction debris, preventing wind-blown litter, and ensuring the roadway and sidewalks remain free of tracked dirt and trash. Bid as \"Complete-in-Place\" covering all incidentals necessary for a finished product.",
+     "qty": "1",
+     "uom": "Each",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    },
+    {
+     "ctl": "ucPackageLine8",
+     "kind": "package_line",
+     "line": "1.7",
+     "desc": "Storm Water Pollution Prevention Curb Inlet Protection (Hog Wire Weir) Furnish all resources required for the installation, maintenance, and eventual removal of hog wire weir curb inlet protection as indicated on the Construction Plans and in compliance with local erosion and sediment control standards. Scope includes, but is not limited to, the provision and assembly of hog wire fencing, wire mesh, and geotextile filter fabric, secured with aggregate-filled bags or mechanical anchors to create a functional sediment-filtering weir. The contractor is responsible for routine inspections and the timely removal of accumulated silt and debris to maintain flow capacity and prevent localized flooding; any bypass or damage to the storm sewer system resulting from improper maintenance shall be repaired at the contractor\u2019s sole expense. Bid as \"Complete-in-Place,\" covering all labor, materials, and incidentals necessary for a fully compliant and finished installation.",
+     "qty": "3",
+     "uom": "Each",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    },
+    {
+     "ctl": "ucPackageLine9",
+     "kind": "package_line",
+     "line": "1.8",
+     "desc": "Demolition Removal of Existing Pavement Striping Furnish all labor, equipment, materials, and traffic control necessary for the complete removal and disposal of existing conflicting pavement markings (including lines, symbols, and arrows) along the avenue project limits. Work shall be performed using an approved non-destructive method (e.g., water-blasting or grinding) that minimizes damage to the underlying asphalt or concrete surface. Disposal of all generated debris shall be the sole responsibility of the Contractor as indicated on the Construction Plans and in accordance with City and Environmental Regulations. Bid as \"Complete-in-Place\" covering all incidentals necessary for a finished product.",
+     "qty": "2312",
+     "uom": "Square Footage",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    },
+    {
+     "ctl": "ucPackageLine10",
+     "kind": "package_line",
+     "line": "1.9",
+     "desc": "Project Completion Estimated time in working days to complete project after notice of receipt to proceed.",
+     "qty": "1",
+     "uom": "Working Days",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "PackageLine"
+    }
+   ],
+   "attachments_saved": [
+    "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf",
+    "Non-Collusive Affidavit Form.pdf",
+    "Informal Bid FY26-ENG-50 Ph3.pdf",
+    "FY26-050 Attachment A McPherson _ Jacaman Ph3.pdf"
+   ],
+   "parsed_docs": [
+    {
+     "name": "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "scanned/image PDF (no text layer)",
+     "candidates": 0
+    },
+    {
+     "name": "Non-Collusive Affidavit Form.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "scanned/image PDF (no text layer)",
+     "candidates": 0
+    },
+    {
+     "name": "Informal Bid FY26-ENG-50 Ph3.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "scanned/image PDF (no text layer)",
+     "candidates": 0
+    },
+    {
+     "name": "FY26-050 Attachment A McPherson _ Jacaman Ph3.pdf",
+     "kind": "pdf",
+     "tables": 75,
+     "note": "",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.45,
+     "bytes": 89812
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.39,
+     "bytes": 22170
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 23.19,
+     "bytes": 7155964,
+     "throttle_signal": true
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 26.11,
+     "bytes": 14849614,
+     "throttle_signal": true
+    }
+   ],
+   "notes": [
+    "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+   ],
+   "latency": {
+    "bid_seconds": 75.3,
+    "attachment_fetches": 4,
+    "attachment_seconds": 50.1,
+    "attachment_bytes": 22117560,
+    "max_fetch_seconds": 26.11,
+    "throttle_signals": 2,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:53:25.092406+00:00"
+  },
+  {
+   "bid_id": "city-of-hot-springs-hs-26-049-addendum-1",
+   "bid_number": "HS-26-049 Addendum 1",
+   "agency": "City of Hot Springs",
+   "src": "Invited",
+   "title": "Pressure Washing - TC",
+   "close": "7/13/2026 03:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACTED",
+   "items_source": "grid-only",
+   "lines_recovered": 2,
+   "grid_empty_or_form": false,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 2,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "Download All",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "HS-26-049 RFP Pressure Washing - TC.pdf (229 KB)",
+       "Signature Page for HS-26-049 Pressure Washing - TC"
+      ],
+      [
+       "2",
+       "Download",
+       "Acknowledgment - Fillable.pdf (64 KB)",
+       "Acknowledgment of this Invitation to Bid (ITB)/Request for Proposals (RFP) shall be received by the City in order for you to receive an Addenda (e.g., updates or changes to the bid packet)."
+      ],
+      [
+       "3",
+       "Download",
+       "Terms and Conditions - RFP.pdf (125 KB)",
+       "Respondents shall read the Terms and Conditions for HS-26-049 Pressure Washing - TC."
+      ],
+      [
+       "4",
+       "Download",
+       "Terms and Conditions of Purchase.pdf (156 KB)",
+       "Respondents shall read the Terms and Conditions of Purchase for HS-26-049 Pressure Washing - TC."
+      ],
+      [
+       "5",
+       "Download",
+       "Hazardous and Toxic Substances Disclosure Requirement.pdf (78 KB)",
+       "Hazardous and Toxic Substances Disclosure Requirement"
+      ],
+      [
+       "6",
+       "Download",
+       "Map 1.pdf (763 KB)",
+       "Pressure Washing Locations 1"
+      ],
+      [
+       "7",
+       "Download",
+       "Map 2.pdf (768 KB)",
+       "Pressure Washing Locations 2"
+      ],
+      [
+       "8",
+       "Download",
+       "Map 3.pdf (781 KB)",
+       "Pressure Washing Locations 3"
+      ],
+      [
+       "9",
+       "Download",
+       "Addendum 1.pdf (130 KB)",
+       "Addendum 1 for HS-26-049 Pressure Washing -TC"
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [
+    {
+     "ctl": "ucBidLine1",
+     "kind": "line",
+     "line": "1",
+     "desc": "Downtown Sidewalks",
+     "qty": "1",
+     "uom": "Annual",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine2",
+     "kind": "line",
+     "line": "2",
+     "desc": "Parking Deck",
+     "qty": "1",
+     "uom": "Annual",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    }
+   ],
+   "attachments_saved": [
+    "HS-26-049 RFP Pressure Washing - TC.pdf",
+    "Acknowledgment - Fillable.pdf",
+    "Terms and Conditions - RFP.pdf",
+    "Terms and Conditions of Purchase.pdf",
+    "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+    "Map 1.pdf",
+    "Map 2.pdf",
+    "Map 3.pdf",
+    "Addendum 1.pdf"
+   ],
+   "parsed_docs": [
+    {
+     "name": "HS-26-049 RFP Pressure Washing - TC.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "scanned/image PDF (no text layer)",
+     "candidates": 0
+    },
+    {
+     "name": "Acknowledgment - Fillable.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "Terms and Conditions - RFP.pdf",
+     "kind": "pdf",
+     "tables": 19,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Terms and Conditions of Purchase.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "Map 1.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Map 2.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Map 3.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Addendum 1.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.03,
+     "bytes": 235507
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.53,
+     "bytes": 66047
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.97,
+     "bytes": 128312
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.47,
+     "bytes": 159875
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.4,
+     "bytes": 80646
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.96,
+     "bytes": 781642
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.21,
+     "bytes": 787205
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.85,
+     "bytes": 799955
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.53,
+     "bytes": 133681
+    }
+   ],
+   "notes": [
+    "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+   ],
+   "latency": {
+    "bid_seconds": 21.0,
+    "attachment_fetches": 9,
+    "attachment_seconds": 7.0,
+    "attachment_bytes": 3172870,
+    "max_fetch_seconds": 1.21,
+    "throttle_signals": 0,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:53:47.580369+00:00"
+  },
+  {
+   "bid_id": "la-joya-isd-tx-2027-05-addendum-1",
+   "bid_number": "2027-05 Addendum 1",
+   "agency": "La Joya ISD, TX",
+   "src": "Invited",
+   "title": "Educational Materials & Equipment",
+   "close": "7/13/2026 04:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+   "items_source": null,
+   "lines_recovered": 0,
+   "grid_empty_or_form": true,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 0,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "Download All",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "Addendum- AP.pdf (209 KB)",
+       "ADDENDUM"
+      ],
+      [
+       "2",
+       "Download",
+       "Special Terms & Conditions EDUCATIONAL MATERIALS & EQPMET RFP.pdf (241 KB)",
+       "Special Terms & Conditions EDUCATIONAL MATERIALS & EQUIPMENT"
+      ],
+      [
+       "3",
+       "Download",
+       "Bid-Proposal Terms Conditions.pdf (473 KB)",
+       "Bid-Proposal Terms Conditions.pdf"
+      ],
+      [
+       "4",
+       "Download",
+       "Certification and Provisions.pdf (223 KB)",
+       "Certification and Provisions.pdf"
+      ],
+      [
+       "5",
+       "Download",
+       "CAA(LOCAL) Code of Silence Excerpt.pdf (135 KB)",
+       "CAA(LOCAL) Code of Silence Excerpt.pdf"
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [],
+   "attachments_saved": [
+    "Addendum- AP.pdf",
+    "Special Terms _ Conditions EDUCATIONAL MATERIALS _ EQPMET RFP.pdf",
+    "Bid-Proposal Terms  Conditions.pdf",
+    "Certification and Provisions.pdf",
+    "CAA_LOCAL_ Code of Silence Excerpt.pdf"
+   ],
+   "parsed_docs": [
+    {
+     "name": "Addendum- AP.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "scanned/image PDF (no text layer)",
+     "candidates": 0
+    },
+    {
+     "name": "Special Terms _ Conditions EDUCATIONAL MATERIALS _ EQPMET RFP.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Bid-Proposal Terms  Conditions.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "Certification and Provisions.pdf",
+     "kind": "pdf",
+     "tables": 30,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "CAA_LOCAL_ Code of Silence Excerpt.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.98,
+     "bytes": 214789
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.49,
+     "bytes": 247630
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.8,
+     "bytes": 485114
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.61,
+     "bytes": 228400
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.0,
+     "bytes": 138475
+    }
+   ],
+   "notes": [],
+   "latency": {
+    "bid_seconds": 12.1,
+    "attachment_fetches": 5,
+    "attachment_seconds": 3.9,
+    "attachment_bytes": 1314408,
+    "max_fetch_seconds": 1.0,
+    "throttle_signals": 0,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:54:01.201578+00:00"
+  },
+  {
+   "bid_id": "san-antonio-water-system-tx-26-1432",
+   "bid_number": "26-1432",
+   "agency": "San Antonio Water System, TX",
+   "src": "Invited",
+   "title": "Annual Service Maintenance VAP50S - Gerhardt",
+   "close": "7/13/2026 04:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACTED",
+   "items_source": "grid-only",
+   "lines_recovered": 15,
+   "grid_empty_or_form": false,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 15,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "Download All",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "Gerhardt bid Scope of Work.pdf (179 KB)",
+       "Scope of Work"
+      ],
+      [
+       "2",
+       "Download",
+       "26-1432 Service Agreements for the C Maint Lab VAP50S.pdf (257 KB)",
+       "Standard Insurance Specifications"
+      ],
+      [
+       "3",
+       "Download",
+       "Sample Services Agreement 020326.docx (68 KB)",
+       "Sample Services Agreement"
+      ],
+      [
+       "4",
+       "Download",
+       "Terms_and_Conditions_062220.pdf (114 KB)",
+       "Terms and Conditions"
+      ],
+      [
+       "5",
+       "Download",
+       "Security Procedures 032125.pdf (136 KB)",
+       "Security Procedures"
+      ],
+      [
+       "6",
+       "Download",
+       "Consent_Decree_Notice_Provision_043020 (1).pdf (18 KB)",
+       "Consent Degree Notice Provision"
+      ],
+      [
+       "7",
+       "Download",
+       "Form_CIQ_(for_vendor_doing_business_with_local_governmental_entity) (1).pdf (21 KB)",
+       "Form CIQ"
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [
+    {
+     "ctl": "ucBidLine4",
+     "kind": "line",
+     "line": "4",
+     "desc": "Routine repairs not part of annual maintenance pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "40",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine5",
+     "kind": "line",
+     "line": "5",
+     "desc": "Emergency repairs pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "10",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine6",
+     "kind": "line",
+     "line": "6",
+     "desc": "The pricing for all parts supplied under this agreement shall not exceed the current manufacturer\u2019s catalog pricing as furnished by Gerhardt. The Contractor shall provide, upon request, verifiable documentation of Gerhardt\u2019s published catalog pricing applicable at the time of order. Any pricing submitted or invoiced in excess of such catalog pricing shall be deemed non-compliant and subject to rejection or adjustment by SAWS.",
+     "qty": "1",
+     "uom": "LUMP SUM",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine9",
+     "kind": "line",
+     "line": "9",
+     "desc": "Routine repairs not part of annual maintenance pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "40",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine10",
+     "kind": "line",
+     "line": "10",
+     "desc": "Emergency repairs pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "10",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine11",
+     "kind": "line",
+     "line": "11",
+     "desc": "The pricing for all parts supplied under this agreement shall not exceed the current manufacturer\u2019s catalog pricing as furnished by Gerhardt. The Contractor shall provide, upon request, verifiable documentation of Gerhardt\u2019s published catalog pricing applicable at the time of order. Any pricing submitted or invoiced in excess of such catalog pricing shall be deemed non-compliant and subject to rejection or adjustment by SAWS.",
+     "qty": "1",
+     "uom": "LUMP SUM",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine14",
+     "kind": "line",
+     "line": "14",
+     "desc": "Routine repairs not part of annual maintenance pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "40",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine15",
+     "kind": "line",
+     "line": "15",
+     "desc": "Emergency repairs pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "10",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine16",
+     "kind": "line",
+     "line": "16",
+     "desc": "The pricing for all parts supplied under this agreement shall not exceed the current manufacturer\u2019s catalog pricing as furnished by Gerhardt. The Contractor shall provide, upon request, verifiable documentation of Gerhardt\u2019s published catalog pricing applicable at the time of order. Any pricing submitted or invoiced in excess of such catalog pricing shall be deemed non-compliant and subject to rejection or adjustment by SAWS.",
+     "qty": "1",
+     "uom": "LUMP SUM",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine19",
+     "kind": "line",
+     "line": "19",
+     "desc": "Routine repairs not part of annual maintenance pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "40",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine20",
+     "kind": "line",
+     "line": "20",
+     "desc": "Emergency repairs pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "10",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine21",
+     "kind": "line",
+     "line": "21",
+     "desc": "The pricing for all parts supplied under this agreement shall not exceed the current manufacturer\u2019s catalog pricing as furnished by Gerhardt. The Contractor shall provide, upon request, verifiable documentation of Gerhardt\u2019s published catalog pricing applicable at the time of order. Any pricing submitted or invoiced in excess of such catalog pricing shall be deemed non-compliant and subject to rejection or adjustment by SAWS.",
+     "qty": "1",
+     "uom": "LUMP SUM",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine24",
+     "kind": "line",
+     "line": "24",
+     "desc": "Routine repairs not part of annual maintenance pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "40",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine25",
+     "kind": "line",
+     "line": "25",
+     "desc": "Emergency repairs pursuant to the Scope of Work and any applicable service agreements.",
+     "qty": "10",
+     "uom": "HOURS",
+     "note": "Rate will be fully burden to include all travel and fees.",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    },
+    {
+     "ctl": "ucBidLine26",
+     "kind": "line",
+     "line": "26",
+     "desc": "The pricing for all parts supplied under this agreement shall not exceed the current manufacturer\u2019s catalog pricing as furnished by Gerhardt. The Contractor shall provide, upon request, verifiable documentation of Gerhardt\u2019s published catalog pricing applicable at the time of order. Any pricing submitted or invoiced in excess of such catalog pricing shall be deemed non-compliant and subject to rejection or adjustment by SAWS.",
+     "qty": "1",
+     "uom": "LUMP SUM",
+     "note": "",
+     "displayOnly": "false",
+     "lineType": "BidLine"
+    }
+   ],
+   "attachments_saved": [
+    "Gerhardt bid Scope of Work.pdf",
+    "26-1432 Service Agreements for the C Maint Lab VAP50S.pdf",
+    "Sample Services Agreement 020326.docx",
+    "Terms_and_Conditions_062220.pdf",
+    "Security Procedures 032125.pdf",
+    "Consent_Decree_Notice_Provision_043020 _1_.pdf",
+    "Form_CIQ__for_vendor_doing_business_with_local_governmental_entity_ _1_.pdf"
+   ],
+   "parsed_docs": [
+    {
+     "name": "Gerhardt bid Scope of Work.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "26-1432 Service Agreements for the C Maint Lab VAP50S.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "Sample Services Agreement 020326.docx",
+     "kind": ".docx",
+     "tables": 0,
+     "note": "unsupported format",
+     "candidates": 0
+    },
+    {
+     "name": "Terms_and_Conditions_062220.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Security Procedures 032125.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "Consent_Decree_Notice_Provision_043020 _1_.pdf",
+     "kind": "pdf",
+     "tables": 0,
+     "note": "text-layer PDF, no tables detected",
+     "candidates": 0
+    },
+    {
+     "name": "Form_CIQ__for_vendor_doing_business_with_local_governmental_entity_ _1_.pdf",
+     "kind": "pdf",
+     "tables": 1,
+     "note": "",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.81,
+     "bytes": 184181
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 8.19,
+     "bytes": 264118
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.13,
+     "bytes": 69661
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.93,
+     "bytes": 117724
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 1.37,
+     "bytes": 139996
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.43,
+     "bytes": 18714
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 0.45,
+     "bytes": 22525
+    }
+   ],
+   "notes": [
+    "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+   ],
+   "latency": {
+    "bid_seconds": 27.7,
+    "attachment_fetches": 7,
+    "attachment_seconds": 15.3,
+    "attachment_bytes": 816919,
+    "max_fetch_seconds": 8.19,
+    "throttle_signals": 0,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:54:30.420015+00:00"
+  },
+  {
+   "bid_id": "harris-county-department-of-education-tx-26-031ia",
+   "bid_number": "26/031IA",
+   "agency": "Harris County Department of Education, TX",
+   "src": "Invited",
+   "title": "Software Services",
+   "close": "7/14/2026 03:00 PM (ET)",
+   "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+   "scope_status": "UNRESOLVED",
+   "scope_reason": "title-uninformative",
+   "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+   "items_source": null,
+   "lines_recovered": 0,
+   "grid_empty_or_form": true,
+   "onscreen_grid_count": 1,
+   "onscreen_priced_lines": 0,
+   "onscreen_grids": [
+    {
+     "id": "ctl00_mainContent_rgBidAttachments_ctl00",
+     "headers": [
+      "#",
+      "Download All",
+      "File Name",
+      "Description",
+      "Data pager"
+     ],
+     "rows": [
+      [
+       "1",
+       "Download",
+       "RFP 26-031IA (Software Services).pdf (635 KB)",
+       "Solicitation Document: Please read this document in its entirety."
+      ],
+      [
+       "2",
+       "Download",
+       "Vendor Packet for Software Services.pdf (2.67 MB)",
+       "Vendor Packet: Required to be submitted with your proposal response."
+      ]
+     ]
+    }
+   ],
+   "onscreen_lines": [],
+   "attachments_saved": [
+    "RFP 26-031IA _Software Services_.pdf",
+    "Vendor Packet for Software Services.pdf"
+   ],
+   "parsed_docs": [
+    {
+     "name": "RFP 26-031IA _Software Services_.pdf",
+     "kind": "pdf",
+     "tables": 4,
+     "note": "",
+     "candidates": 0
+    },
+    {
+     "name": "Vendor Packet for Software Services.pdf",
+     "kind": "pdf",
+     "tables": 3,
+     "note": "",
+     "candidates": 0
+    }
+   ],
+   "candidate_tables": [],
+   "fetches": [
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 2.11,
+     "bytes": 650328
+    },
+    {
+     "kind": "attachment",
+     "url": "https://supplier.ionwave.net/Extract.aspx",
+     "status": 200,
+     "seconds": 4.63,
+     "bytes": 2795283
+    }
+   ],
+   "notes": [],
+   "latency": {
+    "bid_seconds": 19.4,
+    "attachment_fetches": 2,
+    "attachment_seconds": 6.7,
+    "attachment_bytes": 3445611,
+    "max_fetch_seconds": 4.63,
+    "throttle_signals": 0,
+    "http_4xx_5xx": []
+   },
+   "captured_at": "2026-07-06T11:54:51.338266+00:00"
+  }
+ ]
+}

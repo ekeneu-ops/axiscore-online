@@ -1,0 +1,71 @@
+{
+ "bid_id": "nassau-boces-ny-26-27-035-addendum-1",
+ "bid_number": "26/27-035 Addendum 1",
+ "agency": "Nassau BOCES, NY",
+ "src": "Open",
+ "title": "26/27-035 Vehicle Repairs",
+ "close": "7/29/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "VEHICLE REPAIRS. Scope includes but is not limited to diagnostic services, repair and/or replacement of the following components: Diagnostics Steering Brake Exhaust Front End Alignment Suspension and Springs Rear Differential Radiator: boil out and repairs Fuel tank: boil out and repairs Motor Injection Pumps \u2013 rebuilt pump & shop to install Mechanic Hourly Labor Rate (in figures)",
+   "qty": "",
+   "uom": "Hourly Labor Rate",
+   "note": "To supply all labor, tools, equipment and supervision, in accordance with bid specifications, terms and conditions for the satisfactory completion of all authorized work at the HOURLY rate bid herein. No travel time will be paid.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 VEHICLE REPAIRS. Scope includes but is not limited to diagnostic services, repair and/or replacement of the following components: Diagnostics Steering Brake Exhaust Front End Alignment Suspension and Springs Rear Differential Radiator: boil out and repairs Fuel tank: boil out and repairs Motor Injection Pumps \u2013 rebuilt pump & shop to install Mechanic Hourly Labor Rate (in figures) Hourly Labor Rate No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-27-035 Vehicle Repairs Bid Invitation.pdf",
+  "26-27-035 Addendum _1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-27-035 Vehicle Repairs Bid Invitation.pdf",
+   "kind": "pdf",
+   "tables": 24,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-27-035 Addendum _1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 17.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 5.2,
+  "attachment_bytes": 543801,
+  "max_fetch_seconds": 4.4,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:21:46.031452+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/nassau-boces-ny-26-27-035-addendum-1/coverage.json"
+}

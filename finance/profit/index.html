@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026 Profit &amp; Cash — Amazon Channel (as of 2026-06-10)</title>
+<style>
+body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f6f7f9;color:#1a1f29}
+.wrap{max-width:980px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:22px;margin:8px 0 2px}
+.sub{color:#5b6472;font-size:13px;margin-bottom:18px}
+.cards{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0 22px}
+.card{flex:1 1 240px;background:#fff;border:1px solid #e3e7ee;border-radius:10px;padding:14px 16px}
+.card .v{font-size:26px;font-weight:700}
+.card .l{font-size:12px;color:#5b6472;margin-top:2px}
+.pos{color:#0a7d36}.neg{color:#b42318}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e3e7ee;border-radius:10px;overflow:hidden;font-size:13.5px;margin:10px 0 6px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid #eef1f5;vertical-align:top}
+th{background:#fafbfc;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:#5b6472}
+td.amt{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
+tr.total td{background:#f0f6ff;font-weight:700}
+.tag{display:inline-block;font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px;letter-spacing:.03em}
+.t-src{background:#e6f4ea;color:#0a7d36}.t-mod{background:#fdeeda;color:#a15c00}.t-gap{background:#fde8e8;color:#b42318}.t-der{background:#e8eefb;color:#1d4ed8}.t-stale{background:#f1f5f9;color:#475569}
+.note{font-size:12px;color:#5b6472;margin:2px 0 14px}
+.warn{background:#fff8eb;border:1px solid #f5d491;border-radius:10px;padding:12px 14px;font-size:13px;margin:14px 0}
+.gapbox{background:#fdf2f2;border:1px solid #f0b4b4;border-radius:10px;padding:12px 14px;font-size:13px;margin:14px 0}
+h2{font-size:16px;margin:26px 0 6px}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px;font-size:12px}
+.src{font-size:11.5px;color:#7a8494}
+</style>
+</head>
+<body><div class="wrap">
+<h1>2026 Profit &amp; Cash — Amazon Channel</h1>
+<div class="warn" style="margin:10px 0;padding:10px 14px;border-radius:8px"><b>REISSUED 2026-06-12 (v2):</b> the Amazon fee line is now <b>SOURCED</b> from complete financial-events data (was MODELED 15.0059%). Earned profit <b>$94,062.34 (8.23%) → $99,467.11 (8.70%)</b> — fee-line difference <b>+$5,404.77</b>. Held funds refreshed to the validated net (−$168,657.92), moving net cash impact 182,088.67 → 169,072.72. Full tie-out in profit_2026.json → reissue_delta_2026_06_12.</div>
+<div class="sub">Period 2026-01-01 → 2026-06-10 · generated 2026-06-10 · every line traced to source · feed: <code>finance/data/profit_2026.json</code> / <code>.csv</code></div>
+
+<div class="cards">
+<div class="card"><div class="v pos">$99,467.11</div><div class="l">№1 — EARNED PROFIT 2026 (Amazon) · 8.70% of revenue · fee line modeled (see flag)</div></div>
+<div class="card"><div class="v pos">$169,072.72</div><div class="l">№2 — NET CASH IMPACT TO DATE (profit + vendor cash unpaid − Amazon hold)</div></div>
+<div class="card"><div class="v">$55,368.34</div><div class="l">Liquid cash actually in hand (Plaid live 6/10) — see residual gap below</div></div>
+</div>
+
+<h2>Number 1 — Earned Profit 2026 (all Amazon sales this year)</h2>
+<table>
+<tr><th>Line</th><th style="text-align:right">Amount</th><th>Basis</th><th>Source</th></tr>
+<tr><td>Amazon gross revenue (product, ex-tax; shipping collected = $0.00 all year)</td><td class="amt">$1,142,904.46</td><td><span class="tag t-src">SOURCED</span></td><td class="src">Magento mirror: 9,964 live Amazon orders Jan 1–Jun 10 (tax $47,934.04 excluded — Amazon remits it)</td></tr>
+<tr><td>Amazon fees, all types</td><td class="amt neg">−$166,098.09</td><td><span class="tag t-src">SOURCED</span></td><td class="src">spapi.financial_events, complete Dec 24 2025→today (197,765 events): posted fees −$149,386.40 order-matched to the Magento Amazon population (Commission −156,129.14; refund-side commission returned +7,652.35; RefundCommission −905.79; VariableClosing −3.82) covering 89.94% of revenue, plus −$16,711.69 accrual on the $115,552.52 not-yet-posted tail at the sourced 14.4624% rate (run #53, 6/12). </td></tr>
+<tr><td>Refunds / chargebacks net</td><td class="amt neg">−$14,813.35</td><td><span class="tag t-src">SOURCED</span></td><td class="src">473 credit memos 2026 (Magento mirror)</td></tr>
+<tr class="total"><td>= AMAZON NET PROCEEDS</td><td class="amt">$961,993.02</td><td><span class="tag t-der">DERIVED</span></td><td class="src">Anchor: actual deposits May 6–Jun 3 were $204,836.33 (6 settlements)</td></tr>
+<tr><td>Vendor billed — Essendant (Amazon-channel orders; all-channel audit total $916,619.63 reproduced exactly)</td><td class="amt neg">−$826,966.15</td><td><span class="tag t-src">SOURCED</span></td><td class="src">vendor_invoice_list, 9,465 invoices</td></tr>
+<tr><td>Vendor billed — SP Richards (Amazon-channel; all-channel $69,561.96)</td><td class="amt neg">−$34,933.86</td><td><span class="tag t-src">SOURCED</span></td><td class="src">vendor_invoice_list, 650 invoices</td></tr>
+<tr><td>Vendor billed — FedEx freight (only what's in the ERP invoice table)</td><td class="amt neg">−$625.90</td><td><span class="tag t-gap">PARTIAL/GAP</span></td><td class="src">27 invoices. Full freight bill is NOT in the warehouse (fedex_records lives in prod ERP). Last-known payable ~$12,000 (6/8)</td></tr>
+<tr><td>Vendor billed — ISG</td><td class="amt">$0.00</td><td><span class="tag t-gap">GAP</span></td><td class="src">No ISG table in the warehouse (verified). Open payable $5,343.41 (6/8). 2026 billed total needs the portal feed</td></tr>
+<tr class="total"><td>= EARNED PROFIT 2026 (Amazon channel)</td><td class="amt pos">$99,467.11</td><td><span class="tag t-der">DERIVED</span></td><td class="src">8.70% of gross revenue</td></tr>
+</table>
+
+<div class="warn"><b>Scope warning (blunt):</b> the brief pinned ESS at $916,619.63 — that's the <i>all-channel</i> billed total. Subtracting all-channel vendor cost from Amazon-only revenue gives <b>−$30,344.71</b>, which is misleading: it charges Amazon's P&amp;L with ~$124,407 of cost that fulfilled non-Amazon orders whose ~$273.6K of revenue is excluded. The matched Amazon-only figure ($99,467.11) is the honest one. Both are in the feed.</div>
+
+<div class="warn"><b>Fee line flag:</b> settlements only exist in the warehouse from May 6 (Amazon lists ~90 days of settlement reports) and financial events from May 8 — so full-year fees cannot be summed from source <i>yet</i>. A 165-day financial-events backfill (<code>spine-spapi-run #7</code>) is dispatched and <b>waiting on your spine-deploy approval</b>; once it lands, the fee line converts from modeled to sourced and this report gets re-issued. Cross-check supporting the model: commission/principal in the May–Jun events sample = 15.7%.</div>
+
+<div class="note">Memos: open ESS/SPR vendor credits $45,530.60 (of which $37,431.41 nets against open invoices — not netted into the lines above; would lift profit and cut AP if applied). ESS audit: net overbilled +$4,055.94; 55 exact double-bills $3,173.44; freight overbills $5,179.67 gross — dispute before paying. Other 2026 vendors (AVY $50,920.36, ARL $1,388.67, SAN $1,310.40, TRIM $337.00) are all non-Amazon-channel. PPC/advertising spend is in NO line of this P&amp;L (ads are billed outside settlements; only +$96.91 of "other-transaction" appeared in the settled window).</div>
+
+<h2>Number 2 — Cash from those sales (where the money sits today)</h2>
+<table>
+<tr><th>Line</th><th style="text-align:right">Amount</th><th>Basis</th><th>Source</th></tr>
+<tr><td>Earned profit 2026 (Amazon)</td><td class="amt">$99,467.11</td><td><span class="tag t-der">DERIVED</span></td><td class="src">Number 1</td></tr>
+<tr><td>+ Vendor AP billed-but-not-paid (ESS+SPR) — their cost is in profit, the cash is still ours</td><td class="amt pos">+$238,545.25</td><td><span class="tag t-src">SOURCED</span></td><td class="src">Statement-as-truth $197,723.99 (6/3) + recent $40,821.26 through 6/9 — live AP feed 6/10. Off-statement items (ZOLL $3,934.14, Veritiv ~$67K, FedEx ~$12K, ISG $5,343.41) NOT in this line</td></tr>
+<tr><td>− Amazon held funds, net — earned but not yet released</td><td class="amt neg">−$168,657.92</td><td><span class="tag t-src">SOURCED · VALIDATED 6/12</span></td><td class="src">finance/ap/data.json held.net — P1 derivation validated vs Seller Central 6/12 (derived 168,657.92 vs SC 168,440.58, Δ$217.34 PASS). Replaces the stale 6/08 estimate −$150,237.20. </td></tr>
+<tr><td>− Trade AR invoiced-not-collected</td><td class="amt neg">−$281.72</td><td><span class="tag t-stale">SOURCED 5/26</span></td><td class="src">recon (immaterial)</td></tr>
+<tr class="total"><td>= NET CASH IMPACT TO DATE</td><td class="amt pos">$169,072.72</td><td><span class="tag t-der">DERIVED</span></td><td class="src"></td></tr>
+</table>
+
+<div class="gapbox"><b>Bank reconciliation (not forced):</b> liquid cash in hand right now is <b>$55,368.34</b> (Plaid live 6/10: BOA $67,955.85 + $503.49 + $140.15 − Amex $13,231.15). Residual formula: <code>Liquid_now − Liquid_Jan1 = 169,072.72 + non-Amazon cash flows − everything outside this P&amp;L</code> (PPC/ads, payroll/opex, software, SBA debt service, owner draws, Amex payments, 2025-legacy AP like Veritiv/ZOLL). <b>Liquid_Jan1 is not sourceable</b> — Plaid feed began June 2026 and no 2026 bank-transaction history exists in any feed — so the residual is a NAMED GAP, roughly ~$126.7K of non-P&amp;L outflows implied if Jan-1 liquid was near zero. QBO bank reads could close this; separate task.</div>
+
+<h2>Excluded channels &amp; coverage</h2>
+<div class="note"><b>Non-Amazon 2026 (GSA/FedMall/Shopify):</b> 295 live orders = 2.9% of order count, but $273,618.74 = <b>18.7% of live revenue</b> (avg order ~$927 vs ~$120 on Amazon). Out of scope this pass.<br><br>
+<b>Coverage gate:</b> SP-API warehouse data FAILED the full-year test — orders start 2026-02-10, settlements 2026-05-06, financial events 2026-05-08, returns empty. Revenue and refunds therefore come from the Magento mirror (full year, verified Jan 1–Jun 10); settlements were used only to <i>measure</i> the real fee rate on a month of actual deposits; vendor lines come from the ERP-advance mirror (through 6/9; SPR EDI lags ~half a day). Query runs #25–#30 on <code>spine-finance-query-degated</code>.</div>
+</div></body>
+</html>

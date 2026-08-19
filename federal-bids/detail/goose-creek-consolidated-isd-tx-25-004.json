@@ -1,0 +1,184 @@
+{
+ "bid_id": "goose-creek-consolidated-isd-tx-25-004",
+ "bid_number": "25-004",
+ "agency": "Goose Creek Consolidated ISD, TX",
+ "src": "Invited",
+ "title": "Career & Technical Education (CTE) Equipment, Supplies and Related Services R5",
+ "close": "9/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CIQ.pdf",
+  "W9_Blank.pdf",
+  "Form 1295 Instructions_9-25-23.pdf",
+  "Standard Forms _for all solicitations_.pdf",
+  "Scope of Service.docx",
+  "Addendum.docx",
+  "EDGAR Certifications.pdf",
+  "Award Detail Spreadsheet.pdf",
+  "Award Detail Spreadsheet 6.24.26 R4.pdf",
+  "Award Detail Spreadsheet 04.13.26.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9_Blank.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form 1295 Instructions_9-25-23.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Forms _for all solicitations_.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Scope of Service.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR Certifications.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Award Detail Spreadsheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Award Detail Spreadsheet 6.24.26 R4.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Award Detail Spreadsheet 04.13.26.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 2
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Standard Forms _for all solicitations_.pdf",
+   "sheet": 6,
+   "header_row": 1,
+   "headers": [
+    "Initial",
+    "Procurement of Recovered Materials: A non-federal entity that is a state entity or agency of a political\nsubdivision of a state and its contractors must comply with Section 6002 of the Solid Waste Disposal Act, as\namended by the Resource Conservation and Recovery Act. The requirements of Section 6002 include\nprocuring only items designed in guidelines of the Environmental Protection Agency (EPA) at 40 CFR Part 247\nthat contain the highest percentage of recovered materials practicable, consistent with maintaining a\nsatisfactory level of competition, where the purchase price of the item exceeds $10,000 or the value of the\nquantity acquired during the proceeding fiscal year exceeded $10,000; procuring solid waste management\nservices in a manner that maximizes energy and resource recovery; and establishing an affirmative\nprocurement program for procurement of recovered materials identified in the EPA guidelines."
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Initial",
+     "Compliance with EPA Regulations: When federal funds are expended by GCCISD for any contract resulting\nfrom this procurement process in excess of $100,000, the vendor certifies that the vendor is in compliance\nwith all applicable standards, orders, regulations, and/or requirements issued pursuant to the Clean Air Act of\n1970, as amended (42 U.S.C. 1857(h)), Section 508 of the Clean Water Act, as amended (33 U.S.C. 1368),\nExecutive Order 117389 and Environmental Protection Agency Regulation, 40 CFR Part 15."
+    ]
+   ]
+  },
+  {
+   "source": "Award Detail Spreadsheet 04.13.26.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Line Quantity UOM Description",
+    "Award Response",
+    "Award Quantity",
+    "Awarded Supplier",
+    "Award Reason"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1 1EA Percentage Discount - Agriculture, Food, & Natural Resources 10 1Educator's Depot, Inc.",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Award Detail Spreadsheet 04.13.26.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Line Quantity UOM Description",
+    "Award Response",
+    "Award Quantity",
+    "Awarded Supplier",
+    "Award Reason"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "5 1EA Percentage Discount - Energy 0 1Raise 3D Technologies, Inc",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 37.6,
+  "attachment_fetches": 10,
+  "attachment_seconds": 21.4,
+  "attachment_bytes": 3075397,
+  "max_fetch_seconds": 7.52,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:11:02.128254+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/goose-creek-consolidated-isd-tx-25-004/coverage.json"
+}

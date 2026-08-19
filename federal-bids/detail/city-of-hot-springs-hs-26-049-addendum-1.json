@@ -1,0 +1,136 @@
+{
+ "bid_id": "city-of-hot-springs-hs-26-049-addendum-1",
+ "bid_number": "HS-26-049 Addendum 1",
+ "agency": "City of Hot Springs",
+ "src": "Invited",
+ "title": "Pressure Washing - TC",
+ "close": "7/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Downtown Sidewalks",
+   "qty": "1",
+   "uom": "Annual",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Parking Deck",
+   "qty": "1",
+   "uom": "Annual",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine"
+  }
+ ],
+ "attachments_saved": [
+  "HS-26-049 RFP Pressure Washing - TC.pdf",
+  "Acknowledgment - Fillable.pdf",
+  "Terms and Conditions - RFP.pdf",
+  "Terms and Conditions of Purchase.pdf",
+  "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+  "Map 1.pdf",
+  "Map 2.pdf",
+  "Map 3.pdf",
+  "Addendum 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "HS-26-049 RFP Pressure Washing - TC.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Acknowledgment - Fillable.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Terms and Conditions - RFP.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Terms and Conditions of Purchase.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Map 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Map 2.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Map 3.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 21.0,
+  "attachment_fetches": 9,
+  "attachment_seconds": 7.0,
+  "attachment_bytes": 3172870,
+  "max_fetch_seconds": 1.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T11:53:47.580369+00:00",
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-hot-springs-hs-26-049-addendum-1/coverage.json"
+}

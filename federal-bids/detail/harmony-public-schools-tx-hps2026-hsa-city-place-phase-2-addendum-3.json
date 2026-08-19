@@ -1,0 +1,165 @@
+{
+ "bid_id": "harmony-public-schools-tx-hps2026-hsa-city-place-phase-2-addendum-3",
+ "bid_number": "HPS2026 HSA City Place Phase 2 Addendum 3",
+ "agency": "Harmony Public Schools, TX",
+ "src": "Invited",
+ "title": "Harmony Science Academy \u2013 City Place Phase 2",
+ "close": "8/18/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 8,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine47",
+   "kind": "line",
+   "line": "5",
+   "desc": "Alternate No. 4: Electrical Switchgear Expediting",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Alternate No. 4: Electrical Switchgear Expediting 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "HPS Bid Package Checklist.pdf",
+  "HPS Vendor Packet_Regular 05 31 2022R.pdf",
+  "CONTRACTOR REFERENCE FORM _1_.pdf",
+  "24.23 Harmony - City Place Phase 2-HS_MS-Addendum No. 2 - Final.pdf",
+  "HSA City Place Phase 2 Invitation to Bid Addendum _2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "HPS Bid Package Checklist.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HPS Vendor Packet_Regular 05 31 2022R.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CONTRACTOR REFERENCE FORM _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "24.23 Harmony - City Place Phase 2-HS_MS-Addendum No. 2 - Final.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HSA City Place Phase 2 Invitation to Bid Addendum _2.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 2
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "HSA City Place Phase 2 Invitation to Bid Addendum _2.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Job Name",
+    "Job Description",
+    "Total Price"
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "1",
+     "General Requirements",
+     "Project Supervision and\nmanagement; weekly and final\ncleanup",
+     ""
+    ],
+    [
+     "2",
+     "Reports, Tests and\nInspections",
+     "All necessary material testing and\nreporting (concrete, steel,\ninspections, etc.)",
+     ""
+    ],
+    [
+     "3",
+     "County approvals, Certificate\nof Occupancy",
+     "Preparing, submitting and follow-\nup with Fire Marshall and MUD\nrequirements.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "HSA City Place Phase 2 Invitation to Bid Addendum _2.pdf",
+   "sheet": 9,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Job Name",
+    "Job Description",
+    "Total Price"
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "1",
+     "Alternate 1: Tubular\nDaylighting Devices",
+     "Material & Labor",
+     ""
+    ],
+    [
+     "2",
+     "Alternate No. 1: Tubular\nDaylighting Devices",
+     "Material & Labor",
+     ""
+    ],
+    [
+     "3",
+     "Alternate No. 2: 80 Mil TPO\nRoofing in lieu of SBS\nModified Bitumen Membrane\nRoofing",
+     "Material & Labor",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx",
+  "broken link: https://supplier.ionwave.net/Extract.aspx",
+  "broken link: https://supplier.ionwave.net/Extract.aspx",
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
+ ],
+ "latency": {
+  "bid_seconds": 253.6,
+  "attachment_fetches": 9,
+  "attachment_seconds": 230.3,
+  "attachment_bytes": 13372389,
+  "max_fetch_seconds": 45.03,
+  "throttle_signals": 5,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-12T08:22:32.762042+00:00",
+ "extract_attempts": 1,
+ "lines_total": 8,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/harmony-public-schools-tx-hps2026-hsa-city-place-phase-2-addendum-3/coverage.json"
+}

@@ -1,0 +1,135 @@
+{
+ "bid_id": "clemson-university-sc-215118131",
+ "bid_number": "215118131",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Scrap Metal Revinue",
+ "close": "7/17/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 26-JUNE27",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 26-JUNE27 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 27-JUNE28",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 27-JUNE28 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 28-JUNE29",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 28-JUNE29 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 29-JUNE30",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 29-JUNE30 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 30-JUNE31",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 INCOME GENERATING SERVICE CONTRACT - 20 OR 30 YD ROLL OFF SERVICE FOR METAL RECYCLING ON CAMPUS FY: JULY 30-JUNE31 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "215118131 SOW Scrap Metal Revenue Contract.pdf",
+  "IMPORTANT TAX NOTICE.doc",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "215118131 SOW Scrap Metal Revenue Contract.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.2,
+  "attachment_fetches": 4,
+  "attachment_seconds": 3.0,
+  "attachment_bytes": 427718,
+  "max_fetch_seconds": 1.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:12:23.143294+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/clemson-university-sc-215118131/coverage.json"
+}

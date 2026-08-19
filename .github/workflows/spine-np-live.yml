@@ -1,0 +1,341 @@
+# .github/workflows/spine-np-live.yml
+# HOURLY refresh of the two FAST-MOVING numbers on the Liquid Net Position page:
+#   ap.net_after_credits  - the AP app's header figure. Moves all day as operators
+#                           record payments into ap.paid_ledger and as invoices land.
+#   held.net              - Amazon held funds, event-derived from spapi.* .
+#
+# WHY A SEPARATE JOB (do not just crank spine-ap-refresh to hourly):
+#   spine-ap-refresh rebuilds the WHOLE ~200KB finance/ap/data.json (3k+ invoice rows,
+#   credits.by_order, EDI watchdog) across THREE Fargate tasks, and its payload already
+#   fragments across CloudWatch log events. Hourly would mean 24 rewrites/day of a 200KB
+#   file (git history bloat + push races) for two numbers that live in ~1.2KB.
+#   This job runs ONE task, returns ~1.2KB of base64 (single log event, no fragmentation)
+#   and commits a small file. spine-ap-refresh stays on 5x/day for the heavy artifacts.
+#
+# HELD FUNDS PROVENANCE: this is the EVENT-DERIVED net from the warehouse, NOT the
+# Seller Central Payments balance. The SC value (finance/data/held_published.json) is
+# published by an external scheduled agent because that endpoint needs an authenticated
+# Seller Central session, which cannot run unattended on Fargate — it lags ~9h. The
+# derived figure validated to within $217 of SC on 2026-06-12. The page shows this as the
+# live number and keeps the SC balance alongside it as a reconciliation check.
+# Mixed freshness inside held.net, stated on the page: released/postsettle/refunds/account
+# events come from spapi.financial_events (~2h fresh); `deferred` is Amazon's nightly
+# deferred-transactions snapshot, so that component is as-of deferred_snapshot.
+name: spine-np-live
+
+on:
+  schedule:
+    # Every 20 min ON PURPOSE for an "about hourly" feed. GitHub scheduled workflows are
+    # best-effort and high-frequency ones are dropped first: at "0 * * * *" this job
+    # actually fired only ~10-13 times a day (2-3h apart), not 24. Over-triggering is the
+    # only reliable way to hit hourly on GitHub's scheduler. Runs are cheap (one ~70s
+    # Fargate task, ~1.2KB payload) and commit only when the content actually changes.
+    - cron: "*/20 * * * *"
+  # REDUNDANT TRIGGERS — do not rely on one cron. Measured on this repo: the hourly
+  # schedule delivered a mean gap of 2.01h (max 3.96h), i.e. ~half the triggers were
+  # dropped, while the 4-hourly spine-net-position-refresh fired 8/8 on time. GitHub
+  # throttles HIGH-frequency schedules and honours low-frequency ones, so chaining off
+  # jobs that demonstrably fire gives a floor that does not depend on */20 landing.
+  # These slots are independent of each other, so a drop in one does not correlate with
+  # a drop in the others.
+  workflow_run:
+    workflows: ["spine-net-position-refresh", "spine-ap-refresh"]
+    types: [completed]
+  workflow_dispatch: {}
+
+# Serialise: schedule, workflow_run and manual dispatch can all fire within seconds of each
+# other (they did at 00:03), and two runs rewriting the same np_live.json lines collided on
+# rebase and failed the job. One writer at a time removes the race at its source; queued runs
+# are NOT cancelled because each one re-queries and its result is still worth publishing.
+concurrency:
+  group: spine-np-live-publish
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+  contents: write
+
+env:
+  AWS_REGION: us-east-1
+  ROLE_ARN: arn:aws:iam::114812789687:role/mc-spine-finance-reader
+  CLUSTER: mc-spine-cluster
+  TASK_DEF: mc-spine-finance-runner
+  LOG_GROUP: /mc-spine/finance-runner
+  SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
+  SECURITY_GROUPS: sg-0b0521438f059e5fc
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    environment: spine-read   # un-gated: scheduled runs proceed unattended
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: AWS credentials via OIDC (read-only reader role)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: RunTask MODE=query (AP totals + held net, one small payload)
+        id: run
+        env:
+          # Reproduces platform/ap_app/app/db.py totals() + app.jsx netAfter for the AP
+          # half, and the validated 3-bucket event walk for the held half. Read-only via
+          # finance_runner's existing grants (ap.* 0003/0022, spapi.* 0001).
+          SQL_TEXT_INLINE: >-
+            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' THEN
+            'PARKED' WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket FROM ap.v_outstanding v LEFT JOIN
+            ap.review_moves m ON m.invoice_id=v.invoice_id), bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1), nt AS
+            (SELECT round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')), cr AS (SELECT count(*) n,
+            round(COALESCE(sum(oc.amount),0)::numeric,2) s FROM ap.v_open_credits oc WHERE oc.rollup IN (SELECT DISTINCT rollup FROM eff WHERE eff_bucket NOT IN
+            ('SETTLED','PARKED'))), bnd AS (SELECT max(period_end) e FROM spapi.settlements), unst AS (SELECT o.amazon_order_id id FROM spapi.orders o WHERE
+            o.order_status='Shipped' AND NOT EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE sl.amazon_order_id=o.amazon_order_id)), fev AS (SELECT
+            amazon_order_id cid, event_type et, posted_date pdt, amount a FROM spapi.financial_events), lp AS (SELECT unst.id, max(f.pdt) lpd FROM unst LEFT JOIN
+            fev f ON f.cid=unst.id AND f.et='Shipment' GROUP BY 1), rel AS (SELECT lp.id FROM lp, bnd WHERE lp.lpd > bnd.e), a2 AS (SELECT
+            round(coalesce(sum(a),0)::numeric,2) s, count(DISTINCT fev.cid) n FROM fev JOIN rel ON rel.id=fev.cid WHERE fev.et='Shipment'), d2 AS (SELECT
+            round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et='Shipment' AND pdt > bnd.e AND EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE
+            sl.amazon_order_id=fev.cid)), b2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et='Refund' AND pdt > bnd.e), c2 AS (SELECT
+            round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et IN ('Adjustment','ServiceFee') AND pdt > bnd.e), df AS (SELECT
+            round(coalesce(sum(total),0)::numeric,2) s, count(DISTINCT amazon_order_id) no, max(snapshot_at) snap FROM spapi.deferred_transactions) SELECT
+            json_build_object('asof', to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'), 'ap', json_build_object('net',(SELECT s FROM
+            nt),'credits',(SELECT s FROM cr),'credit_count',(SELECT n FROM cr),'net_after_credits',round(((SELECT s FROM nt)-(SELECT s FROM
+            cr))::numeric,2),'buckets',(SELECT COALESCE(json_object_agg(b,json_build_object('count',n,'total',t)),'{}'::json) FROM bk),'by_rollup',(SELECT
+            COALESCE(json_object_agg(COALESCE(rollup,'UNMAPPED'),json_build_object('count',n,'total',t)),'{}'::json) FROM (SELECT rollup, count(*) n,
+            round(sum(amount)::numeric,2) t FROM eff WHERE eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z)), 'held',
+            json_build_object('net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM b2)+(SELECT s FROM c2)+(SELECT s FROM df),2),'order_count',(SELECT
+            n FROM a2)+(SELECT no FROM df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM d2),'refunds',(SELECT s FROM
+            b2),'account_events',(SELECT s FROM c2),'deferred',(SELECT s FROM df)),'fev_through',to_char((SELECT max(pdt) FROM
+            fev),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_snapshot',to_char((SELECT snap FROM df),'YYYY-MM-DD"T"HH24:MI"Z"'),'last_settlement_end',(SELECT e::date
+            FROM bnd)),
+            'fba', (SELECT json_build_object('value', max(value) FILTER (WHERE key='total_stock_cost_total')::numeric,
+            'qty', max(value) FILTER (WHERE key='total_stock_qty')::numeric,
+            'cost_gross', max(value) FILTER (WHERE key='total_stock_cost')::numeric,
+            'cost_after_prep', max(value) FILTER (WHERE key='total_stock_cost_after_prep')::numeric,
+            'est_sales', max(value) FILTER (WHERE key='total_stock_est_sales')::numeric,
+            'erp_updated_at', max(value) FILTER (WHERE key='last_updated_at'))
+            FROM mirror_erp_v2.dashboard_stats),
+            'amex', (SELECT json_build_object('owed', round(coalesce(sum(amount) FILTER (WHERE name NOT ILIKE '%AUTOPAY%'),0)::numeric,2),
+            'last_autopay', (SELECT max(posted_date)::text FROM plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%'),
+            'txn_count', count(*) FILTER (WHERE name NOT ILIKE '%AUTOPAY%'),
+            'pending_amt', round(coalesce(sum(amount) FILTER (WHERE pending),0)::numeric,2),
+            'last_txn', max(posted_date)::text)
+            FROM plaid.transactions WHERE item_label='amex'
+            AND posted_date >= (SELECT max(posted_date) FROM plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%')),
+            'card_in_transit', (SELECT json_build_object('amount', amount, 'batches', batches,
+            'basis', basis, 'oldest_days', oldest_days, 'deposits_through',
+            (SELECT max(posted_date)::text FROM plaid.transactions WHERE item_label='boa'
+            AND amount<0 AND name ILIKE '%MERCH DEP%')) FROM authnet.v_card_in_transit LIMIT 1)) )::text,'UTF8'),'base64'),'\s','','g') AS d;
+        run: |
+          OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
+            '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
+          TASK_ARN=$(aws ecs run-task \
+            --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          [ -n "$TASK_ARN" ] && [ "$TASK_ARN" != "None" ] || { echo "no task ARN" >&2; exit 1; }
+          echo "task_arn=$TASK_ARN" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for STOPPED
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"
+          for i in $(seq 1 40); do
+            S=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].lastStatus' --output text)
+            [ "$S" = "STOPPED" ] && break
+            [ "$i" -eq 40 ] && { echo "timed out" >&2; exit 1; }
+            sleep 10
+          done
+          EC=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "exitCode=$EC"; [ "$EC" = "0" ] || { echo "query task failed" >&2; exit 1; }
+
+      - name: Decode, sanity-gate, commit
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"; TASK_ID="${TASK_ARN##*/}"
+          aws logs get-log-events --log-group-name "$LOG_GROUP" \
+            --log-stream-name "query/finance-runner/$TASK_ID" \
+            --query 'events[].message' --output text > /tmp/nplive.txt || { echo "no logs" >&2; exit 1; }
+          python3 - <<'PY'
+          import re, base64, json, sys, os
+          log = open('/tmp/nplive.txt', 'r', errors='replace').read()
+          m = re.search(r'BEGIN CSV RESULT(.*?)END CSV RESULT', log, re.S)
+          if not m:
+              print('no CSV markers'); sys.exit(1)
+          # Join every base64 run (drop the 1-char CSV header 'd'). This payload is ~1.2KB
+          # so it arrives in one event today, but the reassembly is kept so it cannot break
+          # the way spine-ap-refresh did when its payload outgrew a single CloudWatch event.
+          toks = [t for t in re.findall(r'[A-Za-z0-9+/=]+', m.group(1)) if t != 'd']
+          if not toks:
+              print('no base64 token'); sys.exit(1)
+          b64 = "".join(toks); b64 += "=" * (-len(b64) % 4)
+          j = json.loads(base64.b64decode(b64))
+
+          # ---------------------------------------------------------------------------
+          # TWO CLASSES OF CHECK. The distinction is what caused a 27h outage on
+          # 2026-07-30 and must not be collapsed again:
+          #
+          #   STRUCTURAL (hard block) - internal-consistency only: does this payload
+          #     agree with ITSELF. Cannot latch, because it never compares against the
+          #     value we previously published.
+          #
+          #   MOVEMENT (flag only, NEVER blocks) - compares against the last published
+          #     value. A blocking guard that gates on its own output can never recover:
+          #     when it refuses, the baseline it compares against stays frozen, so every
+          #     later run re-trips on the same stale baseline. That is exactly what
+          #     happened - held legitimately dropped 35.1% (Amazon disbursed after a
+          #     settlement closed), the guard refused, and the feed deadlocked for 27h,
+          #     taking the AP number down with it even though AP was perfectly healthy.
+          #     A big move is a reason to LABEL a number, never to withhold it: a stale
+          #     number is silently wrong, a flagged number is visibly unusual.
+          # ---------------------------------------------------------------------------
+          ap, held = j.get('ap') or {}, j.get('held') or {}
+          prev = {}
+          if os.path.exists('finance/data/np_live.json'):
+              try: prev = json.load(open('finance/data/np_live.json'))
+              except Exception: prev = {}
+
+          def structural_ap(a):
+              net, cr, na = a.get('net'), a.get('credits'), a.get('net_after_credits')
+              if not all(isinstance(x, (int, float)) for x in (net, cr, na)): return 'non-numeric'
+              if na < 0: return 'net_after_credits < 0'
+              if abs((net - cr) - na) > 0.01: return 'walk does not tie (%s - %s != %s)' % (net, cr, na)
+              br = a.get('by_rollup') or {}
+              if br and abs(round(sum((v or {}).get('total', 0) for v in br.values()), 2) - net) > 0.01:
+                  return 'by_rollup does not sum to net'
+              return None
+
+          def structural_fba(f):
+              v = f.get('value')
+              if not isinstance(v, (int, float)): return 'non-numeric value'
+              if v < 0: return 'value < 0'
+              return None
+
+          def structural_held(h):
+              hn, w = h.get('net'), h.get('walk') or {}
+              if not isinstance(hn, (int, float)): return 'non-numeric'
+              if hn <= 0: return 'net <= 0'
+              if abs(round(sum(w.values()), 2) - hn) > 0.01:
+                  return 'walk %s does not sum to net %s' % (round(sum(w.values()), 2), hn)
+              return None
+
+          # SECTIONS ARE INDEPENDENT. A fault in held must never withhold AP (they only
+          # share a file); carry the previous section forward, marked, and publish the rest.
+          # PER-SECTION as-of. Load-bearing: a carried-forward section MUST keep its
+          # original timestamp, otherwise stale numbers inherit the new run's asof and
+          # render with a LIVE badge - stale data wearing a fresh stamp is the exact
+          # failure this whole workstream exists to kill. The page reads section asof.
+          run_asof = j.get('asof')
+          errs, carried = [], []
+          def structural_amex(a):
+              # Derived from plaid.transactions (Plaid reports no balance for this card).
+              # owed is a sum of charges since the last autopay: must be a finite number and
+              # must not be negative (that would mean credits exceeded charges — treat as a
+              # bad read rather than publishing a card that "owes" a negative amount).
+              o = a.get('owed')
+              if not isinstance(o, (int, float)):
+                  return 'owed not numeric'
+              if o < 0:
+                  return 'owed negative (%s)' % o
+              if not a.get('last_autopay'):
+                  return 'no autopay anchor — cannot date the balance'
+              return None
+
+          def structural_cit(c):
+              # Card settled but not yet in the bank. Must be a non-negative number with
+              # a named basis. A negative would mean deposits exceeded captures, which is
+              # a bad read, not a real position.
+              a = c.get('amount')
+              if not isinstance(a, (int, float)):
+                  return 'amount not numeric'
+              if a < 0:
+                  return 'amount negative (%s)' % a
+              if c.get('basis') not in ('authnet', 'magento_capture'):
+                  return 'unknown basis %r' % c.get('basis')
+              return None
+
+          for key, checker in (('ap', structural_ap), ('held', structural_held), ('fba', structural_fba), ('amex', structural_amex), ('card_in_transit', structural_cit)):
+              sec = j.get(key) or {}
+              err = checker(sec)
+              if not err:
+                  sec['asof'] = run_asof
+                  j[key] = sec
+                  continue
+              errs.append('%s: %s' % (key, err))
+              if prev.get(key):
+                  j[key] = dict(prev[key])
+                  j[key]['carried_forward'] = True
+                  j[key]['carried_reason'] = err
+                  # keep the PREVIOUS asof; do not stamp it with this run's time
+                  j[key]['asof'] = (prev[key] or {}).get('asof') or prev.get('asof')
+                  carried.append(key)
+              else:
+                  j.pop(key, None)
+
+          # Movement: annotate, never withhold.
+          for key, field in (('ap', 'net_after_credits'), ('held', 'net')):
+              cur, old_sec = j.get(key) or {}, prev.get(key) or {}
+              newv, oldv = cur.get(field), old_sec.get(field)
+              if (isinstance(newv, (int, float)) and isinstance(oldv, (int, float))
+                      and oldv > 0 and not cur.get('carried_forward')):
+                  pct = (newv - oldv) / oldv * 100
+                  cur['moved_pct'] = round(pct, 2)
+                  if abs(pct) > 35:
+                      cur['suspect'] = True
+                      cur['alert'] = ('%s moved %+.1f%% since last publish (%.2f -> %.2f) - '
+                                      'published anyway and flagged; verify before acting'
+                                      % (key, pct, oldv, newv))
+                      print('WARNING: ' + cur['alert'])
+
+          # Nothing genuinely new -> do NOT rewrite the file. Rewriting it with only
+          # carried-forward values would advance the file's mtime/asof and make a dead
+          # feed look alive; better to leave the last good file untouched and fail loudly
+          # so the watchdog and the page's own ageing both surface it.
+          # fba is deliberately NOT in this list: it is a slow-moving ERP figure, so a bad
+          # read of it must never block publishing fresh ap/held. It carries forward instead.
+          fresh_sections = [k for k in ('ap', 'held') if j.get(k) and not j[k].get('carried_forward')]
+          if not fresh_sections:
+              print('no usable section this run: ' + '; '.join(errs or ['both missing']))
+              sys.exit(1)
+
+          json.dump(j, open('finance/data/np_live.json', 'w'), indent=1)
+          if errs: print('section fault(s), previous values carried forward: ' + '; '.join(errs))
+          _ap, _h = j.get('ap') or {}, j.get('held') or {}
+          print('np_live: fba %s%s' % ((j.get('fba') or {}).get('value'),
+                ' CARRIED' if (j.get('fba') or {}).get('carried_forward') else ''))
+          print('np_live: ap %s%s | held %s%s (fev %s, deferred %s)'
+                % (_ap.get('net_after_credits'), ' CARRIED' if _ap.get('carried_forward') else '',
+                   _h.get('net'), ' CARRIED' if _h.get('carried_forward') else '',
+                   _h.get('fev_through'), _h.get('deferred_snapshot')))
+          PY
+
+          git config user.name "np-live-bot"
+          git config user.email "np-live@users.noreply.github.com"
+          # Keep the freshly generated payload OUTSIDE git so a reset cannot lose it.
+          cp finance/data/np_live.json /tmp/np_live.published.json
+          git add finance/data/np_live.json
+          if git diff --cached --quiet; then
+            echo "unchanged - nothing to commit."
+          else
+            git commit -m "np-live: hourly AP + held refresh [skip ci]"
+            pushed=0
+            for attempt in 1 2 3 4 5; do
+              if git push; then echo "pushed"; pushed=1; break; fi
+              # NEVER `pull --rebase` here. Concurrent publishers rewrite the SAME lines of
+              # this one file, so a rebase hits a content conflict, aborts, and fails the job
+              # (that is exactly what killed run 30671683090). This file is a LATEST-VALUE
+              # snapshot with no history worth merging: rebase the DATA, not the commit.
+              # Take whatever main has now, drop our payload on top, and commit again.
+              echo "push rejected (attempt $attempt) - replaying our payload onto latest main"
+              git fetch origin main || { echo "fetch failed" >&2; exit 1; }
+              git reset --hard origin/main || { echo "reset failed" >&2; exit 1; }
+              cp /tmp/np_live.published.json finance/data/np_live.json
+              git add finance/data/np_live.json
+              if git diff --cached --quiet; then
+                echo "another run already published an identical payload - nothing to do."
+                pushed=1; break
+              fi
+              git commit -m "np-live: hourly AP + held refresh [skip ci]"
+              sleep $((RANDOM % 4 + 2))
+            done
+            [ "$pushed" = "1" ] || { echo "push failed after retries" >&2; exit 1; }
+          fi

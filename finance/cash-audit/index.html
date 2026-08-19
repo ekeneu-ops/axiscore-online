@@ -1,0 +1,151 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026 Cash Audit (v3) - Axiscore</title><style>
+body{font:14px/1.45 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#ffffff;color:#1a1f2b}
+.wrap{max-width:1100px;margin:0 auto;padding:24px}
+h1{font-size:22px;margin:0 0 4px} h2{font-size:16px;margin:28px 0 8px;color:#0b5cad}
+.sub{color:#5a6172;font-size:12px;margin-bottom:18px}
+.cards{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0}
+.card{background:#f4f7fb;border:1px solid #d4dce8;border-radius:10px;padding:12px 16px;min-width:180px}
+.card .v{font-size:20px;font-weight:700} .card .k{font-size:11px;color:#5a6172;text-transform:uppercase}
+.good{color:#0a7d4f}.warn{color:#a96a00}.bad{color:#c03a2b}
+table{width:100%;border-collapse:collapse;margin:8px 0;background:#ffffff;border:1px solid #d4dce8;border-radius:8px}
+td,th{padding:6px 10px;border-bottom:1px solid #e3e8f0;text-align:left;vertical-align:top;font-size:13px}
+th{background:#eef2f8}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.flag{font-size:11px;color:#a96a00}
+.note{background:#eaf3ff;border-left:3px solid #0b5cad;padding:10px 14px;border-radius:6px;font-size:13px;color:#243042;margin:10px 0}
+.warnbox{background:#fff7e8;border-left:3px solid #a96a00}
+ul{margin:6px 0;padding-left:20px} a{color:#0b5cad}
+</style></head><body><div class="wrap">
+<h1>2026 Full Cash Audit &mdash; Jan 1 to Jun 14 <span style="font-size:12px;color:#0b5cad">v4 (P6 + Held)</span></h1>
+<div class="sub">Generated 2026-06-14 &middot; transaction-sourced reconciliation through 2026-06-10, balances current 2026-06-14 &middot;
+feed: <a href="../data/cash_audit_2026.json">cash_audit_2026.json</a> &middot; ledger: <a href="../data/cash_audit_2026_ledger.csv">603-row CSV</a></div>
+<div class="cards">
+<div class="card"><div class="k">BOA 4908 recon (thru 6/10)</div><div class="v good">EXACT 0.00</div><div class="k">Jan 1 30,070.27 &rarr; 66,788.80</div></div>
+<div class="card"><div class="k">Amex 9008 recon (thru 6/10)</div><div class="v good">CLOSED &minus;0.08</div><div class="k">six stmt closes reproduce</div></div>
+<div class="card"><div class="k">Bridge residual</div><div class="v good">$0.00</div><div class="k">corrected on sourced fee+held</div></div>
+<div class="card"><div class="k">Amazon margin after ads</div><div class="v">6.97%</div><div class="k">8.70% before ads &middot; SOURCED fee</div></div>
+<div class="card"><div class="k">2026 ad spend</div><div class="v">$19,765.65</div><div class="k">Ads API invoices &middot; sourced</div></div>
+<div class="card"><div class="k">Liquid now (live 6/14)</div><div class="v">$56,153.65</div><div class="k">Jan 1: $22,554.89</div></div>
+</div>
+<div class="note warnbox"><b>On the brief's $182,089:</b> The brief cited $182,089 as the &#x27;P1-corrected version with validated held funds.&#x27; That figure actually carried the MODELED fee (-171,502.86) AND the STALE held estimate (-150,237.20) - it predates both the P3 fee sourcing and the P1 held validation. The genuinely sourced+validated computed cash impact is $169,072.72 (profit_2026 feed v2). Delta -$13,015.95 = fee correction +5,404.77 (modeled-&gt;sourced) minus held refresh 18,420.72 (stale 150,237.20 -&gt; validated 168,657.92). This walk starts from the corrected $169,072.72.</div>
+<div class="note"><b>The &ldquo;$127K&rdquo; question, answered:</b> The theoretical Amazon net cash impact (corrected $150,810.84) is NOT bank cash. The walk closes it to the actual liquid change ($31,676.65 through 6/10), residual $0.00: $186,919.80 published held + $281.72 AR are receivables not bank cash; $112,592.99 of the AP line is pre-2026 vendor debt; ~$137K of 2026 cash went to non-Amazon channel flows, other-vendor cash (ISG/Trimega/ZOLL/McKenzie), ads $19,765.65, contractors $35,464.29, software $21,383.10, fees/taxes/SBA, and net owner flows $22,709. Every line sourced; nothing plugged.</div>
+<h2>A. Per-account reconciliation (opening + inflows &minus; outflows = balance)</h2>
+<div class="sub">Reconciled to the penny THROUGH 2026-06-10 (BOA residual 0.00, Amex -0.08, dormant 0.00). Current 2026-06-14 balances added; the 6/10-&gt;6/14 window is named per the brief&#x27;s &#x27;name the gap, do not plug&#x27; rule.</div>
+<table><tr><th>Account</th><th class="num">Open Jan 1</th><th class="num">Close Jun 10</th><th class="num">Residual</th><th class="num">Current Jun 14</th><th class="num">6/10&rarr;6/14 &Delta;</th><th>Status</th></tr>
+<tr><td>BOA Checking 4908</td><td class="num">$30,070.27</td><td class="num">$66,788.80</td><td class="num good">$0.00</td><td class="num">$69,358.98</td><td class="num bad">+$2,570.18</td><td>EXACT - statement checkpoints 1/31 42,862.34 and 2/28 36,002.37 both hit to the penny</td></tr>
+<tr><td>Amex 9008</td><td class="num">$8,159.02</td><td class="num">$13,200.90</td><td class="num warn">-$0.08</td><td class="num">-$13,848.97</td><td class="num ">+$648.07</td><td>CLOSED - all six statement closes (1/07 .. 6/05) reproduce exactly. The earlier 339.25 was: $309.00 REAL duplicate charges 2/16 (MD DEPT ASSMNT 2x300 + MD.GOV fee 2x9 - statement shows both, QBO agrees) wrongly collapsed by cross-statement dedupe, + $30.25 pending-timing. Residual now $0.08 (Plaid cache rounding).</td></tr>
+<tr><td>BOA Savings 4911</td><td class="num">$503.49</td><td class="num">$503.49</td><td class="num good">$0.00</td><td class="num">$503.49</td><td class="num ">$0.00</td><td>dormant</td></tr>
+<tr><td>BOA Checking 6503</td><td class="num">$140.15</td><td class="num">$140.15</td><td class="num good">$0.00</td><td class="num">$140.15</td><td class="num ">$0.00</td><td>dormant</td></tr>
+<tr><td>PayPal</td><td class="num">$0.00</td><td class="num">$0.00</td><td class="num good">$0.00</td><td class="num">$0.00</td><td class="num ">$0.00</td><td>pass-through (every purchase has a 1:1 BOA/Amex funding leg)</td></tr>
+<tr><td>HSBC 4683</td><td class="num">$416.96</td><td class="num">$416.96</td><td class="num good">$0.00</td><td class="num">$416.96</td><td class="num ">$0.00</td><td>DORMANT CONFIRMED by Ekene - not used in 2025 or 2026</td></tr>
+</table>
+<div class="note warnbox"><b>6/10&rarr;6/14 window (named, not plugged):</b> The to-the-penny reconciliation runs through 2026-06-10 (last date with full transaction detail). Balances are then brought current to 2026-06-14 (Plaid live 20:59Z). The 4-day window is NOT line-itemized: BOA +$2,570.18 (the one figure &gt;$2K), Amex +$648.07 owed, all other accounts $0. Cause is structural &mdash; the spine Plaid integration is balance-scope only (no Transactions product on the AWS token) and the warehouse holds no bank-transactions table. Close it by re-linking Plaid with the Transactions product (days_requested=730) or by dropping a 4-day BOA/Amex statement. Per the audit rule, this is named rather than reconstructed.</div>
+<h2>B. The walk: computed cash impact $150,810.84 &rarr; actual bank reality</h2>
+<table><tr><th>Line</th><th class="num">Amount</th><th>Basis</th></tr>
+<tr><td>Computed cash impact to date (EP 99,467.11 + AP-not-paid 238,545.25 - Amazon held [PUBLISHED All-Accounts Total Balance] 186,919.80 - AR 281.72)</td><td class="num">$150,810.84</td><td><span class="flag">computed (P3 sourced fee + PUBLISHED held)</span></td></tr>
+<tr><td>+ Add back Amazon held stock (Amazon&#x27;s PUBLISHED All-Accounts Total Balance; receivable, not 2026 bank cash; its 2026 change flows through deposits)</td><td class="num">$186,919.80</td><td><span class="flag">published (Seller Central, operator-confirmed 2026-06-14)</span></td></tr>
+<tr><td>+ Add back Trade AR stock (same logic)</td><td class="num">$281.72</td><td><span class="flag">sourced-stale 5/26</span></td></tr>
+<tr><td>+ 2025-earned Amazon cash released in 2026 (deposits 983,035.86 - 2026 SOURCED net proceeds 961,993.02)</td><td class="num">$21,042.84</td><td><span class="flag">derived (now on sourced fee; fee-model error removed)</span></td></tr>
+<tr><td>- Pre-2026 vendor AP inside the AP line (AP now 238,545.25 + ESS/SPR cash paid 860,229.33 - 2026 billed 986,181.59 = 112,592.99 owed before Jan 1)</td><td class="num">-$112,592.99</td><td><span class="flag">DERIVED (verify vs Jan ESS stmt)</span></td></tr>
+<tr><td>+ FedEx billed-in-EP but not yet paid</td><td class="num">$625.90</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>- ESS/SPR billed for non-Amazon channels (cost behind non-Amazon revenue)</td><td class="num">-$124,281.58</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>+ Non-Amazon receipts (merchant/card 154,299.61 + government ACH 115,254.00 + ISG rebate 21,222.38 + Shopify payouts 3,447.87 - reversals 778.04)</td><td class="num">$293,445.82</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>- Other vendor cash (ISG/Trimega 223,307.56 + ZOLL 2025-legacy 19,670.36 + ORS Nasco 2,754.47 + McKenzie prep 8,916.38 + JP Cooke 59.37 + Amazon.com purchases 5,335.35)</td><td class="num">-$260,043.49</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>- Amazon advertising paid (Ads API invoices = Amex charges 1:1)</td><td class="num">-$18,951.88</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>- Contractors (Upwork/Escrow 24,920.02 + Wise 10,483.27 + Zelle 61.00)</td><td class="num">-$35,464.29</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>- Software / subscriptions / tools (incl Shopify fees 1,934.13)</td><td class="num">-$21,383.10</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>- Merchant &amp; processing fees (Bankcard + Authorize.Net)</td><td class="num">-$9,828.49</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>- Business taxes (MD assessments incl the REAL 2/16 duplicate 2x300+2x9, GA/FL sales remits)</td><td class="num">-$1,099.22</td><td><span class="flag">sourced</span></td></tr>
+<tr><td>- SBA loan payments (4 x 1,625; ~3,820 interest / ~2,680 principal MODELED at 3.75%)</td><td class="num">-$6,500.00</td><td><span class="flag">sourced (split modeled)</span></td></tr>
+<tr><td>- OWNER FLOWS net: draws 22,300 + SEP IRA wire 4/15 28,005 + 2025 taxes (IRS 30,485 + MD 7,919) - personal injection via Capital One 66,000 (4/16-17, CONFIRMED by Ekene; injection funded the 2025 taxes)</td><td class="num">-$22,709.00</td><td><span class="flag">sourced + named by Ekene</span></td></tr>
+<tr><td>- Overhead (rent/parking 2,119.55 + vehicle 1,605.42 + travel 2,850.94 + personal-on-card 220.26 + small subs 404.49 + G&amp;A 400.11 + bank fees 145.00 + GSA IFF 850.46)</td><td class="num">-$8,596.23</td><td><span class="flag">sourced</span></td></tr>
+<tr><th>= Predicted &Delta;Liquid</th><th class="num">$31,676.65</th><th></th></tr>
+<tr><th>Actual &Delta;Liquid (22,554.89 &rarr; 54,231.54 posted, thru 6/10)</th><th class="num">$31,676.65</th><th></th></tr>
+<tr><th>RESIDUAL</th><th class="num good">$0.00</th><th>nothing plugged</th></tr></table>
+<h2>C. Corrected P&amp;L &mdash; Amazon channel (re-issued on SOURCED fee + ads)</h2>
+<table><tr><th>Line</th><th class="num">Amount</th><th>Basis</th></tr>
+<tr><td>Amazon gross revenue (ex-tax)</td><td class="num">$1,142,904.46</td><td>sourced</td></tr>
+<tr><td>Amazon fees (all types)</td><td class="num">-$166,098.09</td><td>SOURCED (P3 2026-06-12): posted -149,386.40 + sourced-rate tail -16,711.69; was MODELED -171,502.86</td></tr>
+<tr><td>Refunds/chargebacks</td><td class="num">-$14,813.35</td><td>sourced</td></tr>
+<tr><td>Vendor billed - Amazon channel (ESS 826,966.15 + SPR 34,933.86 + FedEx-ERP 625.90)</td><td class="num">-$862,525.91</td><td>sourced</td></tr>
+<tr><td>= EARNED PROFIT before ads</td><td class="num">$99,467.11</td><td>derived (8.70% of revenue) - SOURCED fee, no modeled components</td></tr>
+<tr><td>Amazon advertising (Ads API invoices: 18,951.88 paid Jan-May + 813.77 June accruing)</td><td class="num">-$19,765.65</td><td>SOURCED - billed to Amex, not netted from settlements</td></tr>
+<tr><td>= EARNED PROFIT after ads (REAL Amazon-channel margin)</td><td class="num">$79,701.46</td><td>derived (6.97% of revenue)</td></tr>
+</table>
+<div class="note"><b>Continuity tie-back:</b> $99,467.11 / 8.70% (current sourced-fee earned profit, before ad spend) &minus; $19,765.65 ad spend = <b>$79,701.46 / 6.97%</b> &mdash; the real Amazon-channel margin. Ad spend is the entire bridge between the two figures.</div>
+<h2>C2. Company-wide 2026 operating view</h2>
+<table><tr><th>Line</th><th class="num">Amount</th><th>Basis</th></tr>
+<tr><td>Revenue - all channels (Amazon 1,142,904.46 + non-Amazon 273,618.74, accrual ex-tax)</td><td class="num">$1,416,523.20</td><td>sourced</td></tr>
+<tr><td>Amazon fees</td><td class="num">-$166,098.09</td><td>SOURCED (P3) - was MODELED 15.0059%</td></tr>
+<tr><td>Refunds</td><td class="num">-$14,813.35</td><td>sourced</td></tr>
+<tr><td>ESS + SPR + FedEx-ERP billed (all channels)</td><td class="num">-$986,932.96</td><td>sourced</td></tr>
+<tr><td>Operating expenses (ads 19,765.65 + contractors 35,464.29 + software 21,383.10 + merchant fees 9,828.49 + overhead 8,596.23 + business taxes 1,099.22 + SBA interest ~3,820 MODELED)</td><td class="num">-$99,956.98</td><td>sourced (SBA split modeled)</td></tr>
+<tr><td>= OPERATING RESULT BEFORE non-ESS/SPR vendor cost</td><td class="num">$148,721.82</td><td>derived (was 143,317.05 on modeled fee; +5,404.77 fee correction)</td></tr>
+<tr><td>Non-ESS/SPR vendor CASH paid 2026 (ISG/Trimega 223,307.56 + ORS 2,754.47 + McKenzie 8,916.38 + JP Cooke 59.37 + Amazon.com 5,335.35 = 240,373.13). 2026-COGS vs 2025-AP-paydown split UNKNOWN (no ISG billed table).</td><td class="num">-$240,373.13</td><td>CASH, unsplit - NAMED GAP</td></tr>
+<tr><td>= COMPANY RESULT BAND: +148,722 (if that vendor cash all paid 2025 debt) to -91,651 (if all 2026 cost). Truth needs the ISG billed feed. Amazon-channel 6.97% is unaffected.</td><td class="num"></td><td>band</td></tr>
+<tr><td>Below the line (owner flows, all named): personal injection +66,000 (Capital One 4/16-17) funded 2025 taxes -38,404 (IRS 30,485 + MD 7,919); SEP IRA -28,005 (wire 4/15); draws net -22,300; SBA principal ~-2,680; ZOLL 2025-legacy -19,670.36</td><td class="num"></td><td>memo - named by Ekene</td></tr>
+</table>
+<h2>D. Complete outflow ledger &mdash; category totals (positive = out/charge, negative = in)</h2>
+<table><tr><th>Category</th><th class="num">Amount</th><th class="num">Rows</th></tr>
+<tr><td>in_amazon_settlement</td><td class="num">-$983,035.86</td><td class="num">33</td></tr>
+<tr><td>vendor_essendant</td><td class="num">$812,825.76</td><td class="num">10</td></tr>
+<tr><td>vendor_isg_trimega</td><td class="num">$223,307.56</td><td class="num">6</td></tr>
+<tr><td>in_merchant_deposits</td><td class="num">-$153,521.57</td><td class="num">92</td></tr>
+<tr><td>in_government_sales</td><td class="num">-$115,254.00</td><td class="num">4</td></tr>
+<tr><td>owner_contribution_in</td><td class="num">-$66,000.00</td><td class="num">5</td></tr>
+<tr><td>vendor_spr</td><td class="num">$47,403.57</td><td class="num">4</td></tr>
+<tr><td>owner_taxes_2025_fed</td><td class="num">$30,485.00</td><td class="num">1</td></tr>
+<tr><td>owner_sep_ira_contribution</td><td class="num">$28,005.00</td><td class="num">1</td></tr>
+<tr><td>contractors_upwork</td><td class="num">$24,920.02</td><td class="num">23</td></tr>
+<tr><td>owner_draw</td><td class="num">$22,300.00</td><td class="num">8</td></tr>
+<tr><td>in_isg_rebate</td><td class="num">-$21,222.38</td><td class="num">1</td></tr>
+<tr><td>vendor_zoll</td><td class="num">$19,670.36</td><td class="num">1</td></tr>
+<tr><td>advertising_amazon</td><td class="num">$18,951.88</td><td class="num">12</td></tr>
+<tr><td>contractors_wise</td><td class="num">$10,483.27</td><td class="num">6</td></tr>
+<tr><td>merchant_fees</td><td class="num">$9,828.49</td><td class="num">12</td></tr>
+<tr><td>vendor_mckenzie_prep</td><td class="num">$8,916.38</td><td class="num">37</td></tr>
+<tr><td>owner_taxes_2025_state</td><td class="num">$7,919.00</td><td class="num">1</td></tr>
+<tr><td>software_aws</td><td class="num">$7,218.53</td><td class="num">6</td></tr>
+<tr><td>sba_loan_payment</td><td class="num">$6,500.00</td><td class="num">4</td></tr>
+<tr><td>amazon_com_purchases</td><td class="num">$5,335.35</td><td class="num">52</td></tr>
+<tr><td>travel</td><td class="num">$2,850.94</td><td class="num">11</td></tr>
+<tr><td>vendor_ors_nasco</td><td class="num">$2,754.47</td><td class="num">2</td></tr>
+<tr><td>software_comms_ship</td><td class="num">$2,587.87</td><td class="num">33</td></tr>
+<tr><td>software_ai_media</td><td class="num">$2,243.97</td><td class="num">23</td></tr>
+<tr><td>software_web</td><td class="num">$2,231.79</td><td class="num">30</td></tr>
+<tr><td>rent_office</td><td class="num">$2,119.55</td><td class="num">7</td></tr>
+<tr><td>software_taxjar</td><td class="num">$1,847.64</td><td class="num">6</td></tr>
+<tr><td>software_amazon_tools</td><td class="num">$1,759.85</td><td class="num">16</td></tr>
+<tr><td>vehicle_fuel</td><td class="num">$1,605.42</td><td class="num">17</td></tr>
+<tr><td>software_shopify</td><td class="num">-$1,513.74</td><td class="num">31</td></tr>
+<tr><td>taxes_state_business</td><td class="num">$1,060.90</td><td class="num">8</td></tr>
+<tr><td>software_accounting</td><td class="num">$1,044.37</td><td class="num">11</td></tr>
+<tr><td>gsa_iff_fee</td><td class="num">$850.46</td><td class="num">6</td></tr>
+<tr><td>software_shipping_auctane</td><td class="num">$514.95</td><td class="num">9</td></tr>
+<tr><td>subs_small</td><td class="num">$404.49</td><td class="num">23</td></tr>
+<tr><td>gna_other</td><td class="num">$400.11</td><td class="num">15</td></tr>
+<tr><td>personal_on_card</td><td class="num">$220.26</td><td class="num">5</td></tr>
+<tr><td>bank_fees</td><td class="num">$145.00</td><td class="num">17</td></tr>
+<tr><td>contractors_other</td><td class="num">$61.00</td><td class="num">1</td></tr>
+<tr><td>vendor_other_cogs</td><td class="num">$59.37</td><td class="num">1</td></tr>
+<tr><td>taxes_sales_remit</td><td class="num">$38.32</td><td class="num">2</td></tr>
+<tr><td>transfer_amex_payment</td><td class="num">$0.00</td><td class="num">10</td></tr>
+</table>
+<h2>Dedupe rules applied</h2><ul>
+<li>Amex card spend counts ONCE at the charge; BOA-&gt;Amex ACH payments are transfers (verified both sides)</li>
+<li>PayPal purchases count ONCE at the BOA/Amex funding leg (verified 1:1)</li>
+<li>Ad spend counts ONCE at the Amex charge; settlements carry no ad deductions</li>
+<li>3/27 owner 9,800 out-and-back nets zero</li>
+<li>Cross-source date skew: statements are truth through their close; Plaid used strictly after (Amex after 6/05, BOA from 3/01)</li>
+<li>Same-day same-amount duplicates are REAL when the statement lists them (2/16 MD 2x300 + 2x9) - do not set()-dedupe within statements</li>
+</ul>
+<h2>Open items</h2><ul>
+<li>FEE LINE SOURCED (P3, run #53 degated 2026-06-12) - the prior &#x27;ingestor ignores FORCE_LOOKBACK&#x27; blocker is CLOSED.</li>
+<li>6/10-&gt;6/14 reconciliation window NOT line-itemized: BOA +$2,570.18 (&gt;$2K), Amex +$648.07 owed. Cause: spine Plaid integration is balance-scope only (no transactions product on the AWS token) + no bank-transactions table in the warehouse. Close by re-linking Plaid with the Transactions product (days_requested=730) or by dropping a 4-day BOA/Amex statement. Balances themselves are LIVE/confirmed 6/14.</li>
+<li>ISG 2026 billed unknown (cash $223,307.56 to ISG/Trimega cannot be split 2026-COGS vs 2025-AP-paydown) - EDI feed pending; keeps the company-wide result a band.</li>
+<li>FedEx full freight bill not in warehouse (~$12K payable flagged; only $625.90 Amazon-channel ERP invoices captured).</li>
+<li>SBA principal/interest split MODELED (~$2,680 principal / ~$3,820 interest at 3.75% over 4 payments) - exact split needs the SBA amortization statement.</li>
+<li>Plaid re-link with days_requested=730 + Transactions product recommended (kills the 90-day history wall AND the 4-day reconciliation window for future audits).</li>
+</ul>
+</div></body></html>

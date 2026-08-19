@@ -1,0 +1,153 @@
+# .github/workflows/spine-freshness-watchdog.yml
+# DEAD-MAN'S SWITCH for the published finance feeds.
+#
+# Why this exists separately from spine-health-check: that job runs DAILY and needs AWS
+# (OIDC + a Fargate warehouse query, ~90s). A daily monitor structurally cannot police an
+# HOURLY feed — on 2026-07-30 np_live died minutes after the daily check passed it at 5.1h,
+# so the next look was ~24h later and Ekene found the stale number before the monitor did.
+#
+# This job is deliberately the opposite: NO AWS, NO warehouse, NO secrets. It just checks
+# out the repo and reads the timestamps already committed in the published JSON. That makes
+# it ~20s and dependency-free, so it can run often and is very unlikely to fail for reasons
+# unrelated to what it is watching (a noisy watchdog gets muted, and a muted watchdog is why
+# the original 14-day outage went unseen).
+#
+# It FAILS the job when a feed is past its budget, which is what actually notifies
+# (GitHub emails on scheduled-workflow failure). Budgets are per feed and sized at roughly
+# 3x the publish cadence so ordinary GitHub cron slip never pages anyone.
+name: spine-freshness-watchdog
+
+on:
+  schedule:
+    # Hourly and offset off :00. This is now the RECOVERY FLOOR, not just an alarm: if
+    # spine-np-live's own schedule gets throttled (measured: ~half of hourly triggers
+    # dropped), this job notices and re-dispatches it. Offset because :00 is the most
+    # contended slot and therefore the most likely to be dropped.
+    - cron: "37 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  actions: write   # to re-dispatch a stalled publisher (self-heal)
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check published feed freshness
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, datetime
+
+          now = datetime.datetime.now(datetime.timezone.utc)
+
+          def load(p):
+              try: return json.load(open(p))
+              except Exception: return {}
+
+          def parse(ts):
+              if not ts: return None
+              ts = str(ts).strip().replace('Z', '+00:00')
+              for cut in (None, 19, 16):
+                  try:
+                      d = datetime.datetime.fromisoformat(ts if cut is None else ts[:cut])
+                      return d if d.tzinfo else d.replace(tzinfo=datetime.timezone.utc)
+                  except Exception:
+                      continue
+              return None
+
+          nl  = load('finance/data/np_live.json')
+          npj = load('finance/data/net_position.json')
+          ap  = load('finance/ap/data.json')
+
+          # TWO THRESHOLDS, deliberately different jobs:
+          #   REFRESH (1h) - routine pacemaking. spine-np-live's own */20 schedule is
+          #     unreliable on this repo (GitHub fired it a mean 2.01h apart at hourly, and
+          #     not once in the 1.5h after we raised it to */20, while OTHER workflows in
+          #     the same repo kept firing normally). So this job does not merely WATCH the
+          #     feed, it PACES it: past an hour old, kick the publisher. Not an alert -
+          #     a top-up is business as usual.
+          #   ALERT (4h) - something is actually wrong. The publisher has had multiple
+          #     chances (its own cron, chained runs, and our hourly kick) and still has not
+          #     produced a fresh value, so a human should look.
+          # Keeping these separate is what makes the alert meaningful: if refresh and alert
+          # shared one threshold, every routine top-up would page someone and the signal
+          # would be trained away - which is how the original 14-day outage stayed invisible.
+          REFRESH_H = 1
+
+          # (feed, timestamp, budget_hours, cadence-for-humans)
+          # Budgets ~3x cadence: tolerate GitHub's best-effort scheduler, still catch a
+          # genuinely dead feed the same morning rather than the next day.
+          feeds = [
+              ('np_live.ap   (hourly AP)',    ((nl.get('ap')   or {}).get('asof') or nl.get('asof')),  4, 'every 20 min'),
+              ('np_live.held (hourly held)',  ((nl.get('held') or {}).get('asof') or nl.get('asof')),  4, 'every 20 min'),
+              ('net_position.plaid (cash)',   (npj.get('plaid') or {}).get('fetched_at'),             10, 'every 4h'),
+              ('ap/data.json (heavy AP)',     ap.get('generated'),                                     9, '5x daily'),
+          ]
+
+          bad, rows = [], []
+          for name, ts, budget, cadence in feeds:
+              d = parse(ts)
+              age = None if d is None else round((now - d).total_seconds() / 3600, 1)
+              if age is None:
+                  st = 'NEVER'; bad.append('%s: no timestamp' % name)
+              elif age > budget:
+                  st = 'STALE'; bad.append('%s: %.1fh old (budget %sh, %s)' % (name, age, budget, cadence))
+              else:
+                  st = 'ok'
+              rows.append('%-28s %-6s age=%-7s budget=%sh  (%s)' % (name, st, age, budget, cadence))
+
+          # Carried-forward sections are a live upstream fault even while the file looks new.
+          for k in ('ap', 'held'):
+              sec = nl.get(k) or {}
+              if sec.get('carried_forward'):
+                  bad.append('np_live.%s: CARRIED FORWARD (%s)' % (k, sec.get('carried_reason', 'upstream fault')))
+
+          print('\n'.join(rows))
+          # Tell the shell which publisher to kick. np_live is the one that has proved
+          # droppable, and it is the only feed this job can re-dispatch cheaply.
+          # Pace on the REFRESH threshold, not the alert one.
+          nl_ages = []
+          for k in ('ap', 'held'):
+              d_ = parse(((nl.get(k) or {}).get('asof')) or nl.get('asof'))
+              if d_ is not None:
+                  nl_ages.append((now - d_).total_seconds() / 3600)
+          nl_oldest = max(nl_ages) if nl_ages else None
+          needs_refresh = (nl_oldest is None) or (nl_oldest > REFRESH_H)
+          if needs_refresh:
+              print('\nnp_live oldest section %s h > refresh threshold %sh -> kicking spine-np-live'
+                    % ('unknown' if nl_oldest is None else round(nl_oldest, 2), REFRESH_H))
+          with open(os.environ['GITHUB_ENV'], 'a') as fh:
+              fh.write('NP_LIVE_STALE=%s\n' % ('1' if needs_refresh else '0'))
+          if bad:
+              print('::error::Stale or faulted finance feed(s):')
+              for b in bad: print('  - ' + b)
+              print('Publishers: spine-np-live (*/20 + chained), spine-net-position-refresh (4h), spine-ap-refresh (5x daily).')
+              with open(os.environ['GITHUB_ENV'], 'a') as fh:
+                  fh.write('FEEDS_BAD=1\n')
+          else:
+              print('\nAll published feeds within budget.')
+          PY
+
+      # PACEMAKER. This is the reliable driver of the hourly cadence, not a last resort:
+      # spine-np-live's own high-frequency cron is dropped by GitHub on this repo, so we
+      # kick it from a low-frequency slot that demonstrably fires. Cheap (~70s, ~1.2KB) and
+      # idempotent - the publisher commits only when the content actually changed.
+      - name: Kick spine-np-live if the feed is over an hour old
+        if: env.NP_LIVE_STALE == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Refreshing np_live (over the 1h refresh threshold)"
+          gh workflow run spine-np-live.yml --ref main || echo "dispatch failed (will retry next hour)"
+
+      # Fail LAST, after remediation, so the run still notifies. Auto-recovery must never
+      # silence the alert: if this job is going red every hour, the primary schedule is
+      # broken even though the number looks fine, and that needs to be visible.
+      - name: Report failure if any feed was out of budget
+        if: env.FEEDS_BAD == '1'
+        run: |
+          echo "A feed was out of budget this run (see the check step above)."
+          echo "If np_live was the cause it has just been re-dispatched; this failure is the alert, not the outage."
+          exit 1

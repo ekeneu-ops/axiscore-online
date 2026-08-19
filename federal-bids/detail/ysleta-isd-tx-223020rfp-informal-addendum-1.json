@@ -1,0 +1,99 @@
+{
+ "bid_id": "ysleta-isd-tx-223020rfp-informal-addendum-1",
+ "bid_number": "223020RFP-Informal Addendum 1",
+ "agency": "Ysleta ISD, TX",
+ "src": "Open",
+ "title": "Pediatric Services",
+ "close": "6/30/2027 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Full Time",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Full Time 1 HR No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Part Time",
+   "qty": "1",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Part Time 1 HR No Response"
+  }
+ ],
+ "attachments_saved": [
+  "19.8. Section 1 - Instructions Aug 8_ 19 to.docx",
+  "22.6 Data Sharing T_C.docx",
+  "23.4  Solicitation T_C_ Apr 1_ 23 to.docx",
+  "21.9 Exhibit.Forms_ Others  Sep 1_ 21.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "19.8. Section 1 - Instructions Aug 8_ 19 to.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "22.6 Data Sharing T_C.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "23.4  Solicitation T_C_ Apr 1_ 23 to.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "21.9 Exhibit.Forms_ Others  Sep 1_ 21.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 20.1,
+  "attachment_fetches": 4,
+  "attachment_seconds": 9.9,
+  "attachment_bytes": 1159897,
+  "max_fetch_seconds": 4.49,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:43:11.979005+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/ysleta-isd-tx-223020rfp-informal-addendum-1/coverage.json"
+}

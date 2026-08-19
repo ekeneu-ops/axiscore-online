@@ -1,0 +1,710 @@
+{
+  "schema": "cash_audit_2026_v4",
+  "generated": "2026-06-14",
+  "period": "2026-01-01..2026-06-14 (transaction-sourced reconciliation through 2026-06-10; account balances current 2026-06-14)",
+  "headlines": {
+    "boa4908_reconciled_exact": true,
+    "amex_reconciled": "CLOSED to -0.08 (six statement closes reproduce; pendings counted)",
+    "liquid_jan1": 22554.89,
+    "liquid_now_posted": 54231.54,
+    "delta_liquid": 31676.65,
+    "bridge_residual": 0.0,
+    "amazon_margin_after_ads_pct": 6.97,
+    "ads_2026_paid": 18951.88,
+    "ads_2026_accruing": 813.77,
+    "the_127k_answer": "The theoretical Amazon net cash impact (corrected $150,810.84) is NOT bank cash. The walk closes it to the actual liquid change ($31,676.65 through 6/10), residual $0.00: $186,919.80 published held + $281.72 AR are receivables not bank cash; $112,592.99 of the AP line is pre-2026 vendor debt; ~$137K of 2026 cash went to non-Amazon channel flows, other-vendor cash (ISG/Trimega/ZOLL/McKenzie), ads $19,765.65, contractors $35,464.29, software $21,383.10, fees/taxes/SBA, and net owner flows $22,709. Every line sourced; nothing plugged.",
+    "earned_profit_before_ads": 99467.11,
+    "earned_profit_before_ads_pct": 8.7,
+    "earned_profit_after_ads": 79701.46,
+    "ads_2026_total": 19765.65,
+    "fee_basis": "SOURCED (P3, 2026-06-12): -166,098.09 = posted -149,386.40 + sourced-rate tail -16,711.69. Replaces MODELED -171,502.86 (15.0059%).",
+    "held_basis": "Amazon PUBLISHED All-Accounts Total Balance 186,919.80 (Seller Central -> Payments, operator-confirmed 2026-06-14). Replaces the 168,657.92 composite net. Buckets: Standard 55,656.87 / Invoiced 24,498.75 / Deferred 106,764.18. Source: finance/data/held_published.json.",
+    "net_cash_impact_corrected": 150810.84,
+    "liquid_now_live_0614": 56153.65
+  },
+  "sources": {
+    "bank": "BOA statements Jan+Feb (tie to penny) + Plaid Mar1-Jun10",
+    "amex": "Amex statements 1/07,2/04,3/06,4/06,5/07,6/05 (ALL closes reproduce; no interest/fees charged YTD) + Plaid after 6/05",
+    "plaid_history_limit": "Transaction history Jan1-Jun10 = BOA+Amex statements (Jan-Feb, tie to penny) spliced with the v2 Plaid transaction pull (reaches back only to 2026-02-25, 90-day link window). Re-link with days_requested=730 + Transactions product to make future audits statement-free AND close the 4-day window.",
+    "qbo": "categorization cross-check only (not bank-true)",
+    "ads": "Amazon Ads API GET /invoices - 13 US invoices, 1:1 with Amex charges",
+    "settlements": "spapi.settlements 6 rows match BOA deposits 1:1",
+    "warehouse": "vendor_invoice_list billed (full 2026); spapi.financial_events SOURCED fee basis; spapi.settlements 6 deposits match BOA 1:1. NO bank-transactions table exists in the warehouse (verified info-schema 2026-06-14, 51 tables).",
+    "fee": "SOURCED (P3, run #53 degated 2026-06-12): spapi.financial_events order-matched, -166,098.09. The earlier 'ingestor ignores FORCE_LOOKBACK' blocker is RESOLVED.",
+    "plaid": "Balances LIVE via spine plaid_aws_pull (/accounts/balance/get) on AWS, fetched 2026-06-14 20:59Z. Plaid AWS token is BALANCE-SCOPE ONLY (no transactions product); the warehouse stores no bank transactions, so 6/10->6/14 line-detail is NOT pullable through the spine. Named, not plugged."
+  },
+  "dedupe_rules": [
+    "Amex card spend counts ONCE at the charge; BOA->Amex ACH payments are transfers (verified both sides)",
+    "PayPal purchases count ONCE at the BOA/Amex funding leg (verified 1:1)",
+    "Ad spend counts ONCE at the Amex charge; settlements carry no ad deductions",
+    "3/27 owner 9,800 out-and-back nets zero",
+    "Cross-source date skew: statements are truth through their close; Plaid used strictly after (Amex after 6/05, BOA from 3/01)",
+    "Same-day same-amount duplicates are REAL when the statement lists them (2/16 MD 2x300 + 2x9) - do not set()-dedupe within statements"
+  ],
+  "account_reconciliation": [
+    {
+      "account": "BOA Checking 4908",
+      "open_jan1": 30070.27,
+      "open_src": "BOA stmt",
+      "close_jun10": 66788.8,
+      "close_src": "Plaid live posted (+1,167.05 pending merch dep lands next day)",
+      "residual": 0.0,
+      "status": "EXACT - statement checkpoints 1/31 42,862.34 and 2/28 36,002.37 both hit to the penny",
+      "current_0614": 69358.98,
+      "post_close_window_0610_0614": 2570.18,
+      "window_note": "6/10->6/14 balances are LIVE/confirmed; transaction line-detail for this 4-day window not pulled (spine Plaid is balance-scope; no bank-txn warehouse table). Only BOA's window (+$2,570.18) exceeds $2K."
+    },
+    {
+      "account": "Amex 9008",
+      "open_jan1": 8159.02,
+      "open_src": "derived from 12/07 close + Dec stmt rows",
+      "close_jun10": 13200.9,
+      "close_src": "walk; +30.33 pending = 13,231.23 vs Plaid cached 13,231.15",
+      "residual": -0.08,
+      "status": "CLOSED - all six statement closes (1/07 .. 6/05) reproduce exactly. The earlier 339.25 was: $309.00 REAL duplicate charges 2/16 (MD DEPT ASSMNT 2x300 + MD.GOV fee 2x9 - statement shows both, QBO agrees) wrongly collapsed by cross-statement dedupe, + $30.25 pending-timing. Residual now $0.08 (Plaid cache rounding).",
+      "current_0614_owed": 13848.97,
+      "post_close_window_0610_0614": 648.07,
+      "window_note": "6/10->6/14 balances are LIVE/confirmed; transaction line-detail for this 4-day window not pulled (spine Plaid is balance-scope; no bank-txn warehouse table). Only BOA's window (+$2,570.18) exceeds $2K."
+    },
+    {
+      "account": "BOA Savings 4911",
+      "open_jan1": 503.49,
+      "open_src": "assumed=current (zero activity)",
+      "close_jun10": 503.49,
+      "close_src": "Plaid",
+      "residual": 0.0,
+      "status": "dormant",
+      "current_0614": 503.49,
+      "post_close_window_0610_0614": 0.0,
+      "window_note": "6/10->6/14 balances are LIVE/confirmed; transaction line-detail for this 4-day window not pulled (spine Plaid is balance-scope; no bank-txn warehouse table). Only BOA's window (+$2,570.18) exceeds $2K."
+    },
+    {
+      "account": "BOA Checking 6503",
+      "open_jan1": 140.15,
+      "open_src": "assumed=current (zero activity)",
+      "close_jun10": 140.15,
+      "close_src": "Plaid",
+      "residual": 0.0,
+      "status": "dormant",
+      "current_0614": 140.15,
+      "post_close_window_0610_0614": 0.0,
+      "window_note": "6/10->6/14 balances are LIVE/confirmed; transaction line-detail for this 4-day window not pulled (spine Plaid is balance-scope; no bank-txn warehouse table). Only BOA's window (+$2,570.18) exceeds $2K."
+    },
+    {
+      "account": "PayPal",
+      "open_jan1": 0.0,
+      "open_src": "pass-through",
+      "close_jun10": 0.0,
+      "close_src": "Plaid",
+      "residual": 0.0,
+      "status": "pass-through (every purchase has a 1:1 BOA/Amex funding leg)",
+      "current_0614": 0.0,
+      "post_close_window_0610_0614": 0.0,
+      "window_note": "6/10->6/14 balances are LIVE/confirmed; transaction line-detail for this 4-day window not pulled (spine Plaid is balance-scope; no bank-txn warehouse table). Only BOA's window (+$2,570.18) exceeds $2K."
+    },
+    {
+      "account": "HSBC 4683",
+      "open_jan1": 416.96,
+      "open_src": "QBO register",
+      "close_jun10": 416.96,
+      "close_src": "QBO register",
+      "residual": 0.0,
+      "status": "DORMANT CONFIRMED by Ekene - not used in 2025 or 2026",
+      "current_0614": 416.96,
+      "post_close_window_0610_0614": 0.0,
+      "window_note": "6/10->6/14 balances are LIVE/confirmed; transaction line-detail for this 4-day window not pulled (spine Plaid is balance-scope; no bank-txn warehouse table). Only BOA's window (+$2,570.18) exceeds $2K."
+    }
+  ],
+  "bridge": {
+    "lines": [
+      {
+        "line": "Computed cash impact to date (EP 99,467.11 + AP-not-paid 238,545.25 - Amazon held [PUBLISHED All-Accounts Total Balance] 186,919.80 - AR 281.72)",
+        "amount": 150810.84,
+        "basis": "computed (P3 sourced fee + PUBLISHED held)"
+      },
+      {
+        "line": "+ Add back Amazon held stock (Amazon's PUBLISHED All-Accounts Total Balance; receivable, not 2026 bank cash; its 2026 change flows through deposits)",
+        "amount": 186919.8,
+        "basis": "published (Seller Central, operator-confirmed 2026-06-14)"
+      },
+      {
+        "line": "+ Add back Trade AR stock (same logic)",
+        "amount": 281.72,
+        "basis": "sourced-stale 5/26"
+      },
+      {
+        "line": "+ 2025-earned Amazon cash released in 2026 (deposits 983,035.86 - 2026 SOURCED net proceeds 961,993.02)",
+        "amount": 21042.84,
+        "basis": "derived (now on sourced fee; fee-model error removed)"
+      },
+      {
+        "line": "- Pre-2026 vendor AP inside the AP line (AP now 238,545.25 + ESS/SPR cash paid 860,229.33 - 2026 billed 986,181.59 = 112,592.99 owed before Jan 1)",
+        "amount": -112592.99,
+        "basis": "DERIVED (verify vs Jan ESS stmt)"
+      },
+      {
+        "line": "+ FedEx billed-in-EP but not yet paid",
+        "amount": 625.9,
+        "basis": "sourced"
+      },
+      {
+        "line": "- ESS/SPR billed for non-Amazon channels (cost behind non-Amazon revenue)",
+        "amount": -124281.58,
+        "basis": "sourced"
+      },
+      {
+        "line": "+ Non-Amazon receipts (merchant/card 154,299.61 + government ACH 115,254.00 + ISG rebate 21,222.38 + Shopify payouts 3,447.87 - reversals 778.04)",
+        "amount": 293445.82,
+        "basis": "sourced"
+      },
+      {
+        "line": "- Other vendor cash (ISG/Trimega 223,307.56 + ZOLL 2025-legacy 19,670.36 + ORS Nasco 2,754.47 + McKenzie prep 8,916.38 + JP Cooke 59.37 + Amazon.com purchases 5,335.35)",
+        "amount": -260043.49,
+        "basis": "sourced"
+      },
+      {
+        "line": "- Amazon advertising paid (Ads API invoices = Amex charges 1:1)",
+        "amount": -18951.88,
+        "basis": "sourced"
+      },
+      {
+        "line": "- Contractors (Upwork/Escrow 24,920.02 + Wise 10,483.27 + Zelle 61.00)",
+        "amount": -35464.29,
+        "basis": "sourced"
+      },
+      {
+        "line": "- Software / subscriptions / tools (incl Shopify fees 1,934.13)",
+        "amount": -21383.1,
+        "basis": "sourced"
+      },
+      {
+        "line": "- Merchant & processing fees (Bankcard + Authorize.Net)",
+        "amount": -9828.49,
+        "basis": "sourced"
+      },
+      {
+        "line": "- Business taxes (MD assessments incl the REAL 2/16 duplicate 2x300+2x9, GA/FL sales remits)",
+        "amount": -1099.22,
+        "basis": "sourced"
+      },
+      {
+        "line": "- SBA loan payments (4 x 1,625; ~3,820 interest / ~2,680 principal MODELED at 3.75%)",
+        "amount": -6500.0,
+        "basis": "sourced (split modeled)"
+      },
+      {
+        "line": "- OWNER FLOWS net: draws 22,300 + SEP IRA wire 4/15 28,005 + 2025 taxes (IRS 30,485 + MD 7,919) - personal injection via Capital One 66,000 (4/16-17, CONFIRMED by Ekene; injection funded the 2025 taxes)",
+        "amount": -22709.0,
+        "basis": "sourced + named by Ekene"
+      },
+      {
+        "line": "- Overhead (rent/parking 2,119.55 + vehicle 1,605.42 + travel 2,850.94 + personal-on-card 220.26 + small subs 404.49 + G&A 400.11 + bank fees 145.00 + GSA IFF 850.46)",
+        "amount": -8596.23,
+        "basis": "sourced"
+      }
+    ],
+    "predicted_delta_liquid": 31676.65,
+    "actual_delta_liquid": 31676.65,
+    "residual": 0.0
+  },
+  "category_totals": {
+    "in_amazon_settlement": {
+      "amount": -983035.86,
+      "n": 33
+    },
+    "vendor_essendant": {
+      "amount": 812825.76,
+      "n": 10
+    },
+    "vendor_isg_trimega": {
+      "amount": 223307.56,
+      "n": 6
+    },
+    "in_merchant_deposits": {
+      "amount": -153521.57,
+      "n": 92
+    },
+    "in_government_sales": {
+      "amount": -115254.0,
+      "n": 4
+    },
+    "owner_contribution_in": {
+      "amount": -66000.0,
+      "n": 5
+    },
+    "vendor_spr": {
+      "amount": 47403.57,
+      "n": 4
+    },
+    "owner_taxes_2025_fed": {
+      "amount": 30485.0,
+      "n": 1
+    },
+    "owner_sep_ira_contribution": {
+      "amount": 28005.0,
+      "n": 1
+    },
+    "contractors_upwork": {
+      "amount": 24920.02,
+      "n": 23
+    },
+    "owner_draw": {
+      "amount": 22300.0,
+      "n": 8
+    },
+    "in_isg_rebate": {
+      "amount": -21222.38,
+      "n": 1
+    },
+    "vendor_zoll": {
+      "amount": 19670.36,
+      "n": 1
+    },
+    "advertising_amazon": {
+      "amount": 18951.88,
+      "n": 12
+    },
+    "contractors_wise": {
+      "amount": 10483.27,
+      "n": 6
+    },
+    "merchant_fees": {
+      "amount": 9828.49,
+      "n": 12
+    },
+    "vendor_mckenzie_prep": {
+      "amount": 8916.38,
+      "n": 37
+    },
+    "owner_taxes_2025_state": {
+      "amount": 7919.0,
+      "n": 1
+    },
+    "software_aws": {
+      "amount": 7218.53,
+      "n": 6
+    },
+    "sba_loan_payment": {
+      "amount": 6500.0,
+      "n": 4
+    },
+    "amazon_com_purchases": {
+      "amount": 5335.35,
+      "n": 52
+    },
+    "travel": {
+      "amount": 2850.94,
+      "n": 11
+    },
+    "vendor_ors_nasco": {
+      "amount": 2754.47,
+      "n": 2
+    },
+    "software_comms_ship": {
+      "amount": 2587.87,
+      "n": 33
+    },
+    "software_ai_media": {
+      "amount": 2243.97,
+      "n": 23
+    },
+    "software_web": {
+      "amount": 2231.79,
+      "n": 26
+    },
+    "rent_office": {
+      "amount": 2119.55,
+      "n": 7
+    },
+    "software_taxjar": {
+      "amount": 1847.64,
+      "n": 6
+    },
+    "software_amazon_tools": {
+      "amount": 1759.85,
+      "n": 16
+    },
+    "vehicle_fuel": {
+      "amount": 1605.42,
+      "n": 17
+    },
+    "software_shopify": {
+      "amount": -1513.74,
+      "n": 31
+    },
+    "taxes_state_business": {
+      "amount": 1060.9,
+      "n": 8
+    },
+    "software_accounting": {
+      "amount": 1044.37,
+      "n": 11
+    },
+    "gsa_iff_fee": {
+      "amount": 850.46,
+      "n": 6
+    },
+    "software_shipping_auctane": {
+      "amount": 514.95,
+      "n": 5
+    },
+    "subs_small": {
+      "amount": 404.49,
+      "n": 23
+    },
+    "gna_other": {
+      "amount": 400.11,
+      "n": 14
+    },
+    "personal_on_card": {
+      "amount": 220.26,
+      "n": 5
+    },
+    "bank_fees": {
+      "amount": 145.0,
+      "n": 17
+    },
+    "contractors_other": {
+      "amount": 61.0,
+      "n": 1
+    },
+    "vendor_other_cogs": {
+      "amount": 59.37,
+      "n": 1
+    },
+    "taxes_sales_remit": {
+      "amount": 38.32,
+      "n": 2
+    },
+    "transfer_amex_payment": {
+      "amount": 0.0,
+      "n": 10
+    }
+  },
+  "monthly": {
+    "2026-01": {
+      "in_amazon_settlement": -184440.29,
+      "in_merchant_deposits": -20862.86,
+      "in_government_sales": -94832.02,
+      "software_shopify": -37.52,
+      "vendor_isg_trimega": 97514.83,
+      "contractors_wise": 2483.27,
+      "merchant_fees": 925.99,
+      "contractors_upwork": 4438.99,
+      "vendor_essendant": 150708.42,
+      "taxes_sales_remit": 30.67,
+      "owner_draw": 12300.0,
+      "transfer_amex_payment": 0.0,
+      "vendor_spr": 4525.97,
+      "software_shipping_auctane": 102.99,
+      "amazon_com_purchases": 1803.85,
+      "travel": 117.52,
+      "sba_loan_payment": 1625.0,
+      "bank_fees": 21.0,
+      "software_aws": 1375.96,
+      "software_web": 286.12,
+      "software_amazon_tools": 576.66,
+      "software_ai_media": 381.75,
+      "subs_small": 189.66,
+      "vendor_mckenzie_prep": 2642.39,
+      "rent_office": 309.08,
+      "software_taxjar": 307.94,
+      "software_comms_ship": 400.27,
+      "software_accounting": 128.95,
+      "advertising_amazon": 4006.74,
+      "gna_other": 35.49,
+      "vehicle_fuel": 608.07,
+      "gsa_iff_fee": 94.14,
+      "vendor_other_cogs": 59.37,
+      "personal_on_card": 108.66
+    },
+    "2026-02": {
+      "in_amazon_settlement": -176725.13,
+      "in_merchant_deposits": -21041.78,
+      "software_shopify": 47.28,
+      "contractors_wise": 2500.0,
+      "merchant_fees": 1234.9,
+      "contractors_upwork": 4748.0,
+      "contractors_other": 61.0,
+      "vendor_essendant": 180953.32,
+      "transfer_amex_payment": 0.0,
+      "owner_draw": 2500.0,
+      "software_shipping_auctane": 102.99,
+      "amazon_com_purchases": 2290.89,
+      "sba_loan_payment": 1625.0,
+      "bank_fees": 31.0,
+      "software_aws": 1383.49,
+      "software_ai_media": 795.04,
+      "personal_on_card": 15.0,
+      "software_web": 244.03,
+      "software_amazon_tools": 579.34,
+      "advertising_amazon": 5066.93,
+      "vehicle_fuel": 315.73,
+      "vendor_mckenzie_prep": 2416.4,
+      "subs_small": 42.32,
+      "rent_office": 569.0,
+      "software_comms_ship": 533.95,
+      "software_taxjar": 397.94,
+      "travel": 0.0,
+      "software_accounting": 128.95,
+      "gna_other": 35.49,
+      "vendor_ors_nasco": 1061.68,
+      "taxes_state_business": 618.0,
+      "gsa_iff_fee": 204.15
+    },
+    "2026-03": {
+      "in_merchant_deposits": -41516.78,
+      "contractors_upwork": 5684.33,
+      "in_amazon_settlement": -202573.0,
+      "bank_fees": 31.0,
+      "owner_draw": 2500.0,
+      "software_shipping_auctane": 102.99,
+      "vendor_essendant": 150139.06,
+      "vendor_spr": 19755.3,
+      "transfer_amex_payment": 0.0,
+      "amazon_com_purchases": 129.06,
+      "software_shopify": 34.42,
+      "in_government_sales": -19684.62,
+      "vendor_isg_trimega": 62950.41,
+      "contractors_wise": 2500.0,
+      "merchant_fees": 1416.62,
+      "software_web": 555.33,
+      "software_aws": 1209.73,
+      "advertising_amazon": 3134.82,
+      "rent_office": 307.05,
+      "software_comms_ship": 392.44,
+      "software_ai_media": 298.72,
+      "vendor_mckenzie_prep": 1937.15,
+      "software_taxjar": 307.94,
+      "subs_small": 42.32,
+      "software_accounting": 128.95,
+      "gna_other": 84.49,
+      "taxes_state_business": 401.7,
+      "software_amazon_tools": 182.47
+    },
+    "2026-04": {
+      "in_merchant_deposits": -60564.4,
+      "in_amazon_settlement": -159724.83,
+      "contractors_upwork": 4249.67,
+      "software_shopify": 178.56,
+      "software_shipping_auctane": 102.99,
+      "bank_fees": 41.0,
+      "vendor_isg_trimega": 46281.13,
+      "vendor_essendant": 147684.97,
+      "vendor_spr": 12034.46,
+      "owner_draw": 2500.0,
+      "transfer_amex_payment": 0.0,
+      "owner_taxes_2025_state": 7919.0,
+      "owner_taxes_2025_fed": 30485.0,
+      "owner_contribution_in": -66000.0,
+      "in_isg_rebate": -21222.38,
+      "in_government_sales": -737.36,
+      "owner_sep_ira_contribution": 28005.0,
+      "merchant_fees": 2364.17,
+      "contractors_wise": 1000.0,
+      "sba_loan_payment": 1625.0,
+      "software_aws": 1238.32,
+      "software_web": 614.84,
+      "gna_other": 215.4,
+      "advertising_amazon": 2620.89,
+      "subs_small": 44.44,
+      "rent_office": 314.42,
+      "software_taxjar": 307.94,
+      "software_comms_ship": 563.74,
+      "vendor_mckenzie_prep": 226.63,
+      "amazon_com_purchases": 245.44,
+      "travel": 31.57,
+      "vehicle_fuel": 131.53,
+      "software_accounting": 528.57,
+      "software_amazon_tools": 212.43,
+      "gsa_iff_fee": 360.43,
+      "vendor_zoll": 19670.36,
+      "taxes_state_business": 41.2,
+      "software_ai_media": 535.26,
+      "personal_on_card": 58.0
+    },
+    "2026-05": {
+      "in_merchant_deposits": -6653.58,
+      "in_amazon_settlement": -208067.51,
+      "contractors_upwork": 4176.65,
+      "bank_fees": 11.0,
+      "software_shipping_auctane": 102.99,
+      "software_shopify": -1566.12,
+      "transfer_amex_payment": 0.0,
+      "owner_draw": 2500.0,
+      "vendor_isg_trimega": 16561.19,
+      "software_web": 358.43,
+      "vendor_essendant": 81831.68,
+      "vendor_spr": 11087.84,
+      "taxes_sales_remit": 7.65,
+      "contractors_wise": 1000.0,
+      "merchant_fees": 3057.61,
+      "software_aws": 1054.64,
+      "vendor_mckenzie_prep": 1175.66,
+      "advertising_amazon": 3019.92,
+      "subs_small": 82.58,
+      "vehicle_fuel": 412.93,
+      "rent_office": 310.0,
+      "software_taxjar": 217.94,
+      "software_comms_ship": 542.27,
+      "software_amazon_tools": 206.7,
+      "amazon_com_purchases": 1190.49,
+      "software_accounting": 128.95,
+      "gna_other": 29.24,
+      "vendor_ors_nasco": 1692.79,
+      "travel": 2515.4,
+      "software_ai_media": 233.2,
+      "gsa_iff_fee": 191.74,
+      "personal_on_card": 38.6
+    },
+    "2026-06": {
+      "contractors_upwork": 1622.38,
+      "software_shopify": -170.36,
+      "in_merchant_deposits": -2882.17,
+      "sba_loan_payment": 1625.0,
+      "in_amazon_settlement": -51505.1,
+      "bank_fees": 10.0,
+      "vendor_essendant": 101508.31,
+      "contractors_wise": 1000.0,
+      "merchant_fees": 829.2,
+      "travel": 186.45,
+      "vehicle_fuel": 137.16,
+      "amazon_com_purchases": -324.38,
+      "software_comms_ship": 155.2,
+      "software_aws": 956.39,
+      "software_web": 173.04,
+      "vendor_mckenzie_prep": 518.15,
+      "advertising_amazon": 1102.58,
+      "software_amazon_tools": 2.25,
+      "rent_office": 310.0,
+      "software_taxjar": 307.94,
+      "subs_small": 3.17
+    }
+  },
+  "corrected_pl": {
+    "amazon_channel_reissued": [
+      {
+        "label": "Amazon gross revenue (ex-tax)",
+        "amount": 1142904.46,
+        "basis": "sourced"
+      },
+      {
+        "label": "Amazon fees (all types)",
+        "amount": -166098.09,
+        "basis": "SOURCED (P3 2026-06-12): posted -149,386.40 + sourced-rate tail -16,711.69; was MODELED -171,502.86"
+      },
+      {
+        "label": "Refunds/chargebacks",
+        "amount": -14813.35,
+        "basis": "sourced"
+      },
+      {
+        "label": "Vendor billed - Amazon channel (ESS 826,966.15 + SPR 34,933.86 + FedEx-ERP 625.90)",
+        "amount": -862525.91,
+        "basis": "sourced"
+      },
+      {
+        "label": "= EARNED PROFIT before ads",
+        "amount": 99467.11,
+        "basis": "derived (8.70% of revenue) - SOURCED fee, no modeled components"
+      },
+      {
+        "label": "Amazon advertising (Ads API invoices: 18,951.88 paid Jan-May + 813.77 June accruing)",
+        "amount": -19765.65,
+        "basis": "SOURCED - billed to Amex, not netted from settlements"
+      },
+      {
+        "label": "= EARNED PROFIT after ads (REAL Amazon-channel margin)",
+        "amount": 79701.46,
+        "basis": "derived (6.97% of revenue)"
+      }
+    ],
+    "company_wide_2026_operating_view": [
+      {
+        "label": "Revenue - all channels (Amazon 1,142,904.46 + non-Amazon 273,618.74, accrual ex-tax)",
+        "amount": 1416523.2,
+        "basis": "sourced"
+      },
+      {
+        "label": "Amazon fees",
+        "amount": -166098.09,
+        "basis": "SOURCED (P3) - was MODELED 15.0059%"
+      },
+      {
+        "label": "Refunds",
+        "amount": -14813.35,
+        "basis": "sourced"
+      },
+      {
+        "label": "ESS + SPR + FedEx-ERP billed (all channels)",
+        "amount": -986932.96,
+        "basis": "sourced"
+      },
+      {
+        "label": "Operating expenses (ads 19,765.65 + contractors 35,464.29 + software 21,383.10 + merchant fees 9,828.49 + overhead 8,596.23 + business taxes 1,099.22 + SBA interest ~3,820 MODELED)",
+        "amount": -99956.98,
+        "basis": "sourced (SBA split modeled)"
+      },
+      {
+        "label": "= OPERATING RESULT BEFORE non-ESS/SPR vendor cost",
+        "amount": 148721.82,
+        "basis": "derived (was 143,317.05 on modeled fee; +5,404.77 fee correction)"
+      },
+      {
+        "label": "Non-ESS/SPR vendor CASH paid 2026 (ISG/Trimega 223,307.56 + ORS 2,754.47 + McKenzie 8,916.38 + JP Cooke 59.37 + Amazon.com 5,335.35 = 240,373.13). 2026-COGS vs 2025-AP-paydown split UNKNOWN (no ISG billed table).",
+        "amount": -240373.13,
+        "basis": "CASH, unsplit - NAMED GAP"
+      },
+      {
+        "label": "= COMPANY RESULT BAND: +148,722 (if that vendor cash all paid 2025 debt) to -91,651 (if all 2026 cost). Truth needs the ISG billed feed. Amazon-channel 6.97% is unaffected.",
+        "amount": null,
+        "basis": "band"
+      },
+      {
+        "label": "Below the line (owner flows, all named): personal injection +66,000 (Capital One 4/16-17) funded 2025 taxes -38,404 (IRS 30,485 + MD 7,919); SEP IRA -28,005 (wire 4/15); draws net -22,300; SBA principal ~-2,680; ZOLL 2025-legacy -19,670.36",
+        "amount": null,
+        "basis": "memo - named by Ekene"
+      }
+    ]
+  },
+  "open_items": [
+    "FEE LINE SOURCED (P3, run #53 degated 2026-06-12) - the prior 'ingestor ignores FORCE_LOOKBACK' blocker is CLOSED.",
+    "6/10->6/14 reconciliation window NOT line-itemized: BOA +$2,570.18 (>$2K), Amex +$648.07 owed. Cause: spine Plaid integration is balance-scope only (no transactions product on the AWS token) + no bank-transactions table in the warehouse. Close by re-linking Plaid with the Transactions product (days_requested=730) or by dropping a 4-day BOA/Amex statement. Balances themselves are LIVE/confirmed 6/14.",
+    "ISG 2026 billed unknown (cash $223,307.56 to ISG/Trimega cannot be split 2026-COGS vs 2025-AP-paydown) - EDI feed pending; keeps the company-wide result a band.",
+    "FedEx full freight bill not in warehouse (~$12K payable flagged; only $625.90 Amazon-channel ERP invoices captured).",
+    "SBA principal/interest split MODELED (~$2,680 principal / ~$3,820 interest at 3.75% over 4 payments) - exact split needs the SBA amortization statement.",
+    "Plaid re-link with days_requested=730 + Transactions product recommended (kills the 90-day history wall AND the 4-day reconciliation window for future audits)."
+  ],
+  "reissue": "v3 2026-06-14 (P6): fee line MODELED->SOURCED (P3, 2026-06-12); Amazon held refreshed to the P1-VALIDATED net 168,657.92; computed cash impact corrected 182,088.67->169,072.72; corrected Amazon margin after ads 6.50%->6.97% on the sourced fee; balances brought current to 2026-06-14; 6/10->6/14 window named (not line-itemized). Bank ledger rows unchanged from v2. || v4 2026-06-14 (Held-Funds brief): Amazon held switched from the 168,657.92 composite NET to Amazon's PUBLISHED All-Accounts Total Balance 186,919.80 (Seller Central, operator-confirmed). Cash impact 169,072.72 -> 150,810.84 (delta -18,261.88). Held now feeds from finance/data/held_published.json.",
+  "account_reconciliation_basis": "Reconciled to the penny THROUGH 2026-06-10 (BOA residual 0.00, Amex -0.08, dormant 0.00). Current 2026-06-14 balances added; the 6/10->6/14 window is named per the brief's 'name the gap, do not plug' rule.",
+  "reconciliation_to_brief": {
+    "brief_cited": 182089,
+    "corrected": 150810.84,
+    "delta": -13015.95,
+    "explanation": "The brief cited $182,089 as the 'P1-corrected version with validated held funds.' That figure actually carried the MODELED fee (-171,502.86) AND the STALE held estimate (-150,237.20) - it predates both the P3 fee sourcing and the P1 held validation. The genuinely sourced+validated computed cash impact is $169,072.72 (profit_2026 feed v2). Delta -$13,015.95 = fee correction +5,404.77 (modeled->sourced) minus held refresh 18,420.72 (stale 150,237.20 -> validated 168,657.92). This walk starts from the corrected $169,072.72.",
+    "held_funds_update": "Held further corrected (Held-Funds brief 2026-06-14): uses Amazon's PUBLISHED All-Accounts Total Balance 186,919.80, not the 168,657.92 composite. Computed cash impact 169,072.72 -> 150,810.84 (delta -18,261.88)."
+  },
+  "held_funds_correction": {
+    "buckets_published": {
+      "Standard": {
+        "total_balance": 55656.87,
+        "funds_available": 55440.93
+      },
+      "Invoiced": {
+        "total_balance": 24498.75,
+        "funds_available": 24498.75
+      },
+      "Deferred": {
+        "total_balance": 106764.18,
+        "funds_available": 0.0
+      },
+      "All_Accounts": {
+        "total_balance": 186919.8,
+        "funds_available": 79939.68
+      }
+    },
+    "source": "Seller Central -> Payments (operator-confirmed 2026-06-14). SP-API exposes no balance-buckets endpoint; gross\u00d70.75 estimate retired system-wide.",
+    "single_source_feed": "finance/data/held_published.json (AP 'Held funds' tab + NP held line both read it)",
+    "cash_impact_delta": -18261.88
+  }
+}

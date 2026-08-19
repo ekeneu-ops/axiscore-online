@@ -1,0 +1,150 @@
+{
+ "bid_id": "university-of-minnesota-11448-2026-16-07-mw",
+ "bid_number": "11448.2026.16.07.mw",
+ "agency": "University of Minnesota",
+ "src": "Invited",
+ "title": "Mobile Clinic Truck for the School of Dentistry",
+ "close": "8/19/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Attachment A Project Approach and Work Plan.pdf",
+  "Attachment B References.pdf",
+  "Attachment C Staffing Plan_Experience_Qualifications.pdf",
+  "Attachment D  Price List.xlsx",
+  "Exhibit 1 Contract Details and Requirements.pdf",
+  "Supplier-Process-and-Information-04-07-26.docx",
+  "PO-Terms-and-Conditions-01-06-26.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Attachment A Project Approach and Work Plan.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment B References.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment C Staffing Plan_Experience_Qualifications.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment D  Price List.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Exhibit 1 Contract Details and Requirements.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier-Process-and-Information-04-07-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "PO-Terms-and-Conditions-01-06-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Attachment D  Price List.xlsx",
+   "sheet": 1,
+   "header_row": 25,
+   "headers": [
+    "",
+    "",
+    "*1. If the cost for a line item is already included in another line item, enter \u201c$0\u201d in the price field and, in the notes column, indicate which line item includes the cost. Do not enter \u201cN/A\u201d or \u201cincluded\u201d in the price field.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "**2. You will be asked to attach an itemized quote showing a breakdown of all costs included Attachment D: Price List as part of your response. ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.7,
+  "attachment_fetches": 7,
+  "attachment_seconds": 4.7,
+  "attachment_bytes": 1174224,
+  "max_fetch_seconds": 0.93,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-12T08:25:25.033848+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-minnesota-11448-2026-16-07-mw/coverage.json"
+}

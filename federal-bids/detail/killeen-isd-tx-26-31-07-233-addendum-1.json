@@ -1,0 +1,190 @@
+{
+ "bid_id": "killeen-isd-tx-26-31-07-233-addendum-1",
+ "bid_number": "26-31-07-233 Addendum 1",
+ "agency": "Killeen ISD, TX",
+ "src": "Open",
+ "title": "Full-Service Delivery - Fresh Pizza",
+ "close": "7/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP Packet - Full Service Delivery - Fresh Pizza 26-31-07-233.pdf",
+  "Pizza Bid Table-26-31-07-233.xlsx",
+  "Delivery Requirements Form CN.docx",
+  "Texas Regulations.docx",
+  "USDA Federal Regulations.docx",
+  "Agreement of Compliance Form.docx",
+  "Disclosure of Lobbying Form.docx",
+  "Form CIQ _Conflict of Interest_ 2024.pdf",
+  "Form W-9 Request for Taxpayer Identification.pdf",
+  "Killeen ISD Insurance Requirements.pdf",
+  "KISD_Terms_and_Conditions 6-17-2024.pdf",
+  "Full Service Delivery - Fresh Pizza  Addendum 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP Packet - Full Service Delivery - Fresh Pizza 26-31-07-233.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Pizza Bid Table-26-31-07-233.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Delivery Requirements Form CN.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Texas Regulations.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "USDA Federal Regulations.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Agreement of Compliance Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Disclosure of Lobbying Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Form CIQ _Conflict of Interest_ 2024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form W-9 Request for Taxpayer Identification.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Killeen ISD Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "KISD_Terms_and_Conditions 6-17-2024.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Full Service Delivery - Fresh Pizza  Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Pizza Bid Table-26-31-07-233.xlsx",
+   "sheet": 0,
+   "header_row": 24,
+   "headers": [
+    "Bid Specification/Product Description",
+    "Total Estimated Number of (8-Slice) Pizzas Needed Per Week",
+    "Brand",
+    "Product Code",
+    "Number of Slices per Pizza",
+    "Bid Price per Whole Pizza",
+    "Smart Snack Compliant? ",
+    "Price Per Slice",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "14\" PIZZA, PEPPERONI: 14\" round, Pepperoni Pizza, Pre-sliced into 8 equal pieces, WG crust, RF/RS Pepperoni with Cheese, 100% lite mozzarella, tomato sauce made from crushed tomatoes and spices, fully cooked, to be delivered in insulated bags. Maximum 1 slice ea. serving to provide 2 M/MA, 2 G, 0 F, 1/8 cup V/RO. Calories not to exceed 350. Sodium not to exceed 480 mg. Saturated Fat Less than 10% of calories.",
+     "519",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "#DIV/0!",
+     ""
+    ],
+    [
+     "14\" PIZZA, CHEESE: 14\" round, Cheese Pizza, pre-sliced into equal 8 pieces, WG crust, 100% lite mozzarella, tomato sauce made from crushed tomatoes and spices, fully cooked, to be delivered in insulated bags. Maximum 1/135g ea. serving to provide 2 M/MA, 2 G, 0 F, 1/8 cup V/RO. Calories not to exceed 350. Sodium not to exceed 480 mg. Saturated Fat less than 10% of calories.",
+     "222",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "#DIV/0!",
+     ""
+    ],
+    [
+     "Company Name",
+     "",
+     "",
+     "",
+     "     Name of Authorized Representative",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 54.7,
+  "attachment_fetches": 12,
+  "attachment_seconds": 45.5,
+  "attachment_bytes": 6613095,
+  "max_fetch_seconds": 20.22,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:53:28.844320+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/killeen-isd-tx-26-31-07-233-addendum-1/coverage.json"
+}

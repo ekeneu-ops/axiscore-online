@@ -1,0 +1,267 @@
+{
+ "bid_id": "city-of-henderson-rfp-149-26-maximo-application-suite-upgrade-addendum-1",
+ "bid_number": "RFP 149-26 Maximo Application Suite Upgrade Addendum 1",
+ "agency": "City of Henderson",
+ "src": "Open",
+ "title": "RFP 149-26 Maximo Application Suite Upgrade",
+ "close": "7/14/2026 08:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 71,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "City of Henderson MAS Transition RFP 149-26 0625.pdf",
+  "Appendix A.1 - MAS Transition Requirements Cloud SaaS - 20260611.pdf",
+  "Appendix A.2 - MAS Transition Requirements OnPremises- 20260611.pdf",
+  "Appendix B - Indicative Technology Contracting Conditions.pdf",
+  "Appendix C _ Sample Financial Stability and Non-Disclosure Letter.pdf",
+  "Appendix D - AI Questionnaire.pdf",
+  "Appendix E.1 - MAS_Integration_Matrix_Cloud_SaaS - 20260624.xlsx",
+  "Appendix E.2 - MAS_Integration_Matrix_OnPrem - 20260624.xlsx",
+  "Appendix F - Cayenta-Maximo-Stored-Procedures-Summary.pdf",
+  "RFP Terms _ Conditions _Rev 8-18-2020_.pdf",
+  "Environmental and Safety Requirements.docx",
+  "COH NGEM Supplier User Guide _Rev 12-2016_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "City of Henderson MAS Transition RFP 149-26 0625.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix A.1 - MAS Transition Requirements Cloud SaaS - 20260611.pdf",
+   "kind": "pdf",
+   "tables": 20,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix A.2 - MAS Transition Requirements OnPremises- 20260611.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix B - Indicative Technology Contracting Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix C _ Sample Financial Stability and Non-Disclosure Letter.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix D - AI Questionnaire.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix E.1 - MAS_Integration_Matrix_Cloud_SaaS - 20260624.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Appendix E.2 - MAS_Integration_Matrix_OnPrem - 20260624.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Appendix F - Cayenta-Maximo-Stored-Procedures-Summary.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Terms _ Conditions _Rev 8-18-2020_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Environmental and Safety Requirements.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "COH NGEM Supplier User Guide _Rev 12-2016_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Appendix E.1 - MAS_Integration_Matrix_Cloud_SaaS - 20260624.xlsx",
+   "sheet": 0,
+   "header_row": 3,
+   "headers": [
+    "Req ID",
+    "Integration",
+    "Requirement Category",
+    "Requirement Description",
+    "Functional Area",
+    "Current Method",
+    "Target Method",
+    "Priority",
+    "Level of Effort",
+    "Dependencies",
+    "Unit Test Criteria",
+    "Test Status"
+   ],
+   "score": 2,
+   "n_rows": 71,
+   "sample": [
+    [
+     "4.1 Cayenta CIS \u2014 FULL REDESIGN REQUIRED",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "CIS-CL-001",
+     "Cayenta CIS",
+     "API Redesign",
+     "Redesign integration to use MAS 9.x REST/OSLC APIs for all WO data exchange",
+     "Work Order Management",
+     "DBLINK + PL/SQL",
+     "MAS REST/OSLC APIs",
+     "Critical",
+     "High",
+     "MAS 9.x API documentation; Cayenta vendor coordination",
+     "WOs created in Maximo via API; closed WOs retrieved via API; data integrity verified",
+     ""
+    ],
+    [
+     "CIS-CL-002",
+     "Cayenta CIS",
+     "API Redesign",
+     "Replace ~10 PL/SQL stored procedures with API-based equivalents or ETL middleware (FME)",
+     "Work Order Management",
+     "~10 PL/SQL procedures",
+     "REST API calls or FME flows",
+     "Critical",
+     "High",
+     "FME capacity assessment; Cayenta vendor",
+     "Each procedure's function replicated via API/FME; data matches PL/SQL output",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Appendix E.2 - MAS_Integration_Matrix_OnPrem - 20260624.xlsx",
+   "sheet": 0,
+   "header_row": 3,
+   "headers": [
+    "Req ID",
+    "Integration",
+    "Requirement Category",
+    "Requirement Description",
+    "Functional Area",
+    "Current Method",
+    "Target Method",
+    "Priority",
+    "Level of Effort",
+    "Dependencies",
+    "Unit Test Criteria",
+    "Test Status"
+   ],
+   "score": 2,
+   "n_rows": 67,
+   "sample": [
+    [
+     "4.1 Cayenta CIS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "CIS-OP-001",
+     "Cayenta CIS",
+     "Database Connectivity",
+     "Validate all ~10 PL/SQL stored procedures function correctly against MAS 9.x Maximo Manage database schema",
+     "Work Order Management",
+     "DBLINK + PL/SQL",
+     "Retain DBLINK + PL/SQL (on-prem)",
+     "High",
+     "Medium",
+     "MAS 9.x schema documentation",
+     "All PL/SQL procedures execute without errors; WO data matches expected results",
+     ""
+    ],
+    [
+     "CIS-OP-002",
+     "Cayenta CIS",
+     "Data Migration",
+     "Verify interface tables are migrated and schema-compatible with MAS 9.x",
+     "Work Order Management",
+     "Interface tables (inbound/outbound)",
+     "Retain interface tables",
+     "High",
+     "Low",
+     "MAS 9.x upgrade process",
+     "Interface table structure verified; test records processed successfully",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 30.1,
+  "attachment_fetches": 12,
+  "attachment_seconds": 18.9,
+  "attachment_bytes": 3140624,
+  "max_fetch_seconds": 3.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:38:51.091369+00:00",
+ "extract_attempts": 1,
+ "lines_total": 56,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-henderson-rfp-149-26-maximo-application-suite-upgrade-addendum-1/coverage.json"
+}

@@ -1,0 +1,163 @@
+{
+ "bid_id": "frisco-isd-tx-rfp-891-2026-05-32",
+ "bid_number": "RFP 891-2026-05-32",
+ "agency": "Frisco ISD, TX",
+ "src": "Invited",
+ "title": "Extended Open Instructional, Classroom, Athletic, & PE Supplies - Phase 2",
+ "close": "9/24/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:athletic",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1000,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Blank Vendor Application Packet 2026 rev 05.2026.pdf",
+  "FISD Standard_Requirements_rev 05 15 2026.pdf",
+  "FISD_Product__Service_Codes_FILLABLE.pdf",
+  "Insurance_Frisco_ISD_Vendor_Insurance_Requirements_w_Categories.pdf",
+  "Solicitation_Pricing_Template.xlsx",
+  "25-26 District Facility Map.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Blank Vendor Application Packet 2026 rev 05.2026.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FISD Standard_Requirements_rev 05 15 2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "FISD_Product__Service_Codes_FILLABLE.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance_Frisco_ISD_Vendor_Insurance_Requirements_w_Categories.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Solicitation_Pricing_Template.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "25-26 District Facility Map.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Solicitation_Pricing_Template.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Line #",
+    "Vendor Item #",
+    "Color or other Descriptive #",
+    "Product Description",
+    "Unit",
+    "Unit Cost"
+   ],
+   "score": 2,
+   "n_rows": 1000,
+   "sample": [
+    [
+     "1",
+     "",
+     "",
+     "",
+     "",
+     "0"
+    ],
+    [
+     "2",
+     "",
+     "",
+     "",
+     "",
+     "0"
+    ],
+    [
+     "3",
+     "",
+     "",
+     "",
+     "",
+     "0"
+    ]
+   ]
+  },
+  {
+   "source": "Solicitation_Pricing_Template.xlsx",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Line #",
+    "Service Description",
+    "Unit",
+    "Hourly Unit Cost"
+   ],
+   "score": 2,
+   "n_rows": 1000,
+   "sample": [
+    [
+     "1",
+     "",
+     "HR",
+     "0"
+    ],
+    [
+     "2",
+     "",
+     "HR",
+     "0"
+    ],
+    [
+     "3",
+     "",
+     "HR",
+     "0"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.4,
+  "attachment_fetches": 6,
+  "attachment_seconds": 6.7,
+  "attachment_bytes": 3719593,
+  "max_fetch_seconds": 2.05,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-19T08:49:12.215567+00:00",
+ "extract_attempts": 2,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/frisco-isd-tx-rfp-891-2026-05-32/coverage.json"
+}

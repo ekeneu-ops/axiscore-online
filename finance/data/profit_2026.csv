@@ -1,0 +1,23 @@
+section,label,amount,basis,source
+number_1,Amazon gross revenue 2026 (product ex-tax),1142904.46,sourced,mirror_magento.sales_flat_order 9964 live Amazon orders Jan1-Jun10
+number_1,Amazon fees 2026 (all types),-166098.09,SOURCED,spapi.financial_events run #53 (6/12): posted fees -149386.40 [Commission -156129.14; VariableClosing -3.82; refund-side commission returned +7652.35; RefundCommission -905.79] on 9009 of 10031 orders (89.94% of revenue) + tail accrual -16711.69 at the sourced 14.4624% rate on 115552.52 not-yet-posted; backfill complete 197765 events Dec24->today
+number_1,Refunds/chargebacks net 2026,-14813.35,sourced,mirror_magento.sales_flat_creditmemo 473 memos 2026
+number_1,AMAZON NET PROCEEDS,961993.02,derived,anchor: actual deposits May6-Jun3 = 204836.33
+number_1,Vendor billed - Essendant (Amazon-channel),-826966.15,sourced,vendor_invoice_list 9465 invoices (all-channel audit total 916619.63 reproduced exactly)
+number_1,Vendor billed - SP Richards (Amazon-channel),-34933.86,sourced,vendor_invoice_list 650 invoices (all-channel 69561.96)
+number_1,Vendor billed - FedEx freight (ERP table only),-625.90,sourced-partial,vendor_invoice_list fedex 27 invoices; full freight NOT in warehouse (payable ~12000 stamped 6/8) - NAMED GAP
+number_1,Vendor billed - ISG,0.00,GAP,no ISG table in warehouse; open payable 5343.41 (6/8); 2026 billed total needs portal feed
+number_1,EARNED PROFIT 2026 (Amazon channel),99467.11,derived,= 8.70% of gross revenue; no modeled components remain (fee line sourced 6/12)
+number_1_memo,All-channel-vendor-cost view (scope-mixed; see report),-30344.71,reference,charges Amazon revenue with ~124407 of non-Amazon-order cost
+number_1_memo,Open ESS/SPR vendor credits netting open invoices,37431.41,memo,finance/ap/data.json.credits 6/10; not netted into lines
+number_2,Earned profit 2026 (Amazon),99467.11,derived,Number 1
+number_2,+ Vendor AP billed-not-paid (ESS+SPR),238545.25,sourced,statement 197723.99 (6/3) + recent 40821.26 (live 6/10)
+number_2,- Amazon held funds (net),-168657.92,sourced,finance/ap/data.json held.net VALIDATED 6/12 vs Seller Central (delta 217.34 PASS); replaces stale 6/8 150237.20
+number_2,- Trade AR uncollected,-281.72,sourced-stale,recon 5/26
+number_2,NET CASH IMPACT TO DATE,169072.72,derived,was 182088.67: +5404.77 fee correction -18420.72 held refresh
+number_2_memo,Liquid cash now (Plaid live 6/10),55368.34,sourced,net_position.json 2026-06-10T14:50Z
+number_2_memo,Residual vs bank,UNKNOWN,GAP,no Jan-1 baseline or 2026 bank-transaction feed; ~126.7K implied to non-P&L outflows (ads/opex/debt/draws) if Jan-1 was ~0 - not forced
+context,Non-Amazon 2026 share,,info,295 live orders (2.9% of count) / 273618.74 grand (18.7% of live revenue) - excluded per brief
+reissue_v2,OLD earned profit (v1 6/10; fee MODELED 15.0059%),94062.34,reference,fee line was -171502.86
+reissue_v2,NEW earned profit (v2 6/12; fee SOURCED),99467.11,reference,fee-line difference +5404.77; headline 8.23% -> 8.70% on the same published revenue 1142904.46
+reissue_v2,Cash impact tie-out,169072.72,reference,182088.67 +5404.77 (fee) -18420.72 (held refreshed to validated net 168657.92)

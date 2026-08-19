@@ -1,0 +1,91 @@
+{
+ "bid_id": "humble-isd-tx-2026-105f",
+ "bid_number": "2026-105F",
+ "agency": "Humble ISD, TX",
+ "src": "Open",
+ "title": "GENERAL MERCHANDISE",
+ "close": "7/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026-105F - SPECIFICATIONS _ GUIDELINES.pdf",
+  "PRE-SERVICE AFFIDAVIT FOR EDUCATIONAL ENTITIES.pdf",
+  "FORM 1295 INSTRUCTIONS 2026-105F.pdf",
+  "INSTRUCTIONS FOR REFERENCES - 2026-105F.pdf",
+  "ASBESTOS SHORT TERM WORKER NOTIFICATION.pdf",
+  "W9_2024.pdf",
+  "REQUEST FOR CATALOG.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-105F - SPECIFICATIONS _ GUIDELINES.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PRE-SERVICE AFFIDAVIT FOR EDUCATIONAL ENTITIES.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORM 1295 INSTRUCTIONS 2026-105F.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "INSTRUCTIONS FOR REFERENCES - 2026-105F.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ASBESTOS SHORT TERM WORKER NOTIFICATION.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W9_2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "REQUEST FOR CATALOG.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 28.1,
+  "attachment_fetches": 7,
+  "attachment_seconds": 12.3,
+  "attachment_bytes": 1003215,
+  "max_fetch_seconds": 2.73,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:19:37.560075+00:00",
+ "extract_attempts": 1
+}

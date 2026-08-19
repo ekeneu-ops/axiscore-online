@@ -1,0 +1,162 @@
+{
+ "bid_id": "city-of-columbia-sc-bid038-25-26-kdd",
+ "bid_number": "BID038-25-26-KDD",
+ "agency": "City of Columbia, SC",
+ "src": "Invited",
+ "title": "Williams St. Connector Rebid",
+ "close": "8/6/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 87,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Base Bid (do not include Alternate Pricing)",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Base Bid (do not include Alternate Pricing) 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Final.BID038-25-26-KDD.pdf",
+  "Exhibit - GeotechnicalInformation.BID038-25-26-KDD.pdf",
+  "Appendices.BID038-25-26-KDD.pdf",
+  "Appendix - Bid Form.BID038-25-26-KDD.xlsx",
+  "Appendix - BIRforSubconsultants-Subcontractors.BID017-25-26-KDD.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Final.BID038-25-26-KDD.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit - GeotechnicalInformation.BID038-25-26-KDD.pdf",
+   "kind": "pdf",
+   "tables": 96,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendices.BID038-25-26-KDD.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix - Bid Form.BID038-25-26-KDD.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Appendix - BIRforSubconsultants-Subcontractors.BID017-25-26-KDD.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Appendix - Bid Form.BID038-25-26-KDD.xlsx",
+   "sheet": 0,
+   "header_row": 4,
+   "headers": [
+    "Line Item",
+    "Item Description",
+    "Quantity",
+    "Unit",
+    "Unit Price",
+    "Total",
+    "Removal of Lower Devine St",
+    "Total",
+    "Cycle Track Integrally Colored Concrete",
+    "Total",
+    "Removal of Cycle Curb",
+    "Total"
+   ],
+   "score": 3,
+   "n_rows": 87,
+   "sample": [
+    [
+     "1",
+     "Mobilization and Bonds (Mobilization shall not be more than 5% of the total bid amount)",
+     "1",
+     "LS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "DEMOLITION",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Undercut and Removal of Construction and Demolition Debris Area",
+     "20000",
+     "CY",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx",
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
+ ],
+ "latency": {
+  "bid_seconds": 178.8,
+  "attachment_fetches": 7,
+  "attachment_seconds": 139.7,
+  "attachment_bytes": 61828430,
+  "max_fetch_seconds": 45.02,
+  "throttle_signals": 4,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:02:28.662735+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-columbia-sc-bid038-25-26-kdd/coverage.json"
+}

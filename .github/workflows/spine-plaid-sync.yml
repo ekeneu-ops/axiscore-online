@@ -1,0 +1,93 @@
+# .github/workflows/spine-plaid-sync.yml
+# Pull bank transactions (Plaid /transactions/sync) into plaid.transactions.
+#
+# Bank transactions are the DEPOSIT side of settlement reconciliation: matching
+# Authorize.net settled batches to real BOA credits is what makes the in-transit figure
+# self-correcting instead of a "assume 2-3 days" guess that double-counts whenever a
+# deposit lands early. Also the substrate for Amazon settlement recon and the AR work.
+#
+# Cadence: hourly. Bank postings are not hourly, but deposits land during the day and the
+# job is cheap and idempotent (upsert by Plaid's transaction_id). NOTE the measured
+# constraint on this repo: GitHub drops high-frequency schedules, so treat this cron as
+# best-effort — the data is cumulative, so a missed hour costs nothing, unlike a missed
+# snapshot feed.
+name: spine-plaid-sync
+
+on:
+  schedule:
+    - cron: "25 * * * *"   # offset off :00, the most contended slot
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "runner MODE"
+        required: false
+        default: plaid_transactions
+        type: choice
+        options: [plaid_transactions, plaid_refresh, plaid_probe, plaid_balances_raw]
+
+concurrency:
+  group: spine-plaid-sync
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+
+env:
+  AWS_REGION: us-east-1
+  READER_ROLE: arn:aws:iam::114812789687:role/mc-spine-finance-reader
+  CLUSTER: mc-spine-cluster
+  TASK_DEF: mc-spine-finance-runner
+  LOG_GROUP: /mc-spine/finance-runner
+  SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
+  SECURITY_GROUPS: sg-0b0521438f059e5fc
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment: spine-read
+    steps:
+      - name: AWS credentials via OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.READER_ROLE }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: RunTask (MODE from input)
+        id: run
+        run: |
+          MODE="${{ inputs.mode || 'plaid_transactions' }}"
+          echo "MODE=$MODE"
+          OVERRIDES=$(jq -nc --arg m "$MODE" '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:$m}]}]}')
+          TASK_ARN=$(aws ecs run-task \
+            --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          [ -n "$TASK_ARN" ] && [ "$TASK_ARN" != "None" ] || { echo "no task ARN" >&2; exit 1; }
+          echo "task_arn=$TASK_ARN" >> "$GITHUB_OUTPUT"
+
+      - name: Wait + report
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"; TASK_ID="${TASK_ARN##*/}"
+          for i in $(seq 1 60); do
+            S=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].lastStatus' --output text)
+            [ "$S" = "STOPPED" ] && break
+            [ "$i" -eq 60 ] && { echo "timed out" >&2; exit 1; }
+            sleep 10
+          done
+          EC=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "exitCode=$EC"
+          aws logs get-log-events --log-group-name "$LOG_GROUP" \
+            --log-stream-name "query/finance-runner/$TASK_ID" \
+            --query 'events[].message' --output text 2>/dev/null | tr '\t' '\n' > /tmp/tasklog.txt || true
+          echo "--- log lines: $(wc -l < /tmp/tasklog.txt) ---"
+          if [ "$EC" = "0" ]; then
+            grep -iE "plaid sync|plaid item|plaid balance|plaid refresh|totals" /tmp/tasklog.txt || true
+          else
+            echo "--- stoppedReason ---"
+            aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" \
+              --query 'tasks[0].[stoppedReason,containers[0].reason]' --output text || true
+            echo "--- last 60 raw log lines ---"
+            tail -60 /tmp/tasklog.txt
+            echo "plaid sync task failed" >&2; exit 1
+          fi

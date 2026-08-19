@@ -1,0 +1,93 @@
+{
+ "bid_id": "urban-redevelopment-authority-of-pittsburgh-pa-062226",
+ "bid_number": "062226",
+ "agency": "Urban Redevelopment Authority of Pittsburgh, PA",
+ "src": "Open",
+ "title": "Larimer Scattered Sites RFI",
+ "close": "8/24/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Larimer Scattered Sites RFI.pdf",
+  "Exhibit A - Larimer Assemblage 1 Map.pdf",
+  "Exhibit B - Larimer Assemblage 2 Map.pdf",
+  "Exhibit C - Larimer Assemblage 1 Parcel Numbers.xls",
+  "Exhibit D- Larimer Site Assemblage 2 Parcel Numbers.xls",
+  "Exhibit F - RFI Summary Sheet.pdf",
+  "Exhibit G - URA Disposition Process Overview.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Larimer Scattered Sites RFI.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A - Larimer Assemblage 1 Map.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B - Larimer Assemblage 2 Map.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C - Larimer Assemblage 1 Parcel Numbers.xls",
+   "kind": "xls",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D- Larimer Site Assemblage 2 Parcel Numbers.xls",
+   "kind": "xls",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit F - RFI Summary Sheet.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit G - URA Disposition Process Overview.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
+ ],
+ "latency": {
+  "bid_seconds": 61.8,
+  "attachment_fetches": 8,
+  "attachment_seconds": 54.4,
+  "attachment_bytes": 2617839,
+  "max_fetch_seconds": 45.01,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:05:35.763453+00:00",
+ "extract_attempts": 1
+}

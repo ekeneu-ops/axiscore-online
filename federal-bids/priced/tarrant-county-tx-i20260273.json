@@ -1,0 +1,79 @@
+{
+ "schema": "v2",
+ "bid_id": "tarrant-county-tx-i20260273",
+ "agency": "Tarrant County, TX",
+ "bid_number": "I20260273",
+ "title": "Annual Quote for Radiation Detection Badges",
+ "src": "Invited",
+ "close": "8/24/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-08-18T09:18:02.991238+00:00",
+ "cost_source": "best_cost_full_2026-08-17.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 3,
+ "priced_lines": 0,
+ "gap_lines": 3,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 3
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "FOR MEDICAL EXAMINER'S OFFICE, DOSIMETRY SERVICE, TLD XBGN (Quarterly)",
+   "qty": 29.0,
+   "uom": "QUARTERLY PRICE PER BADGE",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 2,
+   "desc": "FOR PUBLIC HEALTH DEPARTMENT, DOSIMETRY SERVICE, TLD XBD (STANDARD, BODY), with minimum reportable dose of 10 mrem (.10mSv)",
+   "qty": 3.0,
+   "uom": "MONTHLY PRICE PER BADGE",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 13,
+    "method": "tokens 2/11",
+    "ov": 2,
+    "vendor": "Synnex",
+    "sku": "SL-86-911-FSR-461-USB",
+    "matched_desc": "KEYBOARD MEETS MIL STANDARD 461, IDEAL FOR MILITARY AND PUBLIC SAFETY APPLICATIO",
+    "catalog_uom": "EA",
+    "pack_qty": 1,
+    "uom_normalized": false,
+    "uom_mismatch": true,
+    "raw_merch_cost": 335.55,
+    "raw_freight": 0.0,
+    "unit_merch_cost": 335.55,
+    "unit_freight": 0.0,
+    "landed_unit": 335.55
+   }
+  },
+  {
+   "line": 3,
+   "desc": "Rush Fee",
+   "qty": 1.0,
+   "uom": "PER SHIPMENT",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  }
+ ]
+}

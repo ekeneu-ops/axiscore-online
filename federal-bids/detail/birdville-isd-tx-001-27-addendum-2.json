@@ -1,0 +1,167 @@
+{
+ "bid_id": "birdville-isd-tx-001-27-addendum-2",
+ "bid_number": "001-27 Addendum 2",
+ "agency": "Birdville ISD, TX",
+ "src": "Open",
+ "title": "CTE Equipment, Supplies, Software & Related Services",
+ "close": "9/22/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:cte equipment",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Catalog Discount Off Supplies & Equipment",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Catalog Discount Off Supplies & Equipment 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Discount off Service Parts",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Discount off Service Parts 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Shipping Cost",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Catalog Discount Off Supplies & Equipment 1 No Response Add Notes 2 Discount off Service Parts 1 No Response Add Notes 3 Shipping Cost 1 No Response Add Alternate No Bid Add Notes 4 Hourly Rate for Onsite Repairs/Services Hour No Response Add Notes 5 Trip Charge for Onsite Repairs/Services 1 No Response Add Alternate No Bid Add Notes"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Hourly Rate for Onsite Repairs/Services",
+   "qty": "",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Hourly Rate for Onsite Repairs/Services Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Trip Charge for Onsite Repairs/Services",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Trip Charge for Onsite Repairs/Services 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "April 2023 - BISD Standard Terms and Conditions.pdf",
+  "fw9.pdf",
+  "CIQ2021.pdf",
+  "1295_With_Instructions and video help links.pdf",
+  "2026-27-BISD-InstructionalCalendar_ADA.pdf",
+  "Campus List 2025 - 2026.pdf",
+  "To print a pdf version of the proposal document.pdf",
+  "preemployment-preservice-affidavit-tec-22a055.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "April 2023 - BISD Standard Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ2021.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295_With_Instructions and video help links.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-27-BISD-InstructionalCalendar_ADA.pdf",
+   "kind": "pdf",
+   "tables": 16,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Campus List 2025 - 2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "To print a pdf version of the proposal document.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "preemployment-preservice-affidavit-tec-22a055.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 21.6,
+  "attachment_fetches": 8,
+  "attachment_seconds": 8.6,
+  "attachment_bytes": 3672990,
+  "max_fetch_seconds": 2.45,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:17:56.129249+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/birdville-isd-tx-001-27-addendum-2/coverage.json"
+}

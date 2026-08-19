@@ -1,0 +1,87 @@
+{
+ "bid_id": "iowa-state-university-rfq-1001494",
+ "bid_number": "RFQ-1001494",
+ "agency": "Iowa State University",
+ "src": "Open",
+ "title": "Soybean Meal for ISU Kent Feed Mill and Grain Science Complex",
+ "close": "8/19/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Soybean Meal Delivered For the period approximately upon award through 11/15/2026 (provide pricing per ton)",
+   "qty": "645",
+   "uom": "Ton",
+   "note": "This bid is for the total quantity of 645 ton and orders can be placed at any time until the quantity is used up",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Soybean Meal Delivered For the period approximately upon award through 11/15/2026 (provide pricing per ton) 645 Ton No Response"
+  }
+ ],
+ "attachments_saved": [
+  "ISU Instructions.pdf",
+  "ISU General Terms _ Conditions.pdf",
+  "Insurance Language - Service and Delivery.pdf",
+  "Scope of Work.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ISU Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ISU General Terms _ Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Language - Service and Delivery.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 16.4,
+  "attachment_fetches": 4,
+  "attachment_seconds": 4.0,
+  "attachment_bytes": 1164480,
+  "max_fetch_seconds": 1.34,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:24:14.752797+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/iowa-state-university-rfq-1001494/coverage.json"
+}

@@ -1,0 +1,135 @@
+# .github/workflows/spine-net-position-refresh.yml
+# HANDS-FREE recurring Plaid refresh for the Net Position feed. Runs on a schedule
+# with NO human approval: it assumes the DE-GATED reader role via the `spine-read`
+# environment (which has no required reviewers), RunTask's the EXISTING finance-runner
+# image (:live) with MODE=net_position_plaid, captures the Plaid balances from
+# CloudWatch, writes them into finance/data/net_position.json, and commits with the
+# workflow's own GITHUB_TOKEN. No image build, no Mac Mini, no manual step.
+#
+# Cadence is every 4h so the page's freshness badge stays green (<8h). Plaid is a
+# read-only balance call. If the task or capture fails, the job fails WITHOUT
+# committing — the page keeps the last value (stamped stale) and the next run retries.
+name: spine-net-position-refresh
+
+on:
+  schedule:
+    # HOURLY (was every 4h). Two reasons, one of them non-obvious:
+    #  1. Ekene wants fresher cash values.
+    #  2. This is the ONE scheduled workflow in this repo that GitHub reliably honours
+    #     (8/8 on time), and spine-np-live chains off its completion via workflow_run.
+    #     So its cadence is also the AP/held cadence. GitHub is throttling NEW and
+    #     HIGH-FREQUENCY schedules here — spine-np-live got 1 fire in 4h at */20, and
+    #     spine-freshness-watchdog got 0 fires in 3h at hourly — while established
+    #     low-frequency jobs keep firing. Raising the cadence of an ESTABLISHED workflow
+    #     tests whether the throttling tracks the workflow or the frequency, and if it is
+    #     honoured it drives the whole chain hourly without any new infrastructure.
+    # Cheap: one ~70s Fargate Plaid read; the job commits only when balances changed.
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  id-token: write      # OIDC -> assume the reader role
+  contents: write      # commit the refreshed net_position.json
+
+env:
+  AWS_REGION: us-east-1
+  READER_ROLE: arn:aws:iam::114812789687:role/mc-spine-finance-reader
+  CLUSTER: mc-spine-cluster
+  TASK_DEF: mc-spine-finance-runner
+  LOG_GROUP: /mc-spine/finance-runner
+  SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
+  SECURITY_GROUPS: sg-0b0521438f059e5fc
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment: spine-read   # de-gated: NO required reviewers -> scheduled runs proceed unattended
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: AWS credentials via OIDC (de-gated reader role)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.READER_ROLE }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: RunTask MODE=net_position_plaid (existing :live image, no build)
+        id: run
+        run: |
+          OVERRIDES=$(jq -nc '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"net_position_plaid"}]}]}')
+          TASK_ARN=$(aws ecs run-task \
+            --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          [ -n "$TASK_ARN" ] && [ "$TASK_ARN" != "None" ] || { echo "no task ARN"; exit 1; }
+          echo "task_arn=$TASK_ARN" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for STOPPED
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"
+          for i in $(seq 1 60); do
+            S=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].lastStatus' --output text)
+            echo "poll $i: $S"; [ "$S" = "STOPPED" ] && break; sleep 10
+          done
+          EC=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "exitCode=$EC"; [ "$EC" = "0" ] || { echo "task failed"; exit 1; }
+
+      - name: Capture balances + commit (fail-closed)
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"; TASK_ID="${TASK_ARN##*/}"
+          MSG=$(aws logs get-log-events --log-group-name "$LOG_GROUP" \
+                --log-stream-name "query/finance-runner/$TASK_ID" \
+                --query 'events[].message' --output text)
+          PB=$(echo "$MSG" | tr '\t' '\n' | grep -o '{"plaid".*}' | head -1)
+          test -n "$PB" || { echo "no Plaid JSON in logs — failing closed"; exit 1; }
+          echo "$PB" | jq -e '.plaid.accounts | length > 0' >/dev/null || { echo "0 accounts — failing closed"; exit 1; }
+          # Keep the fetched block on disk so a reset can never lose it.
+          printf '%s' "$PB" > /tmp/plaid_block.json
+          # Re-apply ONLY the plaid + generated_at keys onto whatever net_position.json
+          # currently says. Deliberately surgical: this file also carries ap, fedex,
+          # fba_stock and isg_payable, which other processes and humans edit — a whole-file
+          # overwrite would clobber their concurrent changes.
+          apply_plaid() {
+            python3 - <<'PY'
+          import json, datetime
+          plaid = json.load(open("/tmp/plaid_block.json"))["plaid"]
+          p = "finance/data/net_position.json"
+          f = json.load(open(p))
+          f["plaid"] = plaid
+          f["generated_at"] = datetime.datetime.now(datetime.timezone.utc).astimezone().isoformat()
+          json.dump(f, open(p, "w"), indent=2)
+          print("plaid fetched_at:", plaid.get("fetched_at"), "accts:", len(plaid.get("accounts", [])))
+          PY
+          }
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          apply_plaid
+          git add finance/data/net_position.json
+          if git diff --cached --quiet; then
+            echo "plaid unchanged - nothing to commit."
+          else
+            git commit -m "Net Position: scheduled Plaid refresh [skip ci]"
+            pushed=0
+            for attempt in 1 2 3 4 5; do
+              if git push; then echo "pushed"; pushed=1; break; fi
+              # This job went from every 4h to HOURLY, which put it in contention with
+              # np-live (~every 20 min), spine-ap-refresh and the held-funds agent — all
+              # committing to this repo. It had a BARE `git push` and no retry, so the first
+              # collision killed it (run 30674474821), which also stopped the workflow_run
+              # chaining that drives np-live. Raising a cadence without hardening the push
+              # is what broke it; this is the same conflict-proof replay used by np-live.
+              echo "push rejected (attempt $attempt) - replaying plaid onto latest main"
+              git fetch origin main || { echo "fetch failed" >&2; exit 1; }
+              git reset --hard origin/main || { echo "reset failed" >&2; exit 1; }
+              apply_plaid
+              git add finance/data/net_position.json
+              if git diff --cached --quiet; then
+                echo "another run already published these balances - nothing to do."
+                pushed=1; break
+              fi
+              git commit -m "Net Position: scheduled Plaid refresh [skip ci]"
+              sleep $((RANDOM % 4 + 2))
+            done
+            [ "$pushed" = "1" ] || { echo "push failed after retries" >&2; exit 1; }
+          fi

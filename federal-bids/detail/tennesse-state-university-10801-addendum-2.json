@@ -1,0 +1,210 @@
+{
+ "bid_id": "tennesse-state-university-10801-addendum-2",
+ "bid_number": "10801 Addendum 2",
+ "agency": "Tennesse State University",
+ "src": "Open",
+ "title": "Athletic Fields Maintenance Services",
+ "close": "7/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:athletic",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 85,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Invitation to Bid 10801.Athletic Fields Maintenance Services.pdf",
+  "ITB 10801.Scope of Work.pdf",
+  "ITB 10801.Fillable.Bid Envelope Form.pdf",
+  "Fillable.TSU Vendor Application with Minority-Ethnicity _ Direct Deposit Forms.pdf",
+  "ITB 10808.Questions _ Responses.pdf",
+  "ITB 10801.Cost Sheet.REVISED.xls"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Invitation to Bid 10801.Athletic Fields Maintenance Services.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "ITB 10801.Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ITB 10801.Fillable.Bid Envelope Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Fillable.TSU Vendor Application with Minority-Ethnicity _ Direct Deposit Forms.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ITB 10808.Questions _ Responses.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ITB 10801.Cost Sheet.REVISED.xls",
+   "kind": "xls",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Invitation to Bid 10801.Athletic Fields Maintenance Services.pdf",
+   "sheet": 0,
+   "header_row": 16,
+   "headers": [
+    "Item\nNo.",
+    "",
+    "Item Description",
+    "",
+    "",
+    "",
+    "Qty.",
+    "",
+    "",
+    "",
+    "",
+    "Unit",
+    "",
+    "Brand or\nGrade",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "",
+     "Labor, materials and equipment to provide athletic\nfield maintenance in accordance with the Scope of\nWork (SOW) (Attachment A)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "If unable to bid, please indicate \"NO BID\" and return. S ealed Bids: One copy of all bid sheets and this form must be\nSee Standard Terms and Conditions. e xecuted and returned in a sealed envelope.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "ITB 10801.Cost Sheet.REVISED.xls",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "No.",
+    "Item(s) Description",
+    "Catalog No.",
+    "Qty",
+    "UOM",
+    "Brand/ Grade",
+    "Unit Price",
+    "Extension"
+   ],
+   "score": 3,
+   "n_rows": 85,
+   "sample": [
+    [
+     "I",
+     "BASE BID",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "A",
+     "Irrigation System",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "1. Spring Start Up",
+     "",
+     "1.0",
+     "EA",
+     "",
+     "",
+     "0.0"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 20.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 12.2,
+  "attachment_bytes": 6531693,
+  "max_fetch_seconds": 6.05,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T13:55:17.829315+00:00",
+ "extract_attempts": 1,
+ "lines_total": 81,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/tennesse-state-university-10801-addendum-2/coverage.json"
+}

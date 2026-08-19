@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-punta-gorda-fl-q2025117",
+ "bid_number": "Q2025117",
+ "agency": "City of Punta Gorda, FL",
+ "src": "Open",
+ "title": "MAT-ASPHALT/2526 Asphalt Material",
+ "close": "7/15/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:asphalt",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 6,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Q2025117Notice.pdf",
+  "Q2025117D.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Q2025117Notice.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Q2025117D.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Q2025117D.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "UOM",
+    "Estimated\nAnnual\nQuantity",
+    "Unit Price",
+    "Extended Price"
+   ],
+   "score": 3,
+   "n_rows": 6,
+   "sample": [
+    [
+     "1",
+     "Asphalt Base Course (ABC) Type 1",
+     "Ton",
+     "5",
+     "$",
+     "$"
+    ],
+    [
+     "2",
+     "Type S-111",
+     "Ton",
+     "10",
+     "$",
+     "$"
+    ],
+    [
+     "3",
+     "Super Pave 9.5",
+     "Ton",
+     "50",
+     "$",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.6,
+  "attachment_fetches": 2,
+  "attachment_seconds": 3.1,
+  "attachment_bytes": 667040,
+  "max_fetch_seconds": 2.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:44:48.130638+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-punta-gorda-fl-q2025117/coverage.json"
+}

@@ -1,0 +1,101 @@
+{
+ "bid_id": "city-of-columbia-mo-56-2026",
+ "bid_number": "56/2026",
+ "agency": "City of Columbia, MO",
+ "src": "Invited",
+ "title": "Enterprise Asset Management and Work Order Software",
+ "close": "8/31/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "56-2026 Ent Asset Mngmt and WO Software.Final.pdf",
+  "56-2026 Ent Asset Mngmt and WO Software.FINAL.docx",
+  "RFP 56-2026 - Sample Contract.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "56-2026 Ent Asset Mngmt and WO Software.Final.pdf",
+   "kind": "pdf",
+   "tables": 29,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "56-2026 Ent Asset Mngmt and WO Software.FINAL.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 56-2026 - Sample Contract.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "56-2026 Ent Asset Mngmt and WO Software.Final.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "Line\nItem",
+    "Description",
+    "Original\nContract\nPeriod Firm,\nFixed Price",
+    "1st Renewal\nPeriod\nMaximum\nPrice",
+    "2nd Renewal\nPeriod\nMaximum\nPrice",
+    "3rd Renewal\nPeriod\nMaximum\nPrice",
+    "4th Renewal\nPeriod\nMaximum\nPrice"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "1",
+     "Implementation Services\n(Phase One): Total\nFirm, fixed price for all\nconfiguration and\nintegration services for\nPhase One as stated\nherein.",
+     "$________",
+     "NA",
+     "NA",
+     "NA",
+     "NA"
+    ],
+    [
+     "2",
+     "Proposed Solution Cost\n(Annual): Firm, fixed\nannual price for the\nsoftware solution,\nincluding licensing,\nhosting, and support for\napproximately 70 users.",
+     "$__________",
+     "$__________",
+     "$_________",
+     "$__________",
+     "$__________"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.8,
+  "attachment_fetches": 3,
+  "attachment_seconds": 3.1,
+  "attachment_bytes": 1592411,
+  "max_fetch_seconds": 1.8,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:31:19.219721+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-columbia-mo-56-2026/coverage.json"
+}

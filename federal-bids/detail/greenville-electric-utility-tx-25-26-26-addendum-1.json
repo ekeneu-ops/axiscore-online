@@ -1,0 +1,532 @@
+{
+ "bid_id": "greenville-electric-utility-tx-25-26-26-addendum-1",
+ "bid_number": "25-26-26 Addendum 1",
+ "agency": "Greenville Electric Utility, TX",
+ "src": "Open",
+ "title": "GEUS Warehouse Yard Expansion",
+ "close": "8/19/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 20,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 30,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Line Item 101: Mobilization",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Line Item 101: Mobilization 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Line Item 102: Site Clearing and Grubbing (Includes all tree, brush, and root system removal)",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Line Item 102: Site Clearing and Grubbing (Includes all tree, brush, and root system removal) 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Line Item 103: Erosion Control",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Line Item 103: Erosion Control 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "Line Item 104: Remove & Dispose Concrete Curb and Gutter",
+   "qty": "96",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 Line Item 104: Remove & Dispose Concrete Curb and Gutter 96 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "Line Item 105: Remove & Dispose of Concrete Pavement",
+   "qty": "190",
+   "uom": "Square Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 Line Item 105: Remove & Dispose of Concrete Pavement 190 Square Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "1.6",
+   "desc": "Line Item 106: Remove & Dispose of Existing Chain Link Fence",
+   "qty": "590",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.6 Line Item 106: Remove & Dispose of Existing Chain Link Fence 590 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "1.7",
+   "desc": "Line Item 107: Remove and Dispose of 60\" CMP",
+   "qty": "15",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.7 Line Item 107: Remove and Dispose of 60\" CMP 15 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine9",
+   "kind": "package_line",
+   "line": "1.8",
+   "desc": "Line Item 108: Earthwork Activities",
+   "qty": "5500",
+   "uom": "Cubic Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.8 Line Item 108: Earthwork Activities 5500 Cubic Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "1.9",
+   "desc": "Line Item 201: Gravel Area (6\"- 12\" Thickness) Under Existing Pole Racks",
+   "qty": "988",
+   "uom": "Square Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.9 Line Item 201: Gravel Area (6\"- 12\" Thickness) Under Existing Pole Racks 988 Square Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "1.10",
+   "desc": "Line Item 202: Furnish & Install 6\" Concrete Pavement",
+   "qty": "4716",
+   "uom": "Square Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.10 Line Item 202: Furnish & Install 6\" Concrete Pavement 4716 Square Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "1.11",
+   "desc": "Line Item 203: Furnish & Install 8\" Concrete Pavement",
+   "qty": "5993",
+   "uom": "Square Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.11 Line Item 203: Furnish & Install 8\" Concrete Pavement 5993 Square Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine13",
+   "kind": "package_line",
+   "line": "1.12",
+   "desc": "Line Item 204: Lime Stabilize Subgrade 6\"",
+   "qty": "10709",
+   "uom": "Square Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.12 Line Item 204: Lime Stabilize Subgrade 6\" 10709 Square Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine14",
+   "kind": "package_line",
+   "line": "1.13",
+   "desc": "Line Item 205: Lime Material for Subgrade Stabilization",
+   "qty": "194",
+   "uom": "Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.13 Line Item 205: Lime Material for Subgrade Stabilization 194 Ton No Response"
+  },
+  {
+   "ctl": "ucPackageLine15",
+   "kind": "package_line",
+   "line": "1.14",
+   "desc": "Line Item 301: Furnish & Install 12\" HDPE",
+   "qty": "446",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.14 Line Item 301: Furnish & Install 12\" HDPE 446 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine16",
+   "kind": "package_line",
+   "line": "1.15",
+   "desc": "Line Item 302: Furnish & Install 3'x3' Drop Grate",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.15 Line Item 302: Furnish & Install 3'x3' Drop Grate 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine17",
+   "kind": "package_line",
+   "line": "1.16",
+   "desc": "Line Item 303: Furnish & Install Detention Pond Outlet",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.16 Line Item 303: Furnish & Install Detention Pond Outlet 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine18",
+   "kind": "package_line",
+   "line": "1.17",
+   "desc": "Line Item 304: Furnish & Install Rock Rip Rap",
+   "qty": "21",
+   "uom": "Square Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.17 Line Item 304: Furnish & Install Rock Rip Rap 21 Square Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine19",
+   "kind": "package_line",
+   "line": "1.18",
+   "desc": "Line Item 305: Adjust to Grade - Sewer Manhole",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.18 Line Item 305: Adjust to Grade - Sewer Manhole 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine20",
+   "kind": "package_line",
+   "line": "1.19",
+   "desc": "Line Item 306: Furnish & Install 8' Chain Link Fence",
+   "qty": "783",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.19 Line Item 306: Furnish & Install 8' Chain Link Fence 783 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine22",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Remove and Dispose Concrete Pavement",
+   "qty": "52",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Remove and Dispose Concrete Pavement 52 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine23",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Remove and Dispose of Existing Chain Link Fence",
+   "qty": "785",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Remove and Dispose of Existing Chain Link Fence 785 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine24",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "Earthwork Activities",
+   "qty": "2000",
+   "uom": "Cubic Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 Earthwork Activities 2000 Cubic Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine25",
+   "kind": "package_line",
+   "line": "2.4",
+   "desc": "Furnish & Install 5\" Concrete Pavement",
+   "qty": "3270",
+   "uom": "Square Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.4 Furnish & Install 5\" Concrete Pavement 3270 Square Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine26",
+   "kind": "package_line",
+   "line": "2.5",
+   "desc": "Furnish & Install 7\" Concrete Pavement",
+   "qty": "2114",
+   "uom": "Square Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.5 Furnish & Install 7\" Concrete Pavement 2114 Square Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine27",
+   "kind": "package_line",
+   "line": "2.6",
+   "desc": "Lime Stabilize Subgrade 6\"",
+   "qty": "5384",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.6 Lime Stabilize Subgrade 6\" 5384 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine28",
+   "kind": "package_line",
+   "line": "2.7",
+   "desc": "Lime Material for Subgrade Stabilization",
+   "qty": "292",
+   "uom": "Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.7 Lime Material for Subgrade Stabilization 292 Ton No Response"
+  },
+  {
+   "ctl": "ucPackageLine29",
+   "kind": "package_line",
+   "line": "2.8",
+   "desc": "Furnish & Install 8' Chain Link Fence",
+   "qty": "830",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.8 Furnish & Install 8' Chain Link Fence 830 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine30",
+   "kind": "package_line",
+   "line": "2.9",
+   "desc": "Furnish & Install 30\" HDPE",
+   "qty": "328",
+   "uom": "Linear Foot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.9 Furnish & Install 30\" HDPE 328 Linear Foot No Response"
+  },
+  {
+   "ctl": "ucPackageLine31",
+   "kind": "package_line",
+   "line": "2.10",
+   "desc": "Excess Earthwork Material Haul Off",
+   "qty": "3000",
+   "uom": "Cubic Yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.10 Excess Earthwork Material Haul Off 3000 Cubic Yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine33",
+   "kind": "package_line",
+   "line": "3.1",
+   "desc": "Landscaping",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.1 Landscaping 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "GEUS Storage Yard Expansion Civil Set 7-22-26.pdf",
+  "10006196_001 GEUS Building and Storage Yard Expansion Report.pdf",
+  "GEUS Bid Tab.pdf",
+  "GEUS Bid Descrip.pdf",
+  "25-26-26 Contractor Qualifications Statement.docx",
+  "GEUS Vendor Forms 071625.pdf",
+  "25-26-26 DRAFT GEUS Contract for Construction 080526.pdf",
+  "25-26-26 SITE VISIT SIGN IN SHEET.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "GEUS Storage Yard Expansion Civil Set 7-22-26.pdf",
+   "kind": "pdf",
+   "tables": 14,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "10006196_001 GEUS Building and Storage Yard Expansion Report.pdf",
+   "kind": "pdf",
+   "tables": 41,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "GEUS Bid Tab.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "GEUS Bid Descrip.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "25-26-26 Contractor Qualifications Statement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "GEUS Vendor Forms 071625.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "25-26-26 DRAFT GEUS Contract for Construction 080526.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "25-26-26 SITE VISIT SIGN IN SHEET.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "GEUS Bid Descrip.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Item Description",
+    "Unit",
+    "Specification Description"
+   ],
+   "score": 2,
+   "n_rows": 12,
+   "sample": [
+    [
+     "101",
+     "Mobilization",
+     "LS",
+     "This pay item shall consist of mobilization and demobilization for the construction of the project. The\nproject shall be constructed in phases as shown in the plans. This pay item shall be inclusive of any\nand all mobilizations and demobilizations associated with the project. Mobilization shall be defined as\nall necessary equipment, supplies, materials, and personnel on the job site ready to begin\nconstruction."
+    ],
+    [
+     "102",
+     "Site Clearing and Grubbing (Includes all\nTree, brush, and root system removal)",
+     "LS",
+     "Construct in accordance with NCTCOG specification 204.1 . Measurement and payment shall be as\nlisted in bid proposal."
+    ],
+    [
+     "103",
+     "Erosion Control",
+     "LS",
+     "Provide a Storm Water Pollution Prevention Plan (SWPPP) for storm water discharge in accordance\nwith TPDES general permit TXR150000 and or EPA regulations. This shall include the assumption of\nresponsibility of said pollution prevention system, including the design and implementation of said\nsystem, complete in place. Moreover, when it comes to (SWPPP), the contractor has the sole\nauthority, responsibility and control over plans and specification of the said (SWPPP) only and can\nmake changes to those specifications for the entire project as he deems necessary or needed to\nremain in compliance with the TCEQ and or EPA regulations. Construct all items included in (SWPPP)\nin accordance with NCTCOG specification 202. Measurement and payment shall be as listed in the bid\nproposal and include all items deemed necessary for compliance with said (SWPPP)."
+    ]
+   ]
+  },
+  {
+   "source": "GEUS Bid Descrip.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Item Description",
+    "Unit",
+    "Specification Description"
+   ],
+   "score": 2,
+   "n_rows": 20,
+   "sample": [
+    [
+     "205",
+     "LIME MATERIAL FOR SUBGRADE\nSTABILIZATION",
+     "TON",
+     "Furnish lime material for subgrade stabilization in accordance with NCTCOG specification 301.2 (Lime\nTreatment) Measurement and payment shall be as listed in the bid proposal."
+    ],
+    [
+     "301",
+     "FURNISH & INSTALL 12\" HDPE",
+     "LF",
+     "Furnish and install 12-inch HDPE storm drain pipe in accordance with NCTCOG specification 501.22\n(Thermoplastic Corrugated / Smooth-Lined Storm Water Pipe and Fittings), with trench excavation,\nembedment, and backfill per NCTCOG 504 and 505 (Open Cut).Measurement and payment shall be as\nlisted in the bid proposal."
+    ],
+    [
+     "302",
+     "FURNISH & INSTALL 3\" X 3\" DROP\nGRATE",
+     "EA",
+     "Furnish and install 3-ft by 3-ft drop inlet grate in accordance with NCTCOG specification 502.12\n(Structures) and applicable Standard Drawings (Division 6000, Storm Water Drainage). Measurement\nand payment shall be as listed in the bid proposal."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 106.5,
+  "attachment_fetches": 8,
+  "attachment_seconds": 39.9,
+  "attachment_bytes": 21038448,
+  "max_fetch_seconds": 20.76,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:32:21.459003+00:00",
+ "extract_attempts": 1,
+ "lines_total": 20,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/greenville-electric-utility-tx-25-26-26-addendum-1/coverage.json"
+}

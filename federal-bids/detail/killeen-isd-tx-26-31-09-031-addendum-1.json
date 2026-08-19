@@ -1,0 +1,75 @@
+{
+ "bid_id": "killeen-isd-tx-26-31-09-031-addendum-1",
+ "bid_number": "26-31-09-031 Addendum 1",
+ "agency": "Killeen ISD, TX",
+ "src": "Invited",
+ "title": "Audio Visual Hardware, Software & Services",
+ "close": "9/3/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Form W-9 Request for Taxpayer Identification.pdf",
+  "KISD_Terms_and_Conditions 6-17-2024.pdf",
+  "Form CIQ _Conflict of Interest_ 2024.pdf",
+  "KISD-Data Sharing Agreement.pdf",
+  "Killeen ISD Insurance Requirements.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Form W-9 Request for Taxpayer Identification.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "KISD_Terms_and_Conditions 6-17-2024.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form CIQ _Conflict of Interest_ 2024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "KISD-Data Sharing Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Killeen ISD Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.5,
+  "attachment_fetches": 5,
+  "attachment_seconds": 2.1,
+  "attachment_bytes": 598141,
+  "max_fetch_seconds": 0.49,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-18T08:26:03.939019+00:00",
+ "extract_attempts": 1
+}

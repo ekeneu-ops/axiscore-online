@@ -1,0 +1,143 @@
+{
+ "bid_id": "virgin-islands-port-authority-vipa-rfp-sttj-2026-021-addendum-3",
+ "bid_number": "VIPA-RFP(STTJ)-2026-021 Addendum 3",
+ "agency": "Virgin Islands Port Authority",
+ "src": "Open",
+ "title": "Emergency Disaster Debris Removal and Disposal Services St. Thomas/St. John District",
+ "close": "7/17/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "25 cu yd Dump Truck",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 25 cu yd Dump Truck 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "1 1/2 cu yd Backhoe",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 1 1/2 cu yd Backhoe 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "2 1/2 cu yd Excavator",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 2 1/2 cu yd Excavator 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Laborer with Small Tools",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Laborer with Small Tools 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Heavy Equipment Operator",
+   "qty": "1",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Heavy Equipment Operator 1 Per Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Debris Disposal- Ton",
+   "qty": "1",
+   "uom": "TN",
+   "note": "Legal Disposal to include Tipping Fee per Ton",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Debris Disposal- Ton 1 TN No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Debris Disposal- Green Debris",
+   "qty": "1",
+   "uom": "SY",
+   "note": "Legal Disposal to include Tipping Fee per SY",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Debris Disposal- Green Debris 1 SY No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Request for Proposal General Terms and Conditions.pdf",
+  "6.4.2026 Scope of Work--Emergency Debris Removal STT.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Request for Proposal General Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "6.4.2026 Scope of Work--Emergency Debris Removal STT.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 16.3,
+  "attachment_fetches": 2,
+  "attachment_seconds": 3.8,
+  "attachment_bytes": 600525,
+  "max_fetch_seconds": 2.03,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:11:07.958502+00:00",
+ "extract_attempts": 1,
+ "lines_total": 7,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/virgin-islands-port-authority-vipa-rfp-sttj-2026-021-addendum-3/coverage.json"
+}

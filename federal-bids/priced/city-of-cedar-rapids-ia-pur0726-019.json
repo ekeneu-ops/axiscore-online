@@ -1,0 +1,56 @@
+{
+ "schema": "v2",
+ "bid_id": "city-of-cedar-rapids-ia-pur0726-019",
+ "agency": "City of Cedar Rapids, IA",
+ "bid_number": "PUR0726-019",
+ "title": "Downtown Library Interior Lighting Upgrade",
+ "src": "Invited",
+ "close": "8/24/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-08-18T09:18:02.894155+00:00",
+ "cost_source": "best_cost_full_2026-08-17.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 0,
+ "priced_lines": 0,
+ "gap_lines": 0,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 0
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "Firm fixed price for the purchase and installation of Donut Light Fixture Replacement per the Scope of Work",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 2,
+   "desc": "Firm fixed price for the purchase and installation of Mud-In Light Fixture Replacement per the Scope of Work",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 3,
+   "desc": "Firm fixed price for the T8 Lighting & Lens Replacement per the Scope of Work",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  }
+ ]
+}

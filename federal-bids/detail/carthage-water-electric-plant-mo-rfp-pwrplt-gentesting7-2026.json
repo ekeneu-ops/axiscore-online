@@ -1,0 +1,135 @@
+{
+ "bid_id": "carthage-water-electric-plant-mo-rfp-pwrplt-gentesting7-2026",
+ "bid_number": "RFP#PWRPLT-GENTESTING7.2026",
+ "agency": "Carthage Water & Electric Plant, MO",
+ "src": "Open",
+ "title": "POWER PLANT GENERATOR TESTING",
+ "close": "8/19/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "UNIT 11: \u2022 Westinghouse ES-9-PG \u2022 4500 KW \u2022 5625 KVA \u2022 80% Power Factor \u2022 14000 Volts \u2022 232 AMPS \u2022 60 HZ \u2022 3 Phase",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 UNIT 11: \u2022 Westinghouse ES-9-PG \u2022 4500 KW \u2022 5625 KVA \u2022 80% Power Factor \u2022 14000 Volts \u2022 232 AMPS \u2022 60 HZ \u2022 3 Phase 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "UNIT 12: \u2022 Westinghouse ES-9-PG \u2022 4500 KW \u2022 5625 KVA \u2022 80% Power Factor \u2022 14000 Volts \u2022 232 AMPS \u2022 60 HZ \u2022 3 Phase",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 UNIT 12: \u2022 Westinghouse ES-9-PG \u2022 4500 KW \u2022 5625 KVA \u2022 80% Power Factor \u2022 14000 Volts \u2022 232 AMPS \u2022 60 HZ \u2022 3 Phase 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "UNIT 13: \u2022 Beloit Power System TBG20 \u2022 6000KW \u2022 7500 KVA \u2022 80% Power Factor \u2022 14000 Volts \u2022 309 AMPS \u2022 60 HZ \u2022 3 Phase",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 UNIT 13: \u2022 Beloit Power System TBG20 \u2022 6000KW \u2022 7500 KVA \u2022 80% Power Factor \u2022 14000 Volts \u2022 309 AMPS \u2022 60 HZ \u2022 3 Phase 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "UNIT 14: \u2022 Beloit Power System TBG20 \u2022 6000KW \u2022 7500 KVA \u2022 80% Power Factor \u2022 14000 Volts \u2022 309 AMPS \u2022 60 HZ \u2022 3 Phase",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 UNIT 14: \u2022 Beloit Power System TBG20 \u2022 6000KW \u2022 7500 KVA \u2022 80% Power Factor \u2022 14000 Volts \u2022 309 AMPS \u2022 60 HZ \u2022 3 Phase 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "LABOR COST",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "PURCHASE ORDER TERMS AND CONDITIONS.pdf",
+  "FORMAL PROJECTS _ SERVICES TERMS.docx",
+  "INSURANCE REQUIREMENTS.pdf",
+  "REFERENCES.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PURCHASE ORDER TERMS AND CONDITIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "FORMAL PROJECTS _ SERVICES TERMS.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "INSURANCE REQUIREMENTS.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "REFERENCES.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 14.9,
+  "attachment_fetches": 4,
+  "attachment_seconds": 3.2,
+  "attachment_bytes": 545860,
+  "max_fetch_seconds": 1.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:29:58.660375+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/carthage-water-electric-plant-mo-rfp-pwrplt-gentesting7-2026/coverage.json"
+}

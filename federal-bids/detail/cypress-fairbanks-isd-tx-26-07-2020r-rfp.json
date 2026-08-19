@@ -1,0 +1,127 @@
+{
+ "bid_id": "cypress-fairbanks-isd-tx-26-07-2020r-rfp",
+ "bid_number": "26-07-2020R-RFP",
+ "agency": "Cypress-Fairbanks ISD, TX",
+ "src": "Open",
+ "title": "District Fundraiser Services",
+ "close": "6/30/2027 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "List the % of proceeds from sales or the % of donation that will be provided to CFISD.",
+   "qty": "1",
+   "uom": "Percent Profit",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 List the % of proceeds from sales or the % of donation that will be provided to CFISD. 1 Percent Profit No Response"
+  }
+ ],
+ "attachments_saved": [
+  "General___Special_Conditions_-_Attachment_A _Formal_.pdf",
+  "Special_Instructions_and_Scope_of_Services_-_Attachment_B _11_ _1_.pdf",
+  "Insurance_Requirements_for_District_Fundraisers_-_Attachment_C _9_ _4_.pdf",
+  "preemployment-preservice-affidavit-tec-22a055.pdf",
+  "spanish-pre-employment-preservice-affidavit-1.pdf",
+  "Fundraiser_Permit_Application_-_Exhibit_A _6_ _25_ _5_ _17_.pdf",
+  "Sample-Harris County Food Certificate-Permit.pdf",
+  "Sample-Food Handler certificate _002_.pdf",
+  "Data Privacy_ Technology and Information Security Requirements.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General___Special_Conditions_-_Attachment_A _Formal_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Special_Instructions_and_Scope_of_Services_-_Attachment_B _11_ _1_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance_Requirements_for_District_Fundraisers_-_Attachment_C _9_ _4_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "preemployment-preservice-affidavit-tec-22a055.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "spanish-pre-employment-preservice-affidavit-1.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Fundraiser_Permit_Application_-_Exhibit_A _6_ _25_ _5_ _17_.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sample-Harris County Food Certificate-Permit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sample-Food Handler certificate _002_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Data Privacy_ Technology and Information Security Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 34.5,
+  "attachment_fetches": 9,
+  "attachment_seconds": 22.7,
+  "attachment_bytes": 4794510,
+  "max_fetch_seconds": 5.66,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:38:17.167058+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/cypress-fairbanks-isd-tx-26-07-2020r-rfp/coverage.json"
+}

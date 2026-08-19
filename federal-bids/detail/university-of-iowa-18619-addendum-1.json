@@ -1,0 +1,187 @@
+{
+ "bid_id": "university-of-iowa-18619-addendum-1",
+ "bid_number": "18619 Addendum 1",
+ "agency": "University of Iowa",
+ "src": "Open",
+ "title": "Cambus Computer Aided Dispatch/Automatic Vehicle Location (CAD/AVL) System",
+ "close": "7/16/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 16,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Price per vehicle mobile device/tablet/mobile data terminal, including all necessary mounting and wiring materials",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Price per vehicle mobile device/tablet/mobile data terminal, including all necessary mounting and wiring materials 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Software annual fee \u2013 please provide the annual platform fee for web-based software.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Software annual fee \u2013 please provide the annual platform fee for web-based software. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Software user licenses \u2013 please provide the annual fee per user license for software, if applicable.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Software user licenses \u2013 please provide the annual fee per user license for software, if applicable. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Software/cellular data on vehicle \u2013 please provide the annual software fee per vehicle, if applicable, and only if in addition to the annual platform fee.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Software/cellular data on vehicle \u2013 please provide the annual software fee per vehicle, if applicable, and only if in addition to the annual platform fee. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Installation/project management \u2013 please provide the total cost for installation for 39 vehicles, including but not limited to hardware provisioning, software configuration, installation, and travel.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Installation/project management \u2013 please provide the total cost for installation for 39 vehicles, including but not limited to hardware provisioning, software configuration, installation, and travel. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Miscellaneous Fees - Please detail any and all miscellaneous fees that are not captured previously within this request for proposal. In the event there are no additional/miscellaneous fees please enter zero (0). In the event there is more than one additional/miscellaneous fee please utilize the 'Add Alternate' feature for each unique fee.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Miscellaneous Fees - Please detail any and all miscellaneous fees that are not captured previously within this request for proposal. In the event there are no additional/miscellaneous fees please enter zero (0). In the event there is more than one additional/miscellaneous fee please utilize the 'Add Alternate' feature for each unique fee. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Training - Please provide the cost for any training services that are provided during implementation. In the event there will not be a fee of this type, please enter 0.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Training - Please provide the cost for any training services that are provided during implementation. In the event there will not be a fee of this type, please enter 0. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Information Technology Questionnaire-v3.docx",
+  "RFP 18619 CADAVL_features and functionality.xlsx",
+  "Standard-Terms-and-Conditions-2026.06.11-FINAL.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Information Technology Questionnaire-v3.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 18619 CADAVL_features and functionality.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Standard-Terms-and-Conditions-2026.06.11-FINAL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP 18619 CADAVL_features and functionality.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Categories",
+    "CAD/AVL Features and Functionalities ",
+    "REQUIRED",
+    "OPTIONAL",
+    "Supplier Response: Please detail how Supplier's proposed products are able to provide each of the items listed in Column B if that line is marked as a REQUIRED in column C.            NOTE:  If the item is marked as OPTIONAL in column D, please provide information about how Supplier's proposed products are able to provide those functions/has the capability to provide the item listed per line, if capable of providing this. Additionally, some lines are just asking for specific information.  Please provide a response for ALL LINES . "
+   ],
+   "score": 2,
+   "n_rows": 16,
+   "sample": [
+    [
+     "Architecture",
+     "Describe in detail the types of user roles and levels of permissions/access supported in the system for administrative use (i.e. dispatchers, supervisors, managers, administrative staff).",
+     "X",
+     "",
+     ""
+    ],
+    [
+     "Architecture",
+     "Describe in detail what, if any, imports are supported in the system. Such as, importing route schedule data, programming bus stops, etc.",
+     "X",
+     "",
+     ""
+    ],
+    [
+     "Architecture",
+     "Describe in detail the types of \"playback\" or historical queries that can be used by transit staff to investigate incidents, such as investigating the specific time a vehicle was at a location in the past. Include whether the queries can be made by run, bus number, route group, or entire system. Include how far back in time the system can query this type data.",
+     "X",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 20.8,
+  "attachment_fetches": 3,
+  "attachment_seconds": 1.7,
+  "attachment_bytes": 308920,
+  "max_fetch_seconds": 0.95,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:07:02.498635+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-iowa-18619-addendum-1/coverage.json"
+}

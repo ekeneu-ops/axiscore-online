@@ -1,0 +1,107 @@
+{
+ "bid_id": "esc-region-18-tx-r18-2026-07-000063",
+ "bid_number": "R18-2026-07-000063",
+ "agency": "ESC Region 18, TX",
+ "src": "Open",
+ "title": "IT Service Management (ITSM) & Customer Relationship Management (CRM) Services",
+ "close": "8/18/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "0_2026 - 2028 R18-2026-07-000063 _ITSM _ CRM Services_.pdf",
+  "1_Legal Notice - R18-2026-07-000063 _ITSM _ CRM Services_.pdf",
+  "2_Region 18 - EDLINK18 Contractor Standard Terms and Conditions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "0_2026 - 2028 R18-2026-07-000063 _ITSM _ CRM Services_.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "1_Legal Notice - R18-2026-07-000063 _ITSM _ CRM Services_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2_Region 18 - EDLINK18 Contractor Standard Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "0_2026 - 2028 R18-2026-07-000063 _ITSM _ CRM Services_.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Add-On Options",
+    "Name of Addon",
+    "Quantity (Licenses)",
+    "Price"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Cost for Add-ons Options (upon request)\n*including but not limited to Assets Pack or\nsimilar add-ons",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "0_2026 - 2028 R18-2026-07-000063 _ITSM _ CRM Services_.pdf",
+   "sheet": 2,
+   "header_row": 3,
+   "headers": [
+    "Add-On Options",
+    "Name of Addon",
+    "Quantity (Licenses)",
+    "Price"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Cost for Add-ons Options (upon request)\n*including but not limited to Assets Pack or\nsimilar add-ons",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.5,
+  "attachment_fetches": 3,
+  "attachment_seconds": 4.4,
+  "attachment_bytes": 1040176,
+  "max_fetch_seconds": 2.7,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-14T08:33:31.959804+00:00",
+ "extract_attempts": 2,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/esc-region-18-tx-r18-2026-07-000063/coverage.json"
+}

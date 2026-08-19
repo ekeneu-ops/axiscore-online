@@ -1,0 +1,95 @@
+{
+ "bid_id": "bi-state-joint-purchasing-council-il-2026-ice-melt",
+ "bid_number": "2026 Ice Melt",
+ "agency": "Bi-State Joint Purchasing Council, IL",
+ "src": "Invited",
+ "title": "2026 Ice Melt",
+ "close": "8/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Sodium Chloride/Calcium Chloride with an accelerator: melts to -15\u00b0 F, 49 bags/pallet, or equal.",
+   "qty": "392",
+   "uom": "50 lb bag",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Sodium Chloride/Calcium Chloride with an accelerator: melts to -15\u00b0 F, 49 bags/pallet, or equal. 392 50 lb bag No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Sodium Chloride/Calcium Chloride with an accelerator: melts to -15\u00b0 F, or equal.",
+   "qty": "50",
+   "uom": "1,100 lb Tote",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Sodium Chloride/Calcium Chloride with an accelerator: melts to -15\u00b0 F, or equal. 50 1,100 lb Tote No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Sno-Plow Ice Melt - Magnesium Chloride 7786-30-3, Sodium Chloride 7647-14-5, Colorant Blend Proprietary, Melts to -27\u00b0F, Green Granule; 49 bags to a pallet.",
+   "qty": "196",
+   "uom": "50 lb bag",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Sno-Plow Ice Melt - Magnesium Chloride 7786-30-3, Sodium Chloride 7647-14-5, Colorant Blend Proprietary, Melts to -27\u00b0F, Green Granule; 49 bags to a pallet. 196 50 lb bag No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2026 Ice Melt Distribution of Product.pdf",
+  "2026 Ice Melt Bid Specs.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026 Ice Melt Distribution of Product.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026 Ice Melt Bid Specs.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.5,
+  "attachment_fetches": 2,
+  "attachment_seconds": 1.8,
+  "attachment_bytes": 400202,
+  "max_fetch_seconds": 1.27,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:26:14.513002+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/bi-state-joint-purchasing-council-il-2026-ice-melt/coverage.json"
+}

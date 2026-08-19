@@ -1,0 +1,175 @@
+{
+ "bid_id": "humble-isd-tx-2026-102f-addendum-1",
+ "bid_number": "2026-102F Addendum 1",
+ "agency": "Humble ISD, TX",
+ "src": "Invited",
+ "title": "SUPPLIES, EQUIPMENT & SERVICES FOR STUDENTS WITH DISABILITIES",
+ "close": "8/24/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Auditory",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide the discount offered for this category.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Occupational Therapy",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide the discount offered for this category.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Occupational Therapy 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Physical Therapy",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide the discount offered for this category.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Physical Therapy 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Impaired Vision",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide the discount offered for this category.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Impaired Vision 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Special Education",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide the discount offered for this category.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Special Education 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Assessment Testing",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide the discount offered for this category.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Assessment Testing 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Other Category not listed above- (Please provide description)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide the discount offered for this category.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Other Category not listed above- (Please provide description) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "GUIDELINES AND SPECIFICATIONS.pdf",
+  "REQUEST FOR RESUME-CREDENTIALS-CATALOG.pdf",
+  "W9_2024.pdf",
+  "FORM 1295 INSTRUCTIONS.pdf",
+  "REFERENCE INSTRUCTIONS.pdf",
+  "ASBESTOS SHORT TERM WORKER NOTIFICATION _1_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "GUIDELINES AND SPECIFICATIONS.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "REQUEST FOR RESUME-CREDENTIALS-CATALOG.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W9_2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORM 1295 INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "REFERENCE INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ASBESTOS SHORT TERM WORKER NOTIFICATION _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 24.4,
+  "attachment_fetches": 6,
+  "attachment_seconds": 5.5,
+  "attachment_bytes": 963802,
+  "max_fetch_seconds": 1.28,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:03:50.575525+00:00",
+ "extract_attempts": 1,
+ "lines_total": 7,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/humble-isd-tx-2026-102f-addendum-1/coverage.json"
+}

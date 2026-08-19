@@ -1,0 +1,119 @@
+{
+ "bid_id": "conroe-isd-tx-rfp-26-03-06",
+ "bid_number": "RFP 26-03-06",
+ "agency": "Conroe ISD, TX",
+ "src": "Open",
+ "title": "Supplemental Contracted Educational Services & Professional Development Services",
+ "close": "10/7/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "If your rate is based on an per hour basis, please provide your hourly rate. (NOTE: This is the maximum Conroe ISD will pay for your services. Quotes may be requested at the time services are needed).",
+   "qty": "1",
+   "uom": "Hourly Rate",
+   "note": "Rate must be inclusive of all costs associated (e.g. travel, lodging, per diem, handouts, etc.)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 If your rate is based on an per hour basis, please provide your hourly rate. (NOTE: This is the maximum Conroe ISD will pay for your services. Quotes may be requested at the time services are needed). 1 Hourly Rate No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "2",
+   "desc": "If your rate is based on a per day basis, please provide your daily rate. (NOTE: This is the maximum Conroe ISD will pay for your services. Quotes may be requested at the time services are needed).",
+   "qty": "1",
+   "uom": "Daily Rate",
+   "note": "Rate must be inclusive of all costs associated (e.g. travel, lodging, per diem, handouts, etc.)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 If your rate is based on a per day basis, please provide your daily rate. (NOTE: This is the maximum Conroe ISD will pay for your services. Quotes may be requested at the time services are needed). 1 Daily Rate No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "3",
+   "desc": "If your rate is based on a one-time, lump sum basis, please provide your one-time payment fee. (NOTE: This is the maximum Conroe ISD will pay for your services. Quotes may be requested at the time services are needed).",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Rate must be inclusive of all costs associated (e.g. travel, lodging, per diem, handouts, etc.)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 If your rate is based on a one-time, lump sum basis, please provide your one-time payment fee. (NOTE: This is the maximum Conroe ISD will pay for your services. Quotes may be requested at the time services are needed). 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "4",
+   "desc": "If your rate is based on a per event basis, please provide your per event rate. (NOTE: This is the maximum Conroe ISD will pay for your services. Quotes may be requested at the time services are needed).",
+   "qty": "1",
+   "uom": "Per Event",
+   "note": "Rate must be inclusive of all costs associated (e.g. travel, lodging, per diem, handouts, etc.)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 If your rate is based on a per event basis, please provide your per event rate. (NOTE: This is the maximum Conroe ISD will pay for your services. Quotes may be requested at the time services are needed). 1 Per Event No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "5",
+   "desc": "Percent discount on any materials you would sell in support of the services to be offered with this solicitation. If you are not offering a specific discount on materials, and you have provided an attachment with your price list or other form of pricing structure, then please indicate such.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This box will accept numbers only, no text. If discounts are variable, enter the highest discount offered. Use the Notes field to enter a variable, i.e. 10-25%.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Percent discount on any materials you would sell in support of the services to be offered with this solicitation. If you are not offering a specific discount on materials, and you have provided an attachment with your price list or other form of pricing structure, then please indicate such. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Professional Services Contract REV. 6.23  Fillable.pdf",
+  "W-9 March 2024 _for vendor use_ _2_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Professional Services Contract REV. 6.23  Fillable.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 March 2024 _for vendor use_ _2_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.3,
+  "attachment_fetches": 2,
+  "attachment_seconds": 2.1,
+  "attachment_bytes": 382307,
+  "max_fetch_seconds": 1.27,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:25:52.623371+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/conroe-isd-tx-rfp-26-03-06/coverage.json"
+}

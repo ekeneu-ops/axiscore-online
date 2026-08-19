@@ -1,0 +1,125 @@
+{
+  "ledger_doc_id": "1zt8EP3TeUDiGsh8uGbppTpHOvUNxLLFlE7wZHUq532w",
+  "ledger_doc_url": "https://docs.google.com/document/d/1zt8EP3TeUDiGsh8uGbppTpHOvUNxLLFlE7wZHUq532w/edit",
+  "essendant_substituted_from_statement": true,
+  "essendant_ap_doc_value": -237327.49,
+  "assets": [
+    {
+      "label": "Amazon held funds",
+      "amount": 199695.0,
+      "liquidity": "LIQUID",
+      "source_descriptor": "SPAPI (live)                  LIQUID (held) 2026-05-26 spapi_live"
+    },
+    {
+      "label": "BOA checking (4908)",
+      "amount": 18612.56,
+      "liquidity": "LIQUID",
+      "source_descriptor": "Plaid (live)                  LIQUID        2026-05-26 plaid"
+    },
+    {
+      "label": "BOA savings (4911)",
+      "amount": 503.49,
+      "liquidity": "LIQUID",
+      "source_descriptor": "Plaid (live)                  LIQUID        2026-05-26 plaid"
+    },
+    {
+      "label": "BOA checking (6503)",
+      "amount": 140.15,
+      "liquidity": "LIQUID",
+      "source_descriptor": "Plaid (live)                  LIQUID        2026-05-26 plaid"
+    },
+    {
+      "label": "PayPal",
+      "amount": 0.0,
+      "liquidity": "LIQUID",
+      "source_descriptor": "Plaid (live)                  LIQUID        2026-05-26 plaid"
+    },
+    {
+      "label": "Trade AR",
+      "amount": 281.72,
+      "liquidity": "LIQUID",
+      "source_descriptor": "recon                         LIQUID        2026-05-26 recon"
+    },
+    {
+      "label": "ISG rebate (mid-July)",
+      "amount": 24000.0,
+      "liquidity": "NON_LIQUID",
+      "source_descriptor": "manual (Finance 8 figure)     NON-LIQUID    expected Jul 2026"
+    },
+    {
+      "label": "FBA inventory (at cost)",
+      "amount": 17000.0,
+      "liquidity": "NON_LIQUID",
+      "source_descriptor": "manual (Ekene's figure)       NON-LIQUID    inventory, not cash"
+    }
+  ],
+  "liabilities": [
+    {
+      "label": "Essendant AP",
+      "amount": -215771.21,
+      "ap_type": "CURRENT_AP",
+      "source_descriptor": "Essendant statement file (W2 override; doc had -237,327.49)"
+    },
+    {
+      "label": "SP Richards AP",
+      "amount": -12000.0,
+      "ap_type": "CURRENT_AP",
+      "source_descriptor": "Ekene (current, given 05-25)  CURRENT AP    2026-05-25 (Ekene)"
+    },
+    {
+      "label": "ISG payable",
+      "amount": -5343.41,
+      "ap_type": "CURRENT_AP",
+      "source_descriptor": "recon CLASS_PAYABLE_OUTSTANDING CURRENT AP  2026-05-26 (recon)"
+    },
+    {
+      "label": "FedEx",
+      "amount": -12000.0,
+      "ap_type": "CURRENT_AP",
+      "source_descriptor": "manual (Finance 8 figure)     CURRENT AP    needs live confirm"
+    },
+    {
+      "label": "Amex owed",
+      "amount": -7979.08,
+      "ap_type": "CURRENT_AP",
+      "source_descriptor": "Plaid (live)                  CURRENT AP    2026-05-26 plaid"
+    },
+    {
+      "label": "SBA loan + accrued",
+      "amount": -216000.0,
+      "ap_type": "LONG_TERM",
+      "source_descriptor": "manual (placeholder; reconciles to -$15.4K) LONG-TERM   needs real figure"
+    }
+  ],
+  "subtotals": {
+    "liquid_assets": 219232.92,
+    "non_liquid_assets": 41000.0,
+    "total_assets": 260232.92,
+    "current_ap": -253093.7,
+    "long_term_liab": -216000.0,
+    "total_liabilities": -469093.7,
+    "rebate_included_in_near_term": 24000.0
+  },
+  "net_position": {
+    "liquid_net": -33860.78,
+    "near_term_net": -9860.78,
+    "full_balance_net": -208860.78
+  },
+  "labels": {
+    "liquid_net": "Liquid Net (liquid assets \u2212 current AP)",
+    "near_term_net": "Near-term Net (+ ISG rebate)",
+    "full_balance_net": "Full Balance (incl. SBA placeholder)"
+  },
+  "pipeline_last_run": "2026-07-25T09:38:54.964689+00:00",
+  "essendant_statement": {
+    "source_filename": "AXISCORE STATEMENT (30).xlsx",
+    "source_mtime": "2026-05-20T12:30:55",
+    "net_balance": 215771.21,
+    "line_count": 2686,
+    "earliest_date": "2026-04-13",
+    "latest_date": "2026-05-19"
+  },
+  "w2_status": "ok",
+  "w2_error": null,
+  "w5_unified": true
+}

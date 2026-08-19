@@ -1,0 +1,91 @@
+{
+ "bid_id": "tarrant-county-tx-f2026143-addendum-1",
+ "bid_number": "F2026143 Addendum 1",
+ "agency": "Tarrant County, TX",
+ "src": "Open",
+ "title": "Annual Contract for Juvenile Forensic Assessment Services",
+ "close": "7/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:svc:assessment",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "TC_General_Terms_and_Conditions091724.pdf",
+  "TC_HUB_Policy053123.pdf",
+  "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+  "F2026143 Scope of Work.pdf",
+  "Deficiencies and Deviations Form.pdf",
+  "F2026143 -2026 Juvenile Forensic Assessment Proposal Response Form Attachment A.pdf",
+  "F2026143 - Statment of Qualifications - Fitness-Resp. Attachment B.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "TC_General_Terms_and_Conditions091724.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_HUB_Policy053123.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "F2026143 Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Deficiencies and Deviations Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "F2026143 -2026 Juvenile Forensic Assessment Proposal Response Form Attachment A.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "F2026143 - Statment of Qualifications - Fitness-Resp. Attachment B.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 29.0,
+  "attachment_fetches": 7,
+  "attachment_seconds": 19.4,
+  "attachment_bytes": 985121,
+  "max_fetch_seconds": 4.78,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:21:49.558169+00:00",
+ "extract_attempts": 1
+}

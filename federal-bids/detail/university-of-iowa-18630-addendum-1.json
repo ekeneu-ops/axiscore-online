@@ -1,0 +1,99 @@
+{
+ "bid_id": "university-of-iowa-18630-addendum-1",
+ "bid_number": "18630 Addendum 1",
+ "agency": "University of Iowa",
+ "src": "Open",
+ "title": "Routine Cleaning Services for Bettendorf Clinics",
+ "close": "7/21/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Professional-Services-Agreement-with-Travel-Addendum-2026.02.25-FINAL Accessible.docx",
+  "Standard Terms and Conditions 2026.06.11. FINAL.pdf",
+  "Appendix B - Background Check and Badging Information.pdf",
+  "QC Cancer Services Floor Plan 2026.pdf",
+  "Lincoln Road Health Building LL Floor Plan 2026.pdf",
+  "Lincoln Road Health Building Main Level Floor Plan 2026.pdf",
+  "Appendix A - Clinic detail list _002_.xlsx",
+  "Bettendorf Housekeeping RFP Cleaning Requirements 6.9.26 _002_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Professional-Services-Agreement-with-Travel-Addendum-2026.02.25-FINAL Accessible.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Terms and Conditions 2026.06.11. FINAL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix B - Background Check and Badging Information.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "QC Cancer Services Floor Plan 2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Lincoln Road Health Building LL Floor Plan 2026.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Lincoln Road Health Building Main Level Floor Plan 2026.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix A - Clinic detail list _002_.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bettendorf Housekeeping RFP Cleaning Requirements 6.9.26 _002_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.1,
+  "attachment_fetches": 8,
+  "attachment_seconds": 5.4,
+  "attachment_bytes": 2194740,
+  "max_fetch_seconds": 1.4,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:29:16.757301+00:00",
+ "extract_attempts": 1
+}

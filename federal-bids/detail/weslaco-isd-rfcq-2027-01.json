@@ -1,0 +1,187 @@
+{
+ "bid_id": "weslaco-isd-rfcq-2027-01",
+ "bid_number": "RFCQ # 2027-01",
+ "agency": "Weslaco ISD",
+ "src": "Open",
+ "title": "Senior Portraits",
+ "close": "8/20/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "PACKAGE 1 (SINGLE POSE)",
+   "qty": "1",
+   "uom": "Pkg",
+   "note": "PACKAGE CONSISTS OF THE FOLLOWING: 2-5X7 8-2X3 WALLET",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 PACKAGE 1 (SINGLE POSE) 1 Pkg No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "PACKAGE 2 (SINGLE POSE)",
+   "qty": "1",
+   "uom": "Pkg",
+   "note": "PACKAGE CONSISTS OF THE FOLLOWING: 2-8X10 2-5X7 8-2X3 WALLET SIZE",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 PACKAGE 2 (SINGLE POSE) 1 Pkg No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "PACKAGE 3 (FROM 2 POSES)",
+   "qty": "1",
+   "uom": "pKG",
+   "note": "PACKAGE CONSISTS OF THE FOLLOWING: 2-8X10 4-5X7 32- 2X3 WALLET SIZE",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 PACKAGE 3 (FROM 2 POSES) 1 pKG No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "PACKAGE 4 (FROM 2 POSES)",
+   "qty": "1",
+   "uom": "Pkg",
+   "note": "PACKAGE CONSISTS OF THE FOLLOWING: 1-10X13 2-8X10 4-5X7 32-2X3 WALLET SIZE",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 PACKAGE 4 (FROM 2 POSES) 1 Pkg No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Section I Terms _ Conditions.docx",
+  "SECTION II Exclusive Terms and Conditions.docx",
+  "Section III Award Criteria.docx",
+  "SECTION IV SCHOOL DISTRICT REFERENCES.docx",
+  "Section V Felony Conviction Form.docx",
+  "Section VI Confidential Disclosure Statement.docx",
+  "Section VII -Non-Collusion _ Debarment Statement.docx",
+  "Section VIII- Signature Sheet.docx",
+  "Conflict of Interest - CIQ-New-2021.pdf",
+  "SENATE BILL 252 CERTIFICATION - UNSWORN.pdf",
+  "HOUSE BILL89 VERIFICATION - UNSWORN.pdf",
+  "W9 Form with Instructions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Section I Terms _ Conditions.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION II Exclusive Terms and Conditions.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Section III Award Criteria.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION IV SCHOOL DISTRICT REFERENCES.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Section V Felony Conviction Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Section VI Confidential Disclosure Statement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Section VII -Non-Collusion _ Debarment Statement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Section VIII- Signature Sheet.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest - CIQ-New-2021.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SENATE BILL 252 CERTIFICATION - UNSWORN.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HOUSE BILL89 VERIFICATION - UNSWORN.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W9 Form with Instructions.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 21.3,
+  "attachment_fetches": 12,
+  "attachment_seconds": 10.5,
+  "attachment_bytes": 605631,
+  "max_fetch_seconds": 4.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-16T08:25:28.034642+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/weslaco-isd-rfcq-2027-01/coverage.json"
+}

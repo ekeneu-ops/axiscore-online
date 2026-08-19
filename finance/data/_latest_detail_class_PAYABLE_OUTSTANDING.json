@@ -1,0 +1,1284 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-25T09:30:06+00:00",
+    "methodology_version": "v1.4.4",
+    "data_window": {
+      "start": "2025-12-01",
+      "end": "2026-07-25"
+    },
+    "class": "CLASS_PAYABLE_OUTSTANDING",
+    "count": 4,
+    "trimmed": false,
+    "trim_note": null
+  },
+  "orders": [
+    {
+      "channel_order_id": "47QDCC26M4K2D",
+      "class": "CLASS_PAYABLE_OUTSTANDING",
+      "class_reason": "isg_invoice_open_balance_we_owe",
+      "recovery_target": 0.0,
+      "payable_outstanding": 4962.32,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "GSA - GS02F0191V",
+      "store_id": 4,
+      "magento_entity_id": 387695,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "HON",
+      "all_suppliers": [
+        "HON"
+      ],
+      "is_cc_paid_vendor": false,
+      "amex_payment_evidence": null,
+      "amex_match_quality": null,
+      "amex_payment_date": null,
+      "amex_amount": null,
+      "isg_invoice": {
+        "invoice_number": "0006581246-IN",
+        "invoice_date": "4/20/2026",
+        "due_date": "5/20/2026",
+        "purchase_order_number": "47QDCC26M4K2D",
+        "po_format": "gsa",
+        "supplier_code": "HON",
+        "manufacturer_name": "Honeywell",
+        "vendor_code": "ISG-HON",
+        "invoice_amt": 4962.32,
+        "open_balance": 4962.32,
+        "net_amount": 4893.64,
+        "paid_amount": 0.0,
+        "first_payment_date": "",
+        "first_payment_reference": "",
+        "is_fba_evidence_only": false,
+        "raw_csv_row": {
+          "InvoiceNumber": "0006581246-IN",
+          "InvoiceDate": "4/20/2026",
+          "DueDate": "5/20/2026",
+          "Days Overdue": "0",
+          "PurchaseOrderNumber": "47QDCC26M4K2D",
+          "Supplier": "HON",
+          "Invoice Amt": "4962.32",
+          "OpenBalance": "4962.32",
+          "Discount": "68.68",
+          "NetAmount": "4893.64",
+          "FirstPaymentReference": "",
+          "VendorInvoiceNumber": "27166380426",
+          "FirstPaymentDate": "",
+          "PaidAmount": "0",
+          "FreightAmount": "0",
+          "MiscAmount": "383.48",
+          "MerchAmount": "4578.84"
+        }
+      },
+      "isg_invoice_count": 1,
+      "isg_invoice_vendor": "ISG-HON",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2026-03-14 00:05:44",
+      "updated_at": "2026-06-22 14:50:43",
+      "grand_total": 5476.52,
+      "qty_shipped": 4,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 4445.48,
+      "exp_ship_cost": 516.36,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 4961.84,
+      "amazon_net": 0.0,
+      "net_cash_profit": 0.0,
+      "amazon": {
+        "amazon_order_id": null,
+        "is_afn_channel": null,
+        "is_prime": null,
+        "status": null,
+        "paid_amount": 0.0,
+        "shipping_price": 0.0,
+        "qty_shipped": null,
+        "qty_unshipped": null,
+        "purchase_create_date": null,
+        "purchase_update_date": null,
+        "earliest_ship_date": null,
+        "latest_ship_date": null,
+        "gross_revenue": 0.0,
+        "fees_total": 0.0,
+        "line_items": [],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 387695,
+        "items": [
+          {
+            "item_id": 425017,
+            "sku": "HONVP3LSOFABLK",
+            "qty_ordered": 4.0,
+            "qty_shipped": 4.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 4.0,
+            "base_cost": 1111.37,
+            "shipping_cost": 129.09,
+            "price": 1206.63,
+            "base_row_total": 4826.52
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 2993931,
+          "created_at": "2026-03-14 00:05:44",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2993932,
+          "created_at": "2026-03-14 00:05:44",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2993933,
+          "created_at": "2026-03-14 00:05:44",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2993934,
+          "created_at": "2026-03-14 00:05:45",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2993935,
+          "created_at": "2026-03-14 00:05:47",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $4,826.52. Transaction ID: \"81509552132\"."
+        },
+        {
+          "history_id": 2993936,
+          "created_at": "2026-03-14 00:05:47",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2994091,
+          "created_at": "2026-03-16 11:13:50",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Prabhu Shankar</b>."
+        },
+        {
+          "history_id": 2994092,
+          "created_at": "2026-03-16 11:14:20",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owner changed to : <b>Alex Bondoc</b> from <b>Prabhu Shankar</b>."
+        },
+        {
+          "history_id": 2996964,
+          "created_at": "2026-03-24 15:52:22",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": " waiting on vendor quote "
+        },
+        {
+          "history_id": 2997337,
+          "created_at": "2026-03-25 14:24:38",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "waiting for cx approval for additonal shipping of $650"
+        },
+        {
+          "history_id": 3000036,
+          "created_at": "2026-04-01 18:15:09",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "cx agreed with the additional shipping cost "
+        },
+        {
+          "history_id": 3000038,
+          "created_at": "2026-04-01 18:16:50",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Alex Bondoc (Alexb)</i><br/>&nbsp;Shipping method was changed from ' ($0.00)' to 'Free Shipping - Free ($650.00)'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 3000055,
+          "created_at": "2026-04-01 18:21:04",
+          "status": "backorder",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3000056,
+          "created_at": "2026-04-01 18:21:06",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $5,476.52. Transaction ID: \"81543663634\"."
+        },
+        {
+          "history_id": 3000057,
+          "created_at": "2026-04-01 18:21:06",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3000058,
+          "created_at": "2026-04-01 18:21:07",
+          "status": "pending",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Alex Bondoc (Alexb)</i><br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 3000064,
+          "created_at": "2026-04-01 18:30:21",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "PO sent to andersonst@honcompany.com"
+        },
+        {
+          "history_id": 3002434,
+          "created_at": "2026-04-06 14:42:39",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Hon processing the order, waiting for tracking \n"
+        },
+        {
+          "history_id": 3004409,
+          "created_at": "2026-04-08 16:25:04",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Captured amount of $5,476.52 online. Transaction ID: \"81543663634-capture\"."
+        },
+        {
+          "history_id": 3004410,
+          "created_at": "2026-04-08 16:25:04",
+          "status": "in_transit",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3004513,
+          "created_at": "2026-04-08 17:30:17",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Swift: Tracking Number\tSC32068595"
+        },
+        {
+          "history_id": 3007007,
+          "created_at": "2026-04-13 14:34:49",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "as per HON, This order is Shipping with Swift transport on a lane day truck Load# SC32068595, Lane day trucks do not having tracking ability. This order is the first stop on the Trip with an Appointment time of Apr 15 2026, 07:00 AM PDT. Our Appointment team would have reached out to the ship to contact to schedule the appointment. "
+        },
+        {
+          "history_id": 3011637,
+          "created_at": "2026-04-20 14:35:14",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "checking with suppler delivery status "
+        },
+        {
+          "history_id": 3011733,
+          "created_at": "2026-04-20 15:56:04",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "As per Hon. This was rescheduled to today due to a carrier msitake and the driver should be onsite at the Airforce Base in Fairfield"
+        },
+        {
+          "history_id": 3018907,
+          "created_at": "2026-05-01 14:24:25",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "checking with HON delivery details "
+        },
+        {
+          "history_id": 3021728,
+          "created_at": "2026-05-06 15:02:04",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "RECEIVED AS PER CX "
+        }
+      ],
+      "manual_comment_count": 26,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 0.0,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 0.0,
+        "existing_discrepancy_amount": 0.0,
+        "delta_vs_ours": {
+          "actual_cost": 0.0,
+          "actual_credit": 0.0,
+          "selling_fee": 0.0,
+          "discrepancy": 0.0
+        },
+        "benchmark_match": true
+      },
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "47QDCC26M61H8",
+      "class": "CLASS_PAYABLE_OUTSTANDING",
+      "class_reason": "isg_invoice_open_balance_we_owe",
+      "recovery_target": 0.0,
+      "payable_outstanding": 118.96,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "GSA - 47QSMS26D002Z",
+      "store_id": 10,
+      "magento_entity_id": 389709,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "TriMega-FELLOWES, INC.",
+      "all_suppliers": [
+        "TriMega-FELLOWES, INC."
+      ],
+      "is_cc_paid_vendor": false,
+      "amex_payment_evidence": null,
+      "amex_match_quality": null,
+      "amex_payment_date": null,
+      "amex_amount": null,
+      "isg_invoice": {
+        "invoice_number": "0006628089-IN",
+        "invoice_date": "5/16/2026",
+        "due_date": "6/15/2026",
+        "purchase_order_number": "47QDCC26M61H8",
+        "po_format": "gsa",
+        "supplier_code": "FEL",
+        "manufacturer_name": "Fellowes",
+        "vendor_code": "ISG-FEL",
+        "invoice_amt": 118.96,
+        "open_balance": 118.96,
+        "net_amount": 118.02,
+        "paid_amount": 0.0,
+        "first_payment_date": "",
+        "first_payment_reference": "",
+        "is_fba_evidence_only": false,
+        "raw_csv_row": {
+          "InvoiceNumber": "0006628089-IN",
+          "InvoiceDate": "5/16/2026",
+          "DueDate": "6/15/2026",
+          "Days Overdue": "0",
+          "PurchaseOrderNumber": "47QDCC26M61H8",
+          "Supplier": "FEL",
+          "Invoice Amt": "118.96",
+          "OpenBalance": "118.96",
+          "Discount": "0.94",
+          "NetAmount": "118.02",
+          "FirstPaymentReference": "",
+          "VendorInvoiceNumber": "40102277",
+          "FirstPaymentDate": "",
+          "PaidAmount": "0",
+          "FreightAmount": "25",
+          "MiscAmount": "0",
+          "MerchAmount": "93.96"
+        }
+      },
+      "isg_invoice_count": 1,
+      "isg_invoice_vendor": "ISG-FEL",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2026-04-16 13:27:08",
+      "updated_at": "2026-05-20 14:07:28",
+      "grand_total": 136.14,
+      "qty_shipped": 3,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 93.96,
+      "exp_ship_cost": 25.0,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 118.96,
+      "amazon_net": 0.0,
+      "net_cash_profit": 0.0,
+      "amazon": {
+        "amazon_order_id": null,
+        "is_afn_channel": null,
+        "is_prime": null,
+        "status": null,
+        "paid_amount": 0.0,
+        "shipping_price": 0.0,
+        "qty_shipped": null,
+        "qty_unshipped": null,
+        "purchase_create_date": null,
+        "purchase_update_date": null,
+        "earliest_ship_date": null,
+        "latest_ship_date": null,
+        "gross_revenue": 0.0,
+        "fees_total": 0.0,
+        "line_items": [],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 389709,
+        "items": [
+          {
+            "item_id": 427076,
+            "sku": "FEL00650",
+            "qty_ordered": 3.0,
+            "qty_shipped": 3.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 3.0,
+            "base_cost": 31.32,
+            "shipping_cost": 8.33,
+            "price": 45.38,
+            "base_row_total": 136.14
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 3009632,
+          "created_at": "2026-04-16 13:27:08",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Q65514"
+        },
+        {
+          "history_id": 3009633,
+          "created_at": "2026-04-16 13:27:09",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3009634,
+          "created_at": "2026-04-16 13:27:09",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3009635,
+          "created_at": "2026-04-16 13:27:09",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3009636,
+          "created_at": "2026-04-16 13:27:12",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $136.14. Transaction ID: \"81570823529\"."
+        },
+        {
+          "history_id": 3009637,
+          "created_at": "2026-04-16 13:27:12",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3026002,
+          "created_at": "2026-05-12 17:04:05",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Alex Bondoc</b>."
+        },
+        {
+          "history_id": 3026015,
+          "created_at": "2026-05-12 17:14:00",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Mailed Fellowes:\n\nHi, \n\nI am part of ISG (formerly TRIMEGA)   #   276 account.\n\nPlease let us know the Cost and Shipping fee.\n\nSKU: FEL00650 Bankers Box® X-Ray Storage Boxes, 5\" x 18.75\" x 14.88\", White/Blue, 6/Carton\n\nQTY 3 CT\n\nShip to: \nZip Code: 25704\n\n--\n\n\nThanks,\nPrabhu Shankar"
+        },
+        {
+          "history_id": 3026040,
+          "created_at": "2026-05-12 17:29:20",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Good afternoon,\n\n \n\nYour cost for this item is $31.32 per carton, and we do currently have stock available.\n\n \n\nAny order under $1,000.00 will have a $25.00 freight charge applied to the order.\n\n \n\nThank you,\n\n \n\nLisa"
+        },
+        {
+          "history_id": 3026041,
+          "created_at": "2026-05-12 17:29:36",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Mailed Lisa to place the order //PS"
+        },
+        {
+          "history_id": 3026928,
+          "created_at": "2026-05-13 18:32:37",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "This PO has now been booked under Order # 5211099, with an estimated ship date of 5/15/26. /PS"
+        },
+        {
+          "history_id": 3027678,
+          "created_at": "2026-05-14 18:10:03",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Check with Lisa on 5/15 /PS"
+        },
+        {
+          "history_id": 3028261,
+          "created_at": "2026-05-15 15:51:17",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Mailed Lisa for the tracking details. //PS"
+        },
+        {
+          "history_id": 3028263,
+          "created_at": "2026-05-15 15:53:28",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Prabhu Shankar (Prabhus@axiscoreonline.com)</i><br/>&nbsp;Changed status from 'confirmed' to 'exported'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 3028264,
+          "created_at": "2026-05-15 15:53:45",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Prabhu Shankar (Prabhus@axiscoreonline.com)</i><br/>&nbsp;Changed status from 'exported' to 'in_transit'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 3028277,
+          "created_at": "2026-05-15 16:18:45",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Lisa: This PO will be shipping today via UPS, however tracking has not yet been uploaded. /PS"
+        },
+        {
+          "history_id": 3029810,
+          "created_at": "2026-05-18 19:59:56",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "1ZWA29810303583435 - On the Way\n\nEstimated delivery: Tomorrow, May 19 , between 10:00 A.M. - 1:00 P.M. /PS"
+        },
+        {
+          "history_id": 3030261,
+          "created_at": "2026-05-19 13:52:23",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "1ZWA29810303583435, 1ZWA29810303583426, 1ZWA29810303583453  - 05/19/2026\n\n6:27 A.M.\n\nOn the Way\n\nLoaded on Delivery Vehicle\n\nHuntington, WV, United States /PS"
+        },
+        {
+          "history_id": 3031091,
+          "created_at": "2026-05-20 14:06:16",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Captured amount of $136.14 online. Transaction ID: \"81618695152\"."
+        },
+        {
+          "history_id": 3031092,
+          "created_at": "2026-05-20 14:06:16",
+          "status": "in_transit",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3031093,
+          "created_at": "2026-05-20 14:07:28",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "1ZWA29810303583435, 1ZWA29810303583426, 1ZWA29810303583453 - 05/19/2026\n\n12:14 P.M.\n\nDelivered\n\nDELIVERED\n\nHUNTINGTON, WV, US //PS"
+        }
+      ],
+      "manual_comment_count": 21,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": null,
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "47QDCC26M6GW3",
+      "class": "CLASS_PAYABLE_OUTSTANDING",
+      "class_reason": "isg_invoice_open_balance_we_owe",
+      "recovery_target": 0.0,
+      "payable_outstanding": 99.0,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "GSA - 47QSMS26D002Z",
+      "store_id": 10,
+      "magento_entity_id": 390493,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "LCI",
+      "all_suppliers": [
+        "LCI"
+      ],
+      "is_cc_paid_vendor": false,
+      "amex_payment_evidence": null,
+      "amex_match_quality": null,
+      "amex_payment_date": null,
+      "amex_amount": null,
+      "isg_invoice": {
+        "invoice_number": "0006598054-IN",
+        "invoice_date": "4/29/2026",
+        "due_date": "5/29/2026",
+        "purchase_order_number": "47QDCC26M6GW3",
+        "po_format": "gsa",
+        "supplier_code": "LCC",
+        "manufacturer_name": "Lake Country Corporation",
+        "vendor_code": "ISG-LCC",
+        "invoice_amt": 99.0,
+        "open_balance": 99.0,
+        "net_amount": 99.0,
+        "paid_amount": 0.0,
+        "first_payment_date": "",
+        "first_payment_reference": "",
+        "is_fba_evidence_only": false,
+        "raw_csv_row": {
+          "InvoiceNumber": "0006598054-IN",
+          "InvoiceDate": "4/29/2026",
+          "DueDate": "5/29/2026",
+          "Days Overdue": "0",
+          "PurchaseOrderNumber": "47QDCC26M6GW3",
+          "Supplier": "LCC",
+          "Invoice Amt": "99",
+          "OpenBalance": "99",
+          "Discount": "0",
+          "NetAmount": "99",
+          "FirstPaymentReference": "",
+          "VendorInvoiceNumber": "12246370",
+          "FirstPaymentDate": "",
+          "PaidAmount": "0",
+          "FreightAmount": "0",
+          "MiscAmount": "0",
+          "MerchAmount": "99"
+        }
+      },
+      "isg_invoice_count": 1,
+      "isg_invoice_vendor": "ISG-LCC",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2026-04-27 15:33:04",
+      "updated_at": "2026-05-04 17:01:23",
+      "grand_total": 121.53,
+      "qty_shipped": 3,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 99.0,
+      "exp_ship_cost": 0.0,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 99.0,
+      "amazon_net": 0.0,
+      "net_cash_profit": 0.0,
+      "amazon": {
+        "amazon_order_id": null,
+        "is_afn_channel": null,
+        "is_prime": null,
+        "status": null,
+        "paid_amount": 0.0,
+        "shipping_price": 0.0,
+        "qty_shipped": null,
+        "qty_unshipped": null,
+        "purchase_create_date": null,
+        "purchase_update_date": null,
+        "earliest_ship_date": null,
+        "latest_ship_date": null,
+        "gross_revenue": 0.0,
+        "fees_total": 0.0,
+        "line_items": [],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 390493,
+        "items": [
+          {
+            "item_id": 427866,
+            "sku": "NSN6736513",
+            "qty_ordered": 3.0,
+            "qty_shipped": 3.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 3.0,
+            "base_cost": 33.0,
+            "shipping_cost": 0.0,
+            "price": 40.51,
+            "base_row_total": 121.53
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 3015901,
+          "created_at": "2026-04-27 15:33:04",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "442-R60860/PHARMACY."
+        },
+        {
+          "history_id": 3015902,
+          "created_at": "2026-04-27 15:33:04",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3015903,
+          "created_at": "2026-04-27 15:33:04",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3015904,
+          "created_at": "2026-04-27 15:33:05",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3015905,
+          "created_at": "2026-04-27 15:33:07",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $121.53. Transaction ID: \"81585601551\"."
+        },
+        {
+          "history_id": 3015906,
+          "created_at": "2026-04-27 15:33:07",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3016000,
+          "created_at": "2026-04-27 17:05:03",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Prabhu Shankar</b>."
+        },
+        {
+          "history_id": 3016032,
+          "created_at": "2026-04-27 17:25:51",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Not available in ESS. Higher Price in SPR. Mailed iSG for the Quote //PS"
+        },
+        {
+          "history_id": 3016036,
+          "created_at": "2026-04-27 17:26:08",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Not available in ESS. High price in SPR. Mailed ISG for quote /PS"
+        },
+        {
+          "history_id": 3016038,
+          "created_at": "2026-04-27 17:26:12",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Hello Elizabeth,\n\n\n\nI am part of the ISG #    276 account.\n\n \n\nPlease let me know if the following item is available.\n\n\n\nSKU NSN6736513 -- 3 PG\n\n(AbilityOne® 7530016736513, SKILCRAFT Recycled Laser and Inkjet Labels, Inkjet/Laser Printers, 1.33 x 4, White, 14/Sheet, 100 Sheets/Box)\n\n\nWe need them shipped to Cheyenne, Wyoming, 82001. \n\n\n\nWhat would be the \n\n1) Item cost\n\n2) Shipping cost"
+        },
+        {
+          "history_id": 3016158,
+          "created_at": "2026-04-27 19:00:30",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Good Afternoon Prabhu,\n\nYour destination price for NSN6736513 is $33/PG.  I have also attached your current destination price file that is valid till 9/30.\n\n \n\nPlease don’t hesitate to contact me and I will assist however I can.\n\n \n\nWishing you a wonderful day and a great week ahead!\n\n \n\nBest Regards,\n\n \n\nStefanie Verkade"
+        },
+        {
+          "history_id": 3016160,
+          "created_at": "2026-04-27 19:00:50",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Mailed Stefanie (LCI) to place the order /PS"
+        },
+        {
+          "history_id": 3016896,
+          "created_at": "2026-04-28 17:21:02",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Your Ticket#595620\n\nGood morning Prabhus, \nThank you for placing an order with LCI. We would like to inform you that your order has been successfully entered into our system. \n\nCustomer PO number: 47QDCC26M6GW3 \nCustomer PO total: $99.00\n\nOrder Confirmation Number: 8917732\nOrder Total: $99.00 \n\nAll Items in stock will ship within 2 Business days. Feel free to let us know if you have any further questions. \nThank you for choosing LCI."
+        },
+        {
+          "history_id": 3017594,
+          "created_at": "2026-04-29 17:13:55",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "We need to check on tracking tomorrow with LCI //PS"
+        },
+        {
+          "history_id": 3018295,
+          "created_at": "2026-04-30 16:38:09",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Mailed LCI for the tracking info /PS"
+        },
+        {
+          "history_id": 3018337,
+          "created_at": "2026-04-30 17:01:28",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "UPS tracking information: 1Z036G2K0336589863.- 04/30/2026\n\n5:19 A.M.\n\nOn the Way /PS"
+        },
+        {
+          "history_id": 3018340,
+          "created_at": "2026-04-30 17:03:58",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Prabhu Shankar (Prabhus@axiscoreonline.com)</i><br/>&nbsp;Changed status from 'exported' to 'in_transit'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 3018342,
+          "created_at": "2026-04-30 17:04:33",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Captured amount of $121.53 online. Transaction ID: \"81585601551-capture\"."
+        },
+        {
+          "history_id": 3018343,
+          "created_at": "2026-04-30 17:04:33",
+          "status": "in_transit",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3019013,
+          "created_at": "2026-05-01 16:22:57",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "UPS tracking information: 1Z036G2K0336589863.- 05/01/2026\n\n9:29 A.M.\n\nOut for Delivery\n\nOut For Delivery Today\n\nCheyenne, WY, United States /PS"
+        },
+        {
+          "history_id": 3020165,
+          "created_at": "2026-05-04 17:01:23",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "UPS tracking information: 1Z036G2K0336589863.- 05/01/2026\n\n10:22 A.M.\n\nDelivered /PS"
+        }
+      ],
+      "manual_comment_count": 21,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": null,
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "112-9063421-4539450",
+      "class": "CLASS_PAYABLE_OUTSTANDING",
+      "class_reason": "isg_invoice_open_balance_we_owe",
+      "recovery_target": 0.0,
+      "payable_outstanding": 163.13,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "Amazon US",
+      "store_id": 1,
+      "magento_entity_id": 390989,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "ARLINGTON INDUSTRIES",
+      "all_suppliers": [
+        "ARLINGTON INDUSTRIES"
+      ],
+      "is_cc_paid_vendor": false,
+      "amex_payment_evidence": null,
+      "amex_match_quality": null,
+      "amex_payment_date": null,
+      "amex_amount": null,
+      "isg_invoice": {
+        "invoice_number": "0006608182-IN",
+        "invoice_date": "5/5/2026",
+        "due_date": "6/4/2026",
+        "purchase_order_number": "9063421-4539450",
+        "po_format": "fbm",
+        "supplier_code": "ARL",
+        "manufacturer_name": "Arlington Industries",
+        "vendor_code": "ISG-ARL",
+        "invoice_amt": 163.13,
+        "open_balance": 163.13,
+        "net_amount": 162.38,
+        "paid_amount": 0.0,
+        "first_payment_date": "",
+        "first_payment_reference": "",
+        "is_fba_evidence_only": false,
+        "raw_csv_row": {
+          "InvoiceNumber": "0006608182-IN",
+          "InvoiceDate": "5/5/2026",
+          "DueDate": "6/4/2026",
+          "Days Overdue": "0",
+          "PurchaseOrderNumber": "9063421-4539450",
+          "Supplier": "ARL",
+          "Invoice Amt": "163.13",
+          "OpenBalance": "163.13",
+          "Discount": "0.75",
+          "NetAmount": "162.38",
+          "FirstPaymentReference": "",
+          "VendorInvoiceNumber": "2308001700",
+          "FirstPaymentDate": "",
+          "PaidAmount": "0",
+          "FreightAmount": "0",
+          "MiscAmount": "12.25",
+          "MerchAmount": "150.88"
+        }
+      },
+      "isg_invoice_count": 1,
+      "isg_invoice_vendor": "ISG-ARL",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2026-04-28 14:58:27",
+      "updated_at": "2026-05-05 16:03:28",
+      "grand_total": 252.64,
+      "qty_shipped": 16,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 150.88,
+      "exp_ship_cost": 10.5,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 161.38,
+      "amazon_net": 212.47,
+      "net_cash_profit": 212.47,
+      "amazon": {
+        "amazon_order_id": "112-9063421-4539450",
+        "is_afn_channel": false,
+        "is_prime": false,
+        "status": "2",
+        "paid_amount": 252.64,
+        "shipping_price": 0.0,
+        "qty_shipped": 0,
+        "qty_unshipped": 16,
+        "purchase_create_date": "2026-04-28 14:58:27",
+        "purchase_update_date": null,
+        "earliest_ship_date": "2026-05-04 07:00:00",
+        "latest_ship_date": "2026-05-05 06:59:59",
+        "gross_revenue": 252.64,
+        "fees_total": 40.17,
+        "line_items": [
+          {
+            "amazon_order_item_id": "158730914714201",
+            "sku": "TEXTI30XA-AXCRID-B008HTIOOA",
+            "asin": "B00000JBNS",
+            "qty_purchased": 16.0,
+            "price": 252.64,
+            "tax": 0.0,
+            "shipping": 0.0,
+            "shipping_tax": 0.0,
+            "amazon_fee": 40.17
+          }
+        ],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 390989,
+        "items": [
+          {
+            "item_id": 428373,
+            "sku": "TEXTI30XA-AXCRID-B008HTIOOA",
+            "qty_ordered": 16.0,
+            "qty_shipped": 16.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 16.0,
+            "base_cost": 9.43,
+            "shipping_cost": 0.66,
+            "price": 15.79,
+            "base_row_total": 252.64
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 3020089,
+          "created_at": "2026-05-04 15:27:52",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3020090,
+          "created_at": "2026-05-04 15:27:53",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 3020091,
+          "created_at": "2026-05-04 15:27:54",
+          "status": "issue",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Order having newly approved ASIN, but It's not validated yet. Please validate it before exporting order."
+        },
+        {
+          "history_id": 3020114,
+          "created_at": "2026-05-04 16:14:49",
+          "status": "issue",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Carlyn Carino</b>."
+        },
+        {
+          "history_id": 3020115,
+          "created_at": "2026-05-04 16:19:58",
+          "status": "issue",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Carlyn Carino (carlync@axiscoreonline.com)</i><br/>&nbsp;Order shipping address updated: <br/>&nbsp; - Last name from \"Chemistry- BR campus, Wilson/Central ReceiviPO530000000573618\" to \"Chemistry\"<br/>&nbsp; - Street Address from \"332 Sunset Drive\" to \"332 Sunset Drive\n- BR campus, Wilson/Central Rcvng\"<br/>&nbsp; - Telephone from \"+1 210-728-4548 ext. 32401\" to \"210-728-4548 ext. 32401\"<br/>&nbsp;<br/>&nbsp;Selected shipping method is no longer available due to order requirements. Please select a new shipping method.<br/>&nbsp;"
+        },
+        {
+          "history_id": 3020134,
+          "created_at": "2026-05-04 16:37:08",
+          "status": "issue",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "As per Fe :\n\nYou may process\n"
+        },
+        {
+          "history_id": 3020135,
+          "created_at": "2026-05-04 16:44:17",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "PO sent manually to Calvin of Arli"
+        },
+        {
+          "history_id": 3020955,
+          "created_at": "2026-05-05 16:03:28",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        }
+      ],
+      "manual_comment_count": 8,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 0.0,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 0.0,
+        "existing_discrepancy_amount": 0.0,
+        "delta_vs_ours": {
+          "actual_cost": 0.0,
+          "actual_credit": 0.0,
+          "selling_fee": 40.17,
+          "discrepancy": 0.0
+        },
+        "benchmark_match": false
+      },
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    }
+  ]
+}

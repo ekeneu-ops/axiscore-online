@@ -1,0 +1,143 @@
+{
+ "bid_id": "socorro-isd-tx-e2375-addendum-8",
+ "bid_number": "E2375 Addendum 8",
+ "agency": "Socorro ISD, TX",
+ "src": "Open",
+ "title": "Fundraising Services",
+ "close": "11/20/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "FJ REGULATION 12.8.21 Posted 2-14-22.pdf",
+  "Standard Terms and Conditions 10182021.pdf",
+  "Confidentiality and Safeguarding of District Records 022620.pdf",
+  "Vendor Reference Check -SISD.pdf",
+  "Child Nutrition Instruction Page.pdf",
+  "CIQ Form Cover Letter 2025.pdf",
+  "W-9.pdf",
+  "TRS Retiree Form E2375.pdf",
+  "Criminal Background Check-Forms Combined 060425.pdf",
+  "Consent_and_Disclosure_Form _1_.pdf",
+  "Draft Contract- E2375-8.pdf",
+  "Addendum 8.pdf",
+  "Pre-Employment Pre-service Affidavit _1_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "FJ REGULATION 12.8.21 Posted 2-14-22.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Terms and Conditions 10182021.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Confidentiality and Safeguarding of District Records 022620.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Reference Check -SISD.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Child Nutrition Instruction Page.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Form Cover Letter 2025.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W-9.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "TRS Retiree Form E2375.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Criminal Background Check-Forms Combined 060425.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Consent_and_Disclosure_Form _1_.pdf",
+   "kind": "pdf",
+   "tables": 23,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Draft Contract- E2375-8.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 8.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Pre-Employment Pre-service Affidavit _1_.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "broken link: https://fns-prod.azureedge.net/sites/default/files/allfoods_fundraisers.pdf"
+ ],
+ "latency": {
+  "bid_seconds": 42.7,
+  "attachment_fetches": 14,
+  "attachment_seconds": 26.9,
+  "attachment_bytes": 4357286,
+  "max_fetch_seconds": 3.35,
+  "throttle_signals": 0,
+  "http_4xx_5xx": [
+   502
+  ]
+ },
+ "captured_at": "2026-07-06T18:28:34.760922+00:00",
+ "extract_attempts": 1
+}

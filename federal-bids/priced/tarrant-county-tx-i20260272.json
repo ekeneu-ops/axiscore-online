@@ -1,0 +1,59 @@
+{
+ "schema": "v2",
+ "bid_id": "tarrant-county-tx-i20260272",
+ "agency": "Tarrant County, TX",
+ "bid_number": "I20260272",
+ "title": "Document Scanners",
+ "src": "Invited",
+ "close": "8/19/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-08-18T09:18:02.990462+00:00",
+ "cost_source": "best_cost_full_2026-08-17.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 1,
+ "priced_lines": 0,
+ "gap_lines": 1,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 1
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "Automatic Document Scanner, Desktop, 2 years Limited warranty, Epson #S1000II-NW, No equal is accepted. Scanner Interface Type: USB 2.0, Gigabit LAN Max H-Optical Resolution: 200 dpi Max Mono Scan Spe",
+   "qty": 24.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 22,
+    "method": "tokens 5/18",
+    "ov": 5,
+    "vendor": "Essendant",
+    "sku": "CNM9704B007",
+    "matched_desc": "Imageformula P-208ii Scan-Tini Personal Document Scanner, 600 Dpi Optical Resolution, 10-Sheet Duplex Auto Document Feed",
+    "catalog_uom": "EA",
+    "pack_qty": 8.0,
+    "uom_normalized": false,
+    "uom_mismatch": false,
+    "raw_merch_cost": 165.42,
+    "raw_freight": 8.41,
+    "unit_merch_cost": 165.42,
+    "unit_freight": 8.41,
+    "landed_unit": 173.83
+   }
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "schema": "v2",
+ "bid_id": "goodbuy-purchasing-cooperative-tx-26-27-6d000",
+ "agency": "Goodbuy Purchasing Cooperative, TX",
+ "bid_number": "26-27 6D000",
+ "title": "Office: Supplies/Equipment",
+ "src": "Invited",
+ "close": "9/17/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-08-18T09:18:02.973844+00:00",
+ "cost_source": "best_cost_full_2026-08-17.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 1,
+ "priced_lines": 0,
+ "gap_lines": 1,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 1
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 2,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 3,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 4,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 5,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 6,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 7,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 8,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 9,
+   "desc": "Office: Supplies/Equipment- Please submit any discounts for materials or equipment being offered to our members.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 10,
+   "desc": "Additional Line Items",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  }
+ ]
+}

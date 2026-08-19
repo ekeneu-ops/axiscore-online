@@ -1,0 +1,401 @@
+{
+ "schema": "v2",
+ "bid_id": "humble-isd-tx-2027-01-addendum-1",
+ "agency": "Humble ISD, TX",
+ "bid_number": "2027-01 Addendum 1",
+ "title": "ELECTRICAL MAINTENANCE, REPAIRS AND INSTALLATION SERVICES FOR CHILD NUTRITION SERVICES EQUIPMENT",
+ "src": "Invited",
+ "close": "8/25/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-08-18T09:18:02.976647+00:00",
+ "cost_source": "best_cost_full_2026-08-17.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 3,
+ "priced_lines": 0,
+ "gap_lines": 3,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 3
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "MUST PROVIDE LINK TO MSRP PRICE LIST BEING USED FOR THIS SOLICITATION OR LINK TO CATALOG WITH CURRENT MSRP PRICING",
+   "qty": 0.0,
+   "uom": "MSRP PRICE LIST OR LINK",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 13,
+    "method": "tokens 2/11",
+    "ov": 2,
+    "vendor": "Synnex",
+    "sku": "SP8-0401",
+    "matched_desc": "THIS COMPONENET MUST BE USED WITH BRACKET PANORAMA PART NUMBER SP5-0097-C",
+    "catalog_uom": "EA",
+    "pack_qty": 1,
+    "uom_normalized": false,
+    "uom_mismatch": true,
+    "raw_merch_cost": 2.2,
+    "raw_freight": 0.1739,
+    "unit_merch_cost": 2.2,
+    "unit_freight": 0.1739,
+    "landed_unit": 2.3739
+   }
+  },
+  {
+   "line": 2,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 3,
+   "desc": "OVERTIME HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 4,
+   "desc": "EMERGENCY HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 5,
+   "desc": "HOLIDAY HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 6,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 7,
+   "desc": "OVERTIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 8,
+   "desc": "EMERGENCY TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 9,
+   "desc": "HOLIDAY TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 10,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 11,
+   "desc": "OVERTIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 12,
+   "desc": "EMERGENCY TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 13,
+   "desc": "HOLIDAY TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 14,
+   "desc": "MUST PROVIDE LINK TO MSRP PRICE LIST BEING USED FOR THIS SOLICITATION OR LINK TO CATALOG WITH CURRENT MSRP PRICING",
+   "qty": 0.0,
+   "uom": "MSRP PRICE LIST OR LINK",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 13,
+    "method": "tokens 2/11",
+    "ov": 2,
+    "vendor": "Synnex",
+    "sku": "SP8-0401",
+    "matched_desc": "THIS COMPONENET MUST BE USED WITH BRACKET PANORAMA PART NUMBER SP5-0097-C",
+    "catalog_uom": "EA",
+    "pack_qty": 1,
+    "uom_normalized": false,
+    "uom_mismatch": true,
+    "raw_merch_cost": 2.2,
+    "raw_freight": 0.1739,
+    "unit_merch_cost": 2.2,
+    "unit_freight": 0.1739,
+    "landed_unit": 2.3739
+   }
+  },
+  {
+   "line": 15,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 16,
+   "desc": "OVERTIME HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 17,
+   "desc": "EMERGENCY HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 18,
+   "desc": "HOLIDAY HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 19,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 20,
+   "desc": "OVERTIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 21,
+   "desc": "EMERGENCY TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 22,
+   "desc": "HOLIDAY TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 23,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 24,
+   "desc": "OVERTIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 25,
+   "desc": "EMERGENCY TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 26,
+   "desc": "HOLIDAY TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 27,
+   "desc": "MUST PROVIDE LINK TO MSRP PRICE LIST BEING USED FOR THIS SOLICITATION OR LINK TO CATALOG WITH CURRENT MSRP PRICING",
+   "qty": 0.0,
+   "uom": "MSRP PRICE LIST OR LINK",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 13,
+    "method": "tokens 2/11",
+    "ov": 2,
+    "vendor": "Synnex",
+    "sku": "SP8-0401",
+    "matched_desc": "THIS COMPONENET MUST BE USED WITH BRACKET PANORAMA PART NUMBER SP5-0097-C",
+    "catalog_uom": "EA",
+    "pack_qty": 1,
+    "uom_normalized": false,
+    "uom_mismatch": true,
+    "raw_merch_cost": 2.2,
+    "raw_freight": 0.1739,
+    "unit_merch_cost": 2.2,
+    "unit_freight": 0.1739,
+    "landed_unit": 2.3739
+   }
+  },
+  {
+   "line": 28,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 29,
+   "desc": "OVERTIME HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 30,
+   "desc": "EMERGENCY HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 31,
+   "desc": "HOLIDAY HOURLY RATE FOR MASTER ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "MASTER HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 32,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 33,
+   "desc": "OVERTIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 34,
+   "desc": "EMERGENCY TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 35,
+   "desc": "HOLIDAY TIME HOURLY RATE FOR JOURNEYMAN ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "JOURNEYMAN HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 36,
+   "desc": "STRAIGHT TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-STRAIGHT TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 37,
+   "desc": "OVERTIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-OVERTIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 38,
+   "desc": "EMERGENCY TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-EMERGENCY TIME",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 39,
+   "desc": "HOLIDAY TIME HOURLY RATE FOR APPRENTICE ELECTRICIAN",
+   "qty": 1.0,
+   "uom": "APPRENTICE HRLY-HOLIDAY TIME",
+   "part": "",
+   "non_product": true
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "schema": "v2",
+ "bid_id": "lincoln-county-mo-2026-515-801",
+ "agency": "Lincoln County, MO",
+ "bid_number": "2026-515-801",
+ "title": "2026 Printing and Mailing of Tax Statements",
+ "src": "Invited",
+ "close": "8/27/2026 02:15 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-08-18T09:18:02.979043+00:00",
+ "cost_source": "best_cost_full_2026-08-17.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 0,
+ "priced_lines": 0,
+ "gap_lines": 0,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 0
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "TAX STATEMENTS See section 10.a in Scope of Work found under attachments.",
+   "qty": 41500.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 2,
+   "desc": "Processing See section 10-b in Scope of Work found under attachments.",
+   "qty": 41500.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 3,
+   "desc": "Postage See sections 9 & 10 in Scope of Work found under attachments.",
+   "qty": 29500.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 4,
+   "desc": "#10 Window Outgoing Envelopes See section 11-a in Scope of Work found under attachments.",
+   "qty": 29000.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 5,
+   "desc": "#9 Window Remittance Envelopes See section 11-b in Scope of Work found under attachments.",
+   "qty": 29500.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 6,
+   "desc": "9 x 12\u201d Window Envelopes See section 11-c in Scope of Work found under attachments.",
+   "qty": 500.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 7,
+   "desc": "Insert \u2013 Instructional Flyer Option 1 See section 12-a in Scope of Work found under attachments.",
+   "qty": 29500.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 8,
+   "desc": "Insert \u2013 Instructional Flyer Option 2 See section 12-b in Scope of Work found under attachments.",
+   "qty": 29500.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 9,
+   "desc": "Tax Statements \u2013 Delinq. Mailing See section 13-a in Scope of Work found under attachments.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 10,
+   "desc": "#10 Window Envelopes - Delinq. Mailing See section 13-a.1 in Scope of Work found under attachments.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 11,
+   "desc": "#9 Window Envelopes - Delinq. Mailing See section 13-a.2 in Scope of Work found under attachments.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 12,
+   "desc": "Processing \u2013 Delinquent Mailing See section 13-b in Scope of Work found under attachments.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 13,
+   "desc": "Postage See section 13-b.2 in Scope of Work found under attachments.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 14,
+   "desc": "PDF Images of statements Please provide total cost for PDF images of tax statements.",
+   "qty": 41500.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 15,
+   "desc": "Delivery / Freight charges See section 14-a in Scope of Work found under attachments.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 16,
+   "desc": "Design / Typesetting charges See section 14-b in Scope of Work found under attachments.",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 17,
+   "desc": "Other charges See section 14-c in Scope of Work found under attachments.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  }
+ ]
+}

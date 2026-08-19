@@ -1,0 +1,370 @@
+{
+ "bid_id": "yes-prep-tx-rfp-yesp2026-22",
+ "bid_number": "RFP#YESP2026-22",
+ "agency": "Yes Prep, TX",
+ "src": "Invited",
+ "title": "GUS, NFS Audiovisual Improvements",
+ "close": "9/4/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 16,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Gulfton Secondary (6565 De Moss Dr, Houston, TX 77074) Please make sure the amount listed here matches what is on your uploaded cost sheet.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Gulfton Secondary (6565 De Moss Dr, Houston, TX 77074) Please make sure the amount listed here matches what is on your uploaded cost sheet. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "North Forest Secondary (6602 Winfield Rd, Houston, TX 77050) Please make sure the amount listed here matches what is on your uploaded cost sheet.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 North Forest Secondary (6602 Winfield Rd, Houston, TX 77050) Please make sure the amount listed here matches what is on your uploaded cost sheet. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP_YESP2026-22 _GUS_ NFS Audiovisual Improvements_.pdf",
+  "GUS_ NFS - Audiovisual Improvements - RFP.pdf",
+  "_NF 01_ 20260812 North Forest Secondary - OFB.pdf",
+  "_NF 02_ NFS 00 -TOC.pdf",
+  "_NF 03_ NFS 27 01 00 Electronic Communications O_M Manuals.pdf",
+  "_NF 04_NFS 27 05 00 Communications General Provisions.pdf",
+  "_NF 05_ NFS 27 05 05 Communications Alterations Project Procedures.pdf",
+  "_NF 06_ NFS 27 05 07 Communications Shop Drawings.pdf",
+  "_NF 07_NFS 27 05 09 Contract Quality Control.pdf",
+  "_NF 08_ NFS 27 05 10 Firestops.pdf",
+  "_NF 09_ NFS 27 51 23 - Audio and Video Distribution Systems.pdf",
+  "_GU 01_ 20260812 Gulfton SS - OFB.pdf",
+  "_GU 02_GUS 00 - TOC.pdf",
+  "_GU 03_ GUS 27 01 00 Electronic Communications O_M Manuals.pdf",
+  "_GU 04_GUS 27 05 00 Communications General Provisions.pdf",
+  "_GU 05_GUS 27 05 05 Communications Alterations Project Procedures.pdf",
+  "_GU 06_GUS 27 05 07 Communications Shop Drawings.pdf",
+  "_GU 07_GUS 27 05 09 Contract Quality Control.pdf",
+  "_GU 08_GUS  27 05 10 Firestops.pdf",
+  "_GU 09_GUS 27 51 23 - Audio and Video Distribution Systems.pdf",
+  "New_Vendor_Packet_updated 8.20.2025.pdf",
+  "Bid Invitation.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP_YESP2026-22 _GUS_ NFS Audiovisual Improvements_.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "GUS_ NFS - Audiovisual Improvements - RFP.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_NF 01_ 20260812 North Forest Secondary - OFB.pdf",
+   "kind": "pdf",
+   "tables": 35,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "_NF 02_ NFS 00 -TOC.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_NF 03_ NFS 27 01 00 Electronic Communications O_M Manuals.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_NF 04_NFS 27 05 00 Communications General Provisions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "_NF 05_ NFS 27 05 05 Communications Alterations Project Procedures.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_NF 06_ NFS 27 05 07 Communications Shop Drawings.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_NF 07_NFS 27 05 09 Contract Quality Control.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_NF 08_ NFS 27 05 10 Firestops.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_NF 09_ NFS 27 51 23 - Audio and Video Distribution Systems.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "_GU 01_ 20260812 Gulfton SS - OFB.pdf",
+   "kind": "pdf",
+   "tables": 34,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "_GU 02_GUS 00 - TOC.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_GU 03_ GUS 27 01 00 Electronic Communications O_M Manuals.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_GU 04_GUS 27 05 00 Communications General Provisions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "_GU 05_GUS 27 05 05 Communications Alterations Project Procedures.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_GU 06_GUS 27 05 07 Communications Shop Drawings.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_GU 07_GUS 27 05 09 Contract Quality Control.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_GU 08_GUS  27 05 10 Firestops.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_GU 09_GUS 27 51 23 - Audio and Video Distribution Systems.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "New_Vendor_Packet_updated 8.20.2025.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Invitation.pdf",
+   "kind": "pdf",
+   "tables": 45,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "_NF 01_ 20260812 North Forest Secondary - OFB.pdf",
+   "sheet": 15,
+   "header_row": 0,
+   "headers": [
+    "LOCAL SOUND SYSTEM LEGEND\nSYMBOL DESCRIPTION ELEVATION BACK BOX/RACEWAY NOTES\nX 110 107B\nLOCAL SOUND SYSTEM SPEAKER CEILING MOUNT UNO CONTRACTOR PROVIDED\nLS\nBACK BOX OR 4\"X4\"X2 1/8\" J\nBOX WITH COVER, 1\"C\nAUXILIARY INPUT AND BLUETOOTH MIXER +48\" AFF TO TOP 4\"X4\"X2 1/8\" BACK BOX WITH\nABM NOTE #5\n1-G MUD RING, 1\"C\nRACK VENUE SPECIFIC LOCAL SOUND +66\" AFF TO CENTER N/A NOTE #6\nSYSTEM HEAD END RACK\nWA WIRELESS ANTENNA WALL MOUNT UNO 4\"X4\"X2 1/8\" BACK BOX WITH\n1-G MUD RING, 1\"C\nNOTES:\n1. #-G INDICATES BACK BOX SIZE.\n2. #-C INDICATES CONDUIT SIZE.\n3. UNO: UNLESS NOTED OTHERWISE\n4. THE SYSTEM INTEGRATOR SHALL COORDINATE ALL BOX AND CONDUIT SIZE REQUIREMENTS PRIOR TO ROUGH-IN BY THE\nPROJECTS ELECTRICAL CONTRACTOR.\n5. PROVIDE AND INSTALL ONE (1) CATEGORY CABLE TO CONNECT DEVICE TO NETWORK\nBOYS\n6. PROVIDE AND INSTALL ONE (2) CATEGORY CABLES TO RACK LOCATION. RACK POWER SHALL BE COORDINATED BY OWNER.\nRR1\nCLASSROOM CLASSROOM\nMECHANICAL\n122 123\nAUDIO/VIDEO LEGEND\n114B\nSYMBOL DESCRIPTION ELEVATION BACK BOX/RACEWAY NOTES\nCLASSROOM\n121A NOTE #5\nCMPI CEILING MOUNTED PROJECTOR\nAV-1 WALL MOUNTED AUDIO/VIDEO INPUT +18\" AFF UNO 1-GANG BACK BOX WITH\nOUTLET 1-GANG MUD RING, 1.25\" C\nCP AV CONTROL PANEL +48\" AFF TO TOP 3-GANG BACK BOX WITH NOTE #5\n3-G MUD RING, 1\"C\nNOTES:\n1. #-G INDICATES BACK BOX SIZE.\n2. #-C INDICATES CONDUIT SIZE.\n3. UNO: UNLESS NOTED OTHERWISE\n4. THE SYSTEM INTEGRATOR SHALL COORDINATE ALL BOX AND CONDUIT SIZE REQUIREMENTS PRIOR TO ROUGH-IN BY THE\nWA PROJECTS ELECTRICAL CONTRACTOR.\n5. PROVIDE AND INSTALL ONE (1) CATEGORY CABLE TO CONNECT DEVICE TO NETWORK\nGENERAL NOTES\n1. ELECTRICAL WORK SHALL BE DONE BY LICENSED ELECTRICIAN.\n2. CABLING IN OPEN CEILING AREAS SHALL BE RUN IN CONDUITS.\nLS LS\nCP\nAV-1\nABM\nLS LS\nCMPI\nPROJECTION\nSCREEN\nLS LS\nWA\nCAFETERIA\n-\nRACK\nUP\nCUSTODIAL\n110B\nCUSTODIAL KITCHEN\nSTO. STO.\n111B -\n102E 103E\nBOY'S\nLOCKER\nROOM\n102\nLOCKERS\nFREEZER\n-\n-\nCUSTODIAL\nTECHNOLOGY NEW PLAN - FIRST FLOOR - CAFETERIA\n1\n1/8\" = 1'-0\"\nHOUSTON\n10930 W. SAM HOUSTON PKWY N., SUITE 900\nHOUSTON, TX 77064\nSalas O'Brien Registration: F-4111\nSalas O'Brien Project Number: 2650-00760-00",
+    "",
+    "08-12-2026\nDescription Date\nYES PREP\nNORTH FOREST\nSECONDARY SCHOOL\nCAFETERIA AV\nUPGRADE\n6602 WINFIELD RD BLDG A,\nHOUSTON, TX 77050\nTECHNOLOGY NEW\nPLAN - FIRST FLOOR -\nCAFETERIA\nDate 08/12/2026\nDrawn by MA\nChecked by AY\nT1.00\nScale As indicated",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "Descrip",
+     "tion Date"
+    ]
+   ]
+  },
+  {
+   "source": "_NF 09_ NFS 27 51 23 - Audio and Video Distribution Systems.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "QTY",
+    "",
+    "MFR",
+    "PRODUCT NUMBER",
+    "DESCRIPTION",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 16,
+   "sample": [
+    [
+     "",
+     "AUDIO DISTRIBUTION",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Ref\nPlans",
+     "",
+     "Biamp",
+     "DX-IC6-W",
+     "6.5-inch, 2-way Ceiling Loudspeaker",
+     ""
+    ],
+    [
+     "1",
+     "",
+     "Biamp",
+     "Voltera D 1200.2M",
+     "Audio DSP and Amplified Loudspeaker Controller, 2\nChannels Sharing 1200W with Dante",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_GU 01_ 20260812 Gulfton SS - OFB.pdf",
+   "sheet": 18,
+   "header_row": 0,
+   "headers": [
+    "LOCAL SOUND SYSTEM LEGEND AUDIO/VIDEO LEGEND\nSYMBOL DESCRIPTION ELEVATION BACK BOX/RACEWAY NOTES SYMBOL DESCRIPTION ELEVATION BACK BOX/RACEWAY NOTES\nLOCAL SOUND SYSTEM SPEAKER CEILING MOUNT UNO CONTRACTOR PROVIDED NOTE #5\nLS CMPI CEILING MOUNTED PROJECTOR\nBACK BOX OR 4\"X4\"X2 1/8\" J\nBOX WITH COVER, 1\"C\nAV-1 WALL MOUNTED AUDIO/VIDEO INPUT +18\" AFF UNO 1-GANG BACK BOX WITH\nAUXILIARY INPUT AND BLUETOOTH MIXER +48\" AFF TO TOP 4\"X4\"X2 1/8\" BACK BOX WITH\nABM NOTE #5 OUTLET 1-GANG MUD RING, 1.25\" C\n1-G MUD RING, 1\"C\nRACK VENUE SPECIFIC LOCAL SOUND +66\" AFF TO CENTER N/A NOTE #6 CP AV CONTROL PANEL +48\" AFF TO TOP 3-GANG BACK BOX WITH NOTE #5\nSYSTEM HEAD END RACK 3-G MUD RING, 1\"C\nWA WIRELESS ANTENNA WALL MOUNT UNO 4\"X4\"X2 1/8\" BACK BOX WITH NOTES:\n1-G MUD RING, 1\"C\n1. #-G INDICATES BACK BOX SIZE.\nNOTES: 2. #-C INDICATES CONDUIT SIZE.\n1. #-G INDICATES BACK BOX SIZE. 3. UNO: UNLESS NOTED OTHERWISE\n2. #-C INDICATES CONDUIT SIZE. 4. THE SYSTEM INTEGRATOR SHALL COORDINATE ALL BOX AND CONDUIT SIZE REQUIREMENTS PRIOR TO ROUGH-IN BY THE\n3. UNO: UNLESS NOTED OTHERWISE PROJECTS ELECTRICAL CONTRACTOR.\n4. THE SYSTEM INTEGRATOR SHALL COORDINATE ALL BOX AND CONDUIT SIZE REQUIREMENTS PRIOR TO ROUGH-IN BY THE 5. PROVIDE AND INSTALL ONE (1) CATEGORY CABLE TO CONNECT DEVICE TO NETWORK\nPROJECTS ELECTRICAL CONTRACTOR.\n5. PROVIDE AND INSTALL ONE (1) CATEGORY CABLE TO CONNECT DEVICE TO NETWORK\n6. PROVIDE AND INSTALL ONE (2) CATEGORY CABLES TO RACK LOCATION. RACK POWER SHALL BE COORDINATED BY OWNER. GENERAL NOTES\n1. ELECTRICAL WORK SHALL BE DONE BY LICENSED ELECTRICIAN.\n2. CABLING IN OPEN CEILING AREAS SHALL BE RUN IN CONDUITS.\nABM RACK WA WA\nCP AV-1\nPROJECTION\nSCREEN\nLS LS LS\nIPMC\nLS LS LS\nLS LS LS\nTECHNOLOGY NEW PLAN - CAFETERIA\n1 HOUSTON\n1/8\" = 1'-0\"\n10930 W. SAM HOUSTON PKWY N., SUITE 900\nHOUSTON, TX 77064\nSalas O'Brien Registration: F-4111\nSalas O'Brien Project Number: 2650-01017-00",
+    "",
+    "08-12-2026\nDescription Date\nYES PREP\nGULFTON SECONDARY\nSCHOOL CAFETERIA AV\nUPGRADE\n6565 DE MOSS DR, HOUSTON, TX\n77074\nTECHNOLOGY NEW\nPLAN - CAFETERIA\nDate 08/12/2026\nDrawn by MA\nChecked by AY\nT1.00\nScale As indicated",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "Descrip",
+     "tion Date"
+    ]
+   ]
+  },
+  {
+   "source": "_GU 09_GUS 27 51 23 - Audio and Video Distribution Systems.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "QTY",
+    "",
+    "MFR",
+    "PRODUCT NUMBER",
+    "DESCRIPTION",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 16,
+   "sample": [
+    [
+     "",
+     "AUDIO DISTRIBUTION",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Ref\nPlans",
+     "",
+     "Biamp",
+     "DX-IC6-W",
+     "6.5-inch, 2-way Ceiling Loudspeaker",
+     ""
+    ],
+    [
+     "1",
+     "",
+     "Biamp",
+     "Voltera D 1200.2M",
+     "Audio DSP and Amplified Loudspeaker Controller, 2\nChannels Sharing 1200W with Dante",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 45.2,
+  "attachment_fetches": 22,
+  "attachment_seconds": 18.9,
+  "attachment_bytes": 11554794,
+  "max_fetch_seconds": 6.54,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-18T08:27:21.574484+00:00",
+ "extract_attempts": 1,
+ "lines_total": 12,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/yes-prep-tx-rfp-yesp2026-22/coverage.json"
+}

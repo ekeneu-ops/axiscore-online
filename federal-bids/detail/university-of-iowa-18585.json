@@ -1,0 +1,83 @@
+{
+ "bid_id": "university-of-iowa-18585",
+ "bid_number": "18585",
+ "agency": "University of Iowa",
+ "src": "Open",
+ "title": "Joint-Regent Commodity Data Storage",
+ "close": "7/22/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "3.1",
+   "desc": "Pricing Exercise #1 - Rackmount commodity storage server. Provide the total cost per the specifications detailed below. Component Specifications Qty Chassis 2U rackmount chassis with (8) 3.5\"/2.5\" hot-swap NVMe/SAS/SATA drive bays and (4) 3.5\"/2.5\" hot-swap NVMe/SATA drive bays. 1 Motherboard Dual socket 5th Gen Intel\u00ae Xeon\u00ae Scalable Processor, 32 DDR4-5600 DIMM slots, 6 PCI-E 5.0 x16. 1 Processor Intel\u00ae Xeon\u00ae Gold 6526Y (2.8GHz, 16 cores/32 threads, 37.5MB cache, DDR4-5200, 195W). 2 Heat Sink High-grade CPU heat sink. 2 Memory 32GB DDR5 5600MHz ECC RDIMM (512GB total). 16 Boot Drive 480GB Data center SSD (SATA 3.0 6Gb/s, 2.5\", 1DWPD). Mirrored with linux mdadm for OS load. 2 NVMe Drive 3.2TB Data center NVMe SSD (PCIe Gen 4, 2.5\", 3DWPD). 4 HBA Broadcom 9500-8e high-performance PCIe Gen 4 host bust adapter (12Gb/s). 4 Network Integrated dual-port 10GbE network adapter (RJ45). 1 System Management Integrated Gigabit Ethernet RJ45 port for out-of-band remote system management. 1 Network Intel\u00ae E810-XXVDA2 dual-port 25GbE network adapter card (SFP28). 1 Network 25GbE SFP+ transceivers. 2 OS Installed for burn-in and testing only. Customer will reinstall own image. 1 Power Supply Redundant 1600W 80+ platinum efficiency power supply. 2 Power Cord C13 to C14 power cable. 2 Rail Kit Rackmount rail kit included with chassis. 1",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": ""
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "3.2",
+   "desc": "Pricing Exercise #2 - Data storage enclosure. Provide the total cost per the specifications detailed below. Component Specifications Qty Chassis 4U JBOD storage enclosure with (60) 3.5\" hard drive bays, cable management arm for hot-swap drive maintenance, dual redundant hot-swap I/O modules with 6 miniSAS HD ports per I/O module, redundant hot-swap fan modules, and multi-zone configuration. 1 Data Drive Enterprise class 20TB HDD (3.5\", SAS 12Gb/s, 7200RPM). 60 Data Drive Spare enterprise class 20TB HDD (3.5\", SAS 12Gb/s, 7200RPM). 1 Cable External miniSAS HD to miniSAS HD cable (2m). 4 Power Supply Redundant 1600W 80+ platinum efficiency power supply. 2 Power Cord C13 to C14 power cable. 2 Configuration Validation and burn-in of storage components prior to shipping. 1 Rail Kit Rackmount rail kit included with chassis. 1",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.2 Pricing Exercise #2 - Data storage enclosure. Provide the total cost per the specifications detailed below. Component Specifications Qty Chassis 4U JBOD storage enclosure with (60) 3.5\" hard drive bays, cable management arm for hot-swap drive maintenance, dual redundant hot-swap I/O modules with 6 miniSAS HD ports per I/O module, redundant hot-swap fan modules, and multi-zone configuration. 1 Data Drive Enterprise class 20TB HDD (3.5\", SAS 12Gb/s, 7200RPM). 60 Data Drive Spare enterprise class 20TB HDD (3.5\", SAS 12Gb/s, 7200RPM). 1 Cable External miniSAS HD to miniSAS HD cable (2m). 4 Power Supply Redundant 1600W 80+ platinum efficiency power supply. 2 Power Cord C13 to C14 power cable. 2 Configuration Validation and burn-in of storage components prior to shipping. 1 Rail Kit Rackmount rail kit included with chassis. 1 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Regent Universities Terms and Conditions_Updated March 2025.pdf",
+  "RFP 18585 University of Iowa Specifications.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Regent Universities Terms and Conditions_Updated March 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 18585 University of Iowa Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 15.5,
+  "attachment_fetches": 2,
+  "attachment_seconds": 2.2,
+  "attachment_bytes": 313163,
+  "max_fetch_seconds": 1.4,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:40:38.392341+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-iowa-18585/coverage.json"
+}

@@ -1,0 +1,107 @@
+{
+ "bid_id": "city-of-beaumont-tx-mf0626-39-addendum-1",
+ "bid_number": "MF0626-39 Addendum 1",
+ "agency": "City of Beaumont, TX",
+ "src": "Open",
+ "title": "Contract for the Purchase and Installation of a Standby Generator at Fire Station #5 located at 6375 Walden Rd., Beaumont, TX 77707",
+ "close": "7/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "BASE BID (As Specified in Scope of Work) For Furnishing All Labor, Materials, Equipment, and Supervision Necessary to Install a new Standby Generator - 60 kW at 120 / 208 volts ac 3 phase, .8 pf. natural gas fueled pad mounted generator. Transfer switch shall be rated NEMA 1, Service Entrance Rated, at 400 amps, 120/208 vac, 3phase. Bid shall include remote annunciator and start up service for generator at Fire Station #5 located at 6375 Walden Road Beaumont, Texas 77707.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 BASE BID (As Specified in Scope of Work) For Furnishing All Labor, Materials, Equipment, and Supervision Necessary to Install a new Standby Generator - 60 kW at 120 / 208 volts ac 3 phase, .8 pf. natural gas fueled pad mounted generator. Transfer switch shall be rated NEMA 1, Service Entrance Rated, at 400 amps, 120/208 vac, 3phase. Bid shall include remote annunciator and start up service for generator at Fire Station #5 located at 6375 Walden Road Beaumont, Texas 77707. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Alternate #1 \u2013 Five Year Generator extended Limited Warranty and Three-Year Automatic Transfer Switch Limited Warranty",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Alternate #1 \u2013 Five Year Generator extended Limited Warranty and Three-Year Automatic Transfer Switch Limited Warranty 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "MF0626-39_Specifications.pdf",
+  "MF0626-39_Add 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "MF0626-39_Specifications.pdf",
+   "kind": "pdf",
+   "tables": 14,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "MF0626-39_Add 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "MF0626-39_Specifications.pdf",
+   "sheet": 11,
+   "header_row": 0,
+   "headers": [
+    "DESCRIPTION",
+    "TOTAL PRICE"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "BASE BID For Furnishing All Labor, Materials, Equipment,\nand Supervision Necessary to Install a new Standby Generator \u2013\n60 kW at 120 / 208 volts ac 3 phase, .8 pf. natural gas fueled pad mounted\ngenerator. Transfer switch shall be rated NEMA 1, Service Entrance Rated,\nat 400 amps, 120/208 vac, 3phase. Bid shall include remote annunciator\nand start up service for generator at Fire Station #5 located at 6375 Walden\nRoad Beaumont, Texas 77707. (As Specified in Scope of Work)",
+     "$"
+    ],
+    [
+     "ALTERNATE NO. 1 \u2013\nFive Year Generator Extended Limited Warranty and\nThree Year Automatic Transfer Switch Limited Warranty",
+     "$"
+    ],
+    [
+     "Manufacturer and Model Number of Generator:",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 20.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 7.3,
+  "attachment_bytes": 5118349,
+  "max_fetch_seconds": 5.26,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:03:01.844904+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-beaumont-tx-mf0626-39-addendum-1/coverage.json"
+}

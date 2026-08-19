@@ -1,0 +1,5 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,Price Per Square Footage for Lot Clearing (as described in the Specifications),1.0,Square Footage,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,Price per Opening of Plywood Boards (for side and rear structure openings),1.0,Each,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,"Price per Opening of Clear, Minimum 3/16"" thick, Polycarbonate (for street facing window openings-directly facing public view)",1.0,Each,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,Price per Opening for HDPE Bracing and Bolts to Accompany the Polycarbonate Panels,1.0,Each,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

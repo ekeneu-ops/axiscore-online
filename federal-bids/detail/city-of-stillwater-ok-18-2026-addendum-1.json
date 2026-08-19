@@ -1,0 +1,183 @@
+{
+ "bid_id": "city-of-stillwater-ok-18-2026-addendum-1",
+ "bid_number": "18-2026 Addendum 1",
+ "agency": "City of Stillwater, OK",
+ "src": "Open",
+ "title": "Front Load Steel Dumpsters",
+ "close": "8/19/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "2-Yard Front Load Dumpster",
+   "qty": "60",
+   "uom": "EA",
+   "note": "Pricing shall include all freight and delivery charges.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 2-Yard Front Load Dumpster 60 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "4-Yard Front Load Dumpster",
+   "qty": "80",
+   "uom": "EA",
+   "note": "Pricing shall include all freight and delivery charges.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 4-Yard Front Load Dumpster 80 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "6-Yard Front Load Dumpster",
+   "qty": "140",
+   "uom": "EA",
+   "note": "Pricing shall include all freight and delivery charges.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 6-Yard Front Load Dumpster 140 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "8-Yard Front Load Dumpster",
+   "qty": "50",
+   "uom": "EA",
+   "note": "Pricing shall include all freight and delivery charges.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 8-Yard Front Load Dumpster 50 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Alternate 1 - Locking lid hardware",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide additional unit price per dumpster. Pricing shall include all freight and delivery charges.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Alternate 1 - Locking lid hardware 1 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Alternate 2 - Reflective striping",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide additional unit price per dumpster. Pricing shall include all freight and delivery charges.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Alternate 2 - Reflective striping 1 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Alternate 3 - Factory provisions for future bolt on swivel casters",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide additional unit price per dumpster. Pricing shall include all freight and delivery charges.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Alternate 3 - Factory provisions for future bolt on swivel casters 1 EA No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "Front Load Dumpster Specifications.pdf",
+  "Purchase Agreement.pdf",
+  "Business Relationships Affd.pdf",
+  "Non Collusion Affd.pdf",
+  "Instructions for Bidders.pdf",
+  "General Terms.pdf",
+  "2025-10-30 Firearms Non-Discrimination Affidavit _1_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Front Load Dumpster Specifications.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Business Relationships Affd.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Non Collusion Affd.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions for Bidders.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Terms.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2025-10-30 Firearms Non-Discrimination Affidavit _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 18.6,
+  "attachment_fetches": 7,
+  "attachment_seconds": 5.6,
+  "attachment_bytes": 873728,
+  "max_fetch_seconds": 1.06,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:30:33.452693+00:00",
+ "extract_attempts": 1,
+ "lines_total": 7,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-stillwater-ok-18-2026-addendum-1/coverage.json"
+}

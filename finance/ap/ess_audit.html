@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Essendant Invoice Audit — 2026</title>
+<style>
+  :root{--panel:#fff;--panel2:#f7f9fc;--line:#e4e9f0;--ink:#1b2533;--mut:#67748a;
+        --ess:#2563eb;--over:#dc2626;--under:#0891b2;--ok:#16a34a;--warn:#ea580c;}
+  *{box-sizing:border-box}
+  body{margin:0;font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--panel2)}
+  .wrap{max-width:1280px;margin:0 auto;padding:18px 16px 60px}
+  h1{font-size:20px;margin:0 0 2px}
+  .sub{color:var(--mut);font-size:12px;margin-bottom:16px}
+  a{color:var(--ess);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:14px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+  .kpi .lab{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
+  .kpi .val{font-size:20px;font-weight:650;font-variant-numeric:tabular-nums;margin-top:3px}
+  .kpi .note{font-size:11px;color:var(--mut);margin-top:3px}
+  .over{color:var(--over)} .under{color:var(--under)} .ok{color:var(--ok)}
+  .pattern{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:10px 13px;font-size:13px;margin-bottom:14px}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+  .controls input[type=text]{padding:7px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px;min-width:220px}
+  .controls label{font-size:12px;color:var(--mut);display:flex;align-items:center;gap:5px}
+  .btn{padding:7px 12px;border:1px solid var(--line);background:var(--panel);border-radius:8px;font-size:13px;cursor:pointer;color:var(--ink)}
+  .btn:hover{background:var(--panel2)}
+  .count{font-size:12px;color:var(--mut);margin-left:auto}
+  .tablecard{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel)}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+  th{background:var(--panel2);position:sticky;top:0;cursor:pointer;font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--mut);user-select:none}
+  th.n,td.n{text-align:right;font-variant-numeric:tabular-nums}
+  tbody tr{cursor:pointer}
+  tbody tr:hover{background:#f0f6ff}
+  .pill{font-size:10px;padding:1px 7px;border-radius:999px;border:1px solid var(--line)}
+  .pill.out{background:#fff1f2;color:#be123c;border-color:#fecdd3}
+  .pill.paid{background:#ecfdf5;color:#047857;border-color:#a7f3d0}
+  .det{background:#fbfdff}
+  .det td{white-space:normal;padding:12px 14px}
+  .evgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+  .evbox{border:1px solid var(--line);border-radius:8px;padding:9px 11px;background:#fff}
+  .evbox h4{margin:0 0 6px;font-size:12px}
+  .evbox .r{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums;padding:1px 0}
+  .muted{color:var(--mut)}
+  .foot{margin-top:18px;font-size:11px;color:var(--mut)}
+  .miss{margin-top:22px}
+  .err{color:var(--over);padding:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Essendant Invoice Audit — 2026</h1>
+  <div class="sub">Is what Essendant billed us consistent with what we expected to pay?
+    &nbsp;·&nbsp; <a href="index.html">← AP Dashboard</a>
+    &nbsp;·&nbsp; <span id="gen"></span></div>
+
+  <div id="kpis" class="kpis"></div>
+  <div id="pattern" class="pattern" style="display:none"></div>
+
+  <div class="controls">
+    <input id="q" type="text" placeholder="Search order # or invoice #…">
+    <label><input id="overonly" type="checkbox"> Overbilled only</label>
+    <label>Min |deviation| $ <input id="minabs" type="text" value="1" style="width:60px;min-width:0"></label>
+    <a class="btn" id="csv" href="ess_audit_offenders.csv" download>Download full CSV</a>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="tablecard">
+    <table id="tbl">
+      <thead><tr>
+        <th data-k="coid">Order #</th>
+        <th data-k="status">Status</th>
+        <th class="n" data-k="n_inv">#Inv</th>
+        <th data-k="first_inv">1st inv</th>
+        <th class="n" data-k="exp_item">Exp item</th>
+        <th class="n" data-k="act_item">Act item</th>
+        <th class="n" data-k="item_dev">Item Δ$</th>
+        <th class="n" data-k="item_dev_pct">Item Δ%</th>
+        <th class="n" data-k="exp_ship">Exp ship</th>
+        <th class="n" data-k="act_ship">Act ship</th>
+        <th class="n" data-k="ship_dev">Ship Δ$</th>
+        <th class="n" data-k="ship_dev_pct">Ship Δ%</th>
+        <th class="n" data-k="tot_dev">Total Δ$</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <div id="missing" class="miss"></div>
+
+  <div class="foot" id="foot"></div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s);
+const money=x=>(x==null||x==='')?'':Number(x).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const pct=x=>(x==null||x==='')?'':(Number(x)>=0?'+':'')+Number(x).toFixed(1)+'%';
+const sgn=x=>(Number(x)>0?'+':'')+money(x);
+let DATA=null, ROWS=[], sortK='tot_dev', sortDir=-1, RECON=null, reconTried=false;
+
+fetch('ess_audit.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{DATA=d;render();})
+  .catch(e=>{$('#kpis').innerHTML='<div class="err">Could not load ess_audit.json — '+e+'</div>';});
+
+function render(){
+  const h=DATA.headline;
+  $('#gen').textContent='generated '+(DATA.generated_at||'').slice(0,16).replace('T',' ')+' UTC';
+  const recover=h.gross_overbill_pos;
+  $('#kpis').innerHTML=[
+    ['Total ESS billed 2026','$'+money(h.billed_total),'item $'+money(h.billed_item)+' · ship $'+money(h.billed_ship)],
+    ['Expected (scored)','$'+money(h.expected_scored), h.scored.toLocaleString()+' orders w/ expected basis'],
+    ['Net overbilling (signed)','<span class="'+(h.net_overbill>=0?'over':'ok')+'">'+sgn(h.net_overbill)+'</span>','item '+sgn(h.net_item_dev)+' · ship '+sgn(h.net_ship_dev)],
+    ['Invoices deviating &gt; $1', h.dev_gt1.toLocaleString(), h.orders_overbilled_gt1+' over · '+h.orders_underbilled_gt1+' under'],
+    ['Gross recoverable (overbilled)','<span class="over">$'+money(h.gross_overbill_pos)+'</span>','item $'+money(h.gross_item_over)+' · ship $'+money(h.gross_ship_over)],
+    ['No expected basis', h.missing_exp+' orders','counted, not scored (data honesty)'],
+  ].map(k=>'<div class="kpi"><div class="lab">'+k[0]+'</div><div class="val">'+k[1]+'</div><div class="note">'+k[2]+'</div></div>').join('');
+
+  const onFile=2449.38;
+  $('#pattern').style.display='block';
+  $('#pattern').innerHTML='<b>Shipping-overbilling pattern:</b> the documented figure on file was <b>$'+money(onFile)+'</b> (net of credits, ~60 orders). '+
+    'This audit finds <b>$'+money(h.gross_ship_over)+'</b> of gross shipping overbilling across 2026 ESS orders (net shipping deviation '+sgn(h.net_ship_dev)+'). '+
+    'The pattern is reproduced and extended — Essendant continues to bill freight on orders where $0 (or a lower) freight was expected.';
+
+  ROWS=DATA.offenders.slice();
+  bindHeaders(); apply();
+  renderMissing();
+  $('#foot').innerHTML='Deviation = actual billed − expected. Positive = Essendant overbilled (recoverable). '+
+    'Expected = Magento order-item cost (qty-shipped weighted) + expected freight; Actual = Essendant vendor invoices (per shipment). '+
+    'Full dispute CSV: <a href="ess_audit_offenders.csv">ess_audit_offenders.csv</a> · machine feed: <a href="ess_audit.json">ess_audit.json</a>. '+
+    'Auto-refreshes daily (spine-ess-audit).';
+}
+
+function bindHeaders(){
+  document.querySelectorAll('th').forEach(th=>th.onclick=()=>{
+    const k=th.dataset.k; if(sortK===k){sortDir*=-1;} else {sortK=k;sortDir=(k==='coid'||k==='status'||k==='first_inv')?1:-1;}
+    apply();
+  });
+}
+function apply(){
+  const q=$('#q').value.trim().toLowerCase();
+  const overonly=$('#overonly').checked;
+  const minabs=parseFloat($('#minabs').value)||0;
+  let r=ROWS.filter(o=>{
+    if(overonly && !(o.tot_dev>0)) return false;
+    if(Math.abs(o.tot_dev)<minabs) return false;
+    if(q && !((o.coid||'').toLowerCase().includes(q) || (o.invoices||'').toLowerCase().includes(q))) return false;
+    return true;
+  });
+  r.sort((a,b)=>{let x=a[sortK],y=b[sortK];
+    if(typeof x==='string'||typeof y==='string'){x=(x==null?'':x)+'';y=(y==null?'':y)+'';return x<y?-1*sortDir:x>y?1*sortDir:0;}
+    x=x==null?-1e15:x; y=y==null?-1e15:y; return (x-y)*sortDir;});
+  const tb=$('#rows'); tb.innerHTML='';
+  const frag=document.createDocumentFragment();
+  r.forEach(o=>{
+    const tr=document.createElement('tr');
+    const idc=v=>'<td class="n '+(v>0?'over':v<0?'under':'')+'">'+(v? sgn(v):money(v))+'</td>';
+    tr.innerHTML='<td><b>'+o.coid+'</b></td>'+
+      '<td><span class="pill '+(o.status==='outstanding'?'out':'paid')+'">'+o.status+'</span></td>'+
+      '<td class="n">'+o.n_inv+'</td>'+
+      '<td class="muted">'+(o.first_inv||'')+'</td>'+
+      '<td class="n">'+money(o.exp_item)+'</td>'+
+      '<td class="n">'+money(o.act_item)+'</td>'+
+      idc(o.item_dev)+
+      '<td class="n '+(o.item_dev>0?'over':'')+'">'+pct(o.item_dev_pct)+'</td>'+
+      '<td class="n">'+money(o.exp_ship)+'</td>'+
+      '<td class="n">'+money(o.act_ship)+'</td>'+
+      idc(o.ship_dev)+
+      '<td class="n '+(o.ship_dev>0?'over':'')+'">'+pct(o.ship_dev_pct)+'</td>'+
+      '<td class="n"><b class="'+(o.tot_dev>0?'over':'under')+'">'+sgn(o.tot_dev)+'</b></td>';
+    tr.onclick=()=>toggle(tr,o);
+    frag.appendChild(tr);
+  });
+  tb.appendChild(frag);
+  $('#count').textContent=r.length.toLocaleString()+' of '+ROWS.length.toLocaleString()+' deviating orders';
+}
+$('#q').oninput=apply; $('#overonly').onchange=apply; $('#minabs').oninput=apply;
+
+function toggle(tr,o){
+  if(tr.nextSibling && tr.nextSibling.classList && tr.nextSibling.classList.contains('det')){tr.nextSibling.remove();return;}
+  const d=document.createElement('tr'); d.className='det';
+  const td=document.createElement('td'); td.colSpan=13;
+  const amazon=/^\d{3}-\d{7}-\d{7}$/.test(o.coid);
+  td.innerHTML='<div class="evgrid">'+
+    '<div class="evbox"><h4>Expected (Magento)</h4>'+
+      '<div class="r"><span>Item cost</span><b>$'+money(o.exp_item)+'</b></div>'+
+      '<div class="r"><span>Freight</span><b>$'+money(o.exp_ship)+'</b></div>'+
+      '<div class="r"><span>Total expected</span><b>$'+money(Number(o.exp_item)+Number(o.exp_ship))+'</b></div></div>'+
+    '<div class="evbox"><h4>Actual (Essendant invoices)</h4>'+
+      '<div class="r"><span>Item billed</span><b>$'+money(o.act_item)+'</b></div>'+
+      '<div class="r"><span>Freight billed</span><b>$'+money(o.act_ship)+'</b></div>'+
+      '<div class="r"><span>Invoices ('+o.n_inv+')</span><b>'+(o.invoices||'')+'</b></div>'+
+      '<div class="r"><span>Dates</span><b>'+(o.first_inv||'')+(o.last_inv&&o.last_inv!==o.first_inv?' → '+o.last_inv:'')+'</b></div></div>'+
+    '<div class="evbox"><h4>Deviation (recoverable)</h4>'+
+      '<div class="r"><span>Item Δ</span><b class="'+(o.item_dev>0?'over':'under')+'">'+sgn(o.item_dev)+' ('+pct(o.item_dev_pct)+')</b></div>'+
+      '<div class="r"><span>Shipping Δ</span><b class="'+(o.ship_dev>0?'over':'under')+'">'+sgn(o.ship_dev)+' ('+pct(o.ship_dev_pct)+')</b></div>'+
+      '<div class="r"><span>Total Δ</span><b class="'+(o.tot_dev>0?'over':'under')+'">'+sgn(o.tot_dev)+'</b></div>'+
+      '<div class="r"><span>Status</span><b>'+o.status+'</b></div></div>'+
+    '<div class="evbox"><h4>Drill</h4>'+
+      '<div id="rec-'+cssId(o.coid)+'" class="muted">loading full order evidence…</div>'+
+      (amazon?'<div style="margin-top:6px"><a href="https://sellercentral.amazon.com/orders-v3/order/'+o.coid+'" target="_blank" rel="noopener">Amazon Seller Central ↗</a></div>':'')+
+      '<div style="margin-top:4px"><a href="index.html" title="Search this order # in the AP dashboard">Open AP dashboard ↗</a></div></div>'+
+    '</div>';
+  d.appendChild(td); tr.after(d);
+  loadRecon(o.coid);
+}
+function cssId(s){return (s||'').replace(/[^a-zA-Z0-9_-]/g,'_');}
+function loadRecon(coid){
+  const slot=()=>document.getElementById('rec-'+cssId(coid));
+  const fill=()=>{
+    const el=slot(); if(!el) return;
+    if(!RECON){el.innerHTML='<span class="muted">no recon feed</span>';return;}
+    let rec=null; const arr=RECON.orders||RECON.items||(Array.isArray(RECON)?RECON:null);
+    if(Array.isArray(arr)) rec=arr.find(x=>x && (x.channel_order_id===coid||x.coid===coid||x.order===coid));
+    if(!rec){el.innerHTML='<span class="muted">order not in recon snapshot (audit evidence above is authoritative)</span>';return;}
+    el.innerHTML='<span class="muted">recon: amazon_net '+(rec.amazon_net!=null?'$'+money(rec.amazon_net):'—')+
+       ', net cash '+(rec.net_cash_profit!=null?'$'+money(rec.net_cash_profit):'—')+'</span>';
+  };
+  if(reconTried){fill();return;}
+  reconTried=true;
+  fetch('../data/_latest.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{RECON=j;fill();}).catch(()=>{fill();});
+}
+
+function renderMissing(){
+  const m=DATA.missing_expected||[];
+  if(!m.length){$('#missing').innerHTML='';return;}
+  $('#missing').innerHTML='<h3 style="font-size:14px;margin:0 0 6px">No expected basis — '+m.length+' orders (reported, not scored)</h3>'+
+    '<div class="sub">These ESS invoices have no matching Magento order items, so expected cost can\'t be computed. Per data-honesty rule they are counted and listed, never scored as deviations.</div>'+
+    '<div class="tablecard"><table><thead><tr><th>Order #</th><th>Status</th><th class="n">#Inv</th><th>Invoices</th><th class="n">Billed</th></tr></thead><tbody>'+
+    m.map(o=>'<tr><td><b>'+o.coid+'</b></td><td><span class="pill '+(o.status==='outstanding'?'out':'paid')+'">'+o.status+'</span></td><td class="n">'+o.n_inv+'</td><td class="muted">'+(o.invoices||'')+'</td><td class="n">$'+money(o.billed)+'</td></tr>').join('')+
+    '</tbody></table></div>';
+}
+</script>
+</body>
+</html>

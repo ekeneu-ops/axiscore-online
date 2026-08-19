@@ -1,0 +1,95 @@
+{
+ "bid_id": "galena-park-isd-tx-rfp-ma-24-001",
+ "bid_number": "RFP MA 24-001",
+ "agency": "Galena Park ISD, TX",
+ "src": "Open",
+ "title": "Fundraising Items (Multi-Award Semi-Annually) 2nd Semester Third Year",
+ "close": "9/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Please enter the percent off offered. NOTE: If you have additional catalogs with pricing, please select the \"Add Alternate\" button (below the response box) to provide the catalog information. Handling procedures for defective supplies?State your return policy (restocking fees, etc.)Other incentives (specials, over-stocked, etc.)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Please enter the percent off offered. NOTE: If you have additional catalogs with pricing, please select the \"Add Alternate\" button (below the response box) to provide the catalog information. Handling procedures for defective supplies? State your return policy (restocking fees, etc.) Other incentives (specials, over-stocked, etc.) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Form W-9 March 2024 Fillable.pdf",
+  "Form 1295 Instructions and Sample.pdf",
+  "CIQ Fillable with Instructions.pdf",
+  "Texas and Federal Certification Form 2025.pdf",
+  "Certification of Criminal History Record.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Form W-9 March 2024 Fillable.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form 1295 Instructions and Sample.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Fillable with Instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Texas and Federal Certification Form 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certification of Criminal History Record.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 19.2,
+  "attachment_fetches": 5,
+  "attachment_seconds": 7.8,
+  "attachment_bytes": 1872517,
+  "max_fetch_seconds": 2.04,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:24:38.649052+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/galena-park-isd-tx-rfp-ma-24-001/coverage.json"
+}

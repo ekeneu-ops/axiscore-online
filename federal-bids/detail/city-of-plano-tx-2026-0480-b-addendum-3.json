@@ -1,0 +1,103 @@
+{
+ "bid_id": "city-of-plano-tx-2026-0480-b-addendum-3",
+ "bid_number": "2026-0480-B Addendum 3",
+ "agency": "City of Plano, TX",
+ "src": "Open",
+ "title": "Haggard Library Re-Roof (Building 060), Project No. FAC-F-00135",
+ "close": "8/17/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "All costs associated with re-roofing Haggard Library",
+   "qty": "1",
+   "uom": "lump sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 All costs associated with re-roofing Haggard Library 1 lump sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2026-0480-B_ Addendum _3.pdf",
+  "2026-0480-B_ Addendum _2.pdf",
+  "2026-0480-B_ Addendum _1.pdf",
+  "Bid Bond _updated 01.23.26_.pdf",
+  "Plano - Haggard Library - 100pct IFBC DRAWINGS.pdf",
+  "2026-0480-B Solicitation.2 .pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-0480-B_ Addendum _3.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-0480-B_ Addendum _2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-0480-B_ Addendum _1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Bond _updated 01.23.26_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Plano - Haggard Library - 100pct IFBC DRAWINGS.pdf",
+   "kind": "pdf",
+   "tables": 44,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-0480-B Solicitation.2 .pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 53.3,
+  "attachment_fetches": 6,
+  "attachment_seconds": 37.6,
+  "attachment_bytes": 11528268,
+  "max_fetch_seconds": 23.14,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-14T08:18:03.186088+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-plano-tx-2026-0480-b-addendum-3/coverage.json"
+}

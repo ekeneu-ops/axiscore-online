@@ -1,0 +1,148 @@
+{
+ "bid_id": "springfield-public-schools-mo-26-106",
+ "bid_number": "26-106",
+ "agency": "Springfield Public Schools, MO",
+ "src": "Open",
+ "title": "Bus Front and Rear A/C Retrofit",
+ "close": "7/21/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 37,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "A/C System Retrofit Kit Reference: Freeblow 126K TA55F55B33C67 or equivalent Minimum Components: Upper Bulkhead Front/Rear Evaporators Driver's Side Condenser in Front of the Tail Pipe Compressors, Filters and Lines Basic Driver Control Switches for Front and Rear (Off, High, Low) to utilize Relay Logic as Opposed to Climate Control",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 A/C System Retrofit Kit Reference: Freeblow 126K TA55F55B33C67 or equivalent Minimum Components: Upper Bulkhead Front/Rear Evaporators Driver's Side Condenser in Front of the Tail Pipe Compressors, Filters and Lines Basic Driver Control Switches for Front and Rear (Off, High, Low) to utilize Relay Logic as Opposed to Climate Control 3 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "3",
+   "desc": "Alternator, 325 AMP Reference: 4060248C91 or equivalent Minimum Components: Pad Mount Including Brackets Serpentine Belt",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Alternator, 325 AMP Reference: 4060248C91 or equivalent Minimum Components: Pad Mount Including Brackets Serpentine Belt 3 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-106 Bus List by VIN PDF.pdf",
+  "Substitute_W9 Plus.pdf",
+  "PO Terms and Conditions 09.2025.pdf",
+  "General Contract Requirements IFB WITHOUT RENEWALS - SERVICES.pdf",
+  "FEDERAL WORK AUTHORIZATION PROGRAM AFFIDAVIT.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-106 Bus List by VIN PDF.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Substitute_W9 Plus.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PO Terms and Conditions 09.2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Contract Requirements IFB WITHOUT RENEWALS - SERVICES.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "FEDERAL WORK AUTHORIZATION PROGRAM AFFIDAVIT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "General Contract Requirements IFB WITHOUT RENEWALS - SERVICES.pdf",
+   "sheet": 4,
+   "header_row": 15,
+   "headers": [
+    "each and every specification, drawing, sample or other description which was furnished to or adopted by the"
+   ],
+   "score": 2,
+   "n_rows": 37,
+   "sample": [
+    [
+     "Purchasing Department, (2) be fit and sufficient for the purpose expressed in the IFB, (3) be merchantable, (4) be of"
+    ],
+    [
+     "good materials and workmanship, and (5) be free from defect."
+    ],
+    [
+     "b) Such warranty shall survive delivery and shall not be deemed waived either by reason of the District\u2019s"
+    ]
+   ]
+  },
+  {
+   "source": "General Contract Requirements IFB WITHOUT RENEWALS - SERVICES.pdf",
+   "sheet": 9,
+   "header_row": 7,
+   "headers": [
+    "Unless otherwise noted, the cost evaluation shall be conducted by multiplying the quoted price per item by the respective"
+   ],
+   "score": 2,
+   "n_rows": 11,
+   "sample": [
+    [
+     "estimated volume for that line item. The subtotals from all extended line item prices shall be added together to develop"
+    ],
+    [
+     "a total price for the contract period. The cost evaluation shall include all mandatory requirements. However, the District"
+    ],
+    [
+     "reserves the right to evaluate optional items, if deemed necessary."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 48.1,
+  "attachment_fetches": 5,
+  "attachment_seconds": 27.3,
+  "attachment_bytes": 1336426,
+  "max_fetch_seconds": 9.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:28:03.774310+00:00",
+ "extract_attempts": 1,
+ "lines_total": 37,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/springfield-public-schools-mo-26-106/coverage.json"
+}

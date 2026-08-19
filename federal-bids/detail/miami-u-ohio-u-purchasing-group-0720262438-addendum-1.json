@@ -1,0 +1,83 @@
+{
+ "bid_id": "miami-u-ohio-u-purchasing-group-0720262438-addendum-1",
+ "bid_number": "0720262438 Addendum 1",
+ "agency": "Miami U & Ohio U Purchasing Group",
+ "src": "Invited",
+ "title": "T&M Instrumentation & Process Control",
+ "close": "8/19/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Supplier Bid Response Quick Tutorial _2_ _1_.pdf",
+  "Supplier Profile - Add and Manage Users.pdf",
+  "Supplier Registration Procedure v2.docx",
+  "PrevailingWages_07152026.pdf",
+  "MU Contractor Parking and Key Policies_Rev 2-23-2026 - Final.pdf",
+  "ADDENDUM 1 Instrumentation _ Process Control TM2026 BidPackageSpecs.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier Bid Response Quick Tutorial _2_ _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Profile - Add and Manage Users.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Registration Procedure v2.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "PrevailingWages_07152026.pdf",
+   "kind": "pdf",
+   "tables": 39,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "MU Contractor Parking and Key Policies_Rev 2-23-2026 - Final.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 1 Instrumentation _ Process Control TM2026 BidPackageSpecs.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.4,
+  "attachment_fetches": 6,
+  "attachment_seconds": 8.5,
+  "attachment_bytes": 2432646,
+  "max_fetch_seconds": 2.56,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-12T08:24:48.367189+00:00",
+ "extract_attempts": 1
+}

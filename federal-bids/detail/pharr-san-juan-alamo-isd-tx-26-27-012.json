@@ -1,0 +1,71 @@
+{
+ "bid_id": "pharr-san-juan-alamo-isd-tx-26-27-012",
+ "bid_number": "# 26-27-012",
+ "agency": "Pharr-San Juan-Alamo ISD, TX",
+ "src": "Invited",
+ "title": "New Floor Coating for Central Kitchen Warehouse",
+ "close": "8/31/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Replacement of Central Kitchen Warehouse Flooring Provide materials and labor to clean approximately 3200 sqft of existing concrete floor at Central Kitchen Freezer Provide materials and labor to \"shotblast\" and pre-level existing deteriorated concrete floor areas using urethane cement. Provide materials and labor to apply Sherwin Williams - Hybri-Flex-EC Products 2/16\" - 1/4\" Poly-Crete Urethane Cement, or equal. Provide materials and labor to apply Urethane Grout Coat with Aluminum Oxide Slip-Resistant Finish. Provide materials and labor to provide adequate temporary power by the means of a generator. All work to be done in accordance with manufacturer specifications. All work to be completed in accordance with PSJA ISD standards. All work to be completed in a professional manner and with professional personnel. All trash to be disposed of properly and in accordance with all state and local regulations. All construction should meet or exceed owner provided specifications and construction documents. Drawings for this project are attached.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "Flooring Specifications.pdf",
+  "W9 2024 _2_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Flooring Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "W9 2024 _2_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 14.4,
+  "attachment_fetches": 2,
+  "attachment_seconds": 2.6,
+  "attachment_bytes": 373347,
+  "max_fetch_seconds": 1.5,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:30:37.048320+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/pharr-san-juan-alamo-isd-tx-26-27-012/coverage.json"
+}

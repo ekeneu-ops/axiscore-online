@@ -1,0 +1,221 @@
+# .github/workflows/spine-ess-audit.yml
+# Essendant (ESS) invoice audit feed. workflow_dispatch (and a daily schedule).
+# Runs ONE read-only SELECT via the finance-runner image (MODE=query) using the
+# de-gated mc-spine-finance-reader role + un-gated spine-read environment (same as
+# spine-finance-query-degated). The SELECT builds the ENTIRE audit JSON server-side
+# (headline + ranked offenders + missing-expected) and base64-encodes it. This job
+# decodes that base64 to finance/ap/ess_audit.json and finance/ap/ess_audit_offenders.csv
+# and commits them. No bulk data ever leaves AWS except the finished audit feed.
+#
+# Audit definition (matches the recon engine, Finance 9/10):
+#   population = every ESS invoice (numeric vendor_code) with invoice_date in 2026, paid AND open
+#   expected  = sales_flat_order_item qty_shipped-weighted base_cost (item) + shipping_cost (ship)
+#   actual    = vendor_invoice_list base_cost (item) + ship_cost (ship), summed per order/shipment
+#   deviation = actual - expected   (POSITIVE = Essendant overbilled; item and ship kept separate)
+name: spine-ess-audit
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "30 8 * * *"   # 08:30 UTC, after the 07:00 mirror + 08:00 ap-refresh
+
+permissions:
+  id-token: write
+  contents: write
+
+env:
+  AWS_REGION: us-east-1
+  READER_ROLE: arn:aws:iam::114812789687:role/mc-spine-finance-reader
+  CLUSTER: mc-spine-cluster
+  TASK_DEF: mc-spine-finance-runner
+  LOG_GROUP: /mc-spine/finance-runner
+  SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
+  SECURITY_GROUPS: sg-0b0521438f059e5fc
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    environment: spine-read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: AWS creds via OIDC (de-gated reader role)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.READER_ROLE }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: RunTask MODE=query (build audit JSON server-side)
+        id: run
+        env:
+          SQL_TEXT_INLINE: |
+            WITH ess AS (
+              SELECT channel_order_id AS coid,
+                     round(sum(base_cost)::numeric,2) AS act_item,
+                     round(sum(ship_cost)::numeric,2) AS act_ship,
+                     count(*) AS n_inv,
+                     string_agg(DISTINCT invoice_id, ' ') AS invoices,
+                     min(invoice_date)::text AS first_inv,
+                     max(invoice_date)::text AS last_inv,
+                     (CASE WHEN min(invoice_status)=0 THEN 'outstanding' ELSE 'paid' END) AS status
+              FROM mirror_erp_advance.vendor_invoice_list
+              WHERE vendor_code ~ '^[0-9]+$'
+                AND invoice_date >= DATE '2026-01-01' AND invoice_date < DATE '2027-01-01'
+              GROUP BY channel_order_id
+            ),
+            cr AS (
+              SELECT NULLIF(channel_order_id,'') AS coid, round(sum(total_amount)::numeric,2) AS credited
+              FROM mirror_erp_advance.vendor_credit_list
+              WHERE vendor_code ~ '^[0-9]+$'
+              GROUP BY 1
+            ),
+            exp2 AS (
+              SELECT o.increment_id AS coid,
+                     round(sum(i.qty_shipped * i.base_cost)::numeric,2) AS exp_item,
+                     round(sum(i.qty_shipped * (CASE WHEN i.shipping_cost ~ '^-?[0-9.]+$' THEN i.shipping_cost::numeric ELSE 0 END))::numeric,2) AS exp_ship
+              FROM mirror_magento.sales_flat_order o
+              JOIN mirror_magento.sales_flat_order_item i ON i.order_id = o.entity_id
+              WHERE o.increment_id IN (SELECT coid FROM ess)
+              GROUP BY o.increment_id
+            ),
+            j AS (
+              SELECT e.coid, e.act_item, e.act_ship, e.n_inv, e.invoices, e.first_inv, e.last_inv, e.status,
+                     x.exp_item, x.exp_ship, (x.coid IS NOT NULL) AS has_exp, coalesce(c.credited,0) AS credited
+              FROM ess e LEFT JOIN exp2 x ON x.coid = e.coid LEFT JOIN cr c ON c.coid = e.coid
+            ),
+            s AS (
+              SELECT *,
+                round((act_item - coalesce(exp_item,0))::numeric,2) AS item_dev,
+                round((act_ship - coalesce(exp_ship,0))::numeric,2) AS ship_dev,
+                round(((act_item+act_ship)-(coalesce(exp_item,0)+coalesce(exp_ship,0)))::numeric,2) AS tot_dev,
+                round((((act_item+act_ship)-(coalesce(exp_item,0)+coalesce(exp_ship,0))) - credited)::numeric,2) AS net_dev
+              FROM j
+            ),
+            headline AS (
+              SELECT json_build_object(
+                'orders_total', count(*),
+                'invoices_total', sum(n_inv),
+                'scored', count(*) FILTER (WHERE has_exp),
+                'missing_exp', count(*) FILTER (WHERE NOT has_exp),
+                'billed_total', round(sum(act_item+act_ship)::numeric,2),
+                'billed_item', round(sum(act_item)::numeric,2),
+                'billed_ship', round(sum(act_ship)::numeric,2),
+                'expected_scored', round(sum(coalesce(exp_item,0)+coalesce(exp_ship,0)) FILTER (WHERE has_exp)::numeric,2),
+                'net_overbill', round(sum(tot_dev) FILTER (WHERE has_exp)::numeric,2),
+                'net_item_dev', round(sum(item_dev) FILTER (WHERE has_exp)::numeric,2),
+                'net_ship_dev', round(sum(ship_dev) FILTER (WHERE has_exp)::numeric,2),
+                'dev_gt1', count(*) FILTER (WHERE has_exp AND abs(tot_dev) > 1),
+                'gross_item_over', round(sum(item_dev) FILTER (WHERE has_exp AND item_dev > 0)::numeric,2),
+                'gross_ship_over', round(sum(ship_dev) FILTER (WHERE has_exp AND ship_dev > 0)::numeric,2),
+                'gross_overbill_pos', round(sum(tot_dev) FILTER (WHERE has_exp AND tot_dev > 0)::numeric,2),
+                'gross_underbill_neg', round(sum(tot_dev) FILTER (WHERE has_exp AND tot_dev < 0)::numeric,2),
+                'orders_overbilled_gt1', count(*) FILTER (WHERE has_exp AND tot_dev > 1),
+                'orders_underbilled_gt1', count(*) FILTER (WHERE has_exp AND tot_dev < -1),
+                'credited_on_overbilled', round(coalesce(sum(credited) FILTER (WHERE has_exp AND tot_dev > 1),0)::numeric,2),
+                'net_recoverable', round(coalesce(sum(GREATEST(net_dev,0)) FILTER (WHERE has_exp AND tot_dev > 1),0)::numeric,2),
+                'net_recoverable_orders', count(*) FILTER (WHERE has_exp AND tot_dev > 1 AND net_dev > 1),
+                'regraded_by_credits', count(*) FILTER (WHERE has_exp AND tot_dev > 1 AND net_dev <= 1)
+              ) AS h FROM s
+            ),
+            off AS (
+              SELECT coalesce(json_agg(json_build_object(
+                'coid', coid, 'status', status, 'n_inv', n_inv, 'invoices', invoices,
+                'first_inv', first_inv, 'last_inv', last_inv,
+                'exp_item', exp_item, 'act_item', act_item, 'item_dev', item_dev,
+                'item_dev_pct', CASE WHEN coalesce(exp_item,0) <> 0 THEN round((item_dev/exp_item*100)::numeric,1) ELSE NULL END,
+                'exp_ship', exp_ship, 'act_ship', act_ship, 'ship_dev', ship_dev,
+                'ship_dev_pct', CASE WHEN coalesce(exp_ship,0) <> 0 THEN round((ship_dev/exp_ship*100)::numeric,1) ELSE NULL END,
+                'tot_dev', tot_dev, 'credited', credited, 'net_dev', net_dev
+              ) ORDER BY tot_dev DESC), '[]'::json) AS o
+              FROM s WHERE has_exp AND abs(tot_dev) > 1
+            ),
+            miss AS (
+              SELECT coalesce(json_agg(json_build_object(
+                'coid', coid, 'status', status, 'n_inv', n_inv, 'invoices', invoices,
+                'billed', round((act_item+act_ship)::numeric,2)
+              ) ORDER BY (act_item+act_ship) DESC), '[]'::json) AS m
+              FROM s WHERE NOT has_exp
+            )
+            SELECT translate(encode(convert_to((json_build_object(
+              'generated_at', now()::text,
+              'scope', 'ESS_2026_invoice_audit',
+              'sign_convention', 'deviation = actual_billed - expected; positive = Essendant overbilled',
+              'expected_basis', 'sales_flat_order_item qty_shipped-weighted base_cost (item) + shipping_cost (ship)',
+              'actual_basis', 'vendor_invoice_list base_cost (item) + ship_cost (ship), per shipment',
+              'ess_filter', 'numeric vendor_code (Essendant DC ship codes)',
+              'headline', (SELECT h FROM headline),
+              'offenders', (SELECT o FROM off),
+              'missing_expected', (SELECT m FROM miss)
+            ))::text, 'UTF8'), 'base64'), E'\n', '')
+        run: |
+          OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
+            '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
+          TASK_ARN=$(aws ecs run-task --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          [ -n "$TASK_ARN" ] && [ "$TASK_ARN" != "None" ] || { echo "no task ARN"; exit 1; }
+          echo "task_arn=$TASK_ARN" >> "$GITHUB_OUTPUT"
+          echo "Started $TASK_ARN"
+
+      - name: Wait for task to stop
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"
+          for i in $(seq 1 120); do
+            S=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].lastStatus' --output text)
+            echo "poll $i: $S"; [ "$S" = "STOPPED" ] && break; sleep 10
+          done
+
+      - name: Decode audit JSON, write feed + CSV, commit
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"
+          TASK_ID="${TASK_ARN##*/}"
+          EXIT_CODE=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "exitCode=$EXIT_CODE"
+          aws logs get-log-events --log-group-name "$LOG_GROUP" \
+            --log-stream-name "query/finance-runner/$TASK_ID" \
+            --query 'events[].message' --output text > /tmp/esslog.txt || { echo "no logs" >&2; exit 1; }
+          if [ "$EXIT_CODE" != "0" ]; then echo "query task failed"; exit 1; fi
+          mkdir -p finance/ap
+          python3 - <<'PY'
+          import re, base64, json, csv, sys
+          log = open('/tmp/esslog.txt', 'r', errors='replace').read()
+          m = re.search(r'BEGIN CSV RESULT(.*?)END CSV RESULT', log, re.S)
+          if not m:
+              print("No CSV markers in log"); sys.exit(1)
+          body = m.group(1)
+          # The awslogs driver splits lines >16KB into multiple events, joined by tabs.
+          # The CSV also carries a one-word HEADER (the column name). Reassemble the full
+          # base64 by concatenating all base64-alphabet fragments and dropping the header word.
+          toks = re.findall(r'[A-Za-z0-9+/=]+', body)
+          toks = [t for t in toks if t not in ('translate', 'column')]
+          if not toks:
+              print("No base64 token found"); sys.exit(1)
+          b64 = ''.join(toks)
+          obj = json.loads(base64.b64decode(b64))
+          with open('finance/ap/ess_audit.json', 'wb') as f:
+              f.write(json.dumps(obj, separators=(',', ':')).encode('utf-8'))
+          cols = ['coid','status','n_inv','invoices','first_inv','last_inv',
+                  'exp_item','act_item','item_dev','item_dev_pct',
+                  'exp_ship','act_ship','ship_dev','ship_dev_pct','tot_dev','credited','net_dev']
+          with open('finance/ap/ess_audit_offenders.csv', 'w', newline='') as f:
+              w = csv.writer(f); w.writerow(cols)
+              for r in [x for x in obj['offenders'] if (x.get('net_dev') or 0) > 1]:
+                  w.writerow([r.get(c, '') for c in cols])
+          h = obj['headline']
+          print("ess_audit.json ok: billed=%s net_overbill=%s offenders=%s missing=%s" % (
+              h['billed_total'], h['net_overbill'], len(obj['offenders']), len(obj['missing_expected'])))
+          PY
+          git config user.name "ess-audit-bot"
+          git config user.email "ess-audit@users.noreply.github.com"
+          git add finance/ap/ess_audit.json finance/ap/ess_audit_offenders.csv
+          if git diff --cached --quiet; then
+            echo "audit feed unchanged - nothing to commit."
+          else
+            git commit -m "ESS audit feed refresh $(date -u +%F) [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              if git push; then echo "pushed"; break; fi
+              echo "push rejected (attempt $attempt) - rebasing"
+              git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
+            done
+          fi

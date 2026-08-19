@@ -1,0 +1,160 @@
+{
+ "bid_id": "loudoun-county-public-schools-va-r27010-addendum-1",
+ "bid_number": "R27010 Addendum 1",
+ "agency": "Loudoun County Public Schools, VA",
+ "src": "Open",
+ "title": "English 9-12 Core Curricular Resource Adoption 26-27",
+ "close": "8/7/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Solicitation_RFP_ R27010 English 9-12 Core Curricular Resource Adoption 26-27_Updated.pdf",
+  "Attachment B - Digital Integration Partner Technical Requirements.xlsx",
+  "Attachment C - LCPS General English Criteria.docx",
+  "Attachment E -Universal Literacy Screening Tool.docx",
+  "Attachment F - Publishers submitted Titles _ Formats.docx",
+  "Attachment H - Accessibility _ Adaptability Details.docx",
+  "Attachment J - Points of Contact.docx",
+  "Attachment K - Data Protection Addendum.docx",
+  "Attachment L - Pricing Schedule.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Solicitation_RFP_ R27010 English 9-12 Core Curricular Resource Adoption 26-27_Updated.pdf",
+   "kind": "pdf",
+   "tables": 29,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment B - Digital Integration Partner Technical Requirements.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment C - LCPS General English Criteria.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment E -Universal Literacy Screening Tool.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment F - Publishers submitted Titles _ Formats.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment H - Accessibility _ Adaptability Details.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment J - Points of Contact.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment K - Data Protection Addendum.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment L - Pricing Schedule.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Attachment L - Pricing Schedule.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Line item#",
+    "LCPS Course Name or Proposed Course",
+    "",
+    "ISBN",
+    "Resource Title",
+    "",
+    "Author(s) /Editor(s)",
+    "Edition",
+    "Copyright Year",
+    "UOM",
+    "Mark all that apply",
+    "",
+    "",
+    "Interactive Platform ?",
+    "Subscription Length(3/5/7years)"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Print",
+     "Digital",
+     "Print+Digital",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 40.4,
+  "attachment_fetches": 9,
+  "attachment_seconds": 30.0,
+  "attachment_bytes": 5731809,
+  "max_fetch_seconds": 10.75,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:51:06.398150+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/loudoun-county-public-schools-va-r27010-addendum-1/coverage.json"
+}

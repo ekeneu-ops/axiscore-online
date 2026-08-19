@@ -1,0 +1,59 @@
+{
+ "bid_id": "loudoun-county-public-schools-va-r24264-ongoing",
+ "bid_number": "R24264 - ONGOING",
+ "agency": "Loudoun County Public Schools, VA",
+ "src": "Open",
+ "title": "Promotional Items, Screen Printing and Embroidery Services",
+ "close": "8/3/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:promotional",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Solicitation_RFP R24264 - ONGOING Promotional Item.pdf",
+  "Exhibit 3 - PRICING SCHEDULE.xlsx",
+  "BidQuestionExtract - ONGOING.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Solicitation_RFP R24264 - ONGOING Promotional Item.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 3 - PRICING SCHEDULE.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BidQuestionExtract - ONGOING.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 4.0,
+  "attachment_bytes": 1309716,
+  "max_fetch_seconds": 2.0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:41:48.071893+00:00",
+ "extract_attempts": 1
+}

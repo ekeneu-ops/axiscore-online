@@ -1,0 +1,99 @@
+{
+ "bid_id": "urban-redevelopment-authority-of-pittsburgh-pa-1",
+ "bid_number": "1",
+ "agency": "Urban Redevelopment Authority of Pittsburgh, PA",
+ "src": "Open",
+ "title": "Allentown Scattered Site",
+ "close": "8/10/2026 12:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Allentown Site Assemblage RFP 6.10.26.docx",
+  "Exhibit A - Allentown Site Assemblage RFP.docx",
+  "Allentown RFP Map Letter sized 060426.pdf",
+  "Exhibit B - RFP Summary Sheet _1_.docx",
+  "Exhibit C - Project Sources and Uses _1_.xlsx",
+  "Exhibit D - MWBE Narrative Template _1_.docx",
+  "Exhibit E - MWI Narrative Template _1_.docx",
+  "Exhibit F - URA Disposition Process Overview _1_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Allentown Site Assemblage RFP 6.10.26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A - Allentown Site Assemblage RFP.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Allentown RFP Map Letter sized 060426.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B - RFP Summary Sheet _1_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C - Project Sources and Uses _1_.xlsx",
+   "kind": "xlsx",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D - MWBE Narrative Template _1_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E - MWI Narrative Template _1_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit F - URA Disposition Process Overview _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.7,
+  "attachment_fetches": 8,
+  "attachment_seconds": 5.4,
+  "attachment_bytes": 1173393,
+  "max_fetch_seconds": 0.99,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:52:37.577777+00:00",
+ "extract_attempts": 1
+}

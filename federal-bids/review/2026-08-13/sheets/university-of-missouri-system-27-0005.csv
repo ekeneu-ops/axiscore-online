@@ -1,0 +1,63 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,Power Tower,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,DUAL MONITOR ARM,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,POWER MODULE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,KEYBOARD TRAY,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+5,CABLE BASKET,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+6,PRIVACY BOOTH,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,TASK CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+8,TASK CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+9,ARMLESS TASK CHAIR,0.0,,,token,SP Richards,BOP605,"CHAIR,TASK,MESH,ARMLESS,BLACK",EA,1,False,False,84.0,8.8,92.8,109.18,0.0,,Synnex WL11B0J10J10SH @ 287.28,Synnex W10BM10FT10SHNSC @ 538.12
+10,ARMLESS TASK CHAIR,0.0,,,token,SP Richards,BOP605,"CHAIR,TASK,MESH,ARMLESS,BLACK",EA,1,False,False,84.0,8.8,92.8,109.18,0.0,,Synnex WL11B0J10J10SH @ 287.28,Synnex W10BM10FT10SHNSC @ 538.12
+11,LOUNGE CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+12,SIDE CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+13,BAR HEIGHT STOOL,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+14,CONFERENCE CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+15,LOUNGE CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+16,ARMLESS LOUNGE CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+17,CHAIR DOLLY,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+18,LOUNGE NOOK,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+19,FLIP/NEST CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+20,FLIP/NEST CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+21,LOUNGE CHAIR,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+22,HEIGHT ADJUSTABLE TASK CHAIR,0.0,,,token,Essendant,OIFMT4818,"Swivel/tilt Mesh Task Chair With Adjustable Arms, Supports Up To 250 Lb, 17.72"" To 22.24"" Seat Height, Black",EA,1.0,False,False,58.0,0.0,58.0,68.24,0.0,,Synnex WL11B1J10J10SS @ 328.05,Synnex WL11B1J10AU13SS @ 328.05
+23,HEIGHT ADJUSTABLE TASK CHAIR,0.0,,,token,Essendant,OIFMT4818,"Swivel/tilt Mesh Task Chair With Adjustable Arms, Supports Up To 250 Lb, 17.72"" To 22.24"" Seat Height, Black",EA,1.0,False,False,58.0,0.0,58.0,68.24,0.0,,Synnex WL11B1J10J10SS @ 328.05,Synnex WL11B1J10AU13SS @ 328.05
+24,BASE CABINET & COUNTERTOP,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+25,UPPER CABINETS,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+26,TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+27,RECPTION DESK,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+28,FIXED HEIGHT DESK,0.0,,,token,Synnex,SD-POS-VBM,"ATDEC POS FIXED HEIGHT DESK MOUNT - LOADS UP TO 44LB - VESA 75X75, 100X100 - UPG",EA,21.0,False,False,132.13,8.0,140.13,164.86,0.0,,Synnex CFNFA2460R @ 457.29,
+29,HEIGHT-ADJUSTABLE DESK,0.0,,,token,Synnex,MR159D,"EATON TRIPP LITE SERIES MONITOR RISER FOR DESK, 15 X 9 IN. - HEIGHT ADJUSTABLE,",EA,1301.0,False,False,23.61,1.6,25.21,29.66,0.0,,Synnex MR1411M @ 25.79,Synnex MR1220M @ 27.33
+30,HEIGHT-ADJUSTABLE DESK,0.0,,,token,Synnex,MR159D,"EATON TRIPP LITE SERIES MONITOR RISER FOR DESK, 15 X 9 IN. - HEIGHT ADJUSTABLE,",EA,1301.0,False,False,23.61,1.6,25.21,29.66,0.0,,Synnex MR1411M @ 25.79,Synnex MR1220M @ 27.33
+31,HEIGHT-ADJUSTABLE DESK,0.0,,,token,Synnex,MR159D,"EATON TRIPP LITE SERIES MONITOR RISER FOR DESK, 15 X 9 IN. - HEIGHT ADJUSTABLE,",EA,1301.0,False,False,23.61,1.6,25.21,29.66,0.0,,Synnex MR1411M @ 25.79,Synnex MR1220M @ 27.33
+32,HEIGHT-ADJUSTABLE DESK,0.0,,,token,Synnex,MR159D,"EATON TRIPP LITE SERIES MONITOR RISER FOR DESK, 15 X 9 IN. - HEIGHT ADJUSTABLE,",EA,1301.0,False,False,23.61,1.6,25.21,29.66,0.0,,Synnex MR1411M @ 25.79,Synnex MR1220M @ 27.33
+33,HEIGHT-ADJUSTABLE DESK,0.0,,,token,Synnex,MR159D,"EATON TRIPP LITE SERIES MONITOR RISER FOR DESK, 15 X 9 IN. - HEIGHT ADJUSTABLE,",EA,1301.0,False,False,23.61,1.6,25.21,29.66,0.0,,Synnex MR1411M @ 25.79,Synnex MR1220M @ 27.33
+34,HEIGHT-ADJUSTABLE LECTERN,0.0,,,token,Synnex,EL1B,"HEIGHT ADJUSTABLE LECTERN, BLACK",EA,1,False,False,816.84,0.0,816.84,960.99,0.0,,Synnex EL1N @ 816.84,
+35,MEDIA STORAGE CREDENZA,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+36,LATERAL FILE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+37,BOOKCASE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+38,2 DRAWER LATERAL FILE,0.0,,,token,Essendant,TVFSPLSWHLFTV,"Whitney 2-Drawer Lateral File Cabinet, Letter/Legal Size File Drawers, 23.75"" x 20"" x 31.25"", White",EA,165.0,False,False,167.94,0.0,167.94,197.58,0.0,,SP Richards SAFMVLFLDC @ 758.88,
+39,5 HIGH LATERAL FILE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+40,BOOKCASE & LATERAL FILE COMBO,0.0,,,token,SP Richards,LLR66206,"FILE,LATERAL,COMBO,36 IN",EA,33.0,False,False,463.05,156.0,619.05,728.29,0.0,,SP Richards LLR66205 @ 728.08,
+41,DOUBLE DOOR WARDROBE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+42,BOOKCASE & LATERAL FILE COMBO,0.0,,,token,SP Richards,LLR66206,"FILE,LATERAL,COMBO,36 IN",EA,33.0,False,False,463.05,156.0,619.05,728.29,0.0,,SP Richards LLR66205 @ 728.08,
+43,CUSHION TOP MOBILE BOX FILE COMBO,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+44,LATERAL FILE WITH OVERFILE CABINET,0.0,,,token,Essendant,LITUR604NW,"Urban Series Cabinet Credenza Pedestal with Lateral File, 35.25w x 15.25d x 23.75h, Natural Walnut",EA,5.0,False,False,148.69,0.0,148.69,174.93,0.0,,Essendant LITUR604ASH @ 149.00,Essendant TVFSPLSWHLFTV @ 167.94
+45,END TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+46,CONFERENCE TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+47,SQUARE TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+48,MOBILE SQUARE TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+49,ROUND MEETING TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+50,LAPTOP TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+51,MEETING TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+52,NON-POWERED TRAINING TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+53,POWERED TRAINING TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+54,POWERED CONFERENCE TABLE,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+55,BENCHING SYSTEM,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+56,HEIGHT ADJUSTABLE DESKS,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+57,SOFA,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+58,SOFA,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+59,STORAGE CABINET,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+60,U-SHAPED WORKSTATION,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+61,L-SHAPED WORKSTATION,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+62,L-SHAPED WORKSTATION,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

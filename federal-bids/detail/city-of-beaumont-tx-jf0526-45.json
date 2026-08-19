@@ -1,0 +1,86 @@
+{
+ "bid_id": "city-of-beaumont-tx-jf0526-45",
+ "bid_number": "JF0526-45",
+ "agency": "City of Beaumont, TX",
+ "src": "Open",
+ "title": "Request for Proposal (RFP) for Firefighter Health Cancer Screenings (HB198)",
+ "close": "7/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 24,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "JF0526-45_Specifications.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "JF0526-45_Specifications.pdf",
+   "kind": "pdf",
+   "tables": 25,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "JF0526-45_Specifications.pdf",
+   "sheet": 7,
+   "header_row": 2,
+   "headers": [
+    "Item",
+    "Service",
+    "",
+    "Unit Price",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 24,
+   "sample": [
+    [
+     "",
+     "",
+     "Annual",
+     "",
+     "Quantity"
+    ],
+    [
+     "",
+     "",
+     "Quantity",
+     "",
+     "x Unit Price)"
+    ],
+    [
+     "1",
+     "Occupational Cancer Screening HB198 per\nFirefighter",
+     "182",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.6,
+  "attachment_fetches": 1,
+  "attachment_seconds": 2.1,
+  "attachment_bytes": 622523,
+  "max_fetch_seconds": 2.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:02:40.121419+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-beaumont-tx-jf0526-45/coverage.json"
+}

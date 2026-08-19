@@ -1,0 +1,130 @@
+{
+ "bid_id": "little-elm-isd-tx-2026-002",
+ "bid_number": "2026-002",
+ "agency": "Little Elm ISD, TX",
+ "src": "Open",
+ "title": "Child Nutrition - Kitchen Equipment Purchases, Supplies and Services",
+ "close": "8/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "LEISD Terms and Conditions_June_2026.pdf",
+  "Certification Regarding Criminal History.pdf",
+  "Conflict of Interest Questionnaire May 2026.pdf",
+  "IRS W-9 March 2024.pdf",
+  "TEA Pre-Employment or Pre-Service Affidavit_Fillable.pdf",
+  "RFP 2026-002 RFP Bid Submission_ Pricing _ Vendor Questionnaire.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "LEISD Terms and Conditions_June_2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certification Regarding Criminal History.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Questionnaire May 2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "IRS W-9 March 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "TEA Pre-Employment or Pre-Service Affidavit_Fillable.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 2026-002 RFP Bid Submission_ Pricing _ Vendor Questionnaire.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP 2026-002 RFP Bid Submission_ Pricing _ Vendor Questionnaire.pdf",
+   "sheet": 1,
+   "header_row": 2,
+   "headers": [
+    "Item\n#",
+    "Discount% Off\nof Catalog I\nPrice List for:",
+    "Full Description",
+    "Additional Notes",
+    "Provide Name\nof Catalog or Price\nList where Pricing\ncan be Found\nCatalog/Pricelist\nMUST be included",
+    "Provide the\nPercent of\nDiscount Off\nCatalog or Price\nList Price Given\nPer Bid"
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "2",
+     "Food\nPreparation\nEquipment",
+     "Food Preparation Equipment -\nFood Packaging Equipment, Food\nProcessing Equipment, Fruit and\nVegetable Cutters, Hot Water\nDispensers, Meat Slicer, Food\nMixer",
+     "Common Brands: Oliver,\nMannhart, Berkel,\nRobotCoupe, Sunkist, Hatco,\nHobart, Servolift Slicer,\nSalvajor",
+     "",
+     "%"
+    ],
+    [
+     "3",
+     "Cooking\nEquipment",
+     "Cooking Equipment- Ovens,\nSteamers, Steam-Jacketed Kettles,\nTilt Skillets, Combi-Ovens,\nConveyor Pizza Ovens, Electric\nStove Tops",
+     "Common Brands:\nBlodgett, Cleveland, Groen,\nDelfield, Electrolux, Lang,\nSouthbend, Montague,\nVolcan , Panasonic,\nRationale, Alto Shaam",
+     "",
+     "%"
+    ],
+    [
+     "4",
+     "Refrigeration\nEquipment",
+     "Refrigeration Equipment - Walk-\nIn Coolers and Freezers, Ice\nMachines, Blast Chillers, Ice\nCream Box",
+     "Common Brands:\nNorth Lake, Hoshizak,\nManitowoc, Thermarlite, lce-\nO-Matic, Thermo-Kool,\nColdzone, Delfield, Low\nTemp Industries,\nScottsman, Beverage Air,\nSilver King",
+     "",
+     "%"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 5.8,
+  "attachment_bytes": 1247200,
+  "max_fetch_seconds": 1.22,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:56:49.093616+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/little-elm-isd-tx-2026-002/coverage.json"
+}

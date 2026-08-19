@@ -1,0 +1,59 @@
+{
+ "bid_id": "lexington-fayette-urban-county-ky-rfp-35-2026",
+ "bid_number": "RFP-35-2026",
+ "agency": "Lexington-Fayette Urban County, KY",
+ "src": "Open",
+ "title": "Opioid Abatement Substance Use Disorder Intervention Micro Grant Program",
+ "close": "8/7/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP _35-2026 Opioid Abatement Substance Use Disorder Intervention Micro Grant Program.docx",
+  "Opioid Micro Grant Funds Scope of Work FINAL.docx",
+  "Micro Grant OACBI Proposal Submittal Form Fillable 7-2-2026.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP _35-2026 Opioid Abatement Substance Use Disorder Intervention Micro Grant Program.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Opioid Micro Grant Funds Scope of Work FINAL.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Micro Grant OACBI Proposal Submittal Form Fillable 7-2-2026.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.3,
+  "attachment_fetches": 3,
+  "attachment_seconds": 2.1,
+  "attachment_bytes": 252385,
+  "max_fetch_seconds": 0.81,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:51:35.553257+00:00",
+ "extract_attempts": 1
+}

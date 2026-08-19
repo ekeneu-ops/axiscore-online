@@ -1,0 +1,114 @@
+{
+ "bid_id": "city-of-punta-gorda-fl-u2025103",
+ "bid_number": "U2025103",
+ "agency": "City of Punta Gorda, FL",
+ "src": "Open",
+ "title": "ENG-DESIGNCRITROWELLS/2526",
+ "close": "7/17/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "U2025103Notice.pdf",
+  "U2025103D.pdf",
+  "U2025103E1 - SUPPLEMENTAL CONDITIONS.pdf",
+  "U2025103E2 - SIGN REQUIREMENTS PUBLIC AWARENESS.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "U2025103Notice.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "U2025103D.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "U2025103E1 - SUPPLEMENTAL CONDITIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "U2025103E2 - SIGN REQUIREMENTS PUBLIC AWARENESS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "U2025103D.pdf",
+   "sheet": 9,
+   "header_row": 1,
+   "headers": [
+    "",
+    "OR FAX NUMBER, and a telephone\nnumber.\n2) Information shall include a\ndescription of the project, date of\ncompletion, and cost of completed\nproject.\nnal\n3) Bidder MAY include additio\nproject inf\normation behind the\nrespective Section F form but each\nproject shall not exceed 2\npages.\nMAXIMUM OF FIVE (5)\nPROJECT EXAMPLES FOR\nTHE PRIME BIDDER.\nMAXIMUM OF TWO (2)\nRELATED PROJECTS MAY BE\nSUBMITTED FOR EACH\nSUBCONSULTANT\nPROVIDING MINIMUM OF\n10% OF THE SERVICE.",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "III",
+     "SF330 \u2013 Section G \u2013 Key\nPersonnel Participation in\nExample Projects. At least\none (1) team member shall have\nparticipated in the example\nprojects.",
+     "1 PAGE\nPER FIRM",
+     "NOT MATERIAL",
+     "",
+     ""
+    ],
+    [
+     "III",
+     "SF330 \u2013 Section H \u2013\nAdditional Information, if\nrequired",
+     "5 PAGE\nLIMIT",
+     "NOT MATERIAL\nAND IF DEEMED\nAPPLICABLE BY\nBIDDER",
+     "",
+     ""
+    ],
+    [
+     "III",
+     "SF330 \u2013 Section I \u2013\nAuthorized Representative\nSignature Page - Signed",
+     "1 PAGE\nLIMIT",
+     "NOT MATERIAL",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 29.6,
+  "attachment_fetches": 4,
+  "attachment_seconds": 18.1,
+  "attachment_bytes": 3632872,
+  "max_fetch_seconds": 6.86,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:14:49.879444+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-punta-gorda-fl-u2025103/coverage.json"
+}

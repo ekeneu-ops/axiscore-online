@@ -1,0 +1,63 @@
+{
+ "bid_id": "alief-isd-tx-2314-addendum-1",
+ "bid_number": "2314 Addendum 1",
+ "agency": "Alief ISD, TX",
+ "src": "Open",
+ "title": "Trophies, Awards, Signs, Banners, Custom, Imprinted & Promotional Items",
+ "close": "3/31/2028 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:promotional",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Please submit the highest percentage discount offered of your regular published price. If you do not offer additional discounts below your published price, please enter 0%",
+   "qty": "1",
+   "uom": "EA",
+   "note": "A whole number must be entered even if the discount is 0%, if left blank response will be deemed a NO BID. If your discount should be further described with a range of discount percentages, please indicate that range in the Item Notes by clicking \"Add Notes\" or as an attachment on the Response Attachments Tab at the top of your screen.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. Please submit the highest percentage discount offered of your regular published price. If you do not offer additional discounts below your published price, please enter 0% 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Vendor Information Packet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Vendor Information Packet.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 15.2,
+  "attachment_fetches": 1,
+  "attachment_seconds": 4.6,
+  "attachment_bytes": 255699,
+  "max_fetch_seconds": 4.56,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:58:00.564596+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/alief-isd-tx-2314-addendum-1/coverage.json"
+}

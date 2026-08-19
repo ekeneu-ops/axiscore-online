@@ -1,0 +1,1676 @@
+{
+ "bid_id": "campbell-county-school-district-wy-26-052-addendum-1",
+ "agency": "Campbell County School District, WY",
+ "bid_number": "26-052 Addendum 1",
+ "priced_at": "2026-06-12T01:55:53.962237+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "biddable_lines": 35,
+ "priced_lines": 35,
+ "tiers": {
+  "high": 13,
+  "medium": 21,
+  "low": 1,
+  "gap": 0
+ },
+ "coverage_pct": 100.0,
+ "confident_pct": 97.1,
+ "our_cost_total": 95506.09,
+ "draft_sell_total": 112375.68,
+ "draft_net_margin_pct": 15.0,
+ "lines": [
+  {
+   "line": "1",
+   "desc": "FILTER AIR 22x22x1 . MERV 8.",
+   "qty": 27.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB22X224",
+   "matched_desc": "FILTER,GOLD,22X22X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 60.12,
+   "freight": 5.13,
+   "landed_unit": 65.25,
+   "sell_unit": 76.76,
+   "extended": 2072.52,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA22X224",
+     "desc": "FILTER,PLATINUM,22X22X1",
+     "uom": "CT",
+     "landed": 91.44,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD22X224",
+     "desc": "FILTER,DIAMOND,22X22X1",
+     "uom": "CT",
+     "landed": 91.84,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "2",
+   "desc": "FILTER AIR 20x25x1. MERV 8.",
+   "qty": 66.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB20X254",
+   "matched_desc": "FILTER,GOLD,20X25X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 47.45,
+   "freight": 3.42,
+   "landed_unit": 50.87,
+   "sell_unit": 59.85,
+   "extended": 3950.1,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA20X254",
+     "desc": "FILTER,PLATINUM,20X25X1",
+     "uom": "CT",
+     "landed": 57.86,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD20X254",
+     "desc": "FILTER,DIAMOND,20X25X1",
+     "uom": "CT",
+     "landed": 84.18,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "3",
+   "desc": "FILTER AIR 20x20x1. MERV 8.",
+   "qty": 69.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB20X204",
+   "matched_desc": "FILTER,GOLD,20X20X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 44.54,
+   "freight": 3.42,
+   "landed_unit": 47.96,
+   "sell_unit": 56.42,
+   "extended": 3892.98,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA20X204",
+     "desc": "FILTER,PLATINUM,20X20X1",
+     "uom": "CT",
+     "landed": 53.26,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD20X204",
+     "desc": "FILTER,DIAMOND,20X20X1",
+     "uom": "CT",
+     "landed": 80.18,
+     "score": 90
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "105-29-159",
+     "desc": "FILTER (20 X 20 X 1)",
+     "uom": "BX",
+     "landed": 118.02,
+     "score": 90
+    }
+   ]
+  },
+  {
+   "line": "4",
+   "desc": "FILTER AIR 18x25x1. MERV 8.",
+   "qty": 63.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB18X254",
+   "matched_desc": "FILTER,GOLD,18X25X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 63.99,
+   "freight": 5.13,
+   "landed_unit": 69.12,
+   "sell_unit": 81.32,
+   "extended": 5123.16,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA18X254",
+     "desc": "FILTER,PLATINUM,18X25X1",
+     "uom": "CT",
+     "landed": 81.4,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD18X254",
+     "desc": "FILTER,DIAMOND,18X25X1",
+     "uom": "CT",
+     "landed": 96.74,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "5",
+   "desc": "FILTER AIR 16x25x1. MERV 8.",
+   "qty": 33.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB16X254",
+   "matched_desc": "FILTER,GOLD,16X25X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 46.05,
+   "freight": 3.42,
+   "landed_unit": 49.47,
+   "sell_unit": 58.2,
+   "extended": 1920.6,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA16X254",
+     "desc": "FILTER,PLATINUM,16X25X1",
+     "uom": "CT",
+     "landed": 57.5,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD16X254",
+     "desc": "FILTER,DIAMOND,16X25X1",
+     "uom": "CT",
+     "landed": 85.93,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "6",
+   "desc": "FILTER AIR 16x22x1 MERV 8.",
+   "qty": 72.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 1174.32,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "7",
+   "desc": "FILTER AIR 16x20x1. MERV 8.",
+   "qty": 78.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB16X204",
+   "matched_desc": "FILTER,GOLD,16X20X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 43.13,
+   "freight": 3.42,
+   "landed_unit": 46.55,
+   "sell_unit": 54.76,
+   "extended": 4271.28,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA16X204",
+     "desc": "FILTER,PLATINUM,16X20X1",
+     "uom": "CT",
+     "landed": 50.25,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "APCJANNFCPTW162",
+     "desc": "Vacuum Filter Bags Designed to Fit Nilfisk CarpeTwin Upright 16XP/20XP, 100/Carton",
+     "uom": "CT",
+     "landed": 68.69,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD16X204",
+     "desc": "FILTER,DIAMOND,16X20X1",
+     "uom": "CT",
+     "landed": 86.96,
+     "score": 90
+    }
+   ]
+  },
+  {
+   "line": "8",
+   "desc": "FILTER AIR 14x20x1. MERV 8.",
+   "qty": 9.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB14X204",
+   "matched_desc": "FILTER,GOLD,14X20X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 46.92,
+   "freight": 3.42,
+   "landed_unit": 50.34,
+   "sell_unit": 59.22,
+   "extended": 532.98,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA14X204",
+     "desc": "FILTER,PLATINUM,14X20X1",
+     "uom": "CT",
+     "landed": 59.53,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD14X204",
+     "desc": "FILTER,DIAMOND,14X20X1",
+     "uom": "CT",
+     "landed": 86.96,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "9",
+   "desc": "FILTER AIR 10x30x1. MERV 8.",
+   "qty": 36.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 587.16,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "10",
+   "desc": "FILTER AIR 10x20x1. MERV 8.",
+   "qty": 96.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB10X204",
+   "matched_desc": "FILTER,GOLD,10X20X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 44.56,
+   "freight": 3.42,
+   "landed_unit": 47.98,
+   "sell_unit": 56.45,
+   "extended": 5419.2,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA10X204",
+     "desc": "FILTER,PLATINUM,10X20X1",
+     "uom": "CT",
+     "landed": 55.6,
+     "score": 90
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "142-2007DC-4",
+     "desc": "AIR FILTER 1500 MPR 2007DC-4  10\" X 20\" X 1\"",
+     "uom": "CA",
+     "landed": 83.856,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD10X204",
+     "desc": "FILTER,DIAMOND,10X20X1",
+     "uom": "CT",
+     "landed": 89.94,
+     "score": 90
+    }
+   ]
+  },
+  {
+   "line": "11",
+   "desc": "FILTER AIR 8.75x43.75x1. MERV 8.",
+   "qty": 6.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 32,
+   "match_method": "tokens 2/4",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 97.86,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 32
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 32
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 32
+    }
+   ]
+  },
+  {
+   "line": "12",
+   "desc": "FILTER AIR 24x24x2 MERV 8.",
+   "qty": 453.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 7388.43,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "13",
+   "desc": "FILTER AIR 20x25x2. MERV 8.",
+   "qty": 231.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "ORS Nasco",
+   "matched_sku": "142-NADP03-2IN-4",
+   "matched_desc": "AIR FILTER 1000 MPR NADP03-2IN-4 20\" X 25\" X 2\"",
+   "matched_uom": "CA",
+   "uom_mismatch": true,
+   "raw_merch_cost": 58.616,
+   "freight": 0.0,
+   "landed_unit": 58.616,
+   "sell_unit": 68.96,
+   "extended": 15929.76,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "14",
+   "desc": "FILTER AIR 20x24x2. MERV 8.",
+   "qty": 270.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 4403.7,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "15",
+   "desc": "FILTER AIR 20x20x2 MERV 8.",
+   "qty": 288.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 4697.28,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "16",
+   "desc": "FILTER AIR 18x20x1. MERV 8.",
+   "qty": 30.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB18X20A4",
+   "matched_desc": "FILTER,GOLD,18X20X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 67.18,
+   "freight": 5.13,
+   "landed_unit": 72.31,
+   "sell_unit": 85.07,
+   "extended": 2552.1,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFB18X204",
+     "desc": "FILTER,GOLD,EST,18X20X1",
+     "uom": "CT",
+     "landed": 76.23,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD18X20A4",
+     "desc": "FILTER,DIAMOND,18X20X1",
+     "uom": "CT",
+     "landed": 106.7255,
+     "score": 90
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "17",
+   "desc": "FILTER AIR 18x24x1. MERV 8.",
+   "qty": 18.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB18X244",
+   "matched_desc": "FILTER,GOLD,18X24X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 44.95,
+   "freight": 3.42,
+   "landed_unit": 48.37,
+   "sell_unit": 56.91,
+   "extended": 1024.38,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA18X244",
+     "desc": "FILTER,PLATINUM,18X24X1",
+     "uom": "CT",
+     "landed": 58.44,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD18X244",
+     "desc": "FILTER,DIAMOND,18X24X1",
+     "uom": "CT",
+     "landed": 86.96,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "18",
+   "desc": "FILTER AIR 20x24x1. MERV 8.",
+   "qty": 6.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "SP Richards",
+   "matched_sku": "FLNFB20X244",
+   "matched_desc": "FILTER,GOLD,20X24X1",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 47.05,
+   "freight": 3.42,
+   "landed_unit": 50.47,
+   "sell_unit": 59.38,
+   "extended": 356.28,
+   "alternates": [
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFA20X244",
+     "desc": "FILTER,PLATINUM,20X24X1",
+     "uom": "CT",
+     "landed": 61.49,
+     "score": 90
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "FLNFD20X244",
+     "desc": "FILTER,DIAMOND,20X24X1",
+     "uom": "CT",
+     "landed": 86.96,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "19",
+   "desc": "FILTER AIR 18x22x1. MERV 8.",
+   "qty": 6.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 97.86,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "20",
+   "desc": "FILTER AIR 18x8.5x1. MERV 8.",
+   "qty": 6.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 97.86,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "21",
+   "desc": "FILTER AIR 18x24x2. MERV 8.",
+   "qty": 30.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 489.3,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "22",
+   "desc": "FILTER AIR 16x20x2. MERV 8.",
+   "qty": 240.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 3914.4,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "23",
+   "desc": "FILTER AIR 18x25x2. MERV 8.",
+   "qty": 63.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 1027.53,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "24",
+   "desc": "FILTER AIR 16x24x2. MERV 8.",
+   "qty": 30.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 489.3,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "25",
+   "desc": "FILTER AIR 16x25x2. MERV 8.",
+   "qty": 774.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 12623.94,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "26",
+   "desc": "FILTER AIR 12x24x2. MERV 8.",
+   "qty": 348.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 5675.88,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "27",
+   "desc": "FILTER AIR 18x20x2. MERV 8.",
+   "qty": 9.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 146.79,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "28",
+   "desc": "FILTER AIR 16x16x2. MERV 8.",
+   "qty": 12.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 195.72,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "29",
+   "desc": "FILTER AIR 28.5x28.5x2. MERV 8.",
+   "qty": 6.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 97.86,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "30",
+   "desc": "FILTER AIR 16x20x4. MERV 8.",
+   "qty": 189.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 3082.59,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "31",
+   "desc": "FILTER AIR 20x25x4. MERV 8.",
+   "qty": 96.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "high",
+   "match_score": 90,
+   "match_method": "filter_dim",
+   "vendor": "ORS Nasco",
+   "matched_sku": "142-NDP03-4S2PK-1E20",
+   "matched_desc": "AIR FILTER 1550 MPR  2PK-1E 20\"X 25\" X 4\"",
+   "matched_uom": "PK",
+   "uom_mismatch": true,
+   "raw_merch_cost": 29.971,
+   "freight": 0.0,
+   "landed_unit": 29.971,
+   "sell_unit": 35.26,
+   "extended": 3384.96,
+   "alternates": [
+    {
+     "vendor": "Synnex",
+     "sku": "FC100A1037",
+     "desc": "HONEYWELL HOME AC FURNACE MEDIA AIR FILTER 20X25X4 MERV 11 (SINGLE PACK)",
+     "uom": "EA",
+     "landed": 73.95,
+     "score": 90
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355914",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "32",
+   "desc": "FILTER AIR 20x24x4. MERV 8.",
+   "qty": 228.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 3718.68,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "33",
+   "desc": "FILTER AIR 24x24x4. MERV 8.",
+   "qty": 345.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 5626.95,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "34",
+   "desc": "FILTER AIR 12x24x4. MERV 8.",
+   "qty": 324.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 5284.44,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "35",
+   "desc": "FILTER AIR 20x20x4. MERV 8.",
+   "qty": 63.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 42,
+   "match_method": "tokens 2/3",
+   "vendor": "Essendant",
+   "matched_sku": "MMM70071355914",
+   "matched_desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 16 x 20",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 13.86,
+   "freight": 0.0,
+   "landed_unit": 13.86,
+   "sell_unit": 16.31,
+   "extended": 1027.53,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "MMM70071355948",
+     "desc": "Allergen Defense Air Filter, MERV 11, MPR 1000, 20 x 25",
+     "uom": "EA",
+     "landed": 13.86,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-0910",
+     "desc": "HAMMERVAC ROUND HEPA FILTER",
+     "uom": "EA",
+     "landed": 62.62,
+     "score": 42
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-90-2344",
+     "desc": "M18 HAMMERVAC ACCESSORYDUST BOX  FILTER  & LID",
+     "uom": "EA",
+     "landed": 63.0,
+     "score": 42
+    }
+   ]
+  },
+  {
+   "line": "36",
+   "desc": "DELIVERY TIME ARO.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  }
+ ]
+}

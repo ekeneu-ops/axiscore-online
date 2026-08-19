@@ -1,0 +1,43 @@
+{
+ "bid_id": "city-of-north-las-vegas-rfp-2026-019",
+ "bid_number": "RFP 2026-019",
+ "agency": "City of North Las Vegas",
+ "src": "Open",
+ "title": "Parks Events Security",
+ "close": "7/13/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "FINAL-RFP 2026-019 Parks Events Security.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "FINAL-RFP 2026-019 Parks Events Security.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.6,
+  "attachment_fetches": 1,
+  "attachment_seconds": 2.3,
+  "attachment_bytes": 860429,
+  "max_fetch_seconds": 2.32,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:24:32.036267+00:00",
+ "extract_attempts": 1
+}

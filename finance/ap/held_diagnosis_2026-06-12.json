@@ -1,0 +1,66 @@
+{
+ "title": "P1 held-funds bridge: old published gross -> validated net (penny-exact)",
+ "published_old_gross": {
+  "value": 272451.96,
+  "at": "2026-06-11T14:38Z",
+  "formula": "sum(order_total_amount) over no-settlement-lines orders >= 2026-04-15"
+ },
+ "frozen_old_same_instant": {
+  "value": 283425.43,
+  "at": "2026-06-12T00:45Z",
+  "note": "old formula re-run at derivation instant; +10973.47 = orders accrued into old population intraday"
+ },
+ "structural_attribution_sums_to": 115492.09,
+ "structural_items": {
+  "a_never_charged_canceled_pending_unshipped": {
+   "orders": 362,
+   "amount": 10444.55
+  },
+  "b_settled_in_reports_beyond_90d_listing_horizon": {
+   "orders": 725,
+   "amount": 57779.45
+  },
+  "f_no_amazon_transaction_exists": {
+   "orders": 2,
+   "amount": 195.86
+  },
+  "d_unnetted_fees_tax_promos_on_released": {
+   "orders": 804,
+   "gross": 72565.25,
+   "net": 57445.62,
+   "amount": 15119.63
+  },
+  "e_unnetted_fees_tax_on_deferred": {
+   "orders": 1223,
+   "gross": 142440.32,
+   "net": 113834.16,
+   "amount": 28606.16
+  },
+  "B_refunds_pending": {
+   "amount": 3914.4
+  },
+  "C_account_events": {
+   "amount": 162.76
+  },
+  "D_postsettle_shipments_adds_back": {
+   "amount": -671.2
+  },
+  "ovl_deferred_txns_outside_old_population_adds_back": {
+   "amount": -59.52
+  }
+ },
+ "derived": {
+  "value": 167933.34,
+  "at": "2026-06-12T00:45Z",
+  "check": "283425.43 - 115492.09 = 167933.34"
+ },
+ "validated": {
+  "value": 168657.92,
+  "at": "2026-06-12T02:15Z",
+  "accrual_since_derivation": 724.58,
+  "seller_central": 168440.58,
+  "delta": 217.34,
+  "verdict": "PASS"
+ },
+ "headline_identity": "272451.96 - 168657.92 = 103794.04 = 115492.09(structural) - 10973.47(intraday growth of old population) - 724.58(accrual into validated after derivation)"
+}

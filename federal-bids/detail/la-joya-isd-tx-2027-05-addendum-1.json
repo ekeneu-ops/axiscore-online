@@ -1,0 +1,74 @@
+{
+ "bid_id": "la-joya-isd-tx-2027-05-addendum-1",
+ "bid_number": "2027-05 Addendum 1",
+ "agency": "La Joya ISD, TX",
+ "src": "Invited",
+ "title": "Educational Materials & Equipment",
+ "close": "7/13/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Addendum- AP.pdf",
+  "Special Terms _ Conditions EDUCATIONAL MATERIALS _ EQPMET RFP.pdf",
+  "Bid-Proposal Terms  Conditions.pdf",
+  "Certification and Provisions.pdf",
+  "CAA_LOCAL_ Code of Silence Excerpt.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Addendum- AP.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Special Terms _ Conditions EDUCATIONAL MATERIALS _ EQPMET RFP.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid-Proposal Terms  Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certification and Provisions.pdf",
+   "kind": "pdf",
+   "tables": 30,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CAA_LOCAL_ Code of Silence Excerpt.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.1,
+  "attachment_fetches": 5,
+  "attachment_seconds": 3.9,
+  "attachment_bytes": 1314408,
+  "max_fetch_seconds": 1.0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T11:54:01.201578+00:00"
+}

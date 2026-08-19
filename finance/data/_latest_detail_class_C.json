@@ -1,0 +1,1483 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-25T09:30:06+00:00",
+    "methodology_version": "v1.4.4",
+    "data_window": {
+      "start": "2025-12-01",
+      "end": "2026-07-25"
+    },
+    "class": "CLASS_C",
+    "count": 3,
+    "trimmed": false,
+    "trim_note": null
+  },
+  "orders": [
+    {
+      "channel_order_id": "111-9886013-4875423",
+      "class": "CLASS_C",
+      "class_reason": "refund_occurred_credit_gap_exceeds_freight_retention",
+      "recovery_target": 98.76,
+      "payable_outstanding": 0.0,
+      "vendor_name": "Essendant 029338",
+      "primary_vendor_code": "029338",
+      "all_vendor_codes": [
+        "029338"
+      ],
+      "channel": "Amazon US",
+      "store_id": 1,
+      "magento_entity_id": 383006,
+      "magento_state": "closed",
+      "magento_status": "closed",
+      "supplier": "029338",
+      "all_suppliers": [
+        "029338"
+      ],
+      "is_cc_paid_vendor": false,
+      "amex_payment_evidence": null,
+      "amex_match_quality": null,
+      "amex_payment_date": null,
+      "amex_amount": null,
+      "isg_invoice": null,
+      "isg_invoice_count": 0,
+      "isg_invoice_vendor": "",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2025-12-21 00:13:43",
+      "updated_at": "2026-01-15 19:46:23",
+      "grand_total": 188.6,
+      "qty_shipped": 2,
+      "qty_refunded": 2,
+      "qty_canceled": 0,
+      "exp_item_cost": 108.52,
+      "exp_ship_cost": 34.39,
+      "act_item_cost": 111.02,
+      "act_ship_cost": 34.39,
+      "disc_amt": -2.5,
+      "amazon_net": -28.42,
+      "net_cash_profit": -173.83,
+      "amazon": {
+        "amazon_order_id": "111-9886013-4875423",
+        "is_afn_channel": false,
+        "is_prime": false,
+        "status": "2",
+        "paid_amount": 188.6,
+        "shipping_price": 0.0,
+        "qty_shipped": 0,
+        "qty_unshipped": 2,
+        "purchase_create_date": "2025-12-21 00:13:43",
+        "purchase_update_date": null,
+        "earliest_ship_date": "2025-12-22 08:00:00",
+        "latest_ship_date": "2025-12-23 07:59:59",
+        "gross_revenue": 178.76,
+        "fees_total": 28.42,
+        "line_items": [
+          {
+            "amazon_order_item_id": "149977824701281",
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "asin": "B09PQ4V97J",
+            "qty_purchased": 2.0,
+            "price": 178.76,
+            "tax": 9.84,
+            "shipping": 0.0,
+            "shipping_tax": 0.0,
+            "amazon_fee": 28.42
+          }
+        ],
+        "refund_tx_count": 5,
+        "refund_principal_sum": 178.76,
+        "settlement_transactions": [
+          {
+            "id": 298228,
+            "settlement_id": 25183137241,
+            "transaction_type": "Order",
+            "amount_type": "ItemPrice",
+            "amount_description": "Principal",
+            "amount": 178.76,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DWBw3qXtM",
+            "adjustment_id": "",
+            "posted_date": "2025-12-21"
+          },
+          {
+            "id": 298229,
+            "settlement_id": 25183137241,
+            "transaction_type": "Order",
+            "amount_type": "ItemPrice",
+            "amount_description": "Tax",
+            "amount": 9.84,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DWBw3qXtM",
+            "adjustment_id": "",
+            "posted_date": "2025-12-21"
+          },
+          {
+            "id": 298230,
+            "settlement_id": 25183137241,
+            "transaction_type": "Order",
+            "amount_type": "ItemWithheldTax",
+            "amount_description": "MarketplaceFacilitatorTax-Principal",
+            "amount": -9.84,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DWBw3qXtM",
+            "adjustment_id": "",
+            "posted_date": "2025-12-21"
+          },
+          {
+            "id": 298231,
+            "settlement_id": 25183137241,
+            "transaction_type": "Order",
+            "amount_type": "ItemFees",
+            "amount_description": "CSBAFee",
+            "amount": -0.1,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DWBw3qXtM",
+            "adjustment_id": "",
+            "posted_date": "2025-12-21"
+          },
+          {
+            "id": 298232,
+            "settlement_id": 25183137241,
+            "transaction_type": "Order",
+            "amount_type": "ItemFees",
+            "amount_description": "Commission",
+            "amount": -28.43,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DWBw3qXtM",
+            "adjustment_id": "",
+            "posted_date": "2025-12-21"
+          },
+          {
+            "id": 384168,
+            "settlement_id": 25400036721,
+            "transaction_type": "Refund",
+            "amount_type": "ItemPrice",
+            "amount_description": "Tax",
+            "amount": -9.84,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:68XmBzHIToaw+hutZngCpg",
+            "posted_date": "2026-01-17"
+          },
+          {
+            "id": 384170,
+            "settlement_id": 25400036721,
+            "transaction_type": "Refund",
+            "amount_type": "ItemPrice",
+            "amount_description": "Principal",
+            "amount": -178.76,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:68XmBzHIToaw+hutZngCpg",
+            "posted_date": "2026-01-17"
+          },
+          {
+            "id": 384173,
+            "settlement_id": 25400036721,
+            "transaction_type": "Refund",
+            "amount_type": "ItemWithheldTax",
+            "amount_description": "MarketplaceFacilitatorTax-Principal",
+            "amount": 9.84,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:68XmBzHIToaw+hutZngCpg",
+            "posted_date": "2026-01-17"
+          },
+          {
+            "id": 384174,
+            "settlement_id": 25400036721,
+            "transaction_type": "Refund",
+            "amount_type": "ItemFees",
+            "amount_description": "Commission",
+            "amount": 28.43,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:68XmBzHIToaw+hutZngCpg",
+            "posted_date": "2026-01-17"
+          },
+          {
+            "id": 384176,
+            "settlement_id": 25400036721,
+            "transaction_type": "Refund",
+            "amount_type": "ItemFees",
+            "amount_description": "RefundCommission",
+            "amount": -5.3,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "order_item_code": "149977824701281",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:68XmBzHIToaw+hutZngCpg",
+            "posted_date": "2026-01-17"
+          }
+        ]
+      },
+      "magento": {
+        "entity_id": 383006,
+        "items": [
+          {
+            "item_id": 420088,
+            "sku": "ALESVF1824BL-AXCRID-B09PQ4V97J",
+            "qty_ordered": 2.0,
+            "qty_shipped": 2.0,
+            "qty_refunded": 2.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 2.0,
+            "base_cost": 54.26,
+            "shipping_cost": 17.2,
+            "price": 89.38,
+            "base_row_total": 178.76
+          }
+        ],
+        "creditmemos": [
+          {
+            "creditmemo_id": 18293,
+            "increment_id": "100017983",
+            "state": "2",
+            "grand_total": 178.76,
+            "base_grand_total": 178.76,
+            "created_at": "2026-01-15 19:45:15",
+            "items": [
+              {
+                "creditmemo_item_id": 2987,
+                "sku": "ALESVF1824BL",
+                "qty": 2.0,
+                "base_price": 89.38,
+                "base_row_total": 178.76
+              }
+            ]
+          }
+        ]
+      },
+      "vendor": {
+        "primary_vendor_code": "029338",
+        "invoices": [
+          {
+            "invoice_id": 47699,
+            "invoice_number": "BKTTTK2",
+            "invoice_date": "2025-12-22",
+            "invoice_due_date": "2026-01-21",
+            "vendor_code": "029338",
+            "base_cost": 111.02,
+            "ship_cost": 34.39,
+            "total_cost": 145.41,
+            "invoice_status": 1,
+            "batch_id": 0,
+            "created_at": "2026-01-13 08:10:56",
+            "items": [
+              {
+                "sku": "ALESVF1824BL",
+                "qty": 2.0,
+                "cost": 0.0,
+                "ship_cost": 0.0
+              }
+            ]
+          }
+        ],
+        "credits": [],
+        "invoice_count": 1,
+        "invoiced_gross": 145.41,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 145.41
+      },
+      "comments": [
+        {
+          "history_id": 2958220,
+          "created_at": "2025-12-21 00:58:03",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2958221,
+          "created_at": "2025-12-21 00:58:03",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2958222,
+          "created_at": "2025-12-21 01:00:05",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2958223,
+          "created_at": "2025-12-21 01:14:05",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "United Order#: BKTTTK2<br/>Response Message: REQUEST PROCESSED SUCCESSFULLY </br>Confirmation code: 00 - Item#: ALESVF1824BL, UOM: EA, Ord: 2, Ship: 2<br/>"
+        },
+        {
+          "history_id": 2958329,
+          "created_at": "2025-12-21 22:05:56",
+          "status": "in_transit",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2968833,
+          "created_at": "2026-01-14 18:40:14",
+          "status": "complete",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Carlyn Carino</b>."
+        },
+        {
+          "history_id": 2968834,
+          "created_at": "2026-01-14 18:40:23",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Order blacklisted by <b>carlync@axiscoreonline.com</b>"
+        },
+        {
+          "history_id": 2968838,
+          "created_at": "2026-01-14 18:43:03",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "111-9886013-4875423 - The item is non-returnable. Amazon did not issue a return label. I cannot report as damaged as the order was placed 25 days ago. "
+        },
+        {
+          "history_id": 2968853,
+          "created_at": "2026-01-14 18:59:00",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Return Quantity:2 Buyer Comment: Incorrect Size|too short|no"
+        },
+        {
+          "history_id": 2968857,
+          "created_at": "2026-01-14 19:00:04",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "To ESS :\nGood day,\n\nPlease issue a return number and a call tag for 2 EA of this order. The customer no longer needs the items.\n\nYour help is greatly appreciated. Thank you.\n\nCarlyn V. Carino"
+        },
+        {
+          "history_id": 2969037,
+          "created_at": "2026-01-14 21:51:45",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "As per ESS :\nI'm sorry, these are from the clearance sale & both are non returnable. We are unable to issue a ra.\n"
+        },
+        {
+          "history_id": 2969038,
+          "created_at": "2026-01-14 21:55:39",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "As per Fe :\nYou may refund\n"
+        },
+        {
+          "history_id": 2969556,
+          "created_at": "2026-01-15 19:45:15",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Refunded amount of $178.76 offline."
+        },
+        {
+          "history_id": 2969557,
+          "created_at": "2026-01-15 19:45:15",
+          "status": "in_transit",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2969558,
+          "created_at": "2026-01-15 19:45:38",
+          "status": "closed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Carlyn Carino (carlync@axiscoreonline.com)</i><br/>&nbsp;Changed status from 'in_transit' to 'closed'<br/>&nbsp;Changed state from 'complete' to 'closed'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 2969559,
+          "created_at": "2026-01-15 19:46:23",
+          "status": "closed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Good day Steven, \n\nWe sincerely apologize for any inconvenience. \n\nPlease be advised that your full refund has been issued and will reflect on your bank statement in 3-5 business days. \n\nWe will no longer require you to return the items. Please discard or donate the item at your convenience. \n\nWe appreciate your patience. \n\nSincerely, \nCorebuy Team"
+        }
+      ],
+      "manual_comment_count": 15,
+      "refund_truth": {
+        "amazon_refunded_actual": 178.76,
+        "magento_creditmemo_total": 178.76,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": true,
+        "evidence_source": "BOTH"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 178.76,
+        "recovery_target_amount": 98.76,
+        "reasoning": "Refund occurred (evidence: BOTH; Amazon refund principal $178.76, Magento creditmemo $178.76). Vendor invoiced $145.41; vendor credited $0.00. Freight retention threshold $80.00. Refund-to-vendor-credit gap $178.76 exceeds threshold by $98.76 → vendor should have credited an additional $98.76."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 150.81,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 5.3,
+        "existing_discrepancy_amount": 158.14,
+        "delta_vs_ours": {
+          "actual_cost": -5.4,
+          "actual_credit": 0.0,
+          "selling_fee": 23.12,
+          "discrepancy": 20.62
+        },
+        "benchmark_match": false
+      },
+      "workflow_state": "PAID",
+      "last_updated_by": "backfill_2026_ess_payments",
+      "last_updated_at": "2026-05-15T22:01:29Z",
+      "notes": "Historical backfill from 2026_ESS_Payments.xlsx",
+      "t_paid": 145.41,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [
+        "1_23"
+      ],
+      "paid_date": "2026-01-23",
+      "paid_amount_net": 145.41,
+      "paid_invoice_count": 1,
+      "vendor_invoices_paid": "BKTTTK2",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "114-0419020-7929805",
+      "class": "CLASS_C",
+      "class_reason": "refund_occurred_credit_gap_exceeds_freight_retention",
+      "recovery_target": 119.37,
+      "payable_outstanding": 0.0,
+      "vendor_name": "Essendant — PNK",
+      "primary_vendor_code": "951739",
+      "all_vendor_codes": [
+        "951739"
+      ],
+      "channel": "Amazon US",
+      "store_id": 1,
+      "magento_entity_id": 386881,
+      "magento_state": "closed",
+      "magento_status": "closed",
+      "supplier": "951739_custom",
+      "all_suppliers": [
+        "951739_custom"
+      ],
+      "is_cc_paid_vendor": false,
+      "amex_payment_evidence": null,
+      "amex_match_quality": null,
+      "amex_payment_date": null,
+      "amex_amount": null,
+      "isg_invoice": null,
+      "isg_invoice_count": 0,
+      "isg_invoice_vendor": "",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2026-02-27 15:45:40",
+      "updated_at": "2026-03-17 17:18:50",
+      "grand_total": 1341.96,
+      "qty_shipped": 2,
+      "qty_refunded": 2,
+      "qty_canceled": 0,
+      "exp_item_cost": 1023.78,
+      "exp_ship_cost": 0.0,
+      "act_item_cost": 1023.78,
+      "act_ship_cost": 0.0,
+      "disc_amt": 0.0,
+      "amazon_net": -201.29,
+      "net_cash_profit": -201.29,
+      "amazon": {
+        "amazon_order_id": "114-0419020-7929805",
+        "is_afn_channel": false,
+        "is_prime": false,
+        "status": "2",
+        "paid_amount": 1341.96,
+        "shipping_price": 0.0,
+        "qty_shipped": 0,
+        "qty_unshipped": 2,
+        "purchase_create_date": "2026-02-27 15:45:40",
+        "purchase_update_date": null,
+        "earliest_ship_date": "2026-02-27 08:00:00",
+        "latest_ship_date": "2026-02-28 07:59:59",
+        "gross_revenue": 1266.0,
+        "fees_total": 201.29,
+        "line_items": [
+          {
+            "amazon_order_item_id": "154754794169641",
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "asin": "B00AM207NG",
+            "qty_purchased": 2.0,
+            "price": 1266.0,
+            "tax": 75.96,
+            "shipping": 0.0,
+            "shipping_tax": 0.0,
+            "amazon_fee": 201.29
+          }
+        ],
+        "refund_tx_count": 5,
+        "refund_principal_sum": 1266.0,
+        "settlement_transactions": [
+          {
+            "id": 481440,
+            "settlement_id": 25998715711,
+            "transaction_type": "Order",
+            "amount_type": "ItemPrice",
+            "amount_description": "Principal",
+            "amount": 1266.0,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DhTpZBd0J",
+            "adjustment_id": "",
+            "posted_date": "2026-03-29"
+          },
+          {
+            "id": 481441,
+            "settlement_id": 25998715711,
+            "transaction_type": "Order",
+            "amount_type": "ItemPrice",
+            "amount_description": "Tax",
+            "amount": 75.96,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DhTpZBd0J",
+            "adjustment_id": "",
+            "posted_date": "2026-03-29"
+          },
+          {
+            "id": 481442,
+            "settlement_id": 25998715711,
+            "transaction_type": "Order",
+            "amount_type": "ItemWithheldTax",
+            "amount_description": "MarketplaceFacilitatorTax-Principal",
+            "amount": -75.96,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DhTpZBd0J",
+            "adjustment_id": "",
+            "posted_date": "2026-03-29"
+          },
+          {
+            "id": 481443,
+            "settlement_id": 25998715711,
+            "transaction_type": "Order",
+            "amount_type": "ItemFees",
+            "amount_description": "Commission",
+            "amount": -201.29,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DhTpZBd0J",
+            "adjustment_id": "",
+            "posted_date": "2026-03-29"
+          },
+          {
+            "id": 481633,
+            "settlement_id": 25998715711,
+            "transaction_type": "Refund",
+            "amount_type": "ItemPrice",
+            "amount_description": "Tax",
+            "amount": -75.96,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:6gxJFY1HSDarWrnBXBOiyw",
+            "posted_date": "2026-03-30"
+          },
+          {
+            "id": 481634,
+            "settlement_id": 25998715711,
+            "transaction_type": "Refund",
+            "amount_type": "ItemPrice",
+            "amount_description": "Principal",
+            "amount": -1266.0,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:6gxJFY1HSDarWrnBXBOiyw",
+            "posted_date": "2026-03-30"
+          },
+          {
+            "id": 481635,
+            "settlement_id": 25998715711,
+            "transaction_type": "Refund",
+            "amount_type": "ItemWithheldTax",
+            "amount_description": "MarketplaceFacilitatorTax-Principal",
+            "amount": 75.96,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:6gxJFY1HSDarWrnBXBOiyw",
+            "posted_date": "2026-03-30"
+          },
+          {
+            "id": 481636,
+            "settlement_id": 25998715711,
+            "transaction_type": "Refund",
+            "amount_type": "ItemFees",
+            "amount_description": "Commission",
+            "amount": 201.29,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:6gxJFY1HSDarWrnBXBOiyw",
+            "posted_date": "2026-03-30"
+          },
+          {
+            "id": 481637,
+            "settlement_id": 25998715711,
+            "transaction_type": "Refund",
+            "amount_type": "ItemFees",
+            "amount_description": "RefundCommission",
+            "amount": -5.3,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "order_item_code": "154754794169641",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:6gxJFY1HSDarWrnBXBOiyw",
+            "posted_date": "2026-03-30"
+          }
+        ]
+      },
+      "magento": {
+        "entity_id": 386881,
+        "items": [
+          {
+            "item_id": 424159,
+            "sku": "SMP13008-AXCRID-B00AM207NG",
+            "qty_ordered": 2.0,
+            "qty_shipped": 2.0,
+            "qty_refunded": 2.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 2.0,
+            "base_cost": 511.89,
+            "shipping_cost": 0.0,
+            "price": 633.0,
+            "base_row_total": 1266.0
+          }
+        ],
+        "creditmemos": [
+          {
+            "creditmemo_id": 18416,
+            "increment_id": "100018103",
+            "state": "2",
+            "grand_total": 1266.0,
+            "base_grand_total": 1266.0,
+            "created_at": "2026-03-17 17:16:54",
+            "items": [
+              {
+                "creditmemo_item_id": 3012,
+                "sku": "SMP13008",
+                "qty": 2.0,
+                "base_price": 633.0,
+                "base_row_total": 1266.0
+              }
+            ]
+          }
+        ]
+      },
+      "vendor": {
+        "primary_vendor_code": "951739",
+        "invoices": [
+          {
+            "invoice_id": 722893,
+            "invoice_number": "BKYDDTV",
+            "invoice_date": "2026-03-02",
+            "invoice_due_date": "2026-04-20",
+            "vendor_code": "951739",
+            "base_cost": 1023.78,
+            "ship_cost": 0.0,
+            "total_cost": 1023.78,
+            "invoice_status": 0,
+            "batch_id": 0,
+            "created_at": "2026-03-26 10:10:24",
+            "items": [
+              {
+                "sku": "SMP13008",
+                "qty": 2.0,
+                "cost": 0.0,
+                "ship_cost": 0.0
+              }
+            ]
+          }
+        ],
+        "credits": [
+          {
+            "credit_id": 62985,
+            "credit_number": "0799277001",
+            "credit_date": "2026-03-16",
+            "vendor_code": "951739",
+            "total_cost": 1023.78,
+            "credit_status": 0,
+            "created_at": "2026-03-26 10:07:24"
+          }
+        ],
+        "invoice_count": 1,
+        "invoiced_gross": 1023.78,
+        "credit_count": 1,
+        "credited_total": 1023.78,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 2987483,
+          "created_at": "2026-02-27 16:38:08",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2987484,
+          "created_at": "2026-02-27 16:38:09",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2987712,
+          "created_at": "2026-02-27 20:11:00",
+          "status": "processing",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Carlyn Carino</b>."
+        },
+        {
+          "history_id": 2987713,
+          "created_at": "2026-02-27 20:12:05",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2987744,
+          "created_at": "2026-02-27 20:33:13",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "United Order#: BKYDDTV<br/>Response Message: REQUEST PROCESSED SUCCESSFULLY </br>Confirmation code: 00 - Item#: SMP13008, UOM: DR, Ord: 2, Ship: 2<br/>"
+        },
+        {
+          "history_id": 2988762,
+          "created_at": "2026-03-03 00:33:32",
+          "status": "in_transit",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2989577,
+          "created_at": "2026-03-04 13:58:42",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Not found or tracking information unavailable: 0448279576.\nemail ess -aiza"
+        },
+        {
+          "history_id": 2990209,
+          "created_at": "2026-03-05 15:13:49",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Arrived at Estes facility at Wilmington, MD (027)\n03/04/2026 9:17 PM -aiza"
+        },
+        {
+          "history_id": 2991008,
+          "created_at": "2026-03-06 20:25:04",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Estes Express 0448279576 - 03/05/2026\nAwaiting Delivery - Freight Given to Final Delivery Partner\n03/05/2026 11:21 AM"
+        },
+        {
+          "history_id": 2991011,
+          "created_at": "2026-03-06 20:26:30",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Good day Kierra, \n\nWe received a notification from our distributor that your order is arriving late. It is moving within Estes Express network and is currently in transit to the next facility. We apologize for the inconvenience. \n\nPlease allow additional days for delivery. Please know that we are closely monitoring this shipment. \n\nYour patience on this matter is truly appreciated.\n\nSincerely,\nCorebuy Team"
+        },
+        {
+          "history_id": 2991012,
+          "created_at": "2026-03-06 20:28:26",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Order blacklisted by <b>carlync@axiscoreonline.com</b>"
+        },
+        {
+          "history_id": 2992668,
+          "created_at": "2026-03-11 14:42:45",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "email for status -aiza"
+        },
+        {
+          "history_id": 2993326,
+          "created_at": "2026-03-12 18:29:15",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Estes Express 0448279576 - 03/05/2026 Awaiting Delivery - Freight Given to Final Delivery Partner 03/05/2026 11:21 AM\n"
+        },
+        {
+          "history_id": 2993327,
+          "created_at": "2026-03-12 18:30:33",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "To ESS :\nGood day,\n\nPlease issue a full refund for this order. Unfortunately, the Estes Express tracking number 0448279576 has had no shipment progress since 03/05. Your help is greatly appreciated.\n\nThank you,\n\nNote: Please do not reorder.\n\nCarlyn V. Carino"
+        },
+        {
+          "history_id": 2993328,
+          "created_at": "2026-03-12 18:31:19",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Good day Kierra, \n\nWe would just like to see if your order was received complete and in good condition?\n\nPlease let us know if there's something that we can help you with . Your response is truly appreciated. \n\nSincerely,\nCorebuy Team"
+        },
+        {
+          "history_id": 2993604,
+          "created_at": "2026-03-13 13:59:42",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Hello Aiza,\n\nI apologize for the delays. I am still working with Estes for your ORD# 07BX9J4. The rep I spoke with is reaching out to their partner carrier to advise on the delays and to have this order delivered tomorrow, 3/13/26. I should be receiving the carrier and PRO# for this delivery later today and will follow up with you then. -aiza"
+        },
+        {
+          "history_id": 2993784,
+          "created_at": "2026-03-13 17:55:39",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "As per ESS :\n\nWe apologize for any inconvenience and delay. Our system indicates order 07BX9J4 is currently in transit with carrier estes on pro 0448279576 the current eta for this shipment is 3/12 - 3/18. Please note we have contact the carrier for further details on the delay and to confirm exact eta date. We will advise as soon as further details are received. We appreciate your patience. \n\n\n\nEstes Express 0448279576 - 03/05/2026 Awaiting Delivery - Freight Given to Final Delivery Partner 03/05/2026 11:21 AM"
+        },
+        {
+          "history_id": 2993785,
+          "created_at": "2026-03-13 17:56:27",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "To ESS :\nHi, \n\nPlease keep me posted. To date, there is still no shipment progress. \n\nThanks. \n\nCarlyn V. Carino"
+        },
+        {
+          "history_id": 2994294,
+          "created_at": "2026-03-16 17:06:11",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "As per ESS :\n\nPer carrier your referenced shipment is scheduled to deliver 3/16. Again we apologize for any inconvenience. \n\n\n\nEstes Express 0448279576 - 03/05/2026 Awaiting Delivery - Freight Given to Final Delivery Partner 03/05/2026 11:21 AM"
+        },
+        {
+          "history_id": 2994295,
+          "created_at": "2026-03-16 17:07:49",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "To ESS :\nHi, \nTracking shows the estimated delivery date has changed again. The customer is very upset about this and wants a refund. \nThis was ordered in February, it's been over half a month. Please issue a full refund. \nThanks. \nCarlyn V. Carino"
+        },
+        {
+          "history_id": 2994330,
+          "created_at": "2026-03-16 17:39:51",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Return Quantity:2 Buyer Comment: never arrived"
+        },
+        {
+          "history_id": 2994736,
+          "created_at": "2026-03-17 17:04:23",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "As per ESS :\n\nI sincerely apologize for the delays. Estes is unable to provide shipment tracking for their partner carrier. I have issued pending CM 0799277 001 for ORD# 07BX9J4. Please allow the Facility 7-10 business days to review this pending credit. Please advise on if we are to issue a reship using the same PO information as the previous order. I sincerely apologize for any inconvenience this may have caused you or your customer. \n\n\n0799277 001 - A 1023.78\n\nEstes Express 0448279576 - 03/05/2026 Awaiting Delivery - Freight Given to Final Delivery Partner 03/05/2026 11:21 AM"
+        },
+        {
+          "history_id": 2994750,
+          "created_at": "2026-03-17 17:16:54",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Refunded amount of $1,266.00 offline."
+        },
+        {
+          "history_id": 2994751,
+          "created_at": "2026-03-17 17:16:54",
+          "status": "in_transit",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2994752,
+          "created_at": "2026-03-17 17:17:34",
+          "status": "closed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Carlyn Carino (carlync@axiscoreonline.com)</i><br/>&nbsp;Changed status from 'in_transit' to 'closed'<br/>&nbsp;Changed state from 'complete' to 'closed'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 2994753,
+          "created_at": "2026-03-17 17:18:50",
+          "status": "closed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Good day Kierra, \n\nWe sincerely apologize for any inconvenience. Please be advised that your full refund has been issued and will reflect on your bank statement in 3-5 business days. \n\nWe appreciate your patience. \n\nSincerely, \nCorebuy Team"
+        }
+      ],
+      "manual_comment_count": 25,
+      "refund_truth": {
+        "amazon_refunded_actual": 1266.0,
+        "magento_creditmemo_total": 1266.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": true,
+        "evidence_source": "BOTH"
+      },
+      "classification": {
+        "freight_retention_threshold": 122.85,
+        "freight_retention_basis": "12% of vendor_invoiced_gross",
+        "refund_to_vendor_credit_gap": 242.22,
+        "recovery_target_amount": 119.37,
+        "reasoning": "Refund occurred (evidence: BOTH; Amazon refund principal $1266.00, Magento creditmemo $1266.00). Vendor invoiced $1023.78; vendor credited $1023.78. Freight retention threshold $122.85. Refund-to-vendor-credit gap $242.22 exceeds threshold by $119.37 → vendor should have credited an additional $119.37."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 1029.08,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 5.3,
+        "existing_discrepancy_amount": 1070.01,
+        "delta_vs_ours": {
+          "actual_cost": -1029.08,
+          "actual_credit": 1023.78,
+          "selling_fee": 195.99,
+          "discrepancy": -827.79
+        },
+        "benchmark_match": false
+      },
+      "workflow_state": "PAID",
+      "last_updated_by": "backfill_2026_ess_payments",
+      "last_updated_at": "2026-05-15T22:01:29Z",
+      "notes": "Historical backfill from 2026_ESS_Payments.xlsx",
+      "t_paid": 0.0,
+      "t_outstanding": 1023.78,
+      "paid_batch_tabs": [
+        "3_26",
+        "4_16"
+      ],
+      "paid_date": "2026-04-16",
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 2,
+      "vendor_invoices_paid": "799277001;BKYDDTV",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "111-4829998-8469841",
+      "class": "CLASS_C",
+      "class_reason": "refund_occurred_credit_gap_exceeds_freight_retention",
+      "recovery_target": 6.86,
+      "payable_outstanding": 0.0,
+      "vendor_name": "Essendant 959282",
+      "primary_vendor_code": "959282",
+      "all_vendor_codes": [
+        "959282"
+      ],
+      "channel": "Amazon US",
+      "store_id": 1,
+      "magento_entity_id": 387741,
+      "magento_state": "closed",
+      "magento_status": "closed",
+      "supplier": "959282_custom",
+      "all_suppliers": [
+        "959282_custom"
+      ],
+      "is_cc_paid_vendor": false,
+      "amex_payment_evidence": null,
+      "amex_match_quality": null,
+      "amex_payment_date": null,
+      "amex_amount": null,
+      "isg_invoice": null,
+      "isg_invoice_count": 0,
+      "isg_invoice_vendor": "",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2026-03-16 16:46:36",
+      "updated_at": "2026-03-26 18:48:28",
+      "grand_total": 95.33,
+      "qty_shipped": 1,
+      "qty_refunded": 1,
+      "qty_canceled": 0,
+      "exp_item_cost": 54.55,
+      "exp_ship_cost": 11.86,
+      "act_item_cost": 54.55,
+      "act_ship_cost": 11.86,
+      "disc_amt": 0.0,
+      "amazon_net": -13.81,
+      "net_cash_profit": -80.22,
+      "amazon": {
+        "amazon_order_id": "111-4829998-8469841",
+        "is_afn_channel": false,
+        "is_prime": false,
+        "status": "2",
+        "paid_amount": 95.33,
+        "shipping_price": 0.0,
+        "qty_shipped": 0,
+        "qty_unshipped": 1,
+        "purchase_create_date": "2026-03-16 16:46:36",
+        "purchase_update_date": null,
+        "earliest_ship_date": "2026-03-16 07:00:00",
+        "latest_ship_date": "2026-03-17 06:59:59",
+        "gross_revenue": 86.86,
+        "fees_total": 13.81,
+        "line_items": [
+          {
+            "amazon_order_item_id": "155962970287121",
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "asin": "B0D19YQQ3K",
+            "qty_purchased": 1.0,
+            "price": 86.86,
+            "tax": 8.47,
+            "shipping": 0.0,
+            "shipping_tax": 0.0,
+            "amazon_fee": 13.81
+          }
+        ],
+        "refund_tx_count": 5,
+        "refund_principal_sum": 86.86,
+        "settlement_transactions": [
+          {
+            "id": 459152,
+            "settlement_id": 25845273261,
+            "transaction_type": "Order",
+            "amount_type": "ItemPrice",
+            "amount_description": "Principal",
+            "amount": 86.86,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DHBZ21LVJ",
+            "adjustment_id": "",
+            "posted_date": "2026-03-16"
+          },
+          {
+            "id": 459154,
+            "settlement_id": 25845273261,
+            "transaction_type": "Order",
+            "amount_type": "ItemPrice",
+            "amount_description": "Tax",
+            "amount": 8.47,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DHBZ21LVJ",
+            "adjustment_id": "",
+            "posted_date": "2026-03-16"
+          },
+          {
+            "id": 459156,
+            "settlement_id": 25845273261,
+            "transaction_type": "Order",
+            "amount_type": "ItemWithheldTax",
+            "amount_description": "MarketplaceFacilitatorTax-Principal",
+            "amount": -8.47,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DHBZ21LVJ",
+            "adjustment_id": "",
+            "posted_date": "2026-03-16"
+          },
+          {
+            "id": 459158,
+            "settlement_id": 25845273261,
+            "transaction_type": "Order",
+            "amount_type": "ItemFees",
+            "amount_description": "Commission",
+            "amount": -13.81,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "DHBZ21LVJ",
+            "adjustment_id": "",
+            "posted_date": "2026-03-16"
+          },
+          {
+            "id": 460854,
+            "settlement_id": 25845273261,
+            "transaction_type": "other-transaction",
+            "amount_type": "other-transaction",
+            "amount_description": "Shipping label purchase for return",
+            "amount": -8.13,
+            "sku": "",
+            "order_item_code": "",
+            "fulfillment_id": "",
+            "shipment_id": "",
+            "adjustment_id": "",
+            "posted_date": "2026-03-19"
+          },
+          {
+            "id": 483376,
+            "settlement_id": 25955762071,
+            "transaction_type": "Refund",
+            "amount_type": "ItemPrice",
+            "amount_description": "Tax",
+            "amount": -8.47,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:qEoD6wVvQPWJ+Ga+Cl9+9w",
+            "posted_date": "2026-03-27"
+          },
+          {
+            "id": 483377,
+            "settlement_id": 25955762071,
+            "transaction_type": "Refund",
+            "amount_type": "ItemPrice",
+            "amount_description": "Principal",
+            "amount": -86.86,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:qEoD6wVvQPWJ+Ga+Cl9+9w",
+            "posted_date": "2026-03-27"
+          },
+          {
+            "id": 483378,
+            "settlement_id": 25955762071,
+            "transaction_type": "Refund",
+            "amount_type": "ItemWithheldTax",
+            "amount_description": "MarketplaceFacilitatorTax-Principal",
+            "amount": 8.47,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:qEoD6wVvQPWJ+Ga+Cl9+9w",
+            "posted_date": "2026-03-27"
+          },
+          {
+            "id": 483379,
+            "settlement_id": 25955762071,
+            "transaction_type": "Refund",
+            "amount_type": "ItemFees",
+            "amount_description": "Commission",
+            "amount": 13.81,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:qEoD6wVvQPWJ+Ga+Cl9+9w",
+            "posted_date": "2026-03-27"
+          },
+          {
+            "id": 483380,
+            "settlement_id": 25955762071,
+            "transaction_type": "Refund",
+            "amount_type": "ItemFees",
+            "amount_description": "RefundCommission",
+            "amount": -2.77,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "order_item_code": "155962970287121",
+            "fulfillment_id": "MFN",
+            "shipment_id": "",
+            "adjustment_id": "amzn1:crow:qEoD6wVvQPWJ+Ga+Cl9+9w",
+            "posted_date": "2026-03-27"
+          }
+        ]
+      },
+      "magento": {
+        "entity_id": 387741,
+        "items": [
+          {
+            "item_id": 425063,
+            "sku": "DXELO10-AXCRID-B0D19YQQ3K",
+            "qty_ordered": 1.0,
+            "qty_shipped": 1.0,
+            "qty_refunded": 1.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 1.0,
+            "base_cost": 54.55,
+            "shipping_cost": 11.86,
+            "price": 86.86,
+            "base_row_total": 86.86
+          }
+        ],
+        "creditmemos": [
+          {
+            "creditmemo_id": 18430,
+            "increment_id": "100018117",
+            "state": "2",
+            "grand_total": 86.86,
+            "base_grand_total": 86.86,
+            "created_at": "2026-03-26 18:48:06",
+            "items": [
+              {
+                "creditmemo_item_id": 3014,
+                "sku": "DXELO10",
+                "qty": 1.0,
+                "base_price": 86.86,
+                "base_row_total": 86.86
+              }
+            ]
+          }
+        ]
+      },
+      "vendor": {
+        "primary_vendor_code": "959282",
+        "invoices": [
+          {
+            "invoice_id": 723538,
+            "invoice_number": "BKY36F6",
+            "invoice_date": "2026-03-17",
+            "invoice_due_date": "2026-04-20",
+            "vendor_code": "959282",
+            "base_cost": 54.55,
+            "ship_cost": 11.86,
+            "total_cost": 66.41,
+            "invoice_status": 0,
+            "batch_id": 0,
+            "created_at": "2026-03-26 10:10:26",
+            "items": [
+              {
+                "sku": "DXELO10",
+                "qty": 1.0,
+                "cost": 0.0,
+                "ship_cost": 0.0
+              }
+            ]
+          }
+        ],
+        "credits": [],
+        "invoice_count": 1,
+        "invoiced_gross": 66.41,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 66.41
+      },
+      "comments": [
+        {
+          "history_id": 2994312,
+          "created_at": "2026-03-16 17:26:09",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2994313,
+          "created_at": "2026-03-16 17:26:09",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2994323,
+          "created_at": "2026-03-16 17:28:04",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2994329,
+          "created_at": "2026-03-16 17:38:02",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "United Order#: BKY36F6<br/>Response Message: REQUEST PROCESSED SUCCESSFULLY </br>Confirmation code: 00 - Item#: DXELO10, UOM: CT, Ord: 1, Ship: 1<br/>"
+        },
+        {
+          "history_id": 2994488,
+          "created_at": "2026-03-17 05:06:13",
+          "status": "in_transit",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2995479,
+          "created_at": "2026-03-19 16:46:52",
+          "status": "complete",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Carlyn Carino</b>."
+        },
+        {
+          "history_id": 2995480,
+          "created_at": "2026-03-19 16:47:03",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Order blacklisted by <b>carlync@axiscoreonline.com</b>"
+        },
+        {
+          "history_id": 2995481,
+          "created_at": "2026-03-19 16:49:49",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Return Quantity:1 Buyer Comment: Damaged|Yes|The carton is damages and open which is causing the liners to be filled with dust and debris and thus not useable in a kitchen area for food.\n\nReturn Tracking ID:\n\nUPS 1ZR096K99017505355 - Label Created\nUnited States\n\n03/18/2026, 2:08 P.M.\n\nReplacement ID:113-7192699-7163403 (Released but not yet ordered)\n\n"
+        },
+        {
+          "history_id": 2995488,
+          "created_at": "2026-03-19 16:56:15",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "To ESS :\nGood day,\n\nPlease issue a return number for this order. Please do not issue a return label yet. Kindly see the customer's comments below. Your help is greatly appreciated. Thank you.\n\n\"The box did not come damaged, the box inside was opened and the contents out of the box. Unacceptable.\""
+        },
+        {
+          "history_id": 2995675,
+          "created_at": "2026-03-19 20:41:33",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "As per ESS :\n\nWe apologize for the damaged item your customer received.  We have issued RA# 0799986 for the return of this item to our Dallas, TX facility address below.\n\n0799986 - No credit yet"
+        },
+        {
+          "history_id": 2996053,
+          "created_at": "2026-03-20 18:38:50",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "0799986 - No credit yet\n\nReturn Tracking ID: UPS 1ZR096K99017505355 - On the Way\nNew Orleans, LA, United States\n\n03/20/2026, 7:20 A.M.\n\nReplacement ID:113-7192699-7163403 (Exported)"
+        },
+        {
+          "history_id": 2996542,
+          "created_at": "2026-03-23 17:29:20",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "0799986 - No credit yet \n\nReturn Tracking ID: UPS 1ZR096K99017505355 - \tDelivered\nSUWANEE, GA, US\n\n03/23/2026, 10:17 A.M.\n\nReplacement ID:113-7192699-7163403 (276RNVD):\n\nFedex 514256989453 - OUT FOR DELIVERY\nOut for delivery\nLAKE CHARLES, LA\n3/23/26 5:11 AM\nView more details\n"
+        },
+        {
+          "history_id": 2997000,
+          "created_at": "2026-03-24 16:34:05",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "0799986 - No credit yet \n\nReturn Tracking ID: UPS 1ZR096K99017505355 - Delivered SUWANEE, GA, US 03/23/2026, 10:17 A.M. \n\nReplacement ID:113-7192699-7163403 (276RNVD): Fedex 514256989453 -  Delivered\nMonday, 3/23/26 at 4:34 PM\nLeft at front door\nSigned for by: Signature not required"
+        },
+        {
+          "history_id": 2997001,
+          "created_at": "2026-03-24 16:34:58",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "To ESS :\nHi,\n\nThe customer failed to put the RA number on the item. This was returned by the customer via UPS tracking number 1ZR096K99017505355. The customer mistakenly returned the item to the ATL facility. Kindly inform the facility.\n\nThanks.\n \nCarlyn V. Carino"
+        },
+        {
+          "history_id": 2997002,
+          "created_at": "2026-03-24 16:36:32",
+          "status": "closed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Carlyn Carino (carlync@axiscoreonline.com)</i><br/>&nbsp;Changed status from 'complete' to 'closed'<br/>&nbsp;Changed state from 'complete' to 'closed'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 2998004,
+          "created_at": "2026-03-26 18:48:06",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Refunded amount of $86.86 offline."
+        },
+        {
+          "history_id": 2998005,
+          "created_at": "2026-03-26 18:48:06",
+          "status": "in_transit",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2998006,
+          "created_at": "2026-03-26 18:48:28",
+          "status": "closed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Carlyn Carino (carlync@axiscoreonline.com)</i><br/>&nbsp;Changed status from 'in_transit' to 'closed'<br/>&nbsp;Changed state from 'complete' to 'closed'<br/>&nbsp;<br/>&nbsp;"
+        }
+      ],
+      "manual_comment_count": 17,
+      "refund_truth": {
+        "amazon_refunded_actual": 86.86,
+        "magento_creditmemo_total": 86.86,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": true,
+        "evidence_source": "BOTH"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 86.86,
+        "recovery_target_amount": 6.86,
+        "reasoning": "Refund occurred (evidence: BOTH; Amazon refund principal $86.86, Magento creditmemo $86.86). Vendor invoiced $66.41; vendor credited $0.00. Freight retention threshold $80.00. Refund-to-vendor-credit gap $86.86 exceeds threshold by $6.86 → vendor should have credited an additional $6.86."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 77.31,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 10.9,
+        "existing_discrepancy_amount": 83.95,
+        "delta_vs_ours": {
+          "actual_cost": -10.9,
+          "actual_credit": 0.0,
+          "selling_fee": 2.91,
+          "discrepancy": 2.91
+        },
+        "benchmark_match": false
+      },
+      "workflow_state": "PAID",
+      "last_updated_by": "backfill_2026_ess_payments",
+      "last_updated_at": "2026-05-15T22:01:29Z",
+      "notes": "Historical backfill from 2026_ESS_Payments.xlsx",
+      "t_paid": 66.41,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [
+        "4_23"
+      ],
+      "paid_date": "2026-04-23",
+      "paid_amount_net": 66.41,
+      "paid_invoice_count": 1,
+      "vendor_invoices_paid": "BKY36F6",
+      "credit_memo_applied": 0.0
+    }
+  ]
+}

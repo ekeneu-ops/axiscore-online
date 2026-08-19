@@ -1,0 +1,299 @@
+{
+ "bid_id": "houston-isd-tx-26-04-28-50",
+ "bid_number": "26-04-28-50",
+ "agency": "Houston ISD, TX",
+ "src": "Open",
+ "title": "International Baccalaureate",
+ "close": "7/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 32,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "26-04-28-50 HISD Standard Terms _ Conditions 12.03.25.pdf",
+  "26-04-28-50_EOO_SOLE SOURCE_01.05.2026..pdf",
+  "26-04-28-50 VENDOR FORM Certificate of Insurance.pdf",
+  "26-04-28-50 VENDOR FORM - HISD Fingerprint Appointment Registration_.pdf",
+  "26-04-28-50 VENDOR FORM - HB 1295 - Certificate of Interested Parties_Rev.11.2024 _1_.pdf",
+  "26-04-28-50 VENDOR FORM W-9 _Rev. 3-2024__.pdf",
+  "26-04-28-50 VENDOR FORM Conflict of Interest _CIQ_.pdf",
+  "26-04-28-50 VENDOR QUESTIONNAIRE IT Requirements Appendix A _1_.xlsx",
+  "26-04-28-50 VENDOR FORM - Criminal History Background Check v11.16.2021 _FILLABLE_ _1_.pdf",
+  "26-04-28-50 VENDOR FORM Pre Employment - Pre-Service Affidavit_FILLABLE _1_.pdf",
+  "26-04-28-50 VENDOR FORM Price Schedule Appendix B_-.xlsx",
+  "26-04-28-50 HISD_Data_Privacy_Agreement_2025-02-11_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-04-28-50 HISD Standard Terms _ Conditions 12.03.25.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50_EOO_SOLE SOURCE_01.05.2026..pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50 VENDOR FORM Certificate of Insurance.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50 VENDOR FORM - HISD Fingerprint Appointment Registration_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50 VENDOR FORM - HB 1295 - Certificate of Interested Parties_Rev.11.2024 _1_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50 VENDOR FORM W-9 _Rev. 3-2024__.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50 VENDOR FORM Conflict of Interest _CIQ_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50 VENDOR QUESTIONNAIRE IT Requirements Appendix A _1_.xlsx",
+   "kind": "xlsx",
+   "tables": 14,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "26-04-28-50 VENDOR FORM - Criminal History Background Check v11.16.2021 _FILLABLE_ _1_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50 VENDOR FORM Pre Employment - Pre-Service Affidavit_FILLABLE _1_.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-04-28-50 VENDOR FORM Price Schedule Appendix B_-.xlsx",
+   "kind": "xlsx",
+   "tables": 4,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "26-04-28-50 HISD_Data_Privacy_Agreement_2025-02-11_.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "26-04-28-50 VENDOR QUESTIONNAIRE IT Requirements Appendix A _1_.xlsx",
+   "sheet": 2,
+   "header_row": 7,
+   "headers": [
+    "Please complete all tabs for EACH PRODUCT within your Catalog that you are SUBMITTING in response to this RFP. \n",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "If a question is not valid for your offering, please select Question does not apply to Proposed Solution rather than leave a response blank.                        ",
+     ""
+    ],
+    [
+     "Most products will require Tab 7. Integration-Non Academic Apps OR Tab 7.1 Integration-Academic Apps, not both.",
+     ""
+    ],
+    [
+     "If you select Detailed Response Required as your drop down list selection, please enter a response in the next column or you will not receive a score for that item.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "26-04-28-50 VENDOR QUESTIONNAIRE IT Requirements Appendix A _1_.xlsx",
+   "sheet": 4,
+   "header_row": 10,
+   "headers": [
+    "VS",
+    "0",
+    "1",
+    "d",
+    "State the size of the development team (including testers) that supports the product, including any vendor personnel that might dedicated to HISD's instance of the product.\u00a0",
+    "Detailed Response Required - Complete the next column ",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 32,
+   "sample": [
+    [
+     "VS",
+     "0",
+     "1",
+     "e",
+     "State the size of the development team (not including testers) that supports the product, including any vendor personnel that might dedicated to HISD's instance of the product.\u00a0",
+     "Detailed Response Required - Complete the next column ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "VS",
+     "0",
+     "1",
+     "f",
+     "State the size of the quality assurance / testing team that supports the product, including any vendor personnel that might dedicated to HISD's instance of the product.\u00a0",
+     "Detailed Response Required - Complete the next column ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "VS",
+     "0",
+     "2",
+     "",
+     "System Documentation & Organizational Change Management Support",
+     "N/A Heading",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "26-04-28-50 VENDOR FORM Price Schedule Appendix B_-.xlsx",
+   "sheet": 1,
+   "header_row": 11,
+   "headers": [
+    "Type of Service/Materials\n(Click on each cell for drop-down list)",
+    "Unit of Measure\n(Hourly Rate)",
+    "Unit of Measure (Daily Rate)",
+    "List Price",
+    "HISD Discounted Price\n(only 1 price per line)",
+    "Short Description of Service",
+    "Long Description of Service\n(Detailed explanation of your service/materials)"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "In/After School Community Outreach Program",
+     "Year",
+     "Each",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "26-04-28-50 VENDOR FORM Price Schedule Appendix B_-.xlsx",
+   "sheet": 3,
+   "header_row": 7,
+   "headers": [
+    "",
+    "Short Description of Service/Materials",
+    "This field is a short description that is used to identify the service/materials. This will appear on purchase orders. It will also help our end users to locate this service/materials. To prevent confusion, please make each prre description unique!",
+    "Required",
+    "40"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "Long Description of Service/Materials",
+     "To describe the details of this service/materials, which scope(s) this service/materials meets, and any additional products/services that may come with the purchase of this service/materials",
+     "Required",
+     "No Limit"
+    ],
+    [
+     "",
+     "Manufacturer",
+     "Name the manufacturer of the product you are offering",
+     "Optional",
+     "200"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 60.8,
+  "attachment_fetches": 12,
+  "attachment_seconds": 45.6,
+  "attachment_bytes": 5762187,
+  "max_fetch_seconds": 8.58,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:20:39.872982+00:00",
+ "extract_attempts": 1,
+ "lines_total": 32,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/houston-isd-tx-26-04-28-50/coverage.json"
+}

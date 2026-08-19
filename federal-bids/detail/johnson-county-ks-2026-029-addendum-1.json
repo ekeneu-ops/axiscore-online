@@ -1,0 +1,99 @@
+{
+ "bid_id": "johnson-county-ks-2026-029-addendum-1",
+ "bid_number": "2026-029 Addendum 1",
+ "agency": "Johnson County, KS",
+ "src": "Open",
+ "title": "Johnson County Sheriff Operations & NCADC 2026 Glazing Replacement Project",
+ "close": "7/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "BASE BID (LUMP SUM): Provide all labor, materials, equipment, and services necessary to complete the Sheriff Operations Building Glazing Replacement Project in accordance with the Finkle Williams Drawings dated June 10, 2026, and Project Manual dated June 10, 2026.",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 BASE BID (LUMP SUM): Provide all labor, materials, equipment, and services necessary to complete the Sheriff Operations Building Glazing Replacement Project in accordance with the Finkle Williams Drawings dated June 10, 2026, and Project Manual dated June 10, 2026. 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "ALTERNATE #1 (LUMP SUM): Provide all labor, materials, equipment, and services necessary to complete the New Century Adult Detention Center (NCADC) Glazing Replacement Project in accordance with the Finkle Williams Drawings dated June 10, 2026, and Project Manual dated June 10, 2026.",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 ALTERNATE #1 (LUMP SUM): Provide all labor, materials, equipment, and services necessary to complete the New Century Adult Detention Center (NCADC) Glazing Replacement Project in accordance with the Finkle Williams Drawings dated June 10, 2026, and Project Manual dated June 10, 2026. 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2026-029 Addendum No. 1 Package _6.26.2026_.zip",
+  "2026-029 JoCo-SHR-OPS-NCADC-GLAZING_Plan Set _6.10.2026_.pdf",
+  "2026-029 SHR OPS _ NCADC 2026 Glazing Replacment Project Manual _6.10.2026_.pdf",
+  "2026-029 Bid Bond Form _Word_.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-029 Addendum No. 1 Package _6.26.2026_.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2026-029 JoCo-SHR-OPS-NCADC-GLAZING_Plan Set _6.10.2026_.pdf",
+   "kind": "pdf",
+   "tables": 193,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-029 SHR OPS _ NCADC 2026 Glazing Replacment Project Manual _6.10.2026_.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-029 Bid Bond Form _Word_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 313.1,
+  "attachment_fetches": 4,
+  "attachment_seconds": 102.9,
+  "attachment_bytes": 103631291,
+  "max_fetch_seconds": 40.18,
+  "throttle_signals": 3,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:00:50.846241+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/johnson-county-ks-2026-029-addendum-1/coverage.json"
+}

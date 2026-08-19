@@ -1,0 +1,107 @@
+{
+ "bid_id": "city-of-allen-tx-2026-7-64",
+ "bid_number": "2026-7-64",
+ "agency": "City of Allen, TX",
+ "src": "Invited",
+ "title": "Building Operations and Conversion",
+ "close": "8/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "LEGAL AD - RFP 2026-7-64.pdf",
+  "RFP 2026-7-64.pdf",
+  "Building Ops and Conversion Price Sheet 2026-7-64.xlsx",
+  "BID ENDORSEMENT.pdf",
+  "Exhibit 1 - Contractor Insurance Requirements _ Agreement.pdf",
+  "Exhibit 2 - Affidavit of No Prohibited Interest.pdf",
+  "Exhibit 3 - Conflict of Interest.pdf",
+  "Exhibit 4 - Bidders Qualifications Statement _ Supplemental Information.pdf",
+  "Exhibit 5 - Sample Contract.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "LEGAL AD - RFP 2026-7-64.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 2026-7-64.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Building Ops and Conversion Price Sheet 2026-7-64.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ENDORSEMENT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 1 - Contractor Insurance Requirements _ Agreement.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 2 - Affidavit of No Prohibited Interest.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 3 - Conflict of Interest.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 4 - Bidders Qualifications Statement _ Supplemental Information.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 5 - Sample Contract.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.6,
+  "attachment_fetches": 9,
+  "attachment_seconds": 8.3,
+  "attachment_bytes": 2225879,
+  "max_fetch_seconds": 1.53,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:26:34.668031+00:00",
+ "extract_attempts": 1
+}

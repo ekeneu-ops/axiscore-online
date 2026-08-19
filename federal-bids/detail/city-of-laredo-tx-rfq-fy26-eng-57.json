@@ -1,0 +1,83 @@
+{
+ "bid_id": "city-of-laredo-tx-rfq-fy26-eng-57",
+ "bid_number": "RFQ FY26-ENG-57",
+ "agency": "City of Laredo, TX",
+ "src": "Invited",
+ "title": "Asbestos Containing Building Materials Investigation Services",
+ "close": "8/20/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Tab A - Bidder Information Questionnaire.pdf",
+  "Tab B - Conflict of Interest Disclosure -.pdf",
+  "Tab C - Non-Collusive Affidavit.pdf",
+  "Tab D - Discretionary Contracts Disclosure.pdf",
+  "Tab E - Certificate of Interested Parties Form 1295.pdf",
+  "RFQ FY26-ENG-57.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Tab A - Bidder Information Questionnaire.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Tab B - Conflict of Interest Disclosure -.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Tab C - Non-Collusive Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Tab D - Discretionary Contracts Disclosure.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Tab E - Certificate of Interested Parties Form 1295.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ FY26-ENG-57.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.1,
+  "attachment_fetches": 6,
+  "attachment_seconds": 7.1,
+  "attachment_bytes": 1922262,
+  "max_fetch_seconds": 3.31,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-12T08:29:13.851038+00:00",
+ "extract_attempts": 1
+}

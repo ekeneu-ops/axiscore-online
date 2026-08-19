@@ -1,0 +1,107 @@
+{
+ "bid_id": "city-of-laredo-tx-rfb-2026-074",
+ "bid_number": "RFB 2026-074",
+ "agency": "City of Laredo, TX",
+ "src": "Open",
+ "title": "Engine Oil & Transmission Fluid - Laredo Transit Management",
+ "close": "8/17/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Automatic Transmission Fluid (55-gallon Drum) Allison TES 295/TES 668 Spec-Certification. \"Transynd\" synthetic Fluid, includes decal approved for Voith, Allison & ZF. (or Approved Equal)",
+   "qty": "127",
+   "uom": "55-Gallon Drum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Automatic Transmission Fluid (55-gallon Drum) Allison TES 295/TES 668 Spec-Certification. \"Transynd\" synthetic Fluid, includes decal approved for Voith, Allison & ZF. (or Approved Equal) 127 55-Gallon Drum No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Engine Motor Oil (400 Gallon Bulk) CNG SYNTHETIC BLEND 15W40 Performance Requirements: Cummins CES 20074 Detroit Diesel 93K216 (or Approved Equal)",
+   "qty": "24",
+   "uom": "400 Gallon (Bulk)",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Engine Motor Oil (400 Gallon Bulk) CNG SYNTHETIC BLEND 15W40 Performance Requirements: Cummins CES 20074 Detroit Diesel 93K216 (or Approved Equal) 24 400 Gallon (Bulk) No Response"
+  }
+ ],
+ "attachments_saved": [
+  "COQ FORM AND INSTRUCTIONS.pdf",
+  "Non-Collusive_Affidavit_Form _4_.pdf",
+  "_Form_1295.pdf",
+  "Procurement Policies  Procedures 07152025 Update.pdf",
+  "NTB Signed.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "COQ FORM AND INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusive_Affidavit_Form _4_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "_Form_1295.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Procurement Policies  Procedures 07152025 Update.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "NTB Signed.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 21.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 6.4,
+  "attachment_bytes": 5580108,
+  "max_fetch_seconds": 3.9,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-14T08:21:22.201101+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-laredo-tx-rfb-2026-074/coverage.json"
+}

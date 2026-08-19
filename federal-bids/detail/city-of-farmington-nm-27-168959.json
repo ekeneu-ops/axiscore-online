@@ -1,0 +1,107 @@
+{
+ "bid_id": "city-of-farmington-nm-27-168959",
+ "bid_number": "27-168959",
+ "agency": "City of Farmington, NM",
+ "src": "Open",
+ "title": "Warehouse RFQ August 11, 2026 -Ductile Poles",
+ "close": "8/19/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "POLE,DUCTILE IRON UTILITY ,55' CLASS 2 Per City of Farmington \"Specification_ Ductile Iron Pole 40-55 Footer_Rev1\" Approved Manufacturers & Products Only: McWane C2055",
+   "qty": "1",
+   "uom": "EA",
+   "note": "COF Stock # 678 009 1765",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 POLE,DUCTILE IRON UTILITY ,55' CLASS 2 Per City of Farmington \"Specification_ Ductile Iron Pole 40-55 Footer_Rev1\" Approved Manufacturers & Products Only: McWane C2055 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "POLE,DUCTILE IRON UTILITY, 50' SELF SUPPORTING Per City of Farmington \"Specification_ 50-Foot DuctileIron SelfSupporting Pole\" APPROVED MANUFACTURERS & PRODUCTS ONLY: McWane (Provide Product #)",
+   "qty": "3",
+   "uom": "EA",
+   "note": "COF Stock # 678 009 1784",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 POLE,DUCTILE IRON UTILITY, 50' SELF SUPPORTING Per City of Farmington \"Specification_ 50-Foot DuctileIron SelfSupporting Pole\" APPROVED MANUFACTURERS & PRODUCTS ONLY: McWane (Provide Product #) 3 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Special Conditions Supplies - RFQ.pdf",
+  "Specifications - RFQ.pdf",
+  "General Conditions and Definitions - RFQ.pdf",
+  "Specification_50-Footer Ductile Iron Self-Supporting Pole.pdf",
+  "40-55 Foot DuctileIronPole_Specs-12-23-2019.doc"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Special Conditions Supplies - RFQ.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Specifications - RFQ.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Conditions and Definitions - RFQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Specification_50-Footer Ductile Iron Self-Supporting Pole.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "40-55 Foot DuctileIronPole_Specs-12-23-2019.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 17.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 5.6,
+  "attachment_bytes": 1503437,
+  "max_fetch_seconds": 2.29,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:34:19.530759+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-farmington-nm-27-168959/coverage.json"
+}

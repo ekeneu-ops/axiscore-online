@@ -1,0 +1,159 @@
+{
+ "bid_id": "lone-star-college-tx-26-07-04-addendum-1",
+ "bid_number": "26-07-04 Addendum 1",
+ "agency": "Lone Star College, TX",
+ "src": "Invited",
+ "title": "Video Surveillance System and Maintenance",
+ "close": "8/17/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Annual Service for indoor and outdoor cameras. This includes lens cleaning for outdoor cameras.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Annual Service for indoor and outdoor cameras. This includes lens cleaning for outdoor cameras. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Price of (1) one approved cameras from list provided",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Price of (1) one approved cameras from list provided 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Price of five (5) approved cameras from list provided",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Price of five (5) approved cameras from list provided 5 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Price of ten (10) approved cameras from list provided",
+   "qty": "10",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Price of ten (10) approved cameras from list provided 10 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Price of service calls as needed",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Price of service calls as needed 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Price of indoor camera installation",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Price of indoor camera installation 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Price of outdoor camera installation",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Price of outdoor camera installation 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Supplier Response Quick Tutorial.pdf",
+  "W-9 Revised March 2024.pdf",
+  "SurveillanceCamerasQuestions_updated.docx",
+  "Lone Star College SECTION 28 23 00 Video Product Addendum.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier Response Quick Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Revised March 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SurveillanceCamerasQuestions_updated.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Lone Star College SECTION 28 23 00 Video Product Addendum.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 15.3,
+  "attachment_fetches": 4,
+  "attachment_seconds": 4.5,
+  "attachment_bytes": 1140095,
+  "max_fetch_seconds": 2.34,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-12T08:15:57.367383+00:00",
+ "extract_attempts": 1,
+ "lines_total": 6,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/lone-star-college-tx-26-07-04-addendum-1/coverage.json"
+}

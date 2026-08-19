@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Axiscore Mission Control — Federal Bids</title>
+<style>
+:root{
+ --bg:#f0ebe3; --surface:#ffffff; --surface-2:#e8e2d9; --surface-hover:#f5f0e8;
+ --border:#d9d0c4; --border-light:#c9bfb3; --text:#2c2825; --text-muted:#6b6259; --text-dim:#9a9089;
+ --accent:#5a9e2f; --accent-dim:rgba(90,158,47,0.12); --accent-hover:#4d8a28; --btn-text:#fff;
+ --red:#dc2626; --red-dim:rgba(220,38,38,.10); --amber:#b45309; --amber-dim:rgba(180,83,9,.12);
+ --blue:#2563eb; --blue-dim:rgba(37,99,235,.10); --purple:#7c3aed; --purple-dim:rgba(124,58,237,.12);
+ --cyan:#0891b2; --cyan-dim:rgba(8,145,178,.12);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.logo{font-size:13px;color:var(--text-dim);font-weight:600;letter-spacing:.04em}
+.logo-sub{font-size:20px;color:var(--text);font-weight:800;letter-spacing:-.01em}
+header{padding:16px 26px;border-bottom:1px solid var(--border);background:var(--surface);display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.sub-nav{display:flex;gap:4px;border-bottom:1px solid var(--border);background:var(--surface);padding:0 22px}
+.sub-tab{padding:13px 18px;color:var(--text-muted);font-weight:600;font-size:14px;cursor:pointer;border-bottom:2px solid transparent}
+.sub-tab:hover{color:var(--text)}
+.sub-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+main{padding:22px 26px 60px;max-width:1280px;margin:0 auto}
+.sub-view{display:none}.sub-view.active{display:block}
+h2{font-size:22px;font-weight:800;margin:0 0 4px}
+.muted{color:var(--text-muted)}
+.statbar{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0 18px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:12px 16px;min-width:120px}
+.stat .n{font-size:24px;font-weight:800}.stat .l{color:var(--text-muted);font-size:12px}
+.stat.go .n{color:var(--accent)} .stat.soon .n{color:var(--red)}
+.filter-bar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:12px 16px;margin-bottom:16px}
+.filter-bar label{font-size:12.5px;color:var(--text-muted);font-weight:600}
+select,input[type=search]{background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);padding:7px 10px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:15px 16px;display:flex;flex-direction:column;gap:9px}
+.card.soon{border-color:#e8b4b4;box-shadow:0 0 0 1px var(--red-dim)}
+.card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.badge{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
+.b-IN_SCOPE{color:var(--accent);background:var(--accent-dim)}
+.b-PARTIAL{color:var(--amber);background:var(--amber-dim)}
+.b-NEEDS_REVIEW{color:var(--purple);background:var(--purple-dim)}
+.src{font-size:10.5px;color:var(--text-dim);border:1px solid var(--border);border-radius:999px;padding:1px 8px}
+.src.invited{color:var(--blue);border-color:#bcd0f5;background:var(--blue-dim)}
+.title{font-weight:700;font-size:14.5px;line-height:1.35}
+.meta{font-size:12.5px;color:var(--text-muted)}
+.close{font-size:12.5px;font-weight:600}
+.close .days{color:var(--text-dim);font-weight:500}
+.close.soon{color:var(--red)}
+.srcline{font-size:12px;border-top:1px dashed var(--border);padding-top:8px;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.openbid{margin-left:auto;color:var(--accent);font-weight:700;font-size:11.5px;text-decoration:none;white-space:nowrap}
+.openbid:hover{text-decoration:underline}
+.card[onclick]:hover{border-color:var(--accent);box-shadow:0 1px 8px rgba(90,158,47,.12)}
+.vtag{font-size:11px;font-weight:600;padding:1px 8px;border-radius:6px;background:var(--surface-2);border:1px solid var(--border);color:var(--text-muted)}
+.vtag.isg{color:var(--purple);background:var(--purple-dim);border-color:#d6c6f0}
+.oneoff{color:var(--purple);font-weight:700;font-size:11px}
+.chan-sec{margin-bottom:22px}
+.chan-sec h3{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-muted);margin:0 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px}
+table{width:100%;border-collapse:collapse;font-size:13px;background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border)}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--text-muted);background:var(--surface-2)}
+tr:last-child td{border-bottom:none}
+.pill{font-size:11px;font-weight:700;padding:1px 8px;border-radius:999px}
+.p-REGISTERED,.p-ACTIVE{color:var(--accent);background:var(--accent-dim)}
+.p-SUBMITTED{color:var(--blue);background:var(--blue-dim)}
+.p-ACTION{color:var(--amber);background:var(--amber-dim)}
+.p-NOT{color:var(--text-dim);background:var(--surface-2)}
+.pri-HIGH{color:var(--red);font-weight:700}.pri-MED{color:var(--amber)}.pri-LOW{color:var(--text-dim)}
+.note{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin-bottom:16px}
+.note h3{margin:0 0 8px;font-size:15px}
+.cost-row{display:flex;gap:10px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--border)}
+.cost-row:last-child{border:none}
+.cost-cat{font-weight:700;min-width:200px}
+footer{color:var(--text-dim);font-size:11.5px;padding:16px 26px;border-top:1px solid var(--border);max-width:1280px;margin:0 auto}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div><div class="logo">AXISCORE</div><div class="logo-sub">Mission Control · Federal Bids</div></div>
+  <a href="review/" style="margin-left:auto;text-decoration:none;background:var(--accent);color:var(--btn-text);font-weight:700;font-size:13px;padding:8px 14px;border-radius:8px">★ Daily Bid Review →</a>
+  <a href="decision-queue.html" style="text-decoration:none;color:var(--text-muted);font-weight:600;font-size:13px;padding:8px 6px">Decision Queue</a>
+  <div class="muted" style="font-size:12.5px;text-align:right">Goodbuy / IonWave network<br><span id="upd" style="color:var(--text-dim)">embedded snapshot 2026-06-08</span></div>
+</header>
+
+<div class="sub-nav">
+  <div class="sub-tab active" data-sub="live" onclick="tab('live')">Live Bids</div>
+  <div class="sub-tab" data-sub="channels" onclick="tab('channels')">Procurement Channels</div>
+  <div class="sub-tab" data-sub="costing" onclick="tab('costing')">Costing Model</div>
+</div>
+
+<main>
+  <!-- LIVE BIDS -->
+  <section class="sub-view active" id="live">
+    <h2>Live Bids</h2>
+    <div class="muted" id="scanline"></div>
+    <div class="statbar" id="statbar"></div>
+    <div class="filter-bar">
+      <label>Scope</label>
+      <select id="fScope" onchange="render()">
+        <option value="">In-scope + Partial + Review</option>
+        <option value="IN_SCOPE">In-scope only</option>
+        <option value="PARTIAL">Partial</option>
+        <option value="NEEDS_REVIEW">Needs review</option>
+      </select>
+      <label>Source</label>
+      <select id="fSrc" onchange="render()">
+        <option value="">All events</option>
+        <option value="Invited">Invited only</option>
+        <option value="Open">Open opportunities</option>
+      </select>
+      <label>Sort</label>
+      <select id="fSort" onchange="render()">
+        <option value="close">Closing soonest</option>
+        <option value="scope">Scope</option>
+      </select>
+      <input type="search" id="fQ" placeholder="search title / agency…" oninput="render()" style="margin-left:auto;min-width:200px">
+    </div>
+    <div class="grid" id="bidGrid"></div>
+  </section>
+
+  <!-- PROCUREMENT CHANNELS -->
+  <section class="sub-view" id="channels">
+    <h2>Procurement Channels</h2>
+    <p class="muted">Where Axiscore is registered to sell. 94 channels tracked; key registrations + targets below.</p>
+    <div id="chanWrap"></div>
+  </section>
+
+  <!-- COSTING -->
+  <section class="sub-view" id="costing">
+    <h2>Costing Model</h2>
+    <div class="note">
+      <h3>Two cost paths — and why ISG is the key for one-off bids</h3>
+      <p class="muted">Most of the biddable pool is ISD <b>athletic, promotional, awards, instructional & CTE/vocational</b> supplies — these are <b>one-off / specialty</b> items that are NOT in the broadline office catalog. That's exactly ISG's lane.</p>
+      <div style="margin-top:10px">
+        <div class="cost-row"><div class="cost-cat">Office / paper / toner / jansan</div><div>Priced from <b>raw_merch_cost</b> — broadline distributor catalog (Essendant CONFIRMED RAW). Freight kept separate (estimate).</div></div>
+        <div class="cost-row"><div class="cost-cat" style="color:var(--purple)">One-off / specialty ⭐</div><div>Athletic, promotional, awards, vocational, performing-arts, foodservice → priced from the <b>ISG cost file</b> (sku_to_vendors + warehouse portal-feed, pulled 2026-06-08). ISG carries the specialty SKUs the broadline catalog doesn't.</div></div>
+        <div class="cost-row"><div class="cost-cat">MRO / tools / hardware</div><div>ORS Nasco catalog.</div></div>
+        <div class="cost-row"><div class="cost-cat">Technology / radios / computer furniture</div><div>Synnex.</div></div>
+      </div>
+    </div>
+    <div class="note">
+      <h3>Status of the cost engine</h3>
+      <p class="muted">Raw GSA catalog mirror + per-SKU bid-cost table is staged (b7_catalog_mirror PR) and pending merge+run. ISG cost is live (portal-feed ran today). Next: fold ISG SKU costs into the bid-cost table so one-off lines price automatically.</p>
+    </div>
+  </section>
+</main>
+<footer id="foot"></footer>
+
+<script>
+const TODAY=new Date('2026-06-08T12:00:00-04:00');
+// src: Invited|Open ; st: scope ; combined from the full 741-event scan
+let BIDS=[
+ ["Invited","IN_SCOPE","6/10/2026","Pasadena ISD, TX","26R-042EZ","Floor Machines, Accessories, Replacement Parts, Related Items"],
+ ["Invited","IN_SCOPE","6/15/2026","Campbell County SD, WY","26-052","MERV 8 Air Filters"],
+ ["Invited","IN_SCOPE","6/17/2026","City of Council Bluffs, IA","PURCH-2026-36","Printed Materials - Custom Envelopes"],
+ ["Invited","IN_SCOPE","6/18/2026","Harlingen CISD, TX","CLIB0626","Library Supplies"],
+ ["Invited","IN_SCOPE","6/22/2026","City of Hutchinson, KS","2026-25","Toner Supply and Support for Multiple Printers"],
+ ["Invited","IN_SCOPE","6/24/2026","Birdville ISD, TX","003-27","Distribution Center Stock and Supplies"],
+ ["Invited","IN_SCOPE","6/30/2026","Lewisville ISD, TX","F1072H-23","Instructional Materials, Teaching Aids, Supplies, Software, Equipment"],
+ ["Invited","IN_SCOPE","6/30/2026","City of St. Joseph, MO","RFQ2026-05","Janitorial Products"],
+ ["Invited","IN_SCOPE","7/30/2026","Killeen ISD, TX","26-31-07-301","Building Maintenance & Operations (MRO) Equipment, Supplies"],
+ ["Invited","IN_SCOPE","9/17/2026","Goodbuy Cooperative, TX","26-27 6D000","Office: Supplies/Equipment"],
+ ["Invited","PARTIAL","6/16/2026","Conroe ISD, TX","26-04-02","Building and Welding Materials, Tools, Hardware and Supplies"],
+ ["Invited","PARTIAL","6/25/2026","Clear Creek ISD, TX","2027.602","Athletic, Trainer, and PE Equipment, Supplies, Clothing"],
+ ["Invited","PARTIAL","7/7/2026","Allied States Coop ESC19, TX","26-7567","Printing Services, Promotional Supplies and Related"],
+ ["Invited","PARTIAL","7/16/2026","Fort Worth ISD, TX","26-070-A","General Retail Merchandise, Groceries, Supplies, Equipment"],
+ ["Invited","PARTIAL","7/30/2026","Killeen ISD, TX","26-31-07-302","Vocational Equipment, Instructional & Certification Products, Supplies"],
+ ["Invited","PARTIAL","8/25/2026","Burleson ISD, TX","2627-01","Repairs, Services & Supplies for Maintenance/Facilities/Fleet"],
+ ["Invited","PARTIAL","5/31/2028","Coppell ISD, TX","FOODSVC-001","Food Services: Groceries/Restaurants and Related Goods"],
+ ["Invited","NEEDS_REVIEW","6/18/2026","Harlingen CISD, TX","BLIB0626","Library Books"],
+ ["Invited","NEEDS_REVIEW","6/19/2026","City of Ames, IA","2026-146","YubiKey 5 FIPS 140-2 Series"],
+ ["Invited","NEEDS_REVIEW","7/9/2026","BuyBoard Coop, TX","820-26","HVAC Equipment, Supplies, and Installation"],
+ ["Invited","NEEDS_REVIEW","6/18/2027","Brownsville ISD, TX","27-070","Electrical Supplies & Materials District-Wide"],
+ ["Open","IN_SCOPE","6/9/2026","City of Edmond, OK","B26-027","Roll Out Carts"],
+ ["Open","IN_SCOPE","6/10/2026","Pasadena ISD, TX","26R-030LG","Vocational (CTE) Equipment, Supplies and Services"],
+ ["Open","IN_SCOPE","6/10/2026","City of Columbia, MO","79/2026","Athletic Field Preparation Materials"],
+ ["Open","IN_SCOPE","6/11/2026","Brownsville ISD, TX","27-001","General Merchandise Supplies, Services & Groceries"],
+ ["Open","IN_SCOPE","6/11/2026","Brownsville ISD, TX","27-046","Two Way Portable Radios, Supplies and Accessories"],
+ ["Open","IN_SCOPE","6/11/2026","Humble ISD, TX","2023-103-11","School Safety Products and Services"],
+ ["Open","IN_SCOPE","6/12/2026","Blount County, TN","2026-0125","Furniture for Health Department"],
+ ["Open","IN_SCOPE","6/12/2026","Fort Worth ISD, TX","26-085","Library Supplies, Equipment, and Furniture"],
+ ["Open","IN_SCOPE","6/12/2026","Lamar CISD, TX","32-2024TB-02","Awards, Custom Apparel, & Promotional Items"],
+ ["Open","IN_SCOPE","6/22/2026","Duncanville ISD, TX","MS-25-26.006","Athletic Supplies, Equipment & Services"],
+ ["Open","IN_SCOPE","6/22/2026","Humble ISD, TX","2027-101","Instructional Materials"],
+ ["Open","IN_SCOPE","6/25/2026","Clear Creek ISD, TX","2027.601","Instructional Materials and Teaching Supplies"],
+ ["Open","IN_SCOPE","6/30/2026","Lake Travis ISD, TX","22-001","Instructional Materials & Supplies"],
+ ["Open","IN_SCOPE","6/30/2026","Cypress-Fairbanks ISD, TX","25-07-2040RFP","Spirit Apparel and Promotional Items"],
+ ["Open","IN_SCOPE","7/9/2026","Frisco ISD, TX","891-2026-05-32","Instructional, Classroom, Athletic & PE Supplies"],
+ ["Open","IN_SCOPE","7/13/2026","Humble ISD, TX","2025-102J","Athletic & Physical Education Equipment, Supplies"],
+ ["Open","IN_SCOPE","7/20/2026","Hurst-Euless-Bedford ISD, TX","24-14B","General Retail Merchandise, Groceries, Supplies, Equipment"],
+ ["Open","IN_SCOPE","7/23/2026","Humble ISD, TX","2026-106E","Awards, Custom and Promotional Items"],
+ ["Open","IN_SCOPE","7/30/2026","Birdville ISD, TX","001-27","CTE Equipment, Supplies, Software"],
+ ["Open","IN_SCOPE","7/30/2026","Birdville ISD, TX","002-27","Athletic Equipment, Supplies"],
+ ["Open","IN_SCOPE","7/31/2026","Eagle Mtn-Saginaw ISD, TX","2425-004","Print Services, Awards, Promotional/Spirit Items, Apparel"],
+ ["Open","IN_SCOPE","8/3/2026","Loudoun County PS, VA","R24264","Promotional Items, Screen Printing and Embroidery"],
+ ["Open","IN_SCOPE","8/4/2026","Goodbuy Cooperative, TX","26-27 6P000","Awards: Plaques/Recognition/Trophies/Promotional Items"],
+ ["Open","IN_SCOPE","9/1/2026","Goodbuy Cooperative, TX","26-27 3F000","Cafeteria Equipment: Refrigeration/Cooking/Furniture"],
+ ["Open","IN_SCOPE","9/1/2026","Burleson ISD, TX","2627-03","Apparel, Awards, Promotional Items"],
+ ["Open","IN_SCOPE","9/8/2026","Goodbuy Cooperative, TX","26-27 4GC00","Furniture: Computer"],
+ ["Open","IN_SCOPE","9/30/2026","Forney ISD, TX","2026-008","Athletic and Extracurricular Supplies, Equipment"],
+ ["Open","IN_SCOPE","5/31/2027","Eagle Mtn-Saginaw ISD, TX","2324-025","Athletic, P.E. Supplies, Equipment, Uniforms"],
+ ["Open","IN_SCOPE","6/30/2028","Carroll ISD, TX","24-07-01-05","Instructional Materials, Supplies, Equipment"],
+ ["Open","IN_SCOPE","6/30/2028","Carroll ISD, TX","24-07-01-07","Athletic Supplies, Equipment, Materials"],
+ ["Open","IN_SCOPE","6/30/2028","Carroll ISD, TX","24-07-01-03","Specialty Items, Promotional Materials & Custom Apparel"],
+ ["Open","IN_SCOPE","6/30/2029","Alief ISD, TX","2418","Vocational Lab Equipment, Supplies & Housewares"],
+ ["Open","IN_SCOPE","6/30/2030","Round Rock ISD, TX","26-017","Catalog Contract: Vocational Equipment, Supplies"],
+ ["Open","IN_SCOPE","12/31/2030","Mesquite ISD, TX","2026-002","Athletic Uniforms, Equipment and Supplies"],
+ ["Open","IN_SCOPE","5/31/2031","Mesquite ISD, TX","2026-008","Instructional/Classroom Supplies, CTE Equipment"],
+ ["Open","PARTIAL","6/11/2026","Humble ISD, TX","2025-106I","Performing Arts - Equipment, Rentals, Supplies"],
+ ["Open","PARTIAL","6/11/2026","Iowa State University","RFQ-1001460","Sports Medicine / Athletic Training Supplies"],
+ ["Open","PARTIAL","6/19/2026","Kansas City PD, MO","2026-0007","Disposable Alkaline, Lithium and DL Batteries"],
+ ["Open","PARTIAL","5/31/2027","Eagle Mtn-Saginaw ISD, TX","2324-026","First Aid, Medical, Sports Training Supplies"],
+ ["Open","NEEDS_REVIEW","6/9/2026","City of Farmington, NM","26-167326","Warehouse RFQ (general supplies)"],
+ ["Open","NEEDS_REVIEW","6/10/2026","City of Farmington, NM","26-168015","Warehouse RFQ (general supplies)"]
+];
+
+// vendor / one-off cost mapper
+function coverage(title){
+ const t=title.toLowerCase();
+ const m=(...k)=>k.some(x=>t.includes(x));
+ if(m('athletic','p.e','pe ','sports','spirit','apparel','uniform','promotional','awards','trophies','plaque','banner','recognition','custom','embroidery','specialty','vocational','cte','instructional','classroom','teaching','performing arts','print','imprint'))
+   return {v:'ISG (one-off / specialty)',isg:true,oneoff:true};
+ if(m('janitorial','custodial','restroom','floor machine','filter','cleaning','liner'))
+   return {v:'Essendant / SP Richards / ISG (jansan)',isg:false,oneoff:false};
+ if(m('mro','tools','hardware','welding','material handling','maintenance'))
+   return {v:'ORS Nasco (MRO)',isg:false,oneoff:false};
+ if(m('furniture'))return {v:'Essendant / SP Richards (furniture)',isg:false,oneoff:false};
+ if(m('foodservice','grocer','cafeteria','food'))return {v:'ISG / breakroom',isg:true,oneoff:true};
+ if(m('radio','computer','yubikey','technology','server'))return {v:'Synnex (technology)',isg:false,oneoff:false};
+ if(m('office','paper','toner','ink','envelope','library','copy'))
+   return {v:'Essendant / SP Richards (broadline)',isg:false,oneoff:false};
+ if(m('battery','roll out cart','general merchandise','retail','stock and supplies','warehouse'))
+   return {v:'Broadline mix',isg:false,oneoff:false};
+ return {v:'Map at quote',isg:false,oneoff:false};
+}
+function days(c){const [m,d,y]=c.split('/').map(Number);const dt=new Date(y,m-1,d,15);return Math.ceil((dt-TODAY)/86400000);}
+
+let CHANNELS=[
+ ["Goodbuy (ESC Region 2)","Cooperative","TX+Regional","REGISTERED","HIGH","Active — current bid network"],
+ ["BuyBoard (TASB)","Cooperative","All 50 states","REGISTERED","HIGH","Registered in IonWave"],
+ ["TIPS (Region 8 ESC)","Cooperative","All 50 states","REGISTERED","HIGH","Registered in IonWave"],
+ ["OMNIA Partners","Cooperative","All 50 states","SUBMITTED","HIGH","Interest form submitted"],
+ ["SAM.gov Opportunities","Federal","National","REGISTERED","HIGH","Primary federal database"],
+ ["GSA eBuy","Federal (GSA)","National","ACTIVE","HIGH","RFQs vs OS4 schedule"],
+ ["FedMall (DoD)","Federal","National","REGISTERED","MED","Supplier ID 111112972"],
+ ["Sourcewell","Cooperative","All 50 states","ACTION","HIGH","Portal 504 at last check"],
+ ["E&I Cooperative","Cooperative","Higher ed","ACTION","MED","Create JAGGAER account"],
+ ["Virginia eVA","State","Virginia","NOT","HIGH","Local to Axiscore"],
+ ["Maryland eMMA","State","Maryland","NOT","HIGH","Home state"],
+ ["DC OCP","District","DC","NOT","HIGH","HQ in DC"],
+ ["DC CBE Program","Local cert","DC","NOT","HIGH","Black-owned qualifies"],
+ ["Montgomery County MD","County","Maryland","NOT","HIGH","One reg covers 5 agencies"],
+ ["Fairfax County / FCPS","County/School","Virginia","NOT","HIGH","Bonfire portal"],
+ ["Illinois Procurement Gateway","State","Illinois","NOT","HIGH","Mandatory >$50K; BEP certified"],
+ ["Cook County Bonfire","County","Illinois","NOT","HIGH","$1.3B annual procurement"],
+ ["Texas TXMAS","State","Texas","NOT","HIGH","May accept GSA schedule"],
+ ["Goodbuy agency registrations","Cooperative","IonWave network","ACTIVE","HIGH","Auto +5 agencies/day (running)"]
+];
+
+function render(){
+ const sc=document.getElementById('fScope').value, sr=document.getElementById('fSrc').value,
+       so=document.getElementById('fSort').value, q=document.getElementById('fQ').value.toLowerCase();
+ let list=BIDS.map(b=>({src:b[0],st:b[1],close:b[2],ag:b[3],bid:b[4],title:b[5],url:b[6]||'',d:days(b[2]),cov:coverage(b[5])}));
+ if(sc)list=list.filter(b=>b.st===sc);
+ if(sr)list=list.filter(b=>b.src===sr);
+ if(q)list=list.filter(b=>(b.title+' '+b.ag).toLowerCase().includes(q));
+ const ord={IN_SCOPE:0,PARTIAL:1,NEEDS_REVIEW:2};
+ list.sort((a,b)=> so==='scope' ? (ord[a.st]-ord[b.st]||a.d-b.d) : (a.d-b.d));
+ const g=document.getElementById('bidGrid');
+ g.innerHTML=list.map(b=>{
+   const soon=b.d>=0&&b.d<=7;
+   const dl=b.d<0?'closed':(b.d===0?'today':b.d+' days');
+   const clk = b.url ? `onclick="window.open('${b.url}','_blank','noopener')" style="cursor:pointer"` : '';
+   return `<div class="card ${soon?'soon':''}" ${clk} title="${b.url?'Open this bid on Goodbuy':''}">
+     <div class="top"><span class="badge b-${b.st}">${b.st.replace('_',' ')}</span>
+       <span class="src ${b.src==='Invited'?'invited':''}">${b.src}</span></div>
+     <div class="title">${b.title}</div>
+     <div class="meta">${b.ag} · ${b.bid}</div>
+     <div class="close ${soon?'soon':''}">Closes ${b.close} <span class="days">· ${dl}</span></div>
+     <div class="srcline"><span class="vtag ${b.cov.isg?'isg':''}">${b.cov.v}</span>
+       ${b.cov.oneoff?'<span class="oneoff">★ one-off → ISG cost</span>':''}
+       ${b.url?`<a class="openbid" href="${b.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open on Goodbuy ↗</a>`:''}</div>
+   </div>`;
+ }).join('') || '<div class="muted">No bids match.</div>';
+ // stats
+ const all=BIDS.map(b=>({st:b[1],d:days(b[2])}));
+ const inS=all.filter(b=>b.st==='IN_SCOPE').length, par=all.filter(b=>b.st==='PARTIAL').length;
+ const soon=all.filter(b=>b.d>=0&&b.d<=7).length;
+ document.getElementById('statbar').innerHTML=
+  `<div class="stat go"><div class="n">${inS}</div><div class="l">In-scope</div></div>
+   <div class="stat"><div class="n">${par}</div><div class="l">Partial</div></div>
+   <div class="stat soon"><div class="n">${soon}</div><div class="l">Closing ≤7 days</div></div>
+   <div class="stat"><div class="n">${BIDS.length}</div><div class="l">Biddable (of 741 scanned)</div></div>`;
+ document.getElementById('scanline').textContent='741 events scanned across the Goodbuy/IonWave network (95 invited + 646 open) — the scope filter cut them to '+BIDS.length+' biddable supply bids.';
+}
+function tab(id){
+ document.querySelectorAll('.sub-tab').forEach(t=>t.classList.toggle('active',t.dataset.sub===id));
+ document.querySelectorAll('.sub-view').forEach(v=>v.classList.toggle('active',v.id===id));
+}
+function renderChannels(){
+ document.getElementById('chanWrap').innerHTML=
+ '<table><thead><tr><th>Channel</th><th>Type</th><th>Scope</th><th>Status</th><th>Priority</th><th>Note</th></tr></thead><tbody>'+
+ CHANNELS.map(c=>{const ps=c[3]==='ACTION'?'ACTION':(c[3]==='NOT'?'NOT':c[3]);
+   return `<tr><td><b>${c[0]}</b></td><td>${c[1]}</td><td>${c[2]}</td>
+   <td><span class="pill p-${ps==='ACTION REQUIRED'?'ACTION':ps}">${c[3]==='NOT'?'Not reg':c[3]}</span></td>
+   <td class="pri-${c[4]}">${c[4]}</td><td class="muted">${c[5]}</td></tr>`}).join('')+'</tbody></table>';
+}
+document.getElementById('foot').textContent='Scope filter = Stage-2 Rubric (G1 product / G2 NAICS / G3 PSC / G4 keyword / G5 ceiling). Costing: broadline catalog (raw_merch_cost) for office/jansan; ISG cost file for one-off/specialty. Live data published daily by the AWS bids-feed job.';
+renderChannels();
+render();
+// LIVE: pull the latest feed (daily AWS job rewrites bids_latest.json); embedded data is the offline fallback.
+fetch('bids_latest.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{
+  if(!d||!d.bids)return;
+  // v1 rows are arrays; v2 (full scored set) rows are objects with full field names —
+  // map to the array shape and keep this view to the non-OUT set v1 published.
+  BIDS=d.bids.map(b=>Array.isArray(b)?b:[b.src,b.scope_status||b.st,b.close_date||b.close,b.agency||b.ag,b.bid_number||b.bid,b.title,b.url||''])
+             .filter(b=>b[1]!=='OUT');
+  if(d.channels&&d.channels.length)CHANNELS=d.channels;
+  if(d.generated_at){const t=new Date(d.generated_at);document.getElementById('upd').textContent='live feed · updated '+t.toLocaleString();}
+  renderChannels();render();
+}).catch(()=>{});
+</script>
+</body>
+</html>

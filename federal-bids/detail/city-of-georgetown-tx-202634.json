@@ -1,0 +1,135 @@
+{
+ "bid_id": "city-of-georgetown-tx-202634",
+ "bid_number": "202634",
+ "agency": "City of Georgetown, TX",
+ "src": "Open",
+ "title": "Retail, Mobility and Demographic Software",
+ "close": "7/21/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "License and Annual Subscription Year 1",
+   "qty": "1",
+   "uom": "Yearly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 License and Annual Subscription Year 1 1 Yearly No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "License and Annual Subscription Year 2",
+   "qty": "1",
+   "uom": "Yearly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 License and Annual Subscription Year 2 1 Yearly No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "License and Annual Subscription Year 3",
+   "qty": "1",
+   "uom": "Yearly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 License and Annual Subscription Year 3 1 Yearly No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "License and Annual Subscription Year 4",
+   "qty": "1",
+   "uom": "Yearly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 License and Annual Subscription Year 4 1 Yearly No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "License and Annual Subscription Year 5",
+   "qty": "1",
+   "uom": "Yearly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 License and Annual Subscription Year 5 1 Yearly No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "2",
+   "desc": "Provide Total Cost for Implementation",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Provide Total Cost for Implementation 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "3",
+   "desc": "Additional Cost (If Any)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Additional Cost (If Any) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP-202634 Retail_ Mobilty and demographic software -Final.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP-202634 Retail_ Mobilty and demographic software -Final.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 28.1,
+  "attachment_fetches": 1,
+  "attachment_seconds": 8.2,
+  "attachment_bytes": 907464,
+  "max_fetch_seconds": 8.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:27:14.142606+00:00",
+ "extract_attempts": 1,
+ "lines_total": 6,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-georgetown-tx-202634/coverage.json"
+}

@@ -1,0 +1,127 @@
+{
+ "bid_id": "university-of-iowa-18602",
+ "bid_number": "18602",
+ "agency": "University of Iowa",
+ "src": "Open",
+ "title": "Generator Maintenance for Facilities Management",
+ "close": "7/22/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Annual Generator Service Cost of all 47 Generators.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Please provide the annual fee for the 47 generators indicated for services requested in this bid. The fee must be inclusive of any and all costs including, but not limited to, travel, insurance, materials, etc. then use the Excel File titled \"MASTER_GEF_Generator_List_2026\" found under the attachments tab to provide the per generator cost for the annual services per line. Enter the total amount from cell O49 in this line response.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Annual Generator Service Cost of all 47 Generators. 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Regular Hourly Rate Monday through Friday 7AM through 5PM central time.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Regular Hourly Rate Monday through Friday 7AM through 5PM central time. 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Overtime Hourly Rate Monday through Friday 5PM through 7AM central time.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Overtime Hourly Rate Monday through Friday 5PM through 7AM central time. 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "Saturday Holiday Rate",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 Saturday Holiday Rate 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "2.4",
+   "desc": "Sunday/Holiday Hourly Rates",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.4 Sunday/Holiday Hourly Rates 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Professional-Services-Agreement-with-Travel-Addendum-2026.02.25-FINAL Accessible.docx",
+  "Standard Terms and Conditions 2026.04.24 FINAL.pdf",
+  "MASTER_GEF_Generator_List_2026.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Professional-Services-Agreement-with-Travel-Addendum-2026.02.25-FINAL Accessible.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Terms and Conditions 2026.04.24 FINAL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "MASTER_GEF_Generator_List_2026.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 14.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 2.6,
+  "attachment_bytes": 322041,
+  "max_fetch_seconds": 1.66,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:40:54.272498+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-iowa-18602/coverage.json"
+}

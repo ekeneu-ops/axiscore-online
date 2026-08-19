@@ -1,0 +1,99 @@
+{
+ "bid_id": "city-of-lebanon-mo-el-80-260915-f-1019",
+ "bid_number": "EL-80-260915-F-1019",
+ "agency": "City of Lebanon, MO",
+ "src": "Invited",
+ "title": "LED Streetlight Restock FY27",
+ "close": "9/15/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Leotek Large LED Light Part #GCM2-60J-MV-40K-3R",
+   "qty": "180",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Leotek Large LED Light Part #GCM2-60J-MV-40K-3R 180 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Leotek Small Utility Light Part #UTL2-16J-MV-40K-5",
+   "qty": "20",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Leotek Small Utility Light Part #UTL2-16J-MV-40K-5 20 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Autobahn LED Regular Part #ATBO P51 MVOLT R2",
+   "qty": "10",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Autobahn LED Regular Part #ATBO P51 MVOLT R2 10 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Photo Sensor Part #TORK 5237-UL",
+   "qty": "200",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Photo Sensor Part #TORK 5237-UL 200 EACH No Response"
+  }
+ ],
+ "attachments_saved": [
+  "LED Streetlight Restock FY27.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "LED Streetlight Restock FY27.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.7,
+  "attachment_fetches": 1,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 278090,
+  "max_fetch_seconds": 1.36,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-18T08:46:16.794044+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-lebanon-mo-el-80-260915-f-1019/coverage.json"
+}

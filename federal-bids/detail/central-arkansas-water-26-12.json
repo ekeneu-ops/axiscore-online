@@ -1,0 +1,137 @@
+{
+ "bid_id": "central-arkansas-water-26-12",
+ "bid_number": "26-12",
+ "agency": "Central Arkansas Water",
+ "src": "Open",
+ "title": "Unmanned Aerial System (UAS) for Aerial Ignition and LiDAR Mapping Drone",
+ "close": "7/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "ITB 26-12 Drone IGNIS LIDAR 2026.pdf",
+  "Drone Official Bid Price Sheet.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ITB 26-12 Drone IGNIS LIDAR 2026.pdf",
+   "kind": "pdf",
+   "tables": 16,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Drone Official Bid Price Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Drone Official Bid Price Sheet.xlsx",
+   "sheet": 0,
+   "header_row": 7,
+   "headers": [
+    "Item #",
+    "Quantity",
+    "Description",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Subtotal",
+    "",
+    "Total",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Price",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "1",
+     "Drone",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "1",
+     "Training ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.5,
+  "attachment_fetches": 2,
+  "attachment_seconds": 6.3,
+  "attachment_bytes": 547800,
+  "max_fetch_seconds": 5.68,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:01:23.994931+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/central-arkansas-water-26-12/coverage.json"
+}

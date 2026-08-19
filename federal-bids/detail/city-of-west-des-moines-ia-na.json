@@ -1,0 +1,229 @@
+{
+ "bid_id": "city-of-west-des-moines-ia-na",
+ "bid_number": "NA",
+ "agency": "City of West Des Moines, IA",
+ "src": "Invited",
+ "title": "City Council Chambers Audio/Visual System Replacement and Integration",
+ "close": "9/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 12,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "08-17-26 Council Chambers Audio Visual System RFP.pdf",
+  "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX A - FUNCTIONAL REQUIREMENTS.docx",
+  "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+  "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX C - COST PROPOSAL SCHEDULE.docx",
+  "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX D - INSURANCE REQUIREMENTS.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "08-17-26 Council Chambers Audio Visual System RFP.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX A - FUNCTIONAL REQUIREMENTS.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX C - COST PROPOSAL SCHEDULE.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX D - INSURANCE REQUIREMENTS.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Existing Equipment or Function",
+    "Known\nQuantity",
+    "Current Location",
+    "Required Disposition"
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "B-1",
+     "PTZ camera directed toward the\npodium",
+     "1",
+     "Side of Chambers",
+     "Remove and replace"
+    ],
+    [
+     "B-2",
+     "PTZ cameras directed from the rear\ntoward the front of the Chambers",
+     "2",
+     "Rear of Chambers",
+     "Remove and replace"
+    ],
+    [
+     "B-3",
+     "Podium computer",
+     "1",
+     "Presentation podium",
+     "Remove and replace"
+    ]
+   ]
+  },
+  {
+   "source": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Existing Equipment or Function",
+    "Known\nQuantity",
+    "Current Location",
+    "Required Disposition"
+   ],
+   "score": 2,
+   "n_rows": 12,
+   "sample": [
+    [
+     "B-8",
+     "Virtual teleconference computer and\nrelated equipment",
+     "1 system",
+     "AV control room or\ndesignated location",
+     "Remove and replace"
+    ],
+    [
+     "B-9",
+     "Document camera",
+     "1",
+     "Podium or designated\nlocation",
+     "Remove and replace"
+    ],
+    [
+     "B-10",
+     "Council-member displays",
+     "6",
+     "Dais",
+     "Remove and replace"
+    ]
+   ]
+  },
+  {
+   "source": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Existing Equipment or Function",
+    "Known\nQuantity",
+    "Current Location",
+    "Required Disposition"
+   ],
+   "score": 2,
+   "n_rows": 10,
+   "sample": [
+    [
+     "B-20",
+     "Wireless handheld microphone",
+     "1",
+     "Portable/AV storage",
+     "Remove and replace"
+    ],
+    [
+     "B-21",
+     "Wireless headset microphone",
+     "1",
+     "Portable/AV storage",
+     "Remove and replace"
+    ],
+    [
+     "B-22",
+     "AV control-room talkback\nmicrophone",
+     "1",
+     "AV control room",
+     "Remove and replace"
+    ]
+   ]
+  },
+  {
+   "source": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Existing Equipment or Function",
+    "Known\nQuantity",
+    "Current Location",
+    "Required Disposition"
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "B-30",
+     "Recording, streaming, and OBS\ninterface equipment",
+     "Verify\nonsite",
+     "AV control room",
+     "Remove and replace"
+    ],
+    [
+     "B-31",
+     "Media audio and video feed\nequipment",
+     "Verify\nonsite",
+     "Chambers/media\nconnection locations",
+     "Remove and replace"
+    ],
+    [
+     "B-32",
+     "Assistive listening devices and\naccessories",
+     "Verify\nonsite",
+     "Designated storage\nlocation",
+     "Remove and replace"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.8,
+  "attachment_fetches": 5,
+  "attachment_seconds": 4.8,
+  "attachment_bytes": 764096,
+  "max_fetch_seconds": 1.76,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-19T08:48:21.940084+00:00",
+ "extract_attempts": 2,
+ "lines_total": 12,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-west-des-moines-ia-na/coverage.json"
+}

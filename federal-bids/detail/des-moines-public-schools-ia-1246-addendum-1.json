@@ -1,0 +1,83 @@
+{
+ "bid_id": "des-moines-public-schools-ia-1246-addendum-1",
+ "bid_number": "1246 Addendum 1",
+ "agency": "Des Moines Public Schools, IA",
+ "src": "Open",
+ "title": "21st Century Community Learning Centers",
+ "close": "7/15/2026 12:59 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Iowa Chapter 22 Open Records Law.pdf",
+  "General Terms n Conditions.pdf",
+  "SOA.pdf",
+  "Program Description Sheet.xlsx",
+  "RFP1246 21st CCLC Request Form.pdf",
+  "Bid Notification.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Iowa Chapter 22 Open Records Law.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Terms n Conditions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SOA.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Program Description Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP1246 21st CCLC Request Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Notification.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 22.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 12.2,
+  "attachment_bytes": 1716434,
+  "max_fetch_seconds": 5.01,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:39:15.504604+00:00",
+ "extract_attempts": 1
+}

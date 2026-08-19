@@ -1,0 +1,91 @@
+{
+ "bid_id": "lancaster-isd-tx-rfq-2026-b52-03-addendum-1",
+ "bid_number": "RFQ 2026.B52.03 Addendum 1",
+ "agency": "Lancaster ISD, TX",
+ "src": "Invited",
+ "title": "Program Management Services For Lancaster ISD Bond",
+ "close": "7/15/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CIQ.pdf",
+  "Form W-9.pdf",
+  "Vendor-Direct Deposit Form.pdf",
+  "Vendor Request Form.pdf",
+  "Form 1295 Instructions.pdf",
+  "Vendor Statement of Debarement and Suspension.pdf",
+  "Lancaster ISD Terms and Conditions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form W-9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor-Direct Deposit Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Request Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Form 1295 Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Statement of Debarement and Suspension.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Lancaster ISD Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.1,
+  "attachment_fetches": 7,
+  "attachment_seconds": 5.8,
+  "attachment_bytes": 977118,
+  "max_fetch_seconds": 1.31,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:29:19.888278+00:00",
+ "extract_attempts": 1
+}

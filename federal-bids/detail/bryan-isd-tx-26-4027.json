@@ -1,0 +1,99 @@
+{
+ "bid_id": "bryan-isd-tx-26-4027",
+ "bid_number": "26.4027",
+ "agency": "Bryan ISD, TX",
+ "src": "Open",
+ "title": "Security Guard Services",
+ "close": "7/13/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Rate per hour, for training",
+   "qty": "1",
+   "uom": "Hour",
+   "note": "No more than 15 days per contract year",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Rate per hour, for training 1 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Billing Rate per hour, for services rendered",
+   "qty": "1",
+   "uom": "Hour",
+   "note": "The school calendar consists of 171 instructional days. Billing rate may also include the summer schedule. Summer schedules will be determined at a future date.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Billing Rate per hour, for services rendered 1 Hour No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Vendor Questionnaire.pdf",
+  "Vendor References.pdf",
+  "Vendor Packet_ Non-Federal_ 01.2025.pdf",
+  "Bryan_ISD_Academic_Calendar__English.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Vendor Questionnaire.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor References.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Packet_ Non-Federal_ 01.2025.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bryan_ISD_Academic_Calendar__English.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 36.9,
+  "attachment_fetches": 4,
+  "attachment_seconds": 24.3,
+  "attachment_bytes": 1742540,
+  "max_fetch_seconds": 16.76,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:14:56.630669+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/bryan-isd-tx-26-4027/coverage.json"
+}

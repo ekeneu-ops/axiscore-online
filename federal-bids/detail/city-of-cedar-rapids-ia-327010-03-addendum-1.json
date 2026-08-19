@@ -1,0 +1,927 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-327010-03-addendum-1",
+ "bid_number": "327010-03 Addendum 1",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Open",
+ "title": "Cedar Lake Amenities Bid Package 3A: Recreational Amenities",
+ "close": "8/19/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 51,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 50,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "0000-999-A - Accessible Dock",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 0000-999-A - Accessible Dock 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "0000-999-B - Boat Ramp End Section",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 0000-999-B - Boat Ramp End Section 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "0000-999-C - Benches - with right, left, and center arm with plaque tray",
+   "qty": "14",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 0000-999-C - Benches - with right, left, and center arm with plaque tray 14 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "0000-999-D - Bike Rack",
+   "qty": "10",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 0000-999-D - Bike Rack 10 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "0000-999-E - Bike Repair Station",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 0000-999-E - Bike Repair Station 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "0000-999-F - Water Refill Station",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 0000-999-F - Water Refill Station 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "0000-999-G - ADA Picnic Tables 6' Length",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 0000-999-G - ADA Picnic Tables 6' Length 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "0000-999-H - ADA Picnic Tables 8' Length",
+   "qty": "6",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 0000-999-H - ADA Picnic Tables 8' Length 6 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "0000-999-I - Trash Receptacles",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 0000-999-I - Trash Receptacles 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "0000-999-J - Shelter - 16'x20'",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 0000-999-J - Shelter - 16'x20' 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "0000-999-K - Shelter - 22'x26''",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 0000-999-K - Shelter - 22'x26'' 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "0000-999-L - Repaint Existing Shelters",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 0000-999-L - Repaint Existing Shelters 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "0000-999-M - Shelter Security lighting",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 0000-999-M - Shelter Security lighting 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "0000-999-N - Restroom with Security Lighting",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 0000-999-N - Restroom with Security Lighting 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "0000-999-O - Electrical Service to Playground scoreboard",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 0000-999-O - Electrical Service to Playground scoreboard 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "0000-999-P - Donor Wall Signage",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 0000-999-P - Donor Wall Signage 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "2010-D-1 - Topsoil, On-site",
+   "qty": "405",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 2010-D-1 - Topsoil, On-site 405 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "2010-D-3 - Topsoil, Off-site",
+   "qty": "205",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 2010-D-3 - Topsoil, Off-site 205 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "2010-E - Excavation, Class 10",
+   "qty": "1433",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 2010-E - Excavation, Class 10 1433 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "2010-M - Compaction Testing",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 2010-M - Compaction Testing 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "3010-F - Trench Compaction Testing",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 3010-F - Trench Compaction Testing 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "4040-A - Subdrain, Type 1, Case B, 6\"",
+   "qty": "370",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 4040-A - Subdrain, Type 1, Case B, 6\" 370 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "4040-C-1 - Subdrain Cleanout, Type B, 24\"",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 4040-C-1 - Subdrain Cleanout, Type B, 24\" 3 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "4040-D-1 - Subdrain Outlets and Connections, Type 1, 6\"",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 4040-D-1 - Subdrain Outlets and Connections, Type 1, 6\" 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "25",
+   "desc": "6010-B - Intake, SW-512, 24\"",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 6010-B - Intake, SW-512, 24\" 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "7010-A - Type 2 PCC (Integrally Colored)",
+   "qty": "322",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 7010-A - Type 2 PCC (Integrally Colored) 322 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "27",
+   "desc": "7010-A - Type 1 PCC (7\")",
+   "qty": "240",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "27 7010-A - Type 1 PCC (7\") 240 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "28",
+   "desc": "7010-F - PCC Playground Curb",
+   "qty": "510",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 7010-F - PCC Playground Curb 510 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "29",
+   "desc": "7010-I - PCC Pavement Samples and Testing",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "29 7010-I - PCC Pavement Samples and Testing 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine30",
+   "kind": "line",
+   "line": "30",
+   "desc": "7030-A-2 - Removal of Shared Use Path",
+   "qty": "96",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "30 7030-A-2 - Removal of Shared Use Path 96 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine31",
+   "kind": "line",
+   "line": "31",
+   "desc": "7030-C - Shared Use Path, PCC, 7\"",
+   "qty": "440",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "31 7030-C - Shared Use Path, PCC, 7\" 440 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine32",
+   "kind": "line",
+   "line": "32",
+   "desc": "7030-D - Special Subgrade Preparation for Shared Use Path, 12\"",
+   "qty": "690",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "32 7030-D - Special Subgrade Preparation for Shared Use Path, 12\" 690 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine33",
+   "kind": "line",
+   "line": "33",
+   "desc": "7040-A - Full Depth Patches, PCC, 8\"",
+   "qty": "5",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "33 7040-A - Full Depth Patches, PCC, 8\" 5 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine34",
+   "kind": "line",
+   "line": "34",
+   "desc": "8030-A - Temporary Traffic Control",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "34 8030-A - Temporary Traffic Control 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine35",
+   "kind": "line",
+   "line": "35",
+   "desc": "9010-B - Hydraulic Seeding, Seeding, Fertilizing, and Mulching, Type 4",
+   "qty": "1",
+   "uom": "AC",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "35 9010-B - Hydraulic Seeding, Seeding, Fertilizing, and Mulching, Type 4 1 AC No Response"
+  },
+  {
+   "ctl": "ucBidLine36",
+   "kind": "line",
+   "line": "36",
+   "desc": "9020-A - Sod",
+   "qty": "2420",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "36 9020-A - Sod 2420 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine37",
+   "kind": "line",
+   "line": "37",
+   "desc": "9040-A-2 - SWPPP Management",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "37 9040-A-2 - SWPPP Management 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine38",
+   "kind": "line",
+   "line": "38",
+   "desc": "9040-D-1 - Filter Sock, 12\"",
+   "qty": "1056",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "38 9040-D-1 - Filter Sock, 12\" 1056 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine39",
+   "kind": "line",
+   "line": "39",
+   "desc": "9040-D-2 - Filter Socks, Removal",
+   "qty": "1056",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "39 9040-D-2 - Filter Socks, Removal 1056 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine40",
+   "kind": "line",
+   "line": "40",
+   "desc": "9040-N-1 - Silt Fence or Silt Fence Ditch Check",
+   "qty": "370",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "40 9040-N-1 - Silt Fence or Silt Fence Ditch Check 370 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine41",
+   "kind": "line",
+   "line": "41",
+   "desc": "9040-N-2 - Silt Fence or Silt Fence Ditch Check, Removal of Sediment",
+   "qty": "370",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "41 9040-N-2 - Silt Fence or Silt Fence Ditch Check, Removal of Sediment 370 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine42",
+   "kind": "line",
+   "line": "42",
+   "desc": "9040-N-3 - Silt Fence or Silt Fence Ditch Check, Removal of Device",
+   "qty": "370",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "42 9040-N-3 - Silt Fence or Silt Fence Ditch Check, Removal of Device 370 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine43",
+   "kind": "line",
+   "line": "43",
+   "desc": "9041-A - Floating Silt Curtain (Hanging)",
+   "qty": "325",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "43 9041-A - Floating Silt Curtain (Hanging) 325 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine44",
+   "kind": "line",
+   "line": "44",
+   "desc": "9041-C - Maintenance of Floating Silt Curtain",
+   "qty": "325",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "44 9041-C - Maintenance of Floating Silt Curtain 325 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine45",
+   "kind": "line",
+   "line": "45",
+   "desc": "9080-A - PCC Stairs",
+   "qty": "23",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "45 9080-A - PCC Stairs 23 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine46",
+   "kind": "line",
+   "line": "46",
+   "desc": "9080- B - Stair Handrails",
+   "qty": "16",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "46 9080- B - Stair Handrails 16 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine47",
+   "kind": "line",
+   "line": "47",
+   "desc": "10,010-A - Demolition and Site Preparation",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "47 10,010-A - Demolition and Site Preparation 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine48",
+   "kind": "line",
+   "line": "48",
+   "desc": "11,010-A - Construction Survey",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "48 11,010-A - Construction Survey 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine49",
+   "kind": "line",
+   "line": "49",
+   "desc": "11,010-B - Monument Preservation or Replacement",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "49 11,010-B - Monument Preservation or Replacement 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine50",
+   "kind": "line",
+   "line": "50",
+   "desc": "11,020-A - Mobilization",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "50 11,020-A - Mobilization 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bid Bond.pdf",
+  "Bidder Status Form.pdf",
+  "Unit Price Ref Sheet.xlsx",
+  "327010-03 PLANS _FINAL_ FOR PRINT.pdf",
+  "327010-03 PROJECT MANUAL _FINAL_ FOR PRINT.pdf",
+  "327010-03 Add 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Status Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Unit Price Ref Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "327010-03 PLANS _FINAL_ FOR PRINT.pdf",
+   "kind": "pdf",
+   "tables": 310,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "327010-03 PROJECT MANUAL _FINAL_ FOR PRINT.pdf",
+   "kind": "pdf",
+   "tables": 34,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "327010-03 Add 1.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Unit Price Ref Sheet.xlsx",
+   "sheet": 0,
+   "header_row": 7,
+   "headers": [
+    "Column1",
+    "ITEM CODE",
+    "ITEM",
+    "TOTAL QTY",
+    "UNIT",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 51,
+   "sample": [
+    [
+     "1",
+     "0000-999-A",
+     "Accessible Dock",
+     "1",
+     "LS",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "0000-999-B",
+     "Boat Ramp End Section",
+     "1",
+     "LS",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "0000-999-C",
+     "Benches - with right, left, and center arm with plaque tray",
+     "14",
+     "EA",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "327010-03 PLANS _FINAL_ FOR PRINT.pdf",
+   "sheet": 104,
+   "header_row": 1,
+   "headers": [
+    "",
+    "",
+    "GENERAL CONCRETE MASONRY STEEL LINTELS\n1. ALL ELEVATIONS REFERENCED TO FINISHED FIRST FLOOR (+0'-0\"). 1. CONCRETE TO BE IN ACCORDANCE WITH \"SPECIFICATIONS FOR 1. MASONRY CONSTRUCTION SHALL CONFORM TO ACI 530, 530.1, TMS 602, 1. STRUCTURAL STEEL TO BE FABRICATED AND ERECTED IN 1. PROVIDE AND INSTALL STEEL LINTELS FOR ALL MASONRY OPENINGS 1'-0\nSTRUCTURAL CONCRETE FOR BUILDINGS (ACI 301 CURRENT EDITION)\". CURRENT EDITIONS. ACCORDANCE WITH \"SPECIFICATION FOR STRUCTURAL STEEL OR WIDER IN ACCORDANCE WITH THE FOLLOWING SCHEDULE (UNLESS\n2. CONTRACTOR TO SUBMIT A WORKPLAN FOR BOARDWALK AND PIERS BULDINGS\" (AISC 360, CURRENT EDITION) AND \"CODE OF STANDARD NOTED OTHERWISE):\nCONSTRUCTION. 2. REINFORCING STEEL TO BE BENT AND PLACED IN ACCORDANCE WITH 2. GROUT AND MORTAR FOR MASONRY UP TO (+4'-0\") MUST INCLUDE PRACTICE FOR STEEL BUILDINGS AND BRIDGES\" (AISC 303, CURRENT\n\"MANUAL OF STD. PRACTICE FOR DETAILING CONCRETE STRUCTURES MASTERPEL 240 MA. EDITION). WALL\n3. ALL OF THE WORK TO BE DONE UNDER THIS CONTRACT SHALL BE DONE (ACI 315 CURRENT EDITION)\". THICKNESS MAXIMUM OPENING WIDTH\nIN ACCORDANCE WITH THE REQUIREMENTS OF THE DRAWINGS, THE 3. MORTAR FOR MASONRY BEARING WALLS TO BE TYPE S. 2. STRUCTURAL STEEL WIDE FLANGE AND WT SECTIONS IN ACCORDANCE\nGENERAL REQUIREMENTS OF DIVISION ONE, THE GENERAL CONDITIONS, 3. ALL CONCRETE SHALL BE 4000 PSI AT 28 DAYS. U.N.O. WITH ASTM A992. 6'-0\"\nTHE SPECIFICATIONS, AND ANY ADDENDA THERETO. ALL CONCRETE FOR BOND BEAMS SHALL BE 3000 PSI AT 28 DAYS. 4. ALL GROUT TO TEST 2000 PSI AT 28 DAYS. 6\" WALLS WT4 X 9\n3. STEEL CHANNELS, PLATES AND ANGLES IN ACCORDANCE WITH ASTM 8\" WALLS 2-L3.5 X 3.5 X 5/16\n4. IT SHALL BE THE RESPONSIBILITY OF THE CONTRACTOR TO ACQUAINT 4. CONCRETE EXPOSED TO FREEZE/THAW CONDITIONS SHALL BE AIR 5. DESIGN f'm = 2000 PSI. A36.\nTHEMSELVES AND ALL SUPERVISORY PERSONNEL WITH THE ABOVE-NAMED ENTRAINED.\nDRAWINGS AND DOCUMENTS. 6. REINFORCED UNIT MASONRY SHALL HAVE WALLS AND CROSS WEBS 4. STEEL TUBES IN ACCORDANCE WITH ASTM A500 GRADE B (Fy = 46 ksi). 2. LINTELS SHALL BEAR A MINIMUM OF 8\" ON MASONRY AT EACH END.\n5. COARSE AGGREGATE FOR FOOTINGS MAY BE GRAVEL. FILLED TO PREVENT GROUT LEAKAGE.\n5. THE CONTRACTOR SHALL BE RESPONSIBLE FOR INSPECTING THE SITE OF 5. STEEL PIPE IN ACCORDANCE WITH ASTM A53 GRADE B (Fy = 35 ksi). 3. ALL ANGLES BACK TO BACK SHALL BE WELDED TOGETHER TOP AND\nTHE PROPOSED WORK TO SATISFY THEMSELVES AS TO THE EXISTING 6. COARSE AGGREGATE FOR SLABS AND EXPOSED WALLS TO BE 7. GROUT SHALL HAVE A COMPOSITION MEASURED BY VOLUME BOTTOM.\nCONDITIONS RELATIVE TO THE CONTRACT. CRUSHED LIMESTONE. CONSISTING OF ONE PART PORTLAND CEMENT AND TWO PARTS OF SAND 6. ALL ELECTRODES E70 SERIES.\nWITH TWO PARTS OF PEA GRAVEL. SLUMP SHALL BE MEASURED ON A 4. ALL STRUCTURAL STEEL AS SPECIFIED UNDER STEEL NOTES.\n6. THE CONTRACTOR IS RESPONSIBLE FOR PROVIDING ALL TEMPORARY 7. MAXIMUM AGGREGATE SIZE TO BE 1\" -U.N.O. TRUNCATED METAL CONE. 7. STAINLESS STEEL TO BE ASTM A304.\nSHORING/BRACING OF COLUMNS, BEAMS, ETC., AS REQUIRED BY 5. LONG LEG VERTICAL FOR UNEQUAL LEG ANGLES.\nALL FEDERAL, STATE AND LOCAL AGENCIES HAVING JURISDICTION, 8. ALL AGGREGATE IN ACCORDANCE WITH ASTM C33. LIMIT SHALE, 8. MORTAR SHALL NOT BE USED AS GROUT. 8. ANCHOR BOLTS / RODS -ASTM F 1554 (GRADE 36), U.N.O.\nUNTIL ALL PERMANENT FRAMING IS INSTALLED. CHERT, COAL AND IRON OXIDE. 6. ALL LINTELS EXPOSED TO THE EXTERIOR SHALL BE GALVANIZED.\n9. REINFORCING BAR LAP LENGTHS SHALL BE IN ACCORDANCE WITH 9. EXPANSION ANCHORS SHALL BE HILTI KWIK BOLT TZ OR APPROVED\n7. CONTRACTOR SHALL DETERMINE THE EXACT LOCATION OF ALL EXISTING 9. 4000 PSI CONCRETE TO HAVE A MIN. 6 SACKS CEMENT/MAX. 5 GAL. OF SECTION 3.3.3.4 IN ACI 530, CURRENT EDITION. EQUAL.GROUT MASONRY SOLID AT EXPANSION BOLTS.\nUTILITIES BEFORE COMMENCING WORK. SHOULD ANY UTILITIES BE WATER/SACK.\nFOUND DIFFERENT THAN LOCATED OR SHOWN ON THE DRAWINGS, THEY 10. MORTAR \"FINS\" PROTRUDING FROM JOINTS SHOULD BE REMOVED 10. ADHESIVE FOR ANCHORS SHALL BE HILTI HIT RE 500-SD OR APPROVED\nSHALL BE PROTECTED IN PLACE AND THE ENGINEER SHALL BE 10. 3000 PSI CONCRETE TO HAVE A MIN. 5 SACKS CEMENT/MAX. 6 GAL. OF BEFORE POURING GROUT. EQUAL.THREADED RODS SHALL BE HILTI HAS-E STANDARD RODS\nIMMEDIATELY NOTIFIED. THE CONTRACTOR SHALL BE FULLY WATER/SACK. UNLESS NOTED OTHERWISE.\nRESPONSIBLE FOR ANY AND ALL DAMAGES WHICH MIGHT BE 11. CONSOLIDATE GROUT AT THE TIME OF PLACEMENT. CONSOLIDATE GROUT 2-12\nOCCASIONED BY THEIR FAILURE TO EXACTLY LOCATE AND PRESERVE ANY 11. WATER REDUCER REQUIRED FOR ALL WALLS AND SLABS. POURS 12 INCHES OR LESS IN HEIGHT BY MECHANICAL VIBRATION OR 11. ALL FIELD BOLTS -ASTM A325 HIGH STRENGTH STEEL BOLTS (TYPE \"N\"\nAND ALL UTILITIES. BY PUDDLING. CONSOLIDATE GROUT POURS EXCEEDING 12 INCHES IN U.N.O.).\n12. CONCRETE WATER-CEMENT RATIO INDICATED FOR DESIGN MIXES TO HEIGHT BY MECHANICAL VIBRATION AND RECONSOLIDATE BY MECHANICAL\n8. ALL CONSTRUCTION SHALL CONFORM TO INTERNATIONAL BUILDING HAVE CEMENT CONTENT ADJUSTED TO PROVIDE A WORKABLE MIX. VIBRATION AFTER INITIAL WATER LOSS AND SETTLEMENT HAS OCCURRED. 12. ALL BOLTS 3/4\" DIAMETER UNLESS OTHERWISE NOTED OR SHOWN.\nCODE 2021 UNLESS NOTED OTHERWISE.\n13. USE OF CALCIUM CHLORIDES PROHIBITED. 12. IT IS THE CONTRACTOR'S RESPONSIBILITY TO PREVENT SEGREGATION 13. FIELD TIGHTEN HIGH-STRENGTH BOLTS IN ACCORDANCE WITH AISC LINTEL DETAIL\nDESIGN LOADS: OF GROUT MATERIALS AND DAMAGE TO MASONRY UNITS DURING THE \"SPECIFICATIONS FOR STRUCTURAL JOINTS USING ASTM A325 BOLTS\"\n14. ALL REINFORCING STEEL TO BE ASTM A615 -GRADE 60. GROUTING PROCESS. (SNUG TIGHT).\nSNOW:SNOW DRIFT PER IBC 2021\nPg = 30 PSF 15. ALL WELDED WIRE FABRIC IN ACCORDANCE WITH ASTM A1064. 13. GROUT POURS SHALL BE STOPPED 2\" BELOW THE TOP MASONRY UNIT ON 14. SPLICES SHALL BE ALLOWED ONLY AT LOCATIONS SPECIFICALLY\nIs = 1.00 INTERMEDIATE POURS. INDICATED ON THE STRUCTURAL DRAWINGS UNLESS APPROVED\nCe = 0.90 16. CLEAR DISTANCE FROM FACE OF CONCRETE TO NEAR REINFORCING OTHERWISE BY THE ENGINEER IN WRITING. SPECIAL INSPECTION\nCt = 1.20 BAR TO BE: 14. MAXIMUM VERTICAL GROUT POUR TO BE 5'-4\".\n3\" CAST AGAINST EARTH. 15. OVERSIZED OR SLOTTED HOLES SHALL NOT BE USED FOR ANY 1. SPECIAL INSPECTION IN ACCORDANCE WITH SECTION 1704 OF THE 2021\nWIND: BASIC WIND SPEED (3-second gust) = 115 MPH 2\" SLABS ON GRADE (DISTANCE FROM TOP OF SLAB TO NEAR BAR) 15. FILL BOND BEAMS WITH 3000 PSI CONCRETE. DO NOT USE MASON'S MORTAR. CONNECTIONS UNLESS SPECIFICALLY INDICATED ON THE DRAWINGS INTERNATIONAL BUILDING CODE, AND ICBO MODEL PROGRAM FOR\nIw = 1.00 OR APPROVED BY THE ENGINEER IN WRITING. SPECIAL INSPECTION.\nOCCUPANCY CATEGORY II 17. ALL REINFORCING STEEL SHALL BE SECURELY WIRED IN PLACE 16. REINFORCING STEEL TO BE AS SPECIFIED UNDER CONCRETE NOTES. 2. THE OWNER WILL EMPLOY AN APPROVED AGENCY TO PERFORM THE\nEXPOSURE B BEFORE CONCRETE IS PLACED. 16. PROVIDE HOLES IN ALL STEEL AS REQUIRED TO PREVENT ANY SPECIAL INSPECTION SERVICES.\nGCpi = +/-0.18 17. ALL CONCRETE BLOCK SHALL COMPLY WITH ASTM C90. ACCUMULATION OF WATER DURING ERECTION. ALL PENETRATIONS 3. SPECIAL INSPECTION WILL BE PERFORMED IN ACCORDANCE WITH AND IN\n18. MAXIMUM SPACING OF BAR SUPPORTS TO BE 3'-0\" O.C. EACH WAY. THROUGH MAIN MEMBERS SHALL NOT EXCEED 1 1/2\" IN DIAMETER AND ADDITION TO THE INSPECTION AND TESTING REQUIRED BY THE\nSEISMIC: SITE CLASS A 18. GROUT MASONRY SOLID 16\" MINIMUM BELOW ALL BEAM AND LINTEL SHALL BE GROUND SMOOTH. DRAWINGS AND SPECIFICATIONS.\nIe = 1.00 19. PROVIDE 2-#5 BARS AROUND ALL SIDES OF HOLES THROUGH BEARINGS. 4. THE FOLLOWING ITEMS ARE INCLUDED IN THE SPECIAL INSPECTION:\nOCCUPANCY CATEGORY II CONCRETE WALLS AND SLABS. AT WALLS AND SLABS WITH MULTIPLE 17. CUTS, HOLES, COPING, ETC. REQUIRED FOR WORK OF OTHER TRADES\nSs = 0.100 SMs = 0.150 SDs = 0.100 MATS OF REINFORCING, PROVIDE SUPPLEMENTAL REINFORCING BARS 19. GROUT MASONRY SOLID AT ALL EXPANSION BOLTS. SHALL BE SHOWN ON THE SHOP DRAWINGS AND MADE IN THE SHOP. SOILS: FILL COMPACTING\nS1 = 0.063 SM1 = 0.140 SD1 = 0.091 IN EACH FACE OF MEMBER. BARS TO EXTEND 2'-0\" BEYOND EDGES OF CUTS OR BURNING OF HOLES IN STRUCTURAL STEEL MEMBERS IN THE FOOTING BEARING CAPACITY\nSEISMIC DESIGN CATEGORY A OPENINGS. 20. PROVIDE A 2\" X 3\" MINIMUM CLEAR UNOBSTRUCTED CONTINUOUS FIELD WILL NOT BE PERMITTED.\nVERTICAL CELL OPENING AT EACH VERTICAL BAR LOCATION AND CONCRETE: AIR-ENTRAINMENT\n9. IF CONFLICTS ARE FOUND BETWEEN DETAILS OR DIMENSIONS SHOWN ON 20. PROVIDE CLASS B TENSION LAP SPLICES FOR CONTINUOUS BARS UNLESS CENTER BAR IN WALL (U.N.O.). 18. ALL BUTT WELDS AT ROLLED SHAPE FLANGES SHALL BE MADE WITH SLUMP\nSTRUCTURAL PLANS AND THOSE SHOWN ON ARCHITECTURAL OR OTHER OTHERWISE SHOWN. WELD ACCESS HOLES. ACCESS HOLES SHALL BE DRILLED, AND SHALL COMPRESSIVE STRENGTH TESTING\nDISCIPLINES' PLANS, NOTIFY ARCHITECT AND ENGINEER IMMEDIATELY FOR 210. PROVIDE 9 GA. GALV. REBAR POSITIONERS TO ACCURATELY LOCATE BE GROUND SMOOTH TO REMOVE ANY JAGGED EDGES. REINFORCING PLACEMENT\nCLARIFICATION PRIOR TO PERFORMING WORK. 21. LAP WELDED WIRE FABRIC MESH A MINIMUM OF 6 INCHES OR ONE VERTICAL REINFORCING BARS IN WALLS. VERTICAL BARS CENTERED\nSPACE. IN WALL U.N.O. 19. ALL BUTT AND FULL PENETRATION WELDS SHALL BE MADE USING RUN MASONRY: GROUT STRENGTH\n10. IN ANY CASE OF CONFLICT BETWEEN THE NOTES, DETAILS AND OFF TABS WHICH SHALL BE REMOVED AND GROUND SMOOTH AFTER REINFORCING PLACEMENT\nSPECIFICATIONS, THE MOST STRINGENT REQUIREMENTS SHALL GOVERN. 22. AT REINFORCED MASONRY WALLS, PROVIDE DOWELS VERTICALLY, 22. PROVIDE BENT BARS 2'-0\" X 2'-0\" AT ALL CORNERS AND WELD IS COMPLETED.\nCONTRACTOR SHALL MAKE NO DEVIATION FROM DESIGN DRAWINGS WITHOUT SAME SIZE AND SPACING AS WALL BARS. BAR LAP LENGTHS AT INTERSECTIONS OF BOND BEAMS. USE SAME NUMBER AND SPACING AS STRUCTURAL STEEL: WELDS\nWRITTEN APPROVAL OF THE ENGINEER. R.C.M.U.'S SHALL BE IN ACCORDANCE WITH SECTION 3.3.3.4 IN ACI 530, HORIZONTAL BARS. 20. ALL WELD BACKUP BARS SHALL BE REMOVED AND GROUND SMOOTH BOLTS\nCURRENT EDITION. AFTER WELDING IS COMPLETE.\n23. MASONRY CONTRACTOR IS RESPONSIBLE FOR PROVIDING NECESSARY\nFOUNDATION NOTES 23. ALL SLAB REINFORCING STEEL SHALL CONTINUE THROUGH SLAB SHORING AND BRACING TO MAINTAIN WALL SHAPE, LINE AND 21. ALL ENDS OF TUBES OR PIPES SHALL BE SEALED WITH A 1/4\" CAP\nCONSTRUCTION JOINTS. DIMENSION IN CONFORMANCE WITH DRAWING, AGAINST WIND AND PLATE UNLESS NOTED OTHERWISE.\n1. WALLS CENTERED ON FOOTINGS U.N.O. CONSTRUCTION LOADS.\n24. ISOLATE ALL WALLS AND COLUMNS FROM SLAB ON GRADE. USE 22. SHOP PRIME ALL STRUCTURAL STEEL WITH ONE COAT TNEMEC 10-99\n2. ALL FOOTINGS SHALL REST ON UNDISTURBED SOIL OR CONTROLLED PREFORMED JOINT MATERIAL. 24. \"RCMU\" DENOTES REINFORCED MASONRY. U.N.O.\nCOMPACTED FILL. IF UNUSUAL OR QUESTIONABLE CONDITIONS ARE\nENCOUNTERED, DO NOT PROCEED UNTIL THE ARCHITECT AND 25. CONCRETE CONTRACTOR SHALL SUBMIT A PLAN SHOWING PROPOSED 25. PROVIDE 16 OZ. SMOOTH COPPER BOND BARRIER UNDER LINTEL BEARING 23. PROVIDE BEARING PLATE 4\" X 8\" X 3/8\" WITH 2 -1/2\" DIA. X 5\" HD. STUDS\nENGINEER HAVE BEEN NOTIFIED. JOINTING LOCATIONS AND JOINT DETAILS FOR ARCHITECTS APPROVAL AT CONTROL JOINTS. AT ALL STEEL BEAMS BEARING ON MASONRY U.N.O.\nPRIOR TO PLACING SLAB. SLAB-ON-GRADE SHALL BE JOINTED SO THAT\n3. PROVIDE KEYWAY AT END OF WALL POURS, SLAB POURS AND END EACH AREA BOUNDED BY JOINTS DOES NOT EXTEND MORE THAN 48X 26. PROVIDE 2 -#5 VERTICAL AT ALL JAMBS (FULL HEIGHT OF WALL).\nOF FOOTING POURS. SLAB THICKNESS IN ANY DIRECTION. JOINTING SHALL BE OF A GROUT CORES SOLID.\nREGULAR GRID PATTERN WITH INTERSECTING JOINTS AT 90 DEGREES\n4. PROVIDE DOWELS FROM FOOTINGS TO WALLS. USE SAME NUMBER AND SHALL INTERSECT AT COLUMNS WHERE POSSIBLE. 27. PROVIDE 2 COURSES JOINT REINFORCING BELOW SILLS AND ABOVE\nAND SPACING AS VERTICAL WALL BARS, U.N.O. LINTELS.\n26. DO NOT SAWCUT STRUCTURAL STOOPS.\n5. PROVIDE BENT BARS 2'-0\" X 2'-0\" AT ALL CORNERS AND INTERSECTIONS 28. ALL BOND BEAMS SHALL BE REINFORCED WITH 2 -#5 CONTINUOUS U.N.O.\nIN WALLS AND FOOTINGS. USE SAME NUMBER AND SPACING AS 27. THE CONTRACTOR SHALL COORDINATE LOCATIONS OF ALL OPENINGS\nHORIZONTAL BARS. IN WALLS, SLABS AND FOUNDATIONS FOR DUCTS, PIPES, UTILITY LINES 29. WHERE BOND BEAMS OCCUR AT THE TOP OF WALL THE VERTICAL REINFORCING\nAND OTHER PENETRATIONS WITH THE RESPECTIVE TRADES. ALL SUCH SHALL TERMINATE WITH A STANDARD 90 DEG. HOOK PARALLEL WITH THE WALL\n6. BACKFILL EACH SIDE OF WALL SIMULTANEOUSLY. PENETRATIONS SHALL BE FORMED OR SLEEVED IN CONCRETE AND IN THE BOND BEAM.\nSTEEL LINTELS IN MASONRY WALLS.\n7. WALLS BACKFILLED ON ONE SIDE ONLY ARE TO BE ADEQUATELY 30. PLACE BOND BEAM REINFORCING CONTINUOUS ACROSS CONTROL\nBRACED UNTIL SLABS ARE POURED AND SLABS ARE CURED. 28. SEE ARCHITECTURAL PLANS FOR CONCRETE STOOP LOCATIONS AND JOINTS. WRAP BARS WITHIN 2'-0 EACH SIDE OF JOINT WITH 1/8\" THICK\nDIMENSIONS. BOND BREAK TAPE.\n8. FORM TOPS OF ALL FOOTINGS TO ENSURE CORRECT LINE AND GRADE.\n29. ALL REINFORCING BARS SHALL BE LAPPED AS SPECIFICALLY DETAILED 31. WHERE CONTROL JOINTS NOT SHOWN, SUBMIT PROPOSED LOCATIONS PER\n9. BOTTOM OF EXTERIOR FOOTINGS AND WALLS TO BE AT LEAST 3'-6\" ON THE STRUCTURAL DRAWINGS. WHERE NOT SPECIFICALLY ACI 531 FOR APPROVAL BY ARCHITECT.\nBELOW FINAL GROUND LINE. INDICATED ON THE DRAWINGS, ALL REINFORCING BARS SHALL BE\nLAPPED AS FOLLOWS: LAP WALL/BEAM TOP HORIZONTAL 32. PROVIDE CONTINUOUS HORIZONTAL JOINT REINFORCING AT 16\" O.C. FOR\n10. THE OWNER SHALL HIRE A SOIL TESTING LABORATORY TO VERIFY SOIL REINFORCEMENT AT CENTER OF SPAN. LAP WALL/BEAM BOTTOM SINGLE WYTHE AND MULTI-WYTHE WALLS.\nBEARING CAPACITY OF EACH FOOTING PRIOR TO PLACING CONCRETE. HORIZONTAL REINFORCEMENT AT SUPPORT. TERMINATE CONTINUOUS\nBARS AT DISCONTINUOUS ENDS WITH STANDARD HOOKS. 33. ALL VERTICAL JAMB REINFORCING SHALL BE CONTINUOUS FOR FULL HEIGHT\n11. SHOULD THE SOILS BECOME DISTURBED OR SATURATED PRIOR TO OF WALL. REINFORCING SHALL EITHER PENETRATE THROUGH ENDS OF STEEL\nCONCRETE PLACEMENT; AFFECTED SOIL SHALL BE REMOVED AND 30. CONTRACTOR SHALL COORDINATE SLAB DEPRESSIONS FOR FLOOR LINTELS OR SHALL BE OFFSET ONE CORE TO PASS BY LINTEL BEARINGS.\nREPLACED WITH CONTROLLED COMPACTED ENGINEERED FILL. FINISHES WITH ARCHITECTURAL DRAWINGS.\n34. WALL REINFORCING SHALL BE CONTINUOUS AROUND WALL CORNERS AND\n12. IF UNSUITABLE SUPPORT MATERIALS ARE ENCOUNTERED, SOIL SHALL 31. PIPES OR CONDUITS PLACED IN SLAB ON GRADE SHALL NOT BE AT WALL INTERSECTIONS.\nBE EXCAVATED UNTIL SUITABLE SOIL IS ENCOUNTERED. BACKFILL SPACED CLOSER THAN 3 TIMES THE DIAMETER ON CENTER. PIPES AND\nSHALL BE WITH CONTROLLED COMPACTED ENGINEERED FILL CONDUITS PLACED IN SLAB ON GRADE SHALL NOT HAVE AN OUTSIDE 35. AT LOCATIONS WHERE NON-LOAD BEARING MASONRY WALLS ARE INSTALLED\nACCORDING TO GEOTECHNICAL ENGINEER. DIAMETER LARGER THAN 1/3 THE SLAB THICKNESS. NO CONDUITS PERPENDICULAR TO BEAMS/JOISTS, PROVIDE VERTICAL SPACE BETWEEN BOTTOM\nSHALL BE PLACED WITHIN 12 INCHES OF ANY COLUMN FACE. OF BEAM/JOIST AND TOP OF WALL TO ALLOW FOR BEAM/JOIST DEFLECTION.\n13. ASSUMED NET ALLOWABLE FOUNDATION BEARING PRESSURE ON ALUMINUM CONDUIT SHALL NOT BE PLACED IN SLABS.\nUNDISTURBED SOIL = 1500 PSF (RESTROOM BUILDING) AND 1000 PSF\n(RETAINING WALLS AND DOCK.) 32. PROVIDE CONSTRUCTION JOINTS IN ACCORDANCE WITH ACI 318,\nCHAPTER 6.4. SUBMIT SHOP DRAWINGS SHOWING CONSTRUCTION\n14. FOUNDATION CONSTRUCTION SHALL CONFORM TO TERRACON JOINT LOCATIONS ALONG WITH THE SEQUENCE OF POURS FOR\nCONSULTANTS PROJECT NO. 06235126.02. REVIEW.\n15. THE CONTRACTOR IS REQUIRED TO SUBMIT A CONTROL/COLD JOINT\nLAYOUT FOR ALL CAST-IN-PLACE ARCHITECTURAL CONCRETE\n(EXPOSED CONCRETE) TO THE ARCHITECT FOR APPROVAL PRIOR TO\nPERFORMING THE WORK. ANY WORK REQUIRING DEMOLITION DUE TO\nIMPROPERLY PLACED JOINTS WILL BE DONE AT NO ADDITIONAL COST\nTO THE OWNER. THE JOINT LOCATIONS SHOWN ON THE STRUCTURAL\nPLANS ARE FOR SCHEMATIC PURPOSES ONLY.\n16. CONTRACTOR SHALL BE RESPONSIBLE TO ADEQUATELY PROTECT ALL\nEXCAVATION SLOPES. WHERE NECESSARY, SHEETING AND SHORING\nOFEXCAVATION SHALL BE PROVIDED WITH ALL REQUIRED TIE-BACKS\nAND BRACING.\n17. CONTRACTOR SHALL PROVIDE ADEQUATE PROTECTION TO ALL\nFOOTINGS DURING CONSTRUCTION TO PREVENT SUPPORTING SOIL 400 E COURT AVE.\nFROM FREEZING, USING ADDITIONAL TEMPORARY SOIL COVER OR SUITE 140.\nOTHER MEANS. BOTTOM OF FOOTINGS SHALL BE A MINIMUM OF 3'-6\" DES MOINES, IOWA 50309\nBELOW TOP OF TEMPORARY SOIL COVER. 515-243-4477\nwww.shuck-britson.com",
+    "",
+    "",
+    "",
+    "",
+    "YB )DETON\nETAD\nSA(\n:elacS\nGC\nNOISIVER\n:yB\ndekcehC\nMDB\n:reenignE\nKRAM",
+    ":gP 0.XVteehS\n:kB\ndleiF",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "6202/51/70\n30-010723\n:etaD\nHMC\n:oN\n:naicinhceT tcejorP",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "SEITINEMA\nLANOITAERCER\n:A3\nSEITINEMA\nEKAL\nRADEC",
+     "",
+     "",
+     "AWOI\n,SDIPAR\nRADEC\nFO\nYTIC\nSETON",
+     "moc.setaicossa-redyns.www\n.W.S 40425\nTEERTS\nAWOI\n,SDIPAR\nGNILWOB\nRADEC I 4939-263-913\n5005\n.CNI\n,SETAICOSSA\n&\nREDYNS",
+     ""
+    ],
+    [
+     "tvr.)62R(MOORTSER_CURTS_80.5320.321\\tiveR\\DDAC\\80.5320.321\\3202\\stc$eLjoErLPI\\F:V$",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "327010-03 PLANS _FINAL_ FOR PRINT.pdf",
+   "sheet": 213,
+   "header_row": 1,
+   "headers": [
+    "",
+    "B A 22' - 8\" B A\n1' - 7\" 22' - 8\" 1' - 7\"\n7' - 4\" 5' - 8\" 7' - 4\"\n.PYT\n8\" 6\" 6\" 8\"\nCMU CMU CMU CMU 2 1\nV.11 V.11\nTYP.\n6 1\nV.10 V.11 \"8 UMC A \"3 - '2 HSS8X2X3/16 HSS8X2X3/16\n1 1\n61/3X2X8SSH 61/3X2X8SSH 61/3X2X21SSH 61/3X2X8SSH 61/3X2X8SSH 61/3X2X8SSH\nSIM 4 4\n6 61/3X2X8SSH 61/3X2X8SSH V.11 DEC 2 K X IN 6 G T & ( G TYP.) 3 V.11 V.11\n\"0 \"8 V.10 \"0 HSS10X4X1/4\n- '41 - '21 A A - '41\nB B\n4' - 1\" 4' - 1\" 6' - 2\" 4' - 1\" 4' - 1\"\n61/3X2X8SSH 61/3X2X8SSH 61/3X2X21SSH 61/3X2X8SSH 61/3X2X8SSH 61/3X2X8SSH SIM.\nTYP. 4\nV.11\nL1 L1 L1\n2 2 TYP.\nUMC 10\" 3' - 0\" A 1' - 0\" 3' - 0\" 1' - 8\" 3' - 0\" 10\" \"3 - '2 HSS8X2X3/16 HSS8X2X3/16 5 V.11\n\"8\nBOND BEAM REINF. TO\nCONTINUE THROUGH LINTELS\n(+8'-0\") 8\" BOND BEAM TYP.\nW/ (2) #4 CONT. 8\nV.10\nN N\n1 FOOTING AND FOUNDATION PLAN 2 ROOF FRAMING PLAN\n1/4\" = 1'-0\" 1/4\" = 1'-0\"\nNOTES:\nNOTES:\nALL ELEVATIONS REFERENCED TO FINISHED FIRST FLOOR LINE (+0'-0\")\nALL ELEVATIONS REFERENCED TO FINISHED FIRST FLOOR LINE (+0'-0\") (+8'-0\") DENOTES DISTANCE FROM FINISHED FIRST FLOOR LINE TO TRUSS BEARING\n\"D\" DENOTES DISTANCE FROM FINISHED FIRST FLOOR LINE TO BOTTOM OF FOOTING TRUSS BEARING (+8'-0\") U.N.O\n\"D\" = (-4'-0\") (U.N.O.) L1= 2-L3-1/2 X 3-1/2 X 5/16\nT.O.C. DENOTES TOP OF CONCRETE\nSLAB: 5\" CONCRETE SLAB ON MINIMUM OF 4\" FREE DRAINING GRANULAR MATERIAL\nMIX TO INCLUDE MASTER LIFE 300C HORIZ. REINFORCING (WHERE MASONRY CONTROL JOINT NOTE:\nREINFORCE: #4 AT 10\" O.C.E.W. FOR DIMENSIONS AND ELEVATIONS NOT SHOWN SEE ARCHITECTURAL FILL WITH GROUT, AS SPECIFIED REQ'D). WHERE SINGLE HORIZ. (SASH) BLOCK BAR IS REQUIRED, LOCATE CONTROL JOINT KEY, VERTICAL MASONRY REINFORCING NEXT TO VERTICAL. AS SPECIFIED \"4/3 .RLC 1. SEE PLANS AND STRUCTURAL NOTES FOR BAR SIZE. 2. LOCATE REINFORCING AT ALL CORNERS, EACH SIDE\nMASONRY WALL SCHEDULE (SEE PLANS & STRUCTURAL NOTES) OPENINGS, CONTROL JOINTS\nAND AT SPACING SHOWN ON\nMARK MASONRY THICKNESS REINFORCING PLANS.\n3. PROVIDE WIRE REBAR\nA 6\" #5 AT 32\" O.C. VERT. B 8\" #5 AT 32\" O.C. VERT. \"4/3 .RLC POSITIONERS TO HOLD BARS IN PLACE.\nVERTICAL BARS AT CENTER OPTION A HORIZ. REINFORCING (WHERE\nPROVIDE REINFORCING EACH SIDE REQ'D). LOCATE INSIDE AND\nOF CONTROL JOINT TO MATCH NEXT TO VERTICAL. WHERE\nWALL REINFORCING, U.N.O. \"4/3 .RLC SINGLE HORIZ. BAR IS\nREQUIRED, LOCATE AT CENTER\nOF CORE. FASTENER SCHEDULE -T & G\nMESH WALL TIE (1/2\"x16 GA.)\n4\"x8\" @ 16\" O.C. ALL EDGES INT. SUPPORTS DECKING\nRAKED CONTROL JOINT ROOF T & G 3 -#14 SIMPSON STRONG DRIVE TF 2 -#14 SIMPSON STRONG DRIVE TF 2\"X6\" T & G\nWITH SEALANT . MAX FACE SHELL THICKNESS WOOD TO STEEL SCREWS PER 2X6 WOOD TO STEEL SCREWS PER 2X6\n\"4/3 .RLC = 1 3/8\" AT 8\" WIDE UNITS\nVERTICAL BARS AT EDGE OPTION B B S U ID IL E D A IN N G D P G A R P O E U R T O F N U E LL = 1 3/4\" AT 12\" WIDE UNITS\n3 TYPICAL CMU WALL INTERSECTION 4 TYP. CMU WALL REINFORCEMENT PLACEMENT 5 TYP. CMU WALL CONTROL JOINT (CJ)\n1\" = 1'-0\" 1\" = 1'-0\" 1\" = 1'-0\"\n(+4'-0\")\nREQ'D SPLICE\n# 4 AT 12\" O.C.E.W.\nGROUT SOLID TO\n(+4'-0\") ALL CMU\n# 5 AT 32\" O.C. # 4 X3'-0\" (FIELD BEND) # 4 X 3'-0\" (FIELD BEND) AT 12\" O.C.\n(+0'-0\") 8\" CMU \"2 BALS BY\n(-0'-8\") - '2 \"5 OTHERS SLOPE\n\"5\n# 4 X4'-0\" (FIELD BEND) \"01 2' -0\"\nAT 10\" O.C. BENT BAR TO MATCH BOND BEAM REINFORCING. T.O.C. #5 DWLS X T.O.C. AT 12\" O.C. 2' -0\" #5 DWLS X AT 12\" O.C. 2' -0\" 2' -0\"\n# 5 AT 12\" O.C.E.W.\n# 5 AT 12\" O.C.E.W.\n# 5 AT 12\" O.C.E.W.\n\"D\"\n.RLC\n1' - 0\"\n\"3 -4'-0\"\n6 SECTION 7 TYP. CMU BOND BEAM CORNER DETAIL\n.RLC\n1/2\" = 1'-0\" 1\" = 1'-0\"\n\"3 8\"\n400 E COURT AVE.\nSUITE 140.\n8 TYP. STOOP DETAIL DES MOINES, IOWA 50309\n515-243-4477\n1/2\" = 1'-0\" www.shuck-britson.com",
+    "",
+    "",
+    "",
+    "",
+    "YB )DETON\nETAD\nSA(\n:elacS\nGC\nNOISIVER\n:yB\ndekcehC\nMDB\n:reenignE\nKRAM",
+    "01.XV\n:gP\n:kB\nteehS\ndleiF\n62",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "02/51/70\n30-010723\n:etaD\nHMC\n:oN\n:naicinhceT tcejorP",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "SEITINEMA\nLANOITAERCER\n:A3\nSEITINEMA\nEKAL\nRADEC",
+     "",
+     "",
+     "AWOI\n,SDIPAR\nRADEC\nFO\nYTIC\nSLIATED\nDNA\nSNALP\nMOORTSER",
+     "moc.setaicossa-redyns.www\n.W.S 40425\nTEERTS\nAWOI\n,SDIPAR\nGNILWOB\nRADEC I 4939-263-913\n5005\n.CNI\n,SETAICOSSA\n&\nREDYNS",
+     ""
+    ],
+    [
+     ".)62R(MOORTSER_CURTS_80.5320.321\\tiveR\\DDAC\\80.5320.321\\3202\\stc$eLjoErPLI\\F:V$",
+     "",
+     "",
+     "SNYDER\n& ASSOCIATES",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "327010-03 PLANS _FINAL_ FOR PRINT.pdf",
+   "sheet": 230,
+   "header_row": 0,
+   "headers": [
+    "",
+    "ABBREVIATIONS: GENERAL NOTES: SELECTIVE ARCHITECTURAL SPECIFICATIONS :\nA.F.F. ABOVE FINISHED FLOOR INSUL. INSULATE(D),(ION) DIVISION 1 - GENERAL REQUIREMENTS DIVISION 2 - EXISTING CONDITIONS - See Civil and Landscape sheets for 3. Roof Membrane and Underlayment\nA.C. ACOUSTICAL CEILING INT. INTERIOR additional information a. Furnish and install ice and water shield as required by applicable Codes.\nADJ. ADJACENT JAN. JANITOR 1. Construction Contract: 1. This building is one component of a larger site improvement project and subject to timing, b. Furnish and install min. 30# roofing felt underlayment over T&G roof decking prior to\nA A A A A L N / L . C B U T C . . M H . . A A A A A N L I L N R U T C C E M C H H R O I O O N N N R R U A D M B T IT E O IO LT NING K K L J J T S B I . T O . T L . . . . L K K J J O O A I N T B I I O C N S E C T H T L K E N OUT 2. B b a a . . . uild C O S in E o t g h n E e C t r r C o a c d c O o e t D d s a e E : s s a S a p U n p M d ro M o v r e A d d i R n b Y a y n O c o e N w s n S a e H p r. p E l E ic T a b A le 1 0 to 0 . this site as 2. R i l m a d o p e e g in p f n i e s i r m t o t r i i f c p a i t e o s r l d i , a c a a o t b n e n n e d l d y f t l w a ic o w d e t t i h h e t a h e e n n r r o d e t h p t h i t e r m o o e p j r p p e r a t r c o r o c a t j e j t d c e c t o e c o t n s t r o s r e a e t t q h r n q a u e d u i i r n r i a r e w t e s s m m o t d r e h e k i n r a n . e t t t T s c s m t h a e a e u n d s s d b t b i u d t b y h i e l e d o t n h i s c t n e i e o f g i o g e id c r e d d o e n e i n n n e l t t s a r r i a f e a t i e e l w c d c d t h o o t h e r n o e r s t e r e r h a e . n a c W s a l t l u o n h c r r d e o e . r o s t e r i p m d d e i e n i c s l a i y c fi t r c e c e o t p a o m a l l t n p h w c l e e o ie t r i s k o n a r w e ith 5 4 . . M a a V . . a e p ta F U i o n l l r n s a F d t B s a l e a h a ll r s i r a n r h s t i g i e i l o n a , r n g b : c s o s o , : p f C i s n o t g a p , n i a n d n g in d 1 a g t 5 n r s i d m e m a T i w l m r i p m h o m e : l r y e e o t a l r e e l f q r in o u o i ( r f h e in i d g g h a s - n p y d e s r t s e fo h m r o m . w a n n o c n e d va ra p w o i r n r g e s ta . rder)\nARCH. ARCHITECT(URAL) LAM. LAMINATE(D) required. restroom construction, the contractor shall notify the design professional immediately for b. Install in accordance with manufacturer's specifications.\nBM. BEAM LGE. LARGE 3. Debris: clarification and resolution prior to proceeding with the work. c. Color: As indicated on drawings or as selected by Architect.\nB BL R K G . . B B L E O A C R K ING L L. A H V . . L L E A F V T A T H O A R N Y D a. C an o d n t r r e a m ct o o v r i s n h g a a ll l l b c e o r n e s s tr p u o c n ti s o ib n l e d e fo b r r i p s r f o ro vi m di n s g it e d u o m n p a s d te a r ily 3. T w h o e rk C r o e n q t u r i a re ct d o , r p s r h e a c l a l u re ti v o i n e s w n e e a c c e h s s a a re ry a , o a f n t d h e co w o o rd rk in t a o t i f o a n m n il e a e ri d z e e d t h to e m pu s r e s lv u e e s t h w e it h w o th rk e a s n co d p p e r o o t f ect 6. S a. idin N g O a N n E d Accessories:\nB B B B B B B B C C C C C C C C C C C C C C C C C C C C C C C R L L D . . . O E . T H L O O A . P L L . O L P W L O . O . O L U V L U T M J D K R G G G O R K . M B T G T K . L N . N N . N . . . . G . . G G R . H . . . . . . . . . . B U . . C C S T / . C H . . . D . . T . . E T . . B . I L L K. B B B B B B B B C C C C C C C C C C C C C C C C C C C C C C C R U L O U U R O H E O E E E L O O A A A E E L L L L L O O O O O E E E E E O I I I I I I M N N B B R I R A T A N L N N N N N C L L L C L L A A A A A C T U I I S R L T T P A D D T C E T C S T C I I N N K K N N R N R R R O K K E E E M E M D - I R N T I I R R R E E N U N N G G V B ( I R R T M T R O T N I O L P W N E E A E T T U P C G G E O ( A U H L T N T L T G L E U O I U N A R R A M T E E C I E L E C D T O N U N T R I T O I E T I I E ) L N M B E R G N S I E D I O T E ) G E O L A A H C O G F O H L N T S T O R A L C E E O A N S A K D C N S S S T O R G S T E Y N L R R A T U U I S N C N S U T IT I E ON JOINT P P P L L L L M M M M M M M M M M M M M M N N N N O O O O O O V O . T R E T O . O . . . . . . P H F E E A . A A . E T I I L P I T C D S A H O C N S . R N . R C . D R L W G C D S T X M M . . . C . . . C . . . . . . S . . . F . O L . . . . H . . . B . T . . . . R . . . # P P N N N P N M L M M M L M M M M M M M M M M L L O O O O O O O O I I A E A O O U O N U U V V P E A A E A A A E E E I I O A G G N S I R R U C M E E E T M T C N N D S S X C M T T T T R L H H C C I F T V A A M E S S R R N O O I D H U H I H B I B T T I T M U E E N O N I E T L R I I A H I I E T A F O A U N N W O R D D N L N N M P U A I R R I L I A E R N N O C M R R L A L A E E O G G E O T L M S L A C A E A I I O Y Y N N L E I N C C / L C D T G D T M N ( E N R E A A S O E A I U H E A O T / ( L L ) ( L P L S R O T M D R U E O E C ) E U ) A E L N W O ( D S C T R I N N E I T ) P N T G R O G R I A N C T TOR 1 1 7 9 6 4 0 1 . . . . . . P F b h C c c a a a a T T T th . o . e . . . . e r e h h o e o n r e m e e o e j s s p e r i p C C t P P L i p b C C c a c e o s d T t f f n r c n r o o u a o o o a n i e a n n t i u o o h r r t o o m s n h r l n a o o r j u s o r s l d v c c n n e C e u n n y a a e m d n a v t t i i s i w t o t t c e t r s t t r s r t i o p r r r d G i l o r r e o i o i m y d i l P t . a a , c t n o a a t m a . r a h p d n n s u e e a t c c e c g e n U c c p y s e e m t p n t t s o n g r t t b / i r l i p o o t n a r o o P e l m f e l e r l e i u w i y a e e o r d r l r r t e d l r r t q i r r e o w l y l e t t t i n r , o a o a s s q e u t i e i a t u w q t o e t o t a e r f h h t t l e u q s i w n n a c i e u o e k n n s r o l t C a a t c i u o e d p l l e c e i r r c r o : g a r r t t l l e i y y f n o n s a . d k l l t i o s e p r : l a s o i . d k s e n s f b y o , d m a s u c i u n b t . : . t s c t e n i t h g t r b f r n r y a t e o e o u a t n e o e c P - c r o o n n r s r c t c c i e o n l s h s r f d a c t s u t o t a r s o m c , i h o e W o a a o r o o d n p l v i e i l r e m r r a p n r n i a t C o i n y o d a t r d s a d l c e o l n a e p g r s f s i l e . n l b w t r m p k s c u t l y m o y d e u c i s : e i t t T a d n b p m o e o o e i a r w y i l h s t a l o r n d a m n e f w t e s u s e n e i r d g i t s n C t n e a i p b d h r f a o a a i c d o i g s e r r ( o - a n n m r o / y b c e m r t d r w e l t e d a s n o u a d s h a a a f i . n a n a t n , r n t r . a r l g r r e y l t t d e c t l i n a t e e a m r R m s w i p o h c a l a r c b p i a c a u t t t e c i e l o a o o t i o l a p i e m t h l a a n r c r i r o n s u i m s , t n d s c a y r t s s s a h s a s s t s e a s i n i h r e t b p c e s s t e u n y a s a a d e l c e s e d c d h n l l n n e m d l o c t b a e f d d i f p t a a i u c e o y f o s o l c i t l l a m t e n a e s r a ) i e a o l t s o n d i b i a r s t r b o . a y y l e s g p e t n i a a e n a r i o d , y n y f D 1 I 5 6 2 4 V . . . . . IS U D b h i k l m n C S S e d o c a d e c g f j . . . . . o . I . . . x e t . . . . e E n e o . O h i n e e l m n s E e e s I P D D P r m p C S S S c c o s T f A A A A N t c n r e l s S i o t o o u o r S n r o r r a e e o o r p l p l u t e g s c s l l l e o o T u m n e i o g o o i w o w a a 3 T p p r t o t t r s t v v n n a c o i c r R h r r a w w l l l e l l n R h p e m - i a u e e i i y y o o t r b t o o - e d d n f c U i g h , o t e d c r r r U o F t t l c s . r m d u d e e u a s o e C e r u t t C j n s a o a o e a i U e C a u . e e t s g l m n r n e a s s l h n f v p n a n T O l c r A w a o m c e o s o i T a d f l m n r e a s e d p c l d i e o l U l w s e f v d e r g i o b U e s d o N h s f l r s r l n n o l i o y t a r o R h - e - s o - s r n a l v e a R h t t t l V t h o o i - i C m e r e t t t h r r n e r e t d p A w e c e o f a s n A t o i o i O f I a a s f a d o a a h n e R i n o a L i a a v - w p l n L l n l n l t c t s i n c t d C r g o i i t m g c o e t n j l t u n e n e E e u a u N e i o i y e s r i r p m N a l e n , c d d g g o i a r p w r l c l , c i a r t g O e T t n t i a a e n O i d . w a a h d o o e a d u e w e p d m r t t t o m E T r l N t n p i e r r d c u r s r e f T e s i r u t o h e a w n e n u f e o E t u p r S b d a e o l E r s e i s w s s o a g i - l c t p a f i f l n l S f u , m t r y l l n t h i h l d y a S n i n t i v a h i c e o r e P l n g p r o a e t e l g o a o c i d i h a b s n e f o b r t s i t n r r l l - w o t d l s o o l h f l l r i t f o - i v l r f e u y i o i i n a s a i i e u b o r S h i m n f m e o n i e s m n f r s d a i w t h n n s n d l n l o s a e h H 4 n i o r e i l h w r t u s d i d s y e e i i - o r b l r s s a - c m n s i a E h G l m e a h e s m / s 1 e t v i e c t u u o i n p p g r l l . a n d E i m m e a l 2 t o o r a r n i w c l e o u b e , l n a s o 1 L h f b n t F T d n w s o g a w o s s e u n e w h r t d n 4 S e e i t s F w i m . e t c l e a l e n a r o t V a e g i a - s t t G 9 i t t w e b i 2 c l r h t g p a r u e i m d i 3 p e t o . r i o 5 u o . e o e m 0 8 u n e . o p l r a n d 5 l r f n % c s n e e r m . u a g r r l t i a s a - i - d t i e k i t . n / c n r o i b n a a i t l n p r o a a F v d i r o a c F d k n i a s f p a n o y a n n y e s t O i f t L s e t s s n e o p d i w s t s . r c o m a , i . t r e d R u g r r p b u h o e s n p n r 2 d u s c l f a a l m i e e i i a l . e i r d d C 5 c t l t r n p x a i e i a f p n i o g p a o a f n i O i w p a b m c s i a m y r e t b n c r p g r l i s r h i N s e l o i o s l s t t i r y f u e e - n o h i s u f a e m , n n v C o l i m n . i u i e n r . p c e m o s g n s f t a R t s s i a a h d r e n . - s o t a i c u l E g r n e e t a a c t r o n a e m o c a r g r r T h l l a m d t u e i o q n a i w s a E a o d m r r a u f d l e p d o t c e o s n e t a t a R a a a l e h . r e t , r i l h p a r p s n k l . s i r E f f e e d a p l e n h i l u a w g Q a i r v n l n a t a p f i t n e n c a a i n e U t w l l r l t u l s a c n o e h d a I i c s b r t t d t R c s i e e i u e h o e n e o d t s t E r s o c n a n s a e / e A p p , o l r M s l p e i n e s r N e l o a n i d s a e v s s r E r r p p t S . e c e e p t m a s N p r p n e I l , a o i u e n u n i e T s . A t s r f i f e t r a t r i e P S m e a n t a t 3 s y t e r m d r o . i b 2 s r o . o m o n e . l 6 . a o n e d j a d i e . n t n i n 3 h s f f c u i a o o c m s t w f s p r r e a i f p u u p i h s c n a r m l , e t i i f u t c s a a n i n a r h 6 c n e d g t e e \" d i r r o d s y n D 1 IV . IS D h i k l m b d e g c a f j . . . . . . I . . . . . . o . O o H P P P P E P L m b l r 7 S c c e g g g g T T f A A A N r o o e s o o o e ' l . . . . S r r r x r h H E a l p L 2 c e a 1 2 3 4 l c l : o o o o m m c l t e r 8 a p L \" o E c E o s c . . . . e d v v v v d F k t r t w o o p m m d r o i i i i c s i E r w o l - d d d d A i P o o n o i o o P P P P o o b o e i c v e m X e e e e n a n L D o R r r n o r n a r t a r r r r e n y d g r s s s T S o o o o d e e r a a a l t t p O l e d O c o i r t . E v v v v o n n n O n n l a e e p s s e a e B l w J i i i i f a p a t d h R h O d d n r x a d d d d d c i n , s E a n y n c e t e a a e t d n e e e e e v I e e s i i r o i C R o c O f n n n c t l e s b e s r o t o c d l i r e A 1 A l h o i r u o i h s s T t i t a l e l R S e n b r u t s r t l 2 i o r L L t t t n w h e i a ' s c i r s g e d a a i s S c . i t a V r s o m T T s i o k c D g s i A . s t i u l l r n t . n l l n n p u 7 - t R R a e e h F , a O p m r b u R a a o r N r A o d r s s L O O o n r o a e p R t y s O t n o I p n h o h e O i f d b D v l . s o N N - I v U f o i e o e a R c i s a ' c s o o B O n s d r e I I n q r l o h S t c e S X X c r W a f s e a e a d s D u l f o n e k i q 2 o n p o d c a n n i s i A f - h 2 t e b f u 6 p o I t u r k r u t t d P l h s N d e 4 w t o e l r a R i D m d - s e R s p r a y , a R o a - U o d c e h i E D h , / r t a e l d E f o t f t d b e O l m d h p o e o o b c n n b o r O t X a b x R r d a r o T s r u r e a t d B t u o i t e e u ' h t E b h t r S p E W n n a t r a a N e e s , s e w t c l e 3 r Q t d , n o C i m n t n i r h 3 o s E n o s t a a ' S y m d d n 0 d e s U e . T 6 v s g m t a M t d o s a u \" r e f d i i 5 I a , h I n f d z o y O o p R n r r A r a x - a n i a u e i e a r s s n d r o c n n E N t u r f d 7 t t m A a s e a n s d g a a d o d a f D ' t c a . y t e 2 L w c t R i o p e a l r n a o j c l c n \" t T i a o s l T p a E k u l n e l d p t e t f H m R r u r e r O s r f i Q w s o r s o s e t i e e r o s y O e s o s s e i g p U l r c c , B v d t l f e r h h N d r c r o l o a t i D s I r a c s E a d o l a R o o r n n I t o m d t n m P e X e l n r r 1 n i E c l e F e n n i e b d e S a t c e m a b n M L t r v e P s c e l a n i o ' c t e b s m i s O t d o a u i e c l E u a t l o d u y , m i b n e a d c O e o f p l m n N e r a l a d l l s o s e a e r n o m e e s s D n T c a , o n s t s m w . s s i i c d t g s S e t a o t o n . u s e R i r o e o o m n n n r n e . i p r l a m r E o e n d e e d d c m o e n p s t c r u r d e S t p w h r y m i e a u t l o d a F a I e e e a m e r S n p o n s a t l d . r n a r o i u p m p T w o k b s t d n o s f l b e e o A d i y a i a o l d u d s y i n f u N c n t o f t a w e p y i i h t l t D t u n n n e b T e p u h . / e n f g a o r s l r e S a a b w y o i A e . l t o m c c s a E / e t O r / t C N a c r e t e . t d a E u i p o t t a d w o D n r e e g r o n m h s . n d e A r n d n s t M a y t e r r i e p e L r s n s t o r p a b r o U r t S d i a l b i o e c l a c a w O e S t m l v t n i e c n o o r d a T i , d k s d a d r n o r e - . e t e M s u o c m n d . p r h a E t u . b n E t s h y d t T e\nC C . O G R . R. C C O O R O N R E ID R O G R AURD P P E . RM. P P E E R R M SO A N N ( E S N ) T 12. m Th e e th C o o d n s. tractor shall participate in a pre-construction meeting DIVISION 4 - MASONRY 2. a W . in P do ro w v s id : e 1-3/4\" x 4-1/2\" aluminum window system and related components as manufactured\nC.W. CURTAIN WALL OR COLD WATER P.LAM. PLASTIC LAMINATE w/ the Owner & Architect to review issues pertaining to the by EFCO or approved equal. Window supplier and installer to verify and confirm all window\nD.D. DECK DRAIN PL. PLATE Project. 1. SEE STRUCTURAL NOTES - SHEET V.0 - FOR MASONRY REQUIREMENTS. sizes prior to ordering.\nD. DEEP, DEPTH PLGL. PLATE GLASS 13. The Contractor assumes responsibility for any deviations from 2. Provide decorative split-face block, smooth block, and standard block walls in accordance with b. All glass shall be tempered.\nDET./DTL. DETAIL PLMB. PLUMBING these documents which are not approved by the Architect. BIA Series 21 notes and NCMA Standards - Current Edition. c. Color: As selected by Architect from manufacturers standard colors.\nD D D D . I I I F A A F . . . G. D D D D R I I I A A F I F M G N U K O E S I T N N E E A G R R L FOUNTAIN P P P P V W . T L . C . D F . . . P P P P O L O O Y L U IN W Y N T V O D I S O N Y D P L E C R H L L IN O E R A ID R E FOOT 14. p S d r r p o a e j w e c i c i n f t i g c a a s r t e a io n g n d e s n s a e h n r a a d ll l l p y b r e o a d n m u d o c g r t e s e n t s o e p r e b ic c e a i f u l i l c y s a e i l n d ly d i i i n d c a e re t n e l t a d if t i i e t o h d n r o b t u o y g t t h h h o i e s ut the 3. b C a . . on R 8 s c t \" r u a e x n n t n e d 8 i a \" n M r g x d a 1 b s w 6 o o e \" n n i d r g n y . h o U t m h n in o it a l s lo l : w R o c c o k r e F a C c M e U C . MU; 8\" x8\" x 16\" Smooth Face CMU; 6\" x 8\" x 16\" DIVIS d I . O A N l l 9 w i - n d F o IN ws IS a H re E n S on-standard sizes.\nDIM. DIMENSION P.S.F. POUNDS PER SQUARE FOOT Architect, Owner, and/or the General Contractor prior to c. Rock Face CMU color: TBD; Smooth Face CMU color: TBD; final selection by Owner. 1. See also, finish requirements identified elsewhere in this specification.\nDISP. DISPENSER P.S.I. POUNDS PER SQUARE INCH construction. d. Mortar: Type S, Natural Gray, unless noted otherwise. All joints shall be concave. 2. Painting-General:\nDR. DOOR P.R.V. POWER ROOF VENT 15. These notes apply to the entire project. See individual sheets e. All windows and openings shall have head and sill flashing and weeps. a. Paint only when temperature is 50 degrees Fahrenheit or warmer with a relative humity less\nDN. DOWN P.C. PRECAST CONCRETE for information specific to a sheet. f. Provide special shapes, in same style and color, for corners, jambs, lintels, headers, and than 85%.\nD D DW . . S V R . . . D D D R O R A Y W W E N R E S R V P E O N U T T P R Q . . . L / T R . . AD. P R Q R A U D O A I P R U E R S R Y T T Y IL L E INE 16. r T th e h e q e u W s ir e e o C d rk o f o a n r n s c t d r o u a m c r t e p io l n e n o t i D t o i n o n c t o e u f n m t d h e e e n d t p s t r o o in j i e d n c i d c t i . a c t a e t e th o e r g d e e n s e cr r i a b l e e a xt ll e w nt o o rk f 4. B pl u u i m ld o b t w h ; e a m r ll a s s x p s e 81 tr \" c a i i a i n g l h 1 c t 0 o , ' n le l d e v i n t e i g o l, t n h a s n f . o d r p le lu v m el b . meeting the following tolerances: max 41\" in 10' height for b c. . F U ap o ti p r li z r a o e n v y p e a d m i n b a t y s p o A r n o r r c d y h u s i c t u e ts r c f t a a . c s F e i m s n a a to l n c u b o f e a lo c p r t a u s i r e n e l t e d e c d b t i y ( o i n n S t h e s e r h io r a m r ll a w b n e a - l W l b s y ) i , ll A i p a r r m c o h v s i i t d e u e c n t l a . e s m s in o i t m he u r m w is o e f 1 s - p c e o c a i t f ie o d f a or\nDWG. DRAWING RECP. RECEPTACLE 5. Wash all exposed surfaces of complete masonry walls prior to commencing any other commercial block filler, 1-coat of primer, and a minimum of 2-coats of an epoxy-based finish\nE E E A . . W . . E E E A A A C C ST H H WAY R R R E E E I S T N . IL F . . R R R E E E I S T N U IL F R I O E N R N C T E(D),(ING) 1 S . A FET A Y p p A l N ic D ab P le R p O ro T v E is C io T n IO s N of the general law(s) of the County, City, 6. F m co in a n i n s s u h tr f u a a c c ll t t i u e o r x n e p r u o s s s r i e n e d g c o s P m u R r m f O a e c S n e O d s a C o t O i f o r n S o s c u k f r o e -f r a K h c l a e e n a C d n M l i 6 n U 0 g 0 w a o n it r d h a a a p p p m p r l o i i n c v i a m e t d i u o m e n q . o u f a t l. w C o o -c m o p a l t y s w of i t a h c a l l e l ar DIVISIO p N a i 1 nt 0 . - SPECIALTIES\nELEC. ELECTRIC(AL) R.A. RETURN AIR State and Federal Government govern these Construction elastomeric coating: RainguardPro VandlGuard Silicone Elastomeric (SP-2000) or approved\nE.W.C. ELECTRICAL WATER COOLER REV. REVISION(S), REVISED Documents and the Work to be performed by the Contractor. equal. Comply with all manufacturers recommendations for handling, application, and 1. Provide Grab Bars in lengths and configurations as indicated on the plans and as required to\nELEV. ELEVATION/ELEVATOR R.H. RIGHT HAND 2. Provide, erect, and maintain all planking, bracing, shoring, maintenance. meet ADA compliance. All grab bars shall be as manufactured by Bobrick or approved equal.\nE E M NC E . R. E E M NC E L R O G S E E N ( C U Y RE) R R . M D . . R R O O O O F M DRAIN p p i r l o in te g c , t l i i o g n h t o s, f b h a u r m ri a ca n d li e fe s , a a n n d d a g d u ja a c rd e s n t a p s r o n p e e ce rt s y s . ary for the DIVISION 5 - METALS r C e o q n u t i r r a e c d t o fo r r s a h t a ta ll c c h o m or e d n in t a to te c o a n n c d r e in t s e t a m ll a e s q o u n i r p y m u e n n it t s w . ith appropriate stainless steel hardware\nE E E E E Q Q X . X J H I . U . S . I T P . . E E E E E Q Q X X X H P I U U S A A A I T P N U L I M N S S G E I T O N N T JOINT R S S S S C H . I . O M O H T . . . . G . . R S S S S C H L I O M A H E U I B E L E G A T D O H R U N O L G P E R EN AD IN E G 3. D l a t i h s u 2 e te r A i e d n 2 x g m 0 c B t l u h u C l e s ti i p v r e a e u n t r t i u p n ir s o g e e s . c e i o n d n f r s i y r t e r c u p h c r e t o i m o te n ic c p a ti e o l r f n i i o r . e d P , e r p x o r t v i o n i v d g i e d u e i a s h t e e l q e r u a w i s p t i m t h o e n a n e t t l U f e o . a r L s . t 1 3 2 . . . p S A A r E E l i l m E S e e x S S r p T L o - e R s S e v U h e d e C l : r s T w A te U i E n e R S - l W A r S o L i o l 2 li N f a i F n O m e g T s a a E t M u n S r d a e - c s S o S tr p t u H e o c e E x t l u E y f r o T 6 a r 4 l V a m 6 . l 0 l e o v m r - i s e F b i q b O e u l r e R s a s l s S , t h e a T a e n E l l d l E m b f L i e e n R m i s s E h h b o Q e e p d r U s p w . IR r i i t m E h M e a d E h w N ig i T t h h S - s a o f li a d s s t - a c c u r r y in li g c , epoxy 3 2 . . R P e a. q r e o u s v a a W tr i l d . o . 1 a e o S . l l m b - iz m 1 r e i A 2 g o : c 0 h u 2 c V t n 4 - e p t \" e i s n o x s d l o i l s 3 o e r h 6 c i l e e e a \" s c d t n i : t o r o s i n c m ta s h i i n n s a a h l n e l o . d s w A s d n t s r t y a t ( e e 1 c e r h - : e l m D a fr e c a y n h s m t o : r e n e F l s e r A t s o r i s o n rb o t m l m w a i d r / ) r e ; p o s r r V o e - v e o B i d r a o e a l b s d p o r p i s , c r t k E o a v l B i e n e - c l d 1 e tr 5 s e ic s 5 q a 6 s u l t a S s e l h e e . e r l i e s e c t s s r . e o w r a s p . proved\nF F F F F E E I . . T . X X N A C F . P T . . . .B . . . E F F F F E F I I I E I X X N R B N E P T E I E I S S T E O R H A H R S L C ( I E F E O A E D L D R R M O ) M E O N R T BOARD S S S S S S S T P B Q . . T Y S D L E . . . . . . C. S S S S S S S T P P Q I T T D A A E E L U E A N I E C A N S L Y D I R L F H A A E E IC R R S B A D D S L T O S IO C T N K E ( E S L ) S 4. T A KI b l a d T N ia u n a h G b t y m e i n l A a a i O o t n N y g t w . d e D l n i m a l e i L a l i l r A t b e i a n Y i d l n i s I t d N y u to , r G C a w b n o O u o c n i r e U l t k d r m a T e re c r a ' q t s n o u ' r r s i i r s a e c k r m o e , m e r in e n p j s t e u s p n r o y f s o n a l r i s a t t i i h o b b e n i l l e i t p a y f r o n , o r d p j e d r e o c e m p t t e e i p n r r l m c t o y l y u in e d i r n i ' n s g g 5 6 4 . . . F P p a f A A u o . i e p p n l l l r p p y i f s c P d o u l l y y h o r r r r a : v o a e t o w e w S v t t n e h r i o a i e d a d a n t e g n g c i c n M e o e s o p ; . a e a r o C - e t t t f s a S o - o a f l l h o i f o n P l e l f h r i a c s : r a i w g n o h A t h e r e i w s n n - l d - o s e s - W o - 1 r e t c s l y 4 l i i o e l d p l a i m G c s i a n c t m A e p d e a d o p l s c p n f o b r o e A e e x y r r c n y v f a o A r i t c p o , l r r l e a r . l h c o i s t m i h e n g . i d h e t 2 e - r a 1 c s t l t 8 o o u f l m i r H a d o S s i m d n r a u p y m l m r i p i f o a i h l p m r n a a u t t o n t i f c h a e d i c l p c e t f k o u l o i n l v r r y e e e u a r s r r ' l y s s l e l t t f ( o h o u D c a l p l F a n r r t T e a i o o ) n j t n e o o g s c f e t a m i n s o t d i i o f t n e i t s c . a . t a 3 l a t . D n e 0 d d F m a T o r i d n l o s f . c t h 4 o E e . l n 0 o s r m s u . r i e ls. b c d e . . . . 1 S a d W W A 0 . . o d 2 1 a a 0 l u . . i l l - d l l l S - - t m m S F U d S d r i o o i t n E n a a a u u i i - p i w t s n n n S e r h i l t t e M n e r e e : q g s d d d N u o s s is i h r . i r c r o S p o e k a l o t l r e s p e - i s t z l p e y c a o r l p o l n o W e n u t v a t n e t a r o l a i d l t ( l i : c l a e S e t J d o t q a h u r p u n e l m a t a i l ) b f p l : o . e c e R d h l r l i e a f M d i g n c i o e s a g p d n t in i e e c o g y n l n M s s 1 f e t o 2 4 a r r \" 0 : t i s o 0 X B e n D o c 2 : b S u 4 F r , r \" i o e c , w u k 1 a h n 8 M t i d t t a e G o a c , d t A h i A o e m B n w l B s e S / n - i W n 4 r t e c 2 t o s o l 8 u r i l n 8 d w d . e w o a d r l i l d a s a e p u s , p p I s n r p h o c o o v . r e w t M d b n o r e a d in q c e u k l a e l t . s.\nF.E. FIRE EXTINGUISHER STOR. STORAGE 1. The Contractor shall field verify all existing construction, site b. Aluminum alloy: 3003-H14 4. Signage and Graphics:\nF.E.C. FIRE EXTINGUISHER CABINET S.D. STORM DRAIN utilities, and dimensions. c. Minimum opening percentage: 40% prior to powder-coating. a. Provide ADA Room Identification signage at each door and per City of Cedar Rapids\nF F F F FL . L . P R D O R . . . . UR. F F F F F L I L L I R R O O O E E U O O - P R R R R R E E I O N D S S G R O I C S A F E T I I N N N A T G NT S S S T T K E T U Y R B L S S . D U . P . C . T. S S S T TE A T U U R L C S S E U K P T P E B C E H M O N T O U D A N R R E E A D D L 2 . M Th a e i T t n o f h lo f e is l o x o i c r o n a e r fo v le F a rm v F ti a o E a t n i t o = i o f n o n 7 s r 2 s h f 6 h o a . a o 0 v l t 8 e l i n b b g e e s r . e e n v i e e s w ta e b d l i w sh it e h d t h a e s A fo r l c lo h w ite s c : t prior e d . . R F O e. i A p n 1 e L i . s n h c i C W : n o p g l o o h o n r s e w s t i r r z . e a d e c e m : t r o 81 - e \" c r t / o r a F o a l a u t p b e n a r d d i n c , e o a ty l p t o p i e s r . n ; i s i n c n h o d g a l i s o c ll a r o c : t u n e A t d 1 s 3 a 6 t \" s n o e s d b l t e a b e c g e t b g n e e e d d n r e t b t h d y t e o c A m f e i r t c n a b h t t e e e it r t r e s w ia c , e t l t e y t f o r p n o . t m s h t e e m e re a l q n ra u u f i f t r a e e c r d s tu , s r t h e h a r e s p e s t a a n n d d a s r i d ze 5. L a o . uv F r a ta e e t u t m q r a r s u n c p : i i h r s e e m h r m - r e a e e n n s n t d i t s b s i t n r . a a s S n c t t i a k z h l e e l a t : l s o r 1 d u a 0 w v s \" e a x s r r s h e 1 , o . 0 b w \" i . r n d M o s o n c u r d n e r t e a t n w o s in , C g b M s la U , n a k b - s l o o s f c f p k p e w a c n i / f e i a e l p s d p , , r s a o t n r p u d r c i a a tu t s e r a n s l e t s a e u i d n p e le p d s o f s r o t s s r , t a e a e c n l o d , mplete and\nFT.(') FOOT TV. TELEVISION 3. Proposed grades are generally shown on the drawings for prior to powder-coating. proper installation.\nFTG. FOOTING THK. THICK(NESS) reference. The Contractor shall verify actual existing and new b. Comply with manufacturers instructions and recommendations for installation.\nFND. FOUNDATION THRES. THRESHOLD finish grade in the establishment of the footing depths. DIVISION 6 - WOOD, PLASTICS, AND COMPOSITES c. Verify dimensions of supporting structure at the site by accurate field measurements so that\nF.A.I. FRESH AIR INTAKE T&G TOUNGE AND GROOVE 4. The Contractor shall locate all reference points and shall the work will be accurately designed, fabricated, and fitted to the structure.\nF F G G U U A A R T L . . V R . . F F G G U U A A R T L U U V R G R A E E N E D I ( Z IN E G D ) T T T T . . . . O O O . . . C S W . . . T T T T R O O O E P P P A O O O D F F F C S W L U A A R L B B L 5. R r u e n e v t f i i e e l r s w e u n w c c h i e t h r e P A l o a r i t c n e h t d s it e W s c h o t a r p l k l r b i i o s e r c m to o a m c in o p t n l a e s i t n t e r e u d d c . t t io h n ro c u o g m ho m u e t n c c o e n m st e ru n c t. tion 1 3 2 4 . . . . L C S A u E l o l m m E it b e p S e m ly T r s R m w s U i u h th C s a t l A T l m U P b e e A R e A f ( t r E e L W e n N W g o O in f P T e d A E e e r f S o e e r c d - N t S s W L , H G o in E o A s E d t s a T A t l a l V e s n s d . d 0 o c a c - o r i a d F rr t s O e io . c R n tl ) y S f o T p r e R p r U l t y h C w e T o U d o r R d a A w a L i n n d W g s e O n a O g n i d D n e a R e d r E h e Q e d r U e w I o R to o E d a M ll p E ro N d T u S cts. d e . . P e e A . . r n 1 2 o c . . v h id o B C e r a o l a o s lo i u s h r v : i o g e A f h r s s d - p e s t e o e s r i l t f g e h o n c e r t m : e b C d a u o n i b l n c d y s e i n t A r d g u r r c c a s h t t i i n r i o t u a e n c b c t S t l u e . p r e f e i x c a e i s a d l i t n i m e d s u ic l A l a io 4 te n 0 d 9 l o 7 o u n v e th r e c o d n ra s w tr i u n c g t s e . d primarily of aluminum.\nG GAS TX. TRANSFORMER manufacturers recommendations and requirements. e.3. Furnish with manufacturers standard mill-finish insect screen including extruded\nG.C. GENERAL CONTRACTOR TYP. TYPICAL SHOP DWGS AND SUBMITTALS 5. Roof Decking: aluminum frames.\nGL. GLASS/GLAZINGA U.H. UNIT HEATER 1. Submit all shop drawings and product data directly to the a. Nominal 2x6 solid sawn T&G DOUGLAS FIR/LARCH roof decking by Boise Cascade or\nG.B. GRAB BAR U.N.O. UNLESS OTHERWISE NOTED Architect. approved equal. DIVISION 11 - EQUIPMENT\nGR. GRADE(ING) U.V. UNIT VENTILATOR 2. Product Submittals are indicated in their respective b. Provide DECORATIVE grade roof decking stained and sealed in the field for exposed NONE\nGYP.BD. GYPSUM BOARD VERT. VERTICAL specification sections. interior finish.\nH.D. HAND DRYER VEST. VESTIBULE 3. Three copies minimum required for initial submission. One c. All fasteners shall be STAINLESS STEEL and appropriate for material thickness and DIVISION 12 - FURNISHINGS\nHC. HANDICAPPED V.B. VINYL BASE corrected copy will be returned to the Contractor. attachment to HSS roof framing. NONE\nH H H D D TG W R . . . H H H A E E R A A D T D I E W N R G ARE V V V . . . C S W . . . B T C . . . V V V I I I N N N Y Y Y L L L C S W T O A R M L A L P I G O C H O SI T V T E E B R A T I S N IL E G E 4. E ch a e c c h k D ed ra b w y i n th g e o f r a s b u r b ic m at i o tt r a l a s n h d a C ll o b n e t r c a o c m to p r le b t e e f o a r n e d S h u a b v m e i s b s e i e o n n. DIVISION 7 - THERMAL AND MOISTURE PROTECTION D NO IV T I S U I S O E N D 13 - SPECIAL CONSTRUCTION\nH.V.A.C. HEATING/VENTILATION/AIR CONDITIONING W. WATER 1. Provide sealants appropriate to the surrounding construction. All sealants shall be from a single\nHT. HEIGHT W.C. WATER CLOSET MATERIAL AND WORKMANSHIP source for any given application. For areas to be painted, sealants shall be interior grade latex; DIVISION 14 - CONVEYING SYSTEMS\nH.P. HIGH POINT W.R. WATER RESISTANT 1. Where there is a variance in the method recommended by a color: white. For areas to be left unpainted or where masonry sealers are used, provide clear NONE\nH.C. HOLLOW CORE WP. WATERPROOFING product manufacturer and a method or detail specified herein, sealants suitable for adhesion to surrounding materials. For exterior applications, use one-part\nH.M. HOLLOW METAL WS. WEATHER STRIPPING the more stringent shall apply unless otherwise approved by urethane sealants - Sonneborne NP-1 or approved equal; sealant color to match surrounding DIVISION 15 - MECHANICAL\nH.S. HOOK STRIP WT. WEIGHT the Architect or Owner. material or as selected by Architect.\nI I I H H H H H N N .D R Y . O . C . B W ( . D . R \" . L . ) . I . Z. I I I H H H H H N N N Y O O O O C C S D U S T R I L H D R E R I U W Z E A D O B A N D E I N T B T I ( A E T D B A M R ), L ( E IN T G ER ) W W W W W W W W . D . . / . / D W G M O O W . L . . .F . . . W W W W W W W W E I I I I I I O N R R T T N L O H H D E E D D D O O O E G M U W W D L E T A S W O S H P I S R E E N F IN A G BRIC 3 2 4 . . . P r p i u S W n e r n r t s s e o o o l t e t c r t r r r e e u k s i i s c c m s c e a t t t i h v i a l p o l w e i n g p r n o o s h r t s r o h o d e k w l i d u e m p r u c i r s t a s t a c h t s h n a t n s l a s s n c a u h l i e d b l n b i s a e b p a j r l e e o s d i c s c r s i c i n t n o r o a t e t t a r o a h r q d c e c e d u a c t r i a i n o n r a r e m c r d e n d e d i a q d c a w g o u a n le e r i t i c r e t g e d h e f d i m r e b o m w s b l e m e i i y a r t n . h e n t t w d s h u in e . e f i a n d a i c d u t n h t i s c u c e t l r a r u r e y . t s e r i s ' o s t t n h a a n o t d f m a m r o d o r s r e , e 2. b S a . . tan P M b b a a a a d . . n . . . r a 1 2 1 2 3 i o d n t . . . . . v e g m i r d P P F i S S A a a e i a a e e t l t n s t c m n n a a a i . h s e e m m c e h i l l h n c : : w M m h g h 2 P e i a 4 e e c d V i n g o t n t G D a h i h m t c l : : F A t a R : p C 1 l ( l 1 o c 2 o y o K o . n \" o n 5 y s l e f o d c \" n e i n n e n - m a a r t g n s o r m c i : t n l e 5 r ( l e e i f i n 0 c m a d d t 0 s h e u s ) s c i r m t d t . i a a a e d r n s e c e d , l h n i e w i n t c a e / g l v c i A p s e t Z u s e t r 5 a r f a i o 0 m m l r c G s t m o h , a l e e d o lv r t r r a m a i p c l l u a o r e m o l a d e o t e g i x n f e p c g s , a o y ; e s n a c t t s t o c e i i n l . o m o ) g n r f . : r / a c o m n o m d a n t t o a t r e a n ll c e b a t l s i m a o s c n a o k . n c f u i r a f o t a e m c d tu f r a e s r t . eners D 1 1 IV . . IS E M c I o l e O e o c c r N h t d r a i i n c 1 n a a i 6 c l t i a s o - y l n s s E m t y e L s a m t E e y C m r b e e T q r e u R re q ir I q u e C u i m r A i e r e e m L n d e t w n s t p i s t e h s c O p if e i w e c d n if e i e e r l , d s A e e w r l c s h h e e i w t r e e h c e t - , r s e a e n - e d s E e C l e e o c M n t t r e r i a c c c a h t l a o s n r h . ic e a e l t s s . h A ee d t d s i . tional\nI IN .F S . . I I N N S S U ID L E A T F I A N C G E PROJECT CLOSE-OUT b.3. m Se a a n l u a f n a t c s t : u F re a r c s t o s r t y a - n a d p a p r l d ie d co n lo o r n s - ; s s k a in ti n n i n fi g n i b s u h t . yl in seams.\n1. Until final acceptance, Contractor shall have charge and care c. Performance.\nfor thereof and shall take necessary precaution against injury c.1. Design shall withstand 110 mph wind speeds per IBC and ASCE 7-22.\nor damage to any part of the Work. c.2. Air infiltration: ASTM E1680\n2. Provide Owner with all warranties, and service and c.3. Water penetration: ASTM E1646\nmaintenance agreements. d. Installation.\n3. m Cl a e t a te n r B b u y i l w di h n o g m a n it d is s l i e te ft o a f n a d ll r r e u m bb o i v s e h a a l n l d fr o e m xc t e h s e s p m re a m te i r s i e a s ls . , no d d . . 1 2 . . I U d n r s s a e t w a t l i w l n c g o o s - n p . t ie in c u e o c u l s ip r s id a g s e p v r e o n v t i d a e n d d b c y a p m a a s n s u e fa m c b tu ly re f r o . r ventilation and as shown on the\n4. Remove all labels and paint spots on glass, clean and wash d.3. Use hems at eaves. No exposed fasteners.\nglass thoroughly inside and out. d.4. Provide and install manufacturers standard Snow Guards over the restroom entrances.\n5. Contractor shall notify Architect of Substantial Completion at e. Roofing contractor to review all applicable details herein and recommend adjustments and/or\nsuch time the Architect will review the work and identify items modifications to meet requirements of applicable Codes.\nremaining to be completed.\n6. Damage shall be corrected, and all punch list items shall be\ncompleted.",
+    "",
+    "",
+    "YB TEEHS\n:ETAD\nEES\n:elacS\nARP\nNOISIVER\n:yB\ndekcehC\nARP\n:yB\nKRAM nwarD",
+    "002A\nteehS\n:S-R-T\n62-51-70:etaD\n30-010723\n:oN\ntcejorP"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "SEITINEMA\nAWOI\n,SDIPAR\nRADEC\nLANOITAERCER\nFO\nYTIC\nSNOITACIFICEPS\n:A3\nSEITINEMA\n&\nSETON\nEKAL\n-\nMOORTSER\nRADEC\nWEN",
+     "",
+     "",
+     "moc.setaicossa-redyns.www\n.W.S 40425\nTEERTS\nAWOI\nGNILWOB ,SDIPAR\nRADEC\n5005 I 4939-263-913\nI"
+    ],
+    [
+     "",
+     "",
+     "Project No: 23004",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Sheet A200",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "327010-03 PLANS _FINAL_ FOR PRINT.pdf",
+   "sheet": 231,
+   "header_row": 0,
+   "headers": [
+    "",
+    "",
+    "3'-4\" 7 5/8\"\n3'-0\" 3'-0\"\n3'-4\" NOM.\nDOOR NOTES\n1. ALL DOORS ARE REQUIRED TO BE GROUT MASONRY UNIT CORES SOLID FOR FULL\nPASSIVE FLOOD PROTECTION BARRIER HEIGHT OF DOOR OPENING, SEE STRUCTURAL\nCONSISTING OF STEEL FLOOD DOOR, FOR REQUIREMENTS\nSTEEL RAFTER & FRAME, AND HARDWARE\nCONNECTOR SADDLE, TYP. 2. BASIS OF DESIGN BARRIER IS THE ANCHOR FRAMES TO GROUTED\nSEE STRUCTURAL HYDRO1 PEDESTRIAN FLOOD DOOR BLOCK PER MFG SPEC.\n8'-0\" SYSTEM (Hydro1-PD520 Flood Door)\nT/CMU WALL 3. NO VISION LITES\n4. HINGED AS SCHEDULED\n\"4-'7 \"2-'7 \"2-'7 5. PROVIDE COMPLETE SYSTEM AS\nPERIMETER BOND BEAM, TYP. PROVIDED BY MANUFACTURER\nINCLUDING STEEL FLOOD DOOR, \"8/5\nFRAME, AND ALL HARDWARE, \"4/3\nANCHORS, SEALANTS, AND 7 6\nWATERSTOP.\n6. PROVIDE PRODUCT DATA AND SHOP\nDRAWINGS FOR DOORS, FRAMES, AND\nSEALANT, FULL PERIMETER INSTALLATION IN 8\" REINFORCED CMU\nOUTSIDE AND INSIDE, PER MFGS WALL.\nSPECIFICATIONS 7. INSTALL DOORS PER MANUFACTURERS\nSET FLOOD DOOR FRAME FLUSH SPECIFICATIONS.\nW/ OUTSIDE FACE OF BLOCK GROUT DOOR FRAME FULL TO 6\" ABV\nUPPER FRAME @ SMOOTH REQUIRED FLOOD PROTECTION HEIGHT LOWER FRAME @ SPLIT\nFACE CMU (ABV. 4'-8\") CONTINUOUS HINGE FACE CMU (UP TO 4'-8\")\nDOOR SCHEDULE SET DOOR FRAME FLUSH W/\nDOOR # WIDTHHEIGHTMATERIAL DOOR FINISH TYPE HAND MATERIAL FR F A IN M IS E H TYPE FIRE RATING HARDWARE GROUP NOTES OUTSIDE FACE OF BLOCK\n101A 3'-0\" 7'-2\" STEEL PAINT F LH STEEL PAINT NONE REQ'D AS PROVIDED BY MFG. HYDRO1-PD520 PASSIVE FLOOD PROTECTION BARRIER SEALANT, FULL\n102A 3'-0\" 7'-2\" STEEL PAINT F LH STEEL PAINT NONE REQ'D AS PROVIDED BY MFG. HYDRO1-PD520 PASSIVE FLOOD PROTECTION BARRIER PERIMETER OUTSIDE &\n6 3/4\" 103A 3'-0\" 7'-2\" STEEL PAINT F RH STEEL PAINT NONE REQ'D AS PROVIDED BY MFG. HYDRO1-PD520 PASSIVE FLOOD PROTECTION BARRIER INSIDE\n\u2104\n04 PLAN SECTION: FLOOD BARRIER DOOR 03 SECTION: DOOR HEAD @ BOND BEAM 01 DOOR & FRAME TYPES\nA201 SCALE: 1 1/2\" = 1'-0\" A201 SCALE: 3\" = 1'-0\" A201 SCALE: 1/2\" = 1'-0\"\n12\n4\n12\n4\n2X6 T&G ROOF DECK, TYP. 1.25\" X 5\" CFM STUD FRAMING W/ 8 1\"\nPERFORATED METAL PANEL BOTH SIDES 8'-0\" 8'-0\"\nT/CMU WALL T/CMU WALL\nCONT. BOND BEAM , TYP. CONT. BOND BEAM , TYP. FOR FULL\nPERIMETER, SEE STRUCTURAL\n14 GA PERFORATED ALUMINUM PANEL,\nPOWDER-COATED FINISH. 40% OPEN AREA REQ'D\nPRIOR TO POWDER COAT. FASTEN TO UNDERSIDE\nROOF DECK, TO RAFTER, AND TO BOND BEAM W/ 8\"\nGALV. FASTENERS APPROPRIATE TO MATERIAL\nPRE-FORMED ALUM. CAP FLASHING, TYP. 6\" SMOOTH FACE CMU, TYP. 8\" SMOOTH FACE CMU\nCOLOR TO MATCH DOOR FRAMES & LOUVER ABOVE 4'-8\", TYP.\nALUM. SCREEN\n4'-8\" 4'-8\"\nT/CMU WALL 8\" SPLIT FACE CMU TO T/CMU WALL LOUVER NOTES:\n\"8/3 4'-8\" ABV. FFE, TYP. 4'-0\" GROUT FULL TO 4'-0\" 4'-0\" GROUT LINE FOR FULL PERIMETER GROUT LINE ALL WALL MOUNTED PLUMBING FIXTURES EXTRUDED ALUMINUM SINGLE DRAINABLE LOUVER 2'-8\" X 1'-4\" NOM. TO FIT MASONRY OPENING BASIS OF DESIGN: CONSTRUCTION SPECIALTIES MODEL A4097 6063-T6 ALLOY W/ REINFORCING BOSSES\n4-'1 TO BE PROVIDED W/THRU-WALL PROVIDE W/ MFG. ALUMINUM SCREEN, NO MULLION REQ'D.\nCARRIERS APPROPRIATE FOR FIXT. TYPE. ALL FASTENERS TO BE STAINLESS STEEL UNLESS OTHERWISE\nSPECIFIED.\n4\" COLOR/FINISH: KYNAR 500 TO MATCH DOORS.\nREINFORCING PER STRUCTURAL REINFORCING PER STRUCTURAL\n8\" SMOOTH FACE CMU EXTERIOR WALL, TYP.\n5\" REINFORCED CONC. FLR 5\" REINFORCED CONC. FLR FINISH GRADE\nSEE STRUCT. FOR REINFORCING SEE STRUCT. FOR REINFORCING\nKGCV-I_RT2LE0RA3EEV4NOAWUTOSIC RCHYHINA\n0'-0\" 0'-0\"\nFINISH FLOOR FINISH FLOOR 05 SECTION: LOUVER & CLOSURE PANEL\nA201 SCALE: 1 1/2\" = 1'-0\"\nALUM. SCREEN\n1 2 1\" X 1 2 1\" X 1 3 6\" X 2\" LG. ALUM. (2) 4 1\"-14X1\" SS SMS 10\" 1'-0\"\nCLIP AN G L E @ 2 4 \" O . C . ( J A M BS 2'-8 3 8\"\nO N L Y ) , M I N . 2 P E R J AM B\n-4'-0\" -4'-0\"\nBTM. OF FTG. BTM. OF FTG.\n06 PLAN SECTION: LOUVER 04 SECTION: TYP. INTERIOR WALL 02 SECTION: TYP. EXTERIOR WALL\nA201 SCALE: 1 1/2\" = 1'-0\" A201 SCALE: 3/4\" = 1'-0\" A201 SCALE: 3/4\" = 1'-0\"",
+    "YB TEEHS 102A\n:ETAD\nEES\nteehS\n:elacS :S-R-T\nARP\nNOISIVER\n:yB 62-51-70:etaD\ndekcehC\n30-010723\nARP\n:yB :oN\nKRAM nwarD tcejorP",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "SEITINEMA\nAWOI\n,SDIPAR\nRADEC\nLANOITAERCER\nFO\nYTIC\n:A3\nSLIATED\nSEITINEMA\n&\nSNOITCES\nEKAL\n-\nMOORTSER\nRADEC\nWEN",
+     "moc.setaicossa-redyns.www\n.W.S 40425\nTEERTS\nAWOI\nGNILWOB ,SDIPAR\nRADEC\n5005 I 4939-263-913\nI"
+    ],
+    [
+     "",
+     "",
+     "",
+     "Project No: 23004",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "Sheet A201",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 144.7,
+  "attachment_fetches": 6,
+  "attachment_seconds": 25.7,
+  "attachment_bytes": 32037674,
+  "max_fetch_seconds": 18.55,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:20:40.313776+00:00",
+ "extract_attempts": 1,
+ "lines_total": 51,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-cedar-rapids-ia-327010-03-addendum-1/coverage.json"
+}

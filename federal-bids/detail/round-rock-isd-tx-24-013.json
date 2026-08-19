@@ -1,0 +1,43 @@
+{
+ "bid_id": "round-rock-isd-tx-24-013",
+ "bid_number": "24-013",
+ "agency": "Round Rock ISD, TX",
+ "src": "Open",
+ "title": "Awards and Incentive Products",
+ "close": "6/1/2027 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:awards",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "General Provisions v.6 FINAL 01012023.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General Provisions v.6 FINAL 01012023.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.8,
+  "attachment_fetches": 1,
+  "attachment_seconds": 2.7,
+  "attachment_bytes": 1094927,
+  "max_fetch_seconds": 2.66,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:34:29.732033+00:00",
+ "extract_attempts": 1
+}

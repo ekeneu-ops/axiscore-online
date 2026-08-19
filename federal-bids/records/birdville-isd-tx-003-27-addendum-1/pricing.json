@@ -1,0 +1,1444 @@
+{
+ "bid_id": "birdville-isd-tx-003-27-addendum-1",
+ "agency": "Birdville ISD, TX",
+ "bid_number": "003-27 Addendum 1",
+ "priced_at": "2026-06-12T01:55:53.958145+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "biddable_lines": 33,
+ "priced_lines": 30,
+ "tiers": {
+  "high": 0,
+  "medium": 2,
+  "low": 28,
+  "gap": 3
+ },
+ "coverage_pct": 90.9,
+ "confident_pct": 6.1,
+ "our_cost_total": 214794.31,
+ "draft_sell_total": 252713.43,
+ "draft_net_margin_pct": 15.0,
+ "lines": [
+  {
+   "line": "2",
+   "desc": "Battery, \"AA\" Alkaline (24/Box) BISD# 030030",
+   "qty": 335.0,
+   "uom": "BX",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 32,
+   "match_method": "tokens 2/4",
+   "vendor": "Synnex",
+   "matched_sku": "ULA2AAA",
+   "matched_desc": "2 PACK AAA ALKALINE BATTERY",
+   "matched_uom": "EA",
+   "uom_mismatch": true,
+   "raw_merch_cost": 0.52,
+   "freight": 0.0415,
+   "landed_unit": 0.5615,
+   "sell_unit": 0.66,
+   "extended": 221.1,
+   "alternates": [
+    {
+     "vendor": "Synnex",
+     "sku": "ULA2AA",
+     "desc": "2 PACK AA ALKALINE BATTERY",
+     "uom": "EA",
+     "landed": 0.6803,
+     "score": 32
+    },
+    {
+     "vendor": "Synnex",
+     "sku": "ALK-C EVIND",
+     "desc": "C SIZE ALKALINE EVEREADY BATTERY",
+     "uom": "EA",
+     "landed": 1.252,
+     "score": 32
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "859-4133353648",
+     "desc": "BATTERY AAA ALKALINE PROCELL 24/BX",
+     "uom": "CA",
+     "landed": 6.72,
+     "score": 32
+    }
+   ]
+  },
+  {
+   "line": "3",
+   "desc": "Battery, \"D\" Cell (each) 1.5 Volt BISD# 030031",
+   "qty": 208.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 26,
+   "match_method": "tokens 2/5",
+   "vendor": "Essendant",
+   "matched_sku": "DURD303357EA",
+   "matched_desc": "Button Cell Battery, 303/357, 1.5 V",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 1.74,
+   "freight": 0.0,
+   "landed_unit": 1.74,
+   "sell_unit": 2.05,
+   "extended": 426.4,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "859-4133353648",
+     "desc": "BATTERY AAA ALKALINE PROCELL 24/BX",
+     "uom": "CA",
+     "landed": 6.72,
+     "score": 26
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "620-806C",
+     "desc": "6-VOLT MAX.ALKALINE LANTERN BATTERY SPRING TERM.",
+     "uom": "CA",
+     "landed": 69.342,
+     "score": 26
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "711-247-ACK081B/1",
+     "desc": "RECHARGEABLE LI-ION BATTERY PACK 7 VOLT  2150MAH",
+     "uom": "EA",
+     "landed": 102.69,
+     "score": 26
+    }
+   ]
+  },
+  {
+   "line": "4",
+   "desc": "Battery, \"C\" Cell (each) BISD# 030032",
+   "qty": 58.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 32,
+   "match_method": "tokens 2/4",
+   "vendor": "Essendant",
+   "matched_sku": "DURD303357EA",
+   "matched_desc": "Button Cell Battery, 303/357, 1.5 V",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 1.74,
+   "freight": 0.0,
+   "landed_unit": 1.74,
+   "sell_unit": 2.05,
+   "extended": 118.9,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "243-DL2032B2PK",
+     "desc": "DURACELL 2032 3V LITHIUMCOIN BATTERY  2/PK",
+     "uom": "PK",
+     "landed": 2.816,
+     "score": 32
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "243-D303/357/76B3PK",
+     "desc": "DURACELL 303/357/76 SILVER OXIDE BATTERY",
+     "uom": "CG",
+     "landed": 5.088,
+     "score": 32
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "859-4133353648",
+     "desc": "BATTERY AAA ALKALINE PROCELL 24/BX",
+     "uom": "CA",
+     "landed": 6.72,
+     "score": 32
+    }
+   ]
+  },
+  {
+   "line": "5",
+   "desc": "Battery, \"AAA\" Alkaline (24/Box) BISD# 030033",
+   "qty": 333.0,
+   "uom": "BX",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 32,
+   "match_method": "tokens 2/4",
+   "vendor": "Synnex",
+   "matched_sku": "ULA2AAA",
+   "matched_desc": "2 PACK AAA ALKALINE BATTERY",
+   "matched_uom": "EA",
+   "uom_mismatch": true,
+   "raw_merch_cost": 0.52,
+   "freight": 0.0415,
+   "landed_unit": 0.5615,
+   "sell_unit": 0.66,
+   "extended": 219.78,
+   "alternates": [
+    {
+     "vendor": "Synnex",
+     "sku": "ULA2AA",
+     "desc": "2 PACK AA ALKALINE BATTERY",
+     "uom": "EA",
+     "landed": 0.6803,
+     "score": 32
+    },
+    {
+     "vendor": "Synnex",
+     "sku": "ALK-C EVIND",
+     "desc": "C SIZE ALKALINE EVEREADY BATTERY",
+     "uom": "EA",
+     "landed": 1.252,
+     "score": 32
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "859-4133353648",
+     "desc": "BATTERY AAA ALKALINE PROCELL 24/BX",
+     "uom": "CA",
+     "landed": 6.72,
+     "score": 32
+    }
+   ]
+  },
+  {
+   "line": "6",
+   "desc": "Battery, 9 Volt (each) BISD# 030035",
+   "qty": 221.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 32,
+   "match_method": "tokens 2/4",
+   "vendor": "Synnex",
+   "matched_sku": "ALK-9V-EVIND",
+   "matched_desc": "EVEREADY INDUSTRIAL 9 VOLT ALKALINE BATTERY",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 2.64,
+   "freight": 0.2105,
+   "landed_unit": 2.8505,
+   "sell_unit": 3.35,
+   "extended": 740.35,
+   "alternates": [
+    {
+     "vendor": "Synnex",
+     "sku": "COMP-L92",
+     "desc": "REPLACEMENT 1.5 VOLT EVEREADY AAA SIZE L92 BATTERY",
+     "uom": "EA",
+     "landed": 3.42,
+     "score": 32
+    },
+    {
+     "vendor": "Synnex",
+     "sku": "CAM-ENEL19",
+     "desc": "3.7 VOLT LITHIUM ION REPLACEMENT NIKON DIGITAL CAMERA BATTERY",
+     "uom": "EA",
+     "landed": 11.36,
+     "score": 32
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "620-806C",
+     "desc": "6-VOLT MAX.ALKALINE LANTERN BATTERY SPRING TERM.",
+     "uom": "CA",
+     "landed": 69.342,
+     "score": 32
+    }
+   ]
+  },
+  {
+   "line": "7",
+   "desc": "Paper, Bulletin, Dark Blue, 1000' Roll BISD# 203206",
+   "qty": 9.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 34,
+   "match_method": "tokens 4/8",
+   "vendor": "Essendant",
+   "matched_sku": "TCR77370",
+   "matched_desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Royal Blue",
+   "matched_uom": "RL",
+   "uom_mismatch": true,
+   "raw_merch_cost": 11.09,
+   "freight": 0.0,
+   "landed_unit": 11.09,
+   "sell_unit": 13.05,
+   "extended": 117.45,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-03148",
+     "desc": "SCOTT JUMBO ROLL TISSUE4/1000'",
+     "uom": "CA",
+     "landed": 38.66,
+     "score": 17
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-3148-01",
+     "desc": "SCOTT HIGH-CAPACITY JUMBO ROLL TOILET PAPER",
+     "uom": "CA",
+     "landed": 38.66,
+     "score": 17
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-34359",
+     "desc": "SCOTT PRO MANUAL MODULEFOR BLUE CORE ROLLS",
+     "uom": "EA",
+     "landed": 51.17,
+     "score": 17
+    }
+   ]
+  },
+  {
+   "line": "8",
+   "desc": "Paper, Bulletin, Green, 1000' Roll BISD# 203207",
+   "qty": 14.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 29,
+   "match_method": "tokens 3/7",
+   "vendor": "Essendant",
+   "matched_sku": "GPC79461",
+   "matched_desc": "Mega Toilet Paper, Limited Edition Fresh Evergreen Scent Tube, Septic Safe, 2-Ply, White, 320 Sheets/Roll, 8 Rolls/Pack",
+   "matched_uom": "PK",
+   "uom_mismatch": true,
+   "raw_merch_cost": 8.52,
+   "freight": 0.8932,
+   "landed_unit": 9.4132,
+   "sell_unit": 11.07,
+   "extended": 154.98,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-47035",
+     "desc": "KIMBERLY-CLARK 47035SLIMROLL PAPER TOWELS",
+     "uom": "CA",
+     "landed": 68.508,
+     "score": 19
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-47032",
+     "desc": "KIMBERLY-CLARK 47032SLIMROLL PAPER TOWELS",
+     "uom": "CA",
+     "landed": 69.87,
+     "score": 19
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-53862",
+     "desc": "TOILET PAPER  BULK (53862) WHITE  900 SH/ROLL",
+     "uom": "CA",
+     "landed": 85.932,
+     "score": 19
+    }
+   ]
+  },
+  {
+   "line": "9",
+   "desc": "Paper, Bulletin, Yellow, 1000' Roll BISD# 203208",
+   "qty": 10.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 38,
+   "match_method": "tokens 4/7",
+   "vendor": "Essendant",
+   "matched_sku": "TCR77369",
+   "matched_desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Yellow Gold",
+   "matched_uom": "RL",
+   "uom_mismatch": true,
+   "raw_merch_cost": 11.09,
+   "freight": 0.0,
+   "landed_unit": 11.09,
+   "sell_unit": 13.05,
+   "extended": 130.5,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "879-MR24249MK",
+     "desc": "24X24  6MIC  BLACK  1000  PERF ROLL",
+     "uom": "CA",
+     "landed": 18.94,
+     "score": 19
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "879-MR24339MC",
+     "desc": "24X33  6MIC  NATURAL  1000  PERF ROLL",
+     "uom": "CA",
+     "landed": 26.18,
+     "score": 19
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "879-MR24339MK",
+     "desc": "24X33  6MIC  BLACK  1000  PERF ROLL",
+     "uom": "CA",
+     "landed": 26.18,
+     "score": 19
+    }
+   ]
+  },
+  {
+   "line": "10",
+   "desc": "Paper, Bulletin, Red, 1000' Roll BISD# 203209",
+   "qty": 9.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 33,
+   "match_method": "tokens 3/6",
+   "vendor": "Essendant",
+   "matched_sku": "TCR77351",
+   "matched_desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Galvanized Metal",
+   "matched_uom": "RL",
+   "uom_mismatch": true,
+   "raw_merch_cost": 11.09,
+   "freight": 0.0,
+   "landed_unit": 11.09,
+   "sell_unit": 13.05,
+   "extended": 117.45,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77368",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Teal",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 33
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77369",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Yellow Gold",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 33
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77370",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Royal Blue",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 33
+    }
+   ]
+  },
+  {
+   "line": "11",
+   "desc": "Paper, Bulletin, White, 1000' Roll BISD# 203210",
+   "qty": 29.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 38,
+   "match_method": "tokens 4/7",
+   "vendor": "Essendant",
+   "matched_sku": "TCR77373",
+   "matched_desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, White",
+   "matched_uom": "RL",
+   "uom_mismatch": true,
+   "raw_merch_cost": 11.09,
+   "freight": 0.0,
+   "landed_unit": 11.09,
+   "sell_unit": 13.05,
+   "extended": 378.45,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-7805-02",
+     "desc": "SCOTT HIGH-CAPACITY JUMBO RL TOILET PAPER 1000FT",
+     "uom": "CA",
+     "landed": 86.688,
+     "score": 19
+    }
+   ]
+  },
+  {
+   "line": "12",
+   "desc": "Paper, Bulletin, Black, 1000' Roll BISD# 203211",
+   "qty": 19.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 29,
+   "match_method": "tokens 3/7",
+   "vendor": "Synnex",
+   "matched_sku": "MK631",
+   "matched_desc": "PRINTER TAPE - THERMAL PAPER - BLACK ON YELLOW - ROLL (0.5 IN) - FOR PT100, PT11",
+   "matched_uom": "EA",
+   "uom_mismatch": true,
+   "raw_merch_cost": 6.9,
+   "freight": 0.5333,
+   "landed_unit": 7.4333,
+   "sell_unit": 8.75,
+   "extended": 166.25,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "PACP0040125",
+     "desc": "Fadeless Paper Roll, 50 lb Weight, 47.25\" x 50 ft, White/Black",
+     "uom": "RL",
+     "landed": 10.4,
+     "score": 29
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77351",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Galvanized Metal",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 29
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77368",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Teal",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 29
+    }
+   ]
+  },
+  {
+   "line": "13",
+   "desc": "Paper, Bulletin, Orange, 1000' Roll BISD# 203212",
+   "qty": 5.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 29,
+   "match_method": "tokens 3/7",
+   "vendor": "Essendant",
+   "matched_sku": "TCR77351",
+   "matched_desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Galvanized Metal",
+   "matched_uom": "RL",
+   "uom_mismatch": true,
+   "raw_merch_cost": 11.09,
+   "freight": 0.0,
+   "landed_unit": 11.09,
+   "sell_unit": 13.05,
+   "extended": 65.25,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77368",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Teal",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 29
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77369",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Yellow Gold",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 29
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77370",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Royal Blue",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 29
+    }
+   ]
+  },
+  {
+   "line": "14",
+   "desc": "Paper, Bulletin, Brown, 1000' Roll BISD# 203213",
+   "qty": 13.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 29,
+   "match_method": "tokens 3/7",
+   "vendor": "Essendant",
+   "matched_sku": "TCR77351",
+   "matched_desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Galvanized Metal",
+   "matched_uom": "RL",
+   "uom_mismatch": true,
+   "raw_merch_cost": 11.09,
+   "freight": 0.0,
+   "landed_unit": 11.09,
+   "sell_unit": 13.05,
+   "extended": 169.65,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77368",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Teal",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 29
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77369",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Yellow Gold",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 29
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "TCR77370",
+     "desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Royal Blue",
+     "uom": "RL",
+     "landed": 11.09,
+     "score": 29
+    }
+   ]
+  },
+  {
+   "line": "15",
+   "desc": "Paper, Bulletin, Brite Blue, 1000' Roll BISD# 203216",
+   "qty": 8.0,
+   "uom": "ROLL",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 34,
+   "match_method": "tokens 4/8",
+   "vendor": "Essendant",
+   "matched_sku": "TCR77370",
+   "matched_desc": "Better Than Paper Bulletin Board Roll, 4 Ft X 12 Ft, Royal Blue",
+   "matched_uom": "RL",
+   "uom_mismatch": true,
+   "raw_merch_cost": 11.09,
+   "freight": 0.0,
+   "landed_unit": 11.09,
+   "sell_unit": 13.05,
+   "extended": 104.4,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "920-D4200B",
+     "desc": "9\"X13\" DRC BLUE GRAB & GO WIPER ROLL",
+     "uom": "EA",
+     "landed": 10.49,
+     "score": 17
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "912-00R0840000",
+     "desc": "ROLLER GAUGE THICK FILMBLUE 6-PK",
+     "uom": "BX",
+     "landed": 33.138,
+     "score": 17
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-03148",
+     "desc": "SCOTT JUMBO ROLL TISSUE4/1000'",
+     "uom": "CA",
+     "landed": 38.66,
+     "score": 17
+    }
+   ]
+  },
+  {
+   "line": "16",
+   "desc": "Roll Laminating Film 25\" x 500' 1.5 mil Homopolymer 1\" Core - Clear (2 Rolls/Box) Roll BISD# 203320",
+   "qty": 181.0,
+   "uom": "BX",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 35,
+   "match_method": "tokens 5/10",
+   "vendor": "Essendant",
+   "matched_sku": "KIT21798",
+   "matched_desc": "Clear Cover Self-Adhesive Laminating Film Roll, 18\" x 9 ft, Matte Clear",
+   "matched_uom": "EA",
+   "uom_mismatch": true,
+   "raw_merch_cost": 1.93,
+   "freight": 0.1923,
+   "landed_unit": 2.1223,
+   "sell_unit": 2.5,
+   "extended": 452.5,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-47305",
+     "desc": "SMALL CORE STANDARD ROLLBATH TISSUE",
+     "uom": "CA",
+     "landed": 84.024,
+     "score": 21
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-75130",
+     "desc": "SCOTT SHOP TOWEL ROLLS BLUE (30/1)",
+     "uom": "CA",
+     "landed": 100.74,
+     "score": 21
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-47259",
+     "desc": "SCOTT CONTROL ELEC SLIMROLL DISPENSER WHITE",
+     "uom": "EA",
+     "landed": 3.0,
+     "score": 14
+    }
+   ]
+  },
+  {
+   "line": "17",
+   "desc": "1 Subject Notebook, Pack Of 6, Various Colors, Spiral Bound, 8 1/2\" X 11\", Wide-Ruled, 3 Holes, Various Colors, 70 Sheets BISD# 205264",
+   "qty": 114.0,
+   "uom": "PK",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 40,
+   "match_method": "tokens 8/15",
+   "vendor": "Essendant",
+   "matched_sku": "MEA73063",
+   "matched_desc": "Spiral Notebook, 1-Subject, Wide/Legal Rule, Assorted Cover Colors, (70) 10.5 x 8 Sheets, 6/Pack",
+   "matched_uom": "PK",
+   "uom_mismatch": false,
+   "raw_merch_cost": 8.14,
+   "freight": 0.0,
+   "landed_unit": 8.14,
+   "sell_unit": 9.58,
+   "extended": 1092.12,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "302-36032",
+     "desc": "32 OZ NATURAL WIDE MOUTHPACKER W/LID",
+     "uom": "CA",
+     "landed": 15.84,
+     "score": 10
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "470-5TCOM",
+     "desc": "2IN WIDE LAMINATED PADLOCK  DISPLAY PACK",
+     "uom": "PK",
+     "landed": 24.64,
+     "score": 10
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "193-T7645000",
+     "desc": "ALUMINUM SPRING SNAP ASSORTED COLORS",
+     "uom": "BX",
+     "landed": 33.3,
+     "score": 10
+    }
+   ]
+  },
+  {
+   "line": "18",
+   "desc": "Composition Notebook, 9.75\" X 7.5\", Wide-Ruled, 100 Sheets, Marble Black BISD# 205274",
+   "qty": 459.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "medium",
+   "match_score": 46,
+   "match_method": "tokens 6/9",
+   "vendor": "Essendant",
+   "matched_sku": "ROA77122",
+   "matched_desc": "Junior Composition Notebook, Wide/Legal Rule, Black Marble Cover, (60) 4.88 x 7.5 Sheets",
+   "matched_uom": "EA",
+   "uom_mismatch": false,
+   "raw_merch_cost": 1.73,
+   "freight": 0.0,
+   "landed_unit": 1.73,
+   "sell_unit": 2.04,
+   "extended": 936.36,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "921-970S0023BL",
+     "desc": "MAT970 MARBLE SOF-TYLE GRANDE 2X3 BLACK",
+     "uom": "EA",
+     "landed": 81.683,
+     "score": 15
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "921-511S0035BL",
+     "desc": "MAT511 MARBLE-TUFF 3X5 BLACK",
+     "uom": "EA",
+     "landed": 105.803,
+     "score": 15
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "921-512S0035BL",
+     "desc": "MAT512 MARBLE-TUFF MAX 3X5 BLACK",
+     "uom": "EA",
+     "landed": 147.236,
+     "score": 15
+    }
+   ]
+  },
+  {
+   "line": "19",
+   "desc": "Binder, 1\", White, 3-Ring, Non-Glare Transparent Plastic Overlay On Front Cover, Back Cover, And Spine BISD# 205266",
+   "qty": 1260.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 26,
+   "match_method": "tokens 5/14",
+   "vendor": "Essendant",
+   "matched_sku": "ANS49106",
+   "matched_desc": "A20 Breathable Particle Protection Coveralls, Zip Front, Elastic Back, Wrists, Ankles, 3X-Large, White, 20/Carton",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 103.88,
+   "freight": 8.41,
+   "landed_unit": 112.29,
+   "sell_unit": 132.11,
+   "extended": 166458.6,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "ANS49107",
+     "desc": "A20 Breathable Particle Protection Coveralls, Zip Front, Elastic Back, Wrists, Ankles, 4X-Large, White, 20/Carton",
+     "uom": "CT",
+     "landed": 117.07,
+     "score": 26
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-09506",
+     "desc": "INSIGHT PERSONAL TOILETSEAT COVER DISPENSER",
+     "uom": "EA",
+     "landed": 22.253,
+     "score": 11
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "964-ZFE109-L",
+     "desc": "FR 7.5 OZ  88/12  COVERALLS - NAVY - L",
+     "uom": "EA",
+     "landed": 71.454,
+     "score": 11
+    }
+   ]
+  },
+  {
+   "line": "20",
+   "desc": "Paper, Filler, Wide-Ruled, 100/Pack BISD# 205297",
+   "qty": 281.0,
+   "uom": "PK",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 38,
+   "match_method": "tokens 4/7",
+   "vendor": "Essendant",
+   "matched_sku": "UNV20920",
+   "matched_desc": "Filler Paper, 3-Hole, 8 X 10.5, Wide/legal Rule, 200/pack",
+   "matched_uom": "PK",
+   "uom_mismatch": false,
+   "raw_merch_cost": 1.25,
+   "freight": 0.0,
+   "landed_unit": 1.25,
+   "sell_unit": 1.47,
+   "extended": 413.07,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "BAZ568",
+     "desc": "Filler Paper, Side: 3-Hole Punched, Wide/Legal Rule, 150/Pack",
+     "uom": "PK",
+     "landed": 1.7,
+     "score": 38
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "PAC3203",
+     "desc": "Ecology Filler Paper, 3-Hole, 8 X 10.5, Wide/legal Rule, 150/pack",
+     "uom": "PK",
+     "landed": 1.7,
+     "score": 38
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-49-25-2025",
+     "desc": "3-1/2\" TRIANGLE SANDPAPER VARIETY PACK/25",
+     "uom": "ST",
+     "landed": 12.48,
+     "score": 19
+    }
+   ]
+  },
+  {
+   "line": "21",
+   "desc": "Laminating Pouches, 8.9\" X 11.4\", 3 ML Thick, 100 Per Pack BISD# 205284",
+   "qty": 58.0,
+   "uom": "PK",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 33,
+   "match_method": "tokens 3/6",
+   "vendor": "Essendant",
+   "matched_sku": "MMMPL903G",
+   "matched_desc": "Self-Sealing Laminating Pouches, 9.5 Mil, 2.81\" X 3.75\", Gloss Clear, 5/pack",
+   "matched_uom": "PK",
+   "uom_mismatch": false,
+   "raw_merch_cost": 1.43,
+   "freight": 0.0,
+   "landed_unit": 1.43,
+   "sell_unit": 1.68,
+   "extended": 97.44,
+   "alternates": [
+    {
+     "vendor": "Synnex",
+     "sku": "5738201P",
+     "desc": "LAMINATOR SPECTRA 95/9.5IN 120V NA + FREE PACK OF LAMINATING POUCHES",
+     "uom": "EA",
+     "landed": 72.27,
+     "score": 33
+    },
+    {
+     "vendor": "Synnex",
+     "sku": "5735801P",
+     "desc": "LAMINATOR SATURN 3I 95 9.5IN 120V US + FREE PACK OF LAMINATING POUCHES",
+     "uom": "EA",
+     "landed": 171.64,
+     "score": 33
+    },
+    {
+     "vendor": "Synnex",
+     "sku": "LS851-10G-SR",
+     "desc": "3M SCOTCH SELF SEALING LAMINATING POUCHES, 2.4IN X 3.8IN",
+     "uom": "EA",
+     "landed": 4.8678,
+     "score": 22
+    }
+   ]
+  },
+  {
+   "line": "22",
+   "desc": "12 Pack Colored Pencils, Presharpened (Crayola) BISD# 205272",
+   "qty": 472.0,
+   "uom": "BX",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 29,
+   "match_method": "tokens 3/7",
+   "vendor": "Essendant",
+   "matched_sku": "CYO682128",
+   "matched_desc": "Limited Edition Collection Colored Pencils, Assorted Lead and Barrel Colors, 8/Pack",
+   "matched_uom": "PK",
+   "uom_mismatch": true,
+   "raw_merch_cost": 1.55,
+   "freight": 0.0,
+   "landed_unit": 1.55,
+   "sell_unit": 1.82,
+   "extended": 859.04,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "495-48-22-3106",
+     "desc": "INKZALL FINE POINT COLORED MARKERS (4 PACK)",
+     "uom": "PK",
+     "landed": 5.501,
+     "score": 19
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "CYO688100",
+     "desc": "PENCILS,COLORED,100CT,AST",
+     "uom": "ST",
+     "landed": 28.857,
+     "score": 19
+    },
+    {
+     "vendor": "SP Richards",
+     "sku": "ROA12354CS",
+     "desc": "COLORED STENO BOOK PACK",
+     "uom": "CT",
+     "landed": 150.052,
+     "score": 19
+    }
+   ]
+  },
+  {
+   "line": "23",
+   "desc": "24 Count Classic Crayons (Crayola) BISD# 205276",
+   "qty": 652.0,
+   "uom": "BX",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 33,
+   "match_method": "tokens 3/6",
+   "vendor": "Educator Resource",
+   "matched_sku": "BIN520836007",
+   "matched_desc": "CRAYOLA BULK CRAYONS 12 COUNT BROWN",
+   "matched_uom": "BX",
+   "uom_mismatch": false,
+   "raw_merch_cost": 6.3,
+   "freight": 0.6425,
+   "landed_unit": 6.9425,
+   "sell_unit": 8.17,
+   "extended": 5326.84,
+   "alternates": [
+    {
+     "vendor": "Educator Resource",
+     "sku": "BIN520836038",
+     "desc": "CRAYOLA BULK CRAYONS 12 COUNT RED",
+     "uom": "BX",
+     "landed": 6.9425,
+     "score": 33
+    },
+    {
+     "vendor": "Educator Resource",
+     "sku": "BIN520836042",
+     "desc": "CRAYOLA BULK CRAYONS 12 COUNT BLUE",
+     "uom": "BX",
+     "landed": 6.9425,
+     "score": 33
+    },
+    {
+     "vendor": "Educator Resource",
+     "sku": "BIN520836044",
+     "desc": "CRAYOLA BULK CRAYONS 12 COUNT GREEN",
+     "uom": "BX",
+     "landed": 6.9425,
+     "score": 33
+    }
+   ]
+  },
+  {
+   "line": "25",
+   "desc": "Corrugated Boxes 18 X 18 X 12, Packing BISD# 250851",
+   "qty": 2907.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 26,
+   "match_method": "tokens 2/5",
+   "vendor": "Essendant",
+   "matched_sku": "UNV1286",
+   "matched_desc": "Fixed-Depth Corrugated Shipping Boxes, Regular Slotted Container (RSC), 8\" x 12\" x 6\", Brown Kraft, 25/Bundle",
+   "matched_uom": "BD",
+   "uom_mismatch": true,
+   "raw_merch_cost": 17.21,
+   "freight": 0.0,
+   "landed_unit": 17.21,
+   "sell_unit": 20.25,
+   "extended": 58866.75,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "UNV12106",
+     "desc": "Fixed-Depth Corrugated Shipping Boxes, Regular Slotted Container (RSC), 10\" x 12\" x 6\", Brown Kraft, 25/Bundle",
+     "uom": "BD",
+     "landed": 18.64,
+     "score": 26
+    },
+    {
+     "vendor": "Synnex",
+     "sku": "613466",
+     "desc": "60 X 24 X 24IN LONG CORRUGATED BOXES",
+     "uom": "EA",
+     "landed": 18.9333,
+     "score": 26
+    },
+    {
+     "vendor": "Essendant",
+     "sku": "UNV181212",
+     "desc": "Fixed-Depth Corrugated Shipping Boxes, Regular Slotted Container (RSC), 12\" x 18\" x 12\", Brown Kraft, 25/Bundle",
+     "uom": "BD",
+     "landed": 58.105,
+     "score": 26
+    }
+   ]
+  },
+  {
+   "line": "26",
+   "desc": "Box, District Records Storage w/Lid (12/Pack) 15X12X10 BISD# 300001",
+   "qty": 72.0,
+   "uom": "PK",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 19,
+   "match_method": "tokens 2/7",
+   "vendor": "Synnex",
+   "matched_sku": "MDRDSU01AZRCAA",
+   "matched_desc": "CENTRAL DATA STORAGE - 1 YR PACK - 20000+ USERS AND SERVERS - 1 MOS - RENEWAL",
+   "matched_uom": "EA",
+   "uom_mismatch": true,
+   "raw_merch_cost": 0.52,
+   "freight": 0.0415,
+   "landed_unit": 0.5615,
+   "sell_unit": 0.66,
+   "extended": 47.52,
+   "alternates": [
+    {
+     "vendor": "Synnex",
+     "sku": "MDRDSU01AZREAA",
+     "desc": "CENTRAL DATA STORAGE - 1 YR PACK - 20000+ USERS AND SERVERS - 1 MOS - RENEWAL -",
+     "uom": "EA",
+     "landed": 0.5615,
+     "score": 19
+    },
+    {
+     "vendor": "Synnex",
+     "sku": "MDRDSU01AZRGAA",
+     "desc": "CENTRAL DATA STORAGE - 1 YR PACK - 20000+ USERS AND SERVERS - 1 MOS - RENEWAL -",
+     "uom": "EA",
+     "landed": 0.5615,
+     "score": 19
+    },
+    {
+     "vendor": "Synnex",
+     "sku": "MDRDSU18ADRCAA",
+     "desc": "CENTRAL DATA STORAGE - 1 YR PACK - 50-99 USERS AND SERVERS - 18 MOS - RENEWAL",
+     "uom": "EA",
+     "landed": 20.8133,
+     "score": 19
+    }
+   ]
+  },
+  {
+   "line": "27",
+   "desc": "Stretch Wrap 80 Gauge, 20\" Width, 6000 Feet, Clear",
+   "qty": 10.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 29,
+   "match_method": "tokens 3/7",
+   "vendor": "Essendant",
+   "matched_sku": "FOD18281500",
+   "matched_desc": "Polyethene Stretch, 17.25\" x 1,500 ft, 28-Gauge, Clear, 4 Rolls/Carton",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 34.36,
+   "freight": 0.0,
+   "landed_unit": 34.36,
+   "sell_unit": 40.42,
+   "extended": 404.2,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "950-AG25627",
+     "desc": "LIGHT ARMOUR CLEAR WRAPAROUND SAFETY GLASSES",
+     "uom": "PK",
+     "landed": 12.6,
+     "score": 19
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "761-H12033000-V6",
+     "desc": "CAST STRETCH FILM 20.3MI30 IN 6000 FT",
+     "uom": "RL",
+     "landed": 182.918,
+     "score": 19
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "761-HO1782000-V6",
+     "desc": "17.8MI SSC STR FLX 20\"X6000' STRETCH FILM",
+     "uom": "PL",
+     "landed": 4328.4,
+     "score": 19
+    }
+   ]
+  },
+  {
+   "line": "28",
+   "desc": "Blades, Utility Knife Standard (5/Pack) BISD# 080085",
+   "qty": 14.0,
+   "uom": "PK",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 38,
+   "match_method": "tokens 4/7",
+   "vendor": "Essendant",
+   "matched_sku": "COS091470",
+   "matched_desc": "Heavy-Duty Utility Knife Blades, 10/pack",
+   "matched_uom": "PK",
+   "uom_mismatch": false,
+   "raw_merch_cost": 1.76,
+   "freight": 0.0,
+   "landed_unit": 1.76,
+   "sell_unit": 2.07,
+   "extended": 28.98,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "926-E11102-8",
+     "desc": "PHC RPK-340 PLASTIC MANUAL-RETRACT UTILITY KNIFE",
+     "uom": "EA",
+     "landed": 1.238,
+     "score": 19
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "926-E13105-7",
+     "desc": "ALL-PURPOSE UTILITY KNIFE",
+     "uom": "EA",
+     "landed": 4.011,
+     "score": 19
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "926-E13102-9",
+     "desc": "PHC SAFTY GRIP RETRACTABLE UTILITY KNIFE",
+     "uom": "EA",
+     "landed": 4.464,
+     "score": 19
+    }
+   ]
+  },
+  {
+   "line": "30",
+   "desc": "Seat, Toilet, White-Elongated BISD# 091925",
+   "qty": 26.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 33,
+   "match_method": "tokens 3/6",
+   "vendor": "Essendant",
+   "matched_sku": "KCC07410PK",
+   "matched_desc": "Personal Seats Sanitary Toilet Seat Covers, 15 X 18, White, 125/pack",
+   "matched_uom": "PK",
+   "uom_mismatch": true,
+   "raw_merch_cost": 4.02,
+   "freight": 0.0,
+   "landed_unit": 4.02,
+   "sell_unit": 4.73,
+   "extended": 122.98,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-09505",
+     "desc": "WINDOWS PERSONAL SEAT DISPENSER WHITE",
+     "uom": "EA",
+     "landed": 22.253,
+     "score": 22
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-09506",
+     "desc": "INSIGHT PERSONAL TOILETSEAT COVER DISPENSER",
+     "uom": "EA",
+     "landed": 22.253,
+     "score": 22
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "863-HOSHG2500",
+     "desc": "C-TOILET SEAT COVERS 10/250'S",
+     "uom": "CA",
+     "landed": 32.927,
+     "score": 22
+    }
+   ]
+  },
+  {
+   "line": "31",
+   "desc": "Pad, 20\" Melamine (5/CS) BISD# 012171",
+   "qty": 50.0,
+   "uom": "CS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap"
+  },
+  {
+   "line": "32",
+   "desc": "Pad, 14\", Yellow/Gold, Clean & Shine (5/CS) BISD# 012191",
+   "qty": 6.0,
+   "uom": "CS",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 33,
+   "match_method": "tokens 3/6",
+   "vendor": "Essendant",
+   "matched_sku": "MMM09550",
+   "matched_desc": "Clean and Shine Pad, 12\" Diameter, Brown/Yellow, 5/Carton",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 55.27,
+   "freight": 0.0,
+   "landed_unit": 55.27,
+   "sell_unit": 65.02,
+   "extended": 390.12,
+   "alternates": [
+    {
+     "vendor": "Synnex",
+     "sku": "FCDUS497V101",
+     "desc": "1FT -CERTIFIED CAT6, 500 MHZ, YELLOW PATCH CABLE WITH 50 MICRON GOLD PLATED CONT",
+     "uom": "EA",
+     "landed": 3.5181,
+     "score": 22
+    },
+    {
+     "vendor": "Educator Resource",
+     "sku": "TCR4599",
+     "desc": "YELLOW GOLD SCALLOPED BORDER TRIM",
+     "uom": "PK",
+     "landed": 9.0608,
+     "score": 22
+    },
+    {
+     "vendor": "Educator Resource",
+     "sku": "WNX0301088",
+     "desc": "HALF PAN YELLOW GOLD",
+     "uom": "EA",
+     "landed": 11.832,
+     "score": 22
+    }
+   ]
+  },
+  {
+   "line": "33",
+   "desc": "Radar Acoustical Panels 2' X 4' (8/CS) BISD# 083300",
+   "qty": 44.0,
+   "uom": "CS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap"
+  },
+  {
+   "line": "34",
+   "desc": "Radar Firecode Acoustical Panels 2' X 2' (16/CS) BISD# 083326",
+   "qty": 110.0,
+   "uom": "CS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap"
+  },
+  {
+   "line": "35",
+   "desc": "Soap, Hand, Healthy, ES10 Fragrance Free 1200ML 2/CS BISD# 510048",
+   "qty": 40.0,
+   "uom": "CS",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 38,
+   "match_method": "tokens 5/9",
+   "vendor": "Essendant",
+   "matched_sku": "GOJ838502CT",
+   "matched_desc": "HEALTHY SOAP with CLEAN RELEASE Technology Refill, For ES10 Dispensers, Fragrance-Free, 1,200 mL, 2/Carton",
+   "matched_uom": "CT",
+   "uom_mismatch": true,
+   "raw_merch_cost": 41.52,
+   "freight": 0.0,
+   "landed_unit": 41.52,
+   "sell_unit": 48.85,
+   "extended": 1954.0,
+   "alternates": [
+    {
+     "vendor": "Essendant",
+     "sku": "GOJ838302CT",
+     "desc": "Antimicrobial Foaming Hand Soap Refill, For ES10 Dispensers, Fragrance-Free, 1,200 mL, 2/Carton",
+     "uom": "CT",
+     "landed": 42.64,
+     "score": 38
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "993-91565",
+     "desc": "KIMCARE GEN. LUXURY FOAMFRAGRANCE&DYE FREECLR6",
+     "uom": "CA",
+     "landed": 60.285,
+     "score": 15
+    }
+   ]
+  },
+  {
+   "line": "36",
+   "desc": "Floor Finish, Shine 100, 5 Gal, Bag-in-Box BISD# 013381",
+   "qty": 600.0,
+   "uom": "BX",
+   "part": "",
+   "non_product": false,
+   "confidence": "low",
+   "match_score": 26,
+   "match_method": "tokens 2/5",
+   "vendor": "Essendant",
+   "matched_sku": "PGC02621EA",
+   "matched_desc": "Finished Floor Cleaner, Lemon Scent, 1 gal Bottle",
+   "matched_uom": "EA",
+   "uom_mismatch": true,
+   "raw_merch_cost": 17.19,
+   "freight": 0.0,
+   "landed_unit": 17.19,
+   "sell_unit": 20.22,
+   "extended": 12132.0,
+   "alternates": [
+    {
+     "vendor": "ORS Nasco",
+     "sku": "608-02621",
+     "desc": "MR.CLEAN PROFESSIONAL FINISHED FLOOR CLEANER 1GA",
+     "uom": "CA",
+     "landed": 63.729,
+     "score": 26
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "866-6050400",
+     "desc": "GLARE  FLOOR FINISH",
+     "uom": "CA",
+     "landed": 80.652,
+     "score": 26
+    },
+    {
+     "vendor": "ORS Nasco",
+     "sku": "866-605B500",
+     "desc": "GLARE FLOOR FINISH",
+     "uom": "EA",
+     "landed": 93.008,
+     "score": 26
+    }
+   ]
+  },
+  {
+   "line": "37",
+   "desc": "Catalog Discount",
+   "qty": 1.0,
+   "uom": "",
+   "part": "",
+   "non_product": true
+  }
+ ]
+}

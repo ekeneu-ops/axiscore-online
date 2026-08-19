@@ -1,0 +1,41 @@
+>> 174 cost-file candidate(s):
+   [score 3] validation_diff_2026-06-11.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 3] validation_diff_2026-06-11.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 4] best_cost_summary_2026-06-11.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 4] _latest_summary.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 4] _latest_summary.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 4] best_cost_summary_2026-06-11.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 8] _latest_full.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 8] best_cost_full_2026-06-11.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 8] _latest_full.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 8] best_cost_full_2026-06-11.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 3] validation_diff_2026-06-10.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 3] validation_diff_2026-06-10.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 4] best_cost_summary_2026-06-10.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 4] best_cost_summary_2026-06-10.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 8] best_cost_full_2026-06-10.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 8] best_cost_full_2026-06-10.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 3] validation_diff_2026-06-09.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 3] validation_diff_2026-06-09.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 4] best_cost_summary_2026-06-09.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 4] best_cost_summary_2026-06-09.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 8] best_cost_full_2026-06-09.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 8] best_cost_full_2026-06-09.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 3] validation_diff_2026-06-08.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 3] validation_diff_2026-06-08.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 4] best_cost_summary_2026-06-08.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 4] best_cost_summary_2026-06-08.csv | cols=['sku', 'winning_vendor', 'winning_vendor_id_raw', 'winning_cost', 'winning_shipping_cost', 'winning_total_cost', 'winning_uom', 'winning_manufacturer', 'vendor_count', 'production_match', 'is_stale_per_vendor_file_log', 'no_winner_reason', 'ingested_at', 'time_since_last_vendor_load']
+   [score 8] best_cost_full_2026-06-08.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 8] best_cost_full_2026-06-08.csv | cols=['sku', 'vendor', 'vendor_id_raw', 'cost', 'uom', 'qty', 'weight', 'shipping_cost', 'total_cost', 'manufacturer', 'description', 'coo', 'source_table', 'is_winner']
+   [score 3] validation_diff_2026-06-07.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+   [score 3] validation_diff_2026-06-07.csv | cols=['sku', 'phase_b_winning_vendor', 'production_winning_vendor', 'phase_b_total_cost', 'production_total_cost', 'delta', 'divergence_type']
+
+CHOSEN: /Users/ekeneudoye/Google Drive/My Drive/Axiscore Agent Team/Mission Control/Best Cost File/_latest_full.csv
+catalog rows: 3016578
+column map: {'sku': 0, 'cost': 3, 'freight': 7, 'vendor': 1, 'uom': 4, 'brand': 9, 'name': None, 'desc': 10, 'upc': None}
+margin: 15% net  (adjustable)
+
+birdville-isd-tx-003-27-addendum-1              hi 0 / med 2 / low 28 / gap 3  (of 33)  draft sell $252,713  cost $214,794
+city-of-council-bluffs-ia-purch-2026-36         hi 0 / med 0 / low 3 / gap 2  (of 5)  draft sell $71  cost $60
+campbell-county-school-district-wy-26-052-adde  hi 13 / med 21 / low 1 / gap 0  (of 35)  draft sell $112,376  cost $95,506
+harlingen-cisd-tx-clib0626                      hi 0 / med 0 / low 0 / gap 0  (of 0)  draft sell $0  cost $0

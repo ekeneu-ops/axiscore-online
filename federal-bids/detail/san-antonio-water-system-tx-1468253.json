@@ -1,0 +1,63 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1468253",
+ "bid_number": "1468253",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "CHLR CALCIUM HYPOCHLORITE 100 LBS",
+ "close": "8/21/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "ITEM #10347 DESC: CHLR CALCIUM HYPOCHLORITE 100 LBS EXP. DESC: UN2880 CALCIUM HYPOCHLORITE HYDRATED MIXTURES, PG II, 5.1 Packaging Group II (High Danger) Class 5.1 (Oxidizer) Calcium Hypochlorite, granular, minimum 65% available chlorine content, white to light-gray appearance, supplied in moisture-resistant packaging totaling 100 pounds. Product shall be suitable for water treatment and disinfection applications and furnished with appropriate SDS and manufacturer quality documentation. [brglimited.com], [versattoquimica.com] Shipping must be included in price.",
+   "qty": "16",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 ITEM #10347 DESC: CHLR CALCIUM HYPOCHLORITE 100 LBS EXP. DESC: UN2880 CALCIUM HYPOCHLORITE HYDRATED MIXTURES, PG II, 5.1 Packaging Group II (High Danger) Class 5.1 (Oxidizer) Calcium Hypochlorite, granular, minimum 65% available chlorine content, white to light-gray appearance, supplied in moisture-resistant packaging totaling 100 pounds. Product shall be suitable for water treatment and disinfection applications and furnished with appropriate SDS and manufacturer quality documentation. [brglimited.com], [versattoquimica.com] Shipping must be included in price. 16 EACH No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.1,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 219404,
+  "max_fetch_seconds": 0.66,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:22:45.711904+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/san-antonio-water-system-tx-1468253/coverage.json"
+}

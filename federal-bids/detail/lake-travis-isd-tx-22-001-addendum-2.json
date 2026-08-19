@@ -1,0 +1,59 @@
+{
+ "bid_id": "lake-travis-isd-tx-22-001-addendum-2",
+ "bid_number": "22-001 Addendum 2",
+ "agency": "Lake Travis ISD, TX",
+ "src": "Open",
+ "title": "Instructional Materials & Supplies",
+ "close": "6/30/2027 01:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:instructional material",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Terms and Conditions for Solicitations V03 April 2021.pdf",
+  "22-001 Addendum 2 Extension.pdf",
+  "Vendor Information Form _fillable_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions for Solicitations V03 April 2021.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "22-001 Addendum 2 Extension.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Information Form _fillable_.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.8,
+  "attachment_fetches": 3,
+  "attachment_seconds": 5.8,
+  "attachment_bytes": 1399406,
+  "max_fetch_seconds": 3.76,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:35:09.943499+00:00",
+ "extract_attempts": 1
+}

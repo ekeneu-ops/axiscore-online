@@ -1,0 +1,14 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,"AIO Desktops (ex: Lenovo M93z, M93P) - i5, 128GB Solid State Drive, 8GB Memory",1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,Monitors (Flat Screen),1.0,EA,,token,Synnex,AF-AA-P,"MONITOR ARM - LANDSCAPE OR PORTRAIT VIEWING, FLAT SCREEN MONITORS: MAXIMUM LOAD",EA,1,False,False,41.09,2.6667,43.7567,51.48,51.48,,Synnex AWMS-46W35-B @ 157.21,Synnex AWMS-3-13714-F-W @ 203.62
+3,"Laptops (ex: Lenovo Yoga 11e, L540) - some may have power cords",1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,Various Printers/Fax Machines,1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+5,eInstruction Clickers (various models),1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+6,eInstruction Slates,1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,Network Switches,1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+8,"Projectors (ex: Epson PowerLite 99W, Promethean UST-P1)",1.0,EA,,token,Synnex,V13H134A56,"EPSON REPLACEMENT FILTER FOR POWERLITE L SERIES PROJECTORS / L4XX, L5XX, L6XX -",EA,10.0,False,False,47.05,2.6667,49.7167,58.49,58.49,,Synnex V13H010L74 @ 178.86,
+9,Document Cameras,1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+10,Televisions (flat screen),1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+11,Apple TVs,1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+12,iPads all generations,1.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+13,any other technology items.,1.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

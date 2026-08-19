@@ -1,0 +1,66 @@
+{
+ "bid_id": "killeen-isd-tx-26-31-07-091",
+ "bid_number": "26-31-07-091",
+ "agency": "Killeen ISD, TX",
+ "src": "Invited",
+ "title": "Laptops for Child Nutrition Supper Program",
+ "close": "7/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:ppe",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Specification Packet -Laptops for Child Nutrition Supper Program.pdf",
+  "Texas Regulations Certifications.pdf",
+  "Federal Regulations Certifications - Laptops.pdf",
+  "Standard Terms and Conditions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Specification Packet -Laptops for Child Nutrition Supper Program.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Texas Regulations Certifications.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Federal Regulations Certifications - Laptops.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.0,
+  "attachment_fetches": 4,
+  "attachment_seconds": 10.8,
+  "attachment_bytes": 2879133,
+  "max_fetch_seconds": 5.39,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T11:50:01.167795+00:00"
+}

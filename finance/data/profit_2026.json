@@ -1,0 +1,187 @@
+{
+  "schema": "profit_2026_v1",
+  "generated": "2026-06-12",
+  "period": "2026-01-01 through 2026-06-10",
+  "scope": "Amazon channel only (per brief). Non-Amazon (GSA/FedMall/Shopify) excluded; share reported below.",
+  "headlines": {
+    "earned_profit_2026_amazon": 99467.11,
+    "earned_profit_pct_of_revenue": 8.7,
+    "net_cash_impact_to_date": 169072.72
+  },
+  "number_1_earned_profit": {
+    "lines": [
+      {
+        "label": "Amazon gross revenue 2026 (product, ex-tax)",
+        "amount": 1142904.46,
+        "basis": "sourced",
+        "source": "mirror_magento.sales_flat_order, 9,964 non-canceled Amazon-format orders 2026-01-01..06-10, sum(base_subtotal); query run #27/#29",
+        "note": "Shipping collected = $0.00 all year (verified monthly). Tax collected $47,934.04 excluded (Amazon remits as marketplace facilitator). SP-API orders table only starts 2026-02-10, so Magento mirror is the full-year source."
+      },
+      {
+        "label": "Amazon fees 2026 (all types)",
+        "amount": -166098.09,
+        "basis": "SOURCED",
+        "source": "spapi.financial_events order-matched to the Magento Amazon population (degated query run #53, 2026-06-12): Commission -156,129.14 + VariableClosingFee -3.82 + refund-side commission returned +7,652.35 + refund-processing fee -905.79 = -149,386.40 posted fees across 9,009 of 10,031 orders (89.94% of revenue, $1,032,928.06); plus -16,711.69 on the $115,552.52 not-yet-posted tail at the sourced 14.4624% rate",
+        "note": "Backfill complete: 197,765 events Dec 24 2025 -> today (NextToken fix). All other fee types exactly $0.00 in 2026 (FixedClosing, DigitalServices, GiftwrapCommission, CSBA, SalesTaxCollection, ShippingHB). Charge-side wash: Tax +47,292.05 vs MFT TaxWithheld -47,292.05 = $0.00 exactly. The tail accrual is sourced-rate x identified unposted revenue and converts to posted fees as recent orders ship.",
+        "formula": "-149,386.40 posted + -16,711.69 tail accrual"
+      },
+      {
+        "label": "Refunds/chargebacks net 2026",
+        "amount": -14813.35,
+        "basis": "sourced",
+        "source": "mirror_magento.sales_flat_creditmemo joined to Amazon-format orders: 473 credit memos 2026, sum(base_grand_total) (run #29)",
+        "note": "Settlement-window refunds (May 6-Jun 3) were -$8,729.16; A-to-z chargebacks -$49.27 in window. Full-year chargebacks beyond credit memos not separately sourced."
+      },
+      {
+        "label": "= AMAZON NET PROCEEDS 2026",
+        "amount": 961993.02,
+        "basis": "derived",
+        "source": "",
+        "note": "Was 956,588.25 with the modeled fee line. Actual deposits May 6-Jun 3 (6 settlements): $204,836.33."
+      },
+      {
+        "label": "Vendor billed 2026 - Essendant (Amazon-channel orders)",
+        "amount": -826966.15,
+        "basis": "sourced",
+        "source": "mirror_erp_advance.vendor_invoice_list, invoice_date>=2026-01-01, vendor map per master_vendor_profile_list, channel_order_id Amazon-format; 9,465 invoices (run #28)",
+        "note": "Audit total ALL channels = $916,619.63 (9,680 invoices) - matches ESS audit exactly; $89,653.48 of it is non-Amazon-channel and excluded from the Amazon-only headline. ESS audit: net overbilled +$4,055.94; 55 exact double-bills $3,173.44; freight overbills $5,179.67 gross (dispute before paying)."
+      },
+      {
+        "label": "Vendor billed 2026 - SP Richards (Amazon-channel orders)",
+        "amount": -34933.86,
+        "basis": "sourced",
+        "source": "same query; 650 invoices (run #28)",
+        "note": "SPR all-channel 2026 = $69,561.96 (770 invoices); $34,628.10 non-Amazon excluded from headline."
+      },
+      {
+        "label": "Vendor billed 2026 - FedEx freight (in ERP invoice table, Amazon-channel)",
+        "amount": -625.9,
+        "basis": "sourced-partial",
+        "source": "vendor_invoice_list vendor_code='fedex': 27 Amazon-channel invoices (run #28)",
+        "note": "NAMED GAP: this is NOT the full FedEx freight bill. fedex_records lives in prod ERP (axiscore_erp_new), not mirrored to the warehouse. Last-known FedEx payable ~$12,000 (net-position feed, 6/8, CONFIRM flag)."
+      },
+      {
+        "label": "Vendor billed 2026 - ISG",
+        "amount": 0,
+        "basis": "GAP",
+        "source": "none",
+        "note": "NAMED GAP at $0: no ISG table exists in the warehouse (verified info-schema, run #25). ISG open payable $5,343.41 (net-position feed 6/8). 2026 billed total requires the ISG portal feed."
+      },
+      {
+        "label": "= EARNED PROFIT 2026 (Amazon channel)",
+        "amount": 99467.11,
+        "basis": "derived",
+        "source": "",
+        "note": "8.70% of gross revenue. NO modeled components remain - the fee line (the only one) was sourced 2026-06-12."
+      }
+    ],
+    "as_pinned_all_channel_vendor_view": {
+      "amount": -30344.71,
+      "note": "If you subtract the PINNED all-channel vendor totals (ESS 916,619.63 + SPR 69,561.96 + FedEx-ERP 751.37 = 986,932.96) from Amazon-only net proceeds, you get -$30,344.71. That number mixes scopes: it charges Amazon revenue with ~$124,407 of cost that fulfilled NON-Amazon orders whose ~$273.6K revenue is excluded. The matched Amazon-only figure ($94,062.34) is the honest one."
+    },
+    "memo_vendor_credits": {
+      "open_sum": 45530.6,
+      "nets_open_invoices": 37431.41,
+      "recoverable": 5469.63,
+      "source": "finance/ap/data.json.credits live 2026-06-10",
+      "note": "Open ESS/SPR credits are NOT netted into the vendor-billed lines above. If applied, effective 2026 vendor cost and AP both drop by up to ~$37.4K."
+    },
+    "memo_other_vendors_2026_non_amazon": {
+      "AVY": 50920.36,
+      "ARL": 1388.67,
+      "SAN": 1310.4,
+      "TRIM": 337,
+      "fedex_oth": 125.47,
+      "note": "All non-Amazon-channel; excluded from Amazon-only headline."
+    }
+  },
+  "number_2_cash_from_those_sales": {
+    "lines": [
+      {
+        "label": "Earned profit 2026 (Amazon)",
+        "amount": 99467.11,
+        "basis": "derived",
+        "source": "Number 1"
+      },
+      {
+        "label": "+ Vendor AP billed-but-not-paid (ESS+SPR)",
+        "amount": 238545.25,
+        "basis": "sourced",
+        "source": "AP scrutiny statement-as-truth $197,723.99 (stmt 6/3) + live recent $40,821.26 through 6/9 (finance/ap/data.json, generated 2026-06-10 12:29Z)",
+        "note": "Billed cost already deducted in earned profit but cash still in our account. ESS+SPR only; statement may include some pre-2026 balance; channel split of AP not available from statement. Off-statement items (ZOLL $3,934.14, Veritiv ~$67K, FedEx ~$12K, ISG $5,343.41) tracked separately and NOT in this line."
+      },
+      {
+        "label": "- Amazon held funds (net, earned not yet released)",
+        "amount": -168657.92,
+        "basis": "sourced",
+        "source": "finance/ap/data.json held.net - P1 derivation VALIDATED 2026-06-12 vs Seller Central transaction view (derived 168,657.92 vs SC 168,440.58, delta $217.34 PASS)",
+        "note": "Replaces the 6/08 3-bucket estimate (-150,237.20). Nightly >20% day-over-day self-check suppresses publish on suspect moves."
+      },
+      {
+        "label": "- Trade AR invoiced-not-collected",
+        "amount": -281.72,
+        "basis": "sourced-stale",
+        "source": "recon, 2026-05-26",
+        "note": "Immaterial."
+      },
+      {
+        "label": "= NET CASH IMPACT TO DATE (2026 Amazon sales)",
+        "amount": 169072.72,
+        "basis": "derived",
+        "source": "",
+        "note": "Cash currently sitting with the business from 2026 Amazon operations: profit plus vendor cash not yet paid out, minus Amazon's hold."
+      }
+    ],
+    "plaid_sanity_check": {
+      "liquid_now": 55368.34,
+      "detail": "BOA chk 4908 $67,955.85 + sav $503.49 + chk 6503 $140.15 + PayPal $0 - Amex $13,231.15 (Plaid LIVE 2026-06-10 14:50Z, net_position.json)",
+      "residual_formula": "Liquid_now - Liquid_Jan1 = NetCashImpact(182,088.67) + non-Amazon-channel cash flows - everything outside this P&L (PPC/ad spend, payroll/opex, software, SBA debt service, owner draws, Amex payments, 2025-legacy AP payments like Veritiv/ZOLL)",
+      "residual": "UNKNOWN - Jan-1 liquid baseline not sourceable (Plaid feed began June 2026; no 2026 bank-transaction history in any feed). If Jan-1 liquid was ~$0, then ~$126.7K (182.1K - 55.4K + Jan1) went to costs outside this P&L plus non-Amazon timing. NOT FORCED - named gap. QBO bank reads could close this; separate task.",
+      "note": "PPC/advertising spend appears NOWHERE in Number 1 (settlement other-transaction was only +$96.91 in the window; ads are billed outside settlements). It is a real 2026 cost outside this brief's formula."
+    }
+  },
+  "non_amazon_share_2026": {
+    "orders_live": 295,
+    "orders_live_pct": 2.9,
+    "orders_incl_canceled": 405,
+    "revenue_grand": 273618.74,
+    "revenue_pct_of_live_grand": 18.7,
+    "note": "GSA/FedMall/Shopify etc: 2.9% of live order count but 18.7% of live grand revenue (avg order ~$927 vs ~$120 Amazon). Excluded from this pass per brief."
+  },
+  "coverage": {
+    "spapi.orders": "2026-02-10..06-10 only (3,294 of 2026) - FAILED full-year gate; not used for revenue",
+    "spapi.settlements": "2026-05-06..06-03 (6 settlements, $204,836.33) - used to MEASURE fee rate only",
+    "spapi.financial_events": "2025-12-24..today, 197,765 events (NextToken fix + 170-day backfill) - SOURCED fee line basis (degated run #53, 6/12)",
+    "spapi.returns": "EMPTY",
+    "mirror_magento.sales_flat_order/creditmemo": "full 2026 (orders 2026-01-01..06-10) - revenue + refunds source",
+    "mirror_erp_advance.vendor_invoice_list": "full 2026 - vendor billed source; warehouse mirrored through 2026-06-09; SPR EDI lags ~0.5 day",
+    "query_runs": [
+      "#25 27285682778 schema",
+      "#26 27285936015 coverage",
+      "#27 27286214656 fee types+magento+vendor",
+      "#28 27286489290 channel split+status",
+      "#29 27286774620 creditmemos+monthly",
+      "#30 27287163402 settlement-vs-gross",
+      "#53 27436136928 sourced fee split (6/12)"
+    ]
+  },
+  "reissue": "v2 2026-06-12: fee line MODELED->SOURCED + held-funds line refreshed to the P1 VALIDATED net. v1 published 2026-06-10.",
+  "reissue_delta_2026_06_12": {
+    "old_headline": {
+      "earned_profit": 94062.34,
+      "pct": 8.23,
+      "fee_line": -171502.86,
+      "fee_basis": "MODELED 15.0059% x gross"
+    },
+    "new_headline": {
+      "earned_profit": 99467.11,
+      "pct": 8.7,
+      "fee_line": -166098.09,
+      "fee_basis": "SOURCED (posted fees + sourced-rate tail accrual)"
+    },
+    "fee_line_difference": 5404.77,
+    "tie_out": "Old EP $94,062.34 (8.23%) + fee-line correction +$5,404.77 = new EP $99,467.11 (8.70%) on the same published revenue base $1,142,904.46. The modeled 15.0059% overstated the fee drag by 0.47pt of revenue: the settlement-window deposit rate folded in refund-principal timing that this P&L already carries on its separate sourced refunds line.",
+    "cash_impact_tie_out": "Net cash impact 182,088.67 -> 169,072.72 = +5,404.77 (fee correction) - 18,420.72 (held funds refreshed from the stale 6/08 150,237.20 to the validated net 168,657.92).",
+    "population_note": "Fee query population: 10,031 non-canceled Amazon-format orders at the 6/12 mirror vs 9,964 at the 6/10 intraday run (late-mirrored 6/10 orders + status changes). Revenue line kept at the published 1,142,904.46; the extra ~67 orders posted fees (~$1.0K) are included, making the new EP marginally conservative."
+  }
+}

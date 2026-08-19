@@ -1,0 +1,67 @@
+{
+ "bid_id": "united-isd-tx-rfp-2026-022",
+ "bid_number": "RFP 2026-022",
+ "agency": "United ISD, TX",
+ "src": "Invited",
+ "title": "Psychological Services for United ISD Employees",
+ "close": "8/19/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Specifications - RFP 2026-022.pdf",
+  "FORMS FOR PROPOSALS 10.08.25.pdf",
+  "United ISD Insurance Requirements for Service Providers 2025.pdf",
+  "United ISD Insuranance Requirements For Professional Service Providers 2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Specifications - RFP 2026-022.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORMS FOR PROPOSALS 10.08.25.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "United ISD Insurance Requirements for Service Providers 2025.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "United ISD Insuranance Requirements For Professional Service Providers 2025.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 39.6,
+  "attachment_fetches": 4,
+  "attachment_seconds": 31.8,
+  "attachment_bytes": 3164791,
+  "max_fetch_seconds": 26.59,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-12T08:27:44.062127+00:00",
+ "extract_attempts": 1
+}

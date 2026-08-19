@@ -1,0 +1,51 @@
+{
+ "bid_id": "hallsville-isd-tx-no-2025-001",
+ "bid_number": "No. 2025-001",
+ "agency": "Hallsville ISD, TX",
+ "src": "Open",
+ "title": "Catalog Contract for Educational Contracted Services and Materials",
+ "close": "8/31/2027 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Final-Terms and Conditions-Educational Contracted Services-Materials.pdf",
+  "CIQ - Blank Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Final-Terms and Conditions-Educational Contracted Services-Materials.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ - Blank Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.7,
+  "attachment_fetches": 2,
+  "attachment_seconds": 4.0,
+  "attachment_bytes": 311459,
+  "max_fetch_seconds": 2.62,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:47:22.163223+00:00",
+ "extract_attempts": 1
+}

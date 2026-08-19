@@ -1,0 +1,51 @@
+{
+ "bid_id": "round-rock-isd-tx-23-001",
+ "bid_number": "23-001",
+ "agency": "Round Rock ISD, TX",
+ "src": "Open",
+ "title": "Enrichment Classes After School/Summer",
+ "close": "7/31/2027 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "General Provisions v.5 FINAL 09082021.pdf",
+  "23-001 - AFTERSCHOOL-SUMMER ENRICHMENT CLASSES APPLICATION.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General Provisions v.5 FINAL 09082021.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "23-001 - AFTERSCHOOL-SUMMER ENRICHMENT CLASSES APPLICATION.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.3,
+  "attachment_fetches": 2,
+  "attachment_seconds": 3.4,
+  "attachment_bytes": 455110,
+  "max_fetch_seconds": 2.03,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:45:19.817380+00:00",
+ "extract_attempts": 1
+}

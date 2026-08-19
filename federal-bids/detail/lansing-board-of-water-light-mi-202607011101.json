@@ -1,0 +1,91 @@
+{
+ "bid_id": "lansing-board-of-water-light-mi-202607011101",
+ "bid_number": "202607011101",
+ "agency": "Lansing Board of Water & Light, MI",
+ "src": "Invited",
+ "title": "Turnkey Services",
+ "close": "7/15/2026 02:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "ITB- Turnkey Services.docx",
+  "Terms and Conditions for Services_Turnkey Services RFP_July 2026.docx",
+  "Scope of Work - Turnkey Services 06.30.2026.docx",
+  "Wage Rate  Sheet.xlsx",
+  "Sworn_and_Notarized_Affidavit_of_Compliance_-_Iran_Economic_Sanctions_Act_Revised_May_2018.pdf",
+  "Supplier Bid Response Tutorial.pdf",
+  "iPayables User Guide.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ITB- Turnkey Services.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Terms and Conditions for Services_Turnkey Services RFP_July 2026.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Scope of Work - Turnkey Services 06.30.2026.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Wage Rate  Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sworn_and_Notarized_Affidavit_of_Compliance_-_Iran_Economic_Sanctions_Act_Revised_May_2018.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Bid Response Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "iPayables User Guide.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 20.3,
+  "attachment_fetches": 7,
+  "attachment_seconds": 12.1,
+  "attachment_bytes": 3888534,
+  "max_fetch_seconds": 3.91,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:25:15.291083+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,63 @@
+{
+ "bid_id": "city-of-hot-springs-hs-26-052",
+ "bid_number": "HS-26-052",
+ "agency": "City of Hot Springs",
+ "src": "Open",
+ "title": "Surplus Sale of Scrap Metal",
+ "close": "7/17/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Scrap Metal Location 785 Adams Street.",
+   "qty": "60000",
+   "uom": "Pound",
+   "note": "Weight is approximate",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Scrap Metal Location 785 Adams Street. 60000 Pound No Response"
+  }
+ ],
+ "attachments_saved": [
+  "HS-26-052 Surplus Sale of Scrap Metal.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "HS-26-052 Surplus Sale of Scrap Metal.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 20.7,
+  "attachment_fetches": 1,
+  "attachment_seconds": 1.7,
+  "attachment_bytes": 189791,
+  "max_fetch_seconds": 1.69,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:17:19.888658+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-hot-springs-hs-26-052/coverage.json"
+}

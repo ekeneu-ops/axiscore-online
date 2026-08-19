@@ -1,0 +1,83 @@
+{
+ "bid_id": "eagle-mountain-saginaw-isd-tx-2425-001-2029-a",
+ "bid_number": "2425-001-2029-A",
+ "agency": "Eagle Mountain-Saginaw ISD, TX",
+ "src": "Open",
+ "title": "Retail and Wholesale Merchandise Stores, Food Suppliers and Restaurants/Catering",
+ "close": "7/31/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Electronic Submission Instructions 2016.pdf",
+  "EMS_ISD_STANDARD_TERMS_AND_CONDITIONS_Rev_5.17.2024.pdf",
+  "2425-001-2029-A RETAIL AND WHOLESALE MERCHANDISE STORES_ FOOD SUPPLIERS  REST CATER _2_.pdf",
+  "W-9 Jan 2019.pdf",
+  "Vendor Data Packet August 2024.pdf",
+  "FEDERAL Vendor Certifications _EDGAR_ 5.22.25.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Electronic Submission Instructions 2016.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EMS_ISD_STANDARD_TERMS_AND_CONDITIONS_Rev_5.17.2024.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2425-001-2029-A RETAIL AND WHOLESALE MERCHANDISE STORES_ FOOD SUPPLIERS  REST CATER _2_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Jan 2019.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Data Packet August 2024.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FEDERAL Vendor Certifications _EDGAR_ 5.22.25.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 16.7,
+  "attachment_fetches": 6,
+  "attachment_seconds": 4.2,
+  "attachment_bytes": 1288099,
+  "max_fetch_seconds": 0.97,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:38:42.527122+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "bid_id": "city-of-north-charleston-sc-nc-19-26",
+ "bid_number": "NC-19-26",
+ "agency": "City of North Charleston, SC",
+ "src": "Invited",
+ "title": "Request For Proposals for Master Planning Services for the Development of Ingleside Preserve",
+ "close": "9/10/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "NC-19-26_ RFP for Master Planning Services for the Development of Ingleside Preserve.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "NC-19-26_ RFP for Master Planning Services for the Development of Ingleside Preserve.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 44.5,
+  "attachment_fetches": 1,
+  "attachment_seconds": 35.5,
+  "attachment_bytes": 25742227,
+  "max_fetch_seconds": 35.51,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-18T08:35:05.862483+00:00",
+ "extract_attempts": 1
+}

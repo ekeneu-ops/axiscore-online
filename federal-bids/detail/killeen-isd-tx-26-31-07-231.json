@@ -1,0 +1,79 @@
+{
+ "bid_id": "killeen-isd-tx-26-31-07-231",
+ "bid_number": "26-31-07-231",
+ "agency": "Killeen ISD, TX",
+ "src": "Open",
+ "title": "Books - All Types",
+ "close": "7/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Percent discount offered off standard prices.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Percent discount offered off standard prices. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "KISD_Terms_and_Conditions 6-17-2024.pdf",
+  "Form W-9 Request for Taxpayer Identification.pdf",
+  "Form CIQ _Conflict of Interest_ 2024.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "KISD_Terms_and_Conditions 6-17-2024.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form W-9 Request for Taxpayer Identification.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form CIQ _Conflict of Interest_ 2024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.9,
+  "attachment_fetches": 3,
+  "attachment_seconds": 2.2,
+  "attachment_bytes": 431057,
+  "max_fetch_seconds": 0.91,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:52:32.618574+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/killeen-isd-tx-26-31-07-231/coverage.json"
+}

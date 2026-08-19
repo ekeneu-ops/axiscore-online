@@ -1,0 +1,99 @@
+{
+ "bid_id": "goose-creek-consolidated-isd-tx-25-009-round-5",
+ "bid_number": "25-009 Round 5",
+ "agency": "Goose Creek Consolidated ISD, TX",
+ "src": "Open",
+ "title": "Fresh Baked Goods",
+ "close": "10/5/2026 05:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Standard Forms_Revised 8-10-23 JH.pdf",
+  "EDGAR Certifications_IonWave.pdf",
+  "CIQ.pdf",
+  "W9_Blank.pdf",
+  "HB 1295 Instructions-Updated.pdf",
+  "Scope of Services-Initial.docx",
+  "Addendum _1.docx",
+  "Award Detail Spreadsheet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Standard Forms_Revised 8-10-23 JH.pdf",
+   "kind": "pdf",
+   "tables": 47,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR Certifications_IonWave.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9_Blank.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "HB 1295 Instructions-Updated.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Scope of Services-Initial.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum _1.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Award Detail Spreadsheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 19.4,
+  "attachment_fetches": 8,
+  "attachment_seconds": 6.6,
+  "attachment_bytes": 1718467,
+  "max_fetch_seconds": 1.8,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:25:37.832325+00:00",
+ "extract_attempts": 1
+}

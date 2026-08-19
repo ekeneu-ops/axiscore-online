@@ -1,0 +1,151 @@
+{
+ "bid_id": "allen-isd-tx-2026-may-178",
+ "bid_number": "2026-MAY-178",
+ "agency": "Allen ISD, TX",
+ "src": "Open",
+ "title": "General Services",
+ "close": "7/20/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine31",
+   "kind": "package_line",
+   "line": "6.4",
+   "desc": "Trip Charge (if applicable)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.4 Trip Charge (if applicable) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine32",
+   "kind": "package_line",
+   "line": "6.5",
+   "desc": "Percentage (%) Mark-Up for Materials / Supplies (Percentage (%) mark-up for parts/supplies furnished by your company, above your actual cost.)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.5 Percentage (%) Mark-Up for Materials / Supplies (Percentage (%) mark-up for parts/supplies furnished by your company, above your actual cost.) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "FINAL 2026-MAY-178 Gen Svcs Bid Specs.pdf",
+  "Allen ISD General Terms and Conditions 9.20.23.pdf",
+  "EDGAR Certifications 9.19.23.pdf",
+  "Blank W-9 for Vendors 3-2024.pdf",
+  "1295 Instructions.pdf",
+  "Service Provider Affidavit.pdf",
+  "2021 CIQ Form.pdf",
+  "Lobbying_Activities_Form_SF-LLL.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "FINAL 2026-MAY-178 Gen Svcs Bid Specs.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Allen ISD General Terms and Conditions 9.20.23.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR Certifications 9.19.23.pdf",
+   "kind": "pdf",
+   "tables": 28,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Blank W-9 for Vendors 3-2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295 Instructions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Service Provider Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2021 CIQ Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Lobbying_Activities_Form_SF-LLL.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "EDGAR Certifications 9.19.23.pdf",
+   "sheet": 16,
+   "header_row": 5,
+   "headers": [
+    "level of competition, where the purchase price of the item exceeds $10,000 or the value of the quantity"
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "acquired during the preceding fiscal year exceeded $10,000; procuring solid waste management services"
+    ],
+    [
+     "in a manner that maximizes energy and resource recovery; and establishing an affirmative procurement"
+    ],
+    [
+     "program for procurement of recovered materials identified in the EPA guidelines."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 16.4,
+  "attachment_fetches": 8,
+  "attachment_seconds": 4.3,
+  "attachment_bytes": 1564195,
+  "max_fetch_seconds": 0.78,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:20:38.840732+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "extended_value",
+ "evidence_path": "fb_records/allen-isd-tx-2026-may-178/coverage.json"
+}

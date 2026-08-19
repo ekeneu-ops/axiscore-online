@@ -1,0 +1,143 @@
+{
+ "bid_id": "city-of-edmond-ok-rfp27-005",
+ "bid_number": "RFP27-005",
+ "agency": "City of Edmond, OK",
+ "src": "Invited",
+ "title": "Traffic Management Center Server Upgrade",
+ "close": "10/1/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Server Hardware and installation cost (itemize cost)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Server Hardware and installation cost (itemize cost) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Licensing Cost for Software",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Licensing Cost for Software 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Yearly Maintenance Fees for Hardware",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Yearly Maintenance Fees for Hardware 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Other Expenses (if applicable: please specify the nature of these costs)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Other Expenses (if applicable: please specify the nature of these costs) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Administrative Costs (if applicable)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Administrative Costs (if applicable) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP27-005 Traffic Management Center Server Upgrade.pdf",
+  "Appendix A -  Pricing Worksheet - Traffic Management Center Server Upgrade.xlsx",
+  "Appendix B _ A-001A-1ST-FLOOR-DIMENSION-PLAN---AREA-A-Rev.11.pdf",
+  "Appendix C _ E-201A-1ST-FLOOR-POWER-PLAN-A-Rev.8.pdf",
+  "Non-Collusion Affidavit.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP27-005 Traffic Management Center Server Upgrade.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix A -  Pricing Worksheet - Traffic Management Center Server Upgrade.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix B _ A-001A-1ST-FLOOR-DIMENSION-PLAN---AREA-A-Rev.11.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix C _ E-201A-1ST-FLOOR-POWER-PLAN-A-Rev.8.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusion Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 34.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 11.0,
+  "attachment_bytes": 4509398,
+  "max_fetch_seconds": 4.55,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-19T08:50:14.847008+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-edmond-ok-rfp27-005/coverage.json"
+}

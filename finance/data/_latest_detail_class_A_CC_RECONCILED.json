@@ -1,0 +1,1380 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-25T09:30:06+00:00",
+    "methodology_version": "v1.4.4",
+    "data_window": {
+      "start": "2025-12-01",
+      "end": "2026-07-25"
+    },
+    "class": "CLASS_A_CC_RECONCILED",
+    "count": 5,
+    "trimmed": false,
+    "trim_note": null
+  },
+  "orders": [
+    {
+      "channel_order_id": "47QDCC26M0QNK",
+      "class": "CLASS_A_CC_RECONCILED",
+      "class_reason": "amex_payment_evidence_matched_multi_order_batch",
+      "recovery_target": 0.0,
+      "payable_outstanding": 0.0,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "GSA - GS02F0191V",
+      "store_id": 4,
+      "magento_entity_id": 381987,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "Orsnasco",
+      "all_suppliers": [
+        "Orsnasco"
+      ],
+      "is_cc_paid_vendor": true,
+      "amex_payment_evidence": {
+        "date": "2025-12-22",
+        "merchant_raw": "ORS NASCO 800-678-65DEERFIELD           IL",
+        "merchant_normalized": "ORS NASCO 800-678-65DE",
+        "amount": 1575.41,
+        "allocated_amount": 110.89,
+        "card_member": "ALEX BONDOC",
+        "reference": "'320253570784890138'",
+        "category": "Merchandise & Supplies-Wholesale Stores",
+        "source_file": "activity_24.csv",
+        "batch_size": 3,
+        "batch_coids": [
+          "47QDCC26M10QS",
+          "47QDCC26M0T6Y",
+          "47QDCC26M0QNK"
+        ]
+      },
+      "amex_match_quality": "multi_order_batch",
+      "amex_payment_date": "2025-12-22",
+      "amex_amount": 110.89,
+      "isg_invoice": null,
+      "isg_invoice_count": 0,
+      "isg_invoice_vendor": "",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2025-12-02 16:32:40",
+      "updated_at": "2026-02-12 17:09:50",
+      "grand_total": 110.4,
+      "qty_shipped": 24,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 71.52,
+      "exp_ship_cost": 12.48,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 84.0,
+      "amazon_net": 0.0,
+      "net_cash_profit": 0.0,
+      "amazon": {
+        "amazon_order_id": null,
+        "is_afn_channel": null,
+        "is_prime": null,
+        "status": null,
+        "paid_amount": 0.0,
+        "shipping_price": 0.0,
+        "qty_shipped": null,
+        "qty_unshipped": null,
+        "purchase_create_date": null,
+        "purchase_update_date": null,
+        "earliest_ship_date": null,
+        "latest_ship_date": null,
+        "gross_revenue": 0.0,
+        "fees_total": 0.0,
+        "line_items": [],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 381987,
+        "items": [
+          {
+            "item_id": 419030,
+            "sku": "PGC65732",
+            "qty_ordered": 12.0,
+            "qty_shipped": 12.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 12.0,
+            "base_cost": 0.0,
+            "shipping_cost": 0.0,
+            "price": 0.0,
+            "base_row_total": 0.0
+          },
+          {
+            "item_id": 419217,
+            "sku": "608-12301",
+            "qty_ordered": 12.0,
+            "qty_shipped": 12.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 12.0,
+            "base_cost": 5.96,
+            "shipping_cost": 1.04,
+            "price": 9.2,
+            "base_row_total": 110.4
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 2950385,
+          "created_at": "2025-12-02 16:32:40",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2950386,
+          "created_at": "2025-12-02 16:32:40",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2950387,
+          "created_at": "2025-12-02 16:32:40",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2950388,
+          "created_at": "2025-12-02 16:32:41",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2950389,
+          "created_at": "2025-12-02 16:32:43",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $110.40. Transaction ID: \"81343291824\"."
+        },
+        {
+          "history_id": 2950390,
+          "created_at": "2025-12-02 16:32:43",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2950419,
+          "created_at": "2025-12-02 17:14:18",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Alex Bondoc</b>."
+        },
+        {
+          "history_id": 2951573,
+          "created_at": "2025-12-04 19:13:47",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "waiting for ORS Nasco's quote "
+        },
+        {
+          "history_id": 2951857,
+          "created_at": "2025-12-05 15:37:57",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "suggested Item #: 608-12301, waiting for cx approval "
+        },
+        {
+          "history_id": 2951901,
+          "created_at": "2025-12-05 16:44:44",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "cx agreed with the replacement "
+        },
+        {
+          "history_id": 2951907,
+          "created_at": "2025-12-05 16:49:51",
+          "status": "pending",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Alex Bondoc (Alexb)</i><br/>&nbsp;Changed status from 'backorder' to 'pending'<br/>&nbsp;Changed state from 'processing' to 'new'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 2951924,
+          "created_at": "2025-12-05 17:01:06",
+          "status": "pending",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Alex Bondoc (Alexb)</i><br/>&nbsp;<b> Commercial Heavy-Duty Powerwash™ Dish Spray, 16 oz, Spray Bottle, Fresh Scent</b> was added<br/>&nbsp;<b>Platinum Powerwash Dish Spray, Free & Clear, Unscented, 16 oz Spray Bottle\n            PLATINUM POWERWASH DISH SPRAY,\n          </b> was edited:<br/>&nbsp; - Price (excl. tax): \"9.20\" to \"0.00\"<br/>&nbsp;<b> Commercial Heavy-Duty Powerwash™ Dish Spray, 16 oz, Spray Bottle, Fresh Scent</b> was edited:<br/>&nbsp; - Price (excl. tax): \"150.00\" to \"9.20\"<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 2951927,
+          "created_at": "2025-12-05 17:04:33",
+          "status": "processing",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Alex Bondoc (Alexb)</i><br/>&nbsp;Changed status from 'pending' to 'processing'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 2951929,
+          "created_at": "2025-12-05 17:04:50",
+          "status": "processing",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "<i>Order was edited by Alex Bondoc (Alexb)</i><br/>&nbsp;Changed state from 'new' to 'processing'<br/>&nbsp;<br/>&nbsp;"
+        },
+        {
+          "history_id": 2951931,
+          "created_at": "2025-12-05 17:05:18",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "PO sent to ORSNASCO"
+        },
+        {
+          "history_id": 2954087,
+          "created_at": "2025-12-11 17:50:27",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "2 more weeks lead time as per ORSNASCO "
+        },
+        {
+          "history_id": 2954089,
+          "created_at": "2025-12-11 17:51:44",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "informed cx about BO status "
+        },
+        {
+          "history_id": 2955327,
+          "created_at": "2025-12-15 14:57:47",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "1 more week lead time "
+        },
+        {
+          "history_id": 2955328,
+          "created_at": "2025-12-15 14:57:49",
+          "status": "holded",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2957632,
+          "created_at": "2025-12-19 16:32:25",
+          "status": "holded",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "still on BO "
+        },
+        {
+          "history_id": 2959259,
+          "created_at": "2025-12-23 16:46:38",
+          "status": "holded",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "as per ORSNASCO  the product is on order with the supplier, we should be getting it in next week!"
+        },
+        {
+          "history_id": 2960958,
+          "created_at": "2025-12-29 19:25:44",
+          "status": "holded",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "waiting on tracking fr vendor "
+        },
+        {
+          "history_id": 2962261,
+          "created_at": "2026-01-02 14:36:41",
+          "status": "backorder",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2962265,
+          "created_at": "2026-01-02 14:38:08",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Captured amount of $110.40 online. Transaction ID: \"81392464053\"."
+        },
+        {
+          "history_id": 2962266,
+          "created_at": "2026-01-02 14:38:08",
+          "status": "in_transit",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2962268,
+          "created_at": "2026-01-02 14:39:19",
+          "status": "in_transit",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Your shipment\n1Z7313160315538485\n\n\n\nEstimated delivery\nTuesday, January 06 between 12:00 P.M. - 4:00 P.M. \n"
+        },
+        {
+          "history_id": 2967123,
+          "created_at": "2026-01-12 18:11:05",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Your shipment\n1Z7313160315538485\n\n\n\n  Delivered On\nMonday, January 05 at 2:23 P.M. - Inside Delivery"
+        }
+      ],
+      "manual_comment_count": 27,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 0.0,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 0.0,
+        "existing_discrepancy_amount": 0.0,
+        "delta_vs_ours": {
+          "actual_cost": 0.0,
+          "actual_credit": 0.0,
+          "selling_fee": 0.0,
+          "discrepancy": 0.0
+        },
+        "benchmark_match": true
+      },
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "47QDCC26M0T6Y",
+      "class": "CLASS_A_CC_RECONCILED",
+      "class_reason": "amex_payment_evidence_matched_multi_order_batch",
+      "recovery_target": 0.0,
+      "payable_outstanding": 0.0,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "GSA - GS02F0191V",
+      "store_id": 4,
+      "magento_entity_id": 382069,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "Orsnasco",
+      "all_suppliers": [
+        "Orsnasco"
+      ],
+      "is_cc_paid_vendor": true,
+      "amex_payment_evidence": {
+        "date": "2025-12-22",
+        "merchant_raw": "ORS NASCO 800-678-65DEERFIELD           IL",
+        "merchant_normalized": "ORS NASCO 800-678-65DE",
+        "amount": 1575.41,
+        "allocated_amount": 216.97,
+        "card_member": "ALEX BONDOC",
+        "reference": "'320253570784890138'",
+        "category": "Merchandise & Supplies-Wholesale Stores",
+        "source_file": "activity_24.csv",
+        "batch_size": 3,
+        "batch_coids": [
+          "47QDCC26M10QS",
+          "47QDCC26M0T6Y",
+          "47QDCC26M0QNK"
+        ]
+      },
+      "amex_match_quality": "multi_order_batch",
+      "amex_payment_date": "2025-12-22",
+      "amex_amount": 216.97,
+      "isg_invoice": null,
+      "isg_invoice_count": 0,
+      "isg_invoice_vendor": "",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2025-12-03 22:28:05",
+      "updated_at": "2025-12-05 14:23:57",
+      "grand_total": 216.0,
+      "qty_shipped": 90,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 171.54,
+      "exp_ship_cost": 20.7,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 192.24,
+      "amazon_net": 0.0,
+      "net_cash_profit": 0.0,
+      "amazon": {
+        "amazon_order_id": null,
+        "is_afn_channel": null,
+        "is_prime": null,
+        "status": null,
+        "paid_amount": 0.0,
+        "shipping_price": 0.0,
+        "qty_shipped": null,
+        "qty_unshipped": null,
+        "purchase_create_date": null,
+        "purchase_update_date": null,
+        "earliest_ship_date": null,
+        "latest_ship_date": null,
+        "gross_revenue": 0.0,
+        "fees_total": 0.0,
+        "line_items": [],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 382069,
+        "items": [
+          {
+            "item_id": 419116,
+            "sku": "CRWKD110",
+            "qty_ordered": 90.0,
+            "qty_shipped": 90.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 90.0,
+            "base_cost": 1.91,
+            "shipping_cost": 0.23,
+            "price": 2.4,
+            "base_row_total": 216.0
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 2951117,
+          "created_at": "2025-12-03 22:28:05",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2951118,
+          "created_at": "2025-12-03 22:28:06",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2951119,
+          "created_at": "2025-12-03 22:28:06",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2951120,
+          "created_at": "2025-12-03 22:28:06",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2951121,
+          "created_at": "2025-12-03 22:28:08",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $216.00. Transaction ID: \"81345984362\"."
+        },
+        {
+          "history_id": 2951122,
+          "created_at": "2025-12-03 22:28:08",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2951251,
+          "created_at": "2025-12-04 14:58:32",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Alex Bondoc</b>."
+        },
+        {
+          "history_id": 2951465,
+          "created_at": "2025-12-04 18:12:23",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "PO sent to ORSNASCO"
+        },
+        {
+          "history_id": 2951814,
+          "created_at": "2025-12-05 14:23:57",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Captured amount of $216.00 online. Transaction ID: \"81345984362-capture\"."
+        },
+        {
+          "history_id": 2951815,
+          "created_at": "2025-12-05 14:23:57",
+          "status": "in_transit",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        }
+      ],
+      "manual_comment_count": 10,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 0.0,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 0.0,
+        "existing_discrepancy_amount": 0.0,
+        "delta_vs_ours": {
+          "actual_cost": 0.0,
+          "actual_credit": 0.0,
+          "selling_fee": 0.0,
+          "discrepancy": 0.0
+        },
+        "benchmark_match": true
+      },
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "47QDCC26M10QS",
+      "class": "CLASS_A_CC_RECONCILED",
+      "class_reason": "amex_payment_evidence_matched_multi_order_batch",
+      "recovery_target": 0.0,
+      "payable_outstanding": 0.0,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "GSA - GS02F0191V",
+      "store_id": 4,
+      "magento_entity_id": 382374,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "Orsnasco",
+      "all_suppliers": [
+        "Orsnasco"
+      ],
+      "is_cc_paid_vendor": true,
+      "amex_payment_evidence": {
+        "date": "2025-12-22",
+        "merchant_raw": "ORS NASCO 800-678-65DEERFIELD           IL",
+        "merchant_normalized": "ORS NASCO 800-678-65DE",
+        "amount": 1575.41,
+        "allocated_amount": 1247.55,
+        "card_member": "ALEX BONDOC",
+        "reference": "'320253570784890138'",
+        "category": "Merchandise & Supplies-Wholesale Stores",
+        "source_file": "activity_24.csv",
+        "batch_size": 3,
+        "batch_coids": [
+          "47QDCC26M10QS",
+          "47QDCC26M0T6Y",
+          "47QDCC26M0QNK"
+        ]
+      },
+      "amex_match_quality": "multi_order_batch",
+      "amex_payment_date": "2025-12-22",
+      "amex_amount": 1247.55,
+      "isg_invoice": null,
+      "isg_invoice_count": 0,
+      "isg_invoice_vendor": "",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2025-12-10 17:17:23",
+      "updated_at": "2025-12-24 17:50:20",
+      "grand_total": 1242.0,
+      "qty_shipped": 600,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 798.0,
+      "exp_ship_cost": 99.6,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 897.6,
+      "amazon_net": 0.0,
+      "net_cash_profit": 0.0,
+      "amazon": {
+        "amazon_order_id": null,
+        "is_afn_channel": null,
+        "is_prime": null,
+        "status": null,
+        "paid_amount": 0.0,
+        "shipping_price": 0.0,
+        "qty_shipped": null,
+        "qty_unshipped": null,
+        "purchase_create_date": null,
+        "purchase_update_date": null,
+        "earliest_ship_date": null,
+        "latest_ship_date": null,
+        "gross_revenue": 0.0,
+        "fees_total": 0.0,
+        "line_items": [],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 382374,
+        "items": [
+          {
+            "item_id": 419426,
+            "sku": "CRWBK119",
+            "qty_ordered": 600.0,
+            "qty_shipped": 600.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 600.0,
+            "base_cost": 1.33,
+            "shipping_cost": 0.17,
+            "price": 2.07,
+            "base_row_total": 1242.0
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 2953470,
+          "created_at": "2025-12-10 17:17:23",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2953471,
+          "created_at": "2025-12-10 17:17:23",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2953472,
+          "created_at": "2025-12-10 17:17:24",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2953473,
+          "created_at": "2025-12-10 17:17:24",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2953474,
+          "created_at": "2025-12-10 17:17:26",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $1,242.00. Transaction ID: \"81357457953\"."
+        },
+        {
+          "history_id": 2953475,
+          "created_at": "2025-12-10 17:17:26",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2953486,
+          "created_at": "2025-12-10 17:33:06",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Alex Bondoc</b>."
+        },
+        {
+          "history_id": 2953492,
+          "created_at": "2025-12-10 17:45:10",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "waiting for a quote from ORSNASCO"
+        },
+        {
+          "history_id": 2955351,
+          "created_at": "2025-12-15 15:24:57",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "PO sent to ORSNASCO"
+        },
+        {
+          "history_id": 2955385,
+          "created_at": "2025-12-15 16:33:54",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "called cx and spoke to \nTyler Hill  and gave this street address \"3976 Kinggraves Rd \" "
+        },
+        {
+          "history_id": 2957639,
+          "created_at": "2025-12-19 16:41:52",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Captured amount of $1,242.00 online. Transaction ID: \"81357457953-capture\"."
+        },
+        {
+          "history_id": 2957640,
+          "created_at": "2025-12-19 16:41:52",
+          "status": "in_transit",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2959846,
+          "created_at": "2025-12-24 17:50:20",
+          "status": "complete",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "Your shipment\n1Z4704980317397644\n\n\n\n  Delivered On\nTuesday, December 16 at 10:16 A.M. at Office"
+        }
+      ],
+      "manual_comment_count": 13,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 0.0,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 0.0,
+        "existing_discrepancy_amount": 0.0,
+        "delta_vs_ours": {
+          "actual_cost": 0.0,
+          "actual_credit": 0.0,
+          "selling_fee": 0.0,
+          "discrepancy": 0.0
+        },
+        "benchmark_match": true
+      },
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "47QDCC26M2QCB",
+      "class": "CLASS_A_CC_RECONCILED",
+      "class_reason": "amex_payment_evidence_matched_multi_order_batch",
+      "recovery_target": 0.0,
+      "payable_outstanding": 0.0,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "GSA - GS02F0191V",
+      "store_id": 4,
+      "magento_entity_id": 385326,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "Orsnasco",
+      "all_suppliers": [
+        "Orsnasco"
+      ],
+      "is_cc_paid_vendor": true,
+      "amex_payment_evidence": {
+        "date": "2026-02-12",
+        "merchant_raw": "ORS NASCO 800-678-65DEERFIELD           IL",
+        "merchant_normalized": "ORS NASCO 800-678-65DE",
+        "amount": 1061.68,
+        "allocated_amount": 866.99,
+        "card_member": "ALEX BONDOC",
+        "reference": "'320260440191451816'",
+        "category": "Merchandise & Supplies-Wholesale Stores",
+        "source_file": "activity_26.csv",
+        "batch_size": 2,
+        "batch_coids": [
+          "47QDCC26M3AS8",
+          "47QDCC26M2QCB"
+        ]
+      },
+      "amex_match_quality": "multi_order_batch",
+      "amex_payment_date": "2026-02-12",
+      "amex_amount": 866.99,
+      "isg_invoice": null,
+      "isg_invoice_count": 0,
+      "isg_invoice_vendor": "",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2026-01-29 21:52:53",
+      "updated_at": "2026-03-17 16:26:42",
+      "grand_total": 869.7,
+      "qty_shipped": 10,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 697.38,
+      "exp_ship_cost": 87.1,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 784.48,
+      "amazon_net": 0.0,
+      "net_cash_profit": 0.0,
+      "amazon": {
+        "amazon_order_id": null,
+        "is_afn_channel": null,
+        "is_prime": null,
+        "status": null,
+        "paid_amount": 0.0,
+        "shipping_price": 0.0,
+        "qty_shipped": null,
+        "qty_unshipped": null,
+        "purchase_create_date": null,
+        "purchase_update_date": null,
+        "earliest_ship_date": null,
+        "latest_ship_date": null,
+        "gross_revenue": 0.0,
+        "fees_total": 0.0,
+        "line_items": [],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 385326,
+        "items": [
+          {
+            "item_id": 422524,
+            "sku": "ZPE149433",
+            "qty_ordered": 10.0,
+            "qty_shipped": 10.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 10.0,
+            "base_cost": 69.74,
+            "shipping_cost": 8.71,
+            "price": 86.97,
+            "base_row_total": 869.7
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 2975724,
+          "created_at": "2026-01-29 21:52:53",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2975725,
+          "created_at": "2026-01-29 21:52:53",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2975726,
+          "created_at": "2026-01-29 21:52:53",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2975727,
+          "created_at": "2026-01-29 21:52:53",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2975728,
+          "created_at": "2026-01-29 21:52:55",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $869.70. Transaction ID: \"81435772181\"."
+        },
+        {
+          "history_id": 2975729,
+          "created_at": "2026-01-29 21:52:55",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2975875,
+          "created_at": "2026-01-30 12:25:36",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Alex Bondoc</b>."
+        },
+        {
+          "history_id": 2976895,
+          "created_at": "2026-02-02 15:09:49",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "waiting for vendors quote "
+        },
+        {
+          "history_id": 2977995,
+          "created_at": "2026-02-03 20:18:55",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "PO sent to ORSNASCO"
+        },
+        {
+          "history_id": 2981041,
+          "created_at": "2026-02-10 16:52:55",
+          "status": "confirmed",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "ETA MARCH AS PER ORSNASCO, EMAILED CX "
+        },
+        {
+          "history_id": 2982659,
+          "created_at": "2026-02-13 18:03:35",
+          "status": "holded",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2994657,
+          "created_at": "2026-03-17 15:34:08",
+          "status": "confirmed",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2994659,
+          "created_at": "2026-03-17 15:37:02",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Captured amount of $869.70 online. Transaction ID: \"81516148582\"."
+        },
+        {
+          "history_id": 2994660,
+          "created_at": "2026-03-17 15:37:02",
+          "status": "in_transit",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2994700,
+          "created_at": "2026-03-17 16:26:42",
+          "status": "complete",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "This was shipped via R+L Carrier Tracking #: 428388732, shows delivered yesterday"
+        }
+      ],
+      "manual_comment_count": 15,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 0.0,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 0.0,
+        "existing_discrepancy_amount": 0.0,
+        "delta_vs_ours": {
+          "actual_cost": 0.0,
+          "actual_credit": 0.0,
+          "selling_fee": 0.0,
+          "discrepancy": 0.0
+        },
+        "benchmark_match": true
+      },
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    },
+    {
+      "channel_order_id": "47QDCC26M3AS8",
+      "class": "CLASS_A_CC_RECONCILED",
+      "class_reason": "amex_payment_evidence_matched_multi_order_batch",
+      "recovery_target": 0.0,
+      "payable_outstanding": 0.0,
+      "vendor_name": null,
+      "primary_vendor_code": null,
+      "all_vendor_codes": [],
+      "channel": "GSA - GS02F0191V",
+      "store_id": 4,
+      "magento_entity_id": 386234,
+      "magento_state": "complete",
+      "magento_status": "complete",
+      "supplier": "Orsnasco",
+      "all_suppliers": [
+        "Orsnasco"
+      ],
+      "is_cc_paid_vendor": true,
+      "amex_payment_evidence": {
+        "date": "2026-02-12",
+        "merchant_raw": "ORS NASCO 800-678-65DEERFIELD           IL",
+        "merchant_normalized": "ORS NASCO 800-678-65DE",
+        "amount": 1061.68,
+        "allocated_amount": 194.69,
+        "card_member": "ALEX BONDOC",
+        "reference": "'320260440191451816'",
+        "category": "Merchandise & Supplies-Wholesale Stores",
+        "source_file": "activity_26.csv",
+        "batch_size": 2,
+        "batch_coids": [
+          "47QDCC26M3AS8",
+          "47QDCC26M2QCB"
+        ]
+      },
+      "amex_match_quality": "multi_order_batch",
+      "amex_payment_date": "2026-02-12",
+      "amex_amount": 194.69,
+      "isg_invoice": null,
+      "isg_invoice_count": 0,
+      "isg_invoice_vendor": "",
+      "isg_fba_invoice_matched": false,
+      "created_at": "2026-02-13 13:14:19",
+      "updated_at": "2026-02-18 13:49:32",
+      "grand_total": 195.3,
+      "qty_shipped": 210,
+      "qty_refunded": 0,
+      "qty_canceled": 0,
+      "exp_item_cost": 144.9,
+      "exp_ship_cost": 16.8,
+      "act_item_cost": 0.0,
+      "act_ship_cost": 0.0,
+      "disc_amt": 161.7,
+      "amazon_net": 0.0,
+      "net_cash_profit": 0.0,
+      "amazon": {
+        "amazon_order_id": null,
+        "is_afn_channel": null,
+        "is_prime": null,
+        "status": null,
+        "paid_amount": 0.0,
+        "shipping_price": 0.0,
+        "qty_shipped": null,
+        "qty_unshipped": null,
+        "purchase_create_date": null,
+        "purchase_update_date": null,
+        "earliest_ship_date": null,
+        "latest_ship_date": null,
+        "gross_revenue": 0.0,
+        "fees_total": 0.0,
+        "line_items": [],
+        "refund_tx_count": 0,
+        "refund_principal_sum": 0.0,
+        "settlement_transactions": []
+      },
+      "magento": {
+        "entity_id": 386234,
+        "items": [
+          {
+            "item_id": 423493,
+            "sku": "CRWCL010",
+            "qty_ordered": 210.0,
+            "qty_shipped": 210.0,
+            "qty_refunded": 0.0,
+            "qty_canceled": 0.0,
+            "qty_invoiced": 210.0,
+            "base_cost": 0.69,
+            "shipping_cost": 0.08,
+            "price": 0.93,
+            "base_row_total": 195.3
+          }
+        ],
+        "creditmemos": []
+      },
+      "vendor": {
+        "primary_vendor_code": null,
+        "invoices": [],
+        "credits": [],
+        "invoice_count": 0,
+        "invoiced_gross": 0.0,
+        "credit_count": 0,
+        "credited_total": 0.0,
+        "invoiced_minus_credited_net": 0.0
+      },
+      "comments": [
+        {
+          "history_id": 2982502,
+          "created_at": "2026-02-13 13:14:19",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Thornton"
+        },
+        {
+          "history_id": 2982503,
+          "created_at": "2026-02-13 13:14:20",
+          "status": null,
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2982504,
+          "created_at": "2026-02-13 13:14:20",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2982505,
+          "created_at": "2026-02-13 13:14:20",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2982506,
+          "created_at": "2026-02-13 13:14:22",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Authorized amount of $195.30. Transaction ID: \"81460458954\"."
+        },
+        {
+          "history_id": 2982507,
+          "created_at": "2026-02-13 13:14:22",
+          "status": "pending",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        },
+        {
+          "history_id": 2982508,
+          "created_at": "2026-02-13 14:11:26",
+          "status": "pending",
+          "is_customer_notified": null,
+          "is_visible_on_front": 0,
+          "comment": "Order Owned by : <b>Alex Bondoc</b>."
+        },
+        {
+          "history_id": 2982929,
+          "created_at": "2026-02-14 00:09:43",
+          "status": "backorder",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "waiting for ORSNASCO's quote "
+        },
+        {
+          "history_id": 2983628,
+          "created_at": "2026-02-17 18:44:43",
+          "status": "exported",
+          "is_customer_notified": 0,
+          "is_visible_on_front": 0,
+          "comment": "PO sent to ORSNASCO"
+        },
+        {
+          "history_id": 2983797,
+          "created_at": "2026-02-18 13:49:32",
+          "status": "processing",
+          "is_customer_notified": 2,
+          "is_visible_on_front": 0,
+          "comment": "Captured amount of $195.30 online. Transaction ID: \"81460458954-capture\"."
+        },
+        {
+          "history_id": 2983798,
+          "created_at": "2026-02-18 13:49:32",
+          "status": "in_transit",
+          "is_customer_notified": 1,
+          "is_visible_on_front": 0,
+          "comment": "nan"
+        }
+      ],
+      "manual_comment_count": 11,
+      "refund_truth": {
+        "amazon_refunded_actual": 0.0,
+        "magento_creditmemo_total": 0.0,
+        "delta": 0.0,
+        "creditmemo_amazon_match": true,
+        "refund_occurred": false,
+        "evidence_source": "NEITHER"
+      },
+      "classification": {
+        "freight_retention_threshold": 80.0,
+        "freight_retention_basis": "$80 floor",
+        "refund_to_vendor_credit_gap": 0.0,
+        "recovery_target_amount": 0.0,
+        "reasoning": "Zero vendor invoice rows match this channel_order_id (v1.3 predicate). Either invoice ingestion has not yet pulled this order, or the vendor never billed it."
+      },
+      "corewix_benchmark": {
+        "existing_actual_cost_total": 0.0,
+        "existing_actual_credit_total": 0.0,
+        "existing_actual_selling_fee_total": 0.0,
+        "existing_discrepancy_amount": 0.0,
+        "delta_vs_ours": {
+          "actual_cost": 0.0,
+          "actual_credit": 0.0,
+          "selling_fee": 0.0,
+          "discrepancy": 0.0
+        },
+        "benchmark_match": true
+      },
+      "workflow_state": "OPEN",
+      "last_updated_by": null,
+      "last_updated_at": null,
+      "notes": null,
+      "t_paid": 0.0,
+      "t_outstanding": 0.0,
+      "paid_batch_tabs": [],
+      "paid_date": null,
+      "paid_amount_net": 0.0,
+      "paid_invoice_count": 0,
+      "vendor_invoices_paid": "",
+      "credit_memo_applied": 0.0
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+ "bid_id": "city-of-el-paso-tx-2026-0557",
+ "bid_number": "2026-0557",
+ "agency": "City of El Paso, TX",
+ "src": "Open",
+ "title": "AQ Audit Equipment (Re-bid)",
+ "close": "8/19/2026 07:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:svc:audit",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026-0557 Bid Form.xlsx",
+  "2026-0557 Mandatory Forms.pdf",
+  "Amendment Acknowledgement _For Paper Bids Only_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-0557 Bid Form.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026-0557 Mandatory Forms.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Amendment Acknowledgement _For Paper Bids Only_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2026-0557 Bid Form.xlsx",
+   "sheet": 0,
+   "header_row": 19,
+   "headers": [
+    "Item No.",
+    "Description",
+    "Unit of Measure",
+    "Approximate/Estimate Quantity",
+    "Price",
+    "Total\nC=AXB",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "(A)",
+     "(B)",
+     "(C )",
+     ""
+    ],
+    [
+     "1",
+     "AQ Audit Equipment",
+     "ea",
+     "2",
+     "",
+     "0",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Total",
+     "0",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 59.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 39.1,
+  "attachment_bytes": 19772250,
+  "max_fetch_seconds": 37.84,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:36:23.707415+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-el-paso-tx-2026-0557/coverage.json"
+}

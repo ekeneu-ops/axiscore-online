@@ -1,0 +1,239 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0726-027",
+ "bid_number": "PUR0726-027",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Invited",
+ "title": "Install Enthalpy Wheel Skid on RTU #7 at Ice Arena",
+ "close": "8/28/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Firm fixed price for the purchase and installation of a new replacement enthalpy wheel skid on RTU #7 at the ImOn Ice Arena per the attached Scope of Work, as well as the removal of the old enthalpy wheel skid.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Firm fixed price for the purchase and installation of a new replacement enthalpy wheel skid on RTU #7 at the ImOn Ice Arena per the attached Scope of Work, as well as the removal of the old enthalpy wheel skid. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "PUR0726-027_Install Enthalpy Wheel Skid on RTU _7 at Ice Arena_Scope of Work.pdf",
+  "RTU-7 Information Spec Sheet.pdf",
+  "PUR0726-027_Install Enthalpy Wheel Skid on RTU _7 at Ice Arena_P_P Bonds.pdf",
+  "PUR0726-027_Install Enthalpy Wheel Skid RTU _7 at Ice Arena_Cert. to Obtain Ins..pdf",
+  "PUR0726-027_Install Enthalpy Wheel Skid RTU _7 at Ice Arena_Ins. Reqs. - 3 Endorsements.pdf",
+  "Local Preference.pdf",
+  "RFB Contract T_C.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PUR0726-027_Install Enthalpy Wheel Skid on RTU _7 at Ice Arena_Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RTU-7 Information Spec Sheet.pdf",
+   "kind": "pdf",
+   "tables": 48,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "PUR0726-027_Install Enthalpy Wheel Skid on RTU _7 at Ice Arena_P_P Bonds.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PUR0726-027_Install Enthalpy Wheel Skid RTU _7 at Ice Arena_Cert. to Obtain Ins..pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "PUR0726-027_Install Enthalpy Wheel Skid RTU _7 at Ice Arena_Ins. Reqs. - 3 Endorsements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Local Preference.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFB Contract T_C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RTU-7 Information Spec Sheet.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Qty",
+    "Weight (lb)",
+    "Cooling Type",
+    "Heating Type",
+    "Unit Installation",
+    "Unit ETL Listing",
+    "Furnace ETL Listing"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "3,584 (+/- 5%)",
+     "None",
+     "Indirect Gas",
+     "Outdoor",
+     "UL\\cUL 1995",
+     "ANSI Z83.8 / CSA 2.6"
+    ]
+   ]
+  },
+  {
+   "source": "RTU-7 Information Spec Sheet.pdf",
+   "sheet": 6,
+   "header_row": 1,
+   "headers": [
+    "Motor",
+    "Qty",
+    "Operating\nPower (hp)",
+    "Size (hp)",
+    "Enclosure",
+    "Efficiency",
+    "RPM"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Supply",
+     "1",
+     "5.07",
+     "7-1/2",
+     "ODP",
+     "PE",
+     "1750"
+    ],
+    [
+     "Exhaust",
+     "1",
+     "9.08",
+     "10",
+     "ODP",
+     "PE",
+     "1765"
+    ]
+   ]
+  },
+  {
+   "source": "RTU-7 Information Spec Sheet.pdf",
+   "sheet": 12,
+   "header_row": 2,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Qty",
+    "Size\n(hp)",
+    "Qty",
+    "Type",
+    "Drive-Type"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "5,750",
+     "1.25",
+     "3.156",
+     "1972",
+     "5.07",
+     "1",
+     "7-1/2",
+     "1",
+     "Plenum",
+     "Direct"
+    ]
+   ]
+  },
+  {
+   "source": "RTU-7 Information Spec Sheet.pdf",
+   "sheet": 15,
+   "header_row": 2,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Qty",
+    "Size\n(hp)",
+    "Qty",
+    "Type",
+    "Drive-Type"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "7,328",
+     "1.5",
+     "3.197",
+     "2004",
+     "9.08",
+     "1",
+     "10",
+     "1",
+     "Plenum",
+     "Direct"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.4,
+  "attachment_fetches": 7,
+  "attachment_seconds": 6.2,
+  "attachment_bytes": 2148560,
+  "max_fetch_seconds": 2.0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:29:22.929394+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-cedar-rapids-ia-pur0726-027/coverage.json"
+}

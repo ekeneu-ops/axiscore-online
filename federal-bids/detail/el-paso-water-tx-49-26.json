@@ -1,0 +1,122 @@
+{
+ "bid_id": "el-paso-water-tx-49-26",
+ "bid_number": "49-26",
+ "agency": "El Paso Water, TX",
+ "src": "Open",
+ "title": "QUICKLIME (REBID)",
+ "close": "8/19/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 12,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 49-26 QUICKLIME _Rebid_.pdf",
+  "EXCEL BID FORM RFP49-26.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 49-26 QUICKLIME _Rebid_.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EXCEL BID FORM RFP49-26.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "EXCEL BID FORM RFP49-26.xlsx",
+   "sheet": 0,
+   "header_row": 4,
+   "headers": [
+    "ITEM",
+    "UNIT",
+    "*ANNUAL QUANTITY",
+    "DESCRIPTION",
+    "UNIT COST PER TON",
+    "TOTAL",
+    "4",
+    "PLEASE DO NOT CHANGE THE FORMAT OR CONTENTS OF THIS WORKSHEET IN ANY WAY. DOING SO MAY DEEM YOU NON-RESPONSIVE. ",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 12,
+   "sample": [
+    [
+     "1",
+     "TON",
+     "2600",
+     "QUICKLIME (CaO) MEETING THE LATEST VERSIONS OF ANSI/NSF STANDARD 60 AND AWWA STANDARD B202",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "UNIT COST OF QUICKLIME INCLUDES ALL DELIVERY CHARGES",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "TO EPWATER FACILITIES",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 2.2,
+  "attachment_bytes": 527279,
+  "max_fetch_seconds": 1.6,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:30:13.333394+00:00",
+ "extract_attempts": 1,
+ "lines_total": 7,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/el-paso-water-tx-49-26/coverage.json"
+}

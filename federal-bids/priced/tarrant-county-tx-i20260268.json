@@ -1,0 +1,59 @@
+{
+ "schema": "v2",
+ "bid_id": "tarrant-county-tx-i20260268",
+ "agency": "Tarrant County, TX",
+ "bid_number": "I20260268",
+ "title": "Visix Players Annual Subscription",
+ "src": "Invited",
+ "close": "8/17/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-08-17T08:37:34.868190+00:00",
+ "cost_source": "best_cost_full_2026-08-16.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 1,
+ "priced_lines": 0,
+ "gap_lines": 1,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 1
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "Visix - Subscription - Hosted - 50 to 99 Players Annual Subscription Service Term 9/1/2026 - 08/31/2027",
+   "qty": 60.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 32,
+    "method": "tokens 2/4",
+    "ov": 2,
+    "vendor": "Synnex",
+    "sku": "34699-M5645",
+    "matched_desc": "VTAS ALTA EDISCOVERY COMPLETE STE 1 USR HOSTED STD SUB LIC XGRD FR TERM 36MO",
+    "catalog_uom": "EA",
+    "pack_qty": 9999.0,
+    "uom_normalized": false,
+    "uom_mismatch": false,
+    "raw_merch_cost": 365.57,
+    "raw_freight": 0.0,
+    "unit_merch_cost": 365.57,
+    "unit_freight": 0.0,
+    "landed_unit": 365.57
+   }
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "bid_id": "texas-city-isd-tx-rfp-36-05s",
+ "bid_number": "RFP 36-05S",
+ "agency": "Texas City ISD, TX",
+ "src": "Open",
+ "title": "Contracted Services for Special Education- SUPPLEMENTAL",
+ "close": "5/31/2028 10:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "36-05 General Conditions.pdf",
+  "TCISD Standard Terms and Conditions.pdf",
+  "Pre Service Affidavit.pdf",
+  "CIQ Cover UPDATED- Nov 2025.pdf",
+  "CIQ _5_.pdf",
+  "W9_Form.pdf",
+  "Form 1295 Instructions - UPDATED June 2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "36-05 General Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TCISD Standard Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Pre Service Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Cover UPDATED- Nov 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ _5_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9_Form.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form 1295 Instructions - UPDATED June 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 42.4,
+  "attachment_fetches": 7,
+  "attachment_seconds": 33.9,
+  "attachment_bytes": 1613541,
+  "max_fetch_seconds": 7.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T19:04:10.739736+00:00",
+ "extract_attempts": 1
+}

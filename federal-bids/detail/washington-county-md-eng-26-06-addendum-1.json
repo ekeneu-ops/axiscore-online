@@ -1,0 +1,135 @@
+{
+ "bid_id": "washington-county-md-eng-26-06-addendum-1",
+ "bid_number": "ENG-26-06 Addendum 1",
+ "agency": "Washington County, MD",
+ "src": "Open",
+ "title": "Western Section Highway Department Fuel Center \u2013 Design Build, Contract No. MI-WH-316-28",
+ "close": "7/15/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Western Section Highway Department Fuel Center \u2013 Design Build",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Western Section Highway Department Fuel Center \u2013 Design Build 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "1-INVITATION TO BID _ITB_ -28-316 WESTERN HWY FUEL CENTER DESIGN BUILD.pdf",
+  "2-GENERAL CONDITIONS.pdf",
+  "3 - DESIGN-BUILD SPECIFICATIONS - WESTERN SECTION HIGHWAY FUEL CENTER.pdf",
+  "4-AERIAL VIEW _ 40 SCALE _ WESTERN REGIONAL HWY FIELD RUN TOPOGRAPHY.pdf",
+  "5 - FUEL CENTER CONCEPT DETAILS.pdf",
+  "6-WASHINGTON COUNTY INSURANCE REQUIREMENTS.pdf",
+  "7-CONTRACT FORMS - WESTERN SECTION HIGHWAYS FUEL CENTER.pdf",
+  "8-BID FORMS WESTERN SECTION HIGHWAYS FUEL CENTER.pdf",
+  "9-SIGNATURE TO BIDS.pdf",
+  "Addendum No. 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "1-INVITATION TO BID _ITB_ -28-316 WESTERN HWY FUEL CENTER DESIGN BUILD.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2-GENERAL CONDITIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "3 - DESIGN-BUILD SPECIFICATIONS - WESTERN SECTION HIGHWAY FUEL CENTER.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "4-AERIAL VIEW _ 40 SCALE _ WESTERN REGIONAL HWY FIELD RUN TOPOGRAPHY.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "5 - FUEL CENTER CONCEPT DETAILS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "6-WASHINGTON COUNTY INSURANCE REQUIREMENTS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "7-CONTRACT FORMS - WESTERN SECTION HIGHWAYS FUEL CENTER.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "8-BID FORMS WESTERN SECTION HIGHWAYS FUEL CENTER.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "9-SIGNATURE TO BIDS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 96.2,
+  "attachment_fetches": 10,
+  "attachment_seconds": 61.8,
+  "attachment_bytes": 12622170,
+  "max_fetch_seconds": 28.8,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:43:16.618536+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/washington-county-md-eng-26-06-addendum-1/coverage.json"
+}

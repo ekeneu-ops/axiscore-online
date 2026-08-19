@@ -1,0 +1,36 @@
+{
+ "bid_id": "fort-worth-isd-tx-26-070-a",
+ "bid_number": "26-070-A",
+ "agency": "Fort Worth ISD, TX",
+ "src": "Invited",
+ "title": "General Retail Merchandise,Groceries,Supplies,Equipment and Services",
+ "close": "7/16/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:retail merchandise",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachments enumerable and no priced on-screen lines"
+ ],
+ "latency": {
+  "bid_seconds": 7.5,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:32:11.861045+00:00",
+ "extract_attempts": 2
+}

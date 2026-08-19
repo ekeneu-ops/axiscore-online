@@ -1,0 +1,84 @@
+ESS TIE-OUT — GAP DECOMPOSITION (date-bounded <= 2026-06-23, per order)  [2026-07-03]
+========================================================================================
+Orders on statement: 3228 (all 3228 queried live)
+Sum live ESS invoices <=6/23 on statement orders : $274,625.01
+Sum per-order credits (<=6/23, open)             : $11,043.41
+Sum statement owed_by_order                      : $261,617.65
+Net per-order delta (computed - statement)       : $1963.95
+Orders with a nonzero delta: 85  (+): 40 sum $4607.43   (-): 45 sum $-2643.48
+
+NOTE: spec target $261,297 vs statement-file total_net $261,617.65 — a built-in
+$-320.65 offset exists independent of any order-level issue.
+
+TOP 30 DRIVERS (|delta| desc; + = live higher than statement)
+order#                     live_inv   credit   computed      stmt     delta
+P010626000925               3137.47     0.00    3137.47    345.68   2791.79
+113-1212113-7993005         1742.40   649.23    1093.17   1742.40   -649.23
+112-4863047-2274643          677.18   253.08     424.10    677.18   -253.08
+111-7982459-7068266          377.52   180.00     197.52    377.52   -180.00
+112-6173319-1506641          151.24   136.68      14.56   -136.68    151.24
+47QDCC26M6R4J                249.84     0.00     249.84     99.84    150.00
+112-1962292-1502628          295.50   148.68     146.82    295.50   -148.68
+111-6280944-7015461          138.88    57.47      81.41    -57.47    138.88
+111-4616025-4062662          120.38   120.38       0.00   -120.38    120.38
+112-9303552-6443453          198.60     0.00     198.60     92.09    106.51
+114-4090421-4343426          542.08    90.29     451.79    542.08    -90.29
+113-8391317-6542613          137.56     0.00     137.56     55.90     81.66
+114-0581853-2285028           51.94    91.66     -39.72     41.94    -81.66
+111-3353237-8334666           81.45    81.45       0.00     81.45    -81.45
+114-9112306-7305026           79.72    65.98      13.74    -65.98     79.72
+114-2696301-1357825           78.34    68.34      10.00    -68.34     78.34
+114-2960465-2477007          147.60    37.81     109.79     34.17     75.62
+111-8663673-7709028           81.45    81.45       0.00    -71.45     71.45
+112-5982334-0894633          219.58    68.34     151.24    219.58    -68.34
+112-8239339-0258653          455.54    68.34     387.20    455.54    -68.34
+47QDCC26M6K86                128.40    30.72      97.68     30.72     66.96
+114-1633729-6357834          143.96    66.78      77.18    143.96    -66.78
+111-2764875-5249810           66.38    28.19      38.19    -28.19     66.38
+112-9463952-2377857          103.88    56.94      46.94    103.88    -56.94
+112-8090114-5579441           86.78    55.65      31.13     86.78    -55.65
+112-2479503-0627452           49.06    39.06      10.00    -39.06     49.06
+112-9483626-2393852           47.66    39.26       8.40    -39.26     47.66
+114-2926615-8653833           44.86    36.46       8.40    -36.46     44.86
+114-0684815-3701807          151.24    43.17     108.07    151.24    -43.17
+111-7461508-6019440           42.57    34.17       8.40    -34.17     42.57
+
+========================================================================================
+ANALYSIS + GUARDS (2026-07-03)
+========================================================================================
+STRUCTURE OF THE +$2,284.60 dry-run delta (vs spec target $261,297):
+  +$2,791.79  ONE order: P010626000925 — statement carries $345.68; live has FIVE
+              invoices totaling $3,137.47 (all-time act_total $5,815.51, net_dev
+              $5,796.93). A manual/bulk PO (non-Amazon format). RECOVERY-ITEM CANDIDATE
+              — same class as SPR's duplicate pair, 5x the size. CHECK IN MAGENTO/ERP.
+  -$2,643.48  45 orders where WE hold an open credit the statement predates (largest:
+              113-1212113-7993005 credit $649.23) — same credit-timing class as the nine
+              verified SPR credits.
+  +$1,815.64  39 further small (+) orders (split/extra billings <= $150 each).
+  -$  320.65  built-in offset: spec target $261,297 vs statement-file total_net
+              $261,617.65 (target predates the file? confirm which figure governs).
+  Only 85 of 3,228 orders carry ANY delta; 3,143 tie exactly.
+
+GUARDS CONFIRMED LIVE: P010626000925 buckets REVIEW (net_dev $5,796.93) and
+113-1212113-7993005 buckets REVIEW (net_dev $1,055.11) — neither can auto-pay.
+
+TOLERANCE IMPLICATION: excluding P010626000925, the residual is NET -$507.19 (credit-
+timing dominates). An evidence-backed ESS tolerance therefore hinges on ONE decision:
+verify P010626000925 (recover/credit -> delta collapses to ~$507) or accept it inside a
+~$2,300 tolerance (wide). Recommend: verify the P-order first, then set ~$550.
+
+========================================================================================
+RESOLUTION 2026-07-03 (Ekene, from the Magento order comments) — P010626000925
+========================================================================================
+EXPLAINED, NOT A RECOVERY ITEM. Manual order 47ZB7RZ (BOP), $10,282.30, filled by BOTH
+vendors: SPR items exported to JanSAN SPR 4/16; BWK3110 canceled by SPR (out of stock,
+"we were not billed for it") and RE-PLACED on ESS acct 959282 5/27 (qty 30, delivered
+5/28 via UPS, inv 01NC6BF). Most ESS invoices on the order were already paid; the
+statement's $345.68 is the only genuinely-outstanding piece. The +$2,791.79 is the
+ORDER-KEYED seed's granularity on a partially-paid multi-invoice order (all 5 invoices
+stay outstanding because the ORDER is on the statement) — benign, self-corrects when the
+already-paid invoices are marked paid in the app post-seed. Order remains REVIEW-guarded.
+
+ESS TOLERANCE (evidence-backed): $2,350 — covers the fully-explained +$2,284.60
+(P-order granularity +2,791.79, credit-timing -2,643.48, small splits +1,815.64,
+target-vs-file offset -320.65) plus ~3% drift headroom. Same standard as SPR's $160.

@@ -1,0 +1,164 @@
+# .github/workflows/spine-ap-classify.yml
+# AP CLASSIFICATION feed — corrected PAY/REVIEW/WAIT logic (Finance 12, 2026-06-24).
+# Reduces finance/data/_latest.json (recon output; FLAT per-order schema) into
+# finance/ap/ap_classify.json. STATEMENT-AS-TRUTH owed set = workflow_state == OPEN
+# (PAID = settled, excluded). AUTOMATIC buckets over the owed set only:
+#   WAIT    = owed & not yet invoiced (no actual billed cost)
+#   PAY     = owed & invoiced & |post-credit net deviation| <= $1 (reconciles)
+#   REVIEW  = owed & invoiced & |net deviation| > $1 (dispute; over/under tagged)
+#   UNSCORED= owed & invoiced but no expected-cost basis (not yet scored by engine)
+# Pure repo-file transform. Additive: does NOT touch data.json, rows.json,
+# _latest.json, or the held-funds surface.
+name: spine-ap-classify
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 12 * * *"   # 12:00 UTC, after the recon refresh writes _latest.json
+
+permissions:
+  contents: write
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Reduce _latest.json -> ap_classify.json + diagnostics
+        run: |
+          python3 - <<'PY'
+          import json, os, re, datetime, collections
+          TOL = 1.0
+          src = 'finance/data/_latest.json'
+          d = json.load(open(src))
+          orders = d.get('orders') or []
+          # ESS owed = orders ON the current Essendant statement (truth); everything
+          # else is paid. workflow_state was months-stale, so we no longer trust it for ESS.
+          stmt = {}
+          try:
+              stmt = (json.load(open('finance/ap/ess_statement.json')) or {}).get('owed_by_order') or {}
+          except Exception:
+              stmt = {}
+          import re as _re
+          isg_paid = set()
+          try:
+              isg_paid = set((json.load(open('finance/ap/isg_paid.json')) or {}).get('paid_keys') or [])
+          except Exception:
+              isg_paid = set()
+          spr_stmt = {}
+          try:
+              spr_stmt = (json.load(open('finance/ap/spr_statement.json')) or {}).get('owed_by_order') or {}
+          except Exception:
+              spr_stmt = {}
+          def isg_is_paid(oid):
+              if oid in isg_paid:
+                  return True
+              m = _re.search(r'(\d{7}-\d{7})$', oid)
+              return bool(m and m.group(1) in isg_paid)
+          def num(x):
+              try: return float(x)
+              except: return None
+          def rollup(name, code):
+              n = (str(name or '') + ' ' + str(code or '')).lower()
+              if 'essendant' in n: return 'ESS'
+              if 'rich' in n or '1045202' in n: return 'SPR'
+              if 'isg' in n or 'independent' in n or 'trimega' in n: return 'ISG'
+              if 'fedex' in n: return 'FEDEX'
+              if re.match(r'^\d', str(code or '').strip()): return 'ESS'
+              return 'OTHER'
+          rows = []
+          cnt = collections.Counter()
+          dollars = collections.defaultdict(float)
+          roll_review = collections.Counter()
+          samples = []
+          for o in orders:
+              oid = str(o.get('channel_order_id') or '')
+              created = str(o.get('created_at') or '')
+              ws = str(o.get('workflow_state') or '').upper()
+              roll = rollup(o.get('vendor_name'), o.get('primary_vendor_code'))
+              # OWED determination (statement-as-truth):
+              #   ESS  -> owed iff on the CURRENT statement; otherwise paid.
+              #   else -> interim workflow_state==OPEN, excluding pre-2026 (system starts 2026),
+              #           until SPR/ISG payment overlays are applied.
+              if roll == 'ESS':
+                  if oid not in stmt:
+                      continue
+                  stmt_amt = stmt[oid]
+              elif roll == 'SPR':
+                  # SPR owed = orders on the post-6/15 statement (spr_statement.json,
+                  # invoices after the 6/15 payment); everything before is paid. Exact,
+                  # by invoice date — same approach as the ESS statement gate.
+                  if oid not in spr_stmt:
+                      continue
+                  stmt_amt = spr_stmt[oid]
+              else:
+                  # ISG / OTHER / FEDEX: workflow_state==OPEN, 2026+, and NOT in the
+                  # ISG 2026 paid list (order-matchable subset).
+                  if ws != 'OPEN':
+                      continue
+                  if created and created < '2026-01-01':
+                      continue
+                  if isg_is_paid(oid):
+                      continue
+                  stmt_amt = None
+              act = (num(o.get('act_item_cost')) or 0) + (num(o.get('act_ship_cost')) or 0)
+              exp = (num(o.get('exp_item_cost')) or 0) + (num(o.get('exp_ship_cost')) or 0)
+              credit = num(o.get('credit_memo_applied')) or 0
+              owed_amt = stmt_amt
+              if owed_amt is None: owed_amt = num(o.get('t_outstanding'))
+              if owed_amt is None: owed_amt = num(o.get('payable_outstanding')) or 0
+              invoiced = act > 0
+              net_dev, dirn = None, None
+              if not invoiced:
+                  bucket = 'WAIT'
+              elif exp <= 0:
+                  bucket = 'UNSCORED'
+              else:
+                  net_dev = round(act - exp - credit, 2)
+                  if abs(net_dev) <= TOL: bucket = 'PAY'
+                  elif net_dev > TOL: bucket, dirn = 'REVIEW', 'over'
+                  else: bucket, dirn = 'REVIEW', 'under'
+              cnt[bucket] += 1
+              if dirn: cnt['REVIEW_' + dirn] += 1
+              if bucket == 'REVIEW': roll_review[roll] += 1
+              dollars[bucket] += owed_amt or 0
+              if invoiced and exp > 0 and len(samples) < 4:
+                  samples.append({k: o.get(k) for k in ('channel_order_id','vendor_name','primary_vendor_code',
+                      'act_item_cost','act_ship_cost','exp_item_cost','exp_ship_cost','credit_memo_applied',
+                      't_outstanding','payable_outstanding','net_cash_profit','class')})
+              rows.append({'order_id': o.get('channel_order_id'), 'rollup': roll,
+                  'vendor_name': o.get('vendor_name'), 'bucket': bucket, 'dir': dirn,
+                  'net_dev': net_dev, 'owed': round(owed_amt or 0, 2),
+                  'invoiced': invoiced, 'exp': round(exp, 2), 'act': round(act, 2),
+                  'credit': round(credit, 2), 'class': o.get('class'),
+                  'created_at': o.get('created_at'), 'magento_status': o.get('magento_status')})
+          out = {'generated': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ'),
+              'source': src, 'tolerance': TOL, 'owed_basis': 'workflow_state == OPEN',
+              'counts': dict(cnt), 'review_by_rollup': dict(roll_review),
+              'dollars': {k: round(x, 2) for k, x in dollars.items()}, 'rows': rows}
+          os.makedirs('finance/ap', exist_ok=True)
+          with open('finance/ap/ap_classify.json', 'w') as f:
+              json.dump(out, f, separators=(',', ':'))
+          s = os.environ.get('GITHUB_STEP_SUMMARY')
+          if s:
+              with open(s, 'a') as f:
+                  f.write('## ap_classify\n\norders_total %d | owed(OPEN) %d\n\n' % (len(orders), len(rows)))
+                  f.write('counts: %s\n\n' % json.dumps(out['counts']))
+                  f.write('review_by_rollup: %s\n\n' % json.dumps(out['review_by_rollup']))
+                  f.write('dollars: %s\n\n' % json.dumps(out['dollars']))
+                  f.write('samples (owed+invoiced+scored):\n\n```\n%s\n```\n' % json.dumps(samples, indent=1))
+          print('counts', dict(cnt))
+          PY
+          git config user.name "ap-classify-bot"
+          git config user.email "ap-classify@users.noreply.github.com"
+          git add finance/ap/ap_classify.json
+          if git diff --cached --quiet; then
+            echo "ap_classify.json unchanged - nothing to commit."
+          else
+            git commit -m "AP classify refresh $(date -u +%F) [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              if git push; then echo "pushed"; break; fi
+              git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
+            done
+          fi

@@ -1,0 +1,156 @@
+{
+ "bid_id": "city-of-lauderhill-fl-2026-050",
+ "bid_number": "2026-050",
+ "agency": "City of Lauderhill, FL",
+ "src": "Invited",
+ "title": "DISASTER DEBRIS REMOVAL AND DISPOSAL",
+ "close": "8/31/2026 10:45 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 17,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 2026-050 - DISASTER DEBRIS REMOVAL AND DISPOSAL.pdf",
+  "Revised Electronic Proposal Price Form _s_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2026-050 - DISASTER DEBRIS REMOVAL AND DISPOSAL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Revised Electronic Proposal Price Form _s_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 3
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Revised Electronic Proposal Price Form _s_.pdf",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "ITEM\n1",
+    "DESCRIPTION : Pricing, lines 1 through 13, includes management for TDRS sites.",
+    "",
+    "UNIT of Measure",
+    "Estimate Quantity",
+    "Unit Price",
+    "Total Price"
+   ],
+   "score": 3,
+   "n_rows": 17,
+   "sample": [
+    [
+     "",
+     "Vegetative Debris Removal- Hazardous Tree Removal per tree based on size categories:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "a. 6\"-12\"",
+     "Each",
+     "1",
+     "",
+     "$ -"
+    ],
+    [
+     "",
+     "",
+     "b. 12\"-24\"",
+     "Each",
+     "1",
+     "",
+     "$ -"
+    ]
+   ]
+  },
+  {
+   "source": "Revised Electronic Proposal Price Form _s_.pdf",
+   "sheet": 2,
+   "header_row": 1,
+   "headers": [
+    "Item",
+    "Personnel / Description",
+    "Unit of Measure",
+    "Rate For Labor"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "Flagger",
+     "HOUR",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Revised Electronic Proposal Price Form _s_.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "Unit of Measure Hourly",
+    "Hourly Rate for Equipment"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "1",
+     "",
+     "HOUR",
+     ""
+    ],
+    [
+     "2",
+     "",
+     "HOUR",
+     "$ -"
+    ],
+    [
+     "3",
+     "",
+     "HOUR",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.6,
+  "attachment_fetches": 2,
+  "attachment_seconds": 2.7,
+  "attachment_bytes": 758166,
+  "max_fetch_seconds": 1.9,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-17T08:29:36.036056+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-lauderhill-fl-2026-050/coverage.json"
+}

@@ -1,0 +1,101 @@
+# .github/workflows/spine-authnet-sync.yml
+# Pull Authorize.net settled batches and match them against real BOA deposits.
+#
+# The unmatched settled remainder is money that has left the card processor but has not
+# yet arrived in the bank — invisible on the net-position page until now, and material:
+# Ekene flagged a live $11,197.10 settlement with no corresponding deposit.
+#
+# Runs :40 past the hour, AFTER spine-plaid-sync at :25, so the deposit side is already
+# refreshed when matching runs — otherwise a batch that landed this hour would be
+# reported as still in transit for an extra hour.
+name: spine-authnet-sync
+
+on:
+  schedule:
+    - cron: "40 * * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "settlement window (days, chunked to the 31-day API cap)"
+        required: false
+        default: "45"
+        type: string
+      mode:
+        description: "runner MODE"
+        required: false
+        default: authnet_batches
+        type: choice
+        options: [authnet_batches, authnet_probe]
+
+concurrency:
+  group: spine-authnet-sync
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+
+env:
+  AWS_REGION: us-east-1
+  READER_ROLE: arn:aws:iam::114812789687:role/mc-spine-finance-reader
+  CLUSTER: mc-spine-cluster
+  TASK_DEF: mc-spine-finance-runner
+  LOG_GROUP: /mc-spine/finance-runner
+  SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
+  SECURITY_GROUPS: sg-0b0521438f059e5fc
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment: spine-read
+    steps:
+      - name: AWS credentials via OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.READER_ROLE }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: RunTask MODE=authnet_batches
+        id: run
+        run: |
+          DAYS="${{ inputs.days || '45' }}"
+          MODE="${{ inputs.mode || 'authnet_batches' }}"
+          OVERRIDES=$(jq -nc --arg d "$DAYS" --arg m "$MODE" '{containerOverrides:[{name:"finance-runner",environment:[
+            {name:"MODE",value:$m},{name:"AUTHNET_DAYS",value:$d}]}]}')
+          TASK_ARN=$(aws ecs run-task \
+            --cluster "$CLUSTER" --launch-type FARGATE --task-definition "$TASK_DEF" \
+            --overrides "$OVERRIDES" \
+            --network-configuration "awsvpcConfiguration={subnets=[$SUBNETS],securityGroups=[$SECURITY_GROUPS],assignPublicIp=DISABLED}" \
+            --query 'tasks[0].taskArn' --output text)
+          [ -n "$TASK_ARN" ] && [ "$TASK_ARN" != "None" ] || { echo "no task ARN" >&2; exit 1; }
+          echo "task_arn=$TASK_ARN" >> "$GITHUB_OUTPUT"
+
+      - name: Wait + report
+        run: |
+          TASK_ARN="${{ steps.run.outputs.task_arn }}"; TASK_ID="${TASK_ARN##*/}"
+          for i in $(seq 1 60); do
+            S=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].lastStatus' --output text)
+            [ "$S" = "STOPPED" ] && break
+            [ "$i" -eq 60 ] && { echo "timed out" >&2; exit 1; }
+            sleep 10
+          done
+          EC=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
+          echo "exitCode=$EC"
+          aws logs get-log-events --log-group-name "$LOG_GROUP" \
+            --log-stream-name "query/finance-runner/$TASK_ID" \
+            --query 'events[].message' --output text 2>/dev/null | tr '\t' '\n' > /tmp/tasklog.txt || true
+          if [ "$EC" = "0" ]; then
+            # The probe's payload is JSON and contains no "authnet" token, so a keyword
+            # grep silently swallows exactly the diagnostic we ran it for. Print the
+            # marked block verbatim.
+            sed -n '/BEGIN AUTHNET PROBE/,/END AUTHNET PROBE/p' /tmp/tasklog.txt || true
+            grep -iE "authnet" /tmp/tasklog.txt || true
+          else
+            # A bare exit code with no diagnostic is what made the first plaid sync
+            # failure unreadable; always dump the cause.
+            echo "--- stoppedReason ---"
+            aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" \
+              --query 'tasks[0].[stoppedReason,containers[0].reason]' --output text || true
+            echo "--- last 60 raw log lines ---"
+            tail -60 /tmp/tasklog.txt
+            echo "authnet sync task failed" >&2; exit 1
+          fi

@@ -1,0 +1,75 @@
+{
+ "bid_id": "goose-creek-consolidated-isd-tx-25-005",
+ "bid_number": "25-005",
+ "agency": "Goose Creek Consolidated ISD, TX",
+ "src": "Open",
+ "title": "Catering Services R5",
+ "close": "10/2/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CIQ.pdf",
+  "W9_Blank.pdf",
+  "1295_Form_Instructions_2024.pdf",
+  "EDGAR Certifications.pdf",
+  "Award Detail Spreadsheet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9_Blank.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295_Form_Instructions_2024.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR Certifications.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Award Detail Spreadsheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 23.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 9.3,
+  "attachment_bytes": 1949709,
+  "max_fetch_seconds": 3.81,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:25:16.966048+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,135 @@
+{
+ "bid_id": "victoria-isd-tx-2026-25",
+ "bid_number": "#2026-25",
+ "agency": "Victoria ISD, TX",
+ "src": "Open",
+ "title": "PAINTING SERVICES",
+ "close": "7/22/2026 12:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Please indicate an hourly service rate based on one (1) Journeyman and one (1) Apprentice as a package. If pricing varies by the type of service, please indicate pricing in the \"Services Offered\" field next to the service or include in the \"Deviation\" document.",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Please indicate an hourly service rate based on one (1) Journeyman and one (1) Apprentice as a package. If pricing varies by the type of service, please indicate pricing in the \"Services Offered\" field next to the service or include in the \"Deviation\" document. 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Legal Notice - Paint Services.pdf",
+  "FORM - standard terms _ conditions - SERVICES REVISED 05-07-19 - CLEAN C...pdf",
+  "2026-25 Paint Service Specs.pdf",
+  "DEVIATION FORM.pdf",
+  "Proposal Form 2026-25.pdf",
+  "CIQ.pdf",
+  "Victoria ISD - Federal Contracts Addendum - 05-07-19.pdf",
+  "insurancerequirements-3 attach maint.pdf",
+  "Prevailing Wage Rate 2026 6-17-26.pdf",
+  "W-9 Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Legal Notice - Paint Services.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORM - standard terms _ conditions - SERVICES REVISED 05-07-19 - CLEAN C...pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-25 Paint Service Specs.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "DEVIATION FORM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Proposal Form 2026-25.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Victoria ISD - Federal Contracts Addendum - 05-07-19.pdf",
+   "kind": "pdf",
+   "tables": 25,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "insurancerequirements-3 attach maint.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Prevailing Wage Rate 2026 6-17-26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Form.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 21.6,
+  "attachment_fetches": 10,
+  "attachment_seconds": 8.1,
+  "attachment_bytes": 1007706,
+  "max_fetch_seconds": 1.82,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:34:09.413428+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/victoria-isd-tx-2026-25/coverage.json"
+}

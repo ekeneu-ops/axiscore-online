@@ -1,0 +1,119 @@
+{
+ "bid_id": "douglas-county-ne-ci-2026-0089",
+ "bid_number": "CI-2026-0089",
+ "agency": "Douglas County, NE",
+ "src": "Open",
+ "title": "Andersen Park Playground Safety Tile Replacement",
+ "close": "7/29/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "BASE BID",
+   "qty": "1",
+   "uom": "LS`",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders _City_ Rev 03 20 2025_ ADA.docx",
+  "T_C _Service PB_ ADA.docx",
+  "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+  "Certificate of Compliance _ADA_.docx",
+  "Responsible Contractor Compliance Form _ADA_.docx",
+  "Notice to Bidders.docx",
+  "Specs_AndersenPark-PlaygroundSafetyTileReplacement.docx",
+  "Drawings_AndersenPark-TileReplacement_FINALDWGS.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders _City_ Rev 03 20 2025_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "T_C _Service PB_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate of Compliance _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Responsible Contractor Compliance Form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Notice to Bidders.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Specs_AndersenPark-PlaygroundSafetyTileReplacement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Drawings_AndersenPark-TileReplacement_FINALDWGS.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 59.7,
+  "attachment_fetches": 8,
+  "attachment_seconds": 45.7,
+  "attachment_bytes": 9439905,
+  "max_fetch_seconds": 39.11,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:22:47.219333+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/douglas-county-ne-ci-2026-0089/coverage.json"
+}

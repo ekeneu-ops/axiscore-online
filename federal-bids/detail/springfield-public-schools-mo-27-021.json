@@ -1,0 +1,99 @@
+{
+ "bid_id": "springfield-public-schools-mo-27-021",
+ "bid_number": "27-021",
+ "agency": "Springfield Public Schools, MO",
+ "src": "Invited",
+ "title": "Dust Exractors",
+ "close": "9/14/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 35,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "2",
+   "desc": "Dust Extractor: Brand: Festool Model: CT 48 E AC HEPA",
+   "qty": "4",
+   "uom": "EA",
+   "note": "No alternates are being considered at this time. Must be exact make and model.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Dust Extractor: Brand: Festool Model: CT 48 E AC HEPA 4 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Substitute_W9 Plus.pdf",
+  "PO Terms and Conditions 09.2025.pdf",
+  "General Contract Requirements Request for Quotes.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Substitute_W9 Plus.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PO Terms and Conditions 09.2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Contract Requirements Request for Quotes.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "General Contract Requirements Request for Quotes.pdf",
+   "sheet": 3,
+   "header_row": 24,
+   "headers": [
+    "each and every specification, drawing, sample or other description which was furnished to or adopted by the"
+   ],
+   "score": 2,
+   "n_rows": 35,
+   "sample": [
+    [
+     "Purchasing Department, (2) be fit and sufficient for the purpose expressed in the RFQ, (3) be merchantable, (4) be of"
+    ],
+    [
+     "good materials and workmanship, and (5) be free from defect."
+    ],
+    [
+     "b) Such warranty shall survive delivery and shall not be deemed waived either by reason of the District\u2019s"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 16.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 3.0,
+  "attachment_bytes": 1027285,
+  "max_fetch_seconds": 1.41,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-18T08:45:49.767307+00:00",
+ "extract_attempts": 1,
+ "lines_total": 35,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/springfield-public-schools-mo-27-021/coverage.json"
+}

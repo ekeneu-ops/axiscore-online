@@ -1,0 +1,50 @@
+{
+ "bid_id": "harris-county-department-of-education-tx-26-031ia",
+ "bid_number": "26/031IA",
+ "agency": "Harris County Department of Education, TX",
+ "src": "Invited",
+ "title": "Software Services",
+ "close": "7/14/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 26-031IA _Software Services_.pdf",
+  "Vendor Packet for Software Services.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 26-031IA _Software Services_.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Packet for Software Services.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 19.4,
+  "attachment_fetches": 2,
+  "attachment_seconds": 6.7,
+  "attachment_bytes": 3445611,
+  "max_fetch_seconds": 4.63,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T11:54:51.338266+00:00"
+}

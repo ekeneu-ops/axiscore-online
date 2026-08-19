@@ -1,0 +1,580 @@
+{
+ "bid_id": "douglas-county-ne-co-2026-0026-addendum-1",
+ "bid_number": "CO-2026-0026 Addendum 1",
+ "agency": "Douglas County, NE",
+ "src": "Open",
+ "title": "C-28(609) Elk City Drive Bridge",
+ "close": "8/19/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:bridge",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 10,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 23,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "TEMPORARY TRAFFIC CONTROL",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 TEMPORARY TRAFFIC CONTROL 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "REMOVE STRUCTURE",
+   "qty": "3",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 REMOVE STRUCTURE 3 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "GENERAL CLEARING AND GRUBBING",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 GENERAL CLEARING AND GRUBBING 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "REMOVE FENCE",
+   "qty": "600",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 REMOVE FENCE 600 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "LARGE TREE REMOVAL",
+   "qty": "44",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 LARGE TREE REMOVAL 44 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "REMOVE AND REINSTALL SIGN",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 REMOVE AND REINSTALL SIGN 5 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "REMOVE CULVERT",
+   "qty": "17",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 REMOVE CULVERT 17 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "EROSION CONTROL, TYPE 1D",
+   "qty": "3880",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 EROSION CONTROL, TYPE 1D 3880 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "SEEDING, TYPE II",
+   "qty": "3880",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 SEEDING, TYPE II 3880 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "EROSION CHECKS, TYPE WATTLE",
+   "qty": "630",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 EROSION CHECKS, TYPE WATTLE 630 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "FABRIC SILT FENCE - LOW POROSITY",
+   "qty": "45",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 FABRIC SILT FENCE - LOW POROSITY 45 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "CONCRETE TIED BLOCK MAT",
+   "qty": "343",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 CONCRETE TIED BLOCK MAT 343 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "BARBED WIRE FENCE",
+   "qty": "272",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 BARBED WIRE FENCE 272 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "CRUSHED ROCK SURFACE COURSE",
+   "qty": "75",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 CRUSHED ROCK SURFACE COURSE 75 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "BASE COURSE",
+   "qty": "45",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 BASE COURSE 45 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "EXCAVATION \u2013 ON-SITE",
+   "qty": "3395",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 This item has been changed as part of an addendum. See 'Bid History' for details. EXCAVATION \u2013 ON-SITE 3395 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "EXCAVATION OF UNSUITABLE MATERIALS",
+   "qty": "75",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 EXCAVATION OF UNSUITABLE MATERIALS 75 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "EXCAVATION \u2013 HAUL OFF",
+   "qty": "2335",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 This item has been changed as part of an addendum. See 'Bid History' for details. EXCAVATION \u2013 HAUL OFF 2335 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "REINFORCEING STEEL FOR BOX CULVERT",
+   "qty": "16679",
+   "uom": "LB",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 REINFORCEING STEEL FOR BOX CULVERT 16679 LB No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "CLASS 47B-4000 CONCRETE FOR BOX CULVERT",
+   "qty": "112",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 CLASS 47B-4000 CONCRETE FOR BOX CULVERT 112 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "CLASS 47B-3000 CONCRETE FOR BOX CULVERT",
+   "qty": "13",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 CLASS 47B-3000 CONCRETE FOR BOX CULVERT 13 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "PIPE RAILING",
+   "qty": "108",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 PIPE RAILING 108 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "EXCAVATION FOR BOX CULVERTS",
+   "qty": "33",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 This item has been deleted as part of an addendum. See 'Bid History' for details. EXCAVATION FOR BOX CULVERTS 33 CY No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders _COUNTY_ Rev 09 18 2025_ ADA.docx",
+  "T_C _Service_ COI_ PB_ County ADA 02 12 2025.docx",
+  "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+  "DC Fair Labor Standards Certificate _ADA_.docx",
+  "Individual_ Corporation_ Partnership or Joint Venture form _ADA_.docx",
+  "Web Content Accessibility Provision _ADA_.docx",
+  "NOTICE TO CONTRACTORS_C-28_609_.docx",
+  "SPECS_C-28_609_.docx",
+  "DRAWINGS_C-28_609 ELK CITY DRIVE BRIDGE.pdf",
+  "C28_609__Addendum1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders _COUNTY_ Rev 09 18 2025_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "T_C _Service_ COI_ PB_ County ADA 02 12 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "DC Fair Labor Standards Certificate _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Individual_ Corporation_ Partnership or Joint Venture form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Web Content Accessibility Provision _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "NOTICE TO CONTRACTORS_C-28_609_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SPECS_C-28_609_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "DRAWINGS_C-28_609 ELK CITY DRIVE BRIDGE.pdf",
+   "kind": "pdf",
+   "tables": 69,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "C28_609__Addendum1.pdf",
+   "kind": "pdf",
+   "tables": 14,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "DRAWINGS_C-28_609 ELK CITY DRIVE BRIDGE.pdf",
+   "sheet": 18,
+   "header_row": 1,
+   "headers": [
+    "DESCRIPTION",
+    "UNIT",
+    "QUANTITY"
+   ],
+   "score": 3,
+   "n_rows": 7,
+   "sample": [
+    [
+     "CLASS 47B-4000 CONCRETE",
+     "CY",
+     "112"
+    ],
+    [
+     "CLASS 47B-3000 CONCRETE",
+     "CY",
+     "13"
+    ],
+    [
+     "REINFORCING STEEL",
+     "LB",
+     "16,679"
+    ]
+   ]
+  },
+  {
+   "source": "DRAWINGS_C-28_609 ELK CITY DRIVE BRIDGE.pdf",
+   "sheet": 29,
+   "header_row": 0,
+   "headers": [
+    "\u00a1 Box Culvert\nNOTES\n(Symm. about this line)\nTO Half Span Fb\nThis structure is designed in accordance with the AASHTO LRFD Bridge Design\nSpecifications, Ninth Edition, including subsequent revisions.\nJ Gb\nFill is the depth of earth cover (including pavement) above top of culvert.\nS-6 C-2\nC-4\nAll concrete used shall be Class \u201c47B\u201d, with a 28-day strength of 4,000 psi.\nTT\nAll reinforcing steel shall conform to the requirements of ASTM A615, Grade 60\nsteel.\naG\nS-1 S-3 \"2 aF The minimum clearance, measured from the face of the concrete to the surface\nof any reinforcing bar shall be 3\u201d for bars near bottom of culvert floor and wing\n)ecaF\nOptional\nS-5 bars eq. spa. footings, and 2\u201d for all other bars, except where otherwise noted.\nConstruction\nJoint\n)ecaF Field bend and/or clip reinforcing bars to maintain minimum clearance.\nW-1 .aps edisnI(\nPayment for reinforcing steel shall be based on quantities as shown in the Design\n.qe Data. No allowance will be made for additional steel required for splices.\nesiR edistuO(\nW-2 \"21\n5-W The minimum lap for spliced bars shall be 48 bar diameters.\n@\nConcrete and steel quantities per foot of barrel include concrete and steel in the\nF-5 bars eq. spa. 6-W floor, walls and slab for one-foot length of barrel as shown in cross section.\n8\" 6\" 8\"\n\"4\nConcrete and steel quantities for ends include all concrete and steel beyond\nConstruction Joint\naD\nvertical planes passing through ends of barrel, plus all concrete and steel not\nF-1\naE included in the barrel cross section.\nF-3 \"\n2\n1\n3\nExcavation for ends consists of neat excavation for barrel turndowns, wing footings\nBT\nand footing turndowns, but only for the portions below flow line.\nTransverse barrel bars shall be placed normal to \u00a1 Culvert. Bar lengths shall be\nadjusted to fit skewed barrel ends.\nW-3 F-6 C-1 C-3\nA Eb Place F-3 bars midway between F-1 bars, S-3 bars midway between S-1 bars, C-3 bars\nmidway between C-1 bars, and C-4 bars midway between C-2 bars.\n1'-6\" Db\n1\nSpacing of F-5 bars equals (Span Length + 3 \") divided by (# F-5 bars).\n2\nCROSS SECTION OF BOX CULVERT\nSpacing of S-5 bars equals (Span Length) divided by (# S-5 bars), with first bar TW\nNot to Scale\nbeing placed one-half space from inside face of wall.\nNo. 4 bars\n(Diagonal)\nFront Face\nof Wing\nDESIGN DATA\nL P\nNo. 4 horiz.\nA\n\"\nREINFORCED CONCRETE BOX CULVERT DESIGN SINGLE SPAN AT STATION 102+44 No. 4 bars\n2 bars @ 18\"\n'-\n1 W @ 18\" ctrs.\nQ L ctrs. (Typ.\nSPAN RISE FILL BOX SKEW DES LOAD WINGS WINGS ON WING SLOPE\n(Front Face)\nEach Face)\n10 FT. 8 FT. 2.5 FT. 45 DEG. HL-93 FLARED TWO ENDS 3 : 1\n\u00a1 Project\nR\nBARREL SLAB THICKNESSES: BOTTOM (TB) = 8.0\"\nW-10\nSIDE (TO) = 8.0\"\nTOP (TT) = 8.0\" (Back Face)\nPaved Apron\n\u00a1 Culvert\nBARREL BAR DIMENSIONS\nA = 1'- 5.0\"\nDa = 2'- 7.0\" Ea = 2'- 7.0\" Fa = 2'- 4.0\" Ga = 2'- 1.0\"\nR Max.\nDb = 4'- 0.0\" Eb = 2'- 0.0\" Fb = 4'- 0.0\" Gb = 2'- 0.0\" Skew Angle WS\nJ = 1'- 7.0\" 1'-2\" Min. W-8\nP\nQ\nBARREL REINFORCING STEEL\nW-9\nBAR SIZE SPAC NO LENGTH BAR SIZE SPAC NO LENGTH BAR SIZE SPAC NO LENGTH\nVaries\nN\nC-1 5 12.0\" 6'- 7.0\" C-2 5 12.0\" 6'- 4.0\" S\n\"\nC-3 5 12.0\" 4'- 7.0\" C-4 5 12.0\" 4'- 1.0\" \u25ed A 2 R \"\n- 2\nF-1 5 12.0\" 11'- 4.0\" W-1 5 9.0\" 8'-11.0\" S-1 5 9.0\" 11'- 0.0\" 8\" 6\" \"4 ' 1 R - ' 1 S\nA\nW-2 5 9.0\" 8'-11.0\" W-7\nF-3 5 12.0\" 7'- 2.0\" W-3 4 18.0\" 2'- 8.0\" S-3 5 9.0\" 6'-10.0\"\nF-5 4 8 W-5 4 8 S-5 4 7 \"3 Q P\nF-6 4 6 W-6 4 16 S-6 4 6 S\nBT\nWS\nSkew Angle\nQUANTITIES (PER FOOT OF BARREL)\nCONCRETE 1.025 CY\nREINFORCING 175.2 LB \"0-'3\n1'-0\"\nBASE COURSE 0.290 CY\nPaved Apron\nTOTAL OF SKEW BARS AT TWO ENDS No. 4 Bent No. 4\nPARAPET WIDTH = 8.0\" BAR SIZE NUMBER LENGTH QUANTITY OF SKEW BARS R Bars @ Varies bars\nF-8 5 4 16'- 0.0\" REINFORCING 165 LB 9\" ctrs. (Typ.)\nM\nS-8 5 6 15'- 8.0\"\nQ\n\"\nWING ANGLES AND DIMENSIONS W 2\n'-\nWALL THICKNESS (TW) = 8.0\" QUANTITIES FOR WINGS ON TWO ENDS L 1\nAL = 15.0 DEG AS = 30.0 DEG M = 1'- 3.0\" N = 2'- 6.0\" CONCRETE 38.05 CY Q Max. L 9\"\nP A\nWL =26'- 0.0\" WS =13'- 6.0\" P = 2'- 0.0\" Q = 5'- 0.0\" REINFORCING 3899 LB\nFL = 8'- 8.0\" FS = 4'- 6.0\" R = 3'- 0.0\" S = 1'- 0.0\" EXCAVATION 33 CY P Min.\nXL = 8'-10.0\" XS = 4'- 4.0\" T = 4'- 5.0\" U = 5'- 0.0\" BASE COURSE 23.5 CY\nTYPICAL WING SECTION STEEL FOR WINGS PLAN OF BOX CULVERT\nBAR SIZE SPAC\nNot to Scale Not to Scale\nW-7 5 6.0\" NOTE:\nW-8 5 12.0\" SEE PLAN VIEWS AND SECTIONS\nW-9 5 12.0\" FOR PARAPET BARS, TURNDOWN\n\u25ed Length = 36 x diameter of bar\nW-10 5 12.0\" BARS AND OTHER WING BARS.",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "PROJECT NUMBER\nC-28(609)",
+     ""
+    ],
+    [
+     "",
+     "C.N. N/A",
+     ""
+    ],
+    [
+     "",
+     "STRUCTURE NUMBER",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "DRAWINGS_C-28_609 ELK CITY DRIVE BRIDGE.pdf",
+   "sheet": 34,
+   "header_row": 0,
+   "headers": [
+    "Front face\nof Wing Wall\nFront face\nof Wing Wall\nR\n1'-2\nR \" Q\n)\nNOTES\nn P\n\"\n1'-2 w\no T W\nQ d 8 \"\nP 8 \" n The Contractor shall have the option of using dowel bars to match vertical\nr\n\u00a1 Box Culvert (Single Span CBC) u wall bars as shown on the Optional Bar Detail. No allowances will be made\nt\nW (\nT \u00a1 Interior Wall (Multiple Span CBC) for additional steel required for bar laps.\n. 3-No. 4\ns\nr bars\nt\nDetails for parapets and concrete turndowns are typical unless otherwise\nc \"\n\" 9 noted on respective Box Culvert Design Special Plan sheets.\nAS H S a p l a f n S ( p f a o n r ( M fo u r lt i S p i l n e g l S e p a S n p a C n B C C ) BC) b a r s @ 9 3 \" A L\n9 t\n\" n No. 4 bars\nTI\ne\nb\n4 2-No. 4 bars\n.\no\nN\n\u2605 Concrete Box Culvert \u2605\nskew angle\nW-1, W-2 or\nW-4 bars\nW\n\u00b0\nS 0 s\n9 r L\n48 times W-1, No. 4 bent a W b S-8 bars\nW-2 or W-4 bar TI bars @ 18\" ctrs. 7 Rad = - (parapet)\n2\nW\nB\nF L\nS\nF\n)teparap(\n)nwodnrut(\n\"4\nSHORT WING LONG WING \"8\n\"9\nNo. 4 bent\n2 F-8 bars \"\nBT '- B 0 bars @ 18\" ctrs.\n0 (turndown) - 1\n'\n\" 1\n\"\n0\n\"3 -\n'\n2\n\u25b2\n\u25b2 Dowel bars to match\nOptional No. 4 bent bars to\nsize and spacing of\nmatch diagonal wing\nW-1, W-2 or W-4 bars\nbars. Tie into the\nparapet as shown.\nOPTIONAL BAR DETAIL\nNot to Scale\nPARTIAL PLAN AT END\n(Right Hand Back box culvert skew shown\n3\" W-10 bars (Back Face)\nLeft Hand Back identical, but opposite-hand)\nNot to Scale No. 4 bars @ 18\" ctrs. (Front Face)\n8\" 8\"\nS-6 bar\n).pyT(\nTT 2-No. 4 bars\n\"9\nNo. 4 bent No. 4 bars (Typ.)\nT bars @ 18\" \"\u01801\nctrs. (Typ.)\nTT\n\"81 )ecaF\nR=6\"\n@\n1'-6\" (Typ.)\nhcaE( S-8 skew\nsrab\nesiR\n\u273b bars (Typ.)\nINLET OUTLET\n4\nU .srtc\n.oN\nSECTION THROUGH PARAPETS 1'-0\"\nN\n\"4 (Transverse slab bars not shown)\nNot to Scale\nNo. 4 bent\nF-8 skew bar bars @ 18\" ctrs.\nS\nBT\n\"4\nBT\n2'-0\"\n\"0-'3 2-No. 4 diagonal\nbars in top of wing \"5+TT\n\"0-'3 \"6-'2\nConstruction Joint through\nW-7 bars\nthe barrel and wing footing No. 4 bars\nturndowns is permitted at or TT\nslightly below the level shown\n2-No. 4 bent bars to \"2\nmatch diagonal wing No. 4 bent bars\nbars. Tie into the @ 18\" ctrs.\nXL or XS W-8 (Back Face) parapet as shown.\n\u273b Longitudinal bars in wall. Field\n9\"\nbend and extend 2'-0\" into wing.\nW-9 bars to match W-10 bars\nWING REINFORCEMENT AT PARAPET CONNECTION SECTION B-B\nNot to Scale (Transverse floor bars not shown)\nTYPICAL ELEVATION OF WING Not to Scale\nNot to Scale",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "PROJECT NUMBER\nC-28(609)",
+     ""
+    ],
+    [
+     "",
+     "C.N. N/A",
+     ""
+    ],
+    [
+     "",
+     "STRUCTURE NUMBER",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "DRAWINGS_C-28_609 ELK CITY DRIVE BRIDGE.pdf",
+   "sheet": 41,
+   "header_row": 0,
+   "headers": [
+    "\"\n\" 18\n18\n.) .) \u25a0\np y p\ny (T\nT\n(\n\u25a0\n\u2605 \u2605\n\u25a0\n\u25a0\nPLAN VIEW PLAN VIEW\n(with paved apron(s)) (without paved apron(s))\n18\" 18\"\nNOTES\n\u25a0 = See Wing Wall Drainage and Foundation Detail.\n\u2605 = Per linear foot of barrel quantity.\n\"6\nSee Design Data for quantities.\nSECTIONAL VIEW\nCRUSHED ROCK BASE COURSE\nNot to Scale",
+    "NOTES\nFinished Grade\nCrushed Rock Backfill, Filter Fabric, and all\nSee Roadway Plans\nother miscellaneous drainage items behind the\nwings shall be considered as subsidiary to\nother items for which payment is made.\n\u00b1\n\" \u25a0 Crushed Rock for Base Course is required under\n0\n- wings.\n'\n1\n\u25ea Biaxial Geogrid shall be considered as subsidiary\nFront Face\nto the Base Course pay item.\nof Wing Wall\nBiaxial Geogrid shall be selected from the NDOT\nTurn back Filter Approved Products List (APL) and shall have the\nFabric at top following minimum properties:\nClean, \u00be\" Crushed\n5\nRock Backfill\nUltimate Tensile Strength (Ta) shall be no less\nthan 1,100 lb/ft (MD).\n1\nFilter Fabric Ultimate Tensile Strength (Tult) shall be the\nminimum average roll value (MARV) as per the\nASTM D 6637.\n1\" \u2205 Weep Holes @ 48\" ctrs., Carbon Black Content of 2%.\nSloped \u00bc\" per foot, 1'-0\" Min.\nLocated 6\" above finished\n4\"x4\" square section of\ngrade or paved apron\nGalvanized Wire Mesh,\ncentered over each Weep\nHole, and secured to concrete\nTurn back Filter Fabric and run up\nFinished Grade or back of Wing Wall to ensure\nTop of Apron in coverage of Weep Holes\nfront of Wing\n18\"\n\u25a0 6\" Crushed Rock for Base Course\n\u25ea Biaxial Geogrid\nWING WALL DRAINAGE AND FOUNDATION DETAIL\nNot to Scale",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 10,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "PROJECT NUMBER\nC-28(609)",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "C.N. N/A\nSTRUCTURE NUMBER\nC002810405P",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "NAL CIVIL\nIO\nS E N\nS G\nE\nF I N\nO ROSS D. E\nR E\nP BARRON R\nE-14018\nS A\nT K\nA T E NEBR A S\nOF",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "DRAWINGS_C-28_609 ELK CITY DRIVE BRIDGE.pdf",
+   "sheet": 46,
+   "header_row": 0,
+   "headers": [
+    "FOR PARALLEL WING\nNOTES\nAll concrete used shall be Class 47B, with a 28-day strength of 3,000.\nAll reinforcing steel used shall conform to the requirements of A.S.T.M.\ndesignation A615, Grade 60.\nAll concrete surfaces to be in contact with the new work shall be\nthoroughly cleaned before placing new concrete.\nMatch this point\nThe minimum covering, measured from the face of the concrete to the\nwith sloped apron\nsurface of any reinforcing bar, shall be 2\", except as shown.\nMatch this point\nField bend and/or clip reinforcing bars to maintain minimum cover.\nwith flat apron\nFlat apron line\nThe Welded Wire Fabric and No. 6 bars shall not be paid for directly,\nA A but shall be considered as subsidiary to the item \"Class 47B-3000 Concrete\nS loped apron line\nfor Box Culvert\".\nAll materials, equipment, tools, labor and other incidentals necessary to\ncomplete the work as shown on this plan, that are not paid for directly,\nBUILD NOTE:\nshall be considered as subsidiary to the item \"Class 47B-3000 Concrete\nPour 6\" concrete apron with a 3'-0\"\nfor Box Culvert\".\nturndown between culvert wings at\nelevations shown in table.\nBefore ordering any materials, the Contractor shall make a detailed field\nIf no elevations are shown, apron\ninspection of the existing structure, verifying dimensions and reporting to\nis assumed as flat.\nthe Engineer any discrepancies between their measurements and those\n4\"x4\"-W4xW4\nshown in these plans.\nWelded Wire\nFabric or equiv.\nAll materials removed shall become the property of the Contractor and\nshall be removed from the project site.\nAll grout used shall be an approved non-shrink type according to the\nNebraska Standard Specifications.\nIf the Concrete Box Culvert is existing, 1\"\u2205x1'-0\" deep holes shall be drilled\nstarting 1'-0\" from the outside edges of the apron along the outside face\nof the existing concrete box culvert turndown at 12\" centers.\nIf the Concrete Box Culvert is existing, all No. 6 bars shall be placed at the\ndepth and grouted in as shown on the plans.\nIf the Concrete Box Culvert is new, all no. 6 bars shall be placed as shown\non the plans.\nQuantities shown include the turndown at end of apron.\nIf no Elevations are shown, apron is assumed flat.\nMatch this point\nwith flat apron\nMatch this point\nFOR FLARED WING with sloped apron\nGENERAL PLAN\nNot to Scale\nCONCRETE BOX CULVERT\nSLOPED APRON\nFLAT APRON\nDrill 1\"\u2205x1'-0\" deep holes at 12\" ctrs.\n(for existing CBC's only)\nBreak bond between apron\nand wingwall or footing\nElev. \"A\"\n6\n\" Sloped apron line\nSee Detail \"A\"\nElev. \"B\"\nIf the CBC is existing, grout the No. 6 bars\nElev. \"A\"\ninto the 1\"\u2205x1'-0\" deep holes. If the CBC is new, 1'-0\" 1'-0\"\nplace No. 6 bars into fresh concrete as shown.\nField bend bars to match slope of apron.\n\"6\n8\"\n\"0-'3\nNo. 6 bars @ 12\" ctrs.\nDETAIL \"A\"\n4\"x4\"-W4xW4\nWelded Wire Not to Scale\nFabric or equiv.\nNOTE: THIS PLAN IS TO SHOW THE GENERAL\n8\" PLACEMENT OF A CONCRETE APRON, BOTH\nSLOPED AND FLAT. THE SIZE, SKEW, WING\nSECTION A-A\nANGLES, AND NUMBER OF BARRELS VARIES.\nNot to Scale",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "PROJECT NUMBER\nC-28(609)",
+     ""
+    ],
+    [
+     "",
+     "C.N. N/A",
+     ""
+    ],
+    [
+     "",
+     "STRUCTURE NUMBER\nC002810405P",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "C28_609__Addendum1.pdf",
+   "sheet": 12,
+   "header_row": 1,
+   "headers": [
+    "DESCRIPTION",
+    "UNIT",
+    "QUANTITY"
+   ],
+   "score": 3,
+   "n_rows": 5,
+   "sample": [
+    [
+     "CLASS 47B-4000 CONCRETE",
+     "CY",
+     "112"
+    ],
+    [
+     "CLASS 47B-3000 CONCRETE",
+     "CY",
+     "13"
+    ],
+    [
+     "REINFORCING STEEL",
+     "LB",
+     "16,679"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 40.9,
+  "attachment_fetches": 10,
+  "attachment_seconds": 12.3,
+  "attachment_bytes": 8229325,
+  "max_fetch_seconds": 6.53,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:23:41.973081+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/douglas-county-ne-co-2026-0026-addendum-1/coverage.json"
+}

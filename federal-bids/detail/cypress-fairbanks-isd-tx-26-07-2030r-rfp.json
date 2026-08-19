@@ -1,0 +1,107 @@
+{
+ "bid_id": "cypress-fairbanks-isd-tx-26-07-2030r-rfp",
+ "bid_number": "26-07-2030R-RFP",
+ "agency": "Cypress-Fairbanks ISD, TX",
+ "src": "Open",
+ "title": "Restaurant/Catering and Delivery Services",
+ "close": "6/30/2027 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "General___Special_Conditions_-_Attachment_A _Formal_.pdf",
+  "EDGAR Compliance CFISD_Proposer_-Vendor_Certification_Forms-_Attachment_B__revised 8-28-24.pdf",
+  "Vendor_Response_Form_Exhibit_A _1_.pdf",
+  "preemployment-preservice-affidavit-tec-22a055.pdf",
+  "spanish-pre-employment-preservice-affidavit-1.pdf",
+  "Insurance Requirements - Attachment C.pdf",
+  "Blank_W-9_with_instructions.pdf",
+  "Sample-Harris County Food Certificate-Permit.pdf",
+  "Sample-Food Handler certificate _002_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General___Special_Conditions_-_Attachment_A _Formal_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR Compliance CFISD_Proposer_-Vendor_Certification_Forms-_Attachment_B__revised 8-28-24.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor_Response_Form_Exhibit_A _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "preemployment-preservice-affidavit-tec-22a055.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "spanish-pre-employment-preservice-affidavit-1.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements - Attachment C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Blank_W-9_with_instructions.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sample-Harris County Food Certificate-Permit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sample-Food Handler certificate _002_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 26.6,
+  "attachment_fetches": 9,
+  "attachment_seconds": 17.2,
+  "attachment_bytes": 5740858,
+  "max_fetch_seconds": 5.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:38:45.226389+00:00",
+ "extract_attempts": 1
+}

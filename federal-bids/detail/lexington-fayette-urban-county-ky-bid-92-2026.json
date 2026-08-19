@@ -1,0 +1,63 @@
+{
+ "bid_id": "lexington-fayette-urban-county-ky-bid-92-2026",
+ "bid_number": "Bid 92-2026",
+ "agency": "Lexington-Fayette Urban County, KY",
+ "src": "Open",
+ "title": "Crane Installation",
+ "close": "8/19/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Purchase and installation of one 2.5 ton motorized Jib crane and hoist or equivalent.",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Please provide an itemized quote with your bid.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Purchase and installation of one 2.5 ton motorized Jib crane and hoist or equivalent. 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "92-2026 Bid Package.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "92-2026 Bid Package.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 12.9,
+  "attachment_fetches": 1,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 516032,
+  "max_fetch_seconds": 1.25,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:24:44.556831+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/lexington-fayette-urban-county-ky-bid-92-2026/coverage.json"
+}

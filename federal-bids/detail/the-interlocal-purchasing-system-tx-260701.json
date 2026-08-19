@@ -1,0 +1,231 @@
+{
+ "bid_id": "the-interlocal-purchasing-system-tx-260701",
+ "bid_number": "260701",
+ "agency": "The Interlocal Purchasing System, TX",
+ "src": "Invited",
+ "title": "Indoor Air Quality Equipment and Services",
+ "close": "8/21/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 10,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "260701 TIPS Request for Proposal _RFP_.pdf",
+  "260701 Pricing Form 1.xlsx",
+  "260701 Pricing Form 2.xlsx",
+  "Instructions and Sample - _3_ Required Customer Reference Letters.pdf",
+  "260701 Required Confidentiality Claim Form.pdf",
+  "260701 Vendor Agreement.pdf",
+  "260701 Vendor Agreement Signature Form.pdf",
+  "Conflict of Interest Questionnaire - Form CIQ.pdf",
+  "Disclosure of Lobbying Activities - Standard Form - LLL.pdf",
+  "Exhibit A - State Notice.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "260701 TIPS Request for Proposal _RFP_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "260701 Pricing Form 1.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "260701 Pricing Form 2.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Instructions and Sample - _3_ Required Customer Reference Letters.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "260701 Required Confidentiality Claim Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "260701 Vendor Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "260701 Vendor Agreement Signature Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Questionnaire - Form CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Disclosure of Lobbying Activities - Standard Form - LLL.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A - State Notice.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "260701 Pricing Form 1.xlsx",
+   "sheet": 0,
+   "header_row": 7,
+   "headers": [
+    "If Vendor desires to list the \"catalog pricing\" of goods/items that you sell by line-item, you are welcome to do so here in Section \u201cA\u201d of Pricing Form 1.  You are welcome to modify the columns and column titles as long as TIPS can identify the item\u2019s name and \u201ccatalog price.\u201d  Please note that if you are awarded with this type of pricing submission, you will be able to update the pricing and add/remove items within the catagory as long as you honor any applicable discounts originally proposed.  Specific discounts offered for any brand or item must be honored for the life of the contract.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "Product Name",
+     "Product #",
+     "Description",
+     "Units description - (each, dozen, hour, day, etc)",
+     "MSRP or Catalog Pricing",
+     "% Discount (Greater than Minimum Discount offered in Attribute Except in Limited Circumstances. See Attribute.)",
+     "TIPS Member Customer Price (after TIPS discount, if any)",
+     "",
+     ""
+    ],
+    [
+     "Example 1: Widget A",
+     "12345AB",
+     "gadget part",
+     "each",
+     "100",
+     "0.15",
+     "85",
+     "",
+     ""
+    ],
+    [
+     "Example 2: All Acme Product Line",
+     "see Acme catalog located at www.Acme.com",
+     "All Acme products available from our company ",
+     "",
+     "see Acme catalog located at www.Acme.com",
+     "0.1",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "260701 Pricing Form 2.xlsx",
+   "sheet": 0,
+   "header_row": 5,
+   "headers": [
+    "If Vendor desires to list the services that Vendor sells by line-item, Vendor is welcome to do so below in this Pricing Form 2.  All services must be provided in some unit cost (Ex. Per Hour, Per Person, Per Day, etc.).  You are welcome to modify the columns and column titles as long as TIPS can identify the service being offered by name, unit-type, and \u201ccatalog price\u201d of the service.  Please note that if you are awarded after submitting your service pricing on this form, you will be able to update the pricing and add/remove services within the category as long as you honor any applicable discounts originally proposed.  If Vendor already has service \u201cCatalog Pricing\u201d documents, links, or files compiled, Vendor may include a note below directing TIPS to please view those documents/links/files.  (Ex. X \u2013 Please see \u201cService \u201cCatalog Pricing\u201d in uploaded document entitled \u201c2022-2023 Vendor Service Pricing.\u201d) Please note that if you are awarded after submitting your service pricing through other documents/links/files, you will be able to update the pricing and add/remove services within this category as long as you honor any applicable discounts originally proposed.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 10,
+   "sample": [
+    [
+     "Service Name",
+     "Service Description",
+     "Specify Unit Type -(Ex. Per Hour, Per Person, Per Day, etc.)",
+     "Unit Pricing Not-to-Exceed",
+     "% Discount (Greater than Minimum Discount offered in Attribute Except in Limited Circumstances. See Attribute.)",
+     "TIPS Member Customer Price - Not to Exceed - (After TIPS discount, if any)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Example 1: Installation",
+     "Tech Level 1 Installation",
+     "Hourly/Tech",
+     "$100.00/hour/tech",
+     "0.05",
+     "$95.00/hour/tech",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Example 2: Installation",
+     "Tech Level 2 Installation",
+     "Hourly/Tech",
+     "$150.00/hour/tech",
+     "0.05",
+     "$142.50/hour/tech",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 30.1,
+  "attachment_fetches": 10,
+  "attachment_seconds": 19.0,
+  "attachment_bytes": 1440107,
+  "max_fetch_seconds": 4.56,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:03:00.307926+00:00",
+ "extract_attempts": 1,
+ "lines_total": 10,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/the-interlocal-purchasing-system-tx-260701/coverage.json"
+}

@@ -1,0 +1,127 @@
+{
+ "bid_id": "clemson-university-sc-217087303",
+ "bid_number": "217087303",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Victoria S2200 Dark Skin Tone Advanced Birthing Simulator",
+ "close": "7/20/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "VICTORIA\u00ae S2200 dark skin tone advanced birthing simulator package",
+   "qty": "1",
+   "uom": "EA",
+   "note": "VICTORIA\u00ae S2200 dark skin tone advanced birthing simulator package Includes: VICTORIA\u00ae S2200 dark skin tone simulator Tablet PC preloaded with UNI\u00ae control software, Obstetric Simulated Learning Experiences\u2122 guidebook, preprogrammed SLE library with 9 scenario-based simulations, Bedside patient monitor preloaded with Gaumard Vitals (Touchscreen \"All-in-one\" PC), RF communications module, Bluetooth communications module, Headset for streaming audio, Automatic drug recognition system, Active birthing baby, C-section baby, 4 abdominal covers (Palpation, Contraction, C-Section, Postpartum), Battery chargers, Accessories, User guide, Modified Zoll defibrillation snap cables, LungSim\u2122 In-Hospital System, LungSim\u2122 Mobile System, Care in Motion\u2122 Mobile standalone video-assisted debriefing system One-year limited warranty",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 VICTORIA\u00ae S2200 dark skin tone advanced birthing simulator package 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "Gynecologic Pack 1.0 accessory for VICTORIA\u00ae dark skin tone adult advanced birthing simulator.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "The Kit includes: - Non-pregnant abdominal cover - Anteverted uterus - Retroverted uterus - Transparent anteverted uterus for visualization of IUD placement - Five normal cervices with patent os - Six Non-patent cervices including one normal parous and five abnormal cervices - Removable perineum with integral urethra, vagina and rectum - Normal tubal fimbriae and ovaries - Simulated round ligaments and ovarian ligamentsNormal Birthing Cervix replacement for VICTORIA\u00ae adult advanced birthing simulator, with holder",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Gynecologic Pack 1.0 accessory for VICTORIA\u00ae dark skin tone adult advanced birthing simulator. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "3",
+   "desc": "Normal Birthing Cervix replacement for VICTORIA\u00ae adult advanced birthing simulator, with holder",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Normal Birthing Cervix replacement for VICTORIA\u00ae adult advanced birthing simulator, with holder 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "4",
+   "desc": "Fully Dilated Birthing Cervix consumable for VICTORIA adult advanced birthing simulator, with holder",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Fully Dilated Birthing Cervix consumable for VICTORIA adult advanced birthing simulator, with holder 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "5",
+   "desc": "Birthing Baby Battery Charger Assembly replacement for VICTORIA\u00ae Maternal and Neonatal Birthing Adult Simulator",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Birthing Baby Battery Charger Assembly replacement for VICTORIA\u00ae Maternal and Neonatal Birthing Adult Simulator 2 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "IMPORTANT TAX NOTICE.doc",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 22.7,
+  "attachment_fetches": 3,
+  "attachment_seconds": 3.3,
+  "attachment_bytes": 217623,
+  "max_fetch_seconds": 1.49,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:18:10.538639+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/clemson-university-sc-217087303/coverage.json"
+}

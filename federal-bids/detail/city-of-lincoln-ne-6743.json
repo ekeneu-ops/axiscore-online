@@ -1,0 +1,195 @@
+{
+ "bid_id": "city-of-lincoln-ne-6743",
+ "bid_number": "6743",
+ "agency": "City of Lincoln, NE",
+ "src": "Open",
+ "title": "Hazardous Chemical and Environmental Response Advanced Services",
+ "close": "7/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 90,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Mobilization for a Level 1 Event",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Dumping in ditch, meth lab, minor spill on road, mercury, one or two employees",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Mobilization for a Level 1 Event 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Mobilization for a Level 2 Event",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Materials in storm drains, contaminated creek, major fuel spill, full response crew",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Mobilization for a Level 2 Event 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Mobilization for a Level 3 Event",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Multiple casualty event, explosions, disasters, WMD Events, multiple full response crews",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Mobilization for a Level 3 Event 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Itemized Excel Spreadsheet, Enter zero \"0\" in the price response",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Fill out the itemized Excel spreadsheet attached below. Attach completed spreadsheet on the 'Response Attachments' of your response.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Itemized Excel Spreadsheet, Enter zero \"0\" in the price response 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Hazmat_ER_price_sheet.xlsx",
+  "6743 Specifications.pdf",
+  "Insurance Requirements.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "Instructions to Bidders 11-2023.pdf",
+  "United States Citizenship Attestation Form.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+  "Contract - City Annual.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Hazmat_ER_price_sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "6743 Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Annual.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Hazmat_ER_price_sheet.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Line Item",
+    "Description (size, horse power, etc)",
+    "Cost per hr/day/each",
+    "Other pertinent information"
+   ],
+   "score": 2,
+   "n_rows": 90,
+   "sample": [
+    [
+     "Staff",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Manager",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Supervisor",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 37.6,
+  "attachment_fetches": 9,
+  "attachment_seconds": 20.6,
+  "attachment_bytes": 1090933,
+  "max_fetch_seconds": 4.96,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:21:19.014667+00:00",
+ "extract_attempts": 1,
+ "lines_total": 88,
+ "lines_matched": 3,
+ "coverage_pct": 3.4,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-lincoln-ne-6743/coverage.json"
+}

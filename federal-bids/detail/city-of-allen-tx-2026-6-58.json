@@ -1,0 +1,305 @@
+{
+ "bid_id": "city-of-allen-tx-2026-6-58",
+ "bid_number": "2026-6-58",
+ "agency": "City of Allen, TX",
+ "src": "Open",
+ "title": "Allen Green Ribbon",
+ "close": "7/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 105,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Total Base Bid",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Total Base Bid 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "LEGAL AD 2026-6-58.pdf",
+  "IFB 2026-6-58.pdf",
+  "Bid Proposal 2026-6-58.xlsx",
+  "Project Plans.pdf",
+  "BID ENDORSEMENT.pdf",
+  "Exhibit 1 - Contractor Insurance Requirements _ Agreement.pdf",
+  "Exhibit 2 - Affidavit of No Prohibited Interest.pdf",
+  "Exhibit 3 - Conflict of Interest.pdf",
+  "Exhibit 4 - Bidders Qualifications Statement _ Supplemental Information.pdf",
+  "Exhibit 5 - Schedule of Subcontractors.pdf",
+  "Exhibit 6 - Work Force Composition.pdf",
+  "Exhibit 7 - Affidavit of Bills Paid.pdf",
+  "Exhibit 8 - Standard_Form_of_Agreement.pdf",
+  "Exhibit 9 - Bid Bond.pdf",
+  "Exhibit 10 - Payment Bond.pdf",
+  "Exhibit 11 - Performance Bond.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "LEGAL AD 2026-6-58.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "IFB 2026-6-58.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Bid Proposal 2026-6-58.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Project Plans.pdf",
+   "kind": "pdf",
+   "tables": 85,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ENDORSEMENT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 1 - Contractor Insurance Requirements _ Agreement.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 2 - Affidavit of No Prohibited Interest.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 3 - Conflict of Interest.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 4 - Bidders Qualifications Statement _ Supplemental Information.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 5 - Schedule of Subcontractors.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 6 - Work Force Composition.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 7 - Affidavit of Bills Paid.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 8 - Standard_Form_of_Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 9 - Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 10 - Payment Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 11 - Performance Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "IFB 2026-6-58.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item No.",
+    "Est.\nQuantity",
+    "Unit",
+    "Name of Pay Item with Unit Price\nin Words",
+    "Unit Bid\nPrice",
+    "Amount Bid"
+   ],
+   "score": 3,
+   "n_rows": 5,
+   "sample": [
+    [
+     "0100-7001",
+     "5",
+     "AC",
+     "PREPARING ROW @\nDOLLARS\nAND CENTS\nPER UNIT",
+     "$______",
+     "$________________"
+    ],
+    [
+     "0100-7013",
+     "175",
+     "EA",
+     "TREE PROTECTION (INSTALL) @\nDOLLARS\nAND CENTS\nPER UNIT",
+     "$______",
+     "$________________"
+    ],
+    [
+     "0100-7015",
+     "175",
+     "EA",
+     "TREE PROTECTION (REMOVE) @\nDOLLARS\nAND CENTS\nPER UNIT",
+     "$______",
+     "$________________"
+    ]
+   ]
+  },
+  {
+   "source": "IFB 2026-6-58.pdf",
+   "sheet": 14,
+   "header_row": 1,
+   "headers": [
+    "Item",
+    "Description",
+    "Thickness",
+    "Rate",
+    "",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "162",
+     "Block Sod",
+     "N/A",
+     "See\nSpecifications",
+     "",
+     "757 SY"
+    ],
+    [
+     "166 *",
+     "Fertilizer (12-6-6)",
+     "N/A",
+     "500",
+     "Lbs./Ac",
+     "0.04 Ton"
+    ],
+    [
+     "168",
+     "Vegetative Watering (Warm)**",
+     "N/A",
+     "12",
+     "TGL/Ac/Day",
+     "113 TGL"
+    ]
+   ]
+  },
+  {
+   "source": "Bid Proposal 2026-6-58.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item No.",
+    "Est. Quantity",
+    "Unit",
+    "Name of Pay Item with Unit Price in Words",
+    "Unit Bid Price",
+    "Amount Bid"
+   ],
+   "score": 3,
+   "n_rows": 105,
+   "sample": [
+    [
+     "0100-7001",
+     "5",
+     "AC",
+     "PREPARING ROW @",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "                                                      DOLLARS",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "AND                                                             CENTS",
+     "0",
+     "0"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 199.6,
+  "attachment_fetches": 16,
+  "attachment_seconds": 141.0,
+  "attachment_bytes": 146563847,
+  "max_fetch_seconds": 81.5,
+  "throttle_signals": 3,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:50:34.485578+00:00",
+ "extract_attempts": 1,
+ "lines_total": 27,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-allen-tx-2026-6-58/coverage.json"
+}

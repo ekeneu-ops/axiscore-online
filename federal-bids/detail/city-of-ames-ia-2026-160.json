@@ -1,0 +1,152 @@
+{
+ "bid_id": "city-of-ames-ia-2026-160",
+ "bid_number": "2026-160",
+ "agency": "City of Ames, IA",
+ "src": "Open",
+ "title": "Two (2) One-Ton 4WD Dual Rear Wheel Crew Cab Chassis",
+ "close": "7/15/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "TWO (2) ONE-TONE 4WD DUAL REAR WHEEL CREW CAB CHASSIS",
+   "qty": "2",
+   "uom": "EA",
+   "note": "Per VP-1560 1566 Spec located in the Attachments tab",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 TWO (2) ONE-TONE 4WD DUAL REAR WHEEL CREW CAB CHASSIS 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "2",
+   "desc": "OPTIONAL ITEM# 1 - Blind Spot Monitoring System",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 OPTIONAL ITEM# 1 - Blind Spot Monitoring System 2 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "3",
+   "desc": "OPTIONAL ITEM# 2 - 360 Degree Camera System",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 OPTIONAL ITEM# 2 - 360 Degree Camera System 2 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "4",
+   "desc": "OPTIONAL ITEM# 3 - 60/40 Split Bench Rear Seat (Forward Facing)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 OPTIONAL ITEM# 3 - 60/40 Split Bench Rear Seat (Forward Facing) 2 EA No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "VP-1560 1566 Spec.pdf",
+  "Instructions_to_Bidders___Conditions_-_Standard.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "VP-1560 1566 Spec.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Instructions_to_Bidders___Conditions_-_Standard.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "VP-1560 1566 Spec.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Qty.",
+    "",
+    "",
+    "Spec. #",
+    "",
+    "",
+    "Description",
+    "",
+    "",
+    "Dept",
+    "",
+    "",
+    "New ID",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "2",
+     "",
+     "",
+     "VT-1560-1566",
+     "",
+     "",
+     "Chassis, Crew Cab, 4WD",
+     "",
+     "",
+     "44",
+     "",
+     "",
+     "1560\n1566",
+     "",
+     "",
+     "810\n1006",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 20.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 3.7,
+  "attachment_bytes": 364483,
+  "max_fetch_seconds": 2.95,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:43:38.305076+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-ames-ia-2026-160/coverage.json"
+}

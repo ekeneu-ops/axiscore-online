@@ -1,0 +1,159 @@
+{
+ "bid_id": "eagle-mountain-saginaw-isd-tx-2324-028-2029-b",
+ "bid_number": "2324-028-2029-B",
+ "agency": "Eagle Mountain-Saginaw ISD, TX",
+ "src": "Open",
+ "title": "Administrative & Academic Contracted Services",
+ "close": "6/30/2027 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Firm-Fixed Price - Hourly Rate If Vendor Compensation Structure is per hour, please provide your Hourly Rate. (Note: This is the maximum hourly rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.)",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This is a REQUIRED Response - If your Compensation Structure is not \"per hour\", enter NO BID (above). A response of zero will be considered a \"NO BID\" for hourly rate.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Firm-Fixed Price - Hourly Rate If Vendor Compensation Structure is per hour, please provide your Hourly Rate. (Note: This is the maximum hourly rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.) 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "Firm-Fixed Price - Daily Rate If Vendor Compensation Structure is per day, please provide your Daily Rate. (Note: This is the maximum daily rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.)",
+   "qty": "1",
+   "uom": "DAY",
+   "note": "This is a REQUIRED Response - If your Compensation Structure is not \"per day\", enter NO BID (above). A response of zero will be considered a \"NO BID\" for daily rate.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Firm-Fixed Price - Daily Rate If Vendor Compensation Structure is per day, please provide your Daily Rate. (Note: This is the maximum daily rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.) 1 DAY No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "3",
+   "desc": "Firm-Fixed Price - Lump Sum Rate If Vendor Compensation Structure is a lump sum, please provide your Lump Sum Rate. (Note: This is the maximum rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This is a REQUIRED Response - If your Compensation Structure is not \"lump sum\", enter NO BID (above). A response of zero will be considered a \"NO BID\" for lump sum rate.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Firm-Fixed Price - Lump Sum Rate If Vendor Compensation Structure is a lump sum, please provide your Lump Sum Rate. (Note: This is the maximum rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "4",
+   "desc": "Firm-Fixed Price - Per Event Rate If Vendor Compensation Structure is per event, please provide your Per Event Rate. (Note: This is the maximum rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This is a REQUIRED Response - If your Compensation Structure is not \"per event\", enter NO BID (above). A response of zero will be considered a \"NO BID\" for per event rate.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Firm-Fixed Price - Per Event Rate If Vendor Compensation Structure is per event, please provide your Per Event Rate. (Note: This is the maximum rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "5",
+   "desc": "Firm-Fixed Price - Annual Rate If Vendor Compensation Structure is per year, please provide your Annual Rate. (Note: This is the maximum rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This is a REQUIRED Response - If your Compensation Structure is not \"per year\", enter NO BID (above). A response of zero will be considered a \"NO BID\" for annual rate.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Firm-Fixed Price - Annual Rate If Vendor Compensation Structure is per year, please provide your Annual Rate. (Note: This is the maximum rate that EMS ISD will pay for Vendor Services. Quotes may be requested at the time services are needed.) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Electronic Submission Instructions 2016.pdf",
+  "Standard Terms Conditions 4.23.2026.pdf",
+  "2324-028-2029-B SPECIAL TERMS COND Specs.pdf",
+  "FEDERAL Vendor Certifications _EDGAR_ 5.22.25.pdf",
+  "Vendor Data Form June 2024.pdf",
+  "W9 March 2024.pdf",
+  "Proposal template.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Electronic Submission Instructions 2016.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Terms Conditions 4.23.2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2324-028-2029-B SPECIAL TERMS COND Specs.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FEDERAL Vendor Certifications _EDGAR_ 5.22.25.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Data Form June 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9 March 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Proposal template.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 23.3,
+  "attachment_fetches": 7,
+  "attachment_seconds": 10.6,
+  "attachment_bytes": 1503314,
+  "max_fetch_seconds": 3.48,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:40:54.581244+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/eagle-mountain-saginaw-isd-tx-2324-028-2029-b/coverage.json"
+}

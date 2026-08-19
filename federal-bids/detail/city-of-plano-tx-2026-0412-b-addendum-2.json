@@ -1,0 +1,119 @@
+{
+ "bid_id": "city-of-plano-tx-2026-0412-b-addendum-2",
+ "bid_number": "2026-0412-B Addendum 2",
+ "agency": "City of Plano, TX",
+ "src": "Open",
+ "title": "Building 059 - Fire Station No 7 Re-Roof FAC-F-00139",
+ "close": "7/20/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "All Costs associated with re-roofing Fire Station No. 7.",
+   "qty": "1",
+   "uom": "lump sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 All Costs associated with re-roofing Fire Station No. 7. 1 lump sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Addendum 2 .pdf",
+  "Addendum 1 - 2026-0412-B.pdf",
+  "Bid Bond Form.pdf",
+  "Plano Fire Station _7 - 100pct IFB - Drawings.pdf",
+  "2026-0412-B Solicitation FAC-F-00139.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Addendum 2 .pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 1 - 2026-0412-B.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Bond Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Plano Fire Station _7 - 100pct IFB - Drawings.pdf",
+   "kind": "pdf",
+   "tables": 41,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026-0412-B Solicitation FAC-F-00139.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Plano Fire Station _7 - 100pct IFB - Drawings.pdf",
+   "sheet": 13,
+   "header_row": 0,
+   "headers": [
+    "EXISTING RECEIVER TO EXISTING WALL\nREMAIN\nTURN UP END CAP UP\n24 GA. PREFINISHED\nEXISTING WOOD BLOCKING TO REMAIN. BEHIND COUNTERFLASHING\nCOUNTERFLASHING\nINSTALL NEW 2X WOOD BLOCKING IF NOT & FASTEN 8\" O.C. - SEAL\nALREADY PRESENT. IF NEW REQUIRED - AROUND EACH SIDE\n24 GA. PREFINISHED COPING END\nFASTEN TO STRUCTURAL WALL PER CODE\nCAP, FABRICATE WATERTIGHT,\nREQUIREMENTS\nOVERLAP COPING 4\" MIN.\nSLOPE\nNEW 24 GA. KYNAR-COATED SHEET METAL\nCOPING CAP AS SPEC.\nN.\nBEAD OF SEALANT MI\n4\"\nGNITSIXE\nHCTAM\n\"4\nGASKETED FASTENERS AT 12\" O.C.\nTHGIEH TRANSITION TO RISE WALL\nGNIHSALF\nPVC FLASHING MEMBRANE AS\n.NIM COPING CAP\nSPEC.\n1\" STANDING SEAM JOINT\n\"8\nNEW 1/2\" PLYWOOD AT\n.NIM\nFACE OF VERTICAL WALL\n\"8\nSEAM PLATE & FASTENER AT\nDOUBLE-SIDED TAPE\n12\" O.C. MAX.\n3/4\" BETWEEN LAP AND\nHEAT WELD (1-1/2\" MIN.) COPING LEG - WITH 2\nRIVETS PER LAP\nPVC MEMBRANE\nCOPING CAP JOINT\nINTERLOCKED JOINT & SOLDER\nEXISTING INSULATION AT 90\u00b0 CORNERS - JOINT\nTURNS DOWN VERTICAL FACE,\nTYP. BOTH SIDES\nEXISTING STEEL DECK\nCOPING CAP\nCORNER CONSTRUCTION JOINT\nPARAPET AND METAL COPING DETAIL\n1\nNOT TO SCALE",
+    "OWNER:\nCITY OF PLANO\nFACILITIES MANAGEMENT\n1520 K AVENUE\nSUITE 250\nPLANO, TEXAS 75074\nPROJECT No. FAC-F-00139"
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "",
+     "7#\nTCEJORP NOITATS\nevirD\nonalP 42057\nycarcomeD\nYALREVO saxeT\nERIF fo\nytiC ,onalP\n2065\nFOOR ONALP\n:TCEJORP"
+    ],
+    [
+     "",
+     "**PLEASE NOTE**\nTHIS DRAWING CONTAINS CONFIDENTIAL INFORMATION\nWHICH IS THE SOLE PROPERTY OF PREMIER BUILDING\nENVELOPE CONSULTANTS. THIS DRAWING SHALL NOT\nBE USED FOR ANY REASON OTHER THAN THAT FOR\nWHICH IT IS CREATED. THIS DRAWING IS A\nREPRESENTATION OF EXISTING CONDITIONS.\nIT IS THE RESPONSIBILITY OF THE CONTRACTOR TO\nVERIFY EXISTING CONDITIONS AND MEASUREMENTS.\nDO NOT SCALE THESE DRAWINGS!"
+    ],
+    [
+     "",
+     "1001 Cross Ti(cid:80)(cid:69)ers Ro(cid:68)d\nSui(cid:87)e 2014\nF(cid:79)ower Mou(cid:81)d, Te(cid:91)(cid:68)s 75028\n214-222-1426 OFFICE\nPBEC JOB (cid:6): 25-5573\nCopyright \u00a9 2026, PBEC"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 26.5,
+  "attachment_fetches": 5,
+  "attachment_seconds": 11.4,
+  "attachment_bytes": 10649455,
+  "max_fetch_seconds": 6.49,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:19:38.781365+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-plano-tx-2026-0412-b-addendum-2/coverage.json"
+}

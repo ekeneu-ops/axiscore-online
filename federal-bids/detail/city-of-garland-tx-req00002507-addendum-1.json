@@ -1,0 +1,196 @@
+{
+ "bid_id": "city-of-garland-tx-req00002507-addendum-1",
+ "bid_number": "REQ00002507 Addendum 1",
+ "agency": "City of Garland, TX",
+ "src": "Open",
+ "title": "GP&L Newman to Walnut Transmission Line Materials",
+ "close": "7/14/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 74,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Total Bid Price",
+   "qty": "1",
+   "uom": "Lt.",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Total Bid Price 1 Lt. No Response"
+  }
+ ],
+ "attachments_saved": [
+  "City of Garland Terms Conditions V1058 - OCA rev - Goods.pdf",
+  "Notice to Bidders REQ00002507.docx",
+  "Material Scope.pdf",
+  "Walnut - Newman_Prelim_Material Order.xlsx",
+  "DNO-12669  96F.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "City of Garland Terms Conditions V1058 - OCA rev - Goods.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Notice to Bidders REQ00002507.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Material Scope.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Walnut - Newman_Prelim_Material Order.xlsx",
+   "kind": "xlsx",
+   "tables": 3,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "DNO-12669  96F.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Walnut - Newman_Prelim_Material Order.xlsx",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "ITEM #",
+    "QTY",
+    "UNIT",
+    "MATERIAL DESCRIPTION",
+    "SPECIFIED MANUF",
+    "SPECIFIED PART NO.",
+    "UNIT COST",
+    "TOTAL COST",
+    "QUOTED MANUF",
+    "QUOTED PART NO.",
+    "LEAD TIME",
+    "COMMENTS",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 74,
+   "sample": [
+    [
+     "1",
+     "22",
+     "EA",
+     "TURNBUCKLE, ADJUSTABLE 18.8\" - 24.8\"",
+     "HUBBELL",
+     "TB1JE6BNKLN",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "22",
+     "EA",
+     "POLYMER INSULATOR, 61.6\" SECTION LENGTH, (30KIPS), HIGH LEAKAGE",
+     "HUBBELL",
+     "S133047H2010",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "94",
+     "EA",
+     "SOCKET Y-CLEVIS, (30 KIPS), 0.75\" BOLT, 2.75\" LENGTH",
+     "HUBBELL",
+     "SYC-30",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "DNO-12669  96F.pdf",
+   "sheet": 9,
+   "header_row": 0,
+   "headers": [
+    "Use simplified elastic cable model (no creep, no coefficient)\nName\nDescription AFL OPGW DNO-12669 CC-59/469\nCross section area (in^2) 0.1281 Unit weight (lbs/ft) 0.323\nNumber of independent wires 1\nOutside diameter (in) 0.469 Ultimate tension (lbs) 16,991\n(above should be 1 unless cables\nTemperature at which strand data below obtained (deg F) 69 are separated by spacers)",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "AFL OPGW DNO-12669 CC-59/469",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "0.323",
+     "Number of independent wires 1\n(above should be 1 unless cables\nare separated by spacers)"
+    ],
+    [
+     "",
+     "",
+     "16,991",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 34.3,
+  "attachment_fetches": 5,
+  "attachment_seconds": 20.8,
+  "attachment_bytes": 2357786,
+  "max_fetch_seconds": 11.42,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T15:34:33.929990+00:00",
+ "extract_attempts": 1,
+ "lines_total": 73,
+ "lines_matched": 3,
+ "coverage_pct": 4.1,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-garland-tx-req00002507-addendum-1/coverage.json"
+}

@@ -1,0 +1,183 @@
+{
+ "bid_id": "wylie-isd-tx-2027-j07-104",
+ "bid_number": "2027-J07-104",
+ "agency": "Wylie ISD, TX",
+ "src": "Invited",
+ "title": "General Building Maintenance Supplies, Service & Equipment",
+ "close": "6/3/2027 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "Indicate the percentage discount that will be applied to your standard hourly rate.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 Indicate the percentage discount that will be applied to your standard hourly rate. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "2",
+   "desc": "Indicate the percentage discount that will be applied to building materials.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Indicate the percentage discount that will be applied to building materials. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "3",
+   "desc": "Indicate the percentage discount that will be applied to maintenance materials.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Indicate the percentage discount that will be applied to maintenance materials. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "4",
+   "desc": "Indicate the percentage discount that will be applied to equipment sales.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Indicate the percentage discount that will be applied to equipment sales. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "5",
+   "desc": "Indicate the percentage discount that will be applied to equipment rental.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Indicate the percentage discount that will be applied to equipment rental. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "6",
+   "desc": "Indicate the percentage discount that will be applied to equipment service.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Indicate the percentage discount that will be applied to equipment service. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "7",
+   "desc": "Indicate the percentage discount that will be applied to equipment parts.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Indicate the percentage discount that will be applied to equipment parts. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2024_fw9.pdf",
+  "ACH Enrollment Request Form.pdf",
+  "Certificate of Interested Parties _Form 1295_ Instructions.pdf",
+  "WISD.Purchase Order.Terms _ Conditions.Fillable.pdf",
+  "WISD.General Terms _ Conditions.Fillable.pdf",
+  "WISD.Conflict of Interest Questionnaire.pdf",
+  "2040 - SENATE BILL 12 COMPLIANCE and CERTIFICATION FORM.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2024_fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ACH Enrollment Request Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate of Interested Parties _Form 1295_ Instructions.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "WISD.Purchase Order.Terms _ Conditions.Fillable.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "WISD.General Terms _ Conditions.Fillable.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "WISD.Conflict of Interest Questionnaire.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2040 - SENATE BILL 12 COMPLIANCE and CERTIFICATION FORM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 21.4,
+  "attachment_fetches": 7,
+  "attachment_seconds": 7.8,
+  "attachment_bytes": 2968938,
+  "max_fetch_seconds": 2.81,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-19T08:56:48.413045+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/wylie-isd-tx-2027-j07-104/coverage.json"
+}

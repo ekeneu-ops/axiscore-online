@@ -1,0 +1,179 @@
+{
+ "bid_id": "city-of-farmington-nm-26-168063",
+ "bid_number": "26-168063",
+ "agency": "City of Farmington, NM",
+ "src": "Open",
+ "title": "Property at 210 N. Allen Ave.",
+ "close": "7/10/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "LOI Purchase 210 N Allen Ave 26-168063.pdf",
+  "Campaign_35456.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "LOI Purchase 210 N Allen Ave 26-168063.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Campaign_35456.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 4
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Campaign_35456.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "Line\nNo.",
+    "Product",
+    "Description",
+    "Issue / Run\nDate",
+    "Quantity",
+    "Rate",
+    "Adjusted Rate",
+    "Amount"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Tri-City TCR Public\n73874 6/12/2026 1 39.00 32.50 39.00\nRecord Legal",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "--- ADJUSTMENT -\n--",
+     "TCR Legal Online Charge",
+     "",
+     "",
+     "6.50",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Campaign_35456.pdf",
+   "sheet": 5,
+   "header_row": 1,
+   "headers": [
+    "Line Issue / Run\nProduct Description Quantity Rate Adjusted Rate Amount\nNo. Date\ndigital lines\nLine No. Product Description Start End Quantity Rate Amount\n-- No Line Items --\nother lines\nLine\nProduct Description Start End Quantity Rate Amount\nNo.\nTCR 4C Marketplace Class Liner Non-\n73875 6/12/2026 6/12/2026 1 0.00 0.00\nOnline Recruitment\n0.00"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Page 2 of 2"
+    ]
+   ]
+  },
+  {
+   "source": "Campaign_35456.pdf",
+   "sheet": 7,
+   "header_row": 1,
+   "headers": [
+    "Line No.",
+    "Product",
+    "Description",
+    "Start",
+    "End",
+    "Quantity",
+    "Rate",
+    "Amount"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "-- No Line Items --",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Campaign_35456.pdf",
+   "sheet": 8,
+   "header_row": 1,
+   "headers": [
+    "Line\nNo.",
+    "Product",
+    "Description",
+    "Start",
+    "End",
+    "Quantity",
+    "Rate",
+    "Amount"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "TCR 4C Marketplace Class Liner Non-\n73875 6/12/2026 6/12/2026 1 0.00 0.00\nOnline Recruitment",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "0.00",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.1,
+  "attachment_fetches": 2,
+  "attachment_seconds": 3.9,
+  "attachment_bytes": 728360,
+  "max_fetch_seconds": 2.19,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:15:01.252658+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-farmington-nm-26-168063/coverage.json"
+}

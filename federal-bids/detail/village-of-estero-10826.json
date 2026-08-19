@@ -1,0 +1,159 @@
+{
+ "bid_id": "village-of-estero-10826",
+ "bid_number": "10826",
+ "agency": "Village of Estero",
+ "src": "Open",
+ "title": "Estero River Park Phase 2 Path",
+ "close": "7/24/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Mobilization",
+   "qty": "1",
+   "uom": "lump sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Mobilization 1 lump sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Remove Driveway Pavement",
+   "qty": "45",
+   "uom": "square yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Remove Driveway Pavement 45 square yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Selective Clearing and Grubbing. (Estimated at .8 acres)",
+   "qty": "1",
+   "uom": "acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Selective Clearing and Grubbing. (Estimated at .8 acres) 1 acre No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "Coarse Aggregate for Path Fill Areas",
+   "qty": "215",
+   "uom": "cubic yard",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 Coarse Aggregate for Path Fill Areas 215 cubic yard No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "Restoration of Previously Cleared Vegetated Area",
+   "qty": "1",
+   "uom": "lump sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 Restoration of Previously Cleared Vegetated Area 1 lump sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Main Bid Document.pdf",
+  "xx Estero RiverPark-Project Location.pdf",
+  "xx Estero River Park Minor Change _1 - Civil Plans.pdf",
+  "xx Form Foreign Country of Concern Attestation Affidavit.docx",
+  "xx Form Lobbying Affidavit.docx",
+  "xx Form Non-Collusion Affadavit.docx",
+  "xx Payment _ Performance Bond Public Construction.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Main Bid Document.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "xx Estero RiverPark-Project Location.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "xx Estero River Park Minor Change _1 - Civil Plans.pdf",
+   "kind": "pdf",
+   "tables": 21,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "xx Form Foreign Country of Concern Attestation Affidavit.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "xx Form Lobbying Affidavit.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "xx Form Non-Collusion Affadavit.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "xx Payment _ Performance Bond Public Construction.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 79.9,
+  "attachment_fetches": 7,
+  "attachment_seconds": 53.6,
+  "attachment_bytes": 45068959,
+  "max_fetch_seconds": 28.84,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T17:00:21.136315+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/village-of-estero-10826/coverage.json"
+}

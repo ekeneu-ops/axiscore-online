@@ -1,0 +1,127 @@
+{
+ "bid_id": "granbury-isd-tx-2026-12",
+ "bid_number": "2026-12",
+ "agency": "Granbury ISD, TX",
+ "src": "Open",
+ "title": "Athletic & Athletic Trainer Supplies, Equipment, Uniforms/Clothing",
+ "close": "7/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:athletic",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Discount can be 0-100%",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Discount can be 0-100% 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "General Terms and Conditions 4-17-17a.pdf",
+  "2019 - CERTIFICATION REGARDING LOBBYING.pdf",
+  "2022 - DOES NOT BOYCOTT CERTAIN ENERGY COMPANIES.pdf",
+  "2027 - RESIDENT BIDDERS CERTIFICATION.pdf",
+  "2028 - DEBARMENT OR SUSPENSION CERTIFICATION FORM.pdf",
+  "2032 - NON-ABORTION AFFILIATION.pdf",
+  "2038 - SENATE BILL 252 CERTIFICATION FORM.pdf",
+  "Contracted Services Agreement 8.1.25.pdf",
+  "IWT bidder_requirements rev 4-25-25 _1_ _2_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General Terms and Conditions 4-17-17a.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2019 - CERTIFICATION REGARDING LOBBYING.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2022 - DOES NOT BOYCOTT CERTAIN ENERGY COMPANIES.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2027 - RESIDENT BIDDERS CERTIFICATION.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2028 - DEBARMENT OR SUSPENSION CERTIFICATION FORM.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2032 - NON-ABORTION AFFILIATION.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2038 - SENATE BILL 252 CERTIFICATION FORM.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Contracted Services Agreement 8.1.25.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "IWT bidder_requirements rev 4-25-25 _1_ _2_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 61.2,
+  "attachment_fetches": 9,
+  "attachment_seconds": 41.5,
+  "attachment_bytes": 1632594,
+  "max_fetch_seconds": 7.01,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T16:47:13.421268+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/granbury-isd-tx-2026-12/coverage.json"
+}

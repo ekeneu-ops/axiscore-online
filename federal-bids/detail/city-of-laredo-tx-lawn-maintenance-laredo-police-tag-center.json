@@ -1,0 +1,83 @@
+{
+ "bid_id": "city-of-laredo-tx-lawn-maintenance-laredo-police-tag-center",
+ "bid_number": "Lawn Maintenance - Laredo Police TAG Center",
+ "agency": "City of Laredo, TX",
+ "src": "Invited",
+ "title": "Lawn Maintenance - Laredo Police TAG Center",
+ "close": "8/17/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "The City of Laredo is herein soliciting informal bids from interested parties for lawn maintenance for Laredo Police Department Tag Center located at 6410 McPherson Rd., Laredo, TX. 78041. Description of Contract: Maintain grounds, including shrubs, groundcover, and lawns. Contractor shall furnish all labor, tools, transportation, equipment, materials, and supplies necessary to perform these services. Contractor shall be responsible for supervision, clean up and disposal, and all applicable permits and licenses. General Conditions: Bidders are required to submit their bids upon the following expressed conditions: Bidders shall thoroughly examine the specifications, schedule instructions and other contract documents. Bidders shall thoroughly examine the specifications, schedule instructions and other contract documents. Bidders shall make all investigations necessary to thoroughly inform themselves regarding the requested specifications. No pleas of ignorance by the bidder of conditions that exist or that may hereafter exist as a result of failure of omission on the part of the bidder to make the necessary examinations and investigations, or failure to fulfill in every detail the requirements of the contract documents, will be accepted as a basis for varying the requirements of the City or the compensation to the vendor. Bidders are advised that all City contracts are subject to all legal requirements provided for in the City Charter and/or applicable City Ordinances, State and Federal Statutes. Unit (per cycle) prices shall be shown and where there is an error in extension of price, the unit price shall govern. The successful vendor must comply with all the insurance requirements described in the attributes tab. The City's obligation for performance of an annual supply contract beyond the current fiscal year is contingent upon the availability of appropriated funds from which payments for the contract purchases can be made. If no funds are appropriated and budgeted during the next fiscal year, this contract becomes null and void. The City of Laredo reserves the right to reject any and all bids, as well as the right to determine the bid most advantageous to the City. Service Requirements: The following is a description of the services which will be required under these specifications: Each service cycle shall include the following: 1. Services will be every two weeks. 2. Mow all lawn areas as required by the specific location. 3. Trim all growth along walls and fences, between expansion joints in sidewalks and curbs, around light poles, culverts, utility boxes, and trees. 4. Rake up, pick up and remove all trimmings and clippings on sidewalks, driveways, streets and other paved areas. 5. Haul away and properly dispose of any trimmings, clippings, cuttings, debris and litter. 6. Weed out; till and rake all shrubbery/flower beds. 7. Trim and prune trees/shrubbery as needed. 8. All grass clipping must be picked up after mowing the lawn. Vendor will be responsible for providing all safety warning signs advising the public of work in progress. In addition, when vendor employees are working on street right of way areas, each employee must wear a safety vest and warning notice signs must be placed to advise the public of work in progress. The cutting cycles or cuts listed on the bid schedule are estimates only. All cycles/cuts shall be scheduled by verbal or written communication as initiated by the respective department to the contractor at the time the department determines the services are needed. Upon verbal or written consent between the City and Contractor, a response time of no more than ten (10) working days is required. The cutting cycles may be increased or decreased at the sole discretion of the City so as to take into account a varied growing season and budgetary constraints. Insurance Requirements: The contractor shall furnish the City with original copies of valid insurance policies herein required upon execution of the contract and shall maintain said policies in full force and effect at all times during the term of this contract. Term of Contract: The term of this contract shall be for a period of one year with an option to renew for three (3) additional (1) year periods upon mutual agreement of parties. This contract does not commit the City to purchase the quantities/services indicated. The quantities/services are estimates and are based on the best available information. The purpose of this contract is to establish prices for the commodities or services needed, should the City need to purchase these commodities or services. Since the quantities/services are estimates, the City may purchase more than the estimated quantities, less than the estimated quantities, or not purchase any quantities at all. Award of Contract: Submission and award of bid shall be based on the \"Terms and Conditions of the Invitation for Bids\", which is attached and is part of these specifications. This contract will be awarded to the lowest responsible bidder based on the evaluation factors listed in the request for bid document, in accordance to the provisions of Chapters 252 and 271 of the State of Texas - Local Government Code.",
+   "qty": "26",
+   "uom": "weeks",
+   "note": "Price per every two weeks.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Price for additional services, such as planting trees, plants, etc.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Price for additional services, such as planting trees, plants, etc. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "COI Revised_1-1-2021 _1_.pdf",
+  "COI Form Instructions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "COI Revised_1-1-2021 _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "COI Form Instructions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.5,
+  "attachment_fetches": 2,
+  "attachment_seconds": 2.0,
+  "attachment_bytes": 328277,
+  "max_fetch_seconds": 1.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-11T16:34:23.507279+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-laredo-tx-lawn-maintenance-laredo-police-tag-center/coverage.json"
+}

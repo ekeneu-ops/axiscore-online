@@ -1,0 +1,159 @@
+{
+ "bid_id": "texbuy-purchasing-cooperative-tx-texbuy-rfp-026-026",
+ "bid_number": "TexBuy RFP #026-026",
+ "agency": "TexBuy Purchasing Cooperative, TX",
+ "src": "Invited",
+ "title": "Instructional Materials, Supplies, Equipment, and Software",
+ "close": "8/4/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:instructional material",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "TexBuy RFP _026-026 - Instructional Materials_ Supplies_ Equipment_ and Software.pdf",
+  "TexBuy Terms and Conditions Updated 04.27.2026.pdf",
+  "Conflict of Interest Questionnaire 08.14.2024.pdf",
+  "TexBuy  RFP _026-026 -  Acceptance of Bid and Contract Page.pdf",
+  "Regional ESC Map.pdf",
+  "Cooperative Program Participation.pdf",
+  "RFP _026-026  - Pricing Sheet.pdf",
+  "RFP _026-026  - Market Basket.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "TexBuy RFP _026-026 - Instructional Materials_ Supplies_ Equipment_ and Software.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TexBuy Terms and Conditions Updated 04.27.2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Questionnaire 08.14.2024.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "TexBuy  RFP _026-026 -  Acceptance of Bid and Contract Page.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Regional ESC Map.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Cooperative Program Participation.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP _026-026  - Pricing Sheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP _026-026  - Market Basket.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP _026-026  - Market Basket.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Model #",
+    "Market Basket Item",
+    "",
+    "",
+    "List\nPrice",
+    "",
+    "",
+    "%\nDiscount",
+    "",
+    "",
+    "TexBuy\nPrice",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "List",
+     "",
+     "",
+     "%",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "Market Basket Item",
+     "",
+     "",
+     "Price",
+     "",
+     "",
+     "Discount",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.9,
+  "attachment_fetches": 8,
+  "attachment_seconds": 7.2,
+  "attachment_bytes": 1034944,
+  "max_fetch_seconds": 1.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T14:59:28.332397+00:00",
+ "extract_attempts": 2,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/texbuy-purchasing-cooperative-tx-texbuy-rfp-026-026/coverage.json"
+}

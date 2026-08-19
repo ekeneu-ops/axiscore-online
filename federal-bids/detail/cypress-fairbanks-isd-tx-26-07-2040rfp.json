@@ -1,0 +1,179 @@
+{
+ "bid_id": "cypress-fairbanks-isd-tx-26-07-2040rfp",
+ "bid_number": "26-07-2040RFP",
+ "agency": "Cypress-Fairbanks ISD, TX",
+ "src": "Open",
+ "title": "Spirit Apparel and Promotional Items",
+ "close": "6/30/2027 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:promotional",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 8,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 8,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "List minimum percent discount for Spirit Apparel $0 - $99.",
+   "qty": "1",
+   "uom": "Percent Discount",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 List minimum percent discount for Spirit Apparel $0 - $99. 1 Percent Discount No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "List minimum percent discount for Spirit Apparel $100 - $500.",
+   "qty": "1",
+   "uom": "Percent Discount",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 List minimum percent discount for Spirit Apparel $100 - $500. 1 Percent Discount No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "List minimum percent discount for Spirit Apparel $501 - $1,000.",
+   "qty": "1",
+   "uom": "Percent Discount",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 List minimum percent discount for Spirit Apparel $501 - $1,000. 1 Percent Discount No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "List minimum percent discount for Spirit Apparel Over $1,000.",
+   "qty": "1",
+   "uom": "Percent Discount",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 List minimum percent discount for Spirit Apparel Over $1,000. 1 Percent Discount No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "List minimum percent discount for Promotional Items $0 - $99.",
+   "qty": "1",
+   "uom": "Percent Discount",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 List minimum percent discount for Promotional Items $0 - $99. 1 Percent Discount No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "List minimum percent discount for Promotional Items $100 - $500.",
+   "qty": "1",
+   "uom": "Percent Discount",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 List minimum percent discount for Promotional Items $100 - $500. 1 Percent Discount No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "List minimum percent discount for Promotional Items $501 - $1,000.",
+   "qty": "1",
+   "uom": "Percent Discount",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 List minimum percent discount for Promotional Items $501 - $1,000. 1 Percent Discount No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "List minimum percent discount for Promotional Items Over $1,000.",
+   "qty": "1",
+   "uom": "Percent Discount",
+   "note": "Enter \"0\" if not applicable.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 List minimum percent discount for Promotional Items Over $1,000. 1 Percent Discount No Response"
+  }
+ ],
+ "attachments_saved": [
+  "General___Special_Conditions_-_Attachment_A _Formal_.pdf",
+  "EDGAR Compliance CFISD_Proposer_-Vendor_Certification_Forms-_Attachment_B__revised 8-28-24.pdf",
+  "preemployment-preservice-affidavit-tec-22a055.pdf",
+  "spanish-pre-employment-preservice-affidavit-1.pdf",
+  "Blank_W-9_with_instructions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General___Special_Conditions_-_Attachment_A _Formal_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR Compliance CFISD_Proposer_-Vendor_Certification_Forms-_Attachment_B__revised 8-28-24.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "preemployment-preservice-affidavit-tec-22a055.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "spanish-pre-employment-preservice-affidavit-1.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Blank_W-9_with_instructions.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 22.3,
+  "attachment_fetches": 5,
+  "attachment_seconds": 9.1,
+  "attachment_bytes": 2263908,
+  "max_fetch_seconds": 2.94,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:39:08.986303+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/cypress-fairbanks-isd-tx-26-07-2040rfp/coverage.json"
+}

@@ -1,0 +1,210 @@
+{
+ "bid_id": "johnson-county-ks-2026-026-addendum-1",
+ "bid_number": "2026-026 Addendum 1",
+ "agency": "Johnson County, KS",
+ "src": "Invited",
+ "title": "Wellness Program Administration",
+ "close": "8/21/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 56,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026-026 RFP Wellness Program Administration.pdf",
+  "Exhibit A - Vendor Questionnaire.xlsx",
+  "2026-026 RFP Addendum 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-026 RFP Wellness Program Administration.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A - Vendor Questionnaire.xlsx",
+   "kind": "xlsx",
+   "tables": 18,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "2026-026 RFP Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Exhibit A - Vendor Questionnaire.xlsx",
+   "sheet": 3,
+   "header_row": 9,
+   "headers": [
+    "",
+    "Description & frequency of service, including estimated participation",
+    "Per Unit Cost - Employees (PEPM)",
+    "Per Unit Cost - Spouses (PEPM), if applicable",
+    "Cost Per Participant per Year",
+    "Total Annual Cost",
+    "Per Unit Cost - Employees (PEPM)",
+    "Per Unit Cost - Spouses (PEPM), if applicable",
+    "Cost Per Participant per Year",
+    "Total Annual Cost",
+    "Per Unit Cost - Employees (PEPM)",
+    "Per Unit Cost - Spouses (PEPM), if applicable",
+    "Cost Per Participant per Year",
+    "Total Annual Cost",
+    "Total Cost"
+   ],
+   "score": 2,
+   "n_rows": 56,
+   "sample": [
+    [
+     "Program Interventions & Outreach",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Web Portal",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Web Portal  ( PEPM fee) - REQUIRED",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "0",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit A - Vendor Questionnaire.xlsx",
+   "sheet": 9,
+   "header_row": 12,
+   "headers": [
+    "653bae6d245101d7a074e731",
+    "",
+    "",
+    "Based on your book of business for this product, what is the average employer size?",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "63e5001b6abb3b009a0016c8",
+     "",
+     "",
+     "What is your client retention percentage for this product?",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "63e5001b77d9bf009a000ca3",
+     "",
+     "",
+     "Indicate number of member lives served",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "691b031cee2660af8c957d62",
+     "",
+     "",
+     "Indicate participation rate in percentage for employer population",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.3,
+  "attachment_fetches": 3,
+  "attachment_seconds": 3.5,
+  "attachment_bytes": 1105164,
+  "max_fetch_seconds": 1.78,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-15T08:36:37.492717+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/johnson-county-ks-2026-026-addendum-1/coverage.json"
+}

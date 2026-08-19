@@ -1,0 +1,59 @@
+{
+ "bid_id": "allied-states-cooperative-by-esc-19-tx-22-7433-addendum-1",
+ "bid_number": "22-7433 Addendum 1",
+ "agency": "Allied States Cooperative by ESC 19, TX",
+ "src": "Open",
+ "title": "Event Center Products, Services and Related - ESC Region 19 Only",
+ "close": "8/31/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Scope of Work.pdf",
+  "Terms ESC Only.pdf",
+  "Forms 10.19.21.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Terms ESC Only.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Forms 10.19.21.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.9,
+  "attachment_fetches": 3,
+  "attachment_seconds": 6.4,
+  "attachment_bytes": 1792079,
+  "max_fetch_seconds": 4.95,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:08:48.709209+00:00",
+ "extract_attempts": 1
+}

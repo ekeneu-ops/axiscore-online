@@ -1,0 +1,43 @@
+{
+ "bid_id": "city-of-council-bluffs-ia-2025-46",
+ "bid_number": "2025 - 46",
+ "agency": "City of Council Bluffs, IA",
+ "src": "Open",
+ "title": "Redevelopment of Land Located Along Mohawk Street (2)",
+ "close": "8/20/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Request for Proposals - Mohawk Street_FINAL2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Request for Proposals - Mohawk Street_FINAL2.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.6,
+  "attachment_fetches": 1,
+  "attachment_seconds": 6.5,
+  "attachment_bytes": 3306243,
+  "max_fetch_seconds": 6.47,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-07-06T18:04:04.132362+00:00",
+ "extract_attempts": 1
+}
