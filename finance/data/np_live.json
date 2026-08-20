@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-20T21:46Z",
+ "asof": "2026-08-20T22:21Z",
  "ap": {
   "net": 242303.77,
   "credits": 3687.87,
@@ -15,20 +15,20 @@
     "total": 3439.24
    },
    "WAIT": {
-    "count": 8,
-    "total": 409.05
+    "count": 9,
+    "total": 428.14
    },
    "PAY": {
-    "count": 2700,
-    "total": 223523.73
+    "count": 2756,
+    "total": 228252.99
    },
    "REVIEW": {
-    "count": 110,
-    "total": 9329.5
+    "count": 108,
+    "total": 9271.74
    },
    "UNSCORED": {
-    "count": 70,
-    "total": 5602.25
+    "count": 15,
+    "total": 911.66
    },
    "PARKED": {
     "count": 31,
@@ -49,24 +49,24 @@
     "total": 63403.56
    }
   },
-  "asof": "2026-08-20T21:46Z",
-  "moved_pct": 2.03
+  "asof": "2026-08-20T22:21Z",
+  "moved_pct": 0.0
  },
  "held": {
-  "net": 227977.23,
-  "order_count": 2483,
+  "net": 238127.98,
+  "order_count": 2553,
   "walk": {
-   "released": 77072.08,
+   "released": 78417.7,
    "postsettle": 875.8,
-   "refunds": -6999.79,
+   "refunds": -7180.59,
    "account_events": -831.51,
-   "deferred": 157860.65
+   "deferred": 166846.58
   },
-  "fev_through": "2026-08-20T19:51Z",
-  "deferred_snapshot": "2026-08-20T21:06Z",
+  "fev_through": "2026-08-20T21:38Z",
+  "deferred_snapshot": "2026-08-20T22:06Z",
   "last_settlement_end": "2026-08-11",
-  "asof": "2026-08-20T21:46Z",
-  "moved_pct": 0.0
+  "asof": "2026-08-20T22:21Z",
+  "moved_pct": 4.45
  },
  "fba": {
   "value": 8763.5,
@@ -75,7 +75,7 @@
   "cost_after_prep": 8299.41,
   "est_sales": 14505.53,
   "erp_updated_at": "2026-08-20 21:30:07",
-  "asof": "2026-08-20T21:46Z"
+  "asof": "2026-08-20T22:21Z"
  },
  "amex": {
   "owed": 12878.01,
@@ -83,7 +83,7 @@
   "txn_count": 40,
   "pending_amt": 139.0,
   "last_txn": "2026-08-20",
-  "asof": "2026-08-20T21:46Z"
+  "asof": "2026-08-20T22:21Z"
  },
  "card_in_transit": {
   "amount": 855.35,
@@ -91,6 +91,6 @@
   "basis": "authnet",
   "oldest_days": 0,
   "deposits_through": "2026-08-20",
-  "asof": "2026-08-20T21:46Z"
+  "asof": "2026-08-20T22:21Z"
  }
 }
