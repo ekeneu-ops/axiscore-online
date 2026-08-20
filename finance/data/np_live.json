@@ -1,10 +1,10 @@
 {
- "asof": "2026-08-20T21:24Z",
+ "asof": "2026-08-20T21:46Z",
  "ap": {
-  "net": 237478.44,
-  "credits": 3613.77,
-  "credit_count": 61,
-  "net_after_credits": 233864.67,
+  "net": 242303.77,
+  "credits": 3687.87,
+  "credit_count": 63,
+  "net_after_credits": 238615.9,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -19,16 +19,16 @@
     "total": 409.05
    },
    "PAY": {
-    "count": 2697,
-    "total": 223388.99
+    "count": 2700,
+    "total": 223523.73
    },
    "REVIEW": {
     "count": 110,
     "total": 9329.5
    },
    "UNSCORED": {
-    "count": 15,
-    "total": 911.66
+    "count": 70,
+    "total": 5602.25
    },
    "PARKED": {
     "count": 31,
@@ -45,12 +45,12 @@
     "total": 164849.05
    },
    "SPR": {
-    "count": 950,
-    "total": 58578.23
+    "count": 1008,
+    "total": 63403.56
    }
   },
-  "asof": "2026-08-20T21:24Z",
-  "moved_pct": 0.0
+  "asof": "2026-08-20T21:46Z",
+  "moved_pct": 2.03
  },
  "held": {
   "net": 227977.23,
@@ -65,17 +65,17 @@
   "fev_through": "2026-08-20T19:51Z",
   "deferred_snapshot": "2026-08-20T21:06Z",
   "last_settlement_end": "2026-08-11",
-  "asof": "2026-08-20T21:24Z",
-  "moved_pct": 0.33
+  "asof": "2026-08-20T21:46Z",
+  "moved_pct": 0.0
  },
  "fba": {
-  "value": 8717.74,
-  "qty": 341,
-  "cost_gross": 12442.2,
-  "cost_after_prep": 8264.63,
-  "est_sales": 14421.07,
-  "erp_updated_at": "2026-08-20 06:30:08",
-  "asof": "2026-08-20T21:24Z"
+  "value": 8763.5,
+  "qty": 343,
+  "cost_gross": 12511.14,
+  "cost_after_prep": 8299.41,
+  "est_sales": 14505.53,
+  "erp_updated_at": "2026-08-20 21:30:07",
+  "asof": "2026-08-20T21:46Z"
  },
  "amex": {
   "owed": 12878.01,
@@ -83,7 +83,7 @@
   "txn_count": 40,
   "pending_amt": 139.0,
   "last_txn": "2026-08-20",
-  "asof": "2026-08-20T21:24Z"
+  "asof": "2026-08-20T21:46Z"
  },
  "card_in_transit": {
   "amount": 855.35,
@@ -91,6 +91,6 @@
   "basis": "authnet",
   "oldest_days": 0,
   "deposits_through": "2026-08-20",
-  "asof": "2026-08-20T21:24Z"
+  "asof": "2026-08-20T21:46Z"
  }
 }
