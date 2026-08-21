@@ -1,0 +1,200 @@
+{
+ "bid_id": "city-of-farmington-nm-27-168674",
+ "bid_number": "27-168674",
+ "agency": "City of Farmington, NM",
+ "src": "Open",
+ "title": "Three Phase, Conventional, Dead-Front, Radial and Loop-Feed Padmounted Transformers",
+ "close": "8/25/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Transformer, Padmount, 1500kVA, 3 Phase, Radial, 13,800/7,970-480/277V",
+   "qty": "2",
+   "uom": "EA",
+   "note": "285 084 7750 All items quoted must include Manufacturer\u2019s name, product number or description, and delivery lead time.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Transformer, Padmount, 1500kVA, 3 Phase, Radial, 13,800/7,970-480/277V 2 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bid 27-168674.pdf",
+  "ATTACHMENT A Specification_Three Phase Pad Conventional_Rev 43.pdf",
+  "Campaign_36232.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid 27-168674.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ATTACHMENT A Specification_Three Phase Pad Conventional_Rev 43.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Campaign_36232.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 4
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Campaign_36232.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "Line\nNo.",
+    "Product",
+    "Description",
+    "Issue / Run\nDate",
+    "Quantity",
+    "Rate",
+    "Adjusted Rate",
+    "Amount"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "Tri-City TCR Public\n75740 7/29/2026 1 44.50 30.00 44.50\nRecord Legal",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "--- ADJUSTMENT -\n--",
+     "TCR Legal Affadavit Charge",
+     "",
+     "",
+     "8.00",
+     "",
+     ""
+    ],
+    [
+     "",
+     "--- ADJUSTMENT -\n--",
+     "TCR Legal Online Charge",
+     "",
+     "",
+     "6.50",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Campaign_36232.pdf",
+   "sheet": 5,
+   "header_row": 1,
+   "headers": [
+    "Line Issue / Run\nProduct Description Quantity Rate Adjusted Rate Amount\nNo. Date\ndigital lines\nLine No. Product Description Start End Quantity Rate Amount\n-- No Line Items --\nother lines\nLine\nProduct Description Start End Quantity Rate Amount\nNo.\nTCR 4C Marketplace Class Liner Non-\n75741 7/29/2026 7/29/2026 1 0.00 0.00\nOnline Recruitment"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Page 2 of 2"
+    ]
+   ]
+  },
+  {
+   "source": "Campaign_36232.pdf",
+   "sheet": 7,
+   "header_row": 1,
+   "headers": [
+    "Line No.",
+    "Product",
+    "Description",
+    "Start",
+    "End",
+    "Quantity",
+    "Rate",
+    "Amount"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "-- No Line Items --",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Campaign_36232.pdf",
+   "sheet": 8,
+   "header_row": 1,
+   "headers": [
+    "Line\nNo.",
+    "Product",
+    "Description",
+    "Start",
+    "End",
+    "Quantity",
+    "Rate",
+    "Amount"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "TCR 4C Marketplace Class Liner Non-\n75741 7/29/2026 7/29/2026 1 0.00 0.00\nOnline Recruitment",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.7,
+  "attachment_fetches": 3,
+  "attachment_seconds": 2.8,
+  "attachment_bytes": 782932,
+  "max_fetch_seconds": 0.98,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:31:14.183360+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-farmington-nm-27-168674/coverage.json"
+}

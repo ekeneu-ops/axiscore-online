@@ -1,0 +1,272 @@
+{
+ "bid_id": "city-of-garland-tx-req00002496",
+ "bid_number": "REQ00002496",
+ "agency": "City of Garland, TX",
+ "src": "Open",
+ "title": "2026 Alley Improvements Group 2",
+ "close": "8/25/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 120,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "City of Garland Terms Conditions V1058 - OCA Rev - Services.pdf",
+  "_Notice to Bidders_ 2026 Garland Alley Improvements Group 2-080326.pdf",
+  "Bidders Qualification Statement.pdf",
+  "2 Year Maintenance Bond Example.pdf",
+  "Performance Bond Example.pdf",
+  "Payment Bond Example.pdf",
+  "2026 Alley Improvements Group 2 - BID SET 6-17-26.pdf",
+  "2026 Garland Alley Group 2 - Report - 267012G.pdf",
+  "26 Alley Group 2 Bidder Proposal-080326.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "City of Garland Terms Conditions V1058 - OCA Rev - Services.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_Notice to Bidders_ 2026 Garland Alley Improvements Group 2-080326.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bidders Qualification Statement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2 Year Maintenance Bond Example.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Performance Bond Example.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Payment Bond Example.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026 Alley Improvements Group 2 - BID SET 6-17-26.pdf",
+   "kind": "pdf",
+   "tables": 259,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026 Garland Alley Group 2 - Report - 267012G.pdf",
+   "kind": "pdf",
+   "tables": 26,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "26 Alley Group 2 Bidder Proposal-080326.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2026 Garland Alley Group 2 - Report - 267012G.pdf",
+   "sheet": 21,
+   "header_row": 1,
+   "headers": [
+    "Boring\nNo.",
+    "Depth\n(ft.)",
+    "Soil\nDescription",
+    "Unit\nWet\nWeight\n(pcf)",
+    "Moisture\nContent\n(%)",
+    "Atterberg\nLimits",
+    "",
+    "",
+    "Passing\n#200\nSieve\n(%)",
+    "Sulfate\nContent\n(ppm)",
+    "Ultimate\nCompressive\nStrength\n(tsf)",
+    "Cohesion\nor Shear\nStrength\n(tsf)",
+    "Deformation\n@ 50%\nStress\n(in.)",
+    "Strain\n(\u03b5 )\n50\n@ 50%\nStress\n(in/in)"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LL",
+     "PL",
+     "PI",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Colbath Dr/Torrance\nDr/Bellaire Dr Alley\nB-1\nClearhaven Dr/ Crystal\nCreek Ln Alley\nB-2\nCripple Creek Dr/\nHemlock Dr Alley\nB-3",
+     "0.5-2.0\n2.0-4.0\n4.0-6.0\n6.0-8.0\n8.0-10.0\n0.5-2.0\n2.0-4.0\n4.0-6.0\n6.0-8.0\n8.0-10.0\n2.0-4.0\n4.0-6.0\n6.0-8.0\n8.0-10.0",
+     "Light Brown CLAY\nw/4% Lime Additive\nw/6% Lime Additive\nw/8% Lime Additive\nw/10% Lime Additive\nLight Brown CLAY\nLight Brown CLAY\nLight Brown CLAY\nLight Brown CLAY\nDark Brown CLAY\nw/4% Lime Additive\nw/6% Lime Additive\nw/8% Lime Additive\nw/10% Lime Additive\nDark Brown CLAY\nDark Brown CLAY\nDark Brown CLAY\nDark Brown CLAY\nDark Gray CLAY\nw/4% Lime Additive\nw/6% Lime Additive\nw/8% Lime Additive\nw/10% Lime Additive\nDark Gray CLAY\nLight Brown and Light Gray CLAY\nLight Brown and Light Gray CLAY",
+     "131.2\n116.7\n125.5",
+     "19.7\n22.5\n22.4\n22.9\n21.2\n33.0\n27.9\n26.7\n27.0\n23.8\n18.2\n28.5\n25.8\n19.2",
+     "52\n43\n41\n40\n40\n84\n63\n61\n61\n61\n61\n73\n47\n46\n46\n45\n48",
+     "22\n31\n31\n32\n33\n32\n46\n47\n47\n48\n25\n30\n34\n36\n36\n37\n18",
+     "30\n12\n10\n8\n7\n52\n17\n14\n14\n13\n36\n43\n13\n10\n10\n8\n30",
+     "81.6\n91.7\n41.6",
+     "<100\n<100\n473",
+     "3.59\n0.96\n0.60",
+     "1.80\n0.48\n0.30",
+     "0.0109\n0.0287\n0.0280",
+     "0.05910\n0.00527\n0.00514"
+    ]
+   ]
+  },
+  {
+   "source": "2026 Garland Alley Group 2 - Report - 267012G.pdf",
+   "sheet": 22,
+   "header_row": 1,
+   "headers": [
+    "Boring\nNo.",
+    "Depth\n(ft.)",
+    "Soil\nDescription",
+    "Unit\nWet\nWeight\n(pcf)",
+    "Moisture\nContent\n(%)",
+    "Atterberg\nLimits",
+    "",
+    "",
+    "Passing\n#200\nSieve\n(%)",
+    "Sulfate\nContent\n(ppm)",
+    "Ultimate\nCompressive\nStrength\n(tsf)",
+    "Cohesion\nor Shear\nStrength\n(tsf)",
+    "Deformation\n@ 50%\nStress\n(in.)",
+    "Strain\n(\u03b5 )\n50\n@ 50%\nStress\n(in/in)"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LL",
+     "PL",
+     "PI",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Meadowview Ct/\nMeadowview Cir Alley\nB-4\nCollen Dr/Club Hill Dr\nAlley\nB-5",
+     "0.75-2.0\n2.0-4.0\n4.0-6.0\n6.0-8.0\n8.0-10.0\n0.4-2.0\n2.0-4.0\n4.0-6.0\n6.0-8.0\n8.0-10.0",
+     "Dark Gray CLAY\nw/4% Lime Additive\nw/6% Lime Additive\nw/8% Lime Additive\nw/10% Lime Additive\nDark Gray CLAY\nDark Gray CLAY\nDark Gray CLAY\nDark Gray CLAY\nBrown CLAY\nw/4% Lime Additive\nw/6% Lime Additive\nw/8% Lime Additive\nw/10% Lime Additive\nBrown CLAY\nTan and Gray CLAY\nTan and Gray CLAY\nDark Gray CLAY",
+     "118.9\n117.9",
+     "33.3\n28.6\n26.8\n27.7\n26.8\n36.6\n30.5\n29.2\n25.5\n23.2",
+     "88\n64\n63\n62\n61\n85\n86\n67\n66\n66\n66\n71",
+     "29\n44\n44\n45\n46\n28\n31\n44\n45\n47\n47\n27",
+     "59\n20\n19\n17\n15\n57\n55\n23\n21\n19\n19\n44",
+     "96.7\n97.4",
+     "<100\n<100",
+     "1.24\n0.72",
+     "0.62\n0.36",
+     "0.0385\n0.0542",
+     "0.00706\n0.00993"
+    ]
+   ]
+  },
+  {
+   "source": "26 Alley Group 2 Bidder Proposal-080326.xlsx",
+   "sheet": 0,
+   "header_row": 27,
+   "headers": [
+    "BIDDER IS INSTRUCTED TO FILL IN BOTH THE DESCRIPTION          (_____dollars and _____ cents)        AND THE UNIT PRICE",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 120,
+   "sample": [
+    [
+     "Waterbury Court Alley- Base Bid",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "ITEM_NO",
+     "DESCRIPTION",
+     "UNIT",
+     "QTY",
+     "UNIT PRICE",
+     "UNIT TOTAL",
+     ""
+    ],
+    [
+     "130",
+     "For sawing, removal and disposal of existing reinforced or non-reinforced concrete, street, median, alley ,sidewalk, parking lot or drive approach for the sum of _____________________________ dollars and _____________________________ cents per square yard.",
+     "SY",
+     "1751",
+     "",
+     "0",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 112.6,
+  "attachment_fetches": 9,
+  "attachment_seconds": 38.6,
+  "attachment_bytes": 40043783,
+  "max_fetch_seconds": 24.18,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:33:08.309806+00:00",
+ "extract_attempts": 1,
+ "lines_total": 115,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-garland-tx-req00002496/coverage.json"
+}

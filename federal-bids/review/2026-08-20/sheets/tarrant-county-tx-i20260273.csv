@@ -1,0 +1,4 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,"FOR MEDICAL EXAMINER'S OFFICE, DOSIMETRY SERVICE, TLD XBGN (Quarterly)",29.0,QUARTERLY PRICE PER BADGE,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,"FOR PUBLIC HEALTH DEPARTMENT, DOSIMETRY SERVICE, TLD XBD (STANDARD, BODY), with minimum reportable dose of 10 mrem (.10mSv)",3.0,MONTHLY PRICE PER BADGE,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,Rush Fee,1.0,PER SHIPMENT,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

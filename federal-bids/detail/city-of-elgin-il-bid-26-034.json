@@ -1,0 +1,203 @@
+{
+ "bid_id": "city-of-elgin-il-bid-26-034",
+ "bid_number": "Bid 26-034",
+ "agency": "City of Elgin, IL",
+ "src": "Open",
+ "title": "2026 Filter Media Replacement",
+ "close": "8/24/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 13,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "1.A.) Removal of approximately 1,090 cu. ft. of granular activated carbon from each of two (2) 22\u2019 x 33\u2019 filters at the Riverside Water Treatment Plant. Furnish and install virgin granular activated carbon (GAC) to comply with the specifications. Rebuild of the Leopold model S surface agitator wash arms (6 per filter). Prices held for 120 days from awarding of the contract. Work is expected to be completed in late fall/early winter of 2026.",
+   "qty": "2",
+   "uom": "PRICE PER FILTER",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 1.A.) Removal of approximately 1,090 cu. ft. of granular activated carbon from each of two (2) 22\u2019 x 33\u2019 filters at the Riverside Water Treatment Plant. Furnish and install virgin granular activated carbon (GAC) to comply with the specifications. Rebuild of the Leopold model S surface agitator wash arms (6 per filter). Prices held for 120 days from awarding of the contract. Work is expected to be completed in late fall/early winter of 2026. 2 PRICE PER FILTER No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "1.B.) Furnish and install filter sand. This item is to be paid per cubic foot of sand furnished and installed.",
+   "qty": "242",
+   "uom": "PRICE PER CUBIC FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 1.B.) Furnish and install filter sand. This item is to be paid per cubic foot of sand furnished and installed. 242 PRICE PER CUBIC FOOT No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Deduction for allowing work on two (2) filters at the Riverside Water Treatment Plant to proceed simultaneously if operations allows.",
+   "qty": "1",
+   "uom": "LUMP SUM",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Deduction for allowing work on two (2) filters at the Riverside Water Treatment Plant to proceed simultaneously if operations allows. 1 LUMP SUM No Response"
+  }
+ ],
+ "attachments_saved": [
+  "AGREEMENT.pdf",
+  "BID BOND.pdf",
+  "BIDDER_S EMPLOYEE UTILIZATION FORM.pdf",
+  "CERTIFICATION REQUIREMENTS.pdf",
+  "EQUAL EMPLOYMENT WRITTEN COMMITMENT GUIDELINES.pdf",
+  "INSURANCE REQUIREMENTS.pdf",
+  "LIST OF SUBCONTRACTORS.pdf",
+  "PRICING SHEET.pdf",
+  "REFERENCES.pdf",
+  "RESPONSIBLE BIDDER AFFIDAVIT.pdf",
+  "SEXUAL HARASSMENT.pdf",
+  "Bid 26-034 2026 Filter Media Replacement.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "AGREEMENT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID BOND.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BIDDER_S EMPLOYEE UTILIZATION FORM.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CERTIFICATION REQUIREMENTS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EQUAL EMPLOYMENT WRITTEN COMMITMENT GUIDELINES.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "INSURANCE REQUIREMENTS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "LIST OF SUBCONTRACTORS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "PRICING SHEET.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "REFERENCES.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RESPONSIBLE BIDDER AFFIDAVIT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SEXUAL HARASSMENT.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid 26-034 2026 Filter Media Replacement.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Bid 26-034 2026 Filter Media Replacement.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Qty",
+    "Description",
+    "Part No."
+   ],
+   "score": 2,
+   "n_rows": 13,
+   "sample": [
+    [
+     "1",
+     "Retainer Thrust-Ball Bearing",
+     "63-400016"
+    ],
+    [
+     "2",
+     "Thrust Washer",
+     "63-400017"
+    ],
+    [
+     "1",
+     "Rotary Seal (Top)",
+     "63-400018"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 25.6,
+  "attachment_fetches": 12,
+  "attachment_seconds": 12.8,
+  "attachment_bytes": 3689410,
+  "max_fetch_seconds": 3.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:20:14.969129+00:00",
+ "extract_attempts": 1,
+ "lines_total": 13,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-elgin-il-bid-26-034/coverage.json"
+}

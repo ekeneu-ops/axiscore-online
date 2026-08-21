@@ -1,0 +1,90 @@
+{
+ "bid_id": "tarrant-county-tx-i20260280",
+ "bid_number": "I20260280",
+ "agency": "Tarrant County, TX",
+ "src": "Invited",
+ "title": "Firearm Lab Supplies",
+ "close": "8/24/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "9mm bullets (not ammunition, just the projectile)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "9mm Luger 38 Super (355 Diameter) Bullets 115 Grain Full Metal Jacket Box of 200 (Bulk Packaged)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 9mm bullets (not ammunition, just the projectile) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "Glock 42 magazine (needed for reference collection)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Glock 42 Magazine with Extension 380 ACP 6-Round Polymer Black",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Glock 42 magazine (needed for reference collection) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "3",
+   "desc": "Real Avid Magazine disassembly tool for Glock magazines",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Real Avid Smart Mag Magazine Disassembly Tool for Glock Color: Red/Black Material: Polymer",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Real Avid Magazine disassembly tool for Glock magazines 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "4",
+   "desc": "Total shipping price (if any)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "If no additional shipping, enter 0 for price.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Total shipping price (if any) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 6.9,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:14:22.679475+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/tarrant-county-tx-i20260280/coverage.json"
+}

@@ -1,0 +1,115 @@
+{
+ "bid_id": "johnson-county-ks-2026-030-addendum-2",
+ "bid_number": "2026-030 Addendum 2",
+ "agency": "Johnson County, KS",
+ "src": "Open",
+ "title": "Prosecution CMS Aquisition",
+ "close": "8/24/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 2026-030 Prosecution CMS Acquisition.Final.docx",
+  "RFP_ PCMS.Attachment A.Solution Requirements.docx",
+  "RFP_ PCMS.Attachment B.VendorQuestions.docx",
+  "RFP_ PCMS.Attachment C.Vendor Security Questions.docx",
+  "RFP_ PCMS.Attachment D - Key Consultants and Associates.docx",
+  "RFP_ PCMS.Attachment E.Vendor Illustrative Work.docx",
+  "RFP_ PCMS.Attachment F.Vendor Resumes.docx",
+  "RFP 2026-030 Addendum 1.docx",
+  "Attachment H.Tab 2.Integration.xlsx",
+  "RFP 2026-030 Addendum 2.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2026-030 Prosecution CMS Acquisition.Final.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP_ PCMS.Attachment A.Solution Requirements.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP_ PCMS.Attachment B.VendorQuestions.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP_ PCMS.Attachment C.Vendor Security Questions.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP_ PCMS.Attachment D - Key Consultants and Associates.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP_ PCMS.Attachment E.Vendor Illustrative Work.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP_ PCMS.Attachment F.Vendor Resumes.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 2026-030 Addendum 1.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment H.Tab 2.Integration.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 2026-030 Addendum 2.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.8,
+  "attachment_fetches": 10,
+  "attachment_seconds": 8.4,
+  "attachment_bytes": 1016460,
+  "max_fetch_seconds": 1.67,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:17:41.174563+00:00",
+ "extract_attempts": 1
+}

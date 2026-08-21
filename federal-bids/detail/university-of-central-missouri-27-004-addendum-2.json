@@ -1,0 +1,167 @@
+{
+ "bid_id": "university-of-central-missouri-27-004-addendum-2",
+ "bid_number": "27-004 Addendum 2",
+ "agency": "University of Central Missouri",
+ "src": "Open",
+ "title": "KMOS Television Broadcast Antenna Replacement",
+ "close": "8/25/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "KMOS Broadcast Antenna Replacement",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Price must include all labor, materials, overhead, trip charges, delivery and any other expenses associated with a turn-key project. Year 1 warranty will begin upon final completion and acceptance by UCM staff.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 KMOS Broadcast Antenna Replacement 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "27-004 KMOS TV Broadcast Tower Antenna Replacement General Specs FINAL 07.29.26.pdf",
+  "FINAL IFB Terms and Conditions .pdf",
+  "2026 Revised CONST. General Contract Reqs 7.17.2026.pdf",
+  "UCM Construction Insurance Requirements REV 08.10.2022.pdf",
+  "AIA Document A312-2010.pdf",
+  "Affidavit of Work Authorization.pdf",
+  "Prevailing Wage Law Rules.pdf",
+  "2023 Construction_LD_Policy.pdf",
+  "Safety Practices Ver 1 Nov 2016.pdf",
+  "KMOS Tower Analysis Report 10-2021.pdf",
+  "KMOS Syracuse Tower.pdf",
+  "2025 Tower Elevator Inspection Report.pdf",
+  "Elevator Certificate 2025.pdf",
+  "UCMO tax-exempt FORM.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "27-004 KMOS TV Broadcast Tower Antenna Replacement General Specs FINAL 07.29.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "FINAL IFB Terms and Conditions .pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026 Revised CONST. General Contract Reqs 7.17.2026.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "UCM Construction Insurance Requirements REV 08.10.2022.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "AIA Document A312-2010.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit of Work Authorization.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Prevailing Wage Law Rules.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2023 Construction_LD_Policy.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Safety Practices Ver 1 Nov 2016.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "KMOS Tower Analysis Report 10-2021.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "KMOS Syracuse Tower.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "2025 Tower Elevator Inspection Report.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Elevator Certificate 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "UCMO tax-exempt FORM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 46.2,
+  "attachment_fetches": 14,
+  "attachment_seconds": 29.4,
+  "attachment_bytes": 8464612,
+  "max_fetch_seconds": 10.1,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:29:24.941409+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-central-missouri-27-004-addendum-2/coverage.json"
+}

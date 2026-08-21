@@ -1,0 +1,191 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0726-019-addendum-1",
+ "bid_number": "PUR0726-019 Addendum 1",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Invited",
+ "title": "Downtown Library Interior Lighting Upgrade",
+ "close": "8/24/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 29,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Firm fixed price for the purchase and installation of Donut Light Fixture Replacement per the Scope of Work",
+   "qty": "",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Firm fixed price for the purchase and installation of Donut Light Fixture Replacement per the Scope of Work EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Firm fixed price for the purchase and installation of Mud-In Light Fixture Replacement per the Scope of Work",
+   "qty": "",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Firm fixed price for the purchase and installation of Mud-In Light Fixture Replacement per the Scope of Work EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Firm fixed price for the T8 Lighting & Lens Replacement per the Scope of Work",
+   "qty": "",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Firm fixed price for the T8 Lighting & Lens Replacement per the Scope of Work EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Certificate to Obtain Insurance.pdf",
+  "Insurance - 3 endorsements.pdf",
+  "Local Preference.pdf",
+  "Payment _ Performance Bonds.pdf",
+  "RFB Contract T_C.pdf",
+  "Scope of Work.pdf",
+  "Original Lighting Plans.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Certificate to Obtain Insurance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance - 3 endorsements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Local Preference.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Payment _ Performance Bonds.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFB Contract T_C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Original Lighting Plans.pdf",
+   "kind": "pdf",
+   "tables": 67,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Original Lighting Plans.pdf",
+   "sheet": 56,
+   "header_row": 52,
+   "headers": [
+    "LH",
+    "Evo-Lite Lumi-Sheet:\nQTY-Two - #EDENC - 48\u201dW x 24\u201dH, 8MM, IP-67, 2H-BWS-1PB-19.6Watts EA\nPOWER SUPPLY: #M60L12DC-277 - Will require (1) for each (48\u201dx24\u201d) panel\nQTY-Ten - #EDENC - 48\u201dW x 71\u201dH, 8MM, IP-67, 2H-BWS-1PB-58Watts EA\nPOWER SUPPLY: #M150L12DC - Will require (1) for every two (48\u201dx71\u201d) panels",
+    "LED Panel\nSystem",
+    "-",
+    "LED",
+    "-",
+    "620",
+    "277",
+    "Canopy",
+    "19"
+   ],
+   "score": 2,
+   "n_rows": 29,
+   "sample": [
+    [
+     "LJ",
+     "Evo-Lite Lumi-Sheet:\n#EDENC - 12.5\u201dW x 96\u201dH, 8MM, IP-67, 1H-BWS-1PB-39.2Watts EA\nPOWER SUPPLY: #M150L12DC-277 Will require (1) for every three (12.5\u201dx96\u201d) panels",
+     "LED\nPanel",
+     "-",
+     "LED",
+     "-",
+     "40",
+     "277",
+     "Wall",
+     "16"
+    ],
+    [
+     "LK",
+     "Targetti PYR-CTC-Spot",
+     "Flag Pole\nLight",
+     "-",
+     "LED",
+     "-",
+     "55",
+     "277",
+     "Pole",
+     ""
+    ],
+    [
+     "LL",
+     "Bega 7750P-MOD\n-GFI receptacle",
+     "Bench",
+     "-",
+     "LED",
+     "-",
+     "40",
+     "277\n120",
+     "Bench",
+     "11"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 22.9,
+  "attachment_fetches": 7,
+  "attachment_seconds": 5.5,
+  "attachment_bytes": 1739971,
+  "max_fetch_seconds": 1.05,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:15:06.570874+00:00",
+ "extract_attempts": 1,
+ "lines_total": 29,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-cedar-rapids-ia-pur0726-019-addendum-1/coverage.json"
+}

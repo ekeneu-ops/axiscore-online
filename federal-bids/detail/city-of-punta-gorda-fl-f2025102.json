@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-punta-gorda-fl-f2025102",
+ "bid_number": "F2025102",
+ "agency": "City of Punta Gorda, FL",
+ "src": "Open",
+ "title": "CHEM-SODHYPOLAS/2526 - Sodium Hypochlorite and Ammonium Sulfate",
+ "close": "8/24/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 6,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "F2025102Notice.pdf",
+  "F2025102D.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "F2025102Notice.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "F2025102D.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "F2025102D.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "UOM",
+    "Estimated\nQuantity",
+    "Unit Price",
+    "Extended Price"
+   ],
+   "score": 3,
+   "n_rows": 6,
+   "sample": [
+    [
+     "1",
+     "Liquid Ammonium Sulfate delivered to\nWater Treatment Plant, 38100 Washington\nLoop Rd, Punta Gorda, per specifications.\nMinimum gallons for delivery: _________",
+     "Gallon",
+     "10,000",
+     "$",
+     "$"
+    ],
+    [
+     "2",
+     "Liquid Ammonium Sulfate delivered to\nBal Harbor Booster Station, 1625 Aqui Esta\nBlvd, Punta Gorda, per specifications.\nMinimum gallons for delivery: _________",
+     "Gallon",
+     "2,750",
+     "$",
+     "$"
+    ],
+    [
+     "3",
+     "Sodium Hypochlorite delivered to Bal\nHarbor Booster Station, 1625 Aqui Esta\nBlvd, Punta Gorda, per specifications.\nMinimum gallons for delivery: _________",
+     "Gallon",
+     "11,000",
+     "$",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 9.9,
+  "attachment_bytes": 798679,
+  "max_fetch_seconds": 6.43,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:18:54.619378+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-punta-gorda-fl-f2025102/coverage.json"
+}

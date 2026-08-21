@@ -1,0 +1,164 @@
+{
+ "bid_id": "city-of-north-las-vegas-1741-addendum-1",
+ "bid_number": "1741 Addendum 1",
+ "agency": "City of North Las Vegas",
+ "src": "Open",
+ "title": "Kiel Ranch Phase VI - Family Mesa",
+ "close": "8/25/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 15,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Kiel Ranch Park Phase VI - Family Mesa - Bid Set Specifications.pdf",
+  "Addendum No. 1 10595 Kiel Ranch VI w Exhibits.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Kiel Ranch Park Phase VI - Family Mesa - Bid Set Specifications.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Addendum No. 1 10595 Kiel Ranch VI w Exhibits.pdf",
+   "kind": "pdf",
+   "tables": 103,
+   "note": "",
+   "candidates": 2
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Kiel Ranch Park Phase VI - Family Mesa - Bid Set Specifications.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Bid\nItem",
+    "DESCRIPTION",
+    "QUANTITY",
+    "UNIT",
+    "UNIT\nPRICE",
+    "TOTAL\nAMOUNT"
+   ],
+   "score": 3,
+   "n_rows": 15,
+   "sample": [
+    [
+     "1",
+     "CONSTRUCTION CONFLICTS",
+     "1",
+     "LS",
+     "$350,000",
+     "$350,000"
+    ],
+    [
+     "2",
+     "MOBILIZATION/DEMOBILIZATION",
+     "1",
+     "LS",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "SITE CLEARING AND GRUBBING",
+     "123,900",
+     "SF",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum No. 1 10595 Kiel Ranch VI w Exhibits.pdf",
+   "sheet": 78,
+   "header_row": 0,
+   "headers": [
+    "SURCHARGE\nLOAD (q)\nRESULTANT R\ne\nH\n+ +\nRESULTANT\n0.60H\n0.33H\nRESULTANT D\nP P P\np 0.33D q a\nPASSIVE SURCHARGE ACTIVE DYNAMIC\nPRESSURE PRESSURE PRESSURE PRESSURE\nNOTES: RECOMMENDED GEOTECHNICAL DESIGN PARAMETERS\n1. ASSUMES NO HYDROSTATIC PRESSURE BUILD-UP Lateral\nBEHIND THE RETAINING WALL Earth Equivalent Fluid Pressure\nPressure\n2. ASSUMES LEVEL, GRANULAR BACKFILL MATERIALS\nP 250D psf\n3. DRAINS AS RECOMMENDED IN THE RETAINING WALL p\nDRAINAGE DETAIL SHOULD BE INSTALLED BEHIND THE P q 0.33q psf\nRETAINING WALL\n4. DYNAMIC LATERAL EARTH PRESSURE RESULTANT IS P a 42H psf\nBASED ON THE REFERENCED SOUTHERN NEVADA Resultant Force Per Unit Width of Wall\nAMENDMENTS TO THE 2018 IBC (SNBO, 2018)\nR 10 H2 lbs/ft\n5. H AND D ARE IN FEET e\n6. SETBACK SHOULD BE IN ACCORDANCE WITH\nSECTION 1808.7 OF THE 2018 IBC",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "FIGURE 3"
+    ],
+    [
+     "LATERAL EARTH PRESSURES FOR YIELDING RETAINING WALLS\nKIEL RANCH PARK PHASE VI -- FAMILY MESA\n2465 KIEL WAY\nNORTH LAS VEGAS, NEVADA\n303694005 | 12/23",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum No. 1 10595 Kiel Ranch VI w Exhibits.pdf",
+   "sheet": 90,
+   "header_row": 1,
+   "headers": [
+    "Description",
+    "",
+    "Sieve\nSize",
+    "Grain Size",
+    "Approximate\nSize"
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "Boulders",
+     "",
+     "> 12\u201d",
+     "> 12\u201d",
+     "Larger than\nbasketball-sized"
+    ],
+    [
+     "Cobbles",
+     "",
+     "3 - 12\u201d",
+     "3 - 12\u201d",
+     "Fist-sized to\nbasketball-sized"
+    ],
+    [
+     "Gravel",
+     "Coarse",
+     "3/4 - 3\u201d",
+     "3/4 - 3\u201d",
+     "Thumb-sized to\nfist-sized"
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
+ ],
+ "latency": {
+  "bid_seconds": 116.5,
+  "attachment_fetches": 3,
+  "attachment_seconds": 63.9,
+  "attachment_bytes": 20872950,
+  "max_fetch_seconds": 45.01,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-21T08:28:37.199899+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-north-las-vegas-1741-addendum-1/coverage.json"
+}
