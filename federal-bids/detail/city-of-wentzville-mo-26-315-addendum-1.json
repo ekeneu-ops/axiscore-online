@@ -1,0 +1,360 @@
+{
+ "bid_id": "city-of-wentzville-mo-26-315-addendum-1",
+ "bid_number": "26-315 Addendum 1",
+ "agency": "City of Wentzville, MO",
+ "src": "Open",
+ "title": "WREC Roof Replacement",
+ "close": "8/26/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 15,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Total project cost per Scope of Work Narrative, Technical Specifications, Plans/Drawings, and all Bid Documents.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This is a lump sum bid and shall include all costs required to complete the WREC Roof Replacement project, including but not limited to: labor, materials, equipment, demolition and removal of existing roofing assemblies, parapet wall remediation, restoration of air barrier and vapor retarder continuity, installation of missing insulation, reconstruction of roof-to-wall transitions, disposal, site protection, safety compliance, permits, and all services necessary to provide complete, warrantable roofing systems in accordance with all Contract Documents and Specifications.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Total project cost per Scope of Work Narrative, Technical Specifications, Plans/Drawings, and all Bid Documents. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-315 IFB WREC Roof Replacement.pdf",
+  "26-315 Unit Pricing Response Form.docx",
+  "26-315 Scope of Work Narrative.pdf",
+  "_3293 WREC Roof BID Proj Man 2026-07-30.pdf",
+  "_3293 WREC Roof BID Drawings 2026-07-30.pdf",
+  "Wage Order 33.pdf",
+  "26-315 Pre-bid Agenda and Sign-in Sheet.pdf",
+  "Roof Warranty Documents.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-315 IFB WREC Roof Replacement.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-315 Unit Pricing Response Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "26-315 Scope of Work Narrative.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "_3293 WREC Roof BID Proj Man 2026-07-30.pdf",
+   "kind": "pdf",
+   "tables": 20,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "_3293 WREC Roof BID Drawings 2026-07-30.pdf",
+   "kind": "pdf",
+   "tables": 579,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Wage Order 33.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-315 Pre-bid Agenda and Sign-in Sheet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Roof Warranty Documents.pdf",
+   "kind": "pdf",
+   "tables": 46,
+   "note": "",
+   "candidates": 5
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "26-315 Scope of Work Narrative.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Unit"
+   ],
+   "score": 2,
+   "n_rows": 11,
+   "sample": [
+    [
+     "Full Depth Replacement (all components, down to deck)",
+     "SF"
+    ],
+    [
+     "Replacement of wet polyisocyanurate insulation",
+     "SF"
+    ],
+    [
+     "Replacement of cover board",
+     "SF"
+    ]
+   ]
+  },
+  {
+   "source": "Roof Warranty Documents.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "ten.selasgnifoor@deraj:sserddA\n0010-649\n8910-649\n:noitamrofnI\nderaJ )636(:rebmuN\n)636(:rebmuN\n,sivaD\nrengiseD\n:emaN liaM-E\nenohP\nxaF\n.RETTEB\nYNAPMOC\nUOY\nSTCUDORP\nSREVOC\nGNIDLIUB\nYDOBON\n.DR\n30336\nBULC\nOM 8910-649-636\n0010-649-636\nYRTNUOC\n,SELRAHC\n:XAF\n0601\n.TS :HP",
+    "NOTES: NOTES: NOTES:\n1. REFER TO FIRESTONE WEBSITE FOR MOST 1. REFER TO FIRESTONE WEBSITE FOR MOST 1. REFER TO FIRESTONE WEBSITE FOR THE MOST CURRENT NOTE:\nCURRENT INFORMATION. USE APPROPRIATE CURRENT INFORMATION. INFORMATION. CONTINUOUS BEAD OF AP SEALANT 1. REFER TO FIRESTONE WEBSITE FOR MOST\nUSE APPROPRIATE 2. REFER TO DETAIL UT-LS-1 OR 2 FOR WELD WIDTH. TERMINATION 2. REFER TO DETAIL UT-LS-1 OR 2 FOR WELD WIDTH. OR HIGH GRADE SEALANT CURRENT INFORMATION. 2. HOLE IN MEMBRANE SHOULD EXTEND A MINIMUM OF 12\"\nTERMINATION 3. MAXIMUM 6\" (152.4 mm) LONG FASTENERS. 3. (NOTE: WOOD BLOCKING MAY BE SUBSTITUTED ULTRAPLY TPO 18\" CURB FLASHING OR MEMBRANE REFER TO UT-BT-16 & 17 FOR MEMBRANE SECUREMENT AT CORNERS. (13 mm) BEYOND CLAMPING RING AND SHOULD NOT BE CONTINUOUS BEAD OF 2. REGULAR MAINTENANCE OF COUNTER-FLASHING SMALLER THAN THE DIAMETER OF THE LEADER PIPE. FIRESTONE WATERBLOCK AND SEALANTS REQUIRED. NOT INCLUDED AS\nFOR INSULATION TO REDUCE FASTENER LENGTH ULTRAPLY TPO 18\" CURB FLASHING OR MEMBRANE REQUIREMENT). ULTRAPLY TPO BONDING ADHESIVE 4. BONDING ADHESIVE REQUIRED BETWEEN MEMBRANE AND INSULATION FOR FULLY ADHERED SYSTEMS. PART OF THE FIRESTONE WARRANTY. STRAINER BASKET COMPRESSION RING 3. INSULATION ADJACENT TO DRAIN TO BE APPROPRIATE FIRESTONE INSULATION WITH APPROPRIATE BONDING APPROPRIATE FIRESTONE 3. METAL COUNTER-FLASHING SHALL BE 24 GAUGE\nULTRAPLY TPO BONDING ADHESIVE 4. IN CASE OF OBSTRUCTION REFER TO DETAIL UT-BT-5. ULTRAPLY TPO MEMBRANE MUST EXTEND 12\" (12.7 mm) BEYOND HD OR HD PLUS SEAM 5. WHEN REINFORCEMENT OF TPO MEMBRANE IS CONTINUOUS BEAD OF SURFACE. FASTENER 12\" (305 mm) O.C. MAX. PRE-FINISHED STEEL OR .032\" MIN. ALUMINUM FIRESTONE WATERBLOCK FORMED WITH HEMMED LOWER EDGE.\nHD OR HD PLUS SEAM PLATE POSITIONED 5. R SE E C FE U R R E T M O E U N T T -B A T T - 1 C 6 O & R 1 N 7 E F R O S R . MEMBRANE WALL CURB 12\" (12.7 mm) BEYOND WALLCURB 6. BONDING ADHESIVE REQUIRED BETWEEN MEMBRANE FIRESTONE FASTENER AND HD OR HD PLUS SEAM AND INSULATION FOR FULLY ADHERED SYSTEMS. PLATE AT 12\" (304.8 mm) O.C. MAX. (SEE NOTES) 7. WHEN REINFORCEMENT OF TPO MEMBRANE IS PLATE (SEE NOTES) EXPOSED, REFER TO UT-LS-14 FOR CUT EDGE SEALANT APPLICATION. FIRESTONE FASTENER AND HD OR HD PLUS SEAM PLATE AT 12\" (304.8 mm) O.C. MAX. (SEE NOTES) (SEE NOTE 4) 4. F P I E R R E S 4\" T D O R N A E I N W . A U T S E E R A B D LO D C IT K IO M N I A N L 1 W 2 A O T F E 1 R 0 B O L Z O . C (2 K 9 5 F O m R l) TUBE CONTINUOUS BEAD OF AP SEALANT 4. INSTALL FIRESTONE TERMINATION BAR WITH LARGER DRAINS. 14\" (6 mm) GAP BETWEEN ADJOINING SECTIONS. U M L E T M R B A R P A L N Y E TPO 5 . I - N R E R M E O R V O E O F E X A I P S P T L IN IC G A F T L IO A N SH S: ING DOWN TO METAL BOWL. 5. T IN E S R ID M E IN C A O TI R O N N E B R A S R . MUST BE CUT AT INSIDE AND FIRESTONE TERMINATION BAR (SEE NOTE 4, 5 AND 6)\nWELDED SPLICE (SEE NOTES) EXPOSED, REFER TO UT-LS-14 FOR CUT EDGE WELDED SPLICE (SEE NOTES) ULTRAPLY BONDING -REPAIR OR REPLACE BROKEN DRAINS COMPONENTS. APPROPRIATE FIRESTONE FASTENER DO NOT BEND AROUND CORNERS.\nSEALANT APPLICATION. ADHESIVE (ADHERED -DRILL AND TAP BROKEN DRAINS BOLTS AND REPLACE IF 12\" (304.8 mm) O.C. MAX. 6. TERMINATION BAR MUST BE FASTENED WITHIN 1\"\nULTRAPLY TPO MEMBRANE ULTRAPLY TPO MEMBRANE SYSTEM ONLY) NECESSARY. (25 mm) MAX. OF ALL SECTION ENDS.\nULTRAPLY TPO BONDING ADHESIVE (SEE NOTES) ULTRAPLY TPO BONDING ADHESIVE (SEE NOTES) WALLS CURBS CONTINUOUS BEAD OF FIRESTONE WATER BLOCK 7. INSTALL METAL WORK IN ACCORDANCE WITH 12\" (305 mm) (MASONRY CURRENT SMACNA RECOMMENDATIONS. .qer\nWALL CURB ( 1 2 \" 5 M m A m X ) . S C U O B N S C T R R E A T T E E M 3\" E ( T 76 A L m C m O ) U M N IN T . E F R A F C L E A S (S H E IN E G N B O Y T E O 2 T H & E 3 R ) S foor dehsinif\n)mm FOOR FIRESTONE INSULATION ONLY)\nFIRESTONE INSULATION FIRESTONE INSULATION 7.21( FIRESTONE INSULATION evoba\nDEHSINIF ULTRAPLY TPO MEMBRANE\n\"21 .nim\n12\" (13 mm) MIN.\nETALP SEE NOTES SUBSTRATE SUBSTRATE ACCEPTABLE FIRESTONE BONDING ADHESIVE )mm\nEVOBA\nSUBSTRATE SUBSTRATE NOITISOP .NIM MASONRY AND CONCRETE WALLS CURBS MUST BE SUMP AREA FIELD SEAM REQUIREMENTS. WATERPROOFED AND 302( \"8\nMAINTAINED IN ORDER\nA. IF FIELD SEAM EDGE IS WITHIN 9\" (229 mm) OF DRAIN COMPRESSION RING, TPO\nFOR ANY SURFACE\nTARGET PATCH REQUIRED.\nMOUNTED TERMINATION\nB. IF FIELDS SEAM EDGE IS WITHIN 9\" (229 mm) TO 18\" (457 mm) OF DRAIN COMPRESSION TO BE EFFECTIVE\nRING, HEAT WELD A LAYER OF ULTRAPLY TPO FLASHING (UNSUPPORTED) OR USE APPROPRIATE\nULTRAPLY TPO MEMBRANE CENTERED OVER SEAM EDGE. FLASHING MUST EXEND 3\" BASE TIE-IN\n(76 mm) MIN. BEYOND EDGE OF SUMP.\nMAXIMUM WARRANTY:20 YEARS MAXIMUM WARRANTY:20 YEARS MAXIMUM WARRANTY:20 YEARS TERMINATION WITH SURFACE MOUNTED MAXIMUM WARRANTY: 20 YEARS\nBASE TIE-IN WITH HD SEAM PLATES FASTENED TO DECK ISSUE D R AT E E V : ISION DETAIL NO. BASE TIE-IN WITH HD SEAM PLATES FASTENED ISSUE REVISION DETAIL NO. DATE: ROOF DRAIN ISSUE D R AT E E V : ISION DETAIL NO. COUNTER-FLASHING AND TERMINATION BAR ISSUE D A R T E E V : ISION DETAIL NO.\nBUILDING PRODUCTS 112006 UT-BT-1 BUILDING PRODUCTS TO WALL CURB 112006 UT-BT-2 BUILDING PRODUCTS 7222014 UT-D-1 ULTRAPLY TM TPO ACCEPTABLE SYSTEMS: ALL 7152019 UT-T-6\nNOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE NOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE NOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE Firestone Building Products Sales: (800- 428-4442 Technical (800) 428-4511 www.firestonebpco.com NOT TO SCALE\nNOTES: NOTES: NOTES: NOTES:\n1. REFER TO FIRESTONE WEBSITE FOR MOST 1. REFER TO FIRESTONE WEB SITE FOR MOST 1. REFER TO FIRESTONE WEBSITE FOR MOST 1. REFER TO FIRESTONE WEBSITE FOR MOST\n1-14\" HOT DIPPED GALVANIZED ROOF CURRENT INFORMATION. CURRENT INFORMATION. CURRENT INFORMATION. CURRENT INFORMATION.\nNAILS AT 4\" (101.6 mm) O.C. MAX. 2. NON-FIRESTONE METAL COPING IS ACCEPTABLE 2. WALKWAY SECTIONS SHOULD BE SPACED PROPERLY R.T.U. 2. REFER TO DETAIL UT-LS-1 OR 2 FOR WELD WIDTH. 2. MAXIMUM 6\" (152 mm) LONG FASTENERS (NOTE:\nFOR USE IN THIS DETAIL PROVIDED FABRICATION TO ALLOW FOR DRAINAGE. SPACING BETWEEN 3. NAILING AND METAL COUNTERFLASHING ARE WOOD BLOCKING MAY BE SUBSTITUTED FOR\nFIRESTONE COPING ANCHOR CLIP A C N U D R R IN E S N T T A S L M LA A T C IO NA N R IS E I C N O A M C M C E O N R D D A A T N IO C N E S W . I H T O H WEVER, W TO A L 3 K \" W (76 A . Y 2 S m E m C ) T M IO A N X S . SHALL BE 1\" (25.4 mm) MIN. N C O UR T B R E W Q A U L I L R S E P D R I I F O M R E T M O B I R N A S N TA E L I L S A R T U IO N N U O P F A R N . D T. U O . VER I R N E S Q U U L I A R T E IO M N E N T T O ) . REDUCE FASTENER LENGTH\nW CO A P T I E N R G T I S G H H A T L L IN B T E E G E R N I S T U Y R O E F D W B A Y L O L T A H N E D R M S E A T N A D L WOOD NAILER (SEE NOTES) 1 N - A 1 I 4 L \" S H A O T T 1 D 2 I \" P ( P 3 E 04 D . 8 G m A m LV ) A O N .C IZ . E M D A R X O . OF 4. METAL COUNTERFLASHING SHALL BE 24 GAUGE 1-14\" H N O A T I L D S IP @ PE 1 D 2 \" G ( A 30 L 5 V A m N m IZ ) E O D .C R . O M O AX F . R.T.U. 3. BONDING ADHESIVE REQUIRED BETWEEN\nFIRESTONE COPING B IN E T E H X E C E L V U E D N E T D N F O RO N- M F I W RE A S R T R O A N N E T Y C O C P O I V N E G R I A S GE GASKET B E Y D O F T A H S E T R E S N 1 E 2 R \" P F T O I R G E R H - M F T E I L N Y D I S T W H O I E T U D H N S H D T E E E M R E M S L I E D O D E R L O . O 0 F 3 W 2 M E \" E R M C I E H N D A . G A N L E IC U M A M L O I N U U U N N M T IT E . D WOOD NAILER M AD E H M E B R R E A D N E S Y A S N T D E I M N S S . ULATION FOR FULLY\n3. U W T O IL O IZ D E N D A . ILER MUST BE INSTALLED TO MEET (304.8 mm) O.C. MAX. METAL COUNTERFLASHING BY OTHERS 5. FIRESTONE FASTENER WITH GP SEALANT OVER INSULATED METAL CURB ULTRAPLY TPO MEMBRANE 4. B P A LA T T T E E S N F S O TR R I P M A M S A Y A N B D E F U U S L E L D Y I A N D L H IE E U R E O D F\nWOOD NAILER APPLICABLE BUILDING CODES OR 200 LBS PER 3\" (76.2 mm) MIN. FACE (SEE NOTES) FASTENER HEADS. GP SEALANT ALSO REQUIRED SYSTEM ONLY. REFER TO \"UT-BT\" DETAILS FOR\n(SEE NOTES) LINEAR FOOT MINIMUM IN ANY GIVEN DIRECTION. INSULATED METAL CURB ALONG ENTIRE EDGE OF CURB FLANGE. ULTRAPLY TPO BONDING ADHESIVE SPECIFIC BASE TIE-IN INFORMATION,\nA (S N U C P H P O L R IE D C L W IP C F O A P S I T N E G N ) ERS 4. F IN A S S T T R E U N C C T O IO P N IN S G . CLEAT AS PER SUPPLIED U U L L T T R R A A P P L L Y Y T T P P O O B 18 O \" N C D U IN R G B F A L D A H S E H S IN IV G E OR MEMBRANE 6. W A LI P N O P E O L A D IC R N A F A B O I L L O E E T R B M U M I I N L U D I S M I T N U G B M E C I N I O N D A S E N T S Y A L O G L R I E V D 2 E 0 N T 0 O D L I M B R S E E E C P T E TI R ON. INSULATION BY OTHERS F 2 I \" R M E E S T T A O L N O E R F A H S D T S E E N A E M R P A L N A D TE REQUIREMENTS,AND OPTIONS.\n12\" (12.7mm) MIN. INSULATION BY OTHERS CONTINUOUS BEAD OF 7. BONDING ADHESIVE REQUIRED BETWEEN @ 12\" (305 mm) O.C. MAX (SEE NOTE 4)\n12\" (12.7mm) MIN. FIRESTONE WATERBLOCK MEMBRANE AND INSULATION FOR FULLY QUICKSEAM RPF STRIP\nADHERED SYSTEMS.\n38\" (9.5 mm) MIN. WELDED SPLICE (SEE NOTES) 8. WHEN REINFORCEMENT OF TPO MEMBRANE IS ULTRAPLY TPO QUICKPRIME\nULTRAPLY TPO MEMBRANE E S X E P A O LA S N E T D , A R P E P F L E IC R A T T O IO U N T . -LS-14 FOR CUT EDGE U A L D T H R E A S P IV L E Y ( T S P E O E B N O O N T D E I N 3 G )\nULTRAPLY TPO MEMBRANE ULTRAPLY TPO BONDING 9. INSTALL METAL WORK IN ACCORDANCE WITH\nWALL ADHESIVE (SEE NOTES) CURRENT SMACNA RECOMMENDATIONS.\nULTRAPLY TPO BONDING ADHESIVE FIRESTONE FASTENER\n12\" (304.8 mm) O.C. MAX. FIRESTONE INSULATION\n30\" W I T H U L T R A P L Y T P O\n(762 G P SE A L A N T ( S E E N O T E S ) FIRESTONE INSULATION\nmm) FIRESTONE TPO ECO WALKWAY PAD ROLL\nWIDE W O O D N A I L E R ( S E E N O T E S )\nHEAT WELD ALL EDGES OF THE WALKWAY SUBSTRATE\nPAD TO THE ULTRAPLY TPO MEMBRANE\nUSE APPROPRIATE BASE TIE-IN (REFER TO UT-LS-1 OR 2) SUBSTRATE\nMAXIMUM WARRANTY:20 YEARS MAXIMUM WARRANTY:20 YEARS MAXIMUM WARRANTY:20 YEARS MAXIMUM WARRANTY:20 YEARS\nTERMINATION AT TOP OF WALL WITH FIRESTONE COPING ISSUE D R AT E E V : ISION DETAIL NO. WALKWAY PAD ISSUE D R AT E E V : ISION DETAIL NO. TERMINATION AT R.T.U. WITH COUNTERFLASHING ISSUE D R AT E E V : ISION DETAIL NO. TERMINATION AT R.T.U. WITH QUICKSEAM RPF ISSUE D R AT E E V : ISION DETAIL NO.\nBUILDING PRODUCTS 112006 UT-T-12 BUILDING PRODUCTS 112006 UT-M-1 BUILDING PRODUCTS (UNIT FLANGE ABOVE MEMBRANE) 112006 UT-T-15 BUILDING PRODUCTS (UNIT FLANGE MOUNTED TO SUBSTRATE) 7242014 UT-T-16\nNOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE NOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE NOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE NOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE\nNOTES: FIELD SEAM 1. REFER TO FIRESTONE WEBSITE FOR THE CONTINUOUS BEAD OF ULTRAPLY 1 N . O T R E E S F : ER TO FIRESTONE WEBSITE FOR THE FIELD SEAM 1 N . O T R E E S F : ER TO FIRESTONE WEBSITE FOR THE MOST USE APPROPRIATE TERMINATION NOTE:\nMOST CURRENT INFORMATION. ULTRAPLY TPO T-JIONT COVER 2. REMOVE ALL EXISTING FLASHING, LEAD, ETC. OR ULTRAPLY TPO FLASHING PIPE SURFACE MUST BE FREE OF ALL RUST, (4\" (102 mm) x 4\" (102mm) MIN.) GREASE, INSULATION, ETC. CENTERED OVER INTERSECTION. 3. PIPE MUST BE ANCHORED TO ENSURE STABILITY. 4. PRE-MOULDED PIPE FLASHING MAY BE CUT TO PLAN VIEW HEIGHT, BUT NO LOWER THAN REINFORCING PIPE FLASHING OVER RING (NO WRINKLES OR FOLDS UNDER CLAMPING FIELD SEAM CONTINUOUS BEAD RING). CONTINUOUS BEAD OF OF ULTRAPLY TPO 5. APPLY GP SEALANT BETWEEN PENETRATION AND AP SEALANT OR HIGH GP SEALANT PRE-MOLDED PIPE FLASHING PRIOR TO GRADE SEALANT INSTALLATION OF CLAMPING RING. REFER TO STAINLESS STEEL LS-9 FOR SEAM EDGE TREATMENT. CLAMPING RING FIELD FABRICATED (SEE NOTE 5) 6. LARGE PRE-MOLDED PIPE FLASHING FITS METAL HOOD BY 4\" (102mm) - 8\" (203 mm) PENETRATIONS SIZES. OTHERS (OPTIONAL) 7. DO NOT USE WHEN SERVICE LINE TEMP. EXCEEDS FIRESTONE FASTENER AND HD OR HD PLUS 160\u00b0F. REFER TO UT- P-6 & UT-P-7. SEAM PLATE AT 12\" (305 mm) O.C. MAX. 8. FIRESTONE FASTENER AND HD SEAM PLATE (SEE NOTE 8) REQUIRE FOR MAS ONLY. IF FASTENER CANNOT BE INSTALLED AS ILLUSTRATED, REFER TO NOITARTENEP TPO GP SEALANT (SEE NOTE 2) MOST CURRENT INFORMATION. CURRENT INFORMATION. ULTRA 1 N - P A 1 L I 4 L Y \" U ( S A H T L D @ O T P 5 H R . O T 5 4 E A \" D \" M R U P T ( I E E L 1 P L P T 0 Y D M P O 2 R E B T S Q A m D R P Y P U m O A S G L I N T ) C Y A B E O E K L O T M . V S C N P A E S O . D N A M O I N M Q IZ A N G U E X F L I D Y . L A C S A ) D K R T S H P O A H R E O G I S I N M F G I G V E E E RED 2 1\" 3 2 4 . . . R G D F U O T T W O O H O O P P F H O E S P U G S E N L T N W E O N U O O D A O F T T O P R L T R A O W E O P A E L R G D O N O E R L E R T D F O N M S - E G I N A D S T E S A E I L A R T L N T R O I E A A O L E A E P R L P F R I M Q L E . C 1 E Q E U I 4 O R S M U I \" R R . I B 1 ( C E 6 N \" R K D E ( m A 2 S R A N m 5 E S L E ) A M O A B M T M N N E O ) G F L D P L T O E A P E H W N S L R E A T H F I C I R N A E E G C B E A O C F K PIPE F P F I L L E A A L S N D H V S I E N IE A G W M OVER U ( O C 4 L E R \" T N ( U 1 R T 0 L A E 2 T P R R m L E A Y m D F P T ) I L O E P x Y L V O 4 C D E T \" A O T P R ( F P N 1 - O A J I 0 T S N I B O 2 F I E G T N R m L N A E R U A I m T C L R A S O ) A A C S D H U M N T E O E I S E N T I C V N S D G B T O E . E ) E I R R O A A N L H D A . I G O N H T F G C O O P F ( S C N S U S T L T E E L A A I T E A N I M N R L U N P L A A O O I E N P N U T S L T G E S S Y 5 B R S T ) E P T IN A E O G D EL 3 5 2 4 . . . . P A R P I P B P O N I P R I U R E R P P S P M E T E E E U F L - - O N M L M O M Y S A V O L O O U U G T E D R U L L S I P S O D A O F L T S L D N E A W U B L E D C E , N E E A E E D E D P R L T A X E I M P A C P N I T R S I N U . E P H C T T S C E A H F I N T L N B O L F A G A E B L R R M S T A E E F E W H P S L D F IN I H I A E R N N T F S I E E G N G O O H N E G R R P I E N P O R I M C N N G E F I I S A O G N N , A U Y L G R ) E . L R E B T L T R A E R E O I R D N A S C U , I T G T N U E S I A O S T T ( T B N T C N , T I O A L G . O A I L R T W N L H Y E A D R E . A T I I N S G IO E K H N , L T E O , S F CONTINUOUS BEAD OF 5. CONSTRUCT AND ANCHOR GUTTER IN METAL HOOD BY CLAMPING RING. REFER TO LS-9 FOR SEAM EDGE 14\" (6 mm) TO 12\" (13 mm) ULTRAPLY TPO GP ACCORDANCE WITH SMACNA OTHERS (OPTIONAL) TREATMENT. SEALANT (SEE NOTE 2) RECOMMENDATIONS. WOOD NAILER (SEE NOTE 6) 6. W AP O P O L D IC N A A B I L L E E R B U M IL U D S I T N G BE C I O N D S E TA S L O L R ED 2 0 T 0 O L M BS E E P T ER FIRES S T E O A N M E P F L A A S T T E E N AT E R 1 2 A \" N (3 D 0 5 H D m m O ) R O H .C D . P M L A U X S . 6. L 4 A \" R (1 G 0 E 2 m PR m E ) - - M 8 O \" ( L 2 D 0 E 3 D m P m IP ) P E E F N L E A T S R H A IN T G IO F N I S TS SIZES. LINEAR FOOT MINIMUM IN ANY (SEE NOTE 8) 7. DO NOT USE WHEN SERVICE LINE TEMP. EXCEEDS 160\u00b0F. APPROPRIATE FASTENER GIVEN DIRECTION. REFER TO UT-P-6 & UT-P-7. FIRESTONE INSULATION 7. FLANGE OF METAL GUTTER MUST BE FULLY PRE-MOLDED ULTRAPLY 8. FIRESTONE FASTENER AND HD SEAM PLATE REQUIRE SUPPORTED BY WOOD AND TERMINATED AT TPO PIPE FLASHING FOR MAS ONLY. IF FASTENER CANNOT BE INSTALLED AS LEAST 12\" (13mm) FROM EDGE WOOD. ILLUSTRATED, REFER TO DETAILS UT-P-15 & UT-P-16 1. REFER TO FIRESTONE WEBSITE FOR THE MOST CURRENT INFORMATION. ACCEPTABLE FIRESTONE BONDING ADHESIVE 2. SCUPPER MUST BE WELDED METAL SLEEVE ROUND ULTRAPLY TPO MEMBRANE ALL SHEET METAL FLANGE CORNERS. CONTINUOUS BEAD OF ULTRAPLY 3. WOOD NAILER MUST BE INSTALLED TO MEET TPO GP SEALANT APPLICABLE BUILDING CODES OR 200 LINEAR 200 LB IN ANY GIVEN DIRECTION. APPROVED FIRESTONE PRIMER 4. FLANGE OF METAL MUST BE FULLY SUPPORTED BY 6\" ECOWHITE QUICKSEAM FLASHING WOOD AND TERMINATED AT LEAST 12\" (13 mm) FROM WALL CENTERED OVER EDGE OF SCUPPER FLANGE EDGE OF WOOD. 5. SEE UT-S-1A & UT-S-1B FOR DETAILED INSTALLATION CONTINUOUS BEAD OF INSTRUCTIONS. FIRESTONE WATER BLOCK APPROPRIATE FASTENER CONTINUOUS BEAD OF 4\" (102 mm) O.C. MAX FIRESTONE AP SEALANT OR HIGH GRADE URETHANE WELDED METAL SCUPPER SLEEVE SEALANT (SEE NOTE 2) 1-14\" HOT DIPPED GALVANIZED 12\" ECOWHITE QUICKSEAM ROOF NAILS 4\" (102 mm) O.C. MAX. FLASHING CENTERED OVER\nNOITARTENEP PRE-MOLDED ULTRAPLY DETAILS UT-P-15 & UT-P-16 TPO PIPE FLASHING ULTRAPLY TPO BONDING ADHESIVE (ADHERED SYSTEM ONLY) WELDED SPLICE 2\" (51 mm) MIN. ULTRAPLY TPO MEMBRANE DNUOR 12\" (13 mm) MIN. 8. CONTACT FIRESTONE ROOFING SOLUTION FOR W 2 E \" ( L 5 D 1 E m D m S ) P M L I I N C . E ULTRAPLY TPO BONDING ADHESIVE BALLASTED ROOF SYSTEMS. (ADHERED SYSTEM ONLY) SUBSTRATE 9. IF THE THE FLANGE OF THE METAL GUTTER IS ULTRAPLY TPO NOT COMPLETELY COVERED WITH QUICKSEAM MEMBRANE GUTTER FLASHING, THEN AND ADDITIONAL PIECE OF SLOTTED METAL 6\" FLASHING AT BASE OF 6\" ECOWHITE QUICKSEAM FLASHING GRAVEL STOP SCUPPER ONLY CENTERED OVER EDGE OF SCUPPER FLANGE (BALLASTED SYSTEM WOOD NAILER (SEE NOTE 3) ULTRAPLY TPO MEMBRANE ONLY) ACCEPTABLE FIRESTONE BONDING ADHESIVE (ADHERED SYSTEM ONLY)\nDNUOR (SEE NOTE 5) QUICKSEAM FLASHING SHALL BE INSTALLED AT\nFIRESTONE INSULATION ALL METAL SPLICES. REFER TO UT-RE-27. FIRESTONE INSULATION FIRESTONE INSULATION\nWALL\nFIRESTONE INSULATION FIRESTONE INSULATION\nWALL\nSUBSTRATE THIS DETAIL IS APPROVED FOR MAXIMUM SUBSTRATE SUBSTRATE\nSUBSTRATE SUBSTRATE OF 20 YEARS. REFER TO DETAIL UT-RE-16\nFOR 25 YEAR REQUIREMENTS\nMAXIMUM WARRANTY:20 YEARS MAXIMUM WARRANTY:20 YEARS MAXIMUM WARRANTY:20 YEARS MAXIMUM WARRANTY: 20 Years\nTHRU-WALL SCUPPER (WELDED SLEEVE)\nPENETRATION WITH ULTRAPLY TPO LARGE PIPE FLASHING ISSUE D R AT E E V : ISION DETAIL NO. PENETRATION WITH ULTRAPLY TPO SMALL PIPE FLASHING ISSUE D R AT E E V : ISION DETAIL NO. ROOF EDGE GUTTER WITH FLANGE ISSUE D R AT E E V : ISION DETAIL NO. ISSUE REVISION DETAIL NO. DATE:\nBUILDING PRODUCTS 7222014 UT-P-1 BUILDING PRODUCTS 10262013 UT-P-2 BUILDING PRODUCTS 1072015 UT-RE-15 ULTRAPLY TM TPO ACCEPTABLE SYSTEMS: ALL 5172019 UT-S-1\nNOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE NOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ALL NOT TO SCALE NOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM UltraPly TM TPO ACCEPTABLE SYSTEMS:ADHERED, MAS NOT TO SCALE Firestone Building Products Sales: (800- 428-4442 Technical (800) 428-4511 www.firestonebpco.com NOT TO SCALE",
+    "ROOF ASSEMBLY\nFirestone UltraPly TPO Adhered Attached Roofing System:\nStructurally Sloped Area\nConstruction: New Construction Slope: 14\":12\"\nDeck: 22-ga Steel\nInsulation: Firestone ISO 95+ GL, 2.60\", 4'x8' boards\nAttachment: Common Fastened\nInsulation: Firestone ISO 95+ GL, 2.60\", 4'x8' boards\nAttachment: Firestone Heavy Duty Fasteners and Insulation Plates\nRate: Field 8 fasteners per board;\nPerimeter 12 fasteners per board;\nCorners 16 fasteners per board\nCover Board: DensDeck Prime\u00ae, 0.50\", 4'x4' boards\nAttachment: Firestone ISO Spray R\nRate: Field Beads spaced 6.0\" o.c.;\nPerimeter Beads spaced 4.0\" o.c.;\nCorners Beads spaced 4.0\" o.c.\nMembrane: .060 Firestone UltraPly\u2122 TPO,\nMembrane Adhesive: Firestone UltraPly\u2122 Bonding Adhesive\nFirestone UltraPly TPO Adhered Attached Roofing System:\nStructurally Flat Area\nConstruction: New Construction Slope: None\nDeck: 22-ga Steel\nInsulation: Firestone ISO 95+ GL, 2.60\", 4'x8' boards\nAttachment: Common Fastened\nInsulation: Firestone ISO 95+ GL, 2.60\", 4'x8' boards\nAttachment: Common Fastened\nInsulation: Firestone Tapered ISO 95+ GL, 0.50\" Start, 4'x4' boards\nAttachment: Firestone Heavy Duty Fasteners and Insulation Plates\nRate: Tapered ISO top panels that are .5\"- 1.4\" at 8 per board,\n1.5\" -1.9\" 6 per board and 2\"+ at 4 per board.\nCover Board: DensDeck Prime\u00ae, 0.50\", 4'x4' boards\nAttachment: Firestone ISO Spray R\nRate: Field Beads spaced 6.0\" o.c.;\nPerimeter Beads spaced 4.0\" o.c.;\nCorners Beads spaced 4.0\" o.c.\nMembrane: .060 Firestone UltraPly\u2122 TPO,\nMembrane Adhesive: Firestone UltraPly\u2122 Bonding Adhesive\nFirestone UltraPly TPO Adhered Attached Roofing System:\nSynthetic TurfPaver Area\nConstruction: New Construction Slope: None\nDeck: Structural Concrete - 3,000 psi, min. 2\" thick\nPrimer: Firestone SA Solvent Based Primer\nVapor Retarder: Firestone V-Force (self-adhered)\nInsulation: Firestone ISO 95+ GL, 2.60\", 4'x4' boards\nAttachment: Firestone ISO Spray R\nRate: Field Beads spaced 6.0\" o.c.;\nPerimeter Beads spaced 4.0\" o.c.;\nCorners Beads spaced 4.0\" o.c.\nInsulation: Firestone ISO 95+ GL, 2.60\", 4'x4' boards\nAttachment: Firestone ISO Spray R\nRate: Field Beads spaced 6.0\" o.c.;\nPerimeter Beads spaced 4.0\" o.c.;\nCorners Beads spaced 4.0\" o.c.\nInsulation: Firestone Tapered ISO 95+ GL, 0.50\" Start, 4'x4' boards\nAttachment: Firestone ISO Spray R\nRate: Field Beads spaced 6.0\" o.c.;\nPerimeter Beads spaced 4.0\" o.c.;\nCorners Beads spaced 4.0\" o.c.\nCover Board: DensDeck Prime\u00ae, 0.50\", 4'x4' boards\nAttachment: Firestone ISO Spray R\nRate: Field Beads spaced 6.0\" o.c.;\nPerimeter Beads spaced 4.0\" o.c.;\nCorners Beads spaced 4.0\" o.c.\nMembrane: .060 Firestone UltraPly\u2122 TPO,\nMembrane Adhesive: Firestone UltraPly\u2122 Bonding Adhesive\nPerimeter and Corner areas should be calculated using the\nappropriate method outlined by the designer or relevant code\nagencies. Some acceptable methods for these calculations can\nbe found in Factory Mutual Loss Prevention Data Sheet 1-28,\nASCE 7 or ANSISPRI WD-1."
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "PROJECT INFORMATION\nWENTZVILLE COMM. CENTER\nProject:\nWENTZVILLE, MO\nLocation:\nPage: 2 o f 5\nDate: 8252021\nDrawing Scale: NTS"
+    ],
+    [
+     "",
+     "",
+     "Contractor:MEINERSHAGEN ROOFING & SHEET METAL\n1501 NEW PERRINE RD.\nFARMINGTON, MO 63640\nArchitect: HASTINGS & CHIVETTA\n2464 WEST PORT PLAZA\nST. LOUIS, MO 63146\nPHONE: 314-863+-5717"
+    ],
+    [
+     "",
+     "",
+     "2 of 5\nSHEET NUMBER\nThis is Roofing Sales Associates interpretation of plans,\nspecifications, and dimensions as provided by the indicated\nroofing contractor.\nIt is the indicated roofing contractors responsibility for all\nconfirmationcomplianceverification with all plans,\nspecifications, and dimensions. Roofing Sales Associates holds\nno responsibility for all compliance or verification of plans,\nspecifications, and dimensions."
+    ]
+   ]
+  },
+  {
+   "source": "Roof Warranty Documents.pdf",
+   "sheet": 11,
+   "header_row": 0,
+   "headers": [
+    "NOTES:\n1. REFER TO FIRESTONE WEBSITE FOR MOST\nCURRENT INFORMATION.\nR.T.U. 2. REFER TO DETAIL UT-LS-1 OR 2 FOR WELD WIDTH.\n3. NAILING AND METAL COUNTERFLASHING ARE\nNOT REQUIRED IF MEMBRANE IS RUN UP AND OVER\nCURB WALLS PRIOR TO INSTALLATION OF R.T.U.\nWOOD NAILER (SEE NOTES) 1-14\" HOT DIPPED GALVANIZED ROOF\n4. METAL COUNTERFLASHING SHALL BE 24 GAUGE\nNAILS AT 12\" (304.8 mm) O.C. MAX.\nPRE-FINISHED STEEL OR .032\" MIN. ALUMINUM\nGASKETED FASTENER FORMED WITH HEMMED LOWER EDGE MOUNTED\nBY OTHERS 12\" TIGHTLY TO UNDERSIDE OF MECHANICAL UNIT.\n(304.8 mm) O.C. MAX. METAL COUNTERFLASHING BY OTHERS 5. FIRESTONE FASTENER WITH GP SEALANT OVER\n3\" (76.2 mm) MIN. FACE (SEE NOTES) FASTENER HEADS. GP SEALANT ALSO REQUIRED\nINSULATED METAL CURB ALONG ENTIRE EDGE OF CURB FLANGE.\nULTRAPLY TPO 18\" CURB FLASHING OR MEMBRANE 6. WOOD NAILER MUST BE INSTALLED TO MEET\nULTRAPLY TPO BONDING ADHESIVE APPLICABLE BUILDING CODES OR 200 LBS PER\nLINEAR FOOT MINIMUM IN ANY GIVEN DIRECTION.\nINSULATION BY OTHERS\nCONTINUOUS BEAD OF 7. BONDING ADHESIVE REQUIRED BETWEEN\nFIRESTONE WATERBLOCK MEMBRANE AND INSULATION FOR FULLY\nADHERED SYSTEMS.\nWELDED SPLICE (SEE NOTES) 8. WHEN REINFORCEMENT OF TPO MEMBRANE IS\nEXPOSED, REFER TO UT-LS-14 FOR CUT EDGE\nULTRAPLY TPO MEMBRANE SEALANT APPLICATION.\nULTRAPLY TPO BONDING 9. INSTALL METAL WORK IN ACCORDANCE WITH\nADHESIVE (SEE NOTES) CURRENT SMACNA RECOMMENDATIONS.\nFIRESTONE FASTENER\n12\" (304.8 mm) O.C. MAX.\nWITH ULTRAPLY TPO\nGP SEALANT (SEE NOTES) FIRESTONE INSULATION\nWOOD NAILER (SEE NOTES)\nSUBSTRATE\nMAXIMUM WARRANTY:20 YEARS",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "MAXIMUM WARRANTY:20 YEARS",
+     ""
+    ],
+    [
+     "T\nBUILDING PRODUCTS\nNOBODY w w C w O .fi V re E st R on S e b Y p O co U .c o B m ETTER.TM U",
+     "ERMINATION AT R.T.U. WITH COUNTERFLASHING",
+     "ISSUE REVISION\nDATE:",
+     "DETAIL NO.\nUT-T-15"
+    ],
+    [
+     "",
+     "(UNIT FLANGE ABOVE MEMBRANE)\nltraPly TM TPO ACCEPTABLE SYSTEMS:ALL",
+     "112006\nNOT TO SCALE",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Roof Warranty Documents.pdf",
+   "sheet": 18,
+   "header_row": 4,
+   "headers": [
+    "",
+    "",
+    "",
+    "Panel Schedule:\nPanel\nCode: Description: Size: P.S.I.: Slope: Used As:",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "X",
+     "0.5\" to 1.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ],
+    [
+     "",
+     "",
+     "",
+     "Y",
+     "1.5\" to 2.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ],
+    [
+     "",
+     "",
+     "",
+     "Z",
+     "2.5\" to 3.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ]
+   ]
+  },
+  {
+   "source": "Roof Warranty Documents.pdf",
+   "sheet": 29,
+   "header_row": 4,
+   "headers": [
+    "",
+    "",
+    "Panel Schedule:\nPanel\nCode: Description: Size: P.S.I.: Slope: Used As:",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "",
+     "",
+     "X",
+     "0.5\" to 1.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ],
+    [
+     "",
+     "",
+     "Y",
+     "1.5\" to 2.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ],
+    [
+     "",
+     "",
+     "Z",
+     "2.5\" to 3.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ]
+   ]
+  },
+  {
+   "source": "Roof Warranty Documents.pdf",
+   "sheet": 38,
+   "header_row": 4,
+   "headers": [
+    "",
+    "",
+    "",
+    "Panel Schedule:\nPanel\nCode: Description: Size: P.S.I.: Slope: Used As:",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "X",
+     "0.5\" to 1.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ],
+    [
+     "",
+     "",
+     "",
+     "Y",
+     "1.5\" to 2.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ],
+    [
+     "",
+     "",
+     "",
+     "Z",
+     "2.5\" to 3.5\"",
+     "4' X 4'",
+     "20 PSI Standard",
+     "14\"ft.",
+     "Tapered"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 138.4,
+  "attachment_fetches": 8,
+  "attachment_seconds": 20.3,
+  "attachment_bytes": 26346309,
+  "max_fetch_seconds": 10.04,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:23:19.214583+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-wentzville-mo-26-315-addendum-1/coverage.json"
+}

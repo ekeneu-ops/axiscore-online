@@ -1,0 +1,63 @@
+{
+ "bid_id": "washington-county-md-pur-1831",
+ "bid_number": "PUR-1831",
+ "agency": "Washington County, MD",
+ "src": "Open",
+ "title": "Bulk Delivery of Road Salt",
+ "close": "8/26/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Bulk Road Salt (Per Ton - Delivered)",
+   "qty": "1",
+   "uom": "TON",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Bulk Road Salt (Per Ton - Delivered) 1 TON No Response"
+  }
+ ],
+ "attachments_saved": [
+  "PUR-1831 Bulk Road Salt.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PUR-1831 Bulk Road Salt.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.2,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 652439,
+  "max_fetch_seconds": 0.62,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:19:38.156199+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/washington-county-md-pur-1831/coverage.json"
+}

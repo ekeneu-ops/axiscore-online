@@ -1,0 +1,127 @@
+{
+ "bid_id": "aldine-isd-tx-purch-2324-4-addendum-1",
+ "bid_number": "PURCH 2324-4 Addendum 1",
+ "agency": "Aldine ISD, TX",
+ "src": "Open",
+ "title": "Instructional Supplies, Materials and Equipment",
+ "close": "8/26/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Lowest Percentage of Discount Offered",
+   "qty": "1",
+   "uom": "",
+   "note": "List \"0\" if no discount",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Lowest Percentage of Discount Offered 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2025-2026 Instructional Supplies_ Materials and Equipment-Notice to Proposers.pdf",
+  "2025-2026 Instructional Supplies and Equipment-Cover Page.pdf",
+  "2025-2026 Instructional Supplies and Equipment-Scope of Services.pdf",
+  "2024-2025 Instructional Supplies and Equipment-Evaluation Matrix for Packet.pdf",
+  "General Terms and Conditions _8-21-25 Revised_.pdf",
+  "Form W-9 Revised March 2024 _Blank Form_.pdf",
+  "Notification of Award 8-19-2025 with Cover.pdf",
+  "eBid Attachment Packet - _2-19-2026_.pdf",
+  "Exhibit A Pre-service Affidavit fillable.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2025-2026 Instructional Supplies_ Materials and Equipment-Notice to Proposers.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2025-2026 Instructional Supplies and Equipment-Cover Page.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2025-2026 Instructional Supplies and Equipment-Scope of Services.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2024-2025 Instructional Supplies and Equipment-Evaluation Matrix for Packet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "General Terms and Conditions _8-21-25 Revised_.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form W-9 Revised March 2024 _Blank Form_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Notification of Award 8-19-2025 with Cover.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "eBid Attachment Packet - _2-19-2026_.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A Pre-service Affidavit fillable.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 25.1,
+  "attachment_fetches": 9,
+  "attachment_seconds": 12.1,
+  "attachment_bytes": 1666325,
+  "max_fetch_seconds": 2.33,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:31:27.730350+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/aldine-isd-tx-purch-2324-4-addendum-1/coverage.json"
+}

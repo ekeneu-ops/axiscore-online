@@ -1,0 +1,78 @@
+{
+ "bid_id": "city-of-columbia-mo-81-2026-addendum-1",
+ "bid_number": "81/2026 Addendum 1",
+ "agency": "City of Columbia, MO",
+ "src": "Open",
+ "title": "Bag-in-Box Soda, Dispensing Equipment and Bottled Drinks",
+ "close": "8/26/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "81.2026 Bag-in-Box Soda_ Dispensing Equipment and Bottled Drinks.pdf",
+  "Addendum No. 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "81.2026 Bag-in-Box Soda_ Dispensing Equipment and Bottled Drinks.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 1.pdf",
+   "kind": "pdf",
+   "tables": 16,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Addendum No. 1.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Question 1 - Please provide volume for each item sold for the last year, if possible, please break it\ndown by the item and flavor.\nResponse: See attached breakdown."
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "Question 2 \u2013 On the fountains, does the ice go above the unit or below?\nResponse: Below"
+    ],
+    [
+     "Question 3 \u2013 What is the current vendor rate and what products are being sold out of the vending\nmachines?\nResponse: We purchase bottled drinks from Pepsi and sell them out of the vending machines. The\nmachines are provided by Pepsi but all products are purchased by us from them and we retain the\nrevenue generated."
+    ],
+    [
+     "Question 4 \u2013 Are the vending machines filled by the City of Columbia or by Pepsi or a third party?\nResponse: See response from question 3."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 39.0,
+  "attachment_fetches": 2,
+  "attachment_seconds": 7.3,
+  "attachment_bytes": 8190971,
+  "max_fetch_seconds": 5.27,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:35:19.055736+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-columbia-mo-81-2026-addendum-1/coverage.json"
+}

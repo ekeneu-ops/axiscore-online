@@ -1,0 +1,91 @@
+{
+ "bid_id": "city-of-denton-tx-9109-addendum-1",
+ "bid_number": "9109 Addendum 1",
+ "agency": "City of Denton, TX",
+ "src": "Open",
+ "title": "Fiber GIS Asset Management Software Solution",
+ "close": "8/26/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 9109 Fiber GIS Asset Management Solution SOW.pdf",
+  "9109 Attachment A - Technical Requirements.xlsx",
+  "RFP 9109 Fiber GIS - Attachment B1 - Cost Worksheets.xlsx",
+  "RFP 9109 Fiber GIS - Attachment B2 - Cost Narrative.docx",
+  "Contract - Services _Updated 7.25.24_.docx",
+  "Insurance Requirements Fiber GIS Asset Mgmt Software - 9109.docx",
+  "Conflict_of_Interest_Questionaire.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 9109 Fiber GIS Asset Management Solution SOW.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "9109 Attachment A - Technical Requirements.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 9109 Fiber GIS - Attachment B1 - Cost Worksheets.xlsx",
+   "kind": "xlsx",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 9109 Fiber GIS - Attachment B2 - Cost Narrative.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - Services _Updated 7.25.24_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements Fiber GIS Asset Mgmt Software - 9109.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict_of_Interest_Questionaire.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.1,
+  "attachment_fetches": 7,
+  "attachment_seconds": 4.4,
+  "attachment_bytes": 639298,
+  "max_fetch_seconds": 1.52,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:24:03.718483+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,123 @@
+{
+ "bid_id": "mt-procurement-services-218823297",
+ "bid_number": "218823297",
+ "agency": "MT Procurement Services",
+ "src": "Open",
+ "title": "Tucker Theatre Audio and Communications Upgrade",
+ "close": "8/26/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 14,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Tucker Theatre Audio and Communications Upgrade Enter GRAND TOTAL of items below.",
+   "qty": "1",
+   "uom": "LO",
+   "note": "Equipment quoted must be brands/models specified if noted on the line item below.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Tucker Theatre Audio and Communications Upgrade Enter GRAND TOTAL of items below. 1 LO No Response"
+  }
+ ],
+ "attachments_saved": [
+  "BID_TERMS_AND_CONDITIONS_Oct_2018.pdf",
+  "Ethnicity_Report_Form.docx",
+  "W9 - 2024.pdf",
+  "Tucker Theatre Audio Comm Upgrade 2026 Pricing Sheet.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "BID_TERMS_AND_CONDITIONS_Oct_2018.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Ethnicity_Report_Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "W9 - 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Tucker Theatre Audio Comm Upgrade 2026 Pricing Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Tucker Theatre Audio Comm Upgrade 2026 Pricing Sheet.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "Item",
+    "Quantity",
+    "Unit Price ($)",
+    "Line Total ($)",
+    "Notes"
+   ],
+   "score": 3,
+   "n_rows": 14,
+   "sample": [
+    [
+     "Spectera SEK UHF Bodypack",
+     "8",
+     "",
+     "0",
+     ""
+    ],
+    [
+     "DPA 4060 Microlock Omnidirectional Lavalier Mic - Brown",
+     "2",
+     "",
+     "0",
+     ""
+    ],
+    [
+     "DPA 4060 Microlock Omnidirectional Lavalier Mic - Beige",
+     "6",
+     "",
+     "0",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.1,
+  "attachment_fetches": 4,
+  "attachment_seconds": 2.5,
+  "attachment_bytes": 407943,
+  "max_fetch_seconds": 0.93,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:25:41.937646+00:00",
+ "extract_attempts": 1,
+ "lines_total": 13,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/mt-procurement-services-218823297/coverage.json"
+}

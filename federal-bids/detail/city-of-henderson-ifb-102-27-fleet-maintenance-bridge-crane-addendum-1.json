@@ -1,0 +1,506 @@
+{
+ "bid_id": "city-of-henderson-ifb-102-27-fleet-maintenance-bridge-crane-addendum-1",
+ "bid_number": "IFB 102-27 Fleet Maintenance Bridge Crane Addendum 1",
+ "agency": "City of Henderson",
+ "src": "Open",
+ "title": "Fleet Maintenance Bridge Crane",
+ "close": "8/26/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:bridge",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 52,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Using prevailing wage rates, provide the total cost to furnish and install a bridge crane at the Fleet Maintenance Facility, per the IFB Documents.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Using prevailing wage rates, provide the total cost to furnish and install a bridge crane at the Fleet Maintenance Facility, per the IFB Documents. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Scope of Work - Bridge Crane.pdf",
+  "Exhibit A_Yale YK Crane System.pdf",
+  "Exhibit B_Crane Materials Summary.pdf",
+  "Exhibit C_VP Crane Data 1-1.pdf",
+  "Exhibit D_VP Frame Cross Section.pdf",
+  "Exhibit E_Bridge Crane Location.pdf",
+  "Exhibit F_Architectural.pdf",
+  "Exhibit G_GSL Electrical as-builts.pdf",
+  "Construction IFB Terms _ Conditions _Rev 6-3-2025_.pdf",
+  "List of Bidders 1_ First Tier Subcontractors.docx",
+  "List of Bidders 5_ First Tier Subcontractors.docx",
+  "Ownership Disclosure Form.docx",
+  "COH NGEM Supplier User Guide _Rev 12-2016_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Scope of Work - Bridge Crane.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A_Yale YK Crane System.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B_Crane Materials Summary.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C_VP Crane Data 1-1.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Exhibit D_VP Frame Cross Section.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E_Bridge Crane Location.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit F_Architectural.pdf",
+   "kind": "pdf",
+   "tables": 332,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Exhibit G_GSL Electrical as-builts.pdf",
+   "kind": "pdf",
+   "tables": 114,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "Construction IFB Terms _ Conditions _Rev 6-3-2025_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "List of Bidders 1_ First Tier Subcontractors.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "List of Bidders 5_ First Tier Subcontractors.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Ownership Disclosure Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "COH NGEM Supplier User Guide _Rev 12-2016_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Exhibit C_VP Crane Data 1-1.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "NOTES NOTE: THE CRANE BRACKET SHOWN ON THIS DRAWING MAY NOT REPRESENT\nACTUAL SUPPORT CONDITIONS. REFER TO OTHER DETAILS AND NOTES EXHIBIT C\nELSEWHERE IN THESE DRAWINGS FOR ADDITIONAL INFORMATION AND\nREQUIREMENTS.\n1) CRANE OPERATIONS MAY CAUSE VIBRATIONS IN ROD BRACING AND OTHER BUILDING COMPONENTS. OTHERS TO PROVIDE\nAND INSTALL CLAMPS OR TIES AS REQUIRED TO MINIMIZE VIBRATION NOISE.\n2) CRANE BRACKET ELEVATIONS MAY VARY SLIGHTLY DUE TO FABRICATION TOLERANCES. SHIMMING OF BEAMS OR\nLEVELING AND GROUTING OF COLUMN BASES MAY BE REQUIRED BY THE ERECTOR. C/C OF RAILS\n3) DO NOT WELD TO CRANE RUNWAY BEAMS OR SUPPORT BRACKETS OTHER THAN WELDS SPECIFIED IN THESE DRAWINGS MINIMUM FROM\nWITHOUT THE ADVANCE WRITTEN CONSENT OF THE RUNWAY BEAM DESIGN ENGINEER. INSIDE FLANGE\nTOP OF RAIL\nTOP OF RUNWAY 4) CRANE RUNWAY SYSTEMS ARE SUBJECT TO FATIGUE RELATED PROBLEMS. THEREFORE, ANY RUNWAY COMPONENTS AND\nDETAILS SUPPLIEDMUST BE DEVELOPED BY A PROFESSIONAL ENGINEER COMPETENT IN THE DESIGN OF SUCH SYSTEMS.\n5) CRANE RAIL ATTACHMENTS MUST PERFORM SEVERAL IMPORTANT FUNCTIONS, INCLUDING: \"61/3\nROOLF\nCRANE BEAM - TRANSFER OF LATERAL CRANE LOADS FROM THE TOP OF THE RAIL TO THE RUNWAY BEAM SEE SED'S\n- ALLOW THE RAIL TO \"FLOAT\" LONGITUDINALLY RELATIVE TO THE CRANE RUNWAY BEAM FOR APPROPRIATE WITH OR WITHOUT CAP\n).PYT( 6-'1\nTOP OF - ALLOW FOR ADJUSTMENT/ALIGNMENT OF THE RAIL DETAILS CHANNEL\nDEHSINIF\nBRACKET - HOLD THE RAIL IN PLACE LATERALLY\nSELECTION OF THE APPROPRIATE METHOD FOR CRANE RAIL ATTACHMENT MUST BE DONE BY A ROOLF \"0-'61\n3/4\" X \"\nPROFESSIONAL ENGINEER COMPETENT IN THIS AREA OF DESIGN. THE CRANE RAILS MUST BE INSTALLED TO ALIGN\nSTIFFENERS\nA325 BOLTS WITH\nWITH THE WEB OF THE RUNWAY BEAMS WITHIN THE TOLERANCE SHOWN IN THE DETAILS.\n(SEE NOTE 7) \"61/5\nMORF WASHERS (0095946)\nDEHSINIF \"2/1\nEACH SIDE\n6) THE DESIGN AND ATTACHMENT DETAILS FOR THE CRANE END STOPS MUST BE DEVELOPED BY INDIVIDUAL(S)\n2-'41\nQUALIFIED TO DO SO. COORDINATION WITH THE CRANE MANUFACTURER IS STRONGLY RECOMMENDED. 8-'51\n7) THE STIFFENERS SHOWN ARE PROVIDED ONLY WHEN THE CRANE BRACKET IS PROVIDED BY BLUESCOPE. MORF\nTHESE STIFFENERS ARE ALWAYS REQUIRED. IN CASES WHERE THE BRACKET IS NOT BY BLUESCOPE, THE STIFFENER\nWIDTH, LENGTH, THICKNESS, FIELD WELDING REQUIREMENTS, ETC MUST BE DETERMINED BY A LICENSED PROFESSIONAL +\nPLUMB COLUMN 3/8\"\n-\nENGINEER COMPETENT IN THE AREA OF BRIDGE CRANE DESIGN IN STEEL BUILDINGS.\nCOLUMN MAY BE STRAIGHT\n8) THE CRANE RUNWAY TIE-BACKS ARE ONLY PROVIDED WHEN THE CRANE RUNWAY BEAMS ARE BY BLUESCOPE. RUNWAY\n(SEE CROSS SECTION DRAWING)\nTIE-BACKS ARE ALWAYS REQUIRED. IMPROPER DESIGN AND DETAILING OF TIE-BACKS CAN CAUSE FATIGUE RELATED\nPROBLEMS AND THEREFORE SHOULD BE DESIGNED BY A LICENSED PROFESSIONAL ENGINEER WHO IS COMPETENT IN\nALL BOLTED CONNECTIONS REQUIRE BOLTS\nTHE AREA OF BRIDGE CRANE RUNWAY SYSTEM DESIGN. THE BEARING STIFFENER SHOWN WILL BE PROVIDED AT THE\nTO BE FULLY PRE-TENSIONED\nELEVATION SHOWN ONLY WHEN THE RUNWAY BEAM IS BY BLUESCOPE.\nTOP RIDING BRIDGE CRANE AND BRACING DETAIL\n9) THE CYCLIC NATURE OF BRIDGE CRANE EFFECTS WILL TEND TO CAUSE GRADUAL LOOSENING AND/OR MISALIGNMENT OF\nSOME BUILDING COMPONENTS. PERIODIC INSPECTION OF CONNECTIONS AND ALIGNMENT WILL BE REQUIRED.\nCRANE DESIGN DATA\n10) BLUESCOPE HIGHLY RECOMMENDS THAT COLUMN SUPPORTING CRANES GREATER THAN 10 TONS HAVE DOUBLE NUT BASE\nDETAIL WITH NON-COMPRESSABLE GROUT TO FACILITATE PROPER LEVELING. CONSULT PROJECT PROFESSIONAL.\nCRANE CLASSIFICATION: IMPACT: VERTICAL = % OF WHEEL LOAD\nC (Moderate Service) 10.00 11) WHEN BEAMS AND/OR RAILS ARE INDICATED AS \"BY OTHERS\", BLUESCOPE COMPANIES ACCEPT NO RESPONSIBILITY FOR\nDESIGN OR FABRICATION OR SUPPLY OF THESE ELEMENTS. THE CRANE BEAM SIZE SHOWN IS CONCEPTUAL ONLY FOR\nLATERAL = CRANE CAPACITY: % OF LIFTED LOAD + TROLLEY\n10.00 Ton 20.00 THE DESIGN OF SUPPORTING ELEMENTS AND SHOULD NOT BE CONSIDERED AS DESIGNED BY BLUESCOPE, NOR CHECKED\nBY BLUESCOPE ENGINEERS, NOR SUPPLIED BY BLUESCOPE COMPANIES. BUILDER MUST VERIFY WITH RUNWAY DESIGNER\nCRANE SPAN: LONGITUDINAL = 85'-0\" (C/C OF RAILS) 10.00 % OF MAXIMUM WHEEL LOADS, PER RAIL ACTUAL SIZE OF BEAM.\nWHEEL SPACING:\n13'-0\" RAIL ALIGNMENT CENTERLINE OF RUNWAY BEAM WEB\nRUNWAY BEAM SIZE: W18 By Others SHOULD NOT FALL OUTSIDE EITHER TO BEAM\nTROLLEY/HOIST WT.\n4.30 k FACE OF BEARING STIFFENER\n+ .75 x t\n-\nBRIDGE WT.\n42.80 k\nCRANE RAIL SIZE:\nASCE Light 40 lb/yd By Others\nMAXIMUM WHEEL LOAD: (W/O IMPACT)\n22.33 k\nRUN-UP DIST.\n3.17 ft\n(IF TWO CRANES)\nt\nRAIL ALIGNMENT CRANE BEAM ALIGNMENT\nCRANE DATA\nShape Name = Heavy Duty Bays, Wall = 4",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "",
+     "THE VP ENGINEER'S SEAL APPLIES ONLY TO THE\nWORK PRODUCT OF VP AND DESIGN AND\nPERFORMANCE REQUIREMENTS SPECIFIED BY\nVP. THE VP ENGINEER'S SEAL DOES NOT APPLY\nTO THE PERFORMANCE OR DESIGN OF ANY\nOTHER PRODUCT OR COMPONENT FURNISHED\nBY VP EXCEPT TO ANY DESIGN OR\nPERFORMANCE REQUIREMENTS SPECIFIED BY\nVP.",
+     "TTTHHHIIISSS DDDRRRAAAWWWIIINNNGGG,,, IIINNNCCCLLLUUUDDDIIINNNGGG TTTHHHEEE IIINNNFFFOOORRRMMMAAATTTIIIOOONNN HHHEEERRREEEOOONNN,,, RRREEEMMMAAAIIINNNSSS TTTHHHEEE PPPRRROOOPPPEEERRRTTTYYY OOOFFF VVVPPP BBBUUUIIILLLDDDIIINNNGGGSSS...\nIIITTT IIISSS PPPRRROOOVVVIIIDDDEEEDDD SSSOOOLLLEEELLLYYY FFFOOORRR EEERRREEECCCTTTIIINNNGGG TTTHHHEEE BBBUUUIIILLLDDDIIINNNGGG DDDEEESSSCCCRRRIIIBBBEEEDDD IIINNN TTTHHHEEE AAAPPPPPPLLLIIICCCAAABBBLLLEEE PPPUUURRRCCCHHHAAASSSEEE\nOOORRRDDDEEERRR AAANNNDDD MMMAAAYYY BBBEEE RRREEEPPPRRROOODDDUUUCCCEEEDDD OOONNNLLLYYY FFFOOORRR TTTHHHAAATTT PPPUUURRRPPPOOOSSSEEE... IIITTT SSSHHHAAALLLLLL NNNOOOTTT BBBEEE MMMOOODDDIIIFFFIIIEEEDDD,,,\nRRREEEPPPRRROOODDDUUUCCCEEEDDD OOORRR UUUSSSEEEDDD FFFOOORRR AAANNNYYY OOOTTTHHHEEERRR PPPUUURRRPPPOOOSSSEEE WWWIIITTTHHHOOOUUUTTT PPPRRRIIIOOORRR WWWRRRIIITTTTTTEEENNN AAAPPPPPPRRROOOVVVAAALLL OOOFFF VVVPPP\nBBBUUUIIILLLDDDIIINNNGGGSSS...",
+     "D",
+     "",
+     "VP Buildings\n3200 Players Club Circle Memphis TN 38125",
+     "",
+     "",
+     "CRANE DATA 1-1",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "REV",
+     "DATE",
+     "",
+     "BY",
+     "DESCRIPTION",
+     "BUILDER\nBoyd Martin Construction, LLC",
+     "VP BUILDINGS\nVARCO PRUDEN\nity\nA BlueScope Steel Company\n2019.1\nVPC VERSION:",
+     "JOBNO"
+    ],
+    [
+     "",
+     "",
+     "TTHHEE GGEENNEERRAALL CCOONNTTRRAACCTTOORR AANNDD//OORR EERREECCTTOORR IISS SSOOLLEELLYY RREESSPPOONNSSIIBBLLEE FFOORR AACCCCUURRAATTEE GGOOOODD\nQQUUAALLIITTYY WWOORRKKMMAANNSSHHIIPP IINN EERREECCTTIINNGG TTHHIISS BBUUIILLDDIINNGG IINN AACCCCOORRDDAANNCCEE WWIITTHH TTHHIISS DDRRAAWWIINNGG,,\nDDEETTAAIILLSS RREEFFEERREENNCCEEDD IINN TTHHIISS DDRRAAWWIINNGG,, AALLLL AAPPPPLLIICCAABBLLEE VVPP BBUUIILLDDIINNGGSS EERREECCTTIIOONN GGUUIIDDEESS,, AANNDD\nIINNDDUUSSTTRRYY SSTTAANNDDAARRDDSS PPEERRTTAAIINNIINNGG TTOO PPRROOPPEERR EERREECCTTIIOONN,, IINNCCLLUUDDIINNGG TTHHEE CCOORRRREECCTT UUSSEE OOFF\nTTEEMMPPOORRAARRYY BBRRAACCIINNGG..",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "CUSTOMER",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit C_VP Crane Data 1-1.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "",
+    "1) CRANE OPERATIONS MAY CAUSE VIBRATIONS IN ROD BRACING AND OTHER BUILDING COMPONENTS. OTHERS TO PROVIDE\nAND INSTALL CLAMPS OR TIES AS REQUIRED TO MINIMIZE VIBRATION NOISE.\n2) CRANE BRACKET ELEVATIONS MAY VARY SLIGHTLY DUE TO FABRICATION TOLERANCES. SHIMMING OF BEAMS OR\nLEVELING AND GROUTING OF COLUMN BASES MAY BE REQUIRED BY THE ERECTOR.\n3) DO NOT WELD TO CRANE RUNWAY BEAMS OR SUPPORT BRACKETS OTHER THAN WELDS SPECIFIED IN THESE DRAWINGS\nWITHOUT THE ADVANCE WRITTEN CONSENT OF THE RUNWAY BEAM DESIGN ENGINEER.\n4) CRANE RUNWAY SYSTEMS ARE SUBJECT TO FATIGUE RELATED PROBLEMS. THEREFORE, ANY RUNWAY COMPONENTS AND\nDETAILS SUPPLIEDMUST BE DEVELOPED BY A PROFESSIONAL ENGINEER COMPETENT IN THE DESIGN OF SUCH SYSTEMS.\n5) CRANE RAIL ATTACHMENTS MUST PERFORM SEVERAL IMPORTANT FUNCTIONS, INCLUDING:\n- TRANSFER OF LATERAL CRANE LOADS FROM THE TOP OF THE RAIL TO THE RUNWAY BEAM\n- ALLOW THE RAIL TO \"FLOAT\" LONGITUDINALLY RELATIVE TO THE CRANE RUNWAY BEAM\n- ALLOW FOR ADJUSTMENT/ALIGNMENT OF THE RAIL\n- HOLD THE RAIL IN PLACE LATERALLY\nSELECTION OF THE APPROPRIATE METHOD FOR CRANE RAIL ATTACHMENT MUST BE DONE BY A\nPROFESSIONAL ENGINEER COMPETENT IN THIS AREA OF DESIGN. THE CRANE RAILS MUST BE INSTALLED TO ALIGN\nWITH THE WEB OF THE RUNWAY BEAMS WITHIN THE TOLERANCE SHOWN IN THE DETAILS.\n6) THE DESIGN AND ATTACHMENT DETAILS FOR THE CRANE END STOPS MUST BE DEVELOPED BY INDIVIDUAL(S)\nQUALIFIED TO DO SO. COORDINATION WITH THE CRANE MANUFACTURER IS STRONGLY RECOMMENDED.\n7) THE STIFFENERS SHOWN ARE PROVIDED ONLY WHEN THE CRANE BRACKET IS PROVIDED BY BLUESCOPE.\nTHESE STIFFENERS ARE ALWAYS REQUIRED. IN CASES WHERE THE BRACKET IS NOT BY BLUESCOPE, THE STIFFENER\nWIDTH, LENGTH, THICKNESS, FIELD WELDING REQUIREMENTS, ETC MUST BE DETERMINED BY A LICENSED PROFESSIONAL\nENGINEER COMPETENT IN THE AREA OF BRIDGE CRANE DESIGN IN STEEL BUILDINGS.\n8) THE CRANE RUNWAY TIE-BACKS ARE ONLY PROVIDED WHEN THE CRANE RUNWAY BEAMS ARE BY BLUESCOPE. RUNWAY\nTIE-BACKS ARE ALWAYS REQUIRED. IMPROPER DESIGN AND DETAILING OF TIE-BACKS CAN CAUSE FATIGUE RELATED\nPROBLEMS AND THEREFORE SHOULD BE DESIGNED BY A LICENSED PROFESSIONAL ENGINEER WHO IS COMPETENT IN\nTHE AREA OF BRIDGE CRANE RUNWAY SYSTEM DESIGN. THE BEARING STIFFENER SHOWN WILL BE PROVIDED AT THE\nELEVATION SHOWN ONLY WHEN THE RUNWAY BEAM IS BY BLUESCOPE.\n9) THE CYCLIC NATURE OF BRIDGE CRANE EFFECTS WILL TEND TO CAUSE GRADUAL LOOSENING AND/OR MISALIGNMENT OF\nSOME BUILDING COMPONENTS. PERIODIC INSPECTION OF CONNECTIONS AND ALIGNMENT WILL BE REQUIRED.\n10) BLUESCOPE HIGHLY RECOMMENDS THAT COLUMN SUPPORTING CRANES GREATER THAN 10 TONS HAVE DOUBLE NUT BASE\nDETAIL WITH NON-COMPRESSABLE GROUT TO FACILITATE PROPER LEVELING. CONSULT PROJECT PROFESSIONAL.\n11) WHEN BEAMS AND/OR RAILS ARE INDICATED AS \"BY OTHERS\", BLUESCOPE COMPANIES ACCEPT NO RESPONSIBILITY FOR\nDESIGN OR FABRICATION OR SUPPLY OF THESE ELEMENTS. THE CRANE BEAM SIZE SHOWN IS CONCEPTUAL ONLY FOR\nTHE DESIGN OF SUPPORTING ELEMENTS AND SHOULD NOT BE CONSIDERED AS DESIGNED BY BLUESCOPE, NOR CHECKED\nBY BLUESCOPE ENGINEERS, NOR SUPPLIED BY BLUESCOPE COMPANIES. BUILDER MUST VERIFY WITH RUNWAY DESIGNER\nACTUAL SIZE OF BEAM.",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "TOP RIDING BRIDGE CRANE AND BRACING DETAIL",
+     "",
+     ""
+    ],
+    [
+     "CRANE DESIGN DATA\nCRANE CLASSIFICATION: IMPACT: VERTICAL = % OF WHEEL LOAD\nC (Moderate Service) 10.00\nCRANE CAPACITY: LATERAL = % OF LIFTED LOAD + TROLLEY\n10.00 Ton 20.00\nCRANE SPAN: 85'-0\" (C/C OF RAILS) LONGITUDINAL = 10.00 % OF MAXIMUM WHEEL LOADS, PER RAIL\nWHEEL SPACING:\n13'-0\"\nRUNWAY BEAM SIZE: W18 By Others\nTROLLEY/HOIST WT.\n4.30 k\nBRIDGE WT.\n42.80 k\nCRANE RAIL SIZE:\nASCE Light 40 lb/yd By Others\nMAXIMUM WHEEL LOAD: (W/O IMPACT)\n22.33 k\nRUN-UP DIST.\n3.17 ft\n(IF TWO CRANES)",
+     "",
+     ""
+    ],
+    [
+     "",
+     "RAIL ALIGNMENT\nTO BEAM\n+ .75 x t\n-\nt\nRAIL ALIGNMENT",
+     "CENTERLINE OF RUNWAY BEAM WEB\nSHOULD NOT FALL OUTSIDE EITHER\nFACE OF BEARING STIFFENER\nCRANE BEAM ALIGNMENT"
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit F_Architectural.pdf",
+   "sheet": 331,
+   "header_row": 2,
+   "headers": [
+    "SYMBOL",
+    "COMMON NAME",
+    "BOTANICAL NAME",
+    "SIZE",
+    "QUANTITY S",
+    "YMBOL COM",
+    "MON NAME",
+    "BOTANICAL NAME",
+    "SIZE",
+    "QUANT",
+    "ITY SYMBOL C",
+    "OMMON NAME BOTANICAL NAME SIZE",
+    "QUANTITY SIZE C",
+    "OLOR DEP"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "SHOESTRING ACACIA\nDESERT MUSEUM PALO\nVERDE\nCHITALPA",
+     "acacia stenophylla\nparkinsonia x 'desert Museum'\nchitalpa tashkentensis",
+     "24\" Box\n24\" Box\n24\" Box",
+     "32\n10\n35",
+     "TEXAS\nMEXIC\nCREPE",
+     "RANGER\nAN BUSH SAGE\nMYRTLE",
+     "leucophyllum frutescens 5\n'Green Cloud'\nsalvia leucantha 5\nsalvia leucantha 5",
+     "gal\ngal\ngal",
+     "201\n146\n4",
+     "DE\nLA\nRE\nG",
+     "SERT CARPET myoporum parvifolium 5 gal\nNTANA lantana 3 gal\nGAL MIST FOUNTAIN muhlenbergia capillaris 5 gal\nRASS 'regal mist'",
+     "3/8\" CRUSHED GRANITE T\n3 A\nM\nC\n7\n1/4\" MINUS GRANITE T\n9 A\nM\nC",
+     "O BE SELECTED BY MIN.\nRCHITECT FROM DEE\nANUFACTURERS STD\nOLORS\nO BE SELECTED BY MIN.\nRCHITECT FROM DEE\nANUFACTURERS STD\nOLORS"
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit G_GSL Electrical as-builts.pdf",
+   "sheet": 61,
+   "header_row": 4,
+   "headers": [
+    "SYMBOL",
+    "DESCRIPTION",
+    "MOUNTING",
+    "TYPICAL BOX -\nMUD RING",
+    "TYPICAL COUNT -\nCONDUIT SIZE",
+    "TYPICAL COUNT -\nCABLE TYPE",
+    "TYPICAL COUNT -\nJACK TYPE",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 20,
+   "sample": [
+    [
+     "#",
+     "VOICE OUTLET (PHONE)",
+     "18\" MIN / 48\" MAX / C",
+     "4\" SQUARE -\nSINGLE GANG",
+     "1 -1\"",
+     "CAT6",
+     "1 -WHITE\nMX6-F02",
+     ""
+    ],
+    [
+     "#",
+     "DATA OUTLET",
+     "18\" MIN / 48\" MAX / C",
+     "4\" SQUARE -\nSINGLE GANG",
+     "1 -1\"",
+     "CAT6",
+     "# -WHITE\nMX6-F02",
+     ""
+    ],
+    [
+     "#",
+     "VOICE/DATA OUTLET (# = CABLE COUNT IF SHOWN)",
+     "18\" MIN / 48\" MAX / C",
+     "4\" SQUARE -\nSINGLE GANG",
+     "1 -1\"",
+     "4 -CAT6",
+     "4 -WHITE\nMX6-F02",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit G_GSL Electrical as-builts.pdf",
+   "sheet": 88,
+   "header_row": 1,
+   "headers": [
+    "EQUIPMENT ID",
+    "",
+    "",
+    "DESCRIPTION",
+    "",
+    "F&IB",
+    "COUNT",
+    "LOAD (HP, kW, A)",
+    "VA",
+    "",
+    "",
+    "",
+    "STARTER\nSIZE",
+    "PROVIDED\nBY",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 50,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "VOLTAGE",
+     "",
+     "POLES",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "053",
+     "",
+     "",
+     "CHOP SAW",
+     "",
+     "",
+     "1",
+     "13A",
+     "1356 VA",
+     "208 V",
+     "",
+     "2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "#12, #12G, 3/4\"C.",
+     "",
+     ""
+    ],
+    [
+     "EC-1",
+     "",
+     "",
+     "EVAPORATIVE COOLER",
+     "",
+     "MC",
+     "1",
+     "3 HP",
+     "3988 VA",
+     "480 V",
+     "",
+     "3",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "D(30A/3P/3W/480V/F/N3R)",
+     "#10, #10G, 3/4\"C.",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit G_GSL Electrical as-builts.pdf",
+   "sheet": 90,
+   "header_row": 1,
+   "headers": [
+    "EQUIPMENT ID",
+    "DESCRIPTION",
+    "F&IB",
+    "COUNT",
+    "LOAD (HP, kW, A)",
+    "VA",
+    "",
+    "",
+    "STARTER\nSIZE",
+    "PROVIDED\nBY",
+    "CONTROL WIRING\nNOTES",
+    "DISCONNECT SWITCH",
+    "WIRE & CONDUIT SIZE",
+    "NOTES"
+   ],
+   "score": 2,
+   "n_rows": 52,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "VOLTAGE",
+     "POLES",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "POWER STATION",
+     "O",
+     "1",
+     "",
+     "180 VA",
+     "120 V",
+     "1",
+     "",
+     "",
+     "",
+     "5-20",
+     "#12, #12G, 3/4\"C.",
+     ""
+    ],
+    [
+     "000",
+     "FIRE OIL FILTER CRUSHER",
+     "O",
+     "1",
+     "16A",
+     "1980 VA",
+     "120 V",
+     "1",
+     "",
+     "",
+     "",
+     "5-20",
+     "#10, #10G, 3/4\"C.",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 147.8,
+  "attachment_fetches": 13,
+  "attachment_seconds": 23.1,
+  "attachment_bytes": 25232722,
+  "max_fetch_seconds": 6.7,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:28:27.274958+00:00",
+ "extract_attempts": 1,
+ "lines_total": 51,
+ "lines_matched": 1,
+ "coverage_pct": 2.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-henderson-ifb-102-27-fleet-maintenance-bridge-crane-addendum-1/coverage.json"
+}

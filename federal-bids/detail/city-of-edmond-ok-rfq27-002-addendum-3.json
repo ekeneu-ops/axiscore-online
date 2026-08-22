@@ -1,0 +1,59 @@
+{
+ "bid_id": "city-of-edmond-ok-rfq27-002-addendum-3",
+ "bid_number": "RFQ27-002 Addendum 3",
+ "agency": "City of Edmond, OK",
+ "src": "Open",
+ "title": "Water Resources-Engineering",
+ "close": "8/26/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026 Water Resources - General Engineering RFQ _Final_.pdf",
+  "RFQ27-0002 General Engineering - Addendum 1.pdf",
+  "RFQ27-002 General Engineering - Addendum 3.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026 Water Resources - General Engineering RFQ _Final_.pdf",
+   "kind": "pdf",
+   "tables": 24,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ27-0002 General Engineering - Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ27-002 General Engineering - Addendum 3.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.8,
+  "attachment_fetches": 3,
+  "attachment_seconds": 3.4,
+  "attachment_bytes": 1415866,
+  "max_fetch_seconds": 2.32,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:25:09.837630+00:00",
+ "extract_attempts": 1
+}

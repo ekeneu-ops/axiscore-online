@@ -1,0 +1,150 @@
+{
+ "bid_id": "city-of-el-paso-tx-2026-0455-addendum-1",
+ "bid_number": "2026-0455 Addendum 1",
+ "agency": "City of El Paso, TX",
+ "src": "Invited",
+ "title": "Washer Extractor Repairs (Re-Bid)",
+ "close": "9/2/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 28,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026-0455 Bid Form.xlsx",
+  "Amendment Acknowledgement _For Paper Bids Only_.pdf",
+  "2026-0455 Mandatory Forms.pdf",
+  "Fire Department Locations.docx.pdf",
+  "A001 _19_.pdf",
+  "file_5",
+  "file_6"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-0455 Bid Form.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Amendment Acknowledgement _For Paper Bids Only_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-0455 Mandatory Forms.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Fire Department Locations.docx.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "A001 _19_.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "file_5",
+   "kind": "?",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "file_6",
+   "kind": "?",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2026-0455 Bid Form.xlsx",
+   "sheet": 0,
+   "header_row": 20,
+   "headers": [
+    "Item No.",
+    "Description",
+    "",
+    "Unit of Measure",
+    "",
+    "Price",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 28,
+   "sample": [
+    [
+     "1",
+     "Monday through Friday 7:00 AM - 5:00 PM",
+     "",
+     "Hourly Rate\nfor Diagnostics Call",
+     "",
+     "0",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "After Hours 5:00 PM - 7:00 AM, Weekends & Holidays",
+     "",
+     "Hourly Rate\nfor Diagnostics Call",
+     "",
+     "0",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Group II \u2013 Washer / Extractor Service (Repair)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 27.6,
+  "attachment_fetches": 7,
+  "attachment_seconds": 18.2,
+  "attachment_bytes": 3371006,
+  "max_fetch_seconds": 9.85,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:37:34.311999+00:00",
+ "extract_attempts": 1,
+ "lines_total": 17,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-el-paso-tx-2026-0455-addendum-1/coverage.json"
+}

@@ -1,0 +1,91 @@
+{
+ "bid_id": "the-university-of-kansas-3214647-addendum-1",
+ "bid_number": "3214647 Addendum 1",
+ "agency": "The University of Kansas",
+ "src": "Invited",
+ "title": "Mid-Size Rider Sweeper",
+ "close": "8/31/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Solicitation Snapshot_3214647.pdf",
+  "RFP Scope of Work_Mid-Size Rider Sweeper_3214647.pdf",
+  "Solicitation Instructions.pdf",
+  "Supplier Travel _ Expense Reimbursement Addendum.pdf",
+  "Jayhawk Community Partners Attachment.pdf",
+  "KU-146a Rev 02-25 _KU Purchasing_ FINAL 4907-4428-5212 v.1.pdf",
+  "KU General Terms and Conditions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Solicitation Snapshot_3214647.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Scope of Work_Mid-Size Rider Sweeper_3214647.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Solicitation Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Travel _ Expense Reimbursement Addendum.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Jayhawk Community Partners Attachment.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "KU-146a Rev 02-25 _KU Purchasing_ FINAL 4907-4428-5212 v.1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "KU General Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 17.1,
+  "attachment_fetches": 7,
+  "attachment_seconds": 8.2,
+  "attachment_bytes": 1412979,
+  "max_fetch_seconds": 1.73,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:36:47.681274+00:00",
+ "extract_attempts": 1
+}

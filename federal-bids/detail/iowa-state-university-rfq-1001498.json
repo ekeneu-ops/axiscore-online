@@ -1,10 +1,10 @@
 {
- "bid_id": "iowa-state-university-rfq-1001493",
- "bid_number": "RFQ-1001493",
+ "bid_id": "iowa-state-university-rfq-1001498",
+ "bid_number": "RFQ-1001498",
  "agency": "Iowa State University",
- "src": "Invited",
- "title": "Portable Veterinary X-ray Machine",
- "close": "8/27/2026 04:00 PM (ET)",
+ "src": "Open",
+ "title": "Tangential Flow Filtration System",
+ "close": "8/26/2026 04:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -19,37 +19,45 @@
    "ctl": "ucBidLine1",
    "kind": "line",
    "line": "1",
-   "desc": "Portable Veterinary X-Ray Machine",
+   "desc": "Tangential Flow Filtration System",
    "qty": "1",
    "uom": "EA",
    "note": "Provide the total cost of the system being offered to include equipment, freight, installation and training.",
    "displayOnly": "false",
    "lineType": "BidLine",
-   "block": "1 Portable Veterinary X-Ray Machine 1 EA No Response"
+   "block": "1 Tangential Flow Filtration System 1 EA No Response"
   }
  ],
  "attachments_saved": [
-  "0_ISU Instructions.pdf",
-  "1_ISU General Terms _ Conditions.pdf",
-  "2_Insurance Language - Equipment Repair_ Install_ Maintenance _low risk_ 09-2020.pdf"
+  "ISU Instructions.pdf",
+  "ISU General Terms _ Conditions.pdf",
+  "ISU Federal Grant Terms _UGA_.pdf",
+  "Insurance Language - Equipment Repair_ Install_ Maintenance _low risk_ 09-2020.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "0_ISU Instructions.pdf",
+   "name": "ISU Instructions.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "1_ISU General Terms _ Conditions.pdf",
+   "name": "ISU General Terms _ Conditions.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "2_Insurance Language - Equipment Repair_ Install_ Maintenance _low risk_ 09-2020.pdf",
+   "name": "ISU Federal Grant Terms _UGA_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Language - Equipment Repair_ Install_ Maintenance _low risk_ 09-2020.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
@@ -61,19 +69,19 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 16.1,
-  "attachment_fetches": 3,
-  "attachment_seconds": 4.2,
-  "attachment_bytes": 352469,
-  "max_fetch_seconds": 2.48,
+  "bid_seconds": 14.7,
+  "attachment_fetches": 4,
+  "attachment_seconds": 2.8,
+  "attachment_bytes": 676167,
+  "max_fetch_seconds": 0.86,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-22T08:35:53.701766+00:00",
- "extract_attempts": 2,
+ "captured_at": "2026-08-22T08:29:14.952001+00:00",
+ "extract_attempts": 1,
  "lines_total": 1,
  "lines_matched": 0,
  "coverage_pct": 0.0,
  "coverage_basis": "line_count",
- "evidence_path": "fb_records/iowa-state-university-rfq-1001493/coverage.json"
+ "evidence_path": "fb_records/iowa-state-university-rfq-1001498/coverage.json"
 }

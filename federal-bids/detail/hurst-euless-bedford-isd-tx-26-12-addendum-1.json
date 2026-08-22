@@ -1,0 +1,174 @@
+{
+ "bid_id": "hurst-euless-bedford-isd-tx-26-12-addendum-1",
+ "bid_number": "26-12 Addendum 1",
+ "agency": "Hurst-Euless-Bedford ISD , TX",
+ "src": "Open",
+ "title": "Sale of 57.48 Acres at Harwood Road and Meadow Park Drive",
+ "close": "8/26/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFB_26-12_Sale_of_57.48_Acres_Harwood_and_Meadow_Park_Bid_Package - Final.pdf",
+  "EXHIBIT I - Buyer Registration No.pdf",
+  "EXHIBIT J - Broker Registration.pdf",
+  "RFB_26-12_Sale_of_57.48_Acres_in_Meadow_Park_District_Addendum_No_1.pdf",
+  "26102 Topographic Survey Preliminary Release 07-28-2026.pdf",
+  "RFB_Sale_of_Meadow_Park_Property_PreBidAgenda_Presentation.pdf",
+  "Supplier Retract a Bid Response.pdf",
+  "Entire American Tower Agreement 09-22-20.pdf",
+  "HEB ISD - Meadow Park - Original Lease Agreement.pdf",
+  "HEB ISD - Meadow Park License Agreement.pdf",
+  "Suns_Field_Dev.pdf",
+  "Appraisal Report - 2001 Harwood Rd - 57.48 Acres.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFB_26-12_Sale_of_57.48_Acres_Harwood_and_Meadow_Park_Bid_Package - Final.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "EXHIBIT I - Buyer Registration No.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EXHIBIT J - Broker Registration.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFB_26-12_Sale_of_57.48_Acres_in_Meadow_Park_District_Addendum_No_1.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26102 Topographic Survey Preliminary Release 07-28-2026.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFB_Sale_of_Meadow_Park_Property_PreBidAgenda_Presentation.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Retract a Bid Response.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Entire American Tower Agreement 09-22-20.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HEB ISD - Meadow Park - Original Lease Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HEB ISD - Meadow Park License Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Suns_Field_Dev.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appraisal Report - 2001 Harwood Rd - 57.48 Acres.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFB_26-12_Sale_of_57.48_Acres_Harwood_and_Meadow_Park_Bid_Package - Final.pdf",
+   "sheet": 11,
+   "header_row": 0,
+   "headers": [
+    "CITY",
+    "NEW COMMUNITY /\nPRODUCT",
+    "TYPICAL SIZE",
+    "CURRENT PRICE\nRANGE",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "Bedford",
+     "Grace Park\n(Bloomfield)",
+     "2,500\u20134,000 SF",
+     "$775,000\u2013$1.11M\n(nuhomesource.com)",
+     ""
+    ],
+    [
+     "Bedford",
+     "Oakwood Hills",
+     "2,600\u20133,000 SF",
+     "~$796,000\n(nuhomesource.com)",
+     ""
+    ],
+    [
+     "Colleyville",
+     "Four Seasons /\nLuxury Infill",
+     "3,500\u20135,500 SF",
+     "$2.0M\u2013$3.7M\n(DFW Realty)",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 52.0,
+  "attachment_fetches": 12,
+  "attachment_seconds": 36.5,
+  "attachment_bytes": 46710156,
+  "max_fetch_seconds": 13.46,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-22T08:20:59.267219+00:00",
+ "extract_attempts": 1,
+ "lines_total": 9,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/hurst-euless-bedford-isd-tx-26-12-addendum-1/coverage.json"
+}
