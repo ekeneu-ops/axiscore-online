@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-22T03:59Z",
+ "asof": "2026-08-22T04:28Z",
  "ap": {
   "net": 251714.61,
   "credits": 4167.75,
@@ -49,24 +49,24 @@
     "total": 66199.16
    }
   },
-  "asof": "2026-08-22T03:59Z",
+  "asof": "2026-08-22T04:28Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 248411.41,
-  "order_count": 2674,
+  "net": 248607.23,
+  "order_count": 2681,
   "walk": {
-   "released": 92347.72,
+   "released": 92938.41,
    "postsettle": 875.8,
-   "refunds": -9143.76,
+   "refunds": -9310.81,
    "account_events": -943.18,
-   "deferred": 165274.83
+   "deferred": 165047.01
   },
-  "fev_through": "2026-08-22T01:55Z",
-  "deferred_snapshot": "2026-08-22T03:06Z",
+  "fev_through": "2026-08-22T03:14Z",
+  "deferred_snapshot": "2026-08-22T04:06Z",
   "last_settlement_end": "2026-08-11",
-  "asof": "2026-08-22T03:59Z",
-  "moved_pct": 0.0
+  "asof": "2026-08-22T04:28Z",
+  "moved_pct": 0.08
  },
  "fba": {
   "value": 8685.53,
@@ -75,7 +75,7 @@
   "cost_after_prep": 8251.35,
   "est_sales": 14408.2,
   "erp_updated_at": "2026-08-21 21:30:06",
-  "asof": "2026-08-22T03:59Z"
+  "asof": "2026-08-22T04:28Z"
  },
  "amex": {
   "owed": 12888.61,
@@ -83,7 +83,7 @@
   "txn_count": 41,
   "pending_amt": 10.6,
   "last_txn": "2026-08-21",
-  "asof": "2026-08-22T03:59Z"
+  "asof": "2026-08-22T04:28Z"
  },
  "card_in_transit": {
   "amount": 1305.27,
@@ -91,6 +91,6 @@
   "basis": "authnet",
   "oldest_days": 1,
   "deposits_through": "2026-08-21",
-  "asof": "2026-08-22T03:59Z"
+  "asof": "2026-08-22T04:28Z"
  }
 }
