@@ -1,0 +1,83 @@
+{
+ "bid_id": "nassau-boces-ny-26-27-030-installation-of-audio-visual-equipment",
+ "bid_number": "26/27-030 Installation of Audio Visual Equipment",
+ "agency": "Nassau BOCES, NY",
+ "src": "Invited",
+ "title": "26/27-030 Installation of Audio Visual Equipment",
+ "close": "9/9/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Labor Rate per hour - The bidder offers to furnish all labor, materials, tools, equipment, supplies and supervision required for the satisfactory execution and completion of all work and services specified in strict accordance with the Contract Documents at the rate entered below: For install of Interactive Boards and Projectors: Journeyman\u2019s labor rate to be charged during normal business hours for all trades that may be utilized under this Contract in accordance with the attached Prevailing Wage Sate Schedule (Monday through Friday) for all Nassau BOCES and participating District(s) building locations.",
+   "qty": "",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Labor Rate per hour - The bidder offers to furnish all labor, materials, tools, equipment, supplies and supervision required for the satisfactory execution and completion of all work and services specified in strict accordance with the Contract Documents at the rate entered below: For install of Interactive Boards and Projectors: Journeyman\u2019s labor rate to be charged during normal business hours for all trades that may be utilized under this Contract in accordance with the attached Prevailing Wage Sate Schedule (Monday through Friday) for all Nassau BOCES and participating District(s) building locations. HR No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "Labor Rate per hour - The bidder offers to furnish all labor, materials, tools, equipment, supplies and supervision required for the satisfactory execution and completion of all work and services specified in strict accordance with the Contract Documents at the rate entered below: For install of Interactive Flat Panels: Journeyman\u2019s labor rate to be charged during normal business hours for all trades that may be utilized under this Contract in accordance with the attached Prevailing Wage Sate Schedule (Monday through Friday) for all Nassau BOCES and participating District(s) building locations.",
+   "qty": "",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Labor Rate per hour - The bidder offers to furnish all labor, materials, tools, equipment, supplies and supervision required for the satisfactory execution and completion of all work and services specified in strict accordance with the Contract Documents at the rate entered below: For install of Interactive Flat Panels: Journeyman\u2019s labor rate to be charged during normal business hours for all trades that may be utilized under this Contract in accordance with the attached Prevailing Wage Sate Schedule (Monday through Friday) for all Nassau BOCES and participating District(s) building locations. HR No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-27-030 Installation of AV Equipment.pdf",
+  "Appendix A-Participation Insurance and Indemnification Agreement.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-27-030 Installation of AV Equipment.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix A-Participation Insurance and Indemnification Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 14.0,
+  "attachment_fetches": 2,
+  "attachment_seconds": 3.1,
+  "attachment_bytes": 1893299,
+  "max_fetch_seconds": 2.31,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:49:33.511699+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/nassau-boces-ny-26-27-030-installation-of-audio-visual-equipment/coverage.json"
+}

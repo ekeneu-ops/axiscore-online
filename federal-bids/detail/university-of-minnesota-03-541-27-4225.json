@@ -1,0 +1,394 @@
+{
+ "bid_id": "university-of-minnesota-03-541-27-4225",
+ "bid_number": "03-541-27-4225",
+ "agency": "University of Minnesota",
+ "src": "Open",
+ "title": "UMD Griggs Hall PODS K and L Abatement",
+ "close": "8/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 24,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP - Griggs Abatement.docx",
+  "RFx Instructions and Requirements - V11.pdf",
+  "PWR.zip",
+  "25-008 - UMD Griggs Hall AB - 100_ RFB Drawings _1_.pdf",
+  "Griggs Hall PODS K and L Specification CP_03-541-27-4225.pdf",
+  "parking_map.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP - Griggs Abatement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFx Instructions and Requirements - V11.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "PWR.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "25-008 - UMD Griggs Hall AB - 100_ RFB Drawings _1_.pdf",
+   "kind": "pdf",
+   "tables": 634,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "Griggs Hall PODS K and L Specification CP_03-541-27-4225.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "parking_map.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "25-008 - UMD Griggs Hall AB - 100_ RFB Drawings _1_.pdf",
+   "sheet": 47,
+   "header_row": 0,
+   "headers": [
+    "ADA PARKING\nSTALL BEYOND\nNUMBER 25 -\nACCESSIBLE MAIN\nENTRY\nNUMBER 25 -\nACCESSIBLE MAIN\nENTRY\nEX\n2\nA0.4 DRINKING\nEX FOUNTAIN\nPLUMBING PLUMBING PLUMBING PLUMBING\nCHASE CHASE CHASE CHASE\nEA EA\nDN UP MOST REMOTE POINT MOST REMOTE POINT\n66'-3\" TRAVEL 66'-1\" TRAVEL\nDISTANCE DISTANCE\nEA EA\nEA EA\nFE FE\n2HR VERT SHAFT THESE TWO EXIT SIGNS 2HR VERT SHAFT\nAT THIRD FLOOR ONLY\nFIRE/SMOKE DAMPER @ FIRE/SMOKE DAMPER @\nSECOND FLOOR - SEE MECH SECOND FLOOR - SEE MECH\n2HR VERT SHAFT 2HR VERT SHAFT\n2HR VERT SHAFT 2HR VERT SHAFT\nFIRE/SMOKE DAMPER @ FIRE/SMOKE DAMPER @\nSECOND FLOOR - SEE MECH SECOND FLOOR - SEE MECH\nEF EF\nNOTE:\nEA EA\nREWIRING OF FIRE ALARMS TO\nOCCUR AS REQUIRED ACCORDING EX EX\nTO NFPA 72.\nNOTE:\nADJUST FIRE SPRINKLERS AS\nDN UP REQUIRED.\nPLAN TYPICAL PLAN - LIFE SAFETY NORTH\n1\n3/32\" = 1'-0\"",
+    "NUMBER 14-20 - FIRE SUPPRESSION AND ALARMING\nSPRINKLER PROTECTION YES-FULL/ SPRINKLER COVERAGE CHANGES NONE\nYES-PARTIAL/\nNO\nSTANDPIPE PROTECTION NO STANDPIPE PROTECTION CHANGES NONE\nCHECK CLASS\nYES CLASS - 1\nNO ---\nWET NFPA13\nDRY ---\nFIRE PUMP: YES / NO YES\nFIRE ALARM NOTIFICATION/ YES FIRE ALARM NOTIFICATION/ NONE\nDETECTION DETECTION CHANGES\nSPEAKER/ STROBE: YES/ NO (ASK CHRIS WILBUR) YES\nFOR PARTIAL FIRE SPRINKLER CONDITION, ARCHITECT TO PROVIDE FIRE PROTECTION/\nSPRINKLER PLAN SHOWING EXISTING SPRINKLER LOCATION ON FLOOR IMPACTED BY\nCURRENT SCOPE. SEE SHEET LS002 (DATA CONSOLIDATION GROUP TO COME UP\nWITH EXAMPLE SHEET).",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "NUMBER 2 - BUILDING INFORMATION\nBUILDING NAME GRIGGS HALL PODS A & B\nBUILDING # 03-541\nBUILDING ADDRESS 509 NIAGARA COURT, DULUTH, MN 55812\nPARCEL ID ---\nNUMBER 3 & 4 - CODE DATA BLOCK\nORIGINAL CONSTRUCTION DATE 1964\nADDITION Y/N N ADDITION DATE ---\nREMODEL Y/N Y REMODEL DATE 2025\nNUMBER 5 & 6 - OCCUPANCY CLASSIFICATIONS BOX\nBUILDING/SPACE PRIMARY USE DORMITORY\nBUILDING OCCUPANCY TYPE R-2\nDESCRIPTION FOR OCCUPANCY USE RESIDENTIAL\nSPACE UTILIZATION ---\nNUMBER 9 - ALLOWABLE AREA PER FLOOR (SECTION 506)\nBASIC ALLOWABLE AREA (FROM TABLE 503) UL\nFRONTAGE INCREASE F W\nI f = 100 P - 0.25 30 +\nOR USE\nN/A\nPerimeter with > 30'-0\" open\n0.25 X BASIC ALLOWABLE\nTotal perimeter\n+\nSPRINKLER INCREASE YES NO\nBASIC ALLOWABLE AREA x 0 (1 HOUR CONSTRUCTION SUBST)\nN/A\nBASIC ALLOWABLE AREA x 2 (MULTIPLE STORY BUILDING)\n=\nBASIC ALLOWABLE AREA x 3 (SINGLE STORY BUILDING)\nTOTAL ALLOWABLE AREA/FLOOR UL\nNUMBER 9 - ACTUAL AREA PER FLOOR\nFLOOR ACTUAL ALLOWABLE (FROM ABOVE)\nFIRST FLOOR 51,483 (7,265 TO BE RENO.) UL\nSECOND FLOOR 6,156 TO BE RENO. UL\nTHIRD FLOOR 6,156 TO BE RENO. UL\nNUMBER 9.1 - OCCUPANT LOAD OF BUILDING\nAREA LOCATION ACTUAL AREA SF/OCCUPANT OCCUPANTS\nFIRST FLOOR 8 DOUBLES; 1 TRIPLE\nPER POD\nSECOND FLOOR 8 DOUBLES; 1 TRIPLE\nPER POD\nTHIRD FLOOR 8 DOUBLES; 1 TRIPLE\nPER POD\n24 DOUBLES\n3 TRIPLES 57\nTOTAL BUILDING OCCUPANT LOAD 57\nNUMBER 10 AND 11 - BUILDING HEIGHT YES NO\nONE HOUR SPRINKLER SUBST ( TABLE 601, FOOTNOTE D OR E)\nEXTRA FLOOR/HEIGHT FOR SPRINKLER\nACTUAL HEIGHT ALLOWABLE HEIGHT\n(TABLE 503) GRADE PLANE ELEVATION 29'-4\" UL\n(TABLE 503) STORIES ABOVE GRADE PLANE 3 UL\nNUMBER 13 - RISK CATEGORY\nRELATES TO IBC 1704.6 2",
+    "PROJECT DESCRIPTION & BUILDING CODE INFORMATION\nPROJECT TYPE:THIS IS AN EXISTING BUILDING AND THE WORK IS AT THE INTERIOR\nUSE & OCCUPANT LOAD: NO CHANGE IN USE OR OCCUPANT LOAD. EXISTING \"RESIDENTIAL\" USE SHALL REMAIN\n(TABLE 1004.1.2 IBC)\nOCCUPANCY:NO CHANGE IN OCCUPANCY.\nCODE APPROACH: THIS IS AN LEVEL 2 ALTERATION UTILIZING THE WORK AREA METHOD OF THE 2020 MINNESOTA\nCONSERVATION CODE FOR EXISTING BUILDINGS. THE PROJECT IS A DORMITORY REMODEL PROJECT\nON 2020 MN ACCESSIBILITY CODE SECTION 305.7: APPLICABLE DUE TO PROJECT AREA INCLUDING THE PRIMARY\nUSE. FULL ACCESSIBLE ROUTE ASSESSMENT WAS COMPLETED FOR THIS PROJECT. CODE MINIMUM OF WORK\nINCLUDED, AS DETERMINED IN COLLABORATION WITH CODES AND DISABILITIES SERVICES.\nSCOPE OF WORK:\nTHE PROJECT CONSISTS OF NEW HVAC SYSTEMS FOR SELECT AREAS OF THE DORMITORY REFERRED TO AS\nGRIGGS HALL ON THE CAMPUS OF THE UNIVERSITY OF MINNESOTA DULUTH. ONE NEW AIR HANDLING UNIT\nWILL BE INSTALLED PER EACH POD ALONG WITH ELECTRICAL CONNECTIONS TO SAME. OTHER ROOFTOP\nMECHANICAL EQUIPMENT INCLUDES THE REPLACEMENT OF EXISTING ROOFTOP UNIT VENTILATORS WITH NEW\nROOF UNIT VENTILATORS IN THE SAME LOCATIONS. NEW PLUMBING FIXTURES IN THE BATHROOMS WILL BE\nINSTALLED THROUGHOUT THE PODS. THESE INCLUDE: NEW TOILET FIXTURES, NEW LAVATORIES AND NEW\nSHOWERHEADS. PIPING FOR PLUMBING THROUGHOUT SHALL BE PROVIDED, ALONG WITH VENTILATION AS\nREQUIRED. EXISTING LIGHT FIXTURES ACROSS ALL FLOORS WILL BE REPLACED WITH NEW. SOME SMALL\nADJUSTMENTS TO LIGHT FIXTURE LAYOUTS WILL BE REQUIRED IN THE TOILET STALL AND SHOWER AREAS FOR\nEACH BATHROOM IN ALL PODS. ARCHITECTURAL FINISHES ACROSS ALL PODS INCLUDES: THE REPAINTING OF\nWALLS, REPAINTING CEILINGS, REPLACEMENT OF EXISTING TILE WITH NEW CARPET, REPLACEMENT OF\nEXISTING RUBBER FLOORING IN STAIRWAYS WITH NEW RUBBER FLOORING, NEW RUBBER BASE, NEW TILING\nIN RESTROOMS, AND SOME NEW TILING ON SHOWER STALLS. THE MAJORITY OF DOORS, INCLUDING\nHARDWARE, WILL BE REPLACED THROUGHOUT THE PODS \u2013 AS INDICATED ON DRAWINGS. NEW SOLID\nSURFACE LAVATORY TOPS WILL REPLACE THE EXISTING LAVATORY TOPS. EXISTING SOFFITS IN BATHROOMS\nWILL BE REPLACED WITH NEW SOFFITS."
+   ],
+   "score": 2,
+   "n_rows": 24,
+   "sample": [
+    [
+     "",
+     "",
+     "SPRINKLER PROTECTION",
+     "YES-FULL/\nYES-PARTIAL\nNO",
+     "",
+     "SPRINKLER COVERAGE CHANGES\n/",
+     "",
+     "NONE",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "STANDPIPE PROTECTION",
+     "NO",
+     "STANDPIPE PROTECTION CHANGES",
+     "",
+     "",
+     "NONE",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "CHECK C",
+     "",
+     "",
+     "LASS",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "25-008 - UMD Griggs Hall AB - 100_ RFB Drawings _1_.pdf",
+   "sheet": 489,
+   "header_row": 1,
+   "headers": [
+    "CORE AREA DESCRIPTION",
+    "OCCUPANT\nDENSITY\n(# / 1000 SF)",
+    "KEYNOTE",
+    "AREA\n(SF)",
+    "",
+    "TOTAL\nNUMBER OF\nOCCUPANTS",
+    "'PEOPLE'\nOUTDOOR\nAIR RATE\n(CFM PER\nPERSON)",
+    "SUB\nTOTAL\n'PEOPLE'\nOUTDOOR\nAIRFLOW\n(CFM)",
+    "ADD'L\n'AREA'\nAIRFLOW\nRATE\n(CFM / SF)",
+    "KEYNOTE",
+    "AREA\n(SF)",
+    "",
+    "SUB\nTOTAL\n'AREA'\nOUTDOOR\nAIRFLOW\n(CFM)",
+    "TOTAL\nOUTDOOR\nAIRFLOW\n(CFM)",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "CORRIDORS",
+     "0",
+     "1",
+     "287",
+     "",
+     "0",
+     "0",
+     "0",
+     "0.06",
+     "1",
+     "287",
+     "",
+     "17",
+     "17",
+     "",
+     "0.8",
+     "22",
+     "",
+     "-",
+     "-",
+     "-",
+     "-",
+     ""
+    ],
+    [
+     "BATHROOM LAVS & WATER CLOSETS",
+     "0",
+     "2",
+     "107",
+     "",
+     "0",
+     "0",
+     "0",
+     "0",
+     "2",
+     "107",
+     "",
+     "0",
+     "0",
+     "",
+     "",
+     "0",
+     "",
+     "70",
+     "2",
+     "2",
+     "140",
+     ""
+    ],
+    [
+     "BATHROOM SHOWERS",
+     "0",
+     "3",
+     "44",
+     "",
+     "0",
+     "0",
+     "0",
+     "0",
+     "3",
+     "44",
+     "",
+     "0",
+     "0",
+     "",
+     "",
+     "0",
+     "",
+     "50",
+     "3",
+     "2",
+     "100",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "25-008 - UMD Griggs Hall AB - 100_ RFB Drawings _1_.pdf",
+   "sheet": 493,
+   "header_row": 0,
+   "headers": [
+    "TAG",
+    "LOCATIONS",
+    "SIZE (IN.)",
+    "MATERIAL",
+    "DESCRIPTION",
+    "FRAME",
+    "COLOR",
+    "MFR",
+    "MODEL",
+    "NC",
+    "ACCESSORIES",
+    "NOTES"
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "SR-1",
+     "CORRIDOR VENTILATION SUPPLY REGISTER",
+     "12x12",
+     "STEEL",
+     "STEEL SUPPLY REGISTER, DOUBLE DEFLECTION, 3/4'' BLADE SPACING, LONG FRONT\nBLADES, INDIVIDUALLY ADJUSTABLE BLADES, EXPOSED FASTENERS, 1.25'' WIDE BORDERS,\nSURFACE MOUNT TO WALL; VERIFY CLEARANCE BETWEEN SUPPLY REGISTER AND\nEXISTING FIRE SUPPRESSION PIPING PRIOR TO DUCTWORK FABRICATION",
+     "SURFACE MOUNT BORDER\nTYPE 1",
+     "WHITE",
+     "TITUS",
+     "300RL",
+     "16",
+     "1",
+     "PROVIDE 1/4'' DROP-IN ANCHOR (3/8'' DRILL BIT) AT EXISTING CMU BLOCK CORRIDOR WALL FOR MOUNTING SUPPLY\nREGISTERS AT OUT-OF-PARTITION FSD; SUPPLY REGISTERS SHALL BE REMOVABLE FOR ANNUAL FSD INSPECTION; PROVIDE\nDROP-IN ANCHOR AT ALL REGISTER MOUNTING HOLES; VERIFY NUMBER AND LOCATIONS OF MOUNTING HOLES; DRILL\nOUT REGISTER MOUNTING HOLE AS NECESSARY TO ACCEPT 1/4'' - 20 PHILLIPS HEAD MACHINE SCREW AT EACH\nMOUNTING HOLE AND DROP-IN ANCHOR; SIMPSON STRONG-TIE DIAB25 OR APPROVED EQUAL; PROVIDE PRIMER AND\nPAINT AT ALL 1/4'' - 20 SCREWS TO MATCH SUPPLY REGISTER FINISH (WHITE)"
+    ],
+    [
+     "SR-2",
+     "CORRIDOR VENTILATION SUPPLY REGISTER",
+     "12x6",
+     "STEEL",
+     "(SAME AS SR-1)",
+     "SURFACE MOUNT BORDER\nTYPE 1",
+     "WHITE",
+     "TITUS",
+     "300RL",
+     "34",
+     "1",
+     "PROVIDE 1/4'' DROP-IN ANCHOR (3/8'' DRILL BIT) AT EXISTING CMU BLOCK CORRIDOR WALL FOR MOUNTING SUPPLY\nREGISTERS; PROVIDE DROP-IN ANCHOR AT ALL REGISTER MOUNTING HOLES; VERIFY NUMBER AND LOCATIONS OF\nMOUNTING HOLES; DRILL OUT REGISTER MOUNTING HOLE AS NECESSARY TO ACCEPT 1/4'' - 20 PHILLIPS HEAD MACHINE\nSCREW AT EACH MOUNTING HOLE AND DROP-IN ANCHOR; SIMPSON STRONG-TIE DIAB25 OR APPROVED EQUAL; PROVIDE\nPRIMER AND PAINT AT ALL 1/4'' - 20 MACHINE SCREWS TO MATCH SUPPLY REGISTER FINISH (WHITE)"
+    ],
+    [
+     "RG-1",
+     "CORRIDOR VENTILATION RETURN GRILLE AT 2ND AND\n3RD FLOORS",
+     "12x12",
+     "STEEL",
+     "TRANSFER GRILLE/ RETURN GRILLE WITH SINGLE DEFLECTION STEEL BLADES, 35 DEG.\nFIXED DEFLECTION, 3/4'' BLADE SPACING, EXPOSED FASTENERS, 1.25'' WIDE BORDER,\nSURFACE MOUNT TO WALL",
+     "SURFACE MOUNT BORDER\nTYPE 1",
+     "WHITE",
+     "TITUS",
+     "350RL",
+     "10",
+     "1",
+     "- AT 2ND AND 3RD FLOORS: PROVIDE 1/4'' DROP-IN ANCHOR (3/8'' DRILL BIT) AT NEW CMU BLOCK WALL FOR MOUNTING\nRETURN GRILLES; PROVIDE DROP-IN ANCHOR AT ALL REGISTER MOUNTING HOLES; VERIFY NUMBER AND LOCATIONS OF\nMOUNTING HOLES; DRILL OUT REGISTER MOUNTING HOLE AS NECESSARY TO ACCEPT 1/4'' - 20 PHILLIPS HEAD MACHINE\nSCREW AT EACH MOUNTING HOLE AND DROP-IN ANCHOR; SIMPSON STRONG-TIE DIAB25 OR APPROVED EQUAL; PROVIDE\nPRIMER AND PAINT AT ALL 1/4'' - 20 MACHINE SCREWS TO MATCH RETURN REGISTER FINISH (WHITE)"
+    ]
+   ]
+  },
+  {
+   "source": "25-008 - UMD Griggs Hall AB - 100_ RFB Drawings _1_.pdf",
+   "sheet": 505,
+   "header_row": 0,
+   "headers": [
+    "tvr.42R_PEM\nBA\nsdoP\n-\nsggirG\nNMU\n000.3881000.52/LKBA\nsdoP\n-\nsggirG\nNMU//:scoD\nksedotuA",
+    "ELECTRICAL ABBREVIATIONS",
+    "ELECTRICAL SYMBOL LEGEND",
+    "",
+    "",
+    "ELECTRICAL GENERAL NOTES\nA Conductors operating at 50 volts or greater shall be in raceway. Raceway within the structure\nabove the floor slab shall be metal. Raceway below the floor slab and underground raceway\noutside the structure shall be PVC.\nB Low voltage cables or conductors operating at less than 50 volts shall be in metal raceway where\ninstalled within walls or inaccessible spaces. Low voltage cables may be run in cable tray where\nnoted. Low voltage cables may be run in cable support hooks above accessible ceilings where\nnoted. Low voltage cable shall be plenum rated in plenum spaces.\nB Low voltage cables or conductors operating at less than 50 volts shall be in metal raceway. Low\nvoltage cables may be run in cable tray where noted. Low voltage cable shall be plenum rated in\nplenum spaces.\nC Coordinate locations of devices with architectural elevations and details. Architectural elevations\nand details take precedence over locations shown on electrical drawings.\nD Provide cable or conduit and wire as required to achieve circuiting shown. Size conductors per\nNEC ampacity and wire fill criteria. Provide dedicated neutral and ground conductors for circuiting,\nunless noted otherwise. Increase branch circuit and/or feeder conductors including equipment\ngrounding conductors proportionally for no more than 3% voltage drop on branch circuits and 2%\non feeders per energy code.\nE It is the responsibility of this contractor to coordinate installation of electrical systems and those\nrequiring electrical connections to maintain NEC required clearances, included but not limited to\nareas above accessible ceilings.\nF Coordinate with other trades for proper installation of equipment. Consult the drawings of other\ntrades or crafts to avoid conflicts with equipment, etc. Conflicts shall be resolved prior to rough-in\nand at no additional cost to the owner.\nG Leave the site clean and ready for occupancy. Remove dirt, debris, empty cartons, tools, conduit\nand wire scraps, and miscellaneous spare equipment and materials used in this division of the\nwork during construction. Components shall be free of dust, grit, and foreign materials and left as\nnew before final acceptance of work.\nH The symbols and abbreviations shown on this sheet may or may not be used in this set of\ndrawings.\nI Perform work to comply with the standard practices for good workmanship published by National\nElectrical Contractors Association (NECA). Comply with the latest enforced edition of the National\nElectrical Code (NEC), local codes, amendments, and ordinances.\nJ Field coordinate final mechanical and equipment locations along with connection requirements\nand control wiring prior to rough-in. Adjust corresponding circuit breaker ratings and branch\ncircuiting accordingly.\nK Electrical work shall be performed under the supervision of a licensed master electrician. Procure\npermits and licenses and pay fees associated with this work.\nL Materials furnished for this project shall be new, commercial grade, free of defects, and listed by a\nnationally recognized testing laboratory unless noted otherwise.\nM Provide complete operation & maintenance manual including approved submittal drawings,\nwarranty information for product supplied, and manufactures operation and maintenance\ninstructions.\nN The contractor is responsible for making final wiring terminations to pre-installed receptacles in\noffice furniture. Contractor is responsible for wiring and installing voice/data devices in office\nfurniture. Coordinate placement of devices with furniture lay-out.\nO Security system to be provided under separate contract. It is the responsibility of this contractor to\nprovide conduit provisions, back boxes, rough-ins, sleeves and power to head end equipment for\nexact requirements prior to start of work.\nP Conduit and wire shall not be installed below floor slab unless indicated on plan by dashed\nconduit.\nQ Contractor shall be responsible for wiring electrical items shown on drawings except for items\nlisted in note \u2018R\u2019 below.\nR TV outlets, volume controls, nurse call dome lights, nurse call devices, telephone outlets, data\noutlets, and fire alarm devices shall consist of a back box with conduit stubbed above the\naccessible ceiling, see stub up detail. Verify size of back box required with device to be installed.\nLocate back boxes 6\" from adjacent power receptacle intended for computer use.\nS Furnish and install conduit from back boxes for the following devices into the accessible ceiling\nspace in the corridor, unless noted otherwise:\n1/2\"C TV outlets\n1/2\"C Volume controls\n1/2\"C Door security devices (card readers, door strikes etc..)\n1/2\"C Nurse call dome lights\n3/4\"C Nurse call devices\n3/4\"C Telephone outlets\n3/4\"C Information outlets\n3/4\"C Fire alarm devices",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 21,
+   "sample": [
+    [
+     "",
+     "1P 1 Pole (2P, 3P, 4P, ETC.) MCB Main Circuit Breaker\nA, Amp Ampere MCC Motor Control Center\nAC Above Counter MDC Main Distribution Center\nACLG Above Ceiling MDP Main Distribution Panel\nADO Automatic Door Opener MFR Manufacturer\nAF Amp Frame MFS Main Fused Disconnect Switch\nAFF Above Finished Floor MH Manhole\nAFG Above Finished Grade MIC Microphone\nAFI Arc Fault Circuit MIN Minimum\nInterrupter MISC Miscellaneous\nAHU Air Handling Unit MLO Main Lugs Only\nAL Aluminum MMS Manual Motor Starter\nALT Alternate MOA Multioutlet Assembly\nAMP Ampere MSP Motor Starter Panelboard\nAMPL Amplifier MSBD Main Switchboard\nANNUN Annunciator MSS Motor Starter Switch\nAPPROX Approximately MT Mount\nAQ-STATAquastat MT.C Empty Conduit\nARCH Architect, Architectural MTS Manual Transfer Switch\nAS Amp Switch MTR Motor, Motorized\nAT Amp Trip N.C. Normally Closed\nATS Automatic Transfer Switch NEC National Electrical Code\nAUTO Automatic NEMA National Electrical\nAUX Auxiliary Manufacturer's Association\nAV Audio Visual NFDS Non-Fused Safety Disconnect\nAWG American Wire Gauge Switch\nBATT Battery NIC Not In Contract\nBD Board NL Night Light\nBLDG Building N.O. Normally Open\nBMS Building Management System NPF Normal Power Factor\nC Conduit NTS Not To Scale\nCAB Cabinet OC On Center\nCAT Catalog OH Overhead\nCATV Cable Television OL Overloads\nCB Circuit Breaker PA Public Address\nCCTV Closed Circuit Television PB Pull Box Or Pushbutton\nCKT Circuit PE Pneumatic Electric\nCLG Ceiling PED Pedestal\nCOMB Combination PF Power Factor\nCMPR Compressor PH Phase\nCONN Connection PIV Post Indicating Valve\nCONST Construction PNL Panel\nCONT Continuation Or Continuous PP Power Pole\nCONTR Contractor PR Pair\nCONV Convector PRI Primary\nCP Circulating Pump PROJ Projection\nCRT Cathode-Ray Tube PRV Power Roof Ventilator\nCT Current Transformer PT Potential Transformer\nCTR Center PVC Polyvinyl Chloride (Conduit)\nCU Copper PWR Power\nDCP Domestic Water Circulating Pump QUAN Quantity\nDEPT Department RCPT Receptacle\nDET Detail REQD Required\nDIA Diameter RM Room\nDISC Disconnect RSC Rigid Steel Conduit\nDIST Distribution RTU Roof Top Unit\nDN Down SC Surface Conduit\nDPR Damper SEC Secondary\nDS Safety Disconnect Switch SHT Sheet\nDT Double Throw SIM Similar\nDWG Drawing SLD Single-Line Diagram\nEC Electrical Contractor S/N Solid Neutral\nELEC Electric, Electrical SPEC Specification\nELEV Elevator SPKR Speaker\nELU Emergency Lighting Unit SP Spare\nEM Emergency SPP Single-Point Power\nEMS Energy Management System SR Surface Raceway\nEMT Electrical Metallic Tubing SS Stainless Steel\nEP Electric Pneumatic SSW Selector Switch\nEQUIP Equipment S/S Stop/Start Pushbuttons\nEWC Electric Water Cooler STA Station\nEXIST Existing STD Standard\nEXH Exhaust SURF Surface Mounted\nEXP Explosion Proof SW Switch\nFA Fire Alarm SWBD Switchboard\nFABP Fire Alarm Booster Power SYM Symmetrical\nSupply Panel SYS System\nFACP Fire Alarm Control Panel TEL Telephone\nFCU Fan Coil Unit TERM Terminal\nFIXT Fixture TL Twist Lock\nFLR Floor TR Tamper Resistant\nFLUOR Fluorescent T-STAT Thermostat\nFU Fuse TTC Telephone Terminal Cabinet\nFUDS Fused Safety Disconnect Switch TV Television\nGA Gauge TVTC Television Terminal Cabinet\nGAL Gallon TYP Typical\nGALV Galvanized UC Under Counter\nGC General Contractor UE Underground Electrical\nGEN Generator UG Underground\nGFI Ground Fault Circuit Interrupter UH Unit Heater\nGFP Ground Fault Protector UT Underground Telephone\nGND Ground UTIL Utility\nGRS Galvanized Rigid Steel (Conduit) UV Ultraviolet\nGYP BD Gypsum Board V Volt\nHOA Hands-Off-Automatic Switch VA Volt-Amperes\nHORIZ Horizontal VDT Video Display Terminal\nHP Horsepower VERT Vertical\nHPF High Power Factor VFD Variable Frequency Drive\nHT Height VOL Volume\nHTG Heating W Watt\nHTR Heater W/ With\nHV High Voltage WG Wire Guard\nHVAC Heating, Ventilating And Air WH Water Heater\nConditioning W/O Without\nIC Interrupting Capacity WP Weatherproof\nIG Isolated Ground XFMR Transformer\nIMC Intermediate Metal Conduit XFR Transfer\nINCAND Incandescent\nIR Infrared\nI/W Interlock With\nJ-BOX Junction Box \u2220 Angle\nKV Kilovolt @ At\nKVA Kilovolt-Ampere \u25b2 Delta\nKVAR Kilovolt-Ampere Reactive ' Feet\nKW Kilowatt \" Inches\nKWH Kilowatt Hour # Number\nLOC Locate Or Location \u00d8 Phase\nLT Light C Center Line\nLTG Lighting P Plate\nLTNG Lightning\nLV Low Voltage\nMAX Maximum\nMAG.S Magnetic Starter\nM/C Momentary Contact\nMC Mechanical Contractor",
+     "Lighting Symbols\nLighting Fixtures, Typical, Rectangular\n(Various Symbols)\nFilled circles indicate recessed.\nOpen circles indicate surface-mounted.\nDiagonal line indicates lensed.\nOuter dots indicate suspended.\nLighting Fixtures, Typical, Round\n(Various Symbols)\nCenter dot indicates pendant.\nDiagonal line indicates lensed.\nChevron indicates wall wash.\nWall-mounted fixtures, Typical\n(Various Symbols)\nStrip Fixture\nDirectional Light, Track Light, Flood Light\nLinear Light, Tape Light\nEmergency Lighting Unit, Ceiling-Mounted,\nIntegral Battery\nEmergency Lighting Unit, Ceiling-Mounted,\nRemote Battery\nEmergency Lighting Unit, Wall-Mounted,\nIntegral Battery\nEmergency Lighting Unit, Wall-Mounted,\nRemote Battery\nExit Light, Ceiling-Mounted.\nShading and arrows indicate faces and\ndirectional chevrons.\nExit Light, Wall-Mounted.\nShading and arrows indicate faces and\ndirectional chevrons.\nExit/ELU Combo\nPole/Area Lights\nPost-Top Area Light\nBollard Light\nDiagonal hatch indicates light on a critical\ncircuit.\nSolid hatch indicates light on an emergency or\nlife safety circuit.\nSingle-Pole Switch\nTwo-Pole Switch\nThree-Pole Switch\nSwitch Modifiers:\n3: 3-Way OS: Occupancy Sensor\n4: 4-Way VS: Vacancy Sensor\nK: Keyed AC: Above-Counter\nD: Dimming LV: Low-Voltage\nT: Timer M: Motor-Rated\nLighting Contactor\nLC Lighting Control Panel\nOS Occupancy Sensor\nDL Daylight Harvesting Sensor\nLighting Tags\nTop Value: Fixture Type ID (Underlined)\nA Bottom Value,\nMDP-A1a Lowercase Letter: Switch ID\nBottom Value, Number(s): Circuit Number\nBottom Value, Uppercase Letter(s): Panel ID\nAbsence of a switch designation on a lighting fixture indicates\nfixture is controlled by the only switch in the space. An \"x\" in place\nof the switch designation indicates unswitched.\nSwitch ID indicated by a lowercase letter. Switch IDs are\na\nunique per space. A switch with an ID \"a\" controls all\ndevices within the space in which it is located tagged with\na\nOS \"a\". A switch without a tagged ID controls all lighting\nfixtures within a space. ID tags may be used on control\na\ndevices other than switches, such as occupancy sensors or\ncontactors.\nGrounding and Lightning Protection Symbols\nGround Rod\nGround Rod with Test Well\nStatic Ground Receptacle\nLightning Protection Air Terminal\nLightning Protection Conductor Splice",
+     "Power Symbols\ngnilieC\nllaW roolF\nSimplex Receptacle\nDuplex Receptacle\nQuadruplex Receptacle\nSpecial Receptacle, Type as Indicated\nReceptacle Modifiers:\n##\": Height AFF OC\nAC: Above Counter\nGFI: Ground-Fault Circuit Interrupter\nWP: Weatherproof In-Use Cover\nHalf shading indicates split (typically switched)\nOutside shading indicates emergency circuit\nCenter shading indicates isolated ground\nSingle-Pole Switch\nTwo-Pole Switch\nThree-Pole Switch\nSwitch Modifiers:\nK: Keyed\nT: Timer\nAC: Above-Counter\nM: Motor-Rated\nMultioutlet Assembly\nFilled squares indicate 120V outlet\nOpen squares indicate with USB\nCord Reel, Device Varies\nJ Drop Cord, Device Varies\nJ Junction Box\nF1 Floor Box, see schedule for type\nEmergency Power Off\nDO Door Opener Push Plate\nM Power Meter\nSafety Switch, Fused\nSafety Switch, Unfused\nMotor Starter\nCombination Starter/Disconnect\nContactor\nPower Device and Equipment Tags\nElectrical DeviceTags: Uppercase letter(s) indicates\nPanel ID and circuit number. Lowercase letter C1a\nindicates designation of controlling switch (where\napplicable).\nEquipment Tags: Equipment ID is indicated by an\nunderlined tag adjacent to the equipment. See the\nXX-1\nequipment connection schedule for description,\nelectrical requirements, and panel and circuit\nnumber. Symbols/graphic appearance of equipment\nvaries.\nWiring\nSolid, arced lines connecting equipment, devices, or\nfixtures indicate unswitched power circuiting. Wires are\nonly intended to indicate to what circuit devices are\nconnected. Actual connections, circuit routing,\ninstallation, junction boxes, etc. shall be field-\ndetermined by the contractor.\nDashed, arced lines connecting equipment, devices, or\nfixtures indicate switched power.\nHome run to branch circuit panelboard. The equipment\nname and circuit number(s) are indicated, separated by\na hyphen. Homeruns are only intended to indicate panel\nand circuit number. Actual homerun location shall be\nfield-determined by the contractor.\nPower Distribution Equipment\n)A(PDM )B(A1PH )C(A1PL\nSB1(S)\nHatched fill indicates distribution panel or switchboard.\nSolid fill indicates branch panel or load center.\nDashed box indicates code-required clearance (width and depth).\nDoor indicates front of recessed panel.\nPanelboards are assigned an abbreviated indicator (or Panel\nID) for use with circuit numbers. Panel ID is listed within the\npanel schedule and in the panel abbreviation schedule.\nEquipment is tagged with Panel Name and with Panel ID in\nparentheses. Panel ID is intended as a design documentation\naid only. Do not include Panel ID in field-applied circuit\ndirectories or labels.\nDevices and fixtures are tagged with Panel ID and circuit\nnumber. For example, a device tagged with \"A1\" indicates the\ndevice is circuited to panel designated \"A,\" circuit number 1. The\npanel schedule circuit number contains both the panel\nabbreviation and the circuit number.\nTransformer: Typically transformer names begin with\nT1 or contain the letter \"T\". See Single-Line Diagram for\ndescription and requirements.",
+     "Telecom Symbols\ngnilieC\nllaW roolF\nData Outlet\nTelephone Outlet\nData/Telephone Outlet\nOutlet Modifiers:\n##\": Height AFF OC\nAC: Above Counter\nWireless Access Point\nTV TV Outlet\nNurse Call Symbols\nNurse Call Corridor Light\nN\nNumber of lights as indicated\nN Nurse Call Device\nB: Code Blue\nD: Duty Station\nE: Emergency\nP: Patient Call\nS: Staff\nNurse Call Control Unit\nNCAP: Nurse Call Annunciator Panel\nNCHS: Nurse Call Host Controller\nNCPA: Nurse Call Power Supply\nNCTC: Nurse Call Terminal Cabinet\nNCUPS: Uninterruptible Power Supply\nSecurity Symbols\nSecurity Camera\nPTZ: Pan/Tilt/Zoom\nCR Card Reader\nCK Card Reader with Keypad\nCC\nTV Closed Circuit TV Outlet\nDC Door Contact\nES Electric Strike\nIC Intercom\nML Magnetic Lock\nRX Request to Exit Button\nREX Request to Exit Sensor\nMD Motion Detector\nXXX Security Control Unit\nSCP: Security Control Panel\nSPS: Security Power Supply Unit\nConstruction Phasing\n(Typical All Symbols and Equipment)\nExisting to Remain\nExisting to Be Demolished\nNew\nExisting to Be Demolished\nMiscellaneous\nArea Not in Contract\n# Keynote\nCallout:\nTop Value: Detail Number on Sheet\nBottom Value: Sheet Number of Detail\nRoom\nRoom Name and Number\n1\nFire Alarm Symbols\nF HORN, WALL\nSTROBE, WALL, CANDELA AS INDICATED\nHORN/STROBE, WALL, CANDELA AS INDICATED\nRTS\nREMOTE LED INDICATOR W/ TEST SWITCH\nSMOKE DETECTOR\nDUCT SMOKE DETECTOR\nS SMOKE DAMPER\nXXX ADDRESSABLE MODULE\nAIM: ADDRESSABLE INPUT MODULE\nAOM:ADDRESSABLE OUTPUT CONTROL\nMODULE\nAIO: ADDRESSABLE INPUT/OUTPUT MODULE\nXX SUPERVISORY OR INTERFACE DEVICE\nR: NON-ADDRESSABLE RELAY",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Electrical Remodel Notes\nA Branch circuiting indicated on plans and schedules is based upon existing plans and site\nobservation, contractor to field verify.\nB Provide typed circuit board directories to reflect as-constructed conditions. Field verify during\nconstruction and revise accordingly.\nC Provide necessary demolition to facilitate new construction work associated with this project.\nCoordinate outages with owner minimum 72 hours in advance. Owner retains right to first\nsalvage. Provide disposal of removed material. Maintain circuit continuity as required.\nD It is the intent of these diagrammatic drawings to provide the project scope including, but not\nlimited to phased demolition and new construction. Existing information indicated on these plans\ndoes not represent all existing conditions. This contractor shall become familiar with existing\nconditions, scope of phasing, and project intent prior to bid submission. No extra will be allowed\ndue to the lack of knowledge of existing conditions to coordinate relocation of electrical systems\nas required.\nE Provide cutting, patching, and restoration of finishes necessary for work surfaces damaged by this\nwork and spaces around conduits passing through floors and walls shall be neatly patched and\nfinished to match new/existing. Structural members shall not be cut or penetrated in any manner.\nThe spaces around the conduits shall be sealed to prevent entrance of moisture. Provide fire\nstopping per UL approved methods.\nF Remove abandoned wiring completely. At contractors option, utilize existing abandoned raceway\nto extent available. Exposed abandoned raceway shall be removed.\nG Coordinate work in phases with general contractor and owner to facilitate demolition and new\nconstruction.\nH Remove electrical related equipment (e.g., junction boxes, receptacles, switches, devices, etc...)\naffected/abandoned as a result of demolition and new construction.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "ELECTRICAL SHEET LIST",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "25-008 - UMD Griggs Hall AB - 100_ RFB Drawings _1_.pdf",
+   "sheet": 623,
+   "header_row": 3,
+   "headers": [
+    "RC",
+    "POWER/RELAY PACK",
+    "NETWORKED POWER/RELAY PACK, OCCUPANCY CONTROLLED, ON/OFF.\nINDOOR USE ONLY, UL AND CUL LISTED, FIVE YEAR WARRANTY.",
+    "",
+    "BASIS-OF-DESIGN: ACUITY nLIGHT MODEL: NPP16 EFP\nSUBJECT TO COMPLIANCE WITH REQUIREMENTS\nLISTED IN DESCRIPTION."
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "ELCU",
+     "EMERGENCY POWER/RELAY PACK",
+     "NETWORKED EMERGENCY POWER/RELAY PACK, OCCUPANCY\nCONTROLLED, ON/OFF. UL924 LISTED, NORMAL POWER SENSE.\nINDOOR USE ONLY, UL AND CUL LISTED, FIVE YEAR WARRANTY.",
+     "",
+     "BASIS-OF-DESIGN: ACUITY nLIGHT MODEL: NPP16 ER\nEFP SUBJECT TO COMPLIANCE WITH REQUIREMENTS\nLISTED IN DESCRIPTION."
+    ],
+    [
+     "AR",
+     "AUX RELAY PACK",
+     "NETWORKED AUXILIARY RELAY PACK. INDOOR USE ONLY, UL AND CUL\nLISTED, FIVE YEAR WARRANTY.",
+     "",
+     "BASIS-OF-DESIGN: ACUITY nLIGHT MODEL: NAR 40\nSUBJECT TO COMPLIANCE WITH REQUIREMENTS\nLISTED IN DESCRIPTION."
+    ],
+    [
+     "S\nLV",
+     "2-BUTTON WALLSWITCH",
+     "DIGITAL SWITCH WITH ON, OFF CONTROL.",
+     "WHITE",
+     "BASIS-OF-DESIGN: ACUITY nLIGHT, MODEL: nPOD-KEY\nSUBJECT TO COMPLIANCE WITH REQUIREMENTS\nLISTED IN DESCRIPTION."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 61.0,
+  "attachment_fetches": 6,
+  "attachment_seconds": 14.4,
+  "attachment_bytes": 32305375,
+  "max_fetch_seconds": 7.36,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:27:19.870030+00:00",
+ "extract_attempts": 1,
+ "lines_total": 20,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-minnesota-03-541-27-4225/coverage.json"
+}

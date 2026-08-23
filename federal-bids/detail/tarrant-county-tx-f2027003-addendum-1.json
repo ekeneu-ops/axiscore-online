@@ -1,0 +1,175 @@
+{
+ "bid_id": "tarrant-county-tx-f2027003-addendum-1",
+ "bid_number": "F2027003 Addendum 1",
+ "agency": "Tarrant County, TX",
+ "src": "Open",
+ "title": "Annual Purchase for Maintenance of Forward Looking Infrared Video Management System",
+ "close": "8/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "FLIR Platinum Support Service Agreement (SSA) \u2014 Annual Fee. Covers all firmware and software upgrades (major and minor releases), prioritized technical support, remote assistance, remote health audit, FLIR representative on-site evaluation, and Single Point of Contact for the current installed system size (total channels and integrations). Pricing shall be firm through the twelve (12) month term and shall not increase if additional cameras / integrations are added during the SSA period per Section II.D of the Technical Specifications.",
+   "qty": "12",
+   "uom": "Monthly LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 FLIR Platinum Support Service Agreement (SSA) \u2014 Annual Fee. Covers all firmware and software upgrades (major and minor releases), prioritized technical support, remote assistance, remote health audit, FLIR representative on-site evaluation, and Single Point of Contact for the current installed system size (total channels and integrations). Pricing shall be firm through the twelve (12) month term and shall not increase if additional cameras / integrations are added during the SSA period per Section II.D of the Technical Specifications. 12 Monthly LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Weekly On-Site Technician (per Section IV.C). Contractor shall provide one (1) FLIR Latitude Enterprise certified technician on-site one (1) day per week for eight (8) hours per day to perform full-system audit to verify live camera feeds, verify recording per FLIR settings, and perform server health checks on all FLIR servers. Quote as annual lump sum inclusive of all labor, travel, etc.",
+   "qty": "1",
+   "uom": "Annual LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Weekly On-Site Technician (per Section IV.C). Contractor shall provide one (1) FLIR Latitude Enterprise certified technician on-site one (1) day per week for eight (8) hours per day to perform full-system audit to verify live camera feeds, verify recording per FLIR settings, and perform server health checks on all FLIR servers. Quote as annual lump sum inclusive of all labor, travel, etc. 1 Annual LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Quarterly Preventive Maintenance Inspections & Written Reports (per Section IV.E). Four (4) PM inspections per year covering all equipment, software, and labor hours, with written reports delivered the first week of January, April, July, and October. Quote as annual lump sum for all four inspections and reports combined.",
+   "qty": "1",
+   "uom": "Annual LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Quarterly Preventive Maintenance Inspections & Written Reports (per Section IV.E). Four (4) PM inspections per year covering all equipment, software, and labor hours, with written reports delivered the first week of January, April, July, and October. Quote as annual lump sum for all four inspections and reports combined. 1 Annual LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Service Call Labor \u2014 Regular Business Hours. Fully-loaded hourly rate for on-site or remote service calls performed Monday through Friday, 8:00 a.m. \u2013 5:00 p.m., beyond the weekly scheduled technician hours in Line 1.2. Rate shall include all labor, travel, and trip fees. Billed in 1/4-hour increments (per Section XIII.J).",
+   "qty": "40",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Service Call Labor \u2014 Regular Business Hours. Fully-loaded hourly rate for on-site or remote service calls performed Monday through Friday, 8:00 a.m. \u2013 5:00 p.m., beyond the weekly scheduled technician hours in Line 1.2. Rate shall include all labor, travel, and trip fees. Billed in 1/4-hour increments (per Section XIII.J). 40 Hour No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Service Call Labor \u2014 Non-Business Hours. Fully-loaded hourly rate for on-site or remote service calls performed weekdays 5:01 p.m. \u2013 7:59 a.m. and all day Saturdays and Sundays. Same \"fully-loaded\" requirement as Line 2.1.",
+   "qty": "1",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Service Call Labor \u2014 Non-Business Hours. Fully-loaded hourly rate for on-site or remote service calls performed weekdays 5:01 p.m. \u2013 7:59 a.m. and all day Saturdays and Sundays. Same \"fully-loaded\" requirement as Line 2.1. 1 Hour No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "Service Call Labor \u2014 Holidays. Fully-loaded hourly rate for on-site or remote service calls performed on any of the thirteen (13) Tarrant County recognized holidays (per Section VII.C). Same \"fully-loaded\" requirement as Line 2.1.",
+   "qty": "1",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 Service Call Labor \u2014 Holidays. Fully-loaded hourly rate for on-site or remote service calls performed on any of the thirteen (13) Tarrant County recognized holidays (per Section VII.C). Same \"fully-loaded\" requirement as Line 2.1. 1 Hour No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "3.1",
+   "desc": "Bidder shall enter the not to exceed dollar amount that will be added to the SSA annual fee at each renewal for each channel or integration added to the system during the previous contract year (see Section XII, C & D).",
+   "qty": "22",
+   "uom": "Per Channel or Integration",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.1 Bidder shall enter the not to exceed dollar amount that will be added to the SSA annual fee at each renewal for each channel or integration added to the system during the previous contract year (see Section XII, C & D). 22 Per Channel or Integration No Response"
+  }
+ ],
+ "attachments_saved": [
+  "TC_General_Terms_and_Conditions091724.pdf",
+  "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+  "TC_HUB_Policy053123.pdf",
+  "F2027003 - Technical Specifications.pdf",
+  "F2027003 - Equipment Rental Price List _Bidder Submittal_.docx",
+  "F2027003 - Camera List.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "TC_General_Terms_and_Conditions091724.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_HUB_Policy053123.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "F2027003 - Technical Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "F2027003 - Equipment Rental Price List _Bidder Submittal_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "F2027003 - Camera List.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.7,
+  "attachment_fetches": 6,
+  "attachment_seconds": 2.2,
+  "attachment_bytes": 675886,
+  "max_fetch_seconds": 0.43,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:40:14.781608+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/tarrant-county-tx-f2027003-addendum-1/coverage.json"
+}

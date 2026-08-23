@@ -1,0 +1,426 @@
+{
+ "bid_id": "city-of-allen-tx-2026-6-60-addendum-1",
+ "bid_number": "2026-6-60 Addendum 1",
+ "agency": "City of Allen, TX",
+ "src": "Open",
+ "title": "Bridge Repair Phase 3, Bethany Dr and Watters Creek Bridge Repair",
+ "close": "8/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:bridge",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 80,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "LEGAL AD 2026-6-60.pdf",
+  "IFB 2026-6-60.pdf",
+  "BID NO 2026-6-60 SECTION VI - Special Conditions _ Drawings.pdf",
+  "Bid_2026-6-60_ Section IV Bid Schedule.pdf",
+  "Bid_2026-6-60_ Section IV Bid Schedule.xlsx",
+  "BID ENDORSEMENT.pdf",
+  "Exhibit 1 - Contractor Insurance Requirements _ Agreement.pdf",
+  "Exhibit 2 - Affidavit of No Prohibited Interest.pdf",
+  "Exhibit 3 - Conflict of Interest.pdf",
+  "Exhibit 4 - Bidders Qualifications Statement _ Supplemental Information.pdf",
+  "Exhibit 5 - Schedule of Subcontractors.pdf",
+  "Exhibit 6 - Work Force Composition.pdf",
+  "Exhibit 7 - Affidavit of Bills Paid.pdf",
+  "Exhibit 8 - Standard_Form_of_Agreement.pdf",
+  "Exhibit 9A - Bid Bond.pdf",
+  "Exhibit 9B - Maintenance Bond.pdf",
+  "Exhibit 9C - Payment Bond.pdf",
+  "Exhibit 9D - Performance Bond.pdf",
+  "Addendum 1.pdf",
+  "Attendance report 2026-6-60.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "LEGAL AD 2026-6-60.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "IFB 2026-6-60.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID NO 2026-6-60 SECTION VI - Special Conditions _ Drawings.pdf",
+   "kind": "pdf",
+   "tables": 49,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid_2026-6-60_ Section IV Bid Schedule.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "Bid_2026-6-60_ Section IV Bid Schedule.xlsx",
+   "kind": "xlsx",
+   "tables": 3,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "BID ENDORSEMENT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 1 - Contractor Insurance Requirements _ Agreement.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 2 - Affidavit of No Prohibited Interest.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 3 - Conflict of Interest.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 4 - Bidders Qualifications Statement _ Supplemental Information.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 5 - Schedule of Subcontractors.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 6 - Work Force Composition.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 7 - Affidavit of Bills Paid.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 8 - Standard_Form_of_Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 9A - Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 9B - Maintenance Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 9C - Payment Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 9D - Performance Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Attendance report 2026-6-60.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Bid_2026-6-60_ Section IV Bid Schedule.pdf",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "ITEM\nNO.",
+    "EST\nQNTY",
+    "UNIT",
+    "DESCRIPTION AND PRICE IN WORDS",
+    "UNIT PRICE IN\nFIGURES",
+    "EXTENDED\nAMOUNT"
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "1",
+     "1",
+     "LS",
+     "MOBILIZATION, Bonds, Insurance and all Permitting (entire project),\ncomplete, for the Lump Sum of, (NTE 5%)\nDollars\n& Cents Lump Sum",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "1",
+     "LS",
+     "Provide Construction Material Testing of subgrade and concrete as\nspecified in the plans including all incidentials utilizing City approved\nfirm for the Lump Sum of\nDollars\n& Cents Lump Sum",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "2",
+     "EA",
+     "PROJECT SIGN, Furnish & Install per City standards.\nDollars\n& Cents Per Each",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Bid_2026-6-60_ Section IV Bid Schedule.pdf",
+   "sheet": 2,
+   "header_row": 4,
+   "headers": [
+    "21",
+    "1",
+    "EA",
+    "FURNISH & INSTALL 10' RECESSED CURB INLET TOP, includes\nthe furnishing and installation of the top two feet of curb inlet over an\nexisting curb inlet structure. The new inlet shall be cast-in-place. This\nitem shall include all labor, material, equipment, tools, testing,\npreparation, and incidentals necessary to complete the work.\nDollars\n& Cents Per Each",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "22",
+     "1",
+     "EA",
+     "FURNISH & INSTALL COLUMN WITH STONE FACADE, per\nstandards and details included in the plans. The column and stone shall\nmatch existing conditions. This item shall include all labor, material,\nequipment, tools, testing, preparation, and incidentals necessary to\ncomplete the work.\nDollars\n& Cents Per Each",
+     "",
+     ""
+    ],
+    [
+     "23",
+     "39",
+     "LF",
+     "FURNISH & INSTALL TXDOT TYPE T551 TRAFFIC RAIL, per\nTxDOT standards and details.\nDollars\n& Cents Per Linear Foot",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Bid_2026-6-60_ Section IV Bid Schedule.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "ITEM\nNO.",
+    "EST\nQNTY",
+    "UNIT",
+    "DESCRIPTION AND PRICE IN WORDS",
+    "UNIT PRICE IN\nFIGURES",
+    "EXTENDED\nAMOUNT"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "A-1",
+     "1",
+     "LS",
+     "TRAFFIC CONTROL PLAN, BARRICADES, SIGNS & RELATED\nDEVICES, IMPLEMENTATION & MAINTENANCE, per City and\nTMUTCD standards.\nDollars\n& Cents Lump Sum",
+     "",
+     ""
+    ],
+    [
+     "A-2",
+     "25",
+     "SY",
+     "REMOVE & DISPOSE CONCRETE PAVEMENT INCL. CURB AND\nMEDIAN PAVER CONCRETE BASE, includes all labor, equipment,\nexcavation, backfill, tools, preparation, materials, and incidentals\nnecessary to complete the work.\nDollars\n& Cents Per Square Yard",
+     "",
+     ""
+    ],
+    [
+     "A-3",
+     "1",
+     "EA",
+     "FURNISH & INSTALL Monolithic median nose, gutter and paving\nrepair, in accordance with the Plans and Specifications, Detail SD-P18,\ncomplete and in place. Any excavation required shall be considered\nsubsidary to this item. This item shall include all labor, material,\nequipment, tools, testing, preparation, and incidentals necessary to\ncomplete the work.\nDollars\n& Cents Per Each",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Bid_2026-6-60_ Section IV Bid Schedule.xlsx",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "ITEM NO.",
+    "EST QNTY",
+    "UNIT",
+    "DESCRIPTION AND PRICE IN WORDS",
+    "",
+    "",
+    "",
+    "UNIT PRICE IN FIGURES",
+    "EXTENDED AMOUNT",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 80,
+   "sample": [
+    [
+     "1",
+     "1",
+     "LS",
+     "MOBILIZATION, Bonds, Insurance and all Permitting (entire project), complete, for the Lump Sum of, (NTE 5%)",
+     "",
+     "",
+     "",
+     "",
+     "0",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Dollars",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "&",
+     "",
+     "Cents",
+     "Lump Sum",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Bid_2026-6-60_ Section IV Bid Schedule.xlsx",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "ITEM NO.",
+    "EST QNTY",
+    "UNIT",
+    "DESCRIPTION AND PRICE IN WORDS",
+    "",
+    "",
+    "",
+    "UNIT PRICE IN FIGURES",
+    "EXTENDED AMOUNT"
+   ],
+   "score": 2,
+   "n_rows": 11,
+   "sample": [
+    [
+     "A-1",
+     "1",
+     "LS",
+     "TRAFFIC CONTROL PLAN, BARRICADES, SIGNS & RELATED DEVICES, IMPLEMENTATION & MAINTENANCE, per City and TMUTCD standards.",
+     "",
+     "",
+     "",
+     "",
+     "0"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Dollars",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "&",
+     "",
+     "Cents",
+     "Lump Sum",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 58.9,
+  "attachment_fetches": 20,
+  "attachment_seconds": 33.4,
+  "attachment_bytes": 56418525,
+  "max_fetch_seconds": 13.81,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:30:22.765351+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-allen-tx-2026-6-60-addendum-1/coverage.json"
+}

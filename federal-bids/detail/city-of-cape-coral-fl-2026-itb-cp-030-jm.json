@@ -1,0 +1,43 @@
+{
+ "bid_id": "city-of-cape-coral-fl-2026-itb-cp-030-jm",
+ "bid_number": "2026-ITB-CP-030-JM",
+ "agency": "City of Cape Coral, FL",
+ "src": "Open",
+ "title": "North 3 Utilities Extension Project (UEP) Contract 2 - Area 901 & 904",
+ "close": "8/27/2026 01:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Notice for Ion Wave-North 3 - Contract 2 - Area 901 _ 904 - 2026-ITB-CP-030-JM.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Notice for Ion Wave-North 3 - Contract 2 - Area 901 _ 904 - 2026-ITB-CP-030-JM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.3,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 102245,
+  "max_fetch_seconds": 0.48,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:19:37.983680+00:00",
+ "extract_attempts": 1
+}

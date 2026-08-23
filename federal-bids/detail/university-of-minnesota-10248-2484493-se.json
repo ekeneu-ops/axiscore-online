@@ -1,0 +1,91 @@
+{
+ "bid_id": "university-of-minnesota-10248-2484493-se",
+ "bid_number": "10248.2484493.SE",
+ "agency": "University of Minnesota",
+ "src": "Open",
+ "title": "Staff Augmentation for IBM iSeries",
+ "close": "8/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Supplier-Process-and-Information-05-07-26.docx",
+  "RFx Instructions and Requirements - V11.pdf",
+  "CFPS-Terms-and-Conditions-05-12-26.docx",
+  "References-05-04-17.doc",
+  "Travel-Reimbursements-10-15-15.doc",
+  "FERPA Attachment.docx",
+  "Data Security Addendum - 11.2025.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier-Process-and-Information-05-07-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFx Instructions and Requirements - V11.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CFPS-Terms-and-Conditions-05-12-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "References-05-04-17.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Travel-Reimbursements-10-15-15.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FERPA Attachment.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Data Security Addendum - 11.2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.0,
+  "attachment_fetches": 7,
+  "attachment_seconds": 4.3,
+  "attachment_bytes": 528836,
+  "max_fetch_seconds": 1.24,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:27:54.816777+00:00",
+ "extract_attempts": 1
+}

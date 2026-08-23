@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-bryan-26-050",
+ "bid_number": "26-050",
+ "agency": "City of Bryan",
+ "src": "Open",
+ "title": "RFB 26-050 Warehouse Reorder",
+ "close": "8/27/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 25,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFB 26-050 WAREHOUSE REORDER.pdf",
+  "WHSE REORDER 08-04-2026.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFB 26-050 WAREHOUSE REORDER.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "WHSE REORDER 08-04-2026.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "WHSE REORDER 08-04-2026.xlsx",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "City ID#",
+    "Description",
+    "Qty",
+    "Cost",
+    "Extended Total",
+    "Delivery time"
+   ],
+   "score": 2,
+   "n_rows": 25,
+   "sample": [
+    [
+     "WA035 ",
+     "COUPLING, FERNCO 6\" CLAY TO PVC #1002-66          ",
+     "100",
+     "",
+     "",
+     ""
+    ],
+    [
+     "WA050",
+     "ADAPTER, FERNCO COUPLING 15\" CLAY TO PVC 1002-1515",
+     "2",
+     "",
+     "",
+     ""
+    ],
+    [
+     "WA105",
+     "ADAPTER, 3/4\" SCH 40 PVC SO X MIPT PRESSURE       ",
+     "25",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 1.1,
+  "attachment_bytes": 453214,
+  "max_fetch_seconds": 0.91,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:40:39.099965+00:00",
+ "extract_attempts": 1,
+ "lines_total": 24,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-bryan-26-050/coverage.json"
+}

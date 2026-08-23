@@ -1,0 +1,106 @@
+{
+ "bid_id": "city-of-bryan-26-048-addendum-1",
+ "bid_number": "26-048 Addendum 1",
+ "agency": "City of Bryan",
+ "src": "Open",
+ "title": "Annual Contract Concrete Curb, Gutter, and Flatwork",
+ "close": "8/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:concrete",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 12,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFB 26-048 Annual Contract Concrete Curb_ Gutter_ and Flatwork.pdf",
+  "RFB 26-048 Bid Sheet.xlsx",
+  "RFP 26-048 Addendum No 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFB 26-048 Annual Contract Concrete Curb_ Gutter_ and Flatwork.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFB 26-048 Bid Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "RFP 26-048 Addendum No 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFB 26-048 Bid Sheet.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item Number",
+    "Description",
+    "Unit",
+    "Est. Yearly Qty.",
+    "Price",
+    "Total Price"
+   ],
+   "score": 3,
+   "n_rows": 12,
+   "sample": [
+    [
+     "1",
+     "Remove & replace concrete curb & gutter, in accordance with the most currenty B/CS Unified Specifications and Standard Details.",
+     "LF",
+     "1500",
+     "",
+     "0"
+    ],
+    [
+     "2",
+     "Furnish and install monolithics concrete curb, in accordance with the most current B/CS Unified Specifications and Standard Details.",
+     "LF",
+     "2300",
+     "",
+     "0"
+    ],
+    [
+     "3",
+     "Remove & replace concrete flatwork (quantities from 0-20 cubic yds) (sidewalks, driveways, aprons, gutters) in accordance with the  most current B/CS Unified Specifications and Standard Details.",
+     "CY",
+     "500",
+     "",
+     "0"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 2.6,
+  "attachment_bytes": 1275940,
+  "max_fetch_seconds": 1.52,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:30:35.676428+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-bryan-26-048-addendum-1/coverage.json"
+}

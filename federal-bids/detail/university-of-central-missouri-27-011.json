@@ -1,0 +1,111 @@
+{
+ "bid_id": "university-of-central-missouri-27-011",
+ "bid_number": "27-011",
+ "agency": "University of Central Missouri",
+ "src": "Open",
+ "title": "CMAR Bid Package #2 - Yeater Residence Hall - Cold Formed Framing Package",
+ "close": "8/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CMR Cold Form - Yeater - BP2 Flier - 8.17 _1_.pdf",
+  "UCM - Yeater - Trade Partner Onboarding RFP - 08.14.2026.26.pdf",
+  "24233.00 UCM Yeater SD Booklet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CMR Cold Form - Yeater - BP2 Flier - 8.17 _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "UCM - Yeater - Trade Partner Onboarding RFP - 08.14.2026.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "24233.00 UCM Yeater SD Booklet.pdf",
+   "kind": "pdf",
+   "tables": 506,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "24233.00 UCM Yeater SD Booklet.pdf",
+   "sheet": 132,
+   "header_row": 1,
+   "headers": [
+    "",
+    "SYMBOL LEGEND\nBRICK Classroom RM NAME\n(in section) A101 RM NUMBER\nCONCRETE MASONRY\nUNIT -CMU (in section)\nA123 DOOR NUMBER\nCONCRETE\n(in section)\nA WALL TYPE\nGYP BD\n(in section)\nA FRAME TYPE\nPLYWOOD\n(in section)\n1 GLASS TYPE\nRIGID INSUL & EIFS\n(in section)\nA10\nSECTION CUT LINE\nBATT INSUL A500\n(in section)\nACOUSTICAL TILE\nELEVATION SYMBOL\n(in section)\nA1\nSTUCCO\nELEV NUMBER\n(in section) N1 A601 E1\nSHEET NUMBER\nJ1\nSOIL\nA9\nA120\nSAND\nENLARGED DETAIL\nCONTINUOUS LUMBER\nJoist Bearing DATUM\n100'-0\" MARKER\nBLOCKING/SHIM\nFINISH LUMBER/ AREA \"A\"\nHARDWOOD\nAREA \"B\"\nSTEEL OR METAL\nMATERIAL JOINT\nBUILDING EXPANSION JOINT",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "SYMBOL LEGEND",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "BRICK Classroom RM NAME\n(in section) A101 RM NUMBER\nCONCRETE MASONRY\nUNIT -CMU (in section)\nA123 DOOR NUMBER\nCONCRETE\n(in section)\nA WALL TYPE\nGYP BD\n(in section)\nA FRAME TYPE\nPLYWOOD\n(in section)\n1 GLASS TYPE\nRIGID INSUL & EIFS\n(in section)\nA10\nSECTION CUT LINE\nBATT INSUL A500\n(in section)\nACOUSTICAL TILE\nELEVATION SYMBOL\n(in section)\nA1\nSTUCCO\nELEV NUMBER\n(in section) N1 A601 E1\nSHEET NUMBER\nJ1\nSOIL\nA9\nA120\nSAND\nENLARGED DETAIL\nCONTINUOUS LUMBER\nJoist Bearing DATUM\n100'-0\" MARKER\nBLOCKING/SHIM\nFINISH LUMBER/ AREA \"A\"\nHARDWOOD\nAREA \"B\"\nSTEEL OR METAL\nMATERIAL JOINT\nBUILDING EXPANSION JOINT",
+     "",
+     "",
+     "",
+     "A M\nACT acoustical MAS masonry\nADJ adjustable/adjacent MATL material\nAFF above finish floor MAX maximum\nALUM aluminum MB markerboard\nALT alternate MECH mechanical\nANOD anodized MEP mechanical/electrical/plumbing\nAPPROX approximate(ly) MFR manufacturer\nARCH architect(ural) MIN minimum\nMISC miscellaneous\nB\nMO masonry opening\nMTD mounted\nBLDG building\nMTG HT mounting height\nBLKG blocking\nMTL metal\nBM beam\nMULL mullion\nBOT bottom of\nBRG bearing\nN\nBRKT bracket\nBTM bottom N north\nBSMT basement NIC not in contract\nBTWN between NO (#) number\nNOM nominal\nC\nNRC noise reduction coefficient\nNTS not to scale\nCAB cabinet\nCC center to center\nO\nCEM cement(itious)\nCG corner guard OC on center\nCJ control joint OD outside diameter\nCLG ceiling OTS open to structure\nCLR clear(ance) OPNG opening\nCM contruction manager OPP opposite\nCMU concrete masonry unit\nP\nCOL column\nCONC concrete\nPAR parallel\nCONST construction\nPCP portland cement plaster\nCONT continuous\nPERP perpendicular\nCTR center\nPL property line\nCY cubic yard(s)\nPLBG plumbing\nPLYWD plywood\nD\nPNL panel\nDF drinking fountain PR pair\nDIA diameter PREFAB prefabricated\nDIM dimension(s) PTD painted\nDN down PVC polyvinyl chloride\nDS downspout\nR\nDTL detail\nDWG drawing\nRAD radius\nRD roof drain\nE\nRE: refer to\nE east REINF reinforcing (ed)\nEA each REV reversed\nEF each face REQ'D required\nEIFS exterior insulation finish system RFG roofing\nEJ expansion joint\nS\nELEC electrical\nELEV elevation\nS south\nEQ equal\nSCHED schedule\nEQUIP equipment\nSECT section\nETR existing to remain\nSF square foot\nEW each way\nSHT sheet\nEXIST existing\nSHWR shower\nEXP expansion\nSIM similar\nEXT exterior\nSPEC specification\nSQ square\nF\nSSTL stainless steel\nFA fire alarm STC sound transmission coeficient\nFD floor drain STD standard\nFND foundation STL steel\nFE fire extinguisher STRUCT structure(al)\nFEC fire extinguisher cabinet SUSP suspend(ed)\nFF finish floor SY square yard\nFH fire hose SYM symmetrical\nFIN finish(ed)\nFIXT fixture\nT\nFLR floor\nFLEX flexible\nT&B top & bottom\nFOM face of masonry\nT&G tongue & groove\nFOPC face of precast\nTO top of\nFOS face of stud\nTOC top of curb\nFT (') foot\nTOM top of masonry\nFTG footing\nTOS top of slab/steel\nFV field verify\nTOW top of wall\nTS tube steel\nG\nTYP typical\nGA gauge\nU\nGALV galvanized\nGC general contractor\nUNO unless noted otherwise\nGEN general\nGL glass V\nGR grade\nVERT vertical\nGYP gypsum\nVTR vent thru roof\nGYP BD gypsum board\nW\nH\nW west\nHC handicapped\nWD wood\nHD head\nWDO window\nHDWD hardwood\nW/ with\nHDWR hardware\nW/O without\nHM hollow metal\nHORIZ horizontal Y\nHR hour\nYD yard\nHT height\nHVAC heating, ventilation & air\nSYMBOLS\nconditioning\n/ per (or by)\nI & and\n@ at\nID inside diameter\n[ channel\nIN (\") inch(es)\n\u2104 centerline\nINDIV individual\n\u00d8 diameter/round\nINFO information\n\u00b1 plus/minu\nINSUL insulation\nINT interior\nJ\nJST joist\nJT joint\nK\nKIT kitchen\nL\nLKR locker\nLT light",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 100.7,
+  "attachment_fetches": 3,
+  "attachment_seconds": 22.5,
+  "attachment_bytes": 49189186,
+  "max_fetch_seconds": 20.94,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-23T08:39:19.073447+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-central-missouri-27-011/coverage.json"
+}
