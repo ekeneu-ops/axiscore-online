@@ -1,10 +1,10 @@
 {
- "bid_id": "burleson-isd-tx-burleson-isd-fundraising-vendor-application",
- "bid_number": "Burleson ISD Fundraising Vendor Application",
- "agency": "Burleson ISD, TX",
+ "bid_id": "sarpy-county-ne-2027-434-addendum-1",
+ "bid_number": "2027-434 Addendum 1",
+ "agency": "Sarpy County, NE",
  "src": "Open",
- "title": "Burleson ISD Fundraising Vendor Application",
- "close": "8/31/2026 12:18 PM (ET)",
+ "title": "Sarpy County Grant Writer",
+ "close": "8/28/2026 11:00 AM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -16,19 +16,19 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "0_W-9 Form Blank _2_ _9_.pdf",
-  "1_Conflict of Interest Questionnaire _5_.pdf"
+  "RFQ Grant Writer.pdf",
+  "Addendum 1 - Grant Writer.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "0_W-9 Form Blank _2_ _9_.pdf",
+   "name": "RFQ Grant Writer.pdf",
    "kind": "pdf",
-   "tables": 5,
+   "tables": 2,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "1_Conflict of Interest Questionnaire _5_.pdf",
+   "name": "Addendum 1 - Grant Writer.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
@@ -38,14 +38,14 @@
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 13.6,
+  "bid_seconds": 10.7,
   "attachment_fetches": 2,
-  "attachment_seconds": 6.1,
-  "attachment_bytes": 157268,
-  "max_fetch_seconds": 5.18,
+  "attachment_seconds": 3.4,
+  "attachment_bytes": 1862854,
+  "max_fetch_seconds": 2.23,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-24T08:45:34.789146+00:00",
- "extract_attempts": 2
+ "captured_at": "2026-08-24T08:16:14.927159+00:00",
+ "extract_attempts": 1
 }

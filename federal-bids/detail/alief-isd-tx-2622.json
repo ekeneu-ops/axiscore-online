@@ -1,10 +1,10 @@
 {
- "bid_id": "burleson-isd-tx-burleson-isd-fundraising-vendor-application",
- "bid_number": "Burleson ISD Fundraising Vendor Application",
- "agency": "Burleson ISD, TX",
+ "bid_id": "alief-isd-tx-2622",
+ "bid_number": "2622",
+ "agency": "Alief ISD, TX",
  "src": "Open",
- "title": "Burleson ISD Fundraising Vendor Application",
- "close": "8/31/2026 12:18 PM (ET)",
+ "title": "Property Tax Software",
+ "close": "8/28/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -16,21 +16,21 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "0_W-9 Form Blank _2_ _9_.pdf",
-  "1_Conflict of Interest Questionnaire _5_.pdf"
+  "RFP2622 Property Tax Software.pdf",
+  "ALIEF INDEPENDENT SCHOOL DISTRICT.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "0_W-9 Form Blank _2_ _9_.pdf",
+   "name": "RFP2622 Property Tax Software.pdf",
    "kind": "pdf",
    "tables": 5,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "1_Conflict of Interest Questionnaire _5_.pdf",
+   "name": "ALIEF INDEPENDENT SCHOOL DISTRICT.pdf",
    "kind": "pdf",
-   "tables": 1,
+   "tables": 33,
    "note": "",
    "candidates": 0
   }
@@ -38,14 +38,14 @@
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 13.6,
+  "bid_seconds": 10.4,
   "attachment_fetches": 2,
-  "attachment_seconds": 6.1,
-  "attachment_bytes": 157268,
-  "max_fetch_seconds": 5.18,
+  "attachment_seconds": 2.6,
+  "attachment_bytes": 464987,
+  "max_fetch_seconds": 1.61,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-24T08:45:34.789146+00:00",
- "extract_attempts": 2
+ "captured_at": "2026-08-24T08:20:04.861290+00:00",
+ "extract_attempts": 1
 }

@@ -1,0 +1,8 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,Daily Fountain Maintenance Services,260.0,Service,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,Weekly Fountain Maintenance Services,52.0,Service,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,Monthly Preventative Maintenance Services,12.0,Service,,token,Synnex,WMPMV5X8-AX-15,MONTHLY PREVENTATIVE MAINTENANCE 5X8 FOR IN ROW ACRD HALF RACK 10KW,EA,9999.0,False,True,10799.61,0.0,10799.61,12705.42,152465.04,,Synnex WMPMV7X24-AX-15 @ 16206.84,
+4,Quarterly Preventative Maintenance Services,4.0,Service,,token,Synnex,WQPMV7X24-AX-15,QUARTERLY PREVENTATIVE MAINTENANCE 7X24 FOR IN ROW ACRD HALF RACK 10KW,EA,9999.0,False,True,5399.81,0.0,5399.81,6352.72,25410.88,,,
+5,Annual Maitenanec Services,1.0,Service,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+6,Mustang Sculpture Conservation Support Services,2.0,Service,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,Hourly Extra Work Rate,50.0,Hours,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

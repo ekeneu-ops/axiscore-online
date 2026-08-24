@@ -1,0 +1,445 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0626-356-addendum-3",
+ "bid_number": "PUR0626-356 Addendum 3",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Open",
+ "title": "Solar & Battery Energy Storage System",
+ "close": "8/28/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "PUR0626-356_Solar _ Battery Energy Storage System_Scope of Work_Updated.pdf",
+  "Questions _ Answers.pdf",
+  "Ground Space available at Animal Control.pdf",
+  "Pictures from Exterior Electrical Boxes.docx",
+  "Pictures from Interior Electrical Boxes.docx",
+  "ALLIANT_7-2017_Revision_AMP_Master - Central Fire.pdf",
+  "ALIM-634UGBX - NW Rec.pdf",
+  "ALIPCT12-4PTR - Westside Lib. Busse Branch.PDF",
+  "ALIM-1234UGBX - CRACC.pdf",
+  "Addendum No. 2-2nd Site Visits_Alliant_Solar _ Battery Energy Storage System _PUR0626-356_.pdf",
+  "Central fire 05 CRCF DD_s - MEP.pdf",
+  "NW Recreation As-Builts.pdf",
+  "Animal care and control 14_1104 Record Docs - Architectural.pdf",
+  "Westside Library Estimates.pdf",
+  "Addendum No. 1 - Questions Deadline_Solar _ Battery Energy Storage System _PUR0626-356_.pdf",
+  "Cedar Rapids Buildings Roof Electric Grounds Information_Updated 6.26.26.xlsx",
+  "PUR0626-356_Solar _ Battery Energy Storage System_Code_Standards_Appendix 1.pdf",
+  "PUR0626-356_Solar _ Battery Energy Storage System_Remove_Restore_Appendix 2.pdf",
+  "PUR0626-356_Solar _ Battery Energy Storage System_Financing Declaration Form_Appendix 3.pdf",
+  "CITY OF CEDAR RAPIDS ANIMAL CONTROL SHELTER-5791690000_2_2.pdf",
+  "CITY OF CEDAR RAPIDS FIRE STATION CENTRAL_4250601000.pdf",
+  "CITY OF CEDAR RAPIDS NORTHWEST RECREATION CENTER_CTYCR PARKS DEPT_7593944620_2.pdf",
+  "electric_interval_data_3.1.2025 - 3.30.2026  CITY OF CEDAR RAPIDS ANIMAL CONTROL SHELTER.xlsx",
+  "electric_interval_data_3.1.2025 - 3.30.2026 CITY OF CEDAR RAPIDS FIRE STATION CENTRAL.xlsx",
+  "electric_interval_data_3.1.25 - 3.30.26 CITY OF CEDAR RAPIDS NORTHWEST RECREATION CENTER.xlsx",
+  "RFP Contract T_C.pdf",
+  "Local Preference.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PUR0626-356_Solar _ Battery Energy Storage System_Scope of Work_Updated.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Questions _ Answers.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Ground Space available at Animal Control.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Pictures from Exterior Electrical Boxes.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Pictures from Interior Electrical Boxes.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "ALLIANT_7-2017_Revision_AMP_Master - Central Fire.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ALIM-634UGBX - NW Rec.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ALIPCT12-4PTR - Westside Lib. Busse Branch.PDF",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "ALIM-1234UGBX - CRACC.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 2-2nd Site Visits_Alliant_Solar _ Battery Energy Storage System _PUR0626-356_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Central fire 05 CRCF DD_s - MEP.pdf",
+   "kind": "pdf",
+   "tables": 602,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "NW Recreation As-Builts.pdf",
+   "kind": "pdf",
+   "tables": 137,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Animal care and control 14_1104 Record Docs - Architectural.pdf",
+   "kind": "pdf",
+   "tables": 879,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Westside Library Estimates.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 1 - Questions Deadline_Solar _ Battery Energy Storage System _PUR0626-356_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Cedar Rapids Buildings Roof Electric Grounds Information_Updated 6.26.26.xlsx",
+   "kind": "xlsx",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PUR0626-356_Solar _ Battery Energy Storage System_Code_Standards_Appendix 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "PUR0626-356_Solar _ Battery Energy Storage System_Remove_Restore_Appendix 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "PUR0626-356_Solar _ Battery Energy Storage System_Financing Declaration Form_Appendix 3.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CITY OF CEDAR RAPIDS ANIMAL CONTROL SHELTER-5791690000_2_2.pdf",
+   "kind": "pdf",
+   "tables": 39,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CITY OF CEDAR RAPIDS FIRE STATION CENTRAL_4250601000.pdf",
+   "kind": "pdf",
+   "tables": 36,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CITY OF CEDAR RAPIDS NORTHWEST RECREATION CENTER_CTYCR PARKS DEPT_7593944620_2.pdf",
+   "kind": "pdf",
+   "tables": 39,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "electric_interval_data_3.1.2025 - 3.30.2026  CITY OF CEDAR RAPIDS ANIMAL CONTROL SHELTER.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "electric_interval_data_3.1.2025 - 3.30.2026 CITY OF CEDAR RAPIDS FIRE STATION CENTRAL.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "electric_interval_data_3.1.25 - 3.30.26 CITY OF CEDAR RAPIDS NORTHWEST RECREATION CENTER.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Contract T_C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Local Preference.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Central fire 05 CRCF DD_s - MEP.pdf",
+   "sheet": 116,
+   "header_row": 0,
+   "headers": [
+    "AIRHANDLINGUNITSCHEDULE DIFFUSERANDGRILLESCHEDULE VARIABLEVOLUMETERMINALSWITHHOTWATERREHEAT DUCTINSULATIONSCHEDULE(Note1)\nMODEL Space Service Construction Type DuctLiner DuctCovering Preinsulated RigidCovering None\nPLANMARK(NOTE1) AHU-1 TERMINALSFORAHU-\nPLAN NUMBER MOUNTING Type (Note9) (Note6) (Note7) (Note8) (Note7)\nSERVICE PLAN INLET MIN SP(IN.W.C.) NCRATING REQ'D COIL(NOTE4) MODEL ROOMS\nMARK TYPE (Note1) DESCRIPTION (Note2) REMARKS NOTES Conditioned SupplyAir Round General - 1-12\" - - -\nMARK SIZE CFM CFM (NOTE2) (NOTE3) MBH MBH GPM LAT WTD WPD (NOTE1) SERVED\n1a SupplyDiffuser SCD SteelLouveredDiffuser Lay-in 24\"x24\" 3 or Doublewall,betweenlayers - - 1-12\" - -\nVAV-1\nMODELNUMBER(NOTE2) MCCB-66 1b \" \" \" Surface \" 3,7 Tempered Rectangular General 1\" - - - -\nVAV-2\nSUPPLYFAN(NOTE3) 1c \" \" \" Surface 12\"x12\" 7 (Note2,3) UpstreamofVAVsreheatcoils - 1-12\" - - -\nVAV-3\nTOTALAIR CFM 26,000 1d \" ASCD AluminumLouveredDiffuser Surface 24\"x24\" 3,7 VAV-4 DownstreamofVAVsreheatcoils 1\" - - - -\nVENTILATIONAIR CFM NA 1e \" \" \" Surface 12\"x12\" 7 VAV-5 FlexDuct - - - 1-12\" - -\nFANAIRFLOW CFM 26,000 2a \" LBP AluminumFixedLinearDiffuser Surface Bladesat15deg.up,PencilProofSpacing 6,8 VAV-6 FlexConnector - - 1-12\" - - -\nEXTERNALSTATICPRESSURE IN.W.G. 3.50 2b \" LBPH HeavyDutyFloorDiffuser Floor Bladesat15deg.towardswall,PencilProofSpacing 5,8 VAV-7 ReturnAir Round General - - - - None\nSUCTIONPRESSURE INW.G. 1.00 3a \" 520 SteelLouveredDoubleDeflectionDiffuser Surface Bladesat15deg.up,22deg.2-way 4 VAV-8 Rectangular General 1\" - - - -\nTOTALSTATICPRESSURE IN.W.G. 6.00 4a \" TBD7 SteelFixedLinearDiffuser Lay-in 48\",2slot,2-waythrow 10 VAV-9 FlexDuct - - - 1-12\" - -\nBLOWERSPEED RPM 5a \" HCD1 AluminumDrumDiffuser Surface Bladesat0deg.up,15deg.2-way 9 VAV-10 FlexConnector - - - - - None\nMOTORHP HP 40.00 6a \" SDGE ContouredAdj.DoubleDeflectionDiffuser Surface Bladesat0deg.up,22deg.2-way 4,12 VAV-11 Exhaust Round General - - - - None\nReliefAir Rectangular General 1\" - - - -\nMOTORBHP BHP 10a ReturnGrille PDDR SteelPerforatedGrille Lay-in 24\"x24\" VAV-12\nFlexDuct - - - 1-12\" - -\nMOTORVOLTAGE VOLTS 230 10b \" PDDR1 \" Surface 24\"x24\" 7 VAV-13\nFlexConnector - - - - - None\nMOTORPHASE PHASE 3 10c \" PDR1 AluminumPerforatedGrille Surface 24\"x24\" 7 VAV-14\nGeneral DownstreamofERU,AHUorEF - 1-12\" - - -\nNUMBEROFFANS NA 1 11a \" 96 HeavyDutySteelLouveredGrille Surface SingleDeflection,Fixedbladesat45deg. 11 VAV-15\nFANTYPE NA 12a \" LBP AluminumFixedLinearGrille Surface Bladesat15deg.Up,PencilProofSpacing 6,8 VAV-16 KitchenGrease - - 2\"(Note10) - - -\nS.S.Fumehood - - - - - None\nFANSIZE IN 13a \" 520 SteelLouveredDoubleDeflectionGrille Surface Bladesat15deg.up,22deg.2-way 4 VAV-17\nOutdoorAir Round General - 1-12\" - - -\nNOTES NA 14a \" 510 SteelLouveredSingleDeflectionGrille Surface Fixedbladesat45deg. 11 VAV-18\nRectangular General - 1-12\" - - -\nRETURNFAN(NOTE3) 20a ExhaustGrille PDDR SteelPerforatedGrille Lay-in 24\"x24\" VAV-19 FlexConnector - - 1-12\" - - -\nTOTALAIR CFM 20b \" PDDR1 \" Surface 24\"x24\" 7 VAV-20 TransferAir Round General - - - - None\nOUTDOORAIR CFM 20c \" \" \" Surface 12\"x12\" 7 VAV-21 Rectangular General 1\" - - - -\nFANAIRFLOW CFM 20d \" PDR1 AluminumPerforatedGrille Surface 24\"x24\" 7 VAV-22 FlexDuct - - - 1-12\" - -\nEXTERNALSTATICPRESSURE IN.W.G. 20e \" \" \" Surface 12\"x12\" 7 VAV-23 CombustionAir Round General - 1-12\" - - -\nSUCTIONPRESSURE INW.G. 21a \" 510 SteelLouveredSingleDeflectionGrille Surface Fixedbladesat45deg. 11 VAV-24 Rectangular General - 1-12\" - - -\nTOTALSTATICPRESSURE IN.W.G. 22a \" 610 AluminumLouveredSingleDeflectionGrille Soffit Fixedbladesat45deg. 11 VAV-25 Unconditioned SupplyAir Round General - 3\" - - -\nBLOWERSPEED RPM VAV-26\n23a \" LBP AluminumFixedLinearGrille Surface Bladesat15deg.Up,PencilProofSpacing 6,8 or Rectangular General 1\" 1-12\" - - -\nMOTORHP HP VAV-27\n30a TransferGrille PDDR SteelPerforatedGrille Lay-in 24\"x24\" Untempered UpstreamofVAVsreheatcoils - 3\" - - -\nMOTORBHP BHP VAV-28\n30b \" PDDR1 \" Surface 24\"x24\" 7 (Note4) DownstreamofVAVsreheatcoils 1\" 1-12\" - - -\nMOTORVOLTAGE VOLTS VAV-29\nNOTES: FlexDuct - NotAllowed\nMOTORPHASE PHASE VAV-30\n1. SelectionsbasedonPrice.Finishtobepowdercoatorelectrocoatprocess.CoordinatediffusercolorandfinishwithArchitect. FlexConnector - - 3\" - - -\nNUMBEROFFANS NA VAV-31\na.Ceilinggrillesdiffuserstobewhite.Slotdiffuserstobewhitewithblackinterior. ReturnAir Round General - 3\" - - -\nFANTYPE NA VAV-32\nb.Wallgrillesdiffuserstobecoordinatedwitharchitectpriortoorderingeitherwhiteorprimecoat. Rectangular General 1\" 1-12\" - - -\nFANSIZE IN VAV-33\nc.Primecoatfinish'stobefieldpainted,colorbyArchitect. FlexDuct - NotAllowed\nNOTES NA VAV-34\nd.Ductmountedgrillesdiffuserstomatchductcolorandorfinish. FlexConnector - - 3\" - - -\nVAV-35\nCHILLEDWATERCOIL e.Floorgrillesdiffuserstobeclearanodizedaluminum. ExhaustAir Round General - 3\" - - -\nVAV-36\nFACEVELOCITY FPM 500 2. CoordinateT-gridstylesizeforlay-indiffusergrilleswithCeilingContractor. Rectangular General 1\" 1-12\" - - -\nVAV-37\nENTERINGAIRTEMP.(DBWB) DEG.F 74 3. Provideoptional4thcone. FlexDuct - NotAllowed\nVAV-38\nLEAVINGAIRTEMP.(DBWB) DEG.F 55 4. Frontbladestobehorizontal,rearbladestobevertical.Mountingtobefrontmountedscrews. FlexConnector - - 3\" - - None\nVAV-39\nCAPACITY MBH 5. Provideheavydutyfloorgrillediffuserwithwideframe,frontmountedscrews,securelyattachedgrillecore,anddebrisscreen. Relief DownstreamofERU,AHUorEF - 3\" - - -\nVAV-40\nENTERINGWATERTEMP. DEG.F 45 6. Providegrillediffuserwithwideframeandconcealedfasteners. KitchenGrease - - 2\"(Note10) - - -\nLEAVINGWATERTEMP. DEG.F 59 7. Providediffusergrillewithsurfacemountauxiliaryframe. SSFumehood - - 1-12\" - - -\nFLOWRATE GPM 8. Forgrillesdiffusersshownendtoend,providesplinesforacontinuousappearance,otherwise OutdoorAir Round General - 1-12\" - - -\nNOTES:\nWATERPRESSUREDROP FT.W.G. providecontinuousappearanceborder. 1.SelectionsbasedonTrane,refertospecificationsforotherapprovedmanufacturers. Rectangular General - 1-12\" - - -\nNUMBEROFROWS NA 9. Seefloorplansfordirectionofthrow. FlexConnector - - 1-12\" - - -\n2.StaticpressuredropatlistedairflowthroughVAVboxincludingcoil(damper100open).\nCOILTYPE NA 10. Providediffuser12\"internallyinsulatedplenumandcross\"T\"notch. 3.NCratingismaximumdischargeorradiatedratingallowed.NCratingstobecalculatedinaccordancewithARI-885. TransferAir Round General - 3\" - - -\nFINSERIES FPF 11. Bladestobehorizontal.Mountingtobefrontmountedscrews. 4.******Providewithextendedcasingandaccesspanel.SeedetailonSheetMXXXX. Rectangular General 1\" 1-12\" - - -\nAIRPRESSUREDROP IN.W.G. 12. Aluminumdiffusertobecontouredtofitflushontospiralduct.Increaseductdiameterperinsulationspecifications. 5.Unlessnotedotherwise,allcoilsarestandardcapacitysinglerow.Enteringwatertemperatureis180degreesF. FlexDuct - NotAllowed\nHOTWATERCOIL Providewithairscoopextractor(preferred)orscrewdriveroperatedopposedbladedamper. Enteringairtemperatureis55degreesF.Airpressuredropisincludedinunitstaticpressure. CombustionAir Round General - 1-12\" - - -\nFACEVELOCITY FPM 13. Providewithscrewdriveroperatedopposedbladedampers. Rectangular Rigid - 1-12\" - - -\nExterior SupplyAir Round General - - - 3\" -\nENTERINGAIRTEMP.(DBWB) DEG.F\nLEAVINGAIRTEMP.(DBWB) DEG.F DRYERBOOSTERFANSCHEDULE (Note5) Rectangular General - - - 3\" -\nEXHAUSTFANSCHEDULE UpstreamofVAVsreheatcoils - - - 3\" -\nCAPACITY MBH\nDownstreamofERU - - - 3\" -\nENTERINGWATERTEMP. DEG.F PLAN S.P.IN MOTOR FAN MANUFACTURER&\nPLAN S.P.IN MOTOR FAN FlexConnector - - - - 3\" -\nLEAVINGWATERTEMP. DEG.F MARK CFM INCHES WATTS VOLTS PH SPDS. RPM MOUNTING DUCTDIA.(IN) USAGE MODELNUMBER NOTES\nMARK CFM INCHES BHP HP VOLTS PH SPDS. RPM MOUNTING USAGE MANUFACTURER&MODELNO. SONES NOTES ReturnAir Round General - - - 3\" -\nFLOWRATE GPM DBF-1 110 0.5 83 120 1 1 2800 Duct 4 ExhaustBooster FantechDBF4XL 1\nEF-1 12000 0.5 3 230 3 Wall GreenheckSB-3L30-30 Rectangular General - - - 3\" -\nWATERPRESSUREDROP FT.W.G. DBF-2 110 0.5 83 120 1 1 2800 Duct 4 ExhaustBooster FantechDBF4XL 1\nEF-2 10000 1 5 230 3 Inline GreenheckQEI-22 FlexConnector - - - - 3\" -\nNUMBEROFROWS NA Notes:\nEF-3 1200 1.5 1.5 230 3 Roof GreenheckH-Cube161XP 2 ExhaustAir Round General - - - 3\" -\nCOILTYPE NA 1. Providewithfactory-installedpressureswitchforautomaticcontrol.\nRectangular General - - - 3\" -\nFINSERIES FPF\nNOTES: FlexConnector - - - - 3\" -\nAIRPRESSUREDROP IN.W.G.\n1. Providewithroofcurb(matchslopeofroof),disconnect,backdraftdamperandbirdscreen.Coordinateinstallationof ENERGYRECOVERYUNITSCHEDULE SSFumehood - - - - - None\nHUMIDIFIERDISPERSION(Note4)\nroofcurbwithGeneralContractor. FlexibleFire SupplyAir Round General - 1-12\"(Note11) - - -\nVELOCITY FPM 2. Providewithroofcurb,NEMA3Rdisconnect,birdscreen,andgreasetraps.InstalltomeetNFPA96andapplicable PLANMARK ERU-1 ERU-2 ERU-3 Rated Rectangular General - 1-12\"(Note11) - - -\nSTATICPRESSURE INW.G. localcodesforkitchenexhaustapplication.CoordinateinstallationofcurbwithGeneralContractor. SYSTEM Supply Exhaust Supply Exhaust Supply Exhaust Enclosure ReturnAir Round General - 1-12\"(Note11) - - -\nPREFILTERSECTIONS 3. Providewith2-speedmotor.Refertoelectricalplansforadditionalinformation. BLOWERUNITS Rectangular General - 1-12\"(Note11) - - -\nVELOCITY FPM FANAIRFLOW CFM 6,000 5,000 1,200 1,200 1,200 1,200 ExhaustAir Round General - 1-12\"(Note11) - - -\nFILTERTYPE NA OUTLETVELOCITY FPM Rectangular General - 1-12\"(Note11) - - -\nEFFICIENCY MERV EXPANSIONTANKAIRSEPARATORSCHEDULE EXTERNALSTATICPRESSURE IN.W.G. 0.50 0.50 1.00 0.50 1.00 0.50 NOTES:\nSTATICPRESSURECLEAN INW.G. EXPANSIONTANK AIRSEPARATOR SUCTIONPRESSURE IN.W.G. 0.50 2.00 0.50 1.00 0.50 1.00 1. Unlesslistedaboveas\"None\",allductworkandaccessoriesshallbeeitherlinedorcovered.\nSTATICPRESSUREMID-LIFE INW.G. AIR TOTALSTATICPRESSURE IN.W.G. Iftypeorthicknessisnotindicated,itshallbe1-12\"covering.\nMANUFACTURER NA PLAN SIZE CAPACITY MANUFACTURER PLAN FLOW PD REMOVAL MANUFACTURER BLOWERSPEED RPM 2. ConditionedSpace:anareainsidethebuildingwhichisheatedandorcooled.\nMODEL NA MARK LOCATION SYSTEM LENGTHxDIA. GALLONS ANDMODELNO. MARK (GPM) (FTH20) EFF. ANDMODELNO. FANMOTORHP HP 3. TemperedSpace:anareainsidethebuildingwhichisnotdirectlyheatedorcooled,butisadjacenttoaheatedorcooledspacewith\nOTHERMODULES ET-1 ChilledWater FANMOTORBHP BHP noinsulationseparatingthetwospaces(e.g.,ceilingplenums).\nET-2 HotWater FANMOTORVOLTAGE VOLTS 4. UnconditionedorUntemperedSpace:anareainsidethebuildingwhichisnotconditionedandisnottempered(e.g.,atticspaces).\nACCESSSECTION QTY.\nFANMOTORPHASE PHASE 5. ExteriorSpace:anareaoutsidethebuildingwhichisexposedtotheweather(e.g.,roof).\nDISCHARGEPLENUM IN.W.G. Notes: UNITMCA AMPS 6. SeeSpecificationSection233113-HVACMetalDucts.\nNOTES 1. Systemsizingbasedon15psifillpressure,25psimax.expansiontankpressure,75psireliefvalvesetting. UNITMOCP AMPS 7. SeeSpecificationSection230700-HVACInsulation.\n2. ProvidesystemwithBellandGossettModel790PressureReliefValve(75psisetting). ENERGYRECOVERYWHEEL 8. SeeSpecificationSection233300-AirDuctAccessoriesandor233113-HVACMetalDucts.\nNOTES: 9. Refertoplansforductworkdesignations.\nAIRPRESSUREDROP IN.W.G.\n1.Refertoplanandelevationviewsforunitconfigurationandadditional 10. TwoLayerFirebarrierDuctWrap-TypeF2.\nENTERINGAIRTEMPERATURE\ninformation. CABINETUNITHEATER&UNITHEATERSCHEDULE SUMMERDBWB DEG.F 11. OneLayerFirebarrierDuctWrap-TypeF1.\n2.SelectionsbasedonTrane,seespecificationsforotherapproved PRESS. AVG. MANUFACTURER,\nWINTERDBWB DEG.F\nmanufacturers. PLAN AIRTEMP CAPACITY DROP WATER MOTOR MODELNO.&\nLEAVINGAIRTEMPERATURE\n3.Refertoacousticalratingsandsoundattenuatorschedulefor MARK ENT LVG CFM MBH GPM FT.WATER TEMP HP VOLTS PH SP ARRANGEMENT REMARKS MODULARCHILLERSCHEDULE\nSUMMERDBWB DEG.F\nrequiredsoundratings. CUH-1 COOLING(NOTE3) HEATING(NOTE3)\nWINTERDBWB DEG.F\n4.HumidifierstobeprovidedwithandfactoryinstalledinAirHandling PLAN LOAD SOURCE EER LOAD SOURCE COP VOLTAGE UNIT UNIT MODELNO.\nWHEELMOTORHP HP\nUnits.Fieldaccessoriesshallbeprovidedwithunitforcontractor MARK CAP. ELT LLT FLOW PD EST FLOW PD (NOTE2) CAP. ELT LLT FLOW PD EST FLOW PD (NOTE2) PHASE MCA MOP (NOTE1)\nWHEELMOTORVOLTAGE VOLTS\ninstallationintheunits. MBH F F GPM FTWC F GPM FTWC MBH F F GPM FTWC F GPM FTWC\nWHEELMOTORPHASE PHASE\nCH-1 830 59 45 128 12 80 144 13.5 16.6 750 110 130 80 4 43 120 12 3.1 480 499 600 MS70X\nCHILLEDWATERCOIL\nCIRCULATINGPUMPSCHEDULE CH-2 830 59 45 128 12 80 144 13.5 16.6 750 110 130 80 4 43 120 12 3.1 480 MS70X\nFACEVELOCITY FPM\nHEAD TDV CH-3 830 59 45 128 12 80 144 13.5 16.6 750 110 130 80 4 43 120 12 3.1 480 MS70X\nKITCHENEXHAUSTHOODSCHEDULE ENTERINGAIRTEMP.(DBWB) DEG.F\nPLAN FT. IMPELLER WATER SIZE MOTOR SIZE TDV MANUFACTURER CH-4 830 59 45 128 12 80 144 13.5 16.6 750 110 130 80 4 43 120 12 3.1 480 MS70X\nLEAVINGAIRTEMP.(DBWB) DEG.F\nPLAN EXHAUST SUPPLY MANUFACTURER& NOTES MARK GPM WATER SIZE TEMP. SUCTxDISCH BHP HP VOLTS PH (NOTE1) PD(FT) &MODELNO. NOTES NOTES:\nCAPACITY MBH\nMARK SIZE CFM SP(IN) CFM SP(IN) MODELNO. CHP-1,2 42 7.5 230 3 BellandGossett1510 2 1. SelectionsbasedonMultistackVMEII,seespecificationsforotherapprovedmanufacturers.\nENTERINGWATERTEMP. DEG.F\nKH-1 72x36 1200 CWP-1,2 70 7.5 230 3 BellandGossett1510 2 a.Providechillerplantwithsinglepointconnection,5VMEIImodules,strainers.\nLEAVINGWATERTEMP. DEG.F\nEWP-1,2 70 10 230 3 BellandGossett1510 2 2. EER'sandCOP'satISO13256-2conditions\nFLOWRATE GPM\nGWP-1,2 40 15 230 3 BellandGossett1510 2 3. Pressuredropsandcapacitiesadjustedfor25PropyleneGlycolontheloadsideandsourcesides.\nWATERPRESSUREDROP FT.W.G.\nNOTES: HPWP-1,2 46 3 230 3 BellandGossettSeries80 2 4. Providemoduleswithallisolation,sequenceing,modulatingvavlestomeetsequence.Allvavlesrequiredforsafechilleroperationshallbecontrolledfromthechillercontroller.\nNUMBEROFROWS NA\n1. HoodshallbeU.L.listedgreaseexhausthoodwithbaffletypestainlesssteelfiltersand HWP-1,2 120 10 230 3 BellandGossett1510 2 5 Providecontrolpanelcapableofcontrollingthechillerplanttomeetheatingandcoolingloads.Seesequence.ThecontrollershallintegratewiththisbuildingDDCsystem.\nCOILTYPE NA\nrecessedfluorescentlights.ProvidewithAnsulliquidfiresuppressionsystemincluding RFP-1,7 12 120 BellandGossettSeries80 2\nFINSERIES FPF\nreleaseassembly,hoodpiping,detectorsandlinks,remotepullstation,finalhook-upand\ncertification,installedinaccordancewithNFPA17Aandalllocalcodes.Provideandinstall AIRPRESSUREDROP IN.W.G. WATERSOURCEHEATPUMPSCHEDULE\nHOTWATERCOIL\ngasvalvetoshutoffgassupplytoallequipmentunderhoodonactivationoffiresuppression NOTES: COOLING HEATING COND.WATER FAN\nsystem.Firesuppressiontankandaccessoriesandfanlightcontrolsshallbemountedin 1. BasedonBell&Gossettstraightpatternseries. FACEVELOCITY FPM TOTAL (NOTE3) (NOTE3) FLOW PD MTR MODEL\nU.L.listedutilitycabinetmountedonendofhood. 2. Selectedwith25propyleneglycol. ENTERINGAIRTEMP.(DBWB) DEG.F PLAN UNIT UNITMBH EER UNIT COP GPM FT VOLT UNIT UNIT UNIT UNIT HP NO.\n2. Providewithceilingenclosurepanelsasrequiredfor6'6\"mountingheightandceilingasshown LEAVINGAIRTEMP.(DBWB) DEG.F MARK CFM ESP TOTAL SENS. (NOTE2) MBH (NOTE2) (NOTE3) (NOTE3) PHASE FLA MCA MFS MOP (NOTE4) CONFIG. (NOTE1) NOTES\nonArchitecturalplans. CAPACITY MBH HP-1 Console\n3. Hoodshallincludeheatsensorsforautomaticactiviationoftheexhaustfan. BUFFERTANKSCHEDULE ENTERINGWATERTEMP. DEG.F HP-2 Console\nLEAVINGWATERTEMP. DEG.F\nWORKING HP-3 Console\nFLOWRATE GPM\nPLAN SIZE CAPACITY MANUFACTURER PRESSURE HP-4 Console\nWATERPRESSUREDROP FT.W.G.\nMARK SYSTEM HEIGHTxDIA. GALLONS ANDMODELNO. (PSI) NOTES HP-5\nGASFIREDUNITHEATERSCHEDULE BT-1 ChilledHotWater 250 ACESD 125psi 1 NUMBEROFROWS NA\nINPUT OUTPUT MANUFACTURER, NOTES: COILTYPE NA\nPLAN CAPACITY CAPACITY GAS VENT MOTOR MODELNO.& 1.ProvidewithinletsandoutletsperpipingschematiconsheetM-503.Providewith1-12\"fiberglassinsulation FINSERIES FPF\nMARK CFM MBH MBH PRESSURE SIZE FUEL HP VOLTS PH SP ARRANGEMENT NOTES withPVCjacket.Providewithinteriorbaffletopromotemixing. AIRPRESSUREDROP IN.W.G. NOTES:\nUH-1A-H 7\" NatGas 120 1 1 MANUFACTURER 1. SelectionsbasedonClimateMaster,seespecificaitonsforothermanufacturers.\nUH-2 7\" NatGas 120 1 1 MODELNUMBER 2. EER'sandCOP'sareatARI-ISO330ClosedLoopGSHPconditions(77sum,32win).Wheretwovaluesareshown,theyrepresentfullandpartloadefficiencies.\nVIBRATIONISOLATIONSCHEDULE NOTES 1,2,3,4,5 3. Selectionsbasedon7563EATcooling,70EATheating,25PropyleneGlycol,90EWTcooling,30EWTheating.\nBASE ISOLATOR 4. Fanspeedtobesettomeetairflowatdiffusers.\nNOTES:\nPLAN TYPE TYPE 1. Provideunitwithmicroprocessorcontrolsincludingremoteenabledisable,frostcontrolconsistingofVFDwheeldrive,wheel 5. Provideheatpumpwithfilterrack.\nMARK EQUIPMENTDESCRIPTION (Note1) (Note1) MIN.DEFLECTION NOTES staticpressuresensor,andoutsideairtemperaturesensor. 6. Providetwo-waytwo-positionheatpumpcondenserwatercontrolvalve.\nLOUVERSCHEDULE AHU-1 2. Provideunitwithsinglepointpowerconnectionandcontrolpanelincludingunitdisconnect,fanstarters,andwheeldriveVFD. 7. Provideunitwith2speedcompressor.\nVELOCITY ERU-1 3. Provideunitwithwheeldifferentialpressuregaugesforboththesupplyandexhaustairstreams. 8. ProvideunitwithECM2motor.\nPLAN SIZE NETFREE THROUGHFREE S.P. FINISH MODELNUMBER ERU-2\n4. Provideunitwith2\"pleatedmedia,MERV7throw-awayfiltersforboththesupplyandexhaustairstreams.Unittotal\nMARK CFM (w\"xh\") AREA(sqft) AREA(FPM) (inH2O) (NOTE2) (NOTE1) SERVICE NOTES ERU-3\npressuredroptoinclude0.5\"allowanceformid-lifefilterloading.\nHEATEXCHANGERSCHEDULE\nL-1 1200 36x24 ELF375DD EXHAUST CHP-1,2\n5. Heatingandcoolingprovidedbyhotwaterandchilledwater.\nL-2 12300 84x78 ELF375DD INTAKE CWP-1,2 WINTEROPERATION SUMMEROPERATION\nL-3 6000 72x48 ELF375DD INTAKE HWP-1,2 SOURCESIDE LOADSIDE SOURCESIDE LOADSIDE\nL-4 1200 36x24 ELF375DD INTAKE HPWP-1,2 HOODSCHEDULE PLAN FLOW P.D. INLET OUTLET FLOW P.D. INLET OUTLET FLOW P.D. INLET OUTLET FLOW P.D. INLET OUTLET PLATES\nGWP-1,2 MARK GPM PSI F F GPM PSI F F GPM PSI F F GPM PSI F F NO. MANUFACTURER MODEL\nEWP-1,2 HX-1 55.0 40 38.0 44 55 81 83.0 72.5 ALFALAVAL\nPLAN THROAT CURBCAP S.P.IN MANUFACTURER&\nNOTES: CH-1,2,3 HX-2 55.0 40 38.0 44 55 81 83.0 72.5 ALFALAVAL\nMARK SIZE CFM SIZE INCHES MOUNTING MODELNUMBER NOTES\n1. SelectionsbasedonRuskin,seespecificationsforotheracceptablemanufacturers. RH-1 18\"x18\" 1200 26\"x26\" 0.1 RoofCurb GreenheckWRH 1,2 Note4 55.0 40 38.0 44 55 80 83.0 73 Note4 Note4\n2. LouversshallhaveaKynarcolorfinishincolorasselectedbyArchitect. EF-2 RH-2 48\"x48\" 10000 56\"x56\" 0.1 RoofCurb GreenheckWRH 1,2 NOTES\nEF-3 RH-3 36\"x36\" 6000 44\"x44\" 0.1 RoofCurb GreenheckWRH 1,2 1. Providewithfivesparegasketsandonespareplate.\n2. Providewithinsulationpackage.\nIH-1 48\"x54\" 10000 56\"x62\" 0.1 RoofCurb GreenheckWIH 1,2\n3. Loadsidewith25propyleneglycol.\nNOTES: NOTES: 4. Conditionsthattheheatexchangerwouldseeiftheotherheatexchangerisdownduringpeakoperation.InsuretheheatexchangersHX-1\n1. SeeSpecificationsection230548fordescriptionsofbaseandisolatortypes. 1. Housingandbirdscreenshallbealuminum. andHX-2canoperateatthesepointsaswell.\n2. Providewithroofcurb(matchroofslope)andmotorized(*orbackdraft*)damper.\nDESIGNDEVELOPMENTSET-NOTFORCONSTRUCTION",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "ARCHITECTS"
+    ],
+    [
+     "",
+     "3226CenterPt.Rd.NE\nSuite201\nCedarRapids,Iowa\n52402\nt:319.862.0384\nf:319.862.0385"
+    ],
+    [
+     "",
+     "Allreports,plans,\nspecifications,\ncomputerfiles,field\ndata,notes,andother\ndocumentsand\ninstrumentsprepared\nbySolumLang\nArchitects,LLCas\ninstrumentsofservice\nshallremainthe\npropertyofSolum\nLangArchitects,LLC.\nSolumLang\nArchitects,LLCshall\nretainallcommonlaw,\nstatutoryandother\nreservedrights,\nincludingcopyright\nthereto."
+    ]
+   ]
+  },
+  {
+   "source": "Central fire 05 CRCF DD_s - MEP.pdf",
+   "sheet": 180,
+   "header_row": 0,
+   "headers": [
+    "PLUMBINGFIXTURESCHEDULE\nBaseFixture Details Trim WaterUsage AccessoriesNotes Color\nDSN WattsRD-940downspout nicklebronzewithanchor\nnozzle flange\nES-1 GuardianG1909HS eyefacewash,shower, withG3800thermostaticmixingvalve\nsafetystation anddrenchhose withinlinedualcheckbackflowpreventer\nondrenchhose\nEWC-1 HalseyTaylorHVR8HD-BLADA barrier-free,splitlevel p-trap standard\nelectricwatercooler wallmounted anglesupplywithstop stainlesssteel\nEWC-2 HalseyTaylorOVL-IISER-Q barrier-free,bi-level p-trap standard\nelectricwatercooler recessedunit anglesupplywithstop stainlesssteel\nFD-1 ProSetSystemsT35630-F-CI 5\"nickelbronzetop\ntrapguardfloordrain\nFD-2 WattsSeriesFD-200-A round6\"nickelbronze\nfloordrain strainer\nFD-3 ZurnZ-534-Yparkingdeckdrain. castironbody,withflashing\n12\"diameter clampandsedimentbucket\nGD-1 In-Sink-EratorEvolutionEssential Stainlesssteel providecordwithplug\ngarbagedisposer 34hp,8.1Amp\nH-1 WoodfordModel14 freezeless\nwallfaucet\nH-2 WoodfordModelB67 automaticdraining, withlockingdoor\nwallhydrant freezeless withvacuumbreaker\nHW-1 In-Sink-EratorH-Wave-SS 23gallon,750Watts,\nhotwaterdispenser 6.25Amp.\nself-closingvalve\nJS-1 FiatMSB-2424 withfactoryinstalleddrain ChicagoFaucet897-RCFfaucet\n24\"x24\"x10\"janitorsink withvacuumbreaker,34\"hose\nmoldedstone thread,pailhook,andwallbrace\nL-1 KohlerK-2032Greenwich wallhung,singlehole, SloanBasysEFX-275-500-0001solar 0.5gpm p-trap white\nvitreouschinalavatory drilledforconcealed powered,sensorfaucet,integralside concealedarmcarrier\narmcarrier. mixer,pop-updrain anglesupplieswithstops\ninsulateallexposedpiping\nL-2 KohlerK-2196-1Pennington drop-in,singlehole SloanBasysEFX-275-000-0000solar 0.5gpm p-trap white\nvitreouschinalavatory powered,sensorfaucet concealedarmcarrier\nMIX-135-Amixingvalve anglesupplieswithstops\ninsulateallexposedpiping\nLT-1 FiatL-1 singlecompartment,factory ChicagoFaucet895-317CPfaucet p-trap\n20\"x17\"x13\"laundrytub insatlleddrain,wallhung, No.317wristbladehandles,gooseneck anglesupplieswithstops\nPLUMBINGFIXTURECONNECTIONSCHEDULE\nmoldedstone spout\nITEM DESCRIPTIONOF CONNECTIONS\nOB-1 GuyGrayMIB1 12\"sweatconnection includesquarterturnvalve\nNO. PLUMBINGFIXTURE CW HW WASTE VENT\nicemakeroutletbox whitepowdercoatedbox\nES-1 EmergencyStation 1\" 1\" 1-12\" 1-12\"\nOB-2 Water-TiteW2700HA topsupplies includesquarterturnvalvesand\nEWC-1,2 ElectricWaterCooler 12\" - 1-14\" 1-14\"\nFD-1,2 FloorDrain - - 3\" 2\" washingmachinesupply 2\"drain waterhammerarresters\nFD-3 FloorDrain - - 4\" 2\" anddrainbox whitepowdercoatedbox\nH-1 HoseBibb 34\" - - - ORD-1 WattsSeriesRD-100-B-D-F-K-R ductileirondome,cast withunderdeckclamp,sumpreceiver,\nH-2 WallHydrant 34\" - - - roofdrain ironbody adjustableextensionflange,and2\"\nJS-1 JanitorSink 34\" 34\" 3\" 2\"\nexternalwaterdam\nL-1,2 Lavatory 12\" 12\" 1-12\" 1-12\" RD-1 WattsSeriesRD-100-B-D-F-K ductileirondome,cast withunderdeckclamp,sumpreceiver,\nLT-1 LaundrySink 12\" 12\" 2\" 1-12\"\nroofdrain ironbody andadjustableextensionflange\nOB-1 IcaMakerValveBox 12\" - - -\nRD-2 WattsSeriesRD-100-CP1-B-D-F nickelbronze,12x12top withunderdeckclamp,sumpreceiver,\nOB-2 WasherOutlet 12\" 12\" 2\" 1-12\"\nSH-1,2 ShowerBathtub 34\" 34\" 2\" 1-12\" roofdrain. andadjustableextensionflange\nS-1,2 Sink 12\" 12\" 2\" 1-12\" SA-1 SiouxChiefHydra-Restor653-B 34\"size\nTD-1 TrenchDrain - - 4\" 2\" S-1 ElkayLR-3322 doublecompartment KohlerK-15172-Fsinglehandlefaucet 2.2gpm LK-35basketstrainers\nUR-1,2 Urinal 1\" - 2\" 1-12\" 33x22x8deep Threeholepunched with8-12\"swingspoutandsidespray p-trap\nWC-1-6 WaterCloset 1\" - 4\" 2\" stainlesssteelsink anglesupplieswithstops\nS-2 ElkayLR-3322 doublecompartment KohlerK-15172-Fsinglehandlefaucet 2.2gpm LK-35basketstrainers\n33x22x8deep Fourholepunched with8-12\"swingspoutandsidespray p-trap\nstainlesssteelsink anglesupplieswithstops\nSH-1 AquaticBath1363CNT gelcoatfiberglass DeltaT13220pressurebalancedshower 2.0gpm p-trap white\n36\"x36\"x78\"shower valvewithstopsandshowerhead opengriddrain\nGASWATERHEATERSCHEDULE SH-2 AquaticBath1636BFSC gelcoatfiberglass DeltaT13020pressurebalancedshower 1.5gpm p-trap white\nPLAN STORAGE RECOVERY DEG.F INPUT 36\"x36\"x75\"ADAshower withvinylflexibledam, valvewithstops opengriddrain\nMARK GALLONS GPH TEMPRISE FUEL BTUHR MANUFACTURER MODEL REMARKS horizontalL-shapedgrab BricorB110CH-HHhandheldshower,69\" curtainrodandshowercurtain\nWH-1 100 255 90 Nat.Gas 199,000 Rheem GHE100-200A Note1,2 bar,andL-shapedfold-up whitevinylhose,24\"bar\nWH-2 100 255 90 Nat.Gas 199,000 Rheem GHE100-200A Note1,2 seat ChicagoFaucet778-9Kvaccumbreaker\nNotes:\nwalloutlet\n1. Provideexpansiontank. TD-1 ACODrainKlassikDrainKS100S 4\"trench,polymer withstainlesssteeledgerailandClassE\n2. Provide4\"PVCintakeand4\"PVCexhaustpipeforatotalequivalentdistanceof65feeteach.\ntrenchdrain concretebody slottedductileirongrate\nUR-1 SloanWEUS-1000.1201-0.13Solis washdowntype,0.13gpf includesSolissolar-poweredsensor 0.13gpf wallcarrier,mountedatADAheight.\nvitreouschinaurinal. 34\"topspud flushvalve. Seearchitecturalelevations\nformountingheight.\nUR-2 SloanWEUS-1000.1201-0.13Solis washdowntype,0.13gpf includesSolissolar-poweredsensor 0.13gpf wallcarrier,mountedatstandard\nvitreouschinaurinal. 34\"topspud flushvalve. heightSeearchitectural\nSUMPPUMPSCHEDULE elevationsformountingheight.\nPLAN HEAD PUMP SYSTEM ELECTRICAL MODELNO. WC-1 SloanWETS-2050.1201-1.28Solis elongated,wallhung includesSolissolar-poweredsensor 1.28gpf openfrontseat,lesscover,with whiteseat\nMARK GPM (FT) TYPE TYPE HP VOLTS PH (NOTE1) USAGE NOTES vitreouschinatoilet flushvalve checkhinges,heavydutywall andfixture\nSP-1 50 30 Submersible Simplex 12 120 1 SPD50H ElevatorPit 2 carrier,seearchitectural\nSP-2 40 16 Submersible Duplex 12 120 1 OSP50A1 3\nelevationsformountingheight\nNOTES:\nWC-2 SloanWETS-2052.1201-1.61.1SolisDF elongated,wallhung includesSolissolar-poweredsensor 1.61.1gpf openfrontseat,lesscover,with whiteseat\n1.SelectionbasedonHydromatic.Seespecificationsforotherapprovedmanufacturers.\n2.Providewith24\"diameterx30\"deepsumpbasinwithperforatedcover.Pumptobecontrolledbymanualswitch. dualflushvitreouschinatoilet dualflushvalve checkhinges,heavydutywall andfixture\ncarrier,seearchitectural\n3.Providewith36\"diameterx48\"deepsumpbasin,withduplexsteelcoverandHydromaticPUMP+alternatorandhighlimitalarm.\nelevationsformountingheight\nWC-3 SloanWETS2000.1201-1.28Solis elongated,floormounted includesSolissolar-poweredsensor 1.28gpf Openfrontseat,lesscover, whiteseat\nvitreouschinatoilet standardheight flushvalve. withcheckhinges. andfixture.\nFlangepackagewithsettingseal\nandboltcaps\nWC-4 SloanWETS2020.1201-1.28Solis elongated,floormounted includesSolissolar-poweredsensor 1.28gpf Openfrontseat,lesscover, whiteseat\nCIRCULATINGPUMPSCHEDULE\nvitreouschinatoilet ADAheight flushvalve. withcheckhinges. andfixture.\nHEAD\nFlangepackagewithsettingseal\nPLAN FT. WATER SIZE MOTOR\nandboltcaps\nMARK GPM WATER TEMP. SUCTxDISCH RPM HP VOLTS PH MANUFACTURER&MODELNO. SERVICE\nWC-5 SloanWETS-2050.1201-1.28Solis elongated,wallhung includesSolissolar-poweredsensor 1.28gpf openfrontseat,lesscover,with whiteseat\nCP-1 12 26 140 34\"x34\" 3300 16 120 1 Bell&GossettSeriesPL-Bronze DHWRecirculating\nvitreouschinatoilet ADAheight flushvalve checkhinges,heavydutywall andfixture\ncarrier,seearchitectural\nelevationsformountingheight\nWC-6 SloanWETS-2052.1201-1.61.1SolisDF elongated,wallhung includesSolissolar-poweredsensor 1.61.1gpf openfrontseat,lesscover,with whiteseat\ndualflushvitreouschinatoilet ADAheight dualflushvalve checkhinges,heavydutywall andfixture\ncarrier,seearchitectural\nelevationsformountingheight\nNOTES:\n1. Ingeneral,refertoArchitecturalelevationsformountingheightsofallfixtures.ContractortoconfirmwhichfixturesaretocomplywithADAmountingrequirementspriortorough-inof\npiping.\nDESIGNDEVELOPMENTSET-NOTFORCONSTRUCTION",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "ARCHITECTS"
+    ],
+    [
+     "",
+     "3226CenterPt.Rd.NE\nSuite201\nCedarRapids,Iowa\n52402\nt:319.862.0384\nf:319.862.0385"
+    ],
+    [
+     "",
+     "Allreports,plans,\nspecifications,\ncomputerfiles,field\ndata,notes,andother\ndocumentsand\ninstrumentsprepared\nbySolumLang\nArchitects,LLCas\ninstrumentsofservice\nshallremainthe\npropertyofSolum\nLangArchitects,LLC.\nSolumLang\nArchitects,LLCshall\nretainallcommonlaw,\nstatutoryandother\nreservedrights,\nincludingcopyright\nthereto."
+    ]
+   ]
+  },
+  {
+   "source": "Central fire 05 CRCF DD_s - MEP.pdf",
+   "sheet": 323,
+   "header_row": 0,
+   "headers": [
+    "EQUIPMENTSCHEDULE\nPLAN VOLTS HP MAXFUSE DISC\nMARK DESCRIPTION PANEL PH WATTS FLA MCA MOCPD FEEDER @UNIT REMARKS\nAHU-1 AirHandlingUnit 2083 40HP VFD\nCH-1 Chiller 2083 250 300 FWE singlepointpower\nCH-2 Chiller 2083 250 300 FWE singlepointpower\nCH-3 Chiller 2083 250 300 FWE singlepointpower\nCHP-1 CirculatingPump 2083 7.5HP VFD\nCHP-2 CirculatingPump 2083 7.5HP VFD\nCP-1 DomesticCircPump 1201 12HP SPSW\nCUH-1 CabinetUnitHeater 1201 14HP SPSW\nCWP-1 CirculatingPump 2083 7.5HP VFD\nCWP-2 CirculatingPump 2083 7.5HP VFD\nDB-1 DryerBoosterFan 1201 SPSW\nDB-2 DryerBoosterFan 1201 SPSW\nEF-1 ExhaustFan 2083 5HP 303NF\nEF-2 ExhaustFan 2083 5HP 303NF\nEF-3 ExhaustFan 2083 5HP 303NF\nERU-1A EnergyRecoveryUnit-Return 2083 10HP VFD\nERU-1B EnergyRecoveryUnit-Supply 2083 10HP VFD\nERU-1 ERU-Wheel 2083 12HP FWE\nERU-2A EnergyRecoveryUnit-Return 2083 5HP CMS\nERU-2B EnergyRecoveryUnit-Supply 2083 5HP CMS\nERU-3A EnergyRecoveryUnit-Return 2083 5HP CMS\nERU-3B EnergyRecoveryUnit-Supply 2083 5HP CMS\nEWP-1 Pump 2083 10HP VFD\nEWP-2 Pump 2083 10HP VFD\nGWP-1 Pump 2083 15HP VFD\nGWP-2 Pump 2083 15HP VFD\nHP-1 HeatPump 2081 7.6 9.2 15 Note1\nHP-2 HeatPump 2081 7.6 9.2 15 Note1\nHP-3 HeatPump 2081 7.6 9.2 15 Note1\nHP-4 HeatPump 2081 7.6 9.2 15 Note1\nHP-5 HeatPump 2081 7.6 9.2 15 Note1\nHPWP-1 Pump 2083 3HP VFD\nHPWP-2 Pump 2083 3HP VFD\nHWP-1 Pump 2083 10HP VFD\nHWP-2 Pump 2083 10HP VFD\nGT-1 GlycolTank 1201 14HP SPSW\nGT-2 GlycolTank 1201 14HP SPSW\nGT-3 GlycolTank 1201 14HP SPSW\nRFP-1 RadiantFloorPump 1201 FRAC. SPSW\nRFP-2 RadiantFloorPump 1201 FRAC. SPSW\nRFP-3 RadiantFloorPump 1201 FRAC. SPSW\nRFP-4 RadiantFloorPump 1201 FRAC. SPSW\nRFP-5 RadiantFloorPump 1201 FRAC. SPSW\nRFP-6 RadiantFloorPump 1201 FRAC. SPSW\nRFP-7 RadiantFloorPump 1201 FRAC. SPSW\nUH-1-XX GasUnitHeater 1201 FRAC. SSY\nWH-1 GasWaterHeater 1201 FRAC. SPSW\nWH-2 GasWaterHeater 1201 FRAC. SPSW\nKEY:\nCMS =COMB.MOTORSTARTER FWE =FURNISHEDWITHEQUIPMENT SSY =BUSSMANFUSESSWITCHUNIT\nDDC =DIRECTDIGITALCONTROL MCA =MINCKT.AMP WP =WEATHERPROOF\nFLA =FULLLOADAMPS NF =NON-FUSED WS =WITHINSITE\nFRA =FRACTIONALHP SPSW =SINGLEPOLESWITCH VFD =VAR.FREQ.DRIVE\nNOTES:\n1 Providehorsepowerratedswitchfordisconnect.\nCOMBINATIONMOTORSTARTERSCHEDULE\nPLAN VOLTS FUSE ENCLOSURE NEMA MANUFACTURER\nMARK HP PH TYPE SIZE NEMATYPE MTG. SIZE CATALOGNO. KEY REMARKS\nERU-2A 5HP 2083 FVNR 1 Surface 8538-SCG-3 B,G,FT,X(2)\nERU-2B 5HP 2083 FVNR 1 Surface 8538-SCG-3 B,G,FT,X(2)\nERU-3A 5HP 2083 FVNR 1 Surface 8538-SCG-3 B,G,FT,X(2)\nERU-3B 5HP 2083 FVNR 1 Surface 8538-SCG-3 B,G,FT,X(2)\n1 ELECTRICALSCHEMATICRISERDIAGRAM KEY: TYPES:\nA =START-STOPPUSHBUTTON FVNR=FULLVOLTAGENONREVERSING\nE500 NOSCALE\nB =HAND-OFF-AUTOSELECTORSWITCH 2SPD=2SPEED\nC =HI-OFF-LOWTWOSPEEDSELECTORSWITCH RVS=REDUCEDVOLTAGESTART\nG =GREENPILOTLIGHT FVR=FULLVOLTAGEREVERSING\nR =REDPILOTLIGHT\nFT =CONTROLTRANSFORMER120VFUSEDSECONDARY\nX() =ADDITIONALN.O.INTERLOCK(QTY.)\nNOTES:\nFEEDERSCHEDULE 1. VerifycoilvoltagewithMechanicalContractor.\n2. ProvideSquareDorperspecification.\nFEEDER LOADSERVED CONDUITANDWIRESIZE AMPS COMMENTS\nPE UtilityTransformer Five-4\"C,empty NA\nA CTCabinet,MSB,ATS-1 Four3-12\"C,4600Each 1600\nB Dist.BrdDBM Two2-12\"C,4350,11GNDEach 600\nVARIABLEFREQUENCYDRIVESCHEDULE\nC ATS-2,PanelEM 3-12\"C,4600,13GND 400\nD PanelL1-A,L1-B,L2-A,L2-B 2-12\"C,440,14GND 225 VOLTS TOSHIBAHOUSTON\nE PanelLB-A 1-14\"C,43,18GND 100 UNITNO. HP LOCATION PHASE MODELNO.\nF Elev-1 1-14\"C,43,110GND 90 CHP-1 7.5HP MechanicalRoom 2083 Q9-2080\nG PanelElev,T-1,T-2 1\"C,46,110GND 60 CHP-2 7.5HP MechanicalRoom 2083 Q9-2080\nH GeneratorControlWiring 1\"C,empty NA CWP-1 7.5HP MechanicalRoom 2083 Q9-2080\nI PanelT-1andT-2 1\"C,46,210GND 60 Isolatedground CWP-2 7.5HP MechanicalRoom 2083 Q9-2080\nERU-1A 10HP MechanicalRoom 2083 Q9-2110\nERU-1B 10HP MechanicalRoom 2083 Q9-2110\nEWP-1 10HP MechanicalRoom 2083 Q9-2110\nEWP-2 10HP MechanicalRoom 2083 Q9-2110\nTRANSFERSWITCHSCHEDULE\nGWP-1 15HP MechanicalRoom 2083 Q9-2160\nPLAN SIZE TRANSFER ENCLOSURE MANUFACTURERAND GWP-2 15HP MechanicalRoom 2083 Q9-2160\nMARK AMPS VOLTS SYSTEM TYPE NEMATYPE MOUNTING MODELNUMBER REMARKS HPWP-1 5HP MechanicalRoom 2083 Q9-2055\nATS-1 1600 120208 Programmed OPEN 1 Surface HPWP-2 5HP MechanicalRoom 2083 Q9-2055\nHWP-1 10HP MechanicalRoom 2083 Q9-2110\nHWP-2 10HP MechanicalRoom 2083 Q9-2110\nNOTES:\n1. ProvideToshibaHoustonorperspecifications.\n2. Foreachunit,provideanEMIRFIfilter,AClinereactor(5),DClinkreactor,\nmanualbypass,andbuilt-incircuitbreaker.***EDITPERPROJECT***\n3. Thehorsepowerratingisforthemotor,nottheVFD.TheVFDshallberated\ntocarrythefullloadamps(FLA)ofthemotorwithoutusingtheoverload\nratingofVFD.\nDESIGNDEVELOPMENTSET-NOTFORCONSTRUCTION",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "ARCHITECTS"
+    ],
+    [
+     "",
+     "3226CenterPt.Rd.NE\nSuite201\nCedarRapids,Iowa\n52402\nt:319.862.0384\nf:319.862.0385"
+    ],
+    [
+     "",
+     "Allreports,plans,\nspecifications,\ncomputerfiles,field\ndata,notes,andother\ndocumentsand\ninstrumentsprepared\nbySolumLang\nArchitects,LLCas\ninstrumentsofservice\nshallremainthe\npropertyofSolum\nLangArchitects,LLC.\nSolumLang\nArchitects,LLCshall\nretainallcommonlaw,\nstatutoryandother\nreservedrights,\nincludingcopyright\nthereto."
+    ]
+   ]
+  },
+  {
+   "source": "Central fire 05 CRCF DD_s - MEP.pdf",
+   "sheet": 325,
+   "header_row": 1,
+   "headers": [
+    "PLAN\nMARK",
+    "DESCRIPTION",
+    "PANEL",
+    "VOLTS\nPH",
+    "HP\nWATTS",
+    "FLA",
+    "MCA",
+    "MAXFUSE\nMOCPD",
+    "FEEDER",
+    "DISC\n@UNIT",
+    "REMARKS"
+   ],
+   "score": 2,
+   "n_rows": 48,
+   "sample": [
+    [
+     "AHU-1",
+     "AirHandlingUnit",
+     "",
+     "2083",
+     "40HP",
+     "",
+     "",
+     "",
+     "",
+     "VFD",
+     ""
+    ],
+    [
+     "CH-1",
+     "Chiller",
+     "",
+     "2083",
+     "",
+     "",
+     "250",
+     "300",
+     "",
+     "FWE",
+     "singlepointpower"
+    ],
+    [
+     "CH-2",
+     "Chiller",
+     "",
+     "2083",
+     "",
+     "",
+     "250",
+     "300",
+     "",
+     "FWE",
+     "singlepointpower"
+    ]
+   ]
+  },
+  {
+   "source": "Central fire 05 CRCF DD_s - MEP.pdf",
+   "sheet": 349,
+   "header_row": 0,
+   "headers": [
+    "LIGHTFIXTURESCHEDULE OCCUPANCYSENSORDIMMERSCHEDULE\nPLAN MANUFACTURERSAND LAMPSINFIXTURE BALLASTS INPUT FIXTURE PLANMARK MANUFACTURER&MODELNO. DESCRIPTION MOUNTING REMARKS\nMARK MODELNUMBERS DESCRIPTION NO. SIZETYPE NO. WATTS VOLTS MOUNTING NOTES OSA WattStopperDT-300 DualTechnologySensor Ceiling\nHubbellBuildingAutomation Low-Voltage\nCA KurtVersenP633 7-14\"Downlight 2 26wQT 1 120 Recessed\nOSB WattStopperWT-2250 UltrasonicSensor Ceiling Corridors\nHubbellBuildingAutomation Low-Voltage\nFA LithoniaTZ228T5Z5SMR46MVOLTGEB10PSTILWWGZ46HC36 8'IndustrialStripLight 4 F28WT5841ECO 2 120 Chain 2,3\nOSC WattStopperDW-100-W DualTechnologySensor Wall\nHubbellBuildingAutomation Line-Voltage\nFB LithoniaZ228T5Z5SMR46120GEB10PS 4'IndustrialStripLight 2 F28WT5841ECO 1 60 120 Chain 2\nOSD WattStopperWT-1100 UltrasonicSensor Ceiling\nHubbellBuildingAutomation Low-Voltage\nFC Lithonia2RT528T5FMVOLTGEB10PSLPM841P 2x4VolumetricTroffer 2 F28WT5841ECO 1 60 120 Recessed OSE WattStopperHB350W-L3 PassiveInfraredSensor Ceiling parkingGarage\nHubbellBuildingAutomation Line-Voltage\nFD LithoniaLB228120GEB10PS 1x4LensedWrap 2 F28WT5841ECO 1 60 120 Surface PS WattStopperLS-290C Photosensor Ceiling\nHubbellBuildingAutomation\nFE LithoniaLB228120GEB10IS 1x4LensedWrap 2 F28WT5841ECO 1 60 120 Surface D1 LutronNTF-10-120 Dimmer Wall\nFG Lithonia2RT514T5MVOLTGEB115LP841 2x2VolumetricTroffer 2 F14WT5841ECO 1 34 120 Recessed\nFH LithoniaDMW248T8HO120GEB10PSIP67BCDHC36 1x4WetLocation 2 F32T8XLSPX41HLECO 1 60 120 Chain REMARKS:\nAppartusBay 1. GENERALITEMS:\nFJ Lithonia2GT8317A12125120GEB10RS 2x2LensedTroffer 2 F17T8XLSPX41ECO 1 120 Recessed a. Provide10'ofadditionalwiringaboveceilingtile.\nb. Supportcontrolwiringinanorganizedfashion.\nc. Mountnocloserthan6'toairsupplyreturndiffusers.\nFK Lithonia2GT8232A12125120GEB10RS 2x4LensedTroffer 2 F32T8XLSPX41ECO 1 60 120 Recessed\nd. Manufacturershallincludeapreconstructionmeetingandcommissioning\nofthelightingcontrols.\nFKA Lithonia2GT8332A12125120GEB10RS 2x4LensedTroffer 3 F32T8XLSPX41ECO 2 85 120 Recessed\ne. Provide20Aratedpowerpackswithzerocrossswitchingtechnology,\nWattStopperBZ-150powerpacksorequivalentinallspaces.\nFL LithoniaWP117120GEB10PS 2'VanityLight 1 F17T8XLSPX41ECO 1 17 120 Surface\n2.\nFM LithoniaWP232MVOLTGEB10PS 4'VanityLight 2 F32T8XLSPX841ECO 2 60 MVOLT Wall\nLensedTroffer\nFO LithoniaVWC232A12MVOLTGEB10PS 1x4LensedWrap 2 F32T8XLSPX841ECO 1 60 120 Wall\nVandalResistant\nFP KurtzonHL-F-2x4-3T8-120V-EBPRS-HLA 2x4HazardousLocation 3 F32T8XLSPX841ECO 2 90 120 Recessed\nLensedTroffer\nFQ ElliptiparF106A-A232-X-02-2-00-VECXX180-VEDXX180-AFE06020 8'DirectSymetric 2 F32T8XLSPX841ECO 1 60 120 Wall\nWallWasher\nHA GardcoGL1814130LANWUNIVBRPPCSQPTF SingleHeadArea NA 130WLED NA 130 208 Pole\nw25'squarestraightsteelpole Lightw25'Pole\nTypeIVHS\nHB WinonaWSL305W206540KND24VASGBSEXSTD ExteriorFascadelight NA LED 1 300 24 Surface\nHC GardcoGL13W470LANWUNIVBRPPCR ExteriorWallPack NA 70WLED NA 70 120 Wall\nHD Bega2242MH RampEntry 1 70WCMH 1 95 120 Wall\nWallPack\nHE VisaOW13342FS21PTD-BRNZPTD-BRNZ ExteriorWallSconce NA 39WFluor. NA 42 120 Wall\nHF GardcoDSP7STE17-WSP70CMHE120BRP FlagpoleLight 1 70WCMH Inc. 95 120 Ground\nHG Bega8851MH-300 IngradeFirePoleLight 1 38WT4CMH 1 55 120 Ground\nHJ VisaOW13342FS21PTD-BRNZPTD-BRNZ MainEntrySconce 1 39WFluor. 1 42 120 Wall\nHK ElliptiparM154-250C-S-06-1 ExteriorWallgrazers 1 150WCMH 1 195 120 Ground\nHL Bega4402P ExteriorCanopyLights 1 F54WT5841ECO 1 76 120 Ceiling\nHM Bega2380LED In-wallPathwaylights NA LED NA 12 120 Wall\nIA PeerlessEGRM9254T5HOR8120GEB10SCTLLPF118ACG SuspendedIndirectDirect 2 F54WT5841ECO 1 120 120 Suspended\n(per4'section)\nIB PeerlessEGRM9254T5HOR8120GEB10SCTLLPF118ACG 16'Suspended 8 F54WT5841ECO 2 120 Suspended\nIndirectDirect\nIC PeerlessEGRM9254T5HOR8120GEB10SCTLLPF118ACG 24'Suspended 12 F54WT5841ECO\nIndirectDirect\nID PeerlessEGRM9254T5HOR8120GEB10SCTLLPF118ACG 36'Suspended\nIndirectDirect\nIE PeerlessEGRW4254T5HO8R8120GEB10SCTLLPC100 8'Wallmounted 2 F54WT5841ECO 1 120 120 Wall\nDirectIndirect\nLA LightolierC6L20N1C6L1520DL40KMCCLW 6\"RoundDownlight NA 39WLED NA 40 120 Recessed\nLED\nLB EMCOELG-MR570LANWUNIVNPPB LEDGarageLighter NA 70WLED NA 70 120 Surface\nLC LightolierC4L10N1C4L10DL40KCCLW 4\"RoundDownlight NA 20WLED NA 20 120 Recessed\nLED\nPA Bruck222909CHMP ClearGlobeMono-point NA 3WLED NA 6 120 Suspended\nPB LimburgL5269 DecorativePendant 1 70WMH 1 95 120 Suspended\nMainEntry\nPC LimburgL5268 SmallDecorativePendant 1 42WCFLTRT 1 120 Suspended\nMainStair\nXA LithoniaLRPW1RC120277ELN EdgeLitExitSign NA LED NA 5 120 Var.\nRedWhite\nXB LithoniaELM2LEDHO EmergencyWallPack 2 LED NA 2 120 Wall\nLED\nXC LithoniaLHQMLEDRHOSD ComboExitEmergency NA LED NA 5 120 Ceiling\nUnit\nNOTES:\n1. GeneralItems:\na.Allfluorescentandcompactfluorescentballaststobelowharmonicelectronictype.Alllinevoltageinincandescentlampstobe130Vrated.\nb.LampnumbersbasedonG.E.Lighting,unlessnotedotherwise.\nc.ProvideOwnerwillacompletesetofsparelampsforeachfixture.\n2. Chainsuspendfixturesfromstructure.Coordinatefixturelocationswithmechanicalequipment,ductwork,andothertradesinspacebeforeinstallation.\n3. Providefixturewithsymetricreflectorandwireguardforeach46\"lengthofthetandemfixture.\nFSRFL-500P-6FLOORBOXRACEWAYDETAIL\n1\nNOSCALE\nREFERTOTELECOMMUNICATIONS\nDRAWINGSFORANYADDITIONAL\nELECTRICALWORK\nDESIGNDEVELOPMENTSET-NOTFORCONSTRUCTION",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "",
+     "ARCHITECTS"
+    ],
+    [
+     "",
+     "3226CenterPt.Rd.NE\nSuite201\nCedarRapids,Iowa\n52402\nt:319.862.0384\nf:319.862.0385"
+    ],
+    [
+     "",
+     "Allreports,plans,\nspecifications,\ncomputerfiles,field\ndata,notes,andother\ndocumentsand\ninstrumentsprepared\nbySolumLang\nArchitects,LLCas\ninstrumentsofservice\nshallremainthe\npropertyofSolum\nLangArchitects,LLC.\nSolumLang\nArchitects,LLCshall\nretainallcommonlaw,\nstatutoryandother\nreservedrights,\nincludingcopyright\nthereto."
+    ]
+   ]
+  },
+  {
+   "source": "NW Recreation As-Builts.pdf",
+   "sheet": 123,
+   "header_row": 1,
+   "headers": [
+    "CLEANOUT\n(CO-E)\nEXTERIOR\nEXPANSION JOINT",
+    "(1) BODY: CAST IRON BODY WITH ADJUSTABLE HOUSING AND TAPERED\nTHREAD OR GASKET SEAL COUNTERSUNK BRONZE PLUG. OUTLET TYPE\nAS REQUIRED BY PIPE. PROVIDE EXPANSION JOINT IN PIPING (EQUAL TO\nWADE 3900, WATTS CO-200-R, ZURN ZRB-190).\n(2) TOP: CAST IRON SCORIATED TOP WITH LOADING CLASSIFICATIONS:\nLIGHT DUTY - EARTH OR GRASS, FOOT TRAFFIC AREAS\nMEDIUM DUTY - PAVED, FOOT TRAFFIC AREAS\nHEAVY DUTY - VEHICLE-TRAFFIC SERVICE AREAS\n(3) SIZE AND LOCATE AS REQUIRED BY CODE. PROVIDE PIPE ADAPTER\nFITTINGS AS REQUIRED.\n(4) MOUNT TOP OF CLEANOUT FLUSH WITH GRADE AND EXPANSION JOINT IN\nPIPING BELOW GRADE. REFER TO CLEANOUT TO GRADE DETAIL."
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "CLEANOUT\n(CO-F)\nFLOOR\nROUND",
+     "(1) BODY: CAST IRON BODY WITH THREADED ADJUSTABLE HOUSING AND\nTAPERED THREAD OR GASKET SEAL COUNTERSUNK BRONZE PLUG.\nOUTLET TYPE AS REQUIRED BY PIPE MATERIAL (EQUAL TO WADE 6000\nSERIES, WATTS CO-200-R, ZURN ZN-1400).\n(2) TOP: POLISHED NICKEL BRONZE SCORIATED TOP FOR FINISHED AREAS;\nCAST IRON SCORIATED TOP FOR UNFINISHED AREAS; OR AS INDICATED\nON DRAWINGS FOR SPECIAL APPLICATIONS.\n(3) SIZE AND LOCATE AS REQUIRED BY CODE. PROVIDE PIPE ADAPTER\nFITTINGS AS REQUIRED.\n(4) MOUNT TOP FLUSH WITH FLOOR AS DIRECTED BY GENERAL\nCONTRACTOR."
+    ],
+    [
+     "DISPOSAL\n(D-A)\nUNDERSINK",
+     "(1) 1/2 HP, STAINLESS STEEL GRINDING COMPONENTS, NICKEL CHROME\nALLOY SHREDDER, CUSHIONED ANTI-SPLASH BAFFLE, PROVIDE WITH\nCORDED THREE PRONG PLUG. ONE-PIECE STAINLESS STEEL STOPPER\n(EQUAL TO IN-SINK-ERATOR LC-50).\n(2) MOUNT TO SINK DRAIN AS INDICATED ON DRAWINGS.\n(3) ELECTRICAL: 1/2 HP, 5.8 AMP, 120 V / 1 PH.\n(4) PROVIDE MINIMUM PIPE CONNECTIONS TO D INCLUDING: 2\" W."
+    ],
+    [
+     "DOWNSPOUT OUTLET\n(DSO-A)\nEXPOSED",
+     "(1) ALL CAST BRONZE CONSTRUCTION DOWNSPOUT NOZZLE WITH SATIN\nBRONZE FINISH, WALL FLANGE, AND THREADED INLET (EQUAL TO ZURN\nZAB-199,).\n(2) SIZE AS INDICATED ON THE DRAWINGS.\n(3) MOUNT 24\u201d ABOVE GRADE.\n(4) PROVIDE MINIMUM PIPE CONNECTIONS TO DSO AS SHOWN ON DRAWINGS."
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
+ ],
+ "latency": {
+  "bid_seconds": 819.2,
+  "attachment_fetches": 28,
+  "attachment_seconds": 159.0,
+  "attachment_bytes": 99492881,
+  "max_fetch_seconds": 45.92,
+  "throttle_signals": 3,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-24T08:34:46.639438+00:00",
+ "extract_attempts": 1,
+ "lines_total": 46,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-cedar-rapids-ia-pur0626-356-addendum-3/coverage.json"
+}

@@ -1,0 +1,155 @@
+{
+ "bid_id": "city-of-ames-ia-2027-019",
+ "bid_number": "2027-019",
+ "agency": "City of Ames, IA",
+ "src": "Open",
+ "title": "Access Control Upgrade at the Power Plant",
+ "close": "8/28/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 6,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Cost per door to upgrade access system",
+   "qty": "42",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Cost per door to upgrade access system 42 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Cost per camera license",
+   "qty": "8",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Cost per camera license 8 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Annual cost for support and maintenance",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Annual cost for support and maintenance 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Cost for Server system",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Cost for Server system 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Cost of any additional fees or equipment not included above.",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Cost of any additional fees or equipment not included above. 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "7",
+   "desc": "Identify the dollar amount of Iowa sales tax (7%) to be added to the total",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Identify the dollar amount of Iowa sales tax (7%) to be added to the total 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2027-019 Scope of Work.pdf",
+  "Instructions to Bidders _ Conditions - Standard.pdf",
+  "Insurance - Services - Companies.pdf",
+  "Performance _ Payment Bond _FF_.pdf",
+  "Affirmative Action Compliance Forms 8-25-23.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027-019 Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions to Bidders _ Conditions - Standard.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance - Services - Companies.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Performance _ Payment Bond _FF_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Affirmative Action Compliance Forms 8-25-23.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 14.6,
+  "attachment_fetches": 5,
+  "attachment_seconds": 3.6,
+  "attachment_bytes": 823913,
+  "max_fetch_seconds": 1.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-24T08:17:26.294763+00:00",
+ "extract_attempts": 1,
+ "lines_total": 6,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-ames-ia-2027-019/coverage.json"
+}

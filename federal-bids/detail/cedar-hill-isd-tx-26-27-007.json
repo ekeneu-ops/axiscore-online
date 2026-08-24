@@ -1,0 +1,95 @@
+{
+ "bid_id": "cedar-hill-isd-tx-26-27-007",
+ "bid_number": "26/27 - 007",
+ "agency": "Cedar Hill ISD, TX",
+ "src": "Open",
+ "title": "Sale of Real Property Vacant Land, Fifteen (15) acres on W. Belt Line Road, Cedar Hill, Dallas County, TX 75104",
+ "close": "8/28/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "1560 W. Beltline Road, Cedar Hill, TX 75104 Minimum Bid $780,000.00",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 1560 W. Beltline Road, Cedar Hill, TX 75104 Minimum Bid $780,000.00 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Conflict_of_Interest_Form.pdf",
+  "STANDARD_TERMS.pdf",
+  "W-9_Form.pdf",
+  "Bid Form - Purchase of Property.pdf",
+  "EBG CHISD TBD Belt Line _2_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Conflict_of_Interest_Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "STANDARD_TERMS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9_Form.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form - Purchase of Property.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "EBG CHISD TBD Belt Line _2_.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 20.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 7.8,
+  "attachment_bytes": 3645547,
+  "max_fetch_seconds": 3.86,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-24T08:19:52.919010+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/cedar-hill-isd-tx-26-27-007/coverage.json"
+}

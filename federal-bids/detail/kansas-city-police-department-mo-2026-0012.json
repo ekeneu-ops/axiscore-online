@@ -1,0 +1,106 @@
+{
+ "bid_id": "kansas-city-police-department-mo-2026-0012",
+ "bid_number": "2026-0012",
+ "agency": "Kansas City Police Department, MO",
+ "src": "Open",
+ "title": "Sale of Surplus Weaponry",
+ "close": "8/31/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 186,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 2026-0012 Sale of Surplus Weaponry Spreadsheet.xlsx",
+  "Federal Award Verification Form.docx",
+  "Reference Information Sheet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2026-0012 Sale of Surplus Weaponry Spreadsheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Federal Award Verification Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Reference Information Sheet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP 2026-0012 Sale of Surplus Weaponry Spreadsheet.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Make",
+    "Model",
+    "Caliber",
+    "Serial No.",
+    "Price"
+   ],
+   "score": 2,
+   "n_rows": 186,
+   "sample": [
+    [
+     "Rifle",
+     "BUSHMASTER",
+     "XM 15-E2S",
+     "5.56 MM",
+     "ARA033626",
+     ""
+    ],
+    [
+     "Rifle",
+     "BUSHMASTER",
+     "XM 15-E2S",
+     "5.56 MM",
+     "ARA033627",
+     ""
+    ],
+    [
+     "Rifle",
+     "BUSHMASTER",
+     "XM 15-E2S",
+     "5.56 MM",
+     "ARA033698",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.3,
+  "attachment_fetches": 3,
+  "attachment_seconds": 5.6,
+  "attachment_bytes": 371941,
+  "max_fetch_seconds": 4.07,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-24T08:45:48.637895+00:00",
+ "extract_attempts": 1,
+ "lines_total": 183,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/kansas-city-police-department-mo-2026-0012/coverage.json"
+}

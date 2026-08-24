@@ -1,0 +1,107 @@
+{
+ "bid_id": "city-of-warner-robins-ga-26-f-4797",
+ "bid_number": "26-F-4797",
+ "agency": "City of Warner Robins, GA",
+ "src": "Open",
+ "title": "Fire Department Light Duty Emergency Vehicles",
+ "close": "8/28/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "2026 Ford Maverick XL AWD SuperCrew Pickup Truck",
+   "qty": "2",
+   "uom": "Each",
+   "note": "Vehicle shall be delivered complete, serviced, and ready for operation. Bid price must include destination charges, dealer preparation, delivery, title fees, and all other applicable costs, excluding taxes from which the City is exempt. Bidders shall provide the manufacturer, model, model year, complete specifications, warranty information, estimated delivery date, and anticipated lead time for each vehicle offered. Any deviation from the specifications must be clearly identified with the bid response. Failure to identify an exception will constitute the bidder\u2019s agreement to furnish vehicles fully compliant with the specifications. Vehicles must be new and unused, with no prior retail owner or registration. Vehicles shall not be demos, rental vehicles, previously titled vehicles, or vehicles with aftermarket modifications unless specifically approved by the City. The City may award by individual line item, in whole or in part, based on availability, compliance with specifications, delivery timeframe, and total cost.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 2026 Ford Maverick XL AWD SuperCrew Pickup Truck 2 Each No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "2026 Ford Police Interceptor Utility AWD",
+   "qty": "2",
+   "uom": "",
+   "note": "Vehicle shall be delivered complete, serviced, and ready for operation. Bid price must include destination charges, dealer preparation, delivery, title fees, and all other applicable costs, excluding taxes from which the City is exempt. Bidders shall provide the manufacturer, model, model year, complete specifications, warranty information, estimated delivery date, and anticipated lead time for each vehicle offered. Any deviation from the specifications must be clearly identified with the bid response. Failure to identify an exception will constitute the bidder\u2019s agreement to furnish vehicles fully compliant with the specifications. Vehicles must be new and unused, with no prior retail owner or registration. Vehicles shall not be demos, rental vehicles, previously titled vehicles, or vehicles with aftermarket modifications unless specifically approved by the City. The City may award by individual line item, in whole or in part, based on availability, compliance with specifications, delivery timeframe, and total cost.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 2026 Ford Police Interceptor Utility AWD 2 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-F-4797 Line Item 1 Specs.pdf",
+  "26-F-4797 Line Item 2 Specs.pdf",
+  "26-F-4797 Fire Department Light-Duty Emergency Vehicles ITB.pdf",
+  "Non-Collusion Affidavit of Vendor.pdf",
+  "Absence of Conflict of Interest OCGA 36-80-28.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-F-4797 Line Item 1 Specs.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-F-4797 Line Item 2 Specs.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-F-4797 Fire Department Light-Duty Emergency Vehicles ITB.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusion Affidavit of Vendor.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Absence of Conflict of Interest OCGA 36-80-28.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 16.6,
+  "attachment_fetches": 5,
+  "attachment_seconds": 5.2,
+  "attachment_bytes": 1047788,
+  "max_fetch_seconds": 1.23,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-24T08:21:05.945646+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 1,
+ "coverage_pct": 50.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-warner-robins-ga-26-f-4797/coverage.json"
+}

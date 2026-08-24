@@ -1,0 +1,67 @@
+{
+ "bid_id": "city-of-lauderhill-fl-2026-041-addendum-1",
+ "bid_number": "2026-041 Addendum 1",
+ "agency": "City of Lauderhill, FL",
+ "src": "Open",
+ "title": "COMMUNITY SHUTTLE BUS & MICRO TRANSIT SERVICE",
+ "close": "8/31/2026 02:45 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 2026-041 COMMUNITY SHUTTLE BUS _ MICRO TRANSIT SERVICE.pdf",
+  "Exhibit B Community Shuttle Routes and Schedules.pdf",
+  "Exhibit D - Local Vendor Preference Ordinance.pdf",
+  "Annual Operating Funding.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2026-041 COMMUNITY SHUTTLE BUS _ MICRO TRANSIT SERVICE.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B Community Shuttle Routes and Schedules.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D - Local Vendor Preference Ordinance.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Annual Operating Funding.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.1,
+  "attachment_fetches": 4,
+  "attachment_seconds": 4.8,
+  "attachment_bytes": 1265583,
+  "max_fetch_seconds": 1.8,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-24T08:46:35.857670+00:00",
+ "extract_attempts": 1
+}

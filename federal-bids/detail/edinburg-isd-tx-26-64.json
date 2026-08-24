@@ -1,0 +1,91 @@
+{
+ "bid_id": "edinburg-isd-tx-26-64",
+ "bid_number": "26-64",
+ "agency": "Edinburg ISD , TX",
+ "src": "Open",
+ "title": "ARMATURE WORKS & REPAIR",
+ "close": "8/28/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Hourly rate for equipment repairs & modifying parts in vendors shop.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Hourly rate for equipment repairs & modifying parts in vendors shop. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Hourly rate for equipment repairs & modifying parts on site.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Hourly rate for equipment repairs & modifying parts on site. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
+  "CIQ Form.pdf",
+  "W9 _ Direct Deposit Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9 _ Direct Deposit Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 19.7,
+  "attachment_fetches": 3,
+  "attachment_seconds": 6.7,
+  "attachment_bytes": 852495,
+  "max_fetch_seconds": 4.05,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-24T08:20:26.032349+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/edinburg-isd-tx-26-64/coverage.json"
+}
