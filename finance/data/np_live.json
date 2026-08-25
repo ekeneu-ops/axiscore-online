@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-25T07:11Z",
+ "asof": "2026-08-25T07:41Z",
  "ap": {
   "net": 279080.16,
   "credits": 6419.32,
@@ -19,16 +19,16 @@
     "total": 428.14
    },
    "PAY": {
-    "count": 2978,
-    "total": 251325.6
+    "count": 3129,
+    "total": 264529.72
    },
    "REVIEW": {
-    "count": 108,
-    "total": 9619.11
+    "count": 110,
+    "total": 9668.91
    },
    "UNSCORED": {
-    "count": 169,
-    "total": 14268.07
+    "count": 16,
+    "total": 1014.15
    },
    "PARKED": {
     "count": 31,
@@ -49,8 +49,8 @@
     "total": 70363.87
    }
   },
-  "asof": "2026-08-25T07:11Z",
-  "moved_pct": 5.06
+  "asof": "2026-08-25T07:41Z",
+  "moved_pct": 0.0
  },
  "held": {
   "net": 268795.49,
@@ -65,25 +65,25 @@
   "fev_through": "2026-08-25T05:32Z",
   "deferred_snapshot": "2026-08-25T07:06Z",
   "last_settlement_end": "2026-08-11",
-  "asof": "2026-08-25T07:11Z",
-  "moved_pct": -0.17
+  "asof": "2026-08-25T07:41Z",
+  "moved_pct": 0.0
  },
  "fba": {
-  "value": 8574.53,
-  "qty": 333,
-  "cost_gross": 12266.13,
-  "cost_after_prep": 8155.29,
-  "est_sales": 14400.73,
-  "erp_updated_at": "2026-08-24 21:30:05",
-  "asof": "2026-08-25T07:11Z"
+  "value": 8521.59,
+  "qty": 331,
+  "cost_gross": 12192.5,
+  "cost_after_prep": 8103.83,
+  "est_sales": 14324.55,
+  "erp_updated_at": "2026-08-25 06:30:07",
+  "asof": "2026-08-25T07:41Z"
  },
  "amex": {
-  "owed": 2163.18,
+  "owed": 2183.2,
   "last_autopay": "2026-08-22",
-  "txn_count": 4,
-  "pending_amt": 0.0,
-  "last_txn": "2026-08-23",
-  "asof": "2026-08-25T07:11Z"
+  "txn_count": 5,
+  "pending_amt": 20.02,
+  "last_txn": "2026-08-24",
+  "asof": "2026-08-25T07:41Z"
  },
  "card_in_transit": {
   "amount": 5049.87,
@@ -91,6 +91,6 @@
   "basis": "authnet",
   "oldest_days": 3,
   "deposits_through": "2026-08-22",
-  "asof": "2026-08-25T07:11Z"
+  "asof": "2026-08-25T07:41Z"
  }
 }
