@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-26T21:36Z",
+ "asof": "2026-08-26T22:43Z",
  "ap": {
   "net": 301091.35,
   "credits": 10011.19,
@@ -10,25 +10,13 @@
     "count": 76,
     "total": 59200.49
    },
-   "UNRESOLVED": {
-    "count": 4,
-    "total": 3439.24
-   },
-   "WAIT": {
-    "count": 9,
-    "total": 428.14
-   },
    "PAY": {
-    "count": 3273,
-    "total": 282379.99
-   },
-   "REVIEW": {
-    "count": 122,
-    "total": 10274.14
+    "count": 34,
+    "total": 15378.36
    },
    "UNSCORED": {
-    "count": 56,
-    "total": 4569.84
+    "count": 3430,
+    "total": 285712.99
    },
    "PARKED": {
     "count": 31,
@@ -49,33 +37,33 @@
     "total": 80618.33
    }
   },
-  "asof": "2026-08-26T21:36Z",
+  "asof": "2026-08-26T22:43Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 172385.06,
-  "order_count": 1629,
+  "net": 183616.37,
+  "order_count": 1707,
   "walk": {
-   "released": 9933.07,
+   "released": 10011.4,
    "postsettle": 79.43,
-   "refunds": -2527.96,
+   "refunds": -2541.7,
    "account_events": -125.75,
-   "deferred": 165026.27
+   "deferred": 176192.99
   },
-  "fev_through": "2026-08-26T19:40Z",
-  "deferred_snapshot": "2026-08-26T21:06Z",
+  "fev_through": "2026-08-26T21:59Z",
+  "deferred_snapshot": "2026-08-26T22:06Z",
   "last_settlement_end": "2026-08-25",
-  "asof": "2026-08-26T21:36Z",
-  "moved_pct": 0.0
+  "asof": "2026-08-26T22:43Z",
+  "moved_pct": 6.52
  },
  "fba": {
-  "value": 8522.39,
-  "qty": 331,
-  "cost_gross": 12142.49,
-  "cost_after_prep": 8112.65,
-  "est_sales": 14191.33,
-  "erp_updated_at": "2026-08-26 06:30:07",
-  "asof": "2026-08-26T21:36Z"
+  "value": 8432.42,
+  "qty": 327,
+  "cost_gross": 12022.81,
+  "cost_after_prep": 8027.56,
+  "est_sales": 14117.08,
+  "erp_updated_at": "2026-08-26 21:30:07",
+  "asof": "2026-08-26T22:43Z"
  },
  "amex": {
   "owed": 2843.28,
@@ -83,7 +71,7 @@
   "txn_count": 9,
   "pending_amt": 671.81,
   "last_txn": "2026-08-26",
-  "asof": "2026-08-26T21:36Z"
+  "asof": "2026-08-26T22:43Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -91,6 +79,6 @@
   "basis": "authnet",
   "oldest_days": null,
   "deposits_through": "2026-08-26",
-  "asof": "2026-08-26T21:36Z"
+  "asof": "2026-08-26T22:43Z"
  }
 }
