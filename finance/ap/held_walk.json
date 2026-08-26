@@ -1,20 +1,20 @@
 {
- "asof": "2026-08-26T08:39Z",
- "net": null,
- "suspect": true,
- "alert": "SUSPECT: held.net moved -39.6% day-over-day (prev 282074.06 -> new 170263.74); publish suppressed pending review",
+ "asof": "2026-08-26T14:41Z",
+ "net": 170292.89,
+ "suspect": false,
+ "alert": null,
  "walk": {
-  "released_net": 3266.11,
-  "released_orders": 30,
-  "postsettle_net": 52.95,
-  "refunds_pending": -1276.9,
+  "released_net": 7016.79,
+  "released_orders": 98,
+  "postsettle_net": 66.19,
+  "refunds_pending": -2215.83,
   "account_events": -7.46,
-  "deferred_net": 168229.04,
-  "deferred_txns": 1688,
-  "deferred_orders": 1591,
-  "deferred_snapshot": "2026-08-26T08:06Z",
+  "deferred_net": 165433.2,
+  "deferred_txns": 1598,
+  "deferred_orders": 1528,
+  "deferred_snapshot": "2026-08-26T14:06Z",
   "last_settlement_end": "2026-08-25",
-  "fev_through": "2026-08-26T07:57Z"
+  "fev_through": "2026-08-26T13:52Z"
  },
  "validated": {
   "at": "2026-06-12T02:15Z",
