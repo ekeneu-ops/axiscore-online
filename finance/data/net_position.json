@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T00:59:54.318999+00:00",
+  "generated_at": "2026-08-26T02:27:01.890433+00:00",
   "source_pipeline": "aws_finance_read_runner",
   "schema": "net_position_v3",
   "ap": {
@@ -44,7 +44,7 @@
     "note": "MANUAL \u2014 unsold FBA stock valued at $10,500 by Ekene 2026-07-25. Inventory at cost, NOT cash: it converts only as units sell and Amazon settles. Included in the computed position at Ekene's instruction. Goes live only if an SP-API inventory valuation feed is wired up."
   },
   "plaid": {
-    "fetched_at": "2026-08-26T00:59:25.084812+00:00",
+    "fetched_at": "2026-08-26T02:26:33.463788+00:00",
     "env": "production",
     "source": "plaid_balance_v1_aws",
     "feed_runtime": "aws_read_runner",
