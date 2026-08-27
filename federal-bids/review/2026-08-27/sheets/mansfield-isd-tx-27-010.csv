@@ -1,0 +1,51 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,BARE GROUNDED COATED GRANULAR ICE MELT 50 LB BAG,195.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,TOILET PAPER 2 PLY 12 ROLLS PER BOX,3912.0,BOX,,token,Essendant,GPC79461,"Mega Toilet Paper, Limited Edition Fresh Evergreen Scent Tube, Septic Safe, 2-Ply, White, 320 Sheets/Roll, 8 Rolls/Pack",PK,287.0,False,False,8.52,0.8932,9.4132,11.07,43305.84,,Essendant KCM48596PK @ 14.58,
+3,TOILET PAPER DISPENSERS Jumbo Plastic,115.0,EACH,,token,Essendant,ALHALP450GRY,"Plastic Single Roll Jumbo Toilet Paper Dispenser, 5.3 x 11.5 x 11.7, Gray",EA,360.0,False,False,41.2,0.0,41.2,48.47,5574.05,,,
+4,ROLL TOWEL 6 ROLLS PER BOX,3161.0,BOX,,token,Essendant,SEV13720RL,"Natural Unbleached 100% Recycled Paper Kitchen Towel Rolls, 2-Ply, 11 x 9, 120 Sheets/Roll",RL,81.0,False,False,2.98,0.0,2.98,3.51,11095.11,,Essendant TRKHB1990A @ 44.55,Essendant TRKHB1995A @ 46.53
+5,ROLL TOWEL DISPENSERS Plastic,80.0,EACH,,token,Essendant,GPC20040EA,"Professional D400 Disposable Cleaning Towel System, 9.9 x 13, Orange, 200 Sheets/Roll with Plastic Bucket",BX,106.0,True,False,0.2452,0.0,0.2452,0.29,23.2,,,
+6,MULTIFOLD TOWELS 16 PKG IN A BOX,1696.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,WAX 5 GALLON BOX,1105.0,CASE,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+8,REVIVE-UHS FLOOR CLEANER/MAINTAINER 5 GALLON,23.0,CASE,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+9,ABCO BOWL MOPS 100/BOX,1158.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+10,ANGLE BROOMS ( 12 PER BOX ),565.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+11,CEILING TILE 2'x2' White 16/Case,256.0,CASE,,token,Synnex,CMA440,ABOVE TILE SUSPENDED CEILING KIT - WHITE,EA,31.0,False,True,100.3,8.0,108.3,127.41,32616.96,,Synnex ATS-02871 @ 256.07,Synnex LCT81C/TM @ 263.67
+12,BLACK STRIP UHS SUPER WHITE POLISH & HOLDER NORTON 45/8X10,48.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+13,DUST PAN LOBBY 6/Box,150.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+14,"DUSTER TELESCOPIC 60"" 12/BOX",414.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+15,GLOVES-RUBBER MEDIUM 12/PKG,320.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+16,GLOVES-RUBBER LARGE 12/PKG,282.0,BOX,,token,Essendant,TXINTL650XLHDG,"Pro N650 Series Flock-Lined Nitrile Rubber Gloves, 13"" Long, X-Large, Green, 12 Pairs",DZ,9.0,False,False,12.45,0.0,12.45,14.65,4131.3,,,
+17,GLOVES-RUBBER XL 12/PKG,183.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+18,STINGER CITRUS RTU GRIFFITTI REMOVER 12/CASE,1072.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+19,NORTON 6X9 SCOTCH BRITE GREEN SCRUBBING PAD BOX10,607.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+20,6.5 OZ CHEWING GUM REMOVER AEROSOL 12 CANS PER BOX,268.0,BOX,,token,Essendant,BWK353ACT,"Chewing Gum and Candle Wax Remover, Unscented, 6.5 oz Aerosol Spray, 12/Carton",CT,1,False,False,46.16,3.3333,49.4933,58.23,15605.64,,,
+21,GRABBER/PICKER,68.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+22,"18"" FLOOR SQUEEGEE 6/BOX",26.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+23,HANDLE FOR FLOOR SQUEEGEE,26.0,EACH,,token,SP Richards,ETO1628CT,"HANDLE,SQUEEGEE,FLOOR,WOOD",CT,18.0,True,False,1.8217,0.2191,2.0408,2.4,62.4,,SP Richards ETO1628 @ 6.06,Essendant UNGFE45 @ 19.29
+24,"18"" FLOOR SQUEEGE SET",26.0,SET,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+25,SPARTAN STRATEGIC CLEANER 4 IN ONE 4GALLONS/BOX,136.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+26,"LADDER, STEP- 6' WERNER",1.0,EACH,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+27,PAIL 10 QUART GREY DELUXE 12 PER BOX,52.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+28,"PADS 20 "" WHITE Norton 5 PER BOX",90.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+29,"PADS 20 "" BLACK Norton 5 PER BOX",272.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+30,"PADS 20 "" RED Norton 5 PER BOX",186.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+31,"SCRAPER LONG UNGER UNGER 4"" 10 PER BOX",63.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+32,"4"" UNGER SCRAPER BLADES 10/PKG PER BOX",34.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+33,SCRAPER RAZOR BLADE 200/BOX,960.0,BOX,,token,ORS Nasco,680-28-500,RAZOR BLADE SCRAPER,EA,2269.0,False,True,2.494,0.0,2.494,2.93,2812.8,,ORS Nasco 863-18192 @ 26.37,
+34,WARNER RAZOR BLADESFOR SCRAPERS 100/PKG,53.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+35,"SAFETY-GLASSES,CLEAR 125/CASE",424.0,BOX,,token,SP Richards,MIINON24770,"GLASSES,SAFETY,CLEAR",EA,592.0,False,True,0.43,0.044,0.474,0.56,237.44,,Essendant CRWCL010 @ 0.94,ORS Nasco 809-19GB80 @ 2.06
+36,STAINLESS STEEL CLEANER POLISH 14.5 OZ 12/BOX,105.0,BOX,,token,Essendant,BWK347AEA,"Stainless Steel Cleaner and Polish, Water-in-Oil Based, 16 oz Aerosol Spray",EA,29.0,False,True,3.62,0.0,3.62,4.26,447.3,,Essendant HLWSPRA58639EA @ 4.05,ORS Nasco 866-652300 @ 75.38
+37,TOILET SEAT COVERS 250/BOX,37.0,BOX,,token,Essendant,KCC07410PK,"Personal Seats Sanitary Toilet Seat Covers, 15 X 18, White, 125/pack",PK,215.0,False,False,4.02,0.0,4.02,4.73,175.01,,SP Richards IMP25130873 @ 20.56,ORS Nasco 863-HOSHG2500 @ 33.12
+38,TOILET SEAT DISPENSERS HOSPECO 12/BOX,12.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+39,STENCH AND STAIN 6/ CASE,551.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+40,"SAFETY-GLASSES,TINTED 12/PKG",62.0,BOX,,token,ORS Nasco,409-60471,PRO FULL FRAME GASKET SAFETY GLASSES  TINTED,EA,1,False,True,18.682,0.0,18.682,21.98,1362.76,,ORS Nasco 495-48-73-2504 @ 26.41,ORS Nasco 329-GWSGT @ 72.80
+41,CAN LINER 38X60 16 MICRON NATURAL BERRY PLASTICS 200/CASE LARGE,3441.0,CASE,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+42,CAN LINER 24X33 8 MICRON NATERAL BERRY PLASTICS 1000/CS SMALL,1453.0,CASE,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+43,CAN LINER 52X75 2 MILS CLEAR BERRY PLASTICS 50/CASE RECYCLE LINERS,278.0,CASE,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+44,TRASH CANS 55GAL.,50.0,EACH,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+45,BIG D - LEMON GRANULAR DEORDERANT 16 OZ 12/BOX,790.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+46,WET FLOOR SIGNS 10/BOX,235.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+47,"WINDOW SQUEEGES 12"" BLADE NO HANDLE 12/BOX",65.0,BOX,,token,Essendant,ODC783627,"Auto Window Squeegee, 8"" Wide Blade, Heavy-Duty Mesh Sponge Head, 20"" Handle",EA,4063.0,False,True,3.74,0.3707,4.1107,4.84,314.6,,Essendant NCP96154S @ 9.08,Essendant UNGGS300 @ 18.79
+48,SPARCREAM SPARTAN 12/BOX,960.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+49,PLASTIC NOZZLES-32 OZ 200/BOX,768.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+50,PLASTIC BOTTLES-32 OZ. 96/BOX,453.0,BOX,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

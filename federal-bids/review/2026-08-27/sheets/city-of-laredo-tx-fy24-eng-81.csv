@@ -1,0 +1,38 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,Base Bid,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,"Mobilization and Bonding of all labor, equipment, tools,
+and material for the construction of a 10' Concrete
+Trail as per city specifications, to include all labor
+materials, mobilization, tools, equi",1.0,LS,,non-product,,,,,,,,,,,,,,,
+3,"Furnish all labor, equipment, and material to Excavate,
+Clearing and Grubbing, and Haul Off as per city
+specifications, to include all labor materials, tools,
+pavement, etc. Complete in place",1.0,LS,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,"Furnish all labor, equipment, and material for Cut/Fill
+(Net Cut) & Regrade and Haul Off as per city
+specifications, to include all labor materials, tools,
+pavement, etc. Complete in place",140.0,CY,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+5,"Furnish all labor, equipment, and material for Grade
+40 Conduits as per city specifications, to include all
+labor materials, tools, pavement, etc. Complete in
+place",120.0,LF,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+6,"Furnish all labor, equipment, and material for 6""
+Subgrade Preparation and compaction as per city
+specifications, to include all labor materials, tools,
+pavement, etc. Complete in place",625.0,SY,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,"Furnish all labor, equipment, and material to construct
+a 4"" Reinforced Concrete Trail as per city
+specifications, to include all labor materials, tools,
+equipment, etc. Complete in place.",33720.0,SF,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+8,"Furnish all labor, equipment, and material to construct
+a Broadcast Seeding & Regrade as per city
+specifications, to include all labor materials, tools,
+equipment, etc. Complete in place.",1.0,LS,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+9,"Furnish all labor, equipment, and material to provide
+Traffic Control as per city specifications, to include all
+labor materials, tools, equipment, etc. Complete in
+place",1.0,LS,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+10,"Remove Existing Chainlink Fence as per city
+specifications, to include all labor, and any (if needed)
+removal of existing concrete, material, doweling, tools,
+equipment, etc. Complete in place.",1.0,LS,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

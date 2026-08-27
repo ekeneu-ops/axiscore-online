@@ -1,0 +1,416 @@
+{
+ "bid_id": "city-of-lincoln-ne-26-166",
+ "bid_number": "26-166",
+ "agency": "City of Lincoln, NE",
+ "src": "Invited",
+ "title": "48\u201d CMP Rehab A St. to Rosa Parks Way Project 502467",
+ "close": "9/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 25,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Total Lump Sum of Bid",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Fill out the itemized Excel spreadsheet attached below. Attach completed spreadsheet on the 'Response Attachments' of your response.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Total Lump Sum of Bid 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-166 Bid Line Items.xlsx",
+  "26-166 Special Provisions.pdf",
+  "26-166 Plans.pdf",
+  "26-166 Contractual Insurance Determination.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "Instructions to Bidders 11-2023.pdf",
+  "Contract - City Const.pdf",
+  "Empl_Class_Act_EO.pdf",
+  "Empl_Class_Act_Aff.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+  "United States Citizenship Attestation Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-166 Bid Line Items.xlsx",
+   "kind": "xlsx",
+   "tables": 3,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "26-166 Special Provisions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "26-166 Plans.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-166 Contractual Insurance Determination.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Const.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Empl_Class_Act_EO.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_Aff.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "26-166 Bid Line Items.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "Line",
+    "Item Number",
+    "Item Description",
+    "Bid Quantity",
+    "Unit",
+    "Unit Price",
+    "Bid Extension",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 25,
+   "sample": [
+    [
+     "1",
+     "1.00001",
+     "MOBILIZATION",
+     "1",
+     "LS",
+     "180000",
+     "180000",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "1.01001",
+     "CONST STAKING",
+     "1",
+     "LS",
+     "10000",
+     "10000",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "1.11001",
+     "ADJ MH TO GRADE",
+     "1",
+     "EA",
+     "2500",
+     "2500",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "26-166 Bid Line Items.xlsx",
+   "sheet": 1,
+   "header_row": 2,
+   "headers": [
+    "Line",
+    "Item Number",
+    "Item Description",
+    "Bid Quantity",
+    "Unit",
+    "MAR2023 Unit Price (Low Bid)",
+    "MAR 2023 Unit Price (High Bid)",
+    "Unit Price MAR 2026 (MMG est.)",
+    "Engineer's Est. Unit Price (MAR 2027 Construction)",
+    "Bid Extension",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 14,
+   "sample": [
+    [
+     "1",
+     "50.0015",
+     "MOBILIZATION",
+     "1",
+     "LS",
+     "180000",
+     "",
+     "",
+     "120608.8559340625",
+     "120608.8559340625",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "50.0015",
+     "CONST STAKING",
+     "1",
+     "LS",
+     "10000",
+     "",
+     "",
+     "6077.53125",
+     "6077.53125",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "1.11001",
+     "ADJ MH TO GRADE",
+     "1",
+     "EA",
+     "2500",
+     "",
+     "",
+     "1519.3828125",
+     "1519.3828125",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "26-166 Bid Line Items.xlsx",
+   "sheet": 2,
+   "header_row": 2,
+   "headers": [
+    "Line",
+    "Item Number",
+    "Item Description",
+    "Bid Quantity",
+    "Unit",
+    "Unit Price",
+    "Bid Extension",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 14,
+   "sample": [
+    [
+     "1",
+     "1.00001",
+     "MOBILIZATION",
+     "1",
+     "LS",
+     "",
+     "0",
+     ""
+    ],
+    [
+     "2",
+     "1.01001",
+     "CONST STAKING",
+     "1",
+     "LS",
+     "",
+     "0",
+     ""
+    ],
+    [
+     "3",
+     "1.11001",
+     "ADJ MH TO GRADE",
+     "1",
+     "EA",
+     "",
+     "0",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Contract - City Const.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Execution Date or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond [Amount]\nA t\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 16\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this Performance Bond,\ndo each cause this Performance Bond to be duly executed by an authorized officer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Contract - City Const.pdf",
+   "sheet": 5,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Upon Execution or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 18\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in\nthis Payment Bond, do each cause this Payment Bond to be duly executed by an authorized\nofficer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 50.8,
+  "attachment_fetches": 12,
+  "attachment_seconds": 4.9,
+  "attachment_bytes": 34256817,
+  "max_fetch_seconds": 3.89,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-27T13:21:44.642005+00:00",
+ "extract_attempts": 1
+}

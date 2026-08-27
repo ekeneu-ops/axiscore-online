@@ -1,0 +1,70 @@
+{
+ "bid_id": "pharr-san-juan-alamo-isd-tx-26-27-013",
+ "bid_number": "# 26-27-013",
+ "agency": "Pharr-San Juan-Alamo ISD, TX",
+ "src": "Open",
+ "title": "Refrigerated Storage Containers and Pass-Thru Refrigerators",
+ "close": "8/31/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "20-foot Refrigerated Container Thermo King Magnum Plus Refrigeration, or equal. 480v 3 phase Flat floor Easy open door with interior release Interior lights Power requirements: 460-3 phase include delivery and set up",
+   "qty": "3",
+   "uom": "EA",
+   "note": "Subject to the availability of funding, the District reserves the right to purchase additional refrigerated unit(s) and/or pass-through refrigerator(s) from the awarded Vendor at the same pricing, terms, and conditions offered in response to this RFP during the contract term. Any such purchase(s) shall be at the District's sole discretion and are not guaranteed.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 20-foot Refrigerated Container Thermo King Magnum Plus Refrigeration, or equal. 480v 3 phase Flat floor Easy open door with interior release Interior lights Power requirements: 460-3 phase include delivery and set up 3 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Pass-Thru Refrigerators Traulsen Model No. G21004P, or equal Spec-Line G Series Display Refrigerator, Pass-thru, two-section, 50.2 cu. ft., self-contained refrigeration, control side: (4) half-height glass doors (hinged left/right), other side: (4) half-height glass doors (hinged left/right), (3) epoxy coated shelves per section (factory installed), microprocessor control with LED display, LED interior lights, stainless steel exterior & interior, 6\" high casters, R290 Hydrocarbon refrigerant, 3/4 HP, 115V/60/1, 7.9 amps, NEMA 5-15P, cETLus, ETL-Sanitation, 6-year parts & labor and 7-year compressor, standard. 1 - G23ACC-TK4LR Set of (7) pairs universal type tray slides, per full section, with pilasters - L 6 - GSACC-UVTS Universal type tray slides, (1) pair, mounting hardware not included 1 - G23ACC-TK4LR Set of (7) pairs universal type tray slides, per full section, with pilasters - R 6 - GSACC-UVTS Universal type tray slides, (1) pair, mounting hardware not included 1 - LK2 Legs, 6\"H, stainless steel, set of (4)",
+   "qty": "3",
+   "uom": "EA",
+   "note": "Subject to the availability of funding, the District reserves the right to purchase additional refrigerated unit(s) and/or pass-through refrigerator(s) from the awarded Vendor at the same pricing, terms, and conditions offered in response to this RFP during the contract term. Any such purchase(s) shall be at the District's sole discretion and are not guaranteed.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "W9 2024 _2_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "W9 2024 _2_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.8,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 140815,
+  "max_fetch_seconds": 0.33,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-27T13:15:58.339485+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,194 @@
+{
+ "bid_id": "goose-creek-consolidated-isd-tx-24-010-round-11",
+ "bid_number": "24-010 Round 11",
+ "agency": "Goose Creek Consolidated ISD, TX",
+ "src": "Open",
+ "title": "Contracted Services & Related Products Addendum 1",
+ "close": "9/1/2026 09:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 9,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine16",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Contracted Service (In Person)",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Contracted Service (In Person) 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucPackageLine17",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Contracted Service (Online)",
+   "qty": "1",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Contracted Service (Online) 1 HOUR No Response"
+  },
+  {
+   "ctl": "ucPackageLine18",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "Contract Service (Online Self-Paced Training)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 Contract Service (Online Self-Paced Training) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine19",
+   "kind": "package_line",
+   "line": "2.4",
+   "desc": "Materials/Supplies.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.4 Materials/Supplies. 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine20",
+   "kind": "package_line",
+   "line": "2.5",
+   "desc": "Materials/Supplies (Student Consumable)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.5 Materials/Supplies (Student Consumable) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine21",
+   "kind": "package_line",
+   "line": "2.6",
+   "desc": "Materials/Supplies (Teacher)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.6 Materials/Supplies (Teacher) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine22",
+   "kind": "package_line",
+   "line": "2.7",
+   "desc": "Software (Digital License per person)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.7 Software (Digital License per person) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine23",
+   "kind": "package_line",
+   "line": "2.8",
+   "desc": "Software (Site License)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.8 Software (Site License) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine24",
+   "kind": "package_line",
+   "line": "2.9",
+   "desc": "Travel, lodging, and other expenses associated with your services",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.9 Travel, lodging, and other expenses associated with your services 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "CIQ FORM-.pdf",
+  "GCCISD W-9_.pdf",
+  "1295_Form_Instructions_2024-.pdf",
+  "EDGAR Cert Form 2024.pdf",
+  "Standard_Forms_Revised__In_person_submission_only__.pdf",
+  "Award Detail Spreadsheet final 7.9.26.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CIQ FORM-.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "GCCISD W-9_.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295_Form_Instructions_2024-.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR Cert Form 2024.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Standard_Forms_Revised__In_person_submission_only__.pdf",
+   "kind": "pdf",
+   "tables": 46,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Award Detail Spreadsheet final 7.9.26.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 4221995,
+  "max_fetch_seconds": 0.55,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-27T13:18:14.260628+00:00",
+ "extract_attempts": 1
+}

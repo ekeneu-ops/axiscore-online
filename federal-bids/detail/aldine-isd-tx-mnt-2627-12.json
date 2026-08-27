@@ -1,0 +1,109 @@
+{
+ "bid_id": "aldine-isd-tx-mnt-2627-12",
+ "bid_number": "MNT 2627-12",
+ "agency": "Aldine ISD, TX",
+ "src": "Open",
+ "title": "Carpenter Crew Services",
+ "close": "8/31/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026-2027 Carpenter Crew Services-Notice to Proposers.pdf",
+  "2026-2027 Carpenter Crew Services-Specification Packet.pdf",
+  "Notification of Award 8-19-2025 with Cover.pdf",
+  "Form W-9 Revised March 2024 _Blank Form_.pdf",
+  "Exhibit A Pre-service Affidavit fillable.pdf",
+  "2023-2024 Carpenter Crew Services-Recap.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-2027 Carpenter Crew Services-Notice to Proposers.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-2027 Carpenter Crew Services-Specification Packet.pdf",
+   "kind": "pdf",
+   "tables": 20,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Notification of Award 8-19-2025 with Cover.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form W-9 Revised March 2024 _Blank Form_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A Pre-service Affidavit fillable.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2023-2024 Carpenter Crew Services-Recap.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2026-2027 Carpenter Crew Services-Specification Packet.pdf",
+   "sheet": 8,
+   "header_row": 1,
+   "headers": [
+    "",
+    "proportionate price of any product purchased through this Contract following a reduction in the pric"
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "",
+     "the Vendor is paying suppliers. All price changes shall be presented to Aldine ISD for acceptance or"
+    ],
+    [
+     "",
+     "rejection by Aldine ISD, in its sole discretion, using the same format as was accepted in Vendor\u2019s"
+    ],
+    [
+     "",
+     "original proposal; all price increases for products and/or services provided under this Contract must be"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 8.0,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1309819,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-27T13:17:24.434762+00:00",
+ "extract_attempts": 1
+}

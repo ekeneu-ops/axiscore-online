@@ -1,0 +1,217 @@
+{
+ "bid_id": "keller-isd-tx-2609-18",
+ "bid_number": "2609-18",
+ "agency": "Keller ISD, TX",
+ "src": "Invited",
+ "title": "Pool Unit Replacement and Associated Improvements at Keller ISD Natatorium",
+ "close": "9/10/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 6,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "General_Conditions__4_.pdf",
+  "W-9.pdf",
+  "SB9 Contractor Attestation.pdf",
+  "CIQ.pdf",
+  "2026-2027 InstructionalCalendar.pdf",
+  "Maps_CampusLocatorMap.pdf",
+  "Employee_Working_on_Site_Form.pdf",
+  "Supplier Information Form.pdf",
+  "MASTER TASB A101-2017.pdf",
+  "2023 TASB MASTER A101ExhibitA-2017.pdf",
+  "2023 MASTER TASB A201-2017.pdf",
+  "Keller ISD CSP 2609-18 Drawings-IFP.pdf",
+  "Keller ISD CSP 2609-18 Project Manual-IFP.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General_Conditions__4_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SB9 Contractor Attestation.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-2027 InstructionalCalendar.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Maps_CampusLocatorMap.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Employee_Working_on_Site_Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Information Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "MASTER TASB A101-2017.pdf",
+   "kind": "pdf",
+   "tables": 49,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2023 TASB MASTER A101ExhibitA-2017.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2023 MASTER TASB A201-2017.pdf",
+   "kind": "pdf",
+   "tables": 164,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Keller ISD CSP 2609-18 Drawings-IFP.pdf",
+   "kind": "pdf",
+   "tables": 502,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Keller ISD CSP 2609-18 Project Manual-IFP.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Keller ISD CSP 2609-18 Drawings-IFP.pdf",
+   "sheet": 57,
+   "header_row": 1,
+   "headers": [
+    "ID",
+    "DESCRIPTION",
+    "MANUFACTURER",
+    "MODEL",
+    "SIZE",
+    "GPM",
+    "TDH",
+    "HP",
+    "NPSHR",
+    "ELECTRICAL",
+    "",
+    "",
+    "HAIR / LINT",
+    "",
+    "NOTES"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "V",
+     "PH",
+     "HZ",
+     "MAKE",
+     "SIZE",
+     ""
+    ],
+    [
+     "PP1",
+     "COMPETITION POOL RECIRCULATION PUMP #1",
+     "PENTAIR",
+     "AURORA",
+     "5x6x9.5",
+     "1221",
+     "60",
+     "25",
+     "8.3",
+     "460",
+     "3",
+     "60",
+     "AQUIFY",
+     "10x6",
+     "1-5, 7,9"
+    ],
+    [
+     "PP2",
+     "COMPETITION POOL RECIRCULATION PUMP #2",
+     "PENTAIR",
+     "AURORA",
+     "5x6x9.5",
+     "1221",
+     "60",
+     "25",
+     "8.3",
+     "460",
+     "3",
+     "60",
+     "AQUIFY",
+     "10x6",
+     "1-5, 7,9"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 55.1,
+  "attachment_fetches": 13,
+  "attachment_seconds": 3.2,
+  "attachment_bytes": 32298606,
+  "max_fetch_seconds": 1.25,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-27T13:22:41.286401+00:00",
+ "extract_attempts": 1
+}

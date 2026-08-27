@@ -1,0 +1,90 @@
+{
+ "bid_id": "city-of-columbia-mo-105-2026",
+ "bid_number": "105/2026",
+ "agency": "City of Columbia, MO",
+ "src": "Invited",
+ "title": "Chairs for Council Chambers and Conference Rooms 1A/1B",
+ "close": "9/8/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "105-2026 Chairs for Council Chambers and 1A-1B.pdf",
+  "RFB 105-2026 - Chairs - Draft.docx",
+  "Attachment 1 - Existing Chair Photographs .pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "105-2026 Chairs for Council Chambers and 1A-1B.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "RFB 105-2026 - Chairs - Draft.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment 1 - Existing Chair Photographs .pdf",
+   "kind": ".pdf",
+   "tables": 0,
+   "note": "parse error: Unexpected EOF",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "105-2026 Chairs for Council Chambers and 1A-1B.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "Line\nItem",
+    "Description",
+    "Quantity",
+    "Per Unit Firm,\nFixed Price",
+    "Total Firm, Fixed\nExtended Price"
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "1",
+     "Executive-Style Council Dais Chairs\nMinimum specifications:\n\uf0b7 High-back executive-style design\nsuitable for users of varying heights\n\uf0b7 Padded seat and back\n\uf0b7 Leather, commercial-grade faux\nleather, or comparable durable\nupholstery\n\uf0b7 Upholstery shall be suitable for\nfrequent use and easy to clean and\nmaintain\n\uf0b7 Armrests\n\uf0b7 Adjustable armrests preferred\n\uf0b7 Pneumatic or comparable seat-\nheight adjustment\n\uf0b7 360-degree swivel\n\uf0b7 Five-star base with casters\n\uf0b7 Reclining function is not required\nand is not preferred\n\uf0b7 Minimum 300 lb. weight capacity\n\uf0b7 Commercial/institutional-grade\nconstruction\n\uf0b7 Dark neutral color; black is not\npreferred\nManufacturer: _______________________\nModel: _____________________________\nWeight Capacity: _____________________\nWarranty: ___________________________",
+     "16",
+     "$__________",
+     "$_________________"
+    ],
+    [
+     "2",
+     "Padded Stackable Council Chamber\nAudience Chairs",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 78.9,
+  "attachment_fetches": 3,
+  "attachment_seconds": 71.9,
+  "attachment_bytes": 139793594,
+  "max_fetch_seconds": 71.71,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-27T13:20:29.097033+00:00",
+ "extract_attempts": 1
+}
