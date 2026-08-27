@@ -139,8 +139,15 @@
       <span class="lbl">Liquid Net Position <small style="display:block;font-weight:400;font-size:11px;color:var(--ink-mute);">cash + receivables + unsold FBA stock &minus; what we owe (FBA stock is inventory, not cash today)</small></span>
       <span class="v" id="liquid-total">&mdash;</span>
     </div>
-    <div class="formula" id="np-formula">Bank + PayPal + Amazon held (3-bucket net) + card settlements in transit + unsold FBA stock (inventory at cost &mdash; not cash today) &minus; Amex owed &minus; Vendor AP (AP app &ldquo;Net after credits&rdquo;, incl. ISG dues) &minus; FedEx. Settled / full-balance view retired (SBA &amp; long-term out of scope).</div>
+    <div class="formula" id="np-formula">Bank + PayPal + Amazon held (3-bucket net) + card settlements in transit + awaiting customer payment + unsold FBA stock (inventory at cost &mdash; not cash today) &minus; Amex owed &minus; Vendor AP (AP app &ldquo;Net after credits&rdquo;, incl. ISG dues) &minus; FedEx. Settled / full-balance view retired (SBA &amp; long-term out of scope).</div>
   </div>
+
+  <!-- A broken bank link freezes its line SILENTLY: the Amex item died 2026-08-20 and
+       was found a day later only because the badge read DERIVED, by which time the
+       position understated what we owed by $1,516.58. Plaid links WILL break; the fix is
+       a minute of work. Being told is the part that was missing. -->
+  <div id="feed-alert" style="display:none;margin:0 0 16px;padding:12px 14px;border-radius:10px;
+       background:#fff4e5;border:1px solid #f0b429;color:#7a4b00;font-size:14px;line-height:1.55"></div>
 
   <!-- LIQUID LINES -->
   <div class="section-title">Cash &amp; cards (Plaid read-only balance — pulled by the AWS read-runner)</div>
@@ -181,6 +188,23 @@
       <div class="src">
         <span>source: <span id="fba-src">manual</span></span>
         <span id="fba-when">&mdash;</span>
+      </div>
+    </div>
+
+    <!-- AWAITING CUSTOMER PAYMENT — shipped, customer-invoiced, cash not in. Mostly
+         government net-30 POs. Magento reports total_paid = the full amount and
+         total_due = 0.00 on these, because it marks "paid" when the INVOICE is raised;
+         the STATUS is the only authority, so this reads status, never total_due. -->
+    <div class="card">
+      <div class="row">
+        <span class="label">Awaiting customer payment (net terms)</span>
+        <span class="badge" id="ar-badge">&mdash;</span>
+      </div>
+      <div class="value pos" id="ar-total">&mdash;</div>
+      <div class="sub" id="ar-sub">&mdash;</div>
+      <div class="src">
+        <span>source: <span id="ar-src">Magento AR report \u00b7 shipped, pending payment</span></span>
+        <span id="ar-when">&mdash;</span>
       </div>
     </div>
 
@@ -583,6 +607,48 @@ function citTrusted(){
   var l=citDepositLagDays();
   return (l===null) ? false : (l <= CIT_DEPOSIT_LAG_MAX);
 }
+function arValue(){ var a=data.ar_pending||{}; var v=Number(a.amount);
+  return (isFinite(v) && v>0) ? v : 0; }
+function renderAr(){
+  var a=data.ar_pending||{}, el=document.getElementById("ar-total");
+  if(!el) return;
+  var bd=document.getElementById("ar-badge");
+  if(!data.ar_pending){
+    el.textContent="\u2014"; el.className="value";
+    document.getElementById("ar-sub").textContent="awaiting feed";
+    bd.className="badge stale"; bd.textContent="\u2014"; return;
+  }
+  var v=arValue();
+  el.textContent=fmtMoney(v); el.className="value pos";
+  document.getElementById("ar-sub").textContent =
+    (v>0 ? (a.orders||0)+" order"+((a.orders||0)===1?"":"s")+" shipped and invoiced, not yet paid"
+           +(a.oldest_days!=null?" \u00b7 oldest "+a.oldest_days+"d":"")
+         : "every shipped order has been paid");
+  var fb=freshBadge(a.asof, "cit");
+  bd.className="badge "+fb.cls; bd.textContent=fb.txt;
+  document.getElementById("ar-when").textContent=fmtRel(a.asof);
+}
+
+function renderFeedAlert(){
+  var el=document.getElementById("feed-alert"); if(!el) return;
+  var h=(data.plaid_health||[]).filter(function(x){return x && x.status && x.status!=="ok";});
+  if(!h.length){ el.style.display="none"; return; }
+  var relink=h.filter(function(x){return x.status==="needs_relink";});
+  var expiring=h.filter(function(x){return x.status==="expiring";});
+  var other=h.filter(function(x){return x.status!=="needs_relink" && x.status!=="expiring";});
+  var parts=[];
+  if(relink.length) parts.push("<strong>"+relink.map(function(x){return x.item.toUpperCase();}).join(", ")
+    +" needs reconnecting</strong> \u2014 that line is FROZEN and the position is wrong until it is fixed."
+    +"<br><code style=\"background:#fff;padding:2px 6px;border-radius:4px\">python3 platform/finance/tools/plaid_relink.py "
+    +relink[0].item+" --profile cowork-spine</code>");
+  if(expiring.length) parts.push("<strong>"+expiring.map(function(x){return x.item.toUpperCase();}).join(", ")
+    +" consent expires within 7 days</strong> \u2014 reconnect before it breaks.");
+  if(other.length) parts.push(other.map(function(x){return x.item.toUpperCase()+": "+x.status
+    +(x.code?" ("+x.code+")":"");}).join(" \u00b7 "));
+  el.innerHTML=parts.join("<br><br>");
+  el.style.display="block";
+}
+
 function citValue(){ var c=data.card_in_transit||{}; var v=Number(c.amount);
   return (isFinite(v) && v>0) ? v : 0; }
 // What the HEADLINE may use. An untrusted figure contributes ZERO rather than a number
@@ -672,14 +738,15 @@ function recompute(){
   var fba=fbaValue();
   var amex=amexOwed();
   var cit=citBankable();
-  var liquid=plaid+held+fba+cit-ap-fedex-amex;
+  var ar=arValue();
+  var liquid=plaid+held+fba+cit+ar-ap-fedex-amex;
 
   var el=document.getElementById("liquid-total");
   el.textContent=fmtMoney(liquid)+(heldPending()?" *":""); el.className="v "+(liquid>=0?"pos":"neg");
   var fEl=document.getElementById("np-formula");
   if(fEl){ fEl.innerHTML = heldPending()
     ? "<strong style='color:var(--bad)'>* Amazon held NET is pending its live feed and is NOT in this total yet</strong> — so this is understated by the held amount. Everything else (cash, AP, FedEx, ISG, AR) is live."
-    : "Bank + PayPal + Amazon held (3-bucket net) + card settlements in transit + unsold FBA stock (inventory at cost — not cash today) − Amex owed − Vendor AP (AP app \"Net after credits\", incl. ISG dues) − FedEx. Settled / full-balance view retired (SBA & long-term out of scope)."; }
+    : "Bank + PayPal + Amazon held (3-bucket net) + card settlements in transit + awaiting customer payment + unsold FBA stock (inventory at cost — not cash today) − Amex owed − Vendor AP (AP app \"Net after credits\", incl. ISG dues) − FedEx. Settled / full-balance view retired (SBA & long-term out of scope)."; }
   renderLedger(liquid);
 }
 
@@ -704,6 +771,10 @@ function renderLedger(liquid){
     ts:data.card_in_transit.asof, k:"cit",
     badge:(citTrusted()?null:"stale"), badgetxt:(citTrusted()?null:"DEPOSITS STALE"),
     a:citBankable()});
+  if(data.ar_pending) rows.push({l:"Awaiting customer payment (net terms)",
+    s:"Magento AR report · shipped, pending payment"
+      +((data.ar_pending.orders!=null)?" · "+data.ar_pending.orders+" order(s)":""),
+    ts:data.ar_pending.asof, k:"cit", a:arValue()});
   var apd=data.ap||{}, apb=apd.breakdown||{}, apIsNet=(apd.definition==="net_after_credits");
   rows.push({
     l: apIsNet ? "Vendor AP — AP app \"Net after credits\"" : "Vendor AP — statement + recent accrual (AP app total unavailable)",
@@ -759,7 +830,7 @@ function setBanner(){
   else { b.className="banner err"; p.textContent="STALE"; t.textContent="Cash feed has not refreshed in "+Math.round(h)+"h. Values not current — investigate before trusting net position."; }
 }
 
-function renderAll(){ setBanner(); renderPlaid(); renderHeld(); renderAP(); renderAmex(); renderCit();
+function renderAll(){ setBanner(); renderFeedAlert(); renderAr(); renderPlaid(); renderHeld(); renderAP(); renderAmex(); renderCit();
   if(data.fba_stock) renderFba();
   if(data.fedex) renderPayableCard("fedex","fedex-total","fedex-badge","fedex-when","fedex-src");
   recompute();
@@ -889,6 +960,13 @@ function applyNpLive(j){
                             oldest_days:(ct.oldest_days==null?null:ct.oldest_days),
                             deposits_through:ct.deposits_through||null,
                             asof:ct.asof||runAsof};
+    }
+    if(Array.isArray(j.plaid_health)) data.plaid_health=j.plaid_health;
+    var arp=j.ar_pending||{};
+    if(typeof arp.amount==="number" && isFinite(arp.amount) && arp.amount>=0){
+      data.ar_pending={amount:arp.amount, orders:arp.orders||0,
+                       oldest_days:(arp.oldest_days==null?null:arp.oldest_days),
+                       asof:arp.asof||runAsof};
     }
     var h=j.held||{}, hn=h.net, hAsof=h.asof||runAsof;
     if(typeof hn==="number" && isFinite(hn) && hn>0){

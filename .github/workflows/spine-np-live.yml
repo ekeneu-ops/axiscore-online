@@ -125,7 +125,12 @@ jobs:
             'card_in_transit', (SELECT json_build_object('amount', amount, 'batches', batches,
             'basis', basis, 'oldest_days', oldest_days, 'deposits_through',
             (SELECT max(posted_date)::text FROM plaid.transactions WHERE item_label='boa'
-            AND amount<0 AND name ILIKE '%MERCH DEP%')) FROM authnet.v_card_in_transit LIMIT 1)) )::text,'UTF8'),'base64'),'\s','','g') AS d;
+            AND amount<0 AND name ILIKE '%MERCH DEP%')) FROM authnet.v_card_in_transit LIMIT 1),
+            'plaid_health', (SELECT COALESCE(json_agg(json_build_object('item', item_label,
+            'status', status, 'code', item_error_code)) FILTER (WHERE status <> 'ok'), '[]'::json)
+            FROM plaid.v_item_health),
+            'ar_pending', (SELECT json_build_object('amount', round(coalesce(sum(amount),0),2),
+            'orders', count(*), 'oldest_days', max(days_outstanding)) FROM ar.v_pending_payment)) )::text,'UTF8'),'base64'),'\s','','g') AS d;
         run: |
           OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
             '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
@@ -253,7 +258,19 @@ jobs:
                   return 'unknown basis %r' % c.get('basis')
               return None
 
-          for key, checker in (('ap', structural_ap), ('held', structural_held), ('fba', structural_fba), ('amex', structural_amex), ('card_in_transit', structural_cit)):
+          def structural_ar(a):
+              # Receivables: a non-negative number with a plausible order count. A
+              # negative would mean a refund outran the book — a bad read, not a position.
+              amt = a.get('amount')
+              if not isinstance(amt, (int, float)):
+                  return 'amount not numeric'
+              if amt < 0:
+                  return 'amount negative (%s)' % amt
+              if a.get('orders') is None:
+                  return 'no order count'
+              return None
+
+          for key, checker in (('ap', structural_ap), ('held', structural_held), ('fba', structural_fba), ('amex', structural_amex), ('card_in_transit', structural_cit), ('ar_pending', structural_ar)):
               sec = j.get(key) or {}
               err = checker(sec)
               if not err:
