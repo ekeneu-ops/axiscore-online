@@ -1,0 +1,498 @@
+{
+ "bid_id": "city-of-council-bluffs-ia-pw-engineering-2026-50",
+ "bid_number": "PW ENGINEERING 2026 - 50",
+ "agency": "City of Council Bluffs, IA",
+ "src": "Open",
+ "title": "Valley View Drive/Greenview Road - Traffic Signal Improvements; PW26-08A",
+ "close": "9/1/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:traffic sign",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 15,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 16,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Removal of Shared Use Path",
+   "qty": "123",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Removal of Shared Use Path 123 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Removal of Curb",
+   "qty": "37",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Removal of Curb 37 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Pavement Markings Removed",
+   "qty": "4.18",
+   "uom": "STA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Pavement Markings Removed 4.18 STA No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "Symbols and Legends Removed",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 Symbols and Legends Removed 5 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "Temporary Traffic Control",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 Temporary Traffic Control 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "1.6",
+   "desc": "Remove and Salvage Traffic Sign Assembly",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.6 Remove and Salvage Traffic Sign Assembly 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "1.7",
+   "desc": "Hydraulic Seeding, Seeding, Fertilizing, and Mulching, Type 1",
+   "qty": "0.1",
+   "uom": "AC",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.7 Hydraulic Seeding, Seeding, Fertilizing, and Mulching, Type 1 0.1 AC No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Curb and Gutter, 2.5 ft, 8.0 in",
+   "qty": "37",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Curb and Gutter, 2.5 ft, 8.0 in 37 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Sidewalk, PCC, 6 in",
+   "qty": "124",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Sidewalk, PCC, 6 in 124 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "Detectable Warning",
+   "qty": "49",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 Detectable Warning 49 SF No Response"
+  },
+  {
+   "ctl": "ucPackageLine14",
+   "kind": "package_line",
+   "line": "6.1",
+   "desc": "Traffic Signal",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.1 Traffic Signal 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine15",
+   "kind": "package_line",
+   "line": "6.2",
+   "desc": "Painted Pavement Markings, Durable",
+   "qty": "38.4",
+   "uom": "STA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.2 Painted Pavement Markings, Durable 38.4 STA No Response"
+  },
+  {
+   "ctl": "ucPackageLine16",
+   "kind": "package_line",
+   "line": "6.3",
+   "desc": "Painted Symbols and Legends",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.3 Painted Symbols and Legends 5 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine17",
+   "kind": "package_line",
+   "line": "6.4",
+   "desc": "Traffic Signs",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.4 Traffic Signs 4 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine18",
+   "kind": "package_line",
+   "line": "6.5",
+   "desc": "Perforated Square Steel Tube Posts",
+   "qty": "36",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.5 Perforated Square Steel Tube Posts 36 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine19",
+   "kind": "package_line",
+   "line": "6.6",
+   "desc": "Perforated Square Steel Tube Post Anchors",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.6 Perforated Square Steel Tube Post Anchors 3 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Notice to Bidders.pdf",
+  "Specifications.pdf",
+  "Plans.pdf",
+  "Bid Bond.pdf",
+  "Title VI _ EEO Certificate of Compliance.pdf",
+  "Bidder Status Form.pdf",
+  "Past_Project_Information500.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Notice to Bidders.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Specifications.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Plans.pdf",
+   "kind": "pdf",
+   "tables": 45,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Title VI _ EEO Certificate of Compliance.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Status Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Past_Project_Information500.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Plans.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Item Quantities\nItem Code Item Unit\nNo. Estimated",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "DIVISION I (GENERAL)\n1-1 7030, 1.08, A REMOVAL OF SHARED USE PATH SY 123",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1-2",
+     "7030, 1.08, B REMOVAL OF CU",
+     "RB",
+     "LF",
+     "37"
+    ],
+    [
+     "1-3",
+     "8020, 1.08, K PAVEMENT MAR",
+     "KINGS REMOVED",
+     "STA",
+     "4.18"
+    ]
+   ]
+  },
+  {
+   "source": "Plans.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "Line\nNo.",
+    "Roadway\nIdentificatio",
+    "Station S\nn",
+    "Pav\nide\nSy",
+    "ement Quantity\nmbol (EA)",
+    "Remarks"
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "1",
+     "Valley View D",
+     "r 1002+94",
+     "R LT",
+     "AW 1",
+     "Left Turn Arrow"
+    ],
+    [
+     "2",
+     "Valley View D",
+     "r 1002+55",
+     "R ON",
+     "LW 1",
+     "Only"
+    ],
+    [
+     "3",
+     "Valley View D",
+     "r 1002+19",
+     "R LT",
+     "AW 1",
+     "Left Turn Arrow"
+    ]
+   ]
+  },
+  {
+   "source": "Plans.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "GENERAL NOTES\n1. UTILITY FACILITIES SHOWN ARE FROM LOCATES OR RECORDS PROVIDED BY OTHERS, 9. REMOVAL OF EXISTING CITY SIGNS AS NECESSARY SHALL BE INCIDENTAL TO THE 19. THE CONTRACTOR SHALL CONTROL CONSTRUCTION DEBRIS, HAZARDOUS WASTE\nAND SHALL BE CONSIDERED APPROXIMATE. OTHER UTILITIES MAY EXIST (EITHER IN PROJECT UNLESS SPECIFIED OTHERWISE. ALL SIGNS SHALL BE REMOVED WITHOUT SPILLS, AND CONCRETE TRUCK WASHOUT AREA(S). THE CONTRACTOR SHALL\nSERVICE OR ABANDONED) AND THEIR LOCATION MAY NOT BE PRESENTLY KNOWN DAMAGE TO THE SIGNS. ANY DAMAGE TO SIGN(S) SHALL BE THE RESPONSIBILITY OF CLEAN-UP AND DISPOSE OF ALL WASTE PROPERLY OFF-SITE AT AN APPROVED\nOR IDENTIFIED ON THE PLANS. THE ENGINEER MAKES NO GUARANTEE THAT THE THE CONTRACTOR. THE CONTRACTOR WILL BE REQUIRED TO REPLACE IN KIND DISPOSAL FACILITY. NO CONSTRUCTION MATERIAL WASTES OR UNUSED MATERIALS\nUTILITIES SHOWN COMPRISE ALL UTILITIES IN THE AREA, EITHER IN SERVICE OR AND\\OR COMPENSATE THE CITY FOR DAMAGED SIGN(S). SIGNS SHALL BE DELIVERED SHALL BE BURIED, DUMPED, BURNED, OR DISCHARGED WITHIN THE PROJECT LIMITS.\nABANDONED. THE ENGINEER FURTHER DOES NOT WARRANT THAT THE UTILITIES WHEN REMOVED TO THE CITY TRAFFIC DEPARTMENT AT 1001 10TH AVENUE. SIGNS\nSHOWN ARE IN THE EXACT LOCATION INDICATED. THE CONTRACTOR SHALL NOTIFY SHALL NOT BE STORED ON PROJECT SITE. 20. THE CONTRACTOR SHALL TAKE STEPS TO CONTROL SOIL EROSION AND FUGITIVE\nTHE IOWA ONE-CALL SYSTEM AT 1-800-292-8989 TO IDENTIFY THE LOCATION OF ALL DUST DURING CONSTRUCTION. IF NECESSARY, HAY BALES, CHECK DAMS, SEDIMENT\nUNDERGROUND UTILITY FACILITIES WITHIN THE CONSTRUCTION AREA. 10. ALL SOLID WASTE, AND EXCESS EXCAVATION FROM THE REMOVAL OR TRAPS OR ADDITIONAL SILT FENCE (NOT INDICATED ON THE PLANS) SHALL BE USED\nINSTALLATION OF PAVEMENT, STORM, AND SANITARY SEWER SYSTEMS, SHALL BE TO RETAIN SILT AND PREVENT SILT FROM ENTERING THE STORM DRAINAGE SYSTEM.\nTHE CONTRACTOR SHALL DETERMINE THE EXACT LOCATION OF ALL PUBLIC AND REMOVED AND DISPOSED OF BY THE CONTRACTOR IN COMPLIANCE WITH ALL IT SHALL BE THE RESPONSIBILITY OF THE CONTRACTOR TO CONDUCT OPERATIONS\nPRIVATE UTILITY FACILITIES LOCATED WITHIN THE CONSTRUCTION AREA TO AVOID APPLICABLE FEDERAL, STATE, AND LOCAL REQUIREMENTS. ALL REMOVED ITEMS IN ACCORDANCE WITH THE POLLUTION PREVENTION PLAN AND ADMINISTER IT\nDAMAGE IN ACCORDANCE WITH SECTION 480.4, CODE OF IOWA. DAMAGE TO SHALL BE DISPOSED OF BY THE CONTRACTOR OFF SITE AND SHALL NOT BE THROUGHOUT THE PROJECT DURATION.\nUTILITIES DUE TO THE CONTRACTOR\u2019S ACTIONS SHALL BE REPAIRED OR REPLACED INCORPORATED INTO THE WORK.\nWITHOUT COST TO THE OWNER OR ENGINEER. 21. THE CONTRACTOR SHALL CONSTRUCT THE NECESSARY EROSION CONTROL AND\nPRIOR TO THE COMMENCEMENT OF REMOVALS, THE CONTRACTOR SHALL PROVIDE RUNOFF DETENTION STRUCTURES INCLUDED IN THE PLANS AND PER THE STORM\nWHERE EXISTING UTILITY FACILITIES ARE SHOWN IN THE PLANS OR ENCOUNTERED THE ENGINEER DOCUMENTATION OF THEIR CERTIFIED DISPOSAL SITE(S) FOR ALL WATER POLLUTION PREVENTION PLANS (SWPPP) PRIOR TO ANY GRADING ON THE\nWITHIN THE CONSTRUCTION AREA, THE CONTRACTOR SHALL NOTIFY THE UTILITY ITEMS TO BE REMOVED FROM THE PROJECT. THE CONTRACTOR SHALL PROVIDE THE PROJECT IN ORDER TO PREVENT SILT TRANSPORT AND SOIL TRACKING OUTSIDE OF\nCOMPANY PRIOR TO BEGINNING CONSTRUCTION ACTIVITIES. THE CONTRACTOR ENGINEER WITH LOAD TICKETS FOR ALL ITEMS REMOVED FROM THE PROJECT. THE PROJECT LIMITS. THE CONTRACTOR SHALL MAINTAIN AND WATER HAUL ROADS\nSHALL BE RESPONSIBLE FOR NOTIFYING UTILITIES AND CONDUCTING WORK NEAR PAYMENT WILL NOT BE MADE ON REMOVAL ITEMS WITHOUT APPROPRIATE TICKETS. TO CONTROL FUGITIVE DUST.\nUTILITY FACILITIES REQUIRED BY SECTION 480.4, CODE OF IOWA.\n11. TO COMPLY WITH THE MIGRATORY BIRD TREATY ACT, TREES SHALL NOT BE 22. ALL CONCRETE TRUCKS SHALL RETURN TO THE PLANT TO WASH OUT UNLESS THE\nTHE CONTRACTOR SHALL COOPERATE WITH UTILITY COMPANIES IN THEIR REMOVED DURING THE PRIMARY NESTING SEASON DEFINED AS APRIL 1ST THROUGH CONTRACTOR PROVIDES A CONCRETE WASH OUT AREA AS DESCRIBED IN THE PLANS\nADJUSTMENT OPERATIONS SO THAT THESE OPERATIONS MAY PROGRESS, THE SEPTEMBER 30TH. EXISTING TREES NOT INDICATED FOR REMOVAL SHALL BE OR AS APPROVED BY THE ENGINEER. THE CONTRACTOR IS RESPONSIBLE FOR THE\nDUPLICATION OF ADJUSTMENT WORK MAY BE REDUCED, AND THAT SERVICES PROTECTED FROM DAMAGE DURING CONSTRUCTION. TRIMMING OF TREES WITH REMOVAL AND CLEAN UP OF THE WASH OUT LOCATION.\nRENDERED BY THOSE PARTIES WILL NOT BE INTERRUPTED. TRUNKS LOCATED OUTSIDE OF THE RIGHT OF WAY SHALL NOT BE COMPLETED\nWITHOUT AUTHORIZATION FROM THE OWNER. WHEN TRIMMING IS REQUIRED ON 23. THE OWNER MAY CHARGE THE CONTRACTOR ACTUAL DAMAGES FOR FAILURE OF\nTHE CONTRACTOR SHALL REVIEW ALL UTILITIES SHOWN IN THE PLANS AND ANY TREE, THE CONTRACTOR SHALL OBTAIN APPROVAL FROM THE OWNER AND USE THE CONTRACTOR TO COMPLY WITH ANY PART OF THE CONTRACT, INCLUDING\nCOORDINATE WITH ALL UTILITY COMPANIES NECESSARY TO SCHEDULE WORK FOR SAWS TO REMOVE ROOTS AND BRANCHES FROM TREES THAT ARE TO REMAIN. NO INCIDENTAL PROJECT REQUIREMENTS, FOR WHICH THE OWNER INCURS COSTS TO\nALL KNOWN AND POTENTIAL CONFLICTS. THE CONTRACTOR SHALL BE AWARE REMOVAL OF ROOTS OR BRANCHES SHALL BE BY HEAVY EQUIPMENT THAT RESULTS REMEDY. THE OWNER MAY CHARGE UP TO THE ACTUAL COST INCURRED BY THE\nTHAT UTILITY SERVICES ARE NOT ROUTINELY LOCATED OR SHOWN ON THE PLANS, IN TEARS. ALL REMOVALS SHALL LEAVE A SMOOTH CUT FACE. OWNER FOR SUCH DAMAGES. THE OWNER MAY DEDUCT AMOUNTS FOR DAMAGES\nHOWEVER MAY BE A CONFLICT WITH THE WORK PERFORMED. DELAYS, FROM PAYMENTS DUE TO THE CONTRACTOR.\nINCONVENIENCE, OR DAMAGE CLAIMED BY THE CONTRACTOR DUE TO ANY 12. THE CONTRACTOR SHALL MAINTAIN PEDESTRIAN PATHWAYS OPEN AND PASSABLE\nINTERFERENCE OF UTILITIES SHOWN IN THE PLANS OR SERVICES SHALL NOT BE DURING CONSTRUCTION. 24. ALL SIDEWALKS, SHARED USE PATHS, PEDESTRIAN CURB RAMPS, AND DRIVEWAYS\nCONSIDERED A CIRCUMSTANCE FOR ADDITIONAL TIME OR COMPENSATION. SHALL BE CONSTRUCTED TO MEET THE MINIMUM REQUIREMENTS OF DIVISION 7\n13. THE CONTRACTOR SHALL BE RESPONSIBLE FOR THE COLLECTION AND SECTION 7030 OF THE SUDAS STANDARD SPECIFICATIONS. ALL WORK COMPLETED\n2. REMOVALS OF ABANDONED UTILITIES THAT ARE SHOWN ON THE PLANS AND TRANSPORTATION OF RESIDENTIAL SOLID WASTE AND RECYCLABLES, INCLUDING 96 THAT DOES NOT MEET THESE REQUIREMENTS SHALL BE REMOVED AND REPLACED\nENCOUNTERED DURING TRENCH EXCAVATION SHALL BE INCIDENTAL TO THE OR 48 GALLON GARBAGE AND YARD WASTE CARTS, AND 96 OR 48 GALLON BY THE CONTRACTOR AT NO COST TO THE CITY.\nUNDERGROUND UTILITY BEING INSTALLED AND WILL NOT BE PAID FOR SEPARATELY RECYCLABLES CARTS; FROM IN FRONT OF INDIVIDUAL PROPERTIES TO THE ENDS OF\nUNLESS INDICATED OTHERWISE ON THE PLANS. THE PROJECT LIMITS FOR PICKUP. THE CARTS SHALL BE RETURNED TO THE 25. THE CONTRACTOR SHALL NOTIFY THE ENGINEER WHEN FINAL GRADING HAS BEEN\nINDIVIDUAL PROPERTIES THE SAME DAY GARBAGE IS COLLECTED. EACH OF THE COMPLETED. THE ENGINEER SHALL PERFORM A FIELD REVIEW OF THE GRADING\n3. PRIOR TO BEGINNING WORK ON THE FOLLOWING ITEMS, THE CONTRACTOR SHALL CARTS SHALL BE RETURNED TO THE RESPECTIVE ADDRESS WHERE IT WAS PRIOR TO ANY SEEDING OR HYDROMULCHING BY THE CONTRACTOR. FAILURE TO\nSUBMIT TO THE ENGINEER FOR REVIEW PLANS FOR BY-PASS PUMPING, TRENCH RETRIEVED. ALL CARTS SHALL BE MARKED WITH TEMPORARY TAPE WITH THE COMPLY WITH THE FINAL GRADING REVIEW MAY RESULT IN RE-GRADING, RE-SEEDING\nSHORING, JACKING AND BORING, DEWATERING, TRAFFIC CONTROL, EMERGENCY ADDRESS CLEARLY SHOWN. ANY DAMAGE TO CARTS SHALL BE THE CONTRACTORS AND RE-HYDROMULCHING IN AREAS THAT DO NOT MEET SPECIFICATIONS.\nACTION PLAN (EAP) FOR WORK IN THE LEVEE CRITICAL ZONE AND PROVIDE SHORING RESPONSIBILITY TO REPLACE. THE CONTRACTOR SHALL COORDINATE THE PICKUP ANY ADDITIONAL WORK WILL BE AT THE EXPENSE OF THE CONTRACTOR.\nOR SUPPORT DETAILS FOR WATER MAINS AND OTHER MAJOR UTILITY LINES THAT LOCATION(S) WITH THE COLLECTION CONTRACTOR.\nMUST REMAIN IN SERVICE. 26. THE CONTRACTOR SHALL NOT INSTALL MANHOLE INFILTRATION BARRIERS UNTIL\n14. THE CONTRACTOR SHALL CONFINE ALL OPERATIONS, INCLUDING EQUIPMENT AND AFTER THE ENGINEER AND CITY REPRESENTATIVE(S) HAVE INSPECTED THE\n4. THE CONTRACTOR SHALL KEEP SANITARY SEWER AND STORM SEWER LINES AND MATERIAL STORAGE, WITHIN THE CONSTRUCTION ROW AND/OR EASEMENTS OF THE MANHOLE(S). ONCE THE INSPECTION OF MANHOLE(S) HAS BEEN COMPLETED AND IS\nSTRUCTURES CLEAN AND FREE OF DEBRIS THAT IS A RESULT OF CONSTRUCTION PROJECT. IF THE CONTRACTOR IS GRANTED PERMISSION TO STORE MATERIALS OR ACCEPTABLE, THE INFILTRATION BARRIER MAY BE INSTALLED. THE INFILTRATION\nOPERATIONS. ANY CLEANING AND REMOVAL OF DEBRIS THAT ENTERS AS A RESULT EQUIPMENT ON ADJACENT PRIVATE PROPERTY THE CONTRACTOR SHALL PROVIDE BARRIER WILL THEN BE INSPECTED BY THE ENGINEER AND CITY REPRESENTATIVE(S)\nOF CONSTRUCTION OPERATIONS SHALL BE COMPLETED AT THE EXPENSE OF THE THE ENGINEER WITH WRITTEN PROOF OF PERMISSION FROM THE LANDOWNER. FOR APPROVAL. BACKFILL AROUND THE MANHOLE SHALL NOT BE COMPLETED\nCONTRACTOR. UNTIL AFTER THE INSPECTION OF THE INFILTRATION BARRIER HAS OCCURRED WHEN\n15. THE CONTRACTOR SHALL MAINTAIN THE PROJECT LIMITS. BY COMMENCING THE USING AN EXTERNAL BARRIER.\n5. THE CONTRACTOR SHALL MAKE ACCESS AVAILABLE TO ADJACENT PROPERTIES IN WORK IN A GIVEN AREA, THE CONTRACTOR ASSUMES THE RESPONSIBILITY FOR\nCASE OF EMERGENCIES. THE CONTRACTOR SHALL NOTIFY THE CITY ENGINEER ONGOING REQUIRED MAINTENANCE SUCH AS MOWING AND WEED CONTROL WITHIN 27. CONCRETE ADMIXTURES SHALL NOT BE USED UNLESS APPROVED BY THE ENGINEER\n(712-890-5296) AND NON-EMERGENCY 911 (712-328-5737), 24 HOURS PRIOR TO CLOSING THE PROJECT LIMITS. AND SUBMITTED AS PART OF THE SHOP DRAWING SUBMITTAL FOR THE SPECIFIED\nAND/OR OPENING ANY ROADS TO TRAFFIC. THE CONTRACTOR SHALL ADEQUATELY MIX DESIGN AS SHOWN IN THE CONTRACT DOCUMENTS.\nBARRICADE CLOSED ROADS DURING CONSTRUCTION TO ENSURE PUBLIC SAFETY 16. THE ENGINEER WILL SET THE REQUESTED CONSTRUCTION STAKES UPON 48 HOUR\nAND PROTECT NEW PAVEMENT FROM DAMAGE. ALL TRAFFIC CONTROL SHALL BE IN ADVANCED NOTIFICATION BY THE CONTRACTOR. THE CONTRACTOR SHALL BE\nCOMPLIANCE WITH \"MANUAL ON UNIFORM TRAFFIC CONTROL DEVICES\u201d U.S. RESPONSIBLE FOR THE PRESERVATION OF STAKES AND MARKS. THE OWNER WILL\nDEPARTMENT OF TRANSPORTATION, LATEST EDITION. FURNISH THE STAKING THROUGH THE ENGINEER ONE TIME ONLY. ALL OTHER\nCONSTRUCTION STAKING SHALL BE FURNISHED BY THE CONTRACTOR.\n6. REMOVAL AND REINSTALLATION OF MAILBOXES AS NECESSARY SHALL BE\nINCIDENTAL TO THE PROJECT UNLESS SPECIFIED OTHERWISE. THE CONTRACTOR RESTAKING, INCLUDING ASSOCIATED TRIP CHARGES, SHALL BE PAID BY THE\nSHALL NOTIFY THE POST OFFICE OF THE STREET CLOSING AND ARRANGE FOR AN CONTRACTOR TO THE OWNER WHO WILL REIMBURSE ENGINEER. THE OWNER MAY\nALTERNATE DROP BOX LOCATION AS NECESSARY. DEDUCT AMOUNTS FOR RESTAKING FROM PAYMENTS DUE TO THE CONTRACTOR.\n7. SANITARY SEWER LATERALS DISRUPTED BY THE CONTRACTOR SHALL BE 17. STREETS SHALL NOT BE OPENED TO TRAFFIC UNTIL ALL STREET PAVEMENT HAS\nRECONNECTED TO THE SEWER DURING THE SAME DAY THAT THEY ARE DISRUPTED. REACHED REQUIRED STRENGTH, ALL JOINTS HAVE BEEN SEALED, AND ALL\nDRIVEWAYS AND SIDEWALKS HAVE BEEN CONSTRUCTED UNLESS INDICATED\n8. WHEN MILLING OF ASPHALT PAVEMENT IS A BID ITEM IN THE PLANS ALL MILLED OTHERWISE ON THE PLANS OR APPROVED BY THE ENGINEER.\nASPHALT PAVEMENT SHALL BE DELIVERED TO THE CITY PUBLIC WORKS YARD AT\n1130 2ND AVENUE. CONSTRUCTION PHASING MAY REQUIRE MULTIPLE 18. THE CONTRACTOR WILL BE RESPONSIBLE FOR PAYMENTS ASSOCIATED WITH ALL\nMOBILIZATIONS FOR MILLING OPERATIONS. OUT OF PHASE MILLING WILL NOT BE RETESTING RESULTING FROM FAILURE OF INITIAL COMPACTION TESTS. RETESTING,\nALLOWED UNLESS OTHERWISE NOTED IN THE CONTRACT DOCUMENTS. THE COST INCLUDING ASSOCIATED TRIP CHARGES, SHALL BE PAID BY THE CONTRACTOR TO\nINVOLVED TO HAUL SALVAGED ITEMS TO THE CITY YARD SHALL BE INCIDENTAL TO THE OWNER. THE OWNER SHALL DEDUCT AMOUNTS FOR RETESTING FROM\nREMOVAL FOR WHICH PAYMENT IS MADE. PAYMENTS DUE TO THE CONTRACTOR.",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "FILE NO. ENGLISH DESIGN",
+     "TEAM JEO City",
+     "of Council Bluffs COUNTY PROJECT NUMBER PW26-08A",
+     "SHEET NUMBERC .4"
+    ]
+   ]
+  },
+  {
+   "source": "Plans.pdf",
+   "sheet": 12,
+   "header_row": 0,
+   "headers": [
+    "BILL OF MATERIALS\nPROPOSED QUANTITIES AS BUILT QUANTITIES\nITEM ITEM CODE DESCRIPTION UNIT\n----- ----- TOTAL ----- ----- TOTAL\n--- 16 Phase, Cabinet W/ Accessories Each --- --- 1 --- --- ---\nController\n--- --- --- --- --- --- --- --- ---\nand Cabinet\n--- --- --- --- --- --- --- --- ---\nDetector --- Wavetronix SmartSensor Matrix Radar Detection Each --- --- 3 --- --- ---\nUnits --- --- --- --- --- --- --- --- ---\n--- 12\" R,Y,G Mastarm Mount Each --- --- 2 --- --- ---\n--- 12\" R,Y,G Side of Pole Mount Each --- --- 2 --- --- ---\n--- 12\" R, Y>, Y>, G> Mastarm Mount Each --- --- 1 --- --- ---\nTraffic Signal --- 12\" R, Y>,Y>,G> Side of Pole Mount Each --- --- 1 --- --- ---\nHeads --- 12\" <R, <Y, <Y, <G Mastarm Mount Each --- --- 1 --- --- ---\n--- 12\" <R,<Y,<G Mastarm Mount Each --- --- 1 --- --- ---\n--- 16\"x12\" Pedestrian Countdown Signal Each --- --- 2 --- --- ---",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "Handholes\nWire and\nCable\nDetector\nSaw Cut",
+     "--- ---\n--- 24\"x36\" Handhole\n--- SIGNAL - 20c #14\n--- SIGNAL - 5c #14\n--- SIGNAL - 7c #14\n--- PTZ\n--- POWER - 1c #6\n--- GROUND - 1c #6,\n--- TRACER - 1c #12\n--- LUMINAIRE - 2C\n--- Pull Tape\n--- Fiber Optic Interco\n--- SIGNAL - 2c #14\n--- ---\n--- ---\n--- ---",
+     "BARE\n#8\nnnect - 12 SM",
+     "Each\nEach\nFt.\nFt.\nFt.\nFt.\nFt.\nFt.\nFt.\nFt.\nFt.\nFt.\nFt.\n---\n---\n---",
+     "---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---",
+     "---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---",
+     "-\n3\n450\n200\n150\n180\n500\n500\n605\n400\n605\n200\n250\n---\n---\n---",
+     "---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---",
+     "---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---",
+     "---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---"
+    ],
+    [
+     "Detector\nSaw Cut",
+     "--- 3\" PVC, Trenched\n--- 3\" PVC, Pushed",
+     "",
+     "Ft.\nFt.",
+     "---\n---",
+     "---\n---",
+     "75\n280",
+     "---\n---",
+     "---\n---",
+     "---\n---"
+    ],
+    [
+     "",
+     "--- 2\" PVC, Trenched\n--- ---\n--- ---",
+     "",
+     "Ft.\n---\n---",
+     "---\n---\n---",
+     "---\n---\n---",
+     "250\n---\n---",
+     "---\n---\n---",
+     "---\n---\n---",
+     "---\n---\n---"
+    ]
+   ]
+  },
+  {
+   "source": "Plans.pdf",
+   "sheet": 29,
+   "header_row": 1,
+   "headers": [
+    "Intersection\nNu",
+    "mber Type Pe\n1 Combo Signal / Lighting\n2 Combo Signal / Lighting",
+    "Location\ndestal Height Qty. On Pole Qty.\nFT EACH FT EACH\n55 3 See Above 3\n40 4 See Above 4",
+    "Location\nOn Pole\nFT\nSee Above\nSee Above",
+    "Mo\nSpread\nH\nFT\n15\n15",
+    "unting\nO\neight\nFT\n35\n35",
+    "rientat\nDEGRE\n0\n270",
+    "ion Di\nE FT\n3\n3",
+    "a. Depth\nFT\n16\n14",
+    "Miscellaneous\nInclude Wind Mitigation Device\n--"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "3 Combo Signal / Lighting 30 3 See Above 2 See Above 15 35 270 3 12 --\nIntersection of\n4 APS Pushbutton Pole 5 - See Above 1 See Above -- -- -- 1.5 1 See APS Pushbutton Pole Details on Sheet U\nValley View Drive and\n5 APS Pushbutton Pole 5 - See Above 1 See Above -- -- -- 1.5 1 See APS Pushbutton Pole Details on Sheet U\nGreenview Road\n6 -- -- -- -- -- -- -- -- -- -- -- --\nin Council Bluffs\n7 -- -- -- -- -- -- -- -- -- -- -- --\n8 -- -- -- -- -- -- -- -- -- -- -- --\n9 -- -- -- -- -- -- -- -- -- -- -- --",
+     "3 Combo Signal / Lighting\n4 APS Pushbutton Pole\n5 APS Pushbutton Pole\n6 --",
+     "30 3 See Above 2\n5 - See Above 1\n5 - See Above 1\n-- -- -- --",
+     "See Above\nSee Above\nSee Above\n--",
+     "15\n--\n--\n--",
+     "35\n--\n--\n--",
+     "270\n--\n--\n--",
+     "3\n1.5\n1.5\n--",
+     "12\n1\n1\n--",
+     "--\nSee APS Pushbutton Pole Details on Sheet U\nSee APS Pushbutton Pole Details on Sheet U\n--"
+    ],
+    [
+     "",
+     "7 --\n8 --",
+     "-- -- -- --\n-- -- -- --",
+     "--\n--",
+     "--\n--",
+     "--\n--",
+     "--\n--",
+     "--\n--",
+     "--\n--",
+     "--\n--"
+    ],
+    [
+     "1 2 Location is distance for center of pole measured out to the end of the arm. On combination poles\n3 Orientation of luminaire arm is clockwise angle measured from the centerline of the signal mast arm. shall be located in th",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 41.0,
+  "attachment_fetches": 7,
+  "attachment_seconds": 7.9,
+  "attachment_bytes": 51063988,
+  "max_fetch_seconds": 6.92,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-28T13:13:47.240427+00:00",
+ "extract_attempts": 1
+}
