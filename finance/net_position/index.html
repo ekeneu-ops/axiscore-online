@@ -1,119 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Axiscore Finance — Net Position</title>
+<!doctype html>
+<meta charset="utf-8">
+<title>Liquid Net Position — moved</title>
+<!--
+  STALE SEED PAGE, REDIRECTED 2026-08-28.
+
+  This path was created by the Phase A split from mission-control (2026-08-19) as a
+  6.5KB placeholder reading ../data/_latest_net_position.json. NOTHING HAS WRITTEN THAT
+  FEED SINCE, and no workflow references it — so the page kept serving frozen numbers at
+  a live URL while the real page (finance/net-position/, note the HYPHEN) moved on.
+
+  Ekene was reading this one and correctly reported that a receivable he had just seen
+  added was "dropped from the Net Position table". It was never dropped; he was on the
+  abandoned twin. Two live pages one underscore apart is a trap that costs someone their
+  trust in the numbers, which is the only thing the page has.
+
+  Redirected rather than deleted so existing bookmarks still land somewhere correct.
+-->
+<meta http-equiv="refresh" content="0; url=../net-position/">
+<link rel="canonical" href="../net-position/">
 <style>
-  :root { --bg:#f0ebe3; --card:#fff; --border:#d9d0c4; --ink:#2c2825; --muted:#6b6259; --pos:#1f8a4d; --neg:#c0392b; --accent:#5a9e2f; }
-  * { box-sizing: border-box; }
-  body { margin:0; padding:0; font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); }
-  .page { max-width:1100px; margin:0 auto; padding:24px 28px 60px; }
-  header { display:flex; flex-wrap:wrap; gap:12px; align-items:baseline; justify-content:space-between; margin-bottom:18px; }
-  header h1 { margin:0; font-size:22px; font-weight:700; }
-  .sub { color:var(--muted); font-size:13px; }
-  .three { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin:24px 0 32px; }
-  @media (max-width:900px) { .three { grid-template-columns:1fr; } }
-  .card { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:18px 20px; }
-  .card .label { font-size:11px; text-transform:uppercase; letter-spacing:0.12em; color:var(--muted); margin-bottom:6px; }
-  .card .val { font-size:26px; font-weight:700; font-variant-numeric:tabular-nums; }
-  .card .val.pos { color:var(--pos); }
-  .card .val.neg { color:var(--neg); }
-  .card .sublabel { font-size:12px; color:var(--muted); margin-top:6px; }
-  .panel { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:16px 20px; margin-bottom:16px; }
-  .panel h2 { margin:0 0 10px; font-size:14px; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted); font-weight:600; }
-  table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
-  th,td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--border); font-size:13px; }
-  th { color:var(--muted); font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:0.08em; }
-  td.num { text-align:right; }
-  td.num.pos { color:var(--pos); }
-  td.num.neg { color:var(--neg); }
-  .meta { font-size:12px; color:var(--muted); margin-top:6px; }
-  .meta a { color:var(--accent); }
-  .err { background:#fbe9e7; border:1px solid #f4c7c0; color:#842029; padding:12px 16px; border-radius:6px; margin-bottom:16px; }
+  body { font: 16px/1.6 -apple-system, system-ui, sans-serif; max-width: 34rem;
+         margin: 6rem auto; padding: 0 1.5rem; color: #111; }
+  a { color: #0969da; }
 </style>
-</head>
-<body>
-<div class="page">
-  <header>
-    <div>
-      <h1>Axiscore Finance — Net Position</h1>
-      <div class="sub">Three views. <a href="../">← Pay/Review/Wait</a></div>
-    </div>
-    <div class="sub" id="hdr-meta">loading…</div>
-  </header>
-  <div id="err" class="err" style="display:none"></div>
-  <div class="three">
-    <div class="card"><div class="label">Liquid Net</div><div class="val" id="v-liquid">—</div><div class="sublabel" id="l-liquid">liquid assets − current AP</div></div>
-    <div class="card"><div class="label">Near-term Net</div><div class="val" id="v-near">—</div><div class="sublabel" id="l-near">+ ISG rebate</div></div>
-    <div class="card"><div class="label">Full Balance</div><div class="val" id="v-full">—</div><div class="sublabel" id="l-full">all assets − all liabilities</div></div>
-  </div>
-  <div class="panel">
-    <h2>Assets</h2>
-    <table id="t-assets"><thead><tr><th>Line</th><th>Liquidity</th><th class="num">Value</th></tr></thead><tbody></tbody></table>
-  </div>
-  <div class="panel">
-    <h2>Liabilities</h2>
-    <table id="t-liab"><thead><tr><th>Line</th><th>Type</th><th class="num">Value</th></tr></thead><tbody></tbody></table>
-  </div>
-  <div class="panel">
-    <h2>Sources</h2>
-    <div class="meta">
-      Essendant AP source: <strong id="m-ess">—</strong><br>
-      Canonical ledger: <a id="m-ledger" target="_blank">edit</a> — every line is read on the next pipeline refresh.<br>
-      Pipeline last run: <strong id="m-ran">—</strong>
-    </div>
-  </div>
-</div>
-<script>
-const fmt = n => (n < 0 ? '−$' : '$') + Math.abs(Number(n)).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
-function setSign(el, v) {
-  el.classList.remove('pos','neg');
-  el.classList.add(v >= 0 ? 'pos' : 'neg');
-  el.textContent = fmt(v);
-}
-(async () => {
-  try {
-    const r = await fetch('../data/_latest_net_position.json?_=' + Date.now(), {cache:'no-store'});
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    const j = await r.json();
-    const np = j.net_position || {};
-    setSign(document.getElementById('v-liquid'), np.liquid_net);
-    setSign(document.getElementById('v-near'), np.near_term_net);
-    setSign(document.getElementById('v-full'), np.full_balance_net);
-    if (j.labels) {
-      document.getElementById('l-liquid').textContent = j.labels.liquid_net || '';
-      document.getElementById('l-near').textContent = j.labels.near_term_net || '';
-      document.getElementById('l-full').textContent = j.labels.full_balance_net || '';
-    }
-    // Tables
-    const tA = document.querySelector('#t-assets tbody');
-    for (const a of (j.assets || [])) {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `<td>${a.label}</td><td>${a.liquidity}</td><td class="num pos">${fmt(a.amount)}</td>`;
-      tA.appendChild(tr);
-    }
-    const tL = document.querySelector('#t-liab tbody');
-    for (const l of (j.liabilities || [])) {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `<td>${l.label}</td><td>${l.ap_type}</td><td class="num neg">${fmt(l.amount)}</td>`;
-      tL.appendChild(tr);
-    }
-    // Sources
-    const ess = j.essendant_statement || {};
-    document.getElementById('m-ess').textContent =
-      `${ess.source_filename || '—'} (net $${(ess.net_balance||0).toLocaleString(undefined,{minimumFractionDigits:2})}, ${ess.line_count||0} lines, ${ess.earliest_date||'?'} → ${ess.latest_date||'?'})`;
-    const ledgerLink = document.getElementById('m-ledger');
-    ledgerLink.href = j.ledger_doc_url || '#';
-    ledgerLink.textContent = j.ledger_doc_url ? 'edit ledger' : '—';
-    document.getElementById('m-ran').textContent = j.pipeline_last_run || '—';
-    document.getElementById('hdr-meta').textContent = 'Updated ' + (j.pipeline_last_run || '—').slice(0,19).replace('T',' ');
-  } catch (e) {
-    const el = document.getElementById('err');
-    el.style.display = 'block';
-    el.textContent = 'Could not load Net Position payload: ' + e.message + '. Pipeline may not have produced _latest_net_position.json yet. Trigger a manual refresh and retry.';
-  }
-})();
-</script>
-</body>
-</html>
+<h2>This page has moved</h2>
+<p>The live Liquid Net Position is at
+   <a href="../net-position/">finance/net-position/</a> — note the hyphen.</p>
+<p>This address was a placeholder left by a repo split and its data stopped updating on
+   2026&#8209;08&#8209;19. Redirecting you now; please update your bookmark.</p>
