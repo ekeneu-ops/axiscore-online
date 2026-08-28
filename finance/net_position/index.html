@@ -2,29 +2,26 @@
 <meta charset="utf-8">
 <title>Liquid Net Position — moved</title>
 <!--
-  STALE SEED PAGE, REDIRECTED 2026-08-28.
+  NOT A PAGE. A POINTER, 2026-08-28.
 
-  This path was created by the Phase A split from mission-control (2026-08-19) as a
-  6.5KB placeholder reading ../data/_latest_net_position.json. NOTHING HAS WRITTEN THAT
-  FEED SINCE, and no workflow references it — so the page kept serving frozen numbers at
-  a live URL while the real page (finance/net-position/, note the HYPHEN) moved on.
+  The Net Position is rendered in ONE place: the AP app at ap.axiscoreshop.com/np.html,
+  which is integrated with the rest of the engine and sits behind auth. This path was a
+  second renderer of the same np_live.json feed, and the two drifted apart — features
+  landed here that np.html never got, and a stale twin one character away
+  (finance/net_position/) served frozen numbers for nine days.
 
-  Ekene was reading this one and correctly reported that a receivable he had just seen
-  added was "dropped from the Net Position table". It was never dropped; he was on the
-  abandoned twin. Two live pages one underscore apart is a trap that costs someone their
-  trust in the numbers, which is the only thing the page has.
+  Three pages showing three different net positions is worse than one page that is
+  sometimes wrong, because nothing tells you which to believe. This file exists to make
+  sure the next change has exactly one place to go.
 
-  Redirected rather than deleted so existing bookmarks still land somewhere correct.
+  The FEED stays here and stays public — np.html fetches ../data/np_live.json
+  cross-origin. Only the duplicate RENDERING is retired.
 -->
-<meta http-equiv="refresh" content="0; url=../net-position/">
-<link rel="canonical" href="../net-position/">
-<style>
-  body { font: 16px/1.6 -apple-system, system-ui, sans-serif; max-width: 34rem;
-         margin: 6rem auto; padding: 0 1.5rem; color: #111; }
-  a { color: #0969da; }
-</style>
-<h2>This page has moved</h2>
-<p>The live Liquid Net Position is at
-   <a href="../net-position/">finance/net-position/</a> — note the hyphen.</p>
-<p>This address was a placeholder left by a repo split and its data stopped updating on
-   2026&#8209;08&#8209;19. Redirecting you now; please update your bookmark.</p>
+<meta http-equiv="refresh" content="0; url=https://ap.axiscoreshop.com/np.html">
+<link rel="canonical" href="https://ap.axiscoreshop.com/np.html">
+<style>body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:34rem;margin:6rem auto;padding:0 1.5rem;color:#111}a{color:#0969da}</style>
+<h2>The Net Position lives in the engine</h2>
+<p><a href="https://ap.axiscoreshop.com/np.html">ap.axiscoreshop.com/np.html</a> — the single
+   current page, integrated with the AP app.</p>
+<p>This address was a second copy that drifted out of date. Redirecting you now; please
+   update your bookmark.</p>
