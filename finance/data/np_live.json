@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-29T22:21Z",
+ "asof": "2026-08-29T22:29Z",
  "ap": {
   "net": 317178.2,
   "credits": 12099.78,
@@ -49,7 +49,7 @@
     "total": 91235.45
    }
   },
-  "asof": "2026-08-29T22:21Z",
+  "asof": "2026-08-29T22:29Z",
   "moved_pct": 0.0
  },
  "held": {
@@ -65,7 +65,7 @@
   "fev_through": "2026-08-29T21:56Z",
   "deferred_snapshot": "2026-08-29T22:06Z",
   "last_settlement_end": "2026-08-25",
-  "asof": "2026-08-29T22:21Z",
+  "asof": "2026-08-29T22:29Z",
   "moved_pct": 0.0
  },
  "fba": {
@@ -75,7 +75,7 @@
   "cost_after_prep": 8120.05,
   "est_sales": 12870.51,
   "erp_updated_at": "2026-08-29 21:30:07",
-  "asof": "2026-08-29T22:21Z"
+  "asof": "2026-08-29T22:29Z"
  },
  "amex": {
   "owed": 3113.01,
@@ -83,7 +83,7 @@
   "txn_count": 15,
   "pending_amt": 151.77,
   "last_txn": "2026-08-29",
-  "asof": "2026-08-29T22:21Z"
+  "asof": "2026-08-29T22:29Z"
  },
  "card_in_transit": {
   "amount": 297.91,
@@ -91,13 +91,13 @@
   "basis": "authnet",
   "oldest_days": 0,
   "deposits_through": "2026-08-29",
-  "asof": "2026-08-29T22:21Z"
+  "asof": "2026-08-29T22:29Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 45,
-  "asof": "2026-08-29T22:21Z"
+  "asof": "2026-08-29T22:29Z"
  }
 }
