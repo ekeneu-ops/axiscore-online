@@ -1,0 +1,140 @@
+{
+ "bid_id": "el-paso-water-tx-csp28-26-addendum-1",
+ "bid_number": "CSP28-26 Addendum 1",
+ "agency": "El Paso Water, TX",
+ "src": "Open",
+ "title": "McCOMBS 30-INCH WELL COLLECTOR LINE REPLACEMENT",
+ "close": "9/2/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 7,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CSP28-26 - McCombs 30-inch Well Collector Line Replacement.pdf",
+  "CSP28-26 - Drawings.pdf",
+  "Addendum 1-CSP28-26 - McCombs 30-Inch Well Collector Line Replacement.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CSP28-26 - McCombs 30-inch Well Collector Line Replacement.pdf",
+   "kind": "pdf",
+   "tables": 16,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "CSP28-26 - Drawings.pdf",
+   "kind": "pdf",
+   "tables": 152,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 1-CSP28-26 - McCombs 30-Inch Well Collector Line Replacement.pdf",
+   "kind": "pdf",
+   "tables": 35,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "CSP28-26 - McCombs 30-inch Well Collector Line Replacement.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "4",
+    "Project Approach\nOfferor shall submit a written Project Approach narrative\noutlining its understanding of the scope of work, major\nconstruction elements, anticipated constraints, sequencing\nof critical activities, coordination with stakeholders, and\nstrategies for minimizing service disruptions. The approach\nshould demonstrate familiarity with the technical\nchallenges of the project, including work in State and Local\nROW, maintaining water service, and handling tie-ins, wet-\ntaps, and bypasses. The approach must also reference how\nthe Offeror plans to meet contract requirements and\nincorporate applicable local, state, and agency standards.",
+    "Each Offeror can be awarded a maximum of 15 points\n-0 pts \u2013 No project approach provided or completely generic\nsubmission\n-5 pts \u2013 Basic narrative submitted; lacks detail or site-specific\nunderstanding\n-10 pts \u2013 Clear understanding of scope; addresses major work -\nactivities and sequencing\n-12 pts \u2013 Well-structured approach with discussion of technical\nchallenges, staging, and coordination\n-15 pts \u2013 Comprehensive and detailed approach tailored to the\nproject, with specific methods for construction sequencing, risk\nmitigation, stakeholder coordination, and quality control",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "5",
+     "Project Baseline Schedule\nOfferor shall submit a baseline project schedule that\noutlines all major construction phases, key milestones, and\nproposed durations. The schedule must demonstrate logical\nsequencing of work, compliance with the overall contract\ntime, inclusion of lead times for materials, and allowance\nfor coordination with other agencies (e.g., TXDOT, utility\nowners). Offerors are encouraged to submit a bar chart or\nGantt-style schedule showing early completion\nopportunities, critical path items, and realistic resource\nallocation.",
+     "Each Offeror can be awarded a maximum of 15 points\n-0 pts \u2013 No schedule submitted\n-3 pts \u2013 Schedule submitted but lacks major milestones or\ncoordination details\n-6 pts \u2013 Schedule aligns with contract duration and includes key\nconstruction elements\n-10 pts \u2013 Well-sequenced schedule including major tasks, long-lead\nitems, and agency coordination, and proper tie-ins within allowed\ntime windows.\n-15 pts \u2013 Comprehensive schedule showing critical path, early\nstarts, float allowances, long-lead procurement, staging, and\nrealistic durations based on prior experience, testing, bypass\nimplementations, and proper tie-ins within allowed time windows.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "Water Distribution Operator / Plumber\nThe project requires water line connections to existing\nactive water mains to be made under the direct supervision\nof a Licensed Class C Water Distribution Operator (issued\nby TCEQ) or a Master Licensed Plumber. The Offeror must\ndemonstrate that a qualified person meeting this\nrequirement is part of their team. Subcontractor experience\nis allowed.",
+     "Each Offeror can be awarded either a pass or fail score\n- Pass \u2013 Qualified individual identified (employee or\nsubcontractor)\n- Fail \u2013 No qualified person identified\nOfferors that fail to provide a qualified person may receive a\nfailing score and have their Offer rejected by Owner.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "CSP28-26 - McCombs 30-inch Well Collector Line Replacement.pdf",
+   "sheet": 7,
+   "header_row": 0,
+   "headers": [
+    "Item No.",
+    "Estimated\nQuantity",
+    "UOM",
+    "Brief Description of Item",
+    "Unit Bid Price",
+    "Extended Amount\n(Qty. x Unit Price)"
+   ],
+   "score": 3,
+   "n_rows": 7,
+   "sample": [
+    [
+     "1.",
+     "1",
+     "LS",
+     "Insurance, Bonds, and Move-\nIn Related Expenses, Not to\nExceed 5% of Bid Item Nos. 2\nthrough 70. If Item No. 1\nexceeds 5%, bid may be\ndeemed non-responsive).",
+     "$________________",
+     "$________________"
+    ],
+    [
+     "2.",
+     "1",
+     "LS",
+     "Traffic Control and Traffic\nSafety System",
+     "$________________",
+     "$________________"
+    ],
+    [
+     "3.",
+     "132",
+     "LF",
+     "Furnish and Install 6-in PVC\nWaterline Class 305,\nincluding appurtenances and\nfittings, complete in place.",
+     "$________________",
+     "$________________"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 365.6,
+  "attachment_fetches": 3,
+  "attachment_seconds": 61.9,
+  "attachment_bytes": 156893937,
+  "max_fetch_seconds": 58.73,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:49:27.961076+00:00",
+ "extract_attempts": 1
+}

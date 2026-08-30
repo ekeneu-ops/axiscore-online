@@ -1,0 +1,94 @@
+{
+ "bid_id": "lexington-fayette-urban-county-ky-bid-86-2026-addendum-2",
+ "bid_number": "Bid 86-2026 Addendum 2",
+ "agency": "Lexington-Fayette Urban County, KY",
+ "src": "Open",
+ "title": "Cadentown Historic Church and Site Improvements",
+ "close": "9/3/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Base Bid, as per specs.",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Base Bid, as per specs. 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bid Pkg 86-2026.pdf",
+  "Addendum _1 86-2026.pdf",
+  "Addendum _2 86-2026.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid Pkg 86-2026.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Addendum _1 86-2026.pdf",
+   "kind": "pdf",
+   "tables": 124,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum _2 86-2026.pdf",
+   "kind": "pdf",
+   "tables": 27,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Bid Pkg 86-2026.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Unit",
+    "Quantity"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1.",
+     "Base Bid, as per specs.",
+     "LS",
+     "1"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 20.7,
+  "attachment_fetches": 3,
+  "attachment_seconds": 1.9,
+  "attachment_bytes": 25453152,
+  "max_fetch_seconds": 1.2,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:57:20.284186+00:00",
+ "extract_attempts": 1
+}

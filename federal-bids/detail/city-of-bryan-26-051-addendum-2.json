@@ -1,0 +1,256 @@
+{
+ "bid_id": "city-of-bryan-26-051-addendum-2",
+ "bid_number": "26-051 Addendum 2",
+ "agency": "City of Bryan",
+ "src": "Open",
+ "title": "William J. Bryan Parkway Waterlines",
+ "close": "9/2/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 41,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 26-051 WJB Pkwy Waterlines.pdf",
+  "Attachment A - Bid Proposal _excel format_.xls",
+  "Attachment B - Drawings.pdf",
+  "Attachment C - TxDOT Permit.pdf",
+  "Addendum No. 1_Acknowledgement.pdf",
+  "Addendum No. 2_Acknowledgement.pdf",
+  "Attachment A - Bid Proposal _excel format__Add. No.02.xls"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 26-051 WJB Pkwy Waterlines.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment A - Bid Proposal _excel format_.xls",
+   "kind": "xls",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Attachment B - Drawings.pdf",
+   "kind": "pdf",
+   "tables": 21,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment C - TxDOT Permit.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 1_Acknowledgement.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 2_Acknowledgement.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Attachment A - Bid Proposal _excel format__Add. No.02.xls",
+   "kind": "xls",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Attachment A - Bid Proposal _excel format_.xls",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "Item",
+    "Description",
+    "QTY",
+    "Unit",
+    "Unit Price",
+    "Total"
+   ],
+   "score": 3,
+   "n_rows": 40,
+   "sample": [
+    [
+     "A. General Items",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.0",
+     "Mobilization, setup, & project overhead for duration of project, including related items and appurtenances, complete in place",
+     "1.0",
+     "LS",
+     "",
+     ""
+    ],
+    [
+     "2.0",
+     "Traffic control, including Traffic Control Plans signed and sealed by a engineer, submitted and approved by the city, all signage, barricades, cones, and related items and appurtenances, complete in place",
+     "1.0",
+     "LS",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum No. 2_Acknowledgement.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "Item",
+    "Description",
+    "QTY",
+    "Unit",
+    "Unit Price",
+    "Total"
+   ],
+   "score": 3,
+   "n_rows": 20,
+   "sample": [
+    [
+     "A. General Items",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Mobilization, setup, & project overhead for duration of project, including related items\nand appurtenances, complete in place",
+     "1",
+     "LS",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Traffic control, including Traffic Control Plans signed and sealed by a engineer,\nsubmitted and approved by the city, all signage, barricades, cones, and related items\nand appurtenances, complete in place",
+     "1",
+     "LS",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum No. 2_Acknowledgement.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "QTY",
+    "Unit",
+    "Unit Price",
+    "Total"
+   ],
+   "score": 3,
+   "n_rows": 18,
+   "sample": [
+    [
+     "16",
+     "8\" C-900 certa lok PVC waterline installed by bore, including related items and\nappurtenances, complete in place",
+     "369",
+     "LF",
+     "",
+     ""
+    ],
+    [
+     "17",
+     "8\" C-900 certa lok PVC waterline inside 16\" casing, including related items and\nappurtances, complete in place",
+     "123",
+     "LF",
+     "",
+     ""
+    ],
+    [
+     "18",
+     "16\" \u00d8 steel casing by bore, including related items and appurtenances, complete in\nplace",
+     "133",
+     "LF",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Attachment A - Bid Proposal _excel format__Add. No.02.xls",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "Item",
+    "Description",
+    "QTY",
+    "Unit",
+    "Unit Price",
+    "Total"
+   ],
+   "score": 3,
+   "n_rows": 41,
+   "sample": [
+    [
+     "A. General Items",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.0",
+     "Mobilization, setup, & project overhead for duration of project, including related items and appurtenances, complete in place",
+     "1.0",
+     "LS",
+     "",
+     ""
+    ],
+    [
+     "2.0",
+     "Traffic control, including Traffic Control Plans signed and sealed by a engineer, submitted and approved by the city, all signage, barricades, cones, and related items and appurtenances, complete in place",
+     "1.0",
+     "LS",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 27.2,
+  "attachment_fetches": 7,
+  "attachment_seconds": 4.1,
+  "attachment_bytes": 36904725,
+  "max_fetch_seconds": 3.35,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:41:31.070680+00:00",
+ "extract_attempts": 1
+}

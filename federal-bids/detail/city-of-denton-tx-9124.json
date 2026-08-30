@@ -1,0 +1,82 @@
+{
+ "bid_id": "city-of-denton-tx-9124",
+ "bid_number": "9124",
+ "agency": "City of Denton, TX",
+ "src": "Open",
+ "title": "PARD Golf Ball Dispenser Software Services",
+ "close": "9/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Training Rate per Hour",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Training Rate per Hour 1 EA No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "NLDR SOW Golf Ball Dispenser Software - New.docx",
+  "Insurance Requirements Driving Range Dispenser Software - 9124.docx",
+  "Contract - Services _Updated 7.25.24_.docx",
+  "Conflict_of_Interest_Questionaire.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "NLDR SOW Golf Ball Dispenser Software - New.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements Driving Range Dispenser Software - 9124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - Services _Updated 7.25.24_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict_of_Interest_Questionaire.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.4,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 172476,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:39:02.615992+00:00",
+ "extract_attempts": 1
+}

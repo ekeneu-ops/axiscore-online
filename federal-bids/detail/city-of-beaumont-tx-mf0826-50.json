@@ -1,0 +1,312 @@
+{
+ "bid_id": "city-of-beaumont-tx-mf0826-50",
+ "bid_number": "MF0826-50",
+ "agency": "City of Beaumont, TX",
+ "src": "Open",
+ "title": "Six (6) Month Contract for Road Materials - Asphaltic Concrete",
+ "close": "9/3/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:asphalt",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "TY-B PG64-22 Plant Pick Up (Vendor plant shall be within the Golden Triangle.)",
+   "qty": "75",
+   "uom": "Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 TY-B PG64-22 Plant Pick Up (Vendor plant shall be within the Golden Triangle.) 75 Per Ton No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "TY-B PG64-22 Delivered",
+   "qty": "75",
+   "uom": "Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 TY-B PG64-22 Delivered 75 Per Ton No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "TY-D PG64-22 Plant Pick Up (Vendor plant shall be within the Golden Triangle.)",
+   "qty": "200",
+   "uom": "Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 TY-D PG64-22 Plant Pick Up (Vendor plant shall be within the Golden Triangle.) 200 Per Ton No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "TY-D PG64-22 Delivered",
+   "qty": "200",
+   "uom": "Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 TY-D PG64-22 Delivered 200 Per Ton No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "3.1",
+   "desc": "TY-F PG64-22 Plant Pick Up (Vendor plant shall be within the Golden Triangle.)",
+   "qty": "100",
+   "uom": "Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.1 TY-F PG64-22 Plant Pick Up (Vendor plant shall be within the Golden Triangle.) 100 Per Ton No Response"
+  },
+  {
+   "ctl": "ucPackageLine9",
+   "kind": "package_line",
+   "line": "3.2",
+   "desc": "TY-F PG64-22 Delivered",
+   "qty": "100",
+   "uom": "Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.2 TY-F PG64-22 Delivered 100 Per Ton No Response"
+  }
+ ],
+ "attachments_saved": [
+  "MF0826-50_Specifications.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "MF0826-50_Specifications.pdf",
+   "kind": "pdf",
+   "tables": 27,
+   "note": "",
+   "candidates": 3
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "MF0826-50_Specifications.pdf",
+   "sheet": 4,
+   "header_row": 2,
+   "headers": [
+    "",
+    "Description",
+    "",
+    "",
+    "Qty (Tons)",
+    "",
+    "",
+    "Unit Price Per Ton",
+    "",
+    "",
+    "Extended Price",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "TY-B PG64-22\nPlant Pick Up\n(Vendor plant shall be within the\nGolden Triangle.)",
+     "",
+     "",
+     "75",
+     "",
+     "",
+     "$",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "TY-B PG64-22\nDelivered",
+     "",
+     "",
+     "75",
+     "",
+     "",
+     "$",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "Total:",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "MF0826-50_Specifications.pdf",
+   "sheet": 6,
+   "header_row": 2,
+   "headers": [
+    "",
+    "Description",
+    "",
+    "",
+    "Qty (Tons)",
+    "",
+    "",
+    "Unit Price Per Ton",
+    "",
+    "",
+    "Extended Price",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "TY-D PG64-22\nPlant Pick Up\n(Vendor plant shall be within the\nGolden Triangle.)",
+     "",
+     "",
+     "200",
+     "",
+     "",
+     "$",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "TY-D PG64-22\nDelivered",
+     "",
+     "",
+     "200",
+     "",
+     "",
+     "$",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "Total:",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "MF0826-50_Specifications.pdf",
+   "sheet": 8,
+   "header_row": 2,
+   "headers": [
+    "",
+    "Description",
+    "",
+    "",
+    "Qty (Tons)",
+    "",
+    "",
+    "Unit Price Per Ton",
+    "",
+    "",
+    "Extended Price",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "TY-F PG64-22\nPlant Pick Up\n(Vendor plant shall be within the\nGolden Triangle.)",
+     "",
+     "",
+     "100",
+     "",
+     "",
+     "$",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "TY-F PG64-22\nDelivered",
+     "",
+     "",
+     "100",
+     "",
+     "",
+     "$",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "Total:",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.8,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 664240,
+  "max_fetch_seconds": 0.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:58:28.886699+00:00",
+ "extract_attempts": 1
+}

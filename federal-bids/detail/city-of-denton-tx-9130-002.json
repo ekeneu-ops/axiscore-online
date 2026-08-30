@@ -1,0 +1,162 @@
+{
+ "bid_id": "city-of-denton-tx-9130-002",
+ "bid_number": "9130-002",
+ "agency": "City of Denton, TX",
+ "src": "Open",
+ "title": "602 Rose St",
+ "close": "9/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Property Address 602 Rose St. Legal COLLEGE BEAUTY ADDN BLK 2 LOT 1R Acreage 0.27 DCAD # 636456",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Property Address 602 Rose St. Legal COLLEGE BEAUTY ADDN BLK 2 LOT 1R Acreage 0.27 DCAD # 636456 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "CITY SURPLUS PROPERTY SEALED BID SALE INSTRUCTIONS_cb.docx",
+  "602 Rose St. - Site Map.pdf",
+  "Conflict_of_Interest_Questionaire.docx",
+  "AS-IS_ WHERE-IS Condition.pdf",
+  "Bank Letter Proof of Funds.docx",
+  "Bidder Checklist.pdf",
+  "Certification of No Debts Owed to the City of Denton.pdf",
+  "Closing.pdf",
+  "Ion Wave Submission Instructions.pdf",
+  "No-Title Policy Statement.pdf",
+  "Proof of Funds Requirements.pdf",
+  "Special Warranty Deed SURPLUS-2026-Sample.docx",
+  "Surplus Property Sealed Bid Purchase Offer Agreement _Application Form_.pdf",
+  "SURPLUS PROPERTY SEALED BID PURCHASE OFFER AGREEMENT.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CITY SURPLUS PROPERTY SEALED BID SALE INSTRUCTIONS_cb.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "602 Rose St. - Site Map.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict_of_Interest_Questionaire.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "AS-IS_ WHERE-IS Condition.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bank Letter Proof of Funds.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Checklist.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certification of No Debts Owed to the City of Denton.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Closing.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Ion Wave Submission Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "No-Title Policy Statement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Proof of Funds Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Special Warranty Deed SURPLUS-2026-Sample.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Surplus Property Sealed Bid Purchase Offer Agreement _Application Form_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SURPLUS PROPERTY SEALED BID PURCHASE OFFER AGREEMENT.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.2,
+  "attachment_fetches": 14,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 2197811,
+  "max_fetch_seconds": 0.11,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:39:24.464511+00:00",
+ "extract_attempts": 1
+}

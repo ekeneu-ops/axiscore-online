@@ -1,0 +1,417 @@
+{
+ "bid_id": "bryan-texas-utilities-040-11-26-addendum-1",
+ "bid_number": "040-11-26 Addendum 1",
+ "agency": "Bryan Texas Utilities",
+ "src": "Open",
+ "title": "BTU Underground Unit Services",
+ "close": "9/3/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 126,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 040-11-26  BTU Underground Unit Services.pdf",
+  "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+  "Appendix A - Underground Construction Standards.pdf",
+  "Addendum No. 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 040-11-26  BTU Underground Unit Services.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "kind": "xlsx",
+   "tables": 12,
+   "note": "",
+   "candidates": 9
+  },
+  {
+   "name": "Appendix A - Underground Construction Standards.pdf",
+   "kind": "pdf",
+   "tables": 94,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Unit Name",
+    "Unit Description",
+    "Install Price ($)",
+    "Remove Price ($)"
+   ],
+   "score": 2,
+   "n_rows": 19,
+   "sample": [
+    [
+     "US-1",
+     "1\u201d underground secondary riser, complete per BTU spec.     ",
+     "",
+     ""
+    ],
+    [
+     "US-2",
+     "2\u201d underground secondary riser, complete per BTU spec.     ",
+     "",
+     ""
+    ],
+    [
+     "US-3",
+     "3\u201d underground secondary riser, complete per BTU spec.     ",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Unit Name",
+    "Unit Description",
+    "Install Price ($)",
+    "Remove Price ($)"
+   ],
+   "score": 2,
+   "n_rows": 13,
+   "sample": [
+    [
+     "STL-DB-37.5",
+     "Single luminaries, setting fiberglass, wood, aggregate, aluminum or steel pole, up to 37.5 ft in height, direct embedded street light standard.  Includes pole ground, wire, arm,  photocell, luminaries and terminations",
+     "",
+     ""
+    ],
+    [
+     "STL-DBD-37.5",
+     "Double luminaries, setting fiberglass, aggregate, aluminum pole up to 37.5 ft in height, direct embedded street light standard.  Includes pole ground, wire, arm, photocell, luminaries and terminations.",
+     "",
+     ""
+    ],
+    [
+     "STL-DEC-10-20-1",
+     "Single luminaries, setting fiberglass or aggregate with concrete base, 10-20 ft in height, street light standard.  Includes wire, arm, photocell, luminaries and terminations",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "Unit Name",
+    "Unit Description",
+    "Install Price ($)",
+    "Remove Price ($)"
+   ],
+   "score": 2,
+   "n_rows": 18,
+   "sample": [
+    [
+     "1000URD",
+     "1000 MCM aluminum underground primary cable in conduit, per foot.",
+     "",
+     ""
+    ],
+    [
+     "4/0URD",
+     "4/0 aluminum underground primary cable in conduit, per foot.",
+     "",
+     ""
+    ],
+    [
+     "1/0URD",
+     "1/0 aluminum underground primary cable in conduit, per foot.",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "Unit Name",
+    "Unit Description",
+    "Install Price ($)",
+    "Remove Price ($)"
+   ],
+   "score": 2,
+   "n_rows": 30,
+   "sample": [
+    [
+     "BORE-SM1-2-HDPE",
+     "Bore and pull in 1-2\" poly conduit per foot. Entrance and receiving pit included.",
+     "",
+     ""
+    ],
+    [
+     "BORE-SM1-3-HDPE",
+     "Bore and pull in 1-3\" poly conduit per foot. Entrance and receiving pit included.",
+     "",
+     ""
+    ],
+    [
+     "BORE-SM1-4-HDPE",
+     "Bore and pull in 1-4\" poly conduit per foot. Entrance and receiving pit included.",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "Unit Name",
+    "Unit Description",
+    "Install Price ($)",
+    "Remove Price ($)"
+   ],
+   "score": 2,
+   "n_rows": 40,
+   "sample": [
+    [
+     "USPED",
+     "Above ground secondary pedestal, level and compact ground",
+     "",
+     ""
+    ],
+    [
+     "U1PAD",
+     "Pre-fab single phase transformer pad, level and compact ground",
+     "",
+     ""
+    ],
+    [
+     "U75-500PAD",
+     "Pour and finish transformer pad for a 75 to 500kVA three-phase pad mount transformer.  Contractor to furnish all steel, form material and concrete.  Per BTU spec. ",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 7,
+   "header_row": 2,
+   "headers": [
+    "Unit Description",
+    "Regular 40 Hour Work Week Hourly Price ($)",
+    "Overtime Work Hourly Price ($)*"
+   ],
+   "score": 2,
+   "n_rows": 28,
+   "sample": [
+    [
+     "EQUIPMENT",
+     "",
+     ""
+    ],
+    [
+     "Aerial Device Truck 55 to 60 ft.",
+     "",
+     ""
+    ],
+    [
+     "Digger Derrick",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "Unit No.",
+    "Quantity",
+    "Unit Labor Price",
+    "Extended Price",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 126,
+   "sample": [
+    [
+     "US-1",
+     "1",
+     "0",
+     "0",
+     "1. Risers",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "US-2",
+     "1",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "US-3",
+     "50",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 9,
+   "header_row": 0,
+   "headers": [
+    "Unit No.",
+    "Quantity",
+    "Unit Labor Price",
+    "Extended Price",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 126,
+   "sample": [
+    [
+     "US-1",
+     "10",
+     "0",
+     "0",
+     "1. Risers",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "US-2",
+     "10",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "US-3",
+     "5",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BTU Underground Unit RFP Bid Sheets - RFP 040-11-26.xlsx",
+   "sheet": 10,
+   "header_row": 0,
+   "headers": [
+    "UNIT DESCRIPTION",
+    "Regular 40 Hour Work Week Hourly Price ($)",
+    "Hours",
+    "Extended",
+    "Section"
+   ],
+   "score": 2,
+   "n_rows": 26,
+   "sample": [
+    [
+     "Aerial Device Truck 55 to 60 ft.",
+     "0",
+     "120",
+     "0",
+     "Equipment"
+    ],
+    [
+     "Digger Derrick",
+     "0",
+     "120",
+     "0",
+     ""
+    ],
+    [
+     "Truck-Mounted Crane",
+     "0",
+     "120",
+     "0",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.2,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 5239266,
+  "max_fetch_seconds": 0.2,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:58:55.333215+00:00",
+ "extract_attempts": 1
+}

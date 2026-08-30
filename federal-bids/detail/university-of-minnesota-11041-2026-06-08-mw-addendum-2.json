@@ -1,0 +1,284 @@
+{
+ "bid_id": "university-of-minnesota-11041-2026-06-08-mw-addendum-2",
+ "bid_number": "11041.2026.06.08.mw Addendum 2",
+ "agency": "University of Minnesota",
+ "src": "Open",
+ "title": "Parker Sanders Land Tiling Project for SWROC",
+ "close": "9/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 15,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Attachment A Project Schedule and Work Plan.pdf",
+  "Attachment B References.pdf",
+  "Attachment C Staffing Plan_Experience_Qualifications.pdf",
+  "REVISED Attachment D Price List.xlsx",
+  "Exhibit 1 Description of Services and Specifications.pdf",
+  "REVISED Exhibit 2 Field Tiling Maps.pdf",
+  "REVISED Exhibit 3 Estimated Supply List.pdf",
+  "Exhibit 3 Estimated Supply List.pdf",
+  "Exhibit 4 Prevailing Wage Rates-Commercial.pdf",
+  "Supplier-Process-and-Information-04-07-26.docx",
+  "PO-Terms-and-Conditions-01-06-26.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Attachment A Project Schedule and Work Plan.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment B References.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment C Staffing Plan_Experience_Qualifications.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "REVISED Attachment D Price List.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Exhibit 1 Description of Services and Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "REVISED Exhibit 2 Field Tiling Maps.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "REVISED Exhibit 3 Estimated Supply List.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 3 Estimated Supply List.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Exhibit 4 Prevailing Wage Rates-Commercial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier-Process-and-Information-04-07-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "PO-Terms-and-Conditions-01-06-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "REVISED Attachment D Price List.xlsx",
+   "sheet": 1,
+   "header_row": 4,
+   "headers": [
+    "Item Number",
+    "Item No.",
+    "DESCRIPTION",
+    "Estimated Quantity ",
+    "Unit of Measure - Each (EA) ",
+    "Price Offered/Total**",
+    "Notes*",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 15,
+   "sample": [
+    [
+     "1.a.",
+     "",
+     "The Project: Parker Sanders Land Tiling Project for SWROC including a firm, lump-sum proposal encompassing all elements described in items 1.1 through 1.6.  [4\" single-wall perforated tile (60' spacing)]",
+     "1",
+     "EA",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.b.",
+     "",
+     "The Project: Parker Sanders Land Tiling Project for SWROC including a firm, lump-sum proposal encompassing all elements described in items 1.1 through 1.6. [6\" single-wall perforated tile (60' spacing)]",
+     "1",
+     "EA",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.c.",
+     "",
+     "The Project: Parker Sanders Land Tiling Project for SWROC including a firm, lump-sum proposal encompassing all elements described in items 1.1 through 1.6. [8\" single-wall perforated tile (60' spacing)]",
+     "1",
+     "EA",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit 3 Estimated Supply List.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 10,
+   "sample": [
+    [
+     "4\u201d tile",
+     "43,371"
+    ],
+    [
+     "6\u201d tile",
+     "2,491"
+    ],
+    [
+     "6x4\u201d tee",
+     "47"
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit 3 Estimated Supply List.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 12,
+   "sample": [
+    [
+     "4\u201d tile",
+     "91,196"
+    ],
+    [
+     "6\u201d tile",
+     "3,140"
+    ],
+    [
+     "8\u201d tile",
+     "1,293"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.5,
+  "attachment_fetches": 11,
+  "attachment_seconds": 1.0,
+  "attachment_bytes": 3851220,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:26:45.860699+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,597 @@
+{
+ "bid_id": "johnson-county-ks-2026-005-addendum-7",
+ "bid_number": "2026-005 Addendum 7",
+ "agency": "Johnson County, KS",
+ "src": "Open",
+ "title": "Douglas L. Smith Middle Basin Asset Renewal Project",
+ "close": "9/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Total Base Bid for All Work designated in the Contract Documents for the Asset Renewal Project except as included in Items 1.2-1.7",
+   "qty": "1",
+   "uom": "Lump Sum (LS)",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Total Base Bid for All Work designated in the Contract Documents for the Asset Renewal Project except as included in Items 1.2-1.7 1 Lump Sum (LS) No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "2",
+   "desc": "Alternative 01 (A-01) \u2013New 6\u201d PS Force Main",
+   "qty": "1",
+   "uom": "Lump Sum (LS)",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Alternative 01 (A-01) \u2013New 6\u201d PS Force Main 1 Lump Sum (LS) No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Vol2_Bid_Dwgs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608.pdf",
+  "05-Questionnaire-202510.docx",
+  "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+  "2026-005 Addendum No. 1.docx",
+  "2026-005 Addendum No. 2.pdf",
+  "2026-005 Addendum No. 3_20260707.pdf",
+  "2026-005 Addendum No. 4.pdf",
+  "2026-005 Addendum No. 5.pdf",
+  "IMB1-C001 Record Drawings.pdf",
+  "IMB1-C003 Record Drawings.pdf",
+  "IMB1-C018 Record Drawings.pdf",
+  "2026-005 Addendum No. 6_v2_20260813.pdf",
+  "IMB1-C015 Record Drawings.pdf",
+  "IMB1-C036 Record Drawings.pdf",
+  "2026-005 Addendum No. 7.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Vol2_Bid_Dwgs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608.pdf",
+   "kind": "pdf",
+   "tables": 283,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "05-Questionnaire-202510.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "2026-005 Addendum No. 1.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2026-005 Addendum No. 2.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-005 Addendum No. 3_20260707.pdf",
+   "kind": "pdf",
+   "tables": 72,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-005 Addendum No. 4.pdf",
+   "kind": "pdf",
+   "tables": 46,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026-005 Addendum No. 5.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "IMB1-C001 Record Drawings.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "IMB1-C003 Record Drawings.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "IMB1-C018 Record Drawings.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "2026-005 Addendum No. 6_v2_20260813.pdf",
+   "kind": "pdf",
+   "tables": 22,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "IMB1-C015 Record Drawings.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "IMB1-C036 Record Drawings.pdf",
+   "kind": "pdf",
+   "tables": 159,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-005 Addendum No. 7.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Vol2_Bid_Dwgs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608.pdf",
+   "sheet": 21,
+   "header_row": 2,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "X X\nCTURES\nMETER METER\nSTRUCTURES (SCREENED)\nPLANT COORDINATES AT STRUCTURES\nVAULT VAULT\n(OUTSIDE FACE AT FINISHED GRADE)\nG (TRIPLE LINES)\nPLAN SECTION\nG (SINGLE LINE)\nCOORDINATES\nIPING (TRIPLE LINES) (SCREENED) (IN FEET) X N 16000 E 10000\nIPING (SINGLE LINE)(SCREENED)\nCURVE CONTROL DATA A\nE\nSTRUCTURE COORDINATE CONTROL DATA 1\nAND PIPE COORDINATE CONTROL DATA\nONUMENT, OR SURVEY LINE\nELEVATION/SLOPES\nL\nCONTOURS (SCREENED) 310\nCONTROL POINT #\nXX.XX\nOURS (MAJOR) 310\nPVMT\nSPOT ELEVATION (AT PAVEMENT)\nOURS (MINOR) XX.X\nSPOT ELEVATION (AT DIRT)\nE X X X XX.XX\nFL\nSPOT ELEVATION (AT FLOWLINE)\nFENCE (SCREENED) X X X\nXX.XX\n(HP)\nR ABANDONED (CROSS SPOT ELEVATION (AT HIGH POINT)\nX X X\n: FENCE SHOWN AS EXAMPLE)\nXX.XX\nPP TC\nLE & LINE E E SPOT ELEVATION (AT TOP CURB)\nXX.XX\nLINE OR RIGHT OF WAY FIN SLAB/\nSPOT ELEVATION (FINISH ELEV)\nFIN SLAB\nAVEMENT\nXXXX..XXXX\nSPOT ELEVATION (FINISH GRADE) FIN GRD\nXXXX..XXXX\nSPOT ELEVATION (TOP OF CONCRETE) TCONC\nAD\nROAD (SCREENED)\nX 1325.00 NEW\nELEVATION\n1328.2 EXISTING\nUTTER\n2\n2:1 =\n1\nSLOPE CALLOUT\n3\n3:1 =\n1\nTERLINE SWALE (3' WIDE)\n2%\nSURFACE SLOPE\nS=0.0100\nSS GUTTER (10' WIDE) (FT/FT)\nROADWAY GRADE\nDRAINAGE DITCH OR S=0.0020\n(FT/FT)\nCHANNEL GRADE\nPROVEMENTS\nROADWAY/PIPE CURVES\nTRUCTURE OR TANK\nLENGTH\nROADWAY/PIPE CURVE CURVE NUMBER\nPC X\nCLO\n(SEE TABLE ON EACH CKW EDGE OF PVMT\nGR A D I N G & P A V IN G O R C IV IL P I P ING DWG ANG ISE OR O U T SIDE FACE\nW IT H R O A D W A Y /P IP E C U RV E S . ) LE O F C U R B\nPT\nRADIUS\nRADIUS POINT\nPATTERNING\nSTABILIZED CONSTRUCTION\nENTRANCE\nSTAGING AREA\nCONCRETE PAVEMENT\nRIP RAP\nASPHALT PAVEMENT",
+    "",
+    "",
+    "",
+    "X X\nMETER METER\nPLANT COORDINATES AT STRUCTURES\nVAULT VAULT\n(OUTSIDE FACE AT FINISHED GRADE)\nPLAN SECTION\nCOORDINATES\n(IN FEET) X N 16000 E 10000\nCURVE CONTROL DATA A\nSTRUCTURE COORDINATE CONTROL DATA 1\nAND PIPE COORDINATE CONTROL DATA\nELEVATION/SLOPES\nCONTROL POINT #\nXX.XX\nPVMT",
+    "",
+    "SYMBOL DESCRIPTION SYMBOL DESCRIPTION SYMBOL DESCRIPTION\nBENCH MARK TRANSIT POINT FLANGE\nVERTICAL CONTROL POINT ANCHOR POINT VALVE\nMONUMENT PARSHALL FLUME CLOSED VALVE\nXX\nSOIL BORING LOCATIONS GUARD POST VALVE W/\nCONNECTION\nX\nTEST BORING LOCATIONS HEADWALL CLOSED VALVE W/\nCONNECTION\nX\nPERCOLATION ROCK WALL OPERATOR/\nTEST LOCATIONS OPERATOR CLOSED\nPH POTHOLE/\nPHXX RIP RAP VALVE W/ OPERATOR\nPOTHOLE NUMBER\nIP IRON PIN SHRUB/HEDGE CLOSED VALVE\nW/ OPERATOR\nIR IRON ROD TREE VALVE W/ OPERATOR\nAND CONNECTION\nDATUM DATUM POINT SIGN/SIGN POST CLOSED VALVE W/\nOPERATOR AND\nCONNECTION\nLIGHT VALVE W/ TWO\nCONNECTIONS\nLIGHT POLE CLOSED VALVE W/\nTWO CONNECTIONS\nHIGH LIGHT POLE VALVE W/ OPERATOR\nAND TWO CONNECTIONS\nFLOW ARROW TRAFFIC LIGHT POLE CLOSED VALVE\nW/ OPERATOR AND\nTWO CONNECTIONS\nFLOW/SLOPE TRAFFIC LIGHT POLE GATE VALVE W/\nDIRECTION BLIND FLANGE\nAND CONNECTION\nDIRECTION ARROW SINGLE TRAFFIC CHECK VALVE\nLIGHT POLE\nPROPERTY HOOK GUYED LIGHT POLE PLUG VALVE\nUTILITY POLE CLOSED\nPLUG VALVE\nMANHOLE (PLAN)\nUTILITY POLE GUY WIRE PIPE CAP OR\nCONNECTION\nPP\nPOWER POLE CAP OR TURN DOWN\nMANHOLE (PROFILE)\nPA SPEAKER CROSS\nMC MC\nCURB MANHOLE 2 WAY PA SPEAKER REDUCER\n3 WAY PA SPEAKER\nCATCH BASIN (SQUARE) REDUCER W/\nCONNECTION\nCATCH BASIN (ROUND) 4 WAY PA SPEAKER REDUCER W/\nCONNECTION\nDROP INLET FIRE HYDRANT - REDUCER FLANGED\n2 WAY\nDROP MANHOLE FIRE HYDRANT - REDUCER W/\n3 WAY FLANGE AND\nCONNECTION\nELECTRICAL MANHOLE\nYARD HYDRANT\nAND PULL BOX\nREDUCER W/ TWO\nCONNECTIONS\nP PULL BOX CLEANOUT\nCO\nT TELEPHONE PEDESTAL AIR RELEASE VALVE FLANGED TEE\nCTV CABLE TV BLOW OFF VALVE TEE W/\nCONNECTIONS\nX JUNCTION BOX HOSE BIBB TEE W/ FLANGE\nAND CONNECTIONS\n/ JUNCTION BOX SERVICE CONNECTION\nI JUNCTION BOX BURIED VALVE\nPOWER TOWER GAS VALVE\nOPEN/CLOSED\nGATE GAS METER\n***ALL SYMBOLS SHOWN AS\nNEW. EXISTING SYMBOLS\nARE SCREENED.\nJOB NO.",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "SPOT ELEVATION (AT PAVEMENT)\nXX.X\nSPOT ELEVATION (AT DIRT)\nXX.XX\nFL\nSPOT ELEVATION (AT FLOWLINE)\nXX.XX\n(HP)\nSPOT ELEVATION (AT HIGH POINT)\nXX.XX\nTC\nSPOT ELEVATION (AT TOP CURB)\nXX.XX\nFIN SLAB/\nSPOT ELEVATION (FINISH ELEV)\nFIN SLAB\nXXXX..XXXX\nSPOT ELEVATION (FINISH GRADE) FIN GRD\nXXXX..XXXX\nSPOT ELEVATION (TOP OF CONCRETE) TCONC\nX 1325.00 NEW\nELEVATION\n1328.2 EXISTING\n2\n2:1 =\n1\nSLOPE CALLOUT\n3\n3:1 =\n1\n2%\nSURFACE SLOPE\nS=0.0100\n(FT/FT)\nROADWAY GRADE\nDRAINAGE DITCH OR S=0.0020\n(FT/FT)\nCHANNEL GRADE\nROADWAY/PIPE CURVES\nLENGTH\nROADWAY/PIPE CURVE CURVE NUMBER",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "PC X\nCLO\n(SEE TABLE ON EACH CKW EDGE OF PVMT\nGR A D I N G & P A V IN G O R C IV IL P I P ING DWG ANG ISE OR O U T SIDE FACE\nW IT H R O A D W A Y /P IP E C U RV E S . ) LE O F C U R B\nPT\nRADIUS\nRADIUS POINT\nPATTERNING",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "CL\nDRAWN",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "JOHNSON COUNTY WASTEWATER",
+     "",
+     "",
+     "",
+     "VERIFY SCALES\nBAR IS ONE INCH ON\nORIGINAL DRAWING\n0 1\"\nIF NOT ONE INCH ON\nTHIS SHEET, ADJUST\nSCALES ACCORDINGLY",
+     "203797\nDRAWING NO."
+    ]
+   ]
+  },
+  {
+   "source": "Vol2_Bid_Dwgs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608.pdf",
+   "sheet": 203,
+   "header_row": 0,
+   "headers": [
+    "STRUCTURAL DESIGN INFORMATION:\nB SODIUM HYPOCHLORITE STORAGE FOUNDATION:\n17S02\n1. SEE SHEET 00GS01 FOR GENERAL BUILDING CODE AND LOADING\nCRITERIA, AND THE FOLLOWING NOTES FOR CRITERIA SPECIFIC TO\n78'-0\"\nTHIS STRUCTURE.\n21'-10\" 21'-10\" 2. STRUCTURE USE: WASTEWATER TREATMENT. 28'-6\"\n1\" EJ\nTOC LPT 923.50\n3. RISK CATEGORY: III.\n3'-0\" 10\" D\n1'-0\"\n4. LIVE LOADS: (SEE PLANS FOR ADDL INFO.) (TYP) SC310 10\" 3'-0\" 17S02\na. SUPERIMPOSED SOIL LOAD: 200 PSF. TYP\nb. EQUIPMENT: SEE PLANS AND SECTIONS FOR DETAILS. JCS TOC LPT 923.50 TOC HPT 923.75\n5. SNOW LOAD: \"0-'1\na. SNOW LOAD IMPORTANCE FACTOR, IS = 1.1. 5\n\"01\nb. GROUND SNOW LOAD, PG = 20 PSF.\n\"6-'4\nSLOPE S\nLO\n6. WIND LOAD: SD512 (TYP) SD102 (TYP) P E\n\"6-'3\na. TOPOGRAPHIC FACTOR, KZT = 1.0. TYP TYP\n2\n7. EARTHQUAKE:\na. STRUCTURE TYPE: SLAB FOUNDATION.\nb. SEISMIC DESIGN CATEGORY: B. \"0-'1\nc. SEISMIC IMPORTANCE FACTOR, IE = 1.25.\nMECH EQUIP MECH EQUIP MECH EQUIP\nd. SEISMIC FORCE RESISTING SYSTEM: REINFORCED CONCRETE\n1000 LBS 1000 LBS 1000 LBS\nSLAB WITH NON-SLIDING BASE.\nEPOLS\ne. RESPONSE MODIFICATION COEFFICIENT, R = 2. TOC 926.00\nSODIUM SODIUM SODIUM\nf. DESIGN BASE SHEAR, V = 50 KIPS HYPOCHLORITE \"0-'01 HYPOCHLORITE HYPOCHLORITE\nTOC HPT 923.75 SLOPE\nTANK 2 TANK TANK\n8. BUOYANCY: TOC 924.25 TOC 923.75\n100 KIPS 100 KIPS 100 KIPS\nC a. DESIGN GROUNDWATER ELEVATION = 904.00. \"0-'42\n17S02 EPOLS\n9. FOUNDATION:\n\"0-'1 SLOPE (TYP) 1\na. TYPE: SLAB AND SPREAD FOOTINGS.\nb. MINIMUM REQUIRED SOIL BEARING CAPACITY = 2000 PSF (NET). -\nE\n-\nEPOLS\nGENERAL NOTES:\n1\nTOC LPT 924.25 SLOPE \"0-'1\n1. SEE SHEET 00GS01 FOR GENERAL STRUCTURAL NOTES.\n2. NOT ALL STRUCTURAL PENETRATIONS ARE SHOWN. \"6-'2 \"2-'9 3 E P O SL (6) SPA @ 5'-0\" = 30'-0\" 2'-0\"\nSEE MECHANICAL AND ELECTRICAL DRAWINGS FOR\nTOC LPT 924.17\nPENETRATION LOCATIONS. PROVIDE SUPPLEMENTAL TOC HPT 923.75 \"6-'4\nREINFORCEMENT AROUND OPENINGS IN ACCORDANCE \"01 1'-0\"\nWITH DETAIL SC012/TYP. (TYP)\nTOC HPT 923.75\n\"4-'2\n# KEY NOTES:\n1. PRE-ENGINEERED FRP SHELTER CENTERED ON\nTOC LPT 923.50\n1'-0\" WIDE CURB, SEE SPECIFICATION SECTION SD470 W/ WSTP SD382\n13_34_25. TOC 924.25 11'-3\" 6'-0\" DOOR 11'-3\" AL RT4X4X0.5 (TYP)\nTOC LPT 923.50 TYP (TYP) TYP\n2. MINIMUM INTERNAL SHELTER DIMENSION. 4\n1 1/2\" (TYP)\n3. COAT CONCRETE WITHIN SHELTER WITH\nPLAN\nNOVOLAC EPOXY IN ACCORDANCE WITH\nA 1 1/2\" 5/16\nSPECIFICATION SECTION 09_96_01.\nSCALE: 1/4\" = 1'-0\" 2 (TYP) (E)\nPJP\n4. PROVIDED DIMENSIONS IS FOR DOOR WIDTH.\n-\nADJUST OPENING WIDTH AS REQUIRED TO AL RT4X4X0.25 AL L2X2X0.25 (TYP)\nPROVIDE REQUIRED WIDTH.\nTOS 941.75\n5. COORDINATE FINAL PENETRATION LOCATION 1\" MIN NON-SHRINK\nAND SIZE WITH ELECTRICAL DRAWINGS. GROUT\n6. CENTER GUSSET IN COLUMN. )PYT( 1\"X10\" SQ AL BASE PL W/\n(4) 1/2\" DIA TYPE 316 SS\nAL L2X2X0.25 (TYP)\n\"2/1 CONC ANCHORS W/ 6\"\nMIN EMBED\n1\n\"2/1 )PYT(\n1\n1 DETAIL\n5/16\n3\n(E)\n- SCALE: 1 1/2\" = 1'-0\" PJP\n- 6\n2 1/2\" 3\" 2\" 6\nTOS 933.92 AL PL 4X4X0.25 \"2/1 AL RT4X4X0.5\nAL RT4X4X0.5 (TYP)\nAL PL 4X4X0.25\n5/16 \"2\n(E)\n6\n\"1\n2 1/2\"\n2\"\n2\" 3\" 2\" 3\" 2\" 6\nAL RT4X4X0.5\nAL L2X2X0.25\n1\"\n2 \" \" 2\n\"1\n(2) 1/2\" DIA BOLT 1 \"\n\"\n3\nTYPE 316 SST BOLT AL L2X2X0.25\n3 \" AL L2X2X0.25 \" 2\nAL PL3/8\"X10\"X7 1/2\"\n\"\n2\n\" (2) 1/2\" DIA BOLT AL RT4X4X0.5\n3\nTOC 926.00 2 TYPE 316 SST BOLT\n\" \" AL PL3/8\"X7 1/2\"X1'-1\"\n2\nAL PL3/8\"X10 1/2\"X4\"\nAL L2X2X0.25\n3/16 3/16\nBOC VARIES\nE SECTION 2 DETAIL 3 DETAIL 4 DETAIL\n- SCALE: 3/8\" = 1'-0\" - SCALE: 1 1/2\" = 1'-0\" - SCALE: 1 1/2\" = 1'-0\" - SCALE: 1 1/2\" = 1'-0\"",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "DESIGNED\nMKF\nDRAWN\nJBB",
+     "31137",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "JOHNSON COUNTY WASTEWATER\nDLSMB WWTF ASSET RENEWAL PROJECT IMB1 - CONTRACT 39",
+     "",
+     "",
+     "",
+     "VERIFY SCALES\nBAR IS ONE INCH ON\nORIGINAL DRAWING\n0 1\"\nIF NOT ONE INCH ON\nTHIS SHEET, ADJUST\nSCALES ACCORDINGLY",
+     "JOB NO.\n203797\nDRAWING NO.\n17S01"
+    ],
+    [
+     "REV",
+     "DATE",
+     "BY",
+     "DESCRIPTION",
+     "",
+     "",
+     "CHECKED\nMAK\nDATE\nJUNE 2026",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "STRUCTURAL\nSODIUM HYPOCHLORITE STORAGE\nPLAN",
+     "",
+     "",
+     "",
+     "",
+     "SHEET NO.\nOF"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "2",
+     "3",
+     "",
+     "4",
+     "5",
+     "",
+     "6",
+     "",
+     "7",
+     "8",
+     "",
+     "9",
+     "",
+     "10",
+     "11",
+     "12",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Vol2_Bid_Dwgs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608.pdf",
+   "sheet": 230,
+   "header_row": 1,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "CHEMICAL\nSINGLE LINE DESCRIPTION SINGLE LINE DESCRIPTION SINGLE LINE DESCRIPTION CHEMICAL INJECTION POINT\nDWG NO.\nAIR OR CHEMICAL PRIMARY LEVEL ELEMENT: STRAINER: WYE TYPE PIPE SIZE FLOW STREAM\nDIFFUSER RADAR WITH BLOWOFF\nPIPE DESIGNATOR\nX\" XXX\nCONTINUATION FROM DWG NO.\nQUICK DISCONNECT THERMOMETER UNIQUE IDENTIFIER\nPRIMARY LEVEL ELEMENT:\nHIGH PRESSURE AIR CONTINUATION TO DWG NO.\nULTRASONIC\nOR FLUSHING CONTINUATION TAG\nB\nA\nC\nPRIMARY FLOW ELEMENT: VALVE: ANGLE\nBATCHMETER FLUME\nPRIMARY FLOW ELEMENT: VALVE: AIR RELIEF\nEQUIPMENT / VALVE TAG XX-XXXXXXX\nX\nAIR VENT X = C - CORIOLIS\nX = M - MAGNETIC\nX = P - PROPELLER\nX\nBASKET STRAINER X = PT - PITOT TUBE VALVE: CONE KEY TAG\nX = R - ROTAMETER\nX = T - TURBINE\nX = TH - THERMAL VALVE: FLAPPER CHECK\nBLOWER\nX = U - ULTRASONIC\nLINE SYMBOLS\nX = D - DENSITY\nVALVE: FOUR WAY\nCALIBRATION COLUMN\nPRIMARY FLOW ELEMENT:\nORIFICE PLATE\nPIPE ABOVE OR BELOW GROUND\nCOMPRESSOR/TURBINE\nVALVE: HOSE\nPRIMARY FLOW ELEMENT: PIPE UNDERNEATH SLAB\nVENTURI TUBE OR STRUCTURE\nCOMPRESSOR:\nVALVE: PLUG CONCENTRIC\nRECIPROCATING FUTURE\nPRIMARY FLOW ELEMENT:\nWEIR\nEXISTING\nVALVE: PRESSURE RELIEF\nDIAPHRAGM SEAL\nPRESSURE-REDUCING REGULATOR\nPULSATION DAMPENER\nDEMO\nDRAIN\nM PUMP: CENTRIFUGAL VALVE: TELESCOPING\nEJECTOR OR EDUCTOR\nPUMP: DIAPHRAGM\nVALVE: THREE WAY\nM ELECTRIC MOTOR AIR OPERATED\nPROCESS LINE SYMBOLS\nPUMP: METERING M\nEQUIPMENT DRAIN\nVALVE: THREE WAY\nMOTOR OPERATED\nEXPANSION JOINT, PUMP: PLUNGER\nPRIMARY PROCESS FLOW IN PIPE\nFLEXIBLE VIBRATION S\nVALVE: THREE WAY\nJOINT\nSOLENOID OPERATED\nSECONDARY PROCESS FLOW IN PIPE\nPUMP: PERISTALTIC TUBE METERING\nFAN: EXHAUST/SUPPLY\nVALVE: VACUUM PRIMARY PROCESS FLOW IN CHANNEL\nPUMP: PROGRESSIVE\nFILTER\nCAVITY\nSECONDARY PROCESS FLOW IN CHANNEL\nPUMP: RECIPROCATING BACKPRESSURE REGULATOR\nFIRE HYDRANT\nSELF-CONTAINED\nFLAME ARRESTER\nBACKPRESSURE REGULATOR\nPUMP: ROTARY\nW/ EXTERNAL PRESSURE TAP\nFLAME ARRESTER WITH\nTHERMALLY OPERATED VALVE\nPRESSURE-REDUCING\nPUMP: SCREW REGULATOR: SELF-CONTAINED\nFLOOR DRAIN\nPRESSURE-REDUCING\nREGULATOR W/EXTERNAL\nFLOW SWITCH PUMP: SUBMERSIBLE PRESSURE TAP\nGAUGE: PRESSURE\nPUMP: VERTICAL LIFT\nGAUGE: DIFFERENTIAL PUMP: VERTICAL TURBINE\nPRESSURE\nPIPE REDUCER: CONCENTRIC\nWEIR\nPIPE REDUCER: ECCENTRIC\n(FOT, FOB)\nMIXER\nROTARY CHEMICAL\nFEEDER\nOIL OR MOISTURE TRAP\nRUPTURE DISK\nPUMP: ROTARY LOBE\nPRIMARY LEVEL ELEMENT:\nBUBBLER\nSAMPLE PORT\nPRIMARY LEVEL ELEMENT:\nELECTRODE SIGHT GLASS\nPRIMARY LEVEL ELEMENT:\nSLIDE GATE\nFLOAT SWITCH\nPRIMARY LEVEL ELEMENT:\nSLUICE GATE\nFLUID\nPRIMARY LEVEL ELEMENT: STRAINER: WYE TYPE\nINVERTED COLUMN\nJOB NO.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "CHEMICAL\nCHEMICAL INJECTION POINT\nDWG NO.\nPIPE SIZE FLOW STREAM\nPIPE DESIGNATOR\nX\" XXX\nCONTINUATION FROM DWG NO.\nUNIQUE IDENTIFIER\nCONTINUATION TO DWG NO.\nCONTINUATION TAG\nB\nA\nC\nEQUIPMENT / VALVE TAG XX-XXXXXXX\nX\nKEY TAG"
+   ],
+   "score": 2,
+   "n_rows": 10,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "LINE SYMBOLS\nPIPE ABOVE OR BELOW GROUND\nPIPE UNDERNEATH SLAB\nOR STRUCTURE\nFUTURE\nEXISTING\nDEMO",
+     "",
+     "",
+     "",
+     "C"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "PROCESS LINE SYMBOLS",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "PRIMARY PROCESS FLOW IN PIPE\nSECONDARY PROCESS FLOW IN PIPE\nPRIMARY PROCESS FLOW IN CHANNEL\nSECONDARY PROCESS FLOW IN CHANNEL",
+     "",
+     "",
+     "",
+     "D"
+    ]
+   ]
+  },
+  {
+   "source": "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Estimated\nQuantity",
+    "Unit",
+    "Unit Price",
+    "Total Price"
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "1.1",
+     "Total Base Bid for All Work\ndesignated in the Contract\nDocuments for the Asset\nRenewal Project except as\nincluded in Items 1.2-1.7",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$"
+    ],
+    [
+     "1.2",
+     "Pre-negotiated Equipment\n\u2013 Eaton Variable\nFrequency Drives to\nfurnish equipment and\nservices as specified in\nSection 26_29_24,\nAppendix A",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$74,557.60"
+    ],
+    [
+     "1.3",
+     "Pre-negotiated Scope \u2013\nProcess Control Integrator\n(R.E. Pedrotti Co., Inc.) to\nfurnish services as\nspecified in Section\n40_61_00, Appendix A",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$93,812.00"
+    ]
+   ]
+  },
+  {
+   "source": "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Estimated\nQuantity",
+    "Unit",
+    "Unit Price",
+    "Total Price"
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "1.4",
+     "Pre-negotiated Equipment\n\u2013 Boerger Rotary Lobe\nPumps to furnish\nequipment and services as\nspecified in Section\n43_23_58.13, Appendix A",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$237,710.00"
+    ],
+    [
+     "1.5",
+     "Pre-negotiated Equipment\n\u2013 WEMCO Grit Classifying\nand Dewatering\nEquipment to furnish\nequipment and services as\nspecified in Section\n46_23_63, Appendix A",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$551,663.00"
+    ],
+    [
+     "1.6",
+     "Allowance: MB-8 \u2013 Settled\nSewage Pump Station\nSettled Sewage Wet Well\nConcrete Repairs",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     "$75,000.00"
+    ]
+   ]
+  },
+  {
+   "source": "Vol1_Bid_Specs_JCW_DLSMB_IMB1_Contract_39_Asset_Renewal_Project_20260608-1.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Estimated\nQuantity",
+    "Unit",
+    "Unit Price",
+    "Total Price"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "2",
+     "Alternative 01 (A-01) \u2013\nNew 6\u201d PS Force Main",
+     "---",
+     "Lump\nSum",
+     "$ ---",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "2026-005 Addendum No. 4.pdf",
+   "sheet": 11,
+   "header_row": 6,
+   "headers": [
+    "Q72.",
+    "Detail F on Drawing 200C05 and Detail 1 on Drawing 300C05 specify a minimum\ntrench excavation width of 12 inches beyond the outside diameter of the pipe.\nStandard excavator bucket widths for rented equipment are typically 12, 18, 24, and\n36 inches, resulting in a minimum 36-inch-wide trench for a 4-inch pipe. Outside of\nwidening the trench at bell locations, please advise whether the minimum trench\nwidth may be reduced to 12 inches plus the pipe size. This would allow use of an 18-\ninch-wide bucket for pipe sizes 6 inches and smaller, and a 24-inch-wide bucket for\npipe sizes ranging from 8 to 12 inches."
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "R72.",
+     "Pipe trenches shall follow Detail 1 on drawing 300C05. Trench widths will not be\nmodified."
+    ]
+   ]
+  },
+  {
+   "source": "2026-005 Addendum No. 6_v2_20260813.pdf",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "Q139.",
+    "Section 43 24 50.10 Vertical Turbine Short Setting Centrifugal Pumps Specification\nreferences anti-vortex baffles - please provide more detail of detail, construction,\nquantity or location - did not find any detail int he specification or the drawings. Are\nthere existing baffles? Are these required? Has their been wetwell issues with the\nexisting units?"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "R139.",
+     "Per 43_24_50.10/2.05/B., the design of the pump suction bells and anti-vortex baffles\nare the responsibility of the pump manufacturer. Materials for the anti-vortex baffles\nare specified in 43_24_50.10/2.05/C. Per the pump schedule in 43_24_50.10/3.05,\neach pump is to be provided with an anti-vortex baffle. Floor mounted hydrocones\nare acceptable."
+    ],
+    [
+     "Q140.",
+     "Please provide the approved shop drawings for the Spirac conveyor that is to have\nthe covers removed and replaced per revised Keynote 5 on DRAWING 02M03."
+    ],
+    [
+     "R140.",
+     "The conveyor O&M manual and shop drawings are attached to Addendum No. 6."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 642.1,
+  "attachment_fetches": 15,
+  "attachment_seconds": 316.3,
+  "attachment_bytes": 808166494,
+  "max_fetch_seconds": 117.72,
+  "throttle_signals": 5,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:37:29.491501+00:00",
+ "extract_attempts": 1
+}

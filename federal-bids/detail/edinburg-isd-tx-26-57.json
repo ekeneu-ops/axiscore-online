@@ -1,10 +1,10 @@
 {
- "bid_id": "edinburg-isd-tx-26-53",
- "bid_number": "26-53",
+ "bid_id": "edinburg-isd-tx-26-57",
+ "bid_number": "26-57",
  "agency": "Edinburg ISD , TX",
  "src": "Open",
- "title": "AUTOMOTIVE/BUS PARTS & TOOLS",
- "close": "9/2/2026 04:00 PM (ET)",
+ "title": "STUDENT PHYSICALS",
+ "close": "9/2/2026 05:30 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -16,27 +16,27 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "0_1295 AND INSTRUCTIONS.pdf",
-  "1_CIQ Form.pdf",
-  "2_W9 _ Direct Deposit Form.pdf"
+  "UPDATED ECISD FORM 1295 AND INSTRUCTIONS.docx",
+  "CIQ Form.pdf",
+  "W9 _ Direct Deposit Form.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "0_1295 AND INSTRUCTIONS.pdf",
+   "name": "UPDATED ECISD FORM 1295 AND INSTRUCTIONS.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Form.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "1_CIQ Form.pdf",
-   "kind": "pdf",
-   "tables": 1,
-   "note": "",
-   "candidates": 0
-  },
-  {
-   "name": "2_W9 _ Direct Deposit Form.pdf",
+   "name": "W9 _ Direct Deposit Form.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
@@ -46,14 +46,14 @@
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 8.9,
+  "bid_seconds": 8.7,
   "attachment_fetches": 3,
-  "attachment_seconds": 0.4,
-  "attachment_bytes": 720709,
-  "max_fetch_seconds": 0.17,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 765845,
+  "max_fetch_seconds": 0.12,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-30T13:49:59.993567+00:00",
- "extract_attempts": 2
+ "captured_at": "2026-08-30T13:51:53.208188+00:00",
+ "extract_attempts": 1
 }

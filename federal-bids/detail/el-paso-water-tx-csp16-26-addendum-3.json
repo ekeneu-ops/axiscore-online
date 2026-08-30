@@ -1,0 +1,105 @@
+{
+ "bid_id": "el-paso-water-tx-csp16-26-addendum-3",
+ "bid_number": "CSP16-26 Addendum 3",
+ "agency": "El Paso Water, TX",
+ "src": "Open",
+ "title": "KBH Sixth Skid Expansion Project",
+ "close": "9/2/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CSP16-26 - Front Ends and Specs.pdf",
+  "CSP16-26 - Plans.pdf",
+  "CSP16-26 - Addendum 1.pdf",
+  "CSP16-26 - Addendum 2.pdf",
+  "Addendum 3 - CSP16-26 KBH Sixth Skid Expansion - 8-14-26.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CSP16-26 - Front Ends and Specs.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CSP16-26 - Plans.pdf",
+   "kind": "pdf",
+   "tables": 176,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "CSP16-26 - Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CSP16-26 - Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 3 - CSP16-26 KBH Sixth Skid Expansion - 8-14-26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "CSP16-26 - Plans.pdf",
+   "sheet": 126,
+   "header_row": 0,
+   "headers": [
+    "RO UNIT (TYP)\nDETAIL A\nSECTION 1\nISAAC CAMPOS\n133180",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "4487 N. Mesa St., Suite 202\nEl Paso, TX 79902\nTel: (915) 544-2340\nTBPE Firm Registration No. F-3043",
+     "EL PASO WATER\nPUBLIC SERVICE BOARD\nKBH SIXTH SKID EXPANSION\nPROJECT",
+     "RO UNIT 6\nSECTIONS I",
+     "M-308"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 108.3,
+  "attachment_fetches": 5,
+  "attachment_seconds": 12.8,
+  "attachment_bytes": 83541307,
+  "max_fetch_seconds": 8.01,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:43:20.876284+00:00",
+ "extract_attempts": 1
+}

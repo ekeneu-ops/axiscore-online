@@ -1,0 +1,59 @@
+{
+ "bid_id": "johnson-county-ks-prk-2026-006-addendum-2",
+ "bid_number": "PRK-2026-006 Addendum 2",
+ "agency": "Johnson County, KS",
+ "src": "Open",
+ "title": "Becoming Johnson County: Design, Fabrication and Installation of Museum Exhibit",
+ "close": "9/3/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "JCPRD PRK-2026-006 Becoming Johnson County - Design_ Fabrication and Installation Services.pdf",
+  "Addendum No. 1 - Floorplan.pdf",
+  "Addendum No. 2 - Changes to Interview Criteria Points.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "JCPRD PRK-2026-006 Becoming Johnson County - Design_ Fabrication and Installation Services.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 1 - Floorplan.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 2 - Changes to Interview Criteria Points.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.8,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 1654035,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:59:16.468834+00:00",
+ "extract_attempts": 1
+}

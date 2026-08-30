@@ -1,0 +1,150 @@
+{
+ "bid_id": "city-of-columbia-sc-rfp005-26-27-ams-addendum-1",
+ "bid_number": "RFP005-26-27-AMS Addendum 1",
+ "agency": "City of Columbia, SC",
+ "src": "Open",
+ "title": "Wastewater Collection System Flow Monitoring Services",
+ "close": "9/3/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Final.RFP005-26-27-AMS.Wastewater Collection System Flow Monitoring Services.pdf",
+  "Appendice.SS7617 Flow Monitoring Services Bid Form.pdf",
+  "Combined.Appendices.RFP005-26-27-AMS.Wastewater Collection System.pdf",
+  "RP0005-26-27-AMS.Addendum 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Final.RFP005-26-27-AMS.Wastewater Collection System Flow Monitoring Services.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendice.SS7617 Flow Monitoring Services Bid Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Combined.Appendices.RFP005-26-27-AMS.Wastewater Collection System.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RP0005-26-27-AMS.Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Appendice.SS7617 Flow Monitoring Services Bid Form.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "BIDDER MUST FILL IN THE UNIT PRICES AND COMPUTE THE TOTALS FOR EACH LINE ITEM AND THE FULL BID.",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "ITEM NO.",
+     "Work Description",
+     "UNIT PRICES\nDollars Figure",
+     "ESTIMATED\nQTY/ UNIT OF",
+     "",
+     "TOTAL PRICE\nDollar Figure"
+    ],
+    [
+     "1",
+     "Permanent Flow Monitoring Installation",
+     "",
+     "16",
+     "EA",
+     ""
+    ],
+    [
+     "2",
+     "Temporary Flow Monitoring Installation",
+     "",
+     "49",
+     "EA",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Appendice.SS7617 Flow Monitoring Services Bid Form.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "ITEM NO.",
+    "Work Description",
+    "UNIT PRICES\nDollars Figure",
+    "ESTIMATED\nQTY/ UNIT OF",
+    "",
+    "TOTAL PRICE\nDollar Figure"
+   ],
+   "score": 3,
+   "n_rows": 5,
+   "sample": [
+    [
+     "1",
+     "Permanent Flume Flow Monitoring Installation",
+     "",
+     "",
+     "EA",
+     ""
+    ],
+    [
+     "2",
+     "Temporary Flume Flow Monitoring Installation",
+     "",
+     "",
+     "EA",
+     ""
+    ],
+    [
+     "3",
+     "Permanent Flume Flow Monitoring Maintenance\nPer Month",
+     "",
+     "",
+     "EA",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.2,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 5466672,
+  "max_fetch_seconds": 0.2,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:56:58.038661+00:00",
+ "extract_attempts": 1
+}

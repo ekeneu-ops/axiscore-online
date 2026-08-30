@@ -1,0 +1,146 @@
+{
+ "bid_id": "regional-transportation-commission-of-southern-nevada-27-038-addendum-3",
+ "bid_number": "27-038 Addendum 3",
+ "agency": "Regional Transportation Commission of Southern Nevada",
+ "src": "Open",
+ "title": "BIKE CENTER OPERATIONS AND MAINTENANCE",
+ "close": "9/3/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Operation and Management of the BTC Bike Center - Base Term",
+   "qty": "1",
+   "uom": "Annual",
+   "note": "Refer to Scope of Services for description. Base Term - December 1, 2026, through November 30, 2027",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Operation and Management of the BTC Bike Center - Base Term 1 Annual No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Operation and Management of the BTC Bike Center - Option Year 1",
+   "qty": "1",
+   "uom": "Annual",
+   "note": "Refer to Scope of Services for description. Option Year 1 - December 1, 2027, through November 30, 2028",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Operation and Management of the BTC Bike Center - Option Year 1 1 Annual No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Operation and Management of the BTC Bike Center - Option Year 2",
+   "qty": "1",
+   "uom": "Annual",
+   "note": "Refer to Scope of Services for description. Option Year 1 - December 1, 2028, through November 30, 2029",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Operation and Management of the BTC Bike Center - Option Year 2 1 Annual No Response"
+  }
+ ],
+ "attachments_saved": [
+  "27-038 RFQ INSTRUCTIONS - BIKE CENTER OPERATIONS AND MAINTENANCE.pdf",
+  "27-038 SCOPE OF WORK - BIKE CENTER OPERATIONS AND MAINTENANCE REV 1.pdf",
+  "27-038 SAMPLE CONTRACT - BIKE CENTER OPERATIONS AND MAINTENANCE.pdf",
+  "Sample Certificate - Goods and Services.pdf",
+  "Contract Exception Consideration Requests with RTC Responses.pdf",
+  "Organizational Conflict of Interest Statement.pdf",
+  "Disclosure_of_Ownership_Fill-In_Form.pdf",
+  "RTC Bike Center Q2 Reports.pdf",
+  "23-026_CONTRACT_ MANAGEMENT AND OPERATIONS OF THE COMMUTER BIKE CENTER.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "27-038 RFQ INSTRUCTIONS - BIKE CENTER OPERATIONS AND MAINTENANCE.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "27-038 SCOPE OF WORK - BIKE CENTER OPERATIONS AND MAINTENANCE REV 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "27-038 SAMPLE CONTRACT - BIKE CENTER OPERATIONS AND MAINTENANCE.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sample Certificate - Goods and Services.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Contract Exception Consideration Requests with RTC Responses.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Organizational Conflict of Interest Statement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Disclosure_of_Ownership_Fill-In_Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RTC Bike Center Q2 Reports.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "23-026_CONTRACT_ MANAGEMENT AND OPERATIONS OF THE COMMUTER BIKE CENTER.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 16.0,
+  "attachment_fetches": 9,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 8676379,
+  "max_fetch_seconds": 0.27,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T14:01:10.766429+00:00",
+ "extract_attempts": 1
+}

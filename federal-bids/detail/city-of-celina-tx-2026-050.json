@@ -1,0 +1,246 @@
+{
+ "bid_id": "city-of-celina-tx-2026-050",
+ "bid_number": "2026-050",
+ "agency": "City of Celina, TX",
+ "src": "Open",
+ "title": "Emergency Sirens Phase 3, FEMA 4781-0160",
+ "close": "9/3/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Warning Sirens & Base",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Warning Sirens & Base 3 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "00-111 Legal Notice.pdf",
+  "Specifications - Warning Sirens Phase 3.docx",
+  "Celina Warning Sirens Phase 3 2026.06.12.pdf",
+  "Exhibit 1 - General Terms _ Conditions 2026 0720.docx",
+  "Exhibit 2C - Insurance Requirements - Construction.pdf",
+  "Exhibit 3 W9.pdf",
+  "Exhibit 4 CIQ.pdf",
+  "ATTACHMENT 1 Federal Certifications.docx",
+  "02-000 - STANDARD SPECIFICATIONS.pdf",
+  "200 - Information for BiddersA.docx",
+  "00-410 - Standard Form of Agreement.docx",
+  "Section_00401-_Contractor_Compliance_Non Resident Bidder.pdf",
+  "Section 00403 Contractor Compliance to Texas Sales Tax Code.pdf",
+  "600 - EEO.docx",
+  "700 - Standard General Conditions.docx",
+  "Bid Bond.pdf",
+  "Section 00610 - Performance Bond.pdf",
+  "Section 00612 - Maintenance Bond.pdf",
+  "Section 00615 - Payment Bond.pdf",
+  "List of Subcontractors.pdf",
+  "Byrd Anti-Lobbying Form.pdf",
+  "00-451 Qualifications Statement 2026 0813.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "00-111 Legal Notice.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Specifications - Warning Sirens Phase 3.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Celina Warning Sirens Phase 3 2026.06.12.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 1 - General Terms _ Conditions 2026 0720.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 2C - Insurance Requirements - Construction.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 3 W9.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 4 CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ATTACHMENT 1 Federal Certifications.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "02-000 - STANDARD SPECIFICATIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "200 - Information for BiddersA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "00-410 - Standard Form of Agreement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Section_00401-_Contractor_Compliance_Non Resident Bidder.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Section 00403 Contractor Compliance to Texas Sales Tax Code.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "600 - EEO.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "700 - Standard General Conditions.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Section 00610 - Performance Bond.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Section 00612 - Maintenance Bond.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Section 00615 - Payment Bond.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "List of Subcontractors.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Byrd Anti-Lobbying Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00-451 Qualifications Statement 2026 0813.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Section 00612 - Maintenance Bond.pdf",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "Construction Contract Information\nDescription: Contract #: (Bid #)\nContract Price:\nEffective Date:\nDate of Substantial\nCompletion:",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Bond\nBond Amount: Bond Period: Commencing upon Completion/Final\nAcceptance of the Work under the Construction\nDate of Bond:\nContract, and continuing for two-years.\nBond #:\nModifications to this Bond form:\n\u2610 None See Paragraph 9\n\u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth herein, do each\ncause this Warranty Bond to be duly executed by an authorized officer, agent, or representative.\nContractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy: By:\n(Signature) (Signature) (Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular reference to Contractor,\nSurety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.5,
+  "attachment_fetches": 22,
+  "attachment_seconds": 3.3,
+  "attachment_bytes": 20408078,
+  "max_fetch_seconds": 1.0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:52:28.918284+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,408 @@
+{
+ "bid_id": "city-of-bryan-26-046-addendum-1",
+ "bid_number": "26-046 Addendum 1",
+ "agency": "City of Bryan",
+ "src": "Open",
+ "title": "2026 Water Meter Replacements",
+ "close": "9/3/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 13,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFB 26-046 2026 Meter Replacement Project.pdf",
+  "ATTACHMENT A - BID PROPOSAL _excel_.xlsx",
+  "ATTACHMENT B - ZONE 1-Meter _ SP Change Outs.xlsx",
+  "ATTACHMENT C - Zone_1_Mapped.pdf",
+  "Addendum No. 1_Pre-Proposal Meeting.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFB 26-046 2026 Meter Replacement Project.pdf",
+   "kind": "pdf",
+   "tables": 17,
+   "note": "",
+   "candidates": 7
+  },
+  {
+   "name": "ATTACHMENT A - BID PROPOSAL _excel_.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "ATTACHMENT B - ZONE 1-Meter _ SP Change Outs.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ATTACHMENT C - Zone_1_Mapped.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum No. 1_Pre-Proposal Meeting.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFB 26-046 2026 Meter Replacement Project.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Meter Size",
+    "",
+    "",
+    "Meter Type",
+    "",
+    "",
+    "Quantity",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "5/8\u201d x 3/4\"",
+     "",
+     "",
+     "Residential",
+     "",
+     "",
+     "4324",
+     "",
+     ""
+    ],
+    [
+     "5/8\u201d x 3/4\"",
+     "",
+     "",
+     "Commercial",
+     "",
+     "",
+     "459",
+     "",
+     ""
+    ],
+    [
+     "1\u201d",
+     "",
+     "",
+     "Residential",
+     "",
+     "",
+     "110",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFB 26-046 2026 Meter Replacement Project.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Item",
+    "",
+    "",
+    "Quantity",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "520M Smartpoint",
+     "",
+     "",
+     "3647",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFB 26-046 2026 Meter Replacement Project.pdf",
+   "sheet": 3,
+   "header_row": 1,
+   "headers": [
+    "ITEM\nNO.",
+    "APPROX\nQTY",
+    "UNIT",
+    "ITEM DESCRIPTION",
+    "UNIT PRICE\nIN FIGURES",
+    "AMOUNT"
+   ],
+   "score": 3,
+   "n_rows": 13,
+   "sample": [
+    [
+     "1",
+     "1",
+     "LS",
+     "Project Overhead and Mobilization",
+     "",
+     "$"
+    ],
+    [
+     "2",
+     "4785",
+     "EA",
+     "3/4\" Water Meter Replacement and 520M\nSmartpoint Deactivation & Reprogramming",
+     "",
+     "$"
+    ],
+    [
+     "3",
+     "265",
+     "EA",
+     "1\" Meter Replacement and 520M Smartpoint\nDeactivation & Reprogramming",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "RFB 26-046 2026 Meter Replacement Project.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Meter Size",
+    "",
+    "",
+    "Meter Type",
+    "",
+    "",
+    "Quantity",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "5/8\u201d x 3/4\"",
+     "",
+     "",
+     "Residential",
+     "",
+     "",
+     "4324",
+     "",
+     ""
+    ],
+    [
+     "5/8\u201d x 3/4\"",
+     "",
+     "",
+     "Commercial",
+     "",
+     "",
+     "459",
+     "",
+     ""
+    ],
+    [
+     "1\u201d",
+     "",
+     "",
+     "Residential",
+     "",
+     "",
+     "110",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFB 26-046 2026 Meter Replacement Project.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Item",
+    "",
+    "",
+    "Quantity",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "520M Smartpoint",
+     "",
+     "",
+     "3647",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFB 26-046 2026 Meter Replacement Project.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Item",
+    "",
+    "",
+    "Quantity",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Public & Private Side Identification",
+     "",
+     "",
+     "2470",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFB 26-046 2026 Meter Replacement Project.pdf",
+   "sheet": 8,
+   "header_row": 1,
+   "headers": [
+    "2",
+    "2.1 Contractor will provide & utilize a Work Order Management System (WOMS)\nA. Contractor will utilize the WOMS to, at minimum:\ni. Document information for meter and transmitter exchanges:\n1. Date and time of installation\n2. Address of the installation\n3. Name of person who performed the work\n4. Old meter info (meter ID, Size, etc.)\n5. Final register reading for the old meter (confirm the\nregister read is greater than the last billing read in CIS. If\nnot, report to COB Staff).\n6. New meter info (meter ID, Size)- Validate new meter ID\nagainst inventory.\n7. New meter register read at install\n8. Old smartpoint serial #\n9. New smartpoint serial #\n10. Photographs of the work\na. Site before & after installation of meter & smartpoint,\nb. The old meter with the screen and meter ID visible &\nthe new meter with the screen and meter ID visible\n(single photo)\nc. The old & new smartpoints in the same photo\nB. COB personnel shall have access to the WOMS to review as needed.\nC. Contractor will utilize captured meter data within the WOMS to provide a\nproperly formatted digital file for upload into the City\u2019s CIS (Cayenta) that\nincludes, at minimum:\ni. Address for the exchange\nii. Date meter was exchanged\niii. Meter ID for the old meter\niv. A register read for the old meter at time of exchange\nv. Meter ID for the new meter\nvi. A register read for the new meter at time of exchange\nvii. The new Smartpoint ID\nD. Contractor will utilize WOMS to manage product inventory within Contractor\u2019s\npossession throughout the project."
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Public Outreach",
+     ""
+    ],
+    [
+     "3",
+     "3.1 Customer Notice\nA. COB will send out postcards to inform customers of the work being\nconducted.\nB. The Contractor will hang door tags (provided by the Contractor & approved\nby COB) one week in advance notifying customers of the upcoming water\noutage, expected duration, and to flush water."
+    ]
+   ]
+  },
+  {
+   "source": "ATTACHMENT A - BID PROPOSAL _excel_.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "ITEM",
+    "APPROX.",
+    "",
+    "",
+    "UNIT PRICE",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "NO.",
+     "QUANTITY",
+     "UNIT",
+     "ITEM DESCRIPTION",
+     "IN FIGURES",
+     "AMOUNT",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "1",
+     "LS",
+     "Project Overhead and Mobilization",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "4785",
+     "EA",
+     "3/4\" Water Meter Replacement and 520M Smartpoint Deactivation & Reprogramming",
+     "",
+     "0",
+     "548",
+     "563",
+     "649",
+     "577",
+     "601",
+     "326",
+     "465",
+     "",
+     "",
+     "",
+     "72",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.9,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 6563156,
+  "max_fetch_seconds": 0.26,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:57:31.641839+00:00",
+ "extract_attempts": 1
+}

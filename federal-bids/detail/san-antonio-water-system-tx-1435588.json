@@ -1,0 +1,86 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1435588",
+ "bid_number": "1435588",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "NORDIC GEAR BOX AND SCREW CONVEYOR",
+ "close": "9/2/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "100090489 DRIVE UNIT NORD GEAR Product Name Clincher\u2122 Shaft Mount Gearbox NORD Model Type SK4382AZH 180TC1 Ratio 66.75 Mounting Position M1 Lubricant VG220-MIN-EP SHIPPING MUST BE INCLUDED PRICE",
+   "qty": "2",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 100090489 DRIVE UNIT NORD GEAR Product Name Clincher\u2122 Shaft Mount Gearbox NORD Model Type SK4382AZH 180TC1 Ratio 66.75 Mounting Position M1 Lubricant VG220-MIN-EP SHIPPING MUST BE INCLUDED PRICE 2 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "SCREW CONVEYOR 50 FT AUGER Reference images provided in bid attachments. SHIPPING MUST BE INCLUDED IN PRICING.",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 SCREW CONVEYOR 50 FT AUGER Reference images provided in bid attachments. SHIPPING MUST BE INCLUDED IN PRICING. 1 EACH No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+  "Gear Box Name Plate Images.pdf",
+  "Screw Conveyor Images.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Gear Box Name Plate Images.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Screw Conveyor Images.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.8,
+  "attachment_fetches": 3,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 15308036,
+  "max_fetch_seconds": 0.8,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-30T13:49:39.265005+00:00",
+ "extract_attempts": 1
+}
