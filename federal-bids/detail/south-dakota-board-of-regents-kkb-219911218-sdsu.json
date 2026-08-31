@@ -1,0 +1,53 @@
+{
+ "bid_id": "south-dakota-board-of-regents-kkb-219911218-sdsu",
+ "bid_number": "KKB- 219911218 SDSU",
+ "agency": "South Dakota Board of Regents",
+ "src": "Open",
+ "title": "Athletics Men's Basketball Air Charter Services 2026-2027",
+ "close": "9/4/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:athletic",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "KKB-219911218 SDSU Mens Basketball Air Charter Services 2026-2027 FINAL.docx",
+  "PRICING SHEET SDSU Mens Basketball Air Charter Services 2026-2027 FINAL.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "KKB-219911218 SDSU Mens Basketball Air Charter Services 2026-2027 FINAL.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "PRICING SHEET SDSU Mens Basketball Air Charter Services 2026-2027 FINAL.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid"
+ ],
+ "latency": {
+  "bid_seconds": 5.9,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 78190,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-31T13:12:56.607268+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,99 @@
+{
+ "bid_id": "victoria-isd-tx-2026-35",
+ "bid_number": "#2026-35",
+ "agency": "Victoria ISD, TX",
+ "src": "Invited",
+ "title": "TOOLS & HARDWARE",
+ "close": "9/18/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Legal Notice-Tools.pdf",
+  "FORM - Standard Terms _ Conditions - PRODUCTS REVISED 05-07-19 - CLEAN C...pdf",
+  "TOOLS _ Specs.pdf",
+  "DEVIATION FORM.pdf",
+  "Tools Proposal Form.pdf",
+  "CIQ.pdf",
+  "Victoria ISD - Federal Contracts Addendum - 05-07-19.pdf",
+  "W-9 Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Legal Notice-Tools.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORM - Standard Terms _ Conditions - PRODUCTS REVISED 05-07-19 - CLEAN C...pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TOOLS _ Specs.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "DEVIATION FORM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Tools Proposal Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Victoria ISD - Federal Contracts Addendum - 05-07-19.pdf",
+   "kind": "pdf",
+   "tables": 25,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Form.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.4,
+  "attachment_fetches": 8,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 959971,
+  "max_fetch_seconds": 0.24,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-31T13:22:38.766320+00:00",
+ "extract_attempts": 1
+}

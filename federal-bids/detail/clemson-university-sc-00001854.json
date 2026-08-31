@@ -1,0 +1,278 @@
+{
+ "bid_id": "clemson-university-sc-00001854",
+ "bid_number": "00001854",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Fitness Equipment for Campus Recreation",
+ "close": "9/4/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 15,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Fitness Equipment - Multiple Lots",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Fitness Equipment - Multiple Lots 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "00001854_Embedded_Appendix_A.xlsx",
+  "00001854_Embedded_Appendix_B.xlsx",
+  "00001854 SOW Fitness Equipment Contract 2026.pdf",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "IMPORTANT TAX NOTICE.doc",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "00001854_Embedded_Appendix_A.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "00001854_Embedded_Appendix_B.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "00001854 SOW Fitness Equipment Contract 2026.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "00001854_Embedded_Appendix_A.xlsx",
+   "sheet": 0,
+   "header_row": 5,
+   "headers": [
+    "CATEGORY",
+    "LINES",
+    "PRODUCT FAMILY EQUIPMENT DESCRIPTION",
+    "MANUFACTURES RETAIL PRICE",
+    "CLEMSON UNIVERSITY DISCOUNT PRICING FROM LIST PRICE",
+    "TOTAL DISCOUNT %"
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "Aerobic/Cardio",
+     "1",
+     "Base Line Treadmill",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Aerobic/Cardio",
+     "2",
+     "Base Line Cross-trainer (Elliptical)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Aerobic./Cardio",
+     "3",
+     "Top Line Treadmill",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "00001854_Embedded_Appendix_A.xlsx",
+   "sheet": 1,
+   "header_row": 5,
+   "headers": [
+    "CATEGORY",
+    "LINES",
+    "PRODUCT FAMILY EQUIPMENT DESCRIPTION",
+    "BIDDER'S PRODUCT",
+    "FREIGHT COST PER UNIT (sliding scale and ultimately based on order)",
+    "INSTALL COST PER UNIT"
+   ],
+   "score": 2,
+   "n_rows": 14,
+   "sample": [
+    [
+     "Aerobic/Cardio",
+     "1",
+     "Base Line Treadmill",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Aerobic/Cardio",
+     "2",
+     "Base Line Cross-trainer (Elliptical)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Aerobic./Cardio",
+     "3",
+     "Top Line Treadmill",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "00001854_Embedded_Appendix_B.xlsx",
+   "sheet": 0,
+   "header_row": 5,
+   "headers": [
+    "LINES",
+    "PRODUCT FAMILY EQUIPMENT DESCRIPTION",
+    "% DISCOUNT OFF LIST PRICE"
+   ],
+   "score": 2,
+   "n_rows": 10,
+   "sample": [
+    [
+     "1",
+     "Base Line Cardio Equipment to include:",
+     ""
+    ],
+    [
+     "",
+     "Treadmill, Upright and Recumbent Bikes,",
+     ""
+    ],
+    [
+     "",
+     "Cross-Trainer(Elliptical), and Stepmills",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "00001854 SOW Fitness Equipment Contract 2026.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "CATEGORY",
+    "LINES",
+    "PRODUCT FAMILY EQUIPMENT\nDESCRIPTION",
+    "MANUFACTURES\nRETAIL PRICE",
+    "CLEMSON\nUNIVERSITY\nDISCOUNT\nPRICING FROM\nLIST PRICE",
+    "TOTAL\nDISCOUNT\n%"
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "Aerobic/Cardio",
+     "1",
+     "Base Line Treadmill",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Aerobic/Cardio",
+     "2",
+     "Base Line Cross-trainer (Elliptical)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Aerobic./Cardio",
+     "3",
+     "Top Line Treadmill",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "00001854 SOW Fitness Equipment Contract 2026.pdf",
+   "sheet": 1,
+   "header_row": 5,
+   "headers": [
+    "LINES",
+    "PRODUCT FAMILY EQUIPMENT DESCRIPTION",
+    "% DISCOUNT OFF LIST PRICE"
+   ],
+   "score": 2,
+   "n_rows": 10,
+   "sample": [
+    [
+     "1",
+     "Base Line Cardio Equipment to include:",
+     ""
+    ],
+    [
+     "",
+     "Treadmill, Upright and Recumbent Bikes,",
+     ""
+    ],
+    [
+     "",
+     "Cross-Trainer(Eliptical), and Stepmills",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 8.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 516202,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-31T13:15:08.324863+00:00",
+ "extract_attempts": 1
+}

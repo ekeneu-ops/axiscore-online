@@ -1,0 +1,59 @@
+{
+ "bid_id": "university-of-minnesota-11130-2485742-bw",
+ "bid_number": "11130.2485742.BW",
+ "agency": "University of Minnesota",
+ "src": "Invited",
+ "title": "PGC-Object Storage Solution",
+ "close": "9/21/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "PO-Terms-and-Conditions-01-06-26.docx",
+  "Data Security Addendum - 11.2025 _1_.docx",
+  "Supplier-Process-and-Information-05-07-26.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PO-Terms-and-Conditions-01-06-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Data Security Addendum - 11.2025 _1_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier-Process-and-Information-05-07-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 487552,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-31T13:23:39.914408+00:00",
+ "extract_attempts": 1
+}

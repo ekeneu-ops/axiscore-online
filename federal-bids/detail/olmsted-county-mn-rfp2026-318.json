@@ -1,0 +1,275 @@
+{
+ "bid_id": "olmsted-county-mn-rfp2026-318",
+ "bid_number": "RFP2026-318",
+ "agency": "Olmsted County, MN",
+ "src": "Invited",
+ "title": "Design Services Removal and Replacement of Absorption Chiller",
+ "close": "9/15/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:chiller",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP Absorption chiller replacement.docx",
+  "ContractTermsandConditions_Consultant508C_04172026.pdf",
+  "RFPTermsandConditions508C_08202024.pdf",
+  "OWEF Contractor Safety Checklist 102017.pdf",
+  "InsandBondRequirements508C02092026.pdf",
+  "2009.05.07-H100-HVAC Plan-Basement.pdf",
+  "2009.05.07-H101-HVAC Plan-First Floor.pdf",
+  "2009.05.07-H102-HVAC Plan-Second Floor.pdf",
+  "2009.05.07-H103-HVAC Plan-Third Floor.pdf",
+  "2009.05.07-H104-HVAC Plan-Roof.pdf",
+  "2009.05.07-H200-HVAC Enlarged Plans.pdf",
+  "2009.05.07-H201-Mechanical Sections.pdf",
+  "2009.05.07-H300-Chilled Water Flow Diagram.pdf",
+  "2009.05.07-H302-Heating Water Flow Diagram.pdf",
+  "2009.05.07-H400-HVAC Details.pdf",
+  "2009.05.07-H401-HVAC Details.pdf",
+  "2009.05.07-H500-HVAC Schedules.pdf",
+  "2009.05.07-HP100-Piping Plan-Basement.pdf",
+  "2009.05.07-HP104-Piping Plan-Roof.pdf",
+  "2009.06.25-M-801-2117 Building to OWEF Interface Layout.pdf",
+  "6787_r0.tif",
+  "M1-5_r0.tif",
+  "M-1D_r0.tif",
+  "M2-5_r0.tif",
+  "M3-5_r0.tif",
+  "M4-5_r0.tif",
+  "M5-5_r0.tif",
+  "O010E102.pdf",
+  "O010E301.pdf",
+  "O010E302.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP Absorption chiller replacement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "ContractTermsandConditions_Consultant508C_04172026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFPTermsandConditions508C_08202024.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "OWEF Contractor Safety Checklist 102017.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "InsandBondRequirements508C02092026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H100-HVAC Plan-Basement.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H101-HVAC Plan-First Floor.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H102-HVAC Plan-Second Floor.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H103-HVAC Plan-Third Floor.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H104-HVAC Plan-Roof.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H200-HVAC Enlarged Plans.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H201-Mechanical Sections.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H300-Chilled Water Flow Diagram.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H302-Heating Water Flow Diagram.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H400-HVAC Details.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H401-HVAC Details.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-H500-HVAC Schedules.pdf",
+   "kind": "pdf",
+   "tables": 20,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-HP100-Piping Plan-Basement.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.05.07-HP104-Piping Plan-Roof.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2009.06.25-M-801-2117 Building to OWEF Interface Layout.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "6787_r0.tif",
+   "kind": ".tif",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "M1-5_r0.tif",
+   "kind": ".tif",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "M-1D_r0.tif",
+   "kind": ".tif",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "M2-5_r0.tif",
+   "kind": ".tif",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "M3-5_r0.tif",
+   "kind": ".tif",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "M4-5_r0.tif",
+   "kind": ".tif",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "M5-5_r0.tif",
+   "kind": ".tif",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "O010E102.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "O010E301.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "O010E302.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 27.5,
+  "attachment_fetches": 30,
+  "attachment_seconds": 3.4,
+  "attachment_bytes": 9644043,
+  "max_fetch_seconds": 0.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-31T13:19:58.706716+00:00",
+ "extract_attempts": 1
+}

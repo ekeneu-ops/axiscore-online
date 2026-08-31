@@ -1,0 +1,358 @@
+{
+ "bid_id": "mcallen-isd-tx-2027-1010",
+ "bid_number": "2027-1010",
+ "agency": "McAllen ISD, TX",
+ "src": "Open",
+ "title": "Personal Importation Mail Order Prescription Program",
+ "close": "9/4/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 20,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 20,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine17",
+   "kind": "package_line",
+   "line": "3.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine18",
+   "kind": "package_line",
+   "line": "3.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine23",
+   "kind": "package_line",
+   "line": "4.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "4.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine24",
+   "kind": "package_line",
+   "line": "4.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "4.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine29",
+   "kind": "package_line",
+   "line": "5.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "5.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine30",
+   "kind": "package_line",
+   "line": "5.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "5.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine35",
+   "kind": "package_line",
+   "line": "6.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine36",
+   "kind": "package_line",
+   "line": "6.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine41",
+   "kind": "package_line",
+   "line": "7.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "7.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine42",
+   "kind": "package_line",
+   "line": "7.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "7.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine47",
+   "kind": "package_line",
+   "line": "8.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "8.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine48",
+   "kind": "package_line",
+   "line": "8.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "8.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine53",
+   "kind": "package_line",
+   "line": "9.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine54",
+   "kind": "package_line",
+   "line": "9.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.2 Dispensing Fee 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine59",
+   "kind": "package_line",
+   "line": "10.1",
+   "desc": "Ingredient Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "10.1 Ingredient Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine60",
+   "kind": "package_line",
+   "line": "10.2",
+   "desc": "Dispensing Fee",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "10.2 Dispensing Fee 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "General Terms and Conditions _RFP_ 5.20.25.pdf",
+  "2027-1010 Specifications and Scope of Work.pdf",
+  "IRS FORM W-9 Revised March 2024 _Fillable Form_.pdf",
+  "Conflict of Interest Form _CIQ_ Fillable R8.14.2024.pdf",
+  "Service Template Vendor - Solicitation 06.24.26.docx",
+  "Data Sharing Agreement Template 08.27.24.docx",
+  "Reference Form FILLABLE.pdf",
+  "Attachment A Evaluation Matrix.pdf",
+  "Attachment B Minimum Quality Assurance Standards.pdf",
+  "Attachment C Formulary Drug List.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General Terms and Conditions _RFP_ 5.20.25.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-1010 Specifications and Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "IRS FORM W-9 Revised March 2024 _Fillable Form_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Form _CIQ_ Fillable R8.14.2024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Service Template Vendor - Solicitation 06.24.26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Data Sharing Agreement Template 08.27.24.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Reference Form FILLABLE.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment A Evaluation Matrix.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment B Minimum Quality Assurance Standards.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment C Formulary Drug List.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.5,
+  "attachment_fetches": 10,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 1729357,
+  "max_fetch_seconds": 0.26,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-31T13:12:49.191085+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,102 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0826-037",
+ "bid_number": "PUR0826-037",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Open",
+ "title": "Pickup Trucks for Fire Department",
+ "close": "9/4/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Firm-fixed price for a new, 3/4-ton, standard crew cab pickup truck, per specifications.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Firm-fixed price for a new, 3/4-ton, standard crew cab pickup truck, per specifications. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "2",
+   "desc": "Firm-fixed price for a new, 1/2-ton, crew cab pickup truck, per specifications.",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Firm-fixed price for a new, 1/2-ton, crew cab pickup truck, per specifications. 3 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Local Preference.pdf",
+  "Standard Terms and Conditions.pdf",
+  "Vehicle Language.pdf",
+  "Specification Checklist - 3-4 Ton Pick Up - PUR0826-037.pdf",
+  "Specification Checklist - Half-Ton Pick Up - PUR0826-037.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Local Preference.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vehicle Language.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Specification Checklist - 3-4 Ton Pick Up - PUR0826-037.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Specification Checklist - Half-Ton Pick Up - PUR0826-037.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1012181,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-31T13:16:55.618723+00:00",
+ "extract_attempts": 1
+}

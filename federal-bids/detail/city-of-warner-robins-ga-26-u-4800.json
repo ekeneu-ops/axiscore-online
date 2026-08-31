@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-warner-robins-ga-26-u-4800",
+ "bid_number": "26-U-4800",
+ "agency": "City of Warner Robins, GA",
+ "src": "Open",
+ "title": "Two (2) Single Axle Dump Trucks",
+ "close": "9/4/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Single Axle Dump Truck (Ford F-750 or equal)",
+   "qty": "2",
+   "uom": "Each",
+   "note": "Price must include purchase, delivery, and all associated costs. Product must meet all specifications and requirements as stated in this solicitation unless otherwise directed.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Single Axle Dump Truck (Ford F-750 or equal) 2 Each No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-U-4800 Two Single Axle Dump Trucks_ITB.pdf",
+  "Contractor E-Verify Affidavit 13-10-91_b_ _1_ 2021.pdf",
+  "Sub-Contractors E-Verify OCGA 13-10-91_b_ _3_.pdf",
+  "Sole Proprietor Affidavit OCGA 13-10-91_b_5_.pdf",
+  "Non-Collusion Affidavit of Vendor.pdf",
+  "Absence of Conflict of Interest OCGA 36-80-28.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-U-4800 Two Single Axle Dump Trucks_ITB.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Contractor E-Verify Affidavit 13-10-91_b_ _1_ 2021.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sub-Contractors E-Verify OCGA 13-10-91_b_ _3_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sole Proprietor Affidavit OCGA 13-10-91_b_5_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusion Affidavit of Vendor.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Absence of Conflict of Interest OCGA 36-80-28.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.6,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 1636232,
+  "max_fetch_seconds": 0.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-08-31T13:16:22.015262+00:00",
+ "extract_attempts": 1
+}
