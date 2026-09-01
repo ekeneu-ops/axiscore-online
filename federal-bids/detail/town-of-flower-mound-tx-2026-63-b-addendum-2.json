@@ -1,0 +1,549 @@
+{
+ "bid_id": "town-of-flower-mound-tx-2026-63-b-addendum-2",
+ "bid_number": "2026-63-B Addendum 2",
+ "agency": "Town of Flower Mound, TX",
+ "src": "Invited",
+ "title": "Trotter Park Improvements",
+ "close": "9/22/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026-63-B - Vendor Information Form.pdf",
+  "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+  "2026-63-B- Trotter Park Plans - Sealed Construction Documents.pdf",
+  "3_2026-63-B - Vendor Information Form.pdf",
+  "2026-63-B _Addendum No 1 _Final 8.25.2026.pdf",
+  "2026-63-B _Addendum No 2 Final_JH.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-63-B - Vendor Information Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "kind": "pdf",
+   "tables": 41,
+   "note": "",
+   "candidates": 11
+  },
+  {
+   "name": "2026-63-B- Trotter Park Plans - Sealed Construction Documents.pdf",
+   "kind": "pdf",
+   "tables": 157,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "3_2026-63-B - Vendor Information Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-63-B _Addendum No 1 _Final 8.25.2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-63-B _Addendum No 2 Final_JH.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "3",
+    "015000\n323113",
+    "1",
+    "LS",
+    "Temp. Chain Link 6ft. Fence & Const. Gate (Sheet SP-1,\nCD -1 Detail 1). Complete and in place.\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "4",
+     "017419\n024116\n024119\n311000\n312000\n315000",
+     "1",
+     "LS",
+     "Site Demolition and Haul Off (Sheet SP-1). Complete and\nin place.\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "5",
+     "101423",
+     "1",
+     "LS",
+     "Project Signage Construction and Installation (Sheet SP-\n1, CD-11 Detail 7, CD-16). Complete and in place.\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "6",
+     "101423",
+     "1",
+     "LS",
+     "Permanent TPWD Grant Signage Construction and\nInstallation (CD-11 Detail 8). Complete and in place.\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 7,
+   "header_row": 0,
+   "headers": [
+    "16",
+    "031100\n032000\n033000\n033050\n055000\n101423\n312313\n323113",
+    "1",
+    "LS",
+    "Pickleball Courts #5, #6, #7, and #8 (Sheets SL-2,\nSL-6, SG-1, CD-10 Detail 3, CD-12 Details 1-5, CD-\n13 Detail 1, S1.1 through S3.4) Complete and In\nPlace all fencing, concrete, surfacing, posts, netting,\nsignage, and gates.\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "17",
+     "031100\n032000\n033000\n033050\n055000\n101423\n312313\n323113",
+     "1",
+     "LS",
+     "Pickleball Courts #9, #10, #11 and #12 (Sheets SL-\n2, SL-6, SG-1, CD-10 Detail 3, CD-12 Details 1-5,\nCD-13 Detail 1, S1.1 through S3.4) Complete and In\nPlace all fencing, concrete, surfacing, posts, netting,\nsignage, and gates.\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "18",
+     "031100\n032000\n033000\n033050\n055000\n101423\n312313\n323113",
+     "1",
+     "LS",
+     "Tennis Courts #1 and #2 (Sheets SL-1, SL-6, SG-1,\nCD-10 Detail 1, CD-12 Details 1-5, CD-13 Detail 1,\nS1.1 through S3.4) Complete and In Place all\nfencing, concrete, surfacing, posts, netting, signage,\nand gates.\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "19",
+     "031100\n032000\n033000\n033050\n055000\n101423\n312313\n323113",
+     "1",
+     "LS",
+     "Multipurpose Court (Sheets SL-2, SL-6, SG-1, CD-\n10 Detail 2, S1.1 through S3.4) Complete and In\nPlace all concrete, surfacing, posts, goals, and\nsignage.\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 10,
+   "header_row": 1,
+   "headers": [
+    "27",
+    "030130\n202226\n202875\n303300\n321313\n321373\n321540\n323110\n323200",
+    "1",
+    "LS",
+    "Concrete Paver Pedestrian Crossing w/ Raised\nMedian and Mountable Concrete Curb and Concrete\nPavers. Complete and In Place. (Sheets SL-4, CD-2\nDetail 2 & 3)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "28",
+     "202226\n202875\n303300\n323110",
+     "8,403",
+     "SF",
+     "Concrete Pavers w/ 6\" Border. Complete and In\nPlace. (Sheets SL-0 through SL-4, CD-2 Detail 3)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "29",
+     "202226\n202875\n303300\n323110",
+     "1",
+     "LS",
+     "Concrete Restroom Foundation and Footings.\nSubgrade prep/select fill will be included in item 12.\nComplete and In Place with utility stub ups ready for\ninstallation. (Sheets SG-1 and CD-19)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "",
+     ""
+    ],
+    [
+     "30",
+     "321726",
+     "195",
+     "SF",
+     "Armor-Tile Detectable Warning Tiles. Complete and\nIn Place. (Sheets SL-2 through SL-4, CD-2 Detail 6)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 11,
+   "header_row": 0,
+   "headers": [
+    "32",
+    "030130\n303300\n321313\n321316\n321373\n321723\n323110",
+    "896",
+    "LF",
+    "4' Wide Colored and Stamped Concrete Pilot\nChannel. Complete and In Place. (Sheets SL-1, SL-\n3, CD-6 Detail 3)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "33",
+     "030130\n033053\n202224\n323110\n323113",
+     "3,382",
+     "SF",
+     "Septic Maintenance Yards w/ 6\" of 1-2\" Compacted\nAngular Gravel and associated 8\u201d wide concrete\nborder. Including 160 LF 6' Vinyl Coated Chain Link\nFence w/ 8' Wide Double Gate and 8\" Concrete\nMow Strip. Complete and In Place. (Sheets SL-2,\nCD-2 Detail 7, CD-12 Details 4 & 5)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "34",
+     "202224\n030130\n055000\n055213\n303300\n323 110",
+     "1",
+     "EA",
+     "Concrete Steps w/ Cable Handrail at Pickleball\nPavilion. Complete and In Place. (Sheets SL-2, CD-\n3 Details 1&4)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "35",
+     "030130\n033053\n034100\n047200\n202224\n303300\n323110\n323200",
+     "828",
+     "LF",
+     "Pickleball Terrace Walls with 4\u201d chopped Oklahoma\nstone veneer of varying height. Complete and In\nPlace. (Sheets SL-2, CD-3 Details 7-9)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 12,
+   "header_row": 0,
+   "headers": [
+    "38",
+    "030130\n033053\n303300\n323110\n404060",
+    "178",
+    "SF",
+    "Playground Boulder Climbing Wall. Complete and In\nPlace all subgrade, footing, dowels and mortar.\n(Sheet SL-5, CD-5 Detail 2)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "39",
+     "321713",
+     "16",
+     "EA",
+     "6' Wide Wheel Stops. Complete and In Place.\n(Sheet SL-6, CD-13 Detail 8)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "40",
+     "061063\n099300",
+     "1,170",
+     "LF",
+     "3 Rail Wood Fence. Complete and In Place. (Sheets\nSL-2, SL-4, CD-12 Detail 6)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "41",
+     "044313.13\n047200\n202224\n202396\n323110\n323 200",
+     "1",
+     "LS",
+     "Raised Stone Planter. Complete and In Place.\n(Sheets SL -4, SL-5, CD-4 Detail 2)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 14,
+   "header_row": 2,
+   "headers": [
+    "48",
+    "030130\n101423\n321373\n323110\n323200",
+    "6",
+    "EA",
+    "Accessible Parking Signage w/ Concrete Apron.\nComplete and In Place. (Sheets SL-6, CD-13 Detail\n6 & 7)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "49",
+     "030130\n101423\n321373\n323110\n323200",
+     "2",
+     "EA",
+     "Pedestrian Yield Signage. Post provided by\nContractor, signage provided by Owner. Complete\nand In Place. (Sheet SL-6, CD 14 Details 1 & 4)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 15,
+   "header_row": 0,
+   "headers": [
+    "50",
+    "030130\n101423\n321373\n323110\n323200",
+    "4",
+    "EA",
+    "Trail Marker Signage. Complete and In Place.\n(Sheets SL-6, CD 14 Detail 9)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "51",
+     "030130\n101416\n101423\n321373\n323110\n323200",
+     "12",
+     "EA",
+     "Small Interpretive Signage. Complete and In Place.\n(Sheets SL-6, CD-14 Detail 2)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "52",
+     "030130\n101416\n101423\n321373\n323110\n323200",
+     "2",
+     "EA",
+     "Large Interpretive Signage. Complete and In Place.\n(Sheets SL-6, CD-13 Detail 3)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "53",
+     "030130\n101423\n321373\n323110\n323200",
+     "4",
+     "EA",
+     "Reclaimed Water Signage, post and signage.\nComplete and In Place. (Sheets SL-6, CD-14 Detail\n1&4)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 16,
+   "header_row": 0,
+   "headers": [
+    "57",
+    "Product\nSpecifications",
+    "16",
+    "EA",
+    "Ultrasite Standard Picnic Table 238-P6. Complete\nand In Place. (Sheets SF-2, SF-4 and CD-18)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "58",
+     "Product\nSpecifications",
+     "5",
+     "EA",
+     "Ultrasite ADA Picnic Table 238-HS. Complete and\nIn Place. (Sheets SF-2, SF-4 and CD-18)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "59",
+     "Product\nSpecifications",
+     "19",
+     "EA",
+     "Ultrasite Trash Receptacle W-55. Complete and In\nPlace. (Sheets SF-0 to SF-4 and CD-18)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "60",
+     "Product\nSpecifications",
+     "4",
+     "EA",
+     "Zero Waste Starter Dog Waste Station JJB310-\nGRN. Complete and In Place, footing, typical\nsignage post. Town to provide signage. (Sheets SF-\n0 to SF-4, CD-14 Detail 1 and CD-18)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 17,
+   "header_row": 0,
+   "headers": [
+    "64",
+    "Product\nSpecifications",
+    "10",
+    "EA",
+    "Wausau Tile Concrete Bollard TF6035. Complete\nand In Place. (Sheets SF-0, SF-4)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "65",
+     "030130\n033053\n303300\n323110\n330 500",
+     "1",
+     "EA",
+     "Install MDF Model 440 SMFA Water Fountain,\nIncluding Concrete Pad, Gravel sump, 2\" PVC Drain\nLine (Sheets U-1, CD-6 Detail 5), and water service\ncomplete and in place. (Sheets SF-0, SF-2 and CD-\n17)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "66",
+     "Product\nSpecifications",
+     "1",
+     "EA",
+     "USA Shade Plaza Shade Structure. Complete and\nIn Place. (Sheets SF-0, SF-4 and CD-21)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ],
+    [
+     "67",
+     "Product\nSpecifications",
+     "1",
+     "EA",
+     "USA Shade Upper Playground Shade Structure.\nComplete and In Place. (Sheets SF-0, SF-4 and\nCD-21)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 24,
+   "header_row": 5,
+   "headers": [
+    "100",
+    "030130\n033053\n044313.13\n303300\n323110",
+    "1",
+    "LS",
+    "Install 16 LF of 12\" Concrete Weir Wall w/ Stone\nVeneer. Complete and In Place. (Sheets D-8 and\nCD-6 Detail 6)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "101",
+     "334200\n334600",
+     "1",
+     "LS",
+     "Misc. Storm Sewer Items (Bends, connections, etc.)\nComplete and In Place. (Sheets D-1 through D-7)\n______________________________________\nDOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B Trotter Park Improvements - Project Manual.pdf",
+   "sheet": 33,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Spec.\nItem",
+    "Qty",
+    "Unit",
+    "Item Description",
+    "Unit\nPrice",
+    "Total\nAmount"
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "DEDUCT ALTERNATE:",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "152",
+     "328000\n329113\n329200",
+     "1",
+     "Lump\nSum\n(LS)",
+     "Deduct Alternate #1 \u2013 Solid Sod Around Pickleball\nSpectator Areas (1,660 SF): Provide and install solid\nBermuda sod in lieu of equal square footage of concrete\npavers and adjacent 6\" border in the pickleball spectator\nareas, including removal of (4) pickleball spectator shade\nsails and associated footings, etc. Hereby propose to\nfurnish all supervision, labor, materials, equipment, tools,\nand accessories and to do all work in accordance with said\ndocuments and addenda thereto. (Sheet SL-2)\n______________________________________ DOLLARS\nAND______________________________________\nCENTS PER UNIT",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "2026-63-B- Trotter Park Plans - Sealed Construction Documents.pdf",
+   "sheet": 67,
+   "header_row": 1,
+   "headers": [
+    "LEGEND\nPROPERTY BOUNDARY\nW WATER LINE\nSS SANITARY SEWER LINE\nSTA: 1+15.00 STA: 6+70.00\nSTM STORM PIPE\nINSTALL 12\" PVC 11.25\u00b0 BEND STA: 5+80.00 INSTALL 12\" GATE VALVE W/ CONCRETE\nROTATE FITTING 3\u00b0 FOR SLOPE DEFLECT WATER LINE 1\u00b0 N APRON FLUSH TO PROPOSED TRAIL\nADJUSTMENT (SEE PROFILE)\nSTA: 5+40.00 BUILDING\nSTA: 6+75.00\nSTA: 0+30.00 STA: 3+55.00 INSTALL 12\" X 8\" TEE, 12\" GATE VALVE & INSTALL 12\" TEE, 12\" GATE VALVE (TO NORTH)\nINSTALL 12\" PVC 11.25\u00b0 BEND DEFLECT WATER LINE 1\u00b0 N 8\" GATE VALVE, DEFLECT WATER LINE 1\u00b0 N & 8\" REDUCER (TO EAST)\nSTA: 2+75.00 STA: 4+35.00 15 LF OF 8\" PVC WATER LINE\nSTA: 0+10.00 DEFLECT WATER LINE 1\u00b0 N DEFLECT WATER LINE 1\u00b0 N (SEE PROFILE BELOW)\nINSTALL 12\"X6\" TEE, 6\" GATE VALVE,\n& STD FIRE HYDRANT ASSEMBLY W/ STA: 6+90.00 NOTES:\n0\n5' CONCRETE SPLASH PAD 0 0 INSTALL 8\" TEE & (2) 8\" GATE VALVES,\n0 + 0\n+ 1 + 0 CONNECT TO EX. 8\" WATER LINE 1. CONTRACTOR SHALL REPAIR ANY PAVEMENT\n0 0 WV 12''W 12''W 12''W 2 12''W 3 + 0 12''W 4 + 0 0 5 + 0 0 0 0 + 6 WV 0 9 + 6 NECESSARY FOR INSTALLATION OF UTILITIES.\n12''W 12''W WV 12''W 12''W 2. ALL 6\" -12\" WATER LINES SHALL BE BLUE IN COLOR\nWV WV WV WV INSTALL 110 LF OF 8\" PVC WATER LINE AND MEET THE REQUIREMENTS OF AWWA C-900.\n12\" WATER MAIN EXTENSION: INSTALL 8\" PVC - 22.5\u00b0 BEND 3. ALL FITTINGS SHALL BE DUCTILE IRON IN\nSTA: 0+00\n675 LF OF 12\" PVC WATER LINE 36''STM ACCORDANCE WITH AWWA C110 OR AWWA C153.\nREMOVE EX. 6\" LINE AND REDUCER & 36''STM INSTALL \u00b135 LF OF 8\" PVC WATER LINE\nCONNECT 12\" LINE TO EXISTING GATE VALVE (SEE PROFILE BELOW) W A T E R L IN E T O B E 2 ' M I N . C L E A R 36''STM 8'' W\nOF B O T T O M O F P R O P . S T O R M L I N E W INSTALL 10 LF OF PVC WATER SERVICE LINE FROM 4. WATER LINE DEFLECTIONS ARE NOT TO EXCEED\nM\nS T 8'' EACH METER, RPZ BACKFLOW PREVENTOR & LARGE 80% OF MANUFACTURERS RECOMMENDED\n36''\nTOWN STD METER BOX W/ 6\" CONCRETE APRON FLUSH DEFLECTION ALLOWANCE.\nSTA: 0+03.00\nTO PROPOSED TRAIL EXTENDING DEPTH OF BOX.\nINSTALL 12\" PVC 45\u00b0 BEND\nINSTALL \u00b1115 LF OF 8\" PVC WATER LINE SEE IRRIGATION PLANS ((2) 2\" FOR IRRIGATION, (1) 1 1/2\" FOR WATER) 5. ALL BURIED METAL SHALL BE WRAPPED IN\nFOR CONTINUATION PLOYETHYLENE TUBE WRAP IN ACCORDANCE\nINSTALL 8\" PVC - 45\u00b0 BEND 8'' W INSTALL 8\" - 2\" WATER SERVICE SADDLE, \u00b14 LF OF 2\" PVC WATER WITH AWWA C105 OR ANSI A21.5.\nSERVICE LINE, STD DUAL BRANCH SERVICE CONNECTION , & (3)\nT M INSTALL 5' X 5' X 5' GRAVEL STD WATER METERS AND BOXES W/ 6\" CONCRETE APRON FLUSH 6. WATER METERS TO UTILIZE DFW37F-12-1 METER\nS\n42'' M SUMP (CD-6, DETAIL 5) TO PROPOSED TRAIL EXTENDING DEPTH OF BOXES, BOX. RPZ BACKFLOW PREVENTERS TO UTILIZE\nT W\nS ''4 ''8 (2) IRRIGATION (2\" METER & VALVE) & DFW65C-12-SBSMTR METER BOX. ALL METER\n2\nINSTALL \u00b110 LF OF 2\" PVC DRAINAGE LINE (1) WATER SERVICE (REDUCE TO 1 1/2\") BOXES TO BE ENCASED IN 6\" CONCRETE APRON\nEXTENDING DEPTH OF BOXES.\nS T M INSTALL 68 LF OF 1\" COPPER W S INSTALL \u00b110 LF OF 8\" PVC WATER LINE\n42'' WATER SERVICE LINE W\nS 8'' 7. SEE SHEET CD-15 FOR ALL APPLICABLE TOWN\nW\nM W''8 WV INSTALL 8\" PVC - 22.5\u00b0 BEND STANDARD WATER DETAILS.\nT S WV\nINSTALL ''84 5 LF OF 8\" PVC WATER LINE S\n2 W INSTALL 45 LF OF 8\" PVC WATER LINE\nM\nT\n42'' S INSTALL 1 1/2\" x 1\" TEE,\nINSTALL 15 LF OF INSTALL 8\" PVC - 45\u00b0 BEND\n1\" BALL CORP STOP 8\" PVC WATERT M L / /INE\nS\nS 18''\nW\nI N TM S T A LM L T 2 1 7 L F O F 1 1 /2 \" / / I N S T A L L 8 \" x 6 \" T E E , 8 \" G ATE\nCOPPE R S W A T E R S ''4 S E R V IC E L IN E T M V A L V E & 6 \" G A T E V A L V E\n2 24'' S\nSTM\nINSTALL 8\"x 6\" TEE, 20 LF OF 6\" PVC\nINSTALL (2) 45\u00b0 BENDS\nS / / WATER LINE & STD FIRE HYDRANT\nX W ASSEMBLY W/ SPLASH PAD\nM INSTALL 20 LF OF 8\" PVC WATER LINE\nX T\nS\nINSTALL 8\" PVC - 45\u00b0 BEND N\nS\nX S / /\nCONNECT TO PROPOSED RESTROOM\nBUILDING, CONTRACTOR TO PROVIDE\nX\nSTUB UP FOR RESTROOM INSTALLATION,\nSS / /\n(SEE MEP PLANS FOR CONTINUATION)\nO\nM\nO\nT\nS 0 100\n/ / 50\n/ / Feet\n1\" = 50'\nWATER PLAN"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "645 645\nSTA: 0+00, TP=629.50\nSTA: 6+75.00, TP=632.20\nCONNECT 12\" LINE TO EXISTING GATE VALVE\n640 640 INSTALL 12\" TEE, CONNECT TO EX.\n12\" TO NORTH W/ 12\" GATE VALVE\nSTA: 0+03.00, TP=629.58\n& INSTALL 8\" REDUCER (TO EAST)\nINSTALL 12\" PVC 45\u00b0 BEND\nSTA: 0+10.00, TP=629.76\nINSTALL 12\" X 6\" TEE, 6\" GATE VALVE,\n635 635 & STD FIRE HYDRANT ASSEMBLY\nSTA: 2+75.00, TP=631.86 STA: 4+35.00, TP=631.25 STA: 6+70.00, TP=632.15\nSTA: 0+30.00, TP =630.28 DEFLECT WATER LINE 1\u00b0 N DEFLECT WATER LINE 1\u00b0 N INSTALL STD GATE VALVE\nINSTALL 12\" PVC 11.25\u00b0 BEND W/ VALVE EXTENDOR\n2.60%\n@\nPVC\n630 630 115 LF OF 12\" 425 LF OF 12\" PVC WATER LINE @ -0.4% 135 LF OF 12\" PVC WATER LINE @ 1%\nSTA: 1+15.00, TP=632.50\nINSTALL 12\" PVC 11.25\u00b0 BEND, STA: 5+40.00, TP=630.85 15 LF OF 8\" PVC WATER LINE @ 4.5%\nROLL FITTING 3\u00b0 FOR SLOPE INSTALL 12\" X 8\" TEE, 12\" GATE\nSTA: 6+90.00, TP=632.75\nADJUSTMENT VALVE & 8\" GATE VALVE,\nINSTALL 8\" TEE & (2) 8\" GATE VALVES,\nDEFLECT WATER LINE 1\u00b0 N\n625 625\nCONNECT TO EX. 8\" WATER LINE\n32.636 05.926 05.736 75.236 32.736 52.236 00.736 87.136 05.636 83.136 59.536 00.136 05.736 54.136\n0 10\n= = = = = = = = = = = = = =\n5\nGE PT GE PT GE PT GE PT GE PT GE PT GF PT\nFeet\nVERTICAL SCALE\n-0+40 0+00 1+00 2+00 3+00 4+00 5+00 6+00 7+007+20\n1\" = 5'\nR\n12 IN WATER MAIN PROFILE 0 100\n50\nbelow. Feet\nKnow what's\nCall before you dig. HORIZONTAL SCALE\n1\" = 50'"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 327.0,
+  "attachment_fetches": 6,
+  "attachment_seconds": 70.9,
+  "attachment_bytes": 151114865,
+  "max_fetch_seconds": 67.29,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-01T13:28:02.814900+00:00",
+ "extract_attempts": 1
+}

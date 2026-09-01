@@ -1,0 +1,424 @@
+{
+ "bid_id": "tarrant-county-tx-f2026148-addendum-3",
+ "bid_number": "F2026148 Addendum 3",
+ "agency": "Tarrant County, TX",
+ "src": "Invited",
+ "title": "ERP and Related Software Implementation Services",
+ "close": "9/8/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 19,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "A = Migration of SAP ECC to SAP S/4 Public Cloud Edition",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter an all-inclusive fixed price for the full scope of the contract including software licensing, hardware, installation, setup, training, technical support, maintenance, warranty, and anything else required for the solution. This price must include all travel expenses, etc. Provide a written detailed list of exactly what is included in the price for your solution as an attachment. \u2022 Annual software licensing. \u2022 Implementation (e.g., installation, configuration, customization's, training, travel, etc.) \u2022 Annual support & Maintenance. \u2022 Other (anything else required for the solution)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 A = Migration of SAP ECC to SAP S/4 Public Cloud Edition 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "B= Migration of SAP ECC HCM (including Payroll) to SuccessFactors HCM Suite",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter an all-inclusive fixed price for the full scope of the contract including software licensing, hardware, installation, setup, training, technical support, maintenance, warranty, and anything else required for the solution. This price must include all travel expenses, etc. Provide a written detailed list of exactly what is included in the price for your solution as an attachment. \u2022 Annual software licensing. \u2022 Implementation (e.g., installation, configuration, customization's, training, travel, etc.) \u2022 Annual support & Maintenance. \u2022 Other (anything else required for the solution)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 B= Migration of SAP ECC HCM (including Payroll) to SuccessFactors HCM Suite 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "C= Migration of IonWave (supplier registration and sourcing) to Ariba SLP, Sourcing and Contracts",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter an all-inclusive fixed price for the full scope of the contract including software licensing, hardware, installation, setup, training, technical support, maintenance, warranty, and anything else required for the solution. This price must include all travel expenses, etc. Provide a written detailed list of exactly what is included in the price for your solution as an attachment. \u2022 Annual software licensing. \u2022 Implementation (e.g., installation, configuration, customization's, training, travel, etc.) \u2022 Annual support & Maintenance. \u2022 Other (anything else required for the solution)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 C= Migration of IonWave (supplier registration and sourcing) to Ariba SLP, Sourcing and Contracts 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "TC_General_Terms_and_Conditions091724.pdf",
+  "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+  "TC_HUB_Policy053123.pdf",
+  "F2026148 Scope of Work Addendum 3.pdf",
+  "Deficiencies and Deviations Form.pdf",
+  "F2026148 BW Hana.pdf",
+  "F2026148 ECC Sizing.pdf",
+  "F2026148 CustomCode.xlsx",
+  "F2026148 ERP Business Requirements.xlsx",
+  "F2026148 BW_Hana Addendum 1.xlsx",
+  "F2026148 SAP Readiness Check for SAP S4HANA Addendum 1.pdf",
+  "F2026148 Question and Answers - Addendum 2.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "TC_General_Terms_and_Conditions091724.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_HUB_Policy053123.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "F2026148 Scope of Work Addendum 3.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Deficiencies and Deviations Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "F2026148 BW Hana.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "F2026148 ECC Sizing.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "F2026148 CustomCode.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "F2026148 ERP Business Requirements.xlsx",
+   "kind": "xlsx",
+   "tables": 14,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "F2026148 BW_Hana Addendum 1.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "F2026148 SAP Readiness Check for SAP S4HANA Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 71,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "F2026148 Question and Answers - Addendum 2.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "F2026148 ERP Business Requirements.xlsx",
+   "sheet": 4,
+   "header_row": 20,
+   "headers": [
+    "18",
+    "Highlights discrepancies (unit price differences; quantity ordered/received/invoiced; extended PO vs. invoice value) and routes exceptions"
+   ],
+   "score": 2,
+   "n_rows": 33,
+   "sample": [
+    [
+     "19",
+     "Supports payment holds and release controls; calculates late payment charges per county-defined rates/date rules"
+    ],
+    [
+     "20",
+     "Calculates late payment charges per county-defined rates/date rules"
+    ],
+    [
+     "21",
+     "Provides payment timeliness reporting (\u226430 days from invoice receipt) with exception flags and % paid within 30 days by department/vendor"
+    ]
+   ]
+  },
+  {
+   "source": "F2026148 ERP Business Requirements.xlsx",
+   "sheet": 5,
+   "header_row": 26,
+   "headers": [
+    "23",
+    "Generates multi-line invoices with item/description (\u2265256 chars), quantity, unit cost/UOM; extends lines, applies fees, and provides consolidated billing"
+   ],
+   "score": 3,
+   "n_rows": 19,
+   "sample": [
+    [
+     "24",
+     "Supports periodic/recurring billing with user-selected cycles and start/end dates"
+    ],
+    [
+     "25",
+     "Distributes a single billing item across multiple COA elements based on user-defined allocations (e.g., % split)"
+    ],
+    [
+     "26",
+     "Tracks interest/fees per state statute/county schedule including compounding (daily/monthly)"
+    ]
+   ]
+  },
+  {
+   "source": "F2026148 SAP Readiness Check for SAP S4HANA Addendum 1.pdf",
+   "sheet": 20,
+   "header_row": 2,
+   "headers": [
+    "Supply Chain -\nInventory",
+    "S4TWL - Material\nValuation -\nStatistical moving\naverage price\nSI4: Logistics_MM-\nIM",
+    "Low\n(default)",
+    "Change of\nexisting\nfunctionality",
+    "2267835",
+    "Item is relevant.\nDB table 'MBEW'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .",
+    "Link"
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "Database and\nData\nManagement -\nEnterprise\nInformation\nManagement",
+     "S4TWL -\nSimplification of\ncopy/reference\nhandling\nSI5: MasterData_PM",
+     "Low\n(default)",
+     "Change of\nexisting\nfunctionality",
+     "2330063",
+     "Item is relevant.\nDB table 'T130F'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .; Item is\nrelevant. DB\ntable 'MARA'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .",
+     "Link"
+    ],
+    [
+     "Finance -\nFinancial\nOperations",
+     "S4TWL -\nDetermination of\ndefault values in\nIntrastat reporting\nSI3:\nFIN_SLL_ISR_DV",
+     "Low\n(default)",
+     "Change of\nexisting\nfunctionality",
+     "2468294",
+     "Item is relevant.\nDB table 'T605Z'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .",
+     "Link"
+    ],
+    [
+     "Solutions for\nSpecific\nIndustries -\nPublic Sector",
+     "S4TWL -\nFunctionality\nAverage Daily\nBalance-based\nDistribution\nSI9: Public\nSector_PSM-FA",
+     "Assessm\nent\nRequired\n(default)",
+     "Functionalit\ny\nunavailable\n(no\nalternative\nplanned)",
+     "2270466",
+     "Item relevant;\nbusiness function\nEA-PS is active;\nItem is relevant.\nDB table\n'FMISPS' based\ncheck. Relevant\ncriteria is ''>0 ''\nand number\nfound is 1 .",
+     "Link"
+    ]
+   ]
+  },
+  {
+   "source": "F2026148 SAP Readiness Check for SAP S4HANA Addendum 1.pdf",
+   "sheet": 24,
+   "header_row": 3,
+   "headers": [
+    "Solutions for\nSpecific\nIndustries -\nPublic Sector",
+    "S4TWL - Former\nBudgeting System\n(FBS) in Funds\nManagement\nSI1: Public\nSector_PSM-FM -\nFBS",
+    "Assessm\nent\nRequired\n(default)",
+    "Functionalit\ny\nunavailable\n(alternative\nexists)",
+    "2270413",
+    "Item relevant;\nbusiness function\nEA-PS is active;\nItem is relevant.\nDB table\n'FMISPS' based\ncheck. Relevant\ncriteria is ''>0 ''\nand number\nfound is 1 .",
+    "Link"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "Finance -\nAccounting and\nFinancial Close",
+     "S4TWL - DATA\nSTRUCTURE\nCHANGES IN\nASSET\nACCOUNTING\nSI1: FIN_AA",
+     "Low\n(default)",
+     "Change of\nexisting\nfunctionality",
+     "2270387",
+     "Item is relevant.\nDB table 'ANEK'\nbased check.\nRelevant criteria\nis ''>1 '' and\nnumber found is\n2 .",
+     "Link"
+    ],
+    [
+     "Manufacturing -\nProduction\nPlanning",
+     "S4TWL - Planning\nHorizon\nSI35: Logistics_PP",
+     "Medium\n(default)",
+     "Functionalit\ny\nunavailable\n(no\nalternative\nplanned)",
+     "2270241",
+     "Item is relevant.\nDB table 'T001W'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .",
+     "Link"
+    ],
+    [
+     "Finance - Cost\nManagement\nand Profitability\nAnalysis",
+     "S4TWL -\nProfitability\nAnalysis\nSI9: FIN_CO",
+     "Assessm\nent\nRequired\n(default)",
+     "Change of\nexisting\nfunctionality",
+     "2349278",
+     "Item is relevant.\nDB table 'TKA00'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .",
+     "Link"
+    ]
+   ]
+  },
+  {
+   "source": "F2026148 SAP Readiness Check for SAP S4HANA Addendum 1.pdf",
+   "sheet": 27,
+   "header_row": 4,
+   "headers": [
+    "Solutions for\nSpecific\nIndustries -\nPublic Sector",
+    "S4TWL - Fund\nAccounting based\non Special Ledger\nSI5: Public\nSector_PSM-FA - SL",
+    "Low\n(default)",
+    "Functionalit\ny\ndeprecated\n(alternative\nexists)",
+    "2270444",
+    "Item is relevant.\nDB table 'T881'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .; Item relevant;\nbusiness function\nEA-PS is active;\nItem is relevant.\nDB table\n'FMISPS' based\ncheck. Relevant\ncriteria is ''>0 ''\nand number\nfound is 1 .",
+    "Link"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Finance -\nAccounting and\nFinancial Close",
+     "S4TWL - DATA\nMODEL CHANGES\nIN FIN\nSI1_FIN_General",
+     "Low\n(default)",
+     "Change of\nexisting\nfunctionality",
+     "2270333",
+     "Item is relevant.\nDB table 'BKPF'\nbased check.\nRelevant criteria\nis ''>100 '' and\nnumber found is\n101 .",
+     "Link"
+    ],
+    [
+     "Database and\nData\nManagement -\nEnterprise\nInformation\nManagement",
+     "S4TWL - LEGACY\nSYSTEM\nMIGRATION\nWORKBENCH\nSI9: CT_LSMW",
+     "Low\n(default)",
+     "Functionalit\ny\ndeprecated\n(alternative\nexists)",
+     "2287723",
+     "Item is relevant.\nDB table\n'CVERS' based\ncheck. Relevant\ncriteria is ''>0 ''\nand number\nfound is 1 .",
+     "Link"
+    ],
+    [
+     "Application\nPlatform and\nInfrastructure -\nProcess\nManagement\nand Integration",
+     "S4TWL - OUTPUT\nMANAGEMENT\nSI4: CT_OM",
+     "Low\n(default)",
+     "Change of\nexisting\nfunctionality",
+     "2470711",
+     "Item is relevant.\nDB table\n'CVERS' based\ncheck. Relevant\ncriteria is ''>0 ''\nand number\nfound is 1 .",
+     "Link"
+    ]
+   ]
+  },
+  {
+   "source": "F2026148 SAP Readiness Check for SAP S4HANA Addendum 1.pdf",
+   "sheet": 28,
+   "header_row": 2,
+   "headers": [
+    "Manufacturing -\nProduction\nPlanning",
+    "S4TWL - Graphical\ndisplay of available\nquantity in MRP\nevaluations\nSI39: Logisticis_PP",
+    "Assessm\nent\nRequired\n(default)",
+    "Functionalit\ny\nunavailable\n(alternative\nexists)",
+    "3018123",
+    "Item is relevant.\nDB table 'T001W'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .",
+    "Link"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "Finance -\nAccounting and\nFinancial Close",
+     "S4TWL - GENERAL\nLEDGER\nSI1_FIN_GL",
+     "Assessm\nent\nRequired\n(default)",
+     "Change of\nexisting\nfunctionality",
+     "2270339",
+     "Item is relevant.\nDB table 'COEP'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .",
+     "Link"
+    ],
+    [
+     "Human\nResources -\nCore HR and\nTime Recording",
+     "S4TWL -\nConversion of\nEmployees to\nBusiness Partners\nSI2: HR_Empl",
+     "Low\n(default)",
+     "Change of\nexisting\nfunctionality",
+     "2340095",
+     "Item is relevant.\nDB table\n'PA0000' based\ncheck. Relevant\ncriteria is ''>0 ''\nand number\nfound is 1 .",
+     "Link"
+    ],
+    [
+     "Finance -\nTreasury\nManagement",
+     "S4TWL - CASH\nMANAGEMENT -\nBank Accounts\nSI2_FIN_CM",
+     "Medium\n(default)",
+     "Functionalit\ny\nunavailable\n(alternative\nexists)",
+     "2870766",
+     "Item is relevant.\nDB table 'T012K'\nbased check.\nRelevant criteria\nis ''>0 '' and\nnumber found is\n1 .",
+     "Link"
+    ]
+   ]
+  },
+  {
+   "source": "F2026148 Question and Answers - Addendum 2.xlsx",
+   "sheet": 0,
+   "header_row": 33,
+   "headers": [
+    "In the portal, the County requires bidders to \"provide a written detailed list of exactly what is included in the price for your solution as an attachment.\" Considering these documents will have pricing information, is it ok to upload them within the 'Other Attachments' portion of the portal? If so, do they need to be labeled in any certain way? Or, should bidders respond to the Notes area within each 'Line item' to capture this detailed list of exactly what is included in our pricing?",
+    "Yes this is acceptable. Please label the documents based on what they contain."
+   ],
+   "score": 2,
+   "n_rows": 543,
+   "sample": [
+    [
+     "Will Tarrant be using AI tools to evaluate and/or score the responses?",
+     "No."
+    ],
+    [
+     "The SAP order documentation the County has shared for the SuccessFactors estate lists Employee Central Payroll, Time Tracking, U.S. Payroll Tax Calculation by BSI, Performance & Goals, Compensation, and U.S. Benefits Administration by Benefitfocus with ACA reporting. It does not list SuccessFactors Employee Central core HR. Employee Central core HR appears instead under RFO F2026018 (Carahsoft), on a term running 1 December 2025 to 30 November 2026. Can the County confirm that Employee Central core HR is licensed for the full duration of the implementation, and identify the agreement it sits under? RFP Reference: Scope of Work (SOW) II.A.21, II.A.27.h; RFO F2026018",
+     "Yes the County has purchased full SuccessFactors EC licenses."
+    ],
+    [
+     "SuccessFactors Recruiting and SuccessFactors Onboarding were also purchased under RFO F2026018 on the same 1 December 2025 to 30 November 2026 term. Separately, the County holds SmartRecruiters Winston for SAP SuccessFactors. And the Scope of Work records NeoGov as the incumbent recruiting system. Which of these three is the intended target for recruiting, and which of the others are being retired? RFP Reference: SOW II.A.15.f, II.A.21.b-d",
+     "The County intends on using SmartRecruiters with Winston for SuccessFactors."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 16.2,
+  "attachment_fetches": 12,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 3503149,
+  "max_fetch_seconds": 0.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-01T13:13:13.312720+00:00",
+ "extract_attempts": 1
+}

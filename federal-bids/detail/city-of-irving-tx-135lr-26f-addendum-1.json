@@ -1,0 +1,154 @@
+{
+ "bid_id": "city-of-irving-tx-135lr-26f-addendum-1",
+ "bid_number": "135LR-26F Addendum 1",
+ "agency": "City of Irving, TX",
+ "src": "Invited",
+ "title": "Ice Control Sand",
+ "close": "9/4/2026 02:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Ice Control Sand (per specifications, FOB Stardust Drive)",
+   "qty": "5000",
+   "uom": "Tons",
+   "note": "Pricing shall include Delivery Charges to the given location. All quantities listed are Estimates only.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Ice Control Sand (per specifications, FOB Stardust Drive) 5000 Tons No Response"
+  }
+ ],
+ "attachments_saved": [
+  "135LR-26F Addendum 1.pdf",
+  "135LR-26F Specifications _Revised by Addendum 1_.pdf",
+  "A-1 - Standard Terms and Conditions FINAL rev. 8.4.26.pdf",
+  "B-1 - General Instructions to Bidders rev. 8.1.24.pdf",
+  "B-2 - Special Instructions to Bidders rev. 7.15.24.pdf",
+  "C-1 - Conflict of Interest Instructions rev. 10-2015.pdf",
+  "C-2 - Conflict of Interest Questionnaire rev. 10-2015.pdf",
+  "C-4 - Certificate of Interested Parties Instructions rev. 10.30.24.pdf",
+  "C-5 -TGC-2271-2274-2276 Verification Form .pdf",
+  "D-1 - Standard Insurance Requirements rev. 4.21.26.pdf",
+  "D-4 - Insurance Affidavit.pdf",
+  "E-1 - Environmental Commitment _ Compliance.pdf",
+  "H-2 - Standard Contract _ Acknowledgement - Goods rev. 5.12.22.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "135LR-26F Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "135LR-26F Specifications _Revised by Addendum 1_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "A-1 - Standard Terms and Conditions FINAL rev. 8.4.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B-1 - General Instructions to Bidders rev. 8.1.24.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "B-2 - Special Instructions to Bidders rev. 7.15.24.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C-1 - Conflict of Interest Instructions rev. 10-2015.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C-2 - Conflict of Interest Questionnaire rev. 10-2015.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C-4 - Certificate of Interested Parties Instructions rev. 10.30.24.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C-5 -TGC-2271-2274-2276 Verification Form .pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "D-1 - Standard Insurance Requirements rev. 4.21.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "D-4 - Insurance Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "E-1 - Environmental Commitment _ Compliance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "H-2 - Standard Contract _ Acknowledgement - Goods rev. 5.12.22.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.9,
+  "attachment_fetches": 13,
+  "attachment_seconds": 2.0,
+  "attachment_bytes": 1800748,
+  "max_fetch_seconds": 0.28,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-01T13:12:34.259832+00:00",
+ "extract_attempts": 1
+}

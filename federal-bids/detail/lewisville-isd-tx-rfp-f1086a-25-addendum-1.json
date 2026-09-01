@@ -1,0 +1,122 @@
+{
+ "bid_id": "lewisville-isd-tx-rfp-f1086a-25-addendum-1",
+ "bid_number": "RFP #F1086A-25 Addendum 1",
+ "agency": "Lewisville ISD, TX",
+ "src": "Invited",
+ "title": "Special Education Contracted Services",
+ "close": "9/22/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Minimum Percent Discount off of Proposed Goods and Services* Please indicate the minimum percentage discount of vendor's catalog of proposed goods and services. *Percent Off - Please enter percentage off (If no discount is offered, 0% is a valid entry). This is the minimum discount. The Vendor may always apply a higher discount. Add Notes (Optional) - You may add notes regarding the service you provide or list any products sold that are related to the service offered.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Minimum Percent Discount off of Proposed Goods and Services* Please indicate the minimum percentage discount of vendor's catalog of proposed goods and services. *Percent Off - Please enter percentage off (If no discount is offered, 0% is a valid entry). This is the minimum discount. The Vendor may always apply a higher discount. Add Notes (Optional) - You may add notes regarding the service you provide or list any products sold that are related to the service offered. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "W-9 Form - Rev 2024.pdf",
+  "1295_Form__unsworn_declaration_ 082522.pdf",
+  "LISD_Contracted_Services_Insurance_Requirements.pdf",
+  "Vendor Insurance Acknowledgment_11-3-2023 _002_.pdf",
+  "LISD Public Records Agreementdocx.pdf",
+  "TX_NDPA_V1_with_exhibit.pdf",
+  "LISD Terms and Conditions 071725.pdf",
+  "LISD Public Records Agreement. v2 081126pdf.pdf",
+  "preemployment-preservice-affidavit-tec-22a055.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "W-9 Form - Rev 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295_Form__unsworn_declaration_ 082522.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "LISD_Contracted_Services_Insurance_Requirements.pdf",
+   "kind": "pdf",
+   "tables": 21,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Insurance Acknowledgment_11-3-2023 _002_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "LISD Public Records Agreementdocx.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TX_NDPA_V1_with_exhibit.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "LISD Terms and Conditions 071725.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "LISD Public Records Agreement. v2 081126pdf.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "preemployment-preservice-affidavit-tec-22a055.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 20.7,
+  "attachment_fetches": 9,
+  "attachment_seconds": 2.0,
+  "attachment_bytes": 5184141,
+  "max_fetch_seconds": 0.66,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-01T13:29:24.334714+00:00",
+ "extract_attempts": 1
+}

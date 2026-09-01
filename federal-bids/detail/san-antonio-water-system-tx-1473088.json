@@ -1,0 +1,58 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1473088",
+ "bid_number": "1473088",
+ "agency": "San Antonio Water System, TX",
+ "src": "Invited",
+ "title": "CHEMICAL DEVICES",
+ "close": "9/8/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "ECD P/N: TC80-01-2210 ECD Total Chlorine Analyzer, Panel mounted, Constant head flow controller Total Chlorine sensor, Flow cell pH sensor, (2) 4-20mA outputs 3 configurable relays (Modbus), 0.05 to 20ppm Total Chlorine 110-250 VAC power supply, 110VAC spray cleaner on CL2 sensor",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 ECD P/N: TC80-01-2210 ECD Total Chlorine Analyzer, Panel mounted, Constant head flow controller Total Chlorine sensor, Flow cell pH sensor, (2) 4-20mA outputs 3 configurable relays (Modbus), 0.05 to 20ppm Total Chlorine 110-250 VAC power supply, 110VAC spray cleaner on CL2 sensor 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.9,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 219404,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-01T13:13:23.737814+00:00",
+ "extract_attempts": 1
+}

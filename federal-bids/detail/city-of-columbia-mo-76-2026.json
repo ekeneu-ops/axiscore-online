@@ -1,0 +1,88 @@
+{
+ "bid_id": "city-of-columbia-mo-76-2026",
+ "bid_number": "76/2026",
+ "agency": "City of Columbia, MO",
+ "src": "Invited",
+ "title": "Captioning Services",
+ "close": "9/23/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "76-2026 Captioning Services RFP.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "76-2026 Captioning Services RFP.pdf",
+   "kind": "pdf",
+   "tables": 22,
+   "note": "",
+   "candidates": 2
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "76-2026 Captioning Services RFP.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "Line\nItem",
+    "Description",
+    "Unit",
+    "Estimated\nAnnual Qty",
+    "Original\nContract\nPeriod\nFirm Fixed\nPrice"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "Firm, Fixed Price for\nclosed captioning\nservices for regular or\nspecial meetings as\nspecified herein.",
+     "Per Hour",
+     "200",
+     "$_______"
+    ]
+   ]
+  },
+  {
+   "source": "76-2026 Captioning Services RFP.pdf",
+   "sheet": 7,
+   "header_row": 0,
+   "headers": [
+    "Line\nItem",
+    "Description",
+    "Unit",
+    "Annual %\nIncrease"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "2",
+     "Firm Fixed Maximum\nPercentage Increase per\nRenewal Term for all\nline items",
+     "%",
+     "_______%"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.6,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 604611,
+  "max_fetch_seconds": 0.19,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-01T13:31:06.830682+00:00",
+ "extract_attempts": 1
+}

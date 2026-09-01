@@ -1,0 +1,126 @@
+{
+ "bid_id": "pulaski-county-itb-26-t-001-addendum-1",
+ "bid_number": "ITB 26-T-001 Addendum 1",
+ "agency": "Pulaski County",
+ "src": "Invited",
+ "title": "Delinquent Tax Statements",
+ "close": "9/18/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "ENVELOPES 16,000 Litho printed Size - #10 Window Paper - 24# White wove Ink - Green on one side RETURN ENVELOPE 16,000 - addressed to P.O. Box 430 - Size #9 BRE Paper - 24# White Ink - Reflex Blue DELINQUENT TAX STATEMENT SPECIFICATIONS Quantity - 16,000 printed forms Size - 8 1/2\" x 11\" Paper - 24# White offset or equivalent, horizontally perforated on lower portion Ink - Black or Reflex Blue on one side SEE ATTACHED SAMPLES IN THE BID ATTACHMENTS TAB",
+   "qty": "1",
+   "uom": "",
+   "note": "Provide Total System Cost per M (based upon estimated 16,000 statements)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 ENVELOPES 16,000 Litho printed Size - #10 Window Paper - 24# White wove Ink - Green on one side RETURN ENVELOPE 16,000 - addressed to P.O. Box 430 - Size #9 BRE Paper - 24# White Ink - Reflex Blue DELINQUENT TAX STATEMENT SPECIFICATIONS Quantity - 16,000 printed forms Size - 8 1/2\" x 11\" Paper - 24# White offset or equivalent, horizontally perforated on lower portion Ink - Black or Reflex Blue on one side SEE ATTACHED SAMPLES IN THE BID ATTACHMENTS TAB 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Estimated Postage Per Piece Mailed",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Please explain the determination of estimated postage",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Estimated Postage Per Piece Mailed 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Contractor or Vendor Disclosure Form.docx",
+  "CONTRACT INFORMATION.docx",
+  "COUNTY PREFERENCE.docx",
+  "TERMS AND STANDARD CONDITIONS ITB.docx",
+  "W-9 Blank 2024 form.pdf",
+  "Sample Return Envelope.pdf",
+  "Sample Outgoing Envelope.pdf",
+  "Sample Statement.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Contractor or Vendor Disclosure Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "CONTRACT INFORMATION.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "COUNTY PREFERENCE.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "TERMS AND STANDARD CONDITIONS ITB.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Blank 2024 form.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sample Return Envelope.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Sample Outgoing Envelope.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Sample Statement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.6,
+  "attachment_fetches": 8,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 853716,
+  "max_fetch_seconds": 0.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-01T13:22:23.646968+00:00",
+ "extract_attempts": 1
+}

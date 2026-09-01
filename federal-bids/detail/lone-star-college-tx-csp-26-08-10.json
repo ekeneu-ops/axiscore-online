@@ -1,0 +1,126 @@
+{
+ "bid_id": "lone-star-college-tx-csp-26-08-10",
+ "bid_number": "CSP 26-08-10",
+ "agency": "Lone Star College, TX",
+ "src": "Invited",
+ "title": "LSC Kingwood Fire Science Water Line and Septic System Project",
+ "close": "9/25/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Schedule A \u2013 Public Water Line Construction",
+   "qty": "1",
+   "uom": "JB",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Schedule A \u2013 Public Water Line Construction 1 JB No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Bid Schedule B \u2013 Septic System Installation",
+   "qty": "1",
+   "uom": "JB",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Bid Schedule B \u2013 Septic System Installation 1 JB No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26 0813 - LSC Kingwood FTF_Approved PUB Plans_260813.pdf",
+  "26 0814 SOW Water Line 12 _ 8 RV1.pdf",
+  "26 0818 SOW Septic System.pdf",
+  "OGC-S-2016-02_Uniform_General_Conditions.pdf",
+  "OGC-S-2010-07 Owner-Contractor Construction Agreement For UGC.pdf",
+  "DB Wage Rates Combined for Harris and Montgomery Counties 8-25-2026.pdf",
+  "Insurance Table for Construction and Renovation Projects 8-25-26.pdf",
+  "W-9 Revised March 2024.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26 0813 - LSC Kingwood FTF_Approved PUB Plans_260813.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26 0814 SOW Water Line 12 _ 8 RV1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "26 0818 SOW Septic System.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "OGC-S-2016-02_Uniform_General_Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "OGC-S-2010-07 Owner-Contractor Construction Agreement For UGC.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "DB Wage Rates Combined for Harris and Montgomery Counties 8-25-2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Table for Construction and Renovation Projects 8-25-26.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Revised March 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 75.9,
+  "attachment_fetches": 8,
+  "attachment_seconds": 7.8,
+  "attachment_bytes": 56115709,
+  "max_fetch_seconds": 6.53,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-01T13:32:50.770623+00:00",
+ "extract_attempts": 1
+}
