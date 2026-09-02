@@ -1,0 +1,92 @@
+{
+ "bid_id": "city-of-punta-gorda-fl-r2025115",
+ "bid_number": "R2025115",
+ "agency": "City of Punta Gorda, FL",
+ "src": "Open",
+ "title": "SVC-PSBFENCE/1200/2 - Design/Install Security Fence at the Public Safety Building",
+ "close": "9/7/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "R2025115Notice.pdf",
+  "R2025115D.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "R2025115Notice.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "R2025115D.pdf",
+   "kind": "pdf",
+   "tables": 17,
+   "note": "",
+   "candidates": 2
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "R2025115D.pdf",
+   "sheet": 8,
+   "header_row": 3,
+   "headers": [
+    "PROPOSED PRICE\nProvide an all-inclusive total project price to include all\nlabor, equipment, incidentals and all other incidental\ncost to complete the proposed project.\nAll equipment must be itemized and include:\n\u2022 Full manufacturer\u2019s name and product\nidentification.\n\u2022 Full description of the equipment \u2013 Do not list\nany abbreviated terms/descriptions.\n\u2022 Unit Price and extended price if more than one\n(1) piece/unit included.\n\u2022 Manufacturer\u2019s warranty.\n\u2022 Manufacturer\u2019s product specifications inclusive\nof installation specifications for equipment.",
+    "REJECTED",
+    "Electronic\nor\nHard Copy Format"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "TECHNICAL PROPOSAL\n\u2022 Provide a conceptual design that best utilizes\nthe existing footprint and site conditions.\n\u2022 Provide literature/specifications for all\nequipment proposed.\n\u2022 Propose the standard labor warranty for\nworkmanship.\n\u2022 Provide details on proposed implementation\nplan.",
+     "REJECTED",
+     "Electronic\nor\nHard Copy Format"
+    ]
+   ]
+  },
+  {
+   "source": "R2025115D.pdf",
+   "sheet": 12,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "UOM",
+    "Unit Price"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "Furnish all labor, equipment and materials to design,\nfurnish and install an industrial, high-security chain-link\nfence, one (1) split-gate sliding system, and three (3)\npedestrian gates at the Public Safety Building.",
+     "Lump Sum",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.7,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 894030,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-02T13:25:16.852124+00:00",
+ "extract_attempts": 1
+}

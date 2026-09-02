@@ -1,0 +1,99 @@
+{
+ "bid_id": "city-of-north-charleston-sc-nc-19-26-addendum-1",
+ "bid_number": "NC-19-26 Addendum 1",
+ "agency": "City of North Charleston, SC",
+ "src": "Invited",
+ "title": "Request For Proposals for Master Planning Services for the Development of Ingleside Preserve",
+ "close": "11/10/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "NC-19-26_ RFP for Master Planning Services for the Development of Ingleside Preserve.pdf",
+  "ADDENDUM 1_ NC-19-26.pdf",
+  "_Updated_ NC-19-26 _Solicitation Only_.pdf",
+  "Appendix A - Map _ Property Survey.pdf",
+  "Appendix B - Park Plat.pdf",
+  "Appendix C - Archaeology Ingleside Weber Site.pdf",
+  "Appendix D - National Register of Historic Places Multiple Property Documentation Form.pdf",
+  "Appendix E - Hayes-Ingleside Historical Booklet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "NC-19-26_ RFP for Master Planning Services for the Development of Ingleside Preserve.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 1_ NC-19-26.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "_Updated_ NC-19-26 _Solicitation Only_.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix A - Map _ Property Survey.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix B - Park Plat.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix C - Archaeology Ingleside Weber Site.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix D - National Register of Historic Places Multiple Property Documentation Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix E - Hayes-Ingleside Historical Booklet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 41.2,
+  "attachment_fetches": 8,
+  "attachment_seconds": 5.4,
+  "attachment_bytes": 52448745,
+  "max_fetch_seconds": 3.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-02T13:23:57.984262+00:00",
+ "extract_attempts": 1
+}

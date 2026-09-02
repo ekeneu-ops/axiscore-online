@@ -1,0 +1,82 @@
+{
+ "bid_id": "city-of-kirkwood-mo-14175-fy27",
+ "bid_number": "14175 - FY27",
+ "agency": "City of Kirkwood, MO",
+ "src": "Open",
+ "title": "Packer Floor & Component Replacement \u2013 Refuse Body",
+ "close": "9/8/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Please enter your lump sum bid on this line",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Please enter your lump sum bid on this line 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "14175 - Bid Proposal.docx",
+  "Terms and Conditions - Standard.pdf",
+  "Non-Collusive Affidavit.pdf",
+  "Employment of Unauthorized Aliens Affidavit.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "14175 - Bid Proposal.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Terms and Conditions - Standard.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusive Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Employment of Unauthorized Aliens Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.9,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 668297,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-02T13:27:42.223526+00:00",
+ "extract_attempts": 1
+}

@@ -4,7 +4,7 @@
  "agency": "Olmsted County, MN",
  "src": "Open",
  "title": "OCHRA Snow Removal",
- "close": "9/3/2026 09:00 AM (ET)",
+ "close": "9/7/2026 01:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -737,67 +737,67 @@
   }
  ],
  "attachments_saved": [
-  "5370-C1 _1_ _1_.pdf",
-  "Section 3 Conditions _2_ _1_.pdf",
-  "HRA ContractTermsandConditionsContractor508C_06042025 _2_.pdf",
-  "Properties 2024 _1_.pdf",
-  "2026 Snow Map.pdf",
-  "InsandBondForm.pdf",
-  "mn81 _1_.txt",
-  "2026 Snow Scope.pdf"
+  "0_5370-C1 _1_ _1_.pdf",
+  "1_Section 3 Conditions _2_ _1_.pdf",
+  "2_HRA ContractTermsandConditionsContractor508C_06042025 _2_.pdf",
+  "3_Properties 2024 _1_.pdf",
+  "4_2026 Snow Map.pdf",
+  "5_InsandBondForm.pdf",
+  "6_mn81 _1_.txt",
+  "7_2026 Snow Scope.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "5370-C1 _1_ _1_.pdf",
+   "name": "0_5370-C1 _1_ _1_.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "Section 3 Conditions _2_ _1_.pdf",
+   "name": "1_Section 3 Conditions _2_ _1_.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "HRA ContractTermsandConditionsContractor508C_06042025 _2_.pdf",
+   "name": "2_HRA ContractTermsandConditionsContractor508C_06042025 _2_.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "Properties 2024 _1_.pdf",
+   "name": "3_Properties 2024 _1_.pdf",
    "kind": "pdf",
    "tables": 7,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "2026 Snow Map.pdf",
+   "name": "4_2026 Snow Map.pdf",
    "kind": "pdf",
    "tables": 17,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "InsandBondForm.pdf",
+   "name": "5_InsandBondForm.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "mn81 _1_.txt",
+   "name": "6_mn81 _1_.txt",
    "kind": "csv",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "2026 Snow Scope.pdf",
+   "name": "7_2026 Snow Scope.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
@@ -809,14 +809,14 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 11.2,
+  "bid_seconds": 11.4,
   "attachment_fetches": 8,
-  "attachment_seconds": 1.1,
+  "attachment_seconds": 1.2,
   "attachment_bytes": 6180785,
-  "max_fetch_seconds": 0.27,
+  "max_fetch_seconds": 0.28,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-30T13:52:05.938078+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-09-02T13:24:56.407901+00:00",
+ "extract_attempts": 2
 }
