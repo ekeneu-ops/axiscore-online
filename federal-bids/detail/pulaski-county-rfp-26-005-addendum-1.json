@@ -1,0 +1,91 @@
+{
+ "bid_id": "pulaski-county-rfp-26-005-addendum-1",
+ "bid_number": "RFP-26-005 Addendum 1",
+ "agency": "Pulaski County",
+ "src": "Open",
+ "title": "RIVER PORT ROAD - PHASE II",
+ "close": "9/8/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Contractor or Vendor Disclosure Form.docx",
+  "CONTRACT INFORMATION.docx",
+  "TERMS AND STANDARD CONDITIONS RFP.docx",
+  "W-9 Blank 2024 form.pdf",
+  "River Port Road Phase 2 - Bid Set 07.20.2026 ConstructionPlans.pdf",
+  "24-569J River Port Road Phase 2 Specs_ContractDocs.pdf",
+  "Little Rock Port Arterial Road - Geotech Report.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Contractor or Vendor Disclosure Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "CONTRACT INFORMATION.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "TERMS AND STANDARD CONDITIONS RFP.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Blank 2024 form.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "River Port Road Phase 2 - Bid Set 07.20.2026 ConstructionPlans.pdf",
+   "kind": "pdf",
+   "tables": 67,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "24-569J River Port Road Phase 2 Specs_ContractDocs.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Little Rock Port Arterial Road - Geotech Report.pdf",
+   "kind": "pdf",
+   "tables": 64,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 27.5,
+  "attachment_fetches": 7,
+  "attachment_seconds": 1.6,
+  "attachment_bytes": 18226427,
+  "max_fetch_seconds": 0.68,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-04T13:14:06.285250+00:00",
+ "extract_attempts": 1
+}

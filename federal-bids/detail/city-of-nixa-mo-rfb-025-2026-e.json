@@ -1,0 +1,90 @@
+{
+ "bid_id": "city-of-nixa-mo-rfb-025-2026-e",
+ "bid_number": "RFB-025-2026/E",
+ "agency": "City of Nixa, MO",
+ "src": "Invited",
+ "title": "Wood Poles",
+ "close": "9/17/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Wood Pole- 30ft Class 3 Southern yellow pine, Penta treated, WQC Inspected, RUS Specifications, M20 Framing, delivered on self-loader with freight included in the cost of the pole. If quantity is lacking for full load, complete the load with these poles.",
+   "qty": "10",
+   "uom": "Cost per pole",
+   "note": "DCOI treated poles will be accepted.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Wood Pole- 30ft Class 3 Southern yellow pine, Penta treated, WQC Inspected, RUS Specifications, M20 Framing, delivered on self-loader with freight included in the cost of the pole. If quantity is lacking for full load, complete the load with these poles. 10 Cost per pole No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "Wood Pole- 40ft Class 1 Southern yellow pine, Penta treated, WQC Inspected, RUS Specifications, M20 Framing, delivered on self-loader with freight included in the cost of the pole.",
+   "qty": "31",
+   "uom": "Cost per pole",
+   "note": "DCOI treated poles will be accepted.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Wood Pole- 40ft Class 1 Southern yellow pine, Penta treated, WQC Inspected, RUS Specifications, M20 Framing, delivered on self-loader with freight included in the cost of the pole. 31 Cost per pole No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "3",
+   "desc": "Wood Pole- 45ft Class 1 Southern yellow pine, Penta treated, WQC Inspected, RUS Specifications, M20 Framing, delivered on self-loader with freight included in the cost of the pole.",
+   "qty": "8",
+   "uom": "Cost per pole",
+   "note": "DCOI treated poles will be accepted.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Wood Pole- 45ft Class 1 Southern yellow pine, Penta treated, WQC Inspected, RUS Specifications, M20 Framing, delivered on self-loader with freight included in the cost of the pole. 8 Cost per pole No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Affidavit of Business Entity.pdf",
+  "Terms and Conditions 2026.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Affidavit of Business Entity.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Terms and Conditions 2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.5,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 575299,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-04T13:16:37.321911+00:00",
+ "extract_attempts": 1
+}

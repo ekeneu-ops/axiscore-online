@@ -1,0 +1,150 @@
+{
+ "bid_id": "city-of-lincoln-ne-6746-addendum-1",
+ "bid_number": "6746 Addendum 1",
+ "agency": "City of Lincoln, NE",
+ "src": "Invited",
+ "title": "Thermal Ticket Rolls for Spitter Tickets",
+ "close": "9/11/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "White Thermal Paper Entry Rolls",
+   "qty": "350",
+   "uom": "Cases/6,200 tickets",
+   "note": "Terms and Conditions on back of paper rolls (per Attachment A with Attachment Section). 6,200 Tickets equals 1 case of 4 individual rolls",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 White Thermal Paper Entry Rolls 350 Cases/6,200 tickets No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "White Thermal Paper Entry Rolls",
+   "qty": "350",
+   "uom": "Cases/6,200 tickets",
+   "note": "Paper rolls will be blank. 6,200 Tickets equals 1 case of 4 individual rolls",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 White Thermal Paper Entry Rolls 350 Cases/6,200 tickets No Response"
+  }
+ ],
+ "attachments_saved": [
+  "6746 Specifications per Addendum 1.pdf",
+  "Ticket Roll Measurements - Per Addendum 1.pdf",
+  "T and C for Thermal Rolls.pdf",
+  "Example Ticket Roll.pdf",
+  "Amano-ONE-Entry-Station-No-CC.pdf",
+  "Amano-ONE-Exit-Station.pdf",
+  "Instructions to Bidders 11-2023.pdf",
+  "United States Citizenship Attestation Form.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+  "Contract - City Annual.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "6746 Specifications per Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Ticket Roll Measurements - Per Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "T and C for Thermal Rolls.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Example Ticket Roll.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Amano-ONE-Entry-Station-No-CC.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Amano-ONE-Exit-Station.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Annual.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.8,
+  "attachment_fetches": 11,
+  "attachment_seconds": 1.1,
+  "attachment_bytes": 8226793,
+  "max_fetch_seconds": 0.48,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-04T13:15:56.753331+00:00",
+ "extract_attempts": 1
+}

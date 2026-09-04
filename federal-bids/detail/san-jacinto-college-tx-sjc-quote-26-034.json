@@ -1,0 +1,186 @@
+{
+ "bid_id": "san-jacinto-college-tx-sjc-quote-26-034",
+ "bid_number": "SJC Quote 26-034",
+ "agency": "San Jacinto College, TX",
+ "src": "Open",
+ "title": "Armored Car Services",
+ "close": "9/8/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 9,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Line Item 1. Regular scheduled trip rate - per pickup/delivery, per location",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Line Item 1. Regular scheduled trip rate - per pickup/delivery, per location 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Line Item 2. Monthly service rate - per location, if applicable",
+   "qty": "1",
+   "uom": "Monthly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Line Item 2. Monthly service rate - per location, if applicable 1 Monthly No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Line Item 3. Additional or special pickup - per trip",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Line Item 3. Additional or special pickup - per trip 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Line Item 4. Holiday or after-hours pickup - per trip, if applicable",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Line Item 4. Holiday or after-hours pickup - per trip, if applicable 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Line Item 5. Wait-time charge - per minute after included service time, if applicable",
+   "qty": "1",
+   "uom": "Minute",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Line Item 5. Wait-time charge - per minute after included service time, if applicable 1 Minute No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Line Item 6. Excess item charge - per item, if applicable",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Line Item 6. Excess item charge - per item, if applicable 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Line Item 7. Fuel/security surcharge - per trip or percentage, if applicable",
+   "qty": "1",
+   "uom": "EA (if you change this to per trip)",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Line Item 7. Fuel/security surcharge - per trip or percentage, if applicable 1 EA (if you change this to per trip) No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Line Item 8. Additional insurance charge - per trip, if applicable",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Line Item 8. Additional insurance charge - per trip, if applicable 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Line Item 9. Additional location/stop \u2013 per additional stop, if applicable",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Line Item 9. Additional location/stop \u2013 per additional stop, if applicable 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "SJC Quote - 26-034 Armored Car Services.pdf",
+  "Quote Standard Terms _ Conditions 9.28.2017.pdf",
+  "SJCCD Insurance Requirements Rev 6.21.2024.pdf",
+  "AGMT - Letter of Agreement - 9.2025.docx",
+  "03 Conflict of Interest Form 7.2026.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "SJC Quote - 26-034 Armored Car Services.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Quote Standard Terms _ Conditions 9.28.2017.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SJCCD Insurance Requirements Rev 6.21.2024.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "AGMT - Letter of Agreement - 9.2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "03 Conflict of Interest Form 7.2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1294930,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-04T13:14:16.750150+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,118 @@
+{
+ "bid_id": "city-of-plano-tx-2026-0520-ac",
+ "bid_number": "2026-0520-AC",
+ "agency": "City of Plano, TX",
+ "src": "Invited",
+ "title": "Screened Topsoil and Mason Sand for Compost Facility",
+ "close": "9/28/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Screened Topsoil",
+   "qty": "2000",
+   "uom": "cubic yard",
+   "note": "Topsoil in accordance with specification. Price includes delivery F.O.B. Destination, freight prepaid and allowed. See specification for details.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Screened Topsoil 2000 cubic yard No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Mason Sand",
+   "qty": "7000",
+   "uom": "cubic yard",
+   "note": "Sand in accordance with specifications. Price includes delivery. F.O.B. Destination, freight prepaid and allowed. See specification for details.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Mason Sand 7000 cubic yard No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2026-0520-AC Topsoil and Sand_FINAL.pdf",
+  "General Terms and Conditions 3.16.2026.pdf",
+  "Work History Form - Fillable.pdf",
+  "Insurance Requirements.pdf",
+  "Vendor Supplemental Information _Updated 9.13.24_.pdf",
+  "Vendor Compliance to StateLaw.pdf",
+  "CIQ - Conflict of Interest Questionaire.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-0520-AC Topsoil and Sand_FINAL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Terms and Conditions 3.16.2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Work History Form - Fillable.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Supplemental Information _Updated 9.13.24_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Compliance to StateLaw.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ - Conflict of Interest Questionaire.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.1,
+  "attachment_fetches": 7,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 1849214,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-04T13:21:18.054805+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,138 @@
+{
+ "bid_id": "harris-county-department-of-education-tx-26-033lt-addendum-1",
+ "bid_number": "26/033LT Addendum 1",
+ "agency": "Harris County Department of Education, TX",
+ "src": "Invited",
+ "title": "Maintenance, Repair & Operations (MRO) Parts, Equipment and Related Services",
+ "close": "10/1/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Provide the percentage discount offered to Choice Partners members for all materials with established or fixed pricing, based on your catalog, publicly available URL pricing, or attached price list.",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "Enter the percentage discount offered off the applicable catalog, URL pricing, or price list. If discounts vary, enter the applicable discount or discount range and provide additional details in the \u201cAdd Notes\u201d box. Clearly identify any products, manufacturers, or product categories associated with different discount percentages. All materials with established or fixed pricing should be included under Line 2.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Provide the percentage discount offered to Choice Partners members for all materials with established or fixed pricing, based on your catalog, publicly available URL pricing, or attached price list. 1 Percentage No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Provide your cost-plus percentage/markup for materials that do not have established or fixed pricing and therefore cannot be priced using the percentage discount method in Line 2.",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "Clearly identify the products, manufacturers, product categories, or specific circumstances that require cost-plus pricing in Pricing List for MRO Parts / Equipment attachment. Line 4 should not be used for materials that have established catalog, URL, or price-list pricing and can be priced under Line 2. If elected, you must include an additional statement with pricing document. Please refer to the Cost-Plus Pricing attachment for additional instructions.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Provide your cost-plus percentage/markup for materials that do not have established or fixed pricing and therefore cannot be priced using the percentage discount method in Line 2. 1 Percentage No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Provide Hourly Rate for Related Services",
+   "qty": "",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Provide Hourly Rate for Related Services EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-033LT MRO Parts and Equipment.pdf",
+  "10.0 Complete Packet Fillable Version 7.23.2026.pdf",
+  "CP Cooperative Member July 2026.pdf",
+  "Section_10.0_Attachment_Guide_to_Completion_Checklist.pdf",
+  "Marketing_Narrative.pdf",
+  "Quality_Narrative.pdf",
+  "Cost-Plus Pricing.pdf",
+  "Execution Of Offer Fillable Version 1YR 7.23.2026.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-033LT MRO Parts and Equipment.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "10.0 Complete Packet Fillable Version 7.23.2026.pdf",
+   "kind": "pdf",
+   "tables": 22,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CP Cooperative Member July 2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Section_10.0_Attachment_Guide_to_Completion_Checklist.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Marketing_Narrative.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Quality_Narrative.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Cost-Plus Pricing.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Execution Of Offer Fillable Version 1YR 7.23.2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 51.6,
+  "attachment_fetches": 8,
+  "attachment_seconds": 1.7,
+  "attachment_bytes": 22389633,
+  "max_fetch_seconds": 0.9,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-04T13:22:49.533806+00:00",
+ "extract_attempts": 1
+}

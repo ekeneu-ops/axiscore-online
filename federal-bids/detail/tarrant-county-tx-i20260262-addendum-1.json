@@ -1,0 +1,90 @@
+{
+ "bid_id": "tarrant-county-tx-i20260262-addendum-1",
+ "bid_number": "I20260262 Addendum 1",
+ "agency": "Tarrant County, TX",
+ "src": "Open",
+ "title": "Annual Quote for Prescription Medications for Juvenile Services",
+ "close": "9/8/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Prescription fulfillment fee",
+   "qty": "1",
+   "uom": "Per Prescription",
+   "note": "Fixed, flat fee - includes standard delivery (within 24 hours of order)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Prescription fulfillment fee 1 Per Prescription No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Rush delivery fee - same business day (add-on fee)",
+   "qty": "1",
+   "uom": "Per Rush Delivery",
+   "note": "Fixed, flat fee for rush delivery prescriptions. Rush delivery must be requested by Tarrant County for fee to be applied; prescription must be delivered same day for fee to be applied.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Rush delivery fee - same business day (add-on fee) 1 Per Rush Delivery No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Medicaid fee (add on fee)",
+   "qty": "1",
+   "uom": "Per Medicaid Prescription",
+   "note": "Fixed, flat fee can be added to Medicaid prescriptions for administrative/handling costs.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Medicaid fee (add on fee) 1 Per Medicaid Prescription No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Medication Count - 12 month estimate - TC Juvenile Services.pdf",
+  "SOW - I20260262 - Prescription Medication for Juvenile Services.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Medication Count - 12 month estimate - TC Juvenile Services.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SOW - I20260262 - Prescription Medication for Juvenile Services.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.5,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 343327,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-04T13:15:07.721499+00:00",
+ "extract_attempts": 1
+}

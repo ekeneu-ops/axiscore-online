@@ -4,7 +4,7 @@
  "agency": "Edinburg ISD , TX",
  "src": "Open",
  "title": "SHEET MUSIC & RELATED ITEMS",
- "close": "8/26/2026 05:30 PM (ET)",
+ "close": "9/8/2026 05:30 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -16,27 +16,27 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
-  "CIQ Form.pdf",
-  "W9 _ Direct Deposit Form.pdf"
+  "0_UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
+  "1_CIQ Form.pdf",
+  "2_W9 _ Direct Deposit Form.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
+   "name": "0_UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "CIQ Form.pdf",
+   "name": "1_CIQ Form.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "W9 _ Direct Deposit Form.pdf",
+   "name": "2_W9 _ Direct Deposit Form.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
@@ -46,14 +46,14 @@
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 14.1,
+  "bid_seconds": 8.7,
   "attachment_fetches": 3,
-  "attachment_seconds": 2.9,
+  "attachment_seconds": 0.3,
   "attachment_bytes": 852495,
-  "max_fetch_seconds": 1.13,
+  "max_fetch_seconds": 0.14,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-22T08:34:38.503462+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-09-04T13:14:57.712779+00:00",
+ "extract_attempts": 2
 }
