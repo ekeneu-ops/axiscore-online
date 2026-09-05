@@ -1,0 +1,198 @@
+{
+ "bid_id": "city-of-college-station-itb-26-094-addendum-1",
+ "bid_number": "ITB #26-094 Addendum 1",
+ "agency": "City of College Station",
+ "src": "Open",
+ "title": "APA FOR ELE UG DIST PROJECTS",
+ "close": "9/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "26-094 APA ELECTRIC UNDERGROUND DISTRIBUTION PROJECTS.pdf",
+  "26-094 Unit Bid Pricing Sheet.xlsx",
+  "26-094 Addendum 1.pdf",
+  "Combined_Specbook_Dec2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-094 APA ELECTRIC UNDERGROUND DISTRIBUTION PROJECTS.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-094 Unit Bid Pricing Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-094 Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Combined_Specbook_Dec2025.pdf",
+   "kind": "pdf",
+   "tables": 64,
+   "note": "",
+   "candidates": 4
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Combined_Specbook_Dec2025.pdf",
+   "sheet": 46,
+   "header_row": 6,
+   "headers": [
+    "",
+    "",
+    "DRAWING:\nDUA1-1\nSingle Phase Riser Grounding Detail",
+    "",
+    "",
+    "SCALE:\nN.T.S.",
+    "",
+    "DATE:\nNOV 08, 2022",
+    "",
+    "UNIT NO:\nDUA1-1"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "DRAWN BY:\nTW",
+     "",
+     "REVISED BY:\n-",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Combined_Specbook_Dec2025.pdf",
+   "sheet": 48,
+   "header_row": 6,
+   "headers": [
+    "",
+    "",
+    "DRAWING:\nDUC1\nThree Phase Primary Riser\nSingle Conduit Grounding Detail",
+    "",
+    "",
+    "SCALE:\nN.T.S.",
+    "",
+    "DATE:\nNOV 08, 2022",
+    "",
+    "UNIT NO:\nDUC1"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "DRAWN BY:\nTW",
+     "",
+     "REVISED BY:\n-",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Combined_Specbook_Dec2025.pdf",
+   "sheet": 51,
+   "header_row": 7,
+   "headers": [
+    "",
+    "",
+    "DRAWING:\nDUC3-4\nThree Phase Primary Riser\n4\" Conduit Grounding Detail",
+    "",
+    "",
+    "SCALE:\nN.T.S.",
+    "",
+    "DATE:\nNOV 08, 20",
+    "UNIT NO:\n22\nDUC3-4"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "DRAWN BY:\nTW",
+     "",
+     "REVISED BY:\n-",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Combined_Specbook_Dec2025.pdf",
+   "sheet": 53,
+   "header_row": 4,
+   "headers": [
+    "",
+    "",
+    "DRAWING:\nDM9-XX\nOverhead Capacitor Bank Grounding Detail",
+    "",
+    "",
+    "SCALE:\nNot To Scale",
+    "",
+    "DATE:\nNOV 08, 2022",
+    "",
+    "UNIT NO:\nDM9-XX"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "DRAWN BY:\nYR",
+     "",
+     "REVISED BY:\n-",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.3,
+  "attachment_fetches": 4,
+  "attachment_seconds": 3.5,
+  "attachment_bytes": 39168994,
+  "max_fetch_seconds": 2.79,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-05T13:17:25.747583+00:00",
+ "extract_attempts": 1
+}

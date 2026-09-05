@@ -1,0 +1,113 @@
+{
+ "bid_id": "university-of-iowa-18640-addendum-1",
+ "bid_number": "18640 Addendum 1",
+ "agency": "University of Iowa",
+ "src": "Invited",
+ "title": "Fetal Monitoring and Data Archiving Solution for the Stead Family Children's Hospital",
+ "close": "9/16/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 53,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Standard Terms and Conditions 2026.06.30 FINAL.pdf",
+  "Fetal Monitoring Features and Functionalites.xlsx",
+  "UIHC HCIS IT Assessment.docx",
+  "Fetal Monitoring Desired Specifications.docx",
+  "RFI 18640 Answers to Supplier Questions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Standard Terms and Conditions 2026.06.30 FINAL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Fetal Monitoring Features and Functionalites.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "UIHC HCIS IT Assessment.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Fetal Monitoring Desired Specifications.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFI 18640 Answers to Supplier Questions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Fetal Monitoring Features and Functionalites.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Categories",
+    "Fetal Monitoring Features and Functionalities ",
+    "REQUIRED",
+    "OPTIONAL",
+    "Supplier Response: Please detail how Supplier's proposed products are able to provide each of the items listed in Column B if that line is marked as a REQUIRED in column C.            NOTE:  If the item is marked as OPTIONAL in column D, please provide information about how Supplier's proposed products are able to provide those functions/has the capability to provide the item listed per line, if capable of providing this. Additionally, some lines are just asking for specific information.  Please provide a response for ALL LINES . "
+   ],
+   "score": 2,
+   "n_rows": 53,
+   "sample": [
+    [
+     "Architecture",
+     "Describe in detail what Multi Factor Authentication (MFA) solutions the Supplier's proposed solution currently supports now.",
+     "X",
+     "",
+     ""
+    ],
+    [
+     "Architecture",
+     "Describe in detail the current authentication methods used for administration of Supplier's proposed solution.",
+     "X",
+     "",
+     ""
+    ],
+    [
+     "Architecture",
+     "Describe in detail what the current process is to create and present a portal that allows users to request and/or assign addresses with Supplier's proposed product. ",
+     "X",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 480399,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-05T13:26:15.703710+00:00",
+ "extract_attempts": 1
+}

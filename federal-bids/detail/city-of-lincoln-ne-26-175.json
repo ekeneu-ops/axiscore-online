@@ -1,0 +1,236 @@
+{
+ "bid_id": "city-of-lincoln-ne-26-175",
+ "bid_number": "26-175",
+ "agency": "City of Lincoln, NE",
+ "src": "Open",
+ "title": "2026 Safety Improvement Rectangular Rapid Flash Beacon (RRFB) Installation at Old Cheney & Tierra Williamsburg Trail Project No. 705631 (LTU - Eng. Services) REBID",
+ "close": "9/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:trail",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 22,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Total Lump Sum of Bid",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Fill out the itemized Excel spreadsheet attached below. Attach completed spreadsheet on the 'Response Attachments' of your response.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Total Lump Sum of Bid 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-175 Bid Items List.xlsx",
+  "705631Plan.pdf",
+  "705631 Special Provisions Revised.pdf",
+  "26-175 Contractual Insurance Determination.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "Empl_Class_Act_EO.pdf",
+  "Empl_Class_Act_Aff.pdf",
+  "Instructions to Bidders 11-2023.pdf",
+  "Contract - City Const _LTU Engineering_.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-175 Bid Items List.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "705631Plan.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "705631 Special Provisions Revised.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-175 Contractual Insurance Determination.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_EO.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_Aff.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Const _LTU Engineering_.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "26-175 Bid Items List.xlsx",
+   "sheet": 0,
+   "header_row": 3,
+   "headers": [
+    "Line No.",
+    "Pay Item No.",
+    "Description",
+    "Quantity",
+    "Unit",
+    "UnitPrice",
+    "Amount",
+    "AlternateCode"
+   ],
+   "score": 3,
+   "n_rows": 22,
+   "sample": [
+    [
+     "1",
+     "01.00001",
+     "Mobilization",
+     "1",
+     "LS",
+     "0",
+     "0",
+     "Base Bid"
+    ],
+    [
+     "2",
+     "01.01001",
+     "Const Staking",
+     "1",
+     "LS",
+     "0",
+     "0",
+     "Base Bid"
+    ],
+    [
+     "3",
+     "01.04001",
+     "Pavt & Sidewalk Rem",
+     "39",
+     "CY",
+     "0",
+     "0",
+     "Base Bid"
+    ]
+   ]
+  },
+  {
+   "source": "Contract - City Const _LTU Engineering_.pdf",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Execution Date or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond [Amount]\nA t\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 16\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this Performance Bond,\ndo each cause this Performance Bond to be duly executed by an authorized officer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Contract - City Const _LTU Engineering_.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Upon Execution or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 18\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in\nthis Payment Bond, do each cause this Payment Bond to be duly executed by an authorized\nofficer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.8,
+  "attachment_fetches": 11,
+  "attachment_seconds": 1.1,
+  "attachment_bytes": 10029279,
+  "max_fetch_seconds": 0.35,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-05T13:16:03.738653+00:00",
+ "extract_attempts": 1
+}

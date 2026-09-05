@@ -1,0 +1,318 @@
+{
+ "bid_id": "university-of-minnesota-02-401-23-2181a-addendum-2",
+ "bid_number": "02-401-23-2181A Addendum 2",
+ "agency": "University of Minnesota",
+ "src": "Open",
+ "title": "St. Paul Campus Center Abatement",
+ "close": "9/9/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 8,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP - SPCC Abatement.docx",
+  "RFx Instructions and Requirements - V11.pdf",
+  "PWR.zip",
+  "SPCC Abatement Specification for RFP 8.18.26.pdf",
+  "Addendum1.zip",
+  "Addendum _ 2.zip"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP - SPCC Abatement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "RFx Instructions and Requirements - V11.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "PWR.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SPCC Abatement Specification for RFP 8.18.26.pdf",
+   "kind": "pdf",
+   "tables": 25,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "Addendum1.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum _ 2.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "SPCC Abatement Specification for RFP 8.18.26.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "",
+    "Asbestos Co\nIdentification",
+    "",
+    "",
+    "aining Ma\nDesrciption",
+    "",
+    "",
+    "",
+    "",
+    "LM an\nQuantity",
+    "",
+    "",
+    "ysis) incl\n(SF, LF, EA)",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "Blue Fire Caulk",
+     "",
+     "",
+     "Blue",
+     "",
+     "",
+     "Basement",
+     "B15",
+     "5",
+     "",
+     "",
+     "SF",
+     "",
+     "",
+     "Non-damaged",
+     "Non-Friable"
+    ],
+    [
+     "Gray Duct\nSealant",
+     "",
+     "",
+     "Gray",
+     "",
+     "",
+     "Floor 2,\nFloor 3",
+     "235\n310",
+     "150",
+     "",
+     "",
+     "SF",
+     "",
+     "",
+     "Non-damaged",
+     "Non-Friable"
+    ],
+    [
+     "Canvas Wrapped\nAir Handler\nInsulation",
+     "",
+     "",
+     "White/Gray",
+     "",
+     "",
+     "Floor 3",
+     "310",
+     "750",
+     "",
+     "",
+     "SF",
+     "",
+     "",
+     "Non-Damaged",
+     "Friable"
+    ]
+   ]
+  },
+  {
+   "source": "SPCC Abatement Specification for RFP 8.18.26.pdf",
+   "sheet": 6,
+   "header_row": 1,
+   "headers": [
+    "",
+    "",
+    "Desrciption",
+    "",
+    "",
+    "",
+    "",
+    "Quantity",
+    "",
+    "",
+    "(SF, LF, EA)",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Cork Ceiling Panel Adhesive",
+     "Brown",
+     "",
+     "",
+     "Basement,\nGround Floor,\nFloor 1,\nFloor 2",
+     "Ceilings",
+     "13,175",
+     "",
+     "",
+     "SF",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "SPCC Abatement Specification for RFP 8.18.26.pdf",
+   "sheet": 8,
+   "header_row": 1,
+   "headers": [
+    "",
+    "Asbestos Co\nIdentification",
+    "",
+    "",
+    "aining Ma\nDesrciption",
+    "",
+    "",
+    "",
+    "",
+    "LM an\nQuantity",
+    "",
+    "",
+    "sis) incl\n(SF, LF, EA)",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "Blue Fire Caulk",
+     "",
+     "",
+     "Blue",
+     "",
+     "",
+     "Basement",
+     "B15",
+     "5",
+     "",
+     "",
+     "SF",
+     "",
+     "",
+     "Non-damaged",
+     "Non-Friable"
+    ],
+    [
+     "Gray Duct\nSealant",
+     "",
+     "",
+     "Gray",
+     "",
+     "",
+     "Floor 2,\nFloor 3",
+     "235\n310",
+     "150",
+     "",
+     "",
+     "SF",
+     "",
+     "",
+     "Non-damaged",
+     "Non-Friable"
+    ],
+    [
+     "Canvas Wrapped\nAir Handler\nInsulation",
+     "",
+     "",
+     "White/Gray",
+     "",
+     "",
+     "Floor 3",
+     "310",
+     "750",
+     "",
+     "",
+     "SF",
+     "",
+     "",
+     "Non-Damaged",
+     "Friable"
+    ]
+   ]
+  },
+  {
+   "source": "SPCC Abatement Specification for RFP 8.18.26.pdf",
+   "sheet": 11,
+   "header_row": 1,
+   "headers": [
+    "",
+    "",
+    "Desrciption",
+    "",
+    "",
+    "",
+    "",
+    "Quantity",
+    "",
+    "",
+    "(SF, LF, EA)",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Cork Ceiling Panel Adhesive",
+     "Brown",
+     "",
+     "",
+     "Basement,\nGround Floor,\nFloor 1,\nFloor 2",
+     "Ceilings",
+     "13,175",
+     "",
+     "",
+     "SF",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.7,
+  "attachment_fetches": 6,
+  "attachment_seconds": 2.1,
+  "attachment_bytes": 29691690,
+  "max_fetch_seconds": 1.45,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-05T13:15:03.465449+00:00",
+ "extract_attempts": 1
+}

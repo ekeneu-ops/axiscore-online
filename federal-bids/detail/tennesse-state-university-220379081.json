@@ -1,0 +1,49 @@
+{
+ "bid_id": "tennesse-state-university-220379081",
+ "bid_number": "220379081",
+ "agency": "Tennesse State University",
+ "src": "Open",
+ "title": "Scientific Equipment",
+ "close": "9/8/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "SMART CHAMBER",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 SMART CHAMBER 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 5.5,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-05T13:13:06.443950+00:00",
+ "extract_attempts": 1
+}

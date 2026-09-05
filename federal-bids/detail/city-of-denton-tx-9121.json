@@ -4,7 +4,7 @@
  "agency": "City of Denton, TX",
  "src": "Open",
  "title": "Apprenticeship Training",
- "close": "8/26/2026 03:00 PM (ET)",
+ "close": "9/9/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "demoted:svc:training",
@@ -425,59 +425,59 @@
   }
  ],
  "attachments_saved": [
-  "9121 Sample Contract.pdf",
-  "9121 SOW.pdf",
-  "9121 Insurance Requirements.pdf",
-  "9121 Class Sheet.xlsx",
-  "Conflict_of_Interest_Questionaire.docx",
-  "Safety_Record.docx",
-  "Contractor Wage Information.docx"
+  "0_9121 Sample Contract.pdf",
+  "1_9121 SOW.pdf",
+  "2_9121 Insurance Requirements.pdf",
+  "3_9121 Class Sheet.xlsx",
+  "4_Conflict_of_Interest_Questionaire.docx",
+  "5_Safety_Record.docx",
+  "6_Contractor Wage Information.docx"
  ],
  "parsed_docs": [
   {
-   "name": "9121 Sample Contract.pdf",
+   "name": "0_9121 Sample Contract.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "9121 SOW.pdf",
+   "name": "1_9121 SOW.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "9121 Insurance Requirements.pdf",
+   "name": "2_9121 Insurance Requirements.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "9121 Class Sheet.xlsx",
+   "name": "3_9121 Class Sheet.xlsx",
    "kind": "xlsx",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Conflict_of_Interest_Questionaire.docx",
+   "name": "4_Conflict_of_Interest_Questionaire.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "Safety_Record.docx",
+   "name": "5_Safety_Record.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "Contractor Wage Information.docx",
+   "name": "6_Contractor Wage Information.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
@@ -489,19 +489,14 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 18.5,
+  "bid_seconds": 10.5,
   "attachment_fetches": 7,
-  "attachment_seconds": 5.9,
+  "attachment_seconds": 0.5,
   "attachment_bytes": 1476926,
-  "max_fetch_seconds": 1.97,
+  "max_fetch_seconds": 0.1,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-22T08:24:55.543881+00:00",
- "extract_attempts": 1,
- "lines_total": 34,
- "lines_matched": 0,
- "coverage_pct": 0.0,
- "coverage_basis": "line_count",
- "evidence_path": "fb_records/city-of-denton-tx-9121/coverage.json"
+ "captured_at": "2026-09-05T13:16:47.872142+00:00",
+ "extract_attempts": 2
 }

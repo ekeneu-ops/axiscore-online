@@ -1,0 +1,170 @@
+{
+ "bid_id": "city-of-laredo-tx-ifb-2026-075",
+ "bid_number": "IFB-2026-075",
+ "agency": "City of Laredo, TX",
+ "src": "Open",
+ "title": "Laredo Police Department - Uniform Laundry Services and Non-Uniform Dry Cleaning Services",
+ "close": "9/9/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:uniform",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 9,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "PRICING (Laundry Services) The quantity is estimate only. Shirts - 35,000 (Pricing Per Shirt)",
+   "qty": "35000",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 PRICING (Laundry Services) The quantity is estimate only. Shirts - 35,000 (Pricing Per Shirt) 35000 each No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "PRICING (Laundry Services) The quantity is estimate only. Pants - 35,000 (Pricing Per Pant)",
+   "qty": "35000",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 PRICING (Laundry Services) The quantity is estimate only. Pants - 35,000 (Pricing Per Pant) 35000 each No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "PRICING (Laundry Services) The quantity is estimate only. Jacket- 500 (Pricing Per Jacket)",
+   "qty": "500",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 PRICING (Laundry Services) The quantity is estimate only. Jacket- 500 (Pricing Per Jacket) 500 each No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "PRICING (Laundry Services) The quantity is estimate only. Tactical shirts - 2,000 (Pricing Per Shirt)",
+   "qty": "2000",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 PRICING (Laundry Services) The quantity is estimate only. Tactical shirts - 2,000 (Pricing Per Shirt) 2000 each No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "PRICING (Laundry Services) The quantity is estimate only. Tactical Pants - 2,000 (Pricing Per Pant)",
+   "qty": "2000",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 PRICING (Laundry Services) The quantity is estimate only. Tactical Pants - 2,000 (Pricing Per Pant) 2000 each No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "1.6",
+   "desc": "PRICING (Laundry Services) The quantity is estimate only. Coveralls - 500 (Pricing Per Coverall)",
+   "qty": "500",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.6 PRICING (Laundry Services) The quantity is estimate only. Coveralls - 500 (Pricing Per Coverall) 500 each No Response"
+  },
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "PRICING (Dry Cleaning Services) The quantity is estimate only. Shirts (Pricing Per Shirt)",
+   "qty": "750",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 PRICING (Dry Cleaning Services) The quantity is estimate only. Shirts (Pricing Per Shirt) 750 each No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "PRICING (Dry Cleaning Services) The quantity is estimate only. Pants (Pricing Per Pants)",
+   "qty": "750",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 PRICING (Dry Cleaning Services) The quantity is estimate only. Pants (Pricing Per Pants) 750 each No Response"
+  },
+  {
+   "ctl": "ucPackageLine13",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "PRICING (Dry Cleaning Services) The quantity is estimate only. Uniform Vests (Pricing Per vest)",
+   "qty": "500",
+   "uom": "each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 PRICING (Dry Cleaning Services) The quantity is estimate only. Uniform Vests (Pricing Per vest) 500 each No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf",
+  "Non-Collusive Affidavit Form.pdf",
+  "Form 1295- Certificate of Interested Parties.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusive Affidavit Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Form 1295- Certificate of Interested Parties.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 182810,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-05T13:23:30.786104+00:00",
+ "extract_attempts": 1
+}
