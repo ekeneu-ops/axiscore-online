@@ -1,0 +1,206 @@
+{
+ "bid_id": "abilene-isd-tx-003-26-27",
+ "bid_number": "003, 26-27",
+ "agency": "Abilene ISD, TX",
+ "src": "Open",
+ "title": "Grease Traps Cleaning & Related Services",
+ "close": "9/10/2026 11:30 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 10,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 10,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Grease Traps Waste Haul and Disposal per gallon",
+   "qty": "1",
+   "uom": "EA",
+   "note": "If you prefer to submit a range in pricing, please enter in Add Notes below",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Grease Traps Waste Haul and Disposal per gallon 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Minimum Fee for Grease Traps Waste Haul and Disposal",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Service Fee for doing the service, if required and not already in price per gallon.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Minimum Fee for Grease Traps Waste Haul and Disposal 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Vent Hood Cleaning",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter price per gallon or per hour and indicate which applies when submitting price.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Vent Hood Cleaning 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Inspection Changes",
+   "qty": "1",
+   "uom": "EA",
+   "note": "The fee should be by either the full day or half day. Please indicate when submitting price",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Inspection Changes 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Barrel Grease Removal - Including any area spill clean up",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter price per barrel",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Barrel Grease Removal - Including any area spill clean up 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Emergency Services - After Hours Monday through Friday",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Fee for emergency services during the week, outside of regular business hours.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Emergency Services - After Hours Monday through Friday 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Emergency Services - Weekends",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Fee for weekend emergency services",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Emergency Services - Weekends 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Line Jetting",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Fee per the service",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Line Jetting 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Additional fee if tank is more than 100 feet from truck",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Additional fee if tank is more than 100 feet from truck 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Fee if service cannot be performed upon arrival to job site",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Non-Serviceable Fee",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Fee if service cannot be performed upon arrival to job site 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions for Standard RFPs 9-1-2025A.pdf",
+  "W-9_001 _1_.pdf",
+  "Conflict of Interest Disclosure Statement_002.pdf",
+  "Conflict of Interest Form _CIQ__001.pdf",
+  "Service Provider Forms.pdf",
+  "Tariff Information _6_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions for Standard RFPs 9-1-2025A.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9_001 _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Disclosure Statement_002.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Form _CIQ__001.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Service Provider Forms.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Tariff Information _6_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.1,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 9082006,
+  "max_fetch_seconds": 0.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-06T13:13:30.842345+00:00",
+ "extract_attempts": 1
+}

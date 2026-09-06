@@ -1,0 +1,126 @@
+{
+ "bid_id": "iowa-state-university-rfq-1001473",
+ "bid_number": "RFQ-1001473",
+ "agency": "Iowa State University",
+ "src": "Open",
+ "title": "Regent Identity Verification Solution",
+ "close": "9/10/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 6,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Annual Software System Subscription Cost - Iowa State University (ISU)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This must include any and all annual costs for all software proposed for this solution for one-year. A detailed breakdown of all pricing is required under the \"Response Attachments\" tab.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Annual Software System Subscription Cost - Iowa State University (ISU) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Annual Software System Subscription Cost -State University of Iowa (SUI)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This must include any and all annual costs for all software proposed for this solution for one-year. A detailed breakdown of all pricing is required under the \"Response Attachments\" tab.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Annual Software System Subscription Cost -State University of Iowa (SUI) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Annual Software System Subscription Cost -University of Northern Iowa (UNI)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "This must include any and all annual costs for all software proposed for this solution for one-year. A detailed breakdown of all pricing is required under the \"Response Attachments\" tab.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Annual Software System Subscription Cost -University of Northern Iowa (UNI) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "One-time Cost for Implementation and Training - Iowa State University (ISU)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Any additional one-time costs such as data migration services should be included in your detailed quote under the \"Response Attachments\" tab.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 One-time Cost for Implementation and Training - Iowa State University (ISU) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "One-time Cost for Implementation and Training -State University of Iowa (SUI)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Any additional one-time costs such as data migration services should be included in your detailed quote under the \"Response Attachments\" tab.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 One-time Cost for Implementation and Training -State University of Iowa (SUI) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "One-time Cost for Implementation and Training -University of Northern Iowa (UNI)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Any additional one-time costs such as data migration services should be included in your detailed quote under the \"Response Attachments\" tab.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 One-time Cost for Implementation and Training -University of Northern Iowa (UNI) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Regent Universities Terms and Conditions_March 2025.pdf",
+  "RFQ-1001473 Features and Functionality Questionnaire.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Regent Universities Terms and Conditions_March 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ-1001473 Features and Functionality Questionnaire.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.4,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 252566,
+  "max_fetch_seconds": 0.07,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-06T13:23:17.266670+00:00",
+ "extract_attempts": 1
+}

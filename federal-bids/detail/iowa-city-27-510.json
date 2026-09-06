@@ -1,0 +1,82 @@
+{
+ "bid_id": "iowa-city-27-510",
+ "bid_number": "27-510",
+ "agency": "Iowa City",
+ "src": "Open",
+ "title": "Crew Cab and Chassis 4X2 Truck",
+ "close": "9/10/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Price of 13,000 lbs. GVWR Crew Cab and Chassis 4x2 Truck",
+   "qty": "1",
+   "uom": "EA",
+   "note": "All delivery charges must be included in price.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Price of 13,000 lbs. GVWR Crew Cab and Chassis 4x2 Truck 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "A - Gen Req and Inst Bids Rev Aug 2026.pdf",
+  "B - Gen Terms and Cond 7.6.2026.pdf",
+  "C - Wage Theft Policy Rev 03-2020.pdf",
+  "D - Contract Compliance Doc Rev June 2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "A - Gen Req and Inst Bids Rev Aug 2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B - Gen Terms and Cond 7.6.2026.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "C - Wage Theft Policy Rev 03-2020.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "D - Contract Compliance Doc Rev June 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.4,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 1260550,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-06T13:26:00.241722+00:00",
+ "extract_attempts": 1
+}

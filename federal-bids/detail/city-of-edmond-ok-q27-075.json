@@ -1,0 +1,61 @@
+{
+ "bid_id": "city-of-edmond-ok-q27-075",
+ "bid_number": "Q27-075",
+ "agency": "City of Edmond, OK",
+ "src": "Open",
+ "title": "Print Farmer's Market Banners",
+ "close": "9/10/2026 10:15 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:banner",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Project: Winter Farmers Market Banners Quantity: 4 (Double-Sided) Size: 8 ft. x 3.5 ft. Material: 13oz Vinyl Banner (Solid vinyl, not mesh) Suitable for outdoor use Material Color: White Imprint color(s): 4/4 CMYK Bleeds: Yes Grommets on all corners and sides; seal the edges",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "All 4 banners will have the same artwork and the same artwork on the front and back. Please include Wind Slits. Delivery within 3 weeks (15 business days) of delivery of artwork to awarded vendor.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Project: Winter Farmers Market Banners Quantity: 4 (Double-Sided) Size: 8 ft. x 3.5 ft. Material: 13oz Vinyl Banner (Solid vinyl, not mesh) Suitable for outdoor use Material Color: White Imprint color(s): 4/4 CMYK Bleeds: Yes Grommets on all corners and sides; seal the edges 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Project: Wednesday Farmers Market Banners Quantity: 4 (Double-Sided) Size: 8 ft. x 3.5 ft. Material: 13oz Vinyl Banner (Solid vinyl, not mesh) Suitable for outdoor use Material Color: White Imprint color(s): 4/4 CMYK Bleeds: Yes Grommets on all corners and sides; seal the edges",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "All 4 banners will have the same artwork and the same artwork on the front and back. Please include Wind Slits. Delivery within 3 weeks (15 business days) of delivery of artwork to awarded vendor.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Project: Wednesday Farmers Market Banners Quantity: 4 (Double-Sided) Size: 8 ft. x 3.5 ft. Material: 13oz Vinyl Banner (Solid vinyl, not mesh) Suitable for outdoor use Material Color: White Imprint color(s): 4/4 CMYK Bleeds: Yes Grommets on all corners and sides; seal the edges 1 Lot No Response"
+  }
+ ],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 5.6,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-06T13:13:10.878562+00:00",
+ "extract_attempts": 1
+}
