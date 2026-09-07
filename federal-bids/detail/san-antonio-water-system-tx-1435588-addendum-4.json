@@ -1,0 +1,118 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1435588-addendum-4",
+ "bid_number": "1435588 Addendum 4",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "NORD GEAR BOX AND SCREW CONVEYOR",
+ "close": "9/11/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "100090489 DRIVE UNIT NORD GEAR Product Name Clincher\u2122 Shaft Mount Gearbox NORD Model Type SK4382AZH 180TC1 Ratio 66.75 Mounting Position M1 Lubricant VG220-MIN-EP SHIPPING MUST BE INCLUDED IN PRICING",
+   "qty": "2",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. 100090489 DRIVE UNIT NORD GEAR Product Name Clincher\u2122 Shaft Mount Gearbox NORD Model Type SK4382AZH 180TC1 Ratio 66.75 Mounting Position M1 Lubricant VG220-MIN-EP SHIPPING MUST BE INCLUDED IN PRICING 2 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "SCREW CONVEYOR 50 FT AUGER WESTECH P/N 100090490 SPIRAL Reference images provided in bid attachments. SHIPPING MUST BE INCLUDED IN PRICING",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 This item has been changed as part of an addendum. See 'Bid History' for details. SCREW CONVEYOR 50 FT AUGER WESTECH P/N 100090490 SPIRAL Reference images provided in bid attachments. SHIPPING MUST BE INCLUDED IN PRICING 1 EACH No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+  "Gear Box Name Plate Images.pdf",
+  "Screw Conveyor Images.pdf",
+  "1435588 Addendum 1.pdf",
+  "1435588 Addendum 2.pdf",
+  "1435588 Addendum 3.pdf",
+  "Addendum 4 Screw Conveyor Technical Specs.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Gear Box Name Plate Images.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Screw Conveyor Images.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "1435588 Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "1435588 Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "1435588 Addendum 3.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 4 Screw Conveyor Technical Specs.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.0,
+  "attachment_fetches": 7,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 15771725,
+  "max_fetch_seconds": 0.73,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-07T13:17:12.707332+00:00",
+ "extract_attempts": 1
+}

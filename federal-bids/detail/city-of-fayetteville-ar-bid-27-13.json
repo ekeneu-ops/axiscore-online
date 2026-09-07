@@ -1,0 +1,118 @@
+{
+ "bid_id": "city-of-fayetteville-ar-bid-27-13",
+ "bid_number": "Bid 27-13",
+ "agency": "City of Fayetteville, AR",
+ "src": "Invited",
+ "title": "Sod",
+ "close": "9/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 6,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "TIF Bermuda Sod - Delivered",
+   "qty": "25000",
+   "uom": "Sq Ft",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 TIF Bermuda Sod - Delivered 25000 Sq Ft No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "TIF Bermuda Sod - Delivered and Installed",
+   "qty": "25000",
+   "uom": "Sq Ft",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 TIF Bermuda Sod - Delivered and Installed 25000 Sq Ft No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "TIF Bermuda Sod - Delivered, Installed, and Turf Reinforcement Netting Removed",
+   "qty": "50000",
+   "uom": "Sq Ft",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 TIF Bermuda Sod - Delivered, Installed, and Turf Reinforcement Netting Removed 50000 Sq Ft No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Tall Fescue Sod - Delivered",
+   "qty": "10000",
+   "uom": "Sq Ft",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Tall Fescue Sod - Delivered 10000 Sq Ft No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Tall Fescue Sod - Delivered and Installed",
+   "qty": "10000",
+   "uom": "Sq Ft",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Tall Fescue Sod - Delivered and Installed 10000 Sq Ft No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Hydro-Seeding - Delivered and Installed",
+   "qty": "15000",
+   "uom": "Sq Ft",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Hydro-Seeding - Delivered and Installed 15000 Sq Ft No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bid 27-13_ Bid Form - Final.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid 27-13_ Bid Form - Final.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.5,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 1542944,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-07T13:25:16.046584+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,102 @@
+{
+ "bid_id": "la-joya-isd-tx-2027-10",
+ "bid_number": "2027-10",
+ "agency": "La Joya ISD, TX",
+ "src": "Open",
+ "title": "Fire Alarm Monitoring",
+ "close": "9/11/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "District-Wide Cellular Fire Alarm Communicator Upgrade \u2013 Furnish and install current-generation cellular fire alarm communication equipment for District fire alarm panels. Unit pricing shall be per fire alarm panel and shall include all equipment, materials, labor, installation, programming, configuration, activation, testing, and related services necessary to provide a complete and operational cellular communication system. The District anticipates approximately sixty (60) fire alarm panels; however, the quantity provided is an estimate only and does not constitute a guarantee or commitment by the District to purchase a specific quantity.",
+   "qty": "60",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 District-Wide Cellular Fire Alarm Communicator Upgrade \u2013 Furnish and install current-generation cellular fire alarm communication equipment for District fire alarm panels. Unit pricing shall be per fire alarm panel and shall include all equipment, materials, labor, installation, programming, configuration, activation, testing, and related services necessary to provide a complete and operational cellular communication system. The District anticipates approximately sixty (60) fire alarm panels; however, the quantity provided is an estimate only and does not constitute a guarantee or commitment by the District to purchase a specific quantity. 60 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "District-Wide 24/7 Fire Alarm Monitoring Services \u2013 Provide annual 24-hour, seven-day-per-week (24/7) fire alarm monitoring services. Unit price shall represent the annual monitoring cost per fire alarm panel/system and shall include all cellular data/service fees, monitoring fees, required notifications, and associated costs necessary to provide continuous monitoring. The District anticipates approximately sixty (60) fire alarm panels/systems; however, quantities are estimated and may increase or decrease based on actual District needs.",
+   "qty": "60",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 District-Wide 24/7 Fire Alarm Monitoring Services \u2013 Provide annual 24-hour, seven-day-per-week (24/7) fire alarm monitoring services. Unit price shall represent the annual monitoring cost per fire alarm panel/system and shall include all cellular data/service fees, monitoring fees, required notifications, and associated costs necessary to provide continuous monitoring. The District anticipates approximately sixty (60) fire alarm panels/systems; however, quantities are estimated and may increase or decrease based on actual District needs. 60 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2027-10 Special Terms _ Conditions Fire Alarm Monitoring.pdf",
+  "Bid-Proposal Terms  Conditions.pdf",
+  "Certification and Provisions.pdf",
+  "CAA_LOCAL_ Code of Silence Excerpt.pdf",
+  "Evaluation Matrix Standard May12-2021.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027-10 Special Terms _ Conditions Fire Alarm Monitoring.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid-Proposal Terms  Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certification and Provisions.pdf",
+   "kind": "pdf",
+   "tables": 30,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CAA_LOCAL_ Code of Silence Excerpt.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Evaluation Matrix Standard May12-2021.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1125463,
+  "max_fetch_seconds": 0.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-07T13:17:51.937056+00:00",
+ "extract_attempts": 1
+}

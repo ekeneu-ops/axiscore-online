@@ -1,0 +1,49 @@
+{
+ "bid_id": "pulaski-county-itb-26-f-001",
+ "bid_number": "ITB 26-F-001",
+ "agency": "Pulaski County",
+ "src": "Open",
+ "title": "SALE OF PROPERTY - PARCEL 34L-291.00-033.00",
+ "close": "9/11/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Bid Price Parcel # 34L-291.00-033.00 Legal Description: PT SE NE BG NE CR S89* W617' S243 8' S89* W158 6' TO A PT 12 5' FROM C RR SP SE PAR TO & 12 5' FROM C SP 347 17' TO C MOP SP TR E AL C MOP SP TR 558.5' N ON ELN NE TO BG C/O 33759 17 1N 12",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Bid Price Parcel # 34L-291.00-033.00 Legal Description: PT SE NE BG NE CR S89* W617' S243 8' S89* W158 6' TO A PT 12 5' FROM C RR SP SE PAR TO & 12 5' FROM C SP 347 17' TO C MOP SP TR E AL C MOP SP TR 558.5' N ON ELN NE TO BG C/O 33759 17 1N 12 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 5.4,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-07T13:14:15.739018+00:00",
+ "extract_attempts": 1
+}

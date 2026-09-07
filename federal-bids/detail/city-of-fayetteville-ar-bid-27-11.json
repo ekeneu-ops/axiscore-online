@@ -1,0 +1,70 @@
+{
+ "bid_id": "city-of-fayetteville-ar-bid-27-11",
+ "bid_number": "Bid 27-11",
+ "agency": "City of Fayetteville, AR",
+ "src": "Invited",
+ "title": "Truck Hauling Services",
+ "close": "9/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Truck Hauling Services - Asphalt Hauling: Hot mix asphalt from plant to paver. Truck bed shall be clean and free of contaminates. No trailer hitches protruding past rear tires. BIDDER SHALL BE WILLING TO HAUL ASPHALT.",
+   "qty": "3000",
+   "uom": "Hours",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Truck Hauling Services - Asphalt Hauling: Hot mix asphalt from plant to paver. Truck bed shall be clean and free of contaminates. No trailer hitches protruding past rear tires. BIDDER SHALL BE WILLING TO HAUL ASPHALT. 3000 Hours No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Truck Hauling Services - Miscellaneous Hauling: Excavation/construction debris which may include rock, dirt, chunks of concrete, etc. EXCLUDES ASPHALT.",
+   "qty": "500",
+   "uom": "Hours",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Truck Hauling Services - Miscellaneous Hauling: Excavation/construction debris which may include rock, dirt, chunks of concrete, etc. EXCLUDES ASPHALT. 500 Hours No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bid 27-11_ Bid Form - Final.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid 27-11_ Bid Form - Final.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 14.2,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 1266444,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-07T13:24:48.343564+00:00",
+ "extract_attempts": 1
+}

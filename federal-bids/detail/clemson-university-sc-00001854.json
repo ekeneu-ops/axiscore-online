@@ -4,7 +4,7 @@
  "agency": "Clemson University, SC",
  "src": "Open",
  "title": "Fitness Equipment for Campus Recreation",
- "close": "9/4/2026 02:00 PM (ET)",
+ "close": "9/11/2026 02:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -29,51 +29,51 @@
   }
  ],
  "attachments_saved": [
-  "00001854_Embedded_Appendix_A.xlsx",
-  "00001854_Embedded_Appendix_B.xlsx",
-  "00001854 SOW Fitness Equipment Contract 2026.pdf",
-  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
-  "IMPORTANT TAX NOTICE.doc",
-  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+  "0_00001854_Embedded_Appendix_A.xlsx",
+  "1_00001854_Embedded_Appendix_B.xlsx",
+  "2_00001854 SOW Fitness Equipment Contract 2026.pdf",
+  "3_Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "4_IMPORTANT TAX NOTICE.doc",
+  "5_Purchase Terms and Conditions  Rev E - effective 12124.docx"
  ],
  "parsed_docs": [
   {
-   "name": "00001854_Embedded_Appendix_A.xlsx",
+   "name": "0_00001854_Embedded_Appendix_A.xlsx",
    "kind": "xlsx",
    "tables": 2,
    "note": "",
    "candidates": 2
   },
   {
-   "name": "00001854_Embedded_Appendix_B.xlsx",
+   "name": "1_00001854_Embedded_Appendix_B.xlsx",
    "kind": "xlsx",
    "tables": 1,
    "note": "",
    "candidates": 1
   },
   {
-   "name": "00001854 SOW Fitness Equipment Contract 2026.pdf",
+   "name": "2_00001854 SOW Fitness Equipment Contract 2026.pdf",
    "kind": "pdf",
    "tables": 2,
    "note": "",
    "candidates": 2
   },
   {
-   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "name": "3_Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "IMPORTANT TAX NOTICE.doc",
+   "name": "4_IMPORTANT TAX NOTICE.doc",
    "kind": ".doc",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "name": "5_Purchase Terms and Conditions  Rev E - effective 12124.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
@@ -82,7 +82,7 @@
  ],
  "candidate_tables": [
   {
-   "source": "00001854_Embedded_Appendix_A.xlsx",
+   "source": "0_00001854_Embedded_Appendix_A.xlsx",
    "sheet": 0,
    "header_row": 5,
    "headers": [
@@ -123,7 +123,7 @@
    ]
   },
   {
-   "source": "00001854_Embedded_Appendix_A.xlsx",
+   "source": "0_00001854_Embedded_Appendix_A.xlsx",
    "sheet": 1,
    "header_row": 5,
    "headers": [
@@ -164,7 +164,7 @@
    ]
   },
   {
-   "source": "00001854_Embedded_Appendix_B.xlsx",
+   "source": "1_00001854_Embedded_Appendix_B.xlsx",
    "sheet": 0,
    "header_row": 5,
    "headers": [
@@ -193,7 +193,7 @@
    ]
   },
   {
-   "source": "00001854 SOW Fitness Equipment Contract 2026.pdf",
+   "source": "2_00001854 SOW Fitness Equipment Contract 2026.pdf",
    "sheet": 0,
    "header_row": 0,
    "headers": [
@@ -234,7 +234,7 @@
    ]
   },
   {
-   "source": "00001854 SOW Fitness Equipment Contract 2026.pdf",
+   "source": "2_00001854 SOW Fitness Equipment Contract 2026.pdf",
    "sheet": 1,
    "header_row": 5,
    "headers": [
@@ -265,14 +265,14 @@
  ],
  "notes": [],
  "latency": {
-  "bid_seconds": 8.9,
+  "bid_seconds": 8.6,
   "attachment_fetches": 6,
-  "attachment_seconds": 0.5,
+  "attachment_seconds": 0.4,
   "attachment_bytes": 516202,
-  "max_fetch_seconds": 0.09,
+  "max_fetch_seconds": 0.08,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-31T13:15:08.324863+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-09-07T13:13:56.080836+00:00",
+ "extract_attempts": 2
 }
