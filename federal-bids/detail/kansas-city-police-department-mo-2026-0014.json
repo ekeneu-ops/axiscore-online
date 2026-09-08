@@ -1,0 +1,75 @@
+{
+ "bid_id": "kansas-city-police-department-mo-2026-0014",
+ "bid_number": "2026-0014",
+ "agency": "Kansas City Police Department, MO",
+ "src": "Invited",
+ "title": "KCPD Academy Auditorium AVI Replacement",
+ "close": "10/1/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:svc:audit",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "AUDITORIUM PROJECTION SYSTEM DESCRIPTION.docx",
+  "KCPD Training Facility Auditorium Functionality Description.docx",
+  "GENERAL TERMS AND CONDITIONS.docx",
+  "vendor packet 19.pdf",
+  "tax exempt.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "AUDITORIUM PROJECTION SYSTEM DESCRIPTION.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "KCPD Training Facility Auditorium Functionality Description.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "GENERAL TERMS AND CONDITIONS.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "vendor packet 19.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "tax exempt.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.5,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1487369,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-08T13:14:22.928309+00:00",
+ "extract_attempts": 1
+}

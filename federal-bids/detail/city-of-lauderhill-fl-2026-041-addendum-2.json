@@ -1,0 +1,105 @@
+{
+ "bid_id": "city-of-lauderhill-fl-2026-041-addendum-2",
+ "bid_number": "2026-041 Addendum 2",
+ "agency": "City of Lauderhill, FL",
+ "src": "Open",
+ "title": "COMMUNITY SHUTTLE BUS & MICRO TRANSIT SERVICE",
+ "close": "9/15/2026 02:45 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 12,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 2026-041 COMMUNITY SHUTTLE BUS _ MICRO TRANSIT SERVICE.pdf",
+  "Exhibit B Community Shuttle Routes and Schedules.pdf",
+  "Exhibit D - Local Vendor Preference Ordinance.pdf",
+  "Annual Operating Funding.pdf",
+  "Lauderhill Fixed Route Shuttle Data.xlsx",
+  "Lauderhill - FY2020 Community Shuttle ILA.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2026-041 COMMUNITY SHUTTLE BUS _ MICRO TRANSIT SERVICE.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B Community Shuttle Routes and Schedules.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D - Local Vendor Preference Ordinance.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Annual Operating Funding.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Lauderhill Fixed Route Shuttle Data.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Lauderhill - FY2020 Community Shuttle ILA.pdf",
+   "kind": "pdf",
+   "tables": 32,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Lauderhill - FY2020 Community Shuttle ILA.pdf",
+   "sheet": 31,
+   "header_row": 3,
+   "headers": [
+    "Detailed summary of all received complaints including: date of original\ncomplaint, contact information, description of complaint and complaint\nComplaints resolution Monthly 10th of each month *"
+   ],
+   "score": 2,
+   "n_rows": 12,
+   "sample": [
+    [
+     "ReportssummarizingCity'sDrugandAlcoholtestingprogramresultsto\nDrug & Alcohol Certification the BCT Drug and Alcohol Program Manager Quarterly and Annually Quarterly and Annually by February 15th"
+    ],
+    [
+     "Insurance Valid insurance certificate in accordance with contract requirements Annually At time of applicable renewal"
+    ],
+    [
+     "Invoicedquarterlybased onCounty'scertifiedprojectedannualfunding\nInvoice to City each Fiscal Year Quarterly October 10th, January 10th, April 10th, and July 10th"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.7,
+  "attachment_fetches": 6,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 16179704,
+  "max_fetch_seconds": 0.91,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-08T13:25:04.597464+00:00",
+ "extract_attempts": 1
+}

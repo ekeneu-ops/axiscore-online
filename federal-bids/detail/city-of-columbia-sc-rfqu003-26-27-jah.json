@@ -1,0 +1,59 @@
+{
+ "bid_id": "city-of-columbia-sc-rfqu003-26-27-jah",
+ "bid_number": "RFQu003-26-27-JAH",
+ "agency": "City of Columbia, SC",
+ "src": "Invited",
+ "title": "Wastewater Mainline and Service Line",
+ "close": "10/8/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Final.RFQu003-26-27-JAH.pdf",
+  "Appendices.RFQu003-26-27-JAH.pdf",
+  "Fillable BIR Appendix - BIRforSubconsultants-Subcontractors.2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Final.RFQu003-26-27-JAH.pdf",
+   "kind": "pdf",
+   "tables": 21,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendices.RFQu003-26-27-JAH.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Fillable BIR Appendix - BIRforSubconsultants-Subcontractors.2025.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.3,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 2755528,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-08T13:17:05.743765+00:00",
+ "extract_attempts": 1
+}
