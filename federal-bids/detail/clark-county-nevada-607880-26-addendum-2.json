@@ -1,0 +1,90 @@
+{
+ "bid_id": "clark-county-nevada-607880-26-addendum-2",
+ "bid_number": "607880-26 Addendum 2",
+ "agency": "Clark County, Nevada",
+ "src": "Open",
+ "title": "Inmate Soap",
+ "close": "9/15/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "SOAP, unwrapped, 0.5 oz. bar, Mfr. Good Day #400050, OR EQUAL",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. SOAP, unwrapped, 0.5 oz. bar, Mfr. Good Day #400050, OR EQUAL 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "607880-26_ab.pdf",
+  "607880-26 Bidder_s Statement of Authority to Submit Bid_ab.pdf",
+  "607880-26 ad1_ab.pdf",
+  "607880-26 ad2_ab.pdf",
+  "607880-26 prebid_ab.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "607880-26_ab.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "607880-26 Bidder_s Statement of Authority to Submit Bid_ab.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "607880-26 ad1_ab.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "607880-26 ad2_ab.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "607880-26 prebid_ab.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.1,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1297094,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-09T13:32:04.057147+00:00",
+ "extract_attempts": 1
+}

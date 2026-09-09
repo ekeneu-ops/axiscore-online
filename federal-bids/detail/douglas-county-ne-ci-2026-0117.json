@@ -1,0 +1,1040 @@
+{
+ "bid_id": "douglas-county-ne-ci-2026-0117",
+ "bid_number": "CI-2026-0117",
+ "agency": "Douglas County, NE",
+ "src": "Open",
+ "title": "OPW 55082: George Miller Parkway West of 180th Street",
+ "close": "9/16/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 54,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 53,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "1109.000 MOBILIZATION/DEMOBILIZATION",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 1109.000 MOBILIZATION/DEMOBILIZATION 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "0102.000 CLEARING AND GRUBBING - GENERAL",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 0102.000 CLEARING AND GRUBBING - GENERAL 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "0102.010 CLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER",
+   "qty": "10",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 0102.010 CLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER 10 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "0102.020 CLEARING AND GRUBBING TREES OVER 18\" TO 27\" DIAMETER",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 0102.020 CLEARING AND GRUBBING TREES OVER 18\" TO 27\" DIAMETER 3 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "0201.000 EXCAVATION ON-SITE",
+   "qty": "611",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 0201.000 EXCAVATION ON-SITE 611 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "1.6",
+   "desc": "0201.300 EMBANKMENT - BORROW",
+   "qty": "874",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.6 0201.300 EMBANKMENT - BORROW 874 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "1.7",
+   "desc": "0201.200 UNSUITABLE MATERIAL",
+   "qty": "50",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.7 0201.200 UNSUITABLE MATERIAL 50 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine9",
+   "kind": "package_line",
+   "line": "1.8",
+   "desc": "0105.100 REMOVE PAVEMENT",
+   "qty": "190",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.8 0105.100 REMOVE PAVEMENT 190 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "1.9",
+   "desc": "9000.009 REMOVE 7' X 4' BOX CULVERT CONCRETE",
+   "qty": "3",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.9 9000.009 REMOVE 7' X 4' BOX CULVERT CONCRETE 3 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "1.10",
+   "desc": "0103.120 REMOVE HEADWALL",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.10 0103.120 REMOVE HEADWALL 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "1.11",
+   "desc": "0103.600 REMOVE RIP RAP",
+   "qty": "10",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.11 0103.600 REMOVE RIP RAP 10 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine13",
+   "kind": "package_line",
+   "line": "1.12",
+   "desc": "0905.000 REMOVE MARKING LINES",
+   "qty": "700",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.12 0905.000 REMOVE MARKING LINES 700 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine14",
+   "kind": "package_line",
+   "line": "1.13",
+   "desc": "0905.010 REMOVE MARKING SYMBOLS",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.13 0905.010 REMOVE MARKING SYMBOLS 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine15",
+   "kind": "package_line",
+   "line": "1.14",
+   "desc": "0703.175 CONSTRUCT 6\" PVC SANITARY SEWER PIPE",
+   "qty": "108",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.14 0703.175 CONSTRUCT 6\" PVC SANITARY SEWER PIPE 108 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine16",
+   "kind": "package_line",
+   "line": "1.15",
+   "desc": "0703.245 CONSTRUCT 6\" X 8\" WYE",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.15 0703.245 CONSTRUCT 6\" X 8\" WYE 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine17",
+   "kind": "package_line",
+   "line": "1.16",
+   "desc": "9000.016 CONSTRUCT AGGREGATE BEDDING FOR TYPE F3, 6\" SANITARY SEWER PIPE",
+   "qty": "108",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.16 9000.016 CONSTRUCT AGGREGATE BEDDING FOR TYPE F3, 6\" SANITARY SEWER PIPE 108 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine18",
+   "kind": "package_line",
+   "line": "1.17",
+   "desc": "0703.290 CONSTRUCT 6\" SANITARY SEWER PIPE PLUG",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.17 0703.290 CONSTRUCT 6\" SANITARY SEWER PIPE PLUG 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine19",
+   "kind": "package_line",
+   "line": "1.18",
+   "desc": "0702.051 CONSTRUCT 15\" RCP, CLASS III",
+   "qty": "114",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.18 0702.051 CONSTRUCT 15\" RCP, CLASS III 114 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine20",
+   "kind": "package_line",
+   "line": "1.19",
+   "desc": "0702.052 CONSTRUCT 18\" RCP, CLASS III",
+   "qty": "95",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.19 0702.052 CONSTRUCT 18\" RCP, CLASS III 95 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine21",
+   "kind": "package_line",
+   "line": "1.20",
+   "desc": "0702.059 CONSTRUCT 48\" RCP, D(0.01) = 1,350",
+   "qty": "166",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.20 0702.059 CONSTRUCT 48\" RCP, D(0.01) = 1,350 166 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine22",
+   "kind": "package_line",
+   "line": "1.21",
+   "desc": "0702.922 CONSTRUCT CURB INLET - TYPE III",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.21 0702.922 CONSTRUCT CURB INLET - TYPE III 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine23",
+   "kind": "package_line",
+   "line": "1.22",
+   "desc": "0702.922 CONSTRUCT CURB INLET - TYPE III (MODIFIED)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.22 0702.922 CONSTRUCT CURB INLET - TYPE III (MODIFIED) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine24",
+   "kind": "package_line",
+   "line": "1.23",
+   "desc": "9000.023 CONSTRUCT JUNCTION BOX (1 EA)",
+   "qty": "17",
+   "uom": "VF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.23 9000.023 CONSTRUCT JUNCTION BOX (1 EA) 17 VF No Response"
+  },
+  {
+   "ctl": "ucPackageLine25",
+   "kind": "package_line",
+   "line": "1.24",
+   "desc": "0702.854 CONSTRUCT 15\" STORM SEWER PIPE PLUG",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.24 0702.854 CONSTRUCT 15\" STORM SEWER PIPE PLUG 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine26",
+   "kind": "package_line",
+   "line": "1.25",
+   "desc": "0702.802 CONSTRUCT 18\" RC FLARED END SECTION",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.25 0702.802 CONSTRUCT 18\" RC FLARED END SECTION 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine27",
+   "kind": "package_line",
+   "line": "1.26",
+   "desc": "0702.808 CONSTRUCT 48\" RC FLARED END SECTION",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.26 0702.808 CONSTRUCT 48\" RC FLARED END SECTION 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine28",
+   "kind": "package_line",
+   "line": "1.27",
+   "desc": "0701.031 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 15\" STORM SEWER PIPE",
+   "qty": "114",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.27 0701.031 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 15\" STORM SEWER PIPE 114 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine29",
+   "kind": "package_line",
+   "line": "1.28",
+   "desc": "0701.032 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 18\" STORM SEWER PIPE",
+   "qty": "95",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.28 0701.032 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 18\" STORM SEWER PIPE 95 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine30",
+   "kind": "package_line",
+   "line": "1.29",
+   "desc": "0701.039 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 48\" STORM SEWER PIPE",
+   "qty": "166",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.29 0701.039 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 48\" STORM SEWER PIPE 166 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine31",
+   "kind": "package_line",
+   "line": "1.30",
+   "desc": "0701.700 CONSTRUCT AGGREGATE BEDDING FOR TRENCH STABILIZATION",
+   "qty": "50",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.30 0701.700 CONSTRUCT AGGREGATE BEDDING FOR TRENCH STABILIZATION 50 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine32",
+   "kind": "package_line",
+   "line": "1.31",
+   "desc": "0701.900 CONSTRUCT TRENCH EXCAVATION (UNSUITABLE MATERIAL)",
+   "qty": "50",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.31 0701.900 CONSTRUCT TRENCH EXCAVATION (UNSUITABLE MATERIAL) 50 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine33",
+   "kind": "package_line",
+   "line": "1.32",
+   "desc": "0703.227 CONSTRUCT 8\" SANITARY SEWER CONCRETE CRADLE",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.32 0703.227 CONSTRUCT 8\" SANITARY SEWER CONCRETE CRADLE 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine34",
+   "kind": "package_line",
+   "line": "1.33",
+   "desc": "0805.100 CONSTRUCT TYPE B RIP-RAP",
+   "qty": "45",
+   "uom": "TON",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.33 0805.100 CONSTRUCT TYPE B RIP-RAP 45 TON No Response"
+  },
+  {
+   "ctl": "ucPackageLine35",
+   "kind": "package_line",
+   "line": "1.34",
+   "desc": "0703.390 ADJUST SANITARY SEWER MANHOLE TO GRADE",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.34 0703.390 ADJUST SANITARY SEWER MANHOLE TO GRADE 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine36",
+   "kind": "package_line",
+   "line": "1.35",
+   "desc": "1004.101 INSTALL EXTERNAL FRAME SEAL ON EXISTING SANITARY SEWER MANHOLE",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.35 1004.101 INSTALL EXTERNAL FRAME SEAL ON EXISTING SANITARY SEWER MANHOLE 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine37",
+   "kind": "package_line",
+   "line": "1.36",
+   "desc": "0706.000 PERFORM CCTV PIPELINE INSPECTION",
+   "qty": "958",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.36 0706.000 PERFORM CCTV PIPELINE INSPECTION 958 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine38",
+   "kind": "package_line",
+   "line": "1.37",
+   "desc": "0501.004 CONSTRUCT 10\" CONCRETE PAVEMENT (TYPE OPW 3500)",
+   "qty": "2157",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.37 0501.004 CONSTRUCT 10\" CONCRETE PAVEMENT (TYPE OPW 3500) 2157 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine39",
+   "kind": "package_line",
+   "line": "1.38",
+   "desc": "0301.106 CONSTRUCT 6\" AGGREGATE BASE COURSE",
+   "qty": "2157",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.38 0301.106 CONSTRUCT 6\" AGGREGATE BASE COURSE 2157 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine40",
+   "kind": "package_line",
+   "line": "1.39",
+   "desc": "0503.300 CONSTRUCT PCC MEDIAN SURFACING",
+   "qty": "360",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.39 0503.300 CONSTRUCT PCC MEDIAN SURFACING 360 SF No Response"
+  },
+  {
+   "ctl": "ucPackageLine41",
+   "kind": "package_line",
+   "line": "1.40",
+   "desc": "0905.032 PERMANENT PAINT MARKING - 5\" WHITE",
+   "qty": "240",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.40 0905.032 PERMANENT PAINT MARKING - 5\" WHITE 240 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine42",
+   "kind": "package_line",
+   "line": "1.41",
+   "desc": "0905.033 PERMANENT PAINT MARKING - 5\" YELLOW",
+   "qty": "1360",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.41 0905.033 PERMANENT PAINT MARKING - 5\" YELLOW 1360 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine43",
+   "kind": "package_line",
+   "line": "1.42",
+   "desc": "0905.151 PERMANENT PREFORMED TAPE SYMBOL - TYPE DIRECTIONAL ARROW, WHITE",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.42 0905.151 PERMANENT PREFORMED TAPE SYMBOL - TYPE DIRECTIONAL ARROW, WHITE 4 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine44",
+   "kind": "package_line",
+   "line": "1.43",
+   "desc": "0801.100 PLACE TOPSOIL",
+   "qty": "2500",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.43 0801.100 PLACE TOPSOIL 2500 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine45",
+   "kind": "package_line",
+   "line": "1.44",
+   "desc": "0803.207 INSTALL ROLLED EROSION CONTROL, TYPE II WITH SEEDING - TYPE B",
+   "qty": "2500",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.44 0803.207 INSTALL ROLLED EROSION CONTROL, TYPE II WITH SEEDING - TYPE B 2500 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine46",
+   "kind": "package_line",
+   "line": "1.45",
+   "desc": "0101.000 INSTALL SWPPP NOTIFICATION SIGN",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.45 0101.000 INSTALL SWPPP NOTIFICATION SIGN 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine47",
+   "kind": "package_line",
+   "line": "1.46",
+   "desc": "0101.003 INSTALL CURB INLET PROTECTION",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.46 0101.003 INSTALL CURB INLET PROTECTION 2 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine48",
+   "kind": "package_line",
+   "line": "1.47",
+   "desc": "0101.005 INSTALL CONSTRUCTION ENTRANCE",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.47 0101.005 INSTALL CONSTRUCTION ENTRANCE 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine49",
+   "kind": "package_line",
+   "line": "1.48",
+   "desc": "0101.007 INSTALL CONCRETE WASHOUT",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.48 0101.007 INSTALL CONCRETE WASHOUT 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine50",
+   "kind": "package_line",
+   "line": "1.49",
+   "desc": "0101.001 INSTALL SILT FENCE",
+   "qty": "900",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.49 0101.001 INSTALL SILT FENCE 900 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine52",
+   "kind": "package_line",
+   "line": "1.51",
+   "desc": "9000.051 FURNISH AND INSTALL TRAFFIC SIGNAL, TYPE TS-1LF",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.51 9000.051 FURNISH AND INSTALL TRAFFIC SIGNAL, TYPE TS-1LF 2 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine53",
+   "kind": "package_line",
+   "line": "1.52",
+   "desc": "0909.000 INSTALL PREEMPTION CONTROL SYSTEM",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.52 0909.000 INSTALL PREEMPTION CONTROL SYSTEM 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine54",
+   "kind": "package_line",
+   "line": "1.53",
+   "desc": "0906.400 PROVIDE TEMPORARY TRAFFIC CONTROL PER STREET SEGMENT",
+   "qty": "80",
+   "uom": "BARR-DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.53 0906.400 PROVIDE TEMPORARY TRAFFIC CONTROL PER STREET SEGMENT 80 BARR-DAY No Response"
+  },
+  {
+   "ctl": "ucPackageLine55",
+   "kind": "package_line",
+   "line": "1.54",
+   "desc": "1002.305 COLD WEATHER RIGID PAVEMENT PROTECTION",
+   "qty": "2157",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.54 1002.305 COLD WEATHER RIGID PAVEMENT PROTECTION 2157 SY No Response"
+  }
+ ],
+ "attachments_saved": [
+  "OPW 55082 _ Specifications.pdf",
+  "OPW 55082 - Plans.pdf",
+  "OPW 55082 - eBidBond.xlsx",
+  "Exhibit A_SEB Participation Disclosure form _bidders_ ADA.docx",
+  "Exhibit B_Certificate of Compliance _ADA_.docx",
+  "Exhibit C_Responsible Contractor Compliance Form _ADA_.docx",
+  "Exhibit D_Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+  "Exhibit E_Apprentice Incentive form _AIF_ _ADA_.docx",
+  "2025 ESP Rules and Plan Template.pdf",
+  "Bid Submittal I_ C_ P or JV form _ADA_.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "OPW 55082 _ Specifications.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "OPW 55082 - Plans.pdf",
+   "kind": "pdf",
+   "tables": 86,
+   "note": "",
+   "candidates": 10
+  },
+  {
+   "name": "OPW 55082 - eBidBond.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A_SEB Participation Disclosure form _bidders_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B_Certificate of Compliance _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C_Responsible Contractor Compliance Form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D_Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E_Apprentice Incentive form _AIF_ _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2025 ESP Rules and Plan Template.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Submittal I_ C_ P or JV form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "OPW 55082 _ Specifications.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Line\n#",
+    "Item #",
+    "Description",
+    "Qty",
+    "Price",
+    "uom",
+    "Totals"
+   ],
+   "score": 3,
+   "n_rows": 27,
+   "sample": [
+    [
+     "1",
+     "1109.000",
+     "MOBILIZATION/DEMOBILIZATION",
+     "1.00",
+     "",
+     "LS",
+     ""
+    ],
+    [
+     "2",
+     "0102.000",
+     "CLEARING AND GRUBBING - GENERAL",
+     "1.00",
+     "",
+     "LS",
+     ""
+    ],
+    [
+     "3",
+     "0102.010",
+     "CLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER",
+     "10.00",
+     "",
+     "EA",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "CITY OF OMAHA\nPUBLIC WORKS DEPARTMENT\nOPW 55082\nFORTITERINRE\nGEORGE MILLER PARKWAY WEST OF 180TH STREET\nAPPROXIMATE QUANTITIES\n(FIRESTATION 70)\nCity of Omaha Item Approxima\nBid Item Description Unit Final Quantity Unit\nItem No. No. te Quantity\n1109.000 1 MOBILIZATION/DEMOBILIZATION 1 LS\n0102.000 2 CLEARING AND GRUBBING GENERAL 1 LS\n0102.010 3 CLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER 10 EA\n0102.020 4 CLEARING AND GRUBBING TREES OVER 18\" TO 27\" DIAMETER 3 EA\n0201.000 5 EXCAVATION ON SITE 611 CY\n0201.300 6 EMBANKMENT - BORROW 874 CY\nFORT ST\n0201.200 7 UNSUITABLE MATERIAL 50 CY\n0105.100 8 REMOVE PAVEMENT 190 SY\n9000.009 9 REMOVE 7' X 4' BOX CULVERT CONCRETE 3 LF\n0103.120 10 REMOVE HEADWALL 1 EA\nINDEX OF SHEETS\n0103.600 11 REMOVE RIP-RAP 10 CY\n0905.000 12 REMOVE MARKING LINES 700 LF\nSHEET\nSHEET TITLE ORIGINAL DATE REVISION DATE\nNUMBER\n0905.010 13 REMOVE MARKING SYMBOL 1 EA\n1 COVER 08/11/2026\n0703.175 14 CONSTRUCT 6\" PVC SANITARY SEWER PIPE 108 LF\n0703.245 15 CONSTRUCT 8\" X 6\" WYE 1 EA 2 LEGEND 08/11/2026\n9000.016 16 CONSTRUCT AGGREGATE BEDDING FOR TYPE F3, 6\" SANITARY SEWER PIPE 108 LF 3 CONTROL POINTS AND PI DATA 08/11/2026\n0703.290 17 CONSTRUCT 6\" SANITARY SEWER PIPE PLUG 1 EA 4 NOTES AND DETAILS 1 OF 2 08/11/2026\n0702.051 18 CONSTRUCT 15\" RCP, CLASS III 114 LF 5 NOTES AND DETAILS 2 OF 2 08/11/2026\n0702.052 19 CONSTRUCT 18\" RCP, CLASS III 95 LF 6 TYPICAL SECTIONS 08/11/2026\n0702.059 20 CONSTRUCT 48\" RCP, D(0.01) = 1350 166 LF 7 REMOVAL PLAN 08/11/2026\n0702.922 21 CONSTRUCT CURB INLET - TYPE III 1 EA\n8 SANITARY SEWER PLAN AND PROFILE 08/11/2026\n0702.922 22 CONSTRUCT CURB INLET - TYPE III (MODIFIED) 1 EA\n9 STORM SEWER PLAN AND PROFILE SHEET 1 OF 2 08/11/2026\n9000.023 23 CONSTRUCT JUNCTION BOX (1 EA) 17 VF\n10 STORM SEWER PLAN AND PROFILE SHEET 2 OF 2 08/11/2026\n0702.854 24 CONSTRUCT 15\" STORM SEWER PIPE PLUG 1 EA\n11 GEORGE MILLER PKWY PNP 08/11/2026\n0702.802 25 CONSTRUCT 18\" RC FLARED END SECTION 1 EA\nT 12 CONSTRUCTION AND GEOMETRICS 08/11/2026\n0702.808 26 CONSTRUCT 48\" RC FLARED END SECTION 1 EA S\nH 13 JOINTS AND SPOT ELEVATIONS 08/11/2026\n0701.031 27 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 15\" STORM SEWER PIPE 114 LF\nT\nELKHORN NORTH\n0 14 PAVEMENT MARKING PLAN 08/11/2026\n0701.032 28 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 18\" STORM SEWER PIPE 95 LF PROJECT 8 HIGH SCHOOL\n1\n15 EROSION CONTROL PLAN 08/11/2026\n0701.039 29 CONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 48\" STORM SEWER PIPE 166 LF LOCATION N\n16 CROSS SECTIONS 08/11/2026\n0701.700 30 CONSTRUCT AGGREGATE BEDDING FOR TRENCH STABILIZATION 50 CY\n0 7 0 1 . 9 0 0 3 1 C O N S T R U C T T R E N C H E X C A V AT IO N (U N S U IT A B L E M A T ERIAL) 5 0 C Y GEORGE 1 7 S W P P P 0 8 / 1 1 / 2 0 2 6\nMILLER\n0 7 0 3 . 2 2 7 3 2 C O N S T R U C T 8\" S A N I TA R Y S E W E R C O N C R E T E C R A D L E 1 EA PKWY 1 8 T RA F F IC SIGNAL PLAN 0 8 / 1 1 / 2 0 2 6\n0805.100 33 CONSTRUCT TYPE B RIP-RAP 45 TN\n0703.390 34 ADJUST SANITARY SEWER MANHOLE TO GRADE 1 EA\n1004.101 35 INSTALL EXTERNAL FRAME SEAL ON EXISTING SANITARY SEWER MANHOLE 1 EA\n0706.000 36 PERFORM CCTV PIPELINE INSPECTION 958 LF\n0501.004 37 CONSTRUCT 10\" CONCRETE PAVEMENT, TYPE OPW-3500 2,157 SY\n0301.106 38 CONSTRUCT 6\" AGGREGATE BASE COURSE 2,157 SY\n0503.300 39 CONSTRUCT PCC MEDIAN SURFACING 360 SF\n0905.032 40 PERMANENT PAINT MARKING - 5\" WHITE 240 LF W MAPLE RD N A L C I V I L\nO\n0905.033 41 PERMANENT PAINT MARKING - 5\" YELLOW 1,360 LF SI E N\nDESIGN INFORMATION S G\n0905.151 42 PERMANENT PREFORMED TAPE SYMBOL - TYPE DIRECTIONAL ARROW, WHITE 4 EA E I\nMATTHEW F N\n0801.100 43 PLACE TOPSOIL 2,500 SY GEORGE MILLER PARKWAY R L. KRUSE O E E\nDESIGN SPEED: 30 MPH P E-11507 R\n0803.207 44 INSTALL ROLLED EROSION CONTROL, TYPE II WITH SEEDING - TYPE B 2,500 SY\n08/11/2026\nR O AD W A Y C L A S S IF IC A T IO N : L O C A L S A\n0101.000 45 INSTALL SWPPP NOTIFICATION SIGN 1 EA T A S K\nCE N TE R LI N E P R O J E C T L E N G T H : 4 5 0 LF T E O F N E B RA\n0101.003 46 INSTALL CURB INLET PROTECTION 2 EA\n0101.005 47 INSTALL CONSTRUCTION ENTRANCE 1 EA\n0101.007 48 INSTALL CONCRETE WASHOUT 1 EA\n0101.001 49 INSTALL SILT FENCE 900 LF\n0101.100 50 STORMWATER POLLUTION PREVENTION PLAN (SWPPP) MAINTENANCE ALLOWANCE 1 LS\nOPW 55082\n9000.051 51 FURNISH AND INSTALL TRAFFIC SIGNAL, TYPE TS-1LF 2 EA\n0909.000 52 INSTALL PREEMPTION CONTROL SYSTEM 1 EA\n0906.400 53 PROVIDE TEMPORARY TRAFFIC CONTROL PER STREET SEGMENT 80 BARR-DAY\nSHEET SET:S T PD\n1002.305 54 COLD WEATHER RIGID PAVEMENT PROTECTION 2,157 SY\nREVISIONS DESIGNER\nTHE CITY ENGINEER AND FACILITIES MANAGER\nSIGNATURES AFFIXED TO THIS DOCUMENT\nINDICATES THE CITY OF OMAHA PUBLIC WORKS DESIGN ENGINEER:\nDEPARTMENT HAS REVIEWED THE DOCUMENT\nBUSINESS: LAMP RYNEARSON\nAND FOUND IT IN GENERAL CONFORMANCE WITH\nDATE:\nNAME: MATTHEW KRUSE CITY OF OMAHA STANDARDS OR APPROVED\nALL UTILITIES ARE SHOWN\nLAMPRYNEARSON.COM BASED ON THE INFORMATION VARIANCES. THE CITY ENGINEER AND FACILITIES\nADDRESS: 14710 W. DODGE RD AVAILABLE TO THE ENGINEER. MANAGER, THROUGH APPROVAL OF THIS\nOMAHA, NEBRASKA THERE IS NO GUARANTEE ALL DOCUMENT, ASSUMES NO RESPONSIBILITY, CITY ENGINEER:\nSTE 100 14710 N W E . A D U O T D H G O E R R IZ D A , T S I T O E N . N 10 O 0 . : ( 4 C 0 A 2 0 ) 1 4 3 9 0 6.2498 R F T A H C E I L L I O TI C E A S T A IO R N E , S D H E O P W TH N , O AN R D THAT OTHER THAN THAT STATED ABOVE, FOR THE\nSIZE OF EACH FACILITY IS COMPLETENESS AND/OR ACCURACY OF THESE\nFORT COLLINS, COLORADO\nCORRECT. THE CONTRACTOR IS",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "REVISIONS",
+     "DESIGNER\nBUSINESS: LAMP RYNEARSON\nNAME: MATTHEW KRUSE\nADDRESS: 14710 W. DODGE RD\nSTE 100",
+     "THE CITY ENGINEER AND FACILITIES MANAGER\nSIGNATURES AFFIXED TO THIS DOCUMENT\nINDICATES THE CITY OF OMAHA PUBLIC WORKS DESIG\nDEPARTMENT HAS REVIEWED THE DOCUMENT\nAND FOUND IT IN GENERAL CONFORMANCE WITH\nCITY OF OMAHA STANDARDS OR APPROVED\nVARIANCES. THE CITY ENGINEER AND FACILITIES\nMANAGER, THROUGH APPROVAL OF THIS\nDOCUMENT, ASSUMES NO RESPONSIBILITY, CIT\nOTHER THAN THAT STATED ABOVE, FOR THE\nCOMPLETENESS AND/OR ACCURACY OF THESE",
+     "N ENGINEER:\nDATE:\nY ENGINEER:"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "City of Omaha\nItem No.",
+    "Item\nBid Item Description\nNo.",
+    "Approxima\nte Quantity",
+    "Unit",
+    "Final Quantity"
+   ],
+   "score": 3,
+   "n_rows": 54,
+   "sample": [
+    [
+     "1109.000",
+     "1 MOBILIZATION/DEMOBILIZATION",
+     "1",
+     "LS",
+     ""
+    ],
+    [
+     "0102.000",
+     "2 CLEARING AND GRUBBING GENERAL",
+     "1",
+     "LS",
+     ""
+    ],
+    [
+     "0102.010",
+     "3 CLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER",
+     "10",
+     "EA",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "LINETYPES BLOCKS\nEXISTING PROPOSED\nEXISTING PROPOSED DRAINAGE\nAIR AIR 100 YEAR SANITARY CLEAN OUT CO GAS CURB STOP G TREE DECIDUOUS CONTOUR 1100 PAVEMENT\nCABLE CABLE 500 YEAR\nSANITARY MANHOLE S GAS MANHOLE G TREE CONIFEROUS FUTURE CONTOUR 1100 PC CURB AND GUTER\nCONDUIT CONDUIT 100 YEAR EGL\nCONSTRUCTION CONSTRUCTION 10 YEAR EGL SEWER WARNING SIGN S GAS METER G BUSH EXISTING CONTOUR 1100 RETAINING WALL\nFENCE FENCE\nDRAIN TILES DRAIN TILES 2 YEAR EGL SEPTIC TANK S GAS VALVE BOULDER WETLANDS AREA NOT TO BE X\" PC CONCRETE PAVEMENT\nDISTURBED\nELECTRIC FENCE 5 YEAR EGL\nFENCE BARBED AREA INLET ROUND GAS WARNING SIGN G ARROW LEFT FILL AREA ASPHALT PAVEMENT\nFENCE 100 YEAR HGL\nWIRE\nFENCE BARBED\nWIRE FENCE STEEL 10 YEAR HGL AREA INLET SQUARE TELEPHONE MANHOLE T ARROW RIGHT STABILIZED ACCESS ROAD SIDEWALK PAVEMENT\nFENCE STEEL FENCE WIRE 2 YEAR HGL\nGRATE INLET TELEPHONE PEDESTAL ARROW STRAIGHT VEGETATED BUFFER STRIP PAVING BARRICADE\nFENCE WIRE FENCE WOOD 5 YEAR HGL\nONLY\nFENCE WOOD FIBER OPTICS FLOOD WAY GRATE INLET W/ HOOD TELEPHONE PULLBOX STRIPING \"ONLY\" RIDGE BUILDING\nFIBER OPTICS FLOOD PLAIN\nSTORM MANHOLE D TELEPHONE WARNING SIGN T BICYCLE STRIPING FLOW PATH PARKING STALL COUNT 15\nFLOOD PLAIN FLOW ARROW\nGENERAL ABBREVIATIONS 1000.00\nFLOW ARROW FORCE MAIN STORM PIPE END UNIDENTIFIED MANHOLE U HANDICAP SYMBOL SPOT ELEVATION\nADA AMERICANS WITH DISABILITIES ACT\nFORCE MAIN GAS BC BACK OF CURB\n4' CURB INLET UNIDENTIFIED UTILITY PEDESTAL U TRAFFIC SIGNAL DRAINAGE AREA NAME\nBOSW BACK OF WALK\nGRAVEL AND DIRT\nGAS\nEDGE BP BOTTOM OF PIPE AC.\nGRAVEL AND IRRIGATION BW BOTTOM OF WALL CURB INLET LEFT UNIDENTIFIED VALVE U TRAFFIC SIGNAL PEDESTAL DRAINAGE A C R O E EF A F R IC U IE N N O T FF C=\nDIRT EDGE CATV CABLE TELEVISION TREE CODE, SEE LEGEND\nFOR GENUS-SPECIES\nIRRIGATION NON PO W T A A T B ER LE CF CUBIC FOOT CURB INLET RIGHT UNIDENTIFIED PULLBOX U TRAFFIC SIGNAL PULL BOX TS DRAINAGE BASIN DELINEATION T-1\nCL CENTERLINE 10\nNON POTABLE\nWATER OIL CMP CORRUGATED METAL PIPE QUANTITY\nDRAINAGE SUB BASIN\nCP CONTROL POINT DOWN SPOUT/ROOF DRAIN DS WATER CURB STOP PARKING METER DELINEATION\nOIL OIL AND GAS\nCY CUBIC YARD\nOIL AND GAS OVERHEAD POWER DIA DIAMETER FLARED END SECTION WATER MANHOLE W SIGN TIME OF CONCENTRATION GRA 254 @ 7.85%\nDRAINAGE PATH\nDIP DUCTILE IRON PIPE\nSHRUB CODE, SEE LEGEND\nOVERHEAD OVERHEAD E EAST S-1 FOR GENUS-SPECIES\nPOWER TELEPHONE\nELEV. ELEVATION CONTINUE SYMBOL WATER METER W STOP SIGN STOP WATTLE W 10\nOVERHEAD\nTELEPHONE OVERHEAD UTILITY EOG EDGE OF GRAVEL\nQUANTITY\nOVERHEAD POWER FES FLARED END SECTION CABLE MANHOLE C WATER VALVE YIELD SIGN Y VEHICLE TRACKING PAD\nUTILITY FFE FINISH FLOOR ELEVATION\nFG FINISHED GRADE\nPOWER RAW WATER\nFH FIRE HYDRANT CABLE WARNING SIGN C WATER WARNING SIGN W RR CROSSING ARM TEMPORARY SEEDING TS\nRAW WATER ROOF DRAIN FL FLOWLINE\nG GAS\nCABLE PEDESTAL AUTO SPRINKLER BUILDING BENCHMARK STRAW HAY BALE STB\nROOF DRAIN SANITARY SEWER GB GRADE BREAK\nHP/LP HIGH POINT/LOW POINT\nSANITARY SEWER STORM SEWER HORIZ HORIZONTAL CABLE PULLBOX FIRE HYDRANT TEMPORARY BENCHMARK SLOPE PROTECTION SP\nSTORM SEWER TELEPHONE IE INVERT ELEVATION\nLF LINEAR FEET LIGHT POLE POST INDICATOR VALVE ROW MARKER PERMANENT SEEDING PS\nTELEPHONE UNDER DRAIN MH MANHOLE\nME MATCH EXISTING\nUNIDENTIFIED\nUNDER DRAIN UTILITY N NORTH YARD LIGHT YARD HYDRANT CONTROL POINT INLET PROTECTION IP\nUNIDENTIFIED N.T.S. NOT TO SCALE\nUTILITY UTILITY PC POINT OF CURVATURE GROUND LIGHT IRRIGATION CONTROL VALVE MONUMENT FOUND STORM SEWER 18\"ST\nUTILITY WATER PI POINT OF INTERSECTION\nPL PROPERTY LINE 8\"SS\nWATER LIMITS OF PT POINT OF TANGENCY BLDG MOUNTED LIGHT IRRIGATION SPRINKLER HEAD MONUMENT SET SANITARY SEWER\nCONSTRUCTION\nPVC POLYVINYL CHLORIDE\nRAILROAD LIMITS OF\nTRACKS DISTURBED AREA P.V.C. POINT OF VERTICAL CURVE STREET LIGHT WELL WITNESS CORNER SANITARY SEWER SERVICE 8\"SS\nPVI POINT OF VERTICAL INTERSECTION\nFLOW LINE\nEROSION CONTORL PVT POINT OF VERTICAL TANGENCY\n8\"SS\nX 1020.12 SPOT ELEVATION POWER POLE MONITORING WELL W COMPUTED CORNER SANITARY SERVICE RISER\nRECORD EARTH BERM RCP REINFORCED CONCRETE PIPE\nROW RIGHT OF WAY H STRUCTURE TABLE SECTION CORNER TIE DROP MANHOLE\nAIR EARTH DIVERSION\nS SOUTH\nEROSION SF SQUARE FEET\nCABLE CONTROL LOG SS SANITARY SEWER H STRUCTURE W/ TRANSFORMER SATELLITE DISH SECTION CORNER SLOTTED UNDER DRAIN 8\"DR\nELECTRIC FENCE ST STORM\nSTA STATION ELECTRIC MANHOLE E MAILBOX MB WATER 2\"W\nFIBER OPTIC FILL DIVERSION STD STANDARD\nSW SIDEWALK\nGAS FLOW ARROW T TELEPHONE ELECTRIC METER E MISCELLANEOUS POINT AIR TAP\nSANITARY INTERCEPTOR TC TOP OF CURB\nSEWER DIKE\nTOF TOP OF FOUNDATION ELECTRIC PEDESTAL VENT V FIRE HYDRANT\nINTERCEPTOR\nSTORM SEWER TOG TOP OF GRADE\nSWALE\nTOI TOP OF ISLAND\nTELEPHONE LEVEL SPREADER TP TOP OF PAVEMENT ELECTRIC PULLBOX TOWER TEE\nUNDERGROUND TS TOP OF SLAB\nLEVEL TERRACE\nPOWER TW TOP OF WALL ELECTRIC TRANSFORMER E PROPANE TANK P BEND\nSEDIMENT TYP. TYPICAL\nUTILITY\nCONTROL LOG\nVERT VERTICAL\nWATER SILT FENCE W WEST ELECTRIC VAULT EV FLAGPOLE REDUCER\nWQCV WATER QUALITY CAPTURE VOLUME\nCUSTOM STRAW WATTLE ELECTRIC WARNING SIGN E AIR CONDITIONING UNIT VALVE GATE\nTEMPORARY DITCH\nCREEK FLOW\nLINE GUY DRINKING FOUNTAIN MANHOLE\nCREEK FLOW PAVEMENT\nDIRECTION\nJOINT A FIBER OPTIC MANHOLE F BBQ PIT BBQ FLARED END SECTION\nEFF LINE\nJOINT B\nFEATURE LINE\nFIBER OPTIC PULL BOX BENCH CURB INLET\nJOINT D\nFLOW LINE\nJOINT E FIBER OPTIC VAULT FV BOLLARD AREA INLET\nGUARD RAIL\nMAIN DRAIN JOINT F\nLINE FIBER OPTIC PEDESTAL F BORE HOLE GRATE INLET\nJOINT G\nRECIRCULATION\nFIBER OPTIC WARNING SIGN E COLUMN ROUND BIORETENTION GARDEN\nJOINT H\nSTREAM\nTREE LINE L JOINT JLC-K FUEL TANK F COLUMN SQUARE\nJOINT JLH-S\nTREE LINE R\nFUEL CAP F VACUUM V\nFLOW LINE\nWATERS EDGE\nFUEL PUMP F\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nL. KRUSE O E\nR P E-11507 LEGEND STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 2 OF 18",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "LINETYPES BLOCKS\nEXISTING PROPOSED\nEXISTING PROPOSED DRAINAGE\nAIR AIR 100 YEAR SANITARY CLEAN OUT CO GAS CURB STOP G TREE DECIDUOUS CONTOUR 1100 PAVEMENT\nCABLE CABLE 500 YEAR\nSANITARY MANHOLE S GAS MANHOLE G TREE CONIFEROUS FUTURE CONTOUR 1100 PC CURB AND GUTER\nCONDUIT CONDUIT 100 YEAR EGL\nCONSTRUCTION CONSTRUCTION 10 YEAR EGL SEWER WARNING SIGN S GAS METER G BUSH EXISTING CONTOUR 1100 RETAINING WALL\nFENCE FENCE\nDRAIN TILES DRAIN TILES 2 YEAR EGL SEPTIC TANK S GAS VALVE BOULDER WETLANDS AREA NOT TO BE X\" PC CONCRETE PAVEMENT\nDISTURBED\nELECTRIC FENCE 5 YEAR EGL\nFENCE BARBED AREA INLET ROUND GAS WARNING SIGN G ARROW LEFT FILL AREA ASPHALT PAVEMENT\nFENCE 100 YEAR HGL\nWIRE\nFENCE BARBED\nWIRE FENCE STEEL 10 YEAR HGL AREA INLET SQUARE TELEPHONE MANHOLE T ARROW RIGHT STABILIZED ACCESS ROAD SIDEWALK PAVEMENT\nFENCE STEEL FENCE WIRE 2 YEAR HGL\nGRATE INLET TELEPHONE PEDESTAL ARROW STRAIGHT VEGETATED BUFFER STRIP PAVING BARRICADE\nFENCE WIRE FENCE WOOD 5 YEAR HGL\nONLY\nFENCE WOOD FIBER OPTICS FLOOD WAY GRATE INLET W/ HOOD TELEPHONE PULLBOX STRIPING \"ONLY\" RIDGE BUILDING\nFIBER OPTICS FLOOD PLAIN\nSTORM MANHOLE D TELEPHONE WARNING SIGN T BICYCLE STRIPING FLOW PATH PARKING STALL COUNT 15\nFLOOD PLAIN FLOW ARROW\nGENERAL ABBREVIATIONS 1000.00\nFLOW ARROW FORCE MAIN STORM PIPE END UNIDENTIFIED MANHOLE U HANDICAP SYMBOL SPOT ELEVATION\nADA AMERICANS WITH DISABILITIES ACT\nFORCE MAIN GAS BC BACK OF CURB\n4' CURB INLET UNIDENTIFIED UTILITY PEDESTAL U TRAFFIC SIGNAL DRAINAGE AREA NAME\nBOSW BACK OF WALK\nGRAVEL AND DIRT\nGAS\nEDGE BP BOTTOM OF PIPE AC.\nGRAVEL AND IRRIGATION BW BOTTOM OF WALL CURB INLET LEFT UNIDENTIFIED VALVE U TRAFFIC SIGNAL PEDESTAL DRAINAGE A C R O E EF A F R IC U IE N N O T FF C=\nDIRT EDGE CATV CABLE TELEVISION TREE CODE, SEE LEGEND\nFOR GENUS-SPECIES\nIRRIGATION NON PO W T A A T B ER LE CF CUBIC FOOT CURB INLET RIGHT UNIDENTIFIED PULLBOX U TRAFFIC SIGNAL PULL BOX TS DRAINAGE BASIN DELINEATION T-1\nCL CENTERLINE 10\nNON POTABLE\nWATER OIL CMP CORRUGATED METAL PIPE QUANTITY\nDRAINAGE SUB BASIN\nCP CONTROL POINT DOWN SPOUT/ROOF DRAIN DS WATER CURB STOP PARKING METER DELINEATION\nOIL OIL AND GAS\nCY CUBIC YARD\nOIL AND GAS OVERHEAD POWER DIA DIAMETER FLARED END SECTION WATER MANHOLE W SIGN TIME OF CONCENTRATION GRA 254 @ 7.85%\nDRAINAGE PATH\nDIP DUCTILE IRON PIPE\nSHRUB CODE, SEE LEGEND\nOVERHEAD OVERHEAD E EAST S-1 FOR GENUS-SPECIES\nPOWER TELEPHONE\nELEV. ELEVATION CONTINUE SYMBOL WATER METER W STOP SIGN STOP WATTLE W 10\nOVERHEAD\nTELEPHONE OVERHEAD UTILITY EOG EDGE OF GRAVEL\nQUANTITY\nOVERHEAD POWER FES FLARED END SECTION CABLE MANHOLE C WATER VALVE YIELD SIGN Y VEHICLE TRACKING PAD\nUTILITY FFE FINISH FLOOR ELEVATION\nFG FINISHED GRADE\nPOWER RAW WATER\nFH FIRE HYDRANT CABLE WARNING SIGN C WATER WARNING SIGN W RR CROSSING ARM TEMPORARY SEEDING TS\nRAW WATER ROOF DRAIN FL FLOWLINE\nG GAS\nCABLE PEDESTAL AUTO SPRINKLER BUILDING BENCHMARK STRAW HAY BALE STB\nROOF DRAIN SANITARY SEWER GB GRADE BREAK\nHP/LP HIGH POINT/LOW POINT\nSANITARY SEWER STORM SEWER HORIZ HORIZONTAL CABLE PULLBOX FIRE HYDRANT TEMPORARY BENCHMARK SLOPE PROTECTION SP\nSTORM SEWER TELEPHONE IE INVERT ELEVATION\nLF LINEAR FEET LIGHT POLE POST INDICATOR VALVE ROW MARKER PERMANENT SEEDING PS\nTELEPHONE UNDER DRAIN MH MANHOLE\nME MATCH EXISTING\nUNIDENTIFIED\nUNDER DRAIN UTILITY N NORTH YARD LIGHT YARD HYDRANT CONTROL POINT INLET PROTECTION IP\nUNIDENTIFIED N.T.S. NOT TO SCALE\nUTILITY UTILITY PC POINT OF CURVATURE GROUND LIGHT IRRIGATION CONTROL VALVE MONUMENT FOUND STORM SEWER 18\"ST\nUTILITY WATER PI POINT OF INTERSECTION\nPL PROPERTY LINE 8\"SS\nWATER LIMITS OF PT POINT OF TANGENCY BLDG MOUNTED LIGHT IRRIGATION SPRINKLER HEAD MONUMENT SET SANITARY SEWER\nCONSTRUCTION\nPVC POLYVINYL CHLORIDE\nRAILROAD LIMITS OF\nTRACKS DISTURBED AREA P.V.C. POINT OF VERTICAL CURVE STREET LIGHT WELL WITNESS CORNER SANITARY SEWER SERVICE 8\"SS\nPVI POINT OF VERTICAL INTERSECTION\nFLOW LINE\nEROSION CONTORL PVT POINT OF VERTICAL TANGENCY\n8\"SS\nX 1020.12 SPOT ELEVATION POWER POLE MONITORING WELL W COMPUTED CORNER SANITARY SERVICE RISER\nRECORD EARTH BERM RCP REINFORCED CONCRETE PIPE\nROW RIGHT OF WAY H STRUCTURE TABLE SECTION CORNER TIE DROP MANHOLE\nAIR EARTH DIVERSION\nS SOUTH\nEROSION SF SQUARE FEET\nCABLE CONTROL LOG SS SANITARY SEWER H STRUCTURE W/ TRANSFORMER SATELLITE DISH SECTION CORNER SLOTTED UNDER DRAIN 8\"DR\nELECTRIC FENCE ST STORM\nSTA STATION ELECTRIC MANHOLE E MAILBOX MB WATER 2\"W\nFIBER OPTIC FILL DIVERSION STD STANDARD\nSW SIDEWALK\nGAS FLOW ARROW T TELEPHONE ELECTRIC METER E MISCELLANEOUS POINT AIR TAP\nSANITARY INTERCEPTOR TC TOP OF CURB\nSEWER DIKE\nTOF TOP OF FOUNDATION ELECTRIC PEDESTAL VENT V FIRE HYDRANT\nINTERCEPTOR\nSTORM SEWER TOG TOP OF GRADE\nSWALE\nTOI TOP OF ISLAND\nTELEPHONE LEVEL SPREADER TP TOP OF PAVEMENT ELECTRIC PULLBOX TOWER TEE\nUNDERGROUND TS TOP OF SLAB\nLEVEL TERRACE\nPOWER TW TOP OF WALL ELECTRIC TRANSFORMER E PROPANE TANK P BEND\nSEDIMENT TYP. TYPICAL\nUTILITY\nCONTROL LOG\nVERT VERTICAL\nWATER SILT FENCE W WEST ELECTRIC VAULT EV FLAGPOLE REDUCER\nWQCV WATER QUALITY CAPTURE VOLUME\nCUSTOM STRAW WATTLE ELECTRIC WARNING SIGN E AIR CONDITIONING UNIT VALVE GATE\nTEMPORARY DITCH\nCREEK FLOW\nLINE GUY DRINKING FOUNTAIN MANHOLE\nCREEK FLOW PAVEMENT\nDIRECTION\nJOINT A FIBER OPTIC MANHOLE F BBQ PIT BBQ FLARED END SECTION\nEFF LINE\nJOINT B\nFEATURE LINE\nFIBER OPTIC PULL BOX BENCH CURB INLET\nJOINT D\nFLOW LINE\nJOINT E FIBER OPTIC VAULT FV BOLLARD AREA INLET\nGUARD RAIL\nMAIN DRAIN JOINT F\nLINE FIBER OPTIC PEDESTAL F BORE HOLE GRATE INLET\nJOINT G\nRECIRCULATION\nFIBER OPTIC WARNING SIGN E COLUMN ROUND BIORETENTION GARDEN\nJOINT H\nSTREAM\nTREE LINE L JOINT JLC-K FUEL TANK F COLUMN SQUARE\nJOINT JLH-S\nTREE LINE R\nFUEL CAP F VACUUM V\nFLOW LINE\nWATERS EDGE\nFUEL PUMP F\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nL. KRUSE O E\nR P E-11507 LEGEND STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 2 OF 18",
+     ""
+    ],
+    [
+     "",
+     "",
+     "T\nSTIREK/SMITH\nSHEET\n83\n2 OF 18"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 18,
+   "header_row": 0,
+   "headers": [
+    "GENERAL CONSTRUCTION NOTES STORM SEWER CONSTRUCTION NOTES UTILITY NOTES\n1. THE TIME LIMIT TO COMPLETE ALL WORK SHALL BE 40 WORKING DAYS. 1. ALL STORM SEWER WORK, INCLUDING CONSTRUCTION METHODS, MATERIALS, AND INSPECTION, SHALL BE IN ACCORDANCE WITH THE CITY OF 1. CONTRACTOR TO NOTIFY NEBRASKA ONE-CALL HOTLINE A MINIMUM OF 72 HOURS PRIOR TO EXCAVATION AT (402) 334-3565 OR (800)\nOMAHA STANDARD SPECIFICATIONS FOR PUBLIC WORKS CONSTRUCTION, CURRENT EDITION. 331-5666.\n2. ALL PROJECT PROCEDURES, MATERIALS, BONDS AND RESERVES SHALL CONFORM TO THE CITY OF OMAHA SPECIFICATIONS FOR PUBLIC\nWORKS CONSTRUCTION 2026 EDITION AND ANY ADDITIONS THERETO. IT WILL BE THE RESPONSIBILITY OF THE CONTRACTOR TO BE AWARE 2. THE CONTRACTOR MUST ENSURE ALL STORM SEWER LINES, MANHOLES, AND INLETS ARE CLEANED OF DEBRIS (LEAVES, STONE, CONCRETE, 2. EXISTING UTILITIES IN THE PROJECT AREA MAY BE IN FRAGILE CONDITION. THE CONTRACTOR SHALL EXERCISE NECESSARY CAUTION AND\nOF THE CONTENTS OF THE AFOREMENTIONED SPECIFICATIONS. THE AFOREMENTIONED PUBLICATION CAN BE FOUND AT DIRT, ETC.) PRIOR TO THE APPLICANT TAKING OWNERSHIP. PROVIDE ADEQUATE PROTECTION WHEN WORKING NEAR EXISTING UTILITIES.\nHTTPS://PUBLICWORKS.CITYOFOMAHA.ORG/CONTRACTORS-CONSULTANTS.\n3. CONTRACTOR TO SCHEDULE COORDINATION MEETING WITH UTILITY COMPANIES PRIOR TO CONSTRUCTION. CONTRACTOR TO OBTAIN\n3. THE CONTRACTOR MUST ENSURE ALL STORM SEWER PIPE USED FOR CONSTRUCTION HAS BEEN CERTIFIED BY THE AMERICAN CONCRETE\n3. THE INSPECTOR SHALL CERTIFY THE CONTRACTOR ADHERES TO AND MEETS THE CONSTRUCTION SPECIFICATIONS AND PLANS; PIPE ASSOCIATION (ACPA). ALL PIPES MUST DISPLAY THE Q-CAST SYMBOL TO VERIFY THE MANUFACTURER HAS MET THE ACPA'S AS-BUILTS AND SECTION MAPS FROM ALL UTILITIES. UTILITIES SHOWN ARE APPROXIMATE AND BASED ON BEST AVAILABLE INFORMATION\nMAINTENANCE, WORKMANSHIP, AND TESTING STANDARDS; AND ANY APPLICABLE REQUIREMENTS. CERTIFICATION PROGRAM. VISUAL INSPECTIONS FOR DEFECTS SHALL CONTINUE TO TAKE PLACE ON SITE. AT THE TIME OF DESIGN. NOT ALL UTILITIES ARE SHOWN. PLANS MAY NOT ACCURATELY INDICATE SIZE, LOCATION, AND/OR ELEVATION OF\nUTILITIES. CONTRACTOR TO FIELD VERIFY OR POTHOLE IF THE EXISTING UTILITIES ARE IN CLOSE PROXIMITY TO SEWER LINES AND/OR\n4. APPROVAL MUST BE OBTAINED FROM THE CITY OF OMAHA PUBLIC WORKS DEPARTMENT FOR ALL APPLICABLE PUBLIC IMPROVEMENTS 4. ALL REINFORCED CONCRETE PIPE 30-INCHES AND LESS IN DIAMETER SHALL CONFORM TO ASTM-76 WALL B, CLASS III. ALL REINFORCED STRUCTURES. IF A CONFLICT IS IDENTIFIED, CONTRACTOR TO CONTACT CONSTRUCTION MANAGER 14 DAYS IN ADVANCE OF ALL\nPRIOR TO THE COMMENCEMENT OF CONSTRUCTION. THE CONTRACTOR SHALL ENSURE THE PROJECT HAS BEEN APPROVED PRIOR TO CONSTRUCTION IN THE AREA.\nCONCRETE PIPE 34-INCHES AND GREATER IN DIAMETER SHALL CONFORM TO ASTM-76, WALL B, LOAD (D0.01=1,350 LBS.)\nSTARTING WORK.\n4. UTILITIES ARE SHOWN AS A CONVENIENCE FOR THE CONTRACTOR. NEITHER THE ENGINEER NOR THE CITY GUARANTEE THE ACCURACY OF\n5. NO STORM SEWER CONNECTIONS SHALL BE MADE TO PRIVATE LOTS OR PRIVATE STORM SEWER PRIOR TO FINAL ACCEPTANCE BY THE CITY\n5. THE CONTRACTOR AND INSPECTOR SHALL ENSURE ALL IMPACTED GOVERNMENT AGENCIES (CITY OF OMAHA, DOUGLAS COUNTY, STATE OF SUCH INFORMATION. LOCATIONS OF ALL AERIAL AND UNDERGROUND UTILITIES MAY NOT BE INDICATED ON THESE PLANS. UNDERGROUND\nOF OMAHA CONSTRUCTION DIVISION; MATT GROSSE (PHONE: 402-444-5282; EMAIL: MATTHEW.GROSSE@CITYOFOMAHA.ORG)\nNEBRASKA, CORPS OF ENGINEERS, PAPIO - MISSOURI RIVER NATURAL RESOURCE DISTRICT, UNITED STATES FEDERAL GOVERNMENT, ETC.) UTILITIES, WHETHER INDICATED OR NOT, WILL BE LOCATED AND FLAGGED BY THE UTILITY COMPANIES AT THE CONTRACTOR'S REQUEST. NO\nHAVE GRANTED ALL APPLICABLE PERMISSION TO PROCEED WITH CONSTRUCTION PRIOR TO MOBILIZATION. FURTHERMORE, 48 HOURS PRIOR 6. ALL INLET STRUCTURES WILL BE LOCATED IN THE FIELD BY THE ENGINEER. EXCAVATION WILL BE PERMITTED IN THE AREA OF UNDERGROUND UTILITIES UNTIL ALL FACILITIES HAVE BEEN LOCATED AND IDENTIFIED TO\nTO THE COMMENCEMENT OF CONSTRUCTION, THE INSPECTOR SHALL NOTIFY ALL CONCERNED PARTIES THAT WORK WILL BE PRECEDING THE SATISFACTION OF ALL PARTIES AND THEN ONLY WITH EXTREME CARE TO AVOID ANY DAMAGE TO THE UTILITIES. ANY UTILITY DAMAGED\nWITHIN EACH IMPACTED GOVERNMENT AGENCY JURISDICTIONAL BOUNDARY. 7. CURB INLETS SHALL BE CONSTRUCTED IN CONFORMANCE WITH CITY OF OMAHA STANDARD PLATE NO. 702-09; WITH STANDARD COVER BY THE CONTRACTOR DUE TO HIS OPERATIONS SHALL BE REPAIRED BY THE CONTRACTOR AT HIS EXPENSE.\nCASTING, RING CASTINGS, AND STEPS IN CONFORMANCE WITH STANDARD PLATE NO. 700-06. INLET COVERS SHALL BE CONSTRUCTED\n6. CONSTRUCTION FOUND TO BE UNACCEPTABLE TO THE CITY OF OMAHA PUBLIC WORKS DEPARTMENT SHALL BE REMOVED AND REPLACED WITH ARMOR FACING IN CONFORMANCE WITH CITY OF OMAHA STANDARD PLATE NO. 702-10. 5. CONTRACTOR SHALL ADJUST GAS AND WATER SERVICE CONNECTIONS AS NECESSARY TO ALLOW FOR CONSTRUCTION OF SEWERS AND/OR\nAT THE CONTRACTORS EXPENSE. STRUCTURES. DIRECT PAYMENT WILL NOT BE MADE AND SHOULD BE CONSIDERED SUBSIDIARY TO THE ITEMS FOR WHICH THE CONTRACT\n8. ADDITIONAL CRUSHED ROCK BEDDING FOR THE SEWERS SHALL BE PLACED AT LOCATIONS WHERE UNSTABLE TRENCH BOTTOM CONDITIONS PROVIDES DIRECT PAYMENT.\n7. THE INSPECTOR SHALL NOTIFY THE FOLLOWING CITY OF OMAHA PUBLIC WORKS DEPARTMENT PERSONNEL 48 HOURS PRIOR TO ALL ARE ENCOUNTERED IN ACCORDANCE WITH SUBSECTION 700.02 OF THE STANDARD SPECIFICATIONS, AS APPROVED BY THE ENGINEER PER\nPRECONSTRUCTION MEETINGS AND 48 HOURS PRIOR TO THE START OF ANY CONSTRUCTION: MATT GROSSE (PHONE: 402-444-5282; STANDARD PLATE NO. 701-01. 6. UPON SUBMITTING BID, THE CONTRACTOR AGREES THAT CONSIDERATION OF THE LOCATION OF ALL IDENTIFIED OR UNIDENTIFIED UTILITIES\nEMAIL: MATTHEW.GROSSE@CITYOFOMAHA.ORG) AND TRAFFIC MAINTENANCE (PHONE: 402-444-3412). IS INCLUDED IN THE CONTRACT PRICE. THE CONTRACTOR AGREES THAT THE CITY WILL NOT PROVIDE ANY ADDITIONAL COMPENSATION FOR\n9. ALL STORM SEWER PIPE SHALL BE BEDDED IN ACCORDANCE WITH STANDARD PLATE NO. 701-01. SOIL BEDDING IS NOT ACCEPTABLE. DELAYS, INCONVENIENCES, OR DAMAGES CAUSED BY THE INTERFERENCE AND RELOCATION OF CONFLICTING UTILITIES AND/OR PLANNED\n8. THE INSPECTOR SHALL SUBMIT WEEKLY PROGRESS REPORTS TO THE FOLLOWING CITY OF OMAHA PUBLIC WORKS DEPARTMENT EMPLOYEE IMPROVEMENTS.\nNO LATER THAN THE FOLLOWING WEEK ENDING DATE: MATT GROSSE (PHONE: 402-444-5282; EMAIL: 10. JOINTS FOR STORM SEWER PIPES ARE REQUIRED TO HAVE A FABRICATED GASKET OR BITUMASTIC SEALANT.\n7. THE CONTRACTOR SHALL, PRIOR TO BEGINNING CONSTRUCTION OF ANY NEW UNDERGROUND FACILITIES, LOCATE, UNCOVER, AND\nMATTHEW.GROSSE@CITYOFOMAHA.ORG).\n11. ALL STORM SEWER PIPE INSTALLED UNDER THIS PROJECT SHALL BE INSPECTED BY T.V. CAMERA BY AN INDEPENDENT SEWER INSPECTION DETERMINE THE HORIZONTAL AND VERTICAL LOCATION OF ALL EXISTING UNDERGROUND FACILITIES WHICH MAY POTENTIALLY CONFLICT WITH\n9. THE INSPECTOR SHALL NOTIFY THE FOLLOWING CITY OF OMAHA PUBLIC WORKS DEPARTMENT PERSONNEL 48 HOURS PRIOR TO LANE SERVICE. THE T.V. INSPECTION WILL BE PAID FOR BY THE OWNER. HIS/HER WORK OR ARE TO BE INCORPORATED INTO THE NEW WORK. BEFORE PROCEEDING, THE CONTRACTOR SHALL SATISFY\nCLOSURES AND 24 HOURS PRIOR TO LANE RESTRICTIONS: MATT GROSSE (PHONE: 402-444-5282; EMAIL: HIS/HERSELF THAT A CONFLICT DOES NOT EXIST AND THAT THE UNDERGROUND WORK CAN BE PERFORMED AS SHOWN ON THE PLANS. IF,\n12. THE CONTRACTOR IS REFERRED TO THE FOLLOWING CITY OF OMAHA STANDARD PLATES: IN THE OPINION OF THE CONTRACTOR, A CONFLICT DOES EXIST, THE CONTRACTOR SHALL IMMEDIATELY NOTIFY THE ENGINEER. THE\nMATTHEW.GROSSE@CITYOFOMAHA.ORG) AND TRAFFIC MAINTENANCE (PHONE: 402-444-5160).\nCONTRACTOR WILL RECEIVE NO ADDITIONAL COMPENSATION FOR ANY DELAYS OR WORK RESULTING FROM A CONFLICT WHICH WAS NOT\n700-01 CONCRETE COLLAR AND CRADLE THOROUGHLY INVESTIGATED PRIOR TO PROCEEDING WITH THE WORK. THE CONTRACTOR MAY REQUEST ADDITIONAL COMPENSATION FOR\n10. ALL OPERATIONS CONDUCTED WITHIN THE CITY OF OMAHA LIMITS, INCLUDING THE WARMING-UP, REPAIR, ARRIVAL, DEPARTURE, OR\n700-05 CAST IRON MANHOLE RINGS AND COVERS (2 SHEETS) ANY ADDITIONAL WORK PERFORMED TO DIRECTLY RESOLVE THE CONFLICT AS DIRECTED IN WRITING BY THE CONSTRUCTION MANAGER.\nRUNNING OF TRUCKS, EARTHMOVING EQUIPMENT, CONSTRUCTION EQUIPMENT, AND ANY OTHER ASSOCIATED EQUIPMENT SHALL BE LIMITED\n701-01 SEWER BEDDING\nTO THE PERIOD BETWEEN 7:00 A.M. AND 6:00 P.M. MONDAY THROUGH FRIDAY; AND, NO EARTHMOVING OR GRADING OPERATIONS SHALL\n702-09 CURB INLETS 8. THE CONTRACTOR SHALL, PRIOR TO BEGINNING CONSTRUCTION OF ANY NEW UNDERGROUND FACILITIES, LOCATE, UNCOVER, AND VERIFY\nBE CONDUCTED ON THE PREMISES ON SUNDAYS OR LEGAL HOLIDAYS, UNLESS WAIVED BY THE INSPECTOR AND CITY OF OMAHA PUBLIC\n702-12 FLARED END SECTIONS AND BAR GRATES THE HORIZONTAL AND VERTICAL LOCATION OF THE RECORD SANITARY SEWER, AND REPORT ANY DISCREPANCIES OR CONFLICTS TO THE\nWORKS DEPARTMENT.\nENGINEER.\n13. INLETS AND MANHOLES SHALL BE LOCATED IN ACCORDANCE WITH THE COORDINATES SHOWN. THE LENGTHS OF PIPES MAY VARY\n11. THE CONTRACTOR SHALL TAKE ALL PRECAUTIONARY MEASURES NECESSARY TO PROTECT EXISTING STRUCTURES AND STREET\nACCORDINGLY.\nIMPROVEMENTS WHICH ARE TO REMAIN IN PLACE, FROM DAMAGE, AND ALL SUCH IMPROVEMENTS OR STRUCTURES DAMAGED BY THE\nCONTRACTOR'S OPERATIONS SHALL BE REPAIRED OR REPLACED SATISFACTORY TO THE INSPECTOR AND OWNING UTILITY COMPANY AT THE SANITARY SEWER NOTES\n14. THE CONTRACTOR SHALL, PRIOR TO BEGINNING CONSTRUCTION OF PROPOSED UNDERGROUND FACILITIES, VERIFY THE BOTTOM OF CHANNEL\nEXPENSE OF THE CONTRACTOR.\nELEVATION AT ALL PROPOSED STORM SEWER OUTLET STRUCTURES, AND REPORT ANY DISCREPANCY TO THE ENGINEER.\n1. MANHOLES SHALL BE LOCATED IN ACCORDANCE WITH THE COORDINATES SHOWN. THE LENGTH OF PIPE BETWEEN MANHOLES MAY VARY\n12. ALL CONSTRUCTION SHALL BE AS SHOWN ON THESE PLANS. ANY REVISIONS SHALL HAVE THE PRIOR WRITTEN APPROVAL OF THE ACCORDINGLY.\n15. TRENCH BACKFILL SHALL BE COMPACTED PER THE COMPACTION REQUIREMENTS TABLE ON THIS SHEET.\nDESIGNER AND CITY OF OMAHA PUBLIC WORKS DEPARTMENT.\n2. THE CONTRACTOR IS REFERRED TO THE FOLLOWING CITY OF OMAHA STANDARD PLATES:\n16. THE CONTRACTOR SHALL PLACE A WOODEN 2\" X 2\" MARKER AT THE END OF EACH PIPE WHICH TERMINATES AT A PIPE PLUG.\n13. CONSTRUCTION MAY REQUIRE THE DISTURBANCE OF EXISTING, DRAINAGE AND EROSION CONTROL MEASURES. THE CONTRACTOR SHALL\nMAKE THEMSELVES AWARE OF THE EXISTING DRAINAGE AND EROSION CONTROL MEASURES PRIOR TO BIDDING THIS WORK. A COPY OF 700-03 PIPE PLUG\nTHE GRADING AND EROSION CONTROL PLAN IS AVAILABLE FOR REVIEW AT THE OFFICE OF THE DESIGNER AND INSPECTOR. THE 17. THE CONTRACTOR SHALL BACKFILL COMPLETED PORTIONS OF CONSTRUCTED SEWER AT THE END OF EACH DAY. EXCAVATION TRENCH 701-01 SEWER BEDDING\nFUNCTION OF THESE ITEMS MUST BE MAINTAINED THROUGHOUT CONSTRUCTION WITH EMPHASIS PLACED ON RESTORING THEIR INTEGRITY REMAINING OPEN SHALL NOT EXCEED 25 LF. THE CONTRACTOR SHALL PLACE SNOW FENCE AROUND EXCAVATION REMAINING OPEN. 703-05 SANITARY SEWER SERVICE RECONNECTION-RELOCATION\nPRIOR TO ANY RAINFALL EVENT. EROSION CONTROL IMPROVEMENTS HAVE BEEN CONSTRUCTED ON THIS SITE, INCLUDING TERRACES, SILT\nFENCING, AND TEMPORARY SEDIMENT BASINS. THE CONTRACTOR SHALL BE RESPONSIBLE FOR PROMPT RECONSTRUCTION OF ANY EROSION 18. THE \"OMAHA REGIONAL STORM WATER DESIGN MANUAL\" SHALL APPLY TO THIS CONSTRUCTION. 3. THE SLOPE ON 6\" & 8\" SANITARY SEWER SERVICES SHALL BE BETWEEN 1/4\" PER FOOT AND 3/8\" PER FOOT, UNLESS NOTED\nCONTROL IMPROVEMENTS DISTURBED BY HIS OPERATIONS. ALL DISTURBED EROSION CONTROL IMPROVEMENTS SHALL BE FULLY OTHERWISE.\nRECONSTRUCTED AT THE END OF EACH WORKING DAY PRIOR TO LEAVING THE SITE. 19. ANY FITTINGS OR CONNECTIONS REQUIRED TO CONSTRUCT SEWER PIPE SHALL BE SUBSIDIARY TO THE BID ITEMS.\n4. THE CONTRACTOR SHALL PLACE AT THE END OF EACH SEWER SERVICE STUB A 2\"X2\" WOODEN STAKE EXTENDING FROM THE BOTTOM OF\n14. ELEVATIONS ARE REFERENCE TO NAVD88 (GEOID-12A). THE STUB OUT TO A POINT 12- INCHES BELOW THE FINISH GRADE. IN ADDITION, THE STUB OUT LOCATION SHALL BE MARKED WITH\n1-1/4\" \u00b1 WIDE LIME GLOW GREEN PLASTIC SURVEYOR'S FLAGGING. SEE SPECIAL CONDITIONS FOR FURTHER DETAILS.\n15. CONTRACTOR SHALL ADJUST ALL NEW AND EXISTING INLETS, VALVE BOXES, MANHOLE RIMS, AND SEWER CLEAN OUTS, ETC. TO FINISH\nPCC PAVING NOTES\nGRADE AS APPLICABLE WHETHER OR NOT THEY ARE SHOWN ON THE PLANS. 5. THE CONTRACTOR SHALL PROVIDE THE ENGINEER WITH A \"CONSTRUCTION RECORD\" SET OF DRAWINGS SHOWING LENGTH OF PIPES, WYE\nLOCATIONS AND TIES TO AND DEPTH OF THE ENDS OF ALL SEWER SERVICES.\n16. THE CONTRACTORS SHALL ADHERE TO GOOD HOUSEKEEPING BEST MANAGEMENT PRACTICES AT ALL TIMES. GOOD HOUSEKEEPING BEST 1. ALL PAVING ELEVATIONS ARE AT TOP OF SLAB UNLESS NOTED OTHERWISE.\nMANAGEMENT PRACTICES FOCUS ON KEEPING THE WORK SITE CLEAN AND ORDERLY WHILE HANDLING MATERIALS AND WASTE IN A MANNER 2. ALL PAVING SHALL BE CONSTRUCTED WITH NORMAL CROWN UNLESS NOTED OTHERWISE. 6. THE CONTRACTOR SHALL PERFORM AIR OR WATER LEAKAGE TESTS IN ACCORDANCE WITH CITY OF OMAHA SPECIFICATIONS.\nTHAT ELIMINATES THE POTENTIAL FOR POLLUTANT RUNOFF.\n3. CURBS SHALL BE TYPE \"A\" IN ACCORDANCE WITH CITY OF OMAHA STANDARD PLATE 502-01 UNLESS NOTED OTHERWISE. 8. ALL SEWER MAINS SHALL BE INSPECTED BY CLOSED CIRCUT TELEVISION (CCTV) IN ACCORDNACE WITH THE CITY OF OMAHA STANDARD\n17. THE CONSTRUCTION DOCUMENTS (E.G., CONTRACT, PW-55 BOND, INSURANCE CERTIFICATE, SPECIFICATIONS, AND CONSTRUCTION PLANS) SPECIFICATIONS. ALL CCTV FOOTAGE AND AN ASSOCIATED REPORT SHALL BE PROVIDED TO THE ENGINEER FOR SUBMITTAL TO THE CITY\nARE ESSENTIAL AND A REQUIREMENT IN ONE PART IS AS BINDING AS THOUGH OCCURRING IN ALL. THUS, THE CONSTRUCTION 4. PAVEMENT SUBGRADE TO A DEPTH OF 12 INCHES AND TO A WIDTH OF 3 FEET OUTSIDE PAVEMENT EDGES SHALL BE COMPACTED AS OF OMAHA. ALL DOCUMENTATION SHALL BE IN ACCORDNACE WITH THE CITY OF OMAHA STANDARD SPECIFICATIONS. ALL ORIGINAL\nDOCUMENTS ARE COMPLEMENTARY IN NATURE. THE DOCUMENTS DESCRIBE AND PROVIDE THE COMPLETE CONSTRUCTION PROJECT. THE SPECIFIED IN THE COMPACTION REQUIREMENTS TABLE ON THIS SHEET. TELEVISION INSPECTION WILL BE PAID FOR BY THE OWNER.\nCONTRACTOR MAY NOT TAKE ADVANTAGE OF ANY APPARENT CONSTRUCTION PROJECT ERRORS OR OMISSIONS. THE CONTRACTOR SHALL\nNOTIFY THE INSPECTOR PROMPTLY OF ANY OMISSIONS OR ERRORS. IN THE CASE OF A DISCREPANCY BETWEEN PARTS OF THE 5. BACKFILL BEHIND CURBS SHALL BE COMPACTED AS SPECIFIED IN THE \"CITY OF OMAHA STANDARD SPECIFICATIONS FOR PUBLIC WORKS\n9. TRENCH BACKFILL SHALL BE COMPACTED AS SHOWN IN THE COMPACTION REQUIREMENTS TABLE. (SEE THIS SHEET)\nCONSTRUCTION DOCUMENTS, THE MOST STRINGENT CONSTRUCTION METHODOLOGY SHALL RULE. CONSTRUCTION, 2026 EDITION\" AND THE TABLE ON THIS SHEET.\n10. CONCRETE FOR MANHOLES AND PIPE SHALL BE OPW 4000. THE CEMENT FOR MANHOLE GROUT SHALL BE THE SAME AS THAT FOR\n18. DETECTABLE WARNING PANELS INSTALLED FOR ADA CONCRETE CURB RAMPS WILL BE REQUIRED TO USE A NATURAL UNFINISHED CAST 6. THE CONTRACTOR IS REFERRED TO THE FOLLOWING CITY OF OMAHA STANDARD PLATES:\nMANHOLE CONCRETE AND SHALL MEET THE REQUIREMENTS OF THE CITY OF OMAHA STANDARD SPECIFICATIONS FOR PUBLIC WORKS\nIRON DETECTABLE WARNING PANEL. APPROVED PRODUCTS FOR USE WITHIN THE CITY OF OMAHA AND IT'S THREE MILE EXTRATERRITORIAL 501-01 CONCRETE PAVEMENT JOINTS CONSTRUCTION.\nJURISDICTION CAN BE FOUND ON THE CITY OF OMAHA PUBLIC WORKS WEBSITE AT\n501-02 CONCRETE PAVEMENT WIDENING AND MISCELLANEOUS\nHTTPS://PUBLICWORKS.CITYOFOMAHA.ORG/CONTRACTORS-CONSULTANTS2/ 501-04 CONCRETE MEDIANS 11. ALL PIPE SHALL BE BEDDED IN ACCORDANCE WITH THE DETAILS SHOWN ON CITY OF OMAHA STANDARD PLATE 701-01.\nCONTRACTORS/STANDARD-PLATES-CURB-RAMPS-AND-SPECIFICATIONS/2-UNCATEGORIZED/ 501-05 38' 3 LANE CONCRETE PAVEMENT\n2623-DETECTABLE-WARNING-PANELS-FOR-ADA-CONCRETE-CURB-RAMPS. 502-01 CONCRETE CURBS\n7. CONCRETE FOR PAVING SHALL BE PROPORTIONED USING PORTLAND CEMENT MEETING THE REQUIREMENTS OF ASTM C-150, TYPE I. COMPACTION REQUIREMENTS TABLE\n19. THE CONTRACTOR SHALL CONTACT THE CITY OF OMAHA TRAFFIC MAINTENANCE (402-444-3412) TO COORDINATE THE PROTECTION OF\nUNLESS OTHERWISE NOTED ON THESE PLANS, CONCRETE FOR PAVEMENT AND DRIVEWAYS SHALL BE TYPE W OAPTWE R3 5R0E0D. UCING\nTRAFFIC SIGNAL POLES, PEDESTRIAN PUSHBUTTON POLES, AND UNDERGROUND TRAFFIC SIGNAL FACILITIES. THE CONTRACTOR SHALL\nADMIXTURE SHALL BE ADDED TO ALL HAND PLACED AND FINISHED CONCRETE, TYPE \"A\" INTEGRAL CURB AND SUBGRADE PREPARATION TABLE 200.01\nENSURE THAT ALL TRAFFIC SIGNAL CONDUITS ARE A MINIMUM OF 30 INCHES BELOW FINISHED GRADE OF NEW IMPROVEMENTS. IF THE\nSHALL BE INCIDENTAL TO DIRECT PAY ITEMS.\nTRAFFIC SIGNAL COMMUNICATION IS SEVERED FOR ANY REASON, THE CONTRACTOR SHALL PAY ALL COSTS TO REPAIR THE COMMUNICATION\nLINE AND PROVIDE TEMPORARY WIRELESS COMMUNICATION (IF NECESSARY) AT THE DIRECTION OF THE CITY OF OMAHA AND AT NO COST 8. CONCRETE PAVEMENT SHALL BE CURED USING A WHITE PIGMENTED LIQUID MEMBRANE FORMING CURING COMPOUND THAT HAS BEEN (FROM THE CITY OF OMAHA STANDARD SPECIFICATIONS FOR PUBLIC WORKS\nTO THE CITY. APPROVED BY THE NEBRASKA DEPARTMENT OF ROADS. THE MINIMUM RATE OF APPLICATION SHALL BE 200 SQ. FT. PER GAL. IF A CONSTRUCTION 2026)\nMECHANICAL POWERED SPRAYER IS USED, AND 100 SQ. FT. PER GAL. IF A HAND POWERED SPRAYER IS USED.\n20. WITHIN THE CITY OF OMAHA LIMITS, THE CITY OF OMAHA TRAFFIC MAINTENANCE DEPARTMENT WILL PROVIDE AND INSTALL ALL STREET DEPTH BELOW\nSIGNAGE REQUIRED FOR A PROJECT IN ACCORDANCE WITH MUTCD STANDARDS WHETHER SHOWN ON THE PLANS OR NOT. THE CITY OF 9. THE CONTRACTOR SHALL DISPOSE OF ALL UNSUITABLE MATERIALS ENCOUNTERED IN THE REMOVAL AND GRADING OPERATIONS OFF THE DESCRIPTION LOCATION (TYPICAL) PAVEMENT OR MINIMUM COMPACTIONACCEPTABLE MOISTURE\nPROJECT SITE, INCLUDING CONCRETE, ASPHALT, OIL MAT, BRICK, ROCK ETC. NO UNSUITABLE MATERIAL AS DETERMINED BY THE ENGINEER, REQUIREMENT RANGE\nOMAHA TRAFFIC DEPARTMENT WILL BILL THE OWNER THE COSTS INCURRED BY THE CITY FOR ALL MATERIAL AND LABOR FOR SIGNAGE FINISHED GRADE\nSHALL BE USED FOR BACKFILLING OR EMBANKMENT CONSTRUCTION. THE COST FOR DISPOSAL OF UNSUITABLE MATERIAL SHALL BE\nINSTALLATION. THE CONTRACTOR SHALL GIVE THE TRAFFIC MAINTENANCE DEPARTMENT (402-444-3412) A MINIMUM OF TWO (2) WEEKS'\nSUBSIDIARY TO THE PROJECT. UNDER AND WITHIN 3'\nNOTICE TO SCHEDULE THE STREET SIGNAGE INSTALLATION. PROJECTS OUTSIDE THE CITY OF OMAHA LIMITS WILL NEED TO CONTACT THE\nDOUGLAS COUNTY ENGINEER'S OFFICE FOR STREET SIGNAGE REQUIREMENTS. 10. PAVING WIDTHS SHALL BE AS SHOWN ON THE PLANS. SUBGRADE O PA F V E E D M G E E N T O ; F U R N IG D I E D R BOTTOM OF PAVEMEN9T0% OF MAXIMUM DRY 3 A % B O BE VE LO O W PT T IM O U 4 M %\nPREPARATION DRIVEWAYS, TO 1' BELOW DENSITY (MOD) (ASTM MOISTURE CONTENT\n21. THE CONTRACTOR SHALL REFER TO THE CURRENT CITY OF OMAHA STANDARD PLATES AS REFERENCED IN THESE PLANS. 11. A DIAMOND EDGE SAW BLADE SHALL BE USED FOR CUTTING ALL REQUIRED CONSTRUCTION AND LONGITUDINAL PAVEMENT JOINTS. ALL SAW PAVEMENT D1557)\nMULTI-USE TRAILS, (TYPICAL)\nCUTS (INCLUDING THOSE FULL DEPTH CUTS NECESSARY TO REMOVE PAVEMENT) SHALL BE SUBSIDIARY TO ITEMS FOR WHICH DIRECT\n22. THE COST OF SHEETING, SHORING OR BRACING AND DEWATERING REQUIRED TO CONSTRUCT THIS PROJECT SHALL BE SUBSIDIARY TO PAYMENT IS MADE. SIDEWALKS*\nITEMS FOR WHICH DIRECT PAYMENT IS MADE. 12. BASED ON THE CURRENT SCHEDULE OF THIS PROJECT BEING COMPLETED IN 2026, THE CONTRACTOR MAY NEED TO APPLY COLD WEATHER UNDER AND WITHIN 3 B ' OTTOM OF PAVEMEN9T2% OF MAXIMUM DRY 3% BELOW TO 4%\n23. THE CONTRACTOR IS RESPONSIBLE TO ENSURE ALL EXCAVATIONS ARE MADE IN ACCORDANCE WITH THE OCCUPATIONAL SAFETY AND P G R UI O D T A E N C CE T . ION TO THE PAVEMENT. REFER TO SECTION 1002 OF THE CITY OF OMAHA SPECIFICATIONS FOR PUBLIC WORKS CONSTRUCTION FOR P S R U E B P G A R R A A D T E ION OF P A E V D E G M E E N O T FF ; L U E N X D I E B R LE TO 1' BELOW DENSITY (MOD) (ASTM MO AB IS O T V U E R E O P C T O I N M T U E M NT\nPAVEMENT D1557)\nHEALTH ADMINISTRATION (OSHA) CONSTRUCTION STANDARDS - 29 CRF PART 1926, SUBPART P-EXCAVATIONS AS PUBLISHED IN THE MULTI-USE TRAILS (TYPICAL)\nFEDERAL REGISTER, VOL. 54, 209, TUESDAY, OCTOBER 31, 1989, RULES AND REGULATIONS.\nBACK OF CURBS;\n3% BELOW TO 4%\nADJACENT TO FINISHED TOP OF FINISHED 92% OF MAXIMUM DRY\n24. THE CONTRACTOR SHALL RESTRICT ALL CONSTRUCTION OPERATIONS TO WITHIN THE PUBLIC RIGHT-OF-WAY AND THOSE CONSTRUCTION SHOULDER ABOVE OPTIMUM\nDRIVEWAYS, GRADE TO TOP OF DENSITY (STD) (ASTM\nAREAS AS ILLUSTRATED ON THE PLAN. PREPARATION MOISTURE CONTENT\nMULTI-USE TRAILS, PREPARED SUBGRADE D698)\n(TYPICAL)\nSIDEWALKS\n25. THE CONTRACTOR SHALL COORDINATE CONSTRUCTION ACTIVITIES IN A MANNER THAT WILL PROVIDE PROTECTION OF EXISTING TREES AND\nBUSHES. TREES WITHIN THE LIMITS OF CONSTRUCTION TO BE REMOVED ARE NOTED ON PLANS. TRENCHES, 1' TO 5' BELOW 95% OF MAXIMUM DRY 3% BELOW TO 4%\nSTRUCTURES, VOIDS PAVEMENT (ALL ABOVE OPTIMUM\n26. THE CONTRACTOR SHALL FURNISH AND MAINTAIN ALL NECESSARY BARRICADES, WARNING SIGNS, LIGHTS AND FLASHERS PER THE MUTCD BACKFILL FROM REMOVAL OF LOCATIONS, ALL DENSITY (STD) (ASTM MOISTURE CONTENT\nAS DIRECTED BY THE ENGINEER. D698)\nOBJECTS EXCAVATION WIDTHS) (TYPICAL)\n27. THE CONTRACTOR SHALL NOTIFY CITY REPRESENTATIVE 24 HOURS IN ADVANCE OF ANY SIGNING/STRIPING WORK. TRENCHES, GREATER THAN 5' 92% OF MAXIMUM DRY 3% BELOW TO 6%\nSTRUCTURES, VOIDS ABOVE OPTIMUM\n28. THE RELOCATION OF STREET LIGHTS WILL BE BY OPPD AND COORDINATION OF SUCH WORK SHALL BE THE RESPONSIBILITY OF THE BACKFILL FROM REMOVAL OF BELOW PAVEMENT DENSITY (STD) (ASTM MOISTURE CONTENT\nCONTRACTOR. OBJECTS (ALL LOCATIONS)** D698) (TYPICAL)\n29. THE CONTRACTOR SHALL CONSTRUCT ADA COMPLIANT SIDEWALK RAMPS AT ALL RETURNS WHERE SIDEWALKS ARE REMOVED AND 3% BELOW TO 4%\nFILL AREAS, SLOPES, 95% OF MAXIMUM DRY\nREPLACED. GREATER THAN 1' ABOVE OPTIMUM\nEMBANKMENT AREAS BEYOND DENSITY (STD) (ASTM\n(ALL LOCATIONS) MOISTURE CONTENT\nPAVEMENT D698)\n30. THE CITY OF OMAHA ENVIRONMENTAL SERVICES SAFETY MANUAL IS AVAILABLE FOR REVIEW UPON REQUEST OF THE (TYPICAL)\nCONTRACTOR/SUBCONTRACTOR. THIS MANUAL IS THE CITY OF OMAHA'S SAFETY PLAN FOR EMPLOYEES AND REVIEW OF SAID DOCUMENT\nEARTHWORK QUANTITIES 3% BELOW TO 4%\nDOES NOT RELIEVE CONTRACTORS/SUBCONTRACTOR OF HAVING HIS OWN SAFETY PLAN, PROVIDING PROPER SAFETY EQUIPMENT, AND FILL AREAS, SLOPES, 92% OF MAXIMUM DRY\nBEING RESPONSIBLE FOR HIS EMPLOYEES SAFETY IN ACCORDANCE WITH FEDERAL, STATE AND LOCAL REGULATIONS. THE CITY OF OMAHA EMBANKMENT EMBANKMENT EMBANKMENT, AREAS BEYOND LESS THAN 1' (ALL DENSITY (STD) (ASTM ABOVE OPTIMUM\nEXCAVATION BALANCE FACTOR SHORT/LONG FINE GRADING LOCATIONS) MOISTURE CONTENT\nIS NOT RESPONSIBLE FOR CONTRACTOR SAFETY OR OF HIS SUBCONTRACTORS. (UNADJUSTED) (ADJUSTED) PAVEMENT D698)\n(TYPICAL)\nGEORGE MILLER\n31. ACCESS TO BUSINESSES MUST BE MAINTAINED DURING BUSINESS HOURS. 611 CY 1061 CY 1.4 1485 CY -874 CY (FILL)\nPARKWAY *ALL SIDEWALK THICKNESS REQUIRE 6\" SUBGRADE PREPARATION\n32. CONTRACTOR SHALL BE RESPONSIBLE FOR OFFSITE DISPOSAL OF EXCAVATED WASTE MATERIAL. **EXCAVATIONS AND TRENCHES WIDER THAN 6' REQUIRE 95% OF MAXIMUM DRY DENSITY (STD) (ASTM D698)\n(-3% TO +4% MOISTURE CONTENT)\n33. THE CONTRACTOR WILL BE REQUIRED TO FURNISH BORROW ON THIS PROJECT.\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nNOTES AND DETAILS L. KRUSE O E\nR STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E\nP E-11507 R\nSHEET 1 OF 2 STIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 4 OF 18",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "GENERAL CONSTRUCTION NOTES STORM SEWER CONSTRUCTION NOTES UTILITY NOTES\n1. THE TIME LIMIT TO COMPLETE ALL WORK SHALL BE 40 WORKING DAYS. 1. ALL STORM SEWER WORK, INCLUDING CONSTRUCTION METHODS, MATERIALS, AND INSPECTION, SHALL BE IN ACCORDANCE WITH THE CITY OF 1. CONTRACTOR TO NOTIFY NEBRASKA ONE-CALL HOTLINE A MINIMUM OF 72 HOURS PRIOR TO EXCAVATION AT (402) 334-3565 OR (800)\nOMAHA STANDARD SPECIFICATIONS FOR PUBLIC WORKS CONSTRUCTION, CURRENT EDITION. 331-5666.\n2. ALL PROJECT PROCEDURES, MATERIALS, BONDS AND RESERVES SHALL CONFORM TO THE CITY OF OMAHA SPECIFICATIONS FOR PUBLIC\nWORKS CONSTRUCTION 2026 EDITION AND ANY ADDITIONS THERETO. IT WILL BE THE RESPONSIBILITY OF THE CONTRACTOR TO BE AWARE 2. THE CONTRACTOR MUST ENSURE ALL STORM SEWER LINES, MANHOLES, AND INLETS ARE CLEANED OF DEBRIS (LEAVES, STONE, CONCRETE, 2. EXISTING UTILITIES IN THE PROJECT AREA MAY BE IN FRAGILE CONDITION. THE CONTRACTOR SHALL EXERCISE NECESSARY CAUTION AND\nOF THE CONTENTS OF THE AFOREMENTIONED SPECIFICATIONS. THE AFOREMENTIONED PUBLICATION CAN BE FOUND AT DIRT, ETC.) PRIOR TO THE APPLICANT TAKING OWNERSHIP. PROVIDE ADEQUATE PROTECTION WHEN WORKING NEAR EXISTING UTILITIES.\nHTTPS://PUBLICWORKS.CITYOFOMAHA.ORG/CONTRACTORS-CONSULTANTS.\n3. CONTRACTOR TO SCHEDULE COORDINATION MEETING WITH UTILITY COMPANIES PRIOR TO CONSTRUCTION. CONTRACTOR TO OBTAIN\n3. THE CONTRACTOR MUST ENSURE ALL STORM SEWER PIPE USED FOR CONSTRUCTION HAS BEEN CERTIFIED BY THE AMERICAN CONCRETE\n3. THE INSPECTOR SHALL CERTIFY THE CONTRACTOR ADHERES TO AND MEETS THE CONSTRUCTION SPECIFICATIONS AND PLANS; PIPE ASSOCIATION (ACPA). ALL PIPES MUST DISPLAY THE Q-CAST SYMBOL TO VERIFY THE MANUFACTURER HAS MET THE ACPA'S AS-BUILTS AND SECTION MAPS FROM ALL UTILITIES. UTILITIES SHOWN ARE APPROXIMATE AND BASED ON BEST AVAILABLE INFORMATION\nMAINTENANCE, WORKMANSHIP, AND TESTING STANDARDS; AND ANY APPLICABLE REQUIREMENTS. CERTIFICATION PROGRAM. VISUAL INSPECTIONS FOR DEFECTS SHALL CONTINUE TO TAKE PLACE ON SITE. AT THE TIME OF DESIGN. NOT ALL UTILITIES ARE SHOWN. PLANS MAY NOT ACCURATELY INDICATE SIZE, LOCATION, AND/OR ELEVATION OF\nUTILITIES. CONTRACTOR TO FIELD VERIFY OR POTHOLE IF THE EXISTING UTILITIES ARE IN CLOSE PROXIMITY TO SEWER LINES AND/OR\n4. APPROVAL MUST BE OBTAINED FROM THE CITY OF OMAHA PUBLIC WORKS DEPARTMENT FOR ALL APPLICABLE PUBLIC IMPROVEMENTS 4. ALL REINFORCED CONCRETE PIPE 30-INCHES AND LESS IN DIAMETER SHALL CONFORM TO ASTM-76 WALL B, CLASS III. ALL REINFORCED STRUCTURES. IF A CONFLICT IS IDENTIFIED, CONTRACTOR TO CONTACT CONSTRUCTION MANAGER 14 DAYS IN ADVANCE OF ALL\nPRIOR TO THE COMMENCEMENT OF CONSTRUCTION. THE CONTRACTOR SHALL ENSURE THE PROJECT HAS BEEN APPROVED PRIOR TO CONSTRUCTION IN THE AREA.\nCONCRETE PIPE 34-INCHES AND GREATER IN DIAMETER SHALL CONFORM TO ASTM-76, WALL B, LOAD (D0.01=1,350 LBS.)\nSTARTING WORK.\n4. UTILITIES ARE SHOWN AS A CONVENIENCE FOR THE CONTRACTOR. NEITHER THE ENGINEER NOR THE CITY GUARANTEE THE ACCURACY OF\n5. NO STORM SEWER CONNECTIONS SHALL BE MADE TO PRIVATE LOTS OR PRIVATE STORM SEWER PRIOR TO FINAL ACCEPTANCE BY THE CITY\n5. THE CONTRACTOR AND INSPECTOR SHALL ENSURE ALL IMPACTED GOVERNMENT AGENCIES (CITY OF OMAHA, DOUGLAS COUNTY, STATE OF SUCH INFORMATION. LOCATIONS OF ALL AERIAL AND UNDERGROUND UTILITIES MAY NOT BE INDICATED ON THESE PLANS. UNDERGROUND\nOF OMAHA CONSTRUCTION DIVISION; MATT GROSSE (PHONE: 402-444-5282; EMAIL: MATTHEW.GROSSE@CITYOFOMAHA.ORG)\nNEBRASKA, CORPS OF ENGINEERS, PAPIO - MISSOURI RIVER NATURAL RESOURCE DISTRICT, UNITED STATES FEDERAL GOVERNMENT, ETC.) UTILITIES, WHETHER INDICATED OR NOT, WILL BE LOCATED AND FLAGGED BY THE UTILITY COMPANIES AT THE CONTRACTOR'S REQUEST. NO\nHAVE GRANTED ALL APPLICABLE PERMISSION TO PROCEED WITH CONSTRUCTION PRIOR TO MOBILIZATION. FURTHERMORE, 48 HOURS PRIOR 6. ALL INLET STRUCTURES WILL BE LOCATED IN THE FIELD BY THE ENGINEER. EXCAVATION WILL BE PERMITTED IN THE AREA OF UNDERGROUND UTILITIES UNTIL ALL FACILITIES HAVE BEEN LOCATED AND IDENTIFIED TO\nTO THE COMMENCEMENT OF CONSTRUCTION, THE INSPECTOR SHALL NOTIFY ALL CONCERNED PARTIES THAT WORK WILL BE PRECEDING THE SATISFACTION OF ALL PARTIES AND THEN ONLY WITH EXTREME CARE TO AVOID ANY DAMAGE TO THE UTILITIES. ANY UTILITY DAMAGED\nWITHIN EACH IMPACTED GOVERNMENT AGENCY JURISDICTIONAL BOUNDARY. 7. CURB INLETS SHALL BE CONSTRUCTED IN CONFORMANCE WITH CITY OF OMAHA STANDARD PLATE NO. 702-09; WITH STANDARD COVER BY THE CONTRACTOR DUE TO HIS OPERATIONS SHALL BE REPAIRED BY THE CONTRACTOR AT HIS EXPENSE.\nCASTING, RING CASTINGS, AND STEPS IN CONFORMANCE WITH STANDARD PLATE NO. 700-06. INLET COVERS SHALL BE CONSTRUCTED\n6. CONSTRUCTION FOUND TO BE UNACCEPTABLE TO THE CITY OF OMAHA PUBLIC WORKS DEPARTMENT SHALL BE REMOVED AND REPLACED WITH ARMOR FACING IN CONFORMANCE WITH CITY OF OMAHA STANDARD PLATE NO. 702-10. 5. CONTRACTOR SHALL ADJUST GAS AND WATER SERVICE CONNECTIONS AS NECESSARY TO ALLOW FOR CONSTRUCTION OF SEWERS AND/OR\nAT THE CONTRACTORS EXPENSE. STRUCTURES. DIRECT PAYMENT WILL NOT BE MADE AND SHOULD BE CONSIDERED SUBSIDIARY TO THE ITEMS FOR WHICH THE CONTRACT\n8. ADDITIONAL CRUSHED ROCK BEDDING FOR THE SEWERS SHALL BE PLACED AT LOCATIONS WHERE UNSTABLE TRENCH BOTTOM CONDITIONS PROVIDES DIRECT PAYMENT.\n7. THE INSPECTOR SHALL NOTIFY THE FOLLOWING CITY OF OMAHA PUBLIC WORKS DEPARTMENT PERSONNEL 48 HOURS PRIOR TO ALL ARE ENCOUNTERED IN ACCORDANCE WITH SUBSECTION 700.02 OF THE STANDARD SPECIFICATIONS, AS APPROVED BY THE ENGINEER PER\nPRECONSTRUCTION MEETINGS AND 48 HOURS PRIOR TO THE START OF ANY CONSTRUCTION: MATT GROSSE (PHONE: 402-444-5282; STANDARD PLATE NO. 701-01. 6. UPON SUBMITTING BID, THE CONTRACTOR AGREES THAT CONSIDERATION OF THE LOCATION OF ALL IDENTIFIED OR UNIDENTIFIED UTILITIES\nEMAIL: MATTHEW.GROSSE@CITYOFOMAHA.ORG) AND TRAFFIC MAINTENANCE (PHONE: 402-444-3412). IS INCLUDED IN THE CONTRACT PRICE. THE CONTRACTOR AGREES THAT THE CITY WILL NOT PROVIDE ANY ADDITIONAL COMPENSATION FOR\n9. ALL STORM SEWER PIPE SHALL BE BEDDED IN ACCORDANCE WITH STANDARD PLATE NO. 701-01. SOIL BEDDING IS NOT ACCEPTABLE. DELAYS, INCONVENIENCES, OR DAMAGES CAUSED BY THE INTERFERENCE AND RELOCATION OF CONFLICTING UTILITIES AND/OR PLANNED\n8. THE INSPECTOR SHALL SUBMIT WEEKLY PROGRESS REPORTS TO THE FOLLOWING CITY OF OMAHA PUBLIC WORKS DEPARTMENT EMPLOYEE IMPROVEMENTS.\nNO LATER THAN THE FOLLOWING WEEK ENDING DATE: MATT GROSSE (PHONE: 402-444-5282; EMAIL: 10. JOINTS FOR STORM SEWER PIPES ARE REQUIRED TO HAVE A FABRICATED GASKET OR BITUMASTIC SEALANT.\n7. THE CONTRACTOR SHALL, PRIOR TO BEGINNING CONSTRUCTION OF ANY NEW UNDERGROUND FACILITIES, LOCATE, UNCOVER, AND\nMATTHEW.GROSSE@CITYOFOMAHA.ORG).\n11. ALL STORM SEWER PIPE INSTALLED UNDER THIS PROJECT SHALL BE INSPECTED BY T.V. CAMERA BY AN INDEPENDENT SEWER INSPECTION DETERMINE THE HORIZONTAL AND VERTICAL LOCATION OF ALL EXISTING UNDERGROUND FACILITIES WHICH MAY POTENTIALLY CONFLICT WITH\n9. THE INSPECTOR SHALL NOTIFY THE FOLLOWING CITY OF OMAHA PUBLIC WORKS DEPARTMENT PERSONNEL 48 HOURS PRIOR TO LANE SERVICE. THE T.V. INSPECTION WILL BE PAID FOR BY THE OWNER. HIS/HER WORK OR ARE TO BE INCORPORATED INTO THE NEW WORK. BEFORE PROCEEDING, THE CONTRACTOR SHALL SATISFY\nCLOSURES AND 24 HOURS PRIOR TO LANE RESTRICTIONS: MATT GROSSE (PHONE: 402-444-5282; EMAIL: HIS/HERSELF THAT A CONFLICT DOES NOT EXIST AND THAT THE UNDERGROUND WORK CAN BE PERFORMED AS SHOWN ON THE PLANS. IF,\n12. THE CONTRACTOR IS REFERRED TO THE FOLLOWING CITY OF OMAHA STANDARD PLATES: IN THE OPINION OF THE CONTRACTOR, A CONFLICT DOES EXIST, THE CONTRACTOR SHALL IMMEDIATELY NOTIFY THE ENGINEER. THE\nMATTHEW.GROSSE@CITYOFOMAHA.ORG) AND TRAFFIC MAINTENANCE (PHONE: 402-444-5160).\nCONTRACTOR WILL RECEIVE NO ADDITIONAL COMPENSATION FOR ANY DELAYS OR WORK RESULTING FROM A CONFLICT WHICH WAS NOT\n700-01 CONCRETE COLLAR AND CRADLE THOROUGHLY INVESTIGATED PRIOR TO PROCEEDING WITH THE WORK. THE CONTRACTOR MAY REQUEST ADDITIONAL COMPENSATION FOR\n10. ALL OPERATIONS CONDUCTED WITHIN THE CITY OF OMAHA LIMITS, INCLUDING THE WARMING-UP, REPAIR, ARRIVAL, DEPARTURE, OR\n700-05 CAST IRON MANHOLE RINGS AND COVERS (2 SHEETS) ANY ADDITIONAL WORK PERFORMED TO DIRECTLY RESOLVE THE CONFLICT AS DIRECTED IN WRITING BY THE CONSTRUCTION MANAGER.\nRUNNING OF TRUCKS, EARTHMOVING EQUIPMENT, CONSTRUCTION EQUIPMENT, AND ANY OTHER ASSOCIATED EQUIPMENT SHALL BE LIMITED\n701-01 SEWER BEDDING\nTO THE PERIOD BETWEEN 7:00 A.M. AND 6:00 P.M. MONDAY THROUGH FRIDAY; AND, NO EARTHMOVING OR GRADING OPERATIONS SHALL\n702-09 CURB INLETS 8. THE CONTRACTOR SHALL, PRIOR TO BEGINNING CONSTRUCTION OF ANY NEW UNDERGROUND FACILITIES, LOCATE, UNCOVER, AND VERIFY\nBE CONDUCTED ON THE PREMISES ON SUNDAYS OR LEGAL HOLIDAYS, UNLESS WAIVED BY THE INSPECTOR AND CITY OF OMAHA PUBLIC\n702-12 FLARED END SECTIONS AND BAR GRATES THE HORIZONTAL AND VERTICAL LOCATION OF THE RECORD SANITARY SEWER, AND REPORT ANY DISCREPANCIES OR CONFLICTS TO THE\nWORKS DEPARTMENT.\nENGINEER.\n13. INLETS AND MANHOLES SHALL BE LOCATED IN ACCORDANCE WITH THE COORDINATES SHOWN. THE LENGTHS OF PIPES MAY VARY\n11. THE CONTRACTOR SHALL TAKE ALL PRECAUTIONARY MEASURES NECESSARY TO PROTECT EXISTING STRUCTURES AND STREET\nACCORDINGLY.\nIMPROVEMENTS WHICH ARE TO REMAIN IN PLACE, FROM DAMAGE, AND ALL SUCH IMPROVEMENTS OR STRUCTURES DAMAGED BY THE\nCONTRACTOR'S OPERATIONS SHALL BE REPAIRED OR REPLACED SATISFACTORY TO THE INSPECTOR AND OWNING UTILITY COMPANY AT THE SANITARY SEWER NOTES\n14. THE CONTRACTOR SHALL, PRIOR TO BEGINNING CONSTRUCTION OF PROPOSED UNDERGROUND FACILITIES, VERIFY THE BOTTOM OF CHANNEL\nEXPENSE OF THE CONTRACTOR.\nELEVATION AT ALL PROPOSED STORM SEWER OUTLET STRUCTURES, AND REPORT ANY DISCREPANCY TO THE ENGINEER.\n1. MANHOLES SHALL BE LOCATED IN ACCORDANCE WITH THE COORDINATES SHOWN. THE LENGTH OF PIPE BETWEEN MANHOLES MAY VARY\n12. ALL CONSTRUCTION SHALL BE AS SHOWN ON THESE PLANS. ANY REVISIONS SHALL HAVE THE PRIOR WRITTEN APPROVAL OF THE ACCORDINGLY.\n15. TRENCH BACKFILL SHALL BE COMPACTED PER THE COMPACTION REQUIREMENTS TABLE ON THIS SHEET.\nDESIGNER AND CITY OF OMAHA PUBLIC WORKS DEPARTMENT.\n2. THE CONTRACTOR IS REFERRED TO THE FOLLOWING CITY OF OMAHA STANDARD PLATES:\n16. THE CONTRACTOR SHALL PLACE A WOODEN 2\" X 2\" MARKER AT THE END OF EACH PIPE WHICH TERMINATES AT A PIPE PLUG.\n13. CONSTRUCTION MAY REQUIRE THE DISTURBANCE OF EXISTING, DRAINAGE AND EROSION CONTROL MEASURES. THE CONTRACTOR SHALL\nMAKE THEMSELVES AWARE OF THE EXISTING DRAINAGE AND EROSION CONTROL MEASURES PRIOR TO BIDDING THIS WORK. A COPY OF 700-03 PIPE PLUG\nTHE GRADING AND EROSION CONTROL PLAN IS AVAILABLE FOR REVIEW AT THE OFFICE OF THE DESIGNER AND INSPECTOR. THE 17. THE CONTRACTOR SHALL BACKFILL COMPLETED PORTIONS OF CONSTRUCTED SEWER AT THE END OF EACH DAY. EXCAVATION TRENCH 701-01 SEWER BEDDING\nFUNCTION OF THESE ITEMS MUST BE MAINTAINED THROUGHOUT CONSTRUCTION WITH EMPHASIS PLACED ON RESTORING THEIR INTEGRITY REMAINING OPEN SHALL NOT EXCEED 25 LF. THE CONTRACTOR SHALL PLACE SNOW FENCE AROUND EXCAVATION REMAINING OPEN. 703-05 SANITARY SEWER SERVICE RECONNECTION-RELOCATION\nPRIOR TO ANY RAINFALL EVENT. EROSION CONTROL IMPROVEMENTS HAVE BEEN CONSTRUCTED ON THIS SITE, INCLUDING TERRACES, SILT\nFENCING, AND TEMPORARY SEDIMENT BASINS. THE CONTRACTOR SHALL BE RESPONSIBLE FOR PROMPT RECONSTRUCTION OF ANY EROSION 18. THE \"OMAHA REGIONAL STORM WATER DESIGN MANUAL\" SHALL APPLY TO THIS CONSTRUCTION. 3. THE SLOPE ON 6\" & 8\" SANITARY SEWER SERVICES SHALL BE BETWEEN 1/4\" PER FOOT AND 3/8\" PER FOOT, UNLESS NOTED\nCONTROL IMPROVEMENTS DISTURBED BY HIS OPERATIONS. ALL DISTURBED EROSION CONTROL IMPROVEMENTS SHALL BE FULLY OTHERWISE.\nRECONSTRUCTED AT THE END OF EACH WORKING DAY PRIOR TO LEAVING THE SITE. 19. ANY FITTINGS OR CONNECTIONS REQUIRED TO CONSTRUCT SEWER PIPE SHALL BE SUBSIDIARY TO THE BID ITEMS.\n4. THE CONTRACTOR SHALL PLACE AT THE END OF EACH SEWER SERVICE STUB A 2\"X2\" WOODEN STAKE EXTENDING FROM THE BOTTOM OF\n14. ELEVATIONS ARE REFERENCE TO NAVD88 (GEOID-12A). THE STUB OUT TO A POINT 12- INCHES BELOW THE FINISH GRADE. IN ADDITION, THE STUB OUT LOCATION SHALL BE MARKED WITH\n1-1/4\" \u00b1 WIDE LIME GLOW GREEN PLASTIC SURVEYOR'S FLAGGING. SEE SPECIAL CONDITIONS FOR FURTHER DETAILS.\n15. CONTRACTOR SHALL ADJUST ALL NEW AND EXISTING INLETS, VALVE BOXES, MANHOLE RIMS, AND SEWER CLEAN OUTS, ETC. TO FINISH\nPCC PAVING NOTES\nGRADE AS APPLICABLE WHETHER OR NOT THEY ARE SHOWN ON THE PLANS. 5. THE CONTRACTOR SHALL PROVIDE THE ENGINEER WITH A \"CONSTRUCTION RECORD\" SET OF DRAWINGS SHOWING LENGTH OF PIPES, WYE\nLOCATIONS AND TIES TO AND DEPTH OF THE ENDS OF ALL SEWER SERVICES.\n16. THE CONTRACTORS SHALL ADHERE TO GOOD HOUSEKEEPING BEST MANAGEMENT PRACTICES AT ALL TIMES. GOOD HOUSEKEEPING BEST 1. ALL PAVING ELEVATIONS ARE AT TOP OF SLAB UNLESS NOTED OTHERWISE.\nMANAGEMENT PRACTICES FOCUS ON KEEPING THE WORK SITE CLEAN AND ORDERLY WHILE HANDLING MATERIALS AND WASTE IN A MANNER 2. ALL PAVING SHALL BE CONSTRUCTED WITH NORMAL CROWN UNLESS NOTED OTHERWISE. 6. THE CONTRACTOR SHALL PERFORM AIR OR WATER LEAKAGE TESTS IN ACCORDANCE WITH CITY OF OMAHA SPECIFICATIONS.\nTHAT ELIMINATES THE POTENTIAL FOR POLLUTANT RUNOFF.\n3. CURBS SHALL BE TYPE \"A\" IN ACCORDANCE WITH CITY OF OMAHA STANDARD PLATE 502-01 UNLESS NOTED OTHERWISE. 8. ALL SEWER MAINS SHALL BE INSPECTED BY CLOSED CIRCUT TELEVISION (CCTV) IN ACCORDNACE WITH THE CITY OF OMAHA STANDARD\n17. THE CONSTRUCTION DOCUMENTS (E.G., CONTRACT, PW-55 BOND, INSURANCE CERTIFICATE, SPECIFICATIONS, AND CONSTRUCTION PLANS) SPECIFICATIONS. ALL CCTV FOOTAGE AND AN ASSOCIATED REPORT SHALL BE PROVIDED TO THE ENGINEER FOR SUBMITTAL TO THE CITY\nARE ESSENTIAL AND A REQUIREMENT IN ONE PART IS AS BINDING AS THOUGH OCCURRING IN ALL. THUS, THE CONSTRUCTION 4. PAVEMENT SUBGRADE TO A DEPTH OF 12 INCHES AND TO A WIDTH OF 3 FEET OUTSIDE PAVEMENT EDGES SHALL BE COMPACTED AS OF OMAHA. ALL DOCUMENTATION SHALL BE IN ACCORDNACE WITH THE CITY OF OMAHA STANDARD SPECIFICATIONS. ALL ORIGINAL\nDOCUMENTS ARE COMPLEMENTARY IN NATURE. THE DOCUMENTS DESCRIBE AND PROVIDE THE COMPLETE CONSTRUCTION PROJECT. THE SPECIFIED IN THE COMPACTION REQUIREMENTS TABLE ON THIS SHEET. TELEVISION INSPECTION WILL BE PAID FOR BY THE OWNER.\nCONTRACTOR MAY NOT TAKE ADVANTAGE OF ANY APPARENT CONSTRUCTION PROJECT ERRORS OR OMISSIONS. THE CONTRACTOR SHALL\nNOTIFY THE INSPECTOR PROMPTLY OF ANY OMISSIONS OR ERRORS. IN THE CASE OF A DISCREPANCY BETWEEN PARTS OF THE 5. BACKFILL BEHIND CURBS SHALL BE COMPACTED AS SPECIFIED IN THE \"CITY OF OMAHA STANDARD SPECIFICATIONS FOR PUBLIC WORKS\n9. TRENCH BACKFILL SHALL BE COMPACTED AS SHOWN IN THE COMPACTION REQUIREMENTS TABLE. (SEE THIS SHEET)\nCONSTRUCTION DOCUMENTS, THE MOST STRINGENT CONSTRUCTION METHODOLOGY SHALL RULE. CONSTRUCTION, 2026 EDITION\" AND THE TABLE ON THIS SHEET.\n10. CONCRETE FOR MANHOLES AND PIPE SHALL BE OPW 4000. THE CEMENT FOR MANHOLE GROUT SHALL BE THE SAME AS THAT FOR\n18. DETECTABLE WARNING PANELS INSTALLED FOR ADA CONCRETE CURB RAMPS WILL BE REQUIRED TO USE A NATURAL UNFINISHED CAST 6. THE CONTRACTOR IS REFERRED TO THE FOLLOWING CITY OF OMAHA STANDARD PLATES:\nMANHOLE CONCRETE AND SHALL MEET THE REQUIREMENTS OF THE CITY OF OMAHA STANDARD SPECIFICATIONS FOR PUBLIC WORKS\nIRON DETECTABLE WARNING PANEL. APPROVED PRODUCTS FOR USE WITHIN THE CITY OF OMAHA AND IT'S THREE MILE EXTRATERRITORIAL 501-01 CONCRETE PAVEMENT JOINTS CONSTRUCTION.\nJURISDICTION CAN BE FOUND ON THE CITY OF OMAHA PUBLIC WORKS WEBSITE AT\n501-02 CONCRETE PAVEMENT WIDENING AND MISCELLANEOUS\nHTTPS://PUBLICWORKS.CITYOFOMAHA.ORG/CONTRACTORS-CONSULTANTS2/ 501-04 CONCRETE MEDIANS 11. ALL PIPE SHALL BE BEDDED IN ACCORDANCE WITH THE DETAILS SHOWN ON CITY OF OMAHA STANDARD PLATE 701-01.\nCONTRACTORS/STANDARD-PLATES-CURB-RAMPS-AND-SPECIFICATIONS/2-UNCATEGORIZED/ 501-05 38' 3 LANE CONCRETE PAVEMENT\n2623-DETECTABLE-WARNING-PANELS-FOR-ADA-CONCRETE-CURB-RAMPS. 502-01 CONCRETE CURBS\n7. CONCRETE FOR PAVING SHALL BE PROPORTIONED USING PORTLAND CEMENT MEETING THE REQUIREMENTS OF ASTM C-150, TYPE I. COMPACTION REQUIREMENTS TABLE\n19. THE CONTRACTOR SHALL CONTACT THE CITY OF OMAHA TRAFFIC MAINTENANCE (402-444-3412) TO COORDINATE THE PROTECTION OF\nUNLESS OTHERWISE NOTED ON THESE PLANS, CONCRETE FOR PAVEMENT AND DRIVEWAYS SHALL BE TYPE W OAPTWE R3 5R0E0D. UCING\nTRAFFIC SIGNAL POLES, PEDESTRIAN PUSHBUTTON POLES, AND UNDERGROUND TRAFFIC SIGNAL FACILITIES. THE CONTRACTOR SHALL\nADMIXTURE SHALL BE ADDED TO ALL HAND PLACED AND FINISHED CONCRETE, TYPE \"A\" INTEGRAL CURB AND SUBGRADE PREPARATION TABLE 200.01\nENSURE THAT ALL TRAFFIC SIGNAL CONDUITS ARE A MINIMUM OF 30 INCHES BELOW FINISHED GRADE OF NEW IMPROVEMENTS. IF THE\nSHALL BE INCIDENTAL TO DIRECT PAY ITEMS.\nTRAFFIC SIGNAL COMMUNICATION IS SEVERED FOR ANY REASON, THE CONTRACTOR SHALL PAY ALL COSTS TO REPAIR THE COMMUNICATION\nLINE AND PROVIDE TEMPORARY WIRELESS COMMUNICATION (IF NECESSARY) AT THE DIRECTION OF THE CITY OF OMAHA AND AT NO COST 8. CONCRETE PAVEMENT SHALL BE CURED USING A WHITE PIGMENTED LIQUID MEMBRANE FORMING CURING COMPOUND THAT HAS BEEN (FROM THE CITY OF OMAHA STANDARD SPECIFICATIONS FOR PUBLIC WORKS\nTO THE CITY. APPROVED BY THE NEBRASKA DEPARTMENT OF ROADS. THE MINIMUM RATE OF APPLICATION SHALL BE 200 SQ. FT. PER GAL. IF A CONSTRUCTION 2026)\nMECHANICAL POWERED SPRAYER IS USED, AND 100 SQ. FT. PER GAL. IF A HAND POWERED SPRAYER IS USED.\n20. WITHIN THE CITY OF OMAHA LIMITS, THE CITY OF OMAHA TRAFFIC MAINTENANCE DEPARTMENT WILL PROVIDE AND INSTALL ALL STREET DEPTH BELOW\nSIGNAGE REQUIRED FOR A PROJECT IN ACCORDANCE WITH MUTCD STANDARDS WHETHER SHOWN ON THE PLANS OR NOT. THE CITY OF 9. THE CONTRACTOR SHALL DISPOSE OF ALL UNSUITABLE MATERIALS ENCOUNTERED IN THE REMOVAL AND GRADING OPERATIONS OFF THE DESCRIPTION LOCATION (TYPICAL) PAVEMENT OR MINIMUM COMPACTIONACCEPTABLE MOISTURE\nPROJECT SITE, INCLUDING CONCRETE, ASPHALT, OIL MAT, BRICK, ROCK ETC. NO UNSUITABLE MATERIAL AS DETERMINED BY THE ENGINEER, REQUIREMENT RANGE\nOMAHA TRAFFIC DEPARTMENT WILL BILL THE OWNER THE COSTS INCURRED BY THE CITY FOR ALL MATERIAL AND LABOR FOR SIGNAGE FINISHED GRADE\nSHALL BE USED FOR BACKFILLING OR EMBANKMENT CONSTRUCTION. THE COST FOR DISPOSAL OF UNSUITABLE MATERIAL SHALL BE\nINSTALLATION. THE CONTRACTOR SHALL GIVE THE TRAFFIC MAINTENANCE DEPARTMENT (402-444-3412) A MINIMUM OF TWO (2) WEEKS'\nSUBSIDIARY TO THE PROJECT. UNDER AND WITHIN 3'\nNOTICE TO SCHEDULE THE STREET SIGNAGE INSTALLATION. PROJECTS OUTSIDE THE CITY OF OMAHA LIMITS WILL NEED TO CONTACT THE\nDOUGLAS COUNTY ENGINEER'S OFFICE FOR STREET SIGNAGE REQUIREMENTS. 10. PAVING WIDTHS SHALL BE AS SHOWN ON THE PLANS. SUBGRADE O PA F V E E D M G E E N T O ; F U R N IG D I E D R BOTTOM OF PAVEMEN9T0% OF MAXIMUM DRY 3 A % B O BE VE LO O W PT T IM O U 4 M %\nPREPARATION DRIVEWAYS, TO 1' BELOW DENSITY (MOD) (ASTM MOISTURE CONTENT\n21. THE CONTRACTOR SHALL REFER TO THE CURRENT CITY OF OMAHA STANDARD PLATES AS REFERENCED IN THESE PLANS. 11. A DIAMOND EDGE SAW BLADE SHALL BE USED FOR CUTTING ALL REQUIRED CONSTRUCTION AND LONGITUDINAL PAVEMENT JOINTS. ALL SAW PAVEMENT D1557)\nMULTI-USE TRAILS, (TYPICAL)\nCUTS (INCLUDING THOSE FULL DEPTH CUTS NECESSARY TO REMOVE PAVEMENT) SHALL BE SUBSIDIARY TO ITEMS FOR WHICH DIRECT\n22. THE COST OF SHEETING, SHORING OR BRACING AND DEWATERING REQUIRED TO CONSTRUCT THIS PROJECT SHALL BE SUBSIDIARY TO PAYMENT IS MADE. SIDEWALKS*\nITEMS FOR WHICH DIRECT PAYMENT IS MADE. 12. BASED ON THE CURRENT SCHEDULE OF THIS PROJECT BEING COMPLETED IN 2026, THE CONTRACTOR MAY NEED TO APPLY COLD WEATHER UNDER AND WITHIN 3 B ' OTTOM OF PAVEMEN9T2% OF MAXIMUM DRY 3% BELOW TO 4%\n23. THE CONTRACTOR IS RESPONSIBLE TO ENSURE ALL EXCAVATIONS ARE MADE IN ACCORDANCE WITH THE OCCUPATIONAL SAFETY AND P G R UI O D T A E N C CE T . ION TO THE PAVEMENT. REFER TO SECTION 1002 OF THE CITY OF OMAHA SPECIFICATIONS FOR PUBLIC WORKS CONSTRUCTION FOR P S R U E B P G A R R A A D T E ION OF P A E V D E G M E E N O T FF ; L U E N X D I E B R LE TO 1' BELOW DENSITY (MOD) (ASTM MO AB IS O T V U E R E O P C T O I N M T U E M NT\nPAVEMENT D1557)\nHEALTH ADMINISTRATION (OSHA) CONSTRUCTION STANDARDS - 29 CRF PART 1926, SUBPART P-EXCAVATIONS AS PUBLISHED IN THE MULTI-USE TRAILS (TYPICAL)\nFEDERAL REGISTER, VOL. 54, 209, TUESDAY, OCTOBER 31, 1989, RULES AND REGULATIONS.\nBACK OF CURBS;\n3% BELOW TO 4%\nADJACENT TO FINISHED TOP OF FINISHED 92% OF MAXIMUM DRY\n24. THE CONTRACTOR SHALL RESTRICT ALL CONSTRUCTION OPERATIONS TO WITHIN THE PUBLIC RIGHT-OF-WAY AND THOSE CONSTRUCTION SHOULDER ABOVE OPTIMUM\nDRIVEWAYS, GRADE TO TOP OF DENSITY (STD) (ASTM\nAREAS AS ILLUSTRATED ON THE PLAN. PREPARATION MOISTURE CONTENT\nMULTI-USE TRAILS, PREPARED SUBGRADE D698)\n(TYPICAL)\nSIDEWALKS\n25. THE CONTRACTOR SHALL COORDINATE CONSTRUCTION ACTIVITIES IN A MANNER THAT WILL PROVIDE PROTECTION OF EXISTING TREES AND\nBUSHES. TREES WITHIN THE LIMITS OF CONSTRUCTION TO BE REMOVED ARE NOTED ON PLANS. TRENCHES, 1' TO 5' BELOW 95% OF MAXIMUM DRY 3% BELOW TO 4%\nSTRUCTURES, VOIDS PAVEMENT (ALL ABOVE OPTIMUM\n26. THE CONTRACTOR SHALL FURNISH AND MAINTAIN ALL NECESSARY BARRICADES, WARNING SIGNS, LIGHTS AND FLASHERS PER THE MUTCD BACKFILL FROM REMOVAL OF LOCATIONS, ALL DENSITY (STD) (ASTM MOISTURE CONTENT\nAS DIRECTED BY THE ENGINEER. D698)\nOBJECTS EXCAVATION WIDTHS) (TYPICAL)\n27. THE CONTRACTOR SHALL NOTIFY CITY REPRESENTATIVE 24 HOURS IN ADVANCE OF ANY SIGNING/STRIPING WORK. TRENCHES, GREATER THAN 5' 92% OF MAXIMUM DRY 3% BELOW TO 6%\nSTRUCTURES, VOIDS ABOVE OPTIMUM\n28. THE RELOCATION OF STREET LIGHTS WILL BE BY OPPD AND COORDINATION OF SUCH WORK SHALL BE THE RESPONSIBILITY OF THE BACKFILL FROM REMOVAL OF BELOW PAVEMENT DENSITY (STD) (ASTM MOISTURE CONTENT\nCONTRACTOR. OBJECTS (ALL LOCATIONS)** D698) (TYPICAL)\n29. THE CONTRACTOR SHALL CONSTRUCT ADA COMPLIANT SIDEWALK RAMPS AT ALL RETURNS WHERE SIDEWALKS ARE REMOVED AND 3% BELOW TO 4%\nFILL AREAS, SLOPES, 95% OF MAXIMUM DRY\nREPLACED. GREATER THAN 1' ABOVE OPTIMUM\nEMBANKMENT AREAS BEYOND DENSITY (STD) (ASTM\n(ALL LOCATIONS) MOISTURE CONTENT\nPAVEMENT D698)\n30. THE CITY OF OMAHA ENVIRONMENTAL SERVICES SAFETY MANUAL IS AVAILABLE FOR REVIEW UPON REQUEST OF THE (TYPICAL)\nCONTRACTOR/SUBCONTRACTOR. THIS MANUAL IS THE CITY OF OMAHA'S SAFETY PLAN FOR EMPLOYEES AND REVIEW OF SAID DOCUMENT\nEARTHWORK QUANTITIES 3% BELOW TO 4%\nDOES NOT RELIEVE CONTRACTORS/SUBCONTRACTOR OF HAVING HIS OWN SAFETY PLAN, PROVIDING PROPER SAFETY EQUIPMENT, AND FILL AREAS, SLOPES, 92% OF MAXIMUM DRY\nBEING RESPONSIBLE FOR HIS EMPLOYEES SAFETY IN ACCORDANCE WITH FEDERAL, STATE AND LOCAL REGULATIONS. THE CITY OF OMAHA EMBANKMENT EMBANKMENT EMBANKMENT, AREAS BEYOND LESS THAN 1' (ALL DENSITY (STD) (ASTM ABOVE OPTIMUM\nEXCAVATION BALANCE FACTOR SHORT/LONG FINE GRADING LOCATIONS) MOISTURE CONTENT\nIS NOT RESPONSIBLE FOR CONTRACTOR SAFETY OR OF HIS SUBCONTRACTORS. (UNADJUSTED) (ADJUSTED) PAVEMENT D698)\n(TYPICAL)\nGEORGE MILLER\n31. ACCESS TO BUSINESSES MUST BE MAINTAINED DURING BUSINESS HOURS. 611 CY 1061 CY 1.4 1485 CY -874 CY (FILL)\nPARKWAY *ALL SIDEWALK THICKNESS REQUIRE 6\" SUBGRADE PREPARATION\n32. CONTRACTOR SHALL BE RESPONSIBLE FOR OFFSITE DISPOSAL OF EXCAVATED WASTE MATERIAL. **EXCAVATIONS AND TRENCHES WIDER THAN 6' REQUIRE 95% OF MAXIMUM DRY DENSITY (STD) (ASTM D698)\n(-3% TO +4% MOISTURE CONTENT)\n33. THE CONTRACTOR WILL BE REQUIRED TO FURNISH BORROW ON THIS PROJECT.\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nNOTES AND DETAILS L. KRUSE O E\nR STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E\nP E-11507 R\nSHEET 1 OF 2 STIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 4 OF 18"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 24,
+   "header_row": 0,
+   "headers": [
+    "CONTROL POINT #99\n5/8\" REBAR\nN:123176.14\nE:90916.68\nEXISTING ROW\nELEV:1179.82\n(NAVD88)\nROUND AREA INLET #1259 SANITARY MH #835\nRIM=1177.23' RIM=1179.94'\nIE(SSW)=1173.38 IE(NNE)=1169.74\n18\" RCP 8\" PVC\nIE(NNE)=1167.19\nF T 8\" PVC\n115+00\nIE(WSW)=1167.04\nS\nWOOD BARK 8\" PVC\nWOOD BARK\nH UNABLE TO LOCATE SANITARY MANHOLE\n24.00' WIDE SEWER EASEMENT WOOD BARK LIMITS OF CONSTRUCTION\nSTORM MH #1225 APPROXIMATE LOCATION SHOWN\nINST.#2018002319\nT FIELD VERIFY\nRIM=1178.25'\n0 IE(S)=1175.10 UNABLE TO LOCATE SANITARY MANHOLE\n15\" RCP APPROXIMATE LOCATION SHOWN\n8\nFIELD VERIFY AND ADJUST TO GRADE\nGEORGE MILLER PKWY\n2+22.41 1 SEE CONSTRUCTION SHE1E2T\nS WOOD BARK 62.46 [R] GEORGE MILLER PKWY\n2+19.96\n62.20 [R]\nGEORGE MILLER PKWY S GEORGE MILLER PKWY 2+30.94 PROPOSED ROW CLEARING AND GRUBBING\n2+61.43 49.23 [R] WOOD BARK TREES OVER 18\" TO 27\" DIAMETER SAW CUT AND REMOVE PAVEMENT\n\"\n44.12 [R] 3\n51+7 00+7 00+6 51+7 00+7 00+6\n0 0\n0 0 WOOD BARK\n+ + \"\n5 S 5 3 114+00\nCLEARING AND GRUBBING\nREMOVE MARKING SYMBOL\n20.00' WIDE SANITARY SEWER EASEMENT GEORGE MILLER PKWY TREES OVER 9\" TO 18\" DIAMETER\nGEORGE MILLER PKWY\nINST.#2019095819 2+20.57\n2+61.92\nS 12.09 [R] 4.05 [L] D\n0 0\n0 0\n+ +\n4 0 4 0\n0 0 0 0\n+ 0 + 0\n3 + 2 3 S 2 + STORM MH #836\nS\nRIM=1184.58'\nGEORGE MILLER PKWY WHEEL CHAIR RAMP UNABLE TO OPEN\n2+23.65\nP\n4.24 [L] A R\nP-\nD RI\nD\nD\nW\nF STORM MH #1153\nUV RIM=1178.87'\n113+00 180TH STREET\nIE(N)=1174.17 CLEARING AND GRUBBING - GENERAL 113+19.37\n5.36 [R]\n15\" RCP\nCLEARING AND GRUBBING CLEARING AND GRUBBING REMOVE HEADWALL\nIE(ENE)=1172.07\nTREES OVER 9\" TO 18\" DIAMETER TREES OVER 18\" TO 27\" DIAMETER\nWHEEL CHAIR RAMP 36\" RCP\n20.00' SANITRAY SEWER EASEMENT IE(W)=1171.02\nCLEARING AND GRUBBING REMOVE 7' X 4' BOX CULVERT\n48\" RCP\nWATER MH CLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER CONCRETE - 3 LF\nRIM=1178.37' TREES OVER 18\" TO 27\" DIAMETER GEORGE MILLER PKWY\n2+33.67\nREMOVE RIP-RAP 27.94 [L]\nSTORM MH #1121\nRIM=1178.09' CLEARING AND GRUBBING\nGEORGE MILLER PKWY\nTREES OVER 9\" TO 18\" DIAMETER\n2+31.68 BOTTOM OF STRUCTURE=1169.54'\n8.91 [R] IE(W) PIPE OFFSET\nIE(NNE) PIPE OFFSET\nIE(E) PIPE OFFSET EXISTING ROW\nUNABLE TO DETERMINE DEPTH\n112+00\nREMOVE MARKING LINES\nAND CONFIRM PIPE SIZES\nNOTE:\n1. ALL POWER POLES, POWER RISERS, PULL-BOXES, TELEPHONE REMOVE PAVEMENT\nRISERS AND FIBER OPTIC WARNING SIGNS WITHIN THE LIMITS OF\nCONSTRUCTION SHALL BE RELOCATED BY OTHERS. STATION TO STATION SIDE SQ. YDS.\n2. ALL VEGETATION AND TREES LESS THAN 9\" IN DIAMETER WITHIN\nTHE LIMITS OF CONSTRUCTION SHALL BE REMOVED UNDER THE 2+19.96 2+61.92 LT/RT 190\nPAY ITEM \"CLEARING AND GRUBBING GENERAL\".\n3. DO NOT DISTURB TREES UNLESS MARKED FOR REMOVAL.\n4. SAW CUTS SHALL TAKE PLACE AT EXISTING JOINTS WHERE\nPOSSIBLE.\nMISCELLANEOUS QUANTITIES\nCLEARING AND GRUBBING - GENERAL 1 LS\nCLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER 10 EA\nCLEARING AND GRUBBING TREES OVER 18\" TO 27\" DIAMETER 3 EA\nREMOVE 7' X 4' BOX CULVERT CONCRETE 3 LF\nREMOVE HEADWALL 1 EA\n111+00\nREMOVE RIP-RAP 10 CY\nREMOVE MARKING LINES 700 LF\nREMOVE MARKING SYMBOL 1 EA\n180TH STREET\n110+39.27\n180TH STREET\n6.47 [L]\n110+39.37\n6.21 [R]\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nL. KRUSE O E\nR P E-11507 REMOVAL PLAN STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K 0 30' 60' FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 7 OF 18",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "CONTROL POINT #99\n5/8\" REBAR\nN:123176.14\nE:90916.68\nEXISTING ROW\nELEV:1179.82\n(NAVD88)\nROUND AREA INLET #1259 SANITARY MH #835\nRIM=1177.23' RIM=1179.94'\nIE(SSW)=1173.38 IE(NNE)=1169.74\n18\" RCP 8\" PVC\nIE(NNE)=1167.19\nF T 8\" PVC\n115+00\nIE(WSW)=1167.04\nS\nWOOD BARK 8\" PVC\nWOOD BARK\nH UNABLE TO LOCATE SANITARY MANHOLE\n24.00' WIDE SEWER EASEMENT WOOD BARK LIMITS OF CONSTRUCTION\nSTORM MH #1225 APPROXIMATE LOCATION SHOWN\nINST.#2018002319\nT FIELD VERIFY\nRIM=1178.25'\n0 IE(S)=1175.10 UNABLE TO LOCATE SANITARY MANHOLE\n15\" RCP APPROXIMATE LOCATION SHOWN\n8\nFIELD VERIFY AND ADJUST TO GRADE\nGEORGE MILLER PKWY\n2+22.41 1 SEE CONSTRUCTION SHE1E2T\nS WOOD BARK 62.46 [R] GEORGE MILLER PKWY\n2+19.96\n62.20 [R]\nGEORGE MILLER PKWY S GEORGE MILLER PKWY 2+30.94 PROPOSED ROW CLEARING AND GRUBBING\n2+61.43 49.23 [R] WOOD BARK TREES OVER 18\" TO 27\" DIAMETER SAW CUT AND REMOVE PAVEMENT\n\"\n44.12 [R] 3\n51+7 00+7 00+6 51+7 00+7 00+6\n0 0\n0 0 WOOD BARK\n+ + \"\n5 S 5 3 114+00\nCLEARING AND GRUBBING\nREMOVE MARKING SYMBOL\n20.00' WIDE SANITARY SEWER EASEMENT GEORGE MILLER PKWY TREES OVER 9\" TO 18\" DIAMETER\nGEORGE MILLER PKWY\nINST.#2019095819 2+20.57\n2+61.92\nS 12.09 [R] 4.05 [L] D\n0 0\n0 0\n+ +\n4 0 4 0\n0 0 0 0\n+ 0 + 0\n3 + 2 3 S 2 + STORM MH #836\nS\nRIM=1184.58'\nGEORGE MILLER PKWY WHEEL CHAIR RAMP UNABLE TO OPEN\n2+23.65\nP\n4.24 [L] A R\nP-\nD RI\nD\nD\nW\nF STORM MH #1153\nUV RIM=1178.87'\n113+00 180TH STREET\nIE(N)=1174.17 CLEARING AND GRUBBING - GENERAL 113+19.37\n5.36 [R]\n15\" RCP\nCLEARING AND GRUBBING CLEARING AND GRUBBING REMOVE HEADWALL\nIE(ENE)=1172.07\nTREES OVER 9\" TO 18\" DIAMETER TREES OVER 18\" TO 27\" DIAMETER\nWHEEL CHAIR RAMP 36\" RCP\n20.00' SANITRAY SEWER EASEMENT IE(W)=1171.02\nCLEARING AND GRUBBING REMOVE 7' X 4' BOX CULVERT\n48\" RCP\nWATER MH CLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER CONCRETE - 3 LF\nRIM=1178.37' TREES OVER 18\" TO 27\" DIAMETER GEORGE MILLER PKWY\n2+33.67\nREMOVE RIP-RAP 27.94 [L]\nSTORM MH #1121\nRIM=1178.09' CLEARING AND GRUBBING\nGEORGE MILLER PKWY\nTREES OVER 9\" TO 18\" DIAMETER\n2+31.68 BOTTOM OF STRUCTURE=1169.54'\n8.91 [R] IE(W) PIPE OFFSET\nIE(NNE) PIPE OFFSET\nIE(E) PIPE OFFSET EXISTING ROW\nUNABLE TO DETERMINE DEPTH\n112+00\nREMOVE MARKING LINES\nAND CONFIRM PIPE SIZES\nNOTE:\n1. ALL POWER POLES, POWER RISERS, PULL-BOXES, TELEPHONE REMOVE PAVEMENT\nRISERS AND FIBER OPTIC WARNING SIGNS WITHIN THE LIMITS OF\nCONSTRUCTION SHALL BE RELOCATED BY OTHERS. STATION TO STATION SIDE SQ. YDS.\n2. ALL VEGETATION AND TREES LESS THAN 9\" IN DIAMETER WITHIN\nTHE LIMITS OF CONSTRUCTION SHALL BE REMOVED UNDER THE 2+19.96 2+61.92 LT/RT 190\nPAY ITEM \"CLEARING AND GRUBBING GENERAL\".\n3. DO NOT DISTURB TREES UNLESS MARKED FOR REMOVAL.\n4. SAW CUTS SHALL TAKE PLACE AT EXISTING JOINTS WHERE\nPOSSIBLE.\nMISCELLANEOUS QUANTITIES\nCLEARING AND GRUBBING - GENERAL 1 LS\nCLEARING AND GRUBBING TREES OVER 9\" TO 18\" DIAMETER 10 EA\nCLEARING AND GRUBBING TREES OVER 18\" TO 27\" DIAMETER 3 EA\nREMOVE 7' X 4' BOX CULVERT CONCRETE 3 LF\nREMOVE HEADWALL 1 EA\n111+00\nREMOVE RIP-RAP 10 CY\nREMOVE MARKING LINES 700 LF\nREMOVE MARKING SYMBOL 1 EA\n180TH STREET\n110+39.27\n180TH STREET\n6.47 [L]\n110+39.37\n6.21 [R]\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nL. KRUSE O E\nR P E-11507 REMOVAL PLAN STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K 0 30' 60' FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 7 OF 18",
+     ""
+    ],
+    [
+     "",
+     "",
+     "T\nSTIREK/SMITH\nSHEET\n83\n7 OF 18"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 25,
+   "header_row": 0,
+   "headers": [
+    "18\"S\nT\n18\"ST\nLIMITS OF CONSTRUCTION\nG\nE\nO\nR\nG\nE T\n6+00 S\n\"\n5\n1\nM\nI\nL\nL\nE\nR 6\"SS 1+00 2+00 2+08 6\"SS S03\n418513\nS01\nS02\nP 418512\nK\nW GEORGE MILLER PKWY\n5+71.65\n52.91 [L]\nY\nPROPOSED ROW\n1\n1\n6\n8\nSAN-1\n1\"=20' [H] 1\"=10' [V]\n1200 1200\nGULP\n1190 1190 EYW\nEPIP\n10S 30S\n\"6\n.D.I\nX\n215814 315814\n00.00+1 \"8 19.70+2 \"8\nTCURTSNOC TCURTSNOC\n1180 1180\n:.ON :.ON\n.ATS .ATS PIPE TABLE\nSIG SIG\nPIPE NO. GIS NUMBER SIZE TYPE DESCRIPTION\n1170 1170 S02 418514 6\" X 108' SANITARY SEWER S03 TO S01\n33.3611\nCONSTRUCT PIPE PLUG, STD. PLATE 700-03\n52.0611\n1160 1160 NO. GIS NUMBER STA. SIZE NORTHING EASTING\nS03 418513 2+07.91 6\" 123140.79 90576.07\n=)S()\"6( I.E. (15\" RCP) = 1159.53\n=)N()\"6(\n1150 1150 CONSTRUCT 8\" x 6\" WYE STD. PLATE 703-01\nTUO\nNO. GIS NUMBER STA. SIZE NORTHING EASTING\nNI S01 418512 1+00.00 8\"X6\" 123032.88 90576.39\n.E.I\n.E.I\n1140 418514 1140\nCONSTRUCT 107.91 LF\n6\" SANITARY SEWER @ 2.85%\nWITH PIPE BEDDING\nLEGEND\nPROPOSED GRADING\n1130 1130 EXISTING GRADE\n0+80 1+00 1+20 1+40 1+60 1+80 2+00 2+20 2+40\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nSANITARY SEWER PLAN L. KRUSE O E\nR STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E\nP E-11507 R\nAND PROFILE STIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K 0 20' 40' FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 8 OF 18",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "18\"S\nT\n18\"ST\nLIMITS OF CONSTRUCTION\nG\nE\nO\nR\nG\nE T\n6+00 S\n\"\n5\n1\nM\nI\nL\nL\nE\nR 6\"SS 1+00 2+00 2+08 6\"SS S03\n418513\nS01\nS02\nP 418512\nK\nW GEORGE MILLER PKWY\n5+71.65\n52.91 [L]\nY\nPROPOSED ROW\n1\n1\n6\n8\nSAN-1\n1\"=20' [H] 1\"=10' [V]\n1200 1200\nGULP\n1190 1190 EYW\nEPIP\n10S 30S\n\"6\n.D.I\nX\n215814 315814\n00.00+1 \"8 19.70+2 \"8\nTCURTSNOC TCURTSNOC\n1180 1180\n:.ON :.ON\n.ATS .ATS PIPE TABLE\nSIG SIG\nPIPE NO. GIS NUMBER SIZE TYPE DESCRIPTION\n1170 1170 S02 418514 6\" X 108' SANITARY SEWER S03 TO S01\n33.3611\nCONSTRUCT PIPE PLUG, STD. PLATE 700-03\n52.0611\n1160 1160 NO. GIS NUMBER STA. SIZE NORTHING EASTING\nS03 418513 2+07.91 6\" 123140.79 90576.07\n=)S()\"6( I.E. (15\" RCP) = 1159.53\n=)N()\"6(\n1150 1150 CONSTRUCT 8\" x 6\" WYE STD. PLATE 703-01\nTUO\nNO. GIS NUMBER STA. SIZE NORTHING EASTING\nNI S01 418512 1+00.00 8\"X6\" 123032.88 90576.39\n.E.I\n.E.I\n1140 418514 1140\nCONSTRUCT 107.91 LF\n6\" SANITARY SEWER @ 2.85%\nWITH PIPE BEDDING\nLEGEND\nPROPOSED GRADING\n1130 1130 EXISTING GRADE\n0+80 1+00 1+20 1+40 1+60 1+80 2+00 2+20 2+40\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nSANITARY SEWER PLAN L. KRUSE O E\nR STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E\nP E-11507 R\nAND PROFILE STIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K 0 20' 40' FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 8 OF 18",
+     ""
+    ],
+    [
+     "",
+     "",
+     "T\nSTIREK/SMITH\nSHEET\n83\n8 OF 18"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 28,
+   "header_row": 1,
+   "headers": [
+    "PIPE NO.",
+    "GIS NUMBE",
+    "R SIZE",
+    "TYPE",
+    "DESCRIPTION"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "S02",
+     "418514",
+     "6\" X 10",
+     "8' SANITARY SEWE",
+     "R S03 TO S01"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 32,
+   "header_row": 0,
+   "headers": [
+    "1 1 6 9 0 7 1 1 1 1 7 1 1172 1 1 7 3 4 7 1 1 5 7 1 1 6 7 1 1 7 7 1 1 8 7 1 1 9 7 1 1 EXISTING ROW\nLIMITS OF CONSTRUCTION\n8\n6\n1\n1\nPROPOSED ROW\n0\n0 1169\n+\n5\nGEORGE\n7 0 MILLER PKWY\n1\n1\n1\n1\n7 1 7 9\n1 2 3 4 5 6 7\n1 1 1 7 1 1 7 1 1 7 1 1 7 1 1 7 1 1 7\n0\n0\n+ T\n4\nS\n0\n0\n+ 0\n3 H 0\n+\nS 2\nT\n0 DRAINAGE CHANNEL\n8\nST03 1\n??? 1\n48\"ST\n1 1 1 1 6 6 5 0 ST01 1 + 0 0 ST02 1172 2 + 0 0 1173 1174 1175 2 + 7 4\n418515 1\n1\n7\n8\n1\n1 6 8 1169 1 1 7 0 1 1 7 1 1 1 7 2 F3 7 1 4 7 1 5 7 1\n1 1 1 CONSTRUCT TYPE B RIPRAP, SEE DETAIL SH5EET\nSTM-1\n1\"=20' [H] 1\"=10' [V]\n1210 1210 MISCELLANEOUS QUANTITIES\nCONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 48\" STORM SEWER PIPE 166 LF\nCONSTRUCT TYPE B ROCK RIP-RAP 25 TN\n1200 1200 XOB\n30TS\nNOITCNUJ\n00.7711 PIPE TABLE\nPIPE NO. GIS NUMBER SIZE TYPE DESCRIPTION\n60.47+2\n1190 1190 ??? TCURTSNOC =.VELE 1 418516 48\" X 166' RCP ST03 TO ST02\n:.ON\n10TS 20TS\nSEF .ATS\nSIG MIR CONSTRUCT FLARED END SECTION, STD PLATE 702-12\n515814\nSEF \"84\n00.00+1 79.70+1 NO. GIS NUMBER STA. DESCRIPTION NORTHING EASTING\n1180 1180 TCURTSNOC\nTCURTSNOC\nST02 418515 1+07.97 48\" FES 123010.31 90738.47\n:.ON\n.ATS .ATS\nSIG\nCONSTRUCT JUNCTION BOX, SEE DETAIL 2 ON SHEET 5\n1170 1170 NO. GIS NUMBER STA. V.F. DESCRIPTIONNORTHINGEASTING\nST03 ??? 2+74.06 17.51' JUNCTION BOX 123011.99 90904.55\n54.9511\n05.9511 83.9611\n1160 1160\n05.9511\n=)E()\"84(\n=)E()'7X'4\n=)W()\"84(\n05.0611\n1150 1150 =)E()\"84(\nNI\n=)W()\"84(\n.TSIXE(\nTUO\n.E.I\nNI\n1140 1140\n.E.I .E.I\nTUO NI EXISTING\n4'X7' CULVERT\n.E.I 418515 @ 0.20%\n.E.I\nCONSTRUCT 7.97 LF\n48\" RF..EC..SP.. @ 0.60%\nLEGEND\nWITH PIPE BEDDING\n1130 1130 444111888555111666\nCCCOOONNNSSSTTTRRRUUUCCCTTT 111666666...000999 LLLFFF PROPOSED GRADING NOTE:\nALL FLARED END SECTIONS AND LAST THREE DOWNSTREAM PIPE\n444888\"\"\" RRR...CCC...PPP... @@@ 000...666000%%%\nEXISTING GRADE SECTIONS SHALL BE INSTALLED WITH PIPE COUPLERS.\nWWWIIITTTHHH PPPIIIPPPEEE BBBEEEDDDDDDIIINNNGGG\n1\n1120 1120\n0+80 1+00 1+20 1+40 1+60 1+80 2+00 2+20 2+40 2+60 2+80 3+00\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE MATTHEW STORM SEWER PLAN DESIGN BY KRUSE F E I N\nL. KRUSE O E\nR P E-11507 AND PROFILE SHEET 1 STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS T A T E O F N E B RA S K A 0 20' 40' OF 2 FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 9 OF 18",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "1 1 6 9 0 7 1 1 1 1 7 1 1172 1 1 7 3 4 7 1 1 5 7 1 1 6 7 1 1 7 7 1 1 8 7 1 1 9 7 1 1 EXISTING ROW\nLIMITS OF CONSTRUCTION\n8\n6\n1\n1\nPROPOSED ROW\n0\n0 1169\n+\n5\nGEORGE\n7 0 MILLER PKWY\n1\n1\n1\n1\n7 1 7 9\n1 2 3 4 5 6 7\n1 1 1 7 1 1 7 1 1 7 1 1 7 1 1 7 1 1 7\n0\n0\n+ T\n4\nS\n0\n0\n+ 0\n3 H 0\n+\nS 2\nT\n0 DRAINAGE CHANNEL\n8\nST03 1\n??? 1\n48\"ST\n1 1 1 1 6 6 5 0 ST01 1 + 0 0 ST02 1172 2 + 0 0 1173 1174 1175 2 + 7 4\n418515 1\n1\n7\n8\n1\n1 6 8 1169 1 1 7 0 1 1 7 1 1 1 7 2 F3 7 1 4 7 1 5 7 1\n1 1 1 CONSTRUCT TYPE B RIPRAP, SEE DETAIL SH5EET\nSTM-1\n1\"=20' [H] 1\"=10' [V]\n1210 1210 MISCELLANEOUS QUANTITIES\nCONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 48\" STORM SEWER PIPE 166 LF\nCONSTRUCT TYPE B ROCK RIP-RAP 25 TN\n1200 1200 XOB\n30TS\nNOITCNUJ\n00.7711 PIPE TABLE\nPIPE NO. GIS NUMBER SIZE TYPE DESCRIPTION\n60.47+2\n1190 1190 ??? TCURTSNOC =.VELE 1 418516 48\" X 166' RCP ST03 TO ST02\n:.ON\n10TS 20TS\nSEF .ATS\nSIG MIR CONSTRUCT FLARED END SECTION, STD PLATE 702-12\n515814\nSEF \"84\n00.00+1 79.70+1 NO. GIS NUMBER STA. DESCRIPTION NORTHING EASTING\n1180 1180 TCURTSNOC\nTCURTSNOC\nST02 418515 1+07.97 48\" FES 123010.31 90738.47\n:.ON\n.ATS .ATS\nSIG\nCONSTRUCT JUNCTION BOX, SEE DETAIL 2 ON SHEET 5\n1170 1170 NO. GIS NUMBER STA. V.F. DESCRIPTIONNORTHINGEASTING\nST03 ??? 2+74.06 17.51' JUNCTION BOX 123011.99 90904.55\n54.9511\n05.9511 83.9611\n1160 1160\n05.9511\n=)E()\"84(\n=)E()'7X'4\n=)W()\"84(\n05.0611\n1150 1150 =)E()\"84(\nNI\n=)W()\"84(\n.TSIXE(\nTUO\n.E.I\nNI\n1140 1140\n.E.I .E.I\nTUO NI EXISTING\n4'X7' CULVERT\n.E.I 418515 @ 0.20%\n.E.I\nCONSTRUCT 7.97 LF\n48\" RF..EC..SP.. @ 0.60%\nLEGEND\nWITH PIPE BEDDING\n1130 1130 444111888555111666\nCCCOOONNNSSSTTTRRRUUUCCCTTT 111666666...000999 LLLFFF PROPOSED GRADING NOTE:\nALL FLARED END SECTIONS AND LAST THREE DOWNSTREAM PIPE\n444888\"\"\" RRR...CCC...PPP... @@@ 000...666000%%%\nEXISTING GRADE SECTIONS SHALL BE INSTALLED WITH PIPE COUPLERS.\nWWWIIITTTHHH PPPIIIPPPEEE BBBEEEDDDDDDIIINNNGGG\n1\n1120 1120\n0+80 1+00 1+20 1+40 1+60 1+80 2+00 2+20 2+40 2+60 2+80 3+00\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE MATTHEW STORM SEWER PLAN DESIGN BY KRUSE F E I N\nL. KRUSE O E\nR P E-11507 AND PROFILE SHEET 1 STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS T A T E O F N E B RA S K A 0 20' 40' OF 2 FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 9 OF 18",
+     ""
+    ],
+    [
+     "",
+     "",
+     "T\nSTIREK/SMITH\nSHEET\n83\n9 OF 18"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 38,
+   "header_row": 0,
+   "headers": [
+    "5\n1\n+\n7\nS\n0\n0\n+\n7\nLIMITS OF CONSTRUCTION\nST07\n418520\n2\n+\n0\n0\n3\nS S T\n8\"\n1\n15\"S\nT 4\nST06\nS 418518\n2\n18\"ST\nG\nE\n1\nST04+ O 3\n0 0 S 4 T 1 0 8 5 517 R 6 + 0 0 S 0 0 +\nG 6\" S 3\n+ ST08\nE 1\n4 418522\nM\nI\nL\nL\nE PROPOSED ROW\nDRAINAGE CHANNEL\nR\nP CONSTRUCT TYPE B RIPRAP, SEE DETAIL SH5EET\nK\nW\nCONTRACTOR SHALL CCTV THE EXISTING\nY SANITARY SEWER LINE CROSSING OVER\nTHE STORM SEWER AFTER\nCONSTRUCTION IS COMPLETE, ANY\nMISCELLANEOUS QUANTITIES\nDAMAGES UNCOVERED BY THE CCTV\nSHALL BE REPAIRED AT NO ADDITIONAL\nCONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 15\" STORM SEWER PIPE 114 LF\n1168 COST TO THE CITY OF OMAHA\nCONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 18\" STORM SEWER PIPE 95 LF\nCONSTRUCT TYPE B ROCK RIP-RAP 20 TN\nCONSTRUCT 8\" SANITARY SEWER CONCRETE CRADLE 1 EA\nSTM-2\n1\"=20' [H] 1\"=10' [V]\n1200 1200\nPIPE TABLE\nPIPE NO. GIS NUMBER SIZE TYPE DESCRIPTION\n2 418519 18\" X 50' RCP ST06 TO ST05\n)DEIFIDOM(\n3 418521 18\" X 45' RCP ST07 TO ST06\n1190 1190\n5 4 418523 15\" X 114' RCP ST08 TO ST07\nTEEHS\n70TS 60TS 70TS 80TS\nTELNI 7.5611 TELNI 5.5611 TELNI 7.5611 225814\n025814 815814 NO 025814 62.41+3 GULP CONSTRUCT PIPE PLUG, STD. PLATE 700-03\n1180 1180 06.00+2 BRUC 49.55+1 BRUC 1 06.00+2 BRUC NO. GIS NUMBER STA. SIZE NORTHING EASTING\n=.VELE 40TS LIATED =.VELE =.VELE :.ON EPIP 50TS ST08 418522 3+14.26 15\" 123131.19 90605.95\n:.ON :.ON :.ON SEF\nIII III III .ATS\nSIG\n.ATS EPYT SEF .ATS EPYT .ATS EPYT \"51 715814 \"81\nSIG MIR 00.00+1 SIG EES MIR SIG MIR 29.50+1\nTCURTSNOC TCURTSNOC\nCONSTRUCT CURB INLET, STD PLATE 702-09\n1170 1170\n:.ON\nNO. GIS NUMBER STA. TYPE X A NORTHINGEASTING\n.ATS\n.ATS\nSIG\nST06 418518 6+53.11 TYPE III CURB INLET (MODIFIED) 9.3' 4.25' 123063.21 90494.84\nST07 418520 6+53.11 TYPE III CURB INLET 7.0' 4.25' 123107.87 90494.71\n48.9511\n1160 1160\n07.8511 07.8511\n07.8511 07.8511 66.5511\n61.6511\n8\" SANITARY SEWER\n66.5511 CONSTRUCT FLARED END SECTION, STD PLATE 702-12\nRECORD 8\" SANITARY SEWER STA. 2+83.77\n61.6511 =)W()\"51( STA. 1+20.76 I.E. 1162.88\nI.E. 1158.63 (FIELD VERIFY) NO. GIS NUMBER STA. DESCRIPTION NORTHING EASTING\n=)S()\"81( OT =)S()\"81( (FIELD VERIFY)\n1150 1150 =)E()\"51( =)WS()\"81( =)E()\"51( =)WS()\"81( ST05 418517 6+76.24 18\" FES 123018.80 90471.84\nYCNAPERCSID CONSTRUCT CONCRETE\n=)EN()\"81(\nLENNAHC CRADLE PER OMAHA\n=)N()\"81( STANDARD PLATE\nTUO 700-01 AT SANITARY\n06.5511\nTUO TUO CROSSING\nNI NI\n1140 1140 MOTTOB TUO .E.I TUO\nTROPER\n.E.I .E.I =)EN()\"81( NI .E.I .E.I NI\n.E.I .E.I\nYFIREV .E.I .E.I\n,NOITAVELE\nREENIGNE\n1130 1130\nNI\nDLEIF\n.E.I\n1120 1120 418519 418521 418523 LEGEND\nCONSTRUCT 5.92 LF CONSTRUCT 50.01 LF CONSTRUCT 44.66 LF CONSTRUCT 113.66 LF\n18\" R.C.P. @ 1.00% 18\" R.C.P. @ 1.00% 18\" R.C.P. @ 5.69% 15\" R.C.P. @ 1.00% F.E.S. PROPOSED GRADING NOTES:\nWITH PIPE BEDDING WITH PIPE BEDDING WITH PIPE BEDDING WITH PIPE BEDDING EXISTING GRADE ALL FLARED END SECTIONS AND LAST THREE DOWNSTREAM PIPE\nSECTIONS SHALL BE INSTALLED WITH PIPE COUPLERS.\n2 3 4\n1110 1110\n0+80 1+00 1+20 1+40 1+60 1+80 2+00 2+20 2+40 2+60 2+80 3+00 3+20 3+40\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE MATTHEW STORM SEWER PLAN DESIGN BY KRUSE F E I N\nL. KRUSE O E\nR P E-11507 AND PROFILE SHEET 2 STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS T A T E O F N E B RA S K A 0 20' 40' OF 2 FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 10 OF 18",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "5\n1\n+\n7\nS\n0\n0\n+\n7\nLIMITS OF CONSTRUCTION\nST07\n418520\n2\n+\n0\n0\n3\nS S T\n8\"\n1\n15\"S\nT 4\nST06\nS 418518\n2\n18\"ST\nG\nE\n1\nST04+ O 3\n0 0 S 4 T 1 0 8 5 517 R 6 + 0 0 S 0 0 +\nG 6\" S 3\n+ ST08\nE 1\n4 418522\nM\nI\nL\nL\nE PROPOSED ROW\nDRAINAGE CHANNEL\nR\nP CONSTRUCT TYPE B RIPRAP, SEE DETAIL SH5EET\nK\nW\nCONTRACTOR SHALL CCTV THE EXISTING\nY SANITARY SEWER LINE CROSSING OVER\nTHE STORM SEWER AFTER\nCONSTRUCTION IS COMPLETE, ANY\nMISCELLANEOUS QUANTITIES\nDAMAGES UNCOVERED BY THE CCTV\nSHALL BE REPAIRED AT NO ADDITIONAL\nCONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 15\" STORM SEWER PIPE 114 LF\n1168 COST TO THE CITY OF OMAHA\nCONSTRUCT AGGREGATE BEDDING FOR TYPE R2, 18\" STORM SEWER PIPE 95 LF\nCONSTRUCT TYPE B ROCK RIP-RAP 20 TN\nCONSTRUCT 8\" SANITARY SEWER CONCRETE CRADLE 1 EA\nSTM-2\n1\"=20' [H] 1\"=10' [V]\n1200 1200\nPIPE TABLE\nPIPE NO. GIS NUMBER SIZE TYPE DESCRIPTION\n2 418519 18\" X 50' RCP ST06 TO ST05\n)DEIFIDOM(\n3 418521 18\" X 45' RCP ST07 TO ST06\n1190 1190\n5 4 418523 15\" X 114' RCP ST08 TO ST07\nTEEHS\n70TS 60TS 70TS 80TS\nTELNI 7.5611 TELNI 5.5611 TELNI 7.5611 225814\n025814 815814 NO 025814 62.41+3 GULP CONSTRUCT PIPE PLUG, STD. PLATE 700-03\n1180 1180 06.00+2 BRUC 49.55+1 BRUC 1 06.00+2 BRUC NO. GIS NUMBER STA. SIZE NORTHING EASTING\n=.VELE 40TS LIATED =.VELE =.VELE :.ON EPIP 50TS ST08 418522 3+14.26 15\" 123131.19 90605.95\n:.ON :.ON :.ON SEF\nIII III III .ATS\nSIG\n.ATS EPYT SEF .ATS EPYT .ATS EPYT \"51 715814 \"81\nSIG MIR 00.00+1 SIG EES MIR SIG MIR 29.50+1\nTCURTSNOC TCURTSNOC\nCONSTRUCT CURB INLET, STD PLATE 702-09\n1170 1170\n:.ON\nNO. GIS NUMBER STA. TYPE X A NORTHINGEASTING\n.ATS\n.ATS\nSIG\nST06 418518 6+53.11 TYPE III CURB INLET (MODIFIED) 9.3' 4.25' 123063.21 90494.84\nST07 418520 6+53.11 TYPE III CURB INLET 7.0' 4.25' 123107.87 90494.71\n48.9511\n1160 1160\n07.8511 07.8511\n07.8511 07.8511 66.5511\n61.6511\n8\" SANITARY SEWER\n66.5511 CONSTRUCT FLARED END SECTION, STD PLATE 702-12\nRECORD 8\" SANITARY SEWER STA. 2+83.77\n61.6511 =)W()\"51( STA. 1+20.76 I.E. 1162.88\nI.E. 1158.63 (FIELD VERIFY) NO. GIS NUMBER STA. DESCRIPTION NORTHING EASTING\n=)S()\"81( OT =)S()\"81( (FIELD VERIFY)\n1150 1150 =)E()\"51( =)WS()\"81( =)E()\"51( =)WS()\"81( ST05 418517 6+76.24 18\" FES 123018.80 90471.84\nYCNAPERCSID CONSTRUCT CONCRETE\n=)EN()\"81(\nLENNAHC CRADLE PER OMAHA\n=)N()\"81( STANDARD PLATE\nTUO 700-01 AT SANITARY\n06.5511\nTUO TUO CROSSING\nNI NI\n1140 1140 MOTTOB TUO .E.I TUO\nTROPER\n.E.I .E.I =)EN()\"81( NI .E.I .E.I NI\n.E.I .E.I\nYFIREV .E.I .E.I\n,NOITAVELE\nREENIGNE\n1130 1130\nNI\nDLEIF\n.E.I\n1120 1120 418519 418521 418523 LEGEND\nCONSTRUCT 5.92 LF CONSTRUCT 50.01 LF CONSTRUCT 44.66 LF CONSTRUCT 113.66 LF\n18\" R.C.P. @ 1.00% 18\" R.C.P. @ 1.00% 18\" R.C.P. @ 5.69% 15\" R.C.P. @ 1.00% F.E.S. PROPOSED GRADING NOTES:\nWITH PIPE BEDDING WITH PIPE BEDDING WITH PIPE BEDDING WITH PIPE BEDDING EXISTING GRADE ALL FLARED END SECTIONS AND LAST THREE DOWNSTREAM PIPE\nSECTIONS SHALL BE INSTALLED WITH PIPE COUPLERS.\n2 3 4\n1110 1110\n0+80 1+00 1+20 1+40 1+60 1+80 2+00 2+20 2+40 2+60 2+80 3+00 3+20 3+40\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE MATTHEW STORM SEWER PLAN DESIGN BY KRUSE F E I N\nL. KRUSE O E\nR P E-11507 AND PROFILE SHEET 2 STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS T A T E O F N E B RA S K A 0 20' 40' OF 2 FORTITERINRE Omaha/Douglas Civic Center SHEET\nOPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 10 OF 18",
+     ""
+    ],
+    [
+     "",
+     "",
+     "T\nSTIREK/SMITH\nSHEET\n83\n10 OF 18"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55082 - Plans.pdf",
+   "sheet": 84,
+   "header_row": 0,
+   "headers": [
+    "T LLEEGGEENNDD\nCCOONNDDUUIITT IINN TTRREENNCCHH\nS\nCCOONNDDUUIITT BBOORREEDD\nTTRRAAFFFFIICC SSIIGGNNAALL HHEEAADD WWIITTHH BBAACCKKPPLLAATTEE\nH\nTTRRAAFFFFIICC SSIIGGNNAALL HHEEAADD WW//OO BBAACCKKPPLLAATTEE\nT\nPPEEDDEESSTTRRIIAANN SSIIGGNNAALL HHEEAADD\n0 PPUULLLL BBOOXX\nSSIIGGNNAALL CCOONNTTRROOLLLLEERR\n8\nLLUUMMIINNAAIIRREE\n1\nSSIIGGNN MMOOUUNNTTEEDD OONN SSIIGGNNAALL SSTTRRUUCCTTUURREE\nSSIIGGNN MMOOUUNNTTEEDD OONN PPOOLLEE\nS\nRADAR DETECTION MODULE\n* 1 EA PREEMPTION DETECTOR\nTTRRAAFFFFIICC SSIIGGNNAALL PPOOLLEE\n11 TTRRAAFFFFIICC CCOONNTTRROOLLLLEERR IINNDDIICCAATTIIOONN IIDDEENNTTIIFFIICCAATTIIOONN NNUUMMBBEERR\nPREEMPTION DETECTOR\n1\nSERVICE DISCONNECT PEDESTAL\nPEDESTAL POLE\nTRAFFIC SIGNAL QUANTITIES\nFURNISH AND INSTALL TRAFFIC SIGNAL, TYPE TS-1LF 2 EA\nINSTALL PREEMPTION CONTROL SYSTEM 1 EA\nGEORGE\nMILLER\nPKWY\nTRAFFIC SIGNAL NOTES\n1. ALL OVERHEAD SIGNALS SHALL HAVE BACKPLATES AND BE CENTERED OVER THEIR APPROACH\nLANES.\n2. * - INDICATES MATERIAL INCLUDED IN THE BID ITEM TO PROVIDE AND INSTALL VEHICLE PRIORITY\nD\nCONTROL SYSTEM AT THE INTERSECTION OF 180TH STREET AND GEORGE MILLER PARKWAY. ALL\nWIRING AND MODULES NEEDED IN ORDER FOR THE PREEMPTION DETECTORS TO OPERATE\nPROPERLY SHALL BE PROVIDED AND INSTALLED AND ARE CONSIDERED SUBSIDIARY TO THE PAY\nITEM \"INSTALL PREEMPTION CONTROL SYSTEM\"\n3. ALL SURFACE MATERIALS THAT ARE DISTURBED BY EXCAVATION AND BACKFILLING OPERATIONS\nSHALL BE REPLACED AND RESTORED IN KIND CONSIDERED INCIDENTAL TO OTHER PAY ITEMS.\n4. THE CONTRACTOR SHALL BE FULLY RESPONSIBLE FOR THE PROTECTION OF ALL EXISTING\nADJUST EXISTING SIGNAL HEAD TO LINE UP\nSURFACE AND UNDERGROUND FACILITIES DURING ALL PHASES OF WORK. EXISTING UNDERGROUND\nWITH EB THRU\nFACILITIES ARE SHOWN ON THE DRAWINGS FOR THE CONTRACTOR'S GUIDANCE ONLY. THE\nCONTRACTOR SHALL REPAIR, AT HIS EXPENSE, ANY DAMAGES TO EXISTING FACILITIES CAUSED\nDIRECTLY OR INDIRECTLY BY HIS OPERATIONS. IN ADDITION, THE CONTRACTOR SHALL NOTE THAT\nTHERE MAY BE EXISTING UNDERGROUND FACILITIES THAT ARE NOT SHOWN ON THE PLANS. IT IS,\n1 THEREFORE, A REQUIREMENT OF THE CONTRACT THAT THE CONTRACTOR FULLY INVESTIGATE ALL\nAREAS IN WHICH EXCAVATIONS WILL BE PERFORMED AND TAKE ALL REASONABLE MEASURES\nNECESSARY TO LOCATE ANY FACILITIES WHICH MAY NOT BE SHOWN ON THE PLANS.\n* 5. SPRINKLER SYSTEMS MAY EXIST WITHIN THE AREA OF SIGNAL CONSTRUCTION. THE CONTRACTOR\nSHALL DETERMINE IF SPRINKLER SYSTEMS EXIST BY THE USE OF PROBING METHODS. THE COST\nTO REPAIR ANY DAMAGE TO SPRINKLER SYSTEMS CAUSED BY THE CONTRACTOR SHALL BE\nINCIDENTAL TO OTHER PAY ITEMS.\nWHEEL CHAIR RAMP 6. THE CONTRACTOR SHALL ORDER TRAFFIC SIGNAL HARDWARE IMMEDIATELY FOLLOWING AWARDING OF\nTHE CONTRACT TO ALLOW AS MUCH TIME AS POSSIBLE FOR THE EQUIPMENT ORDER TO BE\n* 1 EA PREEMPTION DETECTOR\nFILLED.\nD\nD\nW\nT32F\nR\nSY\nUV\nFY\nTS-1LF\n1\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nL. KRUSE O E\nR P E-11507 TRAFFIC SIGNAL PLAN STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K FORTITERINRE Omaha/Douglas Civic Center SHEET\n0 10' 20' OPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 18 OF 18",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "T LLEEGGEENNDD\nCCOONNDDUUIITT IINN TTRREENNCCHH\nS\nCCOONNDDUUIITT BBOORREEDD\nTTRRAAFFFFIICC SSIIGGNNAALL HHEEAADD WWIITTHH BBAACCKKPPLLAATTEE\nH\nTTRRAAFFFFIICC SSIIGGNNAALL HHEEAADD WW//OO BBAACCKKPPLLAATTEE\nT\nPPEEDDEESSTTRRIIAANN SSIIGGNNAALL HHEEAADD\n0 PPUULLLL BBOOXX\nSSIIGGNNAALL CCOONNTTRROOLLLLEERR\n8\nLLUUMMIINNAAIIRREE\n1\nSSIIGGNN MMOOUUNNTTEEDD OONN SSIIGGNNAALL SSTTRRUUCCTTUURREE\nSSIIGGNN MMOOUUNNTTEEDD OONN PPOOLLEE\nS\nRADAR DETECTION MODULE\n* 1 EA PREEMPTION DETECTOR\nTTRRAAFFFFIICC SSIIGGNNAALL PPOOLLEE\n11 TTRRAAFFFFIICC CCOONNTTRROOLLLLEERR IINNDDIICCAATTIIOONN IIDDEENNTTIIFFIICCAATTIIOONN NNUUMMBBEERR\nPREEMPTION DETECTOR\n1\nSERVICE DISCONNECT PEDESTAL\nPEDESTAL POLE\nTRAFFIC SIGNAL QUANTITIES\nFURNISH AND INSTALL TRAFFIC SIGNAL, TYPE TS-1LF 2 EA\nINSTALL PREEMPTION CONTROL SYSTEM 1 EA\nGEORGE\nMILLER\nPKWY\nTRAFFIC SIGNAL NOTES\n1. ALL OVERHEAD SIGNALS SHALL HAVE BACKPLATES AND BE CENTERED OVER THEIR APPROACH\nLANES.\n2. * - INDICATES MATERIAL INCLUDED IN THE BID ITEM TO PROVIDE AND INSTALL VEHICLE PRIORITY\nD\nCONTROL SYSTEM AT THE INTERSECTION OF 180TH STREET AND GEORGE MILLER PARKWAY. ALL\nWIRING AND MODULES NEEDED IN ORDER FOR THE PREEMPTION DETECTORS TO OPERATE\nPROPERLY SHALL BE PROVIDED AND INSTALLED AND ARE CONSIDERED SUBSIDIARY TO THE PAY\nITEM \"INSTALL PREEMPTION CONTROL SYSTEM\"\n3. ALL SURFACE MATERIALS THAT ARE DISTURBED BY EXCAVATION AND BACKFILLING OPERATIONS\nSHALL BE REPLACED AND RESTORED IN KIND CONSIDERED INCIDENTAL TO OTHER PAY ITEMS.\n4. THE CONTRACTOR SHALL BE FULLY RESPONSIBLE FOR THE PROTECTION OF ALL EXISTING\nADJUST EXISTING SIGNAL HEAD TO LINE UP\nSURFACE AND UNDERGROUND FACILITIES DURING ALL PHASES OF WORK. EXISTING UNDERGROUND\nWITH EB THRU\nFACILITIES ARE SHOWN ON THE DRAWINGS FOR THE CONTRACTOR'S GUIDANCE ONLY. THE\nCONTRACTOR SHALL REPAIR, AT HIS EXPENSE, ANY DAMAGES TO EXISTING FACILITIES CAUSED\nDIRECTLY OR INDIRECTLY BY HIS OPERATIONS. IN ADDITION, THE CONTRACTOR SHALL NOTE THAT\nTHERE MAY BE EXISTING UNDERGROUND FACILITIES THAT ARE NOT SHOWN ON THE PLANS. IT IS,\n1 THEREFORE, A REQUIREMENT OF THE CONTRACT THAT THE CONTRACTOR FULLY INVESTIGATE ALL\nAREAS IN WHICH EXCAVATIONS WILL BE PERFORMED AND TAKE ALL REASONABLE MEASURES\nNECESSARY TO LOCATE ANY FACILITIES WHICH MAY NOT BE SHOWN ON THE PLANS.\n* 5. SPRINKLER SYSTEMS MAY EXIST WITHIN THE AREA OF SIGNAL CONSTRUCTION. THE CONTRACTOR\nSHALL DETERMINE IF SPRINKLER SYSTEMS EXIST BY THE USE OF PROBING METHODS. THE COST\nTO REPAIR ANY DAMAGE TO SPRINKLER SYSTEMS CAUSED BY THE CONTRACTOR SHALL BE\nINCIDENTAL TO OTHER PAY ITEMS.\nWHEEL CHAIR RAMP 6. THE CONTRACTOR SHALL ORDER TRAFFIC SIGNAL HARDWARE IMMEDIATELY FOLLOWING AWARDING OF\nTHE CONTRACT TO ALLOW AS MUCH TIME AS POSSIBLE FOR THE EQUIPMENT ORDER TO BE\n* 1 EA PREEMPTION DETECTOR\nFILLED.\nD\nD\nW\nT32F\nR\nSY\nUV\nFY\nTS-1LF\n1\nSHEET SET:S T PD\nREVISIONS CITY OF OMAHA ISSUE DATE N A L C I V I L\nO\n08/11/2026 SI E N\nS G\nCITY OF OMAHA FIRE DESIGN BY E I\nMATTHEW KRUSE F N\nL. KRUSE O E\nR P E-11507 TRAFFIC SIGNAL PLAN STATION #70 PUBLIC WORKS DEPARTMENT DRAWN BY E R\nSTIREK/SMITH\n08/11/2026\nS A\nT A T E O F N E B RA S K FORTITERINRE Omaha/Douglas Civic Center SHEET\n0 10' 20' OPW 55082 1819 Farnam Street, Suite 600, Omaha, Nebraska 68183 18 OF 18",
+     ""
+    ],
+    [
+     "",
+     "",
+     "T\nSTIREK/SMITH\nSHEET\n83\n18 OF 18"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 82.5,
+  "attachment_fetches": 10,
+  "attachment_seconds": 1.9,
+  "attachment_bytes": 21413395,
+  "max_fetch_seconds": 1.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-09T13:38:41.404711+00:00",
+ "extract_attempts": 1
+}

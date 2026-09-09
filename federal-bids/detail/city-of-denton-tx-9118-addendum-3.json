@@ -1,0 +1,372 @@
+{
+ "bid_id": "city-of-denton-tx-9118-addendum-3",
+ "bid_number": "9118 Addendum 3",
+ "agency": "City of Denton, TX",
+ "src": "Open",
+ "title": "Routing System",
+ "close": "9/16/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Licenses for Tablet Application (Drivers/Field)",
+   "qty": "75",
+   "uom": "Per Unit",
+   "note": "QTY could change over the life of the contract",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Licenses for Tablet Application (Drivers/Field) 75 Per Unit No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Non-Standard Hardware and equipment",
+   "qty": "1",
+   "uom": "EA",
+   "note": "QTY is Unknown",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Non-Standard Hardware and equipment 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Ongoing Support (annual)",
+   "qty": "5",
+   "uom": "Yearly",
+   "note": "QTY is based on a 5 year contract",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Ongoing Support (annual) 5 Yearly No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Implementation cost",
+   "qty": "1",
+   "uom": "Total",
+   "note": "QTY is Unknown",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Implementation cost 1 Total No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "End-user training & hand-off tasks",
+   "qty": "1",
+   "uom": "EA",
+   "note": "QTY is Unknown",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 End-user training & hand-off tasks 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Mobilization",
+   "qty": "1",
+   "uom": "EA",
+   "note": "QTY is Unknown",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Mobilization 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "9118 SOW.pdf",
+  "9118 Attachment A - Funtional and Technical Requirements.xlsx",
+  "9118 Attachment B -  Cost Breakdown.xlsx",
+  "9118 Attachment C - Optional Cost Summary.xlsx",
+  "9118 Attachment E - Reference List.xlsx",
+  "9118 Attachment G -  Project Timeline.xlsx",
+  "9118 Sample Contract.pdf",
+  "9118 Insurance Requirements.pdf",
+  "Conflict_of_Interest_Questionaire.docx",
+  "Safety_Record.docx",
+  "Contractor Wage Information.docx",
+  "Collections Fleet.xlsx",
+  "Paradigm_Harris_Export File Fields.xlsx",
+  "RFID-Flex-Hard-Tag-Product-Sheet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "9118 SOW.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "9118 Attachment A - Funtional and Technical Requirements.xlsx",
+   "kind": "xlsx",
+   "tables": 20,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "9118 Attachment B -  Cost Breakdown.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "9118 Attachment C - Optional Cost Summary.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "9118 Attachment E - Reference List.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "9118 Attachment G -  Project Timeline.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "9118 Sample Contract.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "9118 Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict_of_Interest_Questionaire.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Safety_Record.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Contractor Wage Information.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Collections Fleet.xlsx",
+   "kind": "xlsx",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Paradigm_Harris_Export File Fields.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFID-Flex-Hard-Tag-Product-Sheet.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "9118 Attachment A - Funtional and Technical Requirements.xlsx",
+   "sheet": 9,
+   "header_row": 1,
+   "headers": [
+    "Req #",
+    "Description of Requirement",
+    "Source",
+    "Quantity of Data Needed in Future System",
+    "City Criticality",
+    "Vendor Response",
+    "Cost to Convert",
+    "Vendor Standard Conversion Scope",
+    "Vendor Comments",
+    "",
+    "Proposed - Scope Varies from Requested Scope"
+   ],
+   "score": 2,
+   "n_rows": 40,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "(Please outline standard scope of conversions for the objects identified)",
+     "",
+     "",
+     "Other (State Reasons in Vendor Comments)"
+    ],
+    [
+     "Data Domains",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "DC.1",
+     "Customer accounts and tenant history must be converted, including parent/child structures and active/inactive status.",
+     "Paradigm",
+     "Current Plus 5 Years Historical",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "9118 Attachment B -  Cost Breakdown.xlsx",
+   "sheet": 0,
+   "header_row": 5,
+   "headers": [
+    "",
+    "Line #",
+    "Description of Expense",
+    "Quantity",
+    "Price per Unit",
+    "Total",
+    "Comments"
+   ],
+   "score": 3,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "If needed, please expand lines or additional lines to the cost breakdown.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "1",
+     "Licenses for Tablet Application (Drivers/Field)",
+     "75",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "2",
+     "Non-Standard Hardware and equipment",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "9118 Attachment C - Optional Cost Summary.xlsx",
+   "sheet": 0,
+   "header_row": 5,
+   "headers": [
+    "",
+    "Line #",
+    "Description of Expense",
+    "Quantity",
+    "Price per Unit",
+    "Total",
+    "Comments"
+   ],
+   "score": 3,
+   "n_rows": 8,
+   "sample": [
+    [
+     "",
+     "Optional features available to the City, but not required forsystem operation.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "2",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.2,
+  "attachment_fetches": 14,
+  "attachment_seconds": 1.0,
+  "attachment_bytes": 1585225,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-09T13:41:14.152082+00:00",
+ "extract_attempts": 1
+}

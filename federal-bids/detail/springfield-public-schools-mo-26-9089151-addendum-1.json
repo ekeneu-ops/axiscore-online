@@ -1,0 +1,75 @@
+{
+ "bid_id": "springfield-public-schools-mo-26-9089151-addendum-1",
+ "bid_number": "26-9089151 Addendum 1",
+ "agency": "Springfield Public Schools, MO",
+ "src": "Open",
+ "title": "Hot Water Holding Tank Replacement for Parkview High School",
+ "close": "9/16/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Substitute_W9 Plus.pdf",
+  "FELONY_CONVICTION_NOTIFICATION_FORM _1_.pdf",
+  "FEDERAL WORK AUTHORIZATION PROGRAM AFFIDAVIT.pdf",
+  "SPS 00 43 39 DBE Practice Document.docx",
+  "Project Manual - Parkview Holding Tanks.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Substitute_W9 Plus.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FELONY_CONVICTION_NOTIFICATION_FORM _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "FEDERAL WORK AUTHORIZATION PROGRAM AFFIDAVIT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SPS 00 43 39 DBE Practice Document.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Project Manual - Parkview Holding Tanks.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 4716428,
+  "max_fetch_seconds": 0.27,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-09T13:39:29.509262+00:00",
+ "extract_attempts": 1
+}
