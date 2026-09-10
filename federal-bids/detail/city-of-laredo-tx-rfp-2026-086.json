@@ -1,0 +1,150 @@
+{
+ "bid_id": "city-of-laredo-tx-rfp-2026-086",
+ "bid_number": "RFP 2026-086",
+ "agency": "City of Laredo, TX",
+ "src": "Open",
+ "title": "RFP 2026-086 Medium/H.D. Truck OEM Parts",
+ "close": "9/16/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 6,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Percentage of Discount offered.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Percentage of Discount offered. 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Percentage of Discount offered",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Percentage of Discount offered 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "3.1",
+   "desc": "Percentage of Discount offered.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.1 Percentage of Discount offered. 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "4.1",
+   "desc": "Percentage of Discount offered",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "4.1 Percentage of Discount offered 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "5.1",
+   "desc": "Percentage of Discount offered",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "5.1 Percentage of Discount offered 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "6.1",
+   "desc": "Percentage of Discount offered",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.1 Percentage of Discount offered 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf",
+  "Non-Collusive Affidavit Form.pdf",
+  "2026-086  Form 1295.pdf",
+  "2026-086 COQ_FORM AND INSTRUCTIONS.pdf",
+  "RFP 2026-086 Medium HD Truck OEM Parts.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusive Affidavit Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "2026-086  Form 1295.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "2026-086 COQ_FORM AND INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 2026-086 Medium HD Truck OEM Parts.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.6,
+  "attachment_fetches": 5,
+  "attachment_seconds": 1.1,
+  "attachment_bytes": 2242202,
+  "max_fetch_seconds": 0.59,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-10T13:40:48.362266+00:00",
+ "extract_attempts": 1
+}

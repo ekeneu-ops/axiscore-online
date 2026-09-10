@@ -1,0 +1,406 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0826-050",
+ "bid_number": "PUR0826-050",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Invited",
+ "title": "Remediation & Demo of Three (3) Parcels on Ellis Blvd. NW",
+ "close": "9/23/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Firm fixed price for 1865 Ellis Blvd. NW per the bid documents",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Firm fixed price for 1865 Ellis Blvd. NW per the bid documents 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Firm fixed price for 1861 Ellis Blvd. NW per the bid documents",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Firm fixed price for 1861 Ellis Blvd. NW per the bid documents 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Firm fixed price for 1851 Ellis Blvd. NW per the bid documents",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Firm fixed price for 1851 Ellis Blvd. NW per the bid documents 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Discovery Item - Septic Tanks",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Discovery Item - Septic Tanks 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Discovery Item - Cisterns",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Discovery Item - Cisterns 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Scope of Work_PUR0826-050.pdf",
+  "1851 Ellis Blvd NW Report.pdf",
+  "1861 Ellis Blvd NW Report.pdf",
+  "1865 Ellis Blvd NW Report.pdf",
+  "Payment _ Performance Bonds_PUR0826-050.pdf",
+  "Certificate to Obtain Insurance_PUR0826-050.pdf",
+  "Insurance - 3 endorsements_PUR0826-050.pdf",
+  "Local Preference.pdf",
+  "RFB Contract T_C.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Scope of Work_PUR0826-050.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1851 Ellis Blvd NW Report.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "1861 Ellis Blvd NW Report.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "1865 Ellis Blvd NW Report.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "Payment _ Performance Bonds_PUR0826-050.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate to Obtain Insurance_PUR0826-050.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance - 3 endorsements_PUR0826-050.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Local Preference.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFB Contract T_C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "1851 Ellis Blvd NW Report.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "None",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1851 Ellis Blvd NW Report.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "None",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1851 Ellis Blvd NW Report.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "9\u201d Floor Tile (no mastic)",
+     "Brown",
+     "2nd floor bedroom",
+     "250 SF"
+    ],
+    [
+     "9\u201d Floor Tile (no mastic)",
+     "Brown",
+     "2nd floor bedroom &\nBathroom",
+     "300 SF"
+    ]
+   ]
+  },
+  {
+   "source": "1851 Ellis Blvd NW Report.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Vermiculite",
+     "Gold/Brown",
+     "Attic",
+     "*"
+    ]
+   ]
+  },
+  {
+   "source": "1861 Ellis Blvd NW Report.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "None",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1861 Ellis Blvd NW Report.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "None",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1861 Ellis Blvd NW Report.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "None",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1865 Ellis Blvd NW Report.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "None",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1865 Ellis Blvd NW Report.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "None",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1865 Ellis Blvd NW Report.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "None",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1865 Ellis Blvd NW Report.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Material",
+    "Description",
+    "Location",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Vermiculite",
+     "Gold/Brown",
+     "Attic",
+     "*"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 17.9,
+  "attachment_fetches": 9,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 5475140,
+  "max_fetch_seconds": 0.24,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-10T13:35:39.800867+00:00",
+ "extract_attempts": 1
+}

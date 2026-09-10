@@ -1,0 +1,130 @@
+{
+ "bid_id": "brownsville-isd-tx-27-040",
+ "bid_number": "27-040",
+ "agency": "Brownsville ISD, TX",
+ "src": "Open",
+ "title": "Charter Bus Service District-Wide",
+ "close": "9/17/2026 10:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "38-42 PASSENGER CHARTER BUS",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 38-42 PASSENGER CHARTER BUS 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "2",
+   "desc": "47-52 PASSENGER CHARTER BUS",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 47-52 PASSENGER CHARTER BUS 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "3",
+   "desc": "55-57 PASSENGER CHARTER BUS",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 55-57 PASSENGER CHARTER BUS 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine34",
+   "kind": "line",
+   "line": "4",
+   "desc": "PHYSICALLY IMPAIRED PASSENGER (ADA-COMPLIANT)",
+   "qty": "1",
+   "uom": "",
+   "note": "The ADA prohibits discrimination against persons with disabilities who use privately operated transportation services. Vendors shall identify available accessibility features, including wheelchair lifts, wheelchair securement systems, designated wheelchair spaces, and other accommodations.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 PHYSICALLY IMPAIRED PASSENGER (ADA-COMPLIANT) 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine45",
+   "kind": "line",
+   "line": "5",
+   "desc": "CANCELLATION FEES:",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 CANCELLATION FEES: 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "CERTIFICATIONS 2026-2027.pdf",
+  "RFP_ 27-040__Charter_Bus___Scope_of_Work_ pdf.pdf",
+  "preempl-preservice-affidavit-july-2026.pdf",
+  "BID _RFP references 22-23.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CERTIFICATIONS 2026-2027.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP_ 27-040__Charter_Bus___Scope_of_Work_ pdf.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "preempl-preservice-affidavit-july-2026.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID _RFP references 22-23.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.0,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 2083624,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-10T13:41:52.806138+00:00",
+ "extract_attempts": 1
+}
