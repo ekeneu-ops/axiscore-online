@@ -123,7 +123,9 @@ jobs:
             FROM plaid.transactions WHERE item_label='amex'
             AND posted_date >= (SELECT max(posted_date) FROM plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%')),
             'card_in_transit', (SELECT json_build_object('amount', amount, 'batches', batches,
-            'basis', basis, 'oldest_days', oldest_days, 'deposits_through',
+            'basis', basis, 'oldest_days', oldest_days,
+            'stale_batches', stale_batches, 'stale_amount', stale_amount,
+            'stale_oldest_days', stale_oldest_days, 'deposits_through',
             (SELECT max(posted_date)::text FROM plaid.transactions WHERE item_label='boa'
             AND amount<0 AND name ILIKE '%MERCH DEP%')) FROM authnet.v_card_in_transit LIMIT 1),
             'plaid_health', (SELECT COALESCE(json_agg(json_build_object('item', item_label,
