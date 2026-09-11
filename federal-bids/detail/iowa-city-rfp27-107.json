@@ -1,0 +1,106 @@
+{
+ "bid_id": "iowa-city-rfp27-107",
+ "bid_number": "RFP27-107",
+ "agency": "Iowa City",
+ "src": "Open",
+ "title": "Evidence Imaging Device",
+ "close": "9/17/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Total not to exceed price including reimbursable expenses to provide an Evidence Imaging Device.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Total not to exceed price including reimbursable expenses to provide an Evidence Imaging Device. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Provide a not-to-exceed price including reimbursable expenses to provide on-site training and set-up of the device.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Provide a not-to-exceed price including reimbursable expenses to provide on-site training and set-up of the device. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Shipping and handling fees",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Shipping and handling fees 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "A - General Requirements and Instructions to Vendors _1_.pdf",
+  "B - General Terms and Conditions.pdf",
+  "C- Wage Theft Affidavit.pdf",
+  "D - Contract Compliance Document.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "A - General Requirements and Instructions to Vendors _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B - General Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "C- Wage Theft Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "D - Contract Compliance Document.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 12.0,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 666112,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-11T13:46:58.513144+00:00",
+ "extract_attempts": 1
+}

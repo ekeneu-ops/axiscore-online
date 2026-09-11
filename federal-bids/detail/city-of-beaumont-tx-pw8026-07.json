@@ -1,0 +1,63 @@
+{
+ "bid_id": "city-of-beaumont-tx-pw8026-07",
+ "bid_number": "PW8026-07",
+ "agency": "City of Beaumont, TX",
+ "src": "Open",
+ "title": "RFP for Mitigation Reallocation Program (MRP) Grant Administration Services",
+ "close": "9/17/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "PW0826-07 RFP for MRP Grant Administration Services Specifications.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PW0826-07 RFP for MRP Grant Administration Services Specifications.pdf",
+   "kind": "pdf",
+   "tables": 34,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "PW0826-07 RFP for MRP Grant Administration Services Specifications.pdf",
+   "sheet": 22,
+   "header_row": 0,
+   "headers": [
+    ">$50,000",
+    "(A) Contracts for more than $50,000 must address administrative,\ncontractual, or legal remedies in instances where contractors violate or\nbreach contract terms, and provide for such sanctions and penalties as\nappropriate.\nUse the following language for contracts > $50,000:\nResolution of Program Non-compliance and Disallowed Costs\nIn the event of any dispute, claim, question, or disagreement arising from\nor relating to this Agreement, or the breach thereof, including\ndetermination of responsibility for any costs disallowed as a result of non-\ncompliance with federal, state or TxCDBG program requirements, the\nparties hereto shall use their best efforts to settle the dispute, claim,\nquestion or disagreement. To this effect, the parties shall consult and\nnegotiate with each other in good faith within 30 days of receipt of a\nwritten notice of the dispute or invitation to negotiate, and attempt to reach\na just and equitable solution satisfactory to both parties. If the matter is\nnot resolved by negotiation within 30 days of receipt of written notice or\ninvitation to negotiate, the parties agree first to try in good faith to settle\nthe matter by mediation administered by the American Arbitration\nAssociation under its Commercial Mediation Procedures before resorting\nto arbitration, litigation, or some other dispute resolution procedure. The\nparties may enter into a written amendment to this Agreement and choose\na mediator that is not affiliated with the American Arbitration Association.\nThe parties shall bear the costs of such mediation equally. [This section\nmay also provide for the qualifications of the mediator(s), the locale of\nmeetings, time limits, or any other item of concern to the parties.] If the\nmatter is not resolved through such mediation within 60 days of the\ninitiation of that procedure, either party may proceed to file suit.",
+    "2 CFR 200\nAPPENDIX II (A)"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Option Contract\nLanguage for\nProcurement\nbefore Grant\nFunds Awarded",
+     "Payment of the fees [described in ____ section] shall be contingent on\nCDBG funding. In the event that grant funds are not awarded to the City\n/ County by TDA through the TxCDBG program, this agreement shall be\nterminated by the City / County.",
+     "2 CFR 200.319(a)"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.6,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 2704543,
+  "max_fetch_seconds": 0.25,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-11T13:46:45.002649+00:00",
+ "extract_attempts": 1
+}

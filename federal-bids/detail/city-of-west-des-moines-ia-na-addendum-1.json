@@ -2,74 +2,277 @@
  "bid_id": "city-of-west-des-moines-ia-na-addendum-1",
  "bid_number": "NA Addendum 1",
  "agency": "City of West Des Moines, IA",
- "src": "Open",
- "title": "Website Redesign, Content Management System, Hosting, and Support Services",
- "close": "9/16/2026 03:00 PM (ET)",
+ "src": "Invited",
+ "title": "Enterprise Storage System Replacement",
+ "close": "10/7/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
- "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
- "items_source": null,
- "lines_recovered": 0,
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
  "grid_empty_or_form": true,
  "onscreen_grid_count": 1,
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "08-21-26 Website RFP.pdf",
-  "08-21-26 Website RFP APPENDIX A - INSURANCE AND STANDARD CONTRACT REQUIREMENT.pdf",
-  "08-21-26 Website RFP Conflict of Interest Disclosure Statement Form.pdf",
-  "08-21-26 Website RFP False Claims Debarment and Civil Litigation History Form.pdf",
-  "08-21-26 Website RFP Addendum - Questions _ Answers.pdf"
+  "09-11-26 Qumulo Storage System Replacement RFP.pdf",
+  "09-11-26 Qumulo Storage System Replacement RFP - Appendix A - Technical Requirements.pdf",
+  "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
+  "09-11-26 Qumulo Storage System Replacement RFP - Appendix C - References.pdf",
+  "09-11-26 Qumulo Storage System Replacement RFP - Appendix D - Insurance Requirements.pdf",
+  "09-11-26 Qumulo Storage System Replacement RFP - Appendix E - Proposal Exceptions.pdf",
+  "09-11-26 Qumulo Storage System Replacement RFP - Appendix F - Proposal Certification.pdf",
+  "09-11-26 Qumulo-supported-platforms-march-2026.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "08-21-26 Website RFP.pdf",
+   "name": "09-11-26 Qumulo Storage System Replacement RFP.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix A - Technical Requirements.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
+   "kind": "pdf",
+   "tables": 26,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix C - References.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix D - Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix E - Proposal Exceptions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix F - Proposal Certification.pdf",
    "kind": "pdf",
    "tables": 2,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "08-21-26 Website RFP APPENDIX A - INSURANCE AND STANDARD CONTRACT REQUIREMENT.pdf",
+   "name": "09-11-26 Qumulo-supported-platforms-march-2026.pdf",
    "kind": "pdf",
-   "tables": 9,
+   "tables": 11,
    "note": "",
-   "candidates": 0
-  },
-  {
-   "name": "08-21-26 Website RFP Conflict of Interest Disclosure Statement Form.pdf",
-   "kind": "pdf",
-   "tables": 0,
-   "note": "text-layer PDF, no tables detected",
-   "candidates": 0
-  },
-  {
-   "name": "08-21-26 Website RFP False Claims Debarment and Civil Litigation History Form.pdf",
-   "kind": "pdf",
-   "tables": 0,
-   "note": "text-layer PDF, no tables detected",
-   "candidates": 0
-  },
-  {
-   "name": "08-21-26 Website RFP Addendum - Questions _ Answers.pdf",
-   "kind": "pdf",
-   "tables": 0,
-   "note": "text-layer PDF, no tables detected",
    "candidates": 0
   }
  ],
- "candidate_tables": [],
+ "candidate_tables": [
+  {
+   "source": "09-11-26 Qumulo Storage System Replacement RFP.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Hardware",
+    "Manufacturer, model, quantity, unit price, and extended\nprice"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "Software and Licensing",
+     "Product, license type, terms, quantity, and cost"
+    ],
+    [
+     "Implementation Services",
+     "Description of services, hours or fixed fee, and total cost"
+    ],
+    [
+     "Support and warranty",
+     "Coverage level, term, and cost"
+    ]
+   ]
+  },
+  {
+   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "Service",
+    "Description",
+    "Pricing Basis",
+    "Price"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "Installation and configuration assistance",
+     "",
+     "Fixed Hourly",
+     ""
+    ],
+    [
+     "Network and connectivity assistance",
+     "",
+     "Fixed Hourly",
+     ""
+    ],
+    [
+     "Active Directory integration",
+     "",
+     "Fixed Hourly",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "Cost Item",
+    "Description",
+    "Price"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "Shipping, freight, and delivery",
+     "",
+     ""
+    ],
+    [
+     "Travel and related expenses",
+     "",
+     ""
+    ],
+    [
+     "Required third-party products or services",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
+   "sheet": 14,
+   "header_row": 0,
+   "headers": [
+    "Service",
+    "Description",
+    "Pricing Basis",
+    "Price"
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "Configuration assistance",
+     "",
+     "Fixed Hourly",
+     ""
+    ],
+    [
+     "Qumulo compatibility assistance",
+     "",
+     "Fixed Hourly",
+     ""
+    ],
+    [
+     "Remote deployment support",
+     "",
+     "Fixed Hourly",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
+   "sheet": 17,
+   "header_row": 0,
+   "headers": [
+    "Cost Item",
+    "Description",
+    "Price"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "Shipping, freight, and delivery",
+     "",
+     ""
+    ],
+    [
+     "Travel and related expenses",
+     "",
+     ""
+    ],
+    [
+     "Required third-party products or services",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
+   "sheet": 22,
+   "header_row": 0,
+   "headers": [
+    "Optional Product or Service",
+    "Description",
+    "Price"
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "Extended warranty",
+     "",
+     ""
+    ],
+    [
+     "Additional support coverage",
+     "",
+     ""
+    ],
+    [
+     "Additional storage capacity",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
  "notes": [],
  "latency": {
-  "bid_seconds": 7.2,
-  "attachment_fetches": 5,
-  "attachment_seconds": 0.5,
-  "attachment_bytes": 783337,
-  "max_fetch_seconds": 0.18,
+  "bid_seconds": 10.6,
+  "attachment_fetches": 8,
+  "attachment_seconds": 1.1,
+  "attachment_bytes": 1160942,
+  "max_fetch_seconds": 0.27,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-09T13:41:22.905080+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-09-11T13:19:56.491798+00:00",
+ "extract_attempts": 2
 }

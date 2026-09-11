@@ -1,0 +1,115 @@
+{
+ "bid_id": "plano-isd-tx-csp-2026-11-37",
+ "bid_number": "CSP 2026-11-37",
+ "agency": "Plano ISD, TX",
+ "src": "Invited",
+ "title": "Employee Child Care Center 1 Systems & Compliance",
+ "close": "9/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "MPE Specs.pdf",
+  "Plano ISD ECCC1.pdf",
+  "Lighting Comcheck.pdf",
+  "CSP 2026-11-37 ECCC1 Systems _ Compliance PROPOSAL FORMS.docx",
+  "CIQ Revised 1.1.21.pdf",
+  "Sample 1295.pdf",
+  "AIA 305 - 1986.pdf",
+  "Construction Evaluation Form.pdf",
+  "Blank fw9.pdf",
+  "Terms_and_Conditions 2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "MPE Specs.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Plano ISD ECCC1.pdf",
+   "kind": "pdf",
+   "tables": 143,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Lighting Comcheck.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CSP 2026-11-37 ECCC1 Systems _ Compliance PROPOSAL FORMS.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Revised 1.1.21.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sample 1295.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "AIA 305 - 1986.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Construction Evaluation Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Blank fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Terms_and_Conditions 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 24.4,
+  "attachment_fetches": 10,
+  "attachment_seconds": 2.5,
+  "attachment_bytes": 21358673,
+  "max_fetch_seconds": 0.72,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-11T13:19:44.403092+00:00",
+ "extract_attempts": 1
+}

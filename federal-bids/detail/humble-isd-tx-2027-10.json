@@ -1,0 +1,134 @@
+{
+ "bid_id": "humble-isd-tx-2027-10",
+ "bid_number": "2027-10",
+ "agency": "Humble ISD, TX",
+ "src": "Open",
+ "title": "CNS MILK COOLERS",
+ "close": "9/17/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Package 1 \u2013 Traulsen \u2013 RMC Series Milk Coolers \u2013 8 Create Capacity Models or Equivalent Model",
+   "qty": "15",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Package 1 \u2013 Traulsen \u2013 RMC Series Milk Coolers \u2013 8 Create Capacity Models or Equivalent Model 15 No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "Package 2 \u2013 Traulsen \u2013 RMC Series Milk Cooler \u2013 12 Crate Capacity Models or Equivalent",
+   "qty": "8",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Package 2 \u2013 Traulsen \u2013 RMC Series Milk Cooler \u2013 12 Crate Capacity Models or Equivalent 8 No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "3",
+   "desc": "Estimate Freight Costs for shipping of all units to Humble ISD - Child Nutrition Services Warehouse",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Freight Cost (if applicable)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Estimate Freight Costs for shipping of all units to Humble ISD - Child Nutrition Services Warehouse 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "4",
+   "desc": "Additional Costs",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Please list any additional costs that may be included that are not listed or covered on the requested line items. Please provide a breakdown of any additional costs to the attachments tab.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Additional Costs 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP 2027-10 - GUIDELINES AND SPECIFICATIONS.pdf",
+  "Traulsen RMC34 - 8 Crate Capacity Spec Sheet.pdf",
+  "Traulsen RMC49 - 12 Crate Capacity Spec Sheet.pdf",
+  "FORM 1295 INSTRUCTIONS.pdf",
+  "W9_2024.pdf",
+  "REFERENCE INSTRUCTIONS.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2027-10 - GUIDELINES AND SPECIFICATIONS.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Traulsen RMC34 - 8 Crate Capacity Spec Sheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Traulsen RMC49 - 12 Crate Capacity Spec Sheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORM 1295 INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W9_2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "REFERENCE INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 12.1,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 2259469,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-11T13:41:32.729585+00:00",
+ "extract_attempts": 1
+}

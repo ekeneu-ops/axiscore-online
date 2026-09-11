@@ -1,0 +1,58 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1475215",
+ "bid_number": "1475215",
+ "agency": "San Antonio Water System, TX",
+ "src": "Invited",
+ "title": "BLADE RECIPROCATING SAW METAL 9 INCH 8 TPI 5 PER PACK",
+ "close": "9/21/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Blade Reciprocating Saw Metal 9 Inch 8 TPI (5 Each Per Pack).",
+   "qty": "50",
+   "uom": "PACK",
+   "note": "No substitutions allowed. Must be exact item. Deliver in 10 calendar days.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Blade Reciprocating Saw Metal 9 Inch 8 TPI (5 Each Per Pack). 50 PACK No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 14.3,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 219404,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-11T13:17:40.437298+00:00",
+ "extract_attempts": 1
+}
