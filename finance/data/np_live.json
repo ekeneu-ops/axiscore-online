@@ -1,5 +1,5 @@
 {
- "asof": "2026-09-12T21:57Z",
+ "asof": "2026-09-12T22:48Z",
  "ap": {
   "net": 379805.6,
   "credits": 9226.85,
@@ -19,16 +19,16 @@
     "total": 463.14
    },
    "PAY": {
-    "count": 4643,
-    "total": 349256.05
+    "count": 4769,
+    "total": 356471.49
    },
    "REVIEW": {
-    "count": 181,
-    "total": 17630.47
+    "count": 184,
+    "total": 17871.5
    },
    "UNSCORED": {
-    "count": 148,
-    "total": 8733.14
+    "count": 19,
+    "total": 1276.67
    },
    "PARKED": {
     "count": 31,
@@ -53,24 +53,24 @@
     "total": 135150.63
    }
   },
-  "asof": "2026-09-12T21:57Z",
+  "asof": "2026-09-12T22:48Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 260959.94,
-  "order_count": 3178,
+  "net": 261008.36,
+  "order_count": 3181,
   "walk": {
-   "released": 93747.66,
+   "released": 94066.54,
    "postsettle": 248.88,
-   "refunds": -6845.98,
+   "refunds": -7013.02,
    "account_events": -224.99,
-   "deferred": 174034.37
+   "deferred": 173930.95
   },
-  "fev_through": "2026-09-12T19:59Z",
-  "deferred_snapshot": "2026-09-12T21:06Z",
+  "fev_through": "2026-09-12T21:52Z",
+  "deferred_snapshot": "2026-09-12T22:06Z",
   "last_settlement_end": "2026-09-04",
-  "asof": "2026-09-12T21:57Z",
-  "moved_pct": 0.0
+  "asof": "2026-09-12T22:48Z",
+  "moved_pct": 0.02
  },
  "fba": {
   "value": 7633.39,
@@ -79,7 +79,7 @@
   "cost_after_prep": 7302.51,
   "est_sales": 10084.42,
   "erp_updated_at": "2026-09-12 21:30:05",
-  "asof": "2026-09-12T21:57Z"
+  "asof": "2026-09-12T22:48Z"
  },
  "amex": {
   "owed": 8276.51,
@@ -87,7 +87,7 @@
   "txn_count": 38,
   "pending_amt": 80.37,
   "last_txn": "2026-09-12",
-  "asof": "2026-09-12T21:57Z"
+  "asof": "2026-09-12T22:48Z"
  },
  "card_in_transit": {
   "amount": 571.83,
@@ -98,13 +98,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-09-11",
-  "asof": "2026-09-12T21:57Z"
+  "asof": "2026-09-12T22:48Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 59,
-  "asof": "2026-09-12T21:57Z"
+  "asof": "2026-09-12T22:48Z"
  }
 }
