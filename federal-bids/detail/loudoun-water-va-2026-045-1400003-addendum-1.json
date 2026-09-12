@@ -1,0 +1,121 @@
+{
+ "bid_id": "loudoun-water-va-2026-045-1400003-addendum-1",
+ "bid_number": "2026-045-1400003 Addendum 1",
+ "agency": "Loudoun Water, VA",
+ "src": "Open",
+ "title": "Laboratory Information Management System (LIMS) Replacement and Implementation Services",
+ "close": "9/18/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 112,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 2026-045-1400003 LIMS Replacement and Implementation Services.docx",
+  "LIMS Cost Proposal.xlsx",
+  "LIMS Requirements Traceability Matrix _RTM_.xlsx",
+  "Addendum No.A.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 2026-045-1400003 LIMS Replacement and Implementation Services.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LIMS Cost Proposal.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "LIMS Requirements Traceability Matrix _RTM_.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Addendum No.A.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "LIMS Requirements Traceability Matrix _RTM_.xlsx",
+   "sheet": 0,
+   "header_row": 3,
+   "headers": [
+    "",
+    "Vendors shall respond to each of the four columns in yellow.  A response of \"Y\" in the first column means that the Vendors's proposed solution fully complies with the requirement. A response of Y in the second column confirms that the Vendor's cost proposal includes the requirement. Vendors should also state if standard functionality, configuration, product customization, or a 3rd party solution is required to satisfy the requirement in the third column.   If a response of \"N\" is entered for Non-Comply, then a comment/exception is mandatory in the fourth column.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 112,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Vendors to respond to these 4 columns",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Req ID",
+     "Section",
+     "Priority",
+     "Requirement",
+     "Vendor Response \n(Y = Comply \nN = Does Not Comply)",
+     "Included in Vendor's Cost Proposal? (Y / N)",
+     "Delivery Method (Standard/ Config/ Custom/ 3rd Party)",
+     "Vendor Comments / Exceptions"
+    ],
+    [
+     "",
+     "1",
+     "Minimum Qualifications",
+     "Mandatory",
+     "Offeror shall have demonstrable experience implementing and supporting its proposed LIMS solution for at least three (3) public, U.S.-based water and/or wastewater utilities.",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.5,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 383336,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-12T13:36:26.713214+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,171 @@
+{
+ "bid_id": "clemson-university-sc-212976317-1-addendum-1",
+ "bid_number": "212976317-1 Addendum 1",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Co-Curricular Activity Tracking System",
+ "close": "9/18/2026 01:45 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "YEAR ONE FY27 - Tracking system for student co-curricular activities",
+   "qty": "1",
+   "uom": "LO",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 YEAR ONE FY27 - Tracking system for student co-curricular activities 1 LO No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "YEAR TWO FY28 - Tracking system for student co-curricular activities",
+   "qty": "1",
+   "uom": "LO",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 YEAR TWO FY28 - Tracking system for student co-curricular activities 1 LO No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "YEAR THREE FY29 - Tracking system for student co-curricular activities",
+   "qty": "1",
+   "uom": "LO",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 YEAR THREE FY29 - Tracking system for student co-curricular activities 1 LO No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "YEAR FOUR FY30 - Tracking system for student co-curricular activities",
+   "qty": "1",
+   "uom": "LO",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 YEAR FOUR FY30 - Tracking system for student co-curricular activities 1 LO No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "YEAR FIVE FY31 - Tracking system for student co-curricular activities",
+   "qty": "1",
+   "uom": "LO",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 YEAR FIVE FY31 - Tracking system for student co-curricular activities 1 LO No Response"
+  }
+ ],
+ "attachments_saved": [
+  "212976317-1 Addendum 1 Q_A.pdf",
+  "212976317-1 Scope of Work.pdf",
+  "Bidding Schedule.xlsx",
+  "212976317 Addendum 1 Q_A.pdf",
+  "Bidding-Terms and Conditions Revision G 2025.12.15.pdf",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+  "IMPORTANT TAX NOTICE.doc"
+ ],
+ "parsed_docs": [
+  {
+   "name": "212976317-1 Addendum 1 Q_A.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "212976317-1 Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 64,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bidding Schedule.xlsx",
+   "kind": "xlsx",
+   "tables": 0,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "212976317 Addendum 1 Q_A.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bidding-Terms and Conditions Revision G 2025.12.15.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "212976317-1 Scope of Work.pdf",
+   "sheet": 63,
+   "header_row": 3,
+   "headers": [
+    "of the product, are included in the purchase price. Preference for"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "software based on Java technology will be given to offerors utilizing the"
+    ],
+    [
+     "OpenJDK framework."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.4,
+  "attachment_fetches": 7,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1276403,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-12T13:36:19.698487+00:00",
+ "extract_attempts": 1
+}

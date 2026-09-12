@@ -1,0 +1,228 @@
+{
+ "bid_id": "unlv-nshe-business-center-south-5584-gs-addendum-1",
+ "bid_number": "5584-GS Addendum 1",
+ "agency": "UNLV (NSHE-Business Center South)",
+ "src": "Open",
+ "title": "Emergency Phone Tower Installations and Upgrades",
+ "close": "9/17/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Base Bid Price",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Base Bid Price 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Addendum 1 to 5584-GS.pdf",
+  "5584-GS Bid Document.docx.pdf",
+  "Attachment 9 - Apprentice Request Form.pdf",
+  "Exhibit A - Form Contract.pdf",
+  "Exhibit B Drawings - Bid Set 2026-07-14 - KDP Signed.pdf",
+  "Exhibit C Specifications - Bid Set 2026-07-14 - KDP Signed.pdf",
+  "Exhibit D - UNLV VSS Standards _ Specs 04292024.pdf",
+  "Exhibit D - UNLV BA Emergency Phone Standards v3.0.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Addendum 1 to 5584-GS.pdf",
+   "kind": "pdf",
+   "tables": 40,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "5584-GS Bid Document.docx.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment 9 - Apprentice Request Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A - Form Contract.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B Drawings - Bid Set 2026-07-14 - KDP Signed.pdf",
+   "kind": "pdf",
+   "tables": 74,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C Specifications - Bid Set 2026-07-14 - KDP Signed.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "Exhibit D - UNLV VSS Standards _ Specs 04292024.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D - UNLV BA Emergency Phone Standards v3.0.pdf",
+   "kind": "pdf",
+   "tables": 23,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Exhibit C Specifications - Bid Set 2026-07-14 - KDP Signed.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "QTY",
+    "Part Number",
+    "Description"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "1",
+     "",
+     "Tower Mount Structure"
+    ],
+    [
+     "1",
+     "68590",
+     "LED Panel Light"
+    ],
+    [
+     "1",
+     "VOIP-600E",
+     "VOIP-600 Series Call Station with EMERGENCY Signage"
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit C Specifications - Bid Set 2026-07-14 - KDP Signed.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "QTY",
+    "Part Number",
+    "Description"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "OP4-ARM-LP-1",
+     "Camera arm with support for LED area lighting platform (Model\nYear 2016). Area light not included.\nUsed for OP4-enabled tower mounts. Includes provision to\nmount a dome camera (camera not included)."
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit C Specifications - Bid Set 2026-07-14 - KDP Signed.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "QTY",
+    "Part Number",
+    "Description"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "1",
+     "24718",
+     "MT/R Aluminum Mounting Template"
+    ],
+    [
+     "4",
+     "42838",
+     "J-Bolts"
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit C Specifications - Bid Set 2026-07-14 - KDP Signed.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "QTY",
+    "Part Number",
+    "Description"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "1",
+     "67126",
+     "Twist & Lock Photo Sensor"
+    ],
+    [
+     "1",
+     "67127",
+     "Area Light"
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit C Specifications - Bid Set 2026-07-14 - KDP Signed.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "QTY",
+    "Part Number",
+    "Description"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "ETP-EL12/24",
+     "LED Blue Light (12-24VDC or 24VAC)"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 99.3,
+  "attachment_fetches": 8,
+  "attachment_seconds": 4.7,
+  "attachment_bytes": 50605505,
+  "max_fetch_seconds": 2.69,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-12T13:32:55.353950+00:00",
+ "extract_attempts": 1
+}

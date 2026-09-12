@@ -3,276 +3,246 @@
  "bid_number": "NA Addendum 1",
  "agency": "City of West Des Moines, IA",
  "src": "Invited",
- "title": "Enterprise Storage System Replacement",
- "close": "10/7/2026 03:00 PM (ET)",
+ "title": "City Council Chambers Audio/Visual System Replacement and Integration",
+ "close": "9/23/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
  "extraction_status": "EXTRACTED",
  "items_source": "attachments",
- "lines_recovered": 9,
+ "lines_recovered": 12,
  "grid_empty_or_form": true,
  "onscreen_grid_count": 1,
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "09-11-26 Qumulo Storage System Replacement RFP.pdf",
-  "09-11-26 Qumulo Storage System Replacement RFP - Appendix A - Technical Requirements.pdf",
-  "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
-  "09-11-26 Qumulo Storage System Replacement RFP - Appendix C - References.pdf",
-  "09-11-26 Qumulo Storage System Replacement RFP - Appendix D - Insurance Requirements.pdf",
-  "09-11-26 Qumulo Storage System Replacement RFP - Appendix E - Proposal Exceptions.pdf",
-  "09-11-26 Qumulo Storage System Replacement RFP - Appendix F - Proposal Certification.pdf",
-  "09-11-26 Qumulo-supported-platforms-march-2026.pdf"
+  "08-17-26 Council Chambers Audio Visual System RFP.pdf",
+  "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX A - FUNCTIONAL REQUIREMENTS.docx",
+  "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+  "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX C - COST PROPOSAL SCHEDULE.docx",
+  "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX D - INSURANCE REQUIREMENTS.pdf",
+  "08-17-26 Council Chambers Audio Visual System RFP - Questions _ Answers.pdf",
+  "08-17-26 Council Chambers Audio Visual - Wiring Diagram.pdf",
+  "08-17-26 Council Chambers Audio Visual - Photo Under Dais.jpg"
  ],
  "parsed_docs": [
   {
-   "name": "09-11-26 Qumulo Storage System Replacement RFP.pdf",
+   "name": "08-17-26 Council Chambers Audio Visual System RFP.pdf",
    "kind": "pdf",
-   "tables": 3,
-   "note": "",
-   "candidates": 1
-  },
-  {
-   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix A - Technical Requirements.pdf",
-   "kind": "pdf",
-   "tables": 18,
+   "tables": 6,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
-   "kind": "pdf",
-   "tables": 26,
-   "note": "",
-   "candidates": 5
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX A - FUNCTIONAL REQUIREMENTS.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
   },
   {
-   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix C - References.pdf",
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
    "kind": "pdf",
-   "tables": 5,
+   "tables": 6,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX C - COST PROPOSAL SCHEDULE.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX D - INSURANCE REQUIREMENTS.pdf",
+   "kind": "pdf",
+   "tables": 7,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix D - Insurance Requirements.pdf",
+   "name": "08-17-26 Council Chambers Audio Visual System RFP - Questions _ Answers.pdf",
    "kind": "pdf",
-   "tables": 5,
-   "note": "",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix E - Proposal Exceptions.pdf",
+   "name": "08-17-26 Council Chambers Audio Visual - Wiring Diagram.pdf",
    "kind": "pdf",
-   "tables": 1,
-   "note": "",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
    "candidates": 0
   },
   {
-   "name": "09-11-26 Qumulo Storage System Replacement RFP - Appendix F - Proposal Certification.pdf",
-   "kind": "pdf",
-   "tables": 2,
-   "note": "",
-   "candidates": 0
-  },
-  {
-   "name": "09-11-26 Qumulo-supported-platforms-march-2026.pdf",
-   "kind": "pdf",
-   "tables": 11,
-   "note": "",
+   "name": "08-17-26 Council Chambers Audio Visual - Photo Under Dais.jpg",
+   "kind": ".jpg",
+   "tables": 0,
+   "note": "unsupported format",
    "candidates": 0
   }
  ],
  "candidate_tables": [
   {
-   "source": "09-11-26 Qumulo Storage System Replacement RFP.pdf",
+   "source": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Existing Equipment or Function",
+    "Known\nQuantity",
+    "Current Location",
+    "Required Disposition"
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "B-1",
+     "PTZ camera directed toward the\npodium",
+     "1",
+     "Side of Chambers",
+     "Remove and replace"
+    ],
+    [
+     "B-2",
+     "PTZ cameras directed from the rear\ntoward the front of the Chambers",
+     "2",
+     "Rear of Chambers",
+     "Remove and replace"
+    ],
+    [
+     "B-3",
+     "Podium computer",
+     "1",
+     "Presentation podium",
+     "Remove and replace"
+    ]
+   ]
+  },
+  {
+   "source": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
    "sheet": 1,
-   "header_row": 1,
+   "header_row": 0,
    "headers": [
-    "Hardware",
-    "Manufacturer, model, quantity, unit price, and extended\nprice"
+    "Item",
+    "Existing Equipment or Function",
+    "Known\nQuantity",
+    "Current Location",
+    "Required Disposition"
    ],
    "score": 2,
-   "n_rows": 9,
+   "n_rows": 12,
    "sample": [
     [
-     "Software and Licensing",
-     "Product, license type, terms, quantity, and cost"
+     "B-8",
+     "Virtual teleconference computer and\nrelated equipment",
+     "1 system",
+     "AV control room or\ndesignated location",
+     "Remove and replace"
     ],
     [
-     "Implementation Services",
-     "Description of services, hours or fixed fee, and total cost"
+     "B-9",
+     "Document camera",
+     "1",
+     "Podium or designated\nlocation",
+     "Remove and replace"
     ],
     [
-     "Support and warranty",
-     "Coverage level, term, and cost"
+     "B-10",
+     "Council-member displays",
+     "6",
+     "Dais",
+     "Remove and replace"
     ]
    ]
   },
   {
-   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
-   "sheet": 5,
+   "source": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+   "sheet": 2,
    "header_row": 0,
    "headers": [
-    "Service",
-    "Description",
-    "Pricing Basis",
-    "Price"
+    "Item",
+    "Existing Equipment or Function",
+    "Known\nQuantity",
+    "Current Location",
+    "Required Disposition"
    ],
    "score": 2,
-   "n_rows": 9,
+   "n_rows": 10,
    "sample": [
     [
-     "Installation and configuration assistance",
-     "",
-     "Fixed Hourly",
-     ""
+     "B-20",
+     "Wireless handheld microphone",
+     "1",
+     "Portable/AV storage",
+     "Remove and replace"
     ],
     [
-     "Network and connectivity assistance",
-     "",
-     "Fixed Hourly",
-     ""
+     "B-21",
+     "Wireless headset microphone",
+     "1",
+     "Portable/AV storage",
+     "Remove and replace"
     ],
     [
-     "Active Directory integration",
-     "",
-     "Fixed Hourly",
-     ""
+     "B-22",
+     "AV control-room talkback\nmicrophone",
+     "1",
+     "AV control room",
+     "Remove and replace"
     ]
    ]
   },
   {
-   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
-   "sheet": 8,
+   "source": "08-17-26 Council Chambers Audio Visual System RFP - APPENDIX B - EQUIPMENT.pdf",
+   "sheet": 3,
    "header_row": 0,
    "headers": [
-    "Cost Item",
-    "Description",
-    "Price"
-   ],
-   "score": 2,
-   "n_rows": 4,
-   "sample": [
-    [
-     "Shipping, freight, and delivery",
-     "",
-     ""
-    ],
-    [
-     "Travel and related expenses",
-     "",
-     ""
-    ],
-    [
-     "Required third-party products or services",
-     "",
-     ""
-    ]
-   ]
-  },
-  {
-   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
-   "sheet": 14,
-   "header_row": 0,
-   "headers": [
-    "Service",
-    "Description",
-    "Pricing Basis",
-    "Price"
+    "Item",
+    "Existing Equipment or Function",
+    "Known\nQuantity",
+    "Current Location",
+    "Required Disposition"
    ],
    "score": 2,
    "n_rows": 7,
    "sample": [
     [
-     "Configuration assistance",
-     "",
-     "Fixed Hourly",
-     ""
+     "B-30",
+     "Recording, streaming, and OBS\ninterface equipment",
+     "Verify\nonsite",
+     "AV control room",
+     "Remove and replace"
     ],
     [
-     "Qumulo compatibility assistance",
-     "",
-     "Fixed Hourly",
-     ""
+     "B-31",
+     "Media audio and video feed\nequipment",
+     "Verify\nonsite",
+     "Chambers/media\nconnection locations",
+     "Remove and replace"
     ],
     [
-     "Remote deployment support",
-     "",
-     "Fixed Hourly",
-     ""
-    ]
-   ]
-  },
-  {
-   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
-   "sheet": 17,
-   "header_row": 0,
-   "headers": [
-    "Cost Item",
-    "Description",
-    "Price"
-   ],
-   "score": 2,
-   "n_rows": 4,
-   "sample": [
-    [
-     "Shipping, freight, and delivery",
-     "",
-     ""
-    ],
-    [
-     "Travel and related expenses",
-     "",
-     ""
-    ],
-    [
-     "Required third-party products or services",
-     "",
-     ""
-    ]
-   ]
-  },
-  {
-   "source": "09-11-26 Qumulo Storage System Replacement RFP - Appendix B - Cost Proposal.pdf",
-   "sheet": 22,
-   "header_row": 0,
-   "headers": [
-    "Optional Product or Service",
-    "Description",
-    "Price"
-   ],
-   "score": 2,
-   "n_rows": 7,
-   "sample": [
-    [
-     "Extended warranty",
-     "",
-     ""
-    ],
-    [
-     "Additional support coverage",
-     "",
-     ""
-    ],
-    [
-     "Additional storage capacity",
-     "",
-     ""
+     "B-32",
+     "Assistive listening devices and\naccessories",
+     "Verify\nonsite",
+     "Designated storage\nlocation",
+     "Remove and replace"
     ]
    ]
   }
  ],
  "notes": [],
  "latency": {
-  "bid_seconds": 10.6,
+  "bid_seconds": 8.8,
   "attachment_fetches": 8,
-  "attachment_seconds": 1.1,
-  "attachment_bytes": 1160942,
-  "max_fetch_seconds": 0.27,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 12075951,
+  "max_fetch_seconds": 0.73,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-11T13:19:56.491798+00:00",
- "extract_attempts": 2
+ "captured_at": "2026-09-12T13:13:16.040362+00:00",
+ "extract_attempts": 3
 }

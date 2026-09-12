@@ -1,0 +1,429 @@
+{
+ "bid_id": "university-medical-center-2026-10-addendum-3",
+ "bid_number": "2026-10 Addendum 3",
+ "agency": "University Medical Center",
+ "src": "Open",
+ "title": "UMC MLK Warehouse Remodel",
+ "close": "9/18/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 15,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Please refer to the following documents to determine your bid price: * Scope of Work * Drawings * Schedule of Values",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Please refer to the following documents to determine your bid price: * Scope of Work * Drawings * Schedule of Values 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "ADDENDUM 3 - 2026-10 - UMC MLK Warehouse Remodel - Instructions.pdf",
+  "ADDENDUM 3 - BID ATTACHMENT 2 - BID FORM.pdf",
+  "ADDENDUM 3 - BID ATTACHMENT 7 - SCHEDULE OF VALUES.pdf",
+  "ADDENDUM 3 - Exhibit A - Scope of Work.pdf",
+  "ADDENDUM 3 - Reference Material - Floor Plan Doors.pdf",
+  "ADDENDUM 3 - Reference Material - Edge-Mount-LEVELERS4.pdf",
+  "ADDENDUM 3 - Reference Material - UMC Sign Design.pdf",
+  "ADDENDUM 3 - Reference Material - Exterior Paint.pdf",
+  "ADDENDUM 2 - 2026-10 UMC MLK Warehouse - Sign-In Sheet w Signatures 083126.pdf",
+  "ADDENDUM 1 - Reference Material - Architectural - Drawing Index rev1.pdf",
+  "ADDENDUM 1 - Reference Material - Architectural - Rev2-FullSet rev1.pdf",
+  "BID ATTACHMENT 1 - AUTHORITY TO SUBMIT BID.pdf",
+  "BID ATTACHMENT 3 - BID BOND.pdf",
+  "BID ATTACHMENT 4 - 1_ DESIGNATION OF SUBCONTRACTORS.pdf",
+  "BID ATTACHMENT 5 - 5_ DESIGNATION OF SUBCONTRACTORS.pdf",
+  "BID ATTACHMENT 6 - AFFIDAVIT PERTAINING TO PREFERENCE ELIGIBILITY.pdf",
+  "BID ATTACHMENT 8 - CONTRACTOR ACKNOWLEDGMENT OF UMC PROCEDURES.pdf",
+  "BID ATTACHMENT 9 - REPRESENTATIONS AND CERTIFICATIONS.pdf",
+  "BID ATTACHMENT 10 - DISCLOSURE OF OWNERSHIP.pdf",
+  "Exhibit B - Bonds and Insurance Requirements Forms.pdf",
+  "Exhibit C - Mediator Agreement.pdf",
+  "Exhibit D - Confidentiality Agreement.pdf",
+  "Exhibit E - Contractor Acknowledgment of UMC Procedures _ Practices.pdf",
+  "Reference Material - Data Standards 9-12-2016.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ADDENDUM 3 - 2026-10 - UMC MLK Warehouse Remodel - Instructions.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 3 - BID ATTACHMENT 2 - BID FORM.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 3 - BID ATTACHMENT 7 - SCHEDULE OF VALUES.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 3 - Exhibit A - Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 3 - Reference Material - Floor Plan Doors.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 3 - Reference Material - Edge-Mount-LEVELERS4.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 3 - Reference Material - UMC Sign Design.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 3 - Reference Material - Exterior Paint.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 2 - 2026-10 UMC MLK Warehouse - Sign-In Sheet w Signatures 083126.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 1 - Reference Material - Architectural - Drawing Index rev1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 1 - Reference Material - Architectural - Rev2-FullSet rev1.pdf",
+   "kind": "pdf",
+   "tables": 198,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "BID ATTACHMENT 1 - AUTHORITY TO SUBMIT BID.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 3 - BID BOND.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 4 - 1_ DESIGNATION OF SUBCONTRACTORS.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 5 - 5_ DESIGNATION OF SUBCONTRACTORS.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 6 - AFFIDAVIT PERTAINING TO PREFERENCE ELIGIBILITY.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 8 - CONTRACTOR ACKNOWLEDGMENT OF UMC PROCEDURES.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 9 - REPRESENTATIONS AND CERTIFICATIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 10 - DISCLOSURE OF OWNERSHIP.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B - Bonds and Insurance Requirements Forms.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C - Mediator Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D - Confidentiality Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E - Contractor Acknowledgment of UMC Procedures _ Practices.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Reference Material - Data Standards 9-12-2016.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "ADDENDUM 1 - Reference Material - Architectural - Rev2-FullSet rev1.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "ECAPS\nGNIKRAP\nFO\nAREA TO BE AREA TO BE\nMARKED MARKED HTGNEL\nLLUF\nACCESS AISLE ACCESS AISLE\nSERVING CAR SERVING VAN\n60\" MIN. 60\" MIN.\nPARKING SPACES PARKING SPACES\n(FIG. 502.4)\nPARKING SPACE ACCESS AISLE\nAREA TO BE\nMARKED\n96\" MIN. 132\" MIN.\n(FIG. 502.2)\nVEHICLE PARKING SPACE SIZE\nSCALE: NOT TO SC",
+    "",
+    "ROYAL BLUE BACKGROUND\nWHITE SYMBOL OF ACCESSIBILITY\nREFER TO DETAIL\nOR\nANSI A117.1 APPROVED REFLECTIVE\nSIGN 12\" WIDE x 18\" HIGH - MOUNT\nTO POST AND DEFORM BOLTS TO\nPREVENT REMOVAL\nROYAL BLUE LETTERING\nWHITE LETTERING\nSTN\nTRAFFIC TYPE BREAK AWAY POST,\n\"0-'7\nBOLT TO SLEEVE\nSLEEVE CAST INTO CONCRETE\nFOOTING\nCONCRETE FOOTING\n\"1\nSTN\n\"0-'3\n\"21\n12\""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "ICC A117.1-2009 SECTION 502 PARKING SPA",
+     "",
+     ""
+    ],
+    [
+     "ADJOINING SURFACE CURB RAMP MAXIM\nMAXIMUM SLOPE SLOPE\n20 12\n1\n1\n(FIG. 406.2)\nCOUNTER SLOPE OF\nSURFACES ADJACENT TO\nCURB RAMPS\n.NIM\nSCALE: NOT TO SCA\n\"63\nFLARED SIDES 1:10\n(FIG. 406.3) MAX SLOPE\nSIDES OF CURB RAMPS\nSCALE: NOT TO SCA\nICC A117.1-2009 SECTION 406 CURB RAMPS",
+     "",
+     ""
+    ],
+    [
+     "\"6-'1\n2\n5'-0\"",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "ADDENDUM 1 - Reference Material - Architectural - Rev2-FullSet rev1.pdf",
+   "sheet": 127,
+   "header_row": 1,
+   "headers": [
+    "LOAD DESCRIPTION",
+    "QUANTITY",
+    "LOAD",
+    "DEMAND\nFACTOR",
+    "LOAD W/\nDEMAND"
+   ],
+   "score": 2,
+   "n_rows": 13,
+   "sample": [
+    [
+     "FIXED EQUIPMENT LOADS",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "PANEL LA",
+     "1",
+     "30915 VA/EA.",
+     "100%",
+     "30915 VA"
+    ],
+    [
+     "PANEL LB",
+     "1",
+     "33175 VA/EA.",
+     "100%",
+     "33175 VA"
+    ]
+   ]
+  },
+  {
+   "source": "ADDENDUM 1 - Reference Material - Architectural - Rev2-FullSet rev1.pdf",
+   "sheet": 129,
+   "header_row": 0,
+   "headers": [
+    "(FOR REFERENCE ONLY)\nSUPPLY FAN COOLING COIL UNIT\nMANUFACTURER TOTAL SENSIBLE EAT AMBIENT ELECTRICAL MAX OPERATING\nITEM LOCATION AIRFLOW ESP\nMODEL NUMBER CAPACITY CAPACITY DB WB MIN/MAX MCA MOCP WEIGHT\n(CFM) (IN WC) V/PH\n(MBH) (MBH) (\u00b0F) (\u00b0F) (\u00b0F) (A) (A) (LBS)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "AIRFLOW\n(CFM)",
+     "ESP\n(IN WC)",
+     "TOTAL\nCAPACITY\n(MBH)",
+     "SENSIBLE\nCAPACITY\n(MBH)",
+     "EAT\nDB WB\n(\u00b0F) (\u00b0F)",
+     "",
+     "AMBIENT\nMIN/MAX\n(\u00b0F)",
+     "ELECTRICAL\nMCA MOCP\nV/PH\n(A) (A)",
+     "",
+     "",
+     "MAX OPERATING\nWEIGHT\n(LBS)"
+    ],
+    [
+     "RTU-1",
+     "ROOFTOP",
+     "CARRIER\n#558CEX120000",
+     "4000",
+     "0.8",
+     "111.6",
+     "85.7",
+     "80.0",
+     "67.0",
+     "115.0",
+     "460 / 3",
+     "25.7",
+     "30",
+     "1100"
+    ],
+    [
+     "RTU-2",
+     "ROOFTOP",
+     "CARRIER\n#558CEX120000",
+     "4000",
+     "0.8",
+     "111.6",
+     "85.7",
+     "80.0",
+     "67.0",
+     "115.0",
+     "460 / 3",
+     "25.7",
+     "30",
+     "1100"
+    ]
+   ]
+  },
+  {
+   "source": "ADDENDUM 1 - Reference Material - Architectural - Rev2-FullSet rev1.pdf",
+   "sheet": 189,
+   "header_row": 0,
+   "headers": [
+    "ROUGH-IN SIZE\n(INCHES)\nMANUFACTURER /\nITEM FIXTURE REMARKS\nMODEL\nTW/HW CW V S/W",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 12,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "TW/HW",
+     "CW",
+     "V",
+     "S/W",
+     ""
+    ],
+    [
+     "S-1",
+     "SINK",
+     "KOHLER\n#K-25940",
+     "1/2",
+     "1/2",
+     "2",
+     "2",
+     "DOUBLE BASIN, UNDERMOUNT, STAINLESS STEEL; FAUCET: MOEN #7594, DECK MOUNT, PULL DOWN SPRAY, 1.5 GPM, LEVER\nHANDLE. PROVIDE WITH UNDER-SINK GARBAGE DISPOSAL GD-1 INSINKERATOR EVOLUTION ESSENTIAL, 120V/1\u00d8, 3/4 HP."
+    ],
+    [
+     "WC-1\nWC-2",
+     "WATER CLOSET\nWATER CLOSET\nADA",
+     "AMERICAN STANDARD\n#2257.101\nAMERICAN STANDARD\n#2257.101",
+     "-\n-",
+     "2\n2",
+     "2\n2",
+     "4\n4",
+     "WALL-MOUNTED TOILET ADA-COMPLIANT WITH OPEN FRONT SEAT, VITREOUS CHINA, WHITE FINISH. 1.28 GPF MANUAL LEVER\nFLUSH VALVE.\nWALL-MOUNTED TOILET ADA-COMPLIANT WITH OPEN FRONT SEAT, VITREOUS CHINA, WHITE FINISH. 1.28 GPF MANUAL LEVER\nFLUSH VALVE. MOUNT AT ADA HEIGHT."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 87.4,
+  "attachment_fetches": 24,
+  "attachment_seconds": 4.5,
+  "attachment_bytes": 34192749,
+  "max_fetch_seconds": 1.9,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-12T13:37:55.573412+00:00",
+ "extract_attempts": 1
+}
