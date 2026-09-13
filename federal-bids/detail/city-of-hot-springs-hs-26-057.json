@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-hot-springs-hs-26-057",
+ "bid_number": "HS-26-057",
+ "agency": "City of Hot Springs",
+ "src": "Open",
+ "title": "Wet Well Air Ionization Odor Control System",
+ "close": "9/21/2026 04:40 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Bidder offers to perform and completely accomplish the project by furnishing, delivering, and installing a complete wet well air ionization odor control system for municipal wastewater service (as described in the scope of work). The scope of work shall meet or exceed the following specifications in the section as described (provide labor, materials and supervision), in accordance with the requirements contained in the ITB. This shall be a lump sum bid for the completed project.",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Bidder offers to perform and completely accomplish the project by furnishing, delivering, and installing a complete wet well air ionization odor control system for municipal wastewater service (as described in the scope of work). The scope of work shall meet or exceed the following specifications in the section as described (provide labor, materials and supervision), in accordance with the requirements contained in the ITB. This shall be a lump sum bid for the completed project. 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "HS-26-057 Wet Well Ionization Odor Control System.pdf",
+  "Acknowledgment - Fillable.pdf",
+  "Projects Terms and Conditions of Bidding.pdf",
+  "Terms and Conditions of Purchase.pdf",
+  "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+  "Odor Beast data Sheets.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "HS-26-057 Wet Well Ionization Odor Control System.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Acknowledgment - Fillable.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Projects Terms and Conditions of Bidding.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Terms and Conditions of Purchase.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Odor Beast data Sheets.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.6,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 904118,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-13T13:18:49.478890+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "bid_id": "platte-county-mo-rfq-2026-002",
+ "bid_number": "RFQ 2026-002",
+ "agency": "Platte County, MO",
+ "src": "Open",
+ "title": "BRUSH CREEK TRAIL FROM HAMPTON TO NW 76TH STREET",
+ "close": "9/21/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:trail",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026 RES 064 Request For Qualifications Brush Creek Trail _1_.pdf",
+  "BrushCreek-RFQ2026-002reduce.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026 RES 064 Request For Qualifications Brush Creek Trail _1_.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BrushCreek-RFQ2026-002reduce.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.7,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 474161,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-13T13:18:38.413657+00:00",
+ "extract_attempts": 1
+}

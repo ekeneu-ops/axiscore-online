@@ -1,0 +1,101 @@
+{
+ "bid_id": "loudoun-water-va-2026-057-1210001-addendum-2",
+ "bid_number": "2026-057-1210001 Addendum 2",
+ "agency": "Loudoun Water, VA",
+ "src": "Open",
+ "title": "Professional Engineering and Related Services Community Systems Basic Ordering Agreement (ComSys BOA)",
+ "close": "9/22/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP Professional Engineering Services - ComSys 2026.pdf",
+  "2026 ComSys BOA Pre-proposal Conf Presentation.pdf",
+  "_11 Pre-Proposal Conference Attendees ComSys BOA 2026.pdf",
+  "ComSys BOA Agreement - 2026-057-1210001 - 2026 DRAFT.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP Professional Engineering Services - ComSys 2026.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026 ComSys BOA Pre-proposal Conf Presentation.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "_11 Pre-Proposal Conference Attendees ComSys BOA 2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ComSys BOA Agreement - 2026-057-1210001 - 2026 DRAFT.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "ComSys BOA Agreement - 2026-057-1210001 - 2026 DRAFT.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Unit",
+    "Maximum",
+    "Comments"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "Allowable Cost",
+     ""
+    ],
+    [
+     "Lodging**",
+     "Per Night",
+     "$150",
+     "-Standard Room, per GSA (Loudoun\nCounty, VA)\n-All-inclusive"
+    ],
+    [
+     "Meals",
+     "Per Day\nBreakfast $20\nLunch $22\nDinner $33\nTotal: $75",
+     "$75",
+     "-Meals, per GSA (Loudoun County, VA)\n-On the day of arrival, 75% of the daily rate\nwill apply\n-On day of departure, 75% of the daily rate\nwill apply"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 8.9,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 2126383,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-13T13:24:14.944388+00:00",
+ "extract_attempts": 1
+}
