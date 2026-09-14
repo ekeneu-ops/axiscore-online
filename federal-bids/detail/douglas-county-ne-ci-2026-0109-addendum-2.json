@@ -1,0 +1,458 @@
+{
+ "bid_id": "douglas-county-ne-ci-2026-0109-addendum-2",
+ "bid_number": "CI-2026-0109 Addendum 2",
+ "agency": "Douglas County, NE",
+ "src": "Open",
+ "title": "OPW 55168: Northeast Omaha High-Rate Treatment Basin (NEOHRTB) - Package 2 11th and Izard Active Control and Grit and Screening Facility",
+ "close": "9/23/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "9000.001 Mobilization/Demobilization, Bonds, Permits and Insurance",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 9000.001 Mobilization/Demobilization, Bonds, Permits and Insurance 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "9000.002 Furnish and Drive HP 14 x 89 Bearing Pile",
+   "qty": "2131",
+   "uom": "VLF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 This item has been changed as part of an addendum. See 'Bid History' for details. 9000.002 Furnish and Drive HP 14 x 89 Bearing Pile 2131 VLF No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "9000.003 All Other Work Required to Complete the Work Included in the Contract Documents (Not Included in Amounts Listed in Bid Items 4-12)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 9000.003 All Other Work Required to Complete the Work Included in the Contract Documents (Not Included in Amounts Listed in Bid Items 4-12) 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "2",
+   "desc": "FUNISH AND INSTALL HP 14X89 PRE-DRILLED ROCK SOCKET PILE",
+   "qty": "303",
+   "uom": "VLF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 FUNISH AND INSTALL HP 14X89 PRE-DRILLED ROCK SOCKET PILE 303 VLF No Response"
+  }
+ ],
+ "attachments_saved": [
+  "OPW 55168 Addendum 1.pdf",
+  "OPW 55168 Addendum 2.pdf",
+  "OPW 55168 - Specifications Volume 1.pdf",
+  "OPW 55168 - Specifications Volume 2.pdf",
+  "OPW 55168 - Drawings.pdf",
+  "Bid Bond - OPW 55168 Addendum 1.xlsx",
+  "Exhibit A_SEB Participation Disclosure form _bidders_ ADA.docx",
+  "Exhibit B_Certificate of Compliance _ADA_.docx",
+  "Exhibit C_Responsible Contractor Compliance Form _ADA_.docx",
+  "Exhibit D_Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+  "Exhibit E_Apprentice Incentive form _AIF_ _ADA_.docx",
+  "2025 ESP Rules and Plan Template.pdf",
+  "Bid Submittal I_ C_ P or JV form _ADA_.docx",
+  "Qualifications Statement - OPW 55168 Addendum 1.docx",
+  "Subcontractor and Supplier Forms - OPW 55168 Addendum 1.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "OPW 55168 Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 32,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "OPW 55168 Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "OPW 55168 - Specifications Volume 1.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "OPW 55168 - Specifications Volume 2.pdf",
+   "kind": "pdf",
+   "tables": 64,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "OPW 55168 - Drawings.pdf",
+   "kind": "pdf",
+   "tables": 494,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bid Bond - OPW 55168 Addendum 1.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A_SEB Participation Disclosure form _bidders_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B_Certificate of Compliance _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C_Responsible Contractor Compliance Form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D_Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E_Apprentice Incentive form _AIF_ _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2025 ESP Rules and Plan Template.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Submittal I_ C_ P or JV form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Qualifications Statement - OPW 55168 Addendum 1.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Subcontractor and Supplier Forms - OPW 55168 Addendum 1.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "OPW 55168 Addendum 1.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "Bid\nItem\nNo.",
+    "Description",
+    "Units",
+    "Quantity",
+    "Unit Price",
+    "Amount"
+   ],
+   "score": 3,
+   "n_rows": 5,
+   "sample": [
+    [
+     "1",
+     "Mobilization/Demobilization,\nBonds, Permits and Insurance",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ],
+    [
+     "2",
+     "(See Unit Price Table Below \u2013\nleave columns to the right in\nthis table blank for this Bid\nItem)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2A",
+     "(See Unit Price table Below \u2013\nleave columns to the right in\nthis table blank for this Bid\nItem)",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 Addendum 1.pdf",
+   "sheet": 9,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Unit",
+    "Estimated\nQuantity",
+    "Bid Unit\nPrice",
+    "Bid Amount"
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "2",
+     "Furnish and Drive HP 14x89\nBearing Pile (Driven Pile)",
+     "VLF",
+     "2,131",
+     "$",
+     "$"
+    ],
+    [
+     "2A",
+     "Furnish and Install HP 14x89\nPre-Drilled Rock Socket Pile",
+     "VLF",
+     "303",
+     "$",
+     "$"
+    ],
+    [
+     "Total for All Unit Price Bid Items:",
+     "",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 Addendum 1.pdf",
+   "sheet": 30,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: [Full formal name of Owner]City of\nOmaha[AD1]\nMailing address (principal place of business):\n[Address of Owner\u2019s principal place of business]\n1819 Farnam Street, Suite 600\nOmaha, Nebraska 68183[AD1]",
+    "Contract\nDescription (name and location):\nNortheast Omaha High-Rate Treatment Basin\n(NEOHRTB)- Package 2 \u2013 11th and Izard Active\nControl & Grit and Screening Facility (IZAC &\nIZGSF) \u2013 OPW 55168\nContract Price: [Amount from Contract]\nEffective Date of Contract: [Date from Contract]"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond: [Date]\n(Date of Bond cannot be earlier than Effective Date of Contract)\nModifications to this Bond form:\n\u2610 None \u2610 See Paragraph 16",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this\nPerformance Bond, do each cause this Performance Bond to be duly executed by an authorized officer,\nagent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy: By:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular reference to\nContractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 Addendum 1.pdf",
+   "sheet": 31,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: [Full formal name of Owner]\nCity of Omaha[AD1]\nMailing address (principal place of business):\n[Address of Owner\u2019s principal place of business]\n1819 Farnam Street, Suite 600\nOmaha, Nebraska 68183[AD1]",
+    "Contract\nDescription (name and location):\nNortheast Omaha High-Rate Treatment Basin\n(NEOHRTB)- Package 2 \u2013 11th and Izard Active\nControl & Grit and Screening Facility (IZAC & IZGSF)\n\u2013 OPW 55168\nContract Price: [Amount, from Contract]\nEffective Date of Contract: [Date, from Contract]"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond: [Date]\n(Date of Bond cannot be earlier than Effective Date of Contract)\nModifications to this Bond form:\n\u2610 None \u2610 See Paragraph 18",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this\nPayment Bond, do each cause this Payment Bond to be duly executed by an authorized officer, agent, or\nrepresentative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy: By:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular reference to\nContractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 - Specifications Volume 1.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "Bid\nItem\nNo.",
+    "Description",
+    "Units",
+    "Quantity",
+    "Unit Price",
+    "Amount"
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "1",
+     "Mobilization/Demobilization, Bonds,\nPermits and Insurance",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ],
+    [
+     "2",
+     "(See Unit Price Table Below \u2013 leave\ncolumns to the right in this table\nblank for this Bid Item)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "All Other Work Required to Complete\nthe Work Included in the Contract\nDocuments (Not Included in Amounts\nListed Below in Bid Items 4-12)",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 - Specifications Volume 1.pdf",
+   "sheet": 11,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Unit",
+    "Estimated\nQuantity",
+    "Bid Unit Price",
+    "Bid Amount"
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "2",
+     "Furnish and Drive HP 14X89\nBearing Pile",
+     "VLF",
+     "2,412",
+     "",
+     "$"
+    ],
+    [
+     "Total of All Unit Price Bid Items",
+     "",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 - Drawings.pdf",
+   "sheet": 346,
+   "header_row": 1,
+   "headers": [
+    "LOW VOLTAGE CIRCUIT BREAKER\n20A\nRATING AND NO. OF POLES AS SHOWN\n3P\nFOR OTHER THAN MCCB\nY\nX -INDICATES TYPE\nX Y -INDICATES TRIP UNIT TYPE\n2000AF\nTYPES\n1800AT\nMCCB - MOLDED CASE\n3P\nICCB - INSULATED CASE\nY\nLVP - LOW VOLTAGE POWER\nMCP - MOTOR CIRCUIT PROTECTOR\nMCP\n(RATING PER CONNECTED LOAD)\n3P\nTRIP UNIT\nL - LONG TIME PICKUP\nS - SHORT TIME PICKUP\nI - INSTANTANEOUS PICKUP\nG - GROUND FAULT PICKUP\nA - ARC ENERGY REDUCTION MODE\nPROTECTION RELAY\nX\nX -INDICATES IEEE FUNCTION NUMBER\nX INTERLOCK: X -INDICATES TYPE\nTYPES\nE -ELECTRICAL\nM -MECHANICAL\nK -KEY\nGFP GROUND FAULT PROTECTION\n52 MEDIUM VOLTAGE CIRCUIT BREAKER\nFUSE, RATING, AND NUMBER OF FUSES AS NOTED\nFUSED CUTOUT, CURRENT RATING, FUSE RATING,\nAND QUANTITY AS NOTED\nFUSIBLE SWITCH, CURRENT RATING, FUSE\nRATING, AND QUANTITY AS NOTED (3 POLE UON)\nNON-FUSED SWITCH, CURRENT RATING, AND\nNUMBER OF POLES AS NOTED (3 POLE UON)\nDISCONNECT OR DRAWOUT CONNECTION\nC A MAGNETIC MOTOR STARTER\nB\nSEPARATELY MOUNTED COMBINATION MAGNETIC\nC A\nMOTOR STARTER AND DISCONNECT\nB\nC D MOTOR/LOAD CONTROLLER\nSEPARATELY MOUNTED MOTOR/LOAD\nCONTROLLER WITH SHORT CIRCUIT PROTECTION\nC D\nAND DISCONNECT\nMOTOR STARTER AND CONTROLLER SUBSCRIPTS\nA -MAGNETIC STARTER NEMA SIZE\nB -STARTER TYPE\nNONE- FULL VOLTAGE NON-REVERSING\n(FVNR)\nFVR - FULL VOLTAGE REVERSING\n2S - TWO SPEED\nRVAT - REDUCED VOLTAGE AUTO\nTRANSFORMER\nC -CONTROL DIAGRAM NUMBER\nD -CONTROLLER TYPE\nVFD - VARIABLE FREQUENCY DRIVE\nSS - SOLID STATE\nCONT- CONTACTOR\nSEPARATELY MOUNTED COMBINATION MOTOR\nSTARTER OR CONTROLLER; SEE ELECTRICAL\nONE-LINE DIAGRAM OR SCHEDULE FOR\nDESCRIPTION\nSEPARATELY MOUNTED MOTOR STARTER OR\nCONTROLLER; SEE ELECTRICAL ONE-LINE\nDIAGRAM OR SCHEDULE FOR DESCRIPTION\nX\nNON-FUSED SAFETY SWITCH, 30A, 3P, X\nINDICATES AMP RATING GREATER THAN 30A\nX FUSED SAFETY SWITCH, 30A, 3P,\nX -INDICATES AMP RATING GREATER THAN 30A\nY Y -INDICATES FUSE SIZE\nMR -EQUIPMENT MANUFACTURER\nRECOMMENDED FUSE SIZE\nSEPARATELY MOUNTED CIRCUIT BREAKER; SEE\nCB ELECTRICAL ONE-LINE DIAGRAM OR SCHEDULE\nFOR DESCRIPTION\n7 1/2\nMOTOR WITH DESIGN HORSEPOWER\n(WHEN INDICATED)\nHP\nG GENERATOR\nTRANSFER SWITCH, CURRENT RATING, AND\nNUMBER OF POLES AS NOTED\nATS -AUTOMATIC\nATS\nMTS -MANUAL",
+    "TRANSFORMER\n3-PHASE, 3-WIRE DELTA CONNECTION\n(#X)\n3-PHASE, 4-WIRE GROUNDED WYE\nCONNECTION\nNAME SWITCHBOARD OR PANELBOARD; NAME,\n208/120V VOLTAGE, PHASE, NUMBER OF WIRES WHEN\n3 PH , 4W INDICATED\n100 NON-MOTOR LOAD WITH DESIGN KVA, KW,\nKVA OR AMP\nVOLTAGE TRANSFORMER (VT, PT, OR CPT)\nCURRENT TRANSFORMER (CT)\nUTILITY WATT-HOUR METER PER UTILITY\nWH\nREQUIREMENTS\nDMP DIGITAL METERING PACKAGE\nGROUND\nLIGHTNING ARRESTER\nXXX\nSPD LOW VOLTAGE SURGE PROTECTIVE DEVICE\nSS SELECTOR SWITCH\nPB PUSHBUTTON\nIC INSTRUMENTATION / CONTROL DEVICE Z\nSV\nSOLENOID VALVE\nZ\nCONTROL PANEL INTEGRAL OR PROVIDED WITH\nASSOCIATED EQUIPMENT\nCONTROL PANEL WITH DISCONNECT SWITCH Z\nINTEGRAL OR PROVIDED WITH ASSOCIATED\nEQUIPMENT\nJ OR J JUNCTION OR PULL BOX Z\nPANELBOARD (250V TO 600V)\nZ\nPANELBOARD (LESS THAN 250V)\nELECTRICAL EQUIPMENT ENCLOSURE\nZ\nX\nESTIMATED SIZE AS INDICATED\nWHEN USED, X -INDICATES EQUIPMENT TYPE\nEQUIPMENT TYPES Z\nATS - AUTOMATIC TRANSFER SWITCH\nCP - CONTROL PANEL\nINV - LIGHTING INVERTER Z\nMTS - MANUAL TRANSFER SWITCH\nMCC- MOTOR CONTROL CENTER\nZ\nUPS - UNINTERRUPTIBLE POWER SUPPLY\nVFD - VARIABLE FREQUENCY DRIVE\nSB - SWITCHBOARD Z\nSG - SWITCHGEAR\nT - TRANSFORMER\nZ\nPGB - 12\" POWER GROUNDING BAR\nLRP - LIGHTING RELAY PANEL\nZ\nPLUG-IN RECEPTACLE STRIP, QUANTITY AND\nSPACING OF RECEPTACLES AS NOTED OR\nSPECIFIED\nX\nSPECIAL-PURPOSE RECEPTACLE AS\nZ\nY DEFINED ON PLANS\nX\nY\nTWO RECEPTACLES IN 2-GANG BOX UNDER\nCOMMON COVER PLATE\nX\nX\nY\nY\nX\nX\nY\nDUPLEX RECEPTACLE\nY\nX\nX\nSIMPLEX RECEPTACLE Y\nY\nX\nRECESSED FLOOR MOUNTED BOX, QUANTITY\nY AND TYPE OF RECEPTACLES AS INDICATED\nRECEPTACLE SUBSCRIPTS\nX -INDICATES TYPE\nG - GROUND FAULT CIRCUIT INTERRUPTER\nTR - TAMPER RESISTANT\nUSB - USB CHARGING STATION\nSPD - SURGE PROTECTIVE DEVICE\nX\nWP - GROUND FAULT CIRCUIT INTERRUPTER\nAND WEATHER PROOF\nY -INDICATES CIRCUIT NUMBER FROM\nPANELBOARD\n2\nCONDUIT TURNING UP\nCONDUIT TURNING DOWN",
+    "HOMERUN TO SOURCE NUMBER IN\nPARENTHESES REPRESENTS CONDUCTOR\nSIZE OTHER THAN #12\nSINGLE PHASE: 2#12, 1#12G IN 3/4\"C\nTHREE PHASE: 3#12, 1#12G IN 3/4\"C\nUNLESS OTHERWISE NOTED, CONDUCTOR\nSIZE IS FOR ENTIRE CIRCUIT, SOURCE TO\nLAST DEVICE.\nSEE ONE-LINE DIAGRAM FOR CIRCUIT\nREQUIREMENTS\nCONDUIT CONNECTION TO EQUIPMENT\nCIRCUIT RUN BETWEEN DEVICES EXPOSED IN\nNON-ARCHITECTURALLY FINISHED AREAS;\nCONCEALED IN ARCHITECTURALLY FINISHED\nAREAS. CONDUIT AND CONDUCTOR SIZES\nSHALL BE THE SAME AS THE HOMERUN FOR\nTHE CIRCUIT\nCONDUIT RUN BETWEEN DEVICES CONCEALED\nIN NON-ARCHITECTURALLY FINISHED AREAS\nOR UNDER FLOOR SLAB. CONDUIT AND\nCONDUCTOR SIZES SHALL BE THE SAME AS\nTHE HOMERUN FOR THE CIRCUIT\nCIRCUIT CONTINUATION\nCONDUIT STUBBED OUT AND CAPPED\nCORD AND PLUG CONNECTION\nXXX\nCONDUIT TAG OR CIRCUIT NUMBER -WIRE AND\nCONDUIT SIZE AS SPECIFIED IN CIRCUIT\nSCHEDULE ON THE SHEETS\nGROUND CABLE\nGROUND ROD\nX CEILING/PENDANT/BOLLARD MOUNTED\nLUMINAIRE\nY\nCEILING/PENDANT/BOLLARD MOUNTED\nX\nLUMINAIRE, EMERGENCY (INTERNAL OR\nY EXTERNAL POWER SOURCE AS INDICATED)\nX\nWALL MOUNTED LUMINAIRE\nY\nWALL MOUNTED LUMINAIRE, EMERGENCY\nX\n(INTERNAL OR EXTERNAL POWER SOURCE AS\nY INDICATED)\nX\nWALL MOUNTED FLOOD LUMINAIRE\nY\nX\nPOLE/STANCHION MOUNTED LUMINAIRE\nY\nPOLE/STANCHION MOUNTED LUMINAIRE\nX\nEMERGENCY (INTERNAL OR EXTERNAL POWER\nY SOURCE AS INDICATED)\nX\nPOLE/STANCHION MOUNTED FLOOR LUMINAIRE\nY\nX\nCEILING/PENDANT MOUNTED LUMINAIRE\nY\nX\nY\nX\nWALL MOUNTED LUMINAIRE, LAMP TYPE AS\nY\nSPECIFIED\nX CEILING/PENDANT MOUNTED LUMINAIRE\nY EMERGENCY (INTERNAL OR EXTERNAL POWER\nX SOURCE AS INDICATED)\nY\nX\nWALL MOUNTED LUMINAIRE EMERGENCY\nY (INTERNAL OR EXTERNAL POWER SOURCE AS\nINDICATED)\nX EMERGENCY LIGHT, NUMBER OF ATTACHED\nY HEADS AS SHOWN\nX\nEMERGENCY LIGHT, REMOTE MOUNTED HEAD\nY\nX DOUBLE-FACED CEILING OR WALL MOUNTED\nEXIT LIGHT; DIRECTIONAL ARROWS\nY\n(IF REQUIRED) AS INDICATED ON PLANS\nSINGLE-FACED CEILING OR WALL MOUNTED\nX\nEXIT LIGHT; DIRECTIONAL ARROWS\nY (IF REQUIRED) AS INDICATED ON PLANS\nLIGHTING FIXTURE SUBSCRIPTS\nX -INDICATES LUMINAIRE TYPE PER\nLUMINAIRE SCHEDULE\nY -INDICATES CIRCUIT NUMBER FROM\nPANELBOARD\nZ -INDICATES CONTROLLING SWITCH\n(IF REQUIRED)\nNL -NIGHT LIGHT UNSWITCHED\nROOM/AREA LIGHTING CONTROL\nDESIGNATION, SEE LIGHTING CONTROL\nSTRATEGY SCHEDULE FOR REQUIREMENTS\nLOW VOLTAGE DIGITAL WALL SWITCH, NUMBER\na\nINDICATES QUANTITY OF PUSH BUTTONS PER\nSINGLE GANG PLATE, LETTER INDICATES\nCONTROL ZONE WHEN SHOWN",
+    "Y\nWALL SWITCH\nX\nSUBSCRIPTS\nX -INDICATES TYPE\nNONE- SINGLE POLE\n2 - DOUBLE POLE\n3 - THREE-WAY\n4 - FOUR-WAY\nK - KEY SWITCH\nP - PILOT LIGHT\nL - LIGHTED HANDLE\nDM - DIMMING\nMC - MOMENTARY CONTACT\nT - TIMER\nWP - WEATHER PROOF COVER\nY -INDICATES CONTROLLING SWITCH\n(IF REQUIRED)\nY\nMANUAL MOTOR STARTER\nX\nSUBSCRIPTS\nX -INDICATES TYPE\nHP - HORSEPOWER RATED\nTE - HORSEPOWER RATED WITH THERMAL\nELEMENT\nY -INDICATES SWITCH TYPE\nNONE - TOGGLE SWITCH TYPE\nR - ROTARY SWITCH TYPE\nPC PHOTOCELL\nTC TIME CLOCK\nOSX LIGHTING CONTROL OCCUPANCY SENSOR,\nWALL MOUNTED, X INDICATES SPECIFIC\nOSX\nTYPE AS SPECIFIED\nLIGHTING CONTROL OCCUPANCY SENSOR,\nOSX CEILING MOUNTED, X INDICATES SPECIFIC\nTYPE AS SPECIFIED\nAVT ABSENCE OF VOLTAGE TESTER",
+    "",
+    "EXTERIOR PAD MOUNTED TRANSFORMER\nPOLE -MOUNTED TRANSFORMER\nELECTRICAL HANDHOLE OR MANHOLE\nX\nX -INDICATES SEQUENCE NUMBER\nY Y-MHX OR HHX\nX\nPOLE/STANCHION MOUNTED FLOOD LUMINAIRE,\nY LAMP TYPE AS SPECIFIED\nX\nPOLE MOUNTED AREA OR ROADWAY LUMINAIRE,\nY LAMP TYPE AS SPECIFIED\nX HIGH MAST LIGHTING, NUMBER OF LUMINAIRES\nAS SPECIFIED\nY\nLIGHTING FIXTURE SUBSCRIPTS\nX -INDICATES LUMINAIRE TYPE PER LUMINAIRE\nSCHEDULE\nY -INDICATES CIRCUIT NUMBER FROM\nPANELBOARD\nPOWER POLE\nDOWNGUY\nE UNDERGROUND (UNO) ELECTRICAL AND\nCOMMUNICATION SYSTEMS PATHWAY\nOHE OVERHEAD ELECTRICAL AND COMMUNICATION\nSYSTEMS PATHWAY",
+    "NORMALLY OPEN LIMIT SWITCH, CLOSE ON\nREACHING LIMIT\nNORMALLY CLOSED LIMIT SWITCH, OPEN ON\nREACHING LIMIT\nOFF\nHAND AUTO\nXOO\n3 POSITION SELECTOR SWITCH, MAINTAINED\nCONTACTS; UNLESS OTHERWISE NOTED,\nOOX 2-POSITION SIMILAR\nNORMALLY OPEN PUSHBUTTON,\nMOMENTARY CONTACT UNLESS\nOTHERWISE NOTED\nNORMALLY CLOSED PUSHBUTTON,\nMOMENTARY CONTACT UNLESS\nOTHERWISE NOTED\nINDICATING LIGHT\nX\nX INDICATES LENS COLOR\nPUSH TO TEST INDICATING LIGHT\nX X INDICATES LENS COLOR\nLENS COLORS\nR -RED Y -YELLOW\nG -GREEN W -WHITE\nB -BLUE A -AMBER\nTHERMAL OVERLOAD ELEMENT\nOL\nTHERMAL OVERLOAD RELAY CONTACT\nWHEN SHOWN X INDICATES QUANTITY\n(X)\nCPT CONTROL POWER TRANSFORMER (CPT)\nRTM RUN TIME METER"
+   ],
+   "score": 3,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "ABOVE CEILING DATA OUTLET, NUMBER\n(2)\nINDICATES QUANTITY OF JACKS IN OUTLET BOX\n\"0\" INDICATES CONDUIT AND DEVICE BOX\nROUGH-IN ONLY\nRECESSED FLOOR MOUNTED DATA OUTLET,\n(2)\nNUMBER INDICATES QUANTITY OF JACKS IN\nOUTLET BOX \"0\" INDICATES CONDUIT AND\nDEVICE BOX ROUGH-IN ONLY",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "AUDIO/VISUAL\nSYMBOLOGY",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "TV TELEVISION OUTLET\nS CEILING MOUNT SPEAKER\nWALL MOUNT SPEAKER\nS X -INDICATES HEIGHT\nX\nH HORN TYPE TRANSDUCER\nVC VOLUME CONTROL\nPAHE HEAD END EQUIPMENT\nM FLOOR MOUNTED MICROPHONE JACK\nM",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
+ ],
+ "latency": {
+  "bid_seconds": 168.1,
+  "attachment_fetches": 16,
+  "attachment_seconds": 100.7,
+  "attachment_bytes": 261628905,
+  "max_fetch_seconds": 65.78,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-14T13:21:17.173580+00:00",
+ "extract_attempts": 1
+}

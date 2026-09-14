@@ -1,13 +1,13 @@
 {
- "bid_id": "edinburg-isd-tx-26-59",
- "bid_number": "26-59",
+ "bid_id": "edinburg-isd-tx-26-70",
+ "bid_number": "26-70",
  "agency": "Edinburg ISD , TX",
  "src": "Open",
- "title": "SHEET MUSIC & RELATED ITEMS",
- "close": "9/22/2026 05:30 PM (ET)",
+ "title": "ATHLETIC/PHYSICAL EDUCATION SUPPLIES & EQUIPMENT",
+ "close": "9/23/2026 05:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
- "scope_status": "UNRESOLVED",
- "scope_reason": "title-uninformative",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:athletic",
  "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
  "items_source": null,
  "lines_recovered": 0,
@@ -16,27 +16,27 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "0_UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
-  "1_CIQ Form.pdf",
-  "2_W9 _ Direct Deposit Form.pdf"
+  "1295 _ INSTRUCTIONS.pdf",
+  "CIQ Form.pdf",
+  "W9 _ Direct Deposit Form.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "0_UPDATED ECISD FORM 1295 AND INSTRUCTIONS.pdf",
+   "name": "1295 _ INSTRUCTIONS.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "1_CIQ Form.pdf",
+   "name": "CIQ Form.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "2_W9 _ Direct Deposit Form.pdf",
+   "name": "W9 _ Direct Deposit Form.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
@@ -46,14 +46,14 @@
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 8.8,
+  "bid_seconds": 8.6,
   "attachment_fetches": 3,
-  "attachment_seconds": 0.4,
-  "attachment_bytes": 852495,
-  "max_fetch_seconds": 0.16,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 911269,
+  "max_fetch_seconds": 0.06,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-14T13:18:16.811744+00:00",
- "extract_attempts": 3
+ "captured_at": "2026-09-14T13:29:20.144044+00:00",
+ "extract_attempts": 1
 }

@@ -1,0 +1,142 @@
+{
+ "bid_id": "city-of-laredo-tx-rfb-2026-091-ihydrant-replacement-project",
+ "bid_number": "RFB 2026-091 iHydrant Replacement Project",
+ "agency": "City of Laredo, TX",
+ "src": "Invited",
+ "title": "RFB 2026-091 iHydrant Replacement Project - Utilities Department",
+ "close": "9/29/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 6,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Removal and disposal of existing hydrants.",
+   "qty": "100",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Removal and disposal of existing hydrants. 100 EACH No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Furnish and install 5-ft iHydrants",
+   "qty": "75",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Furnish and install 5-ft iHydrants 75 EACH No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Furnish and install 4-ft iHydrants.",
+   "qty": "25",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Furnish and install 4-ft iHydrants. 25 EACH No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "Valve adjustments, as necessary, based on existing field conditions.",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 Valve adjustments, as necessary, based on existing field conditions. 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "Concrete repair/Restoration allowance",
+   "qty": "40000",
+   "uom": "Allowance",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 Concrete repair/Restoration allowance 40000 Allowance No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "1.6",
+   "desc": "Landscaping repair/restoration allowance",
+   "qty": "10000",
+   "uom": "Allowance",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.6 Landscaping repair/restoration allowance 10000 Allowance No Response"
+  }
+ ],
+ "attachments_saved": [
+  "COQ FORM AND INSTRUCTIONS.pdf",
+  "Non-Collusive_Affidavit_Form _4_.pdf",
+  "_Form_1295.pdf",
+  "NTB RFB 2026-091 iHydrant Replacement Project.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "COQ FORM AND INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusive_Affidavit_Form _4_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "_Form_1295.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "NTB RFB 2026-091 iHydrant Replacement Project.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.6,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 847769,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-14T13:15:58.312829+00:00",
+ "extract_attempts": 1
+}

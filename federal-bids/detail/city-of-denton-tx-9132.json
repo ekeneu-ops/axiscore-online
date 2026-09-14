@@ -1,0 +1,154 @@
+{
+ "bid_id": "city-of-denton-tx-9132",
+ "bid_number": "9132",
+ "agency": "City of Denton, TX",
+ "src": "Open",
+ "title": "Cityworks to Unity Implementation",
+ "close": "9/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "GIS Intern",
+   "qty": "",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 GIS Intern Per Hour No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "GIS Technician",
+   "qty": "",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 GIS Technician Per Hour No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "GIS Specialist",
+   "qty": "",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 GIS Specialist Per Hour No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "Database Administrator",
+   "qty": "",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 Database Administrator Per Hour No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "System Administrator",
+   "qty": "",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 System Administrator Per Hour No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "Developer",
+   "qty": "",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 Developer Per Hour No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "Project Manager",
+   "qty": "",
+   "uom": "Per Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 Project Manager Per Hour No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "RFP Trimble Cityworks Unity for Implementation Services.pdf",
+  "Contract - Services _Updated 7.25.24_.docx",
+  "Insurance Requirements Cityworks to Unity Implementation - 9132.docx",
+  "Conflict_of_Interest_Questionaire.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP Trimble Cityworks Unity for Implementation Services.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - Services _Updated 7.25.24_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements Cityworks to Unity Implementation - 9132.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict_of_Interest_Questionaire.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.6,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 688684,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-14T13:26:20.520713+00:00",
+ "extract_attempts": 1
+}

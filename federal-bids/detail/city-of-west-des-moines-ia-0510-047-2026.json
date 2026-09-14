@@ -1,0 +1,693 @@
+{
+ "bid_id": "city-of-west-des-moines-ia-0510-047-2026",
+ "bid_number": "0510-047-2026",
+ "agency": "City of West Des Moines, IA",
+ "src": "Open",
+ "title": "2026 Digital Enterprise Network Expansion - Phase 2",
+ "close": "9/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 18,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 16,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "TRAFFIC CONTROL",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 TRAFFIC CONTROL 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "CONSTRUCTION SURVEY",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 CONSTRUCTION SURVEY 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "AS-BUILTING",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 AS-BUILTING 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "CONDUIT, FURNISH AND INSTALL, 7-WAY MICRODUCT",
+   "qty": "7220",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 CONDUIT, FURNISH AND INSTALL, 7-WAY MICRODUCT 7220 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "CONDUIT, FURNISH AND INSTALL, 1.5\" ORANGE",
+   "qty": "13430",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 CONDUIT, FURNISH AND INSTALL, 1.5\" ORANGE 13430 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "CONDUIT, FURNISH AND INSTALL, 1.5\" BLUE",
+   "qty": "13430",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 CONDUIT, FURNISH AND INSTALL, 1.5\" BLUE 13430 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "CONDUIT, FURNISH AND INSTALL, 1.5\" GREEN",
+   "qty": "6920",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 CONDUIT, FURNISH AND INSTALL, 1.5\" GREEN 6920 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "CONDUIT, FURNISH AND INSTALL, 1.0\" BLUE W/BLACK STRIPE",
+   "qty": "14440",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 CONDUIT, FURNISH AND INSTALL, 1.0\" BLUE W/BLACK STRIPE 14440 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "VAULT, FURNISH AND INSTALL, LARGE (IAV, LAV)",
+   "qty": "14",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 VAULT, FURNISH AND INSTALL, LARGE (IAV, LAV) 14 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "VAULT, FURNISH AND INSTALL, MEDIUM (DCV)",
+   "qty": "34",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 VAULT, FURNISH AND INSTALL, MEDIUM (DCV) 34 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "VAULT, FURNISH AND INSTALL, SMALL (DDV)",
+   "qty": "63",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 VAULT, FURNISH AND INSTALL, SMALL (DDV) 63 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "EQUIPMENT, FURNISH AND INSTALL, TEST STATION",
+   "qty": "44",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 EQUIPMENT, FURNISH AND INSTALL, TEST STATION 44 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "CABLE, FURNISH AND INSTALL, TRACER WIRE",
+   "qty": "25110",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 CABLE, FURNISH AND INSTALL, TRACER WIRE 25110 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "CONNECTION TO EXISTING VAULT",
+   "qty": "10",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 CONNECTION TO EXISTING VAULT 10 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "RAILROAD PROTECTIVE LIABILITY INSURANCE",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 RAILROAD PROTECTIVE LIABILITY INSURANCE 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "RAILROAD PROTECTION SERVICES",
+   "qty": "3",
+   "uom": "CDAYS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 RAILROAD PROTECTION SERVICES 3 CDAYS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bid Bond.pdf",
+  "Bidder Status Form.pdf",
+  "Engineers Estimate_Signed.pdf",
+  "Final Plans.pdf",
+  "Final Specification.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Status Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Engineers Estimate_Signed.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Final Plans.pdf",
+   "kind": "pdf",
+   "tables": 69,
+   "note": "",
+   "candidates": 10
+  },
+  {
+   "name": "Final Specification.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 10,
+   "header_row": 0,
+   "headers": [
+    "PROJECT DESCRIPTION\nThis project includes the installation of a continuous multi-duct conduit system with vaults and locate system\nto accommodate a fiber-interconnection. This does not include service drop conduit to homes and businesses.\nThe boundaries of construction and locations are detailed in the A.02 Property Location.\nESTIMATED PROJECT QUANTITIES F2 F3 F4 F5\nItem No. Item Unit Total As Built Qty.\n1 TRAFFIC CONTROL LS 1\n2 CONSTRUCTION SURVEY LS 1\n3 AS-BUILTING LS 1\n4 CONDUIT, FURNISH AND INSTALL, 7-WAY MICRODUCT LF 7220\n5 CONDUIT, FURNISH AND INSTALL, 1.5\" ORANGE LF 13430\n6 CONDUIT, FURNISH AND INSTALL, 1.5\" BLUE LF 13430\n7 CONDUIT, FURNISH AND INSTALL, 1.5\" GREEN LF 6920\n8 CONDUIT, FURNISH AND INSTALL, 1.0\" BLUE W/BLACK STRIPE LF 14440\n9 VAULT, FURNISH AND INSTALL, LARGE (IAV, LAV) EACH 14\n10 VAULT, FURNISH AND INSTALL, MEDIUM (DCV) EACH 34\n11 VAULT, FURNISH AND INSTALL, SMALL (DDV) EACH 63\n12 EQUIPMENT, FURNISH AND INSTALL, TEST STATION EACH 44\n13 CABLE, FURNISH AND INSTALL, TRACER WIRE LF 25110\n14 CONNECTION TO EXISTING VAULT EACH 10\n15 RAILROAD PROTECTIVE LIABILITY INSURANCE LS 1\n16 RAILROAD PROTECTION SERVICES CDAYS 3",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "seititnauQ\n6202-740-0150\ntcejorP\nE:\nM\nA\nN\nR/\nE\nB\nM\nU\ndetamitsE N\nT\nC\nE\nJ\nO\nR\nP\nY:\nB\nN M\nW P\nA J\nR\nD\n6\nE 2\nT 0\nA 2\nD 1/\n9/\nSHEET\nC.01"
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 12,
+   "header_row": 4,
+   "headers": [
+    "Item No.",
+    "Item",
+    "",
+    "",
+    "Unit",
+    "",
+    "",
+    "Total",
+    "",
+    "",
+    "As Built Qty.",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 16,
+   "sample": [
+    [
+     "1",
+     "TRAFFIC CONTROL",
+     "",
+     "",
+     "LS",
+     "",
+     "",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "CONSTRUCTION SURVEY",
+     "",
+     "",
+     "LS",
+     "",
+     "",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "AS-BUILTING",
+     "",
+     "",
+     "LS",
+     "",
+     "",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 13,
+   "header_row": 0,
+   "headers": [
+    "ESTIMATE REFERENCE INFORMATION F2 ESTIMATE REFERENCE INFORMATION F2\nItem No. Description Item No. Description\n1 TRAFFIC CONTROL 9 VAULT, FURNISH AND INSTALL, LARGE (IAV,LAV)\nRefer to Chapter 13 and Section 8030 if Iowa SUDAS and MUTCD for materials and other requirements. METHOD OF This work shall consist of installing LARGE VAULTS for the proposed Conduit Network Infrastructure within this\nMEASUREMENT and BASIS OF PAYMENT refer to the Standard Details and Specifications. project. This work shall include all materials, hardware, and labor required for complete installation of the\nvault. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the Standard Details and Specifications.\n2 CONSTRUCTION SURVEY\nRefer to Section 11010 of Iowa SUDAS for materials and other requirements. METHOD OF MEASUREMENT and BASIS OF 10 VAULT, FURNISH AND INSTALL, MEDIUM (DCV)\nPAYMENT refer to the Standard Details and Specifications. This work shall consist of installing MEDIUM VAULTS for the proposed Conduit Network Infrastructure within this\nproject. This work shall include all materials, hardware, and labor required for complete installation of the\n3 AS-BUILTING vault. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the Standard Details and Specifications.\nMATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the Standard Details and Specifications.\n11 VAULT, FURNISH AND INSTALL, SMALL (DDV)\n4 CONDUIT, FURNISH AND INSTALL, 7-WAY MICRODUCT This work shall consist of installing SMALL VAULTS for the proposed Conduit Network Infrastructure within this\nThis work shall consist of installing 7-WAY MICRODUCT CONDUIT for the proposed Conduit Network Infrastructure project. This work shall include all materials, hardware, and labor required for complete installation of the\nwithin this project. This work shall include all materials, hardware, joints, couplers, and labor required for vault. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the Standard Details and Specifications.\ncomplete installation of the conduit. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the\nStandard Details and Specifications.\n12 EQUIPMENT, FURNISH AND INSTALL, TEST STATION\n5 CONDUIT, FURNISH AND INSTALL, 1.5\" ORANGE This work shall consist of installing TEST STATION for the proposed Conduit Network Infrastructure within\nThis work shall consist of installing 1.5\" ORANGE CONDUIT for the proposed Conduit Network Infrastructure this project. This work shall include all materials, hardware, ground rods, and labor required for complete\nwithin this project. This work shall include all materials, hardware, joints, couplers, and labor required for installation of the test station. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the Standard\ncomplete installation of the conduit. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the Details and Specifications.\nStandard Details and Specifications.\n13 CABLE, FURNISH AND INSTALL, TRACER WIRE\n6 CONDUIT, FURNISH AND INSTALL, 1.5\" BLUE This work shall consist of installing TRACER WIRE for the proposed Conduit Network Infrastructure within this\nThis work shall consist of installing 1.5\" BLUE CONDUIT for the proposed Conduit Network Infrastructure project. This work shall include all materials, hardware, couplers, and labor required for complete\nwithin this project. This work shall include all materials, hardware, joints, couplers, and labor required for installation of the tracer wire. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the Standard\ncomplete installation of the conduit. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the Details and Specifications.\nStandard Details and Specifications.\n14 CONNECTION TO EXISTING VAULT\n7 CONDUIT, FURNISH AND INSTALL, 1.5\" GREEN This work shall consist of the required excavation surrounding an existing vault necessary to connect the\nThis work shall consist of installing 1.5\" GREEN CONDUIT for the proposed Conduit Network Infrastructure conduit and tracer wire. This work shall include materials and labor to complete the installation, including\nwithin this project. This work shall include all materials, hardware, joints, couplers, and labor required for soft surface restoration, vault base restoration, exisitng fiber cable management. MATERIALS, METHOD OF\ncomplete installation of the conduit. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF PAYMENT refer to the MEASUREMENT, and BASIS OF PAYMENT refer to the Standard Details and Specifications.\nStandard Details and Specifications.\n15 RAILROAD PROTECTIVE LIABILITY INSURANCE\n8 CONDUIT, FURNISH AND INSTALL, 1.0\" BLUE W/BLACK STRIPE This bid item shall include all costs related to securing Railroad Liability Insurance, Contractor Orientation\nThis work shall consist of installing 1.0\" BLUE W/BLACK STRIPE CONDUIT for the proposed Conduit Network Training, and any other coordination required by Union Pacific Railroad. Refer to the Specifications for\nInfrastructure within this project. This work shall include all materials, hardware, joints, couplers, and Railroad Protective Liability Insurance and Contractor requirements.\nlabor required for complete installation of the conduit. MATERIALS, METHOD OF MEASUREMENT, and BASIS OF Currently, 1 train per week utilizes the line.\nPAYMENT refer to the Standard Details and Specifications.\n16 RAILROAD PROTECTION SERVICES\nWhenever work is being performed or when equipment may unexpectedly encroach within the 25-ft of the centerline\nof railroad tracks, railroad protection services shall be required.\nThe City will compensate the Contractor for up to 3 DAYS for Railroad Protection Services at a rate of\n$1,500 per day for a maximum of $4,500. The Contractor will be paid based on copies of Railroad Protection\nServices invoices received. The Contractor is responsible for any Railroad Protection Services above and\nbeyond the scope as indicated. The Contractor shall assume a bid price of $4,500 for this bid item.",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "noitamrofnI\n6202-740-0150\necnerefeR\nE:\nM\nA\nN\nR/\nE\nB\nM\nU\nN\nT\nC\nE\netamitsE J O\nR\nP\nY:\nB\nN M\nW P\nA J\nR\nD\n6\nE 2\nT 0\nA 2\nD 2/\n9/\nSHEET\nC.02"
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 16,
+   "header_row": 0,
+   "headers": [
+    "GENERAL NOTES GENERAL NOTES\n1. ALL QUANTITIES SHOWN IN THE PLANS AND SPECIFICATIONS ARE FOR INFORMATIONAL AND ESTIMATING PURPOSE ONLY. THE 16. THE CONTRACTOR IS RESPONSIBLE FOR LOCATING THE NEWLY INSTALLED INFRASTRUCTURE UNTIL IT HAS BEEN TESTED AND\nCONTRACTORS BID SHALL INCLUDE ALL LABOR, EQUIPMENT, AND MATERIAL NECESSARY TO PROVIDE A COMPLETE AND ACCEPTED BY THE CITY OF WEST DES MOINES. IF ANY DAMAGE OCCURS TO THE INFRASTRUCTURE ASSOCIATED WITH A FAILURE\nFUNCTIONAL INFRASTRUCTURE SYSTEM INSTALLATION IN CONFORMANCE WITH PLANS AND SPECIFICATIONS. TO LOCATE OR NEGLIGENCE TO LOCATE THE INFRASTRUCTURE, IT WILL BE THE CONTRACTORS RESPONSIBILITY TO REPLACE\nAND REPAIR THE DAMAGED INFRASTRUCTURE.\n2. WHERE PUBLIC UTILITY FIXTURES ARE SHOWN AS EXISTING ON THE PLANS OR ENCOUNTERED WITHIN THE CONSTRUCTION\nAREA, IT SHALL BE THE RESPONSIBILTY OF THE CONTRACTOR TO NOTIFY THE OWNERS OF THOSE UTILITIES PRIOR TO THE 17. THE CONTRACTOR SHALL CONFINE THEIR OPERATIONS TO WITHIN THE PROPOSED AND EXISTING RIGHT OF WAY, CONSTRUCTION\nBEGINNING OF ANY CONSTRUCTION. THE CONTRACTOR SHALL AFFORD ACCESS TO THESE FACILITIES FOR NECESSARY LIMITS AND EASEMENTS SHOWN ON THE PLANS.\nMODIFCATION OF SERVICES. UNDERGROUND FACILITIES, STRUCTURES AND UTILITIES HAVE BEEN PLOTTED FROM AVAILABLE\nSURVEYS AND RECORDS, AND THEREFORE, THEIR LOCATIONS MUST BE CONSIDERED APPROXIMATE ONLY. IT IS POSSIBLE 18. UNLESS OTHERWISE NOTED ON THE PLANS, OPEN TRENCH INSTALLATION IS ONLY PERMITTED WITHIN 15 FEET OF ANY VAULT\nTHERE MAY BE OTHERS. THE EXISTING OF WHICH IS PRESENTLY NOT KNOWN OR SHOWN. IT IS THE CONTRACTORS OR SIMILAR IMPROVEMENTS, AND ANY OTHER REQUESTED LOCATIONS APPROVED BY THE ENGINEER.\nRESPONSIBILITY TO DETERMINE THEIR EXISTENCE AND EXACT LOCATIONS AND TO AVOID DAMAGE THERETO. NO CLAIMS FOR\nADDITIONAL COMPENSATION WILL BE ALLOWED TO THE CONTRACTOR FOR ANY INTERFERENCE OR DELAY CAUSED BY SUCH WORK. 19. PLAN SHEETS INCLUDED IN THE PROJECT ARE FOR THE PURPOSE ALIGNMENT, LOCATION AND SPECIFIC DIRECTIONS FOR\nWORK TO BE PERFORMED UNDER THIS CONTRACT. IRRELEVANT DATA ON THESE SHEETS IS NOT TO BE CONSIDERED A PART OF\nTHE CONTRACTOR IS REQUIRED TO UTILIZE THE UTILITY ONE-CALL SERVICE AT 800-292-8989 AT LEAST 48 HOURS PRIOR THIS CONTRACT.\nTO EXCAVATING ANYWHERE ON THE PROJECT.\n20. THE CONTRACTOR IS REQUIRED TO BE FAMILIAR WITH AND COMPLY WITH OSHA STANDARDS. NOTHING WITHIN THE PLANS SHALL\n3. PRIOR TO CONSTRUCTION, CONTRACTOR SHALL NOTIFY (48 HRS NOTICE) THE FOLLOWING: RELIEVE THE CONTRACTOR OF THIS REQUIREMENT.\nA. CITY OF WEST DES MOINES\nB. APPROPRIATE UTILITY COMPANIES 21. THE CONTRACTOR IS RESPONSIBLE FOR INSTALLATION AND MAINTENANCE OF ALL EROSION CONTROL MEASURES IF REQUIRED.\nC. PRIVATE PROPERTY OWNER (IF NECESSARY)\n22. IN THE EVENT OF A DISCREPANCY BETWEEN DETAILED PLANS AND QUANTITIES, THE DETAILED PLANS SHALL GOVERN.\n4. THE CONTRACTOR SHALL NOTIFY THE CITY OF WEST DES MOINES AT LEAST ONE WEEK PRIOR TO CONSTRUCTION.\n23. THE CONTRACTOR IS RESPONSIBLE FOR ALL TRAFFIC CONTROL. ALL TRAFFIC CONTROL SHALL COMPLY WITH MUTCD.\n5. THE CONTRACTOR IS RESPONSIBLE FOR REPLACING ANY AND ALL IMPROVEMENTS SUCH AS ASHPHALT OR CONCRETE PAVEMENTS,\nCURBS, GUTTERS, SIDEWALKS, DRAINAGE DITCHES, CULVERTS, DRAIN TILES, EMBANKMENTS, SHRUBS, TREES, GRASS, SOD, 24. DO NOT STORE CONSTRUCTION MATERIALS AND EQUIPMENT IN THE RIGHT OF WAY.\nETC., IF DAMAGED, SHALL BE RESTORED TO PRE-CONSTRUCTION CONDITIONS (OR BETTER) AS DIRECTED BY THE ENGINEER.\n25. ALL PROPERTY PINS SHALL BE PROTECTED FROM GRADING OR OTHER OPERATIONS. ANY PINS DISTURBED SHALL BE RESET AT\n6. THE CONTRACTOR IS RESPONSIBLE FOR REPAIRING EXISTING CONDUIT, CONDUCTORS, OR OTHER FACILITIES DAMAGED DURING THE CONTRACTOR'S EXPENSE.\nCONSTRUCTION. ALL EXISTING INFRASTRUCTURE REMOVED AND DAMAGED BY THE CONTRACTOR SHALL BE REPLACED IN KIND BY\nTHE CONTRACTOR, WITH NO ADDITIONAL COMPENSATION. 26. FOR ALL UTILITY UNDERGROUND LINES, VAULTS, AND ABOVE GROUND ITEMS: MAINTAIN AT LEAST 3 FEET DISTANCE FROM\nANY CITY SURVEY BENCHMARK. DO NOT DISTURB CITY SURVEY BENCHMARKS.\n7. ALL CONDUIT SHALL BE PLACED AT LEAST 36 INCHES BELOW THE FINISHED GRADE UNLESS INDICATED IN THE PLANS OR\nCONTRACT DOCUMENTS. 27. MAINTAIN AT LEAST 1 FOOT OF HORIZONTAL CLEARANCE FROM STORM SEWER PIPES AND STRUCTURES. MAINTAIN AT LEAST ONE\nFOOT VERTICAL CLEARANCE FROM STORM SEWER PIPES AND STRUCTURES.\n8. THE CONTRACTOR SHALL BORE UNDER ANY EXISTING ASPHALT OR CONCRETE PAVEMENT OR OTHER STRUCTURE.\n28. MAINTAIN AT LEAST 4 FEET OF HORIZONTAL CLEARANCE FROM SANITARY SEWER PIPES AND STRUCTURES. MAINTAIN AT LEAST\n9. ALL WIRING AND GROUNDING SYSTEMS SHALL BE IN ACCORDANCE WITH THE NATIONAL ELECTRIC CODE. 1 & 1/2 FEET OF VERTICAL CLEARANCE FROM SANITARY PIPES AND STRUCTURES.\n10. LINEAR MEASUREMENTS ARE TAKEN BETWEEN VAULTS CENTERS AND DO NOT INCLUDE ALLOWANCE FOR VERTICAL RISES OR 29. MAINTAIN AT LEAST 3 FEET OF HORIZONTAL CLEARANCE AND 2 FEET VERTICAL CLEARANCE FROM WATER MAINS.\nSPLICES.\n30. MAINTAIN AT LEAST 18 INCHES OF HORIZONTAL CLEARANCE BEHIND HYDRANTS.\n11. MATERIALS AND CONSTRUCTION SHALL CONFORM TO THE REQUIREMENTS OF ALL APPLICABLE SECTIONS OF THE SPECIFICATIONS.\n31. EXPOSE AND VISUALLY VERIFY ALL CROSSINGS OF WATER MAINS, SANITARY SEWER PIPES AND SERVICES TO A DISTANCE OF\n12. THE GENERAL CONTRACTOR SHALL BE RESPONSIBLE FOR THE COORDINATION OF WORK BETWEEN ALL SUPPLIERS AND 6 INCHES BELOW TRENCH-LESS CONSTRUCTION INSTALLATION DEPTH OR TO THE DEPTH OF THE FACILITY BEING CROSSED.\nSUBCONTRACTORS INVOLVED IN THE PROJECT, INCLUDING STAGING OR CONSTRUCTION DETAILS.\n32. MAINTAIN 1 FOOT VERTICAL CLEARANCE FROM SIGNAL CONDUIT.\n13. IMMEDIATELY UPON COMPLETION; BACKFILL, RESTORE, SOD OR SEED, AND REPAIR ANY DISTURBED AREAS AND DAMAGED ITEMS\nCAUSED BY THE UTILITY WORK PRIOR TO UTILITY WORK CREWS LEAVING EACH JOB SITE LOCATION IN ACCORDANCE TO 33. ALL FIELD TILES ENCOUNTERED SHALL BE REPAIRED AND CONNECTED TO STORM SEWER WHERE POSSIBLE. LOCATIONS SHALL BE\nARTICLE 7-1B-9 AND CHAPTER 14 OF WEST DES MOINES CITY CODE. PROVIDED TO THE ENGINEER FOR NOTATION ON AS-BUILTS INCLUDING LOCATION, TYPE OF TILE, & TILE ELEVATION.\n14. THE CONTRACTOR SHALL BE REQUIRED TO PLACE TEMPORARY WARNING DEVICES AND SAFETY FENCE AT CERTAIN LOCATIONS 34. CONTRACTOR SHALL NOT DISTURB DESIRABLE GRASS AREAS AND TREES OUTSIDE THE CONSTRUCTION LIMITS. THE CONTRACTOR\nWHERE REPLACEMENT FEATURES ARE NOT INSTALLED THE SAME DAY. THIS WILL BE INCIDENTAL TO THE BID ITEM TRAFFIC WILL NOT BE PERMITTED TO PARK OR SERVICE VEHICLES AND EQUIPMENT OR USE THE AREAS FOR STORAGE OR MATERIALS.\nCONTROL. PARKING AND SERVICE AREAS WILL BE SUBJECT TO THE APPROVAL OF THE OWNER.\n15. THE CONTRACTOR WILL BE RESPONSIBLE TO PROVE TRACEABILITY OF THE NEWLY INSTALLED INFRASTRUCTURE PRIOR TO 35. ALL MATERIAL TESTING SHALL BE CONSIDERED INCIDENTAL TO OTHER CONSTRUCTION.\nACCEPTANCE.",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "6202-740-0150\nsetoN\nE:\nM\nlareneG A\nN\nR/\nE\nB\nM\nU\nN\nT\nC\nE\nJ\nO\nR\nP\nY:\nB\nN M\nW P\nA J\nR\nD\n6\nE 2\nT 0\nA 2\nD 1/\n9/\nSHEET\nC.03"
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 38,
+   "header_row": 0,
+   "headers": [
+    "W\nTS\nSS\nW Project Name: Index 2 - The Sterling Villas\nTS\nItem No. Item Unit Total As Built Qty.\nSS W\nTS 5 CONDUIT, FURNISH AND INSTALL, 1.5\" ORANGE LF 155\n6 CONDUIT, FURNISH AND INSTALL, 1.5\" BLUE LF 155\nW\nSS\n7 CONDUIT, FURNISH AND INSTALL, 1.5\" GREEN LF 350\n10 VAULT, FURNISH AND INSTALL, MEDIUM (DCV) EACH5951 2 5935\nW\nSS 11 VAULT, FURNISH AND INSTALL, SMALL ( D D V) EACH 4\nDDV_3-2:482060 59 6 7\n12 EQUIPMENT, FURNISH AND INSTALL, TEST STATION EACH 2\nW 13 CABLE, FURNISH AND INSTALL, TRACER WIRE LF 505\nSS\n14 CONNECTION TO EXISTING VAULT EACH 1\n286 SS W 262 SSST SSST SS ST SS S T S S ST SS ST\nN ORTH VI E W D R\nDDV_3-2:482059 SS W W W W W W W W W\nW\nW\nSS\n265 254 W\nCONNECT TO\nIAV_3W-2:482054 SS\nSS SET BY OTHERS TS 5938 5922\nW\nDCV_3-2:482055 SS\nW\nSS TS 251\nT W\nS\nH SS\nT W\nSS 6 0 246 TS\nW\nSS\nW\nSS TS\nDCV_3-2:482056 W\nSS\nW\nSS TS\nW\n245\n246 W 238 SS 5971 5949\nSS TS 5927\nW\nSS\nSS W TS\nDDV_3-2:482057\nW\nSSST\nSS W\nSSST SS SS SS SS SS SS SS\n230 W SS TS H TS IGHLAN TS D CIR TS TS TS T\nST\nSS W\n235 C T W W TS W W W W W W W\nW\nH SS\nSS W T TS\nDDV_3-2:482058 9\n5\nW TS SS\nW\n222\n5968 5946 5924\nW TS SS\nW\nW TS SS\n6165 W\nW TS SS\n6141 216 W 214\n6151\nSS 6135\nSS W TS SS\nSS W\nBEECHTREE SS\nW TS SS\nDR SS\nW SS SS SS SS O W",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "salliV 6202-740-0150\ngnilretS\nE:\nM\nA\nN\nR/\nE\nB\nM\nU\nN\nehT T C\nE\nJ\nO\nR\nP\nS\nY:\nB\nN M\nW P\nA J\nR\nD\n6\n2\nE 0\nT 2\nA 1/\nD\n3\n8/"
+    ],
+    [
+     "\u00a7\u00a8\u00a6\nSS\nEWxisting Vault DCV - Medium 1.5 inchSS orange, 1.5 inch blue\n235\nExisting W CondWuit &\u00c9 IAV - Large 7way, 2-1 inch S S blue\nSS\nW ST\nDDV - Small \u00cd\u00d2W LASTV -W LarSTgeW 1.5 inch green SS\nST W W",
+     "F\n206\nW\nO\nF",
+     "TS SS\nW 0 25 505949 100\n5935\nFeet\n1:900\nTS SS\nW",
+     "E\n5919",
+     "SHEET\nN.07"
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 39,
+   "header_row": 2,
+   "headers": [
+    "Item No.",
+    "Item",
+    "",
+    "",
+    "",
+    "",
+    "Unit",
+    "Total",
+    "As Built Qty."
+   ],
+   "score": 3,
+   "n_rows": 8,
+   "sample": [
+    [
+     "5",
+     "CONDUIT, FURNISH AND INSTALL, 1.5\" ORANGE",
+     "",
+     "",
+     "",
+     "",
+     "LF",
+     "155",
+     ""
+    ],
+    [
+     "6",
+     "CONDUIT, FURNISH AND INSTALL, 1.5\" BLUE",
+     "",
+     "",
+     "",
+     "",
+     "LF",
+     "155",
+     ""
+    ],
+    [
+     "7",
+     "CONDUIT, FURNISH AND INSTALL, 1.5\" GREEN",
+     "",
+     "",
+     "",
+     "",
+     "LF",
+     "350",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 42,
+   "header_row": 0,
+   "headers": [
+    "ST ST ST\nW SS ST W W SS ST W\nST\n1 2 6 13 8 ST OF\nP r o j e c t N a m e : I n d e x 3 - E P T r u e R R C r o s s ing SST W S T ST\nItem No. W W 5 T H C SS T I t SS e m 1 2 9 U n i t Tot a l W A s R G R W BE Eu N SS P i L l S t Q ty. W W PI N E CT ST ST ST ST OF W W ST 2330\n4 C1O2N4DU I T , FURN I S H A2 N D I N S T A L L , 7 - W A Y M I C R O D U C T L F 4 5 0 E V E SS W OF ST\nW\n5 C O N D U I T , F U R N I S WH SS A N D I N S T A L L , 1 . 5 \" O R A N GE L F 3 W4 0 145 W 2450\nSS OF\n6 C O N D U I T , F U R N I S H A N D I N S T A L L , 1 . 51 \"2 5 B L U E L1 F30 3 4 0 ST\nW\nCONDUIT, FURNISH AND INSTALL, 1.0\" BLUE\nOF C O N N E C T TO\n8 LF 900 ST\nW/BLACK STRIPE W IA V _4 - 1: 9 0\nSET BY OTHERS\n9 VAULT, FURNISH AND INSTALL, LARGE (IAV, LAV) EACH 1 OF\n137 ST\n12 EQUIPMENT, F12U0RNISH AND INSTALL, TEST STATION EACH 2 W 2450\n121\nOF\n13 CABLE, FURNISH AND INSTALL, TRACER WIRE LF 450 ST 2450\nSW\nT\n14 CONNECTION TO EXISTING VAULT EACH 3 ST ST\n129 OF ST\nST\nST W Y ST\nSS W 2340\nSS SS SS ST O F P K\nSS W E\nSS U\nSS ST R\nSS SS OF T\nSS P\nSS W E\nSS SS ST\nSS SS OF\nSS\nSS W\nSS\nSS\nS 2801 SS SS 2801 SS SS SS SS SS SS SS SS SS SS SS SS SS O W F OF W O W F SS SS SS SS SS SS SS SS SS SS SS SS SS SS SS SS\nCONNECT TO SS SSOF\nDCV_3-1:2071 SS SS\nSS\nSET BY OTHERS W SS SS\nOF W IAV_3-1:552221 SS SS SS SS SS SS SS SS\n2801 2801 OF \u00c9& OF W SS SS SS SS SS SS SS SS SS SS SS SS SS SS\nSS\nSS\nOF W\nSS SS 152\n2801 OF SS\nW\nSS\nOF SS\n2801 W SS\nOFSS SS 150 150\nWSS S 2101\nSS 2 SS\nSS OF W SS6 T H SS\nOF SS S\nSS S O S F ST W SS T SS\nSS SS SS SS SS SS S S OF W SS SS\nOF OF OF OF OF OF OF O F W W ST C IA O V N _4 N - E 2: C 11 T 2 TO150 150 150\nW SS SET BY OTHERS\nW\nW W ST\nW\nW W W W W W W W W W W ST W W W W SS W W W W W W W W W W W W W W W W W W W W W W W W\nS T S T ST ST ST S T S T ST ST ST ST ST ST ST SS ST S S ST SS S T W S S W ST S S ST S ST S ST SS ST SS ST SS ST SS ST SS ST SS ST SS ST SS ST SS ST SS ST S T SS ST ST ST\nSS\nST\nSS\nW ST\nSS\nST\nSS\nW T",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "gnissorC\n6202-740-0150\nE:\nM\nRR A\nN\nR/\nE\nB\neurT M\nU\nN\nT\nC\nE\nJ\nPE O\nR\nP\nY:\nB\nN M\nW P\nA J\nR\nD\n6\n2\nE 0\nT 2\nA 1/\nD\n3\n8/"
+    ],
+    [
+     "\u00a7\u00a8\u00a6\nExisting Vault DCV - Medium 1.5 inch orange, 1.5 inch blue 2505\n235 ST\nExisting Conduit &\u00c9 IAV - Large 7way, 2-1 inch blue\nSS W TS 2509\nDDV - Small \u00cd\u00d2 LAV - Large 1.5 inch green",
+     "S\nSS\n0 25 50 100\nFeet\n1:900\nST\nSS",
+     "E",
+     "SHEET\nN.08"
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 43,
+   "header_row": 2,
+   "headers": [
+    "Item No.",
+    "",
+    "W SS\n129\nTItem\nC\nH\nW T SS",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Unit",
+    "",
+    "Total",
+    "W P\nN\nAs BE Eu ilt Qty.\nR SS\nG\nW",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 8,
+   "sample": [
+    [
+     "4",
+     "",
+     "C1O2N4DUIT, FU",
+     "",
+     "RNISH",
+     "5\nA2ND INSTALL, 7-WAY MICRODUCT",
+     "",
+     "",
+     "",
+     "LF",
+     "",
+     "450",
+     "R\nE\nVSS\nE",
+     ""
+    ],
+    [
+     "5",
+     "",
+     "CONDUIT, FURNISWH AND INST\nSS",
+     "",
+     "",
+     "",
+     "",
+     "ALL, 1.5\" ORANGE",
+     "",
+     "LF",
+     "",
+     "3W40",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "",
+     "CONDUIT, FURNISH AND INST",
+     "",
+     "",
+     "",
+     "",
+     "ALL, 1.51\"2 5BLUE",
+     "",
+     "L1F30",
+     "",
+     "340",
+     "SS",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 45,
+   "header_row": 0,
+   "headers": [
+    "TS TS TS\nTS\nTS\nTS\nSS W 1496\nProject Name: Index 4 - Village at Sugar Creek\n1493 SS W Item No. Item Unit Total As Built Qty.\nW 4 CONDUIT, FURNISH AND INSTALL, 7-WAY MICRODUCT LF 2120\nSS\n5 CONDUIT, FURNISH AND INSTALL, 1.5\" ORANGE LF 2120\nW\nSS\nSS S S S S S S 6 C O N D U I T , F U R N I S H A N D I N S T A L L , 1 . 5 \" B L U E L F 2 1 2 0\nSS\nSS C O N D U I T , F U R N I S H A N D I N S T A L L , 1 . 0 \" B L U E\nSS SS SS C O N N E C T T O W 8 L F 4 2 4 0\nSS SS SS I A V _ 4 - 4 : 4 8 2 1 2 1 TS W / B L A C K S T R I P E\nSS\nSS SS SS S E T B Y O T H E R S ST 9 V A U L T , F U R N I S H A N D I N S T A L L , L A R G E ( I A V , LAV) E ACH 2\nSS W\n10 VAULT, FURNISH AND INSTALL, MEDIUM (DCV) EACH 2\nST 12 EQUIPMENT, FURNISH AND INSTALL, TEST STATION EACH 3\nW\n13 CABLE, FURNISH AND INSTALL, TRACER WIRE LF 2120\nST 14 CONNECTION TO EXISTING VAULT EACH 3\nW\nST\nW\nST\nW\nTS\nST\nW\nST\nW\nST\nW\nST\nW\nST W\nTS\nST W\nST W\nST W\nW\nST W\nW\nW\nST\nTS\nW DCV_4-4:552222\nST\nW\nSS ST\nSS\nW\nSS\nSS ST S\n8\nSS 1 S W\nT\nSS ST S\nT\nSS",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "keerC\n6202-740-0150\nraguS\nE:\nM\nA\nN\nR/\nE\nta B\nM\nU\negalliV N\nT\nC\nE\nJ\nO\nR\nP\nY:\nB\nN M\nW P\nA J\nR\nD\n6\n2\nE 0\nT 2\nA 1/\nD\n3\n8/"
+    ],
+    [
+     "\u00a7\u00a8\u00a6\nExisting Vault DCV - Medium 1.5 inch orange, 1.5 inch blue W\nSS 235\nExisting Conduit &\u00c9 SS IAV - Large 7way, 2-1 inch blue ST\nDDV - Small SS \u00cd\u00d2 LAV - Large 1.5 inch green TS W ST",
+     "0 25 50 100\nFeet\n1:900",
+     "E",
+     "SHEET\nN.09\nTS"
+    ]
+   ]
+  },
+  {
+   "source": "Final Plans.pdf",
+   "sheet": 46,
+   "header_row": 1,
+   "headers": [
+    "Item",
+    "",
+    "Unit",
+    "Total",
+    "As Built Qty."
+   ],
+   "score": 3,
+   "n_rows": 9,
+   "sample": [
+    [
+     "CONDUIT, FURNISH AND INSTALL, 7-WAY MICRODUCT",
+     "",
+     "LF",
+     "2120",
+     ""
+    ],
+    [
+     "CONDUIT, FURNISH AND INSTALL, 1.5\" ORANGE",
+     "",
+     "LF",
+     "2120",
+     ""
+    ],
+    [
+     "CONDUIT, FURNISH AND INSTALL, 1.5\" BLUE",
+     "",
+     "LF",
+     "2120",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Final Specification.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "ITEM\nNO.",
+    "ITEM",
+    "UNIT",
+    "ESTIMATED\nQUANTITY",
+    "UNIT\nPRICE",
+    "",
+    "",
+    "EXTENDED\nPRICE",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 18,
+   "sample": [
+    [
+     "1",
+     "Traffic Control",
+     "LS",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Submit",
+     "",
+     "",
+     "Electronically",
+     ""
+    ],
+    [
+     "2",
+     "Construction Survey",
+     "LS",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 16.1,
+  "attachment_fetches": 5,
+  "attachment_seconds": 2.0,
+  "attachment_bytes": 23007067,
+  "max_fetch_seconds": 1.76,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-14T13:22:34.355847+00:00",
+ "extract_attempts": 1
+}
