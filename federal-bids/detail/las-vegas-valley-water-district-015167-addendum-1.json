@@ -1,0 +1,146 @@
+{
+ "bid_id": "las-vegas-valley-water-district-015167-addendum-1",
+ "bid_number": "015167 Addendum 1",
+ "agency": "Las Vegas Valley Water District",
+ "src": "Open",
+ "title": "3974S SNWA Protective Coatings On -Call Services",
+ "close": "9/24/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Annual Bonding",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Annual Bonding 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Purchased Materials and Rental Equipment",
+   "qty": "100000",
+   "uom": "EA",
+   "note": "Bidder must complete the entry for the Materials purchases and Equipment overhead markup and extended amount. For example, assume your markup to cover overhead for purchasing materials or acquiring rental equipment is 15 percent of the rental/purchase costs. The extended amount for Item 2 would be $100,000.00 x 1.15 = $115,000.00. This will be the rate the Contractor will be reimbursed for all approved materials and rental equipment used in the performance of the contract.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 This item has been changed as part of an addendum. See 'Bid History' for details. Purchased Materials and Rental Equipment 100000 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Project Management, General and Administrative Overhead, and Profit",
+   "qty": "100000",
+   "uom": "EA",
+   "note": "Bidder must complete the entry for their indirect labor, indirect overhead and profit as a factor of Direct Labor cost including benefits. For example, assume your markup to cover all indirect costs and profit is 25 percent of the direct hourly labor costs. The extended amount for Item 3 would be $100,000.00 x 1.25 = $125,000.00. This will be the rate the Contractor will be reimbursed in the performance of the contract.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 This item has been changed as part of an addendum. See 'Bid History' for details. Project Management, General and Administrative Overhead, and Profit 100000 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Contract Documents 015167.pdf",
+  "00 41 00 Bidder Statement of Authority 015167.pdf",
+  "00 41 10 Bid Bond  015167.pdf",
+  "00 43 35 Five Percent Subcontractor Information  Form 015167.pdf",
+  "00 43 36 Two Hour Subcontractor Information 015167.pdf",
+  "00 43 40 Security Checklist 015167.pdf",
+  "00 45 00 Bidder Project Team Qualifications 015167.pdf",
+  "00 45 46 Affidavit Pertaining to Preference Eligibility 015167.pdf",
+  "015167 Addendum No 1 ac.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Contract Documents 015167.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "00 41 00 Bidder Statement of Authority 015167.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00 41 10 Bid Bond  015167.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00 43 35 Five Percent Subcontractor Information  Form 015167.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00 43 36 Two Hour Subcontractor Information 015167.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "00 43 40 Security Checklist 015167.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "00 45 00 Bidder Project Team Qualifications 015167.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "00 45 46 Affidavit Pertaining to Preference Eligibility 015167.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "015167 Addendum No 1 ac.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.9,
+  "attachment_fetches": 9,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 2730806,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-15T13:28:09.157380+00:00",
+ "extract_attempts": 1
+}

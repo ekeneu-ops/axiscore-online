@@ -1,0 +1,277 @@
+{
+ "bid_id": "city-of-arlington-tx-pwst27001",
+ "bid_number": "PWST27001",
+ "agency": "City of Arlington, TX",
+ "src": "Invited",
+ "title": "Colonial Estates Phase 1",
+ "close": "10/6/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Notice to Bidders - Colonial Estates Phase 1 PWST27001.pdf",
+  "Bid Specs - Colonial Estates Phase 1 PWST27001.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Notice to Bidders - Colonial Estates Phase 1 PWST27001.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Specs - Colonial Estates Phase 1 PWST27001.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 5
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Bid Specs - Colonial Estates Phase 1 PWST27001.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "ITEM\nNO.",
+    "DESCRIPTION",
+    "UNIT PRICE IN\nWORDS",
+    "QTY",
+    "UNIT",
+    "PRICE IN FIGURES",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "UNIT PRICE",
+     "TOTAL"
+    ],
+    [
+     "101",
+     "Mobilization & Bonds in accordance with\nSection 11-10, for the unit price of",
+     "One Hundred Forty Six\nThousand Dollars and\nZero Cents",
+     "1",
+     "Lump\nSum",
+     "$ 146,000.00",
+     "$ 146,000.00"
+    ],
+    [
+     "102",
+     "Design, Implement, & Maintain Storm Water\nPollution Prevention Plan, complete and in\nplace for the unit price of",
+     "Forty Nine Thousand\nDollars and Zero Cents",
+     "1",
+     "Lump\nSum",
+     "$ 49,000.00",
+     "$ 49,000.00"
+    ]
+   ]
+  },
+  {
+   "source": "Bid Specs - Colonial Estates Phase 1 PWST27001.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "ITEM\nNO.",
+    "DESCRIPTION",
+    "UNIT PRICE IN\nWORDS",
+    "QTY",
+    "UNIT",
+    "PRICES IN FIGURES",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "UNIT PRICE",
+     "TOTAL"
+    ],
+    [
+     "201",
+     "Additional Cost (above the cost of concrete\nbid item) for 8-inch High Early Strength\nReinforced Concrete Paving (3600 psi/24\nhours) as directed by City, for the unit price\nof",
+     "__________________\nDollars and\n__________________\nCents",
+     "120",
+     "Square\nYard",
+     "$",
+     "$"
+    ],
+    [
+     "202",
+     "Furnish & Install 6-inch Type \u201cD\u201d HMAC\nPermanent Asphalt Street Transition,\nincluding 8-inch CTB, complete and in place\nfor the unit price of",
+     "__________________\nDollars and\n__________________\nCents",
+     "30",
+     "Square\nYard",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "Bid Specs - Colonial Estates Phase 1 PWST27001.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "ITEM\nNO.",
+    "DESCRIPTION",
+    "UNIT PRICE IN\nWORDS",
+    "QTY",
+    "UNIT",
+    "PRICES IN FIGURES",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 8,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "UNIT PRICE",
+     "TOTAL"
+    ],
+    [
+     "209",
+     "Move, Protect, & Reset Existing Mail Box,\nhorizontally & vertically as necessary to\nmeet U.S. Postal Service criteria, including\nplacement of temporary mailboxes\nthroughout construction, work fully\nperformed for the unit price of",
+     "__________________\nDollars and\n__________________\nCents",
+     "1",
+     "Each",
+     "$",
+     "$"
+    ],
+    [
+     "210",
+     "Remove & Replace to match Existing\nMasonry Mail Box, horizontally & vertically\nas necessary to meet U.S. Postal Service\ncriteria, including placement of temporary\nmailbox throughout construction, work fully\nperformed for the unit price of (this item is\npaid if mailbox cannot be salvaged. Work\nwill be paid under this item OR Item No.\n211, but not from both).",
+     "__________________\nDollars and\n__________________\nCents",
+     "1",
+     "Each",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "Bid Specs - Colonial Estates Phase 1 PWST27001.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "ITEM\nNO.",
+    "DESCRIPTION",
+    "UNIT PRICE IN\nWORDS",
+    "QTY",
+    "UNIT",
+    "PRICES IN FIGURES",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "UNIT PRICE",
+     "TOTAL"
+    ],
+    [
+     "216",
+     "Preparation & Manipulation 8-inch Cement\nTreated Subgrade, work fully performed for\nthe unit price of",
+     "__________________\nDollars and\n__________________\nCents",
+     "23,100",
+     "Square\nYard",
+     "$",
+     "$"
+    ],
+    [
+     "217",
+     "Furnish Type I Portland Cement (30 lbs/SY),\nwork fully performed for the unit price of",
+     "__________________\nDollars and\n__________________\nCents",
+     "347",
+     "Ton",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "Bid Specs - Colonial Estates Phase 1 PWST27001.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "ITEM\nNO.",
+    "DESCRIPTION",
+    "UNIT PRICE IN\nWORDS",
+    "QTY",
+    "UNIT",
+    "PRICES IN FIGURES",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "UNIT PRICE",
+     "TOTAL"
+    ],
+    [
+     "224",
+     "Remove & Replace Reinforced Concrete\nValley Gutter, including 8-inch CTB, work\nfully performed for the unit price of",
+     "__________________\nDollars and\n__________________\nCents",
+     "1,400",
+     "Square\nYard",
+     "$",
+     "$"
+    ],
+    [
+     "225",
+     "Remove & Replace 5-inch Reinforced\nConcrete Residential Drive Approach on\ncompacted native soil, work fully performed\nfor the unit price of",
+     "__________________\nDollars and\n__________________\nCents",
+     "2,800",
+     "Square\nYard",
+     "$",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 8.0,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 6700824,
+  "max_fetch_seconds": 0.32,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-15T13:14:29.262935+00:00",
+ "extract_attempts": 1
+}

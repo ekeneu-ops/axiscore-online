@@ -1,0 +1,134 @@
+{
+ "bid_id": "birdville-isd-tx-005-27-addendum-1",
+ "bid_number": "005-27 Addendum 1",
+ "agency": "Birdville ISD, TX",
+ "src": "Open",
+ "title": "Grease Trap Services",
+ "close": "9/24/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Pumping Fee per gallon",
+   "qty": "1",
+   "uom": "per gallon",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Pumping Fee per gallon 1 per gallon No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Disposal fee per gallon",
+   "qty": "1",
+   "uom": "per gallon",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Disposal fee per gallon 1 per gallon No Response"
+  }
+ ],
+ "attachments_saved": [
+  "005-27-Locations and Trap Sizes-updated 8.20.26.pdf",
+  "standard__terms_and_conditions_2026.pdf",
+  "CIQ2021.pdf",
+  "fw9.pdf",
+  "preemployment-preservice affidavit.pdf",
+  "2026-27-BISD-InstructionalCalendar_ADA.pdf",
+  "Campus List 2026-2027.pdf",
+  "To print a pdf version of the proposal document.pdf",
+  "1295_With_Instructions and video help links _2_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "005-27-Locations and Trap Sizes-updated 8.20.26.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "standard__terms_and_conditions_2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ2021.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "preemployment-preservice affidavit.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-27-BISD-InstructionalCalendar_ADA.pdf",
+   "kind": "pdf",
+   "tables": 16,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Campus List 2026-2027.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "To print a pdf version of the proposal document.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "1295_With_Instructions and video help links _2_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.4,
+  "attachment_fetches": 9,
+  "attachment_seconds": 1.0,
+  "attachment_bytes": 3765765,
+  "max_fetch_seconds": 0.22,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-15T13:29:13.547911+00:00",
+ "extract_attempts": 1
+}

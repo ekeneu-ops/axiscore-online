@@ -1,0 +1,83 @@
+{
+ "bid_id": "city-of-upper-arlington-oh-ua26-52",
+ "bid_number": "UA26-52",
+ "agency": "City of Upper Arlington, OH",
+ "src": "Open",
+ "title": "Crosswalk Enhancement",
+ "close": "9/24/2026 09:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Cover Folder.zip",
+  "Bidding Forms.zip",
+  "Bidding Requirements.zip",
+  "Bidding Schedule_Specification Forms.zip",
+  "Construction Drawings.zip",
+  "PS_E.zip"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Cover Folder.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bidding Forms.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bidding Requirements.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bidding Schedule_Specification Forms.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Construction Drawings.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "PS_E.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 91.1,
+  "attachment_fetches": 6,
+  "attachment_seconds": 85.9,
+  "attachment_bytes": 245195494,
+  "max_fetch_seconds": 42.34,
+  "throttle_signals": 3,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-15T13:27:10.215425+00:00",
+ "extract_attempts": 1
+}
