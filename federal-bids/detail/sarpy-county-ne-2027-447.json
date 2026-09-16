@@ -1,0 +1,250 @@
+{
+ "bid_id": "sarpy-county-ne-2027-447",
+ "bid_number": "2027-447",
+ "agency": "Sarpy County, NE",
+ "src": "Invited",
+ "title": "Werner Park - Central Stairs Refurbishment",
+ "close": "10/7/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Werner Park \u2013 Central Stair Refurbishment Base Bid",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Werner Park \u2013 Central Stair Refurbishment Base Bid 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Additional Alternate A-1",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Stair stringer reinforcement plate",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Additional Alternate A-1 1 LS No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Additional Alternate A-2",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Upper deck replacement expansion",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Additional Alternate A-2 1 LS No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "RFP and Specifications - Werner Park - Central Stair Refurbishment.pdf",
+  "26116 Werner Park Central Stair Refurbishment - Project Manual v2.pdf",
+  "26116 Werner Park Central Stair Refurbishment - Construction Documents.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP and Specifications - Werner Park - Central Stair Refurbishment.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "26116 Werner Park Central Stair Refurbishment - Project Manual v2.pdf",
+   "kind": "pdf",
+   "tables": 45,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "26116 Werner Park Central Stair Refurbishment - Construction Documents.pdf",
+   "kind": "pdf",
+   "tables": 193,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP and Specifications - Werner Park - Central Stair Refurbishment.pdf",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "",
+    "#",
+    "",
+    "",
+    "ITEM",
+    "",
+    "",
+    "UNIT",
+    "",
+    "",
+    "QUANTITY",
+    "",
+    "",
+    "PRICE",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "1",
+     "",
+     "",
+     "Werner Park \u2013 Central Stair Refurbishment Base Bid",
+     "",
+     "",
+     "LS",
+     "",
+     "",
+     "1",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "",
+     "TOTAL",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "$",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFP and Specifications - Werner Park - Central Stair Refurbishment.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "",
+    "#",
+    "",
+    "",
+    "ITEM",
+    "",
+    "",
+    "UNIT",
+    "",
+    "",
+    "QUANTITY",
+    "",
+    "",
+    "PRICE",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "A-1",
+     "",
+     "",
+     "Stair stringer reinforcement plate",
+     "",
+     "",
+     "LS",
+     "",
+     "",
+     "1",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "A-2",
+     "",
+     "",
+     "Upper deck replacement expansion",
+     "",
+     "",
+     "LS",
+     "",
+     "",
+     "1",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "26116 Werner Park Central Stair Refurbishment - Project Manual v2.pdf",
+   "sheet": 10,
+   "header_row": 5,
+   "headers": [
+    "days. Each invoice shall contain such detail and be backed up with whatever supporting inf",
+    "",
+    "or",
+    "mation the Owner or Architec"
+   ],
+   "score": 2,
+   "n_rows": 11,
+   "sample": [
+    [
+     "requests. The Architect will review the Contractor\u2019s application for payment, and the accom",
+     "",
+     "p",
+     "anying documents, to determine"
+    ],
+    [
+     "the amounts due to the Construction Manager, and based upon such review, together with it",
+     "",
+     "s i",
+     "nspections of the Work, may"
+    ],
+    [
+     "authorize payment by the Owner to the Contractor.",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 17.3,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 10623480,
+  "max_fetch_seconds": 0.26,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-16T13:15:57.907839+00:00",
+ "extract_attempts": 1
+}

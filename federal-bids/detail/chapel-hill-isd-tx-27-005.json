@@ -1,10 +1,10 @@
 {
- "bid_id": "burleson-isd-tx-burleson-isd-fundraising-vendor-application",
- "bid_number": "Burleson ISD Fundraising Vendor Application",
- "agency": "Burleson ISD, TX",
- "src": "Open",
- "title": "Burleson ISD Fundraising Vendor Application",
- "close": "9/25/2026 01:00 PM (ET)",
+ "bid_id": "chapel-hill-isd-tx-27-005",
+ "bid_number": "27-005",
+ "agency": "Chapel Hill ISD, TX",
+ "src": "Invited",
+ "title": "Walk-in Freezer/Cooler Combination",
+ "close": "10/29/2026 03:30 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -16,36 +16,36 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "0_W-9 Form Blank _2_ _9_.pdf",
-  "1_Conflict of Interest Questionnaire _5_.pdf"
+  "Vendor Packet 26_27 revised 3-23-26 _2_.pdf",
+  "Gen_Terms_and_Conditions_24-25 _1_.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "0_W-9 Form Blank _2_ _9_.pdf",
+   "name": "Vendor Packet 26_27 revised 3-23-26 _2_.pdf",
    "kind": "pdf",
-   "tables": 5,
+   "tables": 9,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "1_Conflict of Interest Questionnaire _5_.pdf",
+   "name": "Gen_Terms_and_Conditions_24-25 _1_.pdf",
    "kind": "pdf",
-   "tables": 1,
-   "note": "",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
    "candidates": 0
   }
  ],
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 5.8,
+  "bid_seconds": 10.4,
   "attachment_fetches": 2,
   "attachment_seconds": 0.2,
-  "attachment_bytes": 157268,
-  "max_fetch_seconds": 0.15,
+  "attachment_bytes": 1559792,
+  "max_fetch_seconds": 0.13,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-16T13:23:53.930702+00:00",
- "extract_attempts": 3
+ "captured_at": "2026-09-16T13:17:00.880321+00:00",
+ "extract_attempts": 1
 }
