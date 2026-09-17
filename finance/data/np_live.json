@@ -1,10 +1,10 @@
 {
- "asof": "2026-09-17T06:35Z",
+ "asof": "2026-09-17T07:05Z",
  "ap": {
-  "net": 347174.15,
+  "net": 349282.55,
   "credits": 1251.84,
   "credit_count": 30,
-  "net_after_credits": 345922.31,
+  "net_after_credits": 348030.71,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -27,8 +27,8 @@
     "total": 16701.58
    },
    "UNSCORED": {
-    "count": 19,
-    "total": 1276.67
+    "count": 44,
+    "total": 3385.07
    },
    "PARKED": {
     "count": 101,
@@ -45,16 +45,16 @@
     "total": 70.73
    },
    "ESS": {
-    "count": 3095,
-    "total": 237541.58
+    "count": 3120,
+    "total": 239649.98
    },
    "SPR": {
     "count": 1404,
     "total": 90280.66
    }
   },
-  "asof": "2026-09-17T06:35Z",
-  "moved_pct": 0.29
+  "asof": "2026-09-17T07:05Z",
+  "moved_pct": 0.61
  },
  "held": {
   "net": 299805.46,
@@ -69,8 +69,8 @@
   "fev_through": "2026-09-17T05:23Z",
   "deferred_snapshot": "2026-09-17T06:06Z",
   "last_settlement_end": "2026-09-04",
-  "asof": "2026-09-17T06:35Z",
-  "moved_pct": -0.06
+  "asof": "2026-09-17T07:05Z",
+  "moved_pct": 0.0
  },
  "fba": {
   "value": 7192.82,
@@ -79,7 +79,7 @@
   "cost_after_prep": 6915.62,
   "est_sales": 8816.11,
   "erp_updated_at": "2026-09-16 21:30:05",
-  "asof": "2026-09-17T06:35Z"
+  "asof": "2026-09-17T07:05Z"
  },
  "amex": {
   "owed": 8578.9,
@@ -87,24 +87,24 @@
   "txn_count": 40,
   "pending_amt": 257.39,
   "last_txn": "2026-09-16",
-  "asof": "2026-09-17T06:35Z"
+  "asof": "2026-09-17T07:05Z"
  },
  "card_in_transit": {
-  "amount": 336.08,
-  "batches": 2,
+  "amount": 212.3,
+  "batches": 1,
   "basis": "authnet",
-  "oldest_days": 1,
+  "oldest_days": 0,
   "stale_batches": 0,
   "stale_amount": 0.0,
   "stale_oldest_days": null,
-  "deposits_through": "2026-09-16",
-  "asof": "2026-09-17T06:35Z"
+  "deposits_through": "2026-09-17",
+  "asof": "2026-09-17T07:05Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 64,
-  "asof": "2026-09-17T06:35Z"
+  "asof": "2026-09-17T07:05Z"
  }
 }
