@@ -1,0 +1,58 @@
+{
+ "bid_id": "city-of-edmond-ok-q27-081",
+ "bid_number": "Q27-081",
+ "agency": "City of Edmond, OK",
+ "src": "Open",
+ "title": "Print Visit Edmond 2027 Guide",
+ "close": "9/21/2026 05:15 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Project: \"Visit Edmond 2027 Travel Guide\" Quantity: 30,000 Size: 4\u201d w x 9\u201d h No. Pages: 60 pages + 4 page/ cover Finishing: Saddle staple Stock: 60# satin text interior 80# satin cover Cover / Body Color: Full cover Proofs: Low Res Sherpa Color Proof for pagination check; High Res Sherpa Proof for color check; electronic proof is not acceptable. IF out-of-state, accommodation of proof prior to print must be stated in bid.",
+   "qty": "1",
+   "uom": "LT",
+   "note": "Mandatory Packaging: Boxes must weigh 20 lbs. or less each. \u201cVisit Edmond 2027 Travel Guide\u201d and Quantity contained must be marked on each box. Delivery: No later than December 18, 2026 to 4 locations to include: 1.) 10,000 each to OTRD distribution warehouse @ 5621 W Reno Ave., Suite B, OKC 73127 (north side of Reno Ave between Meridian and MacArthur) Monday-Thursday 7:30 AM \u2013 5:30 PM closed on Friday (call 405-535-8139 to schedule delivery) 2.) 7,500 each to Certified Folder Service, Inc, 350 S. Vermont, Suite 220 OKC, OK 73108 (Call 405-833-7113 to schedule delivery) 3.) 7,500 each to Visit Edmond 2901 Conference Dr, Edmond, OK (Call 405-623-3871 to schedule delivery) 4.) 5,000 each to City of Edmond 22 E. Main, Edmond, OK (Call 405-623-3871 to schedule delivery) Call upon print completion to schedule deliveries. Quantity to be delivered per location may vary depending on how many brochures per box.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Project: \"Visit Edmond 2027 Travel Guide\" Quantity: 30,000 Size: 4\u201d w x 9\u201d h No. Pages: 60 pages + 4 page/ cover Finishing: Saddle staple Stock: 60# satin text interior 80# satin cover Cover / Body Color: Full cover Proofs: Low Res Sherpa Color Proof for pagination check; High Res Sherpa Proof for color check; electronic proof is not acceptable. IF out-of-state, accommodation of proof prior to print must be stated in bid. 1 LT No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Visit Edmond 2025 Printed Travel Guide.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Visit Edmond 2025 Printed Travel Guide.pdf",
+   "kind": "pdf",
+   "tables": 46,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 29.9,
+  "attachment_fetches": 1,
+  "attachment_seconds": 12.8,
+  "attachment_bytes": 54214592,
+  "max_fetch_seconds": 12.77,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-17T13:13:33.206310+00:00",
+ "extract_attempts": 1
+}
