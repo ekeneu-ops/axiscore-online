@@ -265,15 +265,62 @@ jobs:
           TASK_ID="${TASK_ARN##*/}"
           EXIT_CODE=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
           echo "exitCode=$EXIT_CODE"
-          aws logs get-log-events --log-group-name "$LOG_GROUP" \
-            --log-stream-name "query/finance-runner/$TASK_ID" \
-            --query 'events[].message' --output text > /tmp/aplog.txt || { echo "no logs" >&2; exit 1; }
+          # --- read a finance-runner stream WHOLE, from the head ------------------
+          # A single `get-log-events` returns AT MOST 1MB **and defaults to the TAIL**.
+          # So the moment the base64 payload passes ~1MB the BEGIN marker falls off the
+          # front of the window and the decode dies with "No CSV markers in log" -- while
+          # the query itself exits 0. It is monotonic: the `recent` window is anchored at
+          # a fixed date and grows every day, so it never self-heals.
+          # That is exactly what killed every run from 2026-09-16T22:37Z onward; the last
+          # green run (17:57Z) carried 940,632 base64 bytes, ~11% under the cap.
+          # --start-from-head + the nextForwardToken loop reads the whole stream in order
+          # and removes the ceiling. Same defect, same fix as spine-ap-rows.yml, which
+          # crossed this cliff first (its payload is 3.8MB today).
+          fetch_stream() {
+            FS_STREAM="query/finance-runner/$1"
+            FS_OUT="$2"
+            : > "$FS_OUT"
+            TOK="START"
+            for _i in $(seq 1 200); do
+              if [ "$TOK" = "START" ]; then
+                aws logs get-log-events --log-group-name "$LOG_GROUP" \
+                  --log-stream-name "$FS_STREAM" --start-from-head --output json \
+                  > /tmp/_resp.json || return 1
+              else
+                aws logs get-log-events --log-group-name "$LOG_GROUP" \
+                  --log-stream-name "$FS_STREAM" --start-from-head --next-token "$TOK" \
+                  --output json > /tmp/_resp.json || return 1
+              fi
+              FS_OUT="$FS_OUT" python3 - <<'PY'
+          import json, os
+          d = json.load(open('/tmp/_resp.json'))
+          # newline-join so a one-word CSV header stays a SEPARATE token and can never be
+          # glued onto the base64 blob (an empty join shifts the decode by a byte).
+          with open(os.environ['FS_OUT'], 'a') as f:
+              f.write('\n'.join(e['message'] for e in d['events']) + '\n')
+          open('/tmp/_tok', 'w').write(d.get('nextForwardToken', ''))
+          open('/tmp/_n', 'w').write(str(len(d['events'])))
+          PY
+              FS_N=$(cat /tmp/_n); FS_NT=$(cat /tmp/_tok)
+              [ "$FS_N" = "0" ] && break
+              [ "$FS_NT" = "$TOK" ] && break
+              TOK="$FS_NT"
+            done
+            echo "fetch_stream $FS_STREAM -> $(wc -c < "$FS_OUT") bytes"
+          }
+
+          fetch_stream "$TASK_ID" /tmp/aplog.txt || { echo "no logs" >&2; exit 1; }
           python3 - <<'PY'
           import re, base64, json, sys
           log = open('/tmp/aplog.txt', 'r', errors='replace').read()
           m = re.search(r'BEGIN CSV RESULT(.*?)END CSV RESULT', log, re.S)
           if not m:
-              print("No CSV markers in log"); sys.exit(1)
+              # Say WHICH marker is missing: BEGIN-only means a truncated fetch (the old
+              # 1MB tail bug), END-only means the task died mid-emit, neither means the
+              # stream was empty or CloudWatch had not ingested it yet.
+              print("No CSV markers in log: %d bytes fetched, BEGIN=%s END=%s"
+                    % (len(log), 'BEGIN CSV RESULT' in log, 'END CSV RESULT' in log))
+              sys.exit(1)
           body = m.group(1)
           # The payload is base64 (all whitespace stripped server-side) emitted as ONE CSV
           # value. It arrives here as ONE OR MORE fragments: the CloudWatch/awslogs channel
@@ -409,9 +456,7 @@ jobs:
 
           TASK2_ARN="${{ steps.run.outputs.task2_arn }}"
           TASK2_ID="${TASK2_ARN##*/}"
-          aws logs get-log-events --log-group-name "$LOG_GROUP" \
-            --log-stream-name "query/finance-runner/$TASK2_ID" \
-            --query 'events[].message' --output text > /tmp/aplog2.txt || { echo "no logs (by_order)" >&2; exit 1; }
+          fetch_stream "$TASK2_ID" /tmp/aplog2.txt || { echo "no logs (by_order)" >&2; exit 1; }
           python3 - <<'PY'
           import re, base64, json
           log = open('/tmp/aplog2.txt', 'r', errors='replace').read()
@@ -439,9 +484,7 @@ jobs:
           TASK3_ID="${TASK3_ARN##*/}"
           EXIT3=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$TASK3_ARN" --query 'tasks[0].containers[0].exitCode' --output text)
           echo "totals task exitCode=$EXIT3"
-          aws logs get-log-events --log-group-name "$LOG_GROUP" \
-            --log-stream-name "query/finance-runner/$TASK3_ID" \
-            --query 'events[].message' --output text > /tmp/aplog3.txt || { echo "no logs (totals)" >&2; exit 1; }
+          fetch_stream "$TASK3_ID" /tmp/aplog3.txt || { echo "no logs (totals)" >&2; exit 1; }
           python3 - <<'PY'
           import re, base64, json, sys
           log = open('/tmp/aplog3.txt', 'r', errors='replace').read()
