@@ -1,5 +1,5 @@
 {
- "asof": "2026-09-18T07:02Z",
+ "asof": "2026-09-18T07:53Z",
  "ap": {
   "net": 357969.75,
   "credits": 1558.03,
@@ -19,16 +19,16 @@
     "total": 463.14
    },
    "PAY": {
-    "count": 4477,
-    "total": 332440.76
+    "count": 4510,
+    "total": 335497.21
    },
    "REVIEW": {
     "count": 169,
     "total": 17009.93
    },
    "UNSCORED": {
-    "count": 52,
-    "total": 4333.12
+    "count": 19,
+    "total": 1276.67
    },
    "PARKED": {
     "count": 101,
@@ -53,33 +53,33 @@
     "total": 95868.06
    }
   },
-  "asof": "2026-09-18T07:02Z",
-  "moved_pct": 0.84
+  "asof": "2026-09-18T07:53Z",
+  "moved_pct": 0.0
  },
  "held": {
-  "net": 308334.53,
-  "order_count": 3873,
+  "net": 307611.31,
+  "order_count": 3857,
   "walk": {
    "released": 139068.76,
    "postsettle": 248.88,
    "refunds": -9472.12,
    "account_events": -503.58,
-   "deferred": 178992.59
+   "deferred": 178269.37
   },
   "fev_through": "2026-09-18T05:56Z",
-  "deferred_snapshot": "2026-09-18T06:06Z",
+  "deferred_snapshot": "2026-09-18T07:06Z",
   "last_settlement_end": "2026-09-04",
-  "asof": "2026-09-18T07:02Z",
-  "moved_pct": 0.0
+  "asof": "2026-09-18T07:53Z",
+  "moved_pct": -0.23
  },
  "fba": {
-  "value": 7185.56,
-  "qty": 299,
-  "cost_gross": 9829.74,
-  "cost_after_prep": 6913.18,
-  "est_sales": 9215.52,
-  "erp_updated_at": "2026-09-17 21:30:06",
-  "asof": "2026-09-18T07:02Z"
+  "value": 6998.8,
+  "qty": 294,
+  "cost_gross": 9576.09,
+  "cost_after_prep": 6734.24,
+  "est_sales": 8911.24,
+  "erp_updated_at": "2026-09-18 06:30:07",
+  "asof": "2026-09-18T07:53Z"
  },
  "amex": {
   "owed": 8777.9,
@@ -87,7 +87,7 @@
   "txn_count": 41,
   "pending_amt": 199.0,
   "last_txn": "2026-09-17",
-  "asof": "2026-09-18T07:02Z"
+  "asof": "2026-09-18T07:53Z"
  },
  "card_in_transit": {
   "amount": 23268.56,
@@ -98,13 +98,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-09-18",
-  "asof": "2026-09-18T07:02Z"
+  "asof": "2026-09-18T07:53Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 65,
-  "asof": "2026-09-18T07:02Z"
+  "asof": "2026-09-18T07:53Z"
  }
 }
