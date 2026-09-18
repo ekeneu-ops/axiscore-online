@@ -164,13 +164,36 @@ jobs:
           #   net_after_credits = net - open credits
           # eff_bucket mirrors db._eff_sql EXACTLY, in this CASE order:
           #   vendor_settled -> SETTLED  (vendor's own records show it settled, never payable)
-          #   rollup FEDEX   -> PARKED   (Ekene's standing decision, excluded from net)
+          #   rollup FEDEX with NO ap.fedex_open_items row -> PARKED
           #   sticky REVIEW->PAY move via ap.review_moves (UNIQUE(invoice_id), cannot fan out;
           #   net-invariant anyway, since PAY and REVIEW are both inside net)
+          #
+          # 2026-09-17: the FEDEX park is SCOPED, where it used to be blanket. It was blanket
+          # here long after db._eff_sql stopped being blanket (0142, 2026-09-16, Ekene: "I need
+          # Fedex to be provisioned like all the other vendors so that I can pay them within
+          # the system also"), and that drift is the whole reason $14,749.28 of FedEx sat
+          # outside the published figure while the app showed it payable. rollup FEDEX holds
+          # TWO GRAINS and the join is what separates them:
+          #   70 rows / $13,997.91  FedEx Billing Online statement invoices -> now PAYABLE
+          #   31 rows / $751.37     ERP-mirror freight rows -> STILL PARKED (Ekene's standing
+          #                         decision; they sit outside FedEx's stated balance, and
+          #                         everything outside it was ruled already paid)
+          # ap.fedex_open_items.invoice_number is the PRIMARY KEY (0142:42), so the LEFT JOIN
+          # marks rows and can never fan one out. The TABLE is joined, not ap.v_fedex_open_items,
+          # because db._eff_sql joins the table -- parity with the app IS the contract for this
+          # figure, and the view's extra asof filter would fork the definition. (The statement
+          # arm of ap.v_outstanding already applies max(asof) + paid_ledger itself, 0142:348.)
+          # Both roles already hold SELECT on it: 0142:366 grants ap_app AND finance_runner.
+          #
           # credits come from ap.v_open_credits SCOPED to rollups that actually have a payable
           # book, so a credit is never deducted with no invoices to apply against. This is NOT
           # this file's separate 'credits' block (looser: no override / attributability filter),
           # which would over-deduct.
+          # FEDEX is then excluded from credits outright, mirroring db.py:374. Until today the
+          # blanket park did that by accident (FEDEX could never reach the rollup list); once
+          # FedEx has a payable book it can, so the guard has to be explicit or the first FedEx
+          # credit memo silently double-deducts -- a vendor STATEMENT is already net of every
+          # credit that vendor issued, so netting an ERP credit on top would underpay FedEx.
           #
           # This runs as its OWN Fargate task because ECS RunTask caps containerOverrides at
           # 8192 bytes and SQL_TEXT_INLINE already spends ~7.98KB of that (208B spare) — an
@@ -183,13 +206,16 @@ jobs:
           #   by_rollup ESS 110,984.18 | ISG 2,050.47 | SPR 52,960.33 (sums exactly to net)
           SQL3_TEXT_INLINE: >-
             SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup,
-            CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' THEN 'PARKED'
+            CASE WHEN v.vendor_settled THEN 'SETTLED'
+            WHEN v.rollup='FEDEX' AND fo.invoice_number IS NULL THEN 'PARKED'
             WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket
-            FROM ap.v_outstanding v LEFT JOIN ap.review_moves m ON m.invoice_id=v.invoice_id),
+            FROM ap.v_outstanding v LEFT JOIN ap.review_moves m ON m.invoice_id=v.invoice_id
+            LEFT JOIN ap.fedex_open_items fo ON fo.invoice_number=v.invoice_id),
             bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1),
             nt AS (SELECT round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')),
             cr AS (SELECT count(*) n, round(COALESCE(sum(oc.amount),0)::numeric,2) s FROM ap.v_open_credits oc
-            WHERE oc.rollup IN (SELECT DISTINCT rollup FROM eff WHERE eff_bucket NOT IN ('SETTLED','PARKED')))
+            WHERE oc.rollup <> 'FEDEX'
+            AND oc.rollup IN (SELECT DISTINCT rollup FROM eff WHERE eff_bucket NOT IN ('SETTLED','PARKED')))
             SELECT json_build_object('net',(SELECT s FROM nt),'credits',(SELECT s FROM cr),
             'credit_count',(SELECT n FROM cr),
             'net_after_credits',round(((SELECT s FROM nt)-(SELECT s FROM cr))::numeric,2),
@@ -198,7 +224,7 @@ jobs:
             FROM (SELECT rollup, count(*) n, round(sum(amount)::numeric,2) t FROM eff
             WHERE eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z),
             'book_from','2026-01-01','asof',to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'),
-            'definition','PAY+REVIEW+WAIT+UNSCORED+UNRESOLVED less open credits, SETTLED and PARKED/FEDEX excluded')
+            'definition','PAY+REVIEW+WAIT+UNSCORED+UNRESOLVED less open credits, SETTLED excluded; FedEx STATEMENT invoices payable, ERP-mirror FedEx PARKED, FedEx credits never netted (statement is already net)')
             )::text,'UTF8'),'base64'),'\s','','g') AS d;
         run: |
           OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
