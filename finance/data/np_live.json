@@ -1,10 +1,10 @@
 {
- "asof": "2026-09-18T06:32Z",
+ "asof": "2026-09-18T07:02Z",
  "ap": {
-  "net": 354913.3,
-  "credits": 1479.51,
-  "credit_count": 36,
-  "net_after_credits": 353433.79,
+  "net": 357969.75,
+  "credits": 1558.03,
+  "credit_count": 41,
+  "net_after_credits": 356411.72,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -27,8 +27,8 @@
     "total": 17009.93
    },
    "UNSCORED": {
-    "count": 19,
-    "total": 1276.67
+    "count": 52,
+    "total": 4333.12
    },
    "PARKED": {
     "count": 101,
@@ -45,16 +45,16 @@
     "total": 70.73
    },
    "ESS": {
-    "count": 3120,
-    "total": 239649.98
+    "count": 3153,
+    "total": 242706.43
    },
    "SPR": {
     "count": 1505,
     "total": 95868.06
    }
   },
-  "asof": "2026-09-18T06:32Z",
-  "moved_pct": 0.01
+  "asof": "2026-09-18T07:02Z",
+  "moved_pct": 0.84
  },
  "held": {
   "net": 308334.53,
@@ -69,8 +69,8 @@
   "fev_through": "2026-09-18T05:56Z",
   "deferred_snapshot": "2026-09-18T06:06Z",
   "last_settlement_end": "2026-09-04",
-  "asof": "2026-09-18T06:32Z",
-  "moved_pct": -0.07
+  "asof": "2026-09-18T07:02Z",
+  "moved_pct": 0.0
  },
  "fba": {
   "value": 7185.56,
@@ -79,7 +79,7 @@
   "cost_after_prep": 6913.18,
   "est_sales": 9215.52,
   "erp_updated_at": "2026-09-17 21:30:06",
-  "asof": "2026-09-18T06:32Z"
+  "asof": "2026-09-18T07:02Z"
  },
  "amex": {
   "owed": 8777.9,
@@ -87,24 +87,24 @@
   "txn_count": 41,
   "pending_amt": 199.0,
   "last_txn": "2026-09-17",
-  "asof": "2026-09-18T06:32Z"
+  "asof": "2026-09-18T07:02Z"
  },
  "card_in_transit": {
-  "amount": 23480.86,
-  "batches": 2,
+  "amount": 23268.56,
+  "batches": 1,
   "basis": "authnet",
-  "oldest_days": 1,
+  "oldest_days": 0,
   "stale_batches": 0,
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-09-18",
-  "asof": "2026-09-18T06:32Z"
+  "asof": "2026-09-18T07:02Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 65,
-  "asof": "2026-09-18T06:32Z"
+  "asof": "2026-09-18T07:02Z"
  }
 }
