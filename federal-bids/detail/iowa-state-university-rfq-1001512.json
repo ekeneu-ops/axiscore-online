@@ -1,0 +1,98 @@
+{
+ "bid_id": "iowa-state-university-rfq-1001512",
+ "bid_number": "RFQ-1001512",
+ "agency": "Iowa State University",
+ "src": "Invited",
+ "title": "Electrohydraulic Shockwave System",
+ "close": "10/2/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Cost of the Electrohydraulic Shockwave",
+   "qty": "1",
+   "uom": "EA",
+   "note": "A detailed breakdown of one-time and on-going costs should be provided under the Quote in the \"Response Attachment\" tab. This total amount should match what is reflected in your detailed quote.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Cost of the Electrohydraulic Shockwave 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Annual Software Costs",
+   "qty": "1",
+   "uom": "EA",
+   "note": "A detailed breakdown of one-time and on-going costs should be provided under the Quote in the \"Response Attachment\" tab. This total amount should match what is reflected in your detailed quote.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Annual Software Costs 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Freight",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Cost of the Electrohydraulic Shockwave 1 EA No Response Item Note: A detailed breakdown of one-time and on-going costs should be provided under the Quote in the \"Response Attachment\" tab. This total amount should match what is reflected in your detailed quote. No Bid Add Notes 2 Annual Software Costs 1 EA No Response Item Note: A detailed breakdown of one-time and on-going costs should be provided under the Quote in the \"Response Attachment\" tab. This total amount should match what is reflected in your detailed quote. No Bid Add Notes 3 Freight 1 EA No Response Add Alternate No Bid Add Notes"
+  }
+ ],
+ "attachments_saved": [
+  "ISU Instructions.pdf",
+  "ISU General Terms _ Conditions.pdf",
+  "Insurance Language - Equipment Repair_ Install_ Maintenance _low risk_ 09-2020.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ISU Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ISU General Terms _ Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Language - Equipment Repair_ Install_ Maintenance _low risk_ 09-2020.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.9,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 485307,
+  "max_fetch_seconds": 0.11,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-18T13:32:09.660492+00:00",
+ "extract_attempts": 1
+}

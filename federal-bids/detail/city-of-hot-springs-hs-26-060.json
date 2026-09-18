@@ -1,0 +1,154 @@
+{
+ "bid_id": "city-of-hot-springs-hs-26-060",
+ "bid_number": "HS-26-060",
+ "agency": "City of Hot Springs",
+ "src": "Invited",
+ "title": "Generator at 109 Hobson (CDBG)",
+ "close": "10/12/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Bidder offers to perform and completely accomplish the project to install a new generator on a existing concrete generator pad (as described in the scope of work). The scope of work shall meet or exceed the following specifications in the section as described (provide labor and materials), in accordance with the requirements contained in the ITB. This shall be a lump sum bid for the completed project.",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Bidder offers to perform and completely accomplish the project to install a new generator on a existing concrete generator pad (as described in the scope of work). The scope of work shall meet or exceed the following specifications in the section as described (provide labor and materials), in accordance with the requirements contained in the ITB. This shall be a lump sum bid for the completed project. 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "HS-26-060 Generator at 109 Hobson _CDBG_.pdf",
+  "Acknowledgment - Fillable.pdf",
+  "Projects Terms and Conditions of Bidding.pdf",
+  "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+  "Community Development Block Grant TIN_ UEI_ and SAM Registration Requirements.pdf",
+  "HUD-5370-EZ General Contract Conditions for Small Construction Development Contracts.pdf",
+  "HUD-4010 Davis-Bacon and Labor Standards.pdf",
+  "DBE IFR Guidance.9-30-2025  US DOT.pdf",
+  "Wage Rate Determination - Building.pdf",
+  "The Build America_ Buy America Compliance Certification.pdf",
+  "2025-018E1 109 Hobson Building A Resource Center GeneratorV2 02262026.pdf",
+  "Electrical Specifications for CHS Generator at 109 Hobson.pdf",
+  "Pre-Final Project Observation Check List.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "HS-26-060 Generator at 109 Hobson _CDBG_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Acknowledgment - Fillable.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Projects Terms and Conditions of Bidding.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Community Development Block Grant TIN_ UEI_ and SAM Registration Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HUD-5370-EZ General Contract Conditions for Small Construction Development Contracts.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HUD-4010 Davis-Bacon and Labor Standards.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "DBE IFR Guidance.9-30-2025  US DOT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Wage Rate Determination - Building.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "The Build America_ Buy America Compliance Certification.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2025-018E1 109 Hobson Building A Resource Center GeneratorV2 02262026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Electrical Specifications for CHS Generator at 109 Hobson.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Pre-Final Project Observation Check List.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 15.2,
+  "attachment_fetches": 13,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 5447155,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-18T13:33:53.623873+00:00",
+ "extract_attempts": 1
+}

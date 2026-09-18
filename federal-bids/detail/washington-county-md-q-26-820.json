@@ -1,0 +1,70 @@
+{
+ "bid_id": "washington-county-md-q-26-820",
+ "bid_number": "Q-26-820",
+ "agency": "Washington County, MD",
+ "src": "Invited",
+ "title": "Sample Ballot Mailer",
+ "close": "10/5/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Printing of Sample Ballot Mailer",
+   "qty": "102000",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Printing of Sample Ballot Mailer 102000 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Postage for Ballots per piece",
+   "qty": "102000",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Postage for Ballots per piece 102000 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Q-26-820 Sample Ballots.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Q-26-820 Sample Ballots.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.4,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 316148,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-18T13:33:03.442448+00:00",
+ "extract_attempts": 1
+}

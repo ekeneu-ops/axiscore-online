@@ -1,0 +1,146 @@
+{
+ "bid_id": "yes-prep-tx-rfp-yesp2026-23",
+ "bid_number": "RFP#YESP2026-23",
+ "agency": "Yes Prep, TX",
+ "src": "Invited",
+ "title": "FWE & NSS Access Controls,Cameras,DMP",
+ "close": "10/5/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 39,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Fifth Ward Elementary (275 Japhet ST, Houston, TX, 77020) Please make sure the amount listed here matches what is on your uploaded cost sheet.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Fifth Ward Elementary (275 Japhet ST, Houston, TX, 77020) Please make sure the amount listed here matches what is on your uploaded cost sheet. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Northside Secondary (2609 Bennington ST, Houston, TX 77093) Please make sure the amount listed here matches what is on your uploaded cost sheet.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Northside Secondary (2609 Bennington ST, Houston, TX 77093) Please make sure the amount listed here matches what is on your uploaded cost sheet. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP_YESP2026-23 FWE _ NSS Access Controls_Cameras_DMP.pdf",
+  "Scope of Work.pdf",
+  "FWE Security.pdf",
+  "NSS Security.pdf",
+  "Parts List.pdf",
+  "New_Vendor_Packet_updated 8.20.2025.pdf",
+  "Bid Invitation.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP_YESP2026-23 FWE _ NSS Access Controls_Cameras_DMP.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "FWE Security.pdf",
+   "kind": "pdf",
+   "tables": 61,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "NSS Security.pdf",
+   "kind": "pdf",
+   "tables": 24,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Parts List.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "New_Vendor_Packet_updated 8.20.2025.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Invitation.pdf",
+   "kind": "pdf",
+   "tables": 44,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Parts List.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "MANUF",
+    "DESCRIPTION",
+    "QTY"
+   ],
+   "score": 2,
+   "n_rows": 39,
+   "sample": [
+    [
+     "",
+     "CREDENTIALS AND PRINTER",
+     ""
+    ],
+    [
+     "FARGO",
+     "HDP5000 SINGLE SIDED PRINTER, DASE MODELM 3YR WARRANTY",
+     "1"
+    ],
+    [
+     "FARGO",
+     "YMCK RIBBON W/RESIN BLACK FOR HDP5000 500 IMPAGES",
+     "1"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 41.3,
+  "attachment_fetches": 7,
+  "attachment_seconds": 1.6,
+  "attachment_bytes": 19091612,
+  "max_fetch_seconds": 0.48,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-18T13:32:52.485774+00:00",
+ "extract_attempts": 1
+}
