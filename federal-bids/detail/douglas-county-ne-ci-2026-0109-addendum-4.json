@@ -8,28 +8,635 @@
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
- "extraction_status": "EXTRACT_FAILED:unreachable-page",
- "items_source": null,
- "lines_recovered": 0,
- "grid_empty_or_form": true,
- "onscreen_grid_count": 0,
- "onscreen_priced_lines": 0,
- "onscreen_lines": [],
- "attachments_saved": [],
- "parsed_docs": [],
- "candidate_tables": [],
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "9000.001 Mobilization/Demobilization, Bonds, Permits and Insurance",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 9000.001 Mobilization/Demobilization, Bonds, Permits and Insurance 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "9000.002 Furnish and Drive HP 14 x 89 Bearing Pile",
+   "qty": "2185",
+   "uom": "VLF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 This item has been changed as part of an addendum. See 'Bid History' for details. 9000.002 Furnish and Drive HP 14 x 89 Bearing Pile 2185 VLF No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "9000.003 All Other Work Required to Complete the Work Included in the Contract Documents (Not Included in Amounts Listed in Bid Items 4-12)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 9000.003 All Other Work Required to Complete the Work Included in the Contract Documents (Not Included in Amounts Listed in Bid Items 4-12) 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "2",
+   "desc": "FUNISH AND INSTALL HP 14X89 PRE-DRILLED ROCK SOCKET PILE",
+   "qty": "303",
+   "uom": "VLF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 FUNISH AND INSTALL HP 14X89 PRE-DRILLED ROCK SOCKET PILE 303 VLF No Response"
+  }
+ ],
+ "attachments_saved": [
+  "0_OPW 55168 Addendum 1.pdf",
+  "OPW 55168 Addendum 2.pdf",
+  "OPW 55168 Addendum 3.pdf",
+  "OPW 55168 Addendum 4.pdf",
+  "OPW 55168 - Specifications Volume 1.pdf",
+  "OPW 55168 - Specifications Volume 2.pdf",
+  "OPW 55168 - Drawings.pdf",
+  "Bid Bond - OPW 55168 Addendum 1.xlsx",
+  "Exhibit A_SEB Participation Disclosure form _bidders_ ADA.docx",
+  "Exhibit B_Certificate of Compliance _ADA_.docx",
+  "Exhibit C_Responsible Contractor Compliance Form _ADA_.docx",
+  "Exhibit D_Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+  "Exhibit E_Apprentice Incentive form _AIF_ _ADA_.docx",
+  "2025 ESP Rules and Plan Template.pdf",
+  "Bid Submittal I_ C_ P or JV form _ADA_.docx",
+  "Qualifications Statement - OPW 55168 Addendum 1.docx",
+  "Subcontractor and Supplier Forms - OPW 55168 Addendum 1.docx",
+  "Electronic File Indemnification Agreement - OPW 55168 _1_.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "0_OPW 55168 Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 32,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "OPW 55168 Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "OPW 55168 Addendum 3.pdf",
+   "kind": "pdf",
+   "tables": 201,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "OPW 55168 Addendum 4.pdf",
+   "kind": "pdf",
+   "tables": 337,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "OPW 55168 - Specifications Volume 1.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "OPW 55168 - Specifications Volume 2.pdf",
+   "kind": "pdf",
+   "tables": 64,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "OPW 55168 - Drawings.pdf",
+   "kind": "pdf",
+   "tables": 494,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bid Bond - OPW 55168 Addendum 1.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A_SEB Participation Disclosure form _bidders_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B_Certificate of Compliance _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit C_Responsible Contractor Compliance Form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D_Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit E_Apprentice Incentive form _AIF_ _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2025 ESP Rules and Plan Template.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Submittal I_ C_ P or JV form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Qualifications Statement - OPW 55168 Addendum 1.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Subcontractor and Supplier Forms - OPW 55168 Addendum 1.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Electronic File Indemnification Agreement - OPW 55168 _1_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "0_OPW 55168 Addendum 1.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "Bid\nItem\nNo.",
+    "Description",
+    "Units",
+    "Quantity",
+    "Unit Price",
+    "Amount"
+   ],
+   "score": 3,
+   "n_rows": 5,
+   "sample": [
+    [
+     "1",
+     "Mobilization/Demobilization,\nBonds, Permits and Insurance",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ],
+    [
+     "2",
+     "(See Unit Price Table Below \u2013\nleave columns to the right in\nthis table blank for this Bid\nItem)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2A",
+     "(See Unit Price table Below \u2013\nleave columns to the right in\nthis table blank for this Bid\nItem)",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "0_OPW 55168 Addendum 1.pdf",
+   "sheet": 9,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Unit",
+    "Estimated\nQuantity",
+    "Bid Unit\nPrice",
+    "Bid Amount"
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "2",
+     "Furnish and Drive HP 14x89\nBearing Pile (Driven Pile)",
+     "VLF",
+     "2,131",
+     "$",
+     "$"
+    ],
+    [
+     "2A",
+     "Furnish and Install HP 14x89\nPre-Drilled Rock Socket Pile",
+     "VLF",
+     "303",
+     "$",
+     "$"
+    ],
+    [
+     "Total for All Unit Price Bid Items:",
+     "",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "0_OPW 55168 Addendum 1.pdf",
+   "sheet": 30,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: [Full formal name of Owner]City of\nOmaha[AD1]\nMailing address (principal place of business):\n[Address of Owner\u2019s principal place of business]\n1819 Farnam Street, Suite 600\nOmaha, Nebraska 68183[AD1]",
+    "Contract\nDescription (name and location):\nNortheast Omaha High-Rate Treatment Basin\n(NEOHRTB)- Package 2 \u2013 11th and Izard Active\nControl & Grit and Screening Facility (IZAC &\nIZGSF) \u2013 OPW 55168\nContract Price: [Amount from Contract]\nEffective Date of Contract: [Date from Contract]"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond: [Date]\n(Date of Bond cannot be earlier than Effective Date of Contract)\nModifications to this Bond form:\n\u2610 None \u2610 See Paragraph 16",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this\nPerformance Bond, do each cause this Performance Bond to be duly executed by an authorized officer,\nagent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy: By:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular reference to\nContractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "0_OPW 55168 Addendum 1.pdf",
+   "sheet": 31,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: [Full formal name of Owner]\nCity of Omaha[AD1]\nMailing address (principal place of business):\n[Address of Owner\u2019s principal place of business]\n1819 Farnam Street, Suite 600\nOmaha, Nebraska 68183[AD1]",
+    "Contract\nDescription (name and location):\nNortheast Omaha High-Rate Treatment Basin\n(NEOHRTB)- Package 2 \u2013 11th and Izard Active\nControl & Grit and Screening Facility (IZAC & IZGSF)\n\u2013 OPW 55168\nContract Price: [Amount, from Contract]\nEffective Date of Contract: [Date, from Contract]"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond: [Date]\n(Date of Bond cannot be earlier than Effective Date of Contract)\nModifications to this Bond form:\n\u2610 None \u2610 See Paragraph 18",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this\nPayment Bond, do each cause this Payment Bond to be duly executed by an authorized officer, agent, or\nrepresentative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy: By:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular reference to\nContractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 Addendum 3.pdf",
+   "sheet": 36,
+   "header_row": 0,
+   "headers": [
+    "TYPE",
+    "MARK",
+    "LOCATION",
+    "SERVICE",
+    "Material",
+    "SIZE\n(W x H)",
+    "QTY",
+    "GATE TYPE",
+    "SEATING\nHEAD (FT)",
+    "UNSEATING\nHEAD (FT)",
+    "OPERATOR",
+    "ACCESSORIES"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "SG",
+     "2-1",
+     "IZAC",
+     "COMBINED\nSEWAGE",
+     "316L STAINLESS\nSTEEL",
+     "4'x6'",
+     "1\n2",
+     "NON-SELF CONTAINED,\nFLUSH BOTTOM, FLANGE\nFRAME",
+     "29'-0\"",
+     "20'-0\"",
+     "ELECTRIC",
+     "POSITION INDICATOR, POSITION\nTRANSMITTER, CONTROL PACKAGE"
+    ],
+    [
+     "SG",
+     "2-2",
+     "IZAC",
+     "COMBINED\nSEWAGE",
+     "316L STAINLESS\nSTEEL",
+     "5'x5'",
+     "1",
+     "SELF CONTAINED, FLUSH\nBOTTOM, FLANGE FRAME",
+     "29'-0\"",
+     "20'-0\"",
+     "ELECTRO-HYDRAULIC",
+     "POSITION INDICATOR, POSITION\nTRANSMITTER, CONTROL PACKAGE"
+    ],
+    [
+     "SG",
+     "2-3",
+     "IZAC",
+     "COMBINED\nSEWAGE",
+     "316L STAINLESS\nSTEEL",
+     "5'x5'",
+     "1",
+     "SELF CONTAINED, FLUSH\nBOTTOM, FLANGE FRAME",
+     "29'-0\"",
+     "20'-0\"",
+     "ELECTRO-HYDRAULIC",
+     "POSITION INDICATOR, POSITION\nTRANSMITTER, CONTROL PACKAGE"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 Addendum 3.pdf",
+   "sheet": 50,
+   "header_row": 0,
+   "headers": [
+    "3\nN\nT E\n1\"\n0 34+02 2\n5'\n0 \u00b0 W I W EXISTING 12\" WATER MAIN 12' CURB INLET 6 15\" DIA STORM SEWER HORIZONTAL SCALE IN FEET\nG T 0 0 N SB R/ TYPE III SEE PROFILE ON SHEET 3C-107 TEMPORARY SECANT PILE RECEIVING 20 10 0 20 40\nGA SHAFT (PACKAGE 1 INSTALLATION)\nTS W W W W W 12' CURB INLET 5 ELECTRICAL CONDUIT TYP\nE FUTURE 12\" TYPE III SEE ELECTRICAL SITE\nH- COORDINATE STORM SEWER INSTALLATION AND SITE DUAL 14' SWING GATES\nG T O W WATERMAIN BY MUD 12' CURB INLET 2 PLAN ON SHEET 3E-101 RESTORATION WITH CONTRACTOR FOR PACKAGE 1 FOR UPRR EVENTS 2\nTYPE III\nW R/ I 15\" DIA STORM SEWER 1\nSEE PROFILE ON SHEET 3C-107\nOH-E IC 72\" DIA NDCS HAND MINED RR\nP G T OH-E OH-E GRATE INLET #0003181B RIM EL=979.66 E E E T S 10+00 0 W W W W W TUNNEL TO TEMPORARY 18\" DIA STORM SEWER 12' CURB INLET 3 N FUTURE MUD 12\"X6\" REDUCER 14 SEE PROFILE ON SHEET 3C-107 RECEIVING SHAFT TYPE III STA 1+07 (PACKAGE 1 INSTALLATION) tS Seward St noinU cificaP\nT AG G T NE=INV EL 976.83 (15\" DIA RCP) E GRATE INLET #0003255B H- RIM EL=979.41 O E E E E E E E E E E ST ST ST ST ST 6+00 12+00 0 + 0 2 I W FUTURE MUD 6\" WATER MAIN VALVE AND HYDRANT VENT VAULT SEE DETAILS ON 16 13 W LUGGER PAD SHEET 3S-513 ht6 N Abbott Dr\nNW=INV EL 976.76 (12\" DIA RCP) E ST ST ST W 7+00 20+59 tS\nST W ht11\nW E ST W R/ 6\" DIA SANITARY SEWER tS\nT OH-E R/ E E ST ST ST W SEE PROFILE ON SHEET 3C-108 15 N ht21 1\nG T E E W ST ST ST W ST SAN 0 0 + I W UNION PACIFIC RAILROAD 22 23 EXCLUSIVE ACCESS N\nA G G GRATE INLET #0003279B W ST SAN 11+00 0 2 W W W W W W 6\" DIA EASEMENT LINE rD tnorfreviR\nT T G G G T T OH-E RIM EL=979.52 E SE=INV EL 977.52 (12\" DIA RCP) H- O EX 36\" DIA RCP SEWER W R/ E E E E E E S ST W T W ST R/ S T ST S ST T W ST W G A N R/ S S A SAN W W G G G G G G G G G W W 5+00 8+ 00 8+89 0+00 1+00 1+00 1+07 0 20+00 0 + 4 4+00 I CB S 1-1/4\" DIA 6\" DIA WATER MAIN HYDRANT LEAD 54\" DIA AREA 3 PLACE TEMPORARY PLUG AND GAS LINE SEE PROFILE 17 SAN MH 4 TERMINATE 6\" WATER MAIN BY OTHERS SEE ON SHEET 3C-108 6\" DIA WATER MAIN COORDINATE TESTING WITH MUD PROFILE ON 10 SEE PROFILE 20 AND FUTURE CONNECTION TO NEW SHEET 3C-109 11 ON SHEET 3C-108 21 72\" DIA STORM MH 2 MUD WATER MAIN 54\" DIA SAN 24\" DIA STORM SEWER OUTLET 2\" DIA WATER MAIN 18 CONNECTION SEE PROFILE ON SHEET 3C-107 SEE PROFILE ON Izard St Abbott St Cuming St rD pullaG RR cificaP noinU N 10th St 1 1 NOTES:\nG T E H- E E N W W 8\" DIA SANITARY SHEET 3C-108 S STRUCTURE 12 19 AREA DRAIN 2 SEE DETAIL\nT O W E E E E E E S A N G 5 .0 ' 0' 5. W 0 0 + 0 SEWER SEE PROFILE ON SHEET 15\" DIA STORM SEWER CONNECTION TO EXISTING GAS ON SHEET 3C-106 C-501 1. SEE CITY OF OMAHA STANDARD PLATE 701-01 FOR\nR/ E W SEE PROFILE ON SEWER BEDDING DETAILS\nR/ 9 MAIN BY OTHERS\nT G T OH-E H N/F E E E E G N A S W 3 5 + 0 2 4 + 4 SHEET 3C-107 2. SEE SHEET C-501 FOR TRENCH AND MANHOLE\nGA CITY OF OMAHA T R )SREHTO OVEREXCAVATION DETAILS\n0324680000 1 O E E TRANSFORMER 12' CURB INLET 4\nT G T GRATE INLET #0003029B 1 E RIM EL=980.42 H- NW=INV EL 977.42 (12\" DIA RCP) E O T C E N A S W R/ W PAD GAS TYPE III ODOR CONTROL LINE 18\" DIA STORM SEWER 3. SEE UTILITY PROFILE SHEETS FOR PROPOSED PIPE MATERIALS.\nTEERTS\nR W R/ E N W UNITS SEE SEE PROFILE ON SHEET 3C-107 4. PROVIDE FLEXIBLE CONNECTIONS AT ALL NON PILE\nU N A S 0 SHEET SEE PROCESS SUPPORTED UTILITY CONNECTIONS TO THE IZGSF\nT G T O COMBINED MANHOLE #0003279B T H RIM EL=980.60 U -E N YB( E W 0 + 3 3P-401 DRAWINGS FOR STA 0+54 54\" DIA SAN MH 3 UTILITY CONNECTIONS 48' X 48\" - 45\u00b0 BEND 2 BUILDING.\nO W\nNW=INV EL 975.40 (12\" DIA RCP) R/ S AT IZGSF\nF\nSE=INV EL 974.85 (12\" DIA RCP) C FIRE HYDRANT\nG T SW=INV EL 976.70 (12\" DIA RCP) E W\nS=INV EL 970.60 (36\" DIA RCP) E H- 48' X 48\"\nN=INV EL 970.60 (36\" DIA RCP) O PIPE SIZE FOR NORTH-SOUTH PIPE PER DOGIS W GRIT & NAS CONCRETE BOX CULVERT 9\nR/ W W SEWER VENT\nSCREENING R/\nG T 00+3 2\" DIA WATER MAIN SEE PROFILE ON SHEET 3C-107\nGRATE INLET #0003279B O H FACILITY SEE PROFILE ON\nRIM EL=979.52 -E\nSHEET 3C-108 NDCS DROP SHAFT\nSE=INV EL 977.52 (12\" DIA RCP)\nNAS\nG T E W R/ W SEWER STRUCTURE TABLE\nH-\nLAYOUT COORDINATES\nO W E\nR/ GENERATOR STR. # SIZE RIM INVERTS NORTHING EASTING STATION\nG T O W W NAS 0 0 + 0 3 POINT # NORTHING EASTING SW 6\" 976.58 11.25\u00b0 BEND FM BEND ???\" 977.15 113410.74 164243.36 11+17.22 1\nP P E H- O H -E R/ NE 6\" 976.58 1 113264.5259 164090.0585 2 UNION PACIFIC RAILROAD\nGA GRATE INLET #0003280B E 0 EXCLUSIVE ACCESS LUGGER AREA DRAIN 48\" 982.00 SE 6\" 977.59 113582.37 164190.28 20+59.33 2 113440.7469 164225.1949\nTT G T RIM EL=980.44 NNE=INV EL 978.14 E H- E W W NAS 0 + 0 4 EASEMENT LINE NW 6\" 976.34 3 113252.5642 164091.0218 1\nO W W R/ SAN CONNECTION STRUCTURE 54\" 983.75 113536.73 164252.29 4+29.80 SE 6\" 976.34\nG E H- R/ E E 2 3 + 1 4 113398.6928 164203.3386 8\" DIA SANITARY SEWER\nT O W 1 SAN MH 1 54\" 984.65 NE 8\" 970.59 113192.17 164093.15 0+00.00\nTT O H M W SEE PROFILE ON SHEET 3C-106 5 113263.5101 164056.0940\nG E- F SW 8\" 971.78\nN/F CITY OF OMAHA E 2 .0 ' R/ W W NAS 00+2 ELECTRICAL CONDUIT TYP 6 113264.8465 164069.0839 SAN MH 2 54\" 981.73 N 8\" 971.88 113317.35 164172.52 1+48.22 SEE ELECTRICAL SITE\nNE 6\" 972.91\nT G E H- O 0324750001 E H- E IC M F W 7 113274.9802 164088.9708 PLAN ON SHEET 3E-101\nT G O W R/ C E E O W 0 0 + S 8\" 973.26 4 SAN MH 3 54\" 981.87 113490.19 164172.52 3+21.06 8 113365.9514 164160.5407 NE 8\" 973.36\nN 5 S7 W R/ NAS 1 1 9 113468.6300 164160.5250\nT T G E H- O H E- T.0 E R U ' T CE E TM M F W W SW 8\" 974.27 SAN MH 4 54\" 983.35 SE 6\" 975.52 113550.33 164240.23 4+11.62 10 113551.8381 164254.3480\nO E IOP NW 6\" 977.00\nO\nT G E H- EX 36\" DIA RCP SEWER O N E R A AR E E S E Y E M W M R/ W F W NAS 11 113550.1050 164281.2452 PIPE IN CASING 11.25\u00b0 12 113529.0950 164299.7117 BEND SEE PROFILE ON\nT T P GA G G G H-E O H-E O W 5' O H-E A D: 1 4 N 3 3 . 0 5 0 \u00b0 ' 5 E - 6 HA O ' 2 R 7 C \" : E 1 , 8 3 1 . 7 4 1. 1 2' R/ RH: E N T E E E EX UPRR TRACK CENTERLIINE E E E R/ WF M W W M F W R/ NAS ST W ST ST 00+2 0 0 + 3 1 11+0011+07 0 0 + 1 4 I SHEET 3C-108 13 113592.0000 164158.6086 15\" DIA STORM SEWER STORM SEWER STRUCTURE TABLE SEE PROFILE ON SHEET 3C-106 14 113592.0000 164169.2184 8 25 STR. # SIZE STATION RIM INVERTS NORTHING EASTING 15 113571.8475 164293.6453 60\" DIA STORM MH 1 AREA DRAIN 2 48\" 8+89.04 982.20 W 15\" 977.49 113558.25 164467.93 16 113584.0000 164355.5000\nT OH-E C W 2 5 .0 ' W NAS ST ST ST ST 10+00 2\" DIA WATER MAIN CURB INLET 1 60\" 10+97.10 981.78 W 15\" 976.68 113360.81 164191.04 SEE PROFILE ON SHEET 3C-108 17 113556.2599 164295.7753\nT G H-E H O R/ H-E E- W O E E E M F T E W W W 18\" 971.84 CURB INLET 2 48\" 5+93.21 981.89 E 18\" 976.19 113590.26 164184.84 18 113536.2970 164302.6768\nO E\nOH-E W E R NE 15\" 972.80 1\nT T G T OH-E OH-E T W O H-E E- H O W E E E E E E T A R D S C - 8 C .0 ' F M W Z I W M NAS W W 19 113528.7735 164302.2260 W 18\" 977.03 12' CURB INLET 1 CURB INLET 3 48\" 7+80.13 982.25 113571.90 164370.86 20 113563.6641 164374.2040 24 SE 18\" 977.03 TYPE II 21 113560.4609 164427.6660 6\" DIA DEWATERING FORCEMAIN NW 18\" 977.26 CURB INLET 4 48\" 8+34.31 981.96 113541.44 164415.83\nT G W E F 0 0 + 0 E 15\" 977.26 SEE PROFILE ON SHEET 3C-107 22 113568.5130 164192.7054\nT A P T OH-E O H-E #5 REBARE-HO W E E E E D W A O W 1 0 + 0 1 S SW 15\" 973.06 54\" DIA TWIN 60\" DIA SEWERS CURB INLET 5 48\" 20+18.62 980.42 113607.21 164192.55 23 113568.5130 164276.8813 N 15\" 974.15\nW R SAN MH 2 SEE PROFILES ON SHEET 3C-110\nT W COM E B -H INOED MANHOLE #0003023 /R W E E E E E E L A N AI W S R 24 113321.6063 164125.6530 CURB INLET 6 48\" 20+42.46 980.43 S 15\" 974.22 113631.05 164192.55\nRIM EL=981.66 W 25 113354.5613 164151.5729\nH- E OH-E T #5 REBAR N=INV EL 968.58 (36\" DIA RCP) R W=INV EL 968.52 (36\" DIA RCP) /W W E E R /W W STORM MH 1 60\" 10+00.00 981.94 E 15\" 976.31 113348.85 164094.68 26 113253.0119 164131.7255 1\nO E E E E S 36\" 970.82\nN\nT W A S W 22.5\u00b0 BENDS STORM MH 2 72\" 10+28.29 980.03 N 36\" 970.82 113559.56 164097.05 27 113286.6719 164153.0706\nW E 18\" 971.38\nW E E 0\nOH-E E E E 0 +\nT W EXISTING WATER MAIN W E E W 2 3\n/R N 0 27\nA 0\nT E OH-E R W /W UTILITY POTHOLE LOCATION E E E E E S R /W W 0 0 + 1 + 2 4 CB YARD HYDRANT 7 EX UNION PACIFIC RAILROAD WATER MAIN FITTING TABLE TRACKS (TO BE TERMINATED EAST OF 11TH & IZARD\nH- O T TOP OF WATER LINE EL= 975.58 W E E E E E E E W N ACTIVE CONTROL 6 1 11TH ST CONNECTOR BY OTHERS) ALIGNMENT SIZE - FITTING STATION NORTHING EASTING CL EL 1\nA\nW E S\nPERM UTILITY EASEMENT 0+00 Proposed WM Centerline MUD to IZAC 6'' - 11.25\u00b0 BEND 11+28.00 N 113568.51 E 164276.88 974.42\nOH-E T 1040 SEWER GRANTED TO CITY OF OMAHA W W PIPE IN CASING\nW PER UNION PACIFIC PLACE PLAT W /R W E E E E E V N SEE PROFILE 5 Proposed WM Centerline MUD to IZAC 6'' TEE 11+45.09 N 113571.85 E 164293.65 974.42 3 ON SHEET 3C-106\nT E OH-E \"1 2'8 R '9 0 4 .5 0 /W W E E E E E S A R I R D /W W T 32+57 Proposed WM Centerline IZAC Service 6'' - 11.25\u00b0 BEND 4+18.43 N 113556.41 E 164295.77 976.16 26 8\" DIA SANITARY SEWER\nH- T O \u00b0 0 1 0 W N E E E T O N B SEE PROFILE ON SHEET 3C-106 Proposed WM Centerline IZAC Service 6'' - 22.5\u00b0 BEND 4+38.19 N 113536.23 E 164302.74 976.30 1\nT W E S A B A 42+59 FOR CONTINUATION SOUTHERLY Proposed WM Centerline IZAC Service 6'' - 45\u00b0 BEND 4+41.55 N 113528.71 E 164302.29 976.40 IN PLAN VIEW SEE SHEET 2C-105 2\nOH-E\nW /R W E E W Proposed WM Centerline MUD to IZAC 6'' - 45\u00b0 BEND 10+43.83 N 113568.51 E 164192.71 975.10\nE R T SITE UTILITY PLAN\nN\nPP A G E E A S W Proposed WM Centerline MUD to IZAC 6'' - 45\u00b0 BEND 10+10.61 N 113592.00 E 164169.22 975.10\nT W SCALE: 1\" = 20'\nE",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "R W R/ EERTS E TO N W UNITS\nU N A S 0\nG T O T H N 0 + 3\nU -E YB( W 54\" DIA SAN MH 3\nO\nS\nF\nC\nG T W\nE\nH-\nO\nW\nNAS 9\nR/ W\nG T 00+3 2\" DIA WATER MAIN\nO\nH SEE PROFILE ON\n-E\nSHEET 3C-108\nNAS\nG T W\nE\nH-\nO W E\nR/ GENERATOR\nG T W NAS\nO 11.25\u00b0 BEND\nH\nP -E\n2\nP\nGA\nE\nG T E\nE W\nH- NAS\nO W\nR/\nE\nG 8\" DIA SANITARY SEWER\nT\nTT EE PROFILE ON SHEET 3C-106\nO W\nH\nE-\nNAS ELECTRICAL CONDUIT TYP\nE 00+2 SEE ELECTRICAL SITE\nT E PLAN ON SHEET 3E-101\nH- W\nT O W\nR/ E E\nNAS\nT\nO\nH W\nT E- E\nE\nT\nE NAS\nH- PIPE IN CASING\nO E E E W SEE PROFILE ON\nW\nT 5' HA O R C : E 1 , 8 3 1 . 7 4 1. 1 2' R/ E ER/ WF E NAS 00+2 0 0 + 1 11+0011+07 SHEET 3C-108 8\nT P H-E D: 1 4 3 3 . 0 5 0 \u00b0 ' 5 E - 6 ' 2 7 \" A N E E W E F M ST W ST 3 0 0 + 1 4 I 25\nGA RH: R/ ST\nC ST\nST 0+00\nST\nW NAS ST\nH O R/ E- E E E M F W\nE 1\nE E 8 .0 M W\nC ' F -C NAS\n24\nE\nE E E\nW\nM\nF E 0 0\n+ 0\nE 1 0\nE E E + 0 1 S\nW 54\" DIA\nSAN MH 2\nE E E E S A N E\nW\nR /W OH-E R /W\nE E\nE E E\nN\nA W\nS\nE E 0\nOH-E E 0\n+\nE W 2 3\nN 0 27\nA 0\nR E E S R 0 0 + + 2 4\nOH-E /W /W 1\nE 1\nE E N\nA\nS\nPIPE IN CASING\nOH-E\nE E E SEE PROFILE\nN ON SHEET 3C-106\nA\nS\nR R\n/W E /W\nOH-E E E 26 8\" DIA S\nSEE PRO\nN\nA FOR CO\nS\n2 IN PLAN\nE\nSIT\nN\nA\nS\nSCAL",
+     "",
+     "SEE\nSEE PROFILE ON SHEET 3C-107 4. PROVIDE FLEXIBLE CONNECTIONS AT ALL NON PILE\nSHEET\nSEE PROCESS\nSUPPORTED UTILITY CONNECTIONS TO THE IZGSF\nE 3P-401 DRAWINGS FOR STA 0+54 2 BUILDING.\nUTILITY CONNECTIONS 48' X 48\" - 45\u00b0 BEND\nW\nAT IZGSF R/\nFIRE HYDRANT\nE\n48' X 48\"\nCONCRETE BOX CULVERT\nGRIT &\nW SEWER VENT\nSCREENING R/\nSEE PROFILE ON SHEET 3C-107\nFACILITY\nNDCS DROP SHAFT\nW\nR/ SEWER STRUCTURE TABLE\nLAYOUT COORDINATES\nSTR. # SIZE RIM INVERTS NORTHING EASTING STATION\n0 0 POINT # NORTHING EASTING\n+\n3 0 W 1 FM BEND ???\" 977.15 SW 6\" 976.58 113410.74 164243.36 11+17.22\nR/ E NE 6\" 976.58 1 113264.5259 164090.0585\nH-\nUNION PACIFIC RAILROAD O\n0 EXCLUSIVE ACCESS LUGGER AREA DRAIN 48\" 982.00 SE 6\" 977.59 113582.37 164190.28 20+59.33 2 113440.7469 164225.1949\n0\n0 + EASEMENT LINE\n4 1 NW 6\" 976.34 W 3 113252.5642 164091.0218\nW SAN CONNECTION STRUCTURE 54\" 983.75 113536.73 164252.29 4+29.80\nR/ SE 6\" 976.34\nE 1 + 3 2 H- E 4 113398.6928 164203.3386\n1 O SAN MH 1 54\" 984.65 NE 8\" 970.59 1W13192.17 164093.15 0+00.00\n5 113263.5101 164056.0940\nM\nF SW 8\" 971.78\n2 .0 ' R/ W SAN MH 2 54\" 981.73 N 8\" 97W1.88 113317.35 164172.52 1+48.22 6 113264.8465 164069.0839\nNE 6\" 972.91\nIC M H- E 7 113274.9802 164088.9708\nE F O\nS 8\" 973.26\n4 + 0 0 C O SAN MH 3 54\" 981.87 N W E 8\" 973.36 113490.19 164172.52 3+21.06 8 113365.9514 164160.5407\n1 1 R/ W N S 5 7 9 113468.6300 164160.5250\nE F M T R U .0 ' T W SW 8\" 974.27\nC T E M H- E SAN MH 4 54\" 983.35 S E 6 \" 9 7 5 . 5 2 113550.33 164240.23 4+11.62 10 113551.8381 164254.3480\nIO P O N W 6 \" 9 7 7 . 0 0\nO\nM R/ W N E R A W 11 113550.1050 164281.2452\nF 11.25\u00b0 A R\nBEND S E Y 12 113529.0950 164299.7117\nM\nE\nN H-E 13 113592.0000 164158.6086\nT O\nM STORM SEWER STRUCTURE TABLE\nW\nEX UPRR TRACK 14 113592.0000 164169.2184\nCENTERLIINE STR. # SIZE STATION RIM INVERTS NORTHING EASTING\n15 113571.8475 164293.6453\nW\nH-E AREA DRAIN 2 48\" 8+89.04 982.20 W 15\" 977.49 113558.25 164467.93\nO\n16 113584.0000 164355.5000\n2\n5 CURB INLET 1 60\" 10+97.10 981.78 W 15\" 976.68 113360.81 164191.04\n.0 W\n' 17 113556.2599 164295.7753\nW 18\" 971.84\nW\nH-E CURB INLET 2 48\" 5+93.21 981.89 E 18\" 976.19 113590.26 164184.84 18 113536.2970 164302.6768\nW\nO\nNE 15\" 972.80 W\n19 113528.7735 164302.2260\n12' CURB INLET 1 W CURB INLET 3 48\" 7+80.13 982.25 W 18\" 97W7.03 1135T71.90 164370.86 20 113563.6641 164374.2040\nSE 18\" 977.03\nTYPE II\nOH-E W\n21 113560.4609 164427.6660\n6\" DIA DEWATERING FORCEMAIN W NW 18\" 977.26T\nCURB INLET 4 48\" 8+34.31 981.96 113541.44 164415.83\nW E 15\" 977.26\nSEE PROFILE ON SHEET 3C-107 22 113568.5130 164192.7054\nD W W SW 15T\" 973.06\nOH-E O A TWIN 60\" DIA SEWERS CURB INLET 5 48\" 20+18.62 980.42 N 15\" 974.15 113607.21 164192.55 23 113568.5130 164276.8813\nR SEE PROFILES ON SHEET 3C-110 W\nL 24 113321.6063 164125.6530\nAI W CURB INLET 6 48\" 20+42.46 980.43 T S 15\" 974.22 113631.05 164192.55\nR W\n25 113354.5613 164151.5729\nSTORM MH 1 60\" 10+00.00 981.94 E 15\" 976.31 113348.85 164094.68\nW W T 1\n26 113253.0119 164131.7255\nS 36\" 970.82\nW\nSTORM MH 2 72\" 10+ T 28.29 980.03 N 36\" 970.82 113559.56 164097.05 27 113286.6719 164153.0706\nW E 18\" 971.38\nW\nE\nT\nEXISTING WATER MAIN W\nE\nEX UNION PACIFIC RAILROAD\nW\nTRACKS (TO BE TERMINATED EAST OF W UTILITY POTHOLE LOCATION T WATER MAIN FITTING TABLE\nE\n11TH ST CONNECTOR BY OTHERS) TOP OF WATER LINE EL= 975.58 W\nT ALIGNMENT SIZE - FITTING STATION NORTHING EASTING CL EL\nE W\nPERM UTILITY EASEMENT Proposed WM Centerline MUD to IZAC 6'' - 11.25\u00b0 BEND 11+28.00 N 113568.51 E 164276.88 974.42\nGRANTED TO CITY OF OMAHA W W T\nPER UNION PACIFIC PLACE PLAT E E\nProposed WM Centerline MUD to IZAC 6'' TEE 11+45.09 N 113571.85 E 164293.65 974.42\nV\nW\nI\nE R T\nD Proposed WM Centerline IZAC Service 6'' - 11.25\u00b0 BEND 4+18.43 N 113556.41 E 164295.77 976.16\nANITARY SEWER W T W\nFILE ON SHEET 3C-106 E O T W T Proposed WM Centerline IZAC Service 6'' - 22.5\u00b0 BEND 4+38.19 N 113536.23 E 164302.74 976.30\nB 1\nNTINUATION SOUTHERLY\nVIEW SEE SHEET 2C-105 E A B W T Proposed WM Centerline IZAC Service 6'' - 45\u00b0 BEND 4+41.55 N 113528.71 E 164302.29 976.40\nE W W Proposed WM Centerline MUD to IZAC 6'' - 45\u00b0 BEND 10+43.83 N 113568.51 E 164192.71 975.10\nE UTILITY PLAN E T R\nE E PP W Proposed WM Centerline MUD to IZAC 6'' - 45\u00b0 BEND 10+10.61 N 113592.00 E 164169.22 975.10\nE: 1\" = 20' WT"
+    ],
+    [
+     "",
+     "",
+     "SIT\nSCAL",
+     "E UTILITY PLAN\nE E PP\nE: 1\" = 20'"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 Addendum 4.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "Item No.",
+    "Description",
+    "Unit",
+    "Estimated\nQuantity",
+    "Bid Unit Price",
+    "Bid Amount"
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "2",
+     "Furnish and Drive HP 14X89\nBearing Pile (Driven Pile)",
+     "VLF",
+     "2,185",
+     "$",
+     "$"
+    ],
+    [
+     "2A",
+     "Furnish and Install HP 14x89 Pre-\nDrilled Rock Socket Pile",
+     "VLF",
+     "303",
+     "$",
+     "$"
+    ],
+    [
+     "Total of All Unit Price Bid Items",
+     "",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 Addendum 4.pdf",
+   "sheet": 254,
+   "header_row": 0,
+   "headers": [
+    "3\nN\nT E\n1\"\n0 34+02 2\n5'\n0 \u00b0 W I W EXISTING 12\" WATER MAIN 12' CURB INLET 6 15\" DIA STORM SEWER HORIZONTAL SCALE IN FEET\nG T 0 0 N SB R/ TYPE I SEE PROFILE ON SHEET 3C-107 TEMPORARY SECANT PILE RECEIVING 20 10 0 20 40\nGA SHAFT (PACKAGE 1 INSTALLATION)\nTS W W W W W 12' CURB INLET 5 ELECTRICAL CONDUIT TYP 3\nE FUTURE 12\" TYPE II SEE ELECTRICAL SITE\nH- COORDINATE STORM SEWER INSTALLATION AND SITE DUAL 14' SWING GATES\nG T O W WATERMAIN BY MUD 12' CURB INLET 2 PLAN ON SHEET 3E-101 RESTORATION WITH CONTRACTOR FOR PACKAGE 1 FOR UPRR EVENTS 2\nTYPE II\nW R/ I 15\" DIA STORM SEWER 1\nSEE PROFILE ON SHEET 3C-107\nOH-E IC 72\" DIA NDCS HAND MINED RR 3\nP G T OH-E OH-E GRATE INLET #0003181B RIM EL=979.66 E E E T S 10+00 0 W W W W W TUNNEL TO TEMPORARY 18\" DIA STORM SEWER 12' CURB INLET 3 N FUTURE MUD 12\"X6\" REDUCER 14 SEE PROFILE ON SHEET 3C-107 RECEIVING SHAFT TYPE II STA 1+07 (PACKAGE 1 INSTALLATION) tS Seward St noinU cificaP\nT AG G T NE=INV EL 976.83 (15\" DIA RCP) E GRATE INLET #0003255B H- RIM EL=979.41 O E E E E E E E E E E ST ST ST ST ST 6+00 12+00 0 + 0 2 I W FUTURE MUD 6\" WATER MAIN VALVE AND HYDRANT VENT VAULT SEE DETAILS ON 16 13 W LUGGER PAD SHEET 3S-513 ht6 N Abbott Dr\nNW=INV EL 976.76 (12\" DIA RCP) E ST ST ST W 7+00 20+59 tS\nST W ht11\nW E ST W R/ 6\" DIA SANITARY SEWER tS\nT OH-E R/ E E ST ST ST W SEE PROFILE ON SHEET 3C-108 15 N ht21 1\nG T E E W ST ST ST W ST SAN 0 0 + I W UNION PACIFIC RAILROAD 22 23 EXCLUSIVE ACCESS N\nA G G GRATE INLET #0003279B W ST SAN 11+00 0 2 W W W W W W 6\" DIA EASEMENT LINE rD tnorfreviR\nT T G G G T T OH-E RIM EL=979.52 E SE=INV EL 977.52 (12\" DIA RCP) H- O EX 36\" DIA RCP SEWER W R/ E E E E E E S ST W T W ST R/ S T ST S ST T W ST W G A N R/ S S A SAN W W G G G G G G G G G W W 5+00 8+ 00 8+89 0+00 1+00 1+00 1+07 0 20+00 0 + 4 4+00 I CB S 1-1/4\" DIA 6\" DIA WATER MAIN HYDRANT LEAD 54\" DIA AREA 3 PLACE TEMPORARY PLUG AND GAS LINE SEE PROFILE 17 SAN MH 4 TERMINATE 6\" WATER MAIN BY OTHERS SEE ON SHEET 3C-108 6\" DIA WATER MAIN COORDINATE TESTING WITH MUD PROFILE ON 10 SEE PROFILE 20 AND FUTURE CONNECTION TO NEW SHEET 3C-109 11 ON SHEET 3C-108 21 72\" DIA STORM MH 2 MUD WATER MAIN 54\" DIA SAN 24\" DIA STORM SEWER OUTLET 2\" DIA WATER MAIN 18 CONNECTION SEE PROFILE ON SHEET 3C-107 SEE PROFILE ON Izard St Abbott St Cuming St rD pullaG RR cificaP noinU N 10th St 1 1 NOTES:\nG T E H- E E N W W 8\" DIA SANITARY SHEET 3C-108 S STRUCTURE 12 19 AREA DRAIN 2 SEE DETAIL\nT O W E E E E E E S A N G 5 .0 ' 0' 5. W 0 0 + 0 SEWER SEE PROFILE ON SHEET 15\" DIA STORM SEWER CONNECTION TO EXISTING GAS ON SHEET 3C-106 C-501 1. SEE CITY OF OMAHA STANDARD PLATE 701-01 FOR\nR/ E W SEE PROFILE ON SEWER BEDDING DETAILS\nR/ 9 MAIN BY OTHERS\nT G T OH-E H N/F E E E E G N A S W 3 5 + 0 2 4 + 4 SHEET 3C-107 2. SEE SHEET C-501 FOR TRENCH AND MANHOLE\nGA CITY OF OMAHA T R )SREHTO OVEREXCAVATION DETAILS\n0324680000 1 O E E TRANSFORMER 12' CURB INLET 4 3\nT G T GRATE INLET #0003029B 1 E RIM EL=980.42 H- NW=INV EL 977.42 (12\" DIA RCP) E O T C E N A S W R/ W PAD GAS TYPE II ODOR CONTROL LINE 18\" DIA STORM SEWER 3. SEE UTILITY PROFILE SHEETS FOR PROPOSED PIPE MATERIALS.\nTEERTS\nR W R/ E N W UNITS SEE SEE PROFILE ON SHEET 3C-107 4. PROVIDE FLEXIBLE CONNECTIONS AT ALL NON PILE\nU N A S 0 SHEET SEE PROCESS SUPPORTED UTILITY CONNECTIONS TO THE IZGSF\nT G T O COMBINED MANHOLE #0003279B T H RIM EL=980.60 U -E N YB( E W 0 + 3 3P-401 DRAWINGS FOR STA 0+54 54\" DIA SAN MH 3 UTILITY CONNECTIONS 48' X 48\" - 45\u00b0 BEND 2 BUILDING.\nO W\nNW=INV EL 975.40 (12\" DIA RCP) R/ S AT IZGSF\nF\nSE=INV EL 974.85 (12\" DIA RCP) C FIRE HYDRANT\nG T SW=INV EL 976.70 (12\" DIA RCP) E W\nS=INV EL 970.60 (36\" DIA RCP) E H- 48' X 48\"\nN=INV EL 970.60 (36\" DIA RCP) O PIPE SIZE FOR NORTH-SOUTH PIPE PER DOGIS W GRIT & NAS CONCRETE BOX CULVERT 9\nR/ W W SEWER VENT\nSCREENING R/\nG T 00+3 2\" DIA WATER MAIN SEE PROFILE ON SHEET 3C-107\nGRATE INLET #0003279B O H FACILITY SEE PROFILE ON\nRIM EL=979.52 -E\nSHEET 3C-108 NDCS DROP SHAFT\nSE=INV EL 977.52 (12\" DIA RCP)\nNAS\nG T E W R/ W SEWER STRUCTURE TABLE\nH-\nLAYOUT COORDINATES\nO W E\nR/ GENERATOR STR. # SIZE RIM INVERTS NORTHING EASTING STATION\nG T O W W NAS 0 0 + 0 3 POINT # NORTHING EASTING SW 6\" 976.58 11.25\u00b0 BEND FM BEND ???\" 977.15 113410.74 164243.36 11+17.22 1\nP P E H- O H -E R/ NE 6\" 976.58 1 113264.5259 164090.0585 2 UNION PACIFIC RAILROAD\nGA GRATE INLET #0003280B E 0 EXCLUSIVE ACCESS LUGGER AREA DRAIN 48\" 982.00 SE 6\" 977.59 113582.37 164190.28 20+59.33 2 113440.7469 164225.1949\nTT G T RIM EL=980.44 NNE=INV EL 978.14 E H- E W W NAS 0 + 0 4 EASEMENT LINE NW 6\" 976.34 3 113252.5642 164091.0218 1\nO W W R/ SAN CONNECTION STRUCTURE 54\" 983.67 113536.73 164252.29 4+29.80 SE 6\" 976.34\nG E H- R/ E E 2 3 + 1 4 113398.6928 164203.3386 8\" DIA SANITARY SEWER\nT O W 1 SAN MH 1 54\" 984.65 NE 8\" 970.59 113192.17 164093.15 0+00.00\nTT O H M W SEE PROFILE ON SHEET 3C-106 5 113263.5101 164056.0940\nG E- F SW 8\" 971.78\nN/F CITY OF OMAHA E 2 .0 ' R/ W W NAS 00+2 ELECTRICAL CONDUIT TYP 6 113264.8465 164069.0839 SAN MH 2 54\" 981.73 N 8\" 971.88 113317.35 164172.52 1+48.22 SEE ELECTRICAL SITE\nNE 6\" 971.91\nT G E H- O 0324750001 E H- E IC M F W 7 113274.9802 164088.9708 PLAN ON SHEET 3E-101 3\nT G O W R/ C E E O W 0 0 + S 8\" 973.26 4 SAN MH 3 54\" 981.87 113490.19 164172.52 3+21.06 8 113365.9514 164160.5407 NE 8\" 973.36\nN 5 S7 W R/ NAS 1 1 9 113468.6300 164160.5250\nT T G E H- O H E- T.0 E R U ' T CE E TM M F W W SW 8\" 974.27 SAN MH 4 54\" 983.35 SE 6\" 975.52 113550.33 164240.23 4+11.62 10 113551.8381 164254.3480\nO E IOP NW 6\" 977.00\nO\nT G E H- EX 36\" DIA RCP SEWER O N E R A AR E E S E Y E M W M R/ W F W NAS 11 113550.1050 164281.2452 PIPE IN CASING 11.25\u00b0 12 113529.0950 164299.7117 BEND SEE PROFILE ON\nT T P GA G G G H-E O H-E O W 5' O H-E A D: 1 4 N 3 3 . 0 5 0 \u00b0 ' 5 E - 6 HA O ' 2 R 7 C \" : E 1 , 8 3 1 . 7 4 1. 1 2' R/ RH: E N T E E E EX UPRR TRACK CENTERLIINE E E E R/ WF M W W M F W R/ NAS ST W ST ST 00+2 0 0 + 3 1 11+0011+07 0 0 + 1 4 I SHEET 3C-108 13 113592.0000 164158.6086 15\" DIA STORM SEWER STORM SEWER STRUCTURE TABLE SEE PROFILE ON SHEET 3C-106 14 113592.0000 164169.2184 8 25 STR. # SIZE STATION RIM INVERTS NORTHING EASTING 15 113571.8475 164293.6453 60\" DIA STORM MH 1 AREA DRAIN 2 48\" 8+89.04 982.20 W 15\" 977.49 113558.25 164467.93 16 113584.0000 164355.5000\nT OH-E C W 2 5 .0 ' W NAS ST ST ST ST 10+00 2\" DIA WATER MAIN CURB INLET 1 60\" 10+97.10 981.78 W 15\" 976.68 113360.81 164191.04 SEE PROFILE ON SHEET 3C-108 17 113556.2599 164295.7753\nT G H-E H O R/ H-E E- W O E E E M F T E W W W 18\" 971.84 CURB INLET 2 48\" 5+93.21 981.89 E 18\" 974.81 113590.26 164184.84 18 113536.2970 164302.6768\nO E\nT T G OH-E T OH-E OH-E T W W O H-E E- H O W E E E E E E E R T A R D S C - 8 C .0 ' F M W Z I W M NAS W W NE 15\" 972.80 19 113528.7735 164302.2260 W 18\" 977.03 12' CURB INLET 1 CURB INLET 3 48\" 7+80.13 982.25 113571.90 164370.86 20 113563.6641 164374.2040 24 SE 18\" 977.03 TYPE II 21 113560.4609 164427.6660 6\" DIA DEWATERING FORCEMAIN NW 18\" 977.26 CURB INLET 4 48\" 8+34.31 981.96 113541.44 164415.83 1 3 3\nT G W E F 0 0 + 0 E 15\" 977.26 SEE PROFILE ON SHEET 3C-107 22 113568.5130 164192.7054\nT A P T OH-E O H-E #5 REBARE-HO W E E E E D W A O W 1 0 + 0 1 S SW 15\" 973.06 54\" DIA TWIN 60\" DIA SEWERS CURB INLET 5 48\" 20+18.62 980.42 113607.21 164192.55 23 113568.5130 164276.8813 N 15\" 974.15\nW R SAN MH 2 SEE PROFILES ON SHEET 3C-110\nT W COM E B -H INOED MANHOLE #0003023 /R W E E E E E E L A N AI W S R 24 113321.6063 164125.6530 CURB INLET 6 48\" 20+42.46 980.43 S 15\" 974.22 113631.05 164192.55\nRIM EL=981.66 W 25 113354.5613 164151.5729\nH- E OH-E T #5 REBAR N=INV EL 968.58 (36\" DIA RCP) R W=INV EL 968.52 (36\" DIA RCP) /W W E E R /W W STORM MH 1 60\" 10+00.00 981.94 E 15\" 976.31 113348.85 164094.68 26 113253.0119 164131.7255 1\nO E E E E S 36\" 970.82\nN\nT W A S W 22.5\u00b0 BENDS STORM MH 2 72\" 10+28.29 980.03 N 36\" 970.82 113559.56 164097.05 27 113286.6719 164153.0706\nW E 18\" 971.38\nW E E 0\nOH-E E E E 0 +\nT W EXISTING WATER MAIN W E E W 2 3\n/R N 0 27\nA 0\nT E OH-E R W /W UTILITY POTHOLE LOCATION E E E E E S R /W W 0 0 + 1 + 2 4 CB YARD HYDRANT 7 EX UNION PACIFIC RAILROAD WATER MAIN FITTING TABLE TRACKS (TO BE TERMINATED EAST OF 11TH & IZARD\nH- O T TOP OF WATER LINE EL= 975.58 W E E E E E E E W N ACTIVE CONTROL 6 1 11TH ST CONNECTOR BY OTHERS) ALIGNMENT SIZE - FITTING STATION NORTHING EASTING CL EL 1\nA\nW E S\nPERM UTILITY EASEMENT 0+00 Proposed WM Centerline MUD to IZAC 6'' - 11.25\u00b0 BEND 11+28.00 N 113568.51 E 164276.88 974.42\nOH-E T 1040 SEWER GRANTED TO CITY OF OMAHA W W PIPE IN CASING\nW PER UNION PACIFIC PLACE PLAT W /R W E E E E E V N SEE PROFILE 5 Proposed WM Centerline MUD to IZAC 6'' TEE 11+45.09 N 113571.85 E 164293.65 974.42 3 ON SHEET 3C-106\nT E OH-E \"1 2'8 R '9 0 4 .5 0 /W W E E E E E S A R I R D /W W T 32+57 Proposed WM Centerline IZAC Service 6'' - 11.25\u00b0 BEND 4+18.43 N 113556.41 E 164295.77 976.16 26 8\" DIA SANITARY SEWER\nH- T O \u00b0 0 1 0 W N E E E T O N B SEE PROFILE ON SHEET 3C-106 Proposed WM Centerline IZAC Service 6'' - 22.5\u00b0 BEND 4+38.19 N 113536.23 E 164302.74 976.30 09/16/2026 1\nT W E S A B A 42+59 FOR CONTINUATION SOUTHERLY Proposed WM Centerline IZAC Service 6'' - 45\u00b0 BEND 4+41.55 N 113528.71 E 164302.29 976.40 IN PLAN VIEW SEE SHEET 2C-105 2\nOH-E\nW /R W E E W Proposed WM Centerline MUD to IZAC 6'' - 45\u00b0 BEND 10+43.83 N 113568.51 E 164192.71 975.10\nE R T SITE UTILITY PLAN\nN\nPP A G E E A S W Proposed WM Centerline MUD to IZAC 6'' - 45\u00b0 BEND 10+10.61 N 113592.00 E 164169.22 975.10\nT W SCALE: 1\" = 20'\nE",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "R R/ EERTS E TO N W UNITS\nU N A S 0\nG T O T H N 0 + 3\nU -E YB( W 54\" DIA SAN MH 3\nO\nS\nF\nC\nG T W\nE\nH-\nO\nW\nNAS 9\nR/ W\nG T 00+3 2\" DIA WATER MAIN\nO\nH SEE PROFILE ON\n-E\nSHEET 3C-108\nNAS\nG T W\nE\nH-\nO W E\nR/ GENERATOR\nG T W NAS\nO 11.25\u00b0 BEND\nH\nP -E\n2\nP\nGA\nE\nG T E\nE W\nH- NAS\nO W\nR/\nE\nG 8\" DIA SANITARY SEWER\nT\nTT EE PROFILE ON SHEET 3C-106\nO W\nH\nE-\nNAS ELECTRICAL CONDUIT TYP\nE 00+2 SEE ELECTRICAL SITE\nT E PLAN ON SHEET 3E-101\nH- W\nT O W\nR/ E E\nNAS\nT\nO\nH W\nT E- E\nE\nT\nE NAS\nH- PIPE IN CASING\nO E E E W SEE PROFILE ON\nW\nT 5' HA O R C : E 1 , 8 3 1 . 7 4 1. 1 2' R/ E ER/ WF E NAS 00+2 0 0 + 1 11+0011+07 SHEET 3C-108 8\nT P H-E D: 1 4 3 3 . 0 5 0 \u00b0 ' 5 E - 6 ' 2 7 \" A N E E W E F M ST W ST 3 0 0 + 1 4 I 25\nGA RH: R/ ST\nC ST\nST 0+00\nST\nW NAS ST\nH O R/ E- E E E M F W\nE 1\nE E 8 .0 M W\nC ' F -C NAS\n24\nE\nE E E\nW\nM\nF E 0 0\n+ 0\nE 1 0\nE E E + 0 1 S\nW 54\" DIA\nSAN MH 2\nE E E E S A N E\nW\nR /W OH-E R /W\nE E\nE E E\nN\nA W\nS\nE E 0\nOH-E E 0\n+\nE W 2 3\nN 0 27\nA 0\nR E E S R 0 0 + + 2 4\nOH-E /W /W 1\nE 1\nE E N\nA\nS\nPIPE IN CASING\nOH-E\nE E E SEE PROFILE\nN ON SHEET 3C-106\nA\nS\nR R\n/W E /W\nOH-E E E 26 8\" DIA S\nSEE PRO\nN\nA FOR CO\nS\n2 IN PLAN\nE\nSIT\nN\nA\nS\nSCAL",
+     "",
+     "SEE\nSEE PROFILE ON SHEET 3C-107 4. PROVIDE FLEXIBLE CONNECTIONS AT ALL NON PILE\nSHEET\nSEE PROCESS\nSUPPORTED UTILITY CONNECTIONS TO THE IZGSF\nE 3P-401 DRAWINGS FOR STA 0+54 2 BUILDING.\nUTILITY CONNECTIONS 48' X 48\" - 45\u00b0 BEND\nW\nAT IZGSF R/\nFIRE HYDRANT\nE\n48' X 48\"\nCONCRETE BOX CULVERT\nGRIT &\nW SEWER VENT\nSCREENING R/\nSEE PROFILE ON SHEET 3C-107\nFACILITY\nNDCS DROP SHAFT\nW\nR/ SEWER STRUCTURE TABLE\nLAYOUT COORDINATES\nSTR. # SIZE RIM INVERTS NORTHING EASTING STATION\n0 0 POINT # NORTHING EASTING\n+\n3 0 W 1 FM BEND ???\" 977.15 SW 6\" 976.58 113410.74 164243.36 11+17.22\nR/ E NE 6\" 976.58 1 113264.5259 164090.0585\nH-\nUNION PACIFIC RAILROAD O\n0 EXCLUSIVE ACCESS LUGGER AREA DRAIN 48\" 982.00 SE 6\" 977.59 113582.37 164190.28 20+59.33 2 113440.7469 164225.1949\n0\n0 + EASEMENT LINE\n4 1 NW 6\" 976.34 W 3 113252.5642 164091.0218\nW SAN CONNECTION STRUCTURE 54\" 983.67 113536.73 164252.29 4+29.80\nR/ SE 6\" 976.34\nE 1 + 3 2 H- E 4 113398.6928 164203.3386\n1 O SAN MH 1 54\" 984.65 NE 8\" 970.59 1W13192.17 164093.15 0+00.00\n5 113263.5101 164056.0940\nM\nF SW 8\" 971.78\n2 .0 ' R/ W SAN MH 2 54\" 981.73 N 8\" 97W1.88 113317.35 164172.52 1+48.22 6 113264.8465 164069.0839\nNE 6\" 971.91\nIC M H- E 3 7 113274.9802 164088.9708\nE F O\nS 8\" 973.26\n4 + 0 0 C O SAN MH 3 54\" 981.87 N W E 8\" 973.36 113490.19 164172.52 3+21.06 8 113365.9514 164160.5407\n1 1 R/ W N S 5 7 9 113468.6300 164160.5250\nE F M T R U .0 ' T W SW 8\" 974.27\nC T E M H- E SAN MH 4 54\" 983.35 S E 6 \" 9 7 5 . 5 2 113550.33 164240.23 4+11.62 10 113551.8381 164254.3480\nIO P O N W 6 \" 9 7 7 . 0 0\nO\nM R/ W N E R A W 11 113550.1050 164281.2452\nF 11.25\u00b0 A R\nBEND S E Y 12 113529.0950 164299.7117\nM\nE\nN H-E 13 113592.0000 164158.6086\nT O\nM STORM SEWER STRUCTURE TABLE\nW\nEX UPRR TRACK 14 113592.0000 164169.2184\nCENTERLIINE STR. # SIZE STATION RIM INVERTS NORTHING EASTING\n15 113571.8475 164293.6453\nW\nH-E AREA DRAIN 2 48\" 8+89.04 982.20 W 15\" 977.49 113558.25 164467.93\nO\n16 113584.0000 164355.5000\n2\n5 CURB INLET 1 60\" 10+97.10 981.78 W 15\" 976.68 113360.81 164191.04\n.0 W\n' 17 113556.2599 164295.7753\nW 18\" 971.84\nW\nH-E CURB INLET 2 48\" 5+93.21 981.89 E 18\" 974.81 113590.26 164184.84 18 113536.2970 164302.6768\nW\nO\nNE 15\" 972.80 W3\n19 113528.7735 164302.2260\n12' CURB INLET 1 W CURB INLET 3 48\" 7+80.13 982.25 W 18\" 97W7.03 1135T71.90 164370.86 20 113563.6641 164374.2040\nSE 18\" 977.03\nTYPE II\nOH-E 3 W\n21 113560.4609 164427.6660\n6\" DIA DEWATERING FORCEMAIN W NW 18\" 977.26T\nCURB INLET 4 48\" 8+34.31 981.96 113541.44 164415.83\nW E 15\" 977.26\nSEE PROFILE ON SHEET 3C-107 22 113568.5130 164192.7054\nD W W SW 15T\" 973.06\nOH-E O A TWIN 60\" DIA SEWERS CURB INLET 5 48\" 20+18.62 980.42 N 15\" 974.15 113607.21 164192.55 23 113568.5130 164276.8813\nR SEE PROFILES ON SHEET 3C-110 W\nL 24 113321.6063 164125.6530\nAI W CURB INLET 6 48\" 20+42.46 980.43 T S 15\" 974.22 113631.05 164192.55\nR W\n25 113354.5613 164151.5729\nSTORM MH 1 60\" 10+00.00 981.94 E 15\" 976.31 113348.85 164094.68\nW W T 1\n26 113253.0119 164131.7255\nS 36\" 970.82\nW\nSTORM MH 2 72\" 10+ T 28.29 980.03 N 36\" 970.82 113559.56 164097.05 27 113286.6719 164153.0706\nW E 18\" 971.38\nW\nE\nT\nEXISTING WATER MAIN W\nE\nEX UNION PACIFIC RAILROAD\nW\nTRACKS (TO BE TERMINATED EAST OF W UTILITY POTHOLE LOCATION T WATER MAIN FITTING TABLE\nE\n11TH ST CONNECTOR BY OTHERS) TOP OF WATER LINE EL= 975.58 W\nT ALIGNMENT SIZE - FITTING STATION NORTHING EASTING CL EL\nE W\nPERM UTILITY EASEMENT Proposed WM Centerline MUD to IZAC 6'' - 11.25\u00b0 BEND 11+28.00 N 113568.51 E 164276.88 974.42\nGRANTED TO CITY OF OMAHA W W T\nPER UNION PACIFIC PLACE PLAT E E\nProposed WM Centerline MUD to IZAC 6'' TEE 11+45.09 N 113571.85 E 164293.65 974.42\nV\nW\nI\nE R T\nD Proposed WM Centerline IZAC Service 6'' - 11.25\u00b0 BEND 4+18.43 N 113556.41 E 164295.77 976.16\nANITARY SEWER W T W\nFILE ON SHEET 3C-106 E O T W T Proposed WM Centerline IZAC Service 6'' - 22.5\u00b0 BEND 4+38.19 N 113536.23 E 164302.74 976.30 09/16/2026\nB 1\nNTINUATION SOUTHERLY\nVIEW SEE SHEET 2C-105 E A B W T Proposed WM Centerline IZAC Service 6'' - 45\u00b0 BEND 4+41.55 N 113528.71 E 164302.29 976.40\nE W W Proposed WM Centerline MUD to IZAC 6'' - 45\u00b0 BEND 10+43.83 N 113568.51 E 164192.71 975.10\nE UTILITY PLAN E T R\nE E PP W Proposed WM Centerline MUD to IZAC 6'' - 45\u00b0 BEND 10+10.61 N 113592.00 E 164169.22 975.10\nE: 1\" = 20' WT"
+    ],
+    [
+     "",
+     "",
+     "SIT\nSCAL",
+     "E UTILITY PLAN\nE E PP\nE: 1\" = 20'"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 - Specifications Volume 1.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "Bid\nItem\nNo.",
+    "Description",
+    "Units",
+    "Quantity",
+    "Unit Price",
+    "Amount"
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "1",
+     "Mobilization/Demobilization, Bonds,\nPermits and Insurance",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ],
+    [
+     "2",
+     "(See Unit Price Table Below \u2013 leave\ncolumns to the right in this table\nblank for this Bid Item)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "All Other Work Required to Complete\nthe Work Included in the Contract\nDocuments (Not Included in Amounts\nListed Below in Bid Items 4-12)",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 - Specifications Volume 1.pdf",
+   "sheet": 11,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Unit",
+    "Estimated\nQuantity",
+    "Bid Unit Price",
+    "Bid Amount"
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "2",
+     "Furnish and Drive HP 14X89\nBearing Pile",
+     "VLF",
+     "2,412",
+     "",
+     "$"
+    ],
+    [
+     "Total of All Unit Price Bid Items",
+     "",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "OPW 55168 - Drawings.pdf",
+   "sheet": 346,
+   "header_row": 1,
+   "headers": [
+    "LOW VOLTAGE CIRCUIT BREAKER\n20A\nRATING AND NO. OF POLES AS SHOWN\n3P\nFOR OTHER THAN MCCB\nY\nX -INDICATES TYPE\nX Y -INDICATES TRIP UNIT TYPE\n2000AF\nTYPES\n1800AT\nMCCB - MOLDED CASE\n3P\nICCB - INSULATED CASE\nY\nLVP - LOW VOLTAGE POWER\nMCP - MOTOR CIRCUIT PROTECTOR\nMCP\n(RATING PER CONNECTED LOAD)\n3P\nTRIP UNIT\nL - LONG TIME PICKUP\nS - SHORT TIME PICKUP\nI - INSTANTANEOUS PICKUP\nG - GROUND FAULT PICKUP\nA - ARC ENERGY REDUCTION MODE\nPROTECTION RELAY\nX\nX -INDICATES IEEE FUNCTION NUMBER\nX INTERLOCK: X -INDICATES TYPE\nTYPES\nE -ELECTRICAL\nM -MECHANICAL\nK -KEY\nGFP GROUND FAULT PROTECTION\n52 MEDIUM VOLTAGE CIRCUIT BREAKER\nFUSE, RATING, AND NUMBER OF FUSES AS NOTED\nFUSED CUTOUT, CURRENT RATING, FUSE RATING,\nAND QUANTITY AS NOTED\nFUSIBLE SWITCH, CURRENT RATING, FUSE\nRATING, AND QUANTITY AS NOTED (3 POLE UON)\nNON-FUSED SWITCH, CURRENT RATING, AND\nNUMBER OF POLES AS NOTED (3 POLE UON)\nDISCONNECT OR DRAWOUT CONNECTION\nC A MAGNETIC MOTOR STARTER\nB\nSEPARATELY MOUNTED COMBINATION MAGNETIC\nC A\nMOTOR STARTER AND DISCONNECT\nB\nC D MOTOR/LOAD CONTROLLER\nSEPARATELY MOUNTED MOTOR/LOAD\nCONTROLLER WITH SHORT CIRCUIT PROTECTION\nC D\nAND DISCONNECT\nMOTOR STARTER AND CONTROLLER SUBSCRIPTS\nA -MAGNETIC STARTER NEMA SIZE\nB -STARTER TYPE\nNONE- FULL VOLTAGE NON-REVERSING\n(FVNR)\nFVR - FULL VOLTAGE REVERSING\n2S - TWO SPEED\nRVAT - REDUCED VOLTAGE AUTO\nTRANSFORMER\nC -CONTROL DIAGRAM NUMBER\nD -CONTROLLER TYPE\nVFD - VARIABLE FREQUENCY DRIVE\nSS - SOLID STATE\nCONT- CONTACTOR\nSEPARATELY MOUNTED COMBINATION MOTOR\nSTARTER OR CONTROLLER; SEE ELECTRICAL\nONE-LINE DIAGRAM OR SCHEDULE FOR\nDESCRIPTION\nSEPARATELY MOUNTED MOTOR STARTER OR\nCONTROLLER; SEE ELECTRICAL ONE-LINE\nDIAGRAM OR SCHEDULE FOR DESCRIPTION\nX\nNON-FUSED SAFETY SWITCH, 30A, 3P, X\nINDICATES AMP RATING GREATER THAN 30A\nX FUSED SAFETY SWITCH, 30A, 3P,\nX -INDICATES AMP RATING GREATER THAN 30A\nY Y -INDICATES FUSE SIZE\nMR -EQUIPMENT MANUFACTURER\nRECOMMENDED FUSE SIZE\nSEPARATELY MOUNTED CIRCUIT BREAKER; SEE\nCB ELECTRICAL ONE-LINE DIAGRAM OR SCHEDULE\nFOR DESCRIPTION\n7 1/2\nMOTOR WITH DESIGN HORSEPOWER\n(WHEN INDICATED)\nHP\nG GENERATOR\nTRANSFER SWITCH, CURRENT RATING, AND\nNUMBER OF POLES AS NOTED\nATS -AUTOMATIC\nATS\nMTS -MANUAL",
+    "TRANSFORMER\n3-PHASE, 3-WIRE DELTA CONNECTION\n(#X)\n3-PHASE, 4-WIRE GROUNDED WYE\nCONNECTION\nNAME SWITCHBOARD OR PANELBOARD; NAME,\n208/120V VOLTAGE, PHASE, NUMBER OF WIRES WHEN\n3 PH , 4W INDICATED\n100 NON-MOTOR LOAD WITH DESIGN KVA, KW,\nKVA OR AMP\nVOLTAGE TRANSFORMER (VT, PT, OR CPT)\nCURRENT TRANSFORMER (CT)\nUTILITY WATT-HOUR METER PER UTILITY\nWH\nREQUIREMENTS\nDMP DIGITAL METERING PACKAGE\nGROUND\nLIGHTNING ARRESTER\nXXX\nSPD LOW VOLTAGE SURGE PROTECTIVE DEVICE\nSS SELECTOR SWITCH\nPB PUSHBUTTON\nIC INSTRUMENTATION / CONTROL DEVICE Z\nSV\nSOLENOID VALVE\nZ\nCONTROL PANEL INTEGRAL OR PROVIDED WITH\nASSOCIATED EQUIPMENT\nCONTROL PANEL WITH DISCONNECT SWITCH Z\nINTEGRAL OR PROVIDED WITH ASSOCIATED\nEQUIPMENT\nJ OR J JUNCTION OR PULL BOX Z\nPANELBOARD (250V TO 600V)\nZ\nPANELBOARD (LESS THAN 250V)\nELECTRICAL EQUIPMENT ENCLOSURE\nZ\nX\nESTIMATED SIZE AS INDICATED\nWHEN USED, X -INDICATES EQUIPMENT TYPE\nEQUIPMENT TYPES Z\nATS - AUTOMATIC TRANSFER SWITCH\nCP - CONTROL PANEL\nINV - LIGHTING INVERTER Z\nMTS - MANUAL TRANSFER SWITCH\nMCC- MOTOR CONTROL CENTER\nZ\nUPS - UNINTERRUPTIBLE POWER SUPPLY\nVFD - VARIABLE FREQUENCY DRIVE\nSB - SWITCHBOARD Z\nSG - SWITCHGEAR\nT - TRANSFORMER\nZ\nPGB - 12\" POWER GROUNDING BAR\nLRP - LIGHTING RELAY PANEL\nZ\nPLUG-IN RECEPTACLE STRIP, QUANTITY AND\nSPACING OF RECEPTACLES AS NOTED OR\nSPECIFIED\nX\nSPECIAL-PURPOSE RECEPTACLE AS\nZ\nY DEFINED ON PLANS\nX\nY\nTWO RECEPTACLES IN 2-GANG BOX UNDER\nCOMMON COVER PLATE\nX\nX\nY\nY\nX\nX\nY\nDUPLEX RECEPTACLE\nY\nX\nX\nSIMPLEX RECEPTACLE Y\nY\nX\nRECESSED FLOOR MOUNTED BOX, QUANTITY\nY AND TYPE OF RECEPTACLES AS INDICATED\nRECEPTACLE SUBSCRIPTS\nX -INDICATES TYPE\nG - GROUND FAULT CIRCUIT INTERRUPTER\nTR - TAMPER RESISTANT\nUSB - USB CHARGING STATION\nSPD - SURGE PROTECTIVE DEVICE\nX\nWP - GROUND FAULT CIRCUIT INTERRUPTER\nAND WEATHER PROOF\nY -INDICATES CIRCUIT NUMBER FROM\nPANELBOARD\n2\nCONDUIT TURNING UP\nCONDUIT TURNING DOWN",
+    "HOMERUN TO SOURCE NUMBER IN\nPARENTHESES REPRESENTS CONDUCTOR\nSIZE OTHER THAN #12\nSINGLE PHASE: 2#12, 1#12G IN 3/4\"C\nTHREE PHASE: 3#12, 1#12G IN 3/4\"C\nUNLESS OTHERWISE NOTED, CONDUCTOR\nSIZE IS FOR ENTIRE CIRCUIT, SOURCE TO\nLAST DEVICE.\nSEE ONE-LINE DIAGRAM FOR CIRCUIT\nREQUIREMENTS\nCONDUIT CONNECTION TO EQUIPMENT\nCIRCUIT RUN BETWEEN DEVICES EXPOSED IN\nNON-ARCHITECTURALLY FINISHED AREAS;\nCONCEALED IN ARCHITECTURALLY FINISHED\nAREAS. CONDUIT AND CONDUCTOR SIZES\nSHALL BE THE SAME AS THE HOMERUN FOR\nTHE CIRCUIT\nCONDUIT RUN BETWEEN DEVICES CONCEALED\nIN NON-ARCHITECTURALLY FINISHED AREAS\nOR UNDER FLOOR SLAB. CONDUIT AND\nCONDUCTOR SIZES SHALL BE THE SAME AS\nTHE HOMERUN FOR THE CIRCUIT\nCIRCUIT CONTINUATION\nCONDUIT STUBBED OUT AND CAPPED\nCORD AND PLUG CONNECTION\nXXX\nCONDUIT TAG OR CIRCUIT NUMBER -WIRE AND\nCONDUIT SIZE AS SPECIFIED IN CIRCUIT\nSCHEDULE ON THE SHEETS\nGROUND CABLE\nGROUND ROD\nX CEILING/PENDANT/BOLLARD MOUNTED\nLUMINAIRE\nY\nCEILING/PENDANT/BOLLARD MOUNTED\nX\nLUMINAIRE, EMERGENCY (INTERNAL OR\nY EXTERNAL POWER SOURCE AS INDICATED)\nX\nWALL MOUNTED LUMINAIRE\nY\nWALL MOUNTED LUMINAIRE, EMERGENCY\nX\n(INTERNAL OR EXTERNAL POWER SOURCE AS\nY INDICATED)\nX\nWALL MOUNTED FLOOD LUMINAIRE\nY\nX\nPOLE/STANCHION MOUNTED LUMINAIRE\nY\nPOLE/STANCHION MOUNTED LUMINAIRE\nX\nEMERGENCY (INTERNAL OR EXTERNAL POWER\nY SOURCE AS INDICATED)\nX\nPOLE/STANCHION MOUNTED FLOOR LUMINAIRE\nY\nX\nCEILING/PENDANT MOUNTED LUMINAIRE\nY\nX\nY\nX\nWALL MOUNTED LUMINAIRE, LAMP TYPE AS\nY\nSPECIFIED\nX CEILING/PENDANT MOUNTED LUMINAIRE\nY EMERGENCY (INTERNAL OR EXTERNAL POWER\nX SOURCE AS INDICATED)\nY\nX\nWALL MOUNTED LUMINAIRE EMERGENCY\nY (INTERNAL OR EXTERNAL POWER SOURCE AS\nINDICATED)\nX EMERGENCY LIGHT, NUMBER OF ATTACHED\nY HEADS AS SHOWN\nX\nEMERGENCY LIGHT, REMOTE MOUNTED HEAD\nY\nX DOUBLE-FACED CEILING OR WALL MOUNTED\nEXIT LIGHT; DIRECTIONAL ARROWS\nY\n(IF REQUIRED) AS INDICATED ON PLANS\nSINGLE-FACED CEILING OR WALL MOUNTED\nX\nEXIT LIGHT; DIRECTIONAL ARROWS\nY (IF REQUIRED) AS INDICATED ON PLANS\nLIGHTING FIXTURE SUBSCRIPTS\nX -INDICATES LUMINAIRE TYPE PER\nLUMINAIRE SCHEDULE\nY -INDICATES CIRCUIT NUMBER FROM\nPANELBOARD\nZ -INDICATES CONTROLLING SWITCH\n(IF REQUIRED)\nNL -NIGHT LIGHT UNSWITCHED\nROOM/AREA LIGHTING CONTROL\nDESIGNATION, SEE LIGHTING CONTROL\nSTRATEGY SCHEDULE FOR REQUIREMENTS\nLOW VOLTAGE DIGITAL WALL SWITCH, NUMBER\na\nINDICATES QUANTITY OF PUSH BUTTONS PER\nSINGLE GANG PLATE, LETTER INDICATES\nCONTROL ZONE WHEN SHOWN",
+    "Y\nWALL SWITCH\nX\nSUBSCRIPTS\nX -INDICATES TYPE\nNONE- SINGLE POLE\n2 - DOUBLE POLE\n3 - THREE-WAY\n4 - FOUR-WAY\nK - KEY SWITCH\nP - PILOT LIGHT\nL - LIGHTED HANDLE\nDM - DIMMING\nMC - MOMENTARY CONTACT\nT - TIMER\nWP - WEATHER PROOF COVER\nY -INDICATES CONTROLLING SWITCH\n(IF REQUIRED)\nY\nMANUAL MOTOR STARTER\nX\nSUBSCRIPTS\nX -INDICATES TYPE\nHP - HORSEPOWER RATED\nTE - HORSEPOWER RATED WITH THERMAL\nELEMENT\nY -INDICATES SWITCH TYPE\nNONE - TOGGLE SWITCH TYPE\nR - ROTARY SWITCH TYPE\nPC PHOTOCELL\nTC TIME CLOCK\nOSX LIGHTING CONTROL OCCUPANCY SENSOR,\nWALL MOUNTED, X INDICATES SPECIFIC\nOSX\nTYPE AS SPECIFIED\nLIGHTING CONTROL OCCUPANCY SENSOR,\nOSX CEILING MOUNTED, X INDICATES SPECIFIC\nTYPE AS SPECIFIED\nAVT ABSENCE OF VOLTAGE TESTER",
+    "",
+    "EXTERIOR PAD MOUNTED TRANSFORMER\nPOLE -MOUNTED TRANSFORMER\nELECTRICAL HANDHOLE OR MANHOLE\nX\nX -INDICATES SEQUENCE NUMBER\nY Y-MHX OR HHX\nX\nPOLE/STANCHION MOUNTED FLOOD LUMINAIRE,\nY LAMP TYPE AS SPECIFIED\nX\nPOLE MOUNTED AREA OR ROADWAY LUMINAIRE,\nY LAMP TYPE AS SPECIFIED\nX HIGH MAST LIGHTING, NUMBER OF LUMINAIRES\nAS SPECIFIED\nY\nLIGHTING FIXTURE SUBSCRIPTS\nX -INDICATES LUMINAIRE TYPE PER LUMINAIRE\nSCHEDULE\nY -INDICATES CIRCUIT NUMBER FROM\nPANELBOARD\nPOWER POLE\nDOWNGUY\nE UNDERGROUND (UNO) ELECTRICAL AND\nCOMMUNICATION SYSTEMS PATHWAY\nOHE OVERHEAD ELECTRICAL AND COMMUNICATION\nSYSTEMS PATHWAY",
+    "NORMALLY OPEN LIMIT SWITCH, CLOSE ON\nREACHING LIMIT\nNORMALLY CLOSED LIMIT SWITCH, OPEN ON\nREACHING LIMIT\nOFF\nHAND AUTO\nXOO\n3 POSITION SELECTOR SWITCH, MAINTAINED\nCONTACTS; UNLESS OTHERWISE NOTED,\nOOX 2-POSITION SIMILAR\nNORMALLY OPEN PUSHBUTTON,\nMOMENTARY CONTACT UNLESS\nOTHERWISE NOTED\nNORMALLY CLOSED PUSHBUTTON,\nMOMENTARY CONTACT UNLESS\nOTHERWISE NOTED\nINDICATING LIGHT\nX\nX INDICATES LENS COLOR\nPUSH TO TEST INDICATING LIGHT\nX X INDICATES LENS COLOR\nLENS COLORS\nR -RED Y -YELLOW\nG -GREEN W -WHITE\nB -BLUE A -AMBER\nTHERMAL OVERLOAD ELEMENT\nOL\nTHERMAL OVERLOAD RELAY CONTACT\nWHEN SHOWN X INDICATES QUANTITY\n(X)\nCPT CONTROL POWER TRANSFORMER (CPT)\nRTM RUN TIME METER"
+   ],
+   "score": 3,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "ABOVE CEILING DATA OUTLET, NUMBER\n(2)\nINDICATES QUANTITY OF JACKS IN OUTLET BOX\n\"0\" INDICATES CONDUIT AND DEVICE BOX\nROUGH-IN ONLY\nRECESSED FLOOR MOUNTED DATA OUTLET,\n(2)\nNUMBER INDICATES QUANTITY OF JACKS IN\nOUTLET BOX \"0\" INDICATES CONDUIT AND\nDEVICE BOX ROUGH-IN ONLY",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "AUDIO/VISUAL\nSYMBOLOGY",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "TV TELEVISION OUTLET\nS CEILING MOUNT SPEAKER\nWALL MOUNT SPEAKER\nS X -INDICATES HEIGHT\nX\nH HORN TYPE TRANSDUCER\nVC VOLUME CONTROL\nPAHE HEAD END EQUIPMENT\nM FLOOR MOUNTED MICROPHONE JACK\nM",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
  "notes": [
-  "unhandled: [Errno 28] No space left on device"
+  "broken link: https://supplier.ionwave.net/Extract.aspx"
  ],
  "latency": {
-  "bid_seconds": 0.0,
-  "attachment_fetches": 0,
-  "attachment_seconds": 0,
-  "attachment_bytes": 0,
-  "max_fetch_seconds": 0,
-  "throttle_signals": 0,
+  "bid_seconds": 241.9,
+  "attachment_fetches": 19,
+  "attachment_seconds": 121.2,
+  "attachment_bytes": 298373224,
+  "max_fetch_seconds": 80.89,
+  "throttle_signals": 3,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-18T13:37:02.473839+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-09-19T13:16:39.141212+00:00",
+ "extract_attempts": 2
 }
