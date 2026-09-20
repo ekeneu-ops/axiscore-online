@@ -1,0 +1,94 @@
+{
+ "bid_id": "loudoun-county-public-schools-va-i27202",
+ "bid_number": "I27202",
+ "agency": "Loudoun County Public Schools, VA",
+ "src": "Open",
+ "title": "Fresh Bread",
+ "close": "9/28/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Fresh Bread, Sandwich. 100% Whole Grain White Wheat - 31 grams per slice. 22 oz loaf 20 slices per leaf. #641047",
+   "qty": "20000",
+   "uom": "Loaf",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Fresh Bread, Sandwich. 100% Whole Grain White Wheat - 31 grams per slice. 22 oz loaf 20 slices per leaf. #641047 20000 Loaf No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Fresh Rolls, Hamburger. 100% Whole Grain White Wheat. 57 grams per roll. 8 per pack #641045",
+   "qty": "100000",
+   "uom": "PKG",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Fresh Rolls, Hamburger. 100% Whole Grain White Wheat. 57 grams per roll. 8 per pack #641045 100000 PKG No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Fresh Rolls, Hot Dog. 100% Whole Grain White Wheat. 57 grams per roll. 8 per pack #641046",
+   "qty": "8000",
+   "uom": "PKG",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Fresh Rolls, Hot Dog. 100% Whole Grain White Wheat. 57 grams per roll. 8 per pack #641046 8000 PKG No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Fresh Rolls, Hoagie. White Wheat Italian - 57 grams per roll - 12 per pack #661049",
+   "qty": "6000",
+   "uom": "PKG",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Fresh Rolls, Hoagie. White Wheat Italian - 57 grams per roll - 12 per pack #661049 6000 PKG No Response"
+  }
+ ],
+ "attachments_saved": [
+  "LCPS IFB I27202 Fresh Bread.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "LCPS IFB I27202 Fresh Bread.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.0,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 510828,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-20T13:52:13.781468+00:00",
+ "extract_attempts": 1
+}

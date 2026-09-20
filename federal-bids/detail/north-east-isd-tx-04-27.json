@@ -1,0 +1,150 @@
+{
+ "bid_id": "north-east-isd-tx-04-27",
+ "bid_number": "04-27",
+ "agency": "North East ISD, TX",
+ "src": "Invited",
+ "title": "District Wide Campus Office Staff Desktop Computer and Monitor Replacement (2025 Bond B11)",
+ "close": "10/5/2026 10:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Unit price for each Dell Pro Micro QCM1250 Desktop Micro PC or equivalent as per specifications contained herein.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Unit price for each Dell Pro Micro QCM1250 Desktop Micro PC or equivalent as per specifications contained herein. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Unit price for each Dell P2425H 24-inch Monitor or equivalent as per specifications contained herein.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Unit price for each Dell P2425H 24-inch Monitor or equivalent as per specifications contained herein. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Warranty unit price for each desktop if not already included in the unit price . The required warranty must be included in the evaluated base price unless separately identified as a required line item below. Proposers shall clearly identify whether the required warranty is included in the unit price.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Warranty unit price for each desktop if not already included in the unit price . The required warranty must be included in the evaluated base price unless separately identified as a required line item below. Proposers shall clearly identify whether the required warranty is included in the unit price. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Warranty unit price for each monitor if not already included in the unit price . The required warranty must be included in the evaluated base price unless separately identified as a required line item below. Proposers shall clearly identify whether the required warranty is included in the unit price.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Warranty unit price for each monitor if not already included in the unit price . The required warranty must be included in the evaluated base price unless separately identified as a required line item below. Proposers shall clearly identify whether the required warranty is included in the unit price. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Supplier Response Quick Tutorial.pdf",
+  "North East ISD  Bids Terms and Conditions.pdf",
+  "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+  "HB_1295_instructions.pdf",
+  "Form_CIQ_with_Instructions.pdf",
+  "NEISD_Insurance Requirements_10272022.pdf",
+  "Vendor_Inquiry_Form.pdf",
+  "w-9.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier Response Quick Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "North East ISD  Bids Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HB_1295_instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form_CIQ_with_Instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_Insurance Requirements_10272022.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor_Inquiry_Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "w-9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.9,
+  "attachment_fetches": 8,
+  "attachment_seconds": 1.0,
+  "attachment_bytes": 4092797,
+  "max_fetch_seconds": 0.23,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-20T13:43:26.288472+00:00",
+ "extract_attempts": 1
+}

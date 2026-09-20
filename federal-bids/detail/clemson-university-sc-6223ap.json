@@ -1,0 +1,118 @@
+{
+ "bid_id": "clemson-university-sc-6223ap",
+ "bid_number": "6223AP",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Generac Generator",
+ "close": "9/28/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "TX Series Automatic Transfer Switch consisting of the following features and accessories: \u2022 100 Amp, 3 pole, 277/480 VAC three phase, 60 Hz, with 2 or 3-Wire Start Circuit \u2022 CTs for Integrated Metering \u2022 UL Listed 1008 \u2022 NEMA 1 Enclosure \u2022 Non Service Entrance Rated \u2022 In Phase Only Transfer \u2022 Standard two year basic warranty",
+   "qty": "2",
+   "uom": "EA",
+   "note": "Enter the total price to include all costs and fees. Do not include tax or freight.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 TX Series Automatic Transfer Switch consisting of the following features and accessories: \u2022 100 Amp, 3 pole, 277/480 VAC three phase, 60 Hz, with 2 or 3-Wire Start Circuit \u2022 CTs for Integrated Metering \u2022 UL Listed 1008 \u2022 NEMA 1 Enclosure \u2022 Non Service Entrance Rated \u2022 In Phase Only Transfer \u2022 Standard two year basic warranty 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "Generac Industrial diesel engine-driven generator set with turbocharged 4-cylinder 4.5L engine, consisting of the following features and accessories: \u2022 Stationary Emergency-Standby rated, 80 kW Rating, wired for 277/480 VAC three phase, 60 Hz \u2022 Permanent Magnet Excitation \u2022 UL2200, EPA Certified, SCAQMD \u2022 Level 2 Acoustic Enclosure, Steel - Industrial Grey Baked-On Powder Coat Finish \u2022 24\" 189 Gallon Double-Wall UL142 Basetank \u2022 Power Zone 410 Digital Control Panel for Single Generators \u2022 21 Light Remote Annunciator \u2022 Remote Emergency Stop Switch, Break-Glass, shipped loose \u2022 Primary MLCB, 80% rated thermal-magnetic - 100 Amp \u2022 Secondary MLCB, 80% rated thermal-magnetic - 100 Amp \u2022 Battery Charger, 10 Amp, NFPA 110 compliant, installed \u2022 110 AH, 925 CCA Group 31 Battery, with rack, installed \u2022 Coolant Heater, 1500W, 120VAC \u2022 120v GFCI and 240V Outlet \u2022 Standard 2-Year Limited Warranty",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter the total price to include all costs and fees. Do not include tax or freight.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "3",
+   "desc": "Freight",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "4",
+   "desc": "Factory Authorized Start-up",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Factory Authorized Start-up 1 Lot No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Engineer_s Drawings - 6012 Hendrix Generator Replacement CDS.pdf",
+  "IMPORTANT TAX NOTICE.doc",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Engineer_s Drawings - 6012 Hendrix Generator Replacement CDS.pdf",
+   "kind": "pdf",
+   "tables": 39,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 16.9,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 7639417,
+  "max_fetch_seconds": 0.32,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-20T13:51:21.266798+00:00",
+ "extract_attempts": 1
+}

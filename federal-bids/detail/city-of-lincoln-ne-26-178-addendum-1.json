@@ -1,0 +1,142 @@
+{
+ "bid_id": "city-of-lincoln-ne-26-178-addendum-1",
+ "bid_number": "26-178 Addendum 1",
+ "agency": "City of Lincoln, NE",
+ "src": "Invited",
+ "title": "Aging Partners Clients Lawn and Snow Services",
+ "close": "9/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Mowing of Aging Partners Clients, per residence of a total between 60 - 80",
+   "qty": "1",
+   "uom": "Yard",
+   "note": "This should be an average number for all the yards that will be taken care, regardless of property sizes, since they are not all the same.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. Mowing of Aging Partners Clients, per residence of a total between 60 - 80 1 Yard No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Snow Removal Services of Aging Partners Clients, per residence of a total between 60 - 80",
+   "qty": "1",
+   "uom": "Yard",
+   "note": "This should be an average number for all the yards that will be taken care, regardless of property sizes, since they are not all the same.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 This item has been changed as part of an addendum. See 'Bid History' for details. Snow Removal Services of Aging Partners Clients, per residence of a total between 60 - 80 1 Yard No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders 11-2023.pdf",
+  "Contract - City Service.pdf",
+  "SubmissionReceipt-ContractualInsuranceDeterminationForm-631.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "26-178 Specifications.pdf",
+  "Empl_Class_Act_EO.pdf",
+  "Empl_Class_Act_Aff.pdf",
+  "United States Citizenship Attestation Form.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Service.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SubmissionReceipt-ContractualInsuranceDeterminationForm-631.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-178 Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_EO.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_Aff.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.1,
+  "attachment_fetches": 10,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 5668205,
+  "max_fetch_seconds": 0.2,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-20T13:34:57.693571+00:00",
+ "extract_attempts": 1
+}

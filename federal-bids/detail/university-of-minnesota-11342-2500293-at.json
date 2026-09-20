@@ -1,0 +1,97 @@
+{
+ "bid_id": "university-of-minnesota-11342-2500293-at",
+ "bid_number": "11342.2500293.AT",
+ "agency": "University of Minnesota",
+ "src": "Open",
+ "title": "Chemicals for cage/bottle washer and service provider",
+ "close": "9/25/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "per barrel cost for 55 gallon alkaline detergent Estimated usage: 35 - 55 gallon barrels monthly",
+   "qty": "1",
+   "uom": "Barrel",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 per barrel cost for 55 gallon alkaline detergent Estimated usage: 35 - 55 gallon barrels monthly 1 Barrel No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "2",
+   "desc": "per barrel cost for 55 gallon acid detergent Estimated usage: 35 - 55 gallon barrels monthly",
+   "qty": "1",
+   "uom": "Barrel",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 per barrel cost for 55 gallon acid detergent Estimated usage: 35 - 55 gallon barrels monthly 1 Barrel No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "3",
+   "desc": "per barrel cost for 35 gallon alkaline detergent Estimated usage: 15 - 35 gallon barrels monthly",
+   "qty": "1",
+   "uom": "Barrel",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 per barrel cost for 35 gallon alkaline detergent Estimated usage: 15 - 35 gallon barrels monthly 1 Barrel No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "4",
+   "desc": "per barrel cost for 35 gallon acid detergent Estimated usage: 15 - 35 gallon barrels monthly",
+   "qty": "1",
+   "uom": "Barrel",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 per barrel cost for 35 gallon acid detergent Estimated usage: 15 - 35 gallon barrels monthly 1 Barrel No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "5",
+   "desc": "Dispensing equipment needs to be provided and installed by awarded supplier. Please state your one time fee for this service. If this service is included at no charge please state that the cost is $0.00 The University has no intention of purchasing the dispensing equipment.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Dispensing equipment needs to be provided and installed by awarded supplier. Please state your one time fee for this service. If this service is included at no charge please state that the cost is $0.00 The University has no intention of purchasing the dispensing equipment. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 5.5,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-20T13:49:44.716142+00:00",
+ "extract_attempts": 1
+}

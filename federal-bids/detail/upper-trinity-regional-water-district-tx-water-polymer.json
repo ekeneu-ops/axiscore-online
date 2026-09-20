@@ -1,0 +1,118 @@
+{
+ "bid_id": "upper-trinity-regional-water-district-tx-water-polymer",
+ "bid_number": "Water Polymer",
+ "agency": "Upper Trinity Regional Water District, TX",
+ "src": "Open",
+ "title": "RFB for Liquid Polydiallydimethyl/Ammonium Chloride",
+ "close": "9/28/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "LIQUID POLYDIALLYDIMETHYL/AMMONIUM CHLORIDE (Water Polymer)",
+   "qty": "1",
+   "uom": "Liquid Pound",
+   "note": "Estimated Annual Usage: 211,000 Liquid Pounds",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 LIQUID POLYDIALLYDIMETHYL/AMMONIUM CHLORIDE (Water Polymer) 1 Liquid Pound No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms _ Conditions - 2023.pdf",
+  "Vendor_References.pdf",
+  "Sample Contract.pdf",
+  "Required_Forms_2023.pdf",
+  "2021 Water Polymer Bid Tab.pdf",
+  "2026 Water Polymer Specifications - FINAL Version 2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms _ Conditions - 2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor_References.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Sample Contract.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Required_Forms_2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "2021 Water Polymer Bid Tab.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026 Water Polymer Specifications - FINAL Version 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2021 Water Polymer Bid Tab.pdf",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "Line # Description Mfgr Mfgno QTY UOM Estimated",
+    "",
+    "Unit",
+    "Extended"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1 LIQUID POLYDIALLYDIMETHYL/AMMONIUM 1 Liquid Poun",
+     "d $1.22 $1.22",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.1,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 774251,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-20T13:52:32.453990+00:00",
+ "extract_attempts": 1
+}
