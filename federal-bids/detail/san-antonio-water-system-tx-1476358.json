@@ -1,0 +1,74 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1476358",
+ "bid_number": "1476358",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "MECHANICAL COMPRESSION PACKING 3/4 INCH",
+ "close": "9/29/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Mechanical Compression Packing 3/4 (0.750) Inch Approved Products: Garlock PACKMASTER 6 Compression Packing, ePTFE/Graphite Fiber, Silicone, 0.750 inch Square Cross-Section, 10 lbs. per Spool Manufacturer Part #41606-3048 American Braiding & Manufacturing Co. Economic PTFE/Graphite Packing Manufacturer Part #8200BIL",
+   "qty": "120",
+   "uom": "POUND",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Mechanical Compression Packing 3/4 (0.750) Inch Approved Products: Garlock PACKMASTER 6 Compression Packing, ePTFE/Graphite Fiber, Silicone, 0.750 inch Square Cross-Section, 10 lbs. per Spool Manufacturer Part #41606-3048 American Braiding & Manufacturing Co. Economic PTFE/Graphite Packing Manufacturer Part #8200BIL 120 POUND No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+  "garlock_compressionpacking_stylepackmaster6_spec_sheet.pdf",
+  "ABMPDS8200BIL.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "garlock_compressionpacking_stylepackmaster6_spec_sheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ABMPDS8200BIL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.6,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 508330,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-21T13:20:57.093058+00:00",
+ "extract_attempts": 1
+}

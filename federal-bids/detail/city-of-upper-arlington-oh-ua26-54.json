@@ -1,0 +1,75 @@
+{
+ "bid_id": "city-of-upper-arlington-oh-ua26-54",
+ "bid_number": "UA26-54",
+ "agency": "City of Upper Arlington, OH",
+ "src": "Open",
+ "title": "Fall Nursery Bid",
+ "close": "9/30/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Nursery Specs Fall 2026.docx",
+  "PLF26 B_B Nursery Bid.xlsx",
+  "PLF26 Bare Root Nursery Bid.xlsx",
+  "PO Standard Terms and Conditions.pdf",
+  "Information_to_Bidders__Revised_2022.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Nursery Specs Fall 2026.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "PLF26 B_B Nursery Bid.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PLF26 Bare Root Nursery Bid.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PO Standard Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Information_to_Bidders__Revised_2022.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1652904,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-21T13:27:17.837210+00:00",
+ "extract_attempts": 1
+}

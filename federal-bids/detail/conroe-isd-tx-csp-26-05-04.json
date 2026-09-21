@@ -1,0 +1,150 @@
+{
+ "bid_id": "conroe-isd-tx-csp-26-05-04",
+ "bid_number": "CSP#26-05-04",
+ "agency": "Conroe ISD, TX",
+ "src": "Open",
+ "title": "Job Order Contract Program",
+ "close": "9/29/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 16,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "For information purposes only, you are required to download the adjustment factor worksheet located under the \"Attachments\" tab. Complete and upload under the \"Response Attachments\" tab.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 For information purposes only, you are required to download the adjustment factor worksheet located under the \"Attachments\" tab. Complete and upload under the \"Response Attachments\" tab. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "General JOC Conditions _5.2026_.docx",
+  "2022 Gulf Coast Area Prevailing Wage Rates - Accepted.pdf",
+  "Adjustment Factor Worksheet.xlsx",
+  "Downloading_Your_Response_Document_in_Ion Wave ebidding system.pdf",
+  "W-9 Revised March 2024.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General JOC Conditions _5.2026_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2022 Gulf Coast Area Prevailing Wage Rates - Accepted.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Adjustment Factor Worksheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Downloading_Your_Response_Document_in_Ion Wave ebidding system.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Revised March 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Adjustment Factor Worksheet.xlsx",
+   "sheet": 0,
+   "header_row": 3,
+   "headers": [
+    "LN 1",
+    "CRITERIA A\u00a0- The proposer shall set forth Adjustment Factors in legible figures in the respective space provided. Failure to submit all Adjustment Factors will result in the Proposal being deemed non-responsive. The Contractor shall perform the Tasks required by each individual Job Order using the following Adjustment Factors:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Qty",
+    "UOM",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 16,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Do Not Change =>",
+     "1",
+     "Adj. Ftr.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "0",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Weighted Adj. Factor",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.1,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 555115,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-21T13:14:04.939645+00:00",
+ "extract_attempts": 1
+}

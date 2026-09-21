@@ -1,0 +1,230 @@
+{
+ "bid_id": "city-of-lancaster-tx-2026-15",
+ "bid_number": "2026-15",
+ "agency": "City of Lancaster, TX",
+ "src": "Open",
+ "title": "Plant Material Supply and Delivery",
+ "close": "9/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 20,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP PLANTS- BID Specifications.pdf",
+  "Bid Form.xlsx",
+  "Bid Form General Terms and Conditions.pdf",
+  "Standard Services Agreement.pdf",
+  "Bid Form Reference Page.doc",
+  "Bid Form Insurance Requirements.pdf",
+  "Bid Form W-9 2024.pdf",
+  "Bid Form Vendor Information Sheet.doc",
+  "Bid Form COI.pdf",
+  "Form 1295 Certificate Instructions.pdf",
+  "Bid Form for Undocumented Workers.docx",
+  "Bid Form for Israel.pdf",
+  "Bid Form Firearm or Ammunition Industries.docx",
+  "Bid Form Does Not Boycott Energy Companies.docx",
+  "Texas Social Media Legislation SB 1893.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP PLANTS- BID Specifications.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bid Form.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bid Form General Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Services Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form Reference Page.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form W-9 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form Vendor Information Sheet.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form COI.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form 1295 Certificate Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form for Undocumented Workers.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form for Israel.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form Firearm or Ammunition Industries.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Form Does Not Boycott Energy Companies.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Texas Social Media Legislation SB 1893.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP PLANTS- BID Specifications.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Plant Material",
+    "Estimated\nQuantity",
+    "Container\nSize"
+   ],
+   "score": 3,
+   "n_rows": 8,
+   "sample": [
+    [
+     "1",
+     "Autumn Sage \u2013 Red (Salvia greggii)",
+     "1,200",
+     "1 Gallon"
+    ],
+    [
+     "2",
+     "Mexican Feather Grass (Nassella tenuissima)",
+     "400",
+     "1 Gallon"
+    ],
+    [
+     "3",
+     "Dwarf Hameln Grass (Pennisetum alopecuroides 'Hameln')",
+     "5,400",
+     "1 Gallon"
+    ]
+   ]
+  },
+  {
+   "source": "Bid Form.xlsx",
+   "sheet": 0,
+   "header_row": 4,
+   "headers": [
+    "Item",
+    "Plant Material",
+    "Estimated Quantity",
+    "Container Size",
+    "Each",
+    "Total Estimated Cost"
+   ],
+   "score": 3,
+   "n_rows": 20,
+   "sample": [
+    [
+     "1",
+     "Autumn Sage \u2013 Red (Salvia greggii)",
+     "1200",
+     "1 Gallon",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Mexican Feather Grass (Nassella tenuissima)",
+     "400",
+     "1 Gallon",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Dwarf Hameln Grass (Pennisetum alopecuroides 'Hameln')",
+     "5400",
+     "1 Gallon",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 8.0,
+  "attachment_fetches": 15,
+  "attachment_seconds": 1.1,
+  "attachment_bytes": 1585058,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-21T13:28:23.513387+00:00",
+ "extract_attempts": 1
+}

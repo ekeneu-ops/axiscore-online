@@ -1,0 +1,70 @@
+{
+ "bid_id": "bryan-isd-tx-27-005",
+ "bid_number": "27-005",
+ "agency": "Bryan ISD, TX",
+ "src": "Open",
+ "title": "Vehicles",
+ "close": "9/25/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Vehicle Type: Small SUV Model: Base/entry-level trim Condition: New, unused vehicles Model Year: Current model year or newest available Transmission: Automatic Seating Capacity: Five (5) passengers Exterior Color: White Interior: Standard cloth seating Air Conditioning: Factory-installed Manufacturer's Standard Warranty All required safety equipment meeting current federal standards License plates and all standard delivery items included",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Vehicle Type: Small SUV Model: Base/entry-level trim Condition: New, unused vehicles Model Year: Current model year or newest available Transmission: Automatic Seating Capacity: Five (5) passengers Exterior Color: White Interior: Standard cloth seating Air Conditioning: Factory-installed Manufacturer's Standard Warranty All required safety equipment meeting current federal standards License plates and all standard delivery items included 2 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Vehicle: Passenger Van, Chevrolet or Ford, to include the minimum specifications listed below or equipment (dependent on the vehicle make): Series: XL Wheelbase: 148\" Height: Medium Roof GVWR: 9,550 Bodystyle: Passenger Van Long Length 350 Powertrain: V6 Transmission: Automatic Fuel Type: Gas Drive: All Wheel Drive Rear Axle: 3.73 Limited Options: Fleet Safety Package, Wheel Well Liners, Front and Back Bumper (Carbon Black), Sun Visors, B-Pillar Assist Handle (Passenger Side), Passive Start with Push-Button Functionality, Front/Rear Aux AC and Heater (Driver Controlled) Running Boards: Yes Windows: Rear Windows, Privacy Glass, Fixed Windows Doors: Sliding Passenger Side Door and 50/50 Hinged Rear Door 180-degree Opening Mirrors: Power Adjusting, Manual Folding, Non-Turn Signal, Non-Heated Mirror, Rearview Mirror Fuel Tank: Extended Range Fuel Tank Condition: New Model Year: Current model year or newest available Seating: 2-way Manual Driver and 2-way Manual Passenger with Driver and Passenger Armrests Seating Capacity: No Rear Seats Exterior Color: White Interior: Dark Gray Vinyl Manufacturer's Standard Warranty All required safety equipment meeting current federal standards License plates and all standard delivery items included",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "Vendor Packet_ Federal_ 01.2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Vendor Packet_ Federal_ 01.2025.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.1,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 540981,
+  "max_fetch_seconds": 0.3,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-21T13:13:10.350423+00:00",
+ "extract_attempts": 1
+}

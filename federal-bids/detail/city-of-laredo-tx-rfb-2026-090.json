@@ -1,0 +1,937 @@
+{
+ "bid_id": "city-of-laredo-tx-rfb-2026-090",
+ "bid_number": "RFB 2026-090",
+ "agency": "City of Laredo, TX",
+ "src": "Open",
+ "title": "RFB 2026-090 Concrete Repairs - Utilities Department",
+ "close": "9/29/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:concrete",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 50,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Minimum charge for under 25 SF",
+   "qty": "35",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Minimum charge for under 25 SF 35 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "26 to 100 SF",
+   "qty": "5000",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 26 to 100 SF 5000 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "101 to 300 SF",
+   "qty": "1000",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 101 to 300 SF 1000 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "301 SF and above",
+   "qty": "350",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 301 SF and above 350 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Minimum charge for under 25 SF",
+   "qty": "15",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Minimum charge for under 25 SF 15 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "26 to 150 SF",
+   "qty": "1200",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 26 to 150 SF 1200 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine9",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "151 to 400 SF",
+   "qty": "2200",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 151 to 400 SF 2200 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "2.4",
+   "desc": "401 SF and above",
+   "qty": "1500",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.4 401 SF and above 1500 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "3.1",
+   "desc": "Minimum charge for under 25 SF",
+   "qty": "5",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.1 Minimum charge for under 25 SF 5 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine13",
+   "kind": "package_line",
+   "line": "3.2",
+   "desc": "26 to 150 SF",
+   "qty": "100",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.2 26 to 150 SF 100 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine14",
+   "kind": "package_line",
+   "line": "3.3",
+   "desc": "151 to 400 SF",
+   "qty": "400",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.3 151 to 400 SF 400 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine15",
+   "kind": "package_line",
+   "line": "3.4",
+   "desc": "401 SF and above",
+   "qty": "500",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.4 401 SF and above 500 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine17",
+   "kind": "package_line",
+   "line": "4.1",
+   "desc": "Minimum charge for under 75 SF",
+   "qty": "2",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "4.1 Minimum charge for under 75 SF 2 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine18",
+   "kind": "package_line",
+   "line": "4.2",
+   "desc": "76 to 150 SF",
+   "qty": "100",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "4.2 76 to 150 SF 100 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine19",
+   "kind": "package_line",
+   "line": "4.3",
+   "desc": "151 to 300 SF",
+   "qty": "300",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "4.3 151 to 300 SF 300 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine20",
+   "kind": "package_line",
+   "line": "4.4",
+   "desc": "301 to 600 SF",
+   "qty": "350",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "4.4 301 to 600 SF 350 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine21",
+   "kind": "package_line",
+   "line": "4.5",
+   "desc": "601 SF and above",
+   "qty": "650",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "4.5 601 SF and above 650 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine23",
+   "kind": "package_line",
+   "line": "5.1",
+   "desc": "Minimum charge for under 75 SF",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "5.1 Minimum charge for under 75 SF 1 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine24",
+   "kind": "package_line",
+   "line": "5.2",
+   "desc": "76 to 150 SF",
+   "qty": "100",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "5.2 76 to 150 SF 100 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine25",
+   "kind": "package_line",
+   "line": "5.3",
+   "desc": "151 to 300 SF",
+   "qty": "300",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "5.3 151 to 300 SF 300 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine26",
+   "kind": "package_line",
+   "line": "5.4",
+   "desc": "301 to 600 SF",
+   "qty": "350",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "5.4 301 to 600 SF 350 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine27",
+   "kind": "package_line",
+   "line": "5.5",
+   "desc": "601 SF and above",
+   "qty": "650",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "5.5 601 SF and above 650 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine29",
+   "kind": "package_line",
+   "line": "6.1",
+   "desc": "Minimum charge for under 75 SF",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.1 Minimum charge for under 75 SF 1 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine30",
+   "kind": "package_line",
+   "line": "6.2",
+   "desc": "76 to 150 SF",
+   "qty": "450",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.2 76 to 150 SF 450 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine31",
+   "kind": "package_line",
+   "line": "6.3",
+   "desc": "151 to 300 SF",
+   "qty": "300",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.3 151 to 300 SF 300 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine32",
+   "kind": "package_line",
+   "line": "6.4",
+   "desc": "301 to 600 SF",
+   "qty": "350",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.4 301 to 600 SF 350 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine33",
+   "kind": "package_line",
+   "line": "6.5",
+   "desc": "601 SF and above",
+   "qty": "650",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "6.5 601 SF and above 650 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine35",
+   "kind": "package_line",
+   "line": "7.1",
+   "desc": "Minimum charge for under 10 L.F.",
+   "qty": "10",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "7.1 Minimum charge for under 10 L.F. 10 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine36",
+   "kind": "package_line",
+   "line": "7.2",
+   "desc": "11 to 25 L.F.",
+   "qty": "200",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "7.2 11 to 25 L.F. 200 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine37",
+   "kind": "package_line",
+   "line": "7.3",
+   "desc": "26 to 50 L.F.",
+   "qty": "250",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "7.3 26 to 50 L.F. 250 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine38",
+   "kind": "package_line",
+   "line": "7.4",
+   "desc": "51 to 100 L.F.",
+   "qty": "250",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "7.4 51 to 100 L.F. 250 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine40",
+   "kind": "package_line",
+   "line": "8.1",
+   "desc": "Handicap Ramp",
+   "qty": "10",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "8.1 Handicap Ramp 10 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine42",
+   "kind": "package_line",
+   "line": "9.1",
+   "desc": "Minimum charge for under 10 L.F.",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.1 Minimum charge for under 10 L.F. 1 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine43",
+   "kind": "package_line",
+   "line": "9.2",
+   "desc": "11 to 15 L.F.",
+   "qty": "15",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.2 11 to 15 L.F. 15 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine44",
+   "kind": "package_line",
+   "line": "9.3",
+   "desc": "16 to 25 L.F.",
+   "qty": "25",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.3 16 to 25 L.F. 25 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine45",
+   "kind": "package_line",
+   "line": "9.4",
+   "desc": "26 to 50 L.F.",
+   "qty": "30",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.4 26 to 50 L.F. 30 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine46",
+   "kind": "package_line",
+   "line": "9.5",
+   "desc": "51 to 75 L.F.",
+   "qty": "60",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.5 51 to 75 L.F. 60 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine48",
+   "kind": "package_line",
+   "line": "10.1",
+   "desc": "Minimum charge for under 25 SF",
+   "qty": "2",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "10.1 Minimum charge for under 25 SF 2 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine49",
+   "kind": "package_line",
+   "line": "10.2",
+   "desc": "26 to 50 SF",
+   "qty": "30",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "10.2 26 to 50 SF 30 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine50",
+   "kind": "package_line",
+   "line": "10.3",
+   "desc": "51 to 150 SF",
+   "qty": "700",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "10.3 51 to 150 SF 700 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine52",
+   "kind": "package_line",
+   "line": "11.1",
+   "desc": "Minimum charge for under 25 SF",
+   "qty": "2",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "11.1 Minimum charge for under 25 SF 2 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine53",
+   "kind": "package_line",
+   "line": "11.2",
+   "desc": "26 to 100 SF",
+   "qty": "75",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "11.2 26 to 100 SF 75 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine54",
+   "kind": "package_line",
+   "line": "11.3",
+   "desc": "101 to 300 SF",
+   "qty": "105",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "11.3 101 to 300 SF 105 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine55",
+   "kind": "package_line",
+   "line": "11.4",
+   "desc": "301 to 600 SF",
+   "qty": "305",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "11.4 301 to 600 SF 305 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine56",
+   "kind": "package_line",
+   "line": "11.5",
+   "desc": "601 SF and above",
+   "qty": "605",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "11.5 601 SF and above 605 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine58",
+   "kind": "package_line",
+   "line": "12.1",
+   "desc": "Minimum charge for under 25 SF",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "12.1 Minimum charge for under 25 SF 1 Each No Response"
+  },
+  {
+   "ctl": "ucPackageLine59",
+   "kind": "package_line",
+   "line": "12.2",
+   "desc": "26 to 100 SF",
+   "qty": "30",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "12.2 26 to 100 SF 30 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine60",
+   "kind": "package_line",
+   "line": "12.3",
+   "desc": "101 to 300 SF",
+   "qty": "110",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "12.3 101 to 300 SF 110 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine61",
+   "kind": "package_line",
+   "line": "12.4",
+   "desc": "301 to 600 SF",
+   "qty": "305",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "12.4 301 to 600 SF 305 ft2 No Response"
+  },
+  {
+   "ctl": "ucPackageLine62",
+   "kind": "package_line",
+   "line": "12.5",
+   "desc": "601 SF and above",
+   "qty": "605",
+   "uom": "ft2",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "12.5 601 SF and above 605 ft2 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf",
+  "Non-Collusive Affidavit Form.pdf",
+  "RFB 2026-090 COQ_FORM AND INSTRUCTIONS.pdf",
+  "RFB 2026-090 Form 1295.pdf",
+  "RFB 2026-090 Attachment A.pdf",
+  "RFB 2026-090 Concrete Repairs.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Conflict of Interest Questionnaire-Revised 1-1-2021.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusive Affidavit Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "RFB 2026-090 COQ_FORM AND INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFB 2026-090 Form 1295.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "RFB 2026-090 Attachment A.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFB 2026-090 Concrete Repairs.pdf",
+   "kind": "pdf",
+   "tables": 32,
+   "note": "",
+   "candidates": 6
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFB 2026-090 Concrete Repairs.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "",
+    "Unit",
+    "Qty",
+    "Unit\nRate",
+    "Amount\n($)"
+   ],
+   "score": 3,
+   "n_rows": 5,
+   "sample": [
+    [
+     "1",
+     "Reinforced Concrete Repairs \u2013 4 inch Sidewalk\n(including sidewalk transition ramp as per ADA\nstandards) CONTRACTOR shall provide all labor,\nmaterials, tools, and equipment needed to relay/restore\nsidewalks damaged or disturbed by Utilities\nDepartment. Including any demolition, disposal,\nexcavation, backfilling, and ordinary compaction of\nexcavated area on which sidewalks, are to be placed.\nSidewalk sections shall be removed by saw cutting.\nMinimum compressive strength shall be 3000psi @\n28days",
+     "Minimum\ncharge for\nunder 25 SF",
+     "Ea.",
+     "35",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "26 to 100 SF",
+     "ft2",
+     "5000",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "101 to 300\nSF",
+     "ft2",
+     "1000",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "RFB 2026-090 Concrete Repairs.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "8",
+    "Reinforced Concrete Repairs \u2013 Handicap Ramp -\nTruncated Dome (as per TxDOT/ADA Standard) Refer\nto Attachment C\nCONTRACTOR shall provide all labor, materials,\ntools, and equipment needed to relay/restore Handicap\nramp damaged or disturbed by Utilities Department.\nIncluding any demolition, disposal, excavation,\nbackfilling, and ordinary compaction of excavated area\non which handicap ramps, are to be placed. Handicap\nramp sections shall be removed by saw cutting.\nMinimum compressive strength shall be 3000psi @\n28days",
+    "Estimated\nQuantity",
+    "Ea.",
+    "10",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "Sub Total \u2026\u2026.",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "RFB 2026-090 Concrete Repairs.pdf",
+   "sheet": 13,
+   "header_row": 0,
+   "headers": [
+    "13",
+    "Reinforced Concrete Structure Repairs \u2013 4 inch\nConcrete Pad. CONTRACTOR shall provide all labor,\nmaterials, tools, and equipment needed to build\nconcrete pad for Utilities Department. Including any\ndemolition, disposal, excavation, backfilling, and\nordinary compaction of excavated area on which\nconcrete structure/pad are to be placed. Reinforcing\nsteel shall conform to the requirement of Item 440,\n\"Reinforcement Steel\" of the TxDOT latest Provisions.\nMinimum compressive strength shall be 4000psi @\n28days",
+    "Minimum\ncharge for\nunder 150 SF",
+    "Ea.",
+    "1",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "151 to 600\nSF",
+     "ft2",
+     "200",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "601 SF and\nabove",
+     "ft2",
+     "650",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "Sub Total \u2026\u2026.",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "RFB 2026-090 Concrete Repairs.pdf",
+   "sheet": 14,
+   "header_row": 0,
+   "headers": [
+    "14",
+    "Reinforced Concrete Structure Repairs \u2013 6 inch\nConcrete Pad. CONTRACTOR shall provide all labor,\nmaterials, tools, and equipment needed to build\nconcrete pad for Utilities Department. Including any\ndemolition, disposal, excavation, backfilling, and\nordinary compaction of excavated area on which\nconcrete structure/pad are to be placed. Reinforcing\nsteel shall conform to the requirement of Item 440,\n\"Reinforcement Steel\" of the TxDOT latest Provisions.\nMinimum compressive strength shall be 4000psi @\n28days",
+    "Minimum\ncharge for\nunder 150 SF",
+    "Ea.",
+    "1",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "",
+     "151 to 600\nSF",
+     "ft2",
+     "200",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "601 SF and\nabove",
+     "ft2",
+     "650",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "RFB 2026-090 Concrete Repairs.pdf",
+   "sheet": 15,
+   "header_row": 0,
+   "headers": [
+    "15",
+    "Reinforced Concrete Structure Repairs \u2013 8 inch\nConcrete Pad. CONTRACTOR shall provide all labor,\nmaterials, tools, and equipment needed to build\nconcrete pad for Utilities Department. Including any\ndemolition, disposal, excavation, backfilling, and\nordinary compaction of excavated area on which\nconcrete structure/pad are to be placed. Reinforcing\nsteel shall conform to the requirement of Item 440,\n\"Reinforcement Steel\" of the TxDOT latest Provisions.\nMinimum compressive strength shall be 4000psi @\n28days",
+    "Minimum\ncharge for\nunder 150 SF",
+    "Ea.",
+    "1",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "151 to 600\nSF",
+     "ft2",
+     "200",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "601 SF and\nabove",
+     "ft2",
+     "650",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "Sub Total \u2026\u2026.",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "RFB 2026-090 Concrete Repairs.pdf",
+   "sheet": 16,
+   "header_row": 0,
+   "headers": [
+    "16",
+    "Vertical Retaining Wall Repairs \u2013 6-inch Concrete\nBase. CONTRACTOR shall provide all labor,\nmaterials, tools, and equipment needed to build\nconcrete pad for Utilities Department. Including any\ndemolition, disposal, excavation, backfilling, and\nordinary compaction of excavated area on which\nconcrete structure/pad are to be placed. Reinforcing\nsteel shall conform to the requirement of Item 440,\n\"Reinforcement Steel\" of the TxDOT latest Provisions.\nMinimum compressive strength shall be 4000psi @\n28days",
+    "Minimum\ncharge for\nunder 150 SF",
+    "Ea.",
+    "1",
+    "$",
+    "$"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "151 to 600 SF",
+     "ft2",
+     "200",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "601 SF and\nabove",
+     "ft2",
+     "650",
+     "$",
+     "$"
+    ],
+    [
+     "",
+     "",
+     "Sub Total \u2026\u2026.",
+     "",
+     "",
+     "",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.5,
+  "attachment_fetches": 6,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 19749692,
+  "max_fetch_seconds": 0.96,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-21T13:23:52.390413+00:00",
+ "extract_attempts": 1
+}
