@@ -1,0 +1,178 @@
+{
+ "bid_id": "grapevine-colleyville-isd-tx-27-03-4-rfp",
+ "bid_number": "27-03-4-RFP",
+ "agency": "Grapevine Colleyville ISD, TX",
+ "src": "Open",
+ "title": "General Services & Supplies (27-10)",
+ "close": "9/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 9,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "If your company provides a service and has an hourly service rate: Please provide your hourly service rate. Standard Hourly Rate - Normal Business Hours: Mon - Friday 8am - 4pm",
+   "qty": "1",
+   "uom": "Hourly",
+   "note": "If pricing is to be determined at time of quote, please use \"Add Notes\" to the right of the screen and enter \"TBD at time of Quote\".",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 If your company provides a service and has an hourly service rate: Please provide your hourly service rate. Standard Hourly Rate - Normal Business Hours: Mon - Friday 8am - 4pm 1 Hourly No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "If your company provides a service and has an hourly service rate: Please provide your company's after hours or weekend hourly rate.",
+   "qty": "1",
+   "uom": "Hourly",
+   "note": "If pricing is to be determined at time of quote, please use \"Add Notes\" to the right of the screen and enter \"TBD at time of Quote\".",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 If your company provides a service and has an hourly service rate: Please provide your company's after hours or weekend hourly rate. 1 Hourly No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "If your company provides a service and has an hourly service rate: Please provide your company's Holiday hourly rate.",
+   "qty": "1",
+   "uom": "Hourly",
+   "note": "If pricing is to be determined at time of quote, please use \"Add Notes\" to the right of the screen and enter \"TBD at time of Quote\".",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 If your company provides a service and has an hourly service rate: Please provide your company's Holiday hourly rate. 1 Hourly No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "FOR INTERPRETATION SERVICES ONLY: This is for Oral Interpretation ONLY Required for any and all languages, but not limited to only Spanish. Specific need in the District is for translators in Russian, Hindu, Vietnamese, Farsi and French and possibly other languages as deemed necessary. Respondents would be needed to attend special meetings, specifically with special needs students, to interpret proceedings in accordance with federal regulations SBOE/commissioner rules and local policies and procedures. Respondents may be asked to walk with assessment personnel administering standardized testing to students and oral interpretation may be needed on a case-by-case basis.",
+   "qty": "1",
+   "uom": "Hourly",
+   "note": "Please complete this pricing as an hourly rate for Oral Interpretation Service.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 FOR INTERPRETATION SERVICES ONLY: This is for Oral Interpretation ONLY Required for any and all languages, but not limited to only Spanish. Specific need in the District is for translators in Russian, Hindu, Vietnamese, Farsi and French and possibly other languages as deemed necessary. Respondents would be needed to attend special meetings, specifically with special needs students, to interpret proceedings in accordance with federal regulations SBOE/commissioner rules and local policies and procedures. Respondents may be asked to walk with assessment personnel administering standardized testing to students and oral interpretation may be needed on a case-by-case basis. 1 Hourly No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "FOR INTERPRETATION SERVICES ONLY: Written Document Translation Services: Required for any and all languages, but not limited to only Spanish. Services to include all types of transcription of various types of District documentation, forms, educational materials, personnel documents, as well as others as deemed necessary.",
+   "qty": "1",
+   "uom": "Hourly",
+   "note": "Please complete this pricing as an hourly rate for Written Document Translation Services.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 FOR INTERPRETATION SERVICES ONLY: Written Document Translation Services: Required for any and all languages, but not limited to only Spanish. Services to include all types of transcription of various types of District documentation, forms, educational materials, personnel documents, as well as others as deemed necessary. 1 Hourly No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "FOR INTERPRETATION SERVICES ONLY: Additional Services: These services could include any additional translation or interpretation services that do not apply to oral interpretation or written document translation services. Such as: sign language interpretation or braille translation.",
+   "qty": "1",
+   "uom": "Hourly",
+   "note": "Please complete this pricing as an hourly rate for Additional Interpretation Services. Please provide a list of additional services your firm is equipped to provide along with hourly rate.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 FOR INTERPRETATION SERVICES ONLY: Additional Services: These services could include any additional translation or interpretation services that do not apply to oral interpretation or written document translation services. Such as: sign language interpretation or braille translation. 1 Hourly No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Percent discount provided for your services and any service related parts/equipment.",
+   "qty": "1",
+   "uom": "Percent",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Percent discount provided for your services and any service related parts/equipment. 1 Percent No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Please provide the percent discount for General Catalog Items - Enter an amount between 0 and 99 percent off list or published price. 0 is an acceptable response.",
+   "qty": "1",
+   "uom": "Percent",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Please provide the percent discount for General Catalog Items - Enter an amount between 0 and 99 percent off list or published price. 0 is an acceptable response. 1 Percent No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Delivery fee based on minimum order amount as indicated in the Attribute section.",
+   "qty": "1",
+   "uom": "",
+   "note": "If there is no delivery fee please enter $0.00",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Delivery fee based on minimum order amount as indicated in the Attribute section. 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Supplier Response Quick Tutorial.pdf",
+  "Conflict of Interest _COI_.pdf",
+  "OFFER FORM fillable _3_.pdf",
+  "IRS Form W9 - March 2024.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier Response Quick Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest _COI_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "OFFER FORM fillable _3_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "IRS Form W9 - March 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 15.7,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1820305,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-22T14:03:18.693512+00:00",
+ "extract_attempts": 1
+}

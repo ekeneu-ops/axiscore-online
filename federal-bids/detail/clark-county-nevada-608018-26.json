@@ -1,0 +1,82 @@
+{
+ "bid_id": "clark-county-nevada-608018-26",
+ "bid_number": "608018-26",
+ "agency": "Clark County, Nevada",
+ "src": "Open",
+ "title": "CONTRACT FOR CARPET AND VINYL PURCHASE AND INSTALL COUNTYWIDE",
+ "close": "9/30/2026 03:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "BIDDER'S SURCHARGE: The Bidder's Surcharge percentage will be added to the subtotal of the pricing components as listed in Instruction to Bidders Section 2 - Project Quotes of the bid document. The Bidder's Surcharge percentage is the only overhead, profit or mark-up figure that will be allowed and shall remain fixed throughout the contract term.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 BIDDER'S SURCHARGE: The Bidder's Surcharge percentage will be added to the subtotal of the pricing components as listed in Instruction to Bidders Section 2 - Project Quotes of the bid document. The Bidder's Surcharge percentage is the only overhead, profit or mark-up figure that will be allowed and shall remain fixed throughout the contract term. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "608018-26 Bidder_s Statement of Authority to Submit Bid_cg.pdf",
+  "608018-26_cg.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "608018-26 Bidder_s Statement of Authority to Submit Bid_cg.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608018-26_cg.pdf",
+   "kind": "pdf",
+   "tables": 15,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "608018-26_cg.pdf",
+   "sheet": 8,
+   "header_row": 2,
+   "headers": [
+    "Product\nInformation:",
+    "Vinyl Composite Tile is produced in 1/8-inch thickness, 12 \" x 12\" size and complies with the\nrequirements of Federal Specification SS-T-312B, Type IV Composition 1- Asbestos Free and AST<\nDesignation F-1066-87 Standard Specification for VCT. These product formulations do NOT contain\nasbestos."
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Definition:",
+     "VCT meets the requirements of an \"Article\" as set forth in Title 29, CFR 1910.1200 Hazard\nCommunication and any other pertinent local, state, and federal laws, regulations and codes. These\nproducts are (i) formed to a specific shape or design during end use, and end use function dependent\nupon their shape or design during end use, and (iii) do not release any hazardous chemical under\nnormal condition of use."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 24.4,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 1013803,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-22T14:02:26.990179+00:00",
+ "extract_attempts": 1
+}

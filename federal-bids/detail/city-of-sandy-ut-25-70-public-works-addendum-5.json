@@ -1,0 +1,628 @@
+{
+ "bid_id": "city-of-sandy-ut-25-70-public-works-addendum-5",
+ "bid_number": "25-70- - Public Works Addendum 5",
+ "agency": "City of Sandy, UT",
+ "src": "Open",
+ "title": "Pepperwood Booster Station Site Plan",
+ "close": "9/29/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "PARTIAL",
+ "scope_reason": "mixed:ppe+booster station",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 19,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 18,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Mobilization",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Mobilization 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Traffic Control and Pedestrian Safety",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Traffic Control and Pedestrian Safety 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Stockpiling Landscape Rocks, Clearing and Grubbing Site",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Stockpiling Landscape Rocks, Clearing and Grubbing Site 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Excavation for Pepperwood Site Work",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Excavation for Pepperwood Site Work 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Over Excavation if required by Geotechnical Engineer for conditions",
+   "qty": "10",
+   "uom": "Tons",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Over Excavation if required by Geotechnical Engineer for conditions 10 Tons No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Structural backfill necessary to fill any overexcavation",
+   "qty": "160",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Structural backfill necessary to fill any overexcavation 160 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Remove and replace existing masonry retaining wall",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Remove and replace existing masonry retaining wall 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Install New Concrete Retaining Wall",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Install New Concrete Retaining Wall 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "9.1",
+   "desc": "Concrete Driveway 8\" thick, w/epoxy coated #4's @ 12\" O.C.E.W.",
+   "qty": "492",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.1 Concrete Driveway 8\" thick, w/epoxy coated #4's @ 12\" O.C.E.W. 492 SF No Response"
+  },
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "9.2",
+   "desc": "Concrete Equipment Pad (20'x10'x1.5)",
+   "qty": "200",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.2 Concrete Equipment Pad (20'x10'x1.5) 200 SF No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "9.3",
+   "desc": "Concrete Maintenance Access (6\" thick)",
+   "qty": "163",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "9.3 Concrete Maintenance Access (6\" thick) 163 SF No Response"
+  },
+  {
+   "ctl": "ucPackageLine14",
+   "kind": "package_line",
+   "line": "10.1",
+   "desc": "Wrought Iron Fence with Anti-Scale Extension",
+   "qty": "210",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "10.1 Wrought Iron Fence with Anti-Scale Extension 210 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine15",
+   "kind": "package_line",
+   "line": "10.2",
+   "desc": "15' Wrought Iron Fence Vehicle Gate",
+   "qty": "15",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "10.2 15' Wrought Iron Fence Vehicle Gate 15 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine16",
+   "kind": "package_line",
+   "line": "10.3",
+   "desc": "3' Wrought Iron Fence Man Gate",
+   "qty": "3",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "10.3 3' Wrought Iron Fence Man Gate 3 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "11",
+   "desc": "Landscape plan",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 Landscape plan 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "12",
+   "desc": "Irrigation System Install",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 Irrigation System Install 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "13",
+   "desc": "Pepperwood Generator Install",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 Pepperwood Generator Install 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "14",
+   "desc": "Wildflower Electrical Upgrades",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 Wildflower Electrical Upgrades 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Exhibit A Pepperwood Booster Station Site Plan - Backup Generator.pdf",
+  "Construction Agreement.pdf",
+  "009-25-01 2026 Backup Power - Specifications.pdf",
+  "009-25-01 2026 Backup Power Generators - Drawings.pdf",
+  "009-25-01 2026 Backup Power - Specifications Form.pdf",
+  "Portable Generator - mtu-RR DS550 _ ATS Submittal JUNERev2 6-29-26 - Copy.pdf",
+  "Response Sandy City Wells mtu-RR DS550 _ ATS Submittal MAYRev1 5-27-26.pdf",
+  "00 91 13 01 Addenda.pdf",
+  "PRECONSTRUCTION CONFERENCE AGENDA AND ATTENDANCE.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Exhibit A Pepperwood Booster Station Site Plan - Backup Generator.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Construction Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "009-25-01 2026 Backup Power - Specifications.pdf",
+   "kind": "pdf",
+   "tables": 29,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "009-25-01 2026 Backup Power Generators - Drawings.pdf",
+   "kind": "pdf",
+   "tables": 44,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "009-25-01 2026 Backup Power - Specifications Form.pdf",
+   "kind": "pdf",
+   "tables": 20,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Portable Generator - mtu-RR DS550 _ ATS Submittal JUNERev2 6-29-26 - Copy.pdf",
+   "kind": "pdf",
+   "tables": 70,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Response Sandy City Wells mtu-RR DS550 _ ATS Submittal MAYRev1 5-27-26.pdf",
+   "kind": "pdf",
+   "tables": 42,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "00 91 13 01 Addenda.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "PRECONSTRUCTION CONFERENCE AGENDA AND ATTENDANCE.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "009-25-01 2026 Backup Power - Specifications.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "ITEM\nNO.",
+    "ITEM DESCRIPTION",
+    "UNIT",
+    "QUANTITY",
+    "UNIT PRICE",
+    "AMOUNT"
+   ],
+   "score": 3,
+   "n_rows": 19,
+   "sample": [
+    [
+     "1",
+     "MOBILIZATION",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ],
+    [
+     "2",
+     "TRAFFIC CONTROL AND\nPEDESTRIAN SAFETY",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ],
+    [
+     "3",
+     "STOCKPILING LANDSCAPE\nROCKS, CLEARING &\nGRUBBING SITE",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "009-25-01 2026 Backup Power - Specifications.pdf",
+   "sheet": 26,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Unit",
+    "Estimated\nQuantity",
+    "Unit\nPrice",
+    "Extended\nPrice"
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "1",
+     "MOBILIZATION",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ],
+    [
+     "2",
+     "TRAFFIC CONTROL AND\nPEDESTRIAN SAFETY",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ],
+    [
+     "3",
+     "STOCKPILING LANDSCAPE\nROCKS, CLEARING &\nGRUBBING SITE",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "009-25-01 2026 Backup Power - Specifications.pdf",
+   "sheet": 27,
+   "header_row": 0,
+   "headers": [
+    "Item\nNo.",
+    "Description",
+    "Unit",
+    "Estimated\nQuantity",
+    "Unit\nPrice",
+    "Extended\nPrice"
+   ],
+   "score": 3,
+   "n_rows": 15,
+   "sample": [
+    [
+     "5",
+     "OVER EXCAVATION IF\nREQUIRED BY GEOTECHNICAL\nENGINEER FOR CONDITIONS",
+     "TON",
+     "10",
+     "$",
+     "$"
+    ],
+    [
+     "6",
+     "STRUCTURAL BACKFILL\nNECESSARY TO FILL ANY\nOVEREXCAVATION",
+     "CY",
+     "160",
+     "$",
+     "$"
+    ],
+    [
+     "7",
+     "REMOVE AND REPLACE\nEXISTING MASONRY\nRETAINING WALL",
+     "LS",
+     "1",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "009-25-01 2026 Backup Power - Specifications.pdf",
+   "sheet": 28,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: Full formal name of Owner\nMailing address (principal place of business):\nFull address of Owner",
+    "Construction Contract\nDescription (name and location):\nOwner\u2019s project/contract name, and location of the project\nContract Price: Amount from Contract\nEffective Date of Contract: Date from Contract"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: Bond Amount\nDate of Bond: Bond Date\n(Date of Bond cannot be earlier than Effective Date of Contract)\nModifications to this Bond form:\n\u2610 None \u2610 See Paragraph 18",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth herein, do each cause this\nPerformance Bond to be duly executed by an authorized officer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy: By:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular reference to Contractor,\nSurety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "009-25-01 2026 Backup Power Generators - Drawings.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "WELL AND BOOSTER BACKUP POWER\nSANDY CITY, UTAH\nIDAHO INDEX OF DRAWINGS\nSHT NO.DWG. NO. DESCRIPTION\nPROJECT\nRANDOLPH\nCACHE TREMONTON LOGAN GENERAL\nLOCATION\nBOX ELDER BRIGHAM CITY\n01 G-01 TITLE PAGE, PROJECT LOCATION, AND VICINITY MAP\nRICH\nWEBER 02 G-02 ABBREVIATIONS\nOGDEN\nMORGAN WYOMING 03 G-03 GENERAL NOTES AND SYMBOLS\nDAVIS DAGGETT FARMINGTON MORGAN COALVILLE MANILA CIVIL\nSUMMIT WENDOVER SALT LAKE CITY 04 C-01 PEPPERWOOD GENERATOR SITE PLAN\nETATSRETNI PARK CITY 05 C-02 PEPPERWOOD RETAINING WALL SECTIONS\nSALT LAKE DUCHESNE TOOELE TOOELE PLROOCJAETCITONPLROOCJAETCITON HEBER CITY VERNAL STRUCTURAL\nWASATCH\n\u00a9 2026 Microsoft Corporation \u00a9 Maxar \u00a9CNES (2026) Distribution Airbus DS \u00a9 Mapbox PROVO 06 S-01 RETAINING WALL FOOTING PLAN\nUTAH DUCHESNE 07 S-02 STRUCTURAL NOTES AND DETAILS\nELECTRICAL\nUINTAH ADAVEN\nUTAH\nODAROLOC 08 E-01 ELECTRICAL LEGEND AND NOTES\nJUAB CARBON NEPHI\nPRICE 09 E-02 ELECTRICAL SITE PLAN - PEPPERWOOD\nDELTA 10 E-03 POWER ONE-LINE DIAGRAM - PEPPERWOOD\nMILLARD 11 E-04 CONTROL BLOCK DIAGRAM - PEPPERWOOD\nGRAND SANPETE EMERY MANTI CASTLE DALE 12 E-05 ELECTRICAL SITE PLAN - WILDFLOWER\nFILLMORE 13 E-06 POWER ONE-LINE DIAGRAM - WILDFLOWER\nSEVIER LANDSCAPE\nRICHFIELD\nMOAB YTIC 14 L-01 LANDSCAPE NOTES\nPROJECT PIUTE LOA YDNAS 15 L-02 LANDSCAPE PLAN\nBEAVER WAYNE LOCATION BEAVER JUNCTION 16 L-03 IRRIGATION PLAN\nGENERAL CIVIL DETAILS\nIRON\nGARFIELD PAROWAN PANGUITCH MONTICELLO 17 GC-01 GENERAL CIVIL DETAILS - 01\nSAN JUAN CEDAR CITY 18 GC-02 GENERAL CIVIL DETAILS - 02\nGENERAL ELECTRICAL DETAILS\n19 GE-01 GENERAL ELECTRICAL DETAILS - 1\nWASHINGTON\n20 GE-02 GENERAL ELECTRICAL DETAILS - 2\nKANE ST. GEORGE\nKANAB GENERAL LANDSCAPING DETAILS\n21 GL-01 LANDSCAPE DETAILS\nARIZONA\n22 GL-02 IRRIGATION DETAILS - 1\nPROJECT LOCATION MAP 23 GL-03 IRRIGATION DETAILS - 2\nPROJECT VICINITY MAP PROJECT LOCATION MAP\nLARENEG\n8-25-26\nSH",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "REWO",
+     "NO\nELACS HCNI\nENO\nY"
+    ],
+    [
+     "",
+     "P FIREV SI\nPUKCAB RAB\nTFORCHSA\nHATU WEIVER\nRETSOOB ,YTIC\n.B\nYDNAS DEKCEHC\nDNA NONNIKCM\nNGISED\nLLEW\n.ANGISED\n,NOITACOL\nPAM\n,EGAP\nYTINICIV\nELTIT TCEJORP\nDNA",
+     ""
+    ],
+    [
+     "",
+     "DRAWING NO.\nG-01",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Portable Generator - mtu-RR DS550 _ ATS Submittal JUNERev2 6-29-26 - Copy.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "QUANTITY",
+    "EQUIPMENT DESCRIPTION",
+    "PRICE EACH",
+    "TOTAL PRICE"
+   ],
+   "score": 3,
+   "n_rows": 6,
+   "sample": [
+    [
+     "PEPPERWOOD PUMP STATION",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "MTU-RR 550kW Generator Set\nLevel 3 Enclosure \u2013 76.3dBA\n24 Hour Diesel Fuel Tank\n277/480 Volt, 3 Phase, 60 HZ, 1800 RPM\nGenset Dry Assembly Weight: 20,600 lbs.",
+     "Included",
+     "Included"
+    ],
+    [
+     "1",
+     "1600A Automatic Transfer Switch\nDelayed Transition | NEMA 3R\n3 Pole",
+     "Included",
+     "Included"
+    ]
+   ]
+  },
+  {
+   "source": "Portable Generator - mtu-RR DS550 _ ATS Submittal JUNERev2 6-29-26 - Copy.pdf",
+   "sheet": 5,
+   "header_row": 7,
+   "headers": [
+    "Step",
+    "Load Description",
+    "",
+    "Qty",
+    "SkW",
+    "",
+    "SkVA",
+    "SPF",
+    "RkW",
+    "RkVA",
+    "RPF",
+    "VDIP[3]",
+    "FDIP[3]"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1 17.6% 2.7%\nThree Phase Motor\nPermitted V-Dip: 20%\nPermitted F-Dip: 15%\n2 213.82 1069.1 0.2 481.1 534.6 0.9\nNonlinear: No\nStarting Method: Solid State Starter (SSS)\nHP: 300\n1 Loads Total 213.82 1069.1 0.2 481.1 534.6 0.9\nProject Total at 1 213.82 1069.1 481.1 534.6 0.9",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "00 91 13 01 Addenda.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "ITEM\nNO.",
+    "ITEM DESCRIPTION",
+    "UNIT",
+    "QUANTITY",
+    "UNIT PRICE",
+    "AMOUNT"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1 MOBILIZATION LS 1\nTRAFFIC CONTROL AND\n2 LS 1\nPEDESTRIAN SAFETY\nSTOCKPILING LANDSCAPE\n3 ROCKS, CLEARING & LS 1\nGRUBBING SITE\nEXCAVATION FOR\n4 LS 1\nPEPPERWOOD SITE WORK\nOVER EXCAVATION IF\nREQUIRED BY\n5 TON 10\nGEOTECHNICAL ENGINEER\nFOR CONDITIONS\nSTRUCTURAL BACKFILL\n6 NECESSARY TO FILL ANY CY 160\nOVEREXCAVATION\nREMOVE AND REPLACE\n7 EXISTING MASONRY LS 1\nRETAINING WALL\nINSTALL NEW CONCRETE\n8 LS 1\nRETAINING WALL\nCONCRETE DRIVEWAY 8\"\n9.1 THICK, W/ EPOXY COATED SF 492\n#4s @ 12\" O.C.E.W.\nCONCRETE EQUIPMENT PAD\n9.2 SF 200\n(20'X10'X1.5')\nCONCRETE MAINTENANCE\n9.3 SF 163\nACCESS (6\" THICK)\nWROUGHT IRON FENCE\n10.1 WITH ANTI-SCALE LF 210\nEXTENSION\n15' WROUGHT IRON FENCE\n10.2 LF 15\nVEHICLE GATE\n3' WROUGHT IRON FENCE\n10.3 LF 3\nMAN GATE\n11 LANDSCAPE PLAN LS 1\nIRRIGATION SYSTEM\n12 LS 1\nINSTALL\nPEPPERWOOD GENERATOR\n13 LS 1\nINSTALL\n14 GENERATOR FUEL + PROFIT GALLONS 1,000\nWILDFLOWER ELECTRICAL\n15 LS 1\nUPGRADES\nTotal of All Unit Price Bid Items",
+     "",
+     "",
+     "",
+     "$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$ $\n$7.40 $7,400\n$ $\n$",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "00 91 13 01 Addenda.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "1st",
+    "20 percent of item lump sum price.",
+    "With 1st pay request."
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "2nd",
+     "50 percent (up to 70 percent total) of\nitem lump sum price.",
+     "When contract is at least 30 percent\ncomplete"
+    ],
+    [
+     "3rd",
+     "20 percent (up to 90 percent) of item\nlump sum price.",
+     "When contract is at least 70 percent\ncomplete."
+    ],
+    [
+     "4th",
+     "10 percent (up to 100 percent) of item\nlump sum price.",
+     "With final pay request when project is\ncomplete."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 113.1,
+  "attachment_fetches": 9,
+  "attachment_seconds": 9.7,
+  "attachment_bytes": 101329164,
+  "max_fetch_seconds": 4.7,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-22T14:02:01.057432+00:00",
+ "extract_attempts": 1
+}

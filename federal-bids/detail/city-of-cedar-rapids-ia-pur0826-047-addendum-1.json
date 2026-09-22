@@ -1,0 +1,90 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0826-047-addendum-1",
+ "bid_number": "PUR0826-047 Addendum 1",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Open",
+ "title": "Multifamily & Mixed Use Pro Forma",
+ "close": "9/30/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "All inclusive, firm-fixed price for completed project including all milestones/deliverables described in the Scope of Services.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 All inclusive, firm-fixed price for completed project including all milestones/deliverables described in the Scope of Services. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Scope of Services_Multifamily _ Mixed Use Pro Forma_PUR0826-047.pdf",
+  "Certificate to Obtain Insurance_Multifamily _ Mixed Use Pro Forma _PUR0826-047_.pdf",
+  "Insurance Requirements - Consultant.pdf",
+  "RFP Contract T_C.pdf",
+  "Local Preference.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Scope of Services_Multifamily _ Mixed Use Pro Forma_PUR0826-047.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate to Obtain Insurance_Multifamily _ Mixed Use Pro Forma _PUR0826-047_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements - Consultant.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Contract T_C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Local Preference.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 15.8,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1083779,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-22T14:05:52.824087+00:00",
+ "extract_attempts": 1
+}

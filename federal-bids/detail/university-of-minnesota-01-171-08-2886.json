@@ -1,0 +1,584 @@
+{
+ "bid_id": "university-of-minnesota-01-171-08-2886",
+ "bid_number": "01.171.08.2886",
+ "agency": "University of Minnesota",
+ "src": "Invited",
+ "title": "Bid Pack 1 System Furniture for CUHCC",
+ "close": "10/28/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:furniture",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 149,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Supplier-Process-and-Information-05-07-26.docx",
+  "PO-Terms-and-Conditions-01-06-26.docx",
+  "CUHCC BP1 General Requirements.pdf",
+  "1 - CUHCC BP1 DESIGN BASIS.xlsx",
+  "5 - CUHCC BP1 SYSTEM SPEC-PRICING FORM _ Add Alternate Mounts _ Arms.xlsx",
+  "4 - CUHCC - BP1 SYSTEM PRODUCT SHEETS.pdf",
+  "CUHCC BP1 FFE _ INSTALL PLANS.pdf",
+  "3 - CUHCC FFE DEIVERY SITE MAP.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier-Process-and-Information-05-07-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "PO-Terms-and-Conditions-01-06-26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "CUHCC BP1 General Requirements.pdf",
+   "kind": "pdf",
+   "tables": 28,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "1 - CUHCC BP1 DESIGN BASIS.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "5 - CUHCC BP1 SYSTEM SPEC-PRICING FORM _ Add Alternate Mounts _ Arms.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "4 - CUHCC - BP1 SYSTEM PRODUCT SHEETS.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CUHCC BP1 FFE _ INSTALL PLANS.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "3 - CUHCC FFE DEIVERY SITE MAP.pdf",
+   "kind": "pdf",
+   "tables": 26,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "CUHCC BP1 General Requirements.pdf",
+   "sheet": 0,
+   "header_row": 5,
+   "headers": [
+    "",
+    "",
+    "Overarching requirements",
+    "1. One manufacturer for the overall solution is to be submitted.\n2. Only new product direct from the original manufacturer will be accepted.\n3. File, freestanding and wall mounted storage units/shelves as well as their\ninterior drawers, shelves, etc. are to be steel.\n4. Worksurfaces, file fronts and any other exposed surface that may be specified\nas laminate, must be high pressure laminate (HPL).\n5. Worksurfaces and tabletops must have a minimum of 2.0mm thick PVC edge\nband (grain or solid color to match the top surface) on the proud side of the\nsurface that matches the primary laminate surface. Top: 1\" - 1.25\" Thick, High\nPressure Laminate.\n6. Product must adhere to University of Minnesota requirement for 10 year\nwarranty direct from the manufacturer. This includes all parts, pieces and\ncomponents that make up a file or storage unit.\n7. MUST list the typical lead time for product.",
+    "NO EXCEPTIONS"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "",
+     "Furniture Manufacturer",
+     "One manufacturer for the overall solution is to be submitted.\nBidder state system furniture manufacturer.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Standard Line Product",
+     "1. All products are preferred to be standard running line offerings to avoid\nincreased costs and delivery times when product is purchased in the future.\nBidder state any non-standard products.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Field Verification",
+     "The successful bidder will field verify the site and present adjustments for any\nexceptions that need to take place.\nBidder MUST include allowance for field verification in their additional costs on\nthe Specification/Pricing form. Amount to be approriate for the size of the\nbuilding and the scope of work.\nBidder state total hours and total price included in bid for field verification.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "CUHCC BP1 General Requirements.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Parts List\nTypical Workstations/Offices",
+    "Bidder is required to provide all parts, pieces and components necessary to\ncomplete the demonstrated workstations and office layouts.\n1. Pricing submitted per specification line item is to be the collection of all parts\nand pieces necessary to complete the arrangement of the office/workstation\nlayout.\n2. All worksurfaces are to be independent from each other and floor supported.\nWorksurfaces are not to be mechanically fastened to under files units.\n3.The successful bidder will be required to submit a line item list of all product\nthat comprises the order.\nBidder state acknowledgement.",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "Tackboard\nWall and worksurface mounted",
+     "Fiber core, fabric wrapped, no frame with horizontal mounting brackets for walls\nand top mounted brackets for worksurfaces.\n1. Base grade fabrics (i.e.., Grade 1, Grade A)\n2. All sit/stand desks to have clearance between mounted bracket and edge to\nhave clearance for cord management and monitor arm mounts.\nBidder state:\n1. Core material and thickness\n2. Cut sheets for mounting brackets",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "CUHCC BP1 General Requirements.pdf",
+   "sheet": 3,
+   "header_row": 3,
+   "headers": [
+    "",
+    "Power Module & USB Charger",
+    "Each height adjustable worksurface to incude:\n1. Surface mounted power module with minimum qty 3 electrical outlets and a\nminimum of 1 USB charging port.\nBidder state:\n1. Number of outlets and USB charging ports.",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "Controller Function",
+     "Up/Down with anti-collision feature MINIMUM\n1-3 presets MINIMUM\nBidder state number of presets.",
+     ""
+    ],
+    [
+     "",
+     "Speed",
+     "1.5\" per Second for 30x60 top unloaded.\nBidder state speed on adjustable table bid.",
+     ""
+    ],
+    [
+     "",
+     "Decibel level",
+     "52 dB or less\nBidder state decibel level.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "CUHCC BP1 General Requirements.pdf",
+   "sheet": 7,
+   "header_row": 0,
+   "headers": [
+    "REVISION",
+    "ITEM/CODE",
+    "RM #",
+    "RM NAME",
+    "PRODUCT DESCRIPTION",
+    "MANUFACTURER",
+    "SIZE (WxDxH)",
+    "MODEL #",
+    "FINISH/\nCOLOR",
+    "ADDITIONAL INFO\n(IE: Pattern/Color)",
+    "EXIST\nQTY",
+    "NEW\nQTY",
+    "PRICE\neach",
+    "TOTAL",
+    "IOFO"
+   ],
+   "score": 3,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "F.3",
+     "1-101CC",
+     "LOBBY",
+     "Storage - File, Pedestal",
+     "Open Bid",
+     "14-5/8\" W x 20\" D x 26-3/8\" H",
+     "Metal Storage\nFile/File, no casters",
+     "Smooth Painted Metal\n- Gray",
+     "\u202220\" deep\n\u2022Full Extension Ball\nBearing Slides\n\u2022Locking, Keyed Alike\n\u2022Standard Height\n\u2022No Drawer Interior\nAccessories\n\u2022Integral Pull",
+     "",
+     "1",
+     "",
+     "0.00",
+     "X",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "T.1b",
+     "1-107",
+     "LEGAL OFFICE",
+     "Table - Work, Height Adjustable",
+     "Open Bid",
+     "60\" W x 30\" D x 22.5-48.7\" H",
+     "Sit-Stand Desk",
+     "\u2022Laminate Top:\nWilsonart Crisp Linen\n4942\n\u2022Coordinating 3MM\nPVC edge\n\u2022Smooth Painted\nMetal C-Legs, Flat\n(Metallic Silver)",
+     "\u2022Electric Height\nAdjustment, Standard\nHeight Range\n\u2022Standard Switch",
+     "",
+     "2",
+     "",
+     "0.00",
+     "X",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "F.5",
+     "1-107",
+     "LEGAL OFFICE",
+     "Storage - Mobile Pedestal File, Cushion\nTop",
+     "Open Bid",
+     "14-5/8\" W x 20\" D x 21-3/8\" H",
+     "Metal Storage\nBox/File, with casters",
+     "Smooth Painted Metal\n- Gray\nCushion Top:\nDesigntex, Jumper\n3878-501, color:\nMeadow",
+     "\u202220\" deep\n\u2022Full Extension Ball\nBearing Slides\n\u2022Keyed Alike\n\u2022Standard Height\n\u2022No Drawer Interior\nAccessories\n\u2022Integral Pull",
+     "",
+     "2",
+     "",
+     "0.00",
+     "X",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "CUHCC BP1 General Requirements.pdf",
+   "sheet": 26,
+   "header_row": 0,
+   "headers": [
+    "REVISION",
+    "ITEM/CODE",
+    "RM #",
+    "RM NAME",
+    "PRODUCT DESCRIPTION",
+    "MANUFACTURER",
+    "SIZE (WxDxH)",
+    "MODEL #",
+    "FINISH/\nCOLOR",
+    "ADDITIONAL INFO\n(IE: Pattern/Color)",
+    "EXIST\nQTY",
+    "NEW\nQTY",
+    "PRICE\neach",
+    "TOTAL",
+    "IOFO"
+   ],
+   "score": 3,
+   "n_rows": 8,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "ADD ALTERNATE - MONITOR ARMS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Monitor Arms - L1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "36",
+     "",
+     "0.00",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Monitor Arms - L2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "62",
+     "",
+     "0.00",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "1 - CUHCC BP1 DESIGN BASIS.xlsx",
+   "sheet": 0,
+   "header_row": 11,
+   "headers": [
+    "",
+    "",
+    "Overarching requirements",
+    "1. One manufacturer for the overall solution is to be submitted. \n2. Only new product direct from the original manufacturer will be accepted.\n3. File, freestanding and wall mounted storage units/shelves as well as their interior drawers, shelves, etc. are to be steel.\n4. Worksurfaces, file fronts and any other exposed surface that may be specified as laminate, must be high pressure laminate (HPL).\n5. Worksurfaces and tabletops must have a minimum of 2.0mm thick PVC edge band (grain or solid color to match the top surface) on the proud side of the surface that matches the primary laminate surface. Top:  1\" - 1.25\" Thick, High Pressure Laminate.\n6. Product must adhere to University of Minnesota requirement for 10 year warranty direct from the manufacturer. This includes all parts, pieces and components that make up a file or storage unit.\n7. MUST list the typical lead time for product.\n",
+    "NO EXCEPTIONS"
+   ],
+   "score": 2,
+   "n_rows": 34,
+   "sample": [
+    [
+     "",
+     "",
+     "Furniture Manufacturer",
+     "One manufacturer for the overall solution is to be submitted. \nBidder state system furniture manufacturer. ",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Standard Line Product",
+     "1. All products are preferred to be standard running line offerings to avoid increased costs and delivery times when product is purchased in the future. \nBidder state any non-standard products. ",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Field Verification",
+     "The successful bidder will field verify the site and present adjustments for any exceptions that need to take place. \nBidder MUST include allowance for field verification in their additional costs on the Specification/Pricing form. Amount to be approriate for the size of the building and the scope of work. \nBidder state total hours and total price included in bid for field verification. ",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "5 - CUHCC BP1 SYSTEM SPEC-PRICING FORM _ Add Alternate Mounts _ Arms.xlsx",
+   "sheet": 0,
+   "header_row": 10,
+   "headers": [
+    "REVISION",
+    "ITEM/CODE",
+    "RM #",
+    "RM NAME",
+    "PRODUCT DESCRIPTION",
+    "MANUFACTURER",
+    "SIZE (WxDxH)",
+    "MODEL #",
+    "FINISH/\nCOLOR",
+    "ADDITIONAL INFO\n(IE: Pattern/Color)",
+    "EXIST\nQTY",
+    "NEW\nQTY",
+    "PRICE\neach",
+    "TOTAL\n",
+    "OFOI"
+   ],
+   "score": 3,
+   "n_rows": 149,
+   "sample": [
+    [
+     "",
+     "F.3",
+     "1-101CC",
+     "LOBBY",
+     "Storage - File, Pedestal",
+     "Open Bid",
+     "14-5/8\" W x 20\" D x 26-3/8\" H",
+     "Metal Storage\nFile/File, no casters",
+     "Smooth Painted Metal - Gray",
+     "\u202220\" deep\n\u2022Full Extension Ball Bearing Slides\n\u2022Locking, Keyed Alike\n\u2022Standard Height\n\u2022No Drawer Interior Accessories\n\u2022Integral Pull",
+     "",
+     "1",
+     "",
+     "0",
+     "X",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "T.1b",
+     "1-107",
+     "LEGAL OFFICE",
+     "Table - Work, Height Adjustable",
+     "Open Bid",
+     "60\" W x 30\" D x 22.5-48.7\" H",
+     "Sit-Stand Desk",
+     "\u2022Laminate Top: Wilsonart Crisp Linen 4942\n\u2022Coordinating 3MM PVC edge\n\u2022Smooth Painted Metal C-Legs, Flat (Metallic Silver)",
+     "\u2022Electric Height Adjustment, Standard Height Range\n\u2022Standard Switch",
+     "",
+     "2",
+     "",
+     "0",
+     "X",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "F.5",
+     "1-107",
+     "LEGAL OFFICE",
+     "Storage - Mobile Pedestal File, Cushion Top",
+     "Open Bid",
+     "14-5/8\" W x 20\" D x 21-3/8\" H",
+     "Metal Storage\nBox/File, with casters",
+     "Smooth Painted Metal - Gray\nCushion Top: Designtex, Jumper 3878-501, color: Meadow",
+     "\u202220\" deep\n\u2022Full Extension Ball Bearing Slides\n\u2022Keyed Alike\n\u2022Standard Height\n\u2022No Drawer Interior Accessories\n\u2022Integral Pull",
+     "",
+     "2",
+     "",
+     "0",
+     "X",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "5 - CUHCC BP1 SYSTEM SPEC-PRICING FORM _ Add Alternate Mounts _ Arms.xlsx",
+   "sheet": 1,
+   "header_row": 10,
+   "headers": [
+    "REVISION",
+    "ITEM/CODE",
+    "RM #",
+    "RM NAME",
+    "PRODUCT DESCRIPTION",
+    "MANUFACTURER",
+    "SIZE (WxDxH)",
+    "MODEL #",
+    "FINISH/\nCOLOR",
+    "ADDITIONAL INFO\n(IE: Pattern/Color)",
+    "EXIST\nQTY",
+    "NEW\nQTY",
+    "PRICE\neach",
+    "TOTAL\n",
+    "OFOI"
+   ],
+   "score": 3,
+   "n_rows": 12,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "ADD ALTERNATE - MONITOR ARMS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "FURNITURE\nREVISION #1",
+     "",
+     "",
+     "",
+     "Monitor Arms - L1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "36",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "FURNITURE\nREVISION #1",
+     "",
+     "",
+     "",
+     "Monitor Arms - L2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "62",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 39.6,
+  "attachment_fetches": 8,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 15255945,
+  "max_fetch_seconds": 0.5,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-22T13:54:39.865404+00:00",
+ "extract_attempts": 1
+}

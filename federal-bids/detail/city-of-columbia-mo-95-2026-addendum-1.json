@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-columbia-mo-95-2026-addendum-1",
+ "bid_number": "95/2026 Addendum 1",
+ "agency": "City of Columbia, MO",
+ "src": "Open",
+ "title": "Replacement of the Power Plant Emergency Generator",
+ "close": "9/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFB 95-2026 Replacement of the Power Plant Emergency Generator.pdf",
+  "Construction-Contract-Form-Calendar-Day-Provisions-10.22.2025 _1_.docx",
+  "W - 9 Form.pdf",
+  "Addendum _1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFB 95-2026 Replacement of the Power Plant Emergency Generator.pdf",
+   "kind": "pdf",
+   "tables": 20,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Construction-Contract-Form-Calendar-Day-Provisions-10.22.2025 _1_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "W - 9 Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum _1.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFB 95-2026 Replacement of the Power Plant Emergency Generator.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "LINE\nITEM",
+    "ITEM DESCRIPTION",
+    "QUANTITY",
+    "UNIT",
+    "TOTAL COST"
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "1",
+     "Firm, Fixed Price for the\nEmergency Generator as\nstated herein.",
+     "1",
+     "Each",
+     "$____________"
+    ],
+    [
+     "2",
+     "Firm, Fixed Price for\nInstallation of the\nEmergency Generator as\nstated herein.",
+     "1",
+     "LS",
+     "$____________"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.8,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 1299908,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-22T14:04:00.967629+00:00",
+ "extract_attempts": 1
+}
