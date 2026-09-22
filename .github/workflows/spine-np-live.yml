@@ -84,11 +84,14 @@ jobs:
           # half, and the validated 3-bucket event walk for the held half. Read-only via
           # finance_runner's existing grants (ap.* 0003/0022, spapi.* 0001).
           SQL_TEXT_INLINE: >-
-            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' THEN
+            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' AND fo.invoice_number IS NULL THEN
             'PARKED' WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket FROM ap.v_outstanding v LEFT JOIN
-            ap.review_moves m ON m.invoice_id=v.invoice_id), bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1), nt AS
+            ap.review_moves m ON m.invoice_id=v.invoice_id LEFT JOIN ap.fedex_open_items fo ON
+            fo.invoice_number=v.invoice_id), bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1), fx AS (SELECT
+            count(*) FILTER (WHERE q.b) n, round(coalesce(sum(q.amount) FILTER (WHERE q.b),0)::numeric,2) t, count(*) FILTER (WHERE NOT q.b) p FROM
+            (SELECT amount, eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') b FROM eff WHERE rollup='FEDEX') q), nt AS
             (SELECT round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')), cr AS (SELECT count(*) n,
-            round(COALESCE(sum(oc.amount),0)::numeric,2) s FROM ap.v_open_credits oc WHERE oc.rollup IN (SELECT DISTINCT rollup FROM eff WHERE eff_bucket NOT IN
+            round(COALESCE(sum(oc.amount),0)::numeric,2) s FROM ap.v_open_credits oc WHERE oc.rollup <> 'FEDEX' AND oc.rollup IN (SELECT DISTINCT rollup FROM eff WHERE eff_bucket NOT IN
             ('SETTLED','PARKED'))), bnd AS (SELECT max(period_end) e FROM spapi.settlements), unst AS (SELECT o.amazon_order_id id FROM spapi.orders o WHERE
             o.order_status='Shipped' AND NOT EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE sl.amazon_order_id=o.amazon_order_id)), fev AS (SELECT
             amazon_order_id cid, event_type et, posted_date pdt, amount a FROM spapi.financial_events), lp AS (SELECT unst.id, max(f.pdt) lpd FROM unst LEFT JOIN
@@ -102,7 +105,8 @@ jobs:
             nt),'credits',(SELECT s FROM cr),'credit_count',(SELECT n FROM cr),'net_after_credits',round(((SELECT s FROM nt)-(SELECT s FROM
             cr))::numeric,2),'buckets',(SELECT COALESCE(json_object_agg(b,json_build_object('count',n,'total',t)),'{}'::json) FROM bk),'by_rollup',(SELECT
             COALESCE(json_object_agg(COALESCE(rollup,'UNMAPPED'),json_build_object('count',n,'total',t)),'{}'::json) FROM (SELECT rollup, count(*) n,
-            round(sum(amount)::numeric,2) t FROM eff WHERE eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z)), 'held',
+            round(sum(amount)::numeric,2) t FROM eff WHERE eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z),'fedex',(SELECT
+            json_build_object('payable_count',n,'payable_total',t,'parked_count',p) FROM fx)), 'held',
             json_build_object('net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM b2)+(SELECT s FROM c2)+(SELECT s FROM df),2),'order_count',(SELECT
             n FROM a2)+(SELECT no FROM df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM d2),'refunds',(SELECT s FROM
             b2),'account_events',(SELECT s FROM c2),'deferred',(SELECT s FROM df)),'fev_through',to_char((SELECT max(pdt) FROM
@@ -119,7 +123,12 @@ jobs:
             'last_autopay', (SELECT max(posted_date)::text FROM plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%'),
             'txn_count', count(*) FILTER (WHERE name NOT ILIKE '%AUTOPAY%'),
             'pending_amt', round(coalesce(sum(amount) FILTER (WHERE pending),0)::numeric,2),
-            'last_txn', max(posted_date)::text)
+            'last_txn', max(posted_date)::text,
+            'in_flight', (SELECT json_build_object('amount',round(coalesce(sum(b.amount),0)::numeric,2),'n',count(*),
+            'since',max(b.posted_date)::text) FROM plaid.transactions b WHERE b.item_label='boa' AND b.amount > 0 AND
+            b.name ILIKE '%AMERICAN EXPRESS%' AND b.posted_date >= now()::date - 45 AND NOT EXISTS (SELECT 1 FROM
+            plaid.transactions c WHERE c.item_label='amex' AND c.amount < 0 AND round(-c.amount,2) = round(b.amount,2)
+            AND c.posted_date BETWEEN b.posted_date - 10 AND b.posted_date + 10)))
             FROM plaid.transactions WHERE item_label='amex'
             AND posted_date >= (SELECT max(posted_date) FROM plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%')),
             'card_in_transit', (SELECT json_build_object('amount', amount, 'batches', batches,
@@ -245,6 +254,34 @@ jobs:
                   return 'owed negative (%s)' % o
               if not a.get('last_autopay'):
                   return 'no autopay anchor — cannot date the balance'
+              # in_flight = Amex payments BOA has already paid out that the card has not yet
+              # credited. np.html SUBTRACTS this from the card balance, so a bad value here
+              # OVERSTATES net position — the one direction this page must never fail in.
+              # Absent is fine (the page reads 0 and behaves as it did before 2026-09-22).
+              #
+              # NOT compared against `owed`. `owed` is the transaction-derived floor, i.e.
+              # charges since the LAST autopay, while in_flight is the payment clearing the
+              # PRIOR statement — so in the days after an autopay in_flight legitimately
+              # EXCEEDS owed, and an `in_flight <= owed` assertion would suppress this whole
+              # section every single month. The count is the invariant that actually holds:
+              # the card autopays once a month, so a 45-day window can hold one unmatched
+              # payment, two only across a month boundary. Three means the amount matcher
+              # has stopped pairing and the figure is not to be trusted.
+              f = a.get('in_flight')
+              if f is not None:
+                  if not isinstance(f, dict):
+                      return 'in_flight not an object'
+                  amt, n = f.get('amount'), f.get('n')
+                  if not isinstance(amt, (int, float)):
+                      return 'in_flight.amount not numeric'
+                  if amt < 0:
+                      return 'in_flight.amount negative (%s)' % amt
+                  if not isinstance(n, int):
+                      return 'in_flight.n not an integer'
+                  if n > 2:
+                      return 'in_flight has %d unmatched payments in 45d — matcher is broken' % n
+                  if (amt > 0) != (n > 0):
+                      return 'in_flight amount/count disagree (%s / %s)' % (amt, n)
               return None
 
           def structural_cit(c):
