@@ -87,9 +87,12 @@ jobs:
           # Keep the fetched block on disk so a reset can never lose it.
           printf '%s' "$PB" > /tmp/plaid_block.json
           # Re-apply ONLY the plaid + generated_at keys onto whatever net_position.json
-          # currently says. Deliberately surgical: this file also carries ap, fedex,
+          # currently says. Deliberately surgical: this file also carries ap,
           # fba_stock and isg_payable, which other processes and humans edit — a whole-file
           # overwrite would clobber their concurrent changes.
+          # (The "fedex" key this comment used to list was removed in #8 on 2026-09-22:
+          # it was a hand-set $14,000 placeholder, and FedEx now rides inside ap via
+          # net_after_credits. This step never wrote it, so nothing here changes.)
           apply_plaid() {
             python3 - <<'PY'
           import json, datetime
