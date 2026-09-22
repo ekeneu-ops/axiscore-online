@@ -16,13 +16,6 @@
     },
     "note": "Live = statement $197,723.99 (sticky, updates on new vendor statement) + recent $32,143.38 (live daily from finance/ap/data.json) = $229,867.37. The page recomputes total = statement_total + data.json.recent.sum each load, so it tracks the AP dashboard and refreshes daily. ESS $208,081.34 (stmt 178,326.39 + recent 29,754.95) + SPR $21,786.03. Off-statement manual items (ZOLL K4080 $3,934.14, Veritiv ~$67K) tracked separately."
   },
-  "fedex": {
-    "outstanding": 14000.0,
-    "fetched_at": "2026-07-25T00:00:00-04:00",
-    "source": "manual_ekene_2026-07-25",
-    "confirm_live": true,
-    "note": "MANUAL \u2014 $14,000 set by Ekene 2026-07-25 (was $12,000). NOT live. B1 finding 2026-06-12: FedEx exposes no billing/invoice API; path is B2 = FedEx Billing Online automated recurring reports + collect-only ingestion (no headless portal login). Goes live only when fedex.invoices flows and the line walk is fully derived."
-  },
   "isg_payable": {
     "outstanding": 5343.41,
     "fetched_at": "2026-06-08T07:00:00-04:00",
