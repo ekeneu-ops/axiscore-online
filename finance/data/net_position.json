@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:16:40.200590+00:00",
+  "generated_at": "2026-09-23T18:11:37.798854+00:00",
   "source_pipeline": "aws_finance_read_runner",
   "schema": "net_position_v3",
   "ap": {
@@ -37,7 +37,7 @@
     "note": "MANUAL \u2014 unsold FBA stock valued at $10,500 by Ekene 2026-07-25. Inventory at cost, NOT cash: it converts only as units sell and Amazon settles. Included in the computed position at Ekene's instruction. Goes live only if an SP-API inventory valuation feed is wired up."
   },
   "plaid": {
-    "fetched_at": "2026-09-23T13:16:05.658297+00:00",
+    "fetched_at": "2026-09-23T18:11:02.020576+00:00",
     "env": "production",
     "source": "plaid_balance_v1_aws",
     "feed_runtime": "aws_read_runner",
@@ -64,7 +64,7 @@
         "key": "amex",
         "label": "Amex owed",
         "type": "credit",
-        "amount": -2242.9
+        "amount": -4655.77
       },
       {
         "key": "paypal",
