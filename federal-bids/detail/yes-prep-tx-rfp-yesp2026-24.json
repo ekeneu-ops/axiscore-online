@@ -1,0 +1,118 @@
+{
+ "bid_id": "yes-prep-tx-rfp-yesp2026-24",
+ "bid_number": "RFP#YESP2026-24",
+ "agency": "Yes Prep, TX",
+ "src": "Invited",
+ "title": "GUS and SSS Servery Improvements",
+ "close": "10/19/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Gulfton Secondary (6565 De Moss Dr, Houston, TX 77074) Please make sure the amount listed here matches what is on your uploaded cost sheet.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Gulfton Secondary (6565 De Moss Dr, Houston, TX 77074) Please make sure the amount listed here matches what is on your uploaded cost sheet. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Southside Secondary (5515 South Loop E, Houston, TX 77033) Please make sure the amount listed here matches what is on your uploaded cost sheet.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Southside Secondary (5515 South Loop E, Houston, TX 77033) Please make sure the amount listed here matches what is on your uploaded cost sheet. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP_YESP2026-24 GUS_ SSS - Servery Improvement _.pdf",
+  "Servery Bid Info and SOW.pdf",
+  "GS Servery Improvement.zip",
+  "SSS Servery Improvement.zip",
+  "Build America Buy America Letter.docx",
+  "New_Vendor_Packet_updated 8.20.2025.pdf",
+  "Bid Invitation.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP_YESP2026-24 GUS_ SSS - Servery Improvement _.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Servery Bid Info and SOW.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "GS Servery Improvement.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SSS Servery Improvement.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Build America Buy America Letter.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "New_Vendor_Packet_updated 8.20.2025.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Invitation.pdf",
+   "kind": "pdf",
+   "tables": 48,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 18.7,
+  "attachment_fetches": 7,
+  "attachment_seconds": 2.7,
+  "attachment_bytes": 35473377,
+  "max_fetch_seconds": 1.44,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-23T13:19:11.086808+00:00",
+ "extract_attempts": 1
+}

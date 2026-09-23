@@ -1,0 +1,70 @@
+{
+ "bid_id": "city-of-ames-ia-2027-035",
+ "bid_number": "2027-035",
+ "agency": "City of Ames, IA",
+ "src": "Invited",
+ "title": "YubiKey 5 FIPS 140-3 Series",
+ "close": "10/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "YUBIKEY 5 FIPS 140-3 SERIES (USB-A)",
+   "qty": "340",
+   "uom": "EA",
+   "note": "No Alternates",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 YUBIKEY 5 FIPS 140-3 SERIES (USB-A) 340 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "YUBIKEY 5 NANO FIPS 140-3 SERIES (USB-A)",
+   "qty": "100",
+   "uom": "EA",
+   "note": "No Alternates",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 YUBIKEY 5 NANO FIPS 140-3 SERIES (USB-A) 100 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Standard Terms _ Conditions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Standard Terms _ Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.3,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 111912,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-23T13:16:19.730428+00:00",
+ "extract_attempts": 1
+}

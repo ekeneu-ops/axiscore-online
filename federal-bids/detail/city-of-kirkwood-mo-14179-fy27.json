@@ -1,0 +1,106 @@
+{
+ "bid_id": "city-of-kirkwood-mo-14179-fy27",
+ "bid_number": "14179 - FY27",
+ "agency": "City of Kirkwood, MO",
+ "src": "Invited",
+ "title": "Reim Theater HVAC Replacement",
+ "close": "10/7/2026 01:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "New Unit Cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 New Unit Cost 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "New Unit Installation",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 New Unit Installation 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Disconnection, Removal and Disposal of Existing Unit",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Disconnection, Removal and Disposal of Existing Unit 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP 14179 Scope of Work.pdf",
+  "PROPOSAL SUBMISSION REQUIREMENTS_ EVALUATION_ AND TERMS.pdf",
+  "Non-Collusive Affidavit.pdf",
+  "Employment of Unauthorized Aliens Affidavit.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 14179 Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "PROPOSAL SUBMISSION REQUIREMENTS_ EVALUATION_ AND TERMS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusive Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Employment of Unauthorized Aliens Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.0,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1422907,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-23T13:16:59.759205+00:00",
+ "extract_attempts": 1
+}

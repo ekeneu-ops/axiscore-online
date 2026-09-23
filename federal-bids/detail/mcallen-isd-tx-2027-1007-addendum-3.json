@@ -1,0 +1,154 @@
+{
+ "bid_id": "mcallen-isd-tx-2027-1007-addendum-3",
+ "bid_number": "2027-1007 Addendum 3",
+ "agency": "McAllen ISD, TX",
+ "src": "Invited",
+ "title": "Anchor Sponsorship",
+ "close": "9/29/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "OFFER Agreement Year 1 (Covering 2026 through 2027): Payment #1 due on or before October 30, 2026 ($25,000 minimum).",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 OFFER Agreement Year 1 (Covering 2026 through 2027): Payment #1 due on or before October 30, 2026 ($25,000 minimum). 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "OFFER Agreement Year 2 (Covering 2027 through 2028): Payment #2 due on or before October 30, 2027 ($25,000 minimum).",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 OFFER Agreement Year 2 (Covering 2027 through 2028): Payment #2 due on or before October 30, 2027 ($25,000 minimum). 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "OFFER Agreement Year 3 (Covering 2028 through 2029): Payment #3 due on or before October 30, 2028 ($25,000 minimum).",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 OFFER Agreement Year 3 (Covering 2028 through 2029): Payment #3 due on or before October 30, 2028 ($25,000 minimum). 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "OFFER Agreement Year 4 (Covering 2029 through 2030): Payment #4 due on or before October 30, 2029 ($25,000 minimum).",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 OFFER Agreement Year 4 (Covering 2029 through 2030): Payment #4 due on or before October 30, 2029 ($25,000 minimum). 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "OFFER Agreement Year 5 (Covering 2030 through 2031): Payment #5 due on or before October 30, 2030 ($25,000 minimum).",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 OFFER Agreement Year 5 (Covering 2030 through 2031): Payment #5 due on or before October 30, 2030 ($25,000 minimum). 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "General Terms and Conditions RFO.pdf",
+  "2027-1007 Addendum No. 3.pdf",
+  "2027-1007 Addendum _ 1.pdf",
+  "2027-1007 Specifications and Scope of Work.pdf",
+  "Sponsorship Scoreboard Agreement Template - DRAFT.pdf",
+  "IRS FORM W-9 Revised March 2024 _Fillable Form_.pdf",
+  "Conflict of Interest Form _CIQ_ Fillable R8.14.2024.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General Terms and Conditions RFO.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2027-1007 Addendum No. 3.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-1007 Addendum _ 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-1007 Specifications and Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sponsorship Scoreboard Agreement Template - DRAFT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "IRS FORM W-9 Revised March 2024 _Fillable Form_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Form _CIQ_ Fillable R8.14.2024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.0,
+  "attachment_fetches": 7,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 1470364,
+  "max_fetch_seconds": 0.23,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-23T13:12:48.780406+00:00",
+ "extract_attempts": 1
+}

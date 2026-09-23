@@ -1,0 +1,113 @@
+{
+ "bid_id": "united-isd-tx-rfcq-021-2026",
+ "bid_number": "RFCQ 021-2026",
+ "agency": "United ISD, TX",
+ "src": "Invited",
+ "title": "Commercial Kitchen Fire Suppression (Ansul) Services",
+ "close": "10/2/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 40,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "FORMS FOR RFCQ PROPOSALS 10.08.25.pdf",
+  "RFCQ 021-2026 Commercial Kitchen Fire Suppression _Ansul_ Services Bid Specifications.pdf",
+  "RFCQ 021-2026 Proposal Sheet.xlsx",
+  "United ISD Insurance Requirements for Service Providers 2025.pdf",
+  "United ISD Insurance Requirements for Products _ Equipment 2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "FORMS FOR RFCQ PROPOSALS 10.08.25.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFCQ 021-2026 Commercial Kitchen Fire Suppression _Ansul_ Services Bid Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFCQ 021-2026 Proposal Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "United ISD Insurance Requirements for Service Providers 2025.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "United ISD Insurance Requirements for Products _ Equipment 2025.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFCQ 021-2026 Proposal Sheet.xlsx",
+   "sheet": 0,
+   "header_row": 3,
+   "headers": [
+    "Line \nItem #",
+    "Item Description",
+    "Unit of Measure \n(UOM)",
+    "Unit Price ($)",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 40,
+   "sample": [
+    [
+     "1",
+     "Licensed Repair Technician Labor Rate - Non-Routine Repairs",
+     "Hourly Rate",
+     "$ [Enter Price]",
+     ""
+    ],
+    [
+     "2",
+     "Emergency / Overtime Repair Technician Labor Rate",
+     "Hourly Rate",
+     "$ [Enter Price]",
+     ""
+    ],
+    [
+     "3",
+     "Non-Routine Repair Campus Trip Fee",
+     "Per Trip Fee",
+     "$ [Enter Price]",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.9,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 3111154,
+  "max_fetch_seconds": 0.26,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-23T13:16:28.168704+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,114 @@
+{
+ "bid_id": "greenville-electric-utility-tx-25-26-32",
+ "bid_number": "25-26-32",
+ "agency": "Greenville Electric Utility, TX",
+ "src": "Invited",
+ "title": "Annual Turbine Repair and Maintenance Contract",
+ "close": "10/7/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Labor Hourly Rates",
+   "qty": "1",
+   "uom": "1",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Labor Hourly Rates 1 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Mobilization/ Demobilization Fees",
+   "qty": "1",
+   "uom": "Flat Rate Estimate",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Mobilization/ Demobilization Fees 1 Flat Rate Estimate No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Parts Mark-up Percentage",
+   "qty": "",
+   "uom": "1",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Parts Mark-up Percentage 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Shipping Costs",
+   "qty": "1",
+   "uom": "Flat Rate Estimate",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Shipping Costs 1 Flat Rate Estimate No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Tool Trailer Rental Fee",
+   "qty": "1",
+   "uom": "Day",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Tool Trailer Rental Fee 1 Day No Response"
+  }
+ ],
+ "attachments_saved": [
+  "GEUS Vendor Forms 071625.pdf",
+  "S-004 GEUS Standard Terms and Conditions REV 082125.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "GEUS Vendor Forms 071625.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "S-004 GEUS Standard Terms and Conditions REV 082125.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 20.6,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 9939828,
+  "max_fetch_seconds": 0.6,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-23T13:18:04.660034+00:00",
+ "extract_attempts": 1
+}
