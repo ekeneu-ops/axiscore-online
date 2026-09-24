@@ -1,0 +1,85 @@
+{
+ "bid_id": "coconino-county-az-2027-100-addendum-1",
+ "bid_number": "2027-100 Addendum 1",
+ "agency": "Coconino County, AZ",
+ "src": "Open",
+ "title": "CMAR: U.S. 89 Flood Mitigation Project \u2013 Governmental Tank Storm Drain Lateral System - Pipeline Flood Area",
+ "close": "9/30/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 40,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFQ 2027-100 CMAR for U.S. 89 Flood Mitigation Project.pdf",
+  "RFQ 2027-100 Addendum 1- Government Tank Watershed - 60_ Plans.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFQ 2027-100 CMAR for U.S. 89 Flood Mitigation Project.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ 2027-100 Addendum 1- Government Tank Watershed - 60_ Plans.pdf",
+   "kind": "pdf",
+   "tables": 41,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFQ 2027-100 Addendum 1- Government Tank Watershed - 60_ Plans.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "NUMBER",
+    "QUANTITY",
+    "UNIT",
+    "KEYNOTE"
+   ],
+   "score": 2,
+   "n_rows": 40,
+   "sample": [
+    [
+     "001",
+     "5",
+     "EA",
+     "REMOVE AND REPLACE TREE IN KIND AS NEEDED FOR\nCONSTRUCTION. COORDINATE WITH HOMEOWNER."
+    ],
+    [
+     "002",
+     "1240",
+     "LF",
+     "REMOVE AND REPLACE FENCE IN KIND AS NEEDED FOR\nCONSTRUCTION. COORDINATE WITH HOMEOWNER."
+    ],
+    [
+     "003",
+     "360",
+     "SY",
+     "REMOVE AND REPLACE ASPHALT MILLING ROADWAY SECTION\nIN KIND."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 42.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 14425165,
+  "max_fetch_seconds": 0.78,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-24T13:56:36.094909+00:00",
+ "extract_attempts": 1
+}
