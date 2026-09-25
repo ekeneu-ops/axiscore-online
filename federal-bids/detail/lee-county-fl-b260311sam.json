@@ -1,0 +1,570 @@
+{
+ "bid_id": "lee-county-fl-b260311sam",
+ "bid_number": "B260311SAM",
+ "agency": "Lee County, FL",
+ "src": "Invited",
+ "title": "Buckingham Facility Resource Area",
+ "close": "10/27/2026 02:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 31,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 31,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "1000 - Mobilization/Demobilization",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 1000 - Mobilization/Demobilization 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "1001 - Clearing and Grubbing",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 1001 - Clearing and Grubbing 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "1002 - Intel Protection System",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 1002 - Intel Protection System 2 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "1003 - Environmental Protection",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 1003 - Environmental Protection 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "1004 - Electrical Site Work",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 1004 - Electrical Site Work 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "1.6",
+   "desc": "2000 - Embankment",
+   "qty": "976",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.6 2000 - Embankment 976 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "1.7",
+   "desc": "2001 - Clean and Sealcoat Existing Parking",
+   "qty": "14534",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.7 2001 - Clean and Sealcoat Existing Parking 14534 SF No Response"
+  },
+  {
+   "ctl": "ucPackageLine9",
+   "kind": "package_line",
+   "line": "1.8",
+   "desc": "2002 - Type B Stabilization (12\" LBR40)",
+   "qty": "1010",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.8 2002 - Type B Stabilization (12\" LBR40) 1010 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "1.9",
+   "desc": "2003 - Optional Base, Base Group 06, Limerock, LBR100 (Existing Parking)",
+   "qty": "1010",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.9 2003 - Optional Base, Base Group 06, Limerock, LBR100 (Existing Parking) 1010 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "1.10",
+   "desc": "2004 - Asphaltic Concrete, S-III, 1 1/2\"",
+   "qty": "82",
+   "uom": "TN",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.10 2004 - Asphaltic Concrete, S-III, 1 1/2\" 82 TN No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "1.11",
+   "desc": "2005 - Concrete Wheel Stops 6'",
+   "qty": "62",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.11 2005 - Concrete Wheel Stops 6' 62 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine13",
+   "kind": "package_line",
+   "line": "1.12",
+   "desc": "2006 - Signage and Pavement Markings",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.12 2006 - Signage and Pavement Markings 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine14",
+   "kind": "package_line",
+   "line": "1.13",
+   "desc": "2007 - Concrete Sidewalk",
+   "qty": "206",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.13 2007 - Concrete Sidewalk 206 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine15",
+   "kind": "package_line",
+   "line": "1.14",
+   "desc": "3000 - FDOT Type P-9 (Alt B) Curb Inlet",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.14 3000 - FDOT Type P-9 (Alt B) Curb Inlet 2 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine16",
+   "kind": "package_line",
+   "line": "1.15",
+   "desc": "3001 - 12\" x 18\" ERCP",
+   "qty": "127",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.15 3001 - 12\" x 18\" ERCP 127 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine17",
+   "kind": "package_line",
+   "line": "1.16",
+   "desc": "3002 - 12\" x 18\" Endwall",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.16 3002 - 12\" x 18\" Endwall 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine18",
+   "kind": "package_line",
+   "line": "1.17",
+   "desc": "3003 - Rip-Rap",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.17 3003 - Rip-Rap 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine19",
+   "kind": "package_line",
+   "line": "1.18",
+   "desc": "4000 - 2\" Cut-in Connection (Water)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.18 4000 - 2\" Cut-in Connection (Water) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine20",
+   "kind": "package_line",
+   "line": "1.19",
+   "desc": "4001 - 2\"HDPE (DR17)(Water)",
+   "qty": "597",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.19 4001 - 2\"HDPE (DR17)(Water) 597 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine21",
+   "kind": "package_line",
+   "line": "1.20",
+   "desc": "4002 - 2\" BFPD and Meter Box Assembly",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.20 4002 - 2\" BFPD and Meter Box Assembly 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine22",
+   "kind": "package_line",
+   "line": "1.21",
+   "desc": "4003 - Fire Hydrant Assembly",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.21 4003 - Fire Hydrant Assembly 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine23",
+   "kind": "package_line",
+   "line": "1.22",
+   "desc": "4004 - Fire Hydraant Relocate",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.22 4004 - Fire Hydraant Relocate 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine24",
+   "kind": "package_line",
+   "line": "1.23",
+   "desc": "4005 - 8\" PVC DR14 C900 (Reuse Main)",
+   "qty": "230",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.23 4005 - 8\" PVC DR14 C900 (Reuse Main) 230 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine25",
+   "kind": "package_line",
+   "line": "1.24",
+   "desc": "4006 - Cut-In Connection (Force Main)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.24 4006 - Cut-In Connection (Force Main) 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine26",
+   "kind": "package_line",
+   "line": "1.25",
+   "desc": "4007 - 2\" HDPE Force Main",
+   "qty": "441",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.25 4007 - 2\" HDPE Force Main 441 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine27",
+   "kind": "package_line",
+   "line": "1.26",
+   "desc": "4008 - 6\" SDR26 Gravity Main (SS Service with Cleanouts)",
+   "qty": "105",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.26 4008 - 6\" SDR26 Gravity Main (SS Service with Cleanouts) 105 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine28",
+   "kind": "package_line",
+   "line": "1.27",
+   "desc": "4009 - Lift Station",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.27 4009 - Lift Station 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine29",
+   "kind": "package_line",
+   "line": "1.28",
+   "desc": "5000 - Performance Turf, Sod",
+   "qty": "2326",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.28 5000 - Performance Turf, Sod 2326 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine30",
+   "kind": "package_line",
+   "line": "1.29",
+   "desc": "5001 - Bollards",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.29 5001 - Bollards 5 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine31",
+   "kind": "package_line",
+   "line": "1.30",
+   "desc": "5002 - Bonds, Insurance",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.30 5002 - Bonds, Insurance 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine33",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "6000 - Modular Building - All-inclusive fee for one (1) Modular Unit and all Work described under the Scope of Services. The all-inclusive fee shall include but not be limited to all labor, equipment, travel, lodging, Materials, overhead and profit and any other contractor expense for this Project.",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 6000 - Modular Building - All-inclusive fee for one (1) Modular Unit and all Work described under the Scope of Services. The all-inclusive fee shall include but not be limited to all labor, equipment, travel, lodging, Materials, overhead and profit and any other contractor expense for this Project. 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Formal Bid CONSTRUCTION Terms and Conditions 25-11.pdf",
+  "B260311SAM - Construction Insurance Guide.pdf",
+  "B260311SAM - Special Conditions.pdf",
+  "B260311SAM - General Conditions.pdf",
+  "B260311SAM -  Scope and Specs.pdf",
+  "B260311SAM - Attachment A - Constructions Plans LCSW Transfer Station  Building.pdf",
+  "B260311SAM - Attachment B - Measure and Payment - Buckingham Resource Area.pdf",
+  "B260311SAM - Attachment C - Sample for Module Building Floor Plan.pdf",
+  "B260311SAM - Pre-Bid Meeting Location.pdf",
+  "Sunbiz_Sample.pdf",
+  "Affidavit of Immigration Laws E-Verify.pdf",
+  "Sub-Contractor Consultant List.pdf",
+  "Public Entity Crime Form.pdf",
+  "Trench Safety.pdf",
+  "Bid Bond.pdf",
+  "Affidavit of Compliance 287.138 - 787.06 - 4.7.26 - Fillable.pdf",
+  "Reference Survey.pdf",
+  "Negligence Breach and or Non-Compliance Disclosure Form-Fillable-07.08.26.pdf",
+  "Vendor Background Screening Affidavit.pdf",
+  "B260311SAM - Formal Standard Bid Sealed Bid Label.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Formal Bid CONSTRUCTION Terms and Conditions 25-11.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM - Construction Insurance Guide.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM - Special Conditions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM - General Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM -  Scope and Specs.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM - Attachment A - Constructions Plans LCSW Transfer Station  Building.pdf",
+   "kind": "pdf",
+   "tables": 72,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM - Attachment B - Measure and Payment - Buckingham Resource Area.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM - Attachment C - Sample for Module Building Floor Plan.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM - Pre-Bid Meeting Location.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Sunbiz_Sample.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit of Immigration Laws E-Verify.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sub-Contractor Consultant List.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Public Entity Crime Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Trench Safety.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit of Compliance 287.138 - 787.06 - 4.7.26 - Fillable.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Reference Survey.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Negligence Breach and or Non-Compliance Disclosure Form-Fillable-07.08.26.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Background Screening Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260311SAM - Formal Standard Bid Sealed Bid Label.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 30.0,
+  "attachment_fetches": 20,
+  "attachment_seconds": 2.5,
+  "attachment_bytes": 17537199,
+  "max_fetch_seconds": 0.71,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-25T13:30:40.989505+00:00",
+ "extract_attempts": 1
+}

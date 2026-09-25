@@ -1,0 +1,90 @@
+{
+ "bid_id": "lincoln-county-mo-2026-531-265",
+ "bid_number": "2026-531-265",
+ "agency": "Lincoln County, MO",
+ "src": "Invited",
+ "title": "Jail Management System RFQ",
+ "close": "10/8/2026 02:15 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Annual Jail Management Software (JMS) cost",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Proposed JMS Secure cloud and only cloud based operation on County-approved computers. Responsive mobile access for tablets and smartphones. Support for current Windows operating systems and commonly used web browsers. \u2022 Configurable dashboards based on user role. \u2022 Search capabilities across inmate, booking, charge, court, housing, incident, and release records. \u2022 Role-based permissions and least-privilege access. \u2022 Multi-factor authentication. \u2022 Complete audit logs showing users, dates, times, changes, views, exports, and administrative actions. \u2022 Electronic signatures, approval workflows, and configurable forms. \u2022 Document and image attachment capabilities. \u2022 Barcode, wristband, or QR-code support. \u2022 Automatic alerts, reminders, and task assignments. \u2022 High availability, backup, disaster recovery, and business-continuity protections. \u2022 Separate test and production environments. \u2022 Configurable workflows without requiring extensive custom programming. \u2022 Data export in commonly used formats. \u2022 Accessibility features for users with disabilities. Booking and Intake The system should support: \u2022 Pre-booking and arresting-agency information. \u2022 Identity verification and duplicate-person detection. \u2022 Demographic information and aliases. \u2022 Photographs, scars, marks, tattoos, and identifying characteristics. \u2022 Charges, warrants, holds, bonds, sentences, and court information. \u2022 Property and money inventory. \u2022 Electronic intake forms and signatures. \u2022 Medical, mental-health, suicide-risk, and vulnerability screening. \u2022 Keep-separate, protective-custody, PREA-related, and security alerts. \u2022 Fingerprint and mugshot-system integration. \u2022 Automatic generation of inmate identification numbers and wristbands. \u2022 Arresting and transporting officer information. \u2022 Intoxication, injury, medication, and special-needs documentation. \u2022 Automated booking checklists and supervisor approvals. Inmate Classification and Housing The system should provide: \u2022 Objective and configurable classification tools. \u2022 Initial and reassessment workflows. \u2022 Risk levels and scoring. \u2022 Housing recommendations based on classification, gender, charges, medical needs, separation requirements, and available beds. \u2022 Real-time housing and bed availability. \u2022 Cell, bunk, pod, and unit assignments. \u2022 Inmate movement tracking. \u2022 Temporary movement and scheduled destination tracking. \u2022 Administrative segregation, disciplinary segregation, protective custody, and special-management status. \u2022 Historical housing and movement records. \u2022 Headcounts and emergency rosters. Advanced Court Liaison Module The court liaison function is a priority and should include: \u2022 Centralized court calendar for all inmates and participating courts. \u2022 Court dates, times, locations, judges, case numbers, charges, and hearing types. \u2022 Import or electronic receipt of court settings, orders, warrants, commitments, and disposition information. \u2022 Automatic identification of inmates scheduled for court. \u2022 Configurable daily court lists and transportation rosters. \u2022 Remote appearance and video-conference scheduling. \u2022 Courtroom, equipment, and interview-room scheduling. \u2022 Notification of newly scheduled, rescheduled, continued, or canceled court appearances. \u2022 Alerts for conflicting court dates or transportation schedules. \u2022 Automated reminders for court liaison personnel, detention staff, transportation officers, and supervisors. \u2022 Tracking of warrants, bonds, commitments, sentences, releases, detainers, and time-served calculations. \u2022 Electronic workflow for receiving and verifying court orders. \u2022 Supervisor review when a court order changes an inmate\u2019s custody or release status. \u2022 Documentation of court appearance outcomes. \u2022 Pending-action queues for orders requiring staff action. \u2022 Tracking of paperwork received, reviewed, completed, and returned. \u2022 Court document storage linked to the inmate and case. \u2022 Secure electronic exchange with courts when supported by the court\u2019s systems. \u2022 Calendar views by inmate, court, judge, courtroom, date, and transportation assignment. \u2022 Court liaison dashboards showing overdue, pending, conflicting, and completed actions. \u2022 Court appearance history and complete audit records. \u2022 Automatic daily reconciliation of court schedules against the inmate population. \u2022 Reports identifying inmates with no future court date, incomplete dispositions, outstanding paperwork, or possible release issues. \u2022 Configurable notification templates for authorized court and justice partners. Vendors should clearly identify which court liaison capabilities are standard, configurable, custom-developed, or dependent on third-party integration. Automated Reporting and Analytics The system should provide: \u2022 Configurable automated reports. \u2022 Report scheduling by date, time, frequency, and recipient. \u2022 Secure delivery through dashboards, protected email, secure file transfer, or other approved methods. \u2022 Daily population and headcount reports. \u2022 Booking and release reports. \u2022 Average daily population. \u2022 Length-of-stay analysis. \u2022 Charge, bond, court, and sentencing reports. \u2022 Housing and bed-capacity reports. \u2022 Classification and reassessment reports. \u2022 Incident, use-of-force, disciplinary, and grievance reports. \u2022 Medical and mental-health activity reports, subject to access restrictions. \u2022 Inmate movement and transport reports. \u2022 Court appearance, missed court, rescheduling, and pending court-action reports. \u2022 Staff activity and compliance reports. \u2022 Meal, medication, observation, recreation, and security-check reports. \u2022 Billing and per-diem reports for outside agencies. \u2022 State and federal reporting support where applicable. \u2022 Custom report builder for trained County users. \u2022 Dashboards with charts, filters, drill-down capabilities, and export functions. \u2022 Automatic distribution based on user role and authorization. \u2022 Data export to PDF, Excel, CSV, and other common formats. \u2022 Protection against unauthorized disclosure of sealed, medical, juvenile, or otherwise restricted information. The County must retain the ability to create and modify reports without paying the vendor for every routine change. Mobile Capabilities The mobile solution should allow authorized staff to: \u2022 Perform inmate and housing searches. \u2022 View photographs, alerts, classifications, and authorized record information. \u2022 Conduct and document security rounds. \u2022 Record inmate movement. \u2022 Perform headcounts. \u2022 Document meals, recreation, showers, observations, programs, and services. \u2022 Create incident and disciplinary reports. \u2022 Capture photographs and electronic signatures. \u2022 Scan wristbands, barcodes, or QR codes. \u2022 Receive court, medical, transport, release, and security notifications. \u2022 Work through a secure connection on County-managed devices. \u2022 Continue limited operations during temporary connectivity interruptions, if available. \u2022 Synchronize offline entries after connectivity is restored. \u2022 Remotely disable application access if a device is lost or stolen. Vendors must explain any differences between mobile and desktop functionality. Additional Detention Functions The County prefers a system that also supports: \u2022 Inmate property and trust accounting \u2022 Commissary integration \u2022 Medical and medication records or integration \u2022 Incident and use-of-force reporting \u2022 Disciplinary hearings and sanctions \u2022 Inmate grievances and requests \u2022 PREA documentation and tracking \u2022 Programs, work assignments, and visitation \u2022 Attorney and professional visits \u2022 Inmate telephone and video visitation integration \u2022 Mail and package tracking \u2022 Meal and dietary requirements \u2022 Medication pass documentation \u2022 Suicide-watch and special-observation checks \u2022 Restraint and safety-equipment logs \u2022 Transportation scheduling \u2022 Release planning and verification \u2022 Victim-notification interfaces \u2022 Billing for municipal, state, federal, or out-of-county inmates \u2022 Inventory and equipment tracking",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Annual Jail Management Software (JMS) cost 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "W-9_Form.pdf",
+  "AFFIDAVIT_OF_WORK_AUTHORIZATION.pdf",
+  "Affidavit_of_Compliance.pdf",
+  "General Terms and Conditions 2026.pdf",
+  "Jail Management System Bid Specific Requirements.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "W-9_Form.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "AFFIDAVIT_OF_WORK_AUTHORIZATION.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit_of_Compliance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Terms and Conditions 2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Jail Management System Bid Specific Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.8,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 895069,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-25T13:29:30.693791+00:00",
+ "extract_attempts": 1
+}
