@@ -1,0 +1,611 @@
+{
+ "bid_id": "truckee-meadows-water-authority-pwp-wa-2027-004-addendum-2",
+ "bid_number": "PWP-WA-2027-004 Addendum 2",
+ "agency": "Truckee Meadows Water Authority",
+ "src": "Open",
+ "title": "Goldenrod Drive Water Main Improvement",
+ "close": "10/1/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 29,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "1.1 - Mobilization",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 1.1 - Mobilization 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "1.2 - Demobilization",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 1.2 - Demobilization 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "1.03 - Furnish and Install Traffic Control",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 1.03 - Furnish and Install Traffic Control 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "1.04 - Asbestos Abatement, Handling, Storage and Disposal Plan (AAHSD)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 1.04 - Asbestos Abatement, Handling, Storage and Disposal Plan (AAHSD) 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "1.05 - 12-inch Diameter Water Main (Restrained Joint Ductile Iron Pipe)",
+   "qty": "4254",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 1.05 - 12-inch Diameter Water Main (Restrained Joint Ductile Iron Pipe) 4254 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "1.06 - 12-inch Diameter In-Line Gate Valve",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 1.06 - 12-inch Diameter In-Line Gate Valve 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "1.07 - Mountain Meadows Lane Water Tie-In & Connection to Existing Main",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 1.07 - Mountain Meadows Lane Water Tie-In & Connection to Existing Main 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "1.08 - Furnish and Install 14\"x\"12\" Hot Tap Assembly (TMWA to Perform Tap)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 1.08 - Furnish and Install 14\"x\"12\" Hot Tap Assembly (TMWA to Perform Tap) 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "1.09 - Tannerwood Drive Intersection Tee Cluster and 8-inch Permanent Dead-End Flush Assembly",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 1.09 - Tannerwood Drive Intersection Tee Cluster and 8-inch Permanent Dead-End Flush Assembly 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "1.10 - 4-inch In-Line Flush Assembly",
+   "qty": "3",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 1.10 - 4-inch In-Line Flush Assembly 3 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "1.11 - 2-inch Temporary Flush Assembly",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 1.11 - 2-inch Temporary Flush Assembly 5 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "1.12 - Air Release Valve Assembly",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 1.12 - Air Release Valve Assembly 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "1.13 - Bollard",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 1.13 - Bollard 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "1.14 - Full-Depth Removal and 3\" Replacement with Asphalt Concrete",
+   "qty": "45250",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 1.14 - Full-Depth Removal and 3\" Replacement with Asphalt Concrete 45250 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "1.15 - Permanent Trench Patchwork",
+   "qty": "6595",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 1.15 - Permanent Trench Patchwork 6595 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "1.16 - 2\" Mill and Overlay",
+   "qty": "24425",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 1.16 - 2\" Mill and Overlay 24425 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "1.17 - Crack Seal",
+   "qty": "69450",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 1.17 - Crack Seal 69450 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "1.18 - Slurry Seal",
+   "qty": "139125",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 1.18 - Slurry Seal 139125 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "1.19 - Reset and Adjust Valve Lids",
+   "qty": "48",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 1.19 - Reset and Adjust Valve Lids 48 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "1.20 - Reset and Adjust Survey Monuments",
+   "qty": "9",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 1.20 - Reset and Adjust Survey Monuments 9 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "1.21 - Remove and Replace Type I P.C.C. Curb & Gutter",
+   "qty": "30",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 1.21 - Remove and Replace Type I P.C.C. Curb & Gutter 30 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "1.22 - Remove and Replace P.C.C. Driveway Apron",
+   "qty": "60",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 1.22 - Remove and Replace P.C.C. Driveway Apron 60 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "1.23 - Mountain Meadows PRS",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 1.23 - Mountain Meadows PRS 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "1.24 - Stop Bar and \"STOP\" Pavement Paint Markings (Unit Cost Adjusting Bid Item)",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 1.24 - Stop Bar and \"STOP\" Pavement Paint Markings (Unit Cost Adjusting Bid Item) 5 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "25",
+   "desc": "1.25 - Rock Excavation (Unit Cost Adjusting Bid Item)",
+   "qty": "43",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 1.25 - Rock Excavation (Unit Cost Adjusting Bid Item) 43 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "1.26 - Extra Trenching Depth (Unit Cost Adjusting Bid Item)",
+   "qty": "210",
+   "uom": "VF/LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 1.26 - Extra Trenching Depth (Unit Cost Adjusting Bid Item) 210 VF/LF No Response"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "27",
+   "desc": "1.27 - Trimming and Root Mitigation (Unit Cost Adjusting Bid Item)",
+   "qty": "40",
+   "uom": "HR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "27 1.27 - Trimming and Root Mitigation (Unit Cost Adjusting Bid Item) 40 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "28",
+   "desc": "1.28 - SS/SD Excavatable Slurry Backfill (Unit Cost Adjusting Bid Item)",
+   "qty": "14",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 1.28 - SS/SD Excavatable Slurry Backfill (Unit Cost Adjusting Bid Item) 14 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "29",
+   "desc": "1.29 - Type 2, Class B Leveling Course (Unit Cost Adjusting Bid Item)",
+   "qty": "500",
+   "uom": "TN",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "29 1.29 - Type 2, Class B Leveling Course (Unit Cost Adjusting Bid Item) 500 TN No Response"
+  }
+ ],
+ "attachments_saved": [
+  "01. Instructions to Bidders - Rev. 07.2026.pdf",
+  "02. Bid Bond.pdf",
+  "03. Disclosure of Ownership and Vendor Information.pdf",
+  "04. Reference Projects and Personnel - revised.pdf",
+  "04a. Reference Personnel Only - revised.pdf",
+  "05. Contractor 5_ Subcontractor List.pdf",
+  "06. Contractor 1_ Subcontractor List.pdf",
+  "07. Conflict of Interest Disclosure Form.pdf",
+  "08. Certification Regarding Debarment.pdf",
+  "09. Local Preference Affidavit NGEM.pdf",
+  "10. TMWA End User Data Agreement.pdf",
+  "11. MASTER_FORM_Public_Work_General_Conditions_v18_07.2026.pdf",
+  "10-0001.129_Goldenrod Main_Specifications.pdf",
+  "10-0001.129_Goldenrod Main_PlanSet.pdf",
+  "10-0001.129_Goldenrod Main_Geotechnical and Pavement Site Assessment Report.pdf",
+  "Sample Construction Agreement - Goldenrod Water Main Improvement.pdf",
+  "Goldenrod Main_Bid Addenda 1_Questions and Clarifications.pdf",
+  "Combined Pre-bid Agenda and Pre-bid Sign-in sheet.pdf",
+  "Supplementary Conditions_Revision 1_BidAdd1.pdf",
+  "Spec Section_01 20 00 - Measurement and Payment_BidAdd1.pdf",
+  "Spec Section_31 23 00.pdf",
+  "Plan Sheet_D02_BidAdd1.pdf",
+  "Goldenrod Main_Bid Addenda 2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "01. Instructions to Bidders - Rev. 07.2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "02. Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "03. Disclosure of Ownership and Vendor Information.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "04. Reference Projects and Personnel - revised.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "04a. Reference Personnel Only - revised.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "05. Contractor 5_ Subcontractor List.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "06. Contractor 1_ Subcontractor List.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "07. Conflict of Interest Disclosure Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "08. Certification Regarding Debarment.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "09. Local Preference Affidavit NGEM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "10. TMWA End User Data Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "11. MASTER_FORM_Public_Work_General_Conditions_v18_07.2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "10-0001.129_Goldenrod Main_Specifications.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "10-0001.129_Goldenrod Main_PlanSet.pdf",
+   "kind": "pdf",
+   "tables": 89,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "10-0001.129_Goldenrod Main_Geotechnical and Pavement Site Assessment Report.pdf",
+   "kind": "pdf",
+   "tables": 52,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Sample Construction Agreement - Goldenrod Water Main Improvement.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Goldenrod Main_Bid Addenda 1_Questions and Clarifications.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Combined Pre-bid Agenda and Pre-bid Sign-in sheet.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Supplementary Conditions_Revision 1_BidAdd1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Spec Section_01 20 00 - Measurement and Payment_BidAdd1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Spec Section_31 23 00.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Plan Sheet_D02_BidAdd1.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Goldenrod Main_Bid Addenda 2.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "10-0001.129_Goldenrod Main_Geotechnical and Pavement Site Assessment Report.pdf",
+   "sheet": 42,
+   "header_row": 4,
+   "headers": [
+    "Test Results (ASTM C117 & C136) Material Description\nSieve Size Out of Pct. silty sand with gravel\nFiner Spec.*\nor Spec. of\n(%) (%)\nDiam. (mm.) (%) Fines\n1 1/2\" 100.0\n1\" 91.1\n3/4\" 91.1 70-100 Atterberg Limits\nPL= 19 LL= 21 PI= 2\n1/2\" 88.7\n3/8\" 88.3\nCoefficients\n#4 82.2 D90= 15.5501 D85= 6.1289 D60= 0.9134\n#8 72.6 D50= 0.4638 D30= 0.1464 D15=\n#10 70.4 D10= Cu= Cc=\n#16 63.6\nClassification\n#30 53.9\nUSCS= SM AASHTO= A-1-b\n#40 48.6 10-50\n#50 42.4 Test Remarks\n#100 30.4\nRECEIVED ON 7/10/2025\n#200 20.3 0-35\n* SSPWC Class E Backfill (2012 Rev. 8 Section 200.03.06)\nSource of Sample: TP-25-01 Depth: 0-1.5'\nSample Number: A Sample Date: 7/1/2025",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Clie\nProj\nProj",
+     "nt: DOWL\nect: GOLDENROD DRIVE WATERLINE GEOTECH\nect No: 3888 PLATE B-1a",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "10-0001.129_Goldenrod Main_Geotechnical and Pavement Site Assessment Report.pdf",
+   "sheet": 45,
+   "header_row": 4,
+   "headers": [
+    "Test Results (ASTM C117 & C136) Material Description\nSieve Size Out of Pct. silty, clayey sand\nFiner Spec.*\nor Spec. of\n(%) (%)\nDiam. (mm.) (%) Fines\n3/4\" 100.0 70-100\n1/2\" 97.9\n3/8\" 95.9 Atterberg Limits\nPL= 19 LL= 23 PI= 4\n#4 89.3\n#8 79.2\nCoefficients\n#10 76.6 D90= 5.0443 D85= 3.4560 D60= 0.6938\n#16 68.6 D50= 0.3801 D30= 0.1205 D15=\n#30 57.6 D10= Cu= Cc=\n#40 52.0 10-50 +2.0\nClassification\n#50 45.6\nUSCS= SC-SM AASHTO= A-2-4(0)\n#100 33.4\n#200 23.1 0-35 Test Remarks\nRECEIVED ON 7/10/2025\n* SSPWC Class E Backfill (2012 Rev. 8 Section 200.03.06)\nSource of Sample: TP-25-01 Depth: 2-3'\nSample Number: B Sample Date: 7/1/2025",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Clie\nProj\nProj",
+     "nt: DOWL\nect: GOLDENROD DRIVE WATERLINE GEOTECH\nect No: 3888 PLATE B-1b",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 51.3,
+  "attachment_fetches": 23,
+  "attachment_seconds": 5.1,
+  "attachment_bytes": 49939374,
+  "max_fetch_seconds": 2.25,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-26T13:58:31.278765+00:00",
+ "extract_attempts": 1
+}

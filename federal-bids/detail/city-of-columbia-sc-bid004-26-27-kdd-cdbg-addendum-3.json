@@ -1,0 +1,203 @@
+{
+ "bid_id": "city-of-columbia-sc-bid004-26-27-kdd-cdbg-addendum-3",
+ "bid_number": "BID004-26-27-KDD-CDBG Addendum 3",
+ "agency": "City of Columbia, SC",
+ "src": "Open",
+ "title": "Rapid Shelter Commercial Kitchen Upfit",
+ "close": "10/2/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 15,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "BID004-26-27-KDD-CDBG Rapid Shelter Commercial Kitchen Upfit",
+   "qty": "1",
+   "uom": "Lump Sum (LS)",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 BID004-26-27-KDD-CDBG Rapid Shelter Commercial Kitchen Upfit 1 Lump Sum (LS) No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Addendum3.BID004-26-27-KDD-CDBG.pdf",
+  "Addendum2.BID004-26-27-KDD-CDBG.pdf",
+  "Appendix - RevisedBidForm1.BID005-26-27-KDD-CDBG.xlsx",
+  "Addendum1.BID004-26-27-KDD-CDBG.pdf",
+  "Final.BID004-26-27-KDD-CDBG.pdf",
+  "Appendix - BidForm.BID005-26-27-KDD-CDBG.xlsx",
+  "Appendix - BIRforSubconsultants-Subcontractors.2025.pdf",
+  "Appendices.BID004-26-27-KDD-CDBG.pdf",
+  "Exhibit - ConstructionPlans.BID004-26-27-KDD-CDBG.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Addendum3.BID004-26-27-KDD-CDBG.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum2.BID004-26-27-KDD-CDBG.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix - RevisedBidForm1.BID005-26-27-KDD-CDBG.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Addendum1.BID004-26-27-KDD-CDBG.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Final.BID004-26-27-KDD-CDBG.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix - BidForm.BID005-26-27-KDD-CDBG.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Appendix - BIRforSubconsultants-Subcontractors.2025.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendices.BID004-26-27-KDD-CDBG.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit - ConstructionPlans.BID004-26-27-KDD-CDBG.pdf",
+   "kind": "pdf",
+   "tables": 36,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Appendix - RevisedBidForm1.BID005-26-27-KDD-CDBG.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "",
+    "Item",
+    "Quantity",
+    "Unit Of Measure",
+    "Unit Price",
+    "Total"
+   ],
+   "score": 3,
+   "n_rows": 15,
+   "sample": [
+    [
+     "",
+     "General Specifications",
+     "1",
+     "LS",
+     "",
+     "0"
+    ],
+    [
+     "",
+     "Demolition",
+     "1",
+     "LS",
+     "",
+     "0"
+    ],
+    [
+     "",
+     "Mechanical",
+     "1",
+     "LS",
+     "",
+     "0"
+    ]
+   ]
+  },
+  {
+   "source": "Appendix - BidForm.BID005-26-27-KDD-CDBG.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "",
+    "Item",
+    "Quantity",
+    "Unit Of Measure",
+    "Unit Price",
+    "Total"
+   ],
+   "score": 3,
+   "n_rows": 13,
+   "sample": [
+    [
+     "",
+     "General Specifications",
+     "1",
+     "LS",
+     "",
+     "0"
+    ],
+    [
+     "",
+     "Demolition",
+     "1",
+     "LS",
+     "",
+     "0"
+    ],
+    [
+     "",
+     "Mechanical",
+     "1",
+     "LS",
+     "",
+     "0"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 38.0,
+  "attachment_fetches": 9,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 11269578,
+  "max_fetch_seconds": 0.43,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-26T14:01:55.636380+00:00",
+ "extract_attempts": 1
+}

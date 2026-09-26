@@ -4,7 +4,7 @@
  "agency": "City of Englewood",
  "src": "Open",
  "title": "LABORATORY INFORMATION MANAGEMENT SYSTEM (LIMS)",
- "close": "9/17/2026 04:00 PM (ET)",
+ "close": "10/1/2026 04:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -125,43 +125,43 @@
   }
  ],
  "attachments_saved": [
-  "RFP-26-031_final.pdf",
-  "PSA Template - 2026 - rev_d 2026.02.27.doc",
-  "Attachment B_Allen Plant LIMS Requirements.xlsx",
-  "Attachment C_RFP Functional Needs Instructions.docx",
-  "Attachment D_WIFIA_Professional Services.pdf"
+  "0_RFP-26-031_final.pdf",
+  "1_PSA Template - 2026 - rev_d 2026.02.27.doc",
+  "2_Attachment B_Allen Plant LIMS Requirements.xlsx",
+  "3_Attachment C_RFP Functional Needs Instructions.docx",
+  "4_Attachment D_WIFIA_Professional Services.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "RFP-26-031_final.pdf",
+   "name": "0_RFP-26-031_final.pdf",
    "kind": "pdf",
    "tables": 3,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "PSA Template - 2026 - rev_d 2026.02.27.doc",
+   "name": "1_PSA Template - 2026 - rev_d 2026.02.27.doc",
    "kind": ".doc",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "Attachment B_Allen Plant LIMS Requirements.xlsx",
+   "name": "2_Attachment B_Allen Plant LIMS Requirements.xlsx",
    "kind": "xlsx",
    "tables": 2,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Attachment C_RFP Functional Needs Instructions.docx",
+   "name": "3_Attachment C_RFP Functional Needs Instructions.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "Attachment D_WIFIA_Professional Services.pdf",
+   "name": "4_Attachment D_WIFIA_Professional Services.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
@@ -173,14 +173,14 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 10.6,
+  "bid_seconds": 10.8,
   "attachment_fetches": 5,
-  "attachment_seconds": 0.5,
+  "attachment_seconds": 0.6,
   "attachment_bytes": 1229358,
-  "max_fetch_seconds": 0.13,
+  "max_fetch_seconds": 0.32,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-11T13:48:51.292649+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-09-26T13:53:48.958530+00:00",
+ "extract_attempts": 2
 }

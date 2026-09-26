@@ -1,0 +1,147 @@
+{
+ "bid_id": "bcn-purchasing-itb-9126-addendum-2",
+ "bid_number": "ITB 9126 Addendum 2",
+ "agency": "BCN Purchasing",
+ "src": "Open",
+ "title": "WNC - Multi \u2013 Campus Security Camera Project",
+ "close": "10/1/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "ITB 9126 Addendum No. 2.pdf",
+  "Sign in sheet WNC Camera Project.pdf",
+  "B. General Terms  Conditions 012519.pdf",
+  "A. Instructions to Bidders 071421.pdf",
+  "C. Contract Terms  Conditions 020218.pdf",
+  "E. Certifications  Affidavits 103119.pdf",
+  "Tier 2 Affidavit of Compliance-Report of Local and Disadvantaged Subcontractors.pdf",
+  "D. Certification Vendor Info Sheet 020218.pdf",
+  "F. Experience Statement 020218.pdf",
+  "J. Subcontractor List 031722.pdf",
+  "2019.08.01 WNC Template Bid Bond.docx",
+  "2019.01.25 WNC Template Payment Bond.docx",
+  "2019.01.25 WNC Template Performance Bond.docx",
+  "TEMPLATE-Owner Contractor Construction Agreement-REV16-06032026_WNC.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ITB 9126 Addendum No. 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sign in sheet WNC Camera Project.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "B. General Terms  Conditions 012519.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "A. Instructions to Bidders 071421.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C. Contract Terms  Conditions 020218.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "E. Certifications  Affidavits 103119.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Tier 2 Affidavit of Compliance-Report of Local and Disadvantaged Subcontractors.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "D. Certification Vendor Info Sheet 020218.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "F. Experience Statement 020218.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "J. Subcontractor List 031722.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2019.08.01 WNC Template Bid Bond.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2019.01.25 WNC Template Payment Bond.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2019.01.25 WNC Template Performance Bond.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "TEMPLATE-Owner Contractor Construction Agreement-REV16-06032026_WNC.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.4,
+  "attachment_fetches": 14,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 1245291,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-26T13:57:21.347526+00:00",
+ "extract_attempts": 1
+}
