@@ -1,0 +1,74 @@
+{
+ "bid_id": "alief-isd-tx-2629",
+ "bid_number": "2629",
+ "agency": "Alief ISD, TX",
+ "src": "Open",
+ "title": "ASO Self-Funded Health Plan",
+ "close": "10/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Alief ISD - PY2028 - Medical RFP Workbook.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Alief ISD - PY2028 - Medical RFP Workbook.xlsx",
+   "kind": "xlsx",
+   "tables": 7,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Alief ISD - PY2028 - Medical RFP Workbook.xlsx",
+   "sheet": 5,
+   "header_row": 5,
+   "headers": [
+    "Please list each category (e.g., out-of-network negotiation, subrogation, payment integrity, etc.) where shared savings fees apply, including a detailed description, retention percentage, and estimated PEPM.\u00a0If estimated PEPM is not available, please provide an average PEPM based on your book of buiness for similarly situated clients. See example below.",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Category",
+     "Network",
+     "Description",
+     "Retention %",
+     "Estimated PEPM Cost"
+    ],
+    [
+     "EXAMPLE: Subrogation",
+     "All",
+     "Claim recoveries from 3rd party legal pursuits",
+     "0.25",
+     "2"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.4,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 712638,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-27T13:16:16.650009+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,131 @@
+{
+ "bid_id": "city-of-plano-tx-2026-0545-ac-addendum-2",
+ "bid_number": "2026-0545-AC Addendum 2",
+ "agency": "City of Plano, TX",
+ "src": "Open",
+ "title": "Health Benefits TPA - Step 1",
+ "close": "10/5/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026-0545-AC Addendum No. 2-9.08.26.pdf",
+  "City of Plano - Pre-Bid Meeting Overview of Opportunity 8.20.26 v2.pdf",
+  "2026-0545-AC Addendum No. 1.pdf",
+  "General Terms and Conditions 3.16.2026.pdf",
+  "RFP 2026-0545 Statement of Objectives - Addendum No. 1.pdf",
+  "Exhibit 44-Lockton - Medical Census for RFP 07_23_2026.xlsx",
+  "Medical RFP Exhibits _1_.zip",
+  "Rx RFP Exhibits.zip",
+  "SAMPLE Business Associate Agreement _eff. 2.12.2026_.docx",
+  "Benefits Third Party Administration Services.pdf",
+  "CIQ - Conflict of Interest Questionaire.pdf",
+  "Vendor Supplemental Information _Updated 9.13.24_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-0545-AC Addendum No. 2-9.08.26.pdf",
+   "kind": "pdf",
+   "tables": 14,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "City of Plano - Pre-Bid Meeting Overview of Opportunity 8.20.26 v2.pdf",
+   "kind": "pdf",
+   "tables": 14,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-0545-AC Addendum No. 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Terms and Conditions 3.16.2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 2026-0545 Statement of Objectives - Addendum No. 1.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 44-Lockton - Medical Census for RFP 07_23_2026.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Medical RFP Exhibits _1_.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Rx RFP Exhibits.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SAMPLE Business Associate Agreement _eff. 2.12.2026_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Benefits Third Party Administration Services.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ - Conflict of Interest Questionaire.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Supplemental Information _Updated 9.13.24_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.7,
+  "attachment_fetches": 12,
+  "attachment_seconds": 4.6,
+  "attachment_bytes": 39675532,
+  "max_fetch_seconds": 2.35,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-27T13:21:38.064779+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,82 @@
+{
+ "bid_id": "des-moines-public-schools-ia-b1269",
+ "bid_number": "B1269",
+ "agency": "Des Moines Public Schools, IA",
+ "src": "Open",
+ "title": "KUV Transit Vehicle for Operations",
+ "close": "10/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Basis of Design(BOD)- KUV Transit Vehicle or EQUIVELANT. (SEE BASIS of DESIGN for more details)",
+   "qty": "1",
+   "uom": "Each",
+   "note": "All manufacturers welcome to bid. We will review alternates to basis of design model.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Basis of Design(BOD)- KUV Transit Vehicle or EQUIVELANT. (SEE BASIS of DESIGN for more details) 1 Each No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Iowa Chapter 22 Open Records Law.pdf",
+  "General Terms n Conditions.pdf",
+  "SOA.pdf",
+  "B1269 Basis of Design KUV.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Iowa Chapter 22 Open Records Law.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Terms n Conditions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SOA.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B1269 Basis of Design KUV.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.8,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1261994,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-27T13:17:54.078619+00:00",
+ "extract_attempts": 1
+}

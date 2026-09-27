@@ -1,0 +1,427 @@
+{
+ "bid_id": "the-university-of-kansas-3121530",
+ "bid_number": "3121530",
+ "agency": "The University of Kansas",
+ "src": "Open",
+ "title": "On-Call Telecommunication Installation Services",
+ "close": "10/2/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 3121530 - Solicitation Snapshot.pdf",
+  "RFP 3121530 - Solicitation Scope of Work.pdf",
+  "Solicitation Instructions.pdf",
+  "KU General Terms and Conditions.pdf",
+  "KU-146a Rev 02-25 _KU Purchasing_ FINAL 4907-4428-5212 v.1.pdf",
+  "Supplier Travel _ Expense Reimbursement Addendum.pdf",
+  "Jayhawk Community Partners Attachment.pdf",
+  "KU Division 27 Standards May-1-2022.pdf",
+  "RFP 3121530_Price Spreadsheet.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 3121530 - Solicitation Snapshot.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 3121530 - Solicitation Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Solicitation Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "KU General Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "KU-146a Rev 02-25 _KU Purchasing_ FINAL 4907-4428-5212 v.1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Travel _ Expense Reimbursement Addendum.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Jayhawk Community Partners Attachment.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "KU Division 27 Standards May-1-2022.pdf",
+   "kind": "pdf",
+   "tables": 62,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 3121530_Price Spreadsheet.xlsx",
+   "kind": "xlsx",
+   "tables": 10,
+   "note": "",
+   "candidates": 7
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP 3121530_Price Spreadsheet.xlsx",
+   "sheet": 1,
+   "header_row": 5,
+   "headers": [
+    "",
+    "",
+    "",
+    "Item",
+    "Unit",
+    "Price",
+    "Comments"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "a.",
+     "Standard Service Call / Dispatch Fee",
+     "Each",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "b.",
+     "Emergency Service Call / Dispatch Fee",
+     "Each",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "c.",
+     "After-hours Service call",
+     "Each",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFP 3121530_Price Spreadsheet.xlsx",
+   "sheet": 2,
+   "header_row": 5,
+   "headers": [
+    "",
+    "",
+    "",
+    "Item",
+    "Unit",
+    "Price",
+    "Comments"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "a.",
+     "Category 6 Cable Installation",
+     "Per Drop",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "b.",
+     "Category 6A Cable Installation",
+     "Per Drop",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "c.",
+     "Category 6 Termination - Patch Panel",
+     "Each",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFP 3121530_Price Spreadsheet.xlsx",
+   "sheet": 3,
+   "header_row": 5,
+   "headers": [
+    "",
+    "",
+    "",
+    "Item",
+    "Unit",
+    "Price",
+    "Comments"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "a.",
+     "Singlemode Fiber Installation",
+     "Per Foot",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "b.",
+     "Multimode Fiber Installation",
+     "Per Foot",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "c.",
+     "Fiber Termination",
+     "Per Strand",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFP 3121530_Price Spreadsheet.xlsx",
+   "sheet": 4,
+   "header_row": 5,
+   "headers": [
+    "",
+    "",
+    "",
+    "Item",
+    "Unit",
+    "Price",
+    "Comments"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "a.",
+     "Cable Tray Installation",
+     "Per Foot",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "b.",
+     "J-Hook Installation",
+     "Each",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "c.",
+     "Conduit Installation",
+     "Per Foot",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFP 3121530_Price Spreadsheet.xlsx",
+   "sheet": 5,
+   "header_row": 5,
+   "headers": [
+    "",
+    "",
+    "",
+    "Item",
+    "Unit",
+    "Price",
+    "Comments"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "a.",
+     "Cable Removal",
+     "Per Foot",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "b.",
+     "Abandoned Cable Removal",
+     "Per Foot",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "c.",
+     "Existing Outlet Relocation",
+     "Each",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFP 3121530_Price Spreadsheet.xlsx",
+   "sheet": 6,
+   "header_row": 5,
+   "headers": [
+    "",
+    "",
+    "",
+    "Item",
+    "Unit",
+    "Price",
+    "Comments"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "a.",
+     "Copper Certification Testing",
+     "Per Drop",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "b.",
+     "Fiber Certification Testing",
+     "Per Strand",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "c.",
+     "Cable Labeling",
+     "Per Cable",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFP 3121530_Price Spreadsheet.xlsx",
+   "sheet": 8,
+   "header_row": 5,
+   "headers": [
+    "",
+    "",
+    "",
+    "Item",
+    "Unit",
+    "Regular Rate",
+    "Daily Rate",
+    "Comments"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "a.",
+     "Bucket Truck",
+     "Hour",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "b.",
+     "Lift",
+     "Hour",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "c.",
+     "Cable Pulling Equipment",
+     "Day",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.0,
+  "attachment_fetches": 9,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 4785713,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-27T13:17:06.968015+00:00",
+ "extract_attempts": 1
+}
