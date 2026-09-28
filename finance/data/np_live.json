@@ -1,10 +1,10 @@
 {
- "asof": "2026-09-28T15:50Z",
+ "asof": "2026-09-28T16:49Z",
  "ap": {
-  "net": 271830.7,
+  "net": 257832.79,
   "credits": 416.64,
   "credit_count": 18,
-  "net_after_credits": 271414.06,
+  "net_after_credits": 257416.15,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -19,8 +19,8 @@
     "total": 280.5
    },
    "PAY": {
-    "count": 3222,
-    "total": 248555.3
+    "count": 3152,
+    "total": 234557.39
    },
    "REVIEW": {
     "count": 190,
@@ -40,10 +40,6 @@
     "count": 31,
     "total": 28655.84
    },
-   "FEDEX": {
-    "count": 70,
-    "total": 13997.91
-   },
    "ORS": {
     "count": 1,
     "total": 70.73
@@ -58,28 +54,28 @@
    }
   },
   "fedex": {
-   "payable_count": 70,
-   "payable_total": 13997.91,
+   "payable_count": 0,
+   "payable_total": 0.0,
    "parked_count": 31
   },
-  "asof": "2026-09-28T15:50Z",
-  "moved_pct": 0.0
+  "asof": "2026-09-28T16:49Z",
+  "moved_pct": -5.16
  },
  "held": {
-  "net": 255461.95,
-  "order_count": 2798,
+  "net": 255821.12,
+  "order_count": 2803,
   "walk": {
-   "released": 97733.41,
+   "released": 98316.95,
    "postsettle": 266.2,
    "refunds": -4240.22,
    "account_events": -475.4,
-   "deferred": 162177.96
+   "deferred": 161953.59
   },
-  "fev_through": "2026-09-28T13:43Z",
-  "deferred_snapshot": "2026-09-28T15:06Z",
+  "fev_through": "2026-09-28T15:39Z",
+  "deferred_snapshot": "2026-09-28T16:06Z",
   "last_settlement_end": "2026-09-18",
-  "asof": "2026-09-28T15:50Z",
-  "moved_pct": 0.0
+  "asof": "2026-09-28T16:49Z",
+  "moved_pct": 0.14
  },
  "fba": {
   "value": 6816.48,
@@ -88,7 +84,7 @@
   "cost_after_prep": 6564.25,
   "est_sales": 7192.39,
   "erp_updated_at": "2026-09-28 06:30:06",
-  "asof": "2026-09-28T15:50Z"
+  "asof": "2026-09-28T16:49Z"
  },
  "amex": {
   "owed": 3909.68,
@@ -101,7 +97,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-09-28T15:50Z"
+  "asof": "2026-09-28T16:49Z"
  },
  "card_in_transit": {
   "amount": 4374.91,
@@ -112,13 +108,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-09-26",
-  "asof": "2026-09-28T15:50Z"
+  "asof": "2026-09-28T16:49Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 6106.72,
   "orders": 2,
   "oldest_days": 75,
-  "asof": "2026-09-28T15:50Z"
+  "asof": "2026-09-28T16:49Z"
  }
 }
