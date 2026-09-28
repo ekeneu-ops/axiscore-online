@@ -1,0 +1,390 @@
+{
+ "bid_id": "city-of-denton-tx-9138",
+ "bid_number": "9138",
+ "agency": "City of Denton, TX",
+ "src": "Open",
+ "title": "Citywide Mowing Services",
+ "close": "10/7/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 24,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 24,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Maintenance Classification A: (32 \u2013 52 cycles per year)",
+   "qty": "49.45",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Maintenance Classification A: (32 \u2013 52 cycles per year) 49.45 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Maintenance Classification B: (20 \u2013 24 cycle per year)",
+   "qty": "117.08",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Maintenance Classification B: (20 \u2013 24 cycle per year) 117.08 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Maintenance Classification C: (3 \u2013 7 cycles per year)",
+   "qty": "36.59",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Maintenance Classification C: (3 \u2013 7 cycles per year) 36.59 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Maintenance Classification D - Litter and Weeds Only during Winter Months: (4 \u2013 12 cycles per year)",
+   "qty": "63.95",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Maintenance Classification D - Litter and Weeds Only during Winter Months: (4 \u2013 12 cycles per year) 63.95 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year)",
+   "qty": "1.25",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year) 1.25 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Maintenance Classification A: (32 \u2013 52 cycles per year)",
+   "qty": "49.09",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Maintenance Classification A: (32 \u2013 52 cycles per year) 49.09 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Maintenance Classification B: (20 \u2013 24 cycle per year)",
+   "qty": "122.82",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Maintenance Classification B: (20 \u2013 24 cycle per year) 122.82 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Maintenance Classification C: (3 \u2013 7 cycles per year)",
+   "qty": "61.76",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Maintenance Classification C: (3 \u2013 7 cycles per year) 61.76 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "Maintenance Classification D - Litter and Weeds Only during Winter Months: (4 \u2013 12 cycles per year)",
+   "qty": "57.94",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 Maintenance Classification D - Litter and Weeds Only during Winter Months: (4 \u2013 12 cycles per year) 57.94 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year)",
+   "qty": "4.24",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year) 4.24 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "Maintenance Classification A: (32 \u2013 52 cycles per year)",
+   "qty": "43.36",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 Maintenance Classification A: (32 \u2013 52 cycles per year) 43.36 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "Maintenance Classification B: (20 \u2013 24 cycle per year)",
+   "qty": "183.73",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 Maintenance Classification B: (20 \u2013 24 cycle per year) 183.73 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "Maintenance Classification C: (3 \u2013 7 cycles per year)",
+   "qty": "24.11",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 Maintenance Classification C: (3 \u2013 7 cycles per year) 24.11 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "Maintenance Classification D - Litter and Weeds Only during Winter Months: (4 \u2013 12 cycles per year)",
+   "qty": "39.01",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 Maintenance Classification D - Litter and Weeds Only during Winter Months: (4 \u2013 12 cycles per year) 39.01 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year)",
+   "qty": "2.63",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year) 2.63 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "Maintenance Classification A: (32 \u2013 52 cycles per year)",
+   "qty": "31.35",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 Maintenance Classification A: (32 \u2013 52 cycles per year) 31.35 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "Maintenance Classification B: (20 \u2013 24 cycle per year)",
+   "qty": "138.62",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 Maintenance Classification B: (20 \u2013 24 cycle per year) 138.62 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "Maintenance Classification C: (3 \u2013 7 cycles per year)",
+   "qty": "66.64",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 Maintenance Classification C: (3 \u2013 7 cycles per year) 66.64 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "Maintenance Classification D - Litter and Weeds Only during Winter Months: (4 \u2013 12 cycles per year)",
+   "qty": "43.2",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 Maintenance Classification D - Litter and Weeds Only during Winter Months: (4 \u2013 12 cycles per year) 43.2 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year)",
+   "qty": "1.29",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year) 1.29 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "Maintenance Classification A: (32 \u2013 52 cycles per year)",
+   "qty": "80.73",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 Maintenance Classification A: (32 \u2013 52 cycles per year) 80.73 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "27",
+   "desc": "Maintenance Classification B: (20 \u2013 24 cycle per year)",
+   "qty": "81.77",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "27 Maintenance Classification B: (20 \u2013 24 cycle per year) 81.77 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "28",
+   "desc": "Maintenance Classification C: (3 \u2013 7 cycles per year)",
+   "qty": "65.18",
+   "uom": "Per Acre",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 Maintenance Classification C: (3 \u2013 7 cycles per year) 65.18 Per Acre No Response"
+  },
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "29",
+   "desc": "Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year)",
+   "qty": "1",
+   "uom": "Per Acre",
+   "note": "Approximate total acreage is 0.13. Ionwave does not allow for qty less than 1.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "29 Maintenance Classification E - Landscape Bed Maintenance: (48 \u2013 64 cycles per year) 1 Per Acre No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP 9138 - Citywide Mowing Scope of Work.pdf",
+  "Attachement A - COMPANY INFORMATION.docx",
+  "Attachment B - LIST OF MACHINERY AND EQUIPMENT.docx",
+  "Conflict_of_Interest_Questionaire.docx",
+  "Safety_Record.docx",
+  "Contractor Wage Information.docx",
+  "Contract - Services _Updated 7.25.24_.docx",
+  "Insurance Requirements Mowing Contract - 9138.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 9138 - Citywide Mowing Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachement A - COMPANY INFORMATION.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment B - LIST OF MACHINERY AND EQUIPMENT.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict_of_Interest_Questionaire.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Safety_Record.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Contractor Wage Information.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - Services _Updated 7.25.24_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements Mowing Contract - 9138.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.5,
+  "attachment_fetches": 8,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 497362,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-28T13:21:36.685937+00:00",
+ "extract_attempts": 1
+}

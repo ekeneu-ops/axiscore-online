@@ -1,0 +1,734 @@
+{
+ "bid_id": "clark-county-nevada-608038-26-addendum-2",
+ "bid_number": "608038-26 Addendum 2",
+ "agency": "Clark County, Nevada",
+ "src": "Open",
+ "title": "Federal Project - CM-0003-(369) Legacy Trail Undercrossing at SR 159",
+ "close": "10/6/2026 05:15 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:trail",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 39,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "107.01 - TRAFFIC CONTROL",
+   "qty": "180",
+   "uom": "DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 107.01 - TRAFFIC CONTROL 180 DAY No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "109.02 - HISTORICAL OWNER CAUSED DELAY ALLOWANCE",
+   "qty": "5",
+   "uom": "DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 109.02 - HISTORICAL OWNER CAUSED DELAY ALLOWANCE 5 DAY No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "109.03 - HISTORICAL OWNER CAUSED DELAY ALLOWANCE OVER $1,500/DAY AS DETERMINED BY BIDDER",
+   "qty": "5",
+   "uom": "DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 109.03 - HISTORICAL OWNER CAUSED DELAY ALLOWANCE OVER $1,500/DAY AS DETERMINED BY BIDDER 5 DAY No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "110.01 - TRAINING",
+   "qty": "800",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 110.01 - TRAINING 800 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "200.01 - MOBILIZATION",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 200.01 - MOBILIZATION 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "202.01 - REMOVE BITUMINOUS SURFACE",
+   "qty": "440",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 202.01 - REMOVE BITUMINOUS SURFACE 440 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "202.02 - REMOVE CONCRETE SIDEWALK",
+   "qty": "90",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 202.02 - REMOVE CONCRETE SIDEWALK 90 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "202.03 - REMOVE CONCRETE VALLEY GUTTER",
+   "qty": "280",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 202.03 - REMOVE CONCRETE VALLEY GUTTER 280 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "202.04 - REMOVE PEDESTRIAN RAILING",
+   "qty": "140",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 202.04 - REMOVE PEDESTRIAN RAILING 140 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "202.05 - REMOVE DROP INLET",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 202.05 - REMOVE DROP INLET 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "202.06 - REMOVE GUARDRAIL",
+   "qty": "80",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 202.06 - REMOVE GUARDRAIL 80 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "202.07 - REMOVE RIPRAP",
+   "qty": "1200",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 202.07 - REMOVE RIPRAP 1200 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "202.08 - REMOVE AND RESET SIGN",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 202.08 - REMOVE AND RESET SIGN 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "203.01 - ROADWAY EXCAVATION",
+   "qty": "900",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 203.01 - ROADWAY EXCAVATION 900 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "212.01 - 2-INCH TO 4-INCH SCREENED GOLD DECORATIVE LANDSCAPE ROCK (6-INCH DEPTH)",
+   "qty": "490",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 212.01 - 2-INCH TO 4-INCH SCREENED GOLD DECORATIVE LANDSCAPE ROCK (6-INCH DEPTH) 490 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "212.02 - MODIFY LANDSCAPING AND IRRIGATION",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 212.02 - MODIFY LANDSCAPING AND IRRIGATION 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "302.01 - TYPE II AGGREGATE BASE",
+   "qty": "55",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 302.01 - TYPE II AGGREGATE BASE 55 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "402.01 - PLANTMIX BITUMINOUS SURFACE",
+   "qty": "90",
+   "uom": "TON",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 402.01 - PLANTMIX BITUMINOUS SURFACE 90 TON No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "502.01 - TRAIL SEGMENT 1 - STA 10+36.74 TO STA 12+07.78",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 502.01 - TRAIL SEGMENT 1 - STA 10+36.74 TO STA 12+07.78 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "502.02 - TRAIL SEGMENT 2 - STA 12+07.78 TO STA 13+36.28",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 502.02 - TRAIL SEGMENT 2 - STA 12+07.78 TO STA 13+36.28 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "502.03 - TRAIL SEGMENT 3 - STA 13+36.28 TO STA 14+95.00",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 502.03 - TRAIL SEGMENT 3 - STA 13+36.28 TO STA 14+95.00 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "25",
+   "desc": "502.04 - TRAIL SEGMENT 4 - STA 14+95.00 TO STA 16+62.00",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 502.04 - TRAIL SEGMENT 4 - STA 14+95.00 TO STA 16+62.00 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "502.05 - TRAIL SEGMENT 5 - STA 16+62.00 TO STA 17+15.12",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 502.05 - TRAIL SEGMENT 5 - STA 16+62.00 TO STA 17+15.12 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "27",
+   "desc": "506.01 - PEDESTRIAN RAILING",
+   "qty": "630",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "27 506.01 - PEDESTRIAN RAILING 630 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "28",
+   "desc": "603.01 - 18-INCH RCP STORM DRAIN (CLASS III)",
+   "qty": "10",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 603.01 - 18-INCH RCP STORM DRAIN (CLASS III) 10 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "29",
+   "desc": "609.01 - NDOT TYPE 2 DROP INLET WITH CONCRETE APRON",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "29 609.01 - NDOT TYPE 2 DROP INLET WITH CONCRETE APRON 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine30",
+   "kind": "line",
+   "line": "30",
+   "desc": "610.01 - RIPRAP (D50=24-INCH)",
+   "qty": "550",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "30 610.01 - RIPRAP (D50=24-INCH) 550 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine31",
+   "kind": "line",
+   "line": "31",
+   "desc": "613.01 - CONCRETE SIDEWALK",
+   "qty": "100",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "31 613.01 - CONCRETE SIDEWALK 100 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine32",
+   "kind": "line",
+   "line": "32",
+   "desc": "613.02 - CONCRETE VALLEY GUTTER",
+   "qty": "420",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "32 613.02 - CONCRETE VALLEY GUTTER 420 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine33",
+   "kind": "line",
+   "line": "33",
+   "desc": "616.01 - POST AND CABLE RAILING",
+   "qty": "129",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "33 616.01 - POST AND CABLE RAILING 129 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine34",
+   "kind": "line",
+   "line": "34",
+   "desc": "618.01 - GUARDRAIL TERMINAL (FLARED)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "34 618.01 - GUARDRAIL TERMINAL (FLARED) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine35",
+   "kind": "line",
+   "line": "35",
+   "desc": "618.02 - GUARDRAIL",
+   "qty": "320",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "35 618.02 - GUARDRAIL 320 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine36",
+   "kind": "line",
+   "line": "36",
+   "desc": "626.01 - FINAL CLEANUP",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "36 626.01 - FINAL CLEANUP 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine37",
+   "kind": "line",
+   "line": "37",
+   "desc": "627.01 - PERMANENT SIGN (GROUND MOUNTED)",
+   "qty": "12",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "37 627.01 - PERMANENT SIGN (GROUND MOUNTED) 12 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine38",
+   "kind": "line",
+   "line": "38",
+   "desc": "628.01 - PREFORMED THERMOPLASTIC (12-INCH SOLID WHITE)",
+   "qty": "6",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "38 628.01 - PREFORMED THERMOPLASTIC (12-INCH SOLID WHITE) 6 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine39",
+   "kind": "line",
+   "line": "39",
+   "desc": "628.02 - 4-INCH SOLID WHITE LINE (PAINT)",
+   "qty": "1360",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "39 628.02 - 4-INCH SOLID WHITE LINE (PAINT) 1360 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine40",
+   "kind": "line",
+   "line": "40",
+   "desc": "628.03 - 4-INCH SOLID YELLOW LINE (PAINT)",
+   "qty": "720",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "40 628.03 - 4-INCH SOLID YELLOW LINE (PAINT) 720 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine41",
+   "kind": "line",
+   "line": "41",
+   "desc": "628.04 - 4-INCH DASHED YELLOW LINE (PAINT)",
+   "qty": "330",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "41 628.04 - 4-INCH DASHED YELLOW LINE (PAINT) 330 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine42",
+   "kind": "line",
+   "line": "42",
+   "desc": "637.01 - DUST CONTROL",
+   "qty": "180",
+   "uom": "DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "42 637.01 - DUST CONTROL 180 DAY No Response"
+  }
+ ],
+ "attachments_saved": [
+  "608038-26 ad2_sdj.pdf",
+  "608038-26 ad1_sdj.pdf",
+  "608038-26_sdj.pdf",
+  "608038-26 - Plans.pdf",
+  "608038-26 - Geotechnical Report.pdf",
+  "608038-26 - A-NDOT Permit.pdf",
+  "608038-26 - A-NDOT Plan Approved.pdf",
+  "608038-26 - A-NDOT Terms and Conditions Relating to RightofWay Occupancy Permits.pdf",
+  "608038-26 Bid Attachment 1 - Bid Bond.pdf",
+  "608038-26 Bid Attachment 2 - Subs Exceeding 5_.pdf",
+  "608038-26 Bid Attachment 3 - Subs Exceeding 1_.pdf",
+  "608038-26 Bid Attachment 4 - Debarment.pdf",
+  "608038-26 Bid Attachment 5- Lobbying Complete.pdf",
+  "608038-26 Bid Attachment 6 - List of Subcontractors and Suppliers Bidding.pdf",
+  "608038-26 Bid Attachment 7 - Bidder Disadvantage Business DBE Info.pdf",
+  "608038-26 Bidder_s Statement of Authority to Submit Bid.pdf",
+  "The Office of the Labor Commissioner Contact Information.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "608038-26 ad2_sdj.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 ad1_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26_sdj.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 - Plans.pdf",
+   "kind": "pdf",
+   "tables": 68,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 - Geotechnical Report.pdf",
+   "kind": "pdf",
+   "tables": 98,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "608038-26 - A-NDOT Permit.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 - A-NDOT Plan Approved.pdf",
+   "kind": "pdf",
+   "tables": 29,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 - A-NDOT Terms and Conditions Relating to RightofWay Occupancy Permits.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 Bid Attachment 1 - Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 Bid Attachment 2 - Subs Exceeding 5_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 Bid Attachment 3 - Subs Exceeding 1_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 Bid Attachment 4 - Debarment.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 Bid Attachment 5- Lobbying Complete.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 Bid Attachment 6 - List of Subcontractors and Suppliers Bidding.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 Bid Attachment 7 - Bidder Disadvantage Business DBE Info.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608038-26 Bidder_s Statement of Authority to Submit Bid.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "The Office of the Labor Commissioner Contact Information.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "608038-26 - Geotechnical Report.pdf",
+   "sheet": 21,
+   "header_row": 0,
+   "headers": [
+    "Location",
+    "Elevation\n(feet)\nTop Bottom",
+    "Generalized Soil/Rock\nDescription",
+    "LPILE PARAMETERS 1,2,3\nPeak\nEffective Unit\np-y Curve Friction\nWeight\nAngle\n(pcf) (deg)"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "3,214 3,199",
+     "Medium Dense to Very Dense, Sand with\nSilt, Gravel and Cobbles",
+     ""
+    ],
+    [
+     "",
+     "3,199 3,152",
+     "Very Dense, Sand with Silt, Gravel, and\nCobbles to Gravel with Silt and Sand",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "608038-26 - Geotechnical Report.pdf",
+   "sheet": 46,
+   "header_row": 0,
+   "headers": [
+    "",
+    "A A'\nNortheast Southwest\n3250 3250\nAbutment 2 \u2104 Pier 1 \u2104 Abutment 1 \u2104\n3230 3230\nSW-S-03\nSW-S-01 (Proj. 8 FT NW)\n(Proj. 5 FT NW)\nSW-S-02\n3210 48 77 3210\n50/3\" 35 SOIL DESCRIPTION LEGEND\n56\n73 19\n81\n53 72/11.5\" 50/5.5\" Existing Ground Surface ALLUVIUM: Medium dense to very\n50/3\" 95 50/3\" )teeF( )teeF( Existing Ground Surface dense, Sand and Gravel with varying\namounts of silt and cobbles\n50/5.5\" 88 86 (SP-SM, SW-SM, SM, GP-GM)\n3190 noitavelE noitavelE 3190\n50/3\"\n50/5.5\" 78\n50/1.5\"\n50/4\" 50/5.5\"\n50/5\" ALLUVIUM ALLUVIUM\n50/3\" 90/11.5\"\n50/5.5\" 59 50/2\"\n3170 3170\n50/5.5\" 82 50/5.5\"\n50/3\" 50/5.5\" 50/5.5\"\nAuger Refusal 50/3\" 50/5.5\" 50/4\"\n06-29-21\n50/4\"\nAuger Refusal 10/0\"\n06-25-21\n3150 50/3.5\" 3150\nAuger Refusal\n06-28-21\n3130 3130\n353+40 353+00 352+60 352+20 351+80 351+40 351+00 350+60 350+20 349+80 349+40\nNOTES LEGEND\n0 20 40\n1. Linework is adopted from FHWA CFL Structure Selection Report NV FLAP\n500(1) dated November 2020\nVertical Scale in Feet SW-S-01 Boring Designation\n(Proj. 43 FT. E) Projected Distance\n2. This subsurface profile is generalized from materials observed in explorations.\nVertical Exaggeration = 2X and Direction\nVariations may exist between profile and actual conditions. See report text for\nadditional discussion of subsurface conditions and geologic units.\n0 40 80 NV FLAP 500(1) 50 Standard Penetration Test in Blows per Foot\n3. Groundwater was not encountered during drilling Red Rocks Trail and Intersections 50/6\" or Blows per Inches Driven\nHorizontal Scale in Feet 4. Shannon & Wilson borings located using a mapping-grade GPS unit. Clark County, Nevada\nGENERALIZED USCS Symbol\nSUBSURFACE PROFILE A - A'\nBRIDGE 2\nJu(cid:79)(cid:92) 2023 100807-001\nBottom of Boring\nSHANNON & WILSON, INC. FIG. 3 06-29-21 Date of Completion\nGeotechnical and Environmental Consultants",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "NV FLAP 500(1)\nRed Rocks Trail and Intersections\nClark County, Nevada",
+     ""
+    ],
+    [
+     "",
+     "",
+     "GENERALIZED\nSUBSURFACE PROFILE A - A'\nBRIDGE 2\nJu(cid:79)(cid:92) 2023 100807-001",
+     ""
+    ],
+    [
+     "",
+     "",
+     "SHANNON & WILSON, INC.\nGeotechnical and Environmental Consultants",
+     "FIG. 3"
+    ]
+   ]
+  },
+  {
+   "source": "608038-26 - Geotechnical Report.pdf",
+   "sheet": 50,
+   "header_row": 0,
+   "headers": [
+    "",
+    "B B'\nSoutheast Northwest\n3380 3380\n3360 Abutment 2 \u2104 Pier 4 \u2104 Pier 3 \u2104 Pier 2 \u2104 Pier 1 \u2104 Abutment 1 \u2104 3360\n3340 3340\nSOIL DESCRIPTION LEGEND\nSW-S-04B\n(Proj. 7 FT SW) ALLUVIUM: Medium dense to very\n(Offset 30 FT SE) dense, Gravel and Sand with varying\n)teeF( )teeF(\nSW-S-04\nSW-S-05B amounts of silt and cobbles\n(Proj. 5 FT SW) SW-S-05 (Proj. 22 FT SW) (GP-GM, GW-GM, SP-SM, SW-SM)\n3320 (Offset 40 FT NW) (Proj. 24 FT SW) noitavelE noitavelE 3320\nBEDROCK: LIMESTONE: Strong\n66\n59 86 Existing Ground Surface (Kaibab Formation)\n50/4\" 27\n50/6\" 9 12 31 Existing Ground Surface ALLUVIUM\n73/11\"\n50/4\"\n50/4\" 50/3.5\"\n3300 ? 50/0\" Auger Refusa 0 l 6-29-21 50/5.5\" ? ? ? 50/0\" ? Auger Refusa 0 l 6-29-21 ? ? 3300\n100/30\n100/70 100/66\n60/0\n100/46\nBEDROCK\n100/15\n66/92\n3280 75/0 3280\n100/20\n100/18 100/65\n01-20-22\n88/55\n100/32\n01-21-22\n3260 3260\n299+00 298+60 298+20 297+80 297+40 297+00 296+60 296+20 295+80 295+40 295+00\nNOTES LEGEND\n0 20 40\n1. Linework is adopted from FHWA CFL Structure Selection Report NV FLAP\n500(1) dated November 2020\nVertical Scale in Feet SW-S-01 Boring Designation\n(Proj. 43 FT. E) Projected Distance\n2. This subsurface profile is generalized from materials observed in explorations.\nVertical Exaggeration = 2X and Direction\nVariations may exist between profile and actual conditions. See report text for\nadditional discussion of subsurface conditions and geologic units.\nNV FLAP 500(1) 0 40 80 50 Standard Penetration Test in Blows per Foot\nRed Rocks Trail and Intersections 3. Groundwater was not encountered during drilling 50/6\" or Blows per Inches Driven\nClark County, Nevada Horizontal Scale in Feet 4. Shannon & Wilson borings located using a mapping-grade GPS unit.\nGENERALIZED USCS Symbol\nSUBSURFACE PROFILE B - B'\nApproximate ?\nBRIDGE 1 Geologic Contact Recovery in Rock or Soil (%)\nJu(cid:79)(cid:92) 2023 100807-001 100/70\nBottom of Boring\nSHANNON & WILSON, INC. Date of Completion 06-29-21 Rock Quality Designation (%) FIG. 4\nGeotechnical and Environmental Consultants",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "",
+     "NV FLAP 500(1)\nRed Rocks Trail and Intersections\nClark County, Nevada",
+     ""
+    ],
+    [
+     "",
+     "",
+     "GENERALIZED\nSUBSURFACE PROFILE B - B'\nBRIDGE 1\nJu(cid:79)(cid:92) 2023 100807-001",
+     ""
+    ],
+    [
+     "",
+     "",
+     "SHANNON & WILSON, INC.\nGeotechnical and Environmental Consultants",
+     "FIG. 4"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 154.9,
+  "attachment_fetches": 17,
+  "attachment_seconds": 21.2,
+  "attachment_bytes": 141312411,
+  "max_fetch_seconds": 10.24,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-28T13:19:34.600880+00:00",
+ "extract_attempts": 1
+}

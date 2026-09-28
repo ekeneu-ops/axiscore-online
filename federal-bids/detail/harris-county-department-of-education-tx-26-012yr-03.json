@@ -1,0 +1,126 @@
+{
+ "bid_id": "harris-county-department-of-education-tx-26-012yr-03",
+ "bid_number": "26/012YR-03",
+ "agency": "Harris County Department of Education, TX",
+ "src": "Open",
+ "title": "Event Spaces and Venue Services",
+ "close": "10/6/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 6,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "(a) IF you are to be paid PER RENTAL, please give your PER RENTAL RATE for 100-500 attendees with all services included.",
+   "qty": "",
+   "uom": "EA",
+   "note": "Please provide listed services included in total cost.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 (a) IF you are to be paid PER RENTAL, please give your PER RENTAL RATE for 100-500 attendees with all services included. EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "(b) IF you are to be paid PER RENTAL, please give your PER RENTAL RATE for 501-1,000 attendees with all services included.",
+   "qty": "",
+   "uom": "EA",
+   "note": "Please provide listed services included in total cost.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 (b) IF you are to be paid PER RENTAL, please give your PER RENTAL RATE for 501-1,000 attendees with all services included. EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "(c) IF you are to be paid PER RENTAL, please give your PER RENTAL RATE for 1,001-5,000 attendees with all services included.",
+   "qty": "",
+   "uom": "EA",
+   "note": "Please provide listed services included in total cost.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 (c) IF you are to be paid PER RENTAL, please give your PER RENTAL RATE for 1,001-5,000 attendees with all services included. EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "(d) IF you are to be paid a FLAT RENTAL FEE, please give your FLAT RENTAL RATE for 100-500 attendees (up to 8 hrs.) with all services included.",
+   "qty": "",
+   "uom": "EA",
+   "note": "Please provide listed services included in total cost.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 (d) IF you are to be paid a FLAT RENTAL FEE, please give your FLAT RENTAL RATE for 100-500 attendees (up to 8 hrs.) with all services included. EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "(e)IF you are to be paid a FLAT RENTAL FEE, please give your FLAT RENTAL RATE for 501-1,000 attendees (up to 8 hrs.) with all services included.",
+   "qty": "",
+   "uom": "EA",
+   "note": "Please provide listed services included in total cost.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 (e)IF you are to be paid a FLAT RENTAL FEE, please give your FLAT RENTAL RATE for 501-1,000 attendees (up to 8 hrs.) with all services included. EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "(f) IF you are to be paid a FLAT RENTAL FEE, please give your FLAT RENTAL RATE for 1,001-5,000 attendees (up to 8 hrs.) with all services included.",
+   "qty": "",
+   "uom": "EA",
+   "note": "Please provide listed services included in total cost.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 (f) IF you are to be paid a FLAT RENTAL FEE, please give your FLAT RENTAL RATE for 1,001-5,000 attendees (up to 8 hrs.) with all services included. EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "26-012YR-03 Event Spaces and Venue Services.pdf",
+  "26-012YR-03 Vendor Packet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26-012YR-03 Event Spaces and Venue Services.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-012YR-03 Vendor Packet.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.7,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 4068615,
+  "max_fetch_seconds": 0.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-28T13:15:04.507422+00:00",
+ "extract_attempts": 1
+}

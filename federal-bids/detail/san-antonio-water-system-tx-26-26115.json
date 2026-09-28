@@ -1,0 +1,166 @@
+{
+ "bid_id": "san-antonio-water-system-tx-26-26115",
+ "bid_number": "26-26115",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "ONE-TIME BID FOR PURCHASE OF LARGE AND MEDIUM TRUCKS WITH UPFITS (complete).",
+ "close": "10/6/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "52,000 GVWR cab and chassis (Single cab) with Installed 10-cubic yard minimum, (water level) dump-body, complete. Manufacturer and model.",
+   "qty": "6",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 52,000 GVWR cab and chassis (Single cab) with Installed 10-cubic yard minimum, (water level) dump-body, complete. Manufacturer and model. 6 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "25,000 GVWR cab-chassis, 4-door, crew cab, 84\u201d CA truck with installed aluminum utility body and 2,000-pound corner mounted crane,complete. Manufacturer and model",
+   "qty": "8",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 25,000 GVWR cab-chassis, 4-door, crew cab, 84\u201d CA truck with installed aluminum utility body and 2,000-pound corner mounted crane,complete. Manufacturer and model 8 EACH No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions IFB and BVB 102020.pdf",
+  "General Requirements and Scope for Large and Medium Trucks with Upfits.pdf",
+  "26-26115 Risk Assessment Checklist.pdf",
+  "No_Bid_Sheet.docx",
+  "Form_CIQ__for_vendor_doing_business_with_local_governmental_entity_ _1_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions IFB and BVB 102020.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "General Requirements and Scope for Large and Medium Trucks with Upfits.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "26-26115 Risk Assessment Checklist.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "No_Bid_Sheet.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Form_CIQ__for_vendor_doing_business_with_local_governmental_entity_ _1_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "General Requirements and Scope for Large and Medium Trucks with Upfits.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "QTY",
+    "",
+    "Unit",
+    "",
+    "",
+    "Unit of",
+    "",
+    "",
+    "Extended",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "Price",
+     "",
+     "",
+     "Measure",
+     "",
+     "",
+     "Price",
+     ""
+    ],
+    [
+     "A.",
+     "52,000 GVWR cab and chassis\n(Single cab) with Installed 10-cubic\nyard minimum, (water level) dump-body,\ncomplete. Manufacturer and model.",
+     "6.",
+     "$",
+     "",
+     "",
+     "EACH",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ],
+    [
+     "B.",
+     "25,000 GVWR cab-chassis, 4-door,\ncrew cab, 84\u201d CA truck with installed\naluminum utility body and 2,000-\npound corner mounted crane,\ncomplete. Manufacturer and model",
+     "8.",
+     "$",
+     "",
+     "",
+     "EACH",
+     "",
+     "",
+     "$",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.3,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 1100047,
+  "max_fetch_seconds": 0.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-28T13:15:58.374081+00:00",
+ "extract_attempts": 1
+}

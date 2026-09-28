@@ -1,0 +1,11 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,"Percent Discount #1 DISCOUNT LINE In the case of line items awarded on the basis of discounts from Offeror’s, to include but not limited to website, catalog, jobber’s or manufacturer’s price list, an ",1.0,PCT,,non-product,,,,,,,,,,,,,,,
+2,Percent Discount #2,1.0,PCT,,non-product,,,,,,,,,,,,,,,
+3,Percent Discount #3,1.0,PCT,,non-product,,,,,,,,,,,,,,,
+4,Percent Discount #4,1.0,PCT,,non-product,,,,,,,,,,,,,,,
+5,Percent Discount #5,1.0,PCT,,non-product,,,,,,,,,,,,,,,
+6,Provide discount for special order items not included above. Items must fall within the scope of the solicitation.,1.0,PCT,,non-product,,,,,,,,,,,,,,,
+7,"Percent Markup MARKUP LINE In the case of line items awarded on the basis of markup from Offeror, an informal (telephone or written) price quote may be requested, for items contained within the genera",1.0,PCT,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+8,Physical Shopping Location. Percent discount off shelf and/or counter items. Provide a response if a physical shopping location - walk-in - is available.,1.0,PCT,,non-product,,,,,,,,,,,,,,,
+9,Provide the hourly fee for repair services during normal business hours.,1.0,HR,,token,Synnex,WFULLDAYSTNDBYNBH,FULL DAY SERVICE STANDBY LABOR ONLY DURING NORMAL BUSINESS HOURS,EA,9999.0,False,True,4153.01,0.0,4153.01,4885.89,4885.89,,,
+10,Provide the hourly fee for repair services after hours/weekends/federal holidays.,1.0,HR,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

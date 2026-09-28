@@ -1,0 +1,107 @@
+{
+ "bid_id": "north-east-isd-tx-07-27",
+ "bid_number": "07-27",
+ "agency": "North East ISD, TX",
+ "src": "Open",
+ "title": "Media Production Supplies, Equipment, Parts and Service",
+ "close": "10/8/2026 10:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Supplier Response Quick Tutorial.pdf",
+  "North East ISD  Bids Terms and Conditions.pdf",
+  "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+  "NEISD_Insurance Requirements_05092024.pdf",
+  "Form_CIQ_with_Instructions.pdf",
+  "HB 1295 instructions 01.16.2025.pdf",
+  "Hold_Harmless_Agreement_Form.pdf",
+  "Vendor_Inquiry_Form.pdf",
+  "w-9.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier Response Quick Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "North East ISD  Bids Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_Insurance Requirements_05092024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form_CIQ_with_Instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "HB 1295 instructions 01.16.2025.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Hold_Harmless_Agreement_Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor_Inquiry_Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "w-9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 18.3,
+  "attachment_fetches": 9,
+  "attachment_seconds": 1.1,
+  "attachment_bytes": 3920826,
+  "max_fetch_seconds": 0.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-28T13:31:19.979230+00:00",
+ "extract_attempts": 1
+}

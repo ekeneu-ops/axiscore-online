@@ -1,0 +1,107 @@
+{
+ "bid_id": "plano-isd-tx-cmar-2026-11-36",
+ "bid_number": "CMAR 2026-11-36",
+ "agency": "Plano ISD, TX",
+ "src": "Open",
+ "title": "Rice & Renner MS Systems & Compliance",
+ "close": "10/6/2026 02:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CMAR 2026-11-36 Rice _ Renner MS Systems _ Compliance Proposal Forms.docx",
+  "Certificate of Interested Parties _Form 1295_ Sample.pdf",
+  "CIQ Revised 1.1.21.pdf",
+  "AIA 305 - 1986.pdf",
+  "A133-2019 v1 _07-21-2020__3038599_2_ - Final - _1_.pdf",
+  "A133-2019 Exhibit B v1 _09-10-2020__3178378_1_ - Final - _1_.pdf",
+  "A201-2017 v4 _06-11-2020__2946754_4_ - Final - _1_ _1_.pdf",
+  "Blank fw9.pdf",
+  "Terms_and_Conditions 2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CMAR 2026-11-36 Rice _ Renner MS Systems _ Compliance Proposal Forms.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate of Interested Parties _Form 1295_ Sample.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Revised 1.1.21.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "AIA 305 - 1986.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "A133-2019 v1 _07-21-2020__3038599_2_ - Final - _1_.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "A133-2019 Exhibit B v1 _09-10-2020__3178378_1_ - Final - _1_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "A201-2017 v4 _06-11-2020__2946754_4_ - Final - _1_ _1_.pdf",
+   "kind": "pdf",
+   "tables": 16,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Blank fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Terms_and_Conditions 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.6,
+  "attachment_fetches": 9,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 6166850,
+  "max_fetch_seconds": 0.23,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-28T13:14:03.383007+00:00",
+ "extract_attempts": 1
+}

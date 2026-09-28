@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0826-061",
+ "bid_number": "PUR0826-061",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Open",
+ "title": "Upfit of Cargo Van for Animal Transport",
+ "close": "10/6/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "All-inclusive, firm-fixed price to upfit cargo van for animal transport in accordance with the Specifications.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "The 2027 Ford Transit cargo van is currently on order from other.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 All-inclusive, firm-fixed price to upfit cargo van for animal transport in accordance with the Specifications. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Local Preference.pdf",
+  "Certificate to Obtain Insurance - PUR0826-061.pdf",
+  "Insurance Requirements - PUR0826-061.pdf",
+  "Contract Terms and Conditions.pdf",
+  "Vehicle Upfit Requirements.pdf",
+  "Specification Checklist - Upfit Cargo Van for Animal Transport - PUR0826-061.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Local Preference.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate to Obtain Insurance - PUR0826-061.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements - PUR0826-061.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vehicle Upfit Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Specification Checklist - Upfit Cargo Van for Animal Transport - PUR0826-061.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.7,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 1051436,
+  "max_fetch_seconds": 0.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-28T13:16:09.581840+00:00",
+ "extract_attempts": 1
+}

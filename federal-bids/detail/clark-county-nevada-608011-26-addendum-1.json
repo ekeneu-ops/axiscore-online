@@ -1,0 +1,330 @@
+{
+ "bid_id": "clark-county-nevada-608011-26-addendum-1",
+ "bid_number": "608011-26 Addendum 1",
+ "agency": "Clark County, Nevada",
+ "src": "Open",
+ "title": "LAS VEGAS WASH AND FLAMINGO WASH MAINTENANCE ACCESS IMPROVEMENTS",
+ "close": "10/7/2026 05:15 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 17,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 17,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "107.01 - TRAFFIC CONTROL",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 107.01 - TRAFFIC CONTROL 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "109.03 - ADDITIONAL AMOUNT OVER $500.00/DAY AS DETERMINED BY BIDDER",
+   "qty": "10",
+   "uom": "DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 109.03 - ADDITIONAL AMOUNT OVER $500.00/DAY AS DETERMINED BY BIDDER 10 DAY No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "200.01 - MOBILIZATION",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 200.01 - MOBILIZATION 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "201.01 - REMOVE BRUSH",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 201.01 - REMOVE BRUSH 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "202.01 - REMOVE EXISTING CURB",
+   "qty": "30",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 202.01 - REMOVE EXISTING CURB 30 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "202.02 - REMOVE EXISTING FENCE AND POSTS",
+   "qty": "20",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 202.02 - REMOVE EXISTING FENCE AND POSTS 20 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "203.01 - EXCAVATION",
+   "qty": "250",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 203.01 - EXCAVATION 250 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "302.01 - TYPE II AGGREGATE BASE",
+   "qty": "120",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 302.01 - TYPE II AGGREGATE BASE 120 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "502.01 - CONSTRUCT 4\" CONCRETE DRAINAGE PAD",
+   "qty": "100",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 502.01 - CONSTRUCT 4\" CONCRETE DRAINAGE PAD 100 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "502.02 - WIDEN CONCRETE CART PATH",
+   "qty": "150",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 502.02 - WIDEN CONCRETE CART PATH 150 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "502.03 - CONSTRUCT CONCRETE ACCESS RAMP",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 502.03 - CONSTRUCT CONCRETE ACCESS RAMP 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "609.01 - INSTALL HINGED GRATE STRUCTURE",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 609.01 - INSTALL HINGED GRATE STRUCTURE 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "609.02 - INSTALL 2'-4\" REPLACEMENT GRATE",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 609.02 - INSTALL 2'-4\" REPLACEMENT GRATE 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "613.01 - INSTALL TYPE A CURB",
+   "qty": "10",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 613.01 - INSTALL TYPE A CURB 10 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "616.01 - 4' FENCING WITH HANDHOLES",
+   "qty": "20",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 616.01 - 4' FENCING WITH HANDHOLES 20 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "626.01 - FINAL CLEANUP",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 626.01 - FINAL CLEANUP 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "637.01 - DUST CONTROL",
+   "qty": "150",
+   "uom": "DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 637.01 - DUST CONTROL 150 DAY No Response"
+  }
+ ],
+ "attachments_saved": [
+  "608011-26 ad1_sdj.pdf",
+  "608011-26_sdj.pdf",
+  "608011-26 - Plans.pdf",
+  "608011-26 - Geotechnical Report.pdf",
+  "608011-26 Bid Attachment 1 - Bid Bond_sdj.pdf",
+  "608011-26 Bid Attachment 2 - 5_ Subcontractors List_sdj.pdf",
+  "608011-26 Bid Attachment 3 - 1_ Designation of Subcontractors_sdj.pdf",
+  "608011-26 Bid Attachment 4 - Affidavit Pertaining to Preference of Eligibility_sdj.pdf",
+  "608011-26 Bidder_s Statement of Authority to Submit Bid_sdj.pdf",
+  "608011-26 Disclosure of Ownership_sdj.pdf",
+  "The Office of the Labor Commissioner Contact Information.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "608011-26 ad1_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26_sdj.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26 - Plans.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26 - Geotechnical Report.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26 Bid Attachment 1 - Bid Bond_sdj.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26 Bid Attachment 2 - 5_ Subcontractors List_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26 Bid Attachment 3 - 1_ Designation of Subcontractors_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26 Bid Attachment 4 - Affidavit Pertaining to Preference of Eligibility_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26 Bidder_s Statement of Authority to Submit Bid_sdj.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "608011-26 Disclosure of Ownership_sdj.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "The Office of the Labor Commissioner Contact Information.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 43.0,
+  "attachment_fetches": 11,
+  "attachment_seconds": 30.7,
+  "attachment_bytes": 105305727,
+  "max_fetch_seconds": 27.87,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-28T13:31:00.138842+00:00",
+ "extract_attempts": 1
+}
