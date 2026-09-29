@@ -112,13 +112,21 @@ jobs:
             b2),'account_events',(SELECT s FROM c2),'deferred',(SELECT s FROM df)),'fev_through',to_char((SELECT max(pdt) FROM
             fev),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_snapshot',to_char((SELECT snap FROM df),'YYYY-MM-DD"T"HH24:MI"Z"'),'last_settlement_end',(SELECT e::date
             FROM bnd)),
-            'fba', (SELECT json_build_object('value', max(value) FILTER (WHERE key='total_stock_cost_total')::numeric,
-            'qty', max(value) FILTER (WHERE key='total_stock_qty')::numeric,
-            'cost_gross', max(value) FILTER (WHERE key='total_stock_cost')::numeric,
-            'cost_after_prep', max(value) FILTER (WHERE key='total_stock_cost_after_prep')::numeric,
-            'est_sales', max(value) FILTER (WHERE key='total_stock_est_sales')::numeric,
-            'erp_updated_at', max(value) FILTER (WHERE key='last_updated_at'))
-            FROM mirror_erp_v2.dashboard_stats),
+            'fba', (SELECT json_build_object('value', round(e.val,2),
+            'qty', e.units, 'items', e.items, 'retail', round(e.retail,2),
+            'no_cost_items', e.no_cost_items, 'no_cost_units', e.no_cost_units,
+            'erp_default_units', e.erp_default_units,
+            'dash_value', round(d.stock_cost_value::numeric,2),
+            'stock_src', json_build_object('spapi', d.items_stock_from_spapi, 'mirror', d.items_stock_from_mirror),
+            'stock_asof', to_char(CASE WHEN d.items_stock_from_mirror > 0 AND d.mirror_as_of IS NOT NULL
+            THEN LEAST(d.spapi_as_of, d.mirror_as_of) ELSE d.spapi_as_of END AT TIME ZONE 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'))
+            FROM fba.v_dashboard d, LATERAL (SELECT COALESCE(sum(total_cost_of_stock),0)::numeric val,
+            COALESCE(sum(available),0) units, count(*) items,
+            COALESCE(sum(stock_value_my_price),0)::numeric retail,
+            count(*) FILTER (WHERE cost_true IS NULL) no_cost_items,
+            COALESCE(sum(available) FILTER (WHERE cost_true IS NULL),0) no_cost_units,
+            COALESCE(sum(available) FILTER (WHERE cost_basis='erp_default_inflated'),0) erp_default_units
+            FROM fba.v_stock_econ) e),
             'amex', (SELECT json_build_object('owed', round(coalesce(sum(amount) FILTER (WHERE name NOT ILIKE '%AUTOPAY%'),0)::numeric,2),
             'last_autopay', (SELECT max(posted_date)::text FROM plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%'),
             'txn_count', count(*) FILTER (WHERE name NOT ILIKE '%AUTOPAY%'),
@@ -221,9 +229,21 @@ jobs:
               return None
 
           def structural_fba(f):
-              v = f.get('value')
+              # Our OWN FBA module (fba.v_stock_econ), not the legacy ERP's dashboard_stats.
+              # Quantities come from Amazon's SP-API FBA snapshot; cost comes from the
+              # module's labelled cascade (PO average -> component default), with the ERP's
+              # inflated default cost gated out.
+              v, q = f.get('value'), f.get('qty')
               if not isinstance(v, (int, float)): return 'non-numeric value'
               if v < 0: return 'value < 0'
+              # COLLAPSED CASCADE GUARD. An item with no cost on file contributes $0, which
+              # is the honest, non-overstating answer for THAT item. But if we are holding
+              # stock and the whole total comes out at zero, the cost join has broken, not
+              # the inventory - publishing $0 would be a false read dressed as a fact.
+              # Carry the previous value forward (marked) instead; np.html shows the
+              # partial-coverage count on its own so ordinary uncosted items stay visible.
+              if isinstance(q, (int, float)) and q > 0 and v == 0:
+                  return 'qty %s but value 0 - cost cascade collapsed' % q
               return None
 
           def structural_held(h):
