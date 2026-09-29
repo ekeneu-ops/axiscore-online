@@ -250,5 +250,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-09-26T13:42:21.217723+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 16,
+ "lines_matched": 11,
+ "coverage_pct": 68.8,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/suny-cortland-ny-rfq-00896/coverage.json"
 }

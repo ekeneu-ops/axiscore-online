@@ -1,0 +1,552 @@
+{
+ "schema": "v2",
+ "bid_id": "city-of-allen-tx-2026-9-73",
+ "agency": "City of Allen, TX",
+ "bid_number": "2026-9-73",
+ "title": "Streetlight Replacement",
+ "src": "Invited",
+ "close": "10/22/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-09-29T13:46:01.847490+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "items_source": "attachments:Price Sheet - 2026-9-73.xlsx",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 52,
+ "priced_lines": 0,
+ "gap_lines": 52,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 52
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "A-00",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 2,
+   "desc": "A-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 3,
+   "desc": "A-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 4,
+   "desc": "A-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 5,
+   "desc": "A-04",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 6,
+   "desc": "B-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 7,
+   "desc": "B-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 8,
+   "desc": "B-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 9,
+   "desc": "B-04",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 10,
+   "desc": "B-05",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 11,
+   "desc": "C-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 12,
+   "desc": "C-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 13,
+   "desc": "C-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 14,
+   "desc": "C-04",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 15,
+   "desc": "C-05",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 16,
+   "desc": "D-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 17,
+   "desc": "D-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 18,
+   "desc": "D-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 19,
+   "desc": "D-04",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 20,
+   "desc": "D-05",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 21,
+   "desc": "E-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 22,
+   "desc": "E-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 23,
+   "desc": "E-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 24,
+   "desc": "E-04",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 25,
+   "desc": "E-05",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 26,
+   "desc": "F-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 27,
+   "desc": "F-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 28,
+   "desc": "F-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 29,
+   "desc": "F-04",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 30,
+   "desc": "G-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 31,
+   "desc": "G-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 32,
+   "desc": "G-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 33,
+   "desc": "G-04",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 34,
+   "desc": "G-05",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 35,
+   "desc": "H-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 36,
+   "desc": "H-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 37,
+   "desc": "H-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 38,
+   "desc": "H-04",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 39,
+   "desc": "H-05",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 40,
+   "desc": "I-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 41,
+   "desc": "I-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 42,
+   "desc": "I-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 43,
+   "desc": "I-04",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 44,
+   "desc": "J-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 45,
+   "desc": "J-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 46,
+   "desc": "J-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 47,
+   "desc": "J-04",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 48,
+   "desc": "K-01",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 49,
+   "desc": "K-02",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 50,
+   "desc": "K-03",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 51,
+   "desc": "K-04",
+   "qty": 0.0,
+   "uom": "LS",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 52,
+   "desc": "K-05",
+   "qty": 0.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  }
+ ]
+}

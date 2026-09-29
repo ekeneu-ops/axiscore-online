@@ -1,0 +1,69 @@
+{
+ "schema": "v2",
+ "bid_id": "lexington-fayette-urban-county-ky-bid-106-2026",
+ "agency": "Lexington-Fayette Urban County, KY",
+ "bid_number": "Bid 106-2026",
+ "title": "Firefighter Helmets",
+ "src": "Invited",
+ "close": "10/13/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-09-29T13:46:01.897750+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "items_source": "attachments:Bid Tabulation by Line Item Spreadsheet _39_.xlsx",
+ "coverage_pct": 0.0,
+ "coverage_basis": "extended_value",
+ "product_lines": 2,
+ "priced_lines": 0,
+ "gap_lines": 2,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 2
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "UG6R350 Lightweight Gloss Finish Helmet",
+   "qty": 1.0,
+   "uom": "Each",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 26,
+    "method": "tokens 2/5",
+    "ov": 2,
+    "vendor": "Essendant",
+    "sku": "BET16770500",
+    "matched_desc": "GymShoe Gloss Sport Finish, 5 gal Pail",
+    "catalog_uom": "EA",
+    "pack_qty": 6.0,
+    "uom_normalized": false,
+    "uom_mismatch": false,
+    "raw_merch_cost": 501.88,
+    "raw_freight": 18.218,
+    "unit_merch_cost": 501.88,
+    "unit_freight": 18.218,
+    "landed_unit": 520.098
+   }
+  },
+  {
+   "line": 2,
+   "desc": "Supplier Notes",
+   "qty": 0.0,
+   "uom": "UOM",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "schema": "v2",
+ "bid_id": "fort-worth-isd-tx-27-003",
+ "agency": "Fort Worth ISD, TX",
+ "bid_number": "27-003",
+ "title": "Career and Technical Education (CTE) Programs, Services & Instructional Supplies",
+ "src": "Invited",
+ "close": "9/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-09-29T13:46:01.877407+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 2,
+ "priced_lines": 0,
+ "gap_lines": 2,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 2
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "DISCOUNT BY PERCENTAGE - Do you offer a percentage off catalog/published price? If yes, please enter the percentage. If no discount is offered, please select \"No Bid.\"",
+   "qty": 1.0,
+   "uom": "Percent",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 2,
+   "desc": "DISCOUNT BY VOLUME- Do you offer a volume discount structure by item, brand or product line? If yes, please enter \"1\" and attach your volume discount schedule with your response documents. If no volum",
+   "qty": 1.0,
+   "uom": "Per Unit",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 3,
+   "desc": "SET FEE - Do you charge set fees for services, repairs and/or maintenance calls? If yes, please enter \"1\" and attach your fee schedule with your response documents. If no, please respond\"0\". If you do",
+   "qty": 1.0,
+   "uom": "Per Service Call",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 11,
+    "method": "tokens 2/13",
+    "ov": 2,
+    "vendor": "Synnex",
+    "sku": "876892-0",
+    "matched_desc": "PPT MAINTENANCE SUPPORT FOR SCHEDULE 876892-0",
+    "catalog_uom": "EA",
+    "pack_qty": 1,
+    "uom_normalized": false,
+    "uom_mismatch": true,
+    "raw_merch_cost": 5844.0,
+    "raw_freight": 0.0,
+    "unit_merch_cost": 5844.0,
+    "unit_freight": 0.0,
+    "landed_unit": 5844.0
+   }
+  },
+  {
+   "line": 4,
+   "desc": "HOURLY RATE FOR SERVICES - Do you charge an hourly rate for services, repairs, and/or maintenance? If yes, please provide the rate (in dollars per hour). In addition, please attach your rate schedule ",
+   "qty": 1.0,
+   "uom": "Per Hour",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 5,
+   "desc": "HOURLY RATE FOR SERVICES (AFTER-HOURS AND WEEKENDS) - Do you charge a specific hourly rate for service, repair and/or maintenance calls performed after hours or on the weekend? If yes, please provide ",
+   "qty": 1.0,
+   "uom": "Per Hour",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 6,
+   "desc": "HOURLY RATE FOR SERVICES (HOLIDAYS) - Do you charge a specific hourly rate for service, repair, and/or maintenance calls performed on a holiday? If yes, please provide the rate (in dollars per hour). ",
+   "qty": 1.0,
+   "uom": "Per Hour",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 7,
+   "desc": "INSTALL FEE - Do you charge an install fee? If yes, please enter \"1\" and attach your fee schedule with your response documents. If no, please respond \"0.\" If you do not provide a service, please selec",
+   "qty": 1.0,
+   "uom": "Per Item",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 11,
+    "method": "tokens 2/13",
+    "ov": 2,
+    "vendor": "Ingram",
+    "sku": "VT5247",
+    "matched_desc": "INSTALL 1 SPONTANIA ENTER",
+    "catalog_uom": "EA",
+    "pack_qty": 1,
+    "uom_normalized": false,
+    "uom_mismatch": true,
+    "raw_merch_cost": 1079.45,
+    "raw_freight": 129.534,
+    "unit_merch_cost": 1079.45,
+    "unit_freight": 129.534,
+    "landed_unit": 1208.984
+   }
+  }
+ ]
+}

@@ -454,5 +454,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-09-25T13:44:04.574525+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 31,
+ "lines_matched": 1,
+ "coverage_pct": 3.2,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/tarrant-county-tx-f2027001-addendum-1/coverage.json"
 }

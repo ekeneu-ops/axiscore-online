@@ -1,0 +1,92 @@
+{
+ "schema": "v2",
+ "bid_id": "city-of-fayetteville-ar-bid-27-13-addendum-1",
+ "agency": "City of Fayetteville, AR",
+ "bid_number": "Bid 27-13 Addendum 1",
+ "title": "Sod",
+ "src": "Invited",
+ "close": "9/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-09-29T13:46:01.859756+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 6,
+ "priced_lines": 0,
+ "gap_lines": 6,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 6
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "TIF Bermuda Sod - Delivered",
+   "qty": 25000.0,
+   "uom": "Sq Ft",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 2,
+   "desc": "TIF Bermuda Sod - Delivered and Installed",
+   "qty": 25000.0,
+   "uom": "Sq Ft",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 3,
+   "desc": "TIF Bermuda Sod - Delivered, Installed, and Turf Reinforcement Netting Removed",
+   "qty": 50000.0,
+   "uom": "Sq Ft",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 4,
+   "desc": "Tall Fescue Sod - Delivered",
+   "qty": 10000.0,
+   "uom": "Sq Ft",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 5,
+   "desc": "Tall Fescue Sod - Delivered and Installed",
+   "qty": 10000.0,
+   "uom": "Sq Ft",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 6,
+   "desc": "Hydro-Seeding - Delivered and Installed",
+   "qty": 15000.0,
+   "uom": "Sq Ft",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  }
+ ]
+}

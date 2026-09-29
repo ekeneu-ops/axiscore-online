@@ -1,0 +1,183 @@
+{
+ "bid_id": "lee-county-fl-b260339jlo",
+ "bid_number": "B260339JLO",
+ "agency": "Lee County, FL",
+ "src": "Open",
+ "title": "Ford Fleet Vehicles - Annual",
+ "close": "10/8/2026 02:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Factory-Ordered Vehicle - Percentage discount below/off the \"Dealer Invoice w/ Holdback Price\" column of the Ford Proprietary Price List for Ford vehicles that must be ordered from the manufacturer.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Factory-Ordered Vehicle - Percentage discount below/off the \"Dealer Invoice w/ Holdback Price\" column of the Ford Proprietary Price List for Ford vehicles that must be ordered from the manufacturer. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Option A: Dealer-Installed Options and Accessories - Percentage markup above actual invoice for dealer-installed options performed by the Vendor or Vendor-selected subcontractor.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Option A: Dealer-Installed Options and Accessories - Percentage markup above actual invoice for dealer-installed options performed by the Vendor or Vendor-selected subcontractor. 1 EA No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Option B: In-Stock Dealer Inventory Vehicle - Percentage discount below/off the MSRP for Ford Vehicles that are currently available in the Vendor's inventory or can be obtained from another Ford dealer's existing inventory. Delivery shall be from dealer stock and not require factory ordering.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Option B: In-Stock Dealer Inventory Vehicle - Percentage discount below/off the MSRP for Ford Vehicles that are currently available in the Vendor's inventory or can be obtained from another Ford dealer's existing inventory. Delivery shall be from dealer stock and not require factory ordering. 1 EA No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "B260339JLO - Formal BID Standard Terms and Conditions.pdf",
+  "B260339JLO - Lee County Insurance Requirement.pdf",
+  "B260339JLO - Special Conditions.pdf",
+  "B260339JLO - Scope of Work and Specifications.pdf",
+  "Sunbiz_Sample.pdf",
+  "Affidavit of Immigration Laws E-Verify.pdf",
+  "Reference Survey.pdf",
+  "Sub-Contractor Consultant List.pdf",
+  "Public Entity Crime Form.pdf",
+  "Vendor Background Screening Affidavit.pdf",
+  "Affidavit of Compliance 287.138 - 787.06 - 4.7.26 - Fillable.pdf",
+  "Negligence Breach and or Non-Compliance Disclosure Form-Fillable-07.08.26.pdf",
+  "B260339JLO - Formal Standard Bid Sealed Bid Label.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "B260339JLO - Formal BID Standard Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260339JLO - Lee County Insurance Requirement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260339JLO - Special Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B260339JLO - Scope of Work and Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sunbiz_Sample.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit of Immigration Laws E-Verify.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Reference Survey.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sub-Contractor Consultant List.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Public Entity Crime Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Background Screening Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit of Compliance 287.138 - 787.06 - 4.7.26 - Fillable.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Negligence Breach and or Non-Compliance Disclosure Form-Fillable-07.08.26.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "B260339JLO - Formal Standard Bid Sealed Bid Label.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 40.6,
+  "attachment_fetches": 13,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 5033434,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-29T13:25:47.598785+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/lee-county-fl-b260339jlo/coverage.json"
+}

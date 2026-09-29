@@ -330,5 +330,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-09-25T13:42:54.715158+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 21,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/ellis-county-tx-2026-007/coverage.json"
 }

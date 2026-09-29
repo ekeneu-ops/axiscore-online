@@ -282,5 +282,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-09-28T13:15:45.579722+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 20,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/university-of-iowa-18671/coverage.json"
 }

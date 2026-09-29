@@ -1,0 +1,40 @@
+{
+ "schema": "v2",
+ "bid_id": "washington-county-md-q-26-822-addendum-1",
+ "agency": "Washington County, MD",
+ "bid_number": "Q-26-822 Addendum 1",
+ "title": "Marty Snook Playground Fence",
+ "src": "Invited",
+ "close": "10/21/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-09-29T13:46:01.924180+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 0,
+ "priced_lines": 0,
+ "gap_lines": 0,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 0
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "A lump sum proposal is being requested for furnishing and installing the specified fence items. The total quotation shall include the cost of any and all permits and/or fees, the cost of all applicabl",
+   "qty": 1.0,
+   "uom": "TOTAL LUMP SUM",
+   "part": "",
+   "non_product": true
+  }
+ ]
+}

@@ -642,5 +642,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-09-27T13:19:01.983344+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 50,
+ "lines_matched": 5,
+ "coverage_pct": 10.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/nassau-boces-ny-26-27-053-fire-extinguishers-and-service/coverage.json"
 }

@@ -1,0 +1,4 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,"Firm fixed price per ton for modified subbase (Gradation 14), HMA Product.",15000.0,TON,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,"Firm fixed price per ton for modified subbase (Gradation 14), PCC Product.",55000.0,TON,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,"Firm fixed price per ton for fine material byproduct - price includes moving material to stockpile. There is no set quantity for this item, please provide your price per ton.",1.0,TON,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

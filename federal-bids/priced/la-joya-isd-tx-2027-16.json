@@ -1,0 +1,59 @@
+{
+ "schema": "v2",
+ "bid_id": "la-joya-isd-tx-2027-16",
+ "agency": "La Joya ISD, TX",
+ "bid_number": "2027-16",
+ "title": "Facility Utility Assessment System",
+ "src": "Invited",
+ "close": "10/16/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-09-29T13:46:01.894940+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 1,
+ "priced_lines": 0,
+ "gap_lines": 1,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 1
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "Utility Management Live Dashboard and Analytics System \u2013 Initial One-Year Term Provide, implement, configure, and support a web-based Utility Management Live Dashboard and Analytics System in accordan",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 10,
+    "method": "tokens 2/16",
+    "ov": 2,
+    "vendor": "Essendant",
+    "sku": "COELSB7000XL",
+    "matched_desc": "Corfit System Lumbosacral Spinal Back Support, X-Large, 40\" To 52\" Waist, White",
+    "catalog_uom": "EA",
+    "pack_qty": 4.0,
+    "uom_normalized": false,
+    "uom_mismatch": false,
+    "raw_merch_cost": 27.26,
+    "raw_freight": 2.1025,
+    "unit_merch_cost": 27.26,
+    "unit_freight": 2.1025,
+    "landed_unit": 29.3625
+   }
+  }
+ ]
+}

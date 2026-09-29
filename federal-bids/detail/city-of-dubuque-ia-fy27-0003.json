@@ -418,5 +418,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-09-26T13:43:10.326716+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 20,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-dubuque-ia-fy27-0003/coverage.json"
 }

@@ -1,0 +1,219 @@
+{
+ "schema": "v2",
+ "bid_id": "city-of-cedar-rapids-ia-pur0826-062",
+ "agency": "City of Cedar Rapids, IA",
+ "bid_number": "PUR0826-062",
+ "title": "Fall 2026 ROW Tree Planting",
+ "src": "Invited",
+ "close": "9/30/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-09-29T13:46:01.850012+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 17,
+ "priced_lines": 0,
+ "gap_lines": 17,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 17
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "Alder, Black 'pyramidalis' Alnus glutinosa 'Pyramidalis'",
+   "qty": 2.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 2,
+   "desc": "American Yellowwood 'Perkins Pink' Cladrastis kentukea 'Perkins Pink'",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 3,
+   "desc": "Bald cypress Taxodium distichum",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 4,
+   "desc": "Dawn Redwood Metasequoia glyptostroboides",
+   "qty": 2.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 5,
+   "desc": "Elm, Hybrid 'Triumph' Ulmus x 'Morton Glossy'",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 6,
+   "desc": "Kentucky Coffee Tree 'expresso' Gymnocladus doicus 'expresso'",
+   "qty": 4.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",
+   "weak_context": {
+    "score": 19,
+    "method": "tokens 2/7",
+    "ov": 2,
+    "vendor": "Essendant",
+    "sku": "HIH00500",
+    "matched_desc": "Cold Brew Coffee + Protein, Double Expresso, 8 Oz Can, 12/pack",
+    "catalog_uom": "CT",
+    "pack_qty": 1,
+    "uom_normalized": false,
+    "uom_mismatch": true,
+    "raw_merch_cost": 30.55,
+    "raw_freight": 2.7225,
+    "unit_merch_cost": 30.55,
+    "unit_freight": 2.7225,
+    "landed_unit": 33.2725
+   }
+  },
+  {
+   "line": 7,
+   "desc": "London Planetree 'exclamation' Platanus x acerifloia 'Morton Circle'",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 8,
+   "desc": "Oak, Black Quercus velutina",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 9,
+   "desc": "Oak, Hills Quercus ellipsoidalis",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 10,
+   "desc": "Oak, Norther Red",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 11,
+   "desc": "Oak, Sawtooth Quercus acutissima",
+   "qty": 2.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 12,
+   "desc": "Oak, Scarlet Quercus coccinia",
+   "qty": 2.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 13,
+   "desc": "Oak, Shingle Quercus imbricaria",
+   "qty": 4.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 14,
+   "desc": "Oak, Shumard Quercus shumardii",
+   "qty": 4.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 15,
+   "desc": "Oak, Swamp White Quercus bicolor",
+   "qty": 7.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 16,
+   "desc": "Oak, White Quercus alba",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 17,
+   "desc": "Dogwood, Kousa Cornus kousa",
+   "qty": 3.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  }
+ ]
+}

@@ -291,5 +291,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-09-25T13:33:52.241881+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 46,
+ "lines_matched": 16,
+ "coverage_pct": 34.8,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/campbell-county-school-district-wy-27-008/coverage.json"
 }

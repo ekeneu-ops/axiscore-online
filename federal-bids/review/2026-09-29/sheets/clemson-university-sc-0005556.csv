@@ -1,0 +1,31 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,"CS260B-1-MC-DCS260B-1-MC-D with micrometer
+driven slits, dual output, and 3 custom gratings
+Grating#1: 77985B, 1200L/mm, 500nm blz -280R
+Grating#2: 74068B, 600L/mm, 1200nm blz -560R
+Grating#3: 74079B,",1.0,0,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,"Research Arc Lamp Source, 300 W Xenon Ozone Free, Research
+Lamp Housing, Aspheric Lens F/1",1.0,0,66485-300XF-R1,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,"1/8m CS130B Monochromator, Holographic, Micrometer Slits",1.0,0,"Excitation monochromator, CS130B-2-MC",gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,"Mounting Kit, Cornerstone™ 130 Monochromator to Oriel
+Research Lamp Housing",1.0,0,74017,exact,ISG,SWI74017,,EA,1,False,False,5.26,0.0,5.26,6.19,6.19,,Synnex CCD017174017D001000 @ 13.22,ORS Nasco 577-4017 @ 28.34
+5,"Quick Change Filter Holder, 1.75 to 2 inch Filter, 1.6 inch Clear
+Aperture",1.0,0,71260,exact,ORS Nasco,868-7126000.LG,ONGUARD SANITEX HOOD,EA,1,False,False,0.8,0.0,0.8,0.94,0.94,,ORS Nasco 318-71260 @ 26.34,ORS Nasco 497-102797 @ 78.36
+6,"Filter Adapter, 1 inch Filter to 71260 Holder",1.0,0,7124,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,Rectangular Fiber Bundle Adapter,2.0,0,,token,Synnex,FOT114,"FIBER OPTIC ADAPTER - SINGLEMODE, DUPLEX, CERAMIC SLEEVE, RECTANGULAR, ST-SC",EA,1.0,False,False,14.54,1.1429,15.6829,18.45,36.9,,,
+8,"Single SMA Fiber Holder, 1.5 Inch Series Female Flange",1.0,0,70456,exact,ORS Nasco,473-70456000,PIN 2 X 20,EA,1,False,False,0.752,0.0,0.752,0.88,0.88,,ORS Nasco 473-70456100 @ 0.84,ORS Nasco 473-70456300 @ 0.85
+9,"Fiber Bundle, H.G. Fused Silica, 11 mm Ferrule to 0.8 x 9.7 mm
+Slit, 0.22 NA, 36 in.",2.0,0,77539,exact,ISG,DEF775390,,EA,1,False,False,12.85,0.0,12.85,15.12,30.24,,Educator Resource TCR77539 @ 19.95,ORS Nasco 547-66623377539 @ 57.50
+10,"UV-Si photodiode w/transimpedance amplifier, 200-1100 nm, 1-
+stage TE cooled, 5 mm dia., NIST traceable calibration",1.0,0,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+11,"Ge photodiode w/transimpedance amplifier, 700-1800 nm, 2-stage
+TE cooled, 5 mm dia. active area, NIST traceable calibration",1.0,0,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+12,"BNC Cable, Low Noise, 6 foot Length",2.0,0,70018,exact,Synnex,KT-DX17-0018,V5 1345U VPRO 16GB NUC CLIENT - RJ45 ONLY - 256GB SSD,EA,1,False,False,0.01,0.0008,0.0108,0.01,0.02,,ORS Nasco 341-1407-0018 @ 8.57,Ingram Z70018 @ 8.58
+13,Lab power supply +- 15 VDC,2.0,0,70703,exact,ORS Nasco,470-703D,"3-1/2"" STEEL HASPCASE HARDEN",CA,416.0,False,False,104.088,0.0,104.088,122.46,244.92,,ORS Nasco 405-068060-67070 @ 129.65,SP Richards CPT2170703 @ 239.54
+14,"Cable, DB15 Temp controller for Oriel TE cooled detector",2.0,0,70062B,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+15,16W Low power TE controller,2.0,0,LDT546,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+16,"Cable, Oriel detector to power supply",2.0,0,70055,exact,ORS Nasco,495-30-37-0055,TEK NOSE GUIDE,EA,1,False,False,1.417,0.0,1.417,1.67,3.34,,ORS Nasco 700-55125 @ 16.80,SP Richards VER70055 @ 21.65
+17,X-Y Flanged focusing lens assembly,1.0,0,77258,exact,ORS Nasco,577-2587,BAR SKT 17,EA,1,False,False,0.19,0.0,0.19,0.22,0.22,,ORS Nasco 577-2584 @ 0.67,ORS Nasco 577-2585 @ 0.72
+18,"focusing spacer tube lens kit, 75mm focal length",1.0,0,77321,exact,ISG,PIL77321,,EA,1,False,False,1.41,0.0,1.41,1.66,1.66,,ORS Nasco 577-3210 @ 6.33,ORS Nasco 577-3215 @ 6.44
+19,cable USB 2.0 type A to type B,1.0,0,70044,exact,ORS Nasco,341-0967-0044,NUT BRASS OXY CGA540,EA,1,False,False,7.391,0.0,7.391,8.7,8.7,,ORS Nasco 724-67004430 @ 28.50,ORS Nasco 724-67004432 @ 28.50
+20,Enter this total price into the online bid event for Lot B,0.0,,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
