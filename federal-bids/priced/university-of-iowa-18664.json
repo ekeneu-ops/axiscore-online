@@ -1,0 +1,138 @@
+{
+ "schema": "v2",
+ "bid_id": "university-of-iowa-18664",
+ "agency": "University of Iowa",
+ "bid_number": "18664",
+ "title": "Employee Recognition and Service Awards Platform",
+ "src": "Invited",
+ "close": "10/28/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-09-30T13:39:26.333241+00:00",
+ "cost_source": "_latest_full.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 1,
+ "priced_lines": 0,
+ "gap_lines": 1,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 1
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "Provide the percent off discount from list price.",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 2,
+   "desc": "Provide the calculated average discounted price for items in the category for five (5) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 3,
+   "desc": "Provide the calculated average discounted price for items in the category for ten (10) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 4,
+   "desc": "Provide the calculated average discounted price for items in the category for fifteen (15) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 5,
+   "desc": "Provide the calculated average discounted price for items in the category for twenty (20) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 6,
+   "desc": "Acrylic Statue",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": false,
+   "confidence": "gap",
+   "gap": "no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)"
+  },
+  {
+   "line": 7,
+   "desc": "Provide the calculated average discounted price for items in the category for twenty five (25) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 8,
+   "desc": "Provide the calculated average discounted price for items in the category for thirty (30) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 9,
+   "desc": "Provide the calculated average discounted price for items in the category for thirty five (35) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 10,
+   "desc": "Provide the calculated average discounted price for items in the category for forty (40) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 11,
+   "desc": "Provide the calculated average discounted price for items in the category for forty five (45) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 12,
+   "desc": "Provide the calculated average discounted price for items in the category for fifty (50) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  },
+  {
+   "line": 13,
+   "desc": "Provide the calculated average discounted price for items in the category for sixty (60) years of service. Calculation: Total cost using the discounted prices/number of items = Average cost",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  }
+ ]
+}

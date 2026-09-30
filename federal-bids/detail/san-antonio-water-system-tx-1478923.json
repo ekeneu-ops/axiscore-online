@@ -1,0 +1,71 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1478923",
+ "bid_number": "1478923",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "ADAP 42IN BELL X PE 44.50",
+ "close": "10/8/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "42-Inch Adapter, Bell X Plain End, 44.50 OD - AWWA C301 Concrete Steel Cylinder See Attached SAWS Approved Product List Price must include Freight / Shipping.",
+   "qty": "1",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 42-Inch Adapter, Bell X Plain End, 44.50 OD - AWWA C301 Concrete Steel Cylinder See Attached SAWS Approved Product List Price must include Freight / Shipping. 1 EACH No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+  "20260609 SAWS Approved Products List _1_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "20260609 SAWS Approved Products List _1_.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.0,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 677565,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-30T13:19:20.538400+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/san-antonio-water-system-tx-1478923/coverage.json"
+}

@@ -1,0 +1,99 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1478921",
+ "bid_number": "1478921",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "42IN COUPLING & 42IN DI PIPE",
+ "close": "10/8/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "42-Inch Cast Coupling, Range 44.20 - 44.50 See Attached SAWS Approved Product List and Ductile Iron Coupling Spec. Sheet.",
+   "qty": "2",
+   "uom": "EACH",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 42-Inch Cast Coupling, Range 44.20 - 44.50 See Attached SAWS Approved Product List and Ductile Iron Coupling Spec. Sheet. 2 EACH No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "42-Inch Ductile Iron Pipe, Class 150 (Full Gauge With Hub Gasket). See Attached SAWS Approved Product List and Ductile Iron Pipe Spec. Sheet.",
+   "qty": "40",
+   "uom": "FOOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 42-Inch Ductile Iron Pipe, Class 150 (Full Gauge With Hub Gasket). See Attached SAWS Approved Product List and Ductile Iron Pipe Spec. Sheet. 40 FOOT No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+  "20260609 SAWS Approved Products List _1_.pdf",
+  "Coupling Standard Wide Range DI Dec 2011.pdf",
+  "Pipe Ductile Iron Dec 2011.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "20260609 SAWS Approved Products List _1_.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Coupling Standard Wide Range DI Dec 2011.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Pipe Ductile Iron Dec 2011.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.4,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1140883,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-09-30T13:19:10.036198+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/san-antonio-water-system-tx-1478921/coverage.json"
+}
