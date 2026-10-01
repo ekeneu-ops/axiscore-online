@@ -1,0 +1,9 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,Standard Hourly Labor Rate ($/hr),1.0,$/hr,,non-product,,,,,,,,,,,,,,,
+2,Overtime / Emergency Hourly Labor Rate ($/hr),1.0,$/hr,,non-product,,,,,,,,,,,,,,,
+3,Heavy Equipment with Operator Rate ($/hr),1.0,$/hr,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,Water Line Installation / Repair ($/linear ft),1.0,$/linear ft,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+5,Sewer / Storm Line Installation / Repair ($/linear ft),1.0,$/linear ft,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+6,Manhole / Junction Box Service ($/unit),1.0,$/unit,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,Backflow / Fire Line Assembly ($/unit),1.0,$/unit,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+8,Material Markup Percentage (% over cost),1.0,% over cost,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

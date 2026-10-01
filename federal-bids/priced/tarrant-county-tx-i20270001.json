@@ -1,0 +1,40 @@
+{
+ "schema": "v2",
+ "bid_id": "tarrant-county-tx-i20270001",
+ "agency": "Tarrant County, TX",
+ "bid_number": "I20270001",
+ "title": "52 inch Zero Turn Mower",
+ "src": "Invited",
+ "close": "10/9/2026 09:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "priced_at": "2026-10-01T13:48:26.582139+00:00",
+ "cost_source": "best_cost_full_2026-09-29.csv",
+ "margin_pct": 15.0,
+ "items_source": "grid-only",
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "product_lines": 0,
+ "priced_lines": 0,
+ "gap_lines": 0,
+ "tiers": {
+  "exact": 0,
+  "spec": 0,
+  "token": 0,
+  "gap": 0
+ },
+ "priced_pct": 0.0,
+ "uom_flags": 0,
+ "our_cost_total": 0.0,
+ "draft_sell_total": 0.0,
+ "draft_margin_note": "sell = landed / (1 - 0.15) on evidence-grade lines only",
+ "lines": [
+  {
+   "line": 1,
+   "desc": "52 inch zero turn riding mower Delivered fully assembled, fueled, and serviced Unit price shall be fully loaded including all delivery charges F.O.B Destination Freight Prepaid and Allowed delivered t",
+   "qty": 1.0,
+   "uom": "EA",
+   "part": "",
+   "non_product": true
+  }
+ ]
+}

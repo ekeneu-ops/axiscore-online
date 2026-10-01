@@ -1,0 +1,103 @@
+{
+ "bid_id": "city-of-dubuque-ia-fy27-0004",
+ "bid_number": "FY27-0004",
+ "agency": "City of Dubuque, IA",
+ "src": "Invited",
+ "title": "City of Dubuque Copy Paper Request for Bid",
+ "close": "10/15/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:copy paper",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Please enter the cost per case of copy paper that meets the specifications and contains 30% recycled content.",
+   "qty": "600",
+   "uom": "Cases",
+   "note": "Enter cost per case",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Please enter the cost per case of copy paper that meets the specifications and contains 30% recycled content. 600 Cases No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Please enter the cost per case of copy paper that meets the specifications and carries the FSC Certification.",
+   "qty": "600",
+   "uom": "Cases",
+   "note": "Enter cost per case",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Please enter the cost per case of copy paper that meets the specifications and carries the FSC Certification. 600 Cases No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Please enter the cost per case of copy paper that meets the specifications and is of virgin stock.",
+   "qty": "600",
+   "uom": "Cases",
+   "note": "Enter cost per case",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Please enter the cost per case of copy paper that meets the specifications and is of virgin stock. 600 Cases No Response"
+  }
+ ],
+ "attachments_saved": [
+  "SCHEDULE G VENDORS CITY 2025_12_15.pdf",
+  "City of Dubuque Standard Terms and Conditions PDF.pdf",
+  "Certificate to Obtain Insurance Form 2026_09_28.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "SCHEDULE G VENDORS CITY 2025_12_15.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "City of Dubuque Standard Terms and Conditions PDF.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate to Obtain Insurance Form 2026_09_28.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.1,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 125062,
+  "max_fetch_seconds": 0.07,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-01T13:15:56.409514+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-dubuque-ia-fy27-0004/coverage.json"
+}

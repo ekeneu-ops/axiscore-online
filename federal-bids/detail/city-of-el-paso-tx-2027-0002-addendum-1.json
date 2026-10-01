@@ -1,0 +1,639 @@
+{
+ "bid_id": "city-of-el-paso-tx-2027-0002-addendum-1",
+ "bid_number": "2027-0002 Addendum 1",
+ "agency": "City of El Paso, TX",
+ "src": "Open",
+ "title": "Traffic Management Center Upgrades Phase II & Phase III",
+ "close": "10/7/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "1. 2027-0002 Bid Form.xlsx _84 KB_",
+  "1. 2027-0002 Bid Form.xlsx",
+  "2. 2027-0002 Solicitation Forms.pdf",
+  "4. Form 1295 and Example.pdf",
+  "3. W-9.pdf",
+  "5. 2026-0202 Disclosure of Lobbying Activities.pdf",
+  "6. 2027-0002 Federal Certifications.pdf",
+  "7. 2027-0002 State of TX Child Support Business Ownwership.pdf",
+  "8. 2027-0002 Post - Award_Forms.pdf",
+  "9. 2027-0002 Amendment Acknowledgement Form _Paper Bids_.pdf",
+  "10. 2027-0002 Engineer Seal.pdf",
+  "11. 2027-0002 - 1L - 9L.pdf",
+  "12. 2027-0002 FHWA.pdf",
+  "13. 2027-0002 Prevailing Wages.pdf",
+  "14.  2027-0002 General Notes.pdf",
+  "15. Sole Source Letter.pdf",
+  "16. 2026-0002 List of Governing Specs.pdf",
+  "17. 2027-0002 Special Provisions.pdf",
+  "18. 2027-0002 Special Specifications.pdf",
+  "19. 2027-0002 Plans.pdf",
+  "2027-0002 - Amendment A001.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "1. 2027-0002 Bid Form.xlsx _84 KB_",
+   "kind": ".xlsx _84 kb_",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "1. 2027-0002 Bid Form.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2. 2027-0002 Solicitation Forms.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "4. Form 1295 and Example.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "3. W-9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "5. 2026-0202 Disclosure of Lobbying Activities.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "6. 2027-0002 Federal Certifications.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "7. 2027-0002 State of TX Child Support Business Ownwership.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "8. 2027-0002 Post - Award_Forms.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "9. 2027-0002 Amendment Acknowledgement Form _Paper Bids_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "10. 2027-0002 Engineer Seal.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "11. 2027-0002 - 1L - 9L.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "12. 2027-0002 FHWA.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "13. 2027-0002 Prevailing Wages.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "14.  2027-0002 General Notes.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "15. Sole Source Letter.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "16. 2026-0002 List of Governing Specs.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "17. 2027-0002 Special Provisions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "18. 2027-0002 Special Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "19. 2027-0002 Plans.pdf",
+   "kind": "pdf",
+   "tables": 57,
+   "note": "",
+   "candidates": 12
+  },
+  {
+   "name": "2027-0002 - Amendment A001.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "1. 2027-0002 Bid Form.xlsx",
+   "sheet": 0,
+   "header_row": 27,
+   "headers": [
+    "Estimates are minimums, but not guaranteed minimums, and the contract cost can increase so long as the unit costs remain the same and the increased funds are appropriated in the budget. Line item entries shall prevail over sum total entries.  When discrepancies exist between unit prices and corresponding extended prices, unit prices shall prevail.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Prices must be submitted on the prescribed form and all blank spaces on the form for prices must be filled in, (in ink or typewritten for paper submittals). Failure to fill in all blank spaces shall cause the bid to be deemed non responsive and it will not be considered in determining the lowest responsible bidder",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "As part of the requirement to establish the responsibility of the Bidder, the City of El Paso may perform a price analysis to determine the reasonableness of the price(s) at which the supplies and/or services are Bid. Prices that are significantly lower than the mean of all bids and that appear to be unreasonably low may be determined to be evidence of non-responsibility, and cause the Bid to be rejected and not considered in determining the lowest responsible bidder. ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "14.  2027-0002 General Notes.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Hybrid Ethernet Switch (Refer to Sole Source Letter in Solicitation)",
+     "See Summary of Quantities"
+    ],
+    [
+     "Small Form Factor Pluggable (SFP)",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "14.  2027-0002 General Notes.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Hardened Ethernet Switch (Refer to Sole Source Letter in Solicitation)",
+     "See Summary of Quantities"
+    ],
+    [
+     "Small Form Factor Pluggable (SFP)",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "14.  2027-0002 General Notes.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Cellular Modem with 5 Year of Cellular Service (Refer to Sole Source Letter\nin Solicitation)",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "14.  2027-0002 General Notes.pdf",
+   "sheet": 7,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Heating, Ventilation, and Air Conditioning (HVAC) System (Refer to\nSole Source Letter in Solicitation)",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "14.  2027-0002 General Notes.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Electrical Service at TMC",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "YB\nSKRAMER SHEET PHASE 2 TRAFFIC SIGNAL LAYOUTS - CONT'D. SHEET PHASE 2 TRAFFIC SIGNAL LAYOUTS - CONT'D. SHEET GENERAL\n1 TITLE SHEET 90 SIGNAL LAYOUT - 618 ALAMEDA AVE AT LAFAYETTE DR 170 SIGNAL LAYOUT - 764 WALMART AT VISTA DEL SOL DR\n2 - 3 INDEX OF SHEETS 91 SIGNAL LAYOUT - 619 ALAMEDA AVE AT RIVERSIDE DR 171 SIGNAL LAYOUT - 788 CAROLINA DR AT LILAC DR\nNOISIVER\n4 ,4A-4J GENERAL NOTES 92 SIGNAL LAYOUT - 622 ALAMEDA AVE AT MIDWAY DR 172 SIGNAL LAYOUT - 549 NORTH LOOP DR AT N AMERICAS AVE\n5 ESTIMATE & QUANTITY SHEET 93 SIGNAL LAYOUT - 625 ALAMEDA AVE AT CADWALLADER DR 173 SIGNAL LAYOUT - 549 NORTH LOOP DR AT N AMERICAS AVE\n6 PHASE 2 & 3 SUMMARY OF TRAFFIC CONTROL QUANTITIES 94 SIGNAL LAYOUT - 627 ALAMEDA AVE AT DURRILL RD 174 SIGNAL LAYOUT - 550 NORTH LOOP DR AT BORDEAUX DR\n7 PHASE 2 & 3 SUMMARY OF ITS QUANTITIES 95 SIGNAL LAYOUT - 640 ALAMEDA AVE AT GEORGE ORR RD 175 SIGNAL LAYOUT - 551 ALAMEDA AVE AT WALMART\n8 - 16 PHASE 2 SUMMARY OF TRAFFIC SIGNAL QUANTITIES 96 SIGNAL LAYOUT - 641 ALAMEDA AVE AT LITTLE FLOWER RD 176 SIGNAL LAYOUT - 552 ALAMEDA AVE AT N AMERICAS AVE\nETAD\n17 - 25 PHASE 3 SUMMARY OF TRAFFIC SIGNAL QUANTITIES 97 SIGNAL LAYOUT - 584 ALAMEDA AVE AT LIBERTY ST 177 SIGNAL LAYOUT - 552 ALAMEDA AVE AT N AMERICAS AVE\n26 PHASE 2 & 3 SUMMARY OF TRAFFIC SIGNAL QUANTITIES 98 SIGNAL LAYOUT - 586 ALAMEDA AVE AT PRADO RD 178 SIGNAL LAYOUT - 554 ALAMEDA AVE AT CARNES RD\n.ON\n27 SUMMARY OF HVAC QUANTITIES 99 SIGNAL LAYOUT - 588 ALAMEDA AVE AT PASODALE RD 179 SIGNAL LAYOUT - 555 ALAMEDA AVE AT PRESA PL\nSIGNAL LAYOUT - 440 GATEWAY EAST BLVD AT HUNTER DR / 180 SIGNAL LAYOUT - 560 ALAMEDA AVE AT INGLEWOOD DR\n100\nLAES SHEET TRAFFIC CONTROL VISCOUNT BLVD 181 SIGNAL LAYOUT - 574 NORTH LOOP DR AT WARWICK RD\nS'REENIGNE 2 2 9 8 T # R B A C FF ( 1 IC ) - C 2 O 1 NTROL PLAN - SEQUENCE OF WORK 1 1 0 0 2 1 V S S I I I G G SC N N O A A U L L N L L T A A B Y Y L O O V U U D T T - - 4 4 1 4 9 0 V G I A S C T O E U W N A T Y B W L V E D S T A B T L W V E D S A T M T O H R U E N L T A E N R D D D R R / 1 1 8 8 2 3 A S S I I M G G E N N R A A I C L L A L L S A A A Y Y V O O E U U T T - - 5 5 5 5 8 8 S S Z Z A A R R A A G G O O Z Z A A R R D D T T R R U U C C K K E E N N T T / / E E X X I I T T A A T T S S OF T E X A S\n3 0 # B C ( 2 ) - 2 1 1 1 0 0 3 4 S S I I G G N N A A L L L L A A Y Y O O U U T T - - 4 4 2 2 5 0 M V I A S R C K O E U T N T A V B E L V A D T A H T A W SU K N I N M S O B U L N V T D D R 1 8 4 A SI M G E N R A I C L A L S A A Y V O E U T - 5 6 1 Z A R A G O ZA R D A T S O C O R R O R D E T A T S\n31 # BC(3)-21\n105 SIGNAL LAYOUT - 426 INDUSTRIAL AVE AT HAWKINS BLVD 185 SIGNAL LAYOUT - 562 ALAMEDA AVE AT CANDELARIA ST\n32 # BC(4)-21\n106 SIGNAL LAYOUT - 427 COMMERCE AVE AT HAWKINS BLVD 186 SIGNAL LAYOUT - 563 ALAMEDA AVE AT ZARAGOZA RD\n33 # BC(5)-21\n107 SIGNAL LAYOUT - 428 GATEWAY EAST BLVD AT HAWKINS BLVD 187 SIGNAL LAYOUT - 564 ALAMEDA AVE AT HARRIS ST\n34 # BC(6)-21\nA/N A/N 108 SIGNAL LAYOUT - 428 GATEWAY WEST BLVD AT HAWKINS BLVD 188 SIGNAL LAYOUT - 567 ZARAGOZA RD AT HARRIS ST\n35 # BC(7)-21\nELACS SIGNAL LAYOUT - 429 CIELO VISTA MALL SOUTHEAST ENTRANCE AT 189 SIGNAL LAYOUT - 568 ZARAGOZA RD AT TEODOSO DR 36 # BC(8)-21 109 HAWKINS BLVD 190 SIGNAL LAYOUT - 569 ZARAGOZA RD AT ROSEWAY DR\n37 # BC(9)-21\nSIGNAL LAYOUT - 430 CIELO VISTA MALL EAST ENTRANCE AT 191 SIGNAL LAYOUT - 570 ZARAGOZA RD AT MELLON DR\n:ROH :REV 38 # BC(10)-21 110 HAWKINS BLVD 192 SIGNAL LAYOUT - 571 ZARAGOZA RD AT RABE CT\n39 # BC(11)-21 111 SIGNAL LAYOUT - 431 VISCOUNT BLVD AT HAWKINS BLVD SIGNAL LAYOUT - 572 ZARAGOZA RD AT PLAZA DE FLORES SHOPPING\n40 # BC(12)-21 112 SIGNAL LAYOUT - 434 PHOENIX AVE AT GILES RD 193 CENTER\n41 # TCP(1-4)-18 113 SIGNAL LAYOUT - 436 VISCOUNT BLVD AT GOLDEN KEY CIR 194 SIGNAL LAYOUT - 573 ZARAGOZA RD AT NORTH LOOP DR\n42 # WZ(BTS-1)-13\nOSAP SIGNAL LAYOUT - 437 VISCOUNT BLVD AT EL PASO COMMUNITY 195 SIGNAL LAYOUT - 576 ZARAGOZA RD AT BETEL DR 43 # WZ(BTS-2)-13 114 COLLEGE ADMIN SERV CENTER 196 SIGNAL LAYOUT - 577 ZARAGOZA RD AT GERANIUM DR\n115 SIGNAL LAYOUT - 438 MONTWOOD DR AT VISCOUNT BLVD 197 SIGNAL LAYOUT - 579 ZARAGOZA RD AT ESCOBAR DR\nSHEET ITS NETWORK PLANS 116 SIGNAL LAYOUT - 439 ACER AVE AT VISCOUNT BLVD 198 SIGNAL LAYOUT - 559 S ZARAGOZA RD AT BORDER HWY\nEMAN 117 SIGNAL LAYOUT - 441 GATEWAY WEST BLVD AT CORRAL DR / SUMAC 199 SIGNAL LAYOUT - 559 S ZARAGOZA RD AT S AMERICAS AVE\nLE 44 COEP TMC SERVER RACK LAYOUT 118 SIGNAL LAYOUT - 441 GATEWAY EAST BLVD AT CORRAL DR / SUMAC 200 SIGNAL LAYOUT - 590 INDEPENDENCE DR AT YARBROUGH DR\nTCEJORP 45 FIELD NETWORK EQUIPMENT TRANSITION PLAN STEP 1 119 SIGNAL LAYOUT - 442 GATEWAY WEST BLVD AT McRAE BLVD / GILES 201 SIGNAL LAYOUT - 589 KNIGHTS DR AT YARBROUGH DR\nFO 46 FIELD NETWORK EQUIPMENT TRANSITION PLAN STEP 2 120 SIGNAL LAYOUT - 442 GATEWAY EAST BLVD AT McRAE BLVD / GILES 202 SIGNAL LAYOUT - 592 ALAMEDA AVE AT YARBROUGH DR\n47 FIELD NETWORK EQUIPMENT TRANSITION PLAN STEP 3 121 SIGNAL LAYOUT - 443 WEDGEWOOD DR AT McRAE BLVD 203 SIGNAL LAYOUT - 624 MIDWAY DR AT MIMOSA AVE\n48 PHASE 2 AND 3 - OVERALL HUB LOCATIONS 122 SIGNAL LAYOUT - 444 SPRINGWOOD DR AT WEDGEWOOD DR 204 SIGNAL LAYOUT - 623 MIDWAY DR AT KNIGHTS DR\nYTIC 49 PHASE 2 - OVERALL COMM SCHEMATIC 123 SIGNAL LAYOUT - 445 SIMS DR AT McRAE BLVD 205 SIGNAL LAYOUT - 646 ALAMEDA AVE AT DELTA DR\n50 PHASE 2 - FIBER SCHEMATIC 124 SIGNAL LAYOUT - 446 ACER AVE AT McRAE BLVD 206 SIGNAL LAYOUT - 647 MANNY MARTINEZ DR AT DELTA DR\n51 PHASE 2 - FIBER SCHEMATIC - FIBER DETAIL 125 SIGNAL LAYOUT - 447 MONTWOOD DR AT McRAE BLVD 207 SIGNAL LAYOUT - 648 ALAMEDA AVE AT ASCARATE ST\n52 PHASE 2 - COMM SCHEMATIC - COM2 126 SIGNAL LAYOUT - 448 MONTWOOD DR AT WEDGEWOOD DR 208 SIGNAL LAYOUT - 649 DELTA DR AT FONSECA DR\n53 PHASE 2 - COMM SCHEMATIC - COM3 127 SIGNAL LAYOUT - 449 McRAE BLVD AT COSMOS DR 209 SIGNAL LAYOUT - 651 DELTA DR AT BUENA VISTA ST\n54 PHASE 2 - COMM SCHEMATIC - COM56, 57, 168, 169, & 171 128 SIGNAL LAYOUT - 450 ALBUM AVE AT McRAE BLVD 210 SIGNAL LAYOUT - 652 DELTA DR AT FELIZ PL\n55 PHASE 2 - COMM SCHEMATIC - COM229 129 SIGNAL LAYOUT - 451 ALBUM AVE AT WEDGEWOOD DR 211 SIGNAL LAYOUT - 654 DELTA DR AT VAL VERDE ST\n56 PHASE 2 - COMM SCHEMATIC - COM315 & 316 130 SIGNAL LAYOUT - 452 EDGEMERE BLVD AT McRAE BLVD 212 SIGNAL LAYOUT - 271 GATEWAY EAST BLVD AT E PAISANO DR\n57 PHASE 2 - COMM SCHEMATIC - COM317 131 SIGNAL LAYOUT - 456 CAROLINA DR AT GILES RD 213 SIGNAL LAYOUT - 271 GATEWAY WEST BLVD AT E PAISANO DR\n58 PHASE 2 - COMM SCHEMATIC - COM321 & 327 132 SIGNAL LAYOUT - 754 PARRAL DR AT GILES RD 214 SIGNAL LAYOUT - 263 DURAZNO AVE AT RAYNOLDS ST\n59 PHASE 2 - COMM SCHEMATIC - COM322 133 SIGNAL LAYOUT - 599 NORTH LOOP DR AT WEST DR 215 SIGNAL LAYOUT - 264 GATEWAY WEST BLVD AT RAYNOLDS ST\n60 PHASE 3 - OVERALL COMM SCHEMATIC 134 SIGNAL LAYOUT - 605 NORTH LOOP DR AT EAST RD 216 SIGNAL LAYOUT - 264 GATEWAY EAST BLVD AT RAYNOLDS ST\n61 PHASE 3 - FIBER SCHEMATIC 135 SIGNAL LAYOUT - 609 NORTH LOOP DR AT EMERSON ST 217 SIGNAL LAYOUT - 268 GATEWAY WEST BLVD AT CHELSEA ST\n62 PHASE 3 - FIBER SCHEMATIC - FIBER DETAIL 136 SIGNAL LAYOUT - 614 NORTH LOOP DR AT CAROLINA DR 218 SIGNAL LAYOUT - 268 GATEWAY EAST BLVD AT CHELSEA ST\n63 PHASE 3 - COMM SCHEMATIC - COM4 & 149 137 SIGNAL LAYOUT - 626 ALAMEDA AVE AT CAROLINA DR 219 SIGNAL LAYOUT - 269 YANDELL DR AT CHELSEA ST\n64 PHASE 3 - COMM SCHEMATIC - IP8001 & COM147 138 SIGNAL LAYOUT - 628 CAROLINA DR AT FRANKLIN DR 220 SIGNAL LAYOUT - 277 GATEWAY EAST BLVD AT TROWBRIDGE DR\n65 PHASE 3 - COMM SCHEMATIC - COM160 139 SIGNAL LAYOUT - 629 NORTH LOOP DR AT HUNTER DR 221 SIGNAL LAYOUT - 277 GATEWAY WEST BLVD AT TROWBRIDGE DR\n66 PHASE 3 - COMM SCHEMATIC - COM161 140 SIGNAL LAYOUT - 630 HUNTER DR AT TAXCO DR 222 SIGNAL LAYOUT - 282 EDGEMERE BLVD AT GERONIMO DR\n67 PHASE 3 - COMM SCHEMATIC - COM162 & 164 141 SIGNAL LAYOUT - 631 HUNTER DR AT PHOENIX DR 223 SIGNAL LAYOUT - 283 GERONIMO DR AT GATEWAY EAST BLVD\n68 PHASE 3 - COMM SCHEMATIC - COM189 & 190 142 SIGNAL LAYOUT - 632 HUNTER DR AT CUBA DR 224 SIGNAL LAYOUT - 283 GERONIMO DR AT GATEWAY WEST BLVD\n69 PHASE 3 - COMM SCHEMATIC - COM323 143 SIGNAL LAYOUT - 633 HUNTER DR AT WILCOX DR 225 SIGNAL LAYOUT - 284 TROWBRIDGE DR AT CLARK DR\nSIGNAL LAYOUT - 634 NORTH LOOP DR AT EL PASO COMMUNITY 226 SIGNAL LAYOUT - 285 TROWBRIDGE DR AT GERONIMO DR\n144\nITS STANDARDS COLLEGE VALLE VERDE CAMPUS 227 SIGNAL LAYOUT - 400 EDGEMERE BLVD AT SIOUX DR\n145 SIGNAL LAYOUT - 635 NORTH LOOP DR AT HAWKINS BLVD 228 SIGNAL LAYOUT - 643 TROWBRIDGE DR AT MARATHON ENT/EXIT\n70 ## ITS(23)-15 146 SIGNAL LAYOUT - 636 HAWKINS BLVD AT PHOENIX DR 229 SIGNAL LAYOUT - 644 TROWBRIDGE DR AT MARATHON EXIT\n147 SIGNAL LAYOUT - 637 HAWKINS BLVD AT TONY LAMA ST 230 SIGNAL LAYOUT - 234 E PAISANO DR AT SAN ANTONIO AVE\nSHEET PHASE 2 TRAFFIC SIGNAL LAYOUTS 148 SIGNAL LAYOUT - 638 NORTH LOOP DR AT DALE RD 231 SIGNAL LAYOUT - 286 E PAISANO DR AT VAL VERDE ST\n149 SIGNAL LAYOUT - 645 NORTH LOOP DR AT DELTA DR 232 SIGNAL LAYOUT - 288 E PAISANO DR AT CHELSEA ST/EL PASO DR\n150 SIGNAL LAYOUT - 458 YARBROUGH DR AT GATEWAY WEST BLVD 233 SIGNAL LAYOUT - 290 ALAMEDA AVE AT RAYNOLDS ST\n71 SIGNAL LAYOUT - 553 ALAMEDA AVE AT RAFAEL SEPTIEN LN\n151 SIGNAL LAYOUT - 458 YARBROUGH DR AT GATEWAY EAST BLVD 234 SIGNAL LAYOUT - 291 ALAMEDA AVE AT CONCEPCION ST\n72 SIGNAL LAYOUT - 556 SOCORRO RD AT S AMERICAS AVE\n152 SIGNAL LAYOUT - 459 YARBROUGH DR AT BURLINGTON CLOTHING 235 SIGNAL LAYOUT - 292 ALAMEDA AVE AT BUENA VISTA ST\n73 SIGNAL LAYOUT - 556 SOCORRO RD AT S AMERICAS AVE\n74 SIGNAL LAYOUT - 557 PAN AMERICAN DR AT S AMERICAS AVE 153 SIGNAL LAYOUT - 460 YARBROUGH DR AT VISTA DEL SOL DR 236 MID-BLOCK CROSSING - 293 EAST OF ALAMEDA AVE NEAR N\n154 SIGNAL LAYOUT - 461 YARBROUGH DR AT SPRINGWOOD DR COLLINGSWORTH ST\n75 SIGNAL LAYOUT - 557 PAN AMERICAN DR AT S AMERICAS AVE\n155 SIGNAL LAYOUT - 462 YARBROUGH DR AT TRAWOOD DR 237 SIGNAL LAYOUT - 294 ALAMEDA AVE AT CLARK DR\n76 SIGNAL LAYOUT - 639 ALAMEDA AVE AT CROOM RD",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "",
+     "LAID .M E NI R 055801 E E N G N E O L NA DE S N LICE\nNOB FE S S\nP R O",
+     "5202/71/01"
+    ],
+    [
+     "",
+     "5202/71/01 577832\nRB WH RB DB\nYB YB YB YB .ON\nETAD NGISED NWARD .DKHC.CTE .DPPA BOJ\nSEDARGPU 3 ,665-60-4290\n&\n2\nSESAHP\nCMT\n:JSC",
+     ""
+    ],
+    [
+     "",
+     "0853-F\n.TS 10997\n.cnI\nsecivreS SASNAK 209\nXT\nlacinhceT ETIUS ,OSAP\n.N\n122\nLE\nMOCEA",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Hybrid Ethernet Switch (Refer to Sole Source Letter in Solicitation)",
+     "See Summary of Quantities"
+    ],
+    [
+     "Small Form Factor Pluggable (SFP)",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "Hardened Ethernet Switch (Refer to Sole Source Letter in Solicitation)",
+     "See Summary of Quantities"
+    ],
+    [
+     "Small Form Factor Pluggable (SFP)",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 8,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Electrical Service at TMC",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 9,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Cellular Modem with 5 Year of Cellular Service (Refer to Sole Source Letter\nin Solicitation)",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 10,
+   "header_row": 0,
+   "headers": [
+    "Description",
+    "Quantity"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Heating, Ventilation, and Air Conditioning (HVAC) System (Refer to\nSole Source Letter in Solicitation)",
+     "See Summary of Quantities"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 12,
+   "header_row": 6,
+   "headers": [
+    "ALT",
+    "BID CODE",
+    "DESCRIPTION",
+    "UNIT",
+    "EST.",
+    "FINAL",
+    "EST.",
+    "FINAL",
+    "EST.",
+    "FINAL",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 45,
+   "sample": [
+    [
+     "",
+     "500-7001",
+     "MOBILIZATION",
+     "LS",
+     "1",
+     "",
+     "1",
+     "",
+     "-",
+     "",
+     "2",
+     ""
+    ],
+    [
+     "",
+     "502-7001",
+     "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+     "MO",
+     "7",
+     "",
+     "7",
+     "",
+     "-",
+     "",
+     "14",
+     ""
+    ],
+    [
+     "",
+     "503-7001",
+     "PORTABLE CHANGEABLE MESSAGE SIGN",
+     "DAY",
+     "145",
+     "",
+     "160",
+     "",
+     "-",
+     "",
+     "305",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 14,
+   "header_row": 0,
+   "headers": [
+    "YB\nSUMMARY OF ITS ITEMS\nSKRAMER * * * * * * * * * * * *\n- - - - - - - - - - - -\nNOISIVER ETHERNET ETHERNET TRAFFIC\nCCTV & DMS DISASTER NETWORK SFP 10GB SMF\nLOCATION SH N E O E . T S B E A R C V K E U R P CO S N E T R R V O E L R LER RE SE C R O V V E ER R Y T S M W C IT 1 C 0 H G A ( T 16 T S M W C IT C 1G H A (2 T 4 (H F A IR R E D W W A A L R L E) MO S N E I R T V O E R R ING MO S N E I R T V O E R R ING (10 S K W M IT ) C (T H M ) C S (T F M P C 1 G SW B I R TC J4 H 5 ) S S E IG R N V A ER L PORT SERVER\nSFP PORTS) ETH PORTS) (HARDWARE)\nETAD\nEA EA EA EA EA LS EA EA EA EA LS EA\n.ON ITS CSJ 0924-06-566 BASE BID 1\nTMC 44 1 1 8 12\nPHASE 2 NODES 49\nLAES\nSIGNAL CABINETS VAR 8\nEXAS\nS'REENIGNE T\nITS PHASE 2 CSJ 0924-06-566 BASE BID 1 TOTALS 1 1 8 12 8 OF\nE TATS\nITS CSJ 0924-06-567 BASE BID 2\nTMC 44 1 1 1 1 1 1\nPHASE 3 NODES 60\nA/N A/N\nSIGNAL CABINETS VAR 28\nELACS\nITS PHASE 3 CSJ 0924-06-567 BASE BID 2 TOTALS 1 1 1 1 1 1 28\n:ROH :REV\nMATERIAL FURNISHED BY CITY (CITY FUNDED)\nTMC 44 1\nOSAP\nMATERIAL FURNISHED BY CITY (CITY FUNDED) 1\nPROJECT TOTALS 1 1 1 1 1 1 1 1 8 12 1 36\nEMAN\nLE\nTCEJORP\nFO\nYTIC SUMMARY OF ITS ITEMS\n** ELP1 ELP1 ELP3 ELP3 ELP4 ELP4 ELP4 ELP5 ELP8 EP12\n- 0100 0200 0100 0200 0100 0200 0300 0100 0100 0100\nINSTALLATION\nHYBRID SFP 1GB SMF FIBER OPTIC HARDENED CELL MODEM 5 PORT SERVER\nLOCATION SH N E O E . T AN O D F R E C M E O L V L AL ET SW HE IT R C N H ET ( S H W Y I B T R C I H D ) FIB JU E M R P O E P R T S IC S FU PL SI I O C N E ET SW HE IT R C N H ET SFP ( H 1G U B B S S ) MF SFP ( 1 H 0 U G B B S S ) MF INT S E Y G S R T A EM TION SE Y R R V O IC F E (IN O S N T L A Y L ) L\nMODEM\nEA EA EA EA EA EA EA EA LS EA EA\nITS CSJ 0924-06-566 BASE BID 1\nTMC 44 20 1\nPHASE 2 NODES 49 7 11 78 60 8 16 12\nSIGNAL CABINETS VAR 157 8\nITS PHASE 2 CSJ 0924-06-566 BASE BID 1 TOTALS 157 7 11 98 60 8 16 12 1 8\nITS CSJ 0924-06-567 BASE BID 2\nTMC 44 1 40\nPHASE 3 NODES 60 1 4 68 42 6 17 8\nSIGNAL CABINETS VAR 167 28\nITS PHASE 3 CSJ 0924-06-567 BASE BID 2 TOTALS 167 1 4 68 42 6 17 8 1 40 28\nMATERIAL FURNISHED BY CITY (CITY FUNDED)\nTMC 44\nMATERIAL FURNISHED BY CITY (CITY FUNDED)\n3\nPROJECT TOTALS 324 8 15 166 102 14 33 20 2 40 36 &\n* ITEMS TO BE FURNISHED BY THE CITY AND INSTALLED BY THE CONTRACTOR - PAID FOR UNDER ELP5-0100. SEE GENERAL NOTES 6L FOR INSTALLATION BID ITEMS. 2\n** FOR CONTRACTOR INFORMATION ONLY. THESE ITEMS SHALL BE SUBSIDIARY TO ITEM ELP5.\nESAHP\nSHEET NO.\n7",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "",
+     "R EENGN\nLAID DE\n.M E NI 055801 E O L NA S N ICE\nN S"
+    ],
+    [
+     "",
+     "OB L ROFES\nP\n5202/71/01 577832\nRB WH RB DB\nYB YB YB YB ."
+    ],
+    [
+     "",
+     "ETAD NGISED NWARD .DKHC.CTE .DPPA ON BOJ\nSEDARGPU 3 ,665-60-4290\n&\n2\nSESAHP\nCMT\n:JS"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 40,
+   "header_row": 0,
+   "headers": [
+    "TCP SELECTION TABLE GENERAL TCP NOTES\n1.PLACE ADVANCE WARNING SIGNS ACCORDING TO STANDARDS\nTYPE OF WORK STANDARD SHEET SHEET DESCRIPTION SHEET DIAGRAM DESCRIPTION SUGGESTED USE BC(1)-21 TO BC(12)-21 & WZ(BTS-2)-13 UNLESS OTHERWISE\nTCP - LANE CLOSURES ON COORDINATE WITH CITY TO PARK INSIDE PARKING LOT. DIRECTED.\nTMC WORK TCP(1-4)-18 MULTILANE CONVENTIONAL TCP(1-4a) ONE LANE CLOSED TMA APPLIES WHEN LANE CLOSURE IS NEEDED.\n(SAN PAULO DR & ROADS 2.APPLY TRAFFIC CONTROL PLAN AS DESCRIBED IN THE TCP\nLAFAYETTE DR.) SELECTION TABLE, UNLESS OTHERWISE DIRECTED BY THE\nTRAFFIC SIGNAL WORK PEDESTRIAN CONTROL APPLIES WHEN THE SIDEWALK IS ENGINEER.\nITS CABINET WORK WZ(BTS-2)-13 BARRICADES AND SIGNS - CROSSWALK CLOSURES TO BE BLOCKED BY WORK AT THE SIGNAL.\n3.DO NOT STORE ANY EQUIPMENT OR STOCKPILE ANY MATERIAL\nTRAFFIC SIGNAL WORK NEAR/FAR SIDE TMA APPLIES TO WORK WITH NEAR SIDE LANE CLOSURES ON THE OPPOSITE DIRECTION OF THE WORK OR ON THE LANE\nTRAFFIC SIGNAL & HAWK WZ(BTS-1)-13 TYPICAL DETAILS - LANE CLOSURE PER STANDARD. CLOSURE.\nCABINET UPGRADES &\nCABINET REPLACEMENT 4.CONTRACTOR TO MAINTAIN SIGNAL VISIBILITY WHEN NEARBY\nTRAFFIC SIGNAL WORK CROSSWALK CLOSURE APPLIES DURING SIGNAL OR HAWK\nITS CABINET WORK WZ(BTS-2)-13 BARRICADES AND SIGNS - CROSSWALK CLOSURES TRANSITION. ACTIVITIES ARE ONGOING.\n5.CONTRACTOR SHALL WORK AT ONLY ONE LOCATION IN EACH\nTRAFFIC SIGNAL WORK FAR SIDE LANE CLOSURES APPLIES TO WORK AT TRAFFIC SIGNALS INCLUDING DIRECTION AT A TIME UNLESS OTHERWISE APPROVED BY THE\nWZ(BTS-1)-13 TYPICAL DETAILS - & OPERATIONS OVERHEAD EQUIPMENT (SIGNAL HEADS, SIGNS, CCTV, ENGINEER.\nIN THE INTERSECTION VIVDS, ETC.).\nTRAFFIC SIGNAL TRAFFIC SIGNAL WORK TMA APPLIES TO WORK AT TRAFFIC SIGNALS AT 6.ALL WORK AND LANE CLOSURES ARE RESTRICTED TO NON-PEAK\nUPGRADES AT WZ(BTS-1)-13 TYPICAL DETAILS - NEAR SIDE LANE CLOSURE INTERSECTIONS WITH ATYPICAL CONFIGURATIONS. HOURS DEFINED AS 9 AM TO 4 PM MONDAY THROUGH FRIDAY OR\nINTERSECTIONS NIGHTTIME HOURS OF 9 PM TO 5 AM DURING SUNDAY THROUGH\nTHURSDAY, UNLESS OTHERWISE DIRECTED IN WRITING. WORK\nTRAFFIC SIGNAL WORK CROSSWALK CLOSURE APPLIES DURING SIGNAL OR HAWK\nWZ(BTS-2)-13 BARRICADES AND SIGNS - CROSSWALK CLOSURES TRANSITION. ON SATURDAY AND SUNDAY IS NOT ALLOWED UNLESS OTHERWISE\nAPPROVED BY THE CITY PROJECT MANAGER.\n7.PERFORM CLEANUP AND INSPECTION AFTER COMPLETION OF\nBACKGROUND INFORMATION\nEACH STAGE IN THE SEQUENCE OF WORK AND AFTER EACH COM\nNETWORK TRANSITION. PERFORM FINAL CLEANUP AND\nINSPECTION AT END OF PROJECT.\n1.EXISTING OPTICAL TRANSPORT NETWORK (OTN)\n8.COORDINATE WORK WITHIN SCHOOL ZONE AREAS TO BE\nTHE OTN DEVICES ARE HOUSED IN A SEPARATE CABINET FROM THE TRAFFIC SIGNAL CONTROLLER CABINET, AND ARE LOCATED NEARBY. OTN NODE DEVICES MUST REMAIN PERFORMED WHEN SCHOOL IS NOT IN SESSION (NIGHTIME OR\nIN SERVICE AT ALL TIMES DURING THE NETWORK TRANSITION AND WILL CONTINUE TO OPERATE AFTER THE CONTRACT ENDS. SESSION BREAKS). WORK WITHIN SCHOOL ZONES TO BE\nEACH OTN NODE LOCATION USES SERIAL COMMUNICATION TO CONNECT TO INTERSECTIONS. SEVERAL SERIAL PORTS MAY BE USED AT A SINGLE OTN NODE. TYPICALLY, COORDINATED AND APPROVED BY THE CITY PROJECT MANAGER.\nEACH SERIAL COM WILL DAISY CHAIN SEVERAL INTERSECTIONS CONNECTED BY FIBER OR TWISTED PAIR. REFER TO FIELD NETWORK EQUIPMENT TRANSITION PLAN. COORDINATE AT PRECONSTRUCTION MEETING.\n2.PROPOSED ETHERNET NETWORK 9.CONTRACTOR SHALL PLACE SIGNALS IN FLASHING MODE FOR NO\nMORE THAN 4 HOURS DURING TRANSITION FROM OLD TO NEW\nPHASE 2 (CSJ 0924-06-566) SHALL BE INSTALLED FIRST, COMPLETED, AND VERIFIED BY THE CITY BEFORE BEGINNING PHASE 3 (CSJ 0924-06-567). THE NEW SIGNAL OPERATIONS. IF INTERSECTION CUTOVER (WHEN\nETHERNET NETWORK WILL UTILIZE THE EXISTING CITY AND TxDOT CABLE INFRASTRUCTURE FOR COMMUNICATION. COMMUNICATION ALONG FREEWAYS WILL USE TxDOT FIBER SIGNAL GOES DARK) IS ANTICIPATED, CONTRACTOR IS\nAND SERVE MUCH OF THE NEW NETWORK BACKBONE TO THE TRAFFIC MANAGEMENT CENTERS (TMCs). COMMUNICATION BETWEEN INTERSECTIONS WILL USE EXISTING FIBER RESPONSIBLE TO INSTALL ALL-WAY STOP CONTROL SIGNS AT\nAND COPPER TWISTED PAIR. THE ETHERNET NETWORK WILL USE NETWORK SWITCHES OF VARYING TYPES AT THE TMC, NODES, AND TRAFFIC SIGNAL CABINETS. SWITCH THE INTERSECTION AND PROVIDE LAW ENFORCEMENT PRIOR TO\nTYPES ARE DEFINED FOR EACH LOCATION WITHIN THE ITS SHEETS. ACTIVITIES. LAW ENFORCEMENT IS SUBSIDIARY TO ITEM 502.\nSEQUENCE OF WORK\nSTAGE 1: PREPARE TMC (ELP5 SYSTEM INTEGRATION)\n1.PROPOSED TRAFFIC SIGNAL SERVER\nA: INSTALL THE TRAFFIC SIGNAL SERVER IN 19\" RACK AT THE TMC.\nB: COORDINATE WITH THE CITY AND SOFTWARE COMPANY TO INSTALL THE CENTRAL TRAFFIC SIGNAL SOFTWARE ON SERVER.\nC: COORDINATE THE ORDER AND SCHEDULE OF EACH INTERSECTION CONVERSION TO THE NEW NETWORK WITH CITY AND SOFTWARE COMPANY. THE SOFTWARE COMPANY IS\nTO PROGRAM THE NEW CENTRAL TRAFFIC SIGNAL SOFTWARE WITH EACH INTERSECTION SIGNAL TIMING INFORMATION.\n2.TMC CONNECTIVITY\nA:INSTALL THE 10G 16 SFP PORT TRAFFIC SIGNAL SWITCH IN 19\" RACK.\nB:INSTALL THE 1G 24 ETHERNET PORT SWITCH IN 19\" RACK.\nC:INSTALL FIREWALL, CCTV & DMS CONTROLLER SERVER, NETWORK MONITORING SERVER, AND DISASTER RECOVERY SERVER IN 19\" RACK.\nD:CONNECT AND INTEGRATE EQUIPMENT AS SHOWN ON THE ITS LAYOUTS.\n3.CELLULAR MODEM CONNECTIVITY: CONNECT THE NEW TRAFFIC SIGNAL SERVER TO THE CITY OF EL PASO'S ETHERNET NETWORK AS SHOWN ON THE PLANS. THIS NETWORK\nWILL PROVIDE AN INTERNET ACCESS POINT TO CONNECT TO THE TRAFFIC SIGNAL CELLULAR MODEMS, WHICH WILL BE USED PRIMARILY DURING THE TRANSITION FROM COM NETWORK ORDER\nOTN NETWORK TO ETHERNET.\nCONTRACTOR SHALL PROVIDE ORDER OF PLANNED COM NETWORK\nUPGRADES TO CITY. BELOW IS AN OPTION FOR THE ORDER.\nSTAGE 2: PERMANENT CELLULAR CONNECTED TRAFFIC SIGNALS OR NOT CONNECTED TO TMC\n1.PHASE 2 (CSJ 0924-06-566):\n1.CONNECT CELLULAR CONNECTED TRAFFIC SIGNALS WITH THE TMC TRAFFIC SIGNAL SERVER. TRAFFIC SIGNALS WITH NO CONNECTIVITY TO THE TMC WILL REMAIN\nDISCONNECTED. REFER TO ITS NETWORK PLANS. THESE INTERSECTIONS MAY BE UPGRADED INDEPENDENT OF THE INTERSECTIONS CONNECTED VIA THE OTN NODES. VERIFY A: WIRELESS COMS CAN BE CONNECTED IN ANY ORDER: 56, 57,\nEACH TRAFFIC SIGNAL IS INTEGRATED INTO THE CENTRAL TRAFFIC SIGNAL SOFTWARE AND OPERATING PROPERLY. 168, 169, 171, AND UNASSIGNED LOCATIONS\nB: BEGIN AT COM 317 WHICH IS CONNECTED TO TMC.\nSTAGE 3: TRANSITION TO ETHERNET NETWORK\nCONTRACTOR SHALL NOT LEAVE TRAFFIC SIGNALS OFFLINE WHILE DOING THE UPGRADE. COMPLETE CAJ 0924-06-566 NODE UPGRADES BEFORE MOVING TO CSJ 0924-06-567. C: THEN WORK AWAY FROM TMC ALONG THE NETWORK: 316, 315,\n321, 327; THEN CONTINUE 2, 3, 229, 322\n1.INSTALL ETHERNET NETWORK AT COM NODES: REFER TO FIELD NETWORK EQUIPMENT TRANSITION PLAN STEP 1 FOR DETAILS. MAINTAIN EXISTING NETWORK COMMUNICATION.\n2.PHASE 3 (CSJ 0924-06-567):\n2.TRAFFIC SIGNAL UPGRADES BY COM NETWORK: REFER TO FIELD NETWORK EQUIPMENT TRANSITION PLAN STEP 2 FOR DETAILS. THIS STEP MUST BE PERFORMED FOR AN\nENTIRE COM NETWORK BEFORE MOVING ON TO THE NEXT NETWORK. DURING THIS STEP, ORDER OF SIGNAL CONTROLLER REPLACED MAY VARY WITHIN A COM NETWORK. WITHIN A: WIRELESS COMS CAN BE CONNECTED IN ANY ORDER:\nA SINGLE COM NETWORK, PERFORM TRAFFIC SIGNAL UPGRADES AND CONNECT SIGNALS TEMPORARILY USING CELL MODEM. UNASSIGNED LOCATIONS\n3.TRANSITION COM NETWORK TO ETHERNET: REFER TO FIELD NETWORK EQUIPMENT TRANSITION PLAN STEP 3 FOR DETAILS. THIS STEP MUST BE PERFORMED FOR AN ENTIRE B: WORK AWAY FROM TMC ALONG THE NETWORK: 4, 149, 190,\nCOM NETWORK BEFORE MOVING ONTO THE NEXT COM NETWORK. THIS STEP MUST BE COMPLETED STARTING WITH THE OTN NODE CABINET, THEN THE SIGNAL CABINET 189, 323, IP8001,147; THEN CONTINUE 160, 161, 162, 164\nLOCATED CLOSEST TO THE OTN NODE LOCATION, AND WORKING AWAY FROM THIS LOCATION. REFER TO THE NETWORK SCHEMATIC DIAGRAMS FOR EACH COM NETWORK. INSTALL\nHYBRID SWITCH, ENSURE CONNECTIVITY, AND REMOVE CELL MODEM.AT LOCATIONS WHERE A 170 CONTROLLER IS TO REMAIN AS PART OF THIS PROJECT, INSTALL A PORT\nSERVER AND INTEGRATE THE CONTROLLER WITH THE EXISTING 170 CONTROLLER TMC OPERATIONS SOFTWARE.\nS",
+    "YB"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "SKRAMER\nNOISIVE"
+    ],
+    [
+     "",
+     "R\nETAD\n.ON\nLAES\nS'REENI T E X A S LAID R 055801\nOF .M\nE T A T S EINNOB"
+    ],
+    [
+     "",
+     "GNE P\n5202/61/01\nELACS .S.T.N\nETAD\nOSAP\nSEDARGPU\nEMAN\nLE\nTCEJORP\nFO\nCMT\nYTIC"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 44,
+   "header_row": 0,
+   "headers": [
+    "Arrow Boards may be located behind channelizing devices in place for a shoulder\ntaper or merging taper, otherwise they shall be delineated with four (4) channelizing\ndevices placed perpendicular to traffic on the upstream side of traffic.\n1. The Flashing Arrow Board should be used for all lane closures on multi-lane roadways, or slow\nmoving maintenance or construction activities on the travel lanes.\n2. Flashing Arrow Boards should not be used on two-lane, two-way roadways, detours, diversions\nor work on shoulders unless the \"CAUTION\" display (see detail below) is used.\n3. The Engineer/Inspector shall choose all appropriate signs, barricades and/or other traffic\ncontrol devices that should be used in conjunction with the Flashing Arrow Board.\n4. The Flashing Arrow Board should be able to display the following symbols:\nOR\n4 CORNER CAUTION ALTERNATING DIAMOND CAUTION\nDOUBLE ARROW RIGHT/LEFT ARROW RIGHT/LEFT\n(right arrow shown; SEQUENTIAL CHEVRON\nleft is similar) (right chevron shown;\nleft is similar)\n5. The \"CAUTION\" display consists of four corner lamps flashing simultaneously, or the Alternating\nDiamond Caution mode as shown.\n6. The straight line caution display is NOT ALLOWED.\n7. The Flashing Arrow Board shall be capable of minimum 50 percent dimming from rated lamp voltage.\nThe flashing rate of the lamps shall not be less than 25 nor more than 40 flashes per minute.\n8. Minimum lamp \"on time\" shall be approximately 50 percent for the flashing arrow and equal\nintervals of 25 percent for each sequential phase of the flashing chevron.\n9. The sequential arrow display is NOT ALLOWED.\n10. The flashing arrow display is the TxDOT standard; however, the sequential chevron\ndisplay may be used during daylight operations.\n11. The Flashing Arrow Board shall be mounted on a vehicle, trailer or other suitable support.\n12. A Flashing Arrow Board SHALL NOT BE USED to laterally shift traffic.\n13. A full matrix PCMS may be used to simulate a Flashing Arrow Board provided it meets visibility,\nflash rate and dimming requirements on this sheet for the same size arrow.\n14. Minimum mounting height of trailer mounted Arrow Boards should be 7 feet from roadway\nto bottom of panel.\nREQUIREMENTS\nMINIMUM\nATTENTION\nWHEN NOT IN USE, REMOVE\nFlashing Arrow Boards THE ARROW BOARD FROM THE\nB 30 x 60 13 3/4 mile shall be equipped with RIGHT-OF-WAY OR PLACE THE\nC 48 x 96 15 1 mile automatic dimming devices. ARROW BOARD BEHIND CONCRETE\nTRAFFIC BARRIER OR GUARDRAIL.\nFLASHING ARROW BOARDS\nSHEET 7 OF 12\nC 2025 Traffic\nSafety\nDivision\nTTTRRRUUUCCCKKK---MMMOOOUUUNNNTTTEEEDDD AAATTTTTTEEENNNUUUAAATTTOOORRRSSS Standard",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1. Truck-mounted attenuators (TMA) used on TxDOT fac\nmust meet the requirements outlined in the Manual\nAssessing Safety Hardware (MASH).\n2. Refer to the CWZTCD for the requirements of Level\nLevel 3 TMAs.\n3. Refer to the CWZTCD for a list of approved TMAs.\n4. TMAs are required on freeways unless otherwise note\nin the plans.\n5. A TMA should be used anytime that it can be positio\n30 to 100 feet in advance of the area of crew expo\nwithout adversely affecting the work performance.\n6. The only reason a TMA should not be required is wh",
+     "ilities\nfor BARRICADE AND CONSTRUCTION\n2 or ARROW PANEL, REFLECTORS,\nWARNING LIGHTS & ATTENUATOR\nd\nned\nsure BC(7)-21\nen a work"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 48,
+   "header_row": 0,
+   "headers": [
+    "Temporary Flexible-Reflective\nRoadway Marker Tabs\nTOP VIEW FRONT VIEW SIDE VIEW\n2\"\n4\"+ \u00bc\"\nAdhesive pad\nHeight of sheeting\nis usually more than\n1/4\" and less than 1\".\nSTAPLES OR NAILS SHALL NOT BE USED TO SECURE\nTEMPORARY FLEXIBLE-REFLECTIVE ROADWAY MARKER\nTABS TO THE PAVEMENT SURFACE\n1. Temporary flexible-reflective roadway marker tabs used as guidemarks\nshall meet the requirements of DMS-8242.\n2. Tabs detailed on this sheet are to be inspected and accepted by the\nEngineer or designated representative. Sampling and testing is not\nnormally required, however at the option of the Engineer, either \"A\"\nor \"B\" below may be imposed to assure quality before placement on the\nroadway.\nA. Select five (5) or more tabs at random from each lot or shipment\nand submit to the Construction Division, Materials and Pavement\nSection to determine specification compliance.\nB. Select five (5) tabs and perform the following test. Affix five\n(5) tabs at 24 inch intervals on an asphaltic pavement in a\nstraight line. Using a medium size passenger vehicle or pickup,\nrun over the markers with the front and rear tires at a speed\nof 35 to 40 miles per hour, four (4) times in each direction. No\nmore than one (1) out of the five (5) reflective surfaces shall\nbe lost or displaced as a result of this test.\n3. Small design variances may be noted between tab manufacturers.\n4. See Standard Sheet WZ(STPM) for tab placement on new pavements. See\nStandard Sheet TCP(7-1) for tab placement on seal coat work.\nRAISED PAVEMENT MARKERS USED AS GUIDEMARKS\n1. Raised pavement markers used as guidemarks shall be from the approved\nproduct list, and meet the requirements of DMS-4200.\n2. All temporary construction raised pavement markers provided on a\nproject shall be of the same manufacturer.\n3. Adhesive for guidemarks shall be bituminous material hot applied or\nbutyl rubber pad for all surfaces, or thermoplastic for concrete\nsurfaces.\nGuidemarks shall be designated as:\nYELLOW - (two amber reflective surfaces with yellow body).\nWHITE - (one silver reflective surface with white body).",
+    "DEPARTMENTAL MATERIAL SPECIFICATIONS\nPAVEMENT MARKERS (REFLECTORIZED) DMS-4200\nTRAFFIC BUTTONS DMS-4300\nEPOXY AND ADHESIVES DMS-6100\nBITUMINOUS ADHESIVE FOR PAVEMENT MARKERS DMS-6130\nPERMANENT PREFABRICATED PAVEMENT MARKINGS DMS-8240\nTEMPORARY REMOVABLE, PREFABRICATED\nDMS-8241\nPAVEMENT MARKINGS\nTEMPORARY FLEXIBLE, REFLECTIVE\nDMS-8242\nROADWAY MARKER TABS\nA list of prequalified reflective raised pavement markers,\nnon-reflective traffic buttons, roadway marker tabs and other\npavement markings can be found at the Material Producer List\nweb address shown on BC(1).\nSHEET 11 OF 12\nC 2025 Traffic\nSafety\nDivision\nStandard\nB A R R IC A D E A ND C O N S TR U C T IO N\nP A V E M E N T M A R K IN G S\nBC(11)-21\nFILE: bc-21.dgn DN: TxDOT CK:TxDOT DW: TxDOT CK:TxDOT\nC TxDOT February 1998 CONT SECT JOB HIGHWAY\nREVISIONS",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "",
+     "Division\nStandard\nE A ND C O N S TR U C T IO N\nM E N T M A R K IN G S\nBC(11)-21\nDN: TxDOT CK:TxDOT DW: TxDOT CK:TxDOT\nCONT SECT JOB HIGHWAY"
+    ]
+   ]
+  },
+  {
+   "source": "19. 2027-0002 Plans.pdf",
+   "sheet": 54,
+   "header_row": 0,
+   "headers": [
+    "COEP TMC CCTV TYPICAL FIELD NETWORK\nTRAFFIC\nS S I E G R N V A E L R S TXDOT VIVDS VIVDS\nRYG RYG RYG\nTRAFFIC\nSIGNALS\nSERVER RACK 1 SERVER RACK 2 SERVER RACK 3 SERVER RACK 4 SERVER RACK 5 SERVER RACK 6 SERVER\nSONET MANAGEMENT SERVER TRAFFIC TRF TRF TRF SIGNALS SIG SIG SIG\nEN V C I O D D E E O RS SONET NODE SERVER\nSONET VIDEO\nMANAGEMENT SERVER TRAFFIC\nSIGNALS\nSE D R V V R ER DE V C I O D D E E O R S SONET NODE KCAR KCAR SERVER\nCCTV & DMS HUB\nREVRES REVRES CONTROLLER\nVIRTUALIZATION SERVER\nSERVER ATOMIC CLOCK AMD\nINTERCONNECT PROPOSED\nTRAFFIC SWITCH YTPME YTPME NETWORK COEP MONITORING FIREWALL\nSIGNALS SERVER KVM SERVER FIREWALL\nCONT C R C O T L V L & ER D S M E S RVER KVM SWITCH SONET NODE GNITSIXE GNITSIXE D RE S IS E C A R O V S V T E E E R R R Y 2 P 4 R N P O E O P T R O W T SE O S D R W K C I O T 1G C E P H 1 P 6 R N P O E O P T R O W T S O E S R D W K C I 1 O T 0 C E G P H\nTMC SERVER ROOM TMC SERVER ROOM\nETHERNET SWITCH TRAFFIC SIGNALS PORT SERVER HUB BACKUP SERVER\nSOUND\nSYSTEM\nPA FI N B E E L R P (4 A 8 T P C O H S) TR P A O F R F T IC S E S R IG V N E A R LS MONITORING\nSERVER\nDMS VIDEO WALL\nPORT SERVER SYSTEM\nTMC WORKSTATION TRF TRF TRF\nCITY OF EL PASO (COEP) MAIN TMC SERVER ROOM SIG SIG SIG\nEXISTING SERVER RACK LAYOUT TMC WORKSTATION ISP\nRYG RYG RYG\nTMC WORKSTATION VIVDS VIVDS\nTMC WORKSTATION\nINSTALL FIVE NEW INSTALL FOUR NEW PROPOSED PROPOSED SERVERS TRAFFIC SIGNALS SERVERS CITY OF EL PASO CCTV TYPICAL FIELD NETWORK\nSERVER RACK 1 SERVER RACK 2 SERVER RACK 3 SERVER RACK 4 SERVER RACK 5 SERVER RACK 6 CONNECTIVITY DETAIL A\nSONET\nCCTV & DMS TRAFFIC MANAGEMENT SERVER\nCO S N E T R R V O E L R LER S S I E G R N V A E L R S EN V C I O D D E E O RS SONET NODE\nSONET VIDEO\nMANAGEMENT SERVER NETWORK MONITORING SERVER SE D R V V R ER DE V C I O D D E E O R S SONET NODE S T S I R E G A R N V F A F E L I R C S NETWO T R M P K R C O 1 S P 0 E O G R S V 1 E 6 E D R P C O R O R O E O T P M SWITCH CA PR T O -5 P C O A SE B D LE FIREWALL PROPOSED COEP FIREWALL PROPOSED\nCAT-5 CABLE\nDISASTER RECOVERY VIRTUALIZATION SERVER SERVER ATOMIC CLOCK AMD INSTALL 1 G PR S O W PO IT S C E H D S T S I R E G A R N V F A F E L I R C S EXISTING NETWO TM P R R K C O S 1 P E G O R S 2 V E 4 E D P R O C R R O O T E O P S M WITCH\nINTERCONNECT TRAFFIC SWITCH SIGNALS SERVER KVM 1 41 2 61 3 46 4 66 NIAMER 24 P T O M R C T C E O E Q T N U H N I E E P C R M T N E T E N O T T S B E A R C V K E U R P S T S I R E G A R N V F A F E L I R C S F E O Q C U C IP O M N E N N E T C T W IO IT N H S T C O A P T E R - Q O 5 U P C O IP A S M B E E D L N E T S\nCONT C R C O T L V L & ER D S M E S RVER KVM SWITCH SONET NODE TROP +PFS & 31 SDNARTS TROP +PFS & 51 SDNARTS TROP +PFS & 36 SDNARTS TROP +PFS & 56 SDNARTS )COF( OT INSTALL PROPOSED MO S N E I R T V O E R R ING P S R E O R P V O E S R E S D 10G SWITCH\nNETWORK SWITCH TRAFFIC SIGNALS PORT SERVER SOUND MORF MORF MORF MORF SELBAC TNEMPIUQE 16 PORT; 8 SFP+ (10G), NETWORK SWITCH AND 8 SFP (1G)\nSYSTEM PA FI N B E E L R P (4 A 8 T P C O H S) NETWORK SWITCH TR P A O F R F T IC S E S R IG V N E A R LS REPMUJ LENAP REPMUJ LENAP REPMUJ LENAP REPMUJ LENAP CITPO CONNECT TO EXISTING FIBER PATCH PANEL FIREWALL AND FIREWALL\nGNITSIXE SEE DETAIL THIS SHEET\nDMS VIDEO WALL PORT SERVER SYSTEM HCTAP HCTAP HCTAP HCTAP REBIF\nREBIF REBIF REBIF REBIF\nREBIF REBIF REBIF REBIF\n.PORP .PORP .PORP .PORP OT\nCOEP MAIN TMC SERVER ROOM PROPOSED SERVER RACK LAYOUT OT OT OT OT INSTALL NEW FIREWALL\nTMC QUANTITIES\nEXISTING FIBER PATCH ITEM CODE DESCRIPTION UNIT QTY\nPANEL (48 POS) ELP3 0100 FIBER OPTIC JUMPERS EA 20\nTMC SERVER ROOM\nELP5 0100 SYSTEM INTEGRATION LS 2\n* - TRAFFIC SIGNAL SERVER (HARDWARE) LS 1\nEXISTING COEP 48 SM FOC * - FIREWALL (HARDWARE) LS 1\nTO MAIN FACILITY\nSERVER ROOM (BLDG 3) * - ETHERNET SWITCH AT TMC 1G (24 ETH PORTS) EA 1\n* - SFP 1GB RJ45 (TMC SWITCH) EA 12\n* - ETHERNET SWITCH AT TMC 10G (16 SFP PORTS) EA 1\nCONNECTIVITY DETAIL B\n* - SFP 10GB SMF (10KM) (TMC SWITCH) EA 8\n* - CCTV & DMS CONTROLLER SERVER EA 1 NOTES:",
+    "YB"
+   ],
+   "score": 3,
+   "n_rows": 3,
+   "sample": [
+    [
+     "",
+     "SKRAMER\nNOISIVER\nETAD\n.ON\nLAES\nAS NS R E\nS'REEN T E X IO SSES 221721\nOF\n.A\nE T A T B CO A"
+    ],
+    [
+     "",
+     "IGNE S J P\n5202/71/01\nELACS .S.T.N\nETAD\nOSAP\nSEDARGPU\nEMAN\nLE\nTCEJORP\nFO\nCMT\nYTIC\n0853-F\n.cnI\nsecivreS\nla"
+    ],
+    [
+     "",
+     "cinhceT\nMOCEA\nKCAR\nCMT\nPEOC REVRES"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 144.2,
+  "attachment_fetches": 21,
+  "attachment_seconds": 51.8,
+  "attachment_bytes": 139444109,
+  "max_fetch_seconds": 49.52,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-01T13:27:09.515367+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-el-paso-tx-2027-0002-addendum-1/coverage.json"
+}

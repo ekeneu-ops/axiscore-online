@@ -1,0 +1,176 @@
+{
+ "bid_id": "city-of-columbia-sc-rfp003-26-27-ams-addendum-2",
+ "bid_number": "RFP003-26-27-AMS Addendum 2",
+ "agency": "City of Columbia, SC",
+ "src": "Open",
+ "title": "Vista Greenway Spur Design Services",
+ "close": "10/9/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 56,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Pricing for RFP003-26-27-AMS (Vista Greenway Spur Design Services)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Pricing for RFP003-26-27-AMS (Vista Greenway Spur Design Services) 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Final.RFP003-26-27-AMS.pdf",
+  "Combined.Appendices.RFP003-26-27-AMS.pdf",
+  "Addendum 1 - RFP003-26-27-AMS.pdf",
+  "RFP003-26-27-AMS - Addendum 2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Final.RFP003-26-27-AMS.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Combined.Appendices.RFP003-26-27-AMS.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 1 - RFP003-26-27-AMS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFP003-26-27-AMS - Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 28,
+   "note": "",
+   "candidates": 2
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP003-26-27-AMS - Addendum 2.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "3",
+    "",
+    "Price Proposal (RFP Mandatory Requirements, Item 2)",
+    "",
+    "Lump sum pricing through an initial contract phase"
+   ],
+   "score": 2,
+   "n_rows": 56,
+   "sample": [
+    [
+     "",
+     "",
+     "Please clarify the required basis of the Price Proposal: Is",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "the lump sum pricing through an initial contract phase",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "(See Q1.), or for the full scope of services in Section 4 of",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "RFP003-26-27-AMS - Addendum 2.pdf",
+   "sheet": 21,
+   "header_row": 26,
+   "headers": [
+    "37",
+    "",
+    "",
+    "Is the intent for the GPR investigation to cover the entire\ncemetery? If not, please identify the anticipated area to\nbe investigated, preferably to the nearest 0.1 acre.\nRequiring consultants to establish investigation limits at\nthis stage may result in differing assumptions and\npotentially exclude investigations that ultimately prove\nnecessary.",
+    "",
+    "",
+    "Include a $20,000.00 GPR allowance as a separate line item\nin fee proposal and provide the following unit rates:\nmobilization, field survey (per day), data processing and\ninterpretation, and reporting. Please state the approximate\narea, in acres, that can be investigated and reported within\nthe $20,000 allowance. Work under the allowance, per final\ncontract negotiation, will be authorized in writing by the\nCity and billed at these rates.The GPR investigation shall be\nperformed and interpreted by personnel with demonstrated\nexperience in cemetery and unmarked burial investigations.",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 30,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "Is the intent for the GPR investigation to cover the entire",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "cemetery? If not, please identify the anticipated area to",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "be investigated, preferably to the nearest 0.1 acre.",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.7,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 3116591,
+  "max_fetch_seconds": 0.2,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-01T13:30:00.730180+00:00",
+ "extract_attempts": 1,
+ "lines_total": 55,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-columbia-sc-rfp003-26-27-ams-addendum-2/coverage.json"
+}

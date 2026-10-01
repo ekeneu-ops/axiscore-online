@@ -1,0 +1,115 @@
+{
+ "bid_id": "city-of-columbia-mo-88-2026",
+ "bid_number": "88/2026",
+ "agency": "City of Columbia, MO",
+ "src": "Open",
+ "title": "Nuisance Abatement Services",
+ "close": "10/9/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 10,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "88.2026 Nuisance Abatement Services.pdf",
+  "W-9.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "88.2026 Nuisance Abatement Services.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "W-9.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "88.2026 Nuisance Abatement Services.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Estimated\nescription\nQuantity",
+    "Unit of\nMeasure",
+    "Original Contract Period\nFirm, Fixed Price"
+   ],
+   "score": 2,
+   "n_rows": 10,
+   "sample": [
+    [
+     "Laborer 10 Hours",
+     "Per Hour",
+     "$"
+    ],
+    [
+     "Foreman 10 Hours",
+     "Per Hour",
+     "$"
+    ],
+    [
+     "Mower 1Hour",
+     "Per Hour",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "88.2026 Nuisance Abatement Services.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "ine\nDescription\nem",
+    "Unit of Measure",
+    "Cost Per Unit"
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "16",
+     "",
+     "$"
+    ],
+    [
+     "17",
+     "",
+     "$"
+    ],
+    [
+     "18",
+     "",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 62.9,
+  "attachment_fetches": 2,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 16600795,
+  "max_fetch_seconds": 1.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-01T13:31:05.114566+00:00",
+ "extract_attempts": 1,
+ "lines_total": 10,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-columbia-mo-88-2026/coverage.json"
+}

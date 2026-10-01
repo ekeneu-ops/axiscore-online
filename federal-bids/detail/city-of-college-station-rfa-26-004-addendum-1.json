@@ -1,0 +1,67 @@
+{
+ "bid_id": "city-of-college-station-rfa-26-004-addendum-1",
+ "bid_number": "RFA 26-004 Addendum 1",
+ "agency": "City of College Station",
+ "src": "Open",
+ "title": "BVSWMA Twin Oaks Landfill - Depository Services",
+ "close": "10/7/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "7 - 2026 RFA _26-004 - Application Form I.xlsx",
+  "8-2026 RFA _26-004 Application Form II.docx",
+  "ALL RFA 26-004 PDF 2  _2_.pdf",
+  "Addendum _1 RFA 26-004 Depository Services.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "7 - 2026 RFA _26-004 - Application Form I.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "8-2026 RFA _26-004 Application Form II.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "ALL RFA 26-004 PDF 2  _2_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum _1 RFA 26-004 Depository Services.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.4,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 9484640,
+  "max_fetch_seconds": 0.39,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-01T13:22:27.816347+00:00",
+ "extract_attempts": 1
+}

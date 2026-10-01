@@ -1,0 +1,3 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,YUBIKEY 5 FIPS 140-3 SERIES (USB-A),340.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,YUBIKEY 5 NANO FIPS 140-3 SERIES (USB-A),100.0,EA,,token,Synnex,YUBI-5NANO-FIPS-50,YUBIKEY 5 NANO FIPS - TRAY OF 50,EA,1,False,False,5811.49,0.0,5811.49,6837.05,683705.0,,Synnex YUBI-5C-NANO-FIPS @ 6026.74,

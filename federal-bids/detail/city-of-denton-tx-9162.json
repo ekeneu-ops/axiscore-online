@@ -4,7 +4,7 @@
  "agency": "City of Denton, TX",
  "src": "Open",
  "title": "Volunteer Management System",
- "close": "10/2/2026 11:00 AM (ET)",
+ "close": "10/6/2026 11:00 AM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -101,19 +101,19 @@
   }
  ],
  "attachments_saved": [
-  "Volunteer Management Proposed Project Details.pdf",
-  "Volunteer Management Requirements List.xlsx"
+  "0_Volunteer Management Proposed Project Details.pdf",
+  "1_Volunteer Management Requirements List.xlsx"
  ],
  "parsed_docs": [
   {
-   "name": "Volunteer Management Proposed Project Details.pdf",
+   "name": "0_Volunteer Management Proposed Project Details.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "Volunteer Management Requirements List.xlsx",
+   "name": "1_Volunteer Management Requirements List.xlsx",
    "kind": "xlsx",
    "tables": 1,
    "note": "",
@@ -125,16 +125,16 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 8.2,
+  "bid_seconds": 8.3,
   "attachment_fetches": 2,
-  "attachment_seconds": 0.2,
+  "attachment_seconds": 0.1,
   "attachment_bytes": 158393,
-  "max_fetch_seconds": 0.14,
+  "max_fetch_seconds": 0.07,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-26T14:00:49.562039+00:00",
- "extract_attempts": 1,
+ "captured_at": "2026-10-01T13:18:32.089800+00:00",
+ "extract_attempts": 2,
  "lines_total": 7,
  "lines_matched": 0,
  "coverage_pct": 0.0,
