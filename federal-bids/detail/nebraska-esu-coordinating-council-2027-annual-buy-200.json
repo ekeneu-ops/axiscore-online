@@ -1,0 +1,375 @@
+{
+ "bid_id": "nebraska-esu-coordinating-council-2027-annual-buy-200",
+ "bid_number": "2027-Annual Buy-200",
+ "agency": "Nebraska ESU Coordinating Council",
+ "src": "Invited",
+ "title": "2027-Annual Buy-200 General Supplies",
+ "close": "12/9/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2998,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "200005::::Single Roll/Raffle Tickets:::1 roll of 2000 tickets per pack. Single stock roll tickets consecutively numbered, 1\" x 2\". Equivalent to Premier Southern Ticket 0424XX.",
+   "qty": "1",
+   "uom": "Pack",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 200005::::Single Roll/Raffle Tickets:::1 roll of 2000 tickets per pack. Single stock roll tickets consecutively numbered, 1\" x 2\". Equivalent to Premier Southern Ticket 0424XX. 1 Pack No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "2",
+   "desc": "200010::::Double Roll/Raffle Tickets:::1 roll of 2000 tickets per pack. Double stock roll tickets consecutively numbered. 2\" x 2\". Equivalent to Premier Southern Ticket.",
+   "qty": "1",
+   "uom": "Pack",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 200010::::Double Roll/Raffle Tickets:::1 roll of 2000 tickets per pack. Double stock roll tickets consecutively numbered. 2\" x 2\". Equivalent to Premier Southern Ticket. 1 Pack No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "3",
+   "desc": "200100::::Penmanship Paper - 8 1/2\" X 11\" With Red Margin - 3/8\" Spacing:::1 reams. Penmanship Paper, 16 lb., ruled, white. Equivalent to American Paper or Pacon.",
+   "qty": "1",
+   "uom": "Ream",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 200100::::Penmanship Paper - 8 1/2\" X 11\" With Red Margin - 3/8\" Spacing:::1 reams. Penmanship Paper, 16 lb., ruled, white. Equivalent to American Paper or Pacon. 1 Ream No Response"
+  },
+  {
+   "ctl": "ucBidLine36",
+   "kind": "line",
+   "line": "4",
+   "desc": "200110::::Student Planner:::96 page 5\"x 8\" Planner. Equivalent to Walswoth Publishing 803182.",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 200110::::Student Planner:::96 page 5\"x 8\" Planner. Equivalent to Walswoth Publishing 803182. 1 Each No Response"
+  },
+  {
+   "ctl": "ucBidLine47",
+   "kind": "line",
+   "line": "5",
+   "desc": "200115::::Composition Book:::100 sheets per book. 16 lb. White sulfite paper. 9 3/4\" x 7 1/2\" sheet size. 3/8\" ruled. Good for pen and pencil use. Wide ruled with red margin lines. Features flexible taped and sewn covers with space for student information. Equivalent to Mead 09910.",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 200115::::Composition Book:::100 sheets per book. 16 lb. White sulfite paper. 9 3/4\" x 7 1/2\" sheet size. 3/8\" ruled. Good for pen and pencil use. Wide ruled with red margin lines. Features flexible taped and sewn covers with space for student information. Equivalent to Mead 09910. 1 Each No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2027-AB-Terms Conditions - signed.pdf",
+  "2026_Annual_Buy_Shipping_Locations.xlsx",
+  "2026_Annual_Buy_Order_Quantities.xlsx",
+  "2026 200 Award Detail Spreadsheet.xlsx",
+  "200_Line_Item_Vendor_template.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027-AB-Terms Conditions - signed.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026_Annual_Buy_Shipping_Locations.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026_Annual_Buy_Order_Quantities.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026 200 Award Detail Spreadsheet.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "200_Line_Item_Vendor_template.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2027-AB-Terms Conditions - signed.pdf",
+   "sheet": 3,
+   "header_row": 3,
+   "headers": [
+    "amendment of the contract. A change in price of an item of material or good will be considered"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "significant when the price of an item increases 5 percent between the date of execution of the contract"
+    ],
+    [
+     "and the date of catalog publishing February 1, 2027. The price amendment must be effective only as long"
+    ],
+    [
+     "as the tariff is in effect. The intent of the adjustment is to hold the vendor harmless from the impact of"
+    ]
+   ]
+  },
+  {
+   "source": "2026_Annual_Buy_Order_Quantities.xlsx",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "Item",
+    "Part #",
+    "Manufacturer",
+    "Manufacturer Part #",
+    "Price",
+    "UOM",
+    "Qty Ordered",
+    "Item Total"
+   ],
+   "score": 3,
+   "n_rows": 2998,
+   "sample": [
+    [
+     "100340 Laser Pointer - Battery Powered",
+     "#QRTMP1200Q",
+     "ACCO Brands Corporation",
+     "#MP-1200Q",
+     "30.87",
+     "EA",
+     "1",
+     "30.87"
+    ],
+    [
+     "100350 Wireless Presenter",
+     "#IM1BU2024",
+     "Logitech",
+     "#910-001354",
+     "33.56",
+     "EA",
+     "1",
+     "33.56"
+    ],
+    [
+     "100350 Wireless Presenter",
+     "#IM1BU2024",
+     "Logitech",
+     "#910-001354",
+     "33.56",
+     "EA",
+     "1",
+     "33.56"
+    ]
+   ]
+  },
+  {
+   "source": "2026 200 Award Detail Spreadsheet.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "Description",
+    "The Educational Service Unit Coordinating Council (ESUCC) is a Nebraska political subdivision tasked with coordinating statewide efforts to provide the most cost-effective services for the students, teachers, and school districts in each educational service unit (ESU). The ESUCC is composed of one administrator from each of the 17 ESUs that provide a statewide network of educational opportunities to approximately 244 school districts and more than 325,000 students\n\nESUCC - Cooperative Purchasing is currently in its 5th decade of operation. Nebraska ESUCC - Cooperative Purchasing is authorized to coordinate purchases for public school districts, nonpublic school systems, other ESUs, and other public agencies, including any county, city, village, school district, or agency of the state government, any drainage district, sanitary and improvement district, or other municipal corporation or political subdivision of the State of Nebraska.\n\nIn a continuing effort to provide quality products related services to ESUCC affiliated schools and other members, ESUCC will accept sealed Bid Proposals for its Annual Buy Program. The Annual Buy Program has been in existence for more than fifty-five years.\n\nThis RFP is based on the need for ESUCC to provide the economic benefits of volume purchasing and reduction in administrative costs through cooperative purchasing to schools and other members. Although contractors may restrict sales to certain public units (for example, state agencies or local government units), any contract that prohibits sales from being made to ESUCC members will not be considered.",
+    "",
+    "Email",
+    "craig.peterson@esucc.org"
+   ],
+   "score": 2,
+   "n_rows": 13,
+   "sample": [
+    [
+     "Bid Type",
+     "ABCSB",
+     "",
+     "Phone",
+     "(308) 995-0665 "
+    ],
+    [
+     "Issue Date",
+     "10/1/2025 09:00:00 AM (CT)",
+     "",
+     "Fax",
+     "(402) 387-2530 "
+    ],
+    [
+     "Close Date",
+     "12/10/2025 03:00:00 PM (CT)"
+    ]
+   ]
+  },
+  {
+   "source": "2026 200 Award Detail Spreadsheet.xlsx",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Line",
+    "Quantity",
+    "UOM",
+    "Description",
+    "Manufacturer",
+    "Manuf. Number",
+    "Award Response",
+    "Award Quantity",
+    "Awarded Supplier",
+    "Award Reason"
+   ],
+   "score": 3,
+   "n_rows": 571,
+   "sample": [
+    [
+     "1",
+     "1.0",
+     "Pack",
+     "200005::::Single Roll/Raffle Tickets:::1 roll of 2000 tickets per pack. Single stock roll tickets consecutively numbered, 1\" x 2\". Equivalent to Premier Southern Ticket 0424XX.",
+     "Muncie Novelty Co Inc",
+     "854",
+     "2.66",
+     "1.0",
+     "S&S Worldwide",
+     ""
+    ],
+    [
+     "2",
+     "1.0",
+     "Pack",
+     "200010::::Double Roll/Raffle Tickets:::1 roll of 2000 tickets per pack. Double stock roll tickets consecutively numbered. 2\" x 2\". Equivalent to Premier Southern Ticket.",
+     "PREMIER SOUTHERN TICKET",
+     "'426008",
+     "4.94",
+     "1.0",
+     "School Specialty, LLC",
+     ""
+    ],
+    [
+     "3",
+     "1.0",
+     "Ream",
+     "200100::::Penmanship Paper - 8 1/2\" X 11\" With Red Margin - 3/8\" Spacing:::1 reams. Penmanship Paper, 16 lb., ruled, white. Equivalent to American Paper or Pacon.",
+     "SCHOOL SMART",
+     "'085425",
+     "4.76",
+     "1.0",
+     "School Specialty, LLC",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "200_Line_Item_Vendor_template.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Line No",
+    "Alternates",
+    "Qty",
+    "UOM",
+    "Specification",
+    "Unit Price",
+    "Notes",
+    "Manufacturer",
+    "Manufacturer #",
+    "Supplier Part Number",
+    "Available Colors",
+    "Catalog Description",
+    "Item Image URL",
+    "Specifications URL",
+    "MSDS URL"
+   ],
+   "score": 3,
+   "n_rows": 626,
+   "sample": [
+    [
+     "1",
+     "Commodity-NoAlts",
+     "1",
+     "Pack",
+     "200005::::Single Roll/Raffle Tickets:::1 roll of 2000 tickets per pack. Single stock roll tickets consecutively numbered, 1\" x 2\". Equivalent to Premier Southern Ticket 0424XX.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Commodity-NoAlts",
+     "1",
+     "Pack",
+     "200010::::Double Roll/Raffle Tickets:::1 roll of 2000 tickets per pack. Double stock roll tickets consecutively numbered. 2\" x 2\". Equivalent to Premier Southern Ticket.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Commodity-NoAlts",
+     "1",
+     "Ream",
+     "200100::::Penmanship Paper - 8 1/2\" X 11\" With Red Margin - 3/8\" Spacing:::1 reams. Penmanship Paper, 16 lb., ruled, white. Equivalent to American Paper or Pacon.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.8,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1564527,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-02T13:20:25.314903+00:00",
+ "extract_attempts": 1
+}

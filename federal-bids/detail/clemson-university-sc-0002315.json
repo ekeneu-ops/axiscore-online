@@ -1,0 +1,110 @@
+{
+ "bid_id": "clemson-university-sc-0002315",
+ "bid_number": "0002315",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Wind Tunnel Equipment Components",
+ "close": "10/12/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Schunk Linear Axis Alpha 1667062 A 20-B-225-SSS-MM-2550-300-709-FB-2EO10-1 ES10-1",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Schunk Linear Axis Alpha 1667062 A 20-B-225-SSS-MM-2550-300-709-FB-2EO10-1 ES10-1 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "Hiwin HG Series Linear Guide Rail 30mm X 600mm HGR30R0600C",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Hiwin HG Series Linear Guide Rail 30mm X 600mm HGR30R0600C 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "3",
+   "desc": "Hiwin Bearing Block HGH30CAZAC",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Hiwin Bearing Block HGH30CAZAC 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "4",
+   "desc": "Not To Exceed (NTE) costs for shipping, handling for delivery to final destination.",
+   "qty": "1",
+   "uom": "LO",
+   "note": "Enter total shipping costs for delivery to 102 Flour Daniel, Clemson SC 29634-0921",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Not To Exceed (NTE) costs for shipping, handling for delivery to final destination. 1 LO No Response"
+  }
+ ],
+ "attachments_saved": [
+  "IMPORTANT TAX NOTICE.doc",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.5,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 217623,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-02T13:24:34.720515+00:00",
+ "extract_attempts": 1
+}

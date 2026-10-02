@@ -1,0 +1,58 @@
+{
+ "bid_id": "tarrant-county-tx-i20270001-addendum-1",
+ "bid_number": "I20270001 Addendum 1",
+ "agency": "Tarrant County, TX",
+ "src": "Invited",
+ "title": "52 inch Zero Turn Mower",
+ "close": "10/9/2026 09:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "52 inch zero turn riding mower Delivered fully assembled, fueled, and serviced Unit price shall be fully loaded including all delivery charges F.O.B Destination Freight Prepaid and Allowed delivered to: Tarrant County Precinct 4 Maintenance 601 Long Horn Road Fort Worth TX 76179",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. 52 inch zero turn riding mower Delivered fully assembled, fueled, and serviced Unit price shall be fully loaded including all delivery charges F.O.B Destination Freight Prepaid and Allowed delivered to: Tarrant County Precinct 4 Maintenance 601 Long Horn Road Fort Worth TX 76179 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Technical Specifications - 52in Zero-Turn Mower .pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Technical Specifications - 52in Zero-Turn Mower .pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.5,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 99383,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-02T13:17:52.181417+00:00",
+ "extract_attempts": 1
+}

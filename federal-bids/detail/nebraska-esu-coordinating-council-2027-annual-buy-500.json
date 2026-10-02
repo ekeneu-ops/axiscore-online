@@ -1,0 +1,375 @@
+{
+ "bid_id": "nebraska-esu-coordinating-council-2027-annual-buy-500",
+ "bid_number": "2027-Annual Buy-500",
+ "agency": "Nebraska ESU Coordinating Council",
+ "src": "Invited",
+ "title": "2027-Annual Buy-500 Maintenance-Shop Supplies",
+ "close": "12/9/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 2998,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "500100::::Facial Tissue:::30 boxes per case. 7 1/2\" x 8 1/2\" tissue, 100 count, Dispenser size box. Kimberly Clark Surpass 21340 or Georgia Pacific Envision 47410 ONLY.",
+   "qty": "1",
+   "uom": "Case",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 500100::::Facial Tissue:::30 boxes per case. 7 1/2\" x 8 1/2\" tissue, 100 count, Dispenser size box. Kimberly Clark Surpass 21340 or Georgia Pacific Envision 47410 ONLY. 1 Case No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "2",
+   "desc": "500101::::Facial Tissue 2-Ply:::30 boxes per case, 100 per box. 8.2\"x7.9\" tissue, Dispenser size box. Equivalent to SCA TF6710A.",
+   "qty": "1",
+   "uom": "Case",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 500101::::Facial Tissue 2-Ply:::30 boxes per case, 100 per box. 8.2\"x7.9\" tissue, Dispenser size box. Equivalent to SCA TF6710A. 1 Case No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "3",
+   "desc": "500102::::Facial Tissue (Premium White):::36 boxes per case. Premium White Tissue. Cube box size. 95-96 tissues per cube. Georgia Pacific Angel Soft PS GEP 46580 or Kimberly Clark Kleenex KIM21270CT ONLY.",
+   "qty": "1",
+   "uom": "Case",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 500102::::Facial Tissue (Premium White):::36 boxes per case. Premium White Tissue. Cube box size. 95-96 tissues per cube. Georgia Pacific Angel Soft PS GEP 46580 or Kimberly Clark Kleenex KIM21270CT ONLY. 1 Case No Response"
+  },
+  {
+   "ctl": "ucBidLine34",
+   "kind": "line",
+   "line": "4",
+   "desc": "500110::::Automated Shop Towel Dispenser:::Dispenser for Shop Roll Towels: 1 Roll capacity. Equivalent to Georgia Pacific 59465.",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 500110::::Automated Shop Towel Dispenser:::Dispenser for Shop Roll Towels: 1 Roll capacity. Equivalent to Georgia Pacific 59465. 1 Each No Response"
+  },
+  {
+   "ctl": "ucBidLine45",
+   "kind": "line",
+   "line": "5",
+   "desc": "500111::::Brawny Professional Disposable Shop Towel Refill for GP 59465 Dispenser:::6 rolls per case, 250' x 10\" wide roll. Georgia Pacific 20065 ONLY.",
+   "qty": "1",
+   "uom": "Case",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 500111::::Brawny Professional Disposable Shop Towel Refill for GP 59465 Dispenser:::6 rolls per case, 250' x 10\" wide roll. Georgia Pacific 20065 ONLY. 1 Case No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2027-AB-Terms Conditions - signed.pdf",
+  "2026_Annual_Buy_Shipping_Locations.xlsx",
+  "2026_Annual_Buy_Order_Quantities.xlsx",
+  "2026 500 Award Detail Spreadsheet.xlsx",
+  "500_Line_Item_Vendor_template.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027-AB-Terms Conditions - signed.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026_Annual_Buy_Shipping_Locations.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026_Annual_Buy_Order_Quantities.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026 500 Award Detail Spreadsheet.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "500_Line_Item_Vendor_template.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2027-AB-Terms Conditions - signed.pdf",
+   "sheet": 3,
+   "header_row": 3,
+   "headers": [
+    "amendment of the contract. A change in price of an item of material or good will be considered"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "significant when the price of an item increases 5 percent between the date of execution of the contract"
+    ],
+    [
+     "and the date of catalog publishing February 1, 2027. The price amendment must be effective only as long"
+    ],
+    [
+     "as the tariff is in effect. The intent of the adjustment is to hold the vendor harmless from the impact of"
+    ]
+   ]
+  },
+  {
+   "source": "2026_Annual_Buy_Order_Quantities.xlsx",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "Item",
+    "Part #",
+    "Manufacturer",
+    "Manufacturer Part #",
+    "Price",
+    "UOM",
+    "Qty Ordered",
+    "Item Total"
+   ],
+   "score": 3,
+   "n_rows": 2998,
+   "sample": [
+    [
+     "100340 Laser Pointer - Battery Powered",
+     "#QRTMP1200Q",
+     "ACCO Brands Corporation",
+     "#MP-1200Q",
+     "30.87",
+     "EA",
+     "1",
+     "30.87"
+    ],
+    [
+     "100350 Wireless Presenter",
+     "#IM1BU2024",
+     "Logitech",
+     "#910-001354",
+     "33.56",
+     "EA",
+     "1",
+     "33.56"
+    ],
+    [
+     "100350 Wireless Presenter",
+     "#IM1BU2024",
+     "Logitech",
+     "#910-001354",
+     "33.56",
+     "EA",
+     "1",
+     "33.56"
+    ]
+   ]
+  },
+  {
+   "source": "2026 500 Award Detail Spreadsheet.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "Description",
+    "The Educational Service Unit Coordinating Council (ESUCC) is a Nebraska political subdivision tasked with coordinating statewide efforts to provide the most cost-effective services for the students, teachers, and school districts in each educational service unit (ESU). The ESUCC is composed of one administrator from each of the 17 ESUs that provide a statewide network of educational opportunities to approximately 244 school districts and more than 325,000 students.\n\nESUCC - Cooperative Purchasing is currently in its 5th decade of operation. Nebraska ESUCC - Cooperative Purchasing is authorized to coordinate purchases for public school districts, nonpublic school systems, other ESUs, and other public agencies, including any county, city, village, school district, or agency of the state government, any drainage district, sanitary and improvement district, or other municipal corporation or political subdivision of the State of Nebraska.\n\nIn a continuing effort to provide quality products related services to ESUCC affiliated schools and other members, ESUCC will accept sealed Bid Proposals for its Annual Buy Program. The Annual Buy Program has been in existence for more than fifty-five years.\n\nThis RFP is based on the need for ESUCC to provide the economic benefits of volume purchasing and reduction in administrative costs through cooperative purchasing to schools and other members. Although contractors may restrict sales to certain public units (for example, state agencies or local government units), any contract that prohibits sales from being made to ESUCC members will not be considered.",
+    "",
+    "Email",
+    "craig.peterson@esucc.org"
+   ],
+   "score": 2,
+   "n_rows": 10,
+   "sample": [
+    [
+     "Bid Type",
+     "ABCSB",
+     "",
+     "Phone",
+     "(308) 995-0665 "
+    ],
+    [
+     "Issue Date",
+     "10/1/2025 09:00:00 AM (CT)",
+     "",
+     "Fax",
+     "(402) 387-2530 "
+    ],
+    [
+     "Close Date",
+     "12/10/2025 03:00:00 PM (CT)"
+    ]
+   ]
+  },
+  {
+   "source": "2026 500 Award Detail Spreadsheet.xlsx",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Line",
+    "Quantity",
+    "UOM",
+    "Description",
+    "Manufacturer",
+    "Manuf. Number",
+    "Award Response",
+    "Award Quantity",
+    "Awarded Supplier",
+    "Award Reason"
+   ],
+   "score": 3,
+   "n_rows": 265,
+   "sample": [
+    [
+     "1",
+     "1.0",
+     "Case",
+     "500100::::Facial Tissue:::30 boxes per case. 7 1/2\" x 8 1/2\" tissue, 100 count, Dispenser size box. Kimberly Clark Surpass 21340 or Georgia Pacific Envision 47410 ONLY.",
+     "GA PACIFIC COMMERCIA",
+     "47410",
+     "34.3",
+     "1.0",
+     "Staples Contract & Commercial",
+     ""
+    ],
+    [
+     "2",
+     "1.0",
+     "Case",
+     "500101::::Facial Tissue 2-Ply:::30 boxes per case, 100 per box. 8.2\"x7.9\" tissue, Dispenser size box. Equivalent to SCA TF6710A.",
+     "BOARDWALK",
+     "BWK6500B",
+     "23.78",
+     "1.0",
+     "PYRAMID SCHOOL PRODUCTS",
+     ""
+    ],
+    [
+     "3",
+     "1.0",
+     "Case",
+     "500102::::Facial Tissue (Premium White):::36 boxes per case. Premium White Tissue. Cube box size. 95-96 tissues per cube. Georgia Pacific Angel Soft PS GEP 46580 or Kimberly Clark Kleenex KIM21270CT ONLY.",
+     "GA PACIFIC COMMERCIA",
+     "46580",
+     "66.28",
+     "1.0",
+     "Staples Contract & Commercial",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "500_Line_Item_Vendor_template.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Line No",
+    "Alternates",
+    "Qty",
+    "UOM",
+    "Specification",
+    "Unit Price",
+    "Notes",
+    "Manufacturer",
+    "Manufacturer #",
+    "Supplier Part Number",
+    "Available Colors",
+    "Catalog Description",
+    "Item Image URL",
+    "Specifications URL",
+    "MSDS URL"
+   ],
+   "score": 3,
+   "n_rows": 307,
+   "sample": [
+    [
+     "1",
+     "Commodity-NoAlts",
+     "1",
+     "Case",
+     "500100::::Facial Tissue:::30 boxes per case. 7 1/2\" x 8 1/2\" tissue, 100 count, Dispenser size box. Kimberly Clark Surpass 21340 or Georgia Pacific Envision 47410 ONLY.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Commodity-NoAlts",
+     "1",
+     "Case",
+     "500101::::Facial Tissue 2-Ply:::30 boxes per case, 100 per box. 8.2\"x7.9\" tissue, Dispenser size box. Equivalent to SCA TF6710A.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Commodity-NoAlts",
+     "1",
+     "Case",
+     "500102::::Facial Tissue (Premium White):::36 boxes per case. Premium White Tissue. Cube box size. 95-96 tissues per cube. Georgia Pacific Angel Soft PS GEP 46580 or Kimberly Clark Kleenex KIM21270CT ONLY.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.4,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1510181,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-02T13:21:01.077375+00:00",
+ "extract_attempts": 1
+}

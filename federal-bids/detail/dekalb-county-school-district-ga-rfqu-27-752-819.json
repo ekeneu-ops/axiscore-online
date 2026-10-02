@@ -1,0 +1,240 @@
+{
+ "bid_id": "dekalb-county-school-district-ga-rfqu-27-752-819",
+ "bid_number": "RFQu 27-752-819",
+ "agency": "DeKalb County School District, GA",
+ "src": "Invited",
+ "title": "CM at Risk Stoneview Elementary School Modernization",
+ "close": "11/5/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 23,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFQu 27-752-819 CM at Risk for Stoneview Elementary School Modernization.pdf",
+  "RFQu 27-752-819 Attachments Package.pdf",
+  "Attachment C-1 Construction Manager Guaranteed Maximum Price Proposal.xlsx",
+  "Exhibit A CM at Risk Stoneview ES Modernization.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFQu 27-752-819 CM at Risk for Stoneview Elementary School Modernization.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFQu 27-752-819 Attachments Package.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment C-1 Construction Manager Guaranteed Maximum Price Proposal.xlsx",
+   "kind": "xlsx",
+   "tables": 6,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "Exhibit A CM at Risk Stoneview ES Modernization.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Attachment C-1 Construction Manager Guaranteed Maximum Price Proposal.xlsx",
+   "sheet": 0,
+   "header_row": 13,
+   "headers": [
+    "Tab 6 - Unit Prices",
+    "Unit Prices",
+    "Include all materials, labor, and equipment to perform work in description. "
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "Offer of Services",
+     "All Tabs",
+     "All tabs should be filled out completely or the response will be considered a non-compliant response"
+    ],
+    [
+     "Company Name:",
+     "",
+     ""
+    ],
+    [
+     "Company Address:",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Attachment C-1 Construction Manager Guaranteed Maximum Price Proposal.xlsx",
+   "sheet": 1,
+   "header_row": 6,
+   "headers": [
+    "ITEM",
+    "BASE PROPOSAL - SUMMARY",
+    "QUANTITY",
+    "UNIT",
+    "TOTAL",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 23,
+   "sample": [
+    [
+     "1",
+     "Interior/Exterior Renovations",
+     "",
+     "",
+     "0",
+     ""
+    ],
+    [
+     "",
+     "Allowances:",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "FFE (Furnished and Installed)",
+     "1",
+     "LS",
+     "900000",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Attachment C-1 Construction Manager Guaranteed Maximum Price Proposal.xlsx",
+   "sheet": 3,
+   "header_row": 6,
+   "headers": [
+    "Item",
+    "Description",
+    "Quantity",
+    "Units",
+    "Installation Cost",
+    "Material Cost",
+    "Total",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 39,
+   "sample": [
+    [
+     "1",
+     "02 00 00 Demolition",
+     "",
+     "LS",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "03 00 00 Concrete Foundations",
+     "",
+     "LS",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "03 00 00 Concrete Slab on Grade",
+     "",
+     "LS",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Attachment C-1 Construction Manager Guaranteed Maximum Price Proposal.xlsx",
+   "sheet": 5,
+   "header_row": 6,
+   "headers": [
+    "Unit Price #",
+    "Description",
+    "Basis Quanitity",
+    "Units",
+    "Unit Price",
+    "Total Unit Price",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 18,
+   "sample": [
+    [
+     "1",
+     "Include in the Base Bid an amount for removal and haul off of  Mass Rock of 3,000 C.Y.",
+     "2500",
+     "CY",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Include in the Base Bid an amount for removal and haul off of  Trench Rock of 1,500 C.Y.",
+     "1500",
+     "CY",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Include in the Base Bid an amount for removal and haul off of  Partially Weathered Rock of 1,000 C.Y.",
+     "1000",
+     "CY",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.6,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 3299584,
+  "max_fetch_seconds": 0.2,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-02T13:20:02.295828+00:00",
+ "extract_attempts": 1
+}
