@@ -37,9 +37,8 @@ env:
   LOG_GROUP: /mc-spine/finance-runner
   SUBNETS: subnet-07b28b358ca593fb9,subnet-0b93d6e11c52412b7
   SECURITY_GROUPS: sg-0b0521438f059e5fc
-  # SPR EDI feed (operational connection only; password is the SPR_FTP_PASSWORD repo secret)
-  SPR_FTP_HOST: 52.15.173.149
-  SPR_FTP_USER: ftp_ai_usr
+  # SPR EDI feed. Host, user and password are repo secrets (SPR_FTP_HOST / SPR_FTP_USER /
+  # SPR_FTP_PASSWORD), referenced only in the step that connects; only the dir lives here.
   SPR_FTP_DIR: var/www/html/data/edi/spr/archived
 
 jobs:
@@ -285,6 +284,8 @@ jobs:
 
       - name: Decode result to data.json and commit
         env:
+          SPR_FTP_HOST: ${{ secrets.SPR_FTP_HOST }}
+          SPR_FTP_USER: ${{ secrets.SPR_FTP_USER }}
           SPR_FTP_PASSWORD: ${{ secrets.SPR_FTP_PASSWORD }}
         run: |
           TASK_ARN="${{ steps.run.outputs.task_arn }}"
@@ -413,9 +414,25 @@ jobs:
           # (MMDDYYYY) and compare THAT to the warehouse. A real stall = invoice data that is
           # at least ~2 days old yet still missing -> tolerates the normal overnight mirror
           # cycle (afternoon import -> next 07:00 UTC mirror) and weekends (no Sat/Sun invoices).
-          FTP_RAW=$(curl -sS --connect-timeout 25 --ftp-method singlecwd \
-            --user "$SPR_FTP_USER:$SPR_FTP_PASSWORD" \
-            "ftp://$SPR_FTP_HOST//$SPR_FTP_DIR/" 2>&1 || true)
+          # A missing SPR_FTP_* secret must not stop the AP publish (one feed never takes down
+          # another), but it must not pass quietly either: skip the FTP calls, let the AP data
+          # publish with edi.reachable=false, then fail the run at the very end.
+          EDI_CFG_MISSING=0
+          FTP_RAW=""
+          if [ -z "$SPR_FTP_HOST" ] || [ -z "$SPR_FTP_USER" ] || [ -z "$SPR_FTP_PASSWORD" ]; then
+            EDI_CFG_MISSING=1
+            echo "::error title=SPR EDI watchdog::SPR_FTP_HOST, SPR_FTP_USER or SPR_FTP_PASSWORD repo secret is not set - EDI check skipped"
+          else
+            # A set-but-wrong secret cannot be read back to check, so a failed listing is
+            # annotated (exit code only - curl's message can carry the host).
+            FTP_RC=0
+            FTP_RAW=$(curl -sS --connect-timeout 25 --ftp-method singlecwd \
+              --user "$SPR_FTP_USER:$SPR_FTP_PASSWORD" \
+              "ftp://$SPR_FTP_HOST//$SPR_FTP_DIR/" 2>&1) || FTP_RC=$?
+            if [ "$FTP_RC" != "0" ]; then
+              echo "::warning title=SPR EDI watchdog::FTP listing failed (curl exit $FTP_RC) - check the SPR_FTP_* repo secrets or FTP availability"
+            fi
+          fi
           export FTP_RAW
           NEWEST=$(printf '%s\n' "$FTP_RAW" | awk '{print $NF}' \
             | grep -E '^AXS\.x12_810_\.[0-9]{4}\.inv' | sort -t. -k3 -n | tail -1)
@@ -562,4 +579,8 @@ jobs:
               sleep $((RANDOM % 4 + 2))
             done
             if [ "$pushed" != "1" ]; then echo "push failed after retries" >&2; exit 1; fi
+          fi
+          if [ "$EDI_CFG_MISSING" = "1" ]; then
+            echo "::error title=SPR EDI watchdog::AP data published, but the EDI check was skipped - set the SPR_FTP_* repo secrets" >&2
+            exit 1
           fi
