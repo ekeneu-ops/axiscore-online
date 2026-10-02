@@ -423,9 +423,15 @@ jobs:
             EDI_CFG_MISSING=1
             echo "::error title=SPR EDI watchdog::SPR_FTP_HOST, SPR_FTP_USER or SPR_FTP_PASSWORD repo secret is not set - EDI check skipped"
           else
+            # A set-but-wrong secret cannot be read back to check, so a failed listing is
+            # annotated (exit code only - curl's message can carry the host).
+            FTP_RC=0
             FTP_RAW=$(curl -sS --connect-timeout 25 --ftp-method singlecwd \
               --user "$SPR_FTP_USER:$SPR_FTP_PASSWORD" \
-              "ftp://$SPR_FTP_HOST//$SPR_FTP_DIR/" 2>&1 || true)
+              "ftp://$SPR_FTP_HOST//$SPR_FTP_DIR/" 2>&1) || FTP_RC=$?
+            if [ "$FTP_RC" != "0" ]; then
+              echo "::warning title=SPR EDI watchdog::FTP listing failed (curl exit $FTP_RC) - check the SPR_FTP_* repo secrets or FTP availability"
+            fi
           fi
           export FTP_RAW
           NEWEST=$(printf '%s\n' "$FTP_RAW" | awk '{print $NF}' \
