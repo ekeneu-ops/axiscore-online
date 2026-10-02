@@ -1,10 +1,10 @@
 {
- "asof": "2026-10-02T06:37Z",
+ "asof": "2026-10-02T07:56Z",
  "ap": {
   "net": 291115.72,
-  "credits": 388.49,
-  "credit_count": 15,
-  "net_after_credits": 290727.23,
+  "credits": 3868.03,
+  "credit_count": 26,
+  "net_after_credits": 287247.69,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -62,24 +62,24 @@
    "payable_total": 13997.91,
    "parked_count": 31
   },
-  "asof": "2026-10-02T06:37Z",
-  "moved_pct": 0.19
+  "asof": "2026-10-02T07:56Z",
+  "moved_pct": -1.2
  },
  "held": {
-  "net": 294015.51,
-  "order_count": 3281,
+  "net": 293230.16,
+  "order_count": 3268,
   "walk": {
    "released": 140829.67,
    "postsettle": 266.2,
    "refunds": -6131.91,
    "account_events": -787.91,
-   "deferred": 159839.46
+   "deferred": 159054.11
   },
   "fev_through": "2026-10-02T05:51Z",
-  "deferred_snapshot": "2026-10-02T06:06Z",
+  "deferred_snapshot": "2026-10-02T07:06Z",
   "last_settlement_end": "2026-09-18",
-  "asof": "2026-10-02T06:37Z",
-  "moved_pct": -0.13
+  "asof": "2026-10-02T07:56Z",
+  "moved_pct": -0.27
  },
  "fba": {
   "value": 4805.39,
@@ -94,21 +94,21 @@
    "spapi": 1765,
    "mirror": 42
   },
-  "stock_asof": "2026-10-01T21:45Z",
-  "asof": "2026-10-02T06:37Z"
+  "stock_asof": "2026-10-02T04:00Z",
+  "asof": "2026-10-02T07:56Z"
  },
  "amex": {
-  "owed": 7335.5,
+  "owed": 7396.92,
   "last_autopay": "2026-09-21",
-  "txn_count": 29,
-  "pending_amt": 3345.43,
+  "txn_count": 30,
+  "pending_amt": 3406.85,
   "last_txn": "2026-10-01",
   "in_flight": {
    "amount": 0.0,
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-02T06:37Z"
+  "asof": "2026-10-02T07:56Z"
  },
  "card_in_transit": {
   "amount": 1440.0,
@@ -119,13 +119,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-01",
-  "asof": "2026-10-02T06:37Z"
+  "asof": "2026-10-02T07:56Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 79,
-  "asof": "2026-10-02T06:37Z"
+  "asof": "2026-10-02T07:56Z"
  }
 }
