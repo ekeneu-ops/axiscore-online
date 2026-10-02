@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-02T14:59Z",
+ "asof": "2026-10-02T18:56Z",
  "ap": {
   "net": 291115.72,
   "credits": 3868.03,
@@ -62,53 +62,53 @@
    "payable_total": 13997.91,
    "parked_count": 31
   },
-  "asof": "2026-10-02T14:59Z",
+  "asof": "2026-10-02T18:56Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 294711.73,
-  "order_count": 3283,
+  "net": 295070.71,
+  "order_count": 3289,
   "walk": {
-   "released": 150904.7,
+   "released": 155122.68,
    "postsettle": 266.2,
-   "refunds": -6578.6,
-   "account_events": -787.91,
-   "deferred": 150907.34
+   "refunds": -6673.16,
+   "account_events": -775.13,
+   "deferred": 147130.12
   },
-  "fev_through": "2026-10-02T13:57Z",
-  "deferred_snapshot": "2026-10-02T14:06Z",
+  "fev_through": "2026-10-02T17:57Z",
+  "deferred_snapshot": "2026-10-02T18:06Z",
   "last_settlement_end": "2026-09-18",
-  "asof": "2026-10-02T14:59Z",
-  "moved_pct": 0.0
+  "asof": "2026-10-02T18:56Z",
+  "moved_pct": 0.12
  },
  "fba": {
-  "value": 4766.81,
-  "qty": 296.0,
+  "value": 4622.51,
+  "qty": 293.0,
   "items": 26,
-  "retail": 6022.46,
+  "retail": 5912.35,
   "no_cost_items": 13,
   "no_cost_units": 42.0,
   "erp_default_units": 0,
-  "dash_value": 6174.65,
+  "dash_value": 6030.35,
   "stock_src": {
    "spapi": 1764,
    "mirror": 42
   },
   "stock_asof": "2026-10-02T07:14Z",
-  "asof": "2026-10-02T14:59Z"
+  "asof": "2026-10-02T18:56Z"
  },
  "amex": {
   "owed": 8346.33,
   "last_autopay": "2026-09-21",
   "txn_count": 31,
-  "pending_amt": 4356.26,
+  "pending_amt": 1176.03,
   "last_txn": "2026-10-02",
   "in_flight": {
    "amount": 0.0,
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-02T14:59Z"
+  "asof": "2026-10-02T18:56Z"
  },
  "card_in_transit": {
   "amount": 1440.0,
@@ -119,13 +119,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-01",
-  "asof": "2026-10-02T14:59Z"
+  "asof": "2026-10-02T18:56Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 79,
-  "asof": "2026-10-02T14:59Z"
+  "asof": "2026-10-02T18:56Z"
  }
 }
