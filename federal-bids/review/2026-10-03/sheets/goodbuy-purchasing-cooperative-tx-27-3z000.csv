@@ -1,0 +1,13 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,16.9 ounce Distilled Water,1.0,35 btl/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,16.9 ounce Spring Water,1.0,35 btl/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,16.9 ounce Purified Water,1.0,35 btl/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,16.9 ounce Distilled Water,1.0,24 btl/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+5,16.9 ounce Spring Water,1.0,24 btl/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+6,16.9 ounce Purified Water,1.0,24 btl/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,"8 ounce Bottled Water, Distilled",1.0,48 btl/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+8,"8 ounce Bottled Water, Spring",1.0,48 btl/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+9,"8 ounce Bottled Water, Purified",1.0,48 btl/cs,,token,SP Richards,NGBNDW05L24PDR,PURIFIED BOTTLED WATER,CT,166.0,False,True,5.8,0.957,6.757,7.95,7.95,,Essendant TCL8OZ24CT @ 8.77,Essendant TCL8OZ24PLT168 @ 1727.92
+10,"Gallon Bottled Water, Distilled",1.0,6 gal/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+11,"Gallon Bottled Water, Spring",1.0,6 gal/cs,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+12,"Gallon Bottled Water, Purified",1.0,6 gal/cs,,token,SP Richards,NGBNDW05L24PDR,PURIFIED BOTTLED WATER,CT,166.0,False,True,5.8,0.957,6.757,7.95,7.95,,Essendant TCL8OZ24CT @ 8.77,Essendant TCL8OZ24PLT168 @ 1727.92

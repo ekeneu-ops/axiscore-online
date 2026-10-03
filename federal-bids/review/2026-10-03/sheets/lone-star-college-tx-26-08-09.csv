@@ -1,0 +1,7 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,"Fully operational multi-axis CNC machine suitable for instructional milling and/or turning. Must provide simultaneous multi-axis machining, graphical user interface, conversational programming, G-code",1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,"Industrial robotic arm integrated with the CNC machine. Must have adequate reach, payload, repeatability, programmable motion, teach pendant/equivalent interface, and capability to load/unload instruc",1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,Delivery and Installation,1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,Software and Licensing,1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+5,Faculty/Staff Training,1.0,EA,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+6,Warranty and Technical Support,1.0,EA,,token,Synnex,WEXT1C,EATON TRIPP LITE SERIES EXTENDED WARRANTY AND TECHNICAL SUPPORT FOR SELECT PRODU,EA,1,False,False,22.08,1.6,23.68,27.86,27.86,,Synnex WEXT2C @ 44.73,Synnex USB-LCDA-L2Y1 @ 49.10
