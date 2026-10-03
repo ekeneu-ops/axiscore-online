@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-03T07:02Z",
+ "asof": "2026-10-03T07:30Z",
  "ap": {
   "net": 295456.39,
   "credits": 5535.32,
@@ -14,17 +14,13 @@
     "count": 6,
     "total": 3744.64
    },
-   "WAIT": {
-    "count": 10,
-    "total": 643.49
-   },
    "PAY": {
     "count": 3734,
     "total": 289313.47
    },
    "REVIEW": {
-    "count": 5,
-    "total": 429.85
+    "count": 15,
+    "total": 1073.34
    },
    "UNSCORED": {
     "count": 20,
@@ -62,27 +58,27 @@
    "payable_total": 13997.91,
    "parked_count": 31
   },
-  "asof": "2026-10-03T07:02Z",
-  "moved_pct": -0.47
+  "asof": "2026-10-03T07:30Z",
+  "moved_pct": 0.0
  },
  "held": {
-  "net": 291682.27,
-  "order_count": 3330,
+  "net": 290782.01,
+  "order_count": 3319,
   "walk": {
    "released": 159046.33,
    "postsettle": 266.2,
    "refunds": -7034.37,
    "account_events": -838.67,
-   "deferred": 140242.78
+   "deferred": 139342.52
   },
   "fev_through": "2026-10-03T05:56Z",
-  "deferred_snapshot": "2026-10-03T06:06Z",
+  "deferred_snapshot": "2026-10-03T07:06Z",
   "last_settlement_end": "2026-09-18",
-  "asof": "2026-10-03T07:02Z",
-  "moved_pct": -1.19
+  "asof": "2026-10-03T07:30Z",
+  "moved_pct": -0.31
  },
  "fba": {
-  "value": 4526.31,
+  "value": 4502.33,
   "qty": 291.0,
   "items": 26,
   "retail": 5835.9,
@@ -94,8 +90,8 @@
    "spapi": 1763,
    "mirror": 42
   },
-  "stock_asof": "2026-10-02T21:32Z",
-  "asof": "2026-10-03T07:02Z"
+  "stock_asof": "2026-10-03T04:00Z",
+  "asof": "2026-10-03T07:30Z"
  },
  "amex": {
   "owed": 8698.87,
@@ -108,7 +104,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-03T07:02Z"
+  "asof": "2026-10-03T07:30Z"
  },
  "card_in_transit": {
   "amount": 1440.0,
@@ -119,13 +115,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-01",
-  "asof": "2026-10-03T07:02Z"
+  "asof": "2026-10-03T07:30Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 0.0,
   "orders": 0,
   "oldest_days": null,
-  "asof": "2026-10-03T07:02Z"
+  "asof": "2026-10-03T07:30Z"
  }
 }
