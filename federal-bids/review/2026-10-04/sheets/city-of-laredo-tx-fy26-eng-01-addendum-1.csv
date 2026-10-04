@@ -1,0 +1,13 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,MOBILIZATION & BONDING,1.0,L.S.,,non-product,,,,,,,,,,,,,,,
+2,CLEARING & GRUBBING,1.0,AC.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,DEMOLITION & HAUL-OFF,1.0,L.S.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+4,"REMOVAL & DISASSEMBLY OF SHADE
+STRUCTURE",1.0,L.S.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+5,"8"" SUBGRADE PREPARATION",7950.0,SY.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+6,"7"" REINFORCED CONCRETE (4000 PSI)",72500.0,SF.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+7,"10"" REINFORCED CONCRETE (4000 PSI)",7150.0,SF.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+8,ADA RAMP & LANDING,4.0,EA.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+9,CURB & GUTTER,1000.0,LF.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+10,"18"" STEEL PLATES AT CONC. PAD",8.0,EA.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+11,TRAFFIC CONTROL,1.0,L.S.,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

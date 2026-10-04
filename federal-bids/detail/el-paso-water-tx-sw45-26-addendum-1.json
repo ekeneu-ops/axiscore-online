@@ -1,0 +1,166 @@
+{
+ "bid_id": "el-paso-water-tx-sw45-26-addendum-1",
+ "bid_number": "SW45-26 Addendum 1",
+ "agency": "El Paso Water, TX",
+ "src": "Open",
+ "title": "INLET MAINTENANCE",
+ "close": "10/7/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 15,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "SW45-26 INLET MAINTENANCE.pdf",
+  "W-9 Form.pdf",
+  "Conflict of Interest Form.pdf",
+  "1295 - Certificate of Interested Parties.pdf",
+  "EXCEL LOW BID FORM SW45-26.xlsx",
+  "_Addendum 1 Answers to questions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "SW45-26 INLET MAINTENANCE.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Form.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295 - Certificate of Interested Parties.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EXCEL LOW BID FORM SW45-26.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "_Addendum 1 Answers to questions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "EXCEL LOW BID FORM SW45-26.xlsx",
+   "sheet": 0,
+   "header_row": 4,
+   "headers": [
+    "water",
+    "UNIT",
+    "*QTY",
+    "DESCRIPTION",
+    "UNIT COST",
+    "TOTAL",
+    "4",
+    "PLEASE DO NOT CHANGE THE FORMAT OR CONTENTS OF THIS WORKSHEET IN ANY WAY",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 15,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "5",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "",
+     "",
+     "Two-man crew (include transportation and equipment) for each of the following maintenenace areas: West, Central, and Mission Valley.\n",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "a",
+     "HR",
+     "1040",
+     "West",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.6,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 1458620,
+  "max_fetch_seconds": 0.21,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-04T13:14:10.774595+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/el-paso-water-tx-sw45-26-addendum-1/coverage.json"
+}

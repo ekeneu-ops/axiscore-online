@@ -860,5 +860,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-10-02T13:15:03.390672+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/lee-county-fl-b260314sag-addendum-3/coverage.json"
 }

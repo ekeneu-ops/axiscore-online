@@ -1,0 +1,67 @@
+{
+ "bid_id": "city-of-upper-arlington-oh-ua26-58",
+ "bid_number": "UA26-58",
+ "agency": "City of Upper Arlington, OH",
+ "src": "Invited",
+ "title": "Portable Restrooms for Parks Department",
+ "close": "10/16/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Portable Restrooms RFP 2026.docx",
+  "Bidding Forms.zip",
+  "Req_d Contract Terms--RFP-RFQ _7-5-2019_.pdf",
+  "Information_to_Bidders__Revised_2022.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Portable Restrooms RFP 2026.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bidding Forms.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Req_d Contract Terms--RFP-RFQ _7-5-2019_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Information_to_Bidders__Revised_2022.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.7,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1933598,
+  "max_fetch_seconds": 0.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-04T13:14:43.612082+00:00",
+ "extract_attempts": 1
+}

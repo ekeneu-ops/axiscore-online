@@ -307,5 +307,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-10-02T13:18:55.242474+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 10,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/midland-isd-tx-rfp-27-122/coverage.json"
 }

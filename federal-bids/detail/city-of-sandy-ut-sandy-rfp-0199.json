@@ -1,0 +1,75 @@
+{
+ "bid_id": "city-of-sandy-ut-sandy-rfp-0199",
+ "bid_number": "Sandy RFP - 0199",
+ "agency": "City of Sandy, UT",
+ "src": "Open",
+ "title": "Golf Range Targets",
+ "close": "10/12/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Exhibit A_Golf Range Targets.pdf",
+  "Exhibit B -Certification and Agreement to Conditions of Proposal.pdf",
+  "Range Artifical Target Rendering 2026 9.24.26.png",
+  "GOLF RANGE TARGETS PRICING BREAK DOWN_Fillable Form.pdf",
+  "Designer.jpg"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Exhibit A_Golf Range Targets.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B -Certification and Agreement to Conditions of Proposal.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Range Artifical Target Rendering 2026 9.24.26.png",
+   "kind": ".png",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "GOLF RANGE TARGETS PRICING BREAK DOWN_Fillable Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Designer.jpg",
+   "kind": ".jpg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 8.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 3582380,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-04T13:35:40.921915+00:00",
+ "extract_attempts": 1
+}

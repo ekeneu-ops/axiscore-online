@@ -1,0 +1,87 @@
+{
+ "bid_id": "tarrant-county-tx-f2027011",
+ "bid_number": "F2027011",
+ "agency": "Tarrant County, TX",
+ "src": "Open",
+ "title": "Sale of Recycled Paper - Sorted White Ledger, Sorted Office Paper, and Old Corrugated Cardboard",
+ "close": "10/12/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Sorted White Ledger (SWL) - 40+ Tons",
+   "qty": "40",
+   "uom": "Price Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Sorted White Ledger (SWL) - 40+ Tons 40 Price Per Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Sorted Office Paper (SOP) - 40+ Tons",
+   "qty": "40",
+   "uom": "Price Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Sorted Office Paper (SOP) - 40+ Tons 40 Price Per Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Old Corrugated Cardboard (OCC) - 20+ Tons",
+   "qty": "20",
+   "uom": "Price Per Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Old Corrugated Cardboard (OCC) - 20+ Tons 20 Price Per Ton No Response"
+  }
+ ],
+ "attachments_saved": [
+  "1SORP_TC_General_Terms_Sale_Recycled.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "1SORP_TC_General_Terms_Sale_Recycled.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.5,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 88982,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-04T13:33:04.115174+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/tarrant-county-tx-f2027011/coverage.json"
+}

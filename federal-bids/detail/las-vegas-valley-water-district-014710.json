@@ -1,0 +1,167 @@
+{
+ "bid_id": "las-vegas-valley-water-district-014710",
+ "bid_number": "014710",
+ "agency": "Las Vegas Valley Water District",
+ "src": "Open",
+ "title": "Elkhorn 3205 Zone Pumping Station Generator",
+ "close": "10/12/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 11,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "480V 1000kW/1250KVA Generator w/ External Fuel Tank (24 Hours Run Time) / Loadbank",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 480V 1000kW/1250KVA Generator w/ External Fuel Tank (24 Hours Run Time) / Loadbank 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "15kV Autotransfer Switch",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 15kV Autotransfer Switch 1 Each No Response"
+  }
+ ],
+ "attachments_saved": [
+  "014710 Bid Document and Specs.pdf",
+  "3254L Elkhorn 3205 Zone Pumping Station Generator Drawings.pdf",
+  "Statement_of_Authority_to_Submit_Response_ITB_014710.pdf",
+  "Disclosure of Ownership or Principals - Non-Agenda Items Only _1_.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "014710 Bid Document and Specs.pdf",
+   "kind": "pdf",
+   "tables": 14,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "3254L Elkhorn 3205 Zone Pumping Station Generator Drawings.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Statement_of_Authority_to_Submit_Response_ITB_014710.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Disclosure of Ownership or Principals - Non-Agenda Items Only _1_.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "3254L Elkhorn 3205 Zone Pumping Station Generator Drawings.pdf",
+   "sheet": 13,
+   "header_row": 0,
+   "headers": [
+    "NOTES:\nTRANSFORMER GT-1\n1. NEW BACKUP GENERATOR SHALL SUPPORT TWO\nMAIN METER AND DISTRIBUTION\n(BY OWNER) 2 (2) 200 HP PUMPS SUPPLYING THE 3205 ZONE AND\n15kV 3-PHASE FUSEGEAR ANCILLARY LOADS FED BY MCC-3.\nDIAL\nLI 23\nDIAL XFMR T-1 XFMR T-2 MANUAL\nTI 63 480V XFMR 480V XFMR MAIN METERING\nFEEDER FEEDER DISC SECTION\n400A HORIZONTAL BUS\n120V\nP1-2\n3205 ZONE PUMP STATION\nWhDM\n1250 kVA 3A\n2 200A trip\n480V-12,470V 52\n100MVA\n3\u00d8, Z = 5% (3) 35:1\n125E 100E\nCLASS: OA\n55\u00b0C/65\u00b0 RISE MULTILIN 3005\nOIL-FILLED PAD MOUNT CT (3) GENERATOR ENCLOSURE\n750\n1600A\n1250 KW 40 CU 40 CU LSIG\nX\n12.0 KAIC\nGRID\nGEN\nTO RTU TO RTU THROUGH MCC1\n6\" CO ATS\n(4)-4\"C, 3500kCMIL, 1\"C, RS-485 2\"C,\n140 GND (EACH) NPCo KYZ PULSE\nN.P.CO. 12.47kV CONDUCTORS\n(~25') (3) SA (3) SA\nTO MCC-3\nN.P.CO. 10 AL RATED: 130A, 2.81MVA 50P 51P\nPROPOSED LOAD: 93A, 2.0MVA\n50G 51G\n5KVA CPT 5KVA CPT\n12470KV-120240V 27 59 12470KV-120240V\n(2) PTs 81U 81O (2) PTs\n12470-120V 12470-120V\n3CTS MULTILIN 850 MULTILIN 850 3CTS\n100:5 100:5\n3CTS 3CTS\n50:5 50:5\nTRIP TRIP\n52C 52C\nATS\n52 52a 52a 52\nCONTROLLER\n4\"C, 32, 14 GND, CU, MV-90, 15kV (73A CONN TYP) (37A\n(~10') CONN POS)\n(19A CONN TYP) (54A 4\"C, 32, 14 GND, CU, MV-90, 15kV, (155A)\n3\"C, 32 AWG, 18 GND, CU, CONN POS) (~10')\nMV-105, 15kV (~10')\nTRANSFORMER T-2\nTRANSFORMER T-1\nDIAL DIAL\nLI 27 LI 27\nDIAL DIAL\nTI 63 TI 63\nFANALARM CONTROL FANALARM CONTROL\nCABINET CABINET\n27x hi temp 27x hi temp\nxfmr alarms xfmr alarms\n3205 ZONE PUMP STATION 3090 ZONE PUMP STATION\n2000 kVA 1500 kVA\n63X fault pressure 63X fault pressure\n12,470V-480V (73A-1875A) OIL-FILLED 12,470V-480V (54A-1403A) OIL-FILLED\nSUBSTATION 208V FAN CONTROL SUBSTATION 208V FAN CONTROL\nZ = 5 49 (FANALARM CABINET) FUTURE FAN Z = 5 49 (FANALARM CABINET) FUTURE FAN\nCLASS: OAFFA (+12=2240kVA) CLASS: OAFFA (+12=1680kVA)\nPANEL \"L2-33,35\" PANEL \"L2-37,39\"\n55C65C RISE 55C65C RISE\n(5)-5\"C, 41000kCMIL, 140 GND\n(~200')\n40 CU 40 CU\nGRID GRID\n(4)-5\"C, 4750kCMIL, 140 GND\n(~150')\n(1903A CONN TYP) (488A CONN TYP)\n(1208A CONN POS) (1431A CONN POS)\n3205 ZPS MCC-1 3090 ZPS MCC-2\nLOAD LOAD MCC-1 MCC-2 LOAD LOAD\nDESCRIPTION (AMPS) DESCRIPTION (AMPS)\nSEE DWG E8 SEE DWG E9\nP-1B 200HP 240 P-1A 100HP 124\nP-2B 200HP 240 P-2A 100HP 124\nA B\nP-3B 200HP 240 P-3A 200HP 240\nP-4B 200HP 240\nATS-1\nMCC-3 FEEDER A (915A CONN) MCC-3 FEEDER B (915A CONN)\nSEE DWG E10\nMCC SUBTOTAL 960 MCC SUBTOTAL 488\nSHARED MCC-3\nSHARED 915 LOAD LOAD SHARED 915\n(953A CONN)\nDESCRIPTION (AMPS)\nTOTAL LOAD 1875 ROLLUP DOOR 3 TOTAL LOAD 1403\nELEVATOR 27\nMCC-3\nAIR COMPRESSOR 1 27\nAIR COMPRESSOR 2 27\nSEE DWG E10\nBRIDGE CRANE 14\nFOR\nPANEL H1 200\nPANEL H2 200\nPANEL L1 87\nPROCUREMENT\nPANEL L2 87\nPANEL D1 26\nSAMPLE PUMPS 12 ONLY\nSUMP PUMPS 105\nSPARE 100\n2 040826 3721 3254L 3205 ZONE PUMPING STATION GENERATOR GSS\nTOTAL LOAD 915\n1 053007 4116 607481-1 ADDED 750 SIGNAL TO PLC & NOTE 10 RKL\nREV DATE SHOP PROJECT SHEET DESCRIPTION DWN CKD APPD",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "35198\nVN\n,SAGEV\nSAL\n,DVLB\nWEIV\nYELLAV\n.S\n1001",
+    "",
+    "",
+    ".E.P\n,NOSRETEP\n:YB\nDETPECC\nDER"
+   ],
+   "score": 2,
+   "n_rows": 11,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "AJ\nA\n.E.P\n,II\nSTREBOR\n:YB\nDEDNEMMOCER\nSNOIT OSNOHPLA"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "ETIS\nNROHKLE\n:EMAN\nETIS",
+     "NOITATS\nPMUP\nNROHKLE\n:EMAN\nYTILICAF",
+     "AVELE\nROTARENEG\nCCM\n,RAEGHCTIWS\nNOITATS MARGAID\nLACIRTCELE\nGNIPMUP\nENIL\nDNA\nELGNIS\nSMARGAID\nENOZ\nVk51\n5023\nENIL\nNROHKLE\nELGNIS\n:ELTIT :ENILPICSID-BUS\n:ELTIT\n:ENILPICSID\nTCEJORP\nTEEHS",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "35198\n628040\nVN\n,SAGEV\nSAL\n,DVLB\nWEIV YNATEMS\nYELLAV\n:YB .S\n.S GERG\nNWARD\n1001",
+     "628040\n.E.P\n,II\nSTREBOR\n:YB OSNOHPLA\nDEKCEHC"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.8,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 4782254,
+  "max_fetch_seconds": 0.35,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-04T13:22:59.069943+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/las-vegas-valley-water-district-014710/coverage.json"
+}

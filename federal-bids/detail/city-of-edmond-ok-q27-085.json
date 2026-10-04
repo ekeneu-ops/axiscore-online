@@ -1,0 +1,99 @@
+{
+ "bid_id": "city-of-edmond-ok-q27-085",
+ "bid_number": "Q27-085",
+ "agency": "City of Edmond, OK",
+ "src": "Open",
+ "title": "Print Edmond Electric Promo Items",
+ "close": "10/7/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Project: 2\" Hacky Sack Kick Bag QTY: 150 Size: 2 inches Material: vinyl Color: Orange/White Imprint: One color logo (purple) reference link: https://www.4allpromos.com/product/2-two-tone-hacky-sack-kick-ball",
+   "qty": "1",
+   "uom": "LT",
+   "note": "Delivery within 3 weeks of art provided.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Project: 2\" Hacky Sack Kick Bag QTY: 150 Size: 2 inches Material: vinyl Color: Orange/White Imprint: One color logo (purple) reference link: https://www.4allpromos.com/product/2-two-tone-hacky-sack-kick-ball 1 LT No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Project: Cowbells QTY: 150 Size: 3 inches Material:Metal Color: Lime Green Imprint: One color logo (orange or teal) reference link: https://www.4allpromos.com/product/classic-cowbell?default-tier=sample&default-qty=1&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping%20Samples&utm_term=376-COWCLA-SAMPLE&utm_device=c&i=1&msclkid=6638d8fde5461118c9d1b242372b6b59",
+   "qty": "1",
+   "uom": "LT",
+   "note": "Delivery within 3 weeks of art provided.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Project: Cowbells QTY: 150 Size: 3 inches Material:Metal Color: Lime Green Imprint: One color logo (orange or teal) reference link: https://www.4allpromos.com/product/classic-cowbell?default-tier=sample&default-qty=1&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping%20Samples&utm_term=376-COWCLA-SAMPLE&utm_device=c&i=1&msclkid=6638d8fde5461118c9d1b242372b6b59 1 LT No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Project: Round Pizza Cutter QTY: 150 Material: Plastic Size: 3.75 inches Color: Blue Imprint: one color logo (white) removable plastic blade reference link: https://www.4allpromos.com/product/round-pizza-cutter",
+   "qty": "1",
+   "uom": "LT",
+   "note": "Delivery within 3 weeks of art provided.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Project: Round Pizza Cutter QTY: 150 Material: Plastic Size: 3.75 inches Color: Blue Imprint: one color logo (white) removable plastic blade reference link: https://www.4allpromos.com/product/round-pizza-cutter 1 LT No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Project: Hand Clapper Noisemaker QTY: 250 Material: Plastic Size: 3 3/4\" W x 7 1/2\" H x 3/4\" D Color: Assorted Colors Imprint: 1 color logo (white) Two-sided imprint Reference Link: https://www.4allpromos.com/product/hand-clapper",
+   "qty": "1",
+   "uom": "LT",
+   "note": "Delivery within 3 weeks of art provided.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Project: Hand Clapper Noisemaker QTY: 250 Material: Plastic Size: 3 3/4\" W x 7 1/2\" H x 3/4\" D Color: Assorted Colors Imprint: 1 color logo (white) Two-sided imprint Reference Link: https://www.4allpromos.com/product/hand-clapper 1 LT No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Edmond Electric Logo CMYK.eps"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Edmond Electric Logo CMYK.eps",
+   "kind": ".eps",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.4,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1011030,
+  "max_fetch_seconds": 0.41,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-04T13:13:12.335628+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-edmond-ok-q27-085/coverage.json"
+}

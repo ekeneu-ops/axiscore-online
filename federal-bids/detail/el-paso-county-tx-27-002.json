@@ -77,5 +77,10 @@
   "http_4xx_5xx": []
  },
  "captured_at": "2026-10-02T13:19:35.872309+00:00",
- "extract_attempts": 1
+ "extract_attempts": 1,
+ "lines_total": 12,
+ "lines_matched": 2,
+ "coverage_pct": 16.7,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/el-paso-county-tx-27-002/coverage.json"
 }
