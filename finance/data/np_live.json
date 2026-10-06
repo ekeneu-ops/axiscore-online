@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-06T11:43Z",
+ "asof": "2026-10-06T14:45Z",
  "ap": {
   "net": 300518.68,
   "credits": 5967.8,
@@ -62,53 +62,53 @@
    "payable_total": 13997.91,
    "parked_count": 31
   },
-  "asof": "2026-10-06T11:43Z",
+  "asof": "2026-10-06T14:45Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 155454.29,
-  "order_count": 1691,
+  "net": 155931.14,
+  "order_count": 1698,
   "walk": {
-   "released": 36219.11,
+   "released": 38933.06,
    "postsettle": 450.42,
-   "refunds": -2883.5,
+   "refunds": -3112.26,
    "account_events": -240.25,
-   "deferred": 121908.51
+   "deferred": 119900.17
   },
-  "fev_through": "2026-10-06T09:48Z",
-  "deferred_snapshot": "2026-10-06T11:06Z",
+  "fev_through": "2026-10-06T13:51Z",
+  "deferred_snapshot": "2026-10-06T14:06Z",
   "last_settlement_end": "2026-10-02",
-  "asof": "2026-10-06T11:43Z",
-  "moved_pct": -0.25
+  "asof": "2026-10-06T14:45Z",
+  "moved_pct": 0.31
  },
  "fba": {
-  "value": 4645.33,
-  "qty": 288.0,
+  "value": 4597.23,
+  "qty": 287.0,
   "items": 21,
-  "retail": 5917.67,
+  "retail": 5878.36,
   "no_cost_items": 9,
   "no_cost_units": 38.0,
   "erp_default_units": 0,
-  "dash_value": 5815.89,
+  "dash_value": 5767.79,
   "stock_src": {
    "spapi": 1758,
    "mirror": 43
   },
   "stock_asof": "2026-10-06T07:12Z",
-  "asof": "2026-10-06T11:43Z"
+  "asof": "2026-10-06T14:45Z"
  },
  "amex": {
-  "owed": 10062.01,
+  "owed": 10164.93,
   "last_autopay": "2026-09-21",
-  "txn_count": 42,
-  "pending_amt": 1030.89,
-  "last_txn": "2026-10-05",
+  "txn_count": 43,
+  "pending_amt": 1133.81,
+  "last_txn": "2026-10-06",
   "in_flight": {
    "amount": 0.0,
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-06T11:43Z"
+  "asof": "2026-10-06T14:45Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -119,13 +119,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-06",
-  "asof": "2026-10-06T11:43Z"
+  "asof": "2026-10-06T14:45Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 83,
-  "asof": "2026-10-06T11:43Z"
+  "asof": "2026-10-06T14:45Z"
  }
 }
