@@ -1,0 +1,71 @@
+{
+ "bid_id": "city-of-clinton-ia-2027-nuisance-cleanup-boardup-and-snow-removal",
+ "bid_number": "2027 Nuisance Cleanup, Boardup and Snow Removal",
+ "agency": "City of Clinton, IA",
+ "src": "Invited",
+ "title": "2027 Nuisance Cleanup, Secure Board Ups and Snow Removal - Private Properties - Code Enforcement",
+ "close": "10/29/2026 10:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Price Per Hour",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Nuisance Clean ups (Private Property abatement) Secure Board Ups (Unsecure vacant homes and or buildings) Sidewalk Snow / Ice Removal (Private Property abatement) This is a per-hour bid for property nuisance cleanups, secure board ups and sidewalk snow/ice removal (to ensure compliance with the City's nuisance ordinance, snow and ice ordinance as well as the City's unsecured property ordinance). IMPORTANT: this is a per-hour bid for all three types of work listed above. Contractor will be paid at the bid rate for all work performed regardless of type, regardless of the number of people utilized by Contractor to perform the work, and without additional consideration for any equipment utilized by Contractor, unless a night/weekend/holiday rate applies in accordance with the Contract terms. Billing submitted must be for any materials used that contractor has a receipt for and must include the receipt in order to be reimbursed. As well as the hours bid amount, (hourly bid should be figured to cover all cost by the contractor, as the Reimbursable material costs shall be limited to actual documented costs supported by receipts. No markup, administrative charge, fuel surcharge, or equipment surcharge shall be permitted unless expressly approved in writing by the Community Development Director prior to the work being performed.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Price Per Hour 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2027 Nuisance Cleanup_ Boardup and Snow Removal.docx",
+  "example of insurance certificate_Redacted.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027 Nuisance Cleanup_ Boardup and Snow Removal.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "example of insurance certificate_Redacted.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.0,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 1408935,
+  "max_fetch_seconds": 0.63,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-07T14:19:38.596197+00:00",
+ "extract_attempts": 1,
+ "lines_total": 0,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-clinton-ia-2027-nuisance-cleanup-boardup-and-snow-removal/coverage.json"
+}

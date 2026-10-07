@@ -1,0 +1,139 @@
+{
+ "bid_id": "north-east-isd-tx-12-27",
+ "bid_number": "12-27",
+ "agency": "North East ISD, TX",
+ "src": "Invited",
+ "title": "RFP 50% Replacement of all Student Chromebooks (Gr 3-12) in Support of the 2025 Bond (B06)",
+ "close": "10/22/2026 10:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Unit price for each Processor Intel N100 / MediaTek Kompanio 520 series or equivalent as per specifications contained herein.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Unit price for each Processor Intel N100 / MediaTek Kompanio 520 series or equivalent as per specifications contained herein. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Warranty unit price for each Chromebook if not already included in the unit price . The required warranty must be included in the evaluated base price unless separately identified as a required line item below. Proposers shall clearly identify whether the required warranty is included in the unit price.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Warranty unit price for each Chromebook if not already included in the unit price . The required warranty must be included in the evaluated base price unless separately identified as a required line item below. Proposers shall clearly identify whether the required warranty is included in the unit price. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Supplier Response Quick Tutorial.pdf",
+  "North East ISD  Bids Terms and Conditions.pdf",
+  "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+  "HB_1295_instructions.pdf",
+  "Form_CIQ_with_Instructions.pdf",
+  "NEISD_Insurance Requirements_10272022.pdf",
+  "Vendor_Inquiry_Form.pdf",
+  "w-9.pdf",
+  "District Boundary Map.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier Response Quick Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "North East ISD  Bids Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HB_1295_instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form_CIQ_with_Instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_Insurance Requirements_10272022.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor_Inquiry_Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "w-9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "District Boundary Map.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 13.3,
+  "attachment_fetches": 9,
+  "attachment_seconds": 3.1,
+  "attachment_bytes": 5069464,
+  "max_fetch_seconds": 0.71,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-07T14:17:39.325132+00:00",
+ "extract_attempts": 1,
+ "lines_total": 2,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/north-east-isd-tx-12-27/coverage.json"
+}

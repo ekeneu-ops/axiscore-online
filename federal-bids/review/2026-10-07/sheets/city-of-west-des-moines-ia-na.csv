@@ -1,0 +1,7 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,"HPE Aruba Networking CX 6300M
+24p 10M/100M/1G 4p SFP56 50G
+TAA Switch",5.0,$__________,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,"HPE Aruba Networking 680-Watt
+Power Supply",10.0,$__________,,token,Synnex,JW124A,HPE ARUBA NETWORKING PCACNA 125V/10A 1.8M C13 TO NEMA 515P (NA) AC POWER CORD -,EA,569.0,False,False,5.56,0.4444,6.0044,7.06,70.6,,Synnex JL312A @ 28.05,Synnex JL086A#B2E @ 562.08
+3,HPE Aruba Networking Fan Module,5.0,$__________,,token,Synnex,R8N34A,LA ARUBA NETWORKING AP-605CM12 MODULE,EA,1,False,False,673.51,0.0,673.51,792.36,3961.8,,,

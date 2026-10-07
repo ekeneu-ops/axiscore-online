@@ -1,0 +1,51 @@
+{
+ "bid_id": "canyons-school-district-ut-27-00048cp-rfi",
+ "bid_number": "27-00048CP-RFI",
+ "agency": "Canyons School District, UT",
+ "src": "Invited",
+ "title": "PUBLIC NOTICE -- CANYONS INNOVATION CENTER BROADCASTING BID PACKAGE -- CM/GC THROUGH HUGHES GC",
+ "close": "10/22/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "CIC BID MANUAL Broadcasting 2026.10.05.pdf",
+  "CIC BP2 - PR03.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "CIC BID MANUAL Broadcasting 2026.10.05.pdf",
+   "kind": "pdf",
+   "tables": 28,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIC BP2 - PR03.pdf",
+   "kind": "pdf",
+   "tables": 65,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 27.4,
+  "attachment_fetches": 2,
+  "attachment_seconds": 2.4,
+  "attachment_bytes": 5101219,
+  "max_fetch_seconds": 1.23,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-07T14:18:46.548195+00:00",
+ "extract_attempts": 1
+}

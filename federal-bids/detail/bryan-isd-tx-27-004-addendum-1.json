@@ -4,7 +4,7 @@
  "agency": "Bryan ISD, TX",
  "src": "Invited",
  "title": "Refrigeration Services",
- "close": "10/6/2026 02:00 PM (ET)",
+ "close": "10/19/2026 02:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -209,19 +209,19 @@
   }
  ],
  "attachments_saved": [
-  "Vendor Packet_ Federal_ 01.2025.pdf",
-  "Prevailing Wage Rate_ 04.2026.pdf"
+  "0_Vendor Packet_ Federal_ 01.2025.pdf",
+  "1_Prevailing Wage Rate_ 04.2026.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "Vendor Packet_ Federal_ 01.2025.pdf",
+   "name": "0_Vendor Packet_ Federal_ 01.2025.pdf",
    "kind": "pdf",
    "tables": 5,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Prevailing Wage Rate_ 04.2026.pdf",
+   "name": "1_Prevailing Wage Rate_ 04.2026.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
@@ -233,14 +233,19 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 8.9,
+  "bid_seconds": 9.6,
   "attachment_fetches": 2,
-  "attachment_seconds": 0.2,
+  "attachment_seconds": 0.5,
   "attachment_bytes": 726738,
-  "max_fetch_seconds": 0.12,
+  "max_fetch_seconds": 0.33,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-21T13:13:20.776528+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-07T14:17:01.405569+00:00",
+ "extract_attempts": 2,
+ "lines_total": 16,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/bryan-isd-tx-27-004-addendum-1/coverage.json"
 }

@@ -1,0 +1,115 @@
+{
+ "bid_id": "arlington-isd-tx-27-20",
+ "bid_number": "27-20",
+ "agency": "Arlington ISD, TX",
+ "src": "Invited",
+ "title": "Dual Quarterly Copier Paper",
+ "close": "10/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Stock # 01.35.0320 (13620698) Dual Purpose Copier Paper, 8.5\u201dx11\u201d, True 20 BOND, white, 92 brightness. 500 sheets/ream, 10 reams per carton",
+   "qty": "7560",
+   "uom": "ctns",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Stock # 01.35.0320 (13620698) Dual Purpose Copier Paper, 8.5\u201dx11\u201d, True 20 BOND, white, 92 brightness. 500 sheets/ream, 10 reams per carton 7560 ctns No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Stock # 01.35.0328 Dual Purpose Copier Paper, 11\u201dx17\u201d, True 20#, #4 Sulphite, white, 92 brightness. 500 sheets/ream, 5 reams per carton.",
+   "qty": "64",
+   "uom": "ctns",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Stock # 01.35.0328 Dual Purpose Copier Paper, 11\u201dx17\u201d, True 20#, #4 Sulphite, white, 92 brightness. 500 sheets/ream, 5 reams per carton. 64 ctns No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Stock # 01.35.0325 Dual Purpose Copier Paper, 8.5\u201dx14\u201d, True 20#, #4 Sulphite, white, 92 brightness. 500 sheets/ream, 10 reams per carton.",
+   "qty": "30",
+   "uom": "ctns",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Stock # 01.35.0325 Dual Purpose Copier Paper, 8.5\u201dx14\u201d, True 20#, #4 Sulphite, white, 92 brightness. 500 sheets/ream, 10 reams per carton. 30 ctns No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "Stock # 01.35.0330 Dual Purpose Copier Paper, 8.5\u201dx11\u201d, True 20#, #4 Sulphite, white, 92 brightness. 500 sheets/ream, 10 reams per carton. THREE-HOLE PUNCHED (Drill-hole size must be 5/16\u201d \u2013 No deviations",
+   "qty": "160",
+   "uom": "ctns",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 Stock # 01.35.0330 Dual Purpose Copier Paper, 8.5\u201dx11\u201d, True 20#, #4 Sulphite, white, 92 brightness. 500 sheets/ream, 10 reams per carton. THREE-HOLE PUNCHED (Drill-hole size must be 5/16\u201d \u2013 No deviations 160 ctns No Response"
+  }
+ ],
+ "attachments_saved": [
+  "27-20  Mill Form.docx",
+  "27-20 Dual  Quarterly Copier Paper-Specifications.pdf",
+  "27-20 Cover Letter.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "27-20  Mill Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "27-20 Dual  Quarterly Copier Paper-Specifications.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "27-20 Cover Letter.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.5,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 577821,
+  "max_fetch_seconds": 0.23,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-07T14:18:57.542744+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/arlington-isd-tx-27-20/coverage.json"
+}
