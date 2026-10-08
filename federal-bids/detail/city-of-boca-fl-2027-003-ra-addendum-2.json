@@ -1,0 +1,130 @@
+{
+ "bid_id": "city-of-boca-fl-2027-003-ra-addendum-2",
+ "bid_number": "2027-003-RA Addendum 2",
+ "agency": "City of Boca, FL",
+ "src": "Open",
+ "title": "Tree Inventory of Streets and Select City Facilities",
+ "close": "10/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2027-003-RA Addendum No. 1 SECTION I Terms Conditions and Specifications.pdf",
+  "2027-003-RA SECTION II Bid Response.docx",
+  "Exhibit A _ Tree Canopy Assessment 2021.pdf",
+  "Exhibit B _ FDACS Hurricane Ian Recovery Grant Application.pdf",
+  "Exhibit C _ FDACS Hurricane Ian Recovery Grant Application Tree List.pdf",
+  "Exhibit D _ FDACS Hurricane Ian Recovery Grant Application Tree Locations Map.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027-003-RA Addendum No. 1 SECTION I Terms Conditions and Specifications.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2027-003-RA SECTION II Bid Response.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A _ Tree Canopy Assessment 2021.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B _ FDACS Hurricane Ian Recovery Grant Application.pdf",
+   "kind": "pdf",
+   "tables": 22,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Exhibit C _ FDACS Hurricane Ian Recovery Grant Application Tree List.pdf",
+   "kind": "pdf",
+   "tables": 48,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit D _ FDACS Hurricane Ian Recovery Grant Application Tree Locations Map.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Exhibit B _ FDACS Hurricane Ian Recovery Grant Application.pdf",
+   "sheet": 5,
+   "header_row": 4,
+   "headers": [
+    "Deliverable #\nand timeline",
+    "Tasks (with\nLead identified)",
+    "Task Description",
+    "Indicator",
+    "Costs per Unit",
+    "Outcome Measures"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "1\nSept. 2026 \u2013\nNov. 2026",
+     "Project Planning\nand Consultant\nProcurement\nSustainability\nManager and\nboth City\narborists",
+     "Develop project scope,\nschedule, data\nstandards, QA/QC\nrequirements, and\nprocurement documents.\nIssue invitation to bid,\nconduct pre-proposal\nconference, evaluate\nproposals, and execute\nconsultant contract.",
+     "\u2022 Invitation to\nbid (ITB)\nissued\n\u2022 Proposals\nreceived and\nevaluated\n\u2022 Contract\nexecuted",
+     "Staff hours\n(planning &\nprocurement)",
+     "\u2022 Release of bid\ndocuments\n\u2022 Evaluation and\nranking of proposals\n\u2022 Signed contract with\nvendor"
+    ],
+    [
+     "2\nDec. 2026 \u2013\nJan. 2027",
+     "Consultant\nmobilization and\npublic outreach\nSustainability\nManager and\nConsultant",
+     "Conduct internal project\nkickoff meeting; finalize\nwork plan; establish\ncommunication\nprotocols; develop and\nimplement public\noutreach strategy to\ninform residents of field\nwork activities.",
+     "\u2022 Kickoff\nmeeting held\n\u2022 Outreach\nmaterials\ndistributed\n\u2022 Project\nwebsite or\nnotice\npublished",
+     "Outreach\nmaterials;\nstaff/consultant\nhours",
+     "\u2022 Approved work plan\n\u2022 Public notifications\ncompleted\n\u2022 Community\nawareness of\ninventory activities"
+    ],
+    [
+     "3\nFeb. 2027 \u2013\nApr. 2027",
+     "Field Data\nCollection\nConsultant",
+     "Conduct systematic tree\ninventory of public right-\nof-way and facility trees,\ncollecting standardized\ndata including species,\nDBH, condition, location,\nconflicts, and\nmaintenance needs\nusing GPS-enabled data\ncollection tools.",
+     "\u2022 Number of\ntrees\ninventoried\n\u2022 Percent of\nstudy area\ncompleted",
+     "Cost per tree\ninventoried",
+     "\u2022 Complete and\ngeoreferenced tree\ndataset\n\u2022 Coverage of 100% of\ntargeted ROW and\nfacility trees"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 20.1,
+  "attachment_fetches": 6,
+  "attachment_seconds": 3.8,
+  "attachment_bytes": 8528787,
+  "max_fetch_seconds": 1.6,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-08T14:25:44.559445+00:00",
+ "extract_attempts": 1,
+ "lines_total": 4,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-boca-fl-2027-003-ra-addendum-2/coverage.json"
+}

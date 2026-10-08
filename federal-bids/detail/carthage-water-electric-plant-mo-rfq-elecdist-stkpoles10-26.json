@@ -1,0 +1,63 @@
+{
+ "bid_id": "carthage-water-electric-plant-mo-rfq-elecdist-stkpoles10-26",
+ "bid_number": "RFQ# ELECDIST-STKPOLES10.26",
+ "agency": "Carthage Water & Electric Plant, MO",
+ "src": "Open",
+ "title": "ELECTRIC DISTRIBUTION POLES",
+ "close": "10/13/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "40' SYP, CLASS 3, DCOI REA M-20 WQC UTILITY POLE (CWEP# 2404) DELIVERY HOURS ARE AS FOLLOWS: MONDAY - FRIDAY 7:30 A.M. - 11:30 A.M. NOON - 3:00 P.M. UNIT COSTS ARE TO INCLUDE ANY FREIGHT COSTS. PLEASE ADJUST QUANTITIES FOR A FULL TRUCK LOAD(S).",
+   "qty": "30",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 40' SYP, CLASS 3, DCOI REA M-20 WQC UTILITY POLE (CWEP# 2404) DELIVERY HOURS ARE AS FOLLOWS: MONDAY - FRIDAY 7:30 A.M. - 11:30 A.M. NOON - 3:00 P.M. UNIT COSTS ARE TO INCLUDE ANY FREIGHT COSTS. PLEASE ADJUST QUANTITIES FOR A FULL TRUCK LOAD(S). 30 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "PURCHASE ORDER TERMS AND CONDITIONS.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PURCHASE ORDER TERMS AND CONDITIONS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.3,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 120105,
+  "max_fetch_seconds": 0.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-08T14:23:21.665232+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/carthage-water-electric-plant-mo-rfq-elecdist-stkpoles10-26/coverage.json"
+}

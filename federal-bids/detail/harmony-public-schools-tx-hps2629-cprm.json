@@ -1,0 +1,162 @@
+{
+ "bid_id": "harmony-public-schools-tx-hps2629-cprm",
+ "bid_number": "HPS2629_CPRM",
+ "agency": "Harmony Public Schools, TX",
+ "src": "Invited",
+ "title": "CUSTOM PROMOTIONAL MATERIALS",
+ "close": "11/9/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:promotional",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 17,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP no. HPS2629_CPRM-RFP Package.pdf",
+  "RFP no. HPS2629_CPRM-Attachment Package.pdf",
+  "Exhibit 1_HPS Locations.xlsx",
+  "Exhibit 2_Apply Harmony Festival School Materials.xlsx",
+  "Exhibit 3_Harmony Welcome Box Contents.zip",
+  "Exhibit 4 - Intellectual Property Non-Disclosure and Confidentiality Agreement.docx",
+  "Form A - Deviations_and_Exceptions.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP no. HPS2629_CPRM-RFP Package.pdf",
+   "kind": "pdf",
+   "tables": 32,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "RFP no. HPS2629_CPRM-Attachment Package.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 1_HPS Locations.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 2_Apply Harmony Festival School Materials.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Exhibit 3_Harmony Welcome Box Contents.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit 4 - Intellectual Property Non-Disclosure and Confidentiality Agreement.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Form A - Deviations_and_Exceptions.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP no. HPS2629_CPRM-RFP Package.pdf",
+   "sheet": 30,
+   "header_row": 0,
+   "headers": [
+    "For evaluation purposes, vendors shall calculate the total price using an estimated quantity of"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "15,000 Boxes. Quantities are estimates and may be adjusted by HPS."
+    ]
+   ]
+  },
+  {
+   "source": "Exhibit 2_Apply Harmony Festival School Materials.xlsx",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item #",
+    "Material",
+    "Design Sample",
+    "Quantity Ordered",
+    "Details",
+    "Material specification",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 17,
+   "sample": [
+    [
+     "1.0",
+     "Banner 1 (Leadership Theme for Elementary Schools)",
+     "",
+     "53.0",
+     "47 for schools -1 per school; 6 for districts - 1 per district:\n Total 53 banners",
+     "15'x5'   \n13oz Vinyl\nWeather resistant with grommets\n\n"
+    ],
+    [
+     "2.0",
+     "Banner 1 (Leadership Theme for Secondary Schools)",
+     "",
+     "40.0",
+     "34 for schools -1 per school; 6 for districts - 1 per district:\n Total 40 banners",
+     "15'x5'   \n13oz Vinyl\nWeather resistant with grommets\n\n"
+    ],
+    [
+     "3.0",
+     "Banner 2 (Apply Harmony Theme for Elementary Schools)",
+     "",
+     "53.0",
+     "47 for schools -1 per school; 6 for districts - 1 per district:\n Total 53 banners",
+     "15'x5'   \n13oz Vinyl\nWeather resistant with grommets\n\n"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 19.8,
+  "attachment_fetches": 7,
+  "attachment_seconds": 11.4,
+  "attachment_bytes": 28731260,
+  "max_fetch_seconds": 4.69,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-08T14:22:13.417487+00:00",
+ "extract_attempts": 1,
+ "lines_total": 17,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/harmony-public-schools-tx-hps2629-cprm/coverage.json"
+}

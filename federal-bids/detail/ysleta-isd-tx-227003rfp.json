@@ -1,0 +1,154 @@
+{
+ "bid_id": "ysleta-isd-tx-227003rfp",
+ "bid_number": "227003RFP",
+ "agency": "Ysleta ISD, TX",
+ "src": "Invited",
+ "title": "E-Rate 2027 Network Electronics",
+ "close": "11/12/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 24,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "26.4- Pre- Employment -Pre-service Affidavit.pdf",
+  "19.8. Section 1 - Instructions Aug 8_ 19 to.docx",
+  "21.9 Exhibit.Forms_ Others  Feb 13_ 2026.docx",
+  "23.4  Solicitation T_C_ Apr 1_ 23 to.docx",
+  "contract 2027.docx",
+  "Bid Items.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "26.4- Pre- Employment -Pre-service Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "19.8. Section 1 - Instructions Aug 8_ 19 to.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "21.9 Exhibit.Forms_ Others  Feb 13_ 2026.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "23.4  Solicitation T_C_ Apr 1_ 23 to.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "contract 2027.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Items.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Bid Items.xlsx",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "Line Item",
+    "Manufacturer",
+    "Part #",
+    "Description",
+    "Brand/Model Submitted:",
+    "Erate\n Eligible\n %",
+    "Internal\nConnections/\nMIBS",
+    "Qty.",
+    "1 year term monthly price",
+    "1 year term Total price",
+    "3 year term monthly price",
+    "3 year term Total price"
+   ],
+   "score": 3,
+   "n_rows": 24,
+   "sample": [
+    [
+     "1",
+     "Aruba/HPE or Equivalent",
+     "JH232A",
+     "HPE Networking X142\n 40G QSFP+ LC LR4 SM Transceiver",
+     "",
+     "",
+     "",
+     "4",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Aruba/HPE or Equivalent",
+     "Q9Y58AAE ",
+     "HPE Aruba Networking Central AP \nFoundation 1-year Subscription E-STU",
+     "",
+     "",
+     "",
+     "800",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Aruba/HPE or Equivalent",
+     "Q9Y63AAE",
+     "HPE Aruba Networking Central AP \nAdvanced 1-year Subscription E-STU",
+     "",
+     "",
+     "",
+     "800",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.4,
+  "attachment_fetches": 6,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 1690498,
+  "max_fetch_seconds": 0.53,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-08T14:22:21.312866+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/ysleta-isd-tx-227003rfp/coverage.json"
+}

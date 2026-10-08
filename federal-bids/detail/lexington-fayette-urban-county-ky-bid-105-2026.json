@@ -4,7 +4,7 @@
  "agency": "Lexington-Fayette Urban County, KY",
  "src": "Open",
  "title": "Traffic Signal and Control Equipment",
- "close": "9/29/2026 02:00 PM (ET)",
+ "close": "10/13/2026 02:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "demoted:con:traffic sign",
@@ -617,11 +617,11 @@
   }
  ],
  "attachments_saved": [
-  "105-2026 Bid Package.pdf"
+  "0_105-2026 Bid Package.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "105-2026 Bid Package.pdf",
+   "name": "0_105-2026 Bid Package.pdf",
    "kind": "pdf",
    "tables": 6,
    "note": "",
@@ -635,12 +635,17 @@
  "latency": {
   "bid_seconds": 11.9,
   "attachment_fetches": 1,
-  "attachment_seconds": 0.1,
+  "attachment_seconds": 0.8,
   "attachment_bytes": 1609580,
-  "max_fetch_seconds": 0.15,
+  "max_fetch_seconds": 0.81,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-21T13:17:51.542617+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-08T14:23:10.840954+00:00",
+ "extract_attempts": 2,
+ "lines_total": 50,
+ "lines_matched": 1,
+ "coverage_pct": 2.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/lexington-fayette-urban-county-ky-bid-105-2026/coverage.json"
 }

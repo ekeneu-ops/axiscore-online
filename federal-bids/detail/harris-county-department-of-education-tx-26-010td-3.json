@@ -4,7 +4,7 @@
  "agency": "Harris County Department of Education, TX",
  "src": "Open",
  "title": "Local Food and Catering Services",
- "close": "10/6/2026 03:00 PM (ET)",
+ "close": "10/13/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -101,19 +101,19 @@
   }
  ],
  "attachments_saved": [
-  "RFP Vendor Packet_clean _rev 1.28.2026_.pdf",
-  "RFP _26-010TD-3 Local Food and Catering Services.pdf"
+  "0_RFP Vendor Packet_clean _rev 1.28.2026_.pdf",
+  "1_RFP _26-010TD-3 Local Food and Catering Services.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "RFP Vendor Packet_clean _rev 1.28.2026_.pdf",
+   "name": "0_RFP Vendor Packet_clean _rev 1.28.2026_.pdf",
    "kind": "pdf",
    "tables": 3,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "RFP _26-010TD-3 Local Food and Catering Services.pdf",
+   "name": "1_RFP _26-010TD-3 Local Food and Catering Services.pdf",
    "kind": "pdf",
    "tables": 2,
    "note": "",
@@ -125,16 +125,16 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 12.3,
+  "bid_seconds": 13.6,
   "attachment_fetches": 2,
-  "attachment_seconds": 0.4,
+  "attachment_seconds": 1.6,
   "attachment_bytes": 3940265,
-  "max_fetch_seconds": 0.27,
+  "max_fetch_seconds": 1.1,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-28T13:14:51.319763+00:00",
- "extract_attempts": 1,
+ "captured_at": "2026-10-08T14:26:20.925534+00:00",
+ "extract_attempts": 2,
  "lines_total": 7,
  "lines_matched": 0,
  "coverage_pct": 0.0,

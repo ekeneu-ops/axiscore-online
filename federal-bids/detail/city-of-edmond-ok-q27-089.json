@@ -1,0 +1,54 @@
+{
+ "bid_id": "city-of-edmond-ok-q27-089",
+ "bid_number": "Q27-089",
+ "agency": "City of Edmond, OK",
+ "src": "Open",
+ "title": "Edmond Start Here Promo Tote Bags",
+ "close": "10/12/2026 11:30 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Project: Value Grocery Tote \u2013 15\u201d x 13\u201d Quantity: 1,000 Color: White Item Size: 14-1/2\" H x 13\" W x 10\" D Imprint: One Color Handles: Duel 20\u201d Length Includes Plastic bottom board Item Reference: https://www.4imprint.com/product/106836-1513/Value-Grocery-Tote-15-x-13 No Substitutions, must match exact item.",
+   "qty": "1",
+   "uom": "LOT",
+   "note": "Please provide the total price for the LOT order of 1,000 bags, not price per bag. Must be delivered by October 30, 2026.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Project: Value Grocery Tote \u2013 15\u201d x 13\u201d Quantity: 1,000 Color: White Item Size: 14-1/2\" H x 13\" W x 10\" D Imprint: One Color Handles: Duel 20\u201d Length Includes Plastic bottom board Item Reference: https://www.4imprint.com/product/106836-1513/Value-Grocery-Tote-15-x-13 No Substitutions, must match exact item. 1 LOT No Response"
+  }
+ ],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 5.6,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-08T14:13:25.810442+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-edmond-ok-q27-089/coverage.json"
+}
