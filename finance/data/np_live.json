@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-09T15:47Z",
+ "asof": "2026-10-09T17:01Z",
  "ap": {
   "net": 322595.78,
   "credits": 9184.54,
@@ -62,53 +62,53 @@
    "payable_total": 13997.91,
    "parked_count": 31
   },
-  "asof": "2026-10-09T15:47Z",
+  "asof": "2026-10-09T17:01Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 173572.58,
-  "order_count": 2022,
+  "net": 174098.14,
+  "order_count": 2029,
   "walk": {
-   "released": 69355.31,
+   "released": 70272.18,
    "postsettle": 660.25,
-   "refunds": -7220.3,
+   "refunds": -7385.63,
    "account_events": -369.3,
-   "deferred": 111146.62
+   "deferred": 110920.64
   },
-  "fev_through": "2026-10-09T13:55Z",
-  "deferred_snapshot": "2026-10-09T15:06Z",
+  "fev_through": "2026-10-09T15:58Z",
+  "deferred_snapshot": "2026-10-09T16:06Z",
   "last_settlement_end": "2026-10-02",
-  "asof": "2026-10-09T15:47Z",
-  "moved_pct": 0.15
+  "asof": "2026-10-09T17:01Z",
+  "moved_pct": 0.3
  },
  "fba": {
-  "value": 3978.13,
-  "qty": 272.0,
+  "value": 4101.12,
+  "qty": 275.0,
   "items": 21,
-  "retail": 5356.69,
+  "retail": 5417.01,
   "no_cost_items": 9,
-  "no_cost_units": 33.0,
+  "no_cost_units": 35.0,
   "erp_default_units": 0,
-  "dash_value": 5111.41,
+  "dash_value": 5234.4,
   "stock_src": {
    "spapi": 1758,
    "mirror": 43
   },
   "stock_asof": "2026-10-09T07:15Z",
-  "asof": "2026-10-09T15:47Z"
+  "asof": "2026-10-09T17:01Z"
  },
  "amex": {
-  "owed": 11103.59,
+  "owed": 11155.23,
   "last_autopay": "2026-09-21",
-  "txn_count": 51,
-  "pending_amt": 233.04,
-  "last_txn": "2026-10-08",
+  "txn_count": 53,
+  "pending_amt": 284.68,
+  "last_txn": "2026-10-09",
   "in_flight": {
    "amount": 0.0,
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-09T15:47Z"
+  "asof": "2026-10-09T17:01Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -119,13 +119,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-09",
-  "asof": "2026-10-09T15:47Z"
+  "asof": "2026-10-09T17:01Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 86,
-  "asof": "2026-10-09T15:47Z"
+  "asof": "2026-10-09T17:01Z"
  }
 }
