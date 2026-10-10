@@ -1,0 +1,198 @@
+{
+ "bid_id": "city-of-el-paso-tx-2027-0001-addendum-2",
+ "bid_number": "2027-0001 Addendum 2",
+ "agency": "City of El Paso, TX",
+ "src": "Open",
+ "title": "Disposable Litter Boxes & Pet Carriers",
+ "close": "10/14/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "IN_SCOPE",
+ "scope_reason": "inc:disposable",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 24,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2027-0001 Bid Form - A002.xlsx",
+  "2027-0001 Mandatory Forms.pdf",
+  "2027-0001 Amendment Acknowledgement _For Paper Bids Only_.pdf",
+  "2027-0001 Appendix A - A002.pdf",
+  "A001.pdf",
+  "2027-0001 A002.pdf",
+  "A001.pdf _417 KB_"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027-0001 Bid Form - A002.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2027-0001 Mandatory Forms.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2027-0001 Amendment Acknowledgement _For Paper Bids Only_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-0001 Appendix A - A002.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "A001.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2027-0001 A002.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "A001.pdf _417 KB_",
+   "kind": ".pdf _417 kb_",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2027-0001 Bid Form - A002.xlsx",
+   "sheet": 0,
+   "header_row": 19,
+   "headers": [
+    "Item No.",
+    "Description",
+    "Unit of Measure",
+    "Approximate/Estimate Quantity",
+    "Price",
+    "Yearly Total\nC=AXB",
+    "3-Year Total \nD=CX3"
+   ],
+   "score": 3,
+   "n_rows": 12,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "(A)",
+     "(B)",
+     "(C )",
+     "(D)"
+    ],
+    [
+     "1",
+     "Mini Cat Litter Trays (100 per case)\n11\u201d L x 8\u201d W x 2\u201cD  \nWhite laminated interior ",
+     "Case",
+     "1000",
+     "",
+     "0",
+     "0"
+    ],
+    [
+     "2",
+     " Cardboard Cat Carriers\n (17.25\u201d x 8.5\u201d x 12\u201d",
+     "Case",
+     "8000",
+     "",
+     "0",
+     "0"
+    ]
+   ]
+  },
+  {
+   "source": "2027-0001 A002.pdf",
+   "sheet": 1,
+   "header_row": 3,
+   "headers": [
+    "1.",
+    "",
+    "",
+    "Could you please provide the expected ordering\nfrequency and typical quantity per purchase order\nfor each item?\nConfirmation of the City\u2019s standard payment terms\nfollowing delivery and acceptance. Thank you for\nyour assistance.",
+    "",
+    "",
+    "The frequency is dependent on the quantity per\ncase. Four hundred and eighty (480) one-piece\npet carriers (single qty) are ordered every couple\nof months, approximately five (5) orders.\nSeventy- eight (78) cases of disposable litter\nboxes (100/case) are ordered every couple of\nmonths, approximately seven (7) orders.\nCity of El Paso pays invoice once items have been\nreceived. Payment is net 30 from the date on the\ninvoice.",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 24,
+   "sample": [
+    [
+     "2.",
+     "",
+     "",
+     "",
+     "Clarification regarding our previously submitted",
+     "",
+     "Refer to response to question #1",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "question: We recognize that the bid form provides",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "estimated annual quantities and states that orders",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "broken link: play-share-and-download-meeting-recordings-in-microsoft-teams",
+  "broken link: start-stop-and-download-live-transcripts-in-microsoft-teams-meetings"
+ ],
+ "latency": {
+  "bid_seconds": 34.9,
+  "attachment_fetches": 9,
+  "attachment_seconds": 12.1,
+  "attachment_bytes": 26082891,
+  "max_fetch_seconds": 10.17,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-10T13:41:08.434489+00:00",
+ "extract_attempts": 1,
+ "lines_total": 3,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-el-paso-tx-2027-0001-addendum-2/coverage.json"
+}

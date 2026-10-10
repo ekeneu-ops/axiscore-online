@@ -1,10 +1,10 @@
 {
- "bid_id": "edinburg-isd-tx-26-69",
- "bid_number": "26-69",
- "agency": "Edinburg ISD , TX",
+ "bid_id": "el-paso-water-tx-rfp31-26",
+ "bid_number": "RFP31-26",
+ "agency": "El Paso Water, TX",
  "src": "Open",
- "title": "PRINTING SERVICES",
- "close": "10/14/2026 04:30 PM (ET)",
+ "title": "ARBITRAGE SERVICES (REBID)",
+ "close": "10/14/2026 03:30 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -16,44 +16,44 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "0_1295 _ INSTRUCTIONS.pdf",
-  "1_CIQ Form.pdf",
-  "2_W9 _ Direct Deposit Form.pdf"
+  "EXCEL BID FORM RFP31-26.xlsx",
+  "RFP31-26 ARBITRAGE SERVICES.pdf",
+  "Attachment A 09-01-26.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "0_1295 _ INSTRUCTIONS.pdf",
-   "kind": "pdf",
+   "name": "EXCEL BID FORM RFP31-26.xlsx",
+   "kind": "xlsx",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "1_CIQ Form.pdf",
+   "name": "RFP31-26 ARBITRAGE SERVICES.pdf",
    "kind": "pdf",
-   "tables": 1,
+   "tables": 14,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "2_W9 _ Direct Deposit Form.pdf",
+   "name": "Attachment A 09-01-26.pdf",
    "kind": "pdf",
-   "tables": 1,
-   "note": "",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
    "candidates": 0
   }
  ],
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 8.6,
+  "bid_seconds": 6.5,
   "attachment_fetches": 3,
-  "attachment_seconds": 0.3,
-  "attachment_bytes": 911269,
-  "max_fetch_seconds": 0.15,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 539341,
+  "max_fetch_seconds": 0.08,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-10T13:42:32.237924+00:00",
- "extract_attempts": 3
+ "captured_at": "2026-10-10T13:40:00.550491+00:00",
+ "extract_attempts": 1
 }

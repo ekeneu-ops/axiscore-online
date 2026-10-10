@@ -1,0 +1,43 @@
+{
+ "bid_id": "city-of-keller-tx-26-012",
+ "bid_number": "26-012",
+ "agency": "City of Keller, TX",
+ "src": "Open",
+ "title": "Erosion Control Improvements at Big Bear Creek",
+ "close": "10/14/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "03 Invitation to Bid.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "03 Invitation to Bid.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.0,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 19180,
+  "max_fetch_seconds": 0.06,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-10T13:37:58.796447+00:00",
+ "extract_attempts": 1
+}

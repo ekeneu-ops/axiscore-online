@@ -1,0 +1,210 @@
+{
+ "bid_id": "city-of-el-paso-tx-2027-0047-addendum-1",
+ "bid_number": "2027-0047 Addendum 1",
+ "agency": "City of El Paso, TX",
+ "src": "Open",
+ "title": "Parks Trash Pickup",
+ "close": "10/14/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 395,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Revised Factor A - 2027-0047 Bid Form.xlsx",
+  "Revised Attachment A - Locations List.pdf",
+  "2027-0047 Mandatory Forms.pdf",
+  "Revised Factor B -  Experience - Comparable Contract Form _1.pdf",
+  "Revised Factor B -  Experience - Comparable Contract Form _2.pdf",
+  "Revised Factor B -  Experience - Comparable Contract Form _3.pdf",
+  "Revised Amendment Acknowledgement _For Paper Bids Only_.pdf",
+  "Revised Factor D - Employee Medical Benefits and Incentives Form.pdf",
+  "Payment _ Performance Bond Sample.pdf",
+  "A001.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Revised Factor A - 2027-0047 Bid Form.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Revised Attachment A - Locations List.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2027-0047 Mandatory Forms.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Revised Factor B -  Experience - Comparable Contract Form _1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Revised Factor B -  Experience - Comparable Contract Form _2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Revised Factor B -  Experience - Comparable Contract Form _3.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Revised Amendment Acknowledgement _For Paper Bids Only_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Revised Factor D - Employee Medical Benefits and Incentives Form.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Payment _ Performance Bond Sample.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "A001.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Revised Factor A - 2027-0047 Bid Form.xlsx",
+   "sheet": 0,
+   "header_row": 19,
+   "headers": [
+    "Item No.",
+    "",
+    "Description",
+    "Unit of Measure",
+    "Estimated Weeks",
+    "Price",
+    "Yearly Total\nD=(AXB)",
+    "3-Year Total \nD=CX3",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 395,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "(A)",
+     "(B) ",
+     "(C)",
+     "(D)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Alethea",
+     "Alethea",
+     "Weekly ",
+     "52",
+     "",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Amber Sun",
+     "Amber Sun",
+     "Weekly ",
+     "52",
+     "",
+     "0",
+     "0",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "A001.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "15.",
+    "Group D \u2014 application of the bidder's unit\nprice. Reference: Factor A Bid Form, Group\nD \u2014 Unscheduled Events. Requested\nresponse: Please confirm: (a) that the\n$50,000.00 Group D annual figure is a City-\nestablished allowance that is identical for all\nbidders; (b) how the bidder's Group D unit\nprice will be used during contract\nperformance \u2014 for example, as the rate at\nwhich unscheduled event work is drawn\ndown against the allowance; (c) the unit of\nmeasure to which that price attaches (per\nevent, per crew hour, per site); and (d)\nwhether the Group D unit price is evaluated\nunder Factor A.",
+    "The $50,000 allowance is identical for all bidders.\nPlease refer to Factor A \u2013 2027-0047 Bid Form \u2013\nGroup D \u2013 Unscheduled Events. The bidder\u2019s unit\nprice will be used for authorized Unscheduled Events\nrequested by the City during contract performance.\nCharges for Unscheduled Events will be based on the\nsubmitted Group D unit price and will be drawn from\nthe up to $50,000.00 annual budgeted amount.\nPlease refer to Attachment Factor A \u2013 2027-0047 Bid\nForm \u2013 Group D \u2013 Unscheduled Events. Unit of\nmeasure is Per Visit.\nFactor A is evaluated as the grand total and not per\ngroup/line item."
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "16.",
+     "Bid form Item 57 \u2014 missing site description.\nReference: Factor A Bid Form, Group A, Item\n57; Attachment A \u2014 Locations List. Please\nconfirm the site name, address, receptacle\ncount and service frequency for Group A Item\n57, and issue a corrected bid form by\namendment if appropriate.",
+     "Refer to Revised Factor A \u2013 2027-0047 Bid Form for\nadded site item 57."
+    ],
+    [
+     "17.",
+     "Receptacle count reconciliation. Reference:\nAttachment A \u2014 Locations List; Factor A Bid\nForm, Group A. - Attachment A states a total\nof 2,751 receptacles. The sum of the per-site\nreceptacle counts on the line items is 2,758.\nThe difference of seven appears to relate to\nthe Hawkins site, which carries the annotation\n\"7 (Parks Only).\" Please confirm the\ncontrolling total receptacle count and clarify\nthe Hawkins annotation \u2014 specifically,\nwhether the seven receptacles noted as\n\"Parks Only\" are included in or excluded from\nthe Group A requirement, and whether any\nreceptacles at that location are serviced under\na separate contract or by City forces.",
+     "The total number of trash cans for Group A is 2,758.\nRefer to Revised Attachment A \u2013 Locations List."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.2,
+  "attachment_fetches": 10,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 4955400,
+  "max_fetch_seconds": 0.11,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-10T13:41:19.142904+00:00",
+ "extract_attempts": 1,
+ "lines_total": 248,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-el-paso-tx-2027-0047-addendum-1/coverage.json"
+}

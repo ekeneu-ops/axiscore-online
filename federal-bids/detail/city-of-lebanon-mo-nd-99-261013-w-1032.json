@@ -1,0 +1,87 @@
+{
+ "bid_id": "city-of-lebanon-mo-nd-99-261013-w-1032",
+ "bid_number": "ND-99-261013-W-1032",
+ "agency": "City of Lebanon, MO",
+ "src": "Open",
+ "title": "Sale of Real Property Parcel at East Commercial",
+ "close": "10/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Proposal Amount",
+   "qty": "",
+   "uom": "TOTAL PROPOSAL",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Proposal Amount TOTAL PROPOSAL No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Sale of Real Property Parcel at East Commercial.pdf",
+  "Appendix C - Sample Special Warranty Deed.pdf",
+  "Part 6 - Offer Form.pdf",
+  "Appendix D - Sample Missouri Quitclaim Deed.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Sale of Real Property Parcel at East Commercial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix C - Sample Special Warranty Deed.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Part 6 - Offer Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix D - Sample Missouri Quitclaim Deed.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.7,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 2180639,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-10T13:28:03.008597+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-lebanon-mo-nd-99-261013-w-1032/coverage.json"
+}

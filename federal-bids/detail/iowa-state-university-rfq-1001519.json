@@ -1,0 +1,107 @@
+{
+ "bid_id": "iowa-state-university-rfq-1001519",
+ "bid_number": "RFQ-1001519",
+ "agency": "Iowa State University",
+ "src": "Open",
+ "title": "1000kVA Transformer",
+ "close": "10/14/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "1000kVA, 13,800V: 480/277V, Oil-Filled Pad-Mounted Transformer",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Acceptable manufacturers: Hitachi, WEG, Eaton, ERMCO, Howard Industries, Square D, and GE Prolec. Include freight in unit price. Required delivery date is June 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 1000kVA, 13,800V: 480/277V, Oil-Filled Pad-Mounted Transformer 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "ISU Instructions.pdf",
+  "ISU General Terms _ Conditions.pdf",
+  "Technical Specifications.pdf",
+  "Transformer Data Sheet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ISU Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ISU General Terms _ Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Technical Specifications.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Transformer Data Sheet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Technical Specifications.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item\n#",
+    "Qty",
+    "Description",
+    "Required Delivery\nDate"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "1",
+     "1000kVA, 13,800V: 480/277V, Oil Filled Pad-Mounted\nTransformer, ISU Utilities Dining Facility",
+     "June 1, 2027"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.2,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 1173085,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-10T13:42:53.025471+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/iowa-state-university-rfq-1001519/coverage.json"
+}

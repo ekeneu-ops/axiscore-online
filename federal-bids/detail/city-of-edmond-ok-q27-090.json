@@ -1,0 +1,71 @@
+{
+ "bid_id": "city-of-edmond-ok-q27-090",
+ "bid_number": "Q27-090",
+ "agency": "City of Edmond, OK",
+ "src": "Open",
+ "title": "Print Visit Edmond Business Cards",
+ "close": "10/13/2026 10:45 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Project: Visit Edmond Business Cards (Brashier) Quantity: 500 Size: 3.5\" x 2\" Paper:32pt Cover, Bright White, Silk Print: 4/4 CMKY Bleeds: Yes Special Instructions: 1/4\" rounded corners, painted edge with as close as possible to CMYK: 40, 2, 100, 0, PMS 367.",
+   "qty": "1",
+   "uom": "LOT",
+   "note": "RUSH ORDER: Must be delivered within 10 business days of award. Local vendor may be given preference due to the tight turnaround.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Project: Visit Edmond Business Cards (Brashier) Quantity: 500 Size: 3.5\" x 2\" Paper:32pt Cover, Bright White, Silk Print: 4/4 CMKY Bleeds: Yes Special Instructions: 1/4\" rounded corners, painted edge with as close as possible to CMYK: 40, 2, 100, 0, PMS 367. 1 LOT No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2025 VEBusinessCards-4Employees.pdf",
+  "2025 VEBusinessCards-Back.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2025 VEBusinessCards-4Employees.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2025 VEBusinessCards-Back.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 43173,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-10T13:13:31.526284+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-edmond-ok-q27-090/coverage.json"
+}
