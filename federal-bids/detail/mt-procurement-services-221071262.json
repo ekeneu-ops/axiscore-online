@@ -1,0 +1,103 @@
+{
+ "bid_id": "mt-procurement-services-221071262",
+ "bid_number": "221071262",
+ "agency": "MT Procurement Services",
+ "src": "Open",
+ "title": "Source of Supply for Paint - Blanket Order",
+ "close": "10/15/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Source of supply contract for purchase of paint for halls, buildings, and Greek row for period beginning date of contract thru 6-30-27 with four options to renew. Final expiration date is 10/14/31.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter the total of the attached quote sheet on line #1. Attach spreadsheet to the bid.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Source of supply contract for purchase of paint for halls, buildings, and Greek row for period beginning date of contract thru 6-30-27 with four options to renew. Final expiration date is 10/14/31. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Paint Specs.docx",
+  "Paint Bid Worksheet.xlsx",
+  "BID_TERMS_AND_CONDITIONS_Oct_2018.pdf",
+  "Form W-9 _Rev. March 2024_.pdf",
+  "4_Paint Specs.docx",
+  "5_Paint Bid Worksheet.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Paint Specs.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Paint Bid Worksheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID_TERMS_AND_CONDITIONS_Oct_2018.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Form W-9 _Rev. March 2024_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "4_Paint Specs.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "5_Paint Bid Worksheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 474545,
+  "max_fetch_seconds": 0.11,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-11T13:16:03.863060+00:00",
+ "extract_attempts": 1,
+ "lines_total": 1,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/mt-procurement-services-221071262/coverage.json"
+}

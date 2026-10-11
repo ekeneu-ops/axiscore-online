@@ -1,0 +1,143 @@
+{
+ "bid_id": "forney-isd-tx-2027-003",
+ "bid_number": "2027-003",
+ "agency": "Forney ISD, TX",
+ "src": "Invited",
+ "title": "Staff Laptops",
+ "close": "11/5/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Staff ChromeOS laptop, (w/ charging adapter) or equal",
+   "qty": "850",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Staff ChromeOS laptop, (w/ charging adapter) or equal 850 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "White Glove Service",
+   "qty": "850",
+   "uom": "EA",
+   "note": "Vendor Service to include per-device unboxing, enrollment/provisioning into the district's Google Admin Console, asset tagging (district provided tags), physical inspection, repackaging/sorting by site/campus, and delivery readiness. Price is per device",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 White Glove Service 850 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Green Packaging Service",
+   "qty": "850",
+   "uom": "EA",
+   "note": "Vendor service to remove and eco-friendly recycle all original manufacturer boxes, plastic wraps, and foam packaging materials prior to or upon delivery, delivering devices in bulk multi-packs or trash-free transport bins/carts. Price is per device",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Green Packaging Service 850 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Freight Delivery Fees",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Freight Delivery Fees 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Google Chrome Education Upgrade License",
+   "qty": "850",
+   "uom": "EA",
+   "note": "Price is per device",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Google Chrome Education Upgrade License 850 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "FISD_General_Terms_and_Conditions.pdf",
+  "W-9 Rev March 2024.pdf",
+  "ForneyISD_TX_NDPA_V1R6.pdf",
+  "Current CIQ.pdf",
+  "Prevailing Wage Rate Schedule 12-15-25.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "FISD_General_Terms_and_Conditions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Rev March 2024.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ForneyISD_TX_NDPA_V1R6.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Current CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Prevailing Wage Rate Schedule 12-15-25.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 1072280,
+  "max_fetch_seconds": 0.23,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-11T13:24:15.735542+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/forney-isd-tx-2027-003/coverage.json"
+}

@@ -1,0 +1,4 @@
+line,desc,qty,uom,part,confidence,vendor,sku,matched_desc,catalog_uom,pack_qty,uom_normalized,uom_mismatch,unit_merch_cost,unit_freight,landed_unit,sell_unit,extended,gap,alt_1,alt_2
+1,Please enter the cost per case of copy paper that meets the specifications and contains 30% recycled content.,600.0,Cases,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+2,Please enter the cost per case of copy paper that meets the specifications and carries the FSC Certification.,600.0,Cases,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,
+3,Please enter the cost per case of copy paper that meets the specifications and is of virgin stock.,600.0,Cases,,gap,,,,,,,,,,,,,"no evidence-grade catalog match (part/spec, or >=3-token overlap at score >=40)",,

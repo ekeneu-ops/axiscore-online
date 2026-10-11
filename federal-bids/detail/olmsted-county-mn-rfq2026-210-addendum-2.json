@@ -1,0 +1,175 @@
+{
+ "bid_id": "olmsted-county-mn-rfq2026-210-addendum-2",
+ "bid_number": "RFQ2026-210 Addendum 2",
+ "agency": "Olmsted County, MN",
+ "src": "Open",
+ "title": "Window Washing Services",
+ "close": "10/15/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "WindowWashingSpecification03062025.pdf",
+  "RFQTermsandConditions508C_08202024.pdf",
+  "ContractTermsandConditionsContractor508C_07172020.pdf",
+  "IC-134 Form_rev1217.pdf",
+  "InsandBondRequirements508C_04272023.pdf",
+  "Roof Davit Details.pdf",
+  "Bid Tabulation by Line Item Spreadsheet _3_.pdf",
+  "Complete_with_Docusign_2025-246_Window_Washi.pdf",
+  "Graham Park - Exhibition Center Drawings.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "WindowWashingSpecification03062025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFQTermsandConditions508C_08202024.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ContractTermsandConditionsContractor508C_07172020.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "IC-134 Form_rev1217.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "InsandBondRequirements508C_04272023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Roof Davit Details.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bid Tabulation by Line Item Spreadsheet _3_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Complete_with_Docusign_2025-246_Window_Washi.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Graham Park - Exhibition Center Drawings.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Roof Davit Details.pdf",
+   "sheet": 9,
+   "header_row": 1,
+   "headers": [
+    "5000 POUNDS/FORCE ULTIMATE LOAD, 3125\nEXISTING\nPOUNDS/FORCE LIVE LOAD, IN ANY DIRECTION.\nBRICK NOTES:\n5000 POUNDS/FORCE\n-EXISTING ANCHOR\n0.625\"\u00d8 ROD HOOP 4\"\u00d8 PIPE WITH 0.25\"\nULTIMATE LOAD, 3125\nDESIGNED, FURNISHED,\n(See orientation note THICK WALL\nPOUNDS/FORCE LIVE\nAND INSTALL BY OTHERS\non plan at anchor # 78) NOTES:\n2 3/8\" 0.75\"\u00d8 U-BAR LOAD, IN ANY DIRECTION.\n1' -FINISH HOT DIP\n-ANCHOR MANUFACTURED BY SUPER 1'-4\"\n2.5\" SCHEDULE 40 PIPE\nGALVANIZED\nANCHOR SAFETY: NAME CRA-18W LOOP 1\"\n2\" 2\"\nROOF FLASHING AND\n5000 POUNDS/FORCE\nTOP ANCHOR, PART #1033-W\nSEALING BY OTHERS\nULTIMATE LOAD, 3125 0.75\"\u00d8 U-BAR\n-FINISH HOT DIP GALVANIZED\n16\"x16\"x0.375\" PLATE POUNDS/FORCE LIVE 3\"\n-SCAN DECK TO AVOID REBAR OR POST\n1\"\nFOUR - HILTI KWIK BOLT LOAD, IN ANY DIRECTION. 3\"\nTENSIONED TENDONS. 4\"\u00d8 PIPE WITH 0.25\"\nTZ2 WEDGE ANCHOR,\nTHICK WALL\n1'-6\"\n16\"x16\"x0.375\"\nCARBON STEEL, ZINC\nPLATE\nPLATED, 0.5\"\u00d8, 5.5\" LONG. 1'-4\"\n5\"\nEXISTING\nCONCRETE TOP OF 1'-6\"\n1\" W BEAM\nROOFING\nSLAB\nA\n4 1/4\" 3 3/4\"\n2\" 2\"\nHOLE DEPTH EMBED 1\"\n3'-7\" FROM\nFOUR - HILTI KWIK BOLT\nTOP OF\nTZ2 WEDGE ANCHOR,\nEXISTING\nROOF\nCARBON STEEL, ZINC\nEXISTING\nPOST\nPLATED, 0.5\"\u00d8, 5.5\" LONG.\nW BEAM\nTENSIONED\nNOTES:\nSECTION A\nCONCRETE\n-EXISTING ANCHOR EXISTING ROOF ANCHOR DETAIL\nLARGE BEAM\nDESIGNED, FURNISHED,\nOR JOIST\nAND INSTALL BY OTHERS\nNEW ROOF ANCHOR ON LARGE BEAM OR JOIST DETAIL -FINISH HOT DIP\nGALVANIZED\n5000 POUNDS/FORCE ULTIMATE LOAD, 3125 TOP OF\nPOUNDS/FORCE LIVE LOAD, IN ANY DIRECTION. TWO - HILTI KWIK BOLT TZ2 ROOFING\nWEDGE ANCHOR, CARBON STEEL,\nNOTES:\nZINC PLATED, 0.5\"\u00d8, 5.5\" LONG.\n-ANCHOR MANUFACTURED BY SUPER\nCENTERED ON SMALL BEAM OR\n0.625\"\u00d8 ROD HOOP ANCHOR SAFETY: NAME CRA-18W LOOP EXISTING WALL ANCHOR DETAIL\nJOIST\n2.5\" SCHEDULE 40 PIPE 2 3/8\" TOP ANCHOR, PART #1033-W\n1'-4\"\n-FINISH HOT DIP GALVANIZED\nROOF FLASHING AND 1\"\n-SCAN DECK TO AVOID REBAR OR POST 2\" 2\"\nSEALING BY OTHERS\nTENSIONED TENDONS.\n16\"x16\"x0.375\" PLATE\n-CENTER 5.5\" LONG HILTI BOLTS AS\nTWO - HILTI KWIK BOLT TZ2 WEDGE BEST AS POSSIBLE ON BEAM OR JOIST. 1\"\nANCHOR, CARBON STEEL, ZINC\nTHREE - HILTI KWIK BOLT TZ2\n1'-6\"\nPLATED, 0.5\"\u00d8, 5.5\" LONG. CENTERED 16\"x16\"x0.375\"\nWEDGE ANCHOR, CARBON STEEL,\nON SMALL BEAM OR JOIST ZINC PLATED, 0.5\"\u00d8, 3.75\" LONG. PLATE 1'-4\"\n5\" 8\"\nCONCRETE\n1\"\nSLAB 3 5/8\"\nB\n4 1/4\" 3 3/4\"\n2\" 2\"\nHOLE DEPTH EMBED 1\"\nTHREE - HILTI KWIK BOLT TZ2\nWEDGE ANCHOR, CARBON STEEL,\n3\"\nEXISTING ZINC PLATED, 0.5\"\u00d8, 3.75\" LONG.\n2 1/2\"\nHOLE DEPTH\nPOST\nEMBED\nTENSIONED\nSECTION B\nCONCRETE\nSMALL BEAM\nOR JOIST\nNEW ROOF ANCHOR ON SMALL BEAM OR JOIST DETAIL\nTRAVSPRING ENERGY\nTRAVSPRING THREE, 0.315\" GALVANIZED PASS WIRE ROPE\nABSORBER WITH\nTENSION DOUBLE SADDLED FIST GRIP. THROUGH ROD HOOP OF\nQUICK LINK\nINDICATOR EQUALLY SPACED ON 5\" INTERMEDIATE ANCHOR 0.315\" HEAVY DUTY\nTURNBACK (EACH END) WHERE THEY OCCURE.\nTHIMBLE (EACH END)\nNOT GREATER THAN 5,000\n0.315\"\u00d8 STAINLESS\n5,000 POUND LBS/FORCE ULTIMATE LOAD\nSTEEL WIRE ROPE\nCARABINEER TURNBUCKLE (TYPICAL ON ANY ANCHOR)\nEND ANCHOR INTERMEDIATE END ANCHOR\nANCHOR (WHERE\nTHEY OCCURE)\nSYSTEM ID AND\nINFORMATION PLATE\nNEW HORIZONTAL LIFELINE SYSTEM (ONE MOUNTED NEAR\nEACH SYSTEM)\n-A TOTAL OF 2 (TWO) USERS ARE ALLOWED ON EACH HORIZONTAL LIFELINE SYSTEM AT ONE TIME. SYSTEMS HAVE BEEN DESIGNED FOR FALL ARREST.\nINFINITY ACCESS INC.\n-EXPECT A WIRE ROPE DEFLECTION OF 7'-7\" IF BOTH USERS FALL AT THE SAME TIME. (WORSE CASE SCENARIO)\n2395 Capp Road,\n-FULL BODY ANSI APPROVED HARNESS TO BE SELECTED AND SUPPLIED BY OTHERS.\nSt. Paul, MN 55114\n-TWO, 20 FOOT LONG LEADING EDGE SELF RETRACTING LIFELINES HAVE BEEN PROVIDED FOR USE WITH THESE SYSTEMS (FRENCH CREEK\nPhone: 651-646-9626\nPRODUCTION, PART # XR-20LEG OUTLAW) .\nSYSTEM Window Washing & Rooftop Fall Protection Systems\n-IF A FALL OCCURS THE TRAVSPRING SHOCK ABSORBER MAY DEPLOY. DO NOT USE THE SYSTEM THAT HAS SUSTAINED A FALL UNTIL A FULL\nPROJECT Olmsted County Minnesota, Government Center,\nINSPECTION AND REPAIR HAS BEEN COMPLETED. SEE USER MANUAL FOR MORE DETAILS. TITLE &\nLOCATION151 4th Street Southeast, Rochester, MN, 55904\n-DO NOT CONNECT ANY SUSPENSION EQUIPMENT TO THE HORIZONTAL LIFELINES (SUSPENDED WINDOW WASHING EQUIPMENT, ETC.)\nDATE DRAWING NAME & #\n-FOR A MORE COMPREHENSIVE GUIDE AND SYSTEM LOG SHEETS, PLEASE READ THE USER MANUAL FOUND IN THIS BUILDING. April 19, 2024 CURRENT\nREVISION\nSHOP 2 OF 2\nDRAWN PAPER SIZE SCALE\nDDD 24x36\" SEE ABOVE",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "",
+     "INFINITY ACCESS INC.\n2395 Capp Road,\nSt. Paul, MN 55114\nPhone: 651-646-9626",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "TEM Window Washing & Rooftop Fall Protection Systems",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "JECT Olmsted County Minnesota, Government Center,\nE &\nATION151 4th Street Southeast, Rochester, MN, 55904",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Complete_with_Docusign_2025-246_Window_Washi.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "1\n3",
+    "ALTERNATE: Olmsted County Waste to Energy Facility, (OWEF)\n(Line excluded from response total)\nPrice: $2,080.00 Total: $2,080.00\nItem Notes: Reference section 4.14 of the specification"
+   ],
+   "score": 2,
+   "n_rows": 4,
+   "sample": [
+    [
+     "1\n4",
+     "Oxbow Park Nature Center\nPrice: $345.00 Total: $345.00\nItem Notes: Reference section 4.15 in the project specifications."
+    ],
+    [
+     "1\n5",
+     "202 Building (Warming Center)\nPrice: $375.00 Total: $375.00\nItem Notes: Reference section 4.16 in the project specifications."
+    ],
+    [
+     "1\n6",
+     "Training Facility at the Public Safety Training Center\nPrice: $490.00 Total: $490.00\nItem Notes: Reference section 4.17 in the project specifications."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.4,
+  "attachment_fetches": 9,
+  "attachment_seconds": 1.0,
+  "attachment_bytes": 4194921,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-11T13:15:15.252417+00:00",
+ "extract_attempts": 1,
+ "lines_total": 5,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/olmsted-county-mn-rfq2026-210-addendum-2/coverage.json"
+}

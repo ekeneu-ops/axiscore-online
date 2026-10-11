@@ -1,0 +1,90 @@
+{
+ "bid_id": "city-of-bryan-27-005",
+ "bid_number": "27-005",
+ "agency": "City of Bryan",
+ "src": "Invited",
+ "title": "REQUEST FOR PROPOSAL WOODVILLE ROAD WIDENING PHASE 1 CITY JOB NO. 332-350-411-425-DE-2302",
+ "close": "10/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 11,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 27-005 Woodville Rd Widening Phase 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 27-005 Woodville Rd Widening Phase 1.pdf",
+   "kind": "pdf",
+   "tables": 21,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP 27-005 Woodville Rd Widening Phase 1.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "NO.",
+    "DESCRIPTION",
+    "QUANTITY",
+    "UNIT",
+    "COST",
+    "COST"
+   ],
+   "score": 3,
+   "n_rows": 11,
+   "sample": [
+    [
+     "GENERAL ITEMS",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Mobilization (per B/CS Spec. 01 71 13, see\nSpecial Provision No. 4, including, but not limited\nto, Project Identification Signs, set-up, bonding &\ninsurance, project overhead and any other related\nitems pertinent to the completion of the project)",
+     "1",
+     "LS",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Traffic Control (Including TCPs for all\nnecessary phases of construction, prepared by\nState of Texas \u2013 PE per TxMUTCD & approved\nby CoB)",
+     "1",
+     "LS",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.1,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 2032159,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-11T13:23:21.298145+00:00",
+ "extract_attempts": 1,
+ "lines_total": 9,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/city-of-bryan-27-005/coverage.json"
+}

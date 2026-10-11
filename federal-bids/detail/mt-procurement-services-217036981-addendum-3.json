@@ -1,0 +1,258 @@
+{
+ "bid_id": "mt-procurement-services-217036981-addendum-3",
+ "bid_number": "217036981 Addendum 3",
+ "agency": "MT Procurement Services",
+ "src": "Open",
+ "title": "Marketing and Communication Services RFP",
+ "close": "10/15/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 12,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Marketing and Communication Services Request for Proposal. The technical and financial proposal will be submitted via email or hand delivered in separate emails/envelopes.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Do not enter any financial information here. Must be provided separate from technical proposals. Any financial information included in technical proposal and/or here will be rejected.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Marketing and Communication Services Request for Proposal. The technical and financial proposal will be submitted via email or hand delivered in separate emails/envelopes. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "MTSU RFP 8.12.26 217036981.pdf",
+  "Schedule of Events 8.12.26.pdf",
+  "25_26MTSU Billing Projections.xlsx - Google Sheets.pdf",
+  "Business_Classification_Form.pdf",
+  "Addendum 3 Questions and Answers RFP 217036981.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "MTSU RFP 8.12.26 217036981.pdf",
+   "kind": "pdf",
+   "tables": 36,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "Schedule of Events 8.12.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "25_26MTSU Billing Projections.xlsx - Google Sheets.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Business_Classification_Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 3 Questions and Answers RFP 217036981.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "MTSU RFP 8.12.26 217036981.pdf",
+   "sheet": 6,
+   "header_row": 5,
+   "headers": [
+    "",
+    "proposal page number for each item in the appropriate space below.",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "",
+     "The RFP Coordinator will review the proposal to determine if the Mandatory Requirement Items are addressed",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "as required and mark each with pass or fail. For each item that is not addressed as required, the Executive",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Director of Procurement and Logistics Services must review the proposal and document his/her determination",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "MTSU RFP 8.12.26 217036981.pdf",
+   "sheet": 13,
+   "header_row": 3,
+   "headers": [
+    "",
+    "A.10",
+    "Provide customer references for similar projects representing three (3)\nof the larger accounts currently serviced by the vendor\nEach reference must include:\n\u2022 the company name and business address;\n\u2022 the name, title, and telephone number of the company\ncontact knowledgeable about the project work; and\n\u2022 A brief description of the service provided and the period\nof service.",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "A.11",
+     "Provide a description of the Proposers experience in providing the\nservices requested under this RFP including:\na. Provide as part of this RFP a list, if any, of all current\ncontractual relationships with the State of Tennessee\n(including other Universities, institutions in either the\nTBR or UT systems) and those completed/term ended\nwithin the last five (5) year period.\nb. Provide a list, if any, of all current contractual\nrelationships with companies or businesses located\nwithin Tennessee, and those completed within the last\nfive (5) years.",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "A.12",
+     "Provide a Statement of whether the Proposer or any of the Proposer\u2019s\nemployees, agents, independent Contractors, or subcontractors have\nbeen convicted of, pled guilty to, or pled nolo contendere to any\nfelony, and if so, an explanation providing relevant details.",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "MTSU RFP 8.12.26 217036981.pdf",
+   "sheet": 15,
+   "header_row": 10,
+   "headers": [
+    "",
+    "Proposals submitted to University afford each participating Contractor ample opportunity to explain, in detail,",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 12,
+   "sample": [
+    [
+     "",
+     "any potential benefits to be derived or proposed advantages to be achieved by selecting Contractor\u2019s",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "proposal.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Proposal Page",
+     "",
+     "Organizational Background & Experience Items\nTOTAL 30 POINTS FOR THE ITEMS LISTED BY UNIVERSITY BELOW",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "MTSU RFP 8.12.26 217036981.pdf",
+   "sheet": 17,
+   "header_row": 6,
+   "headers": [
+    "",
+    "Proposals submitted to University afford each participating Contractor ample opportunity to explain, in detail, any",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "",
+     "potential benefits to be derived or proposed advantages to be achieved by selecting Contractor\u2019s proposal.",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "The Proposer must address ALL Technical Approach section items and provide, in sequence, the information and",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "documentation as required (with the associated item references). A Proposal Evaluation Team, made up of three",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 12.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1268159,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-11T13:15:52.460218+00:00",
+ "extract_attempts": 1,
+ "lines_total": 8,
+ "lines_matched": 0,
+ "coverage_pct": 0.0,
+ "coverage_basis": "line_count",
+ "evidence_path": "fb_records/mt-procurement-services-217036981-addendum-3/coverage.json"
+}
