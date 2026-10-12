@@ -1,0 +1,115 @@
+{
+ "bid_id": "the-interlocal-purchasing-system-tx-260902",
+ "bid_number": "260902",
+ "agency": "The Interlocal Purchasing System, TX",
+ "src": "Open",
+ "title": "Permanent Modular Buildings JOC",
+ "close": "10/16/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "260902 TIPS Request for Competitive Sealed Proposal _RCSP_ - JOC.pdf",
+  "TIPS JOC Pricing Explanation and Rubric.xlsx",
+  "Instructions and Sample - Required Bonding Capacity Letter.pdf",
+  "260902 Vendor Agreement JOC.pdf",
+  "260902 Vendor Agreement Signature Form.pdf",
+  "Instructions and Sample - _3_ Required Customer Reference Letters.pdf",
+  "260902 Required Confidentiality Claim Form.pdf",
+  "Conflict of Interest Questionnaire - Form CIQ.pdf",
+  "Disclosure of Lobbying Activities - Standard Form - LLL.pdf",
+  "Exhibit A - State Notice.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "260902 TIPS Request for Competitive Sealed Proposal _RCSP_ - JOC.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "TIPS JOC Pricing Explanation and Rubric.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions and Sample - Required Bonding Capacity Letter.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "260902 Vendor Agreement JOC.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "260902 Vendor Agreement Signature Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Instructions and Sample - _3_ Required Customer Reference Letters.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "260902 Required Confidentiality Claim Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest Questionnaire - Form CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Disclosure of Lobbying Activities - Standard Form - LLL.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A - State Notice.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.9,
+  "attachment_fetches": 10,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 1559724,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-12T13:15:20.733747+00:00",
+ "extract_attempts": 1
+}

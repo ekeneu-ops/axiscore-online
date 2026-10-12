@@ -1,0 +1,75 @@
+{
+ "bid_id": "north-kansas-city-schools-mo-rfp-2018-098-addendum-1",
+ "bid_number": "RFP-2018-098 Addendum 1",
+ "agency": "North Kansas City Schools, MO",
+ "src": "Open",
+ "title": "RFP for Data Dashboard and Analytics Platform",
+ "close": "10/16/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP for Data Dashboard and Analtyics Platform for NKCSD.pdf",
+  "e-verify.pdf",
+  "Work-Based Learning Opportunities Form.pdf",
+  "ADDENDUM-Data Dashboard and Analytics Platform.pdf",
+  "NKC_Data_Dashboard_RFP_Evaluation_Rubric.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP for Data Dashboard and Analtyics Platform for NKCSD.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "e-verify.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Work-Based Learning Opportunities Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM-Data Dashboard and Analytics Platform.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "NKC_Data_Dashboard_RFP_Evaluation_Rubric.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.5,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1476012,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-12T13:14:21.691112+00:00",
+ "extract_attempts": 1
+}

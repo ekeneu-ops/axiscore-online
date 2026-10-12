@@ -1,0 +1,82 @@
+{
+ "bid_id": "clemson-university-sc-0008172",
+ "bid_number": "0008172",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Invasive Species Exhibit, Mobile Unit",
+ "close": "10/19/2026 11:30 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Enter the total fixed cost.",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Reference scope of work section VI. Bidding Schedule",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Enter the total fixed cost. 1 Lot No Response"
+  }
+ ],
+ "attachments_saved": [
+  "0008172 Scope or Work_ Invasive Species Exhibit_ Mobile Unit.pdf",
+  "IMPORTANT TAX NOTICE.doc",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "0008172 Scope or Work_ Invasive Species Exhibit_ Mobile Unit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.8,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 431160,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-12T13:20:15.986372+00:00",
+ "extract_attempts": 1
+}

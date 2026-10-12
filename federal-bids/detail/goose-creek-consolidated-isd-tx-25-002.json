@@ -3,8 +3,8 @@
  "bid_number": "25-002",
  "agency": "Goose Creek Consolidated ISD, TX",
  "src": "Invited",
- "title": "Miscellaneous Retail Goods & Services R6",
- "close": "9/30/2026 01:30 PM (ET)",
+ "title": "Miscellaneous Retail Goods & Services R7",
+ "close": "12/14/2026 11:00 AM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -22,7 +22,7 @@
   "3_EDGAR Certifications.pdf",
   "4_Addendum _1.docx",
   "5_Award Summary 10.29.25.pdf",
-  "Award Detail Spreadsheet R 1-4 as of 7.9.26.pdf"
+  "6_Award Detail Spreadsheet R 1-4 as of 7.9.26.pdf"
  ],
  "parsed_docs": [
   {
@@ -68,7 +68,7 @@
    "candidates": 0
   },
   {
-   "name": "Award Detail Spreadsheet R 1-4 as of 7.9.26.pdf",
+   "name": "6_Award Detail Spreadsheet R 1-4 as of 7.9.26.pdf",
    "kind": "pdf",
    "tables": 4,
    "note": "",
@@ -78,14 +78,14 @@
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 25.6,
+  "bid_seconds": 10.4,
   "attachment_fetches": 7,
-  "attachment_seconds": 11.5,
+  "attachment_seconds": 0.6,
   "attachment_bytes": 1015571,
-  "max_fetch_seconds": 3.07,
+  "max_fetch_seconds": 0.15,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-08-19T08:49:39.370894+00:00",
- "extract_attempts": 2
+ "captured_at": "2026-10-12T13:18:22.842568+00:00",
+ "extract_attempts": 3
 }

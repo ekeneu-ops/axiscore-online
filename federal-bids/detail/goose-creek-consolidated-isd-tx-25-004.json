@@ -4,7 +4,7 @@
  "agency": "Goose Creek Consolidated ISD, TX",
  "src": "Invited",
  "title": "Career & Technical Education (CTE) Equipment, Supplies and Related Services R5",
- "close": "9/30/2026 03:00 PM (ET)",
+ "close": "1/7/2027 10:00 AM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -16,83 +16,83 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "CIQ.pdf",
-  "W9_Blank.pdf",
-  "Form 1295 Instructions_9-25-23.pdf",
-  "Standard Forms _for all solicitations_.pdf",
-  "Scope of Service.docx",
-  "Addendum.docx",
-  "EDGAR Certifications.pdf",
-  "Award Detail Spreadsheet.pdf",
-  "Award Detail Spreadsheet 6.24.26 R4.pdf",
-  "Award Detail Spreadsheet 04.13.26.pdf"
+  "0_CIQ.pdf",
+  "1_W9_Blank.pdf",
+  "2_Form 1295 Instructions_9-25-23.pdf",
+  "3_Standard Forms _for all solicitations_.pdf",
+  "4_Scope of Service.docx",
+  "5_Addendum.docx",
+  "6_EDGAR Certifications.pdf",
+  "7_Award Detail Spreadsheet.pdf",
+  "8_Award Detail Spreadsheet 6.24.26 R4.pdf",
+  "9_Award Detail Spreadsheet 04.13.26.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "CIQ.pdf",
+   "name": "0_CIQ.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "W9_Blank.pdf",
+   "name": "1_W9_Blank.pdf",
    "kind": "pdf",
    "tables": 4,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Form 1295 Instructions_9-25-23.pdf",
+   "name": "2_Form 1295 Instructions_9-25-23.pdf",
    "kind": "pdf",
    "tables": 4,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Standard Forms _for all solicitations_.pdf",
+   "name": "3_Standard Forms _for all solicitations_.pdf",
    "kind": "pdf",
    "tables": 7,
    "note": "",
    "candidates": 1
   },
   {
-   "name": "Scope of Service.docx",
+   "name": "4_Scope of Service.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "Addendum.docx",
+   "name": "5_Addendum.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "EDGAR Certifications.pdf",
+   "name": "6_EDGAR Certifications.pdf",
    "kind": "pdf",
    "tables": 10,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Award Detail Spreadsheet.pdf",
+   "name": "7_Award Detail Spreadsheet.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Award Detail Spreadsheet 6.24.26 R4.pdf",
+   "name": "8_Award Detail Spreadsheet 6.24.26 R4.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Award Detail Spreadsheet 04.13.26.pdf",
+   "name": "9_Award Detail Spreadsheet 04.13.26.pdf",
    "kind": "pdf",
    "tables": 5,
    "note": "",
@@ -101,7 +101,7 @@
  ],
  "candidate_tables": [
   {
-   "source": "Standard Forms _for all solicitations_.pdf",
+   "source": "3_Standard Forms _for all solicitations_.pdf",
    "sheet": 6,
    "header_row": 1,
    "headers": [
@@ -118,7 +118,7 @@
    ]
   },
   {
-   "source": "Award Detail Spreadsheet 04.13.26.pdf",
+   "source": "9_Award Detail Spreadsheet 04.13.26.pdf",
    "sheet": 2,
    "header_row": 0,
    "headers": [
@@ -141,7 +141,7 @@
    ]
   },
   {
-   "source": "Award Detail Spreadsheet 04.13.26.pdf",
+   "source": "9_Award Detail Spreadsheet 04.13.26.pdf",
    "sheet": 3,
    "header_row": 0,
    "headers": [
@@ -166,19 +166,14 @@
  ],
  "notes": [],
  "latency": {
-  "bid_seconds": 37.6,
+  "bid_seconds": 14.2,
   "attachment_fetches": 10,
-  "attachment_seconds": 21.4,
+  "attachment_seconds": 1.2,
   "attachment_bytes": 3075397,
-  "max_fetch_seconds": 7.52,
+  "max_fetch_seconds": 0.23,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-07-06T15:11:02.128254+00:00",
- "extract_attempts": 1,
- "lines_total": 0,
- "lines_matched": 0,
- "coverage_pct": 0.0,
- "coverage_basis": "line_count",
- "evidence_path": "fb_records/goose-creek-consolidated-isd-tx-25-004/coverage.json"
+ "captured_at": "2026-10-12T13:19:55.633092+00:00",
+ "extract_attempts": 2
 }

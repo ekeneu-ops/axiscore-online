@@ -1,0 +1,182 @@
+{
+ "bid_id": "city-of-irving-tx-006lr-27f",
+ "bid_number": "006LR-27F",
+ "agency": "City of Irving, TX",
+ "src": "Invited",
+ "title": "Annual Redi-Mix Concrete Supply",
+ "close": "10/30/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:concrete",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "5-Sack Concrete (3000 psi) 1 to 5.9 cu. yds. per order.",
+   "qty": "360",
+   "uom": "cu yds",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 5-Sack Concrete (3000 psi) 1 to 5.9 cu. yds. per order. 360 cu yds No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "5-Sack Concrete (3000 psi) 6 cu. yds. or more per order.",
+   "qty": "3000",
+   "uom": "cu yds",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 5-Sack Concrete (3000 psi) 6 cu. yds. or more per order. 3000 cu yds No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "6-Sack Concrete (3600 psi) 6 cu. yds. or more per order.",
+   "qty": "60",
+   "uom": "cu yds",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 6-Sack Concrete (3600 psi) 6 cu. yds. or more per order. 60 cu yds No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Delivery Arrangements",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Delivery arrangements should be made each time before attempting delivery to specified delivery point within the City of Irving. The City of Irving will not pay waiting time for deliveries if prior delivery arrangements are not made. Delivery tickets must be signed by a city employee within the department who issued the purchase order. Standing charge (if any) if unloading time of 12 minutes per yard is exceeded: $________per minute.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Delivery Arrangements 1 EA No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "006LR-27F Specifications.pdf",
+  "A-1 - Standard Terms and Conditions FINAL rev. 8.4.26.pdf",
+  "B-1 - General Instructions to Bidders rev. 8.1.24.pdf",
+  "B-2 - Special Instructions to Bidders rev. 7.15.24.pdf",
+  "C-1 - Conflict of Interest Instructions rev. 10-2015.pdf",
+  "C-2 - Conflict of Interest Questionnaire rev. 10-2015.pdf",
+  "C-4 - Certificate of Interested Parties Instructions rev. 10.30.24.pdf",
+  "C-5 -TGC-2271-2274-2276 Verification Form .pdf",
+  "D-1 - Standard Insurance Requirements rev. 4.21.26.pdf",
+  "D-4 - Insurance Affidavit.pdf",
+  "E-1 - Environmental Commitment _ Compliance.pdf",
+  "H-2 - Standard Contract _ Acknowledgement - Goods rev. 5.12.22.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "006LR-27F Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "A-1 - Standard Terms and Conditions FINAL rev. 8.4.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "B-1 - General Instructions to Bidders rev. 8.1.24.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "B-2 - Special Instructions to Bidders rev. 7.15.24.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C-1 - Conflict of Interest Instructions rev. 10-2015.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C-2 - Conflict of Interest Questionnaire rev. 10-2015.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C-4 - Certificate of Interested Parties Instructions rev. 10.30.24.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "C-5 -TGC-2271-2274-2276 Verification Form .pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "D-1 - Standard Insurance Requirements rev. 4.21.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "D-4 - Insurance Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "E-1 - Environmental Commitment _ Compliance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "H-2 - Standard Contract _ Acknowledgement - Goods rev. 5.12.22.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.6,
+  "attachment_fetches": 12,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 1969153,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-12T13:16:34.095775+00:00",
+ "extract_attempts": 1
+}

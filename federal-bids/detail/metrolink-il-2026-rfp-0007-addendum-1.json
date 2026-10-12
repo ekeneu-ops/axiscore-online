@@ -1,0 +1,318 @@
+{
+ "bid_id": "metrolink-il-2026-rfp-0007-addendum-1",
+ "bid_number": "2026 RFP 0007 Addendum 1",
+ "agency": "MetroLINK, IL",
+ "src": "Open",
+ "title": "Paratransit Contracted Services",
+ "close": "10/16/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 16,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Startup Costs",
+   "qty": "1",
+   "uom": "L Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Startup Costs 1 L Sum No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Paratransit Fixed Cost Per Month - Year One",
+   "qty": "12",
+   "uom": "Monthly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Paratransit Fixed Cost Per Month - Year One 12 Monthly No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Paratransit Fixed Cost Per Month - Year Two",
+   "qty": "12",
+   "uom": "Monthly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Paratransit Fixed Cost Per Month - Year Two 12 Monthly No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Paratransit Fixed Cost Per Month - Year Three",
+   "qty": "12",
+   "uom": "Monthly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Paratransit Fixed Cost Per Month - Year Three 12 Monthly No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "**OPTION YEAR FOUR** - Paratransit Fixed Cost Per Month - Provide the Percentage Rate Increase for Year 4",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 **OPTION YEAR FOUR** - Paratransit Fixed Cost Per Month - Provide the Percentage Rate Increase for Year 4 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "**OPTION YEAR FIVE** - Paratransit Fixed Cost Per Month - Provide the Percentage Rate Increase for Year 5",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 **OPTION YEAR FIVE** - Paratransit Fixed Cost Per Month - Provide the Percentage Rate Increase for Year 5 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Rate per Paratransit Vehicle Revenue Hour - Year One",
+   "qty": "15300",
+   "uom": "Hour",
+   "note": "15,300 is an estimated average annual amount of Vehicle Revenue Hours (used for pricing evaluation only)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Rate per Paratransit Vehicle Revenue Hour - Year One 15300 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Rate per Paratransit Vehicle Revenue Hour - Year Two",
+   "qty": "15300",
+   "uom": "Hour",
+   "note": "15,300 is an estimated average annual amount of Vehicle Revenue Hours (used for pricing evaluation only)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Rate per Paratransit Vehicle Revenue Hour - Year Two 15300 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Rate per Paratransit Vehicle Revenue Hour - Year Three",
+   "qty": "15300",
+   "uom": "Hour",
+   "note": "15,300 is an estimated average annual amount of Vehicle Revenue Hours (used for pricing evaluation only)",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Rate per Paratransit Vehicle Revenue Hour - Year Three 15300 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "**OPTION YEAR FOUR** - Rate Per Paratransit Vehicle Revenue Hour - Provide the Percentage Rate Increase for Year 4",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 **OPTION YEAR FOUR** - Rate Per Paratransit Vehicle Revenue Hour - Provide the Percentage Rate Increase for Year 4 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "**OPTION YEAR FIVE** - Rate Per Paratransit Vehicle Revenue Hour - Provide the Percentage Rate Increase for Year 5",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 **OPTION YEAR FIVE** - Rate Per Paratransit Vehicle Revenue Hour - Provide the Percentage Rate Increase for Year 5 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "STS Dispatch Fixed Cost Per Month - Year One",
+   "qty": "12",
+   "uom": "Monthly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 STS Dispatch Fixed Cost Per Month - Year One 12 Monthly No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "STS Dispatch Fixed Cost Per Month - Year Two",
+   "qty": "12",
+   "uom": "Monthly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 STS Dispatch Fixed Cost Per Month - Year Two 12 Monthly No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "STS Dispatch Fixed Cost Per Month - Year Three",
+   "qty": "12",
+   "uom": "Monthly",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 STS Dispatch Fixed Cost Per Month - Year Three 12 Monthly No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "**OPTION YEAR FOUR** - STS Dispatch Fixed Cost Per Month - Provide the Percentage Rate Increase for Year 4",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 **OPTION YEAR FOUR** - STS Dispatch Fixed Cost Per Month - Provide the Percentage Rate Increase for Year 4 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "**OPTION YEAR FIVE** - STS Dispatch Fixed Cost Per Month - Provide the Percentage Rate Increase for Year 5",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 **OPTION YEAR FIVE** - STS Dispatch Fixed Cost Per Month - Provide the Percentage Rate Increase for Year 5 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "About_MetroLINK_3.14.23.pdf",
+  "Protest_Procedures_11.24.21.pdf",
+  "Restrictions_on_Lobbying_Certification_3.14.23.pdf",
+  "1. - RFP 2026 - Paratransit Services - SOW 9.14.26.pdf",
+  "Paratransit - DRAFT Contract 9.14.26.pdf",
+  "Equipment Lease - DRAFT.pdf",
+  "Paratransit - Terms _ Conditions.pdf",
+  "Addendum _1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "About_MetroLINK_3.14.23.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Protest_Procedures_11.24.21.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Restrictions_on_Lobbying_Certification_3.14.23.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "1. - RFP 2026 - Paratransit Services - SOW 9.14.26.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Paratransit - DRAFT Contract 9.14.26.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Equipment Lease - DRAFT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Paratransit - Terms _ Conditions.pdf",
+   "kind": "pdf",
+   "tables": 12,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Addendum _1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Paratransit - Terms _ Conditions.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Unauthorized\nAdditional Work,\nVariations in\nQuantity and\nPrice Adjustment",
+    "No payment shall be issued for additional work, equipment, materials supplies or services beyond the contract\nrequirements. All variations in quantity provided, changes in pricing and additional work must be pre-\nauthorized in writing by the contracting officer or his/her designated representative, with a written\namendment or change order. Price adjustments may be audited where required."
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Change Orders",
+     "Either party may request changes in the quantity of goods or services supplied or the performance criteria\ndescribed herein; however, adjustments to any subsequent contract or agreement shall not be valid or binding\nupon either party unless such change or addition is in writing and signed by both parties. Such amendments\nshall be attached to and made a part of any subsequent contract or agreement.\nThe Contractor shall be liable for all costs resulting from and/or for satisfactorily correcting any specification\nchange not properly ordered by written modification to the contract and signed by the Buyer's designated\nrepresentative. The Contracting Officer may at any time, by a written order and without notice to the sureties,\nmake changes within the general scope of any subsequent agreement on any of the following:\n(i) specifications,\n(ii) date of delivery; and\n(iii) place of equipment delivery.\nIf any such change causes an increase or decrease in the cost of, or the time required for, the performance of\nany part of the work under this Agreement, whether changed or not changed by any such order, an equitable\nadjustment shall be made in the contract price or delivery schedule, or both, and the Agreement shall be\nmodified in writing accordingly. Any claim for an adjustment under this clause must be asserted within thirty\n(30) calendar days from the date of receipt by the other party of the notification of change; provided, however,\nthat the Contracting Officer, if he/she decides that the facts justify such action, may receive and act upon any\nsuch claim asserted at any time prior to final payment under this Agreement. Failure to agree to any\nadjustment shall be a dispute concerning a question of fact within the meaning of the \"Disputes\" clause of the\nAgreement. However, nothing in this clause shall excuse the Contractor from proceeding with an executed\nAgreement, as changed."
+    ],
+    [
+     "Contract\nDuration",
+     "The work to be performed under any subsequent agreement or contract shall commence after the issuance of\nthe written \"Notice to Proceed\" or other purchase directive document from the Buyer, and, when the\nContractor production scheduling is completed and accepted, to ensure the timely delivery of the purchased\nmaterials or services within the terms of any Contract or Agreement. The duration of any subsequent contract\nor agreement for the provision of materials or services under an IFB, RFP, Qualifications or Quote solicitation\nshall be in accordance with the solicitation requirements or the agreed upon dates noted in a contract award,\neffective from the issuance of the Notice to Proceed or contract execution to the completion of any acquisition\nor Project. The provision of materials, work, and services under any subsequent contract or agreement are\ndirectly related to and shall be coordinated, for the delivery of work and materials on schedule, as mutually\nagreed by the Buyer and the Contractor.\nAn amendment to any subsequent contract or agreement, issued by the Buyer, is required to extend the time\nfor performing any work beyond the contracted completion date."
+    ],
+    [
+     "Unavoidable\nDelays",
+     "If the performance of the agreed upon work should be unavoidably delayed, the Contracting Officer shall\nextend the time for completion of the contract for the determined number of days of excusable delay. A delay\nis unavoidable only if the delay was not reasonably expected to occur in connection with or during the\nContractor's performance, and was not caused directly or substantially by acts, omissions, negligence, or\nmistakes of the Contractor, the Contractor's suppliers, or their agents, and was substantial and in fact caused\nthe Contractor to miss performance or work completion dates and could not adequately have been guarded\nagainst by contractual or legal methods. Subject to authorized adjustments, completion and delivery of\nmaterial and services shall be achieved within the delivery or service schedule time periods specified in any\nsubsequent contract or agreement. The Buyer shall not be responsible for delays caused by weather, soil\nconditions, underground obstructions, labor disputes, fire, flood, third parties, particularly public and private\nutilities, or otherwise reasonably foreseeable delays.\nThe established completion time shall not be extended because of any delays attributable to the Contractor,\nbut may be extended by the Buyer in the event of a delay attributable to the Buyer, or because of unavoidable\ndelays caused by an act of God or governmental actions or other conditions beyond the control of the\nContractor, including, but not limited to, labor disputes, and/or properly notified and agreed upon delays in\nthe receipt of supplier materials."
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.5,
+  "attachment_fetches": 8,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 2726247,
+  "max_fetch_seconds": 0.18,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-12T13:13:51.752423+00:00",
+ "extract_attempts": 1
+}
