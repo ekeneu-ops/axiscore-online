@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-12T15:59Z",
+ "asof": "2026-10-12T18:11Z",
  "ap": {
   "net": 334497.55,
   "credits": 9810.38,
@@ -62,40 +62,40 @@
    "payable_total": 13997.91,
    "parked_count": 31
   },
-  "asof": "2026-10-12T15:59Z",
+  "asof": "2026-10-12T18:11Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 179001.9,
+  "net": 176867.42,
   "order_count": 2112,
   "walk": {
-   "released": 99333.99,
+   "released": 99594.81,
    "postsettle": 660.25,
    "refunds": -14784.27,
-   "account_events": -415.03,
-   "deferred": 94206.96
+   "account_events": -752.47,
+   "deferred": 92149.1
   },
-  "fev_through": "2026-10-12T13:57Z",
-  "deferred_snapshot": "2026-10-12T15:06Z",
+  "fev_through": "2026-10-12T16:34Z",
+  "deferred_snapshot": "2026-10-12T18:06Z",
   "last_settlement_end": "2026-10-02",
-  "asof": "2026-10-12T15:59Z",
-  "moved_pct": 0.33
+  "asof": "2026-10-12T18:11Z",
+  "moved_pct": -1.19
  },
  "fba": {
-  "value": 3485.4,
+  "value": 3450.35,
   "qty": 274.0,
   "items": 21,
-  "retail": 5349.25,
+  "retail": 5416.29,
   "no_cost_items": 9,
   "no_cost_units": 35.0,
   "erp_default_units": 0,
-  "dash_value": 5194.2,
+  "dash_value": 5159.15,
   "stock_src": {
    "spapi": 1758,
    "mirror": 43
   },
   "stock_asof": "2026-10-12T07:00Z",
-  "asof": "2026-10-12T15:59Z"
+  "asof": "2026-10-12T18:11Z"
  },
  "amex": {
   "owed": 11218.19,
@@ -108,7 +108,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-12T15:59Z"
+  "asof": "2026-10-12T18:11Z"
  },
  "card_in_transit": {
   "amount": 87.0,
@@ -119,13 +119,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-09",
-  "asof": "2026-10-12T15:59Z"
+  "asof": "2026-10-12T18:11Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 89,
-  "asof": "2026-10-12T15:59Z"
+  "asof": "2026-10-12T18:11Z"
  }
 }
