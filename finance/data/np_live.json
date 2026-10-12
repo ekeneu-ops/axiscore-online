@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-12T08:36Z",
+ "asof": "2026-10-12T11:40Z",
  "ap": {
   "net": 334497.55,
   "credits": 9810.38,
@@ -62,24 +62,24 @@
    "payable_total": 13997.91,
    "parked_count": 31
   },
-  "asof": "2026-10-12T08:36Z",
+  "asof": "2026-10-12T11:40Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 179001.9,
-  "order_count": 2111,
+  "net": 178416.69,
+  "order_count": 2109,
   "walk": {
-   "released": 90588.77,
+   "released": 90923.66,
    "postsettle": 660.25,
    "refunds": -14603.74,
    "account_events": -415.03,
-   "deferred": 102771.65
+   "deferred": 101851.55
   },
-  "fev_through": "2026-10-12T07:18Z",
-  "deferred_snapshot": "2026-10-12T08:06Z",
+  "fev_through": "2026-10-12T09:02Z",
+  "deferred_snapshot": "2026-10-12T11:06Z",
   "last_settlement_end": "2026-10-02",
-  "asof": "2026-10-12T08:36Z",
-  "moved_pct": 0.0
+  "asof": "2026-10-12T11:40Z",
+  "moved_pct": -0.33
  },
  "fba": {
   "value": 3485.4,
@@ -94,8 +94,8 @@
    "spapi": 1758,
    "mirror": 43
   },
-  "stock_asof": "2026-10-12T04:00Z",
-  "asof": "2026-10-12T08:36Z"
+  "stock_asof": "2026-10-12T07:00Z",
+  "asof": "2026-10-12T11:40Z"
  },
  "amex": {
   "owed": 11218.19,
@@ -108,7 +108,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-12T08:36Z"
+  "asof": "2026-10-12T11:40Z"
  },
  "card_in_transit": {
   "amount": 87.0,
@@ -119,13 +119,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-09",
-  "asof": "2026-10-12T08:36Z"
+  "asof": "2026-10-12T11:40Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 89,
-  "asof": "2026-10-12T08:36Z"
+  "asof": "2026-10-12T11:40Z"
  }
 }
