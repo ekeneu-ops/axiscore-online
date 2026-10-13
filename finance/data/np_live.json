@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-12T23:10Z",
+ "asof": "2026-10-13T00:46Z",
  "ap": {
   "net": 334497.55,
   "credits": 9810.38,
@@ -62,40 +62,40 @@
    "payable_total": 13997.91,
    "parked_count": 31
   },
-  "asof": "2026-10-12T23:10Z",
+  "asof": "2026-10-13T00:46Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 174842.42,
-  "order_count": 2109,
+  "net": 174859.49,
+  "order_count": 2110,
   "walk": {
-   "released": 99898.42,
+   "released": 99921.69,
    "postsettle": 660.25,
    "refunds": -15821.57,
-   "account_events": -752.47,
+   "account_events": -758.67,
    "deferred": 90857.79
   },
-  "fev_through": "2026-10-12T21:12Z",
-  "deferred_snapshot": "2026-10-12T23:06Z",
+  "fev_through": "2026-10-12T22:40Z",
+  "deferred_snapshot": "2026-10-13T00:06Z",
   "last_settlement_end": "2026-10-02",
-  "asof": "2026-10-12T23:10Z",
-  "moved_pct": -0.16
+  "asof": "2026-10-13T00:46Z",
+  "moved_pct": 0.01
  },
  "fba": {
-  "value": 3815.36,
-  "qty": 280.0,
+  "value": 3443.12,
+  "qty": 271.0,
   "items": 23,
-  "retail": 5938.18,
+  "retail": 5604.6,
   "no_cost_items": 10,
-  "no_cost_units": 38.0,
+  "no_cost_units": 34.0,
   "erp_default_units": 0,
-  "dash_value": 5524.16,
+  "dash_value": 5151.92,
   "stock_src": {
    "spapi": 1759,
    "mirror": 43
   },
-  "stock_asof": "2026-10-12T20:00Z",
-  "asof": "2026-10-12T23:10Z"
+  "stock_asof": "2026-10-12T21:44Z",
+  "asof": "2026-10-13T00:46Z"
  },
  "amex": {
   "owed": 11218.19,
@@ -108,24 +108,24 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-12T23:10Z"
+  "asof": "2026-10-13T00:46Z"
  },
  "card_in_transit": {
   "amount": 87.0,
   "batches": 1,
   "basis": "authnet",
-  "oldest_days": 1,
+  "oldest_days": 2,
   "stale_batches": 0,
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-09",
-  "asof": "2026-10-12T23:10Z"
+  "asof": "2026-10-13T00:46Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
-  "oldest_days": 89,
-  "asof": "2026-10-12T23:10Z"
+  "oldest_days": 90,
+  "asof": "2026-10-13T00:46Z"
  }
 }
