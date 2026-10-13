@@ -1,0 +1,43 @@
+{
+ "bid_id": "joint-meeting-of-essex-and-union-counties-nj-2026-15",
+ "bid_number": "2026-15",
+ "agency": "Joint Meeting of Essex and Union Counties, NJ",
+ "src": "Open",
+ "title": "FOR THE PROVISION OF ACTING DIRECTOR OF FINANCE & ADMINISTRATION SERVICES",
+ "close": "10/20/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP-Acting Director of Finance _ Administration.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP-Acting Director of Finance _ Administration.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.0,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 1036375,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-13T13:20:11.605426+00:00",
+ "extract_attempts": 1
+}

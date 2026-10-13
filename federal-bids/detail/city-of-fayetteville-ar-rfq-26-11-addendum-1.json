@@ -1,0 +1,51 @@
+{
+ "bid_id": "city-of-fayetteville-ar-rfq-26-11-addendum-1",
+ "bid_number": "RFQ 26-11 Addendum 1",
+ "agency": "City of Fayetteville, AR",
+ "src": "Open",
+ "title": "Investment Management Services",
+ "close": "10/20/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFQ 26-11_ Investment Management Services.pdf",
+  "RFQ 26-11_ Addendum 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFQ 26-11_ Investment Management Services.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ 26-11_ Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.4,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 2650286,
+  "max_fetch_seconds": 0.2,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-13T13:26:14.484828+00:00",
+ "extract_attempts": 1
+}

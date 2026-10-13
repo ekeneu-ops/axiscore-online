@@ -1,0 +1,162 @@
+{
+ "bid_id": "city-of-hot-springs-hs-26-065",
+ "bid_number": "HS-26-065",
+ "agency": "City of Hot Springs",
+ "src": "Open",
+ "title": "Road Bores - TC",
+ "close": "10/19/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Two (2) Inch Bore",
+   "qty": "1",
+   "uom": "Feet",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Two (2) Inch Bore 1 Feet No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "2",
+   "desc": "Four (4) Inch Bore",
+   "qty": "1",
+   "uom": "Feet",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Four (4) Inch Bore 1 Feet No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "3",
+   "desc": "Six (6) Inch Bore",
+   "qty": "1",
+   "uom": "Feet",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Six (6) Inch Bore 1 Feet No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "4",
+   "desc": "Eight (8) Inch Bore",
+   "qty": "1",
+   "uom": "Feet",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Eight (8) Inch Bore 1 Feet No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "5",
+   "desc": "Twelve (12) Inch Bore",
+   "qty": "1",
+   "uom": "Feet",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Twelve (12) Inch Bore 1 Feet No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "6",
+   "desc": "Twenty-Four (24) Inch Bore",
+   "qty": "1",
+   "uom": "Feet",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Twenty-Four (24) Inch Bore 1 Feet No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "7",
+   "desc": "Thirty-Six (36) Inch Bore",
+   "qty": "1",
+   "uom": "Feet",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Thirty-Six (36) Inch Bore 1 Feet No Response"
+  }
+ ],
+ "attachments_saved": [
+  "HS-26-065 Road Bores - TC.pdf",
+  "Acknowledgment - Fillable.pdf",
+  "Projects Terms and Conditions of Bidding.pdf",
+  "Terms and Conditions of Purchase.pdf",
+  "Hazardous and Toxic Substances Disclosure Requirement.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "HS-26-065 Road Bores - TC.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Acknowledgment - Fillable.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Projects Terms and Conditions of Bidding.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Terms and Conditions of Purchase.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Hazardous and Toxic Substances Disclosure Requirement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 735056,
+  "max_fetch_seconds": 0.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-13T13:18:14.219261+00:00",
+ "extract_attempts": 1
+}

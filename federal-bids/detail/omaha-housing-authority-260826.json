@@ -1,0 +1,131 @@
+{
+ "bid_id": "omaha-housing-authority-260826",
+ "bid_number": "260826",
+ "agency": "Omaha Housing Authority",
+ "src": "Open",
+ "title": "Snow Removal Services",
+ "close": "10/20/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "IFB 260826 Scope of Work.pdf",
+  "Location Diagrams.pdf",
+  "OHA Profile of Firm Form.pdf",
+  "Proposed Subcontractors Form.pdf",
+  "HUD Form 2992.pdf",
+  "HUD Form 5369-A.pdf",
+  "Employee Classification - Non Collusive Affidavit.pdf",
+  "HUD Form 5370C Section 2.pdf",
+  "HUD Form 5369-B.pdf",
+  "Davis Bacon Compliance Package Snow.pdf",
+  "Section 3 Compliance Package.pdf",
+  "Sample Contract.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "IFB 260826 Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Location Diagrams.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "OHA Profile of Firm Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Proposed Subcontractors Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "HUD Form 2992.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HUD Form 5369-A.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Employee Classification - Non Collusive Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HUD Form 5370C Section 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "HUD Form 5369-B.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Davis Bacon Compliance Package Snow.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Section 3 Compliance Package.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sample Contract.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 33.8,
+  "attachment_fetches": 12,
+  "attachment_seconds": 1.5,
+  "attachment_bytes": 14607695,
+  "max_fetch_seconds": 0.31,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-13T13:24:33.864319+00:00",
+ "extract_attempts": 1
+}

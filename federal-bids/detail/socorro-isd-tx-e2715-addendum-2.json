@@ -1,0 +1,187 @@
+{
+ "bid_id": "socorro-isd-tx-e2715-addendum-2",
+ "bid_number": "E2715 Addendum 2",
+ "agency": "Socorro ISD, TX",
+ "src": "Open",
+ "title": "Sale of Surplus Property \u2013 10 Acres,10400 Block of Gateway Boulevard East Avenue, El Paso TX 79927",
+ "close": "10/19/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFSB Scope of Sale E2715 Rev 181826.pdf",
+  "General Terms and Conditions rev081826.pdf",
+  "Representation and Certification Form -E2715 Rev081826.pdf",
+  "Exhibit A1 Bid Form Rev081826.pdf",
+  "Exhibit A2 Bid Form Rev081826.pdf",
+  "Exhibit A3 Bid Form Rev081826.pdf",
+  "5. Photos.pdf",
+  "Gateway East Parcel Map.pdf",
+  "Exhibit B -SAMPLE Real Estate Sales Contract _1_.pdf",
+  "W-9 Form.pdf",
+  "Commitment for Title Insurance T- 7 61925.pdf",
+  "CIQ Form Combined  060526.pdf",
+  "05339-023 SISD GATEWAY EAST SURVEY PLAT 20250905.pdf",
+  "Addendum-One RFSB NO.E2715.pdf",
+  "Exhibit1- C.D. Stewart Survey 324_ Tract 1-E.pdf",
+  "Exhibit2- O.A. Danielson Survey 316_ Tract 2-A.pdf",
+  "Exhibit3- C.D. Stewart Survey 317_ Tract 2-A.pdf",
+  "Exhibit4 - Gateway East Parcel Map.pdf",
+  "Addendum- Two RFSB NO.E2715.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFSB Scope of Sale E2715 Rev 181826.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "General Terms and Conditions rev081826.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Representation and Certification Form -E2715 Rev081826.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A1 Bid Form Rev081826.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A2 Bid Form Rev081826.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A3 Bid Form Rev081826.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "5. Photos.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Gateway East Parcel Map.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B -SAMPLE Real Estate Sales Contract _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9 Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Commitment for Title Insurance T- 7 61925.pdf",
+   "kind": "pdf",
+   "tables": 14,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Form Combined  060526.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "05339-023 SISD GATEWAY EAST SURVEY PLAT 20250905.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum-One RFSB NO.E2715.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit1- C.D. Stewart Survey 324_ Tract 1-E.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit2- O.A. Danielson Survey 316_ Tract 2-A.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit3- C.D. Stewart Survey 317_ Tract 2-A.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit4 - Gateway East Parcel Map.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum- Two RFSB NO.E2715.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 14.5,
+  "attachment_fetches": 19,
+  "attachment_seconds": 2.9,
+  "attachment_bytes": 16249587,
+  "max_fetch_seconds": 0.72,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-13T13:19:05.939314+00:00",
+ "extract_attempts": 1
+}
