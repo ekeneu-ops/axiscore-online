@@ -1,0 +1,67 @@
+{
+ "bid_id": "north-kansas-city-schools-mo-rfp-2018-099",
+ "bid_number": "RFP-2018-099",
+ "agency": "North Kansas City Schools, MO",
+ "src": "Invited",
+ "title": "RFP for HVAC Filters, Order Management, and Delivery to Individual Sites",
+ "close": "10/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2026 RFP for HVAC Filters_ Order Management_ and Delivery to Individualized Sites.pdf",
+  "Pricing Form for NKCSD Filter List- Updated June 2026 _002_ - Copy.xlsx",
+  "e-verify.pdf",
+  "Work-Based Learning Opportunities Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026 RFP for HVAC Filters_ Order Management_ and Delivery to Individualized Sites.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Pricing Form for NKCSD Filter List- Updated June 2026 _002_ - Copy.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "e-verify.pdf",
+   "kind": "pdf",
+   "tables": 6,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Work-Based Learning Opportunities Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.0,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 979763,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-15T13:13:51.325608+00:00",
+ "extract_attempts": 1
+}

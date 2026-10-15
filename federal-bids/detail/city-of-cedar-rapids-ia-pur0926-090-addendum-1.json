@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-pur0926-090-addendum-1",
+ "bid_number": "PUR0926-090 Addendum 1",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Open",
+ "title": "Replace Kitchen Hood at ImOn Ice Arena",
+ "close": "10/20/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Firm Fixed Price for the replacement of a kitchen hood at ImOn Ice Arena per the Scope of Work listed in the attachments tab.",
+   "qty": "",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Firm Fixed Price for the replacement of a kitchen hood at ImOn Ice Arena per the Scope of Work listed in the attachments tab. LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Scope of Work.pdf",
+  "RFB Contract T_C.pdf",
+  "Certificate to Obtain Insurance.pdf",
+  "Fan _ Hood Specs.pdf",
+  "Insurance Requirements - 3 Endorsements.pdf",
+  "Local Preference.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFB Contract T_C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate to Obtain Insurance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Fan _ Hood Specs.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Requirements - 3 Endorsements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Local Preference.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.3,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1577147,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-15T13:27:14.615405+00:00",
+ "extract_attempts": 1
+}

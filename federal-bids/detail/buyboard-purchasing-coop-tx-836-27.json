@@ -1,0 +1,49 @@
+{
+ "bid_id": "buyboard-purchasing-coop-tx-836-27",
+ "bid_number": "836-27",
+ "agency": "BuyBoard Purchasing Coop, TX",
+ "src": "Invited",
+ "title": "Audio Visual Equipment and Supplies",
+ "close": "12/17/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 0,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "7",
+   "desc": "Section II: Installation and Repair Service Hourly Labor Rate for Installation/Repair Service of Audio Visual Equipment and Products - Not to Exceed hourly labor rate for Installation/Repair Service of Equipment and Products.",
+   "qty": "1",
+   "uom": "Hourly Labor Rate",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Section II: Installation and Repair Service Hourly Labor Rate for Installation/Repair Service of Audio Visual Equipment and Products - Not to Exceed hourly labor rate for Installation/Repair Service of Equipment and Products. 1 Hourly Labor Rate No Response"
+  }
+ ],
+ "attachments_saved": [],
+ "parsed_docs": [],
+ "candidate_tables": [],
+ "notes": [
+  "no Attachments tab on this bid",
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 5.6,
+  "attachment_fetches": 0,
+  "attachment_seconds": 0,
+  "attachment_bytes": 0,
+  "max_fetch_seconds": 0,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-15T13:22:50.272009+00:00",
+ "extract_attempts": 1
+}
