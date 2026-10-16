@@ -118,7 +118,8 @@ jobs:
             'erp_default_units', e.erp_default_units,
             'dash_value', round(d.stock_cost_value::numeric,2),
             'stock_src', json_build_object('spapi', d.items_stock_from_spapi, 'mirror', d.items_stock_from_mirror),
-            'stock_asof', to_char(CASE WHEN d.items_stock_from_mirror > 0 AND d.mirror_as_of IS NOT NULL
+            'stock_asof', to_char(CASE WHEN d.mirror_as_of IS NOT NULL AND EXISTS (SELECT 1 FROM fba.v_planner mp
+            WHERE mp.stock_source = 'erp_mirror' AND COALESCE(mp.available, 0) > 0)
             THEN LEAST(d.spapi_as_of, d.mirror_as_of) ELSE d.spapi_as_of END AT TIME ZONE 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'))
             FROM fba.v_dashboard d, LATERAL (SELECT COALESCE(sum(total_cost_of_stock),0)::numeric val,
             COALESCE(sum(available),0) units, count(*) items,
