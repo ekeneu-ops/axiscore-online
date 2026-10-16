@@ -1,0 +1,194 @@
+{
+ "bid_id": "college-of-southern-nevada-27-0934",
+ "bid_number": "27-0934",
+ "agency": "College of Southern Nevada",
+ "src": "Open",
+ "title": "CSN HENDERSON SOFTBALL FIELD TURF REPLACEMENT",
+ "close": "10/20/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 14,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Will provide all materials, labor, tools, supplies, equipment, supervision, training and transportation necessary to provide a \u201cturn-key\u201d project to complete the CSN Henderson Softball Field Turf removal and replacement, as described herein for the following amount:",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Will provide all materials, labor, tools, supplies, equipment, supervision, training and transportation necessary to provide a \u201cturn-key\u201d project to complete the CSN Henderson Softball Field Turf removal and replacement, as described herein for the following amount: 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "BID ATTACHMENT 1 IFB 27-0934 BID DOCUMENTS.pdf",
+  "BID ATTACHMENT 2 - SAMPLE CONTRACT.pdf",
+  "BID ATTACHMENT 3 - SCOPE OF WORK.pdf",
+  "BID ATTACHMENT 4 A - SITE PLAN.pdf",
+  "BID ATTACHMENT 4 B SPECIFICATIONS.pdf",
+  "BID ATTACHMENT 5 SAMPLE INSURANCE.pdf",
+  "BID ATTACHMENT 6 PAYMENT AND PERFORMANCE BOND.pdf",
+  "BID ATTACHMENT 7 CHANGE ORDER FORM.pdf",
+  "BID ATTACHMENT 8 LIST OF TIER 2 SUPPLIERS.pdf",
+  "BID ATTACHMENT 9 5_ LIST.pdf",
+  "BID ATTACHMENT 10 1 _ LIST.pdf",
+  "BID ATTACHMENT 11 AFFIDAVIT.pdf",
+  "BID ATTACHMENT 12 SCHEDULE OF VALUES.pdf",
+  "BID ATTACHMENT 13 BID SUBMITTAL CHECKLIST.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "BID ATTACHMENT 1 IFB 27-0934 BID DOCUMENTS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 2 - SAMPLE CONTRACT.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 3 - SCOPE OF WORK.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 4 A - SITE PLAN.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 4 B SPECIFICATIONS.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "BID ATTACHMENT 5 SAMPLE INSURANCE.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 6 PAYMENT AND PERFORMANCE BOND.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 7 CHANGE ORDER FORM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 8 LIST OF TIER 2 SUPPLIERS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 9 5_ LIST.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 10 1 _ LIST.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 11 AFFIDAVIT.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 12 SCHEDULE OF VALUES.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "BID ATTACHMENT 13 BID SUBMITTAL CHECKLIST.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "BID ATTACHMENT 4 B SPECIFICATIONS.pdf",
+   "sheet": 7,
+   "header_row": 33,
+   "headers": [
+    "",
+    "",
+    "",
+    "Coordinate materials and installation for each product to ensure that"
+   ],
+   "score": 2,
+   "n_rows": 14,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "each item is integrated and interfaced with related construction work"
+    ],
+    [
+     "",
+     "",
+     "",
+     "and activities."
+    ],
+    [
+     "",
+     "Refer to other specification sections and Drawings as required for construction interface and",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 22.2,
+  "attachment_fetches": 14,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 7309631,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-16T13:17:19.437480+00:00",
+ "extract_attempts": 1
+}

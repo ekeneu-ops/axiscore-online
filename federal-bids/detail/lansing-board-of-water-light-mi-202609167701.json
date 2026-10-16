@@ -1,0 +1,203 @@
+{
+ "bid_id": "lansing-board-of-water-light-mi-202609167701",
+ "bid_number": "202609167701",
+ "agency": "Lansing Board of Water & Light, MI",
+ "src": "Open",
+ "title": "Utility Network Project",
+ "close": "10/21/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Total Proposal Cost (provide pricing details in the pricing sheet)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Total Proposal Cost (provide pricing details in the pricing sheet) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders.doc",
+  "Utility Network Implementation RFP_Final.pdf",
+  "Utility Network Respondent Form_Final.pdf",
+  "Utility Network Vendor Pricing Worksheet.xlsx",
+  "Terms and Conditions for Services_Approved Jan 2026 Log 6960.docx",
+  "Sworn_and_Notarized_Affidavit_of_Compliance_-_Iran_Economic_Sanctions_Act_Revised_May_2018.pdf",
+  "Supplier Bid Response Tutorial.pdf",
+  "iPayables User Guide.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Utility Network Implementation RFP_Final.pdf",
+   "kind": "pdf",
+   "tables": 30,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Utility Network Respondent Form_Final.pdf",
+   "kind": "pdf",
+   "tables": 67,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Utility Network Vendor Pricing Worksheet.xlsx",
+   "kind": "xlsx",
+   "tables": 10,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Terms and Conditions for Services_Approved Jan 2026 Log 6960.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Sworn_and_Notarized_Affidavit_of_Compliance_-_Iran_Economic_Sanctions_Act_Revised_May_2018.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Supplier Bid Response Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "iPayables User Guide.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Utility Network Vendor Pricing Worksheet.xlsx",
+   "sheet": 3,
+   "header_row": 1,
+   "headers": [
+    "If the proposed solution requires customizations, enhancements, or custom-developed functionality, vendors shall identify each customization separately and provide a detailed description, the estimated level of effort, and the associated one-time and ongoing costs. Vendors should also identify any assumptions, dependencies, or maintenance requirements associated with each customization.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Type",
+     "Phase",
+     "Service Category",
+     "Description",
+     "Pricing Method",
+     "Qty/Hours",
+     "Unit Rate",
+     "Extended Cost",
+     "Included (Y/N)",
+     "Assumptions",
+     "Dependencies",
+     "Notes"
+    ]
+   ]
+  },
+  {
+   "source": "Utility Network Vendor Pricing Worksheet.xlsx",
+   "sheet": 7,
+   "header_row": 2,
+   "headers": [
+    "Service",
+    "Description",
+    "Price",
+    "Pricing Basis",
+    "Lead Time",
+    "Notes",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "Additional Training",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Additional Hypercare",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Custom Reports",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 21.9,
+  "attachment_fetches": 8,
+  "attachment_seconds": 1.2,
+  "attachment_bytes": 8094651,
+  "max_fetch_seconds": 0.27,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-16T13:25:55.823963+00:00",
+ "extract_attempts": 1
+}

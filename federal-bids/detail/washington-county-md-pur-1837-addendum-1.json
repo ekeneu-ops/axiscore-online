@@ -1,0 +1,692 @@
+{
+ "bid_id": "washington-county-md-pur-1837-addendum-1",
+ "bid_number": "PUR-1837 Addendum 1",
+ "agency": "Washington County, MD",
+ "src": "Open",
+ "title": "On Call Stormwater Management Maintenance",
+ "close": "10/21/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 23,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 43,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Personnel: Site Superintendent",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Personnel: Site Superintendent 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Personnel: Laborer",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Personnel: Laborer 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Equipment (w/ Operator) & Tools: Dump Truck",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Equipment (w/ Operator) & Tools: Dump Truck 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Equipment (w/ Operator) & Tools: Rubber Tire Backhoe",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Equipment (w/ Operator) & Tools: Rubber Tire Backhoe 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Equipment (w/ Operator) & Tools: Rubber Tire Backhoe with breaker",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Equipment (w/ Operator) & Tools: Rubber Tire Backhoe with breaker 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Equipment (w/ Operator) & Tools: Bulldozer",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Equipment (w/ Operator) & Tools: Bulldozer 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Equipment (w/ Operator) & Tools: Front Loader",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Equipment (w/ Operator) & Tools: Front Loader 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Equipment (w/ Operator) & Tools: Mini Excavator",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Equipment (w/ Operator) & Tools: Mini Excavator 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Equipment (w/ Operator) & Tools: Mini Excavator with breaker",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Equipment (w/ Operator) & Tools: Mini Excavator with breaker 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Equipment (w/ Operator) & Tools: Standard Excavator",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Equipment (w/ Operator) & Tools: Standard Excavator 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "Equipment (w/ Operator) & Tools: Standard Excavator, with breaker",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 Equipment (w/ Operator) & Tools: Standard Excavator, with breaker 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "Equipment (w/ Operator) & Tools: Skid Loader",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 Equipment (w/ Operator) & Tools: Skid Loader 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "Equipment (w/ Operator) & Tools: Vacuum Truck (Vac-All)",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 Equipment (w/ Operator) & Tools: Vacuum Truck (Vac-All) 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "Equipment (w/ Operator) & Tools: Compactor, sheep\u2019s foot roller",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 Equipment (w/ Operator) & Tools: Compactor, sheep\u2019s foot roller 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "Equipment (w/ Operator) & Tools: Compaction - Jumping Jack/Wacker",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 Equipment (w/ Operator) & Tools: Compaction - Jumping Jack/Wacker 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "Equipment (w/ Operator) & Tools: Mower/Bush Hog",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 Equipment (w/ Operator) & Tools: Mower/Bush Hog 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "Equipment (w/ Operator) & Tools: Slope/Ditch Mower",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 Equipment (w/ Operator) & Tools: Slope/Ditch Mower 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "Equipment (w/ Operator) & Tools: Trash/Dewater Pump",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 Equipment (w/ Operator) & Tools: Trash/Dewater Pump 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "Equipment (w/ Operator) & Tools: Woodchipper",
+   "qty": "1",
+   "uom": "Each",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 Equipment (w/ Operator) & Tools: Woodchipper 1 Each No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "Equipment (w/ Operator) & Tools: Dewatering Filter Bag",
+   "qty": "8",
+   "uom": "Hour",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 Equipment (w/ Operator) & Tools: Dewatering Filter Bag 8 Hour No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "Materials (Furnished, Delivered, and Installed): Silt Fence",
+   "qty": "100",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 Materials (Furnished, Delivered, and Installed): Silt Fence 100 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "Materials (Furnished, Delivered, and Installed): Filter Log",
+   "qty": "100",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 Materials (Furnished, Delivered, and Installed): Filter Log 100 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "Materials (Furnished, Delivered, and Installed): Soil Stabilization Matting- Degradable; excelsior or nonwoven coconut fibers with biodegradable netting on top and bottom; netting shall be cotton. (Includes fasteners)",
+   "qty": "100",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 Materials (Furnished, Delivered, and Installed): Soil Stabilization Matting- Degradable; excelsior or nonwoven coconut fibers with biodegradable netting on top and bottom; netting shall be cotton. (Includes fasteners) 100 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "Materials (Furnished, Delivered, and Installed): Soil Stabilization Matting, Permanent; non-woven, nondegradable, UV stabilized, synthetic fibers; with non-degradable, UV stabilized, synthetic netting on top and bottom. (Includes fasteners)",
+   "qty": "25",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 Materials (Furnished, Delivered, and Installed): Soil Stabilization Matting, Permanent; non-woven, nondegradable, UV stabilized, synthetic fibers; with non-degradable, UV stabilized, synthetic netting on top and bottom. (Includes fasteners) 25 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "25",
+   "desc": "Materials (Furnished, Delivered, and Installed): Geotextile (Non-Woven)",
+   "qty": "25",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 Materials (Furnished, Delivered, and Installed): Geotextile (Non-Woven) 25 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "Materials (Furnished, Delivered, and Installed): Permanent Stabilization: Seed (less than .5% weed content), to include lime, mulch and fertilizer as needed. Equipment needed for placement of seed, mulch and fertilizer is incidental to this item.",
+   "qty": "100",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 Materials (Furnished, Delivered, and Installed): Permanent Stabilization: Seed (less than .5% weed content), to include lime, mulch and fertilizer as needed. Equipment needed for placement of seed, mulch and fertilizer is incidental to this item. 100 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "27",
+   "desc": "Materials (Furnished, Delivered, and Installed): Permanent Stabilization: Sod - to include lime and fertilizer as needed. Equipment needed for placement of sod is incidental to this item.",
+   "qty": "100",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "27 Materials (Furnished, Delivered, and Installed): Permanent Stabilization: Sod - to include lime and fertilizer as needed. Equipment needed for placement of sod is incidental to this item. 100 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "28",
+   "desc": "Materials (Furnished, Delivered, and Installed): Class I Riprap",
+   "qty": "10",
+   "uom": "Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 Materials (Furnished, Delivered, and Installed): Class I Riprap 10 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "29",
+   "desc": "Materials (Furnished, Delivered, and Installed): Class II Riprap",
+   "qty": "10",
+   "uom": "Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "29 Materials (Furnished, Delivered, and Installed): Class II Riprap 10 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine30",
+   "kind": "line",
+   "line": "30",
+   "desc": "Materials (Furnished, Delivered, and Installed): Class III Riprap",
+   "qty": "10",
+   "uom": "Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "30 Materials (Furnished, Delivered, and Installed): Class III Riprap 10 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine31",
+   "kind": "line",
+   "line": "31",
+   "desc": "Materials (Furnished, Delivered, and Installed): Bioretention Soil Mix",
+   "qty": "15",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "31 Materials (Furnished, Delivered, and Installed): Bioretention Soil Mix 15 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine32",
+   "kind": "line",
+   "line": "32",
+   "desc": "Materials (Furnished, Delivered, and Installed): Topsoil 3\"",
+   "qty": "15",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "32 Materials (Furnished, Delivered, and Installed): Topsoil 3\" 15 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine33",
+   "kind": "line",
+   "line": "33",
+   "desc": "Materials (Furnished, Delivered, and Installed): Topsoil 3\u201d, screened",
+   "qty": "5",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "33 Materials (Furnished, Delivered, and Installed): Topsoil 3\u201d, screened 5 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine34",
+   "kind": "line",
+   "line": "34",
+   "desc": "Materials (Furnished, Delivered, and Installed): Clay for Core/Cutoff Trench MD 378",
+   "qty": "10",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "34 Materials (Furnished, Delivered, and Installed): Clay for Core/Cutoff Trench MD 378 10 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine35",
+   "kind": "line",
+   "line": "35",
+   "desc": "Materials (Furnished, Delivered, and Installed): No. 2 Stone",
+   "qty": "10",
+   "uom": "Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "35 Materials (Furnished, Delivered, and Installed): No. 2 Stone 10 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine36",
+   "kind": "line",
+   "line": "36",
+   "desc": "Materials (Furnished, Delivered, and Installed): No. 57 Stone",
+   "qty": "10",
+   "uom": "Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "36 Materials (Furnished, Delivered, and Installed): No. 57 Stone 10 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine37",
+   "kind": "line",
+   "line": "37",
+   "desc": "Materials (Furnished, Delivered, and Installed): Select Backfill",
+   "qty": "20",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "37 Materials (Furnished, Delivered, and Installed): Select Backfill 20 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine38",
+   "kind": "line",
+   "line": "38",
+   "desc": "Materials (Furnished, Delivered, and Installed): Pea Gravel/Bridging Layer",
+   "qty": "10",
+   "uom": "Ton",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "38 Materials (Furnished, Delivered, and Installed): Pea Gravel/Bridging Layer 10 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine39",
+   "kind": "line",
+   "line": "39",
+   "desc": "Materials (Furnished, Delivered, and Installed): Triple Shredded Hardwood Mulch",
+   "qty": "10",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "39 Materials (Furnished, Delivered, and Installed): Triple Shredded Hardwood Mulch 10 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine40",
+   "kind": "line",
+   "line": "40",
+   "desc": "Materials (Furnished, Delivered, and Installed): 4\u2019 Chain Link Fence & Posts",
+   "qty": "100",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "40 Materials (Furnished, Delivered, and Installed): 4\u2019 Chain Link Fence & Posts 100 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine41",
+   "kind": "line",
+   "line": "41",
+   "desc": "Materials (Furnished, Delivered, and Installed): Landscaping/Plant Gallon size",
+   "qty": "15",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "41 Materials (Furnished, Delivered, and Installed): Landscaping/Plant Gallon size 15 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine42",
+   "kind": "line",
+   "line": "42",
+   "desc": "Materials (Furnished, Delivered, and Installed): Landscaping/Tree 2\" Caliber",
+   "qty": "10",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "42 Materials (Furnished, Delivered, and Installed): Landscaping/Tree 2\" Caliber 10 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine43",
+   "kind": "line",
+   "line": "43",
+   "desc": "Other Services Provided (All Inclusive): Herbicide \u2013 Includes application, application equipment, safety equipment, etc.",
+   "qty": "20",
+   "uom": "Gal",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "43 Other Services Provided (All Inclusive): Herbicide \u2013 Includes application, application equipment, safety equipment, etc. 20 Gal No Response"
+  }
+ ],
+ "attachments_saved": [
+  "PUR-1837 OnCall Stormwater Mgt and Maint Final.pdf",
+  "PUR-1837 Add 1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PUR-1837 OnCall Stormwater Mgt and Maint Final.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "PUR-1837 Add 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "PUR-1837 OnCall Stormwater Mgt and Maint Final.pdf",
+   "sheet": 1,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Description",
+    "Estimated",
+    "Unit",
+    "Unit",
+    "Extended"
+   ],
+   "score": 2,
+   "n_rows": 23,
+   "sample": [
+    [
+     "",
+     "",
+     "Quantity",
+     "",
+     "Price",
+     "Amount"
+    ],
+    [
+     "Personnel",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Site Superintendent",
+     "8",
+     "Hour",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "PUR-1837 OnCall Stormwater Mgt and Maint Final.pdf",
+   "sheet": 2,
+   "header_row": 1,
+   "headers": [
+    "",
+    "Description",
+    "Estimated",
+    "",
+    "Unit",
+    "Extended"
+   ],
+   "score": 2,
+   "n_rows": 17,
+   "sample": [
+    [
+     "Item",
+     "",
+     "",
+     "Unit",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Quantity",
+     "",
+     "Price",
+     "Amount"
+    ],
+    [
+     "Materials (Furnished, Delivered, and Installed)",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "PUR-1837 OnCall Stormwater Mgt and Maint Final.pdf",
+   "sheet": 3,
+   "header_row": 1,
+   "headers": [
+    "",
+    "Description",
+    "Estimated",
+    "",
+    "Unit",
+    "Extended"
+   ],
+   "score": 2,
+   "n_rows": 13,
+   "sample": [
+    [
+     "Item",
+     "",
+     "",
+     "Unit",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Quantity",
+     "",
+     "Price",
+     "Amount"
+    ],
+    [
+     "35",
+     "No. 2 Stone",
+     "10",
+     "Ton",
+     "$",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.9,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 731408,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-16T13:26:40.540113+00:00",
+ "extract_attempts": 1
+}

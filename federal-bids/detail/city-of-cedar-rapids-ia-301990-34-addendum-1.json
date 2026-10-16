@@ -1,0 +1,346 @@
+{
+ "bid_id": "city-of-cedar-rapids-ia-301990-34-addendum-1",
+ "bid_number": "301990-34 Addendum 1",
+ "agency": "City of Cedar Rapids, IA",
+ "src": "Open",
+ "title": "FY 2027 Tree & Vegetation Removal Project",
+ "close": "10/21/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "2010-A - CLEARING AND GRUBBING",
+   "qty": "3333.4",
+   "uom": "UNIT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. 2010-A - CLEARING AND GRUBBING 3333.4 UNIT No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "2010-B - CLEARING AND GRUBBING",
+   "qty": "1",
+   "uom": "ACRE",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 2010-B - CLEARING AND GRUBBING 1 ACRE No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "8030-A - TRAFFIC CONTROL",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 8030-A - TRAFFIC CONTROL 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "11020-A - MOBILIZATION",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 11020-A - MOBILIZATION 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "PLANS _FINAL_ FOR PRINT - 301990-34.pdf",
+  "PROJECT MANUAL _FINAL_ FOR PRINT - 301990-34.pdf",
+  "Bidder Status Form.pdf",
+  "Bid Bond.pdf",
+  "301990-34 Add 1 signed.pdf",
+  "Unit Price Ref Sheet Addendum 1.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "PLANS _FINAL_ FOR PRINT - 301990-34.pdf",
+   "kind": "pdf",
+   "tables": 31,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "PROJECT MANUAL _FINAL_ FOR PRINT - 301990-34.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Status Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "301990-34 Add 1 signed.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Unit Price Ref Sheet Addendum 1.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "PLANS _FINAL_ FOR PRINT - 301990-34.pdf",
+   "sheet": 11,
+   "header_row": 0,
+   "headers": [
+    "CLEARING AND GRUBBING\nPer SUDAS Table 2010.01 (2023 Edition)\n* \"Over 3 in. to 6 in. incl.\" per Iowa DOT\nTree Measured\nNorthing Easting Description Size Diameter Units\nNumber Diameter\n1 3459006.02 5410801.51 Clearing and Grubbing Over 48 in. to 60 in. incl. 55 in. 160.0\n2 3459009.56 5410883.80 Clearing and Grubbing Over 48 in. to 60 in. incl. 50 in. 160.0\n3 3459082.06 5411129.40 Clearing and Grubbing Over 24 in. to 30 in. incl. 30 in. 29.0\n4 3459109.08 5411221.20 Clearing and Grubbing Over 18 in. to 24 in. incl. 24 in. 22.0\n5 3459128.63 5411275.80 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n6 3459168.93 5411364.25 Clearing and Grubbing Over 3 in. to 6 in. incl.* 3 in. 1.6\n7 3459192.89 5411452.21 Clearing and Grubbing Over 30 in. to 36 in. incl. 36 in. 50.0\n8 3459198.15 5411492.10 Clearing and Grubbing Over 42 in. to 48 in. incl. 48 in. 120.0\n9 3459127.13 5411489.96 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7\n10 3459115.98 5411441.84 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n11 3459099.71 5411397.96 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n12 3459088.42 5411363.38 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n13 3459048.02 5411268.68 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7\n14 3459025.89 5411225.04 Clearing and Grubbing Over 15 in. to 18 in. incl. 18 in. 13.5\n15 3459017.72 5411198.07 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n16 3458999.61 5411181.53 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7\n17 3458999.41 5411264.29 Clearing and Grubbing Over 9 in. to 12 in. incl. 10 in. 6.7 REMOVAL LOCATIONS ARE\n18 3459000.45 5411337.88 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7 SHOWN ON SHEET R.06\n19 3459001.41 5411431.76 Clearing and Grubbing Over 9 in. to 12 in. incl. 10 in. 6.7\n20 3459001.67 5411481.71 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n21 3458938.18 5411336.44 Clearing and Grubbing Over 12 in. to 15 in. incl. 15 in. 9.4\n22 3458937.89 5411363.80 Clearing and Grubbing Over 12 in. to 15 in. incl. 15 in. 9.4\n23 3458937.21 5411390.77 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n24 3458937.89 5411447.68 Clearing and Grubbing Over 15 in. to 18 in. incl. 18 in. 13.5\n25 3458938.38 5411489.79 Clearing and Grubbing Over 15 in. to 18 in. incl. 18 in. 13.5\n26 3458938.96 5411533.90 Clearing and Grubbing Over 12 in. to 15 in. incl. 15 in. 9.4\n27 3458627.06 5411569.57 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n28 3458657.14 5411568.68 Clearing and Grubbing Over 12 in. to 15 in. incl. 14 in. 9.4\n29 3458684.95 5411568.32 Clearing and Grubbing Over 15 in. to 18 in. incl. 18 in. 13.5\n30 3458792.53 5411565.31 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n31 3458829.16 5411564.02 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n32 3458867.28 5411563.14 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n33 3458905.22 5411562.02 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n34 3459064.84 5411570.14 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7\n35 3459109.17 5411568.78 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n36 3458999.38 5411762.42 Clearing and Grubbing Over 30 in. to 36 in. incl. 32 in. 50.0\n37 3458743.86 5411629.19 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\nTOTAL 862.5",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "401 1ST ST SE, SUITE 201\nCEDAR RAPIDS, IOWA 52401\nPhone: (319) 362-3219\nEmail: CedarRapids@bolton-menk.com\nR www.bolton-menk.com",
+     "DESIGNED\nBJK\nDRAWN\nPJR",
+     "NO.\nA\nB",
+     "ISSUED FOR\nINTERM\nCHECK",
+     "DATE\n09/24/2025\n11/25/2025",
+     "CITY OF CEDAR RAPIDS, IOWA\nJOHNSON AVENUE NW FROM 32ND STREET TO 18TH STREET IMPROVEMENTS PHASE 1",
+     "SHEET\n2R.07\nOF\n2"
+    ],
+    [
+     "",
+     "",
+     "CHECKED\nMLC\nCLIENT PROJ. NO.\n3012374-03",
+     "",
+     "",
+     "",
+     "TREE CLEARING & GRUBBING",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "PLANS _FINAL_ FOR PRINT - 301990-34.pdf",
+   "sheet": 12,
+   "header_row": 1,
+   "headers": [
+    "Tree\nNumber",
+    "Northing",
+    "Easting",
+    "Description",
+    "Size Diameter",
+    "Measured\nDiameter",
+    "Units"
+   ],
+   "score": 2,
+   "n_rows": 38,
+   "sample": [
+    [
+     "1",
+     "3459006.02",
+     "5410801.51",
+     "Clearing and Grubbing",
+     "Over 48 in. to 60 in. incl.",
+     "55 in.",
+     "160.0"
+    ],
+    [
+     "2",
+     "3459009.56",
+     "5410883.80",
+     "Clearing and Grubbing",
+     "Over 48 in. to 60 in. incl.",
+     "50 in.",
+     "160.0"
+    ],
+    [
+     "3",
+     "3459082.06",
+     "5411129.40",
+     "Clearing and Grubbing",
+     "Over 24 in. to 30 in. incl.",
+     "30 in.",
+     "29.0"
+    ]
+   ]
+  },
+  {
+   "source": "301990-34 Add 1 signed.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "CLEARING AND GRUBBING\nPer SUDAS Table 2010.01 (2023 Edition)\n* \"Over 3 in. to 6 in. incl.\" per Iowa DOT\nTree Measured\nNorthing Easting Description Size Diameter Units\nNumber Diameter\n1 1 3459006.02 5410801.51 Clearing and Grubbing Over 48 in. to 60 in. incl. 55 in. 160.0\n2 3459009.56 5410883.80 Clearing and Grubbing Over 48 in. to 60 in. incl. 50 in. 160.0\n3 3459082.06 5411129.40 Clearing and Grubbing Over 24 in. to 30 in. incl. 30 in. 29.0\n4 3459109.08 5411221.20 Clearing and Grubbing Over 18 in. to 24 in. incl. 24 in. 22.0\n5 3459128.63 5411275.80 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n6 3459168.93 5411364.25 Clearing and Grubbing Over 3 in. to 6 in. incl.* 3 in. 1.6\n7 3459192.89 5411452.21 Clearing and Grubbing Over 30 in. to 36 in. incl. 36 in. 50.0\n8 3459198.15 5411492.10 Clearing and Grubbing Over 42 in. to 48 in. incl. 48 in. 120.0\n9 3459127.13 5411489.96 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7\n10 3459115.98 5411441.84 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n11 3459099.71 5411397.96 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n12 3459088.42 5411363.38 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n13 3459048.02 5411268.68 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7\n14 3459025.89 5411225.04 Clearing and Grubbing Over 15 in. to 18 in. incl. 18 in. 13.5\n15 3459017.72 5411198.07 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n16 3458999.61 5411181.53 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7\n17 3458999.41 5411264.29 Clearing and Grubbing Over 9 in. to 12 in. incl. 10 in. 6.7 REMOVAL LOCATIONS ARE\n18 3459000.45 5411337.88 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7 SHOWN ON SHEET R.06\n19 3459001.41 5411431.76 Clearing and Grubbing Over 9 in. to 12 in. incl. 10 in. 6.7\n20 3459001.67 5411481.71 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n21 3458938.18 5411336.44 Clearing and Grubbing Over 12 in. to 15 in. incl. 15 in. 9.4\n22 3458937.89 5411363.80 Clearing and Grubbing Over 12 in. to 15 in. incl. 15 in. 9.4\n23 3458937.21 5411390.77 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n24 3458937.89 5411447.68 Clearing and Grubbing Over 15 in. to 18 in. incl. 18 in. 13.5\n25 3458938.38 5411489.79 Clearing and Grubbing Over 15 in. to 18 in. incl. 18 in. 13.5\n26 3458938.96 5411533.90 Clearing and Grubbing Over 12 in. to 15 in. incl. 15 in. 9.4\n27 3458627.06 5411569.57 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n28 3458657.14 5411568.68 Clearing and Grubbing Over 12 in. to 15 in. incl. 14 in. 9.4\n29 3458684.95 5411568.32 Clearing and Grubbing Over 15 in. to 18 in. incl. 18 in. 13.5\n30 3458792.53 5411565.31 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n31 3458829.16 5411564.02 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n32 3458867.28 5411563.14 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n33 3458905.22 5411562.02 Clearing and Grubbing Over 15 in. to 18 in. incl. 16 in. 13.5\n34 3459064.84 5411570.14 Clearing and Grubbing Over 9 in. to 12 in. incl. 12 in. 6.7\n35 3459109.17 5411568.78 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\n36 3458999.38 5411762.42 Clearing and Grubbing Over 30 in. to 36 in. incl. 32 in. 50.0\n37 3458743.86 5411629.19 Clearing and Grubbing Over 6 in. to 9 in. incl. 8 in. 3.9\nTOTAL 702.5\n1",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "401 1ST ST SE, SUITE 201\nCEDAR RAPIDS, IOWA 52401\nPhone: (319) 362-3219\nEmail: CedarRapids@bolton-menk.com\nR www.bolton-menk.com",
+     "DESIGNED\nBJK\nDRAWN\nPJR",
+     "NO.\nA\nB",
+     "ISSUED FOR\nINTERM\nCHECK",
+     "DATE\n09/24/2025\n11/25/2025",
+     "CITY OF CEDAR RAPIDS, IOWA\nJOHNSON AVENUE NW FROM 32ND STREET TO 18TH STREET IMPROVEMENTS PHASE 1",
+     "SHEET\n2R.07\nOF\n2"
+    ],
+    [
+     "",
+     "",
+     "CHECKED\nMLC\nCLIENT PROJ. NO.\n3012374-03",
+     "1",
+     "Addendum",
+     "10/7/2026",
+     "TREE CLEARING & GRUBBING",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "301990-34 Add 1 signed.pdf",
+   "sheet": 4,
+   "header_row": 1,
+   "headers": [
+    "Tree\nNumber",
+    "Northing",
+    "Easting",
+    "Description",
+    "Size Diameter",
+    "Measured\nDiameter",
+    "Units"
+   ],
+   "score": 2,
+   "n_rows": 38,
+   "sample": [
+    [
+     "1",
+     "3459006.02",
+     "5410801.51",
+     "Clearing and Grubbing",
+     "Over 48 in. to 60 in. incl.",
+     "55 in.",
+     "160.0"
+    ],
+    [
+     "2",
+     "3459009.56",
+     "5410883.80",
+     "Clearing and Grubbing",
+     "Over 48 in. to 60 in. incl.",
+     "50 in.",
+     "160.0"
+    ],
+    [
+     "3",
+     "3459082.06",
+     "5411129.40",
+     "Clearing and Grubbing",
+     "Over 24 in. to 30 in. incl.",
+     "30 in.",
+     "29.0"
+    ]
+   ]
+  },
+  {
+   "source": "Unit Price Ref Sheet Addendum 1.xlsx",
+   "sheet": 0,
+   "header_row": 7,
+   "headers": [
+    "ITEM NO.",
+    "ITEM CODE",
+    "ITEM",
+    "TOTAL QTY",
+    "UNIT",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "1",
+     "2010-A",
+     "CLEARING & GRUBBING",
+     "3333.4",
+     "UNIT",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "2010-B",
+     "CLEARING & GRUBBING",
+     "1",
+     "ACRE",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "8030-A",
+     "TRAFFIC CONTROL",
+     "1.0000000000000002",
+     "LS",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 64.2,
+  "attachment_fetches": 6,
+  "attachment_seconds": 4.5,
+  "attachment_bytes": 32358206,
+  "max_fetch_seconds": 3.97,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-16T13:24:58.961268+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,254 @@
+{
+ "bid_id": "city-of-council-bluffs-ia-purch-2026-63",
+ "bid_number": "PURCH - 2026 - 63",
+ "agency": "City of Council Bluffs, IA",
+ "src": "Invited",
+ "title": "Recreation Complex Storage Building Rebid, Project #R27-03",
+ "close": "11/6/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Lump Sum Base Bid - Material Storage Building",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Includes construction of a non-conditioned dry material storage building on the previously completed Phase 1 foundation and floor slab. Scope includes CMU veneer walls and piers; masonry reinforcement, dowels, sealant, caps, and water-repellent treatment; roof trusses, wood framing, fascia, cedar soffits, and standing-seam metal roofing; gutters and downspouts; insulated steel overhead doors; insulated hollow-metal personnel door and frame with hardware; steel bollards; structural steel at the required opening; and all related accessories and work required for a complete installation. The Phase 1 footings and slab are existing and are not included in the base-bid construction scope except as necessary for connections to the existing work. A1.0 and A1.1 Architectural Sheet + Special Provisions",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Lump Sum Base Bid - Material Storage Building 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "ALTERNATE NO. 1",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 ALTERNATE NO. 1 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "ALTERNATE NO. 2",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 ALTERNATE NO. 2 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "ALTERNATE NO. 3",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 ALTERNATE NO. 3 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Notice to Bidders.pdf",
+  "Specifications and Contract Documents.pdf",
+  "Drawings and Specifications.pdf",
+  "Bid Bond.pdf",
+  "Bidder Status Form.pdf",
+  "Title VI _ EEO Certificate of Compliance.pdf",
+  "Past_Project_Information250.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Notice to Bidders.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Specifications and Contract Documents.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Drawings and Specifications.pdf",
+   "kind": "pdf",
+   "tables": 44,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Bid Bond.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Status Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Title VI _ EEO Certificate of Compliance.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Past_Project_Information250.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Notice to Bidders.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Estimated Quantity",
+    "Unit of Measure",
+    "Description"
+   ],
+   "score": 3,
+   "n_rows": 1,
+   "sample": [
+    [
+     "1",
+     "LS",
+     "BASE BID \u2013 DRY MATERIAL STORAGE\nBUILDING\nWork generally includes construction of a non-\nconditioned dry material storage building on the\npreviously completed Phase 1 concrete foundation and\nfloor slab. Work includes reinforced CMU walls and\npiers; masonry reinforcement, dowels, sealants, precast\ncaps, and water-repellent treatment; roof trusses, wood\nframing, fascia, cedar soffits, and standing-seam metal\nroofing; gutters and downspouts; three (3) insulated"
+    ]
+   ]
+  },
+  {
+   "source": "Drawings and Specifications.pdf",
+   "sheet": 2,
+   "header_row": 1,
+   "headers": [
+    "D\nC\nnorahS\nnhoJ\n:YB\n----\n:ETAD\nTOLP\n/\nnorahsj\n:YB\nMP\n31:3\n4202/12/3\n:ETAD\nB\nEVAS\n/\nTUOYAL\nETIS\n102L\n03402\\STEEHS\\DACOTUA\\GNIKROW_03402\\ytilicaF\necnanetniaM\nxelpmoC\nA\nceR\nBC_03402\\0202\\STCEJORP\n1\\:N\n:noitacoL\neliF",
+    "1' - 0\" OVERHANG\nPIER CAPS\nBASE BID: PROVIDE 8\" TALL\nSMOOTH, SOLID PRECAST CAPS AT\nPIERS, COLOR TO MATCH THE SPLIT\nFACE CMU.\nACCENT BLOCK\nBASE BID: SMOOTH 8x8 CMU, COLOR\nTO MATCH THE SPLIT FACE CMU.\nBOLLARDS\n\"8 BASE BID: BOLLARDS SHALL BE 6\" DIAM.\n- GALV. POSTS, 4' TALL, SET 4' DEEP IN\n'2\nCONCRETE PIER WITH ROUNDED\nCONCRETE TOP, PAINTED GREEN.\n\"4\n\"0\nSMOOTH CMU TO MATCH EXISTING\n- BUILDING SHOWN NON-STIPPLED, TYP.\n'2\n\"4\n\"8 SPLIT FACE CMU TO MATCH EXISTING\n- BUILDING SHOWN STIPPLED, TYP.\n'2\nFIRST FLOOR\n100' - 0\"\n2' - 8\"\nPIER DETAIL - BASE BID\n3\n3/8\" = 1'-0\"\nREBID ALTERNATES & SCOPE CLARIFICATIONS:\n1. Alternate No. 1:\nBollards:\nBase Bid: Provide pipe bollards each side of overhead\ndoors (8 total). Bollards shall be 6\" diam. Galv. Posts, 4'\ntall, set 4' deep in concrete pier with rounded concrete top,\npainted green.\nAlternate No. 1 - Provide steel bollards to match existing\nbuilding, painted green, in lieu of pipe bollards.\n2. Alternate No. 2:\nPier Caps:\nBase Bid: Provide 8\" tall smooth, solid precast caps at\npiers, color to match the split face CMU.\nAlternate No. 2 - Provide precast concrete or cast stone pier\ncaps to match the caps at the Existing Maintenance\nBuilding.\n3. Alternate No. 3:\nAccent Block:\nBase Bid: Provide (4) 8\" square smooth, colored CMU at\nthe piers (in lieu of glazed green CMU to match the\nMaintenance Building).\nAlternate No. 3 - Provide (4) 8\" square smooth, green\nglazed accent CMU at the piers to match the Maintenance\nBuilding.\n4. Electrical Work:\nA below slab conduit was installed in Phase 1 that will be\nutilized to provide power from the existing Maintenance\nBuilding. Electrical work will be self-performed by the City's\non-staff Electrician and should not be included in bid costs.",
+    "24' - 8\"\n.PYT\n,\n\"4\n-\n'1\nLINE OF PERIMETER\nTRENCH FOOTINGS BELOW.\nDRY MATERIAL STORAGE\nFOUNDATION & SLAB\n\"8\n-\n'04\nCONCRETE SLAB JOINTS\nAT 14' O.C., MAX. 2\nA1.0\nDRY STORAGE BUILDING - PHASE 1\n1\n1/4\" = 1'-0\" NORTH\n6\" CONCRETE FLOOR SLAB\nW/ 6x6\" WWM.\n18\" x 18\" #4 HOOK BARS PHASE-1 WORK SHOWN HERE\nFROM FOUNDATION INTO\nFLOOR SLAB, TYP.\nREPRESENTS THE EXISTING\nSEALANT, TYP.\nFOUNDATIONS & CONCRETE SLAB\nFIRST FLOOR THAT WERE COMPLETED UNDER\n100' - 0\"\nA PREVIOUS CONTRACT.\n6\" COMPACTED FILL\n\"0\n#3 STIRRUPS AT 36\" O.C.\n-\n'4\n1' - 4\"\nPROVIDE TRENCH FOOTINGS,\nTYP. WITH (2) #4 REBAR CONT.\nAT TOP AND BOTTOM.\nFOUNDATION\n96' - 0\"\nDRY STORAGE FOOTING & SLAB\n2\n3/4\" = 1'-0\"",
+    "D\nC\nB\nA",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "LANDSCAPE ARCHITECT\nCONFLUENCE\n1111 N 13TH STREET, STUDIO 203\nOMAHA, NE 68102\nPH: (402) 973-9908\nwww.thinkconfluence.com\nARCHITECT:\nPJK ARCHITECT\n440 North 61st Street\nOmaha, Nebraska 68132\nPH: (402) 320-4131",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "ROFESSION\nP A L\nD A\nE R\nS PAUL J. C\nN H\nE KELLY I\nC T\nE\nI L C\nT\n6798\nIOWA\n10/8/2026\nTHE SCALE INDICATED IS FOR 22\"x34\" DRAWING SHEETS;\n11\"x17\" SHEETS ARE HALF THE INDICATED SCALE",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "DIBER\nsffulB\nxelpmoC\n-\nlicnuoC\ngnidliuB\nawoI\nfo\nytiC ,sffulB\nnoitaerceR\n|\nlicnuoC\n30-72-R\necnanetniaM\ntcejorP",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Drawings and Specifications.pdf",
+   "sheet": 23,
+   "header_row": 1,
+   "headers": [
+    "D\nC\nnorahS\nnhoJ\n:YB\n----\n:ETAD\nTOLP\n/\nnorahsj\n:YB\nMP\n31:3\n4202/12/3\n:ETAD\nB\nEVAS\n/\nTUOYAL\nETIS\n102L\n03402\\STEEHS\\DACOTUA\\GNIKROW_03402\\ytilicaF\necnanetniaM\nxelpmoC\nA\nceR\nBC_03402\\0202\\STCEJORP\n1\\:N\n:noitacoL\neliF",
+    "2x4 OUTRIGGERS AT 24\" O.C. OVER\n6 7 STANDING SEAM ROOF, FASCIA, 3 PHASE-2 WORK SHOWN ON THIS PAGE AND REPRESENTS\nGABLE END WALL.\nGUTTER & DOWNSPOUTS TO\nA1.1 A1.0\nA1.1 A1.1 MATCH EXISTING BUILDING.\nTHE BASE BID SCOPE TO BE INCLUDED IN THIS CONTRACT.\nNEW 3'x7' 14 GAUGE GALVANIZED\nHOLLOW METAL FRAME AND 4 INTEGRALLY COLORED 8\" SMOOTH\nINSULATED DOOR WITH HEAVY DUTY OR SPLIT FACE CMU, TYP. AT ALL \"7\nCUSTODIAL FUNCTION LOCKSET, 3 NEW CMU VENEER WALLS AND -\nHINGES, OH STOP, WEATHERSTRIP PIERS. SEE ELEVATIONS FOR '81\nAND THRESHOLD. HEIGHT AND LOCATIONS, TYP. PROTECT EXISTING\nC.I.P. OUTDOOR BAY\nPROVIDE CMU UNITS WITH\nWALLS TO REMAIN.\nINTEGRAL WATER REPELLANT AND\n\"8 APPLY CLEAR MASONRY SEALER AT\n- ALL EXTERIOR MASONRY UNITS.\n'2\nSMOOTH, SOLID CMU OR PRECAST\nAT NEW CMU WALLS, PROVIDE CONCRETE CAP, SEE ALT. NO. 2.\nBOLLARDS: 20\" LONG #5 DOWELS EPOXIED\nBASE BID: INTO 8\" DEEP DRILLED HOLES\nPROVIDE PIPE BOLLARDS EACH AT 24\" O.C. & GROUT CELLS 16\" FIRST FLOOR\nSIDE OF OVERHEAD DOORS (8 UP FROM FLOOR MINIMUM. 100' - 0\" \"0\nTOTAL). BOLLARDS SHALL BE -\n\"0 6\" DIAM. GALV. POSTS, 4' TALL, FOUNDATION '4\n- SET 4' DEEP IN CONCRETE PIER 96' - 0\"\n6 '01 WITH ROUNDED CONCRETE\nTOP, PAINTED GREEN. OVERHEAD DOORS TO STEEL PIPE BOLLARDS OR CUSTOM BOLLARDS\nA1.1 ALTERNATE NO. 1: MATCH EXISTING BLDG. TO MATCH EXISTING BUILDING PER ALT. NO. 1. DRY STORAGE - WEST\n2\nPROVIDE STEEL BOLLARDS TO\n1/8\" = 1'-0\"\nMATCH EXISTING BUILDING, 3' - 0\"\nPAINTED GREEN.\n2x4 SLEEPERS AT 24\" O.C.\nON TRUSSES, TYP.\nNEW 3'x7' DOOR TO MATCH\nEXISTING BUILDING.\n\"8\nTREATED PLATE WITH 5/8\"\n-\n'2 DIAM. x 12\" ANCHOR\nSTANDING SEAM ROOF,\nBOLTS AT EACH SIDE OF\nFASCIA, GUTTER &\nSPLICES AND MAX 4' O.C.\nDOWNSPOUTS TO MATCH\nEXISTING BUILDING.\nA1.1 2\nDRY MATERIAL\nSTORAGE \"8 \"0 NEW ROOF TRUSSES AT\n- - 24\" O.C. TO BE DESIGNED\n'04 '01\nBY FRAMING SUPPLIER.\n2x4 SUB-FASCIA, TYP.\nSTEEL BOLLARDS, SEE 1x6 T&G CEDAR SOFFIT \"0\nBASE BID AND ALT. AND 1x4 TRIM TO MATCH - DRY STORAGE - SOUTH DRY STORAGE - NORTH\nNOTES ABOVE. EXISTING BUILDING. '4 3 4\n1/8\" = 1'-0\" 1/8\" = 1'-0\"\nHORIZ. LADDER REINFORCMENT\n\"8\nAT 16\" O.C., TYP.\n-\n'2 6\nA1.1 CMU WALL WITH #5 VERT,\nREINFORCING IN GROUTED\n5 A1.1 CELLS AT 48\" O.C., TYP.\n(3) 10' x 10' INSULATED\nSTEEL OVERHEAD W16x26 STEEL BEAM WITH\nDOORS TO MATCH WELDED CONT. 3/8\" x 7\" PLATE AT\n\"0 EXISTING BUILDING. BOTTOM AND 8\" BRG EACH SIDE.\n-\n'01 PRECAST PIER CAPS:\nBASE BID: PROVIDE 8\" TALL\nSMOOTH, SOLID PRECAST\nSTEEL BOLLARDS, SEE\n24' - 8\" CAPS AT PIERS, COLOR TO\nBASE BID AND ALT.\nMATCH THE SPLIT FACE CMU.\nNOTES ABOVE.\nALTERNATE NO. 2: PROVIDE\nPRECAST CONCRETE OR CAST\nSTONE PIER CAPS TO MATCH\nTHE CAPS AT THE EXISTING\n\"8 MAINTENANCE BUILDING.\n-\n'2\nDRY STORAGE - EAST\n3 5\n1/8\" = 1'-0\"\nINTEGRALLY COLORED 8\"\nSMOOTH OR SPLIT FACE CMU,\nA1.1 \"0\nTYP. AT ALL NEW CMU\n-\nVENEER WALLS AND PIERS. '01\nSEE ELEVATIONS FOR HEIGHT DRY STORAGE BUILDING - PHASE 2 1 1' - 0\" OVERHANG\nAND LOCATIONS, TYP. 1/4\" = 1'-0\" NORTH\n8\nCODE REVIEW NOTES:\nA1.1\nPROJECT DESCRIPTION: DRY STORAGE BUILDING\nOWNER: City of Council Bluffs\nAT NEW CMU\nARCHITECT: Paul J. Kelly, AIA\nWALLS, PROVIDE #5\nADDRESS: 440 North 61st Street, Omaha, NE 68132\nDOWELS EPOXIED PIER CAPS:\nPHONE & EMAIL: (402) 320-4131 pjkarchitect@gmail.com\nINTO 8\" DEEP ALTERNATE NO. 2: PROVIDE PRECAST\nDRILLED HOLES AT CONCRETE OR CAST STONE PIER CAPS\nPROJECT ADDRESS: 2900 Richard Downing Avenue, Council Bluffs, Iowa\n24\" O.C. & GROUT TO MATCH THE CAPS AT THE EXISTING\nUSE: CB Parks Dept. Manitenance Facility\nCELLS 16\" UP FROM MAINTENANCE BUILDING.\nPIN: 744410200003\nFLOOR MINIMUM.\nCONSTRUCTION: Type V-B\nACCENT BLOCK\nSQ. FOOTAGES: 1,003 sf\nALTERNATE NO. 3: PROVIDE SMOOTH\nOCCUPANCY: U - Parks Maintenance Utility Building, Non-Occupied.\nSEALANT, TYP. GREEN GLAZED ACCENT BLOCK TO\nMATCH EXISTING BUILDING, TYP.\nALLOWABLE HEIGHT AND AREA:\nTYPE V-B AREA: Height: 40' Max, 1 Story (Non-Sprinkled Building).\nFIRST FLOOR Area: 5,500 sf max allowed per Table 506.2 > 1,003 sf proposed.\n100' - 0\" EXTERIOR WALLS: Per IBC Tables 601 & 602 for U Occupancy at 0 hour walls required. BOLLARDS\n\"8 ALTERNATE NO. 1: (4) STEEL\n- GOVERNING CODES: 2015 International Building Code BOLLARDS PAINTED GREEN TO\n'2\n2015 International Fire Code MATCH EXISTING BUILDING IN LIEU\n2015 Life Safety Code OF STANDARD PIPE BOLLARDS.\nFOOTINGS & SLAB\nINSTALLED IN PHASE-1. COMCheck: Not Required - Non-Conditioned Building\n\"4\nBUSINESS OPERATION: Civic Maintenance Facility\n\"0\nLEGAL DESCRIPTION: SECTION 10-74-44 SW NE EXC SLY80' SMOOTH CMU TO MATCH EXISTING\n-\n\"0 '2 BUILDING SHOWN NON-STIPPLED, TYP.\n-\n'4\nFIRST FLOOR 1' - 4\" \"4\nSPLIT FACE CMU TO MATCH\n100' - 0\"\n\"8 EXISTING BUILDING SHOWN\nSTIPPLED, TYP.\n-\n'2\nFIRST FLOOR\nFOOTINGS AND FLOOR SLAB WERE\nFOUNDATION FOUNDATION 100' - 0\"\nPREVIOUSLY INSTALLED IN PHASE-1.\n2' - 8\"\n96' - 0\" 96' - 0\"\nDRY STORAGE BLDG SECTION PIER DETAIL WITH ALTERNATES DRY STORAGE WALL SECTION\n6 7 8\n1/4\" = 1'-0\" 3/8\" = 1'-0\" 3/4\" = 1'-0\"",
+    "D\nC\nB\nA",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "LANDSCAPE ARCHITECT\nCONFLUENCE\n1111 N 13TH STREET, STUDIO 203\nOMAHA, NE 68102\nPH: (402) 973-9908\nwww.thinkconfluence.com\nARCHITECT:\nPJK ARCHITECT\n440 North 61st Street\nOmaha, Nebraska 68132\nPH: (402) 320-4131",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "ROFESSION\nP A L\nD A\nE R\nS PAUL J. C\nN H\nE KELLY I\nC T\nE\nI L C\nT\n6798\nIOWA\n10/8/2026\nTHE SCALE INDICATED IS FOR 22\"x34\" DRAWING SHEETS;\n11\"x17\" SHEETS ARE HALF THE INDICATED SCALE",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "DIBER\nsffulB\nxelpmoC\n-\nlicnuoC\ngnidliuB\nawoI\nfo\nytiC ,sffulB\nnoitaerceR\n|\nlicnuoC\n30-72-R\necnanetniaM\ntcejorP",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.1,
+  "attachment_fetches": 7,
+  "attachment_seconds": 1.0,
+  "attachment_bytes": 3302443,
+  "max_fetch_seconds": 0.39,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-16T13:20:33.954150+00:00",
+ "extract_attempts": 1
+}
