@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-16T14:55Z",
+ "asof": "2026-10-16T16:53Z",
  "ap": {
   "net": 166949.49,
   "credits": 191.88,
@@ -62,40 +62,40 @@
    "payable_total": 13828.44,
    "parked_count": 31
   },
-  "asof": "2026-10-16T14:55Z",
+  "asof": "2026-10-16T16:53Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 203217.89,
-  "order_count": 2642,
+  "net": 203296.44,
+  "order_count": 2645,
   "walk": {
-   "released": 126262.35,
+   "released": 127338.42,
    "postsettle": 709.9,
    "refunds": -20773.29,
    "account_events": -1263.9,
-   "deferred": 98282.83
+   "deferred": 97285.31
   },
-  "fev_through": "2026-10-16T13:56Z",
-  "deferred_snapshot": "2026-10-16T14:06Z",
+  "fev_through": "2026-10-16T15:50Z",
+  "deferred_snapshot": "2026-10-16T16:06Z",
   "last_settlement_end": "2026-10-02",
-  "asof": "2026-10-16T14:55Z",
-  "moved_pct": 0.52
+  "asof": "2026-10-16T16:53Z",
+  "moved_pct": 0.04
  },
  "fba": {
-  "value": 2508.61,
-  "qty": 239.0,
+  "value": 2466.75,
+  "qty": 238.0,
   "items": 21,
-  "retail": 4100.5,
+  "retail": 4029.52,
   "no_cost_items": 9,
   "no_cost_units": 31.0,
   "erp_default_units": 0,
-  "dash_value": 4078.57,
+  "dash_value": 4036.71,
   "stock_src": {
    "spapi": 1747,
    "mirror": 44
   },
-  "stock_asof": "2026-10-16T12:00Z",
-  "asof": "2026-10-16T14:55Z"
+  "stock_asof": "2026-10-16T16:00Z",
+  "asof": "2026-10-16T16:53Z"
  },
  "amex": {
   "owed": 11797.44,
@@ -108,30 +108,24 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-16T14:55Z"
+  "asof": "2026-10-16T16:53Z"
  },
  "card_in_transit": {
-  "amount": 272.58,
-  "batches": 1,
+  "amount": 0.0,
+  "batches": 0,
   "basis": "authnet",
-  "oldest_days": 1,
+  "oldest_days": null,
   "stale_batches": 0,
   "stale_amount": 0.0,
   "stale_oldest_days": null,
-  "deposits_through": "2026-10-15",
-  "asof": "2026-10-16T14:55Z"
+  "deposits_through": "2026-10-16",
+  "asof": "2026-10-16T16:53Z"
  },
- "plaid_health": [
-  {
-   "item": "boa",
-   "status": "needs_relink",
-   "code": "ITEM_LOGIN_REQUIRED"
-  }
- ],
+ "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 93,
-  "asof": "2026-10-16T14:55Z"
+  "asof": "2026-10-16T16:53Z"
  }
 }
