@@ -108,7 +108,9 @@ jobs:
             round(sum(amount)::numeric,2) t FROM eff WHERE eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z),'fedex',(SELECT
             json_build_object('payable_count',n,'payable_total',t,'parked_count',p) FROM fx)), 'held',
             json_build_object('net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM b2)+(SELECT s FROM c2)+(SELECT s FROM df),2),'order_count',(SELECT
-            n FROM a2)+(SELECT no FROM df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM d2),'refunds',(SELECT s FROM
+            n FROM a2)+(SELECT no FROM df),'settlement_net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s
+            FROM b2)+(SELECT s FROM c2),2),'deferred_net',(SELECT s FROM df),'settlement_orders',(SELECT n FROM
+            a2),'deferred_orders',(SELECT no FROM df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM d2),'refunds',(SELECT s FROM
             b2),'account_events',(SELECT s FROM c2),'deferred',(SELECT s FROM df)),'fev_through',to_char((SELECT max(pdt) FROM
             fev),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_snapshot',to_char((SELECT snap FROM df),'YYYY-MM-DD"T"HH24:MI"Z"'),'last_settlement_end',(SELECT e::date
             FROM bnd)),
@@ -253,6 +255,20 @@ jobs:
               if hn <= 0: return 'net <= 0'
               if abs(round(sum(w.values()), 2) - hn) > 0.01:
                   return 'walk %s does not sum to net %s' % (round(sum(w.values()), 2), hn)
+              # THE SPLIT IS LOAD-BEARING. np.html puts settlement_net INSIDE the liquid
+              # total and leaves deferred_net OUT of it. If these two ever stop adding up
+              # to net, the page silently drops or double-counts real money with no
+              # visible symptom - so this is asserted, not assumed.
+              #
+              # NO SIGN ASSERTION on settlement_net. In the hours after a settlement
+              # closes, the released bucket is nearly empty and a day of refunds can
+              # legitimately outweigh it, so a small negative is a true reading of the
+              # cycle trough, not a fault. Only the total keeps the > 0 floor above.
+              sn, dn = h.get('settlement_net'), h.get('deferred_net')
+              if not isinstance(sn, (int, float)): return 'settlement_net non-numeric'
+              if not isinstance(dn, (int, float)): return 'deferred_net non-numeric'
+              if abs(round(sn + dn, 2) - hn) > 0.01:
+                  return 'settlement_net %s + deferred_net %s != net %s' % (sn, dn, hn)
               return None
 
           # SECTIONS ARE INDEPENDENT. A fault in held must never withhold AP (they only
