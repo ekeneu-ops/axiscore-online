@@ -1,0 +1,82 @@
+{
+ "bid_id": "edinburg-isd-tx-27-06",
+ "bid_number": "27-06",
+ "agency": "Edinburg ISD , TX",
+ "src": "Open",
+ "title": "ECONOMEDES HIGH SCHOOL TURNKEY SERVING LINE",
+ "close": "10/21/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Vendor Scope of Work Verification of requirements Verify all quantities, field dimensions, counter orientation, direction of operation, door swings, hinging, voltages, phases, amperages, utility locations, access clearances, and installation conditions before ordering. Conduct an in-person site inspection before submitting the quote. Verify existing electrical and other utility conditions and identify any required upgrades or modifications as a separate, clearly described part of the turnkey proposal. Review the project drawings and specifications for coordination. Complete required field-verification and utility-verification forms and obtain district approval of final shop drawings, renderings, finishes, graphics, and material selections before release to production. Comply with district visitor, safety, background-check, badging, and campus-access requirements, including any required sign-in system. Removal of existing equipment Coordinate removal with the district. Disconnect, remove, and relocate existing serving-line equipment to the district's designated storage location or legally dispose of it, as directed by the district. Include incidental cutting of existing stainless steel and minor demolition required for removal. Protect adjacent floors, walls, ceilings, utilities, and equipment from damage. Delivery and installation of new equipment Receive, unload, stage, deliver, assemble, level, align, anchor, and install all new serving counters and specified accessories in accordance with approved shop drawings and manufacturer instructions. Bolt adjoining counters together where indicated; install tray slides, food shields, lights, panels, graphics, chip racks, baskets, ceiling plates, utility chases, and all components shipped loose. Provide factory-authorized installation and perform final electrical connections for the serving-line equipment. Verify voltage and phase before energizing equipment. Any utility upgrades required for complete operational installation shall be identified and included in the proposal. Coordinate equipment start-up, testing, adjustments, and correction of deficiencies. Confirm hot wells, cold wells, frost tops, food warmers, lighting, outlets/load centers, and doors operate as intended. Site coordination and closeout Coordinate delivery and installation dates with Edinburg CISD, the manufacturer's representative, factory-authorized service agents, and all required subcontractors. Remove packaging, pallets, debris, and installation waste. Clean the equipment and work area and leave the site ready for district use. Provide approved shop drawings, operating manuals, warranty documents, start-up records, and applicable training or orientation to district personnel at project closeout.",
+   "qty": "1",
+   "uom": "TURNKEY",
+   "note": "Edinburg CISD Economedes HS Serving Line Equipment Schedule can be found under the attachments tab. Please refer to the schedule for equipment, dimensions, and models needed.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "1295 _ INSTRUCTIONS.pdf",
+  "CIQ Form.pdf",
+  "W9 _ Direct Deposit Form.pdf",
+  "J. Economedes HS Serving Equipment Schedule.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "1295 _ INSTRUCTIONS.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CIQ Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "W9 _ Direct Deposit Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "J. Economedes HS Serving Equipment Schedule.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.8,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 933530,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-18T13:15:08.477513+00:00",
+ "extract_attempts": 1
+}
