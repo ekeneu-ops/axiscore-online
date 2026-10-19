@@ -4,6 +4,9 @@
 #                           record payments into ap.paid_ledger and as invoices land.
 #   held                  - Amazon held funds. Settlement half READ from Amazon
 #                           (financial_event_groups); deferred half from its snapshot.
+#                           BOTH halves are liquid on the page as of 2026-10-19 (Ekene):
+#                           deferred is a short-dated receivable, so deferred_oldest_days
+#                           is published with it and the page prints the age.
 #
 # WHY A SEPARATE JOB (do not just crank spine-ap-refresh to hourly):
 #   spine-ap-refresh rebuilds the WHOLE ~200KB finance/ap/data.json (3k+ invoice rows,
@@ -34,8 +37,11 @@
 # CURRENCY IS LOAD-BEARING: the account carries live MXN and CAD groups. The SQL filters
 # currency_code = 'USD'; dropping that filter would add ~8.9k of pesos to a dollar total.
 # Mixed freshness inside held.net, stated on the page: released/postsettle/refunds/account
-# events come from spapi.financial_events (~2h fresh); `deferred` is Amazon's nightly
-# deferred-transactions snapshot, so that component is as-of deferred_snapshot.
+# events come from spapi.financial_events (~2h fresh); `deferred` is Amazon's
+# deferred-transactions snapshot, so that component is as-of deferred_snapshot. That
+# snapshot is HOURLY, not nightly, since the deferred leg joined the event_groups task
+# (SOURCES=deferred,event_groups, cron(5 * * * ? *)) - which is why deferred_snapshot and
+# groups_snapshot now carry the same timestamp instead of drifting hours apart.
 name: spine-np-live
 
 on:
@@ -115,7 +121,8 @@ jobs:
             round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et='Shipment' AND pdt > bnd.e AND EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE
             sl.amazon_order_id=fev.cid)), b2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et='Refund' AND pdt > bnd.e), c2 AS (SELECT
             round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et IN ('Adjustment','ServiceFee') AND pdt > bnd.e), df AS (SELECT
-            round(coalesce(sum(total),0)::numeric,2) s, count(DISTINCT amazon_order_id) no, max(snapshot_at) snap FROM spapi.deferred_transactions), eg AS (SELECT
+            round(coalesce(sum(total),0)::numeric,2) s, count(DISTINCT amazon_order_id) no, max(snapshot_at) snap, max(now()::date -
+            posted_date::date) old FROM spapi.deferred_transactions), eg AS (SELECT
             round(coalesce(sum(original_total),0)::numeric,2) bal, round(coalesce(sum(original_total - greatest(coalesce(beginning_balance,0),0)),0)::numeric,2) avl,
             count(*) n, max(snapshot_at) snap FROM spapi.financial_event_groups WHERE processing_status='Open' AND currency_code='USD') SELECT
             json_build_object('asof', to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'), 'ap', json_build_object('net',(SELECT s FROM
@@ -128,7 +135,7 @@ jobs:
             n FROM a2)+(SELECT no FROM df),'settlement_net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s
             FROM b2)+(SELECT s FROM c2),2),'settlement_balance',(SELECT bal FROM eg),'settlement_available',(SELECT avl FROM eg),'settlement_groups_open',(SELECT
             n FROM eg),'groups_snapshot',to_char((SELECT snap FROM eg),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_net',(SELECT s FROM df),'settlement_orders',(SELECT n FROM
-            a2),'deferred_orders',(SELECT no FROM df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM d2),'refunds',(SELECT s FROM
+            a2),'deferred_orders',(SELECT no FROM df),'deferred_oldest_days',(SELECT old FROM df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM d2),'refunds',(SELECT s FROM
             b2),'account_events',(SELECT s FROM c2),'deferred',(SELECT s FROM df)),'fev_through',to_char((SELECT max(pdt) FROM
             fev),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_snapshot',to_char((SELECT snap FROM df),'YYYY-MM-DD"T"HH24:MI"Z"'),'last_settlement_end',(SELECT e::date
             FROM bnd)),
@@ -287,6 +294,22 @@ jobs:
               if not isinstance(dn, (int, float)): return 'deferred_net non-numeric'
               if abs(round(sn + dn, 2) - hn) > 0.01:
                   return 'settlement_net %s + deferred_net %s != net %s' % (sn, dn, hn)
+              # DEFERRED IS IN THE LIQUID TOTAL as of 2026-10-19 (Ekene: "its short term
+              # receivables so please include that"). It earns that place on its AGE, so
+              # the age travels with it and the page prints it. Measured 2026-10-19: the
+              # whole book was 0-31 days old, 86% of it Amazon Business (is_business_order),
+              # and the consumer remainder self-cleared inside 14 days exactly as a DD+7
+              # reserve should. Nothing in it overlapped ar.v_pending_payment (0 rows).
+              #
+              # Optional: absent on a feed published before this field existed, and the
+              # page then omits the age clause rather than inventing one.
+              #
+              # TYPE-CHECKED ONLY, DELIBERATELY NO CEILING. If the book ages, the page must
+              # SHOW a large number; refusing the section would hide the entire held line
+              # because a receivable got old, which is the opposite of what this discloses.
+              od = h.get('deferred_oldest_days')
+              if od is not None and (not isinstance(od, int) or od < 0):
+                  return 'deferred_oldest_days not a day count: %r' % (od,)
               # AMAZON'S OWN BALANCE (spapi.financial_event_groups, open USD groups).
               # settlement_available is what np.html puts in the liquid total when it is
               # present, so it is guarded harder than the figure it replaces.
