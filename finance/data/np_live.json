@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-19T14:16Z",
+ "asof": "2026-10-19T15:18Z",
  "ap": {
   "net": 166933.09,
   "credits": 1056.99,
@@ -62,33 +62,33 @@
    "payable_total": 72.66,
    "parked_count": 31
   },
-  "asof": "2026-10-19T14:16Z",
+  "asof": "2026-10-19T15:18Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 104686.64,
-  "order_count": 1466,
+  "net": 102775.1,
+  "order_count": 1465,
   "settlement_net": 10341.21,
-  "settlement_balance": 10627.67,
-  "settlement_available": 10566.62,
+  "settlement_balance": 12536.64,
+  "settlement_available": 12475.59,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-10-19T14:06Z",
-  "deferred_net": 94345.43,
+  "groups_snapshot": "2026-10-19T15:06Z",
+  "deferred_net": 92433.89,
   "settlement_orders": 178,
-  "deferred_orders": 1288,
+  "deferred_orders": 1287,
   "deferred_oldest_days": 31,
   "walk": {
    "released": 12705.75,
    "postsettle": 76.39,
    "refunds": -2241.96,
    "account_events": -198.97,
-   "deferred": 94345.43
+   "deferred": 92433.89
   },
   "fev_through": "2026-10-19T13:55Z",
-  "deferred_snapshot": "2026-10-19T14:06Z",
+  "deferred_snapshot": "2026-10-19T15:06Z",
   "last_settlement_end": "2026-10-16",
-  "asof": "2026-10-19T14:16Z",
-  "moved_pct": -0.02
+  "asof": "2026-10-19T15:18Z",
+  "moved_pct": -1.83
  },
  "fba": {
   "value": 2435.05,
@@ -104,7 +104,7 @@
    "mirror": 44
   },
   "stock_asof": "2026-10-19T12:00Z",
-  "asof": "2026-10-19T14:16Z"
+  "asof": "2026-10-19T15:18Z"
  },
  "amex": {
   "owed": 25669.75,
@@ -117,7 +117,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-19T14:16Z"
+  "asof": "2026-10-19T15:18Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -128,13 +128,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-16",
-  "asof": "2026-10-19T14:16Z"
+  "asof": "2026-10-19T15:18Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 96,
-  "asof": "2026-10-19T14:16Z"
+  "asof": "2026-10-19T15:18Z"
  }
 }
