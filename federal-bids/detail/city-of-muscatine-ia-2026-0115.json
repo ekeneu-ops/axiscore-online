@@ -1,0 +1,182 @@
+{
+ "bid_id": "city-of-muscatine-ia-2026-0115",
+ "bid_number": "2026-0115",
+ "agency": "City of Muscatine, IA",
+ "src": "Open",
+ "title": "Snow Removal and Hauling",
+ "close": "10/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 8,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 8,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Tandem Dump Truck for Snow Hauling Only",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This hourly rate will remain the hourly rate for the Snow Hauling through May 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Tandem Dump Truck for Snow Hauling Only 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Semi with Sidedump Trailer for Snow Hauling Only",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This hourly rate will remain the hourly rate for the Snow Hauling through May 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Semi with Sidedump Trailer for Snow Hauling Only 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Endloader with Snow Pusher for Snow Removal & Hauling",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This hourly rate will remain the hourly rate for the Snow Hauling through May 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Endloader with Snow Pusher for Snow Removal & Hauling 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Large Endloader with Snow Bucket for Snow Removal & Hauling",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This hourly rate will remain the hourly rate for the Snow Hauling through May 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Large Endloader with Snow Bucket for Snow Removal & Hauling 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Mini Excavator with Sidewalk Scraper for Snow Removal & Hauling",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This hourly rate will remain the hourly rate for the Snow Hauling through May 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Mini Excavator with Sidewalk Scraper for Snow Removal & Hauling 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Pickup with Plow for Snow Removal & Hauling",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This hourly rate will remain the hourly rate for the Snow Hauling through May 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Pickup with Plow for Snow Removal & Hauling 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Tandem Dump Truck for Snow Removal & Hauling",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This hourly rate will remain the hourly rate for the Snow Hauling through May 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Tandem Dump Truck for Snow Removal & Hauling 1 HR No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Semi with Sidedump Trailer for Snow Removal & Hauling",
+   "qty": "1",
+   "uom": "HR",
+   "note": "This hourly rate will remain the hourly rate for the Snow Hauling through May 1, 2027.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Semi with Sidedump Trailer for Snow Removal & Hauling 1 HR No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Sales Tax Exemption Information.pdf",
+  "Right to Defer.pdf",
+  "OSHA Compliance.pdf",
+  "Snow_Hauling_Specs 2026-7.docx",
+  "Snow_Hauling_CBD 2026-27.docx",
+  "SUBMITTAL OF BID.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Sales Tax Exemption Information.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Right to Defer.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "OSHA Compliance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Snow_Hauling_Specs 2026-7.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Snow_Hauling_CBD 2026-27.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SUBMITTAL OF BID.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.5,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 59937,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-19T13:34:17.720344+00:00",
+ "extract_attempts": 1
+}

@@ -8,28 +8,391 @@
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
- "extraction_status": "EXTRACT_FAILED:unreachable-page",
- "items_source": null,
- "lines_recovered": 0,
- "grid_empty_or_form": true,
- "onscreen_grid_count": 0,
- "onscreen_priced_lines": 0,
- "onscreen_lines": [],
- "attachments_saved": [],
- "parsed_docs": [],
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 24,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 24,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "The Park at Harlinsdale Farm - Appendix A",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 The Park at Harlinsdale Farm - Appendix A 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Liberty Park - Phase 1 - Appendix B1",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Liberty Park - Phase 1 - Appendix B1 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Liberty Park - Phase 2 Pre-Construction - Appendix B2",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Liberty Park - Phase 2 Pre-Construction - Appendix B2 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Liberty Park - Phase 2 Post Construction - Appendix B3",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Liberty Park - Phase 2 Post Construction - Appendix B3 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Jim Warren Park - Appendix C",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Jim Warren Park - Appendix C 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Aspen Grove Park - Appendix D",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Aspen Grove Park - Appendix D 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Del Rio Park - Appendix E",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Del Rio Park - Appendix E 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Eastern Flank Battlefield Park - Appendix F",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Eastern Flank Battlefield Park - Appendix F 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "Fieldstone Park - Appendix G",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 Fieldstone Park - Appendix G 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "Ft. Granger Park - Appendix H",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 Ft. Granger Park - Appendix H 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "Winstead Hill Park - Appendix I",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 Winstead Hill Park - Appendix I 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "Aspen Grove Greenway - Appendix J",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 Aspen Grove Greenway - Appendix J 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "Dry Brand Quality Wetlands - Appendix K",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 Dry Brand Quality Wetlands - Appendix K 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "Mosby Mountain Bike Trail - Appendix L",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 Mosby Mountain Bike Trail - Appendix L 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "Battle Ave. Lot 1 - Appendix M",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 Battle Ave. Lot 1 - Appendix M 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "Battle Ave. Lot 2 - Appendix M",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 Battle Ave. Lot 2 - Appendix M 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "Ewingville Dr. Lot 1 - Appendix N",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 Ewingville Dr. Lot 1 - Appendix N 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "Ewingville Dr. Lot 2 - Appendix N",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 Ewingville Dr. Lot 2 - Appendix N 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "Ewingville Dr. Lot 3 - Appendix N",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 Ewingville Dr. Lot 3 - Appendix N 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "Ewingville Dr. Lot 4 - Appendix N",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 Ewingville Dr. Lot 4 - Appendix N 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "Ladd Park Canoe Launch - Appendix O",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 Ladd Park Canoe Launch - Appendix O 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "Daniels Dr. Lot 1 - Appendix P",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 Daniels Dr. Lot 1 - Appendix P 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "25",
+   "desc": "Daniels Dr. Lot 2 - Appendix Q",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 Daniels Dr. Lot 2 - Appendix Q 18 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "Nissan Walking Trail - Appendix R",
+   "qty": "18",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 Nissan Walking Trail - Appendix R 18 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2027-009 Instructions for Proposers.docx",
+  "2027-009 Mowing Service for City Parks.pdf",
+  "Final Mowing Appendices V3.pdf",
+  "2027-009 Standard Procurement Terms and Conditions.pdf",
+  "2027-009 Indemnification Agreement.pdf",
+  "2027-009 Affidavit of Title VI Compliance.pdf",
+  "2027-009 Affidavit of Non-Collusion.pdf",
+  "2027-009 Affidavit of Drug-Free Workplace.pdf",
+  "2027-009 Sample Procurement Agreement.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027-009 Instructions for Proposers.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2027-009 Mowing Service for City Parks.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Final Mowing Appendices V3.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-009 Standard Procurement Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2027-009 Indemnification Agreement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-009 Affidavit of Title VI Compliance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-009 Affidavit of Non-Collusion.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-009 Affidavit of Drug-Free Workplace.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2027-009 Sample Procurement Agreement.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
  "candidate_tables": [],
  "notes": [
-  "bounced to login \u2014 token/session issue"
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 2.4,
-  "attachment_fetches": 0,
-  "attachment_seconds": 0,
-  "attachment_bytes": 0,
-  "max_fetch_seconds": 0,
+  "bid_seconds": 10.6,
+  "attachment_fetches": 9,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 6744704,
+  "max_fetch_seconds": 0.27,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-18T13:58:28.258109+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-19T13:23:06.729223+00:00",
+ "extract_attempts": 2
 }

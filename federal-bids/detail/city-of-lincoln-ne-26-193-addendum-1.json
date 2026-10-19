@@ -8,28 +8,357 @@
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "demoted:svc:training",
- "extraction_status": "EXTRACT_FAILED:unreachable-page",
- "items_source": null,
- "lines_recovered": 0,
- "grid_empty_or_form": true,
- "onscreen_grid_count": 0,
- "onscreen_priced_lines": 0,
- "onscreen_lines": [],
- "attachments_saved": [],
- "parsed_docs": [],
- "candidate_tables": [],
- "notes": [
-  "bounced to login \u2014 token/session issue"
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 13,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Mobilization, Supervision, Temporary Controls, and Layout",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Mobilization, Supervision, Temporary Controls, and Layout 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Earthwork, Excavation, Dewatering, Imported Fill, and Subgrade Preparation",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Earthwork, Excavation, Dewatering, Imported Fill, and Subgrade Preparation 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Reinforced Concrete Grade Beams and Foundation",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Reinforced Concrete Grade Beams and Foundation 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "Reinforced Tower Slab and Granular Base",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 Reinforced Tower Slab and Granular Base 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "Foundation coordination, layout verification, and final foundation survey for future tower installation; tower anchorage materials, drilling, epoxy installation, and anchor survey are excluded",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 Foundation coordination, layout verification, and final foundation survey for future tower installation; tower anchorage materials, drilling, epoxy installation, and anchor survey are excluded 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "1.6",
+   "desc": "Concrete Paving and Site Restoration",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.6 Concrete Paving and Site Restoration 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "1.7",
+   "desc": "Contractor testing coordination, Contractor-required inspections, closeout documents, and cleanup; exclude special inspection and concrete testing agency fees procured by the Owner under a separate contract",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.7 Contractor testing coordination, Contractor-required inspections, closeout documents, and cleanup; exclude special inspection and concrete testing agency fees procured by the Owner under a separate contract 1 Lump Sum No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "2",
+   "desc": "Optional: Additional Authorized excavation and ordinary soil haul-off",
+   "qty": "1",
+   "uom": "Cubic Yards",
+   "note": "Price is per Cubic Yard",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Optional: Additional Authorized excavation and ordinary soil haul-off 1 Cubic Yards No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "3",
+   "desc": "Optional: Imported structural fill, placed and compacted",
+   "qty": "1",
+   "uom": "Cubic Yards",
+   "note": "Price is per Cubic Yard",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Optional: Imported structural fill, placed and compacted 1 Cubic Yards No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "4",
+   "desc": "Optional: Granular subbase, placed and compacted",
+   "qty": "1",
+   "uom": "Ton",
+   "note": "Price is per Ton",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Optional: Granular subbase, placed and compacted 1 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "5",
+   "desc": "Optional: Additional reinforced concrete",
+   "qty": "1",
+   "uom": "Cubic Yards",
+   "note": "Price is per Cubic Yard",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Optional: Additional reinforced concrete 1 Cubic Yards No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "6",
+   "desc": "Optional: Additional reinforcing steel, furnished and installed",
+   "qty": "1",
+   "uom": "Lb",
+   "note": "Price is per pound",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Optional: Additional reinforcing steel, furnished and installed 1 Lb No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "7",
+   "desc": "Optional: Concrete pavement restoration",
+   "qty": "1",
+   "uom": "Square Foot",
+   "note": "Price is per Square Foot",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Optional: Concrete pavement restoration 1 Square Foot No Response"
+  }
  ],
+ "attachments_saved": [
+  "Instructions to Bidders 11-2023.pdf",
+  "Contract - City Const.pdf",
+  "SubmissionReceipt-InsuranceRequirements-2429.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "2608.12 Lincoln_ NE -  Foundation Drawings - CEOSE_x _1_.pdf",
+  "2608.12 Lincoln_ NE -  Formal Calculations - CEOSE_x.pdf",
+  "25-07-21_GNE GEO_LFR Training Tower Geotech Report_02501802.pdf",
+  "Empl_Class_Act_EO.pdf",
+  "Empl_Class_Act_Aff.pdf",
+  "26-193 General specifications.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Const.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "SubmissionReceipt-InsuranceRequirements-2429.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2608.12 Lincoln_ NE -  Foundation Drawings - CEOSE_x _1_.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2608.12 Lincoln_ NE -  Formal Calculations - CEOSE_x.pdf",
+   "kind": "pdf",
+   "tables": 149,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "25-07-21_GNE GEO_LFR Training Tower Geotech Report_02501802.pdf",
+   "kind": "pdf",
+   "tables": 20,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_EO.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_Aff.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "26-193 General specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Contract - City Const.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Execution Date or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond [Amount]\nA t\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 16\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this Performance Bond,\ndo each cause this Performance Bond to be duly executed by an authorized officer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Contract - City Const.pdf",
+   "sheet": 5,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Upon Execution or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 18\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in\nthis Payment Bond, do each cause this Payment Bond to be duly executed by an authorized\nofficer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "2608.12 Lincoln_ NE -  Foundation Drawings - CEOSE_x _1_.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "STRUCTURAL NOTES:\n1. GENERAL 4. STRUCTURAL CONCRETE\nA. Design and construction shall conform to the 2021 International Building Code A. All concrete shall be designed and constructed according to ACI 318-19, \"Building\n(IBC 2021), as amended by the City of Lincoln, Nebraska. Code Requirements for Reinforced Concrete,\" and Commentary (ACI 318-19R).\nB. The Contractor shall notify the Structural Engineer when actual conditions vary B. All concrete shall develop a minimum ultimate compressive strength of 2800 psi in\nrelevantly from what these drawings portray. The Engineer is not responsible for 3 days and 4000 psi in 28 days, with not less than 550 pounds of Type I/II or similar\nthe consequences of construction that do not comply with the requirements specified Portland cement per cubic yard of concrete, regardless of the strengths obtained, not\nor the reasonable intent conveyed in these drawings or approved revisions thereof. more than 6 gallons of water for each 100 pounds of cement, with aggregate not larger\nC. This design is valid only for the dimensions shown. This design may not be valid if than 3/4\" diameter, and slump that does not exceed 4-1/2\".\nactual constructed dimensions vary substantially from what is shown. C. All concrete other than flatwork may have up to 15% of Portland cement weight\nD. On the drawings details marked \"Typical\" shall apply to all situations occurring on the replaced with an equivalent weight of an approved Class F fly ash.\nproject that are the same or similar, as may be ascertained by the title of the detail, D. All admixtures shall be approved by the structural engineer in writing before use.\nwhether the section is cut on the drawing at each required location or not. If it is E. Entrain exterior exposed concrete and concrete flatwork with 6% +/- 1% air.\nnot clear how a particular typical detail applies to a specific location, the Contractor F. All concrete is reinforced unless specifically called out as unreinforced. Reinforce all\nshall seek clarification from the Engineer before proceeding with construction. concrete not otherwise shown with same steel as in similar sections or areas. Any\nE. The Contractor shall take all necessary and prudent precautions to maintain the full sections not shown shall be detailed per ACI 315, \"Details and Detailing of Concrete\nintegrity of the structure during construction. The Contractor is also solely responsible Reinforcement\", current edition.\nfor designing and installing all temporary shoring and bracing. G. No aluminum items shall be embedded in any concrete.\nF. Structural members shall not be cut, notched or otherwise penetrated unless H. Clear minimum coverage of concrete over reinforcing steel shall be minimized,\nspecifically approved by the engineer in advance or as shown on these drawings. but it shall not be less than the largest nominal bar diameter, nor less than the\nG. These drawings and notes are for this specific project and no other use is authorized. following (unless noted otherwise):\n1. Concrete placed against trenched earth: 3\"\n2. DESIGN CRITERIA [Occupancy II] 2. Concrete placed against form in earth: 2\"\nA. Dead: Flrs/Roof 20 psf 3. Un-tied elements (eg walls & elevated slabs): 1\"\nB. Live: Floors/Roof 50 psf (inlcudes snow and rain loads). 4. Tied elements (eg columns & elevated beams): 1-1/2\"\nC. Lateral: Wind Velocity 115 mph [Ultimate] , Exposure C, Importance 1.00\nSeismic SDS=0.082, SD1=0.072, Site Class D, Seismic Category B 5. REINFORCING STEEL\nR=7.0 (B.23, cold-formed steel walls with steel sheets) A. Fabrication, erection and placement of reinforcing steel shall conform to Concrete\nCs=0.013, Vult=460 lb Reinforcing Steel Institute (CRSI), \"Manual of Standard Practice\".\nD. Soil: Grade Bm Allow 1500 psf [per geotechnical report, see 3A] B. Bar reinforcing shall conform to ASTM A615 Gr 60 deformed reinforcing steel, except\nstirrups and ties shall comply with CRSI requirements for improved bendability.\n3. FOUNDATIONS C. Reinforcing steel shall not be heated or welded. All bar bends shall be made cold.\nD. Reinforcing steel shall be clean of rust, grease or other material likely to impair bond.\nA. Geotechnical Report Dated July 21th, 2025 by Olsson, Project No. 025-01802.\nE. Where practical, fabricate reinforcing bars in continuous lengths. Where discrete\n[sealed by Sean A. Parks, PE; Nebraska License No. E-14993]\nrebars require splicing, use direct contact bar laps according to the Schedule:\nB. All foundation excavations and holes drilled into ground shall be approved by a\nproject geotechnical engineer licensed in the State of Nebraska prior to the\nplacement of reinforcing steel or concrete. BAR MIN LAP 90 HOOK BAR MIN LAP 90 HOOK\nC. The Contractor is entirely responsible for safely excavating soil and constructing SIZE IN CONC IN CONC SIZE IN CONC IN CONC\nstable soil slopes. #3 18\" 6\" #6 36\" 14\"\nD. All foundations shall bear at or below 42\" frost depth. #4 24\" 8\" #7 42\" 16\"\nE. Zones of soil encountered at the bottom of footing excavations deemed \"soft\" or #5 30\" 10\" #8 48\" 18\"\ninadequate shall be replaced or remediated as directed by the geotechnical engineer.\nF. The Contractor shall provide dewatering of excavations from either surface water or\nF. Place dowels between adjacent or sequential pours and as indicated. All dowels\nseepage. The moisture content in soils prior to excavation should not be allowed to\nshall be same size and spacing as adjoining main bars. Unless noted otherwise,\nchange relavantly after the excavation is made. Concrete for foundations shall not\nset equal legs into adjoining members and lap according to the Schedule above.\nbe placed on frozen ground or on ground softened from excess water.\nG. All reinforcing shall be secured from displacement prior to pouring concrete using\nG. The base of the excavation shall be free of water and loose soil prior to placement of\nwire ties and anchorage devices.\nreinforcing or concrete. Footing excavations left open for more than 4 hours shall\nbe covered over and protected to reduce evaporation or entry of moisture. Ideally,\nfoundation concrete shall be placed the same day the excavation is made. 6. EPOXY ANCHORING\nH. Establish grades so that drainage flows positively away from the building perimeter. A. Install epoxy product only according to manufacturer's written instructions.\nI. Shrubs, trees or other plants with deep roots requiring large quantities of water shall B. Drill clean holes not to exceed 1-1/2 times the diameter of the bar or anchor being\nnot be planted within 20' of the building perimeter. installed. Prior to epoxying, the holes shall be cleaned of laitenance and debris.\nC. The bar or anchor shall be drilled to such depth as required to withstand 2-1/2 times\nthe yield capacity of the anchor or reinforcing bar.\nD. The epoxy product shall be waterproof and be able to maintain bond within the range\nof 10 degrees F below zero up to 120 degrees F above zero.\n7. STRUCTURAL STEEL\nA. Design, fabrication and erection of steel shall be according to the AISC, \"Manual of\nSteel Construction\", 15th Edition, 2017 [\"AISC #15\"].\nB. All anchor bolts shall be ASTM F1554 hot-dip galvanized, at least 36 ksi yield\nwith 2\" threaded projection above top-of-concrete.\n8. COPYRIGHT & DISCLAIMER\nA. Structural drawings marked S0, S1, & S2 (3 - 11x17) dated August 2026 are the\ncopyrighted work of CEO Structural Engineers, Inc., and shall not be reproduced for\nany reason other than than for use on this project without the expressed written\npermission of CEO Structural Engineers, Inc.\nB. I, Alison Parker registered engineer and a representative of CEO Structural\nEngineers, Inc., do hereby accept professional responsibility as required by the\nprofessional registration laws of the State of Nebraska only for the aforementioned\ndrawings prepared under my direct supervision and control.\nAlison Parker, PE\nNebraska License No. E-21583\nNebraska COA No. CA-1471",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "",
+     "SREENIGNE 20266\n\"...noitulos\nSK\n,NOISSIM\nmoc.serutcurtsoec@esoec\n0009.776.319\nLARUTCURTS 032 eht\nETIUS\nENOHP fo\nDR\ntraP\"\nBBIUQS\n0596",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "moc.srewotgniniart\np\nh\nw",
+     "",
+     "CNI\n.C.S.J\nFO\n.VID\nA",
+     "03046 8707-583-319\nOM 5252-153-008-1\nmoc.srewotgniart.www\n,WEIVDNARG\n:XAF\n3663-583-319 EERF\nDR LLOT\nKCUD\n.LET\n915",
+     ""
+    ],
+    [
+     "",
+     "YTILICAF\nEUCSER\nEN\nGNINIART ERIF ,NLOCNIL\nNLOCNIL\nxDOM",
+     "",
+     "",
+     "SLIATED\n&\nSETON\nLARENEG",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
  "latency": {
-  "bid_seconds": 2.4,
-  "attachment_fetches": 0,
-  "attachment_seconds": 0,
-  "attachment_bytes": 0,
-  "max_fetch_seconds": 0,
+  "bid_seconds": 20.2,
+  "attachment_fetches": 10,
+  "attachment_seconds": 1.5,
+  "attachment_bytes": 12655468,
+  "max_fetch_seconds": 0.45,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-18T13:58:36.128796+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-19T13:25:18.565593+00:00",
+ "extract_attempts": 2
 }

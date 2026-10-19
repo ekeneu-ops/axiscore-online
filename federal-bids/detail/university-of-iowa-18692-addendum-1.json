@@ -8,28 +8,219 @@
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
- "extraction_status": "EXTRACT_FAILED:unreachable-page",
- "items_source": null,
- "lines_recovered": 0,
- "grid_empty_or_form": true,
- "onscreen_grid_count": 0,
- "onscreen_priced_lines": 0,
- "onscreen_lines": [],
- "attachments_saved": [],
- "parsed_docs": [],
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 15,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 15,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Panasonic 14k laser projector",
+   "qty": "2",
+   "uom": "EA",
+   "note": "All cables must come with connectors installed, all projectors must come with Panasonic 5- year premium service support",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Panasonic 14k laser projector 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Panasonic 8k laser projector",
+   "qty": "2",
+   "uom": "EA",
+   "note": "All cables must come with connectors installed, all projectors must come with Panasonic 5- year premium service support",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 This item has been changed as part of an addendum. See 'Bid History' for details. Panasonic 8k laser projector 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "5 Year Premium Support",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 This item has been changed as part of an addendum. See 'Bid History' for details. 5 Year Premium Support 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "5 Year Premium Support",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 This item has been changed as part of an addendum. See 'Bid History' for details. 5 Year Premium Support 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "PANASONIC ET-D75LE95 (.436)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 This item has been changed as part of an addendum. See 'Bid History' for details. PANASONIC ET-D75LE95 (.436) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "PANASONIC ET-D3LEW200 (.7-1.02)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 This item has been changed as part of an addendum. See 'Bid History' for details. PANASONIC ET-D3LEW200 (.7-1.02) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "PANASONIC ET-D75LE10 (1.5-2)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 This item has been changed as part of an addendum. See 'Bid History' for details. PANASONIC ET-D75LE10 (1.5-2) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "PANASONIC ET-D75LE20 (2.0-2.9)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 This item has been changed as part of an addendum. See 'Bid History' for details. PANASONIC ET-D75LE20 (2.0-2.9) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "PANASONIC ET-D75LE30 (ratio: 2.8-5.6)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 This item has been changed as part of an addendum. See 'Bid History' for details. PANASONIC ET-D75LE30 (ratio: 2.8-5.6) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "PANASONIC ET-ELU20",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 PANASONIC ET-ELU20 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "PANASONIC ET-ELW22",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 PANASONIC ET-ELW22 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "PANASONIC ET-ELW20",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 PANASONIC ET-ELW20 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "PANASONIC ET-ELS20",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 PANASONIC ET-ELS20 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "PANASONIC ET-ELT22",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 PANASONIC ET-ELT22 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "Panasonic digital link compatible HDBaseT switcher",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 This item has been deleted as part of an addendum. See 'Bid History' for details. Panasonic digital link compatible HDBaseT switcher 2 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Standard Terms and Conditions 2026.06.30 FINAL.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Standard Terms and Conditions 2026.06.30 FINAL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
  "candidate_tables": [],
  "notes": [
-  "bounced to login \u2014 token/session issue"
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 2.4,
-  "attachment_fetches": 0,
-  "attachment_seconds": 0,
-  "attachment_bytes": 0,
-  "max_fetch_seconds": 0,
+  "bid_seconds": 9.9,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 220160,
+  "max_fetch_seconds": 0.09,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-18T13:58:55.772759+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-19T13:26:13.946819+00:00",
+ "extract_attempts": 2
 }

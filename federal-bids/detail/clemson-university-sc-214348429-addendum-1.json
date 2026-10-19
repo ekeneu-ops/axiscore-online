@@ -8,28 +8,409 @@
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
- "extraction_status": "EXTRACT_FAILED:unreachable-page",
- "items_source": null,
- "lines_recovered": 0,
- "grid_empty_or_form": true,
- "onscreen_grid_count": 0,
- "onscreen_priced_lines": 0,
- "onscreen_lines": [],
- "attachments_saved": [],
- "parsed_docs": [],
- "candidate_tables": [],
- "notes": [
-  "bounced to login \u2014 token/session issue"
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 38,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 10,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Lot A - Front Loader Trash Collection, Hauling, & Disposal Services",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot A from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. Lot A - Front Loader Trash Collection, Hauling, & Disposal Services 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "2",
+   "desc": "Lot B -Front Loader Dumpster Rental.",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot B from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 This item has been changed as part of an addendum. See 'Bid History' for details. Lot B -Front Loader Dumpster Rental. 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "3",
+   "desc": "Lot C - OCC Recycling Collection & Hauling to Kite Hill Services",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot C from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 This item has been changed as part of an addendum. See 'Bid History' for details. Lot C - OCC Recycling Collection & Hauling to Kite Hill Services 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "4",
+   "desc": "LOT D - OCC Front Load Dumpster Rentals",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot D from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 This item has been changed as part of an addendum. See 'Bid History' for details. LOT D - OCC Front Load Dumpster Rentals 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "5",
+   "desc": "LOT E - Self Contained Compactor Collections, Hauling & Disposal Services",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot E from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 This item has been changed as part of an addendum. See 'Bid History' for details. LOT E - Self Contained Compactor Collections, Hauling & Disposal Services 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "6",
+   "desc": "LOT F -Self Contained Compactor Rental",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot F from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 This item has been changed as part of an addendum. See 'Bid History' for details. LOT F -Self Contained Compactor Rental 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine31",
+   "kind": "line",
+   "line": "7",
+   "desc": "LOT G -Open Top Containers Collection, Hauling & Processing for C&D Services",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot G from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 This item has been changed as part of an addendum. See 'Bid History' for details. LOT G -Open Top Containers Collection, Hauling & Processing for C&D Services 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine35",
+   "kind": "line",
+   "line": "8",
+   "desc": "Lot H - Open Top Containers Rental for C&D",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot H from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 This item has been changed as part of an addendum. See 'Bid History' for details. Lot H - Open Top Containers Rental for C&D 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine41",
+   "kind": "line",
+   "line": "9",
+   "desc": "Lot I - Open Top Containers Collection, Hauling & Processing for Special Events",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot I from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 This item has been changed as part of an addendum. See 'Bid History' for details. Lot I - Open Top Containers Collection, Hauling & Processing for Special Events 1 Lot No Response"
+  },
+  {
+   "ctl": "ucBidLine45",
+   "kind": "line",
+   "line": "10",
+   "desc": "Lot J - Open Top Containers Rental for Special Events",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "Enter the yellow highlighted total for Lot J from your completed bidding schedule here.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 This item has been changed as part of an addendum. See 'Bid History' for details. Lot J - Open Top Containers Rental for Special Events 1 Lot No Response"
+  }
  ],
+ "attachments_saved": [
+  "Q_A ADDENDUM 1 - 214348429.pdf",
+  "ADDENDUM 1 - Bidding Schedule - 216153302.xlsx",
+  "Scope of Work ADDENDUM 1 Clean Version - 214348429.pdf",
+  "Scope of Work ADDENDUM 1 Redline- 214348429.pdf",
+  "PREVIOUS CONTRACT -Rates - ADDENDUM 1.pdf",
+  "Previous Contract - Bid Tabulation by Line Item Spreadsheet - ADDENDUM 1.xlsx",
+  "Previous Contract - Waste Management Services - ADDENDUM 1 - 214348429.pdf",
+  "Appendix A 2026 Dumpster Location.xlsx",
+  "IMPORTANT TAX NOTICE.doc",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Q_A ADDENDUM 1 - 214348429.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ADDENDUM 1 - Bidding Schedule - 216153302.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Scope of Work ADDENDUM 1 Clean Version - 214348429.pdf",
+   "kind": "pdf",
+   "tables": 16,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Scope of Work ADDENDUM 1 Redline- 214348429.pdf",
+   "kind": "pdf",
+   "tables": 55,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PREVIOUS CONTRACT -Rates - ADDENDUM 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Previous Contract - Bid Tabulation by Line Item Spreadsheet - ADDENDUM 1.xlsx",
+   "kind": "xlsx",
+   "tables": 4,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Previous Contract - Waste Management Services - ADDENDUM 1 - 214348429.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Appendix A 2026 Dumpster Location.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "ADDENDUM 1 - Bidding Schedule - 216153302.xlsx",
+   "sheet": 0,
+   "header_row": 7,
+   "headers": [
+    "",
+    "",
+    "Description",
+    "Estimated Annual Pickups",
+    " Per Pull Rate",
+    "Extended Price",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 65,
+   "sample": [
+    [
+     "",
+     "",
+     "4yd FL Hauling Services",
+     "832",
+     "0",
+     "0",
+     ""
+    ],
+    [
+     "",
+     "",
+     "6yd FL Hauling Services",
+     "1040",
+     "0",
+     "0",
+     ""
+    ],
+    [
+     "",
+     "",
+     "8yd FL Hauling Services",
+     "13000",
+     "0",
+     "0",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Previous Contract - Bid Tabulation by Line Item Spreadsheet - ADDENDUM 1.xlsx",
+   "sheet": 1,
+   "header_row": 2,
+   "headers": [
+    "",
+    "",
+    "",
+    "Supplier",
+    "QTY",
+    "UOM",
+    "Estimated",
+    "Price",
+    "Extended",
+    "Supplier Notes / Alternate Description",
+    "Manufacturer",
+    "Manufacturer #",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 38,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "Republic Services LLC",
+     "1",
+     "Lot",
+     "",
+     "5208",
+     "5208",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "Waste Connections of the Carolinas (Waste Connections Of South Carolina)",
+     "1",
+     "Lot",
+     "",
+     "13117.92",
+     "13117.92",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "[ALT1] Waste Connections of the Carolinas (Waste Connections Of South Carolina)",
+     "1",
+     "Lot",
+     "",
+     "35041.88",
+     "35041.88",
+     "Landfill Free Disposal All MSW to Waste to Energy",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Previous Contract - Bid Tabulation by Line Item Spreadsheet - ADDENDUM 1.xlsx",
+   "sheet": 2,
+   "header_row": 16,
+   "headers": [
+    "",
+    "Header",
+    "15",
+    "Submittal Requirements",
+    "Offeror is required to submit a response to the RFP by submitting two separate files. One file should be the technical proposal and contain no financial/pricing information. This file should address the specific requirements noted in the attached Scope of Work document. The other file should be any financial details. However note, that the financial proposal must be a firm fixed price that must also be entered as one dollar value in the line item below. Not withstanding, should you need to submit a redacted copy of your proposal, you should also attach a copy of the redacted copy of the proposal as described below.",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "",
+     "Header",
+     "16",
+     "Submitting Redacted Offers",
+     "You are required to mark or name the original copy of your offer to identify any information that is exempt from public disclosure. You must do so in accordance with the clause entitled \"Submitting Confidential Information\" in the Bidding Terms and Conditions. In addition, you must also submit one complete copy of your offer from which you have removed any information that you marked as exempt, i.e., a redacted copy. The information redacted should mirror in every detail the information marked as exempt from public disclosure. The redacted copy should (i) reflect the same pagination as the original, (ii) show the empty space from which information was redacted, and (iii) be submitted on line as an appropriate file. Except for the redacted information, the file(s) must be identical to the original hard copy. Portable Document Format (.pdf) is preferred.",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Header",
+     "17",
+     "Supplier Registration",
+     "If you are not currently an ACTIVE supplier in Clemson University\u2019s buyWays system and you are awarded a bid, you agree to complete your new supplier registration within three business days of receiving an email invitation to register. Registration will require you to provide information about your company and to receive electronic payment through the use of PayMode, except that international suppliers will be paid through wire transfer. Please click on the link for Paymode to follow Bank of America Pay Instructions. Link: http://www.paymode.com/clemsonuniversity/",
+     "I Agree",
+     "I Agree",
+     "I Agree",
+     ""
+    ],
+    [
+     "",
+     "Header",
+     "18",
+     "Opening Proposals - Information not Divulged",
+     "In competitive sealed proposals, neither the identity or number of offerors, nor prices will be divulged at opening. [\u00a7 11-35-1530 & R. 19-445.2095(c) (1)]",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
  "latency": {
-  "bid_seconds": 2.6,
-  "attachment_fetches": 0,
-  "attachment_seconds": 0,
-  "attachment_bytes": 0,
-  "max_fetch_seconds": 0,
+  "bid_seconds": 12.2,
+  "attachment_fetches": 11,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 1846784,
+  "max_fetch_seconds": 0.11,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-18T13:58:04.661980+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-19T13:20:44.004022+00:00",
+ "extract_attempts": 2
 }

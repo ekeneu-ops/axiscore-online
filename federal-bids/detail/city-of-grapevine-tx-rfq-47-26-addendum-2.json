@@ -1,0 +1,67 @@
+{
+ "bid_id": "city-of-grapevine-tx-rfq-47-26-addendum-2",
+ "bid_number": "RFQ 47-26 Addendum 2",
+ "agency": "City of Grapevine, TX",
+ "src": "Open",
+ "title": "Grapevine Convention Center & Visitors Center",
+ "close": "10/23/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Grapevine Convention Center Pre-Submission Conference Presentation.pdf",
+  "GCC Room Program.pdf",
+  "GCC Floor Plan.pdf",
+  "RFQ 47-26 Grapevine Convention Center _ Visitors Center.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Grapevine Convention Center Pre-Submission Conference Presentation.pdf",
+   "kind": "pdf",
+   "tables": 28,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "GCC Room Program.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "GCC Floor Plan.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ 47-26 Grapevine Convention Center _ Visitors Center.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.4,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 3289960,
+  "max_fetch_seconds": 0.38,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-19T13:35:28.461585+00:00",
+ "extract_attempts": 1
+}

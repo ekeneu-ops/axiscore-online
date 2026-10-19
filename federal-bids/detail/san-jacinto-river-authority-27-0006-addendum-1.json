@@ -8,28 +8,68 @@
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
- "extraction_status": "EXTRACT_FAILED:unreachable-page",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
  "items_source": null,
  "lines_recovered": 0,
  "grid_empty_or_form": true,
- "onscreen_grid_count": 0,
+ "onscreen_grid_count": 1,
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
- "attachments_saved": [],
- "parsed_docs": [],
- "candidate_tables": [],
- "notes": [
-  "bounced to login \u2014 token/session issue"
+ "attachments_saved": [
+  "RFQ 27-0006_Lake Conroe Dam Crest Road Repairs.pdf",
+  "PSA 27-0006_Dam Crest Road Repairs Draft.pdf",
+  "Conflict_of_Interest_Questionnaire_Form.pdf",
+  "27-0006_Lake Conroe Dam Crest Road Repairs RFQ Addendum No. 1.pdf",
+  "27-0006 Sign in Sheet.pdf"
  ],
+ "parsed_docs": [
+  {
+   "name": "RFQ 27-0006_Lake Conroe Dam Crest Road Repairs.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PSA 27-0006_Dam Crest Road Repairs Draft.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict_of_Interest_Questionnaire_Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "27-0006_Lake Conroe Dam Crest Road Repairs RFQ Addendum No. 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "27-0006 Sign in Sheet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
  "latency": {
-  "bid_seconds": 2.4,
-  "attachment_fetches": 0,
-  "attachment_seconds": 0,
-  "attachment_bytes": 0,
-  "max_fetch_seconds": 0,
+  "bid_seconds": 7.7,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 2432975,
+  "max_fetch_seconds": 0.16,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-18T13:57:56.598832+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-19T13:20:20.105069+00:00",
+ "extract_attempts": 2
 }
