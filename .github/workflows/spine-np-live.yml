@@ -387,6 +387,28 @@ jobs:
                       return 'in_flight has %d unmatched payments in 45d — matcher is broken' % n
                   if (amt > 0) != (n > 0):
                       return 'in_flight amount/count disagree (%s / %s)' % (amt, n)
+              # pending_amt IS NOW A HEADLINE TERM. Ekene 2026-10-19: "The Amex feed is
+              # correct at $27k. If plaid excludes pending, then it understates." np.html
+              # subtracts Plaid's POSTED balance plus this figure, because Plaid's
+              # balances.current leaves pending charges off a card. So a bad value here
+              # moves net position directly and has to be structurally checked.
+              #
+              # Negative is LEGAL, not an error: pending credits can outweigh pending
+              # charges, and the page clamps a negative to 0 rather than letting an
+              # un-posted credit reduce the card.
+              p = a.get('pending_amt')
+              if p is not None:
+                  if not isinstance(p, (int, float)):
+                      return 'pending_amt not numeric'
+                  # pending_amt and owed are sums over the SAME window (charges since the
+                  # last autopay); pending is the subset still unposted. The one filter
+                  # asymmetry is that owed excludes AUTOPAY rows and pending_amt does not,
+                  # and an autopay is a negative credit — so it can only make pending
+                  # SMALLER. pending above owed therefore means the two filters have
+                  # stopped agreeing and the split is not to be trusted. Carried forward,
+                  # not dropped: the page keeps the last good figure, visibly ageing.
+                  if p > o + 0.01:
+                      return 'pending_amt %s exceeds owed %s — filters disagree' % (p, o)
               return None
 
           def structural_cit(c):
