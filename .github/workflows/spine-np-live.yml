@@ -2,7 +2,8 @@
 # HOURLY refresh of the two FAST-MOVING numbers on the Liquid Net Position page:
 #   ap.net_after_credits  - the AP app's header figure. Moves all day as operators
 #                           record payments into ap.paid_ledger and as invoices land.
-#   held.net              - Amazon held funds, event-derived from spapi.* .
+#   held                  - Amazon held funds. Settlement half READ from Amazon
+#                           (financial_event_groups); deferred half from its snapshot.
 #
 # WHY A SEPARATE JOB (do not just crank spine-ap-refresh to hourly):
 #   spine-ap-refresh rebuilds the WHOLE ~200KB finance/ap/data.json (3k+ invoice rows,
@@ -12,12 +13,26 @@
 #   This job runs ONE task, returns ~1.2KB of base64 (single log event, no fragmentation)
 #   and commits a small file. spine-ap-refresh stays on 5x/day for the heavy artifacts.
 #
-# HELD FUNDS PROVENANCE: this is the EVENT-DERIVED net from the warehouse, NOT the
-# Seller Central Payments balance. The SC value (finance/data/held_published.json) is
-# published by an external scheduled agent because that endpoint needs an authenticated
-# Seller Central session, which cannot run unattended on Fargate — it lags ~9h. The
-# derived figure validated to within $217 of SC on 2026-06-12. The page shows this as the
-# live number and keeps the SC balance alongside it as a reconciliation check.
+# HELD FUNDS PROVENANCE — the settlement half is now READ, not derived (2026-10-19).
+# settlement_balance / settlement_available come from spapi.financial_event_groups:
+# Amazon's own open USD settlement groups via listFinancialEventGroups. np.html puts
+# settlement_available in the liquid total, because that is the figure Amazon says you
+# can actually draw.
+#
+# The derived walk (released/postsettle/refunds/account_events -> settlement_net) is
+# KEPT and still emitted. Two reasons it stays: it is the fallback when the hourly
+# event_groups leg has not run, and it is an independent second opinion on a line worth
+# ~$9.5k. It was retired as the published figure because it matched neither number
+# Seller Central shows ($9,340.80 derived vs $9,445.61 balance / $9,384.56 available) -
+# a ~$105 miss on a reconstruction of a figure Amazon publishes outright.
+#
+# NOT the same thing as finance/data/held_published.json, which is the Seller Central
+# screen-scrape published by an external scheduled agent (that endpoint needs an
+# authenticated SC session, which cannot run unattended on Fargate) and lags ~9h. That
+# stays alongside as a reconciliation check.
+#
+# CURRENCY IS LOAD-BEARING: the account carries live MXN and CAD groups. The SQL filters
+# currency_code = 'USD'; dropping that filter would add ~8.9k of pesos to a dollar total.
 # Mixed freshness inside held.net, stated on the page: released/postsettle/refunds/account
 # events come from spapi.financial_events (~2h fresh); `deferred` is Amazon's nightly
 # deferred-transactions snapshot, so that component is as-of deferred_snapshot.
@@ -100,7 +115,9 @@ jobs:
             round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et='Shipment' AND pdt > bnd.e AND EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE
             sl.amazon_order_id=fev.cid)), b2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et='Refund' AND pdt > bnd.e), c2 AS (SELECT
             round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et IN ('Adjustment','ServiceFee') AND pdt > bnd.e), df AS (SELECT
-            round(coalesce(sum(total),0)::numeric,2) s, count(DISTINCT amazon_order_id) no, max(snapshot_at) snap FROM spapi.deferred_transactions) SELECT
+            round(coalesce(sum(total),0)::numeric,2) s, count(DISTINCT amazon_order_id) no, max(snapshot_at) snap FROM spapi.deferred_transactions), eg AS (SELECT
+            round(coalesce(sum(original_total),0)::numeric,2) bal, round(coalesce(sum(original_total - greatest(coalesce(beginning_balance,0),0)),0)::numeric,2) avl,
+            count(*) n, max(snapshot_at) snap FROM spapi.financial_event_groups WHERE processing_status='Open' AND currency_code='USD') SELECT
             json_build_object('asof', to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'), 'ap', json_build_object('net',(SELECT s FROM
             nt),'credits',(SELECT s FROM cr),'credit_count',(SELECT n FROM cr),'net_after_credits',round(((SELECT s FROM nt)-(SELECT s FROM
             cr))::numeric,2),'buckets',(SELECT COALESCE(json_object_agg(b,json_build_object('count',n,'total',t)),'{}'::json) FROM bk),'by_rollup',(SELECT
@@ -109,7 +126,8 @@ jobs:
             json_build_object('payable_count',n,'payable_total',t,'parked_count',p) FROM fx)), 'held',
             json_build_object('net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM b2)+(SELECT s FROM c2)+(SELECT s FROM df),2),'order_count',(SELECT
             n FROM a2)+(SELECT no FROM df),'settlement_net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s
-            FROM b2)+(SELECT s FROM c2),2),'deferred_net',(SELECT s FROM df),'settlement_orders',(SELECT n FROM
+            FROM b2)+(SELECT s FROM c2),2),'settlement_balance',(SELECT bal FROM eg),'settlement_available',(SELECT avl FROM eg),'settlement_groups_open',(SELECT
+            n FROM eg),'groups_snapshot',to_char((SELECT snap FROM eg),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_net',(SELECT s FROM df),'settlement_orders',(SELECT n FROM
             a2),'deferred_orders',(SELECT no FROM df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM d2),'refunds',(SELECT s FROM
             b2),'account_events',(SELECT s FROM c2),'deferred',(SELECT s FROM df)),'fev_through',to_char((SELECT max(pdt) FROM
             fev),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_snapshot',to_char((SELECT snap FROM df),'YYYY-MM-DD"T"HH24:MI"Z"'),'last_settlement_end',(SELECT e::date
@@ -269,6 +287,33 @@ jobs:
               if not isinstance(dn, (int, float)): return 'deferred_net non-numeric'
               if abs(round(sn + dn, 2) - hn) > 0.01:
                   return 'settlement_net %s + deferred_net %s != net %s' % (sn, dn, hn)
+              # AMAZON'S OWN BALANCE (spapi.financial_event_groups, open USD groups).
+              # settlement_available is what np.html puts in the liquid total when it is
+              # present, so it is guarded harder than the figure it replaces.
+              #
+              # Optional by design: these are absent until the hourly event_groups leg has
+              # run at least once, and absent is handled on the page (it falls back to the
+              # derived settlement_net and SAYS SO). Absent must not withhold the section.
+              gn = h.get('settlement_groups_open')
+              if gn is None:
+                  return None
+              if not isinstance(gn, int) or gn < 0:
+                  return 'settlement_groups_open not a count: %r' % (gn,)
+              bal, avl = h.get('settlement_balance'), h.get('settlement_available')
+              if gn == 0:
+                  # No open USD group is a real state (Amazon closed both books and has
+                  # not opened the next), but a zero balance must never be mistaken for a
+                  # live reading, so the page is left on the derived basis.
+                  return None
+              if not isinstance(bal, (int, float)): return 'settlement_balance non-numeric'
+              if not isinstance(avl, (int, float)): return 'settlement_available non-numeric'
+              # Both floors matter in the OVERSTATING direction, which is the one this
+              # page is not allowed to get wrong. The SQL clamps beginning_balance at zero
+              # so available can only land at or below balance; if that ever inverts, the
+              # clamp is gone and the liquid total would be inflated - refuse instead.
+              if avl < 0: return 'settlement_available %s < 0' % (avl,)
+              if avl > bal + 0.01:
+                  return 'settlement_available %s exceeds balance %s' % (avl, bal)
               return None
 
           # SECTIONS ARE INDEPENDENT. A fault in held must never withhold AP (they only
