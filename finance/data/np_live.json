@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-20T17:50Z",
+ "asof": "2026-10-20T18:17Z",
  "ap": {
   "net": 108624.34,
   "credits": 0.0,
@@ -62,33 +62,33 @@
    "payable_total": 72.66,
    "parked_count": 31
   },
-  "asof": "2026-10-20T17:50Z",
+  "asof": "2026-10-20T18:17Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 115858.99,
-  "order_count": 1641,
-  "settlement_net": 17047.29,
+  "net": 115906.56,
+  "order_count": 1645,
+  "settlement_net": 17145.46,
   "settlement_balance": 17456.73,
   "settlement_available": 17395.68,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-10-20T17:06Z",
-  "deferred_net": 98811.7,
-  "settlement_orders": 245,
-  "deferred_orders": 1396,
+  "groups_snapshot": "2026-10-20T18:06Z",
+  "deferred_net": 98761.1,
+  "settlement_orders": 248,
+  "deferred_orders": 1397,
   "deferred_oldest_days": 29,
   "walk": {
-   "released": 19511.11,
+   "released": 19609.28,
    "postsettle": 151.43,
    "refunds": -2375.37,
    "account_events": -239.88,
-   "deferred": 98811.7
+   "deferred": 98761.1
   },
-  "fev_through": "2026-10-20T15:41Z",
-  "deferred_snapshot": "2026-10-20T17:06Z",
+  "fev_through": "2026-10-20T16:45Z",
+  "deferred_snapshot": "2026-10-20T18:06Z",
   "last_settlement_end": "2026-10-16",
-  "asof": "2026-10-20T17:50Z",
-  "moved_pct": 0.0
+  "asof": "2026-10-20T18:17Z",
+  "moved_pct": 0.04
  },
  "fba": {
   "value": 2377.61,
@@ -104,7 +104,7 @@
    "mirror": 45
   },
   "stock_asof": "2026-10-20T16:00Z",
-  "asof": "2026-10-20T17:50Z"
+  "asof": "2026-10-20T18:17Z"
  },
  "amex": {
   "owed": 25669.75,
@@ -117,7 +117,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-20T17:50Z"
+  "asof": "2026-10-20T18:17Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -128,13 +128,13 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-16",
-  "asof": "2026-10-20T17:50Z"
+  "asof": "2026-10-20T18:17Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 4666.72,
   "orders": 1,
   "oldest_days": 97,
-  "asof": "2026-10-20T17:50Z"
+  "asof": "2026-10-20T18:17Z"
  }
 }
