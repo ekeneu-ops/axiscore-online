@@ -1,0 +1,247 @@
+{
+ "bid_id": "harmony-public-schools-tx-hps-central-office-kitchen-renovation",
+ "bid_number": "#HPS-Central Office Kitchen Renovation",
+ "agency": "Harmony Public Schools, TX",
+ "src": "Invited",
+ "title": "",
+ "close": "1/5/2027 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 18,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Total Base Bid - Central Office Kitchen Renovation",
+   "qty": "1",
+   "uom": "EA",
+   "note": "0 is allowed as NA and/or specify if line item is priced in another line item in the Supplier Notes",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Total Base Bid - Central Office Kitchen Renovation 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "1   HPS New Vendor Packet.pdf",
+  "2   BID PACKAGE CHECKLIST.pdf",
+  "A201-2017 - Draft - Standard _2_.pdf",
+  "A101-2017 - Draft - Final.pdf",
+  "Bid Summary - CSP.pdf",
+  "CONTRACTOR REFERENCE FORM - CSP.pdf",
+  "Houston Harmony Headquarters Cafeteria - Set of Approved Plans.pdf",
+  "Harmony Public Schools Central Office Kitchen.pdf",
+  "Harmony Central Office Kitchen Invitation to Bid.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "1   HPS New Vendor Packet.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2   BID PACKAGE CHECKLIST.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "A201-2017 - Draft - Standard _2_.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "A101-2017 - Draft - Final.pdf",
+   "kind": "pdf",
+   "tables": 27,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Summary - CSP.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "CONTRACTOR REFERENCE FORM - CSP.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Houston Harmony Headquarters Cafeteria - Set of Approved Plans.pdf",
+   "kind": "pdf",
+   "tables": 486,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Harmony Public Schools Central Office Kitchen.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Harmony Central Office Kitchen Invitation to Bid.pdf",
+   "kind": "pdf",
+   "tables": 11,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Houston Harmony Headquarters Cafeteria - Set of Approved Plans.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "N.D. NAPKIN DISPOSAL\nA/C AIR CONDITIONING FB. FACE BRICK SQ. SQUARE\nN.I.C. NOT IN CONTRACT\nACP. ACOUSTICAL PANEL FD. FLOOR DRAIN SS. SOUND STRIP\nNO. NUMBER\nACT. ACOUSTICAL TILE F.E. FIRE EXTINGUISHER S.S., ST. STL. STAINLESS STEEL\nN.T.S. NOT TO SCALE\nA.D. AREA DRAIN F.E.C. FIRE EXTINGUISHER CABINET STL. STEEL\nN.V. NAPKIN VENDOR\nA.D.A. AMERICANS WITH DISABILITIES ACT F.H.C. FIRE HOSE CABINET STR., STRUCT. STRUCTURAL\nADJ. ADJUSTABLE FIN. FINISH SUSP. SUSPENDED\nO.C. ON CENTER\nA.F.F. ABOVE FINISH FLOOR FIXT. FIXTURE SVF SHEET VINYL FLOORING\nO.C.E.W. ON CENTER EACH WAY\nA.F.G. ABOVE FINISH GRADE FLR. FLOOR SVDF SHEET VINYL DANCE FLOORING\nO.D. OUTSIDE DIAMETER\nA.H.J. ATHORITY HAVING JURISDICTION FLSHG. FLASHING\nO.F.C.I. OWNER FURNISHED,\nALUM ALUMINUM FLUOR FLUORESCENT T.A.S. TEXAS ACCESSIBLITY STANDARDS\nCONTRACTOR INSTALLED\nALT. ALTERNATE T.B. TACK BOARD\nO.H. OPPOSITE HAND\n\u221f ANGLE GA. GAUGE T.D.R. TOWEL DISPENSER & RECEPT.\nOPNG. OPENING\nASPH. ASPHALT GALV. GALVANIZED TEL TELEPHONE\nOPP. OPPOSITE\nG.B. GRAB BAR TERR. TERRAZZO\nBD. BOARD CMBU GLAZED CONCRETE MASONRY UNIT THK. THICK\nP.C. PRECAST\nBLDG. BUILDING GEN. GENERAL T.O. TOP OF\nP.H. PAPER HOLDER\nBLK. BLOCK G.I. GALVANIZED IRON T.O.B. TOP OF (WOOD) BLOCKING\nPL. PLATE\nBM. BEAM GL. GLASS T.O.M. TOP OF MASONRY\nP.L. PROPERTY LINE\nB.U.R. BUILT-UP ROOF GR. GRADE T.O.S. TOP OF STEEL\nP. LAM. PLASTIC LAMINATE\nGTP. GLAZED TILE PAVER T.T.D. TOILET TISSUE DISPENSER\nPLUMB. PLUMBING\nC CHANNEL GYP. GYPSUM TYP. TYPICAL\nPLWD. PLYWOOD\nCAB, CABT CABINET\nPOL. POLISHED\nCFMF COLD FORMED METAL FRAMING HC HANDICAPPED ACCESSIBLE U.N.O. UNLESS NOTED OTHERWISE\nP.P. POWER POLE\nC.J. CONTROL JOINT HT. HEIGHT UR. URINAL\nPR. PAIR\nCL CENTER LINE HORIZ HORIZONTAL\nPREFIN. PREFINISHED\nCLG. CEILING HM HOLLOW METAL FRAME V VENT\nPT. POINT\nC.M.U. CONCRETE MASONRY UNIT H.W. HOT WATER V.C.T. VINYL COMPOSITE TILE\nPTD. PAINTED\nCOL. COLUMN VENT. VENTILATING, VENTILATED\nP.W.B. PREFINISHED WALL BOARD\nCOMP. COMPRESSIBLE I.D. INSIDE DIAMETER VER. VERIFY\nCONC. CONCRETE INSUL INSULATION VERT. VERTICAL\nQT. QUARRY TILE\nCOND. CONDITION INT. INTERIOR VGB (PREFINISHED) VINYL CLAD\nCONT. CONTINUOUS I.P.S. IRON PIPE SIZE GYPSUM BOARD\nR RADIUS\nCORR. CORRIDOR V.I.F. VERIFY IN FIELD\nRD. ROOF DRAIN\nCPT. CARPET JT. JOINT VWC VINYL WALL COVERING\nRE., REF. REFERENCE\nCT. CERAMIC TILE\nRECP. RECEPTACLE\nCTSK. COUNTERSINK LAM. LAMINATE W WASHING MACHINE\nREINF. REINFORCE\nC.W. COLD WATER LAV. LAVATORY W/ WITH\nRES. RESILIENT\nL.P. LIGHT POLE W.C. WATER CLOSET\nREQ., REQ'D. REQUIRED\nD DRYER LT. LIGHT WD. WOOD\nREV. REVISION, REVISED\nD.F. DRINKING FOUNTAIN LT. WT. LIGHT WEIGHT WDW. WINDOW\nRF RECREATIONAL RESILIENT FLOOR\nDIA. DIAMETER W.P. WATERPROOFING\nRPG. RELOCATABLE PAINTED GYP. BD.\nDIM. DIMENSION MANUF., MFR. MANUFACTURER W.S. WEATHERSTRIP\nRSS. ROD STOCK AND SEALANT\nD.P. DAMPPROOFING MAS. MASONRY WT. WEIGHT\nDTL DETAIL MATL. MATERIAL W.W. WATER WELL\nS.C. SEALED CONCRETE\nD.S. DOWN SPOUT MAX. MAXIMUM W.W.F. WELDED WIRE FABRIC\nSCH., SCHED. SCHEDULE(D)\nDWG. DRAWING MB. MARKER BOARD\nSCPL SOLID CORE PLASTIC LAMINATE\nMECH. MECHANICAL\nS.D. SOAP DISPENSER\nEA. EACH MEM. MEMBRANE\nSEC. SECTION\nEDF ELECTRIC DRINKING FOUNTAIN MEM. WP. MEMBRANE WATERPROOFING\nSHT. SHEET\nEL. ELEVATION (HEIGHT) MEP MECHANICAL, ELECTRICAL\nSIM. SIMILAR\nELEC., ELECT. ELECTRICAL AND PLUMBING\nSPC. SPECIAL COATING SYSTEM\nELEV. ELEVATION (DRAWING) MEZZ. MEZZANINE\nSPEC., SPECS. SPECIFICATIONS\nE.J. EXPANSION JOINT M.H. MAN HOLE\nEQ. EQUAL MIN. MINIMUM\nEQUIP EQUIPMENT MISC. MISCELLANEOUS\nEXIST. EXISTING M.O. MASONRY OPENING\nEXP. EXPANSION MOD. MODULE\nEXT. EXTERIOR MTL. METAL\nMTP. METAL TOILET PARTITION"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Site Location Map"
+    ]
+   ]
+  },
+  {
+   "source": "Houston Harmony Headquarters Cafeteria - Set of Approved Plans.pdf",
+   "sheet": 268,
+   "header_row": 1,
+   "headers": [
+    "FDP ITEM",
+    "FDP QTY",
+    "FDP DESCRIPTION",
+    "FDP REMARKS",
+    "MANUFACTURER",
+    "MODEL",
+    "CERTIFICATION/LISTING"
+   ],
+   "score": 2,
+   "n_rows": 18,
+   "sample": [
+    [
+     "101",
+     "1",
+     "AIR SCREEN",
+     "",
+     "Mars",
+     "STD248-1UA-OB standard\next.",
+     "ETL US & Canada"
+    ],
+    [
+     "107",
+     "1",
+     "DRY STORAGE SHELVING",
+     "",
+     "Regency",
+     "460B1848KM65",
+     "NSF"
+    ],
+    [
+     "123",
+     "1",
+     "DISPOSER - 3HP",
+     "",
+     "Salvajor",
+     "300-CA-18-ARSS -LD",
+     "UL, SA, CE"
+    ]
+   ]
+  },
+  {
+   "source": "Harmony Public Schools Central Office Kitchen.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Job Name",
+    "Job Description",
+    "Total Price"
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "1",
+     "General conditions, supervision,\nproject management and temporary\nfacilities",
+     "All labor, materials, equipment, testing and\ncoordination required for this trade or scope",
+     "$__________"
+    ],
+    [
+     "2",
+     "Mobilization, dust control,\ntemporary partitions, waste\nmanagement and occupied-\nbuilding protection",
+     "All labor, materials, equipment, testing and\ncoordination required for this trade or scope",
+     "$__________"
+    ],
+    [
+     "3",
+     "Existing conditions verification,\nselective demolition and disposal",
+     "All labor, materials, equipment, testing and\ncoordination required for this trade or scope",
+     "$__________"
+    ]
+   ]
+  },
+  {
+   "source": "Harmony Central Office Kitchen Invitation to Bid.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "",
+    "Job Name",
+    "Job Description",
+    "Total Price"
+   ],
+   "score": 2,
+   "n_rows": 7,
+   "sample": [
+    [
+     "1",
+     "General conditions, supervision,\nproject management and temporary\nfacilities",
+     "All labor, materials, equipment, testing and\ncoordination required for this trade or scope",
+     "$__________"
+    ],
+    [
+     "2",
+     "Mobilization, dust control,\nTemporary partitions, waste\nmanagement and occupied\nbuilding protection",
+     "All labor, materials, equipment, testing and\ncoordination required for this trade or scope",
+     "$__________"
+    ],
+    [
+     "3",
+     "Existing conditions verification,\nselective demolition and disposal",
+     "All labor, materials, equipment, testing and\ncoordination required for this trade or scope",
+     "$__________"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 64.6,
+  "attachment_fetches": 9,
+  "attachment_seconds": 6.0,
+  "attachment_bytes": 55083134,
+  "max_fetch_seconds": 4.4,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-21T13:32:07.272020+00:00",
+ "extract_attempts": 1
+}

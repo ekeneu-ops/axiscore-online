@@ -4,7 +4,7 @@
  "agency": "Forney ISD, TX",
  "src": "Invited",
  "title": "Staff Laptops",
- "close": "11/5/2026 03:00 PM (ET)",
+ "close": "11/30/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -77,43 +77,43 @@
   }
  ],
  "attachments_saved": [
-  "FISD_General_Terms_and_Conditions.pdf",
-  "W-9 Rev March 2024.pdf",
-  "ForneyISD_TX_NDPA_V1R6.pdf",
-  "Current CIQ.pdf",
-  "Prevailing Wage Rate Schedule 12-15-25.pdf"
+  "0_FISD_General_Terms_and_Conditions.pdf",
+  "1_W-9 Rev March 2024.pdf",
+  "2_ForneyISD_TX_NDPA_V1R6.pdf",
+  "3_Current CIQ.pdf",
+  "4_Prevailing Wage Rate Schedule 12-15-25.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "FISD_General_Terms_and_Conditions.pdf",
+   "name": "0_FISD_General_Terms_and_Conditions.pdf",
    "kind": "pdf",
    "tables": 2,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "W-9 Rev March 2024.pdf",
+   "name": "1_W-9 Rev March 2024.pdf",
    "kind": "pdf",
    "tables": 5,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "ForneyISD_TX_NDPA_V1R6.pdf",
+   "name": "2_ForneyISD_TX_NDPA_V1R6.pdf",
    "kind": "pdf",
    "tables": 6,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Current CIQ.pdf",
+   "name": "3_Current CIQ.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Prevailing Wage Rate Schedule 12-15-25.pdf",
+   "name": "4_Prevailing Wage Rate Schedule 12-15-25.pdf",
    "kind": "pdf",
    "tables": 4,
    "note": "",
@@ -125,19 +125,14 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 11.7,
+  "bid_seconds": 11.1,
   "attachment_fetches": 5,
-  "attachment_seconds": 0.7,
+  "attachment_seconds": 0.8,
   "attachment_bytes": 1072280,
-  "max_fetch_seconds": 0.23,
+  "max_fetch_seconds": 0.26,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-11T13:24:15.735542+00:00",
- "extract_attempts": 1,
- "lines_total": 5,
- "lines_matched": 0,
- "coverage_pct": 0.0,
- "coverage_basis": "line_count",
- "evidence_path": "fb_records/forney-isd-tx-2027-003/coverage.json"
+ "captured_at": "2026-10-21T13:30:08.716307+00:00",
+ "extract_attempts": 2
 }

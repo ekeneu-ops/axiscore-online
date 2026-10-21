@@ -1,0 +1,83 @@
+{
+ "bid_id": "las-vegas-clark-county-library-district-27-02",
+ "bid_number": "27-02",
+ "agency": "Las Vegas-Clark County Library District",
+ "src": "Invited",
+ "title": "Security Officer Services",
+ "close": "11/13/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP No. 27-02 Security Officer Services - Final - 10-16-26.pdf",
+  "01 Attachment A - SECURITY OFFICER SERVICES - RFP No. 27-02 PROFILE OF CONTRACTOR FORM.pdf",
+  "02 Attachment B - SECURITY OFFICER SERVICES - RFP No. 27-02 -CLIENT REFERENCE FORM.pdf",
+  "03 Attachment C - SECURITY OFFICER SERVICES - RFP No. 27-02  - INSURANCE ACKNOWLEDGEMENT.pdf",
+  "04 - Attachment D - SECURITY OFFICER SERVICES - RFP No. 27-02 - DISCLOSURE OF OWNERSHIP.pdf",
+  "05 Attachment E - SECURITY OFFICER SERVICES - RFP No. 27-02  - PROPOSED BILLABLE RATES.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP No. 27-02 Security Officer Services - Final - 10-16-26.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "01 Attachment A - SECURITY OFFICER SERVICES - RFP No. 27-02 PROFILE OF CONTRACTOR FORM.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "02 Attachment B - SECURITY OFFICER SERVICES - RFP No. 27-02 -CLIENT REFERENCE FORM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "03 Attachment C - SECURITY OFFICER SERVICES - RFP No. 27-02  - INSURANCE ACKNOWLEDGEMENT.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "04 - Attachment D - SECURITY OFFICER SERVICES - RFP No. 27-02 - DISCLOSURE OF OWNERSHIP.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "05 Attachment E - SECURITY OFFICER SERVICES - RFP No. 27-02  - PROPOSED BILLABLE RATES.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 9.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 2170467,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-21T13:27:10.637217+00:00",
+ "extract_attempts": 1
+}

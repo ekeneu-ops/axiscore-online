@@ -1,0 +1,162 @@
+{
+ "bid_id": "pearland-isd-tx-26-1021-1",
+ "bid_number": "26-1021-1",
+ "agency": "Pearland ISD, TX",
+ "src": "Invited",
+ "title": "Internet Router Replacement",
+ "close": "1/7/2027 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 7,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Internet Router \u2013 Juniper MX301 Universal Routing Platform or Equivalent",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Internet Router \u2013 Juniper MX301 Universal Routing Platform or Equivalent 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "AC Power Supply Module with Power Cord, compatible with proposed router",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 AC Power Supply Module with Power Cord, compatible with proposed router 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "100Gb-LR4 Optics/Transceivers for WAN and Uplink Connections",
+   "qty": "8",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 100Gb-LR4 Optics/Transceivers for WAN and Uplink Connections 8 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Rack/Cabinet Mounting Hardware for Proposed Router",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Rack/Cabinet Mounting Hardware for Proposed Router 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Base Bid \u2013 5-Year 24/7 Support with 4-Hour Response/Replacement SLA",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Base Bid \u2013 5-Year 24/7 Support with 4-Hour Response/Replacement SLA 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Optional \u2013 7-Year 24/7 Support with 4-Hour Response/Replacement SLA",
+   "qty": "1",
+   "uom": "EA",
+   "note": "The 7-year support option shall reflect the total cost for seven (7) years of support and shall not be added to the 5-year base support price.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Optional \u2013 7-Year 24/7 Support with 4-Hour Response/Replacement SLA 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Shipping/Freight and All Other Costs Required for Delivery",
+   "qty": "1",
+   "uom": "LOT",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Shipping/Freight and All Other Costs Required for Delivery 1 LOT No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Conflict of Interest _CIQ_.pdf",
+  "HB1295 Instructions and Sample.pdf",
+  "IRS W9 Form.pdf",
+  "Electronic Funds Transfer _EFT_.pdf",
+  "RFP 26-1021-1 Internet Router Replacement.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Conflict of Interest _CIQ_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "HB1295 Instructions and Sample.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "IRS W9 Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Electronic Funds Transfer _EFT_.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP 26-1021-1 Internet Router Replacement.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 21.9,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 11721532,
+  "max_fetch_seconds": 0.47,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-21T13:32:30.659271+00:00",
+ "extract_attempts": 1
+}
