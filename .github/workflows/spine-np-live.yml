@@ -104,6 +104,10 @@ jobs:
           # Reproduces platform/ap_app/app/db.py totals() + app.jsx netAfter for the AP
           # half, and the validated 3-bucket event walk for the held half. Read-only via
           # finance_runner's existing grants (ap.* 0003/0022, spapi.* 0001).
+          # 'unbilled' (0173, Ekene 2026-10-21) is the counterweight to the receivable
+          # halves above: shipped orders put their revenue on this page the day they ship,
+          # but their supplier cost only arrives when the vendor invoice is keyed. Without
+          # it the page is overstated. ap.v_unbilled_cost is grant-ed to finance_runner.
           SQL_TEXT_INLINE: >-
             SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' AND fo.invoice_number IS NULL THEN
             'PARKED' WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket FROM ap.v_outstanding v LEFT JOIN
@@ -177,7 +181,12 @@ jobs:
             'status', status, 'code', item_error_code)) FILTER (WHERE status <> 'ok'), '[]'::json)
             FROM plaid.v_item_health),
             'ar_pending', (SELECT json_build_object('amount', round(coalesce(sum(amount),0),2),
-            'orders', count(*), 'oldest_days', max(days_outstanding)) FROM ar.v_pending_payment)) )::text,'UTF8'),'base64'),'\s','','g') AS d;
+            'orders', count(*), 'oldest_days', max(days_outstanding)) FROM ar.v_pending_payment),
+            'unbilled', (SELECT json_build_object('cost', cost, 'orders', orders,
+            'oldest_days', oldest_days, 'no_cost_orders', no_cost_orders,
+            'no_cost_revenue', no_cost_revenue, 'committed', committed,
+            'committed_orders', committed_orders, 'revenue', revenue,
+            'by_rollup', by_rollup) FROM ap.v_unbilled_cost LIMIT 1)) )::text,'UTF8'),'base64'),'\s','','g') AS d;
         run: |
           OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
             '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
@@ -436,7 +445,28 @@ jobs:
                   return 'no order count'
               return None
 
-          for key, checker in (('ap', structural_ap), ('held', structural_held), ('fba', structural_fba), ('amex', structural_amex), ('card_in_transit', structural_cit), ('ar_pending', structural_ar)):
+          def structural_unbilled(u):
+              # Unbilled supplier cost: shipped orders whose vendor invoice has not been
+              # keyed in EITHER AP book yet. The page SUBTRACTS this figure, so the only
+              # faults worth blocking on are the ones that would make net position look
+              # BIGGER than it is: a non-number (renders NaN and poisons the headline) or
+              # a negative (hands the page money that does not exist). A cost with no
+              # orders behind it is incoherent, so it is refused too.
+              # Internal consistency ONLY. No movement test: a guard that gates on its own
+              # output can never recover, and a big move here is a reason to LABEL the
+              # number, never to withhold it.
+              c = u.get('cost')
+              if not isinstance(c, (int, float)):
+                  return 'cost not numeric'
+              if c < 0:
+                  return 'cost negative (%s)' % c
+              if u.get('orders') is None:
+                  return 'no order count'
+              if c > 0 and not u.get('orders'):
+                  return 'cost %s with zero orders' % c
+              return None
+
+          for key, checker in (('ap', structural_ap), ('held', structural_held), ('fba', structural_fba), ('amex', structural_amex), ('card_in_transit', structural_cit), ('ar_pending', structural_ar), ('unbilled', structural_unbilled)):
               sec = j.get(key) or {}
               err = checker(sec)
               if not err:
@@ -475,6 +505,10 @@ jobs:
           # so the watchdog and the page's own ageing both surface it.
           # fba is deliberately NOT in this list: it is a slow-moving ERP figure, so a bad
           # read of it must never block publishing fresh ap/held. It carries forward instead.
+          # unbilled is NOT in this list either. It is a derived measurement of a gap, and
+          # a fault in it must never stop a fresh ap/held from reaching the page. When it
+          # faults it carries forward; when it has never published at all the page says
+          # NOT MEASURED out loud, because a missing block is an OVERSTATEMENT, not a zero.
           fresh_sections = [k for k in ('ap', 'held') if j.get(k) and not j[k].get('carried_forward')]
           if not fresh_sections:
               print('no usable section this run: ' + '; '.join(errs or ['both missing']))
@@ -489,6 +523,13 @@ jobs:
                 % (_ap.get('net_after_credits'), ' CARRIED' if _ap.get('carried_forward') else '',
                    _h.get('net'), ' CARRIED' if _h.get('carried_forward') else '',
                    _h.get('fev_through'), _h.get('deferred_snapshot')))
+          _u = j.get('unbilled') or {}
+          if _u:
+              print('np_live: unbilled %s (%s orders, %s shipped with no cost on file)%s'
+                    % (_u.get('cost'), _u.get('orders'), _u.get('no_cost_orders'),
+                       ' CARRIED' if _u.get('carried_forward') else ''))
+          else:
+              print('np_live: unbilled NOT MEASURED - the page discloses the overstatement')
           PY
 
           git config user.name "np-live-bot"
