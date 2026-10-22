@@ -1,0 +1,118 @@
+{
+ "bid_id": "north-east-isd-tx-16-27",
+ "bid_number": "16-27",
+ "agency": "North East ISD, TX",
+ "src": "Open",
+ "title": "Informal Request for Quotes for Replacement School Buses (A68/A69)",
+ "close": "10/26/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Proposed price for a Special Adaptive School Bus, 39-47 passenger body, with wheelchair lift and two open spots for wheelchairs (uncovered) as outlined herein.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Proposed price for a Special Adaptive School Bus, 39-47 passenger body, with wheelchair lift and two open spots for wheelchairs (uncovered) as outlined herein. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Proposal for Type A 14 passenger, Non-CDL white activity bus as described herein.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Proposal for Type A 14 passenger, Non-CDL white activity bus as described herein. 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Total price for all buses quoted (include all types and quantities).",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Total price for all buses quoted (include all types and quantities). 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Are there any other fees/costs not disclosed above that we should be aware of?",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Are there any other fees/costs not disclosed above that we should be aware of? 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Supplier Response Quick Tutorial.pdf",
+  "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+  "Form_CIQ_with_Instructions.pdf",
+  "Special Need Bus Reference Diagram.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Supplier Response Quick Tutorial.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "NEISD_PO_Terms_and_Conditions_6152022.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Form_CIQ_with_Instructions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Special Need Bus Reference Diagram.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.9,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1960382,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-22T13:13:25.919974+00:00",
+ "extract_attempts": 1
+}

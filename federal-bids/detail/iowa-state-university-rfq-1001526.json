@@ -1,0 +1,102 @@
+{
+ "bid_id": "iowa-state-university-rfq-1001526",
+ "bid_number": "RFQ-1001526",
+ "agency": "Iowa State University",
+ "src": "Open",
+ "title": "In-situ Differential Electrochemical Mass Spectrometer",
+ "close": "10/26/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "In-situ Differential Electrochemical Mass Spectrometer",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Provide the total cost of the system being offered to include equipment, freight, installation and training.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 In-situ Differential Electrochemical Mass Spectrometer 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Preventative Maintenance/Service Contract",
+   "qty": "1",
+   "uom": "EA",
+   "note": "State PM/service cost for a total of 12 months beyond the standard warranty if offered.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Preventative Maintenance/Service Contract 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "ISU Instructions.pdf",
+  "ISU General Terms _ Conditions.pdf",
+  "ISU Federal Grant Terms _UGA_.pdf",
+  "ISU Certification - Lobbying.pdf",
+  "Insurance Language - Equipment Repair_ Install_ Maintenance _low risk_ 09-2020.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "ISU Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ISU General Terms _ Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ISU Federal Grant Terms _UGA_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ISU Certification - Lobbying.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Insurance Language - Equipment Repair_ Install_ Maintenance _low risk_ 09-2020.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.6,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 776929,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-22T13:15:49.184475+00:00",
+ "extract_attempts": 1
+}

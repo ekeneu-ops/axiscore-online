@@ -1,0 +1,59 @@
+{
+ "bid_id": "yes-prep-tx-rfqyesp2026-01",
+ "bid_number": "RFQYESP2026-01",
+ "agency": "Yes Prep, TX",
+ "src": "Open",
+ "title": "Materials Testing Services",
+ "close": "10/26/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFQ Materials Testing Services.pdf",
+  "New_Vendor_Packet_updated 8.20.2025.pdf",
+  "Bid Invitation.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFQ Materials Testing Services.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "New_Vendor_Packet_updated 8.20.2025.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Invitation.pdf",
+   "kind": "pdf",
+   "tables": 37,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.6,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 5581706,
+  "max_fetch_seconds": 0.26,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-22T13:13:15.540687+00:00",
+ "extract_attempts": 1
+}

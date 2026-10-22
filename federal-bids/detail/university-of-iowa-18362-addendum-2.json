@@ -1,0 +1,81 @@
+{
+ "bid_id": "university-of-iowa-18362-addendum-2",
+ "bid_number": "18362 Addendum 2",
+ "agency": "University of Iowa",
+ "src": "Invited",
+ "title": "Accounts Payable Automation Services",
+ "close": "11/4/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 55,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFI 18362 - Scope of Information Requested.pdf",
+  "RFI 18362 Bid Questions and Responses_Addendum 2.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFI 18362 - Scope of Information Requested.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "RFI 18362 Bid Questions and Responses_Addendum 2.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFI 18362 Bid Questions and Responses_Addendum 2.xlsx",
+   "sheet": 0,
+   "header_row": 61,
+   "headers": [
+    "8. Response packaging: May suppliers place the complete A\u2013N response and supporting materials in Response Attachments, with summaries in Attributes 5 and 6? Are there page or file-size limits?",
+    "Suppliers may provide an complete proposal as an attachment. Response attachments per item cannot exceed 250MB",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 55,
+   "sample": [
+    [
+     "9. Future procurement: Is there an anticipated schedule for a future RFP and implementation, and are there preferred contract-term or pricing assumptions for this RFI?",
+     "The purpose of this RFI is to understand available solution capabilities and service models. Additional scope details may be provided in a future solicitation, if issued.",
+     ""
+    ],
+    [
+     "Is the scope limited to the approximately 242,214 manually processed invoices, or does it also include the approximately 163,810 invoices received through EDI and GHX?",
+     "For Fiscal Year 2026, a total of 406,024 purchase order invoices were processed (242,214 standard invoices and 163,810 EDI and GHX invoices). Standard purchase order invoices are in scope of this project, EDI and GHX invoices are not in scope. ",
+     ""
+    ],
+    [
+     "What is the current split of PO vs. non-PO invoices, and of paper vs. electronic invoices?",
+     "For Fiscal Year 2026, a total of 406,024 purchase order invoices were processed (242,214 standard invoices and 163,810 EDI and GHX invoices). Standard purchase order invoices are in scope of this project, EDI and GHX invoices are not in scope.\n\nBelow is the split of invoices received and the channel by which they are received:  \n52.3% - email\n40% - GHX/EDI\n7% - USPS Mail\n.05% - Vendor Portal",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.2,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 132614,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-22T13:17:29.685005+00:00",
+ "extract_attempts": 1
+}
