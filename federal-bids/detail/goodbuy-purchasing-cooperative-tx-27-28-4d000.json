@@ -209,14 +209,14 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 10.8,
+  "bid_seconds": 11.2,
   "attachment_fetches": 8,
-  "attachment_seconds": 0.7,
+  "attachment_seconds": 1.0,
   "attachment_bytes": 1905844,
-  "max_fetch_seconds": 0.15,
+  "max_fetch_seconds": 0.16,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-22T13:56:04.515879+00:00",
+ "captured_at": "2026-10-23T13:23:17.927706+00:00",
  "extract_attempts": 1
 }

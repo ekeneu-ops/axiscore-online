@@ -1,0 +1,59 @@
+{
+ "bid_id": "city-of-fayetteville-ar-rfq-26-10-addendum-2",
+ "bid_number": "RFQ 26-10 Addendum 2",
+ "agency": "City of Fayetteville, AR",
+ "src": "Open",
+ "title": "Water Distribution Master Plan",
+ "close": "10/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFQ 26-10_ Water Distribution Master Plan.pdf",
+  "RFQ 26-10_ Addendum 1.pdf",
+  "RFQ 26-10_ Addendum 2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFQ 26-10_ Water Distribution Master Plan.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ 26-10_ Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFQ 26-10_ Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.5,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 730313,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-23T13:18:02.757287+00:00",
+ "extract_attempts": 1
+}

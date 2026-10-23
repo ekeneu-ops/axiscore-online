@@ -1,0 +1,98 @@
+{
+ "bid_id": "city-of-warner-robins-ga-26-f-4808",
+ "bid_number": "26-F-4808",
+ "agency": "City of Warner Robins, GA",
+ "src": "Open",
+ "title": "Thermal Imaging Camera",
+ "close": "10/27/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Thermal Imaging Camera \u2013 Bullard QXT Pro or Approved Equivalent New, unused thermal imaging camera suitable for firefighting and search-and-rescue operations. Reference product: Bullard QXT Pro; see attached manufacturer manual for product details. Provide pricing per camera and identify all included accessories, batteries, and charging equipment. Unit pricing shall include all shipping, handling, and delivery charges. Equivalent products are subject to City review and approval. Bidders shall identify the proposed manufacturer and model, upload supporting specifications, and clearly disclose any differences from the reference product. Include available manufacturer warranty information, operating and maintenance manuals, and anticipated delivery timeframe after receipt of a purchase order.",
+   "qty": "1",
+   "uom": "Each",
+   "note": "Quantity: Up to three (3). The City anticipates purchasing one (1) to three (3) cameras, depending on pricing and available funding. Final quantity will be determined at award.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Thermal Imaging Camera \u2013 Bullard QXT Pro or Approved Equivalent New, unused thermal imaging camera suitable for firefighting and search-and-rescue operations. Reference product: Bullard QXT Pro; see attached manufacturer manual for product details. Provide pricing per camera and identify all included accessories, batteries, and charging equipment. Unit pricing shall include all shipping, handling, and delivery charges. Equivalent products are subject to City review and approval. Bidders shall identify the proposed manufacturer and model, upload supporting specifications, and clearly disclose any differences from the reference product. Include available manufacturer warranty information, operating and maintenance manuals, and anticipated delivery timeframe after receipt of a purchase order. 1 Each No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Bullard_QXT Pro_User Manual_EN_DE_ES_FR.pdf",
+  "Non-Collusion Affidavit of Vendor.pdf",
+  "Absence of Conflict of Interest OCGA 36-80-28.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bullard_QXT Pro_User Manual_EN_DE_ES_FR.pdf",
+   "kind": "pdf",
+   "tables": 128,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Non-Collusion Affidavit of Vendor.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Absence of Conflict of Interest OCGA 36-80-28.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Bullard_QXT Pro_User Manual_EN_DE_ES_FR.pdf",
+   "sheet": 42,
+   "header_row": 1,
+   "headers": [
+    "- Thermal imaging unit",
+    "5 years from the date of product manufacture\nor registration, whichever date is later"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "- Internal li-ion battery",
+     "5 years from the date of product manufacture\nor registration, whichever date is later."
+    ],
+    [
+     "- Wireless chargers for\nthermal imagers",
+     "2 years from date of purchase"
+    ],
+    [
+     "- Protective boots\n- AC/DC and USB adapters\n- Other thermal imaging\naccessories",
+     "90 days from date of purchase"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 11.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 8310777,
+  "max_fetch_seconds": 0.41,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-23T13:16:02.195529+00:00",
+ "extract_attempts": 1
+}

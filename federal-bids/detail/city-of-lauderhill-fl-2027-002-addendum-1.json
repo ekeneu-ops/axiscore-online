@@ -1,0 +1,179 @@
+{
+ "bid_id": "city-of-lauderhill-fl-2027-002-addendum-1",
+ "bid_number": "2027-002 Addendum 1",
+ "agency": "City of Lauderhill, FL",
+ "src": "Invited",
+ "title": "GO BOND PROJECT: HERBERT SADKIN COMMUNITY CENTER EXTERIOR WINDOW REPLACEMENT AND STUCCO REPAIR (TURNKEY)",
+ "close": "10/30/2026 03:45 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 23,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "BID 2027-002 SADKIN CENTER WINDOW REPLACEMENT _ STUCCO REPAIR _GO BOND PROJECT_.pdf",
+  "Specifications.pdf",
+  "_01_ 100_ CD - Review Set - Drawings.pdf",
+  "SIGN IN SHEET- Pre-Bid Meeting_BID 2027-002.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "BID 2027-002 SADKIN CENTER WINDOW REPLACEMENT _ STUCCO REPAIR _GO BOND PROJECT_.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "_01_ 100_ CD - Review Set - Drawings.pdf",
+   "kind": "pdf",
+   "tables": 154,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SIGN IN SHEET- Pre-Bid Meeting_BID 2027-002.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "BID 2027-002 SADKIN CENTER WINDOW REPLACEMENT _ STUCCO REPAIR _GO BOND PROJECT_.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Division\nDescription\nNo.",
+    "Estimated Quantity",
+    "Unit",
+    "Unit Price",
+    "Estimated\nAmount"
+   ],
+   "score": 3,
+   "n_rows": 18,
+   "sample": [
+    [
+     "1. General Requirements",
+     "",
+     "TOTAL",
+     "$",
+     "$"
+    ],
+    [
+     "Permit Fees Allowance",
+     "",
+     "ALLOW",
+     "$",
+     "$"
+    ],
+    [
+     "Mobilization &\nDemobilization",
+     "",
+     "LUMP",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "BID 2027-002 SADKIN CENTER WINDOW REPLACEMENT _ STUCCO REPAIR _GO BOND PROJECT_.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Division\nDescription\nNo.",
+    "Estimated Quantity",
+    "Unit",
+    "Unit Price",
+    "Estimated\nAmount"
+   ],
+   "score": 3,
+   "n_rows": 23,
+   "sample": [
+    [
+     "Haul Away",
+     "",
+     "LUMP",
+     "$",
+     "$"
+    ],
+    [
+     "Site Cleanup",
+     "",
+     "LUMP",
+     "$",
+     "$"
+    ],
+    [
+     "Final Cleanup",
+     "",
+     "LUMP",
+     "$",
+     "$"
+    ]
+   ]
+  },
+  {
+   "source": "BID 2027-002 SADKIN CENTER WINDOW REPLACEMENT _ STUCCO REPAIR _GO BOND PROJECT_.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "Division\nDescription\nNo.",
+    "Estimated Quantity",
+    "Unit",
+    "Unit Price",
+    "Estimated\nAmount"
+   ],
+   "score": 3,
+   "n_rows": 4,
+   "sample": [
+    [
+     "9 . Finishes (Exterior)",
+     "",
+     "TOTAL",
+     "$",
+     "$"
+    ],
+    [
+     "Exterior Painting and\nPressure Washing",
+     "",
+     "SF",
+     "$",
+     "$"
+    ],
+    [
+     "1 6. Electrical",
+     "",
+     "TOTAL",
+     "$",
+     "$"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 23.1,
+  "attachment_fetches": 4,
+  "attachment_seconds": 1.1,
+  "attachment_bytes": 14380187,
+  "max_fetch_seconds": 0.45,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-23T13:21:16.028985+00:00",
+ "extract_attempts": 1
+}

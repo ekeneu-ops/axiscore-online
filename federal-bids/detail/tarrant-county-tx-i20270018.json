@@ -1,0 +1,90 @@
+{
+ "bid_id": "tarrant-county-tx-i20270018",
+ "bid_number": "I20270018",
+ "agency": "Tarrant County, TX",
+ "src": "Open",
+ "title": "Inpatient Substance Use Treatment Services for Veterans",
+ "close": "10/27/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Inpatient residential substance use treatment services, including all required services in the Scope of work. Estimated usage: three (3) veterans receiving forty-five (45) days of treatment each",
+   "qty": "135",
+   "uom": "Fixed fee total",
+   "note": "Please enter your per day price",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Inpatient residential substance use treatment services, including all required services in the Scope of work. Estimated usage: three (3) veterans receiving forty-five (45) days of treatment each 135 Fixed fee total No Response"
+  }
+ ],
+ "attachments_saved": [
+  "TC_General_Terms_and_Conditions053123.pdf",
+  "TC_Special_Terms_and_Conditions_Standard061124.pdf",
+  "TC_HUB_Policy053123.pdf",
+  "Deficiencies and Deviations Form.pdf",
+  "I20270018 - Statement of Work.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "TC_General_Terms_and_Conditions053123.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_Special_Terms_and_Conditions_Standard061124.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_HUB_Policy053123.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Deficiencies and Deviations Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "I20270018 - Statement of Work.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.0,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 657518,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-23T13:17:54.765440+00:00",
+ "extract_attempts": 1
+}

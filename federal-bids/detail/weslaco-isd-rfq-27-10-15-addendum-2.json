@@ -1,0 +1,131 @@
+{
+ "bid_id": "weslaco-isd-rfq-27-10-15-addendum-2",
+ "bid_number": "RFQ# 27-10-15 Addendum 2",
+ "agency": "Weslaco ISD",
+ "src": "Open",
+ "title": "Design Build Project for HVAC Improvements District-Wide (Phase I)",
+ "close": "10/27/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "SECTION I - Scope of Services and Other Information.pdf",
+  "SECTION II - Standard Terms and Conditions.pdf",
+  "SECTION III - Exclusive Proposal Terms.pdf",
+  "Section IV - Reference List.pdf",
+  "SECTION V - Ranking Criteria.pdf",
+  "SECTION VI - Felony Conviction Notification.pdf",
+  "SECTION VII - Insurance Requirements.pdf",
+  "SECTION VIII- Confidential Disclosure Statement.pdf",
+  "SECTION IX - Non-Collusion _ Signature Sheet.pdf",
+  "W9 Form with Instructions.pdf",
+  "271015 Design Build HVAC Improvements Phase I - Addendum 1.pdf",
+  "271015 Design Build HVAC Improvements Phase I - Addendum 2.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "SECTION I - Scope of Services and Other Information.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION II - Standard Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION III - Exclusive Proposal Terms.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Section IV - Reference List.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION V - Ranking Criteria.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION VI - Felony Conviction Notification.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION VII - Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION VIII- Confidential Disclosure Statement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION IX - Non-Collusion _ Signature Sheet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W9 Form with Instructions.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "271015 Design Build HVAC Improvements Phase I - Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "271015 Design Build HVAC Improvements Phase I - Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.7,
+  "attachment_fetches": 12,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 2224895,
+  "max_fetch_seconds": 0.26,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-23T13:20:07.717368+00:00",
+ "extract_attempts": 1
+}
