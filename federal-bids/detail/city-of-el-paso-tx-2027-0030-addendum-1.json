@@ -1,0 +1,144 @@
+{
+ "bid_id": "city-of-el-paso-tx-2027-0030-addendum-1",
+ "bid_number": "2027-0030 Addendum 1",
+ "agency": "City of El Paso, TX",
+ "src": "Open",
+ "title": "Oil Water Separator",
+ "close": "10/28/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 6,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "2027-0030 Bid Form.pdf",
+  "2027-0030 Solicitation Forms.pdf",
+  "Form 1295 Instructions and Example.pdf",
+  "W-9.pdf",
+  "2027-0030  Bid Submittal _ Signature Page.pdf",
+  "A001.pdf",
+  "file_6"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2027-0030 Bid Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2027-0030 Solicitation Forms.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form 1295 Instructions and Example.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "W-9.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "2027-0030  Bid Submittal _ Signature Page.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "A001.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "file_6",
+   "kind": "?",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2027-0030 Bid Form.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Item No.",
+    "Description",
+    "Unit of\nMeasure",
+    "Minimum\nApproximate\nQuantities",
+    "Maximum\nApproximate\nQuantities\n(A)",
+    "Price\n(B)",
+    "Yearly Total\nC=AXB\n(C )",
+    "3-Year Total\nD=CX3\n(D)"
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "1",
+     "Liquid Vacuum Fee",
+     "Per Gallon",
+     "6,500",
+     "13,000",
+     "",
+     "$ -",
+     "$ -"
+    ],
+    [
+     "2",
+     "Contaminated Fluids Disposal",
+     "Per Gallon",
+     "55",
+     "350",
+     "",
+     "$ -",
+     "$ -"
+    ],
+    [
+     "3",
+     "Parts Washer Service",
+     "Each",
+     "4",
+     "12",
+     "",
+     "$ -",
+     "$ -"
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "broken link: play-share-and-download-meeting-recordings-in-microsoft-teams",
+  "broken link: start-stop-and-download-live-transcripts-in-microsoft-teams-meetings"
+ ],
+ "latency": {
+  "bid_seconds": 27.7,
+  "attachment_fetches": 9,
+  "attachment_seconds": 11.4,
+  "attachment_bytes": 14358539,
+  "max_fetch_seconds": 10.17,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-24T13:25:03.809559+00:00",
+ "extract_attempts": 1
+}

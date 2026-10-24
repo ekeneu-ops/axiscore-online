@@ -1,0 +1,223 @@
+{
+ "bid_id": "pearland-isd-tx-26-0901-1-addendum-1",
+ "bid_number": "26-0901-1 Addendum 1",
+ "agency": "Pearland ISD, TX",
+ "src": "Open",
+ "title": "Sale of Surplus Property- Vacant Land",
+ "close": "10/28/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Purchase Price / Bid Amount",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter the total purchase price offered for the Property. The Purchase Price shall not be reduced by Buyer\u2019s acquisition, due diligence, financing, title, survey, or closing costs. The only deduction considered in determining the net evaluated bid will be any Buyer\u2019s broker commission requested in the Bid and accepted by the District. Minimum Bid Amount: $8,250,000",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Purchase Price / Bid Amount 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Buyer\u2019s Broker Commission %",
+   "qty": "1",
+   "uom": "",
+   "note": "Enter the percentage of the Purchase Price requested to be paid by Pearland ISD as Buyer\u2019s broker commission, up to a maximum of 1.00%. If no Buyer\u2019s broker commission is requested, select No Bid. Maximum Commission: 1.00% of the Purchase Price",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Buyer\u2019s Broker Commission % 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Buyer\u2019s Broker Commission Amount",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter the total dollar amount of the Buyer\u2019s broker commission requested to be paid from the District\u2019s sale proceeds. If no Buyer\u2019s broker commission is requested, select No Bid.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Buyer\u2019s Broker Commission Amount 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Net Proceeds to District",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Enter the total purchase price offered for the property, minus Buyer\u2019s Broker Commission. If not applicable, enter full bid amount.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Net Proceeds to District 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Conflict of Interest _CIQ_.pdf",
+  "HB1295 Instructions and Sample.pdf",
+  "IRS W9 Form.pdf",
+  "CSB 26-0901-1 Sale of Surplus Property Solicitation.pdf",
+  "Exhibit A- Images of Property.pdf",
+  "Exhibit B - Agreement For Purchase and Sale of Unimproved Real Property.pdf",
+  "CSB 26-0901-1 Addendum.pdf",
+  "Zoning Map_Property ID 164165_ 164167_ and 171756.pdf",
+  "Water and Drainage Map_Property ID 164165 164167 and 171756.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Conflict of Interest _CIQ_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "HB1295 Instructions and Sample.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "IRS W9 Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "CSB 26-0901-1 Sale of Surplus Property Solicitation.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit A- Images of Property.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Exhibit B - Agreement For Purchase and Sale of Unimproved Real Property.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CSB 26-0901-1 Addendum.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Zoning Map_Property ID 164165_ 164167_ and 171756.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Water and Drainage Map_Property ID 164165 164167 and 171756.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 2
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Water and Drainage Map_Property ID 164165 164167 and 171756.pdf",
+   "sheet": 0,
+   "header_row": 13,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "d\nL\nn\n\u00a1\nSTATUS Private,Closed - Closed Storm System Regional\nActive City Fiber TYPE, SIZE Sub-Regional\nFuture Fiber Project Force 16\" - 20\" ManholeType\n2026 Extension 2\" - 15\" Manhole\nraining Center Proposed CIP 16\" - 54\" WACS\nBackflow Preventer Force 2\" - 15\" Size\nMaintenance_Drainage,Type Wastewater Treatment Plant 1\" - 15\"\nmplexes; West Pearland Community Center City,Open - Open Ditch Locality 16\" - 30\"\nnt Corporation City,Hybrid - Closed w/Shallow Swale on Top Supplemental <all other values>\nCity,Closed - Closed Storm System Local Water Plant\nPearland Library; Westside Public Library\nBDD4,Open - Open Ditch",
+    "1 inch = 3,009 feet\n0 0.3 0.6\nmi\nThis product is for informational purposes and may not have been\nprepared for or be suitable for legal, engineering, or surveying\npurposes. It does not represent an on-the-ground survey and\nrepresents only the approximate relative location of property boundaries.\nMAP PREPARED: OCTOBER 2026\nCREATED WITH WEB PRINT TOOL",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "Pearland Economic Developme\nTom Reid Public Library ; West",
+     "Pearland Economic Developme\nTom Reid Public Library ; West",
+     "Pearland Economic Developme\nTom Reid Public Library ; West",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Water and Drainage Map_Property ID 164165 164167 and 171756.pdf",
+   "sheet": 1,
+   "header_row": 13,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "d\nL\nn\n\u00a1\nLocality 2\" - 15\" Maintenance_Drainage,Type\nSupplemental 16\" - 54\" City,Open - Open Ditch\nLocal Force 2\" - 15\" City,Hybrid - Closed w/Shallow Swale on Top\nRegional ManholeType City,Closed - Closed Storm System\ng Center Sub-Regional Manhole BDD4,Open - Open Ditch\nID WACS Private,Closed - Closed Storm System\nJHEC STATUS Size\nes; West Pearland Community Center Longwood Active City Fiber 1\" - 15\"\nBarry Rose Future Fiber Project 16\" - 30\"\nporation UTILITY 2026 Extension <all other values>\nnd Library; Westside Public Library CITY OF PEARLAND Proposed CIP Water Plant\nTYPE, SIZE R-2 - Medium Density Residential - Single Family\nBackflow Preventer\nForce 16\" - 20\" GB - General Business",
+    "1 inch = 3,009 feet\n0 0.3 0.6\nmi\nThis product is for informational purposes and may not have been\nprepared for or be suitable for legal, engineering, or surveying\npurposes. It does not represent an on-the-ground survey and\nrepresents only the approximate relative location of property boundaries.\nMAP PREPARED: OCTOBER 2026\nCREATED WITH WEB PRINT TOOL",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "",
+     "Tom Reid Public Library ; West Pearla\nWastewater Treatment Plant",
+     "Tom Reid Public Library ; West Pearla\nWastewater Treatment Plant",
+     "Tom Reid Public Library ; West Pearla\nWastewater Treatment Plant",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 27.3,
+  "attachment_fetches": 9,
+  "attachment_seconds": 2.0,
+  "attachment_bytes": 19876658,
+  "max_fetch_seconds": 0.65,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-24T13:13:27.865762+00:00",
+ "extract_attempts": 1
+}

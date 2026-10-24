@@ -2,118 +2,273 @@
  "bid_id": "city-of-west-des-moines-ia-na",
  "bid_number": "NA",
  "agency": "City of West Des Moines, IA",
- "src": "Invited",
- "title": "HPE Aruba Networking Equipment",
- "close": "10/23/2026 03:00 PM (ET)",
+ "src": "Open",
+ "title": "Replacement Shade Canopies",
+ "close": "10/28/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
  "extraction_status": "EXTRACTED",
  "items_source": "attachments",
- "lines_recovered": 3,
+ "lines_recovered": 12,
  "grid_empty_or_form": true,
  "onscreen_grid_count": 1,
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "10-02-26 HPE Aruba Networking Equipment.pdf"
+  "10-16-26 Replacement Shade Canopies - Aquatic Center.pdf",
+  "10-16-26 Replacement Shade Canopies - Aquatic Center - Bid Form.docx"
  ],
  "parsed_docs": [
   {
-   "name": "10-02-26 HPE Aruba Networking Equipment.pdf",
+   "name": "10-16-26 Replacement Shade Canopies - Aquatic Center.pdf",
    "kind": "pdf",
-   "tables": 2,
+   "tables": 7,
    "note": "",
-   "candidates": 2
+   "candidates": 6
+  },
+  {
+   "name": "10-16-26 Replacement Shade Canopies - Aquatic Center - Bid Form.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
   }
  ],
  "candidate_tables": [
   {
-   "source": "10-02-26 HPE Aruba Networking Equipment.pdf",
+   "source": "10-16-26 Replacement Shade Canopies - Aquatic Center.pdf",
    "sheet": 0,
    "header_row": 0,
    "headers": [
     "Item",
-    "Manufacturer / Model",
-    "Description",
-    "Quantity"
+    "Facility",
+    "Maximum Quantity",
+    "Nominal Size",
+    "Existing Structure /\nCanopy Description"
    ],
-   "score": 2,
-   "n_rows": 3,
+   "score": 3,
+   "n_rows": 7,
    "sample": [
     [
+     "H-1",
+     "Holiday Aquatic Center",
+     "5",
+     "14'-0\" x 22'-0\"",
+     "Two Post Hip Canopy"
+    ],
+    [
+     "H-2",
+     "Holiday Aquatic Center",
      "1",
-     "HPE Aruba Networking\nS0G01A",
-     "HPE Aruba Networking CX 6300M 24p\n10M/100M/1G 4p SFP56 50G TAA Switch",
-     "5"
+     "16'-0\" x 10'-6\"",
+     "Slide Tower Canopy-2\nSlides"
     ],
     [
-     "2",
-     "HPE Aruba Networking\nJL085A",
-     "680-Watt Power Supply",
-     "10"
-    ],
-    [
-     "3",
-     "HPE Aruba Networking\nJL669B",
-     "Fan Module",
-     "5"
+     "H-3",
+     "Holiday Aquatic Center",
+     "1",
+     "6'-5\" x 7'-5\"",
+     "Slide Tower Canopy\nDrop Slide"
     ]
    ]
   },
   {
-   "source": "10-02-26 HPE Aruba Networking Equipment.pdf",
+   "source": "10-16-26 Replacement Shade Canopies - Aquatic Center.pdf",
    "sheet": 1,
    "header_row": 0,
    "headers": [
     "Item",
-    "Manufacturer /\nModel",
-    "Quantity",
-    "Unit Price",
-    "Extended\nPrice"
+    "Facility",
+    "Maximum Quantity",
+    "Nominal Size",
+    "Existing Structure /\nCanopy Description"
    ],
    "score": 3,
-   "n_rows": 3,
+   "n_rows": 7,
    "sample": [
     [
-     "HPE Aruba Networking CX 6300M\n24p 10M/100M/1G 4p SFP56 50G\nTAA Switch",
-     "S0G01A",
+     "V-2",
+     "Valley View Aquatic\nCenter",
+     "1",
+     "7'-0\" x 7'-3\"",
+     "Slide Canopy -West Drop\nSlide"
+    ],
+    [
+     "V-3",
+     "Valley View Aquatic\nCenter",
+     "1",
+     "10'-5\" x 5'-7\"",
+     "Slide Canopy - Speed\nSlide"
+    ],
+    [
+     "V-4",
+     "Valley View Aquatic\nCenter",
+     "1",
+     "10'-0\" x 7'-3\"",
+     "Slide Canopy \u2013 East Drop\nSlide"
+    ]
+   ]
+  },
+  {
+   "source": "10-16-26 Replacement Shade Canopies - Aquatic Center.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Facility",
+    "Maximum Qty",
+    "Description / Nominal\nSize",
+    "Unit Price",
+    "Extended Price"
+   ],
+   "score": 3,
+   "n_rows": 12,
+   "sample": [
+    [
+     "H-1",
+     "Holiday",
      "5",
+     "Two Post Hip Canopy -\n14'-0\" x 22'-0\"",
      "$__________",
      "$__________"
     ],
     [
-     "HPE Aruba Networking 680-Watt\nPower Supply",
-     "JL085A",
-     "10",
+     "H-2",
+     "Holiday",
+     "1",
+     "Slide Tower Canopy\n-2 Slides - 16'-0\" x 10'-\n6\"",
      "$__________",
      "$__________"
     ],
     [
-     "HPE Aruba Networking Fan Module",
-     "JL669B",
-     "5",
+     "H-3",
+     "Holiday",
+     "1",
+     "Slide Tower Canopy -\nDrop Slide - 6'-5\" x 7'-\n5\"",
      "$__________",
      "$__________"
+    ]
+   ]
+  },
+  {
+   "source": "10-16-26 Replacement Shade Canopies - Aquatic Center.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Facility",
+    "Maximum Qty",
+    "Description / Nominal\nSize",
+    "Unit Price",
+    "Extended Price"
+   ],
+   "score": 3,
+   "n_rows": 2,
+   "sample": [
+    [
+     "V-7",
+     "Valley View",
+     "1",
+     "Four Post Hip Canopy -\n33'-3\" x 33'-3\"-\nConcessions Area",
+     "$__________",
+     "$__________"
+    ],
+    [
+     "V-8",
+     "Valley View",
+     "1",
+     "Four Post Hip Canopy -\n27'-10\" x 20'-0\"",
+     "$__________",
+     "$__________"
+    ]
+   ]
+  },
+  {
+   "source": "10-16-26 Replacement Shade Canopies - Aquatic Center.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Maximum Qty",
+    "Nominal Size",
+    "Existing Structure /\nCanopy Description",
+    "Field Verification"
+   ],
+   "score": 3,
+   "n_rows": 6,
+   "sample": [
+    [
+     "H-1",
+     "5",
+     "14'-0\" x 22'-0\"",
+     "Two Post Hip Canopy",
+     "Required before\nfabrication"
+    ],
+    [
+     "H-2",
+     "1",
+     "16'-0\" x 10'-6\"",
+     "Slide Tower Canopy-2\nSlides",
+     "Required before\nfabrication"
+    ],
+    [
+     "H-3",
+     "1",
+     "6'-5\" x 7'-5\"",
+     "Slide Tower Canopy -\nDrop Slide",
+     "Required before\nfabrication"
+    ]
+   ]
+  },
+  {
+   "source": "10-16-26 Replacement Shade Canopies - Aquatic Center.pdf",
+   "sheet": 5,
+   "header_row": 0,
+   "headers": [
+    "Item",
+    "Maximum Qty",
+    "Nominal Size",
+    "Existing Structure /\nCanopy Description",
+    "Field Verification"
+   ],
+   "score": 3,
+   "n_rows": 8,
+   "sample": [
+    [
+     "V-1",
+     "8",
+     "14'-0\" x 22'-0\"",
+     "Two Post Hip Canopy",
+     "Required before\nfabrication"
+    ],
+    [
+     "V-2",
+     "1",
+     "7'-0\" x 7'-3\"",
+     "Slide Canopy \u2013 West\nDrop Slide",
+     "Required before\nfabrication"
+    ],
+    [
+     "V-3",
+     "1",
+     "10'-5\" x 5'-7\"",
+     "Slide Canopy - Speed\nSlide",
+     "Required before\nfabrication"
     ]
    ]
   }
  ],
  "notes": [],
  "latency": {
-  "bid_seconds": 5.5,
-  "attachment_fetches": 1,
-  "attachment_seconds": 0.1,
-  "attachment_bytes": 131626,
-  "max_fetch_seconds": 0.05,
+  "bid_seconds": 5.9,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 517644,
+  "max_fetch_seconds": 0.1,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-01T13:17:27.029900+00:00",
- "extract_attempts": 7,
- "lines_total": 3,
- "lines_matched": 2,
- "coverage_pct": 66.7,
- "coverage_basis": "line_count",
- "evidence_path": "fb_records/city-of-west-des-moines-ia-na/coverage.json"
+ "captured_at": "2026-10-24T13:23:54.388650+00:00",
+ "extract_attempts": 8
 }

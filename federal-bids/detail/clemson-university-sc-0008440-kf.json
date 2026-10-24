@@ -1,0 +1,297 @@
+{
+ "bid_id": "clemson-university-sc-0008440-kf",
+ "bid_number": "0008440-KF",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Chiller Optimization Software and Maintenance",
+ "close": "10/28/2026 01:45 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:chiller",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Campus Chiller Plant Optimization",
+   "qty": "1",
+   "uom": "Lot",
+   "note": "The price that you input on this line must reflect your 5 year pricing, even though this contract is for a series of 1 year agreements no too exceed 5 years in total.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Campus Chiller Plant Optimization 1 Lot No Response"
+  }
+ ],
+ "attachments_saved": [
+  "0008440 Scope of Work.pdf",
+  "Attachment A - Project Manual for Optimization Services and Support _1_.pdf",
+  "0008440 Appendix B Bidding Schedule.xlsx",
+  "Bidding-Terms and Conditions Revision G 2025.12.15.pdf",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+  "IMPORTANT TAX NOTICE.doc"
+ ],
+ "parsed_docs": [
+  {
+   "name": "0008440 Scope of Work.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment A - Project Manual for Optimization Services and Support _1_.pdf",
+   "kind": "pdf",
+   "tables": 239,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "0008440 Appendix B Bidding Schedule.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bidding-Terms and Conditions Revision G 2025.12.15.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Attachment A - Project Manual for Optimization Services and Support _1_.pdf",
+   "sheet": 10,
+   "header_row": 0,
+   "headers": [
+    "CHILLER NETWORK POINTS\n(Required Points) AV CHW Return CHW Supply\nCHWVx From Campus To Campus\nPOINT DESCRIPTION TYPE\nChilled Water Supply Temperature AV\nChilled Water Return Temperature AV\nCT2 VFD CT1 VFD\nEntering Condenser Water Temperature AV AV AV\nNetwork Connection Network Connection\nLeaving Condenser Water Temperature AV CHWDPx CHWDP\nAV Condenser Refrigerant Pressure AV\nOAT Condenser Refrigerant Temperature AV\nDP DP\nEach Cell Evaporator Refrigerant Pressure AV\nAV\nEvaporator Refrigerant Temperature AV\n4,250 GPM OAH\nChiller Alarm/Fault Message AV\n85-95 deg F AV Total Chiller kW AV\n78 deg F WB OATWB Chiller State AV\nChilled Water Supply Setpoint Adjust AV AV AV\n50 hp each\nChiller % Motor Current AV CHWRT CHWST\nCompressor Discharge Temperature AV\nCooling Tower #2 Cooling Tower #1 Guide Vane Position AV\nVFD Output Frequency AV AV\nChiller Start/Stop BV CHWFLO\nCOOLING TOWER SUMP VFD POINTS\n(Required Points)\nPOINT DESCRIPTION TYPE\nVFD Output Frequency AV\nBV BV VFD kW AV\nCT1EVLV CT2EVLV VFD Status BV\nVFD Start/Stop BV\nCONDENSER (TYP) EVAPORATOR (TYP) AV\nMin GPM \u2013 2,059 Min GPM \u2013 879 CHWBPV\nMax GPM \u2013 7,549 Max GPM \u2013 6,442\nDesign GPM \u2013 4,200 Design GPM \u2013 2,800\nDesign PD \u2013 18.88 ft Design PD \u2013 13.01 ft\n85/94.44 Deg F 40/51.94 Deg F\nDesign kW \u2013 859 Design kW \u2013 859\nAV\nAV\nCH2CDWRTS CH2 CH2CHWSTS\nNetwork Connection\nPCHWP2 VFD\nCH-2: 1400 TONS Network Connection\nCDWP2 VFD\nNetwork Connection TRANE VS\nCVHF1470\nAV AV PCHWP1&2\nCH2CHWFLO CH2CDWSTS AV AV BV 200 HP, 2,800 GPM,\nCDWP1&2 CH2CHWFLO CH2CHWRTS CH2CHWVLV 170 FT HD\nAV\n100 HP, 4,250 GPM,\nCH1CDWRTS AV\n68 FT HD CH1 CH1CHWSTS PCHWP1 VFD\nNetwork Connection Network Connection\nCH-1: 1400 TONS\nCDWP1 VFD\nNetwork Connection TRANE VS\nCVHF1470\nAV AV AV AV BV\nLEGEND CH1CDWSTS CH1CHWFLO CH1CHWRTS CH1CHWFLO CH1CHWVLV\nPrimary Chilled Water Piping\nCondenser Water Piping TTIITTLLEE\nCCLLEEMMSSOONN UUNNIIVVEERRSSIITTYY \u2013\u2013 EEAASSTT PPLLAANNTT\nNotes:\nAutomatically Operated Valves\n1. All pumps are operated by variable speed drives. Drives are set to limit current to DDEESSCCRRIIPPTTIIOONN\nNormally Closed Manual Shutoff Valves maximum motor nameplate rating including service factor. CCHHIILLLLEERR PPLLAANNTT CCOONNTTRROOLLSS DDIIAAGGRRAAMM\n2. All pumps incorporate check valves to prevent reverse flow through pumps\nCheck Valve 3. Network connections for Variable Speed Drives shall include at a minimum: On/Off FFIILLEENNAAMMEE DDRRAAWWNN BBYY SSCCAALLEE PPAAGGEE RREEVVIISSEEDD DDAATTEE\nControl, Speed Control, Output Frequency, Drive Status, and Drive kW output. CClleemmssoonn UUnniivveerrssiittyy EEaasstt PPllaanntt LLOOOOPP EERRIICC TTOOBBAACCKK NNoonnee 11 OOFF 11 0011//0088//22001155\nCCoonnttrroollss DDiiaaggrraamm vv11",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "TTIITTLLEE",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "CCLLEEMMSSOONN UUNNIIVVEERRSSIITTYY \u2013\u2013 EEAASSTT PPLLAANNTT",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "DDEESSCCRRIIPPTTIIOONN",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Attachment A - Project Manual for Optimization Services and Support _1_.pdf",
+   "sheet": 48,
+   "header_row": 0,
+   "headers": [
+    "AV CHW Supply CHW Return\nCT1AFan VFD CT1BFan VFD CT1CFan VFD CDWRT AV\nNetwork Connection Network Connection Network Connection OAT\nCT 1-3 AV DP\nAV AV AV\n6000 GPM OAH\nCT1AEVLV CT1BEVLV CT1CEVLV\n95\u00b0-85 F\nAV\nAV DP\n78\u00b0 F WB CHWDPx\nCDWFLO\n75 hp each AV\nTyp. Condenser Design Typ. Evaporator Design CHWFLO2\nDesign flow: 4,500 gpm Design flow: 2,400 gpm\nMin flow: 2,066 gpm Min flow: 894 gpm\nCooling Tower #1A Cooling Tower #1B Cooling Tower #1C Max flow: 7,574 gpm Max flow: 6,558 gpm AV AV\n85\u00b0F \u2013 94.4\u00b0F 42\u00b0F \u2013 57\u00b0F CHWST CHWRT\nAV\n20.3 FT PD 9.6 FT PD\nAV 882.5 kW 882.5 kW AV AV CHWBPV\nCHWFLO\nCH1CDWVLV R-123 R-123 CH1CHWVLV\nAV CH1 AV\nCH1CDWFLO Network Connection CH1CHWFLO\n1500 TON TRANE VS\nCHWP1\nDP DP\nCHILLER #1 3000 GPM, 200 HP, 175 FT HD\nModel CVFH1470\nCHWP1 VFD\nNetwork Connection\nAV\nCDWST\nAV AV\nCH2CDWVLV CH2CHWVLV\nAV CH2 AV\nCHILLER NETWORK POINTS\nCH2CDWFLO Network Connection CH2CHWFLO\n(Required Points)\nCDWP1 VFD\nCHWP2\nPOINT DESCRIPTION TYPE Network Connection 1500 TON TRANE VS 3000 GPM, 200 HP, 175 FT HD\nChilled Water Supply Temperature AV DP DP\nChilled Water Return Temperature AV CHILLER #2 CHWP2 VFD\nEntering Condenser Water Temperature AV Model CVHF1470 Network Connection\nLeaving Condenser Water Temperature AV\nCondenser Refrigerant Pressure AV\nCDWP1 - 4500 GPM,\nCondenser Refrigerant Temperature AV\n150 HP, 100 FT HD\nEvaporator Refrigerant Pressure AV AV AV\nEvaporator Refrigerant Temperature AV CDWP2 VFD CH3CDWVLV AV CH3 CH3CHWVLV AV\nChiller Alarm/Fault Message AV Network Connection CH3CDWFLO Network Connection CH3CHWFLO\nTotal Chiller kW AV CHWP3\nChiller State AV 3000 GPM, 200 HP, 175 FT HD\nChilled Water Supply Setpoint Adjust AV 1450 TON YORK VS\nChiller % Motor Current AV DP DP CHWP3 VFD\nCHILLER #3\nCompressor Discharge Temperature AV Network Connection\nGuide Vane Position AV CDWP2 - 4500 GPM, Model CVHF1470\nVFD Output Frequency AV 150 HP, 100 FT HD\nChiller Start/Stop BV\nCDWP3 VFD\nNetwork Connection AV AV\nCH4CDWVLV CH4CHWVLV\nAV CH4\nVFD POINTS CH4CDWFLO Network Connection AV CHWP4\n(Required Points) CH4CHWFLO 3000 GPM, 200 HP, 175 FT HD\nPOINT DESCRIPTION TYPE\n1450 TON YORK VS\nVFD Output Frequency AV CDWP3 - 4500 GPM, DP DP CHWP4 VFD\nVFD kW AV 150 HP, 100 FT HD CHILLER #4 Network Connection\nVFD Status BV\nModel CVHF1470\nVFD Start/Stop BV CDWP4 VFD\nNetwork Connection\nLEGEND\nPrimary Chilled Water Piping CDWP4 - 4500 GPM,\n150 HP, 100 FT HD\nCondenser Water Piping\nFuture TITLE\nClemson University West Plant Controls Diagram - Chiller Plant\nAutomatically Operated Valves Notes:\n1. All pumps are operated by variable speed drives. Drives are set to limit current to DDEESSCCRRIIPPTTIIOONN\nNormally Closed Manual Shutoff Valves maximum motor nameplate rating including service factor. CCOONNTTRROOLLSS DDIIAAGGRRAAMM,, CCHHIILLLLEERR PPLLAANNTT\n2. All pumps incorporate check valves to prevent reverse flow through pumps\nCheck Valve 3. Network connections for Variable Speed Drives shall include at a minimum: On/Off DRAWN BY SCALE PAGE DRAWING NUMBER Revision DATE OF ISSUE\nControl, Speed Control, Output Frequency, Drive Status, and Drive kW output. Carlos Valdez, PE None 1 OF 1 09/06/2016",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "TITLE",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Clemson University West Plant Controls Diagram - Chiller Plant",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "DDEESSCCRRIIPPTTIIOONN",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Attachment A - Project Manual for Optimization Services and Support _1_.pdf",
+   "sheet": 93,
+   "header_row": 0,
+   "headers": [
+    "AI DO\nAI CH1CDWSTS CH1HXCDV CH1\nCDWP1 VFD\nCT1Fan VFD CT2Fan VFD CT3Fan VFD AI CH1CDWFLO Network Connection\nNetwork Connection\nNetwork Connection Network Connection Network Connection CDWRT\nCONSTANT SPEED\nDO DO DO\nCT1EVLV CT2EVLV CT3EVLV CHILLER #1\nCT-1: 3 cells, 3600 GPM\n1200 TON\neach, 50 HP fans,\n78 deg F WB, CDWP1 - 3600\n85-95 deg F CDW GPM, 100 HP, 88 HINFPE-1\nFT HD\nCooling Tower #1 Cooling Tower #2 Cooling Tower #3 Not\nUsed\nAI\nCH1CDWRTS\nCOOLING CHW: 2400 GPM, 57-50 deg F\nCDW: 3600 GPM, 47-51.7 deg F\nTOWER\nAI DO\nSUMP\nAI AI CH2CDWSTS CH2HXCDV CH2\nCDWP2 VFD\nCDWST CH2CDWFLO Network Connection\nNetwork Connection\nCONSTANT SPEED\nCHILLER #2\n1200 TON\nCHILLER POINTS CDWP2 - 3600\n(Required Points)\nGPM, 100 HP, 88\nHINFPE-2\nPOINT DESCRIPTION TYPE FT HD\nChiller Start/Stop DO\nChiller Status DI\nChiller kW AI\nChiller Alarm/Fault Message AI Not\nChiller Demand Limiting AO\nChilled Water Supply Setpoint Adjust AO AI Used\nChilled Water Supply Temperature AI CH2CDWRTS\nChilled Water Return Temperature AI 699.8 kW, 3600 GPM, 8.47 FT PD\nEntering Condenser Water Temperature AI Min GPM: 2330., Max GPM: 8530 CHW: 2400 GPM, 57-50 deg F\nLeaving Condenser Water Temperature AI 85-94.39 deg F CDW: 3600 GPM, 47-51.7 deg F\nCondenser Refrigerant Pressure AI\nCondenser Refrigerant Temperature AI AI DO\nEvaporator Refrigerant Pressure AI AI CH3CDWSTS CH3HXCDV CH3\nCDWP3 VFD\nEvaporator Refrigerant Temperature AI CH3CDWFLO Network Connection\nNetwork Connection\nGuide Vane Position AI\nCONSTANT SPEED\nCHILLER #3\nVFD NETWORK POINTS 1200 TON\n(Required Points)\nCDWP3 - 3600\nPOINT DESCRIPTION TYPE GPM, 100 HP, 88\nHINFPE-3\nVFD Start/Stop DO FT HD\nVFD Status DI\nVFD Speed Setting AO\nVFD kW AI\nNot\nAI Used\nCH3CDWRTS\nLEGEND CHW: 2400 GPM, 57-50 deg F\nCDW: 3600 GPM, 47-51.7 deg F\nPrimary Chilled Water Piping\nNotes:\nCondenser Water Piping 1. All pumps are operated by variable speed drives. Drives are set to limit current to TTIITTLLEE\nmaximum motor nameplate rating including service factor.\nCClleemmssoonn HHiinnssoonn CChhiilllleedd WWaatteerr PPllaanntt\nAutomatically Operated Valves 2. All pumps incorporate check valves to prevent reverse flow through pumps\n3. Network connections for Variable Speed Drives shall include at a minimum: On/Off DDEESSCCRRIIPPTTIIOONN\nNormally Closed Manual Shutoff Valves Control, Speed Control, Drive Status, and Drive kW output. CCOONNDDEENNSSEERR WWAATTEERR LLOOOOPP CCOONNTTRROOLLSS DDIIAAGGRRAAMM\n4. VFD speed only required if optional chiller VFDs are installed.\nCheck Valve FFIILLEENNAAMMEE DDRRAAWWNN BBYY SSCCAALLEE PPAAGGEE RREEVVIISSEEDD DDAATTEE\nCClleemmssoonn UUnniivveerrssiittyy HHiinnssoonn PPllaanntt\nCC.. VVAALLDDEEZZ NNoonnee 11 OOFF 22 1111//0044//22001155 bbyy CCVV 0099//1166//22001100\nDDrraawwiinnggss..vvssdd",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "TTIITTLLEE",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "CClleemmssoonn HHiinnssoonn CChhiilllleedd WWaatteerr PPllaanntt",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "DDEESSCCRRIIPPTTIIOONN",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "0008440 Appendix B Bidding Schedule.xlsx",
+   "sheet": 0,
+   "header_row": 4,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "ENTER UNIT COST PER ITEM",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "Item",
+     "Description",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Units",
+     "Quantity",
+     "Enter Unit Cost",
+     "",
+     "Implementation and Services Costs"
+    ],
+    [
+     "1",
+     "Optimization Software & Implementation \u2013 Existing Chilled Water Plants ",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "job",
+     "1",
+     "0",
+     "",
+     "0"
+    ],
+    [
+     "2",
+     "Optimization Software and Support Annual Fee \u2013 West Plant Expansion Chiller Plant (optional)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "job",
+     "1",
+     "0",
+     "",
+     "0"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 10.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1420002,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-24T13:15:52.679498+00:00",
+ "extract_attempts": 1
+}

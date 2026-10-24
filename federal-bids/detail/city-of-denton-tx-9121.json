@@ -4,7 +4,7 @@
  "agency": "City of Denton, TX",
  "src": "Open",
  "title": "Apprenticeship Training",
- "close": "9/30/2026 03:00 PM (ET)",
+ "close": "10/28/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "demoted:svc:training",
@@ -425,59 +425,59 @@
   }
  ],
  "attachments_saved": [
-  "0_9121 Sample Contract.pdf",
-  "1_9121 SOW.pdf",
-  "2_9121 Insurance Requirements.pdf",
-  "3_9121 Class Sheet.xlsx",
-  "4_Conflict_of_Interest_Questionaire.docx",
-  "5_Safety_Record.docx",
-  "6_Contractor Wage Information.docx"
+  "9121 Sample Contract.pdf",
+  "9121 SOW.pdf",
+  "9121 Insurance Requirements.pdf",
+  "9121 Class Sheet.xlsx",
+  "Conflict_of_Interest_Questionaire.docx",
+  "Safety_Record.docx",
+  "Contractor Wage Information.docx"
  ],
  "parsed_docs": [
   {
-   "name": "0_9121 Sample Contract.pdf",
+   "name": "9121 Sample Contract.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "1_9121 SOW.pdf",
+   "name": "9121 SOW.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "2_9121 Insurance Requirements.pdf",
+   "name": "9121 Insurance Requirements.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "3_9121 Class Sheet.xlsx",
+   "name": "9121 Class Sheet.xlsx",
    "kind": "xlsx",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "4_Conflict_of_Interest_Questionaire.docx",
+   "name": "Conflict_of_Interest_Questionaire.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "5_Safety_Record.docx",
+   "name": "Safety_Record.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "6_Contractor Wage Information.docx",
+   "name": "Contractor Wage Information.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
@@ -489,7 +489,7 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 16.3,
+  "bid_seconds": 10.2,
   "attachment_fetches": 7,
   "attachment_seconds": 0.5,
   "attachment_bytes": 1476926,
@@ -497,6 +497,6 @@
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-09-22T14:03:36.485868+00:00",
- "extract_attempts": 3
+ "captured_at": "2026-10-24T13:23:29.796827+00:00",
+ "extract_attempts": 1
 }

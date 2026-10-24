@@ -1,0 +1,166 @@
+{
+ "bid_id": "city-of-lincoln-ne-26-202",
+ "bid_number": "26-202",
+ "agency": "City of Lincoln, NE",
+ "src": "Open",
+ "title": "Supply and Hauling Type B Rock Riprap Material for Lancaster County",
+ "close": "10/28/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Supply and Hauling Type B Rock Riprap Material to Roca Quarry Stockpile",
+   "qty": "204",
+   "uom": "Ton",
+   "note": "Hauling Time: 1 Day. Bid per ton only! All tonnages are estimated.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Supply and Hauling Type B Rock Riprap Material to Roca Quarry Stockpile 204 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Supply and Hauling Type B Rock Riprap Material to Raymond* Stockpile",
+   "qty": "214",
+   "uom": "Ton",
+   "note": "Hauling Time: 1 Day. Bid per ton only! All tonnages are estimated. *Vendor must haul on State Highways only!",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Supply and Hauling Type B Rock Riprap Material to Raymond* Stockpile 214 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Supply and Hauling Type B Rock Riprap Material to SW 100th & W Saltillo Stockpile",
+   "qty": "58",
+   "uom": "Ton",
+   "note": "Hauling Time: 1 Day. Bid per ton only! All tonnages are estimated.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Supply and Hauling Type B Rock Riprap Material to SW 100th & W Saltillo Stockpile 58 Ton No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Supply and Hauling Type B Rock Riprap Material to Waverly Stockpile",
+   "qty": "166",
+   "uom": "Ton",
+   "note": "Hauling Time: 1 Day. Bid per ton only! All tonnages are estimated.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Supply and Hauling Type B Rock Riprap Material to Waverly Stockpile 166 Ton No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders 11-2023.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "26-202 FY 26-27 Riprap Spec Sheet.pdf",
+  "SubmissionReceipt-InsuranceRequirements-2435.pdf",
+  "City of Lincoln Lancaster County Terms of Purchase -Law Rev. 2-11-2024 VERT.pdf",
+  "Gravel_Rock_Map _2_ _4_ _6_.pdf",
+  "Employee Classification Act COUNTY Affidavit.pdf",
+  "United States Citizenship Attestation Form.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "26-202 FY 26-27 Riprap Spec Sheet.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SubmissionReceipt-InsuranceRequirements-2435.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "City of Lincoln Lancaster County Terms of Purchase -Law Rev. 2-11-2024 VERT.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Gravel_Rock_Map _2_ _4_ _6_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Employee Classification Act COUNTY Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 12.6,
+  "attachment_fetches": 10,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 2049557,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-24T13:23:05.007726+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,58 @@
+{
+ "bid_id": "san-antonio-water-system-tx-1483390",
+ "bid_number": "1483390",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "ACCY ST MJ 6 IN BOLT NUTS GSKTS",
+ "close": "10/28/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "6-Inch Mechanical Joint Accessory Kit Includes Bolts Nuts and Gaskets Bolt & Nut Must Be Blue Fluoropolymer Coated",
+   "qty": "100",
+   "uom": "EACH",
+   "note": "SAWS No. 9063",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 6-Inch Mechanical Joint Accessory Kit Includes Bolts Nuts and Gaskets Bolt & Nut Must Be Blue Fluoropolymer Coated 100 EACH No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions One-Time Purchasing Buys under _50K 040323.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.4,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 219404,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-24T13:24:24.402528+00:00",
+ "extract_attempts": 1
+}

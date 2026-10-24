@@ -4,7 +4,7 @@
  "agency": "Miami U & Ohio U Purchasing Group",
  "src": "Open",
  "title": "Ohio University - Social Media Management Platform",
- "close": "10/23/2026 03:00 PM (ET)",
+ "close": "10/28/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -16,51 +16,51 @@
  "onscreen_priced_lines": 0,
  "onscreen_lines": [],
  "attachments_saved": [
-  "Exhibit A - Social Media Detailed Vendor Response Matrix.xlsx",
-  "Non-Disclosure and Data Protection.docx",
-  "IT Accessibility Software Qualtrics Survey.pdf",
-  "IT Security Outsourcing Technology Qualtrics Survey.pdf",
-  "Ohio University Software and Security Rider.pdf",
-  "OHIO University Side Letter 2026.docx"
+  "0_Exhibit A - Social Media Detailed Vendor Response Matrix.xlsx",
+  "1_Non-Disclosure and Data Protection.docx",
+  "2_IT Accessibility Software Qualtrics Survey.pdf",
+  "3_IT Security Outsourcing Technology Qualtrics Survey.pdf",
+  "4_Ohio University Software and Security Rider.pdf",
+  "5_OHIO University Side Letter 2026.docx"
  ],
  "parsed_docs": [
   {
-   "name": "Exhibit A - Social Media Detailed Vendor Response Matrix.xlsx",
+   "name": "0_Exhibit A - Social Media Detailed Vendor Response Matrix.xlsx",
    "kind": "xlsx",
    "tables": 2,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "Non-Disclosure and Data Protection.docx",
+   "name": "1_Non-Disclosure and Data Protection.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "IT Accessibility Software Qualtrics Survey.pdf",
+   "name": "2_IT Accessibility Software Qualtrics Survey.pdf",
    "kind": "pdf",
    "tables": 1,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "IT Security Outsourcing Technology Qualtrics Survey.pdf",
+   "name": "3_IT Security Outsourcing Technology Qualtrics Survey.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "Ohio University Software and Security Rider.pdf",
+   "name": "4_Ohio University Software and Security Rider.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
    "candidates": 0
   },
   {
-   "name": "OHIO University Side Letter 2026.docx",
+   "name": "5_OHIO University Side Letter 2026.docx",
    "kind": ".docx",
    "tables": 0,
    "note": "unsupported format",
@@ -70,14 +70,14 @@
  "candidate_tables": [],
  "notes": [],
  "latency": {
-  "bid_seconds": 7.6,
+  "bid_seconds": 7.5,
   "attachment_fetches": 6,
   "attachment_seconds": 0.6,
   "attachment_bytes": 865564,
-  "max_fetch_seconds": 0.11,
+  "max_fetch_seconds": 0.15,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-19T13:33:50.613198+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-24T13:17:13.762212+00:00",
+ "extract_attempts": 2
 }

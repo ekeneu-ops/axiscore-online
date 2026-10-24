@@ -1,0 +1,90 @@
+{
+ "bid_id": "city-of-moline-il-chs-h-47-51",
+ "bid_number": "CHS-H-47-51",
+ "agency": "City of Moline, IL",
+ "src": "Open",
+ "title": "CHS-H-47-51 JACOBSEN - 1002 53rd street Moline, IL",
+ "close": "10/28/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Location: 1 - Basement Trade: 22 - Plumbing 6700 - FLOOR DRAIN/BASEMENT/BATHROOM - 2.0 LF Address two non-functioning floor drains in the main basement room. We have already completed the replacement of water supply lines, water heater, and drain, waste, and vent stack in the basement through the Critical Assistance Program in 2025. Continue with sewer drain repairs. Enclose the work area with plastic to limit concrete dust from spreading throughout the basement and home. Remove and replace two basement floor drains. One is in the main basement room, and the second is in the basement bathroom shower floor area. Bring the basement bathroom area and drains up to code. Break and clear the concrete around the old drain. Cut and remove the damaged pipe and P-trap. Install a new code-compliant PVC P-trap assembly with backflow prevention, connect with a shielded rubber coupling, backfill with gravel, and patch the floor with new concrete sloped toward the drain. Test for proper installation and water flow. If the underground drain line leading to the main sewer is collapsed, crushed, or heavily rusted, replace the extended pipe. Include repair of all tear-out, including cement work and wall framing.",
+   "qty": "1",
+   "uom": "LF",
+   "note": "For questions regarding the project scope, specifications, or site access, please contact: Chris Day, Housing Construction Specialist Phone: (309) 524-2053",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "Bid Requirements _002_.pdf _198 KB_",
+  "Bid Requirements _002_.pdf",
+  "CHS-H-47-51 GEN SPECS.pdf",
+  "CHS-H-47-51 SCOPE OF WORK.pdf",
+  "CHS-H-47-51 SCOPE NOTES.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Bid Requirements _002_.pdf _198 KB_",
+   "kind": ".pdf _198 kb_",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Requirements _002_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CHS-H-47-51 GEN SPECS.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "CHS-H-47-51 SCOPE OF WORK.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "CHS-H-47-51 SCOPE NOTES.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.5,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 1413100,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-24T13:24:14.462896+00:00",
+ "extract_attempts": 1
+}
