@@ -1,10 +1,10 @@
 {
- "asof": "2026-10-24T06:25Z",
+ "asof": "2026-10-24T06:53Z",
  "ap": {
-  "net": 152570.06,
+  "net": 152501.72,
   "credits": 0.0,
   "credit_count": 11,
-  "net_after_credits": 152570.06,
+  "net_after_credits": 152501.72,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -31,8 +31,8 @@
     "total": 4451.29
    },
    "UNSCORED": {
-    "count": 1096,
-    "total": 43937.0
+    "count": 1098,
+    "total": 43868.66
    },
    "PARKED": {
     "count": 31,
@@ -57,8 +57,8 @@
     "total": 37876.34
    },
    "SPR": {
-    "count": 2231,
-    "total": 72545.6
+    "count": 2233,
+    "total": 72477.26
    }
   },
   "fedex": {
@@ -66,8 +66,8 @@
    "payable_total": 72.66,
    "parked_count": 31
   },
-  "asof": "2026-10-24T06:25Z",
-  "moved_pct": 0.0
+  "asof": "2026-10-24T06:53Z",
+  "moved_pct": -0.04
  },
  "held": {
   "net": 163639.41,
@@ -91,7 +91,7 @@
   "fev_through": "2026-10-24T05:36Z",
   "deferred_snapshot": "2026-10-24T06:06Z",
   "last_settlement_end": "2026-10-16",
-  "asof": "2026-10-24T06:25Z",
+  "asof": "2026-10-24T06:53Z",
   "moved_pct": 0.0
  },
  "fba": {
@@ -108,7 +108,7 @@
    "mirror": 44
   },
   "stock_asof": "2026-10-24T04:00Z",
-  "asof": "2026-10-24T06:25Z"
+  "asof": "2026-10-24T06:53Z"
  },
  "amex": {
   "owed": 2437.56,
@@ -121,7 +121,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-24T06:25Z"
+  "asof": "2026-10-24T06:53Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -132,14 +132,14 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-22",
-  "asof": "2026-10-24T06:25Z"
+  "asof": "2026-10-24T06:53Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 18596.86,
   "orders": 2,
   "oldest_days": 101,
-  "asof": "2026-10-24T06:25Z"
+  "asof": "2026-10-24T06:53Z"
  },
  "unbilled": {
   "cost": 4222.13,
@@ -157,13 +157,13 @@
    },
    "_held": {
     "SPR": {
-     "cost": 46211.02,
-     "docs": 1198,
-     "pool": 72859.88,
-     "orders": 317
+     "cost": 45344.46,
+     "docs": 1194,
+     "pool": 72004.72,
+     "orders": 312
     }
    }
   },
-  "asof": "2026-10-24T06:25Z"
+  "asof": "2026-10-24T06:53Z"
  }
 }
