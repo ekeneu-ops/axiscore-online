@@ -1,0 +1,150 @@
+{
+ "bid_id": "virgin-islands-housing-finance-authority-2026-ifb-026-addendum-1",
+ "bid_number": "2026-IFB-026 Addendum 1",
+ "agency": "Virgin Islands Housing Finance Authority",
+ "src": "Open",
+ "title": "Profit-D Electrical Meter Upgrades",
+ "close": "10/29/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 8,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 8,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Mobilization and Pre-Construction",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Mobilization, site assessment, coordination, site protection, scheduling, and preparation necessary to begin the work",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Mobilization and Pre-Construction 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Demolition and Removal of Existing Electrical Components",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Safely disconnect and remove the existing non-compliant meter base, service riser, conduits, conductors, and other associated components as required. Includes disposal of demolition debris.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Demolition and Removal of Existing Electrical Components 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Junction Box Installation",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Furnish and install a new compliant junction box serving four (4) apartments and one (1) house meter, including secure mounting and all required components and ensure arcing prevention.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 This item has been changed as part of an addendum. See 'Bid History' for details. Junction Box Installation 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Conduit and Electrical Conductors",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Furnish and install all required code-compliant conduits, service-entry conductors, wiring, fittings, connections, and related electrical components.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Conduit and Electrical Conductors 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Grounding System",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Furnish and install the required grounding system, including ground rods, solid copper grounding conductor, connections, and related components.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Grounding System 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Interior Electrical Modifications",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Complete any interior panel upgrades, modifications, connections, labeling, or related electrical work necessary to bring the system into compliance.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 This item has been deleted as part of an addendum. See 'Bid History' for details. Interior Electrical Modifications 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Testing, Labeling & Final Connections",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Complete hot/neutral/ground connections, labeling of each meter by apartment number and building address, system testing, and verification of proper operation.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Testing, Labeling & Final Connections 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Final Inspection, Energization & Cleanup",
+   "qty": "1",
+   "uom": "LS",
+   "note": "Coordinate final DPNR/WAPA inspections, meter installation/reconnection, final energization, removal of debris and temporary protection, and complete site cleanup.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Final Inspection, Energization & Cleanup 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2026-IFB-026 Profit D Electrical Meter Upgrades .pdf",
+  "2026-IFB-026 Profit D Electrical Meter Upgrades Addendum1.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-IFB-026 Profit D Electrical Meter Upgrades .pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-IFB-026 Profit D Electrical Meter Upgrades Addendum1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 9.4,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 982504,
+  "max_fetch_seconds": 0.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:24:50.139589+00:00",
+ "extract_attempts": 1
+}

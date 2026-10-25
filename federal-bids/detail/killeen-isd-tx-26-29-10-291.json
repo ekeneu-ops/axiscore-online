@@ -1,0 +1,75 @@
+{
+ "bid_id": "killeen-isd-tx-26-29-10-291",
+ "bid_number": "26-29-10-291",
+ "agency": "Killeen ISD, TX",
+ "src": "Open",
+ "title": "Fine Arts Contracted Services (Supplemental #1)",
+ "close": "10/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Form W-9 Request for Taxpayer Identification.pdf",
+  "Killeen ISD EDGAR Certifications Form.pdf",
+  "Pre-Employment or Pre-Service Affidavit.pdf",
+  "Form CIQ _Conflict of Interest_ 2024.pdf",
+  "KISD_Terms_and_Conditions_updated.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Form W-9 Request for Taxpayer Identification.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Killeen ISD EDGAR Certifications Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Pre-Employment or Pre-Service Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form CIQ _Conflict of Interest_ 2024.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "KISD_Terms_and_Conditions_updated.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 7.5,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 2028938,
+  "max_fetch_seconds": 0.12,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:28:39.905567+00:00",
+ "extract_attempts": 1
+}

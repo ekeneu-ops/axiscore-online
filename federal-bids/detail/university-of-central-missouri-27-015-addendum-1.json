@@ -1,0 +1,154 @@
+{
+ "bid_id": "university-of-central-missouri-27-015-addendum-1",
+ "bid_number": "27-015 Addendum 1",
+ "agency": "University of Central Missouri",
+ "src": "Open",
+ "title": "REBID - MARTIN BUILDING-HIGHLANDER THEATER SMOKE DETECTOR EQUIPMENT SUPPLY & INSTALLATION",
+ "close": "10/29/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "REBID - Highlander Theatre Smoke Detector Replacement Services",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Vendor agrees to furnish all material, labor, equipment, overhead, profit, and services including permits and all scheduled allowances necessary to complete the named project, according to the requirements of the Bid Documents and the Procurement and Contracting Documents.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 REBID - Highlander Theatre Smoke Detector Replacement Services 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "27-015 REBID Highlander Theatre Smoke Detect General Specs FINAL.pdf",
+  "27-015 REBID Highlander Theatre Smoke Detect Plans _ Drawings.pdf",
+  "UCM GENERAL CONTRACTUAL CONSTRUCTION REQUIREMENTS _ GENERAL FUNDING Rev 10.07.26.pdf",
+  "UCM Construction Insurance Requirements _revised 08-10-2022_.pdf",
+  "Missouri Division of Labor Standards Prevailing Wage Checklist as of 10.05.26.pdf",
+  "Missouri Division of Labor Standards Annual Wage Order 33 Current.pdf",
+  "Affidavit of Work Authorization.pdf",
+  "Safety Practices Ver 1 Nov 2016.pdf",
+  "2023 Construction_LD_Policy.pdf",
+  "eBond CentralMOPPBondV1Preview.pdf",
+  "Surety2000 Bid Bond Form.pdf",
+  "UCMO tax-exempt FORM.pdf",
+  "27-015 REBID Highlander Theatre Smoke Detector Pre-Bid Site Visit Attendance.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "27-015 REBID Highlander Theatre Smoke Detect General Specs FINAL.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "27-015 REBID Highlander Theatre Smoke Detect Plans _ Drawings.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "UCM GENERAL CONTRACTUAL CONSTRUCTION REQUIREMENTS _ GENERAL FUNDING Rev 10.07.26.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "UCM Construction Insurance Requirements _revised 08-10-2022_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Missouri Division of Labor Standards Prevailing Wage Checklist as of 10.05.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Missouri Division of Labor Standards Annual Wage Order 33 Current.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit of Work Authorization.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Safety Practices Ver 1 Nov 2016.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2023 Construction_LD_Policy.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "eBond CentralMOPPBondV1Preview.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Surety2000 Bid Bond Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "UCMO tax-exempt FORM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "27-015 REBID Highlander Theatre Smoke Detector Pre-Bid Site Visit Attendance.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.8,
+  "attachment_fetches": 13,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 7768443,
+  "max_fetch_seconds": 0.31,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:24:39.216635+00:00",
+ "extract_attempts": 1
+}

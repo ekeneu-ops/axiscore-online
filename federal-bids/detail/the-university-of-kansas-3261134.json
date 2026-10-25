@@ -1,0 +1,99 @@
+{
+ "bid_id": "the-university-of-kansas-3261134",
+ "bid_number": "3261134",
+ "agency": "The University of Kansas",
+ "src": "Open",
+ "title": "Outside Counsel Services",
+ "close": "10/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Solicitation Snapshot_Outside Counsel Services RFP.pdf",
+  "RFP Scope of Work_Outside Counsel Services.pdf",
+  "Solicitation Instructions.pdf",
+  "Practice Area Qualifications Statement_Submission Guidelines.pdf",
+  "FIRM NAME - Hourly Rate Sheet.xlsx",
+  "KU-146a Rev 02-25 _KU Purchasing_ FINAL 4907-4428-5212 v.1.pdf",
+  "KU Outside Counsel Guidelines.pdf",
+  "Sample Engagement for Legal Services.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Solicitation Snapshot_Outside Counsel Services RFP.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "RFP Scope of Work_Outside Counsel Services.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Solicitation Instructions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Practice Area Qualifications Statement_Submission Guidelines.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "FIRM NAME - Hourly Rate Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 15,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "KU-146a Rev 02-25 _KU Purchasing_ FINAL 4907-4428-5212 v.1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "KU Outside Counsel Guidelines.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sample Engagement for Legal Services.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.6,
+  "attachment_fetches": 8,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 1221727,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:28:58.240801+00:00",
+ "extract_attempts": 1
+}

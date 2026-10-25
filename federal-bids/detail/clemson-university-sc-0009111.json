@@ -1,0 +1,122 @@
+{
+ "bid_id": "clemson-university-sc-0009111",
+ "bid_number": "0009111",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "DO18 Vehicle Powertrain",
+ "close": "10/29/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 5,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 5,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Chevrolet LT4 Crate Engine (Wet Sump)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "All Offerors must submit a written quotation, including warranty information. Clemson University is designing and building a research prototype vehicle.The vehicle is an autonomous closed-wheel racecar. Supplier must deliver no later than 8 calendar weeks after contract award",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Chevrolet LT4 Crate Engine (Wet Sump) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "GM 10L90 10-speed auto transmission",
+   "qty": "1",
+   "uom": "EA",
+   "note": "All Offerors must submit a written quotation, including warranty information. Clemson University is designing and building a research prototype vehicle.The vehicle is an autonomous closed-wheel racecar. Supplier must deliver no later than 8 calendar weeks after contract award",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 GM 10L90 10-speed auto transmission 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "3",
+   "desc": "Chevrolet Performance LT4 Engine Controller Kit",
+   "qty": "1",
+   "uom": "EA",
+   "note": "All Offerors must submit a written quotation, including warranty information. Clemson University is designing and building a research prototype vehicle.The vehicle is an autonomous closed-wheel racecar. Supplier must deliver no later than 8 calendar weeks after contract award",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Chevrolet Performance LT4 Engine Controller Kit 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "4",
+   "desc": "Chevrolet Performance Transmission Install Kit",
+   "qty": "1",
+   "uom": "EA",
+   "note": "All Offerors must submit a written quotation, including warranty information. Clemson University is designing and building a research prototype vehicle.The vehicle is an autonomous closed-wheel racecar. Supplier must deliver no later than 8 calendar weeks after contract award",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Chevrolet Performance Transmission Install Kit 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "5",
+   "desc": "Moroso Circle Track Oil Pan",
+   "qty": "1",
+   "uom": "EA",
+   "note": "All Offerors must submit a written quotation, including warranty information. Clemson University is designing and building a research prototype vehicle.The vehicle is an autonomous closed-wheel racecar. Supplier must deliver no later than 8 calendar weeks after contract award",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Moroso Circle Track Oil Pan 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "IMPORTANT TAX NOTICE.doc",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 217623,
+  "max_fetch_seconds": 0.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:23:25.943931+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,59 @@
+{
+ "bid_id": "town-of-flower-mound-tx-2026-104-b-addendum-2",
+ "bid_number": "2026-104-B Addendum 2",
+ "agency": "Town of Flower Mound, TX",
+ "src": "Open",
+ "title": "Request for Statement of Qualifications for Subsurface Utility Engineering and Locating Services for Various Projects",
+ "close": "10/29/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "SOQ 2026-104-B Subsurface Utility Engineering - Final.pdf",
+  "2026-104-B Addendum _1_Final.pdf",
+  "2026-104-B Addendum _2_Final.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "SOQ 2026-104-B Subsurface Utility Engineering - Final.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-104-B Addendum _1_Final.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "2026-104-B Addendum _2_Final.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.1,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 3511730,
+  "max_fetch_seconds": 0.19,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:23:51.486232+00:00",
+ "extract_attempts": 1
+}

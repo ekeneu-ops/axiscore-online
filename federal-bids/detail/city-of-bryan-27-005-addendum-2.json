@@ -1,0 +1,280 @@
+{
+ "bid_id": "city-of-bryan-27-005-addendum-2",
+ "bid_number": "27-005 Addendum 2",
+ "agency": "City of Bryan",
+ "src": "Invited",
+ "title": "REQUEST FOR PROPOSAL WOODVILLE ROAD WIDENING PHASE 1 CITY JOB NO. 332-350-411-425-DE-2302",
+ "close": "10/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 171,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 27-005 Woodville Rd Widening Phase 1.pdf",
+  "Addendum No. 1_Acknowledgement.pdf",
+  "ATTACHMENT A - Bid Set-WR1-Construction Plans.pdf",
+  "ATTACHMENT B - Cost Proposal Bidbook _excel_.xlsx",
+  "Addendum No. 2.pdf",
+  "Bidbook Rev. 1 - Addendum 2.xlsx",
+  "Rev Construction Plans-Addendum 2.pdf",
+  "BTU Streetlight Plans-081726.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 27-005 Woodville Rd Widening Phase 1.pdf",
+   "kind": "pdf",
+   "tables": 21,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Addendum No. 1_Acknowledgement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ATTACHMENT A - Bid Set-WR1-Construction Plans.pdf",
+   "kind": "pdf",
+   "tables": 77,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ATTACHMENT B - Cost Proposal Bidbook _excel_.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Addendum No. 2.pdf",
+   "kind": "pdf",
+   "tables": 13,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bidbook Rev. 1 - Addendum 2.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Rev Construction Plans-Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 77,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "BTU Streetlight Plans-081726.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP 27-005 Woodville Rd Widening Phase 1.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "NO.",
+    "DESCRIPTION",
+    "QUANTITY",
+    "UNIT",
+    "COST",
+    "COST"
+   ],
+   "score": 3,
+   "n_rows": 11,
+   "sample": [
+    [
+     "GENERAL ITEMS",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Mobilization (per B/CS Spec. 01 71 13, see\nSpecial Provision No. 4, including, but not limited\nto, Project Identification Signs, set-up, bonding &\ninsurance, project overhead and any other related\nitems pertinent to the completion of the project)",
+     "1",
+     "LS",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Traffic Control (Including TCPs for all\nnecessary phases of construction, prepared by\nState of Texas \u2013 PE per TxMUTCD & approved\nby CoB)",
+     "1",
+     "LS",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "ATTACHMENT B - Cost Proposal Bidbook _excel_.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "NO.",
+    "DESCRIPTION",
+    "QUANTITY",
+    "UNIT",
+    "UNIT COST",
+    "",
+    "",
+    "TOTAL COST",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 159,
+   "sample": [
+    [
+     "GENERAL ITEMS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Mobilization (per B/CS Spec. 01 71 13, see Special Provision No. 4, including, but not limited to, Project Identification Signs, set-up, bonding & insurance, project overhead and any other related items pertinent to the completion of the project)",
+     "1",
+     "LS",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Traffic Control (Including TCPs  for all necessary phases of construction, prepared by State of Texas \u2013 PE per TxMUTCD & approved by CoB)",
+     "1",
+     "LS",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum No. 2.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "NO.",
+    "DESCRIPTION",
+    "QUANTITY",
+    "UNIT",
+    "UNIT COST",
+    "TOTAL COST"
+   ],
+   "score": 3,
+   "n_rows": 12,
+   "sample": [
+    [
+     "GENERAL ITEMS",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Mobilization (per B/CS Spec. 01 71 13, see Special\nProvision No. 4, including, but not limited to, Project\nIdentification Signs, set-up, bonding & insurance, project\noverhead and any other related items pertinent to the\ncompletion of the project)",
+     "1",
+     "LS",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Traffic Control (Including TCPs for all necessary phases\nof construction, prepared by State of Texas \u2013 PE per\nTxMUTCD & approved by CoB)",
+     "1",
+     "LS",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Bidbook Rev. 1 - Addendum 2.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "NO.",
+    "DESCRIPTION",
+    "QUANTITY",
+    "UNIT",
+    "UNIT COST",
+    "TOTAL COST",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 171,
+   "sample": [
+    [
+     "GENERAL ITEMS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Mobilization (per B/CS Spec. 01 71 13, see Special Provision No. 4, including, but not limited to, Project Identification Signs, set-up, bonding & insurance, project overhead and any other related items pertinent to the completion of the project)",
+     "1",
+     "LS",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Traffic Control (Including TCPs  for all necessary phases of construction, prepared by State of Texas \u2013 PE per TxMUTCD & approved by CoB)",
+     "1",
+     "LS",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 549.2,
+  "attachment_fetches": 8,
+  "attachment_seconds": 74.2,
+  "attachment_bytes": 194954483,
+  "max_fetch_seconds": 36.98,
+  "throttle_signals": 2,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:22:04.393153+00:00",
+ "extract_attempts": 1
+}

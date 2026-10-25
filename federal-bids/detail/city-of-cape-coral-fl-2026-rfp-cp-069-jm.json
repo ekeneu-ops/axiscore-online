@@ -1,0 +1,43 @@
+{
+ "bid_id": "city-of-cape-coral-fl-2026-rfp-cp-069-jm",
+ "bid_number": "2026-RFP-CP-069-JM",
+ "agency": "City of Cape Coral, FL",
+ "src": "Open",
+ "title": "Professional Engineering & Design Services for the North 6 and Future Utilities Extension Project (UEP) Areas",
+ "close": "10/29/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Notice for Ion Wave - 2026-RFP-CP-069-JM.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Notice for Ion Wave - 2026-RFP-CP-069-JM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 5.1,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 102161,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:24:56.742355+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,82 @@
+{
+ "bid_id": "tarrant-county-tx-f2027033",
+ "bid_number": "F2027033",
+ "agency": "Tarrant County, TX",
+ "src": "Open",
+ "title": "Purchase of Full Matrix Message Boards",
+ "close": "10/29/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Full matrix message boards",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Full matrix message boards 2 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "F2027033 Technical Specifications.pdf",
+  "TC_General_Terms_and_Conditions091724.pdf",
+  "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+  "TC_HUB_Policy053123.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "F2027033 Technical Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_General_Terms_and_Conditions091724.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_Special_Terms_and_Conditions_Standard_Ver 3_051926.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "TC_HUB_Policy053123.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 8.8,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.3,
+  "attachment_bytes": 544525,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-25T13:29:30.197226+00:00",
+ "extract_attempts": 1
+}
