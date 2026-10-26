@@ -1,10 +1,10 @@
 {
- "asof": "2026-10-26T17:25Z",
+ "asof": "2026-10-26T20:06Z",
  "ap": {
-  "net": 152493.7,
+  "net": 152546.16,
   "credits": 0.0,
   "credit_count": 11,
-  "net_after_credits": 152493.7,
+  "net_after_credits": 152546.16,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -31,8 +31,8 @@
     "total": 4451.29
    },
    "UNSCORED": {
-    "count": 1109,
-    "total": 43827.92
+    "count": 1114,
+    "total": 43880.38
    },
    "PARKED": {
     "count": 31,
@@ -57,8 +57,8 @@
     "total": 37876.34
    },
    "SPR": {
-    "count": 2244,
-    "total": 72436.52
+    "count": 2249,
+    "total": 72488.98
    }
   },
   "fedex": {
@@ -66,33 +66,33 @@
    "payable_total": 72.66,
    "parked_count": 31
   },
-  "asof": "2026-10-26T17:25Z",
-  "moved_pct": 0.0
+  "asof": "2026-10-26T20:06Z",
+  "moved_pct": 0.03
  },
  "held": {
-  "net": 163619.53,
-  "order_count": 2062,
-  "settlement_net": 51682.26,
-  "settlement_balance": 52170.06,
-  "settlement_available": 52109.01,
+  "net": 163465.5,
+  "order_count": 2065,
+  "settlement_net": 52209.38,
+  "settlement_balance": 52676.64,
+  "settlement_available": 52615.59,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-10-26T17:06Z",
-  "deferred_net": 111937.27,
-  "settlement_orders": 756,
-  "deferred_orders": 1306,
+  "groups_snapshot": "2026-10-26T20:06Z",
+  "deferred_net": 111256.12,
+  "settlement_orders": 761,
+  "deferred_orders": 1304,
   "deferred_oldest_days": 31,
   "walk": {
-   "released": 63865.04,
+   "released": 64640.87,
    "postsettle": 301.14,
-   "refunds": -12015.36,
-   "account_events": -468.56,
-   "deferred": 111937.27
+   "refunds": -12242.57,
+   "account_events": -490.06,
+   "deferred": 111256.12
   },
-  "fev_through": "2026-10-26T15:56Z",
-  "deferred_snapshot": "2026-10-26T17:06Z",
+  "fev_through": "2026-10-26T19:32Z",
+  "deferred_snapshot": "2026-10-26T19:06Z",
   "last_settlement_end": "2026-10-16",
-  "asof": "2026-10-26T17:25Z",
-  "moved_pct": 0.04
+  "asof": "2026-10-26T20:06Z",
+  "moved_pct": -0.09
  },
  "fba": {
   "value": 2286.55,
@@ -108,20 +108,20 @@
    "mirror": 44
   },
   "stock_asof": "2026-10-26T16:00Z",
-  "asof": "2026-10-26T17:25Z"
+  "asof": "2026-10-26T20:06Z"
  },
  "amex": {
-  "owed": 2568.11,
+  "owed": 3932.14,
   "last_autopay": "2026-10-22",
-  "txn_count": 15,
-  "pending_amt": 0.0,
-  "last_txn": "2026-10-25",
+  "txn_count": 19,
+  "pending_amt": 1364.03,
+  "last_txn": "2026-10-26",
   "in_flight": {
    "amount": 0.0,
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-26T17:25Z"
+  "asof": "2026-10-26T20:06Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -132,38 +132,38 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-22",
-  "asof": "2026-10-26T17:25Z"
+  "asof": "2026-10-26T20:06Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 18596.86,
   "orders": 2,
   "oldest_days": 103,
-  "asof": "2026-10-26T17:25Z"
+  "asof": "2026-10-26T20:06Z"
  },
  "unbilled": {
-  "cost": 4189.41,
-  "orders": 39,
+  "cost": 4235.67,
+  "orders": 40,
   "oldest_days": 138,
   "no_cost_orders": 79,
   "no_cost_revenue": 18852.0,
-  "committed": 20452.85,
-  "committed_orders": 189,
-  "revenue": 5517.29,
+  "committed": 23680.21,
+  "committed_orders": 230,
+  "revenue": 5580.82,
   "by_rollup": {
    "ISG": {
-    "count": 39,
-    "total": 4189.41
+    "count": 40,
+    "total": 4235.67
    },
    "_held": {
     "SPR": {
      "cost": 45533.93,
-     "docs": 1195,
-     "pool": 71963.98,
+     "docs": 1200,
+     "pool": 72016.44,
      "orders": 314
     }
    }
   },
-  "asof": "2026-10-26T17:25Z"
+  "asof": "2026-10-26T20:06Z"
  }
 }
