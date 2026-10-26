@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-26T20:52Z",
+ "asof": "2026-10-26T21:50Z",
  "ap": {
   "net": 152546.16,
   "credits": 0.0,
@@ -66,33 +66,33 @@
    "payable_total": 72.66,
    "parked_count": 31
   },
-  "asof": "2026-10-26T20:52Z",
+  "asof": "2026-10-26T21:50Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 163340.81,
-  "order_count": 2063,
+  "net": 163063.73,
+  "order_count": 2062,
   "settlement_net": 52209.38,
-  "settlement_balance": 52676.64,
-  "settlement_available": 52615.59,
+  "settlement_balance": 52782.24,
+  "settlement_available": 52721.19,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-10-26T20:06Z",
-  "deferred_net": 111131.43,
+  "groups_snapshot": "2026-10-26T21:06Z",
+  "deferred_net": 110854.35,
   "settlement_orders": 761,
-  "deferred_orders": 1302,
+  "deferred_orders": 1301,
   "deferred_oldest_days": 31,
   "walk": {
    "released": 64640.87,
    "postsettle": 301.14,
    "refunds": -12242.57,
    "account_events": -490.06,
-   "deferred": 111131.43
+   "deferred": 110854.35
   },
   "fev_through": "2026-10-26T19:32Z",
-  "deferred_snapshot": "2026-10-26T20:06Z",
+  "deferred_snapshot": "2026-10-26T21:06Z",
   "last_settlement_end": "2026-10-16",
-  "asof": "2026-10-26T20:52Z",
-  "moved_pct": -0.08
+  "asof": "2026-10-26T21:50Z",
+  "moved_pct": -0.17
  },
  "fba": {
   "value": 2276.69,
@@ -108,7 +108,7 @@
    "mirror": 44
   },
   "stock_asof": "2026-10-26T20:00Z",
-  "asof": "2026-10-26T20:52Z"
+  "asof": "2026-10-26T21:50Z"
  },
  "amex": {
   "owed": 3932.14,
@@ -121,7 +121,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-26T20:52Z"
+  "asof": "2026-10-26T21:50Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -132,14 +132,14 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-22",
-  "asof": "2026-10-26T20:52Z"
+  "asof": "2026-10-26T21:50Z"
  },
  "plaid_health": [],
  "ar_pending": {
-  "amount": 18596.86,
-  "orders": 2,
+  "amount": 18702.79,
+  "orders": 3,
   "oldest_days": 103,
-  "asof": "2026-10-26T20:52Z"
+  "asof": "2026-10-26T21:50Z"
  },
  "unbilled": {
   "cost": 4235.67,
@@ -147,8 +147,8 @@
   "oldest_days": 138,
   "no_cost_orders": 79,
   "no_cost_revenue": 18852.0,
-  "committed": 24607.11,
-  "committed_orders": 238,
+  "committed": 24909.26,
+  "committed_orders": 248,
   "revenue": 5580.82,
   "by_rollup": {
    "ISG": {
@@ -164,6 +164,6 @@
     }
    }
   },
-  "asof": "2026-10-26T20:52Z"
+  "asof": "2026-10-26T21:50Z"
  }
 }
