@@ -4,7 +4,7 @@
  "agency": "Irving ISD, TX",
  "src": "Open",
  "title": "Restaurants, Food Trucks & Catering",
- "close": "7/16/2026 03:00 PM (ET)",
+ "close": "10/30/2026 03:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -157,19 +157,14 @@
  ],
  "notes": [],
  "latency": {
-  "bid_seconds": 23.5,
+  "bid_seconds": 10.5,
   "attachment_fetches": 4,
-  "attachment_seconds": 9.0,
+  "attachment_seconds": 0.4,
   "attachment_bytes": 1930772,
-  "max_fetch_seconds": 6.2,
+  "max_fetch_seconds": 0.17,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-07-06T16:06:02.350874+00:00",
- "extract_attempts": 1,
- "lines_total": 0,
- "lines_matched": 0,
- "coverage_pct": 0.0,
- "coverage_basis": "line_count",
- "evidence_path": "fb_records/irving-isd-tx-rfp-no-26-27-737/coverage.json"
+ "captured_at": "2026-10-26T13:45:47.908008+00:00",
+ "extract_attempts": 1
 }

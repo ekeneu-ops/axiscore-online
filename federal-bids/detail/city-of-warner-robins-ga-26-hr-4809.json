@@ -1,0 +1,67 @@
+{
+ "bid_id": "city-of-warner-robins-ga-26-hr-4809",
+ "bid_number": "26-HR-4809",
+ "agency": "City of Warner Robins, GA",
+ "src": "Open",
+ "title": "Safety Shoe Voucher Program",
+ "close": "10/30/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Safety Shoe Voucher Program RFP.pdf",
+  "PPE Safety Boot Voucher FORM Draft.pdf",
+  "Non-Collusion Affidavit of Vendor.pdf",
+  "Absence of Conflict of Interest OCGA 36-80-28.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Safety Shoe Voucher Program RFP.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "PPE Safety Boot Voucher FORM Draft.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Non-Collusion Affidavit of Vendor.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Absence of Conflict of Interest OCGA 36-80-28.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.2,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 1623849,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-26T13:40:15.500634+00:00",
+ "extract_attempts": 1
+}

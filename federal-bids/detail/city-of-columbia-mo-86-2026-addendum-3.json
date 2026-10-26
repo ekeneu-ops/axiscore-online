@@ -1,0 +1,141 @@
+{
+ "bid_id": "city-of-columbia-mo-86-2026-addendum-3",
+ "bid_number": "86/2026 Addendum 3",
+ "agency": "City of Columbia, MO",
+ "src": "Open",
+ "title": "North Village Park - Playground, Surfacing, and Shade",
+ "close": "10/30/2026 06:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 5,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP 86-2026 - FINAL.pdf",
+  "RFP_86_2026 - North Village Park Playground _ARPA Construction Contract Template_.docx",
+  "W - 9 Form.pdf",
+  "Addendum 1.pdf",
+  "Addendum 2.pdf",
+  "NORTH VILLAGE PARK_C301.pdf",
+  "ACAD-2024000120-000 BASE-Model 2026-07-22.dwg",
+  "NORTH VILLAGE PARK BID DRAWINGS 03-06-2026 _Playground Area__Page_5.jpg",
+  "Addendum 3.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP 86-2026 - FINAL.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "RFP_86_2026 - North Village Park Playground _ARPA Construction Contract Template_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "W - 9 Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 2.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "NORTH VILLAGE PARK_C301.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ACAD-2024000120-000 BASE-Model 2026-07-22.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "NORTH VILLAGE PARK BID DRAWINGS 03-06-2026 _Playground Area__Page_5.jpg",
+   "kind": ".jpg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 3.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP 86-2026 - FINAL.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "Line\nItem",
+    "Description",
+    "Unit of\nMeasure",
+    "Original\nContract\nPeriod Price"
+   ],
+   "score": 2,
+   "n_rows": 5,
+   "sample": [
+    [
+     "1",
+     "Firm, Fixed Price for\nBase Bid \u2013 playground\n(design, materials and\ninstallation).",
+     "Lump Sum\n(LS)",
+     ""
+    ],
+    [
+     "2",
+     "Firm, Fixed Price for\nBid Alternate #1:\nprotective artificial fall\nsurfacing (materials and\ninstallation).",
+     "LS",
+     ""
+    ],
+    [
+     "3",
+     "Firm, Fixed Price for\nBid Alternate #2 \u2013 shade\nstructure over play area.",
+     "LS",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.5,
+  "attachment_fetches": 9,
+  "attachment_seconds": 3.2,
+  "attachment_bytes": 17081313,
+  "max_fetch_seconds": 0.92,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-26T13:46:35.159763+00:00",
+ "extract_attempts": 1
+}

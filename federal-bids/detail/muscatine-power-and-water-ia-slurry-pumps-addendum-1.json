@@ -1,0 +1,588 @@
+{
+ "bid_id": "muscatine-power-and-water-ia-slurry-pumps-addendum-1",
+ "bid_number": "SLURRY PUMPS Addendum 1",
+ "agency": "Muscatine Power and Water, IA",
+ "src": "Open",
+ "title": "U9 FGD/BATW ZERO LIQUID DISCHARGE PROJECT",
+ "close": "10/29/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 12,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Sealed Bid - Slurry Pumps.pdf",
+  "60791469-SPC-72.234 _Slurry Pumps__RevA _1_.pdf",
+  "Sealed Bid Form - Slurry Pumps.pdf",
+  "Contractor_s Site Safety Program _ID 67887_.pdf",
+  "Samples - Slurry Pumps.pdf",
+  "Addendum 1 -  Slurry Pumps.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Sealed Bid - Slurry Pumps.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "60791469-SPC-72.234 _Slurry Pumps__RevA _1_.pdf",
+   "kind": "pdf",
+   "tables": 32,
+   "note": "",
+   "candidates": 4
+  },
+  {
+   "name": "Sealed Bid Form - Slurry Pumps.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Contractor_s Site Safety Program _ID 67887_.pdf",
+   "kind": "pdf",
+   "tables": 17,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Samples - Slurry Pumps.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Addendum 1 -  Slurry Pumps.pdf",
+   "kind": "pdf",
+   "tables": 31,
+   "note": "",
+   "candidates": 4
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "60791469-SPC-72.234 _Slurry Pumps__RevA _1_.pdf",
+   "sheet": 14,
+   "header_row": 13,
+   "headers": [
+    "8",
+    "01400",
+    "Final Quality Plans specific to the equipment and materials to\nbe furnished under this contract. The inspection/test plan for\neach item being furnished shall include the types and number\nof quality control inspections assigned to each activity,\nschedule for all activities and location where the activity will\ntake place.",
+    "",
+    "",
+    "E",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 12,
+   "sample": [
+    [
+     "9",
+     "01400",
+     "Quality Control Progress Reports",
+     "",
+     "",
+     "",
+     "E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Submit monthly"
+    ],
+    [
+     "10",
+     "01400",
+     "Final Quality Control Records on each equipment unit after\nthe completion of each unit. The reports shall be issued\nwithin 15 working days of the completion of each unit",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "E",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "01600",
+     "PRODUCT REQUIREMENTS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "60791469-SPC-72.234 _Slurry Pumps__RevA _1_.pdf",
+   "sheet": 16,
+   "header_row": 3,
+   "headers": [
+    "29",
+    "11230",
+    "Fifteen copies of operating and instruction manuals shall be\nfurnished to the Buyer on/or before delivery of specified\npumps. The manuals shall include complete descriptive\nmaterial for each component covering installation, operation,\nmaintenance and repair of equipment supplied. A complete\nreplacement part list shall also be included. Installation\ninstructions shall include procedure for checking alignment of\nshaft, coupling and base for motor driven equipment.\nInstructions shall cover recommended inspection and\nreplacement periods, lubricant type, recommended quantity of\nlubricant, and lubricant specification.",
+    "",
+    "",
+    "",
+    "15+E",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "16151",
+     "MOTORS FOR STATION AUXILIARY SERVICE RATED UP\nTO 460 VOLTS AND 250 HP",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "30",
+     "16151",
+     "Completed List of Motors",
+     "",
+     "E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "31",
+     "16151",
+     "Copy of outline drawings of each assembled motor including\ndimensions.",
+     "",
+     "E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "60791469-SPC-72.234 _Slurry Pumps__RevA _1_.pdf",
+   "sheet": 21,
+   "header_row": 2,
+   "headers": [
+    "Item Number",
+    "Equipment / Tag Number",
+    "Component / Part Number",
+    "Equipment Area / Location",
+    "Lubricant Description",
+    "Equivalent Recommendation",
+    "Quantity 1st Fill",
+    "Notes"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "D1",
+     "BM-X",
+     "MTR-X",
+     "Ball Mill Unit 1, Inch Drive Motor",
+     "Polyrex EM Grease",
+     "Mobil Polyrex EM",
+     "1.65 oz",
+     "Motor shipped pre-greased"
+    ],
+    [
+     "2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "60791469-SPC-72.234 _Slurry Pumps__RevA _1_.pdf",
+   "sheet": 22,
+   "header_row": 2,
+   "headers": [
+    "ITEM NO.",
+    "EQUIPMENT IDENTIFIERS",
+    "VENDOR RECOMMENDED SPARE PARTS",
+    "",
+    "",
+    "",
+    "",
+    "LEAD TIME",
+    "UNIT COST",
+    "QUANTITY RECOMMENDED",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 12,
+   "sample": [
+    [
+     "",
+     "Equipment Description/Tag",
+     "Part Manufacturer",
+     "Model Number",
+     "Part Number",
+     "Part Description",
+     "Contact Information",
+     "Weeks",
+     "US Dollars",
+     "Start-Up",
+     "1 Year",
+     "2 Year"
+    ],
+    [
+     "D1",
+     "Pump Skid A",
+     "Apollo",
+     "70 Series",
+     "70-105-01",
+     "1\" Brass Ball Valve",
+     "JoeSmith@VENDOR.com (555-555-5555)",
+     "Stock",
+     "$28.00",
+     "2",
+     "0",
+     "2"
+    ],
+    [
+     "2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum 1 -  Slurry Pumps.pdf",
+   "sheet": 14,
+   "header_row": 13,
+   "headers": [
+    "8",
+    "01400",
+    "Final Quality Plans specific to the equipment and materials to\nbe furnished under this contract. The inspection/test plan for\neach item being furnished shall include the types and number\nof quality control inspections assigned to each activity,\nschedule for all activities and location where the activity will\ntake place.",
+    "",
+    "",
+    "E",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 12,
+   "sample": [
+    [
+     "9",
+     "01400",
+     "Quality Control Progress Reports",
+     "",
+     "",
+     "",
+     "E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Submit monthly"
+    ],
+    [
+     "10",
+     "01400",
+     "Final Quality Control Records on each equipment unit after\nthe completion of each unit. The reports shall be issued\nwithin 15 working days of the completion of each unit",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "E",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "01600",
+     "PRODUCT REQUIREMENTS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum 1 -  Slurry Pumps.pdf",
+   "sheet": 16,
+   "header_row": 3,
+   "headers": [
+    "29",
+    "11230",
+    "Fifteen copies of operating and instruction manuals shall be\nfurnished to the Buyer on/or before delivery of specified\npumps. The manuals shall include complete descriptive\nmaterial for each component covering installation, operation,\nmaintenance and repair of equipment supplied. A complete\nreplacement part list shall also be included. Installation\ninstructions shall include procedure for checking alignment of\nshaft, coupling and base for motor driven equipment.\nInstructions shall cover recommended inspection and\nreplacement periods, lubricant type, recommended quantity of\nlubricant, and lubricant specification.",
+    "",
+    "",
+    "",
+    "15+E",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 6,
+   "sample": [
+    [
+     "",
+     "16151",
+     "MOTORS FOR STATION AUXILIARY SERVICE RATED UP\nTO 460 VOLTS AND 250 HP",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "30",
+     "16151",
+     "Completed List of Motors",
+     "",
+     "E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "31",
+     "16151",
+     "Copy of outline drawings of each assembled motor including\ndimensions.",
+     "",
+     "E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum 1 -  Slurry Pumps.pdf",
+   "sheet": 21,
+   "header_row": 2,
+   "headers": [
+    "Item Number",
+    "Equipment / Tag Number",
+    "Component / Part Number",
+    "Equipment Area / Location",
+    "Lubricant Description",
+    "Equivalent Recommendation",
+    "Quantity 1st Fill",
+    "Notes"
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "D1",
+     "BM-X",
+     "MTR-X",
+     "Ball Mill Unit 1, Inch Drive Motor",
+     "Polyrex EM Grease",
+     "Mobil Polyrex EM",
+     "1.65 oz",
+     "Motor shipped pre-greased"
+    ],
+    [
+     "2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Addendum 1 -  Slurry Pumps.pdf",
+   "sheet": 22,
+   "header_row": 2,
+   "headers": [
+    "ITEM NO.",
+    "EQUIPMENT IDENTIFIERS",
+    "VENDOR RECOMMENDED SPARE PARTS",
+    "",
+    "",
+    "",
+    "",
+    "LEAD TIME",
+    "UNIT COST",
+    "QUANTITY RECOMMENDED",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 12,
+   "sample": [
+    [
+     "",
+     "Equipment Description/Tag",
+     "Part Manufacturer",
+     "Model Number",
+     "Part Number",
+     "Part Description",
+     "Contact Information",
+     "Weeks",
+     "US Dollars",
+     "Start-Up",
+     "1 Year",
+     "2 Year"
+    ],
+    [
+     "D1",
+     "Pump Skid A",
+     "Apollo",
+     "70 Series",
+     "70-105-01",
+     "1\" Brass Ball Valve",
+     "JoeSmith@VENDOR.com (555-555-5555)",
+     "Stock",
+     "$28.00",
+     "2",
+     "0",
+     "2"
+    ],
+    [
+     "2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 15.9,
+  "attachment_fetches": 6,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 10579964,
+  "max_fetch_seconds": 0.36,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-26T13:39:06.435176+00:00",
+ "extract_attempts": 1
+}

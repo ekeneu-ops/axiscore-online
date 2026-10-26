@@ -1,0 +1,75 @@
+{
+ "bid_id": "lee-s-summit-isd-mo-r-26-27-03",
+ "bid_number": "R-26/27-03",
+ "agency": "Lee's Summit ISD, MO",
+ "src": "Open",
+ "title": "Student Travel Services",
+ "close": "10/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "General Terms _ Conditions for RFPs_ RFQs and Bids.pdf",
+  "Governance Addendum LS School District _Data Governance Addendum_.pdf",
+  "3_-_E-Verify-LSR7__1_ _1_.pdf",
+  "1_-_Sample_Insurance_Certificate.pdf",
+  "4_-_MO_Tax_Exemption_Certificate.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "General Terms _ Conditions for RFPs_ RFQs and Bids.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Governance Addendum LS School District _Data Governance Addendum_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "3_-_E-Verify-LSR7__1_ _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "1_-_Sample_Insurance_Certificate.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "4_-_MO_Tax_Exemption_Certificate.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 6.8,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.7,
+  "attachment_bytes": 342861,
+  "max_fetch_seconds": 0.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-26T13:45:13.558328+00:00",
+ "extract_attempts": 1
+}
