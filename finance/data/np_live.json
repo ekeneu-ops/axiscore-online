@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-27T18:15Z",
+ "asof": "2026-10-27T19:16Z",
  "ap": {
   "net": 168346.3,
   "credits": 0.0,
@@ -66,17 +66,17 @@
    "payable_total": 72.66,
    "parked_count": 31
   },
-  "asof": "2026-10-27T18:15Z",
+  "asof": "2026-10-27T19:16Z",
   "moved_pct": 0.0
  },
  "held": {
   "net": 177007.48,
   "order_count": 2260,
   "settlement_net": 58041.4,
-  "settlement_balance": 58718.45,
-  "settlement_available": 58657.4,
+  "settlement_balance": 58691.86,
+  "settlement_available": 58630.81,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-10-27T18:06Z",
+  "groups_snapshot": "2026-10-27T19:06Z",
   "deferred_net": 118966.08,
   "settlement_orders": 893,
   "deferred_orders": 1367,
@@ -89,10 +89,10 @@
    "deferred": 118966.08
   },
   "fev_through": "2026-10-27T17:15Z",
-  "deferred_snapshot": "2026-10-27T18:06Z",
+  "deferred_snapshot": "2026-10-27T19:06Z",
   "last_settlement_end": "2026-10-16",
-  "asof": "2026-10-27T18:15Z",
-  "moved_pct": -0.42
+  "asof": "2026-10-27T19:16Z",
+  "moved_pct": 0.0
  },
  "fba": {
   "value": 2127.68,
@@ -108,7 +108,7 @@
    "mirror": 44
   },
   "stock_asof": "2026-10-27T16:00Z",
-  "asof": "2026-10-27T18:15Z"
+  "asof": "2026-10-27T19:16Z"
  },
  "amex": {
   "owed": 4313.74,
@@ -121,7 +121,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-27T18:15Z"
+  "asof": "2026-10-27T19:16Z"
  },
  "card_in_transit": {
   "amount": 1286.0,
@@ -132,14 +132,14 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-22",
-  "asof": "2026-10-27T18:15Z"
+  "asof": "2026-10-27T19:16Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 18702.79,
   "orders": 3,
   "oldest_days": 104,
-  "asof": "2026-10-27T18:15Z"
+  "asof": "2026-10-27T19:16Z"
  },
  "unbilled": {
   "cost": 4692.06,
@@ -147,8 +147,8 @@
   "oldest_days": 139,
   "no_cost_orders": 79,
   "no_cost_revenue": 18852.0,
-  "committed": 23760.02,
-  "committed_orders": 242,
+  "committed": 25593.13,
+  "committed_orders": 264,
   "revenue": 6139.14,
   "by_rollup": {
    "ISG": {
@@ -164,6 +164,6 @@
     }
    }
   },
-  "asof": "2026-10-27T18:15Z"
+  "asof": "2026-10-27T19:16Z"
  }
 }
