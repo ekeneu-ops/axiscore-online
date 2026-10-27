@@ -1,0 +1,237 @@
+{
+ "bid_id": "wayne-finger-lakes-boces-ny-wfl-2027-53rpw-electrical-services",
+ "bid_number": "WFL 2027-53RPW Electrical Services",
+ "agency": "Wayne-Finger Lakes BOCES, NY",
+ "src": "Invited",
+ "title": "Cooperative Electrical Services Bid",
+ "close": "11/19/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 8,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "BIDWFL_1.PDF",
+  "Prevailing Wage Schedules.zip",
+  "Standard Form of Agreement Form A.pdf",
+  "Bid Proposal Form B _ 7pages_.pdf",
+  "Bidder Qualification _ Disclosure Form C.pdf",
+  "Certificate of Equiptment Form D.pdf",
+  "Bidder Qualification Statement Form E.pdf",
+  "References Form F.pdf",
+  "Questionnaire Form G.pdf",
+  "Bid Proposal Ceritifcations Form H.pdf",
+  "Resolution Form I.pdf",
+  "Declaration Form J.pdf",
+  "Form Checklist MUST BE COMPLETED.pdf",
+  "Attachment A Participants.pdf",
+  "Attachment B Insurance Requirements.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "BIDWFL_1.PDF",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Prevailing Wage Schedules.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Form of Agreement Form A.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Proposal Form B _ 7pages_.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Qualification _ Disclosure Form C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate of Equiptment Form D.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Qualification Statement Form E.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "References Form F.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Questionnaire Form G.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Proposal Ceritifcations Form H.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Resolution Form I.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Declaration Form J.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Form Checklist MUST BE COMPLETED.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment A Participants.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment B Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "BIDWFL_1.PDF",
+   "sheet": 1,
+   "header_row": 23,
+   "headers": [
+    "",
+    "TOTAL EXTENDED PRICE FOR ITEM 4",
+    "",
+    "",
+    "",
+    "TOTAL (B)",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 2,
+   "sample": [
+    [
+     "",
+     "Overhead & Profit",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Overhead & Profit Allowance:Allowance\nbased on percentage bid based on Labor &\nMaterials",
+     "",
+     "Total (A) + Total\n(B)",
+     "X",
+     "%",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BIDWFL_1.PDF",
+   "sheet": 2,
+   "header_row": 9,
+   "headers": [
+    "",
+    "TOTAL EXTENDED PRICE FOR ITEM 6-8",
+    "",
+    "",
+    "",
+    "TOTAL (D)",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "",
+     "Subcontractor Work",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Subcontracted Work Percent Mark-Up over\nContractors Cost. Not to exceed 5%. (as\nspecified in Item 10.4.4 of the Specifications\nSection)",
+     "",
+     "$1,000",
+     "X",
+     "X%",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "TOTAL AMOUNT TO BE BILLED",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 13.0,
+  "attachment_fetches": 15,
+  "attachment_seconds": 3.9,
+  "attachment_bytes": 29771851,
+  "max_fetch_seconds": 2.51,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-27T13:19:47.806636+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,190 @@
+{
+ "bid_id": "plano-isd-tx-rfp-2027-02-32-01",
+ "bid_number": "RFP 2027-02-32-01",
+ "agency": "Plano ISD, TX",
+ "src": "Invited",
+ "title": "HVAC Building Systems Support Services",
+ "close": "12/8/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 6,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 6,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Quantity of ONE (1) On-Site Level III HVAC Technician - Provide MAXIMUM MONTHLY AMOUNT for ONE Level III HVAC Technician Working Regular Hours (Straight Time) Monday - Friday from 7AM to 4PM (40 hours a week) (246 days/year) *Rate provided shall be all-inclusive as indicated per scope of work: All employment costs, background and criminal history review, insurance, benefits, uniforms, personal protection and safety equipment, cell phones, radios, vehicles, fuel, ladders and hand tools as required to perform HVAC repairs and training for personnel assigned to the resulting agreement.",
+   "qty": "12",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Quantity of ONE (1) On-Site Level III HVAC Technician - Provide MAXIMUM MONTHLY AMOUNT for ONE Level III HVAC Technician Working Regular Hours (Straight Time) Monday - Friday from 7AM to 4PM (40 hours a week) (246 days/year) *Rate provided shall be all-inclusive as indicated per scope of work: All employment costs, background and criminal history review, insurance, benefits, uniforms, personal protection and safety equipment, cell phones, radios, vehicles, fuel, ladders and hand tools as required to perform HVAC repairs and training for personnel assigned to the resulting agreement. 12 No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Provide Hourly Rate for Level III HVAC Technician: EMERGENCY CALLS AFTER HOURS OR WEEKENDS",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Provide Hourly Rate for Level III HVAC Technician: EMERGENCY CALLS AFTER HOURS OR WEEKENDS 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Provide Hourly Rate for Level III HVAC Technician: EMERGENCY CALLS OVER HOLIDAYS",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Provide Hourly Rate for Level III HVAC Technician: EMERGENCY CALLS OVER HOLIDAYS 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "Provide Hourly Rate for Chiller Technician: EMERGENCY CALLS During Regular Hours",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 Provide Hourly Rate for Chiller Technician: EMERGENCY CALLS During Regular Hours 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Provide Hourly Rate for Chiller Technician: EMERGENCY CALLS AFTER HOURS OR WEEKENDS",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Provide Hourly Rate for Chiller Technician: EMERGENCY CALLS AFTER HOURS OR WEEKENDS 1 No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Provide Hourly Rate for Chiller Technician: EMERGENCY CALLS OVER HOLIDAYS",
+   "qty": "1",
+   "uom": "",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Provide Hourly Rate for Chiller Technician: EMERGENCY CALLS OVER HOLIDAYS 1 No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Warehouse HVAC and Filters Items.xlsx",
+  "East Cluster HVAC Units.csv",
+  "West Cluster HVAC Units.csv",
+  "Central Cluster HVAC Units.csv",
+  "September 2026 HVAC WOs SAMPLE.xlsx",
+  "Priority WO Leak SAMPLE.pdf",
+  "Regular WO Boiler Reset.pdf",
+  "district_map.pdf",
+  "Blank fw9.pdf",
+  "Terms_and_Conditions 2025.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Warehouse HVAC and Filters Items.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "East Cluster HVAC Units.csv",
+   "kind": "csv",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "West Cluster HVAC Units.csv",
+   "kind": "csv",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Central Cluster HVAC Units.csv",
+   "kind": "csv",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "September 2026 HVAC WOs SAMPLE.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Priority WO Leak SAMPLE.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Regular WO Boiler Reset.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "district_map.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Blank fw9.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Terms_and_Conditions 2025.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 11.5,
+  "attachment_fetches": 10,
+  "attachment_seconds": 1.5,
+  "attachment_bytes": 3917728,
+  "max_fetch_seconds": 0.3,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-27T13:20:28.613985+00:00",
+ "extract_attempts": 1
+}

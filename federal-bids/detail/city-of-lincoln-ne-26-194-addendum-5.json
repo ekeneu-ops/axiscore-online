@@ -1,0 +1,600 @@
+{
+ "bid_id": "city-of-lincoln-ne-26-194-addendum-5",
+ "bid_number": "26-194 Addendum 5",
+ "agency": "City of Lincoln, NE",
+ "src": "Open",
+ "title": "Planning and Development Services Office Remodel",
+ "close": "10/30/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 11,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Base Bid - Lump Sum for this project as listed in the detail of work, drawings and attached documentation",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Base Bid - Lump Sum for this project as listed in the detail of work, drawings and attached documentation 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders 11-2023.pdf",
+  "SubmissionReceipt-InsuranceProvisionChecklist-2489.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "Contract - PBC Const.pdf",
+  "26-194 General Requirements.pdf",
+  "Empl_Class_Act_EO.pdf",
+  "Empl_Class_Act_Aff.pdf",
+  "Proprietary-Info-Bids-2018.pdf",
+  "United States Citizenship Attestation Form.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+  "26-194 Pre-Bid Sign-In Sheet.pdf",
+  "_5092 PDS Office Remodel Arch Construction Documents.pdf",
+  "_5092 PDS Office Remodel Mech Elec Construction Documents.pdf",
+  "26-194 Contractor questions _1 Response.pdf",
+  "Box Label.pdf",
+  "Permit Review Fee Receipt.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SubmissionReceipt-InsuranceProvisionChecklist-2489.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - PBC Const.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "26-194 General Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_EO.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_Aff.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Proprietary-Info-Bids-2018.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "26-194 Pre-Bid Sign-In Sheet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "_5092 PDS Office Remodel Arch Construction Documents.pdf",
+   "kind": "pdf",
+   "tables": 66,
+   "note": "",
+   "candidates": 5
+  },
+  {
+   "name": "_5092 PDS Office Remodel Mech Elec Construction Documents.pdf",
+   "kind": "pdf",
+   "tables": 33,
+   "note": "",
+   "candidates": 3
+  },
+  {
+   "name": "26-194 Contractor questions _1 Response.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Box Label.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Permit Review Fee Receipt.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Contract - PBC Const.pdf",
+   "sheet": 2,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln-Lancaster County Public Building\nCommission\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Execution Date or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond [Amount]\nA t\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 16\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this Performance Bond,\ndo each cause this Performance Bond to be duly executed by an authorized officer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Contract - PBC Const.pdf",
+   "sheet": 6,
+   "header_row": 1,
+   "headers": [
+    "Owner\nCity of Lincoln-Lancaster County Public Building\nName:\nCommission\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Upon Execution or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 18\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in\nthis Payment Bond, do each cause this Payment Bond to be duly executed by an authorized\nofficer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_5092 PDS Office Remodel Arch Construction Documents.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "CONSTRUCTION/REFLECTED CLG SYMBOLS ELECTRICAL/DATA/COMM SYMBOLS CODE SUMMARY\nApplicable Codes - Lincoln, NE\nInternational Building Code (IBC),2021 Edition + Local Amendments\nDuplex Receptacle Outlet Audible/Visual Alarm North Arrow Recessed Downlight - Demo International Existing Building Code (IEBC), 2021 Edition + Local Amendments\nCompliance Method - Work Area Level 2 - reconfigure less than 50% of\nbuilding\nPlanning and Development Services Office Remodel\nQuadruplex Receptacle Outlet Closed Circuit Camera Recessed Downlight - Extg International Residential Code (IRC), 2021 Edition + Local Amendments\nInternational Energy Conservation Code (IECC), 2018 Edition + Local\n0 Column Reference Grid Amendments\nEmergency Battery Pack w/\n555 South 10th St, Ste 203 Blank Outlet Cover Plate Charger and Sealed Beam National Electrical Code (NEC), 2023 Edition + Local Amendments Recessed Downlight - New\nInternational Fire Code (IFC), 2021 Edition + Local Amendments\nHeads\nInternational Property Maintenance Code (IPMC), 2021 Edition + Local\nAmendments\nTelephone Outlet Panelboard Section/Detail Callout Recessed Downlight - Emergency\nLincoln, NE 68508 International Mechanical Code (IMC), 2021 Edition + Local Amendments\nInternational Fuel Gas Code (IFGC), 2021 Edition + Local Amendments\nLincoln Hydronics Code + Local Amendments\nData Outlet Fire Protection Cabinet Fluorescent Fixture - Demo Uniform Plumbing Code (UPC), 2021 Edition + Local Amendments\nfor Gas Piping and Systems Code\nInterior Elevation\n2012 Life Safety Code (NFPA 101)\nTelephone /Data Outlet Fluorescent Fixture - Extg T Miscellaneous Item - Wall Mtd Accessibility Code - DOJ 2010 ADA Standards for Accessible Design\nLegal Description Of Property\nROOM NAME 555 South 10th St., Ste 203\nFloor Receptacle Outlet Room Name & Number Fluorescent Fixture - New Motion Sensor - Wall Mtd\n101 Lincoln, NE 68508\nCity of Lincoln\nOccupancy\nFloor Telephone Outlet Fluorescent Fixture - Emergency\nChange in Occupancy: No\nITEM SYMBOL NOTATION 101 Door Number Occupancy Classification: B\nLevel 2 Gross Area: 46,675 SF\nFloor Data Outlet HVAC Supply Outlet - Demo Level 2 Remodel Area: 20,873 SF\nFI Fire Indicator Strobe Occupant Load\nFloor Telephone/Data Outlet FP Fire Pull Station Wall Type Indication - Demo HVAC Supply Outlet - Extg Area of Space Occupant Load Number of\nLevel Use of Space\n(SF) Factor Occupants\nSD Smoke Detector\nFloor In-feed,\nOffice Areas 100\nSystems Furnishings SP Speaker Wall Type Indication - Extg HVAC Supply Outlet - New 2 17,838 179\n(NFPA 101)\nT Thermostat\nConference 15\nWall In-feed, 2 1,548 104\nRooms (NFPA 101)\nSystems Furnishings Wall Type Indication - New HVAC Return Air Outlet - Demo\nBreak Room 15\n2 559 38\nPowerpole, (NFPA 101)\nSystems Furnishings ITEM STATUS 00000.A Keynote HVAC Return Air Outlet - Extg\nEntry / Waiting 15\n2 928 62\nReception (NFPA 101)\nS\nSingle Pole Switch E DRAWING INDEX Spot Elevation HVAC Return Air Outlet - New Extg item to remain and be TOTALS 20,873 383\nfunctional\nGENERAL INFORMATION MECHANICAL D Lighted Exit Sign - Clg Mtd Extg item to demolish in its\nExits\nRevision Number entirety\nG000 Cover Sheet MG000 Mechanical General Information No modifications to existing exiting conditions as part of this renovation.\nLighted Exit Sign - Wall Mtd R Extg item to relocate in its\nG001 Typical Details\nentirety and be functional Height & Number of Stories\nM100 Mechanical Demolition Plan\nNumber of Stories: 5 Plus Mechanical Penthouse\nN Motion Sensor - Clg Mtd New item to provide in its\nARCHITECTURAL\nentirety and be functional\nA000 Schedules and Material Specifications M200 Mechanical Plan Construction Type: IB - Existing Construction - IBC\nFire Protection Item - Clg Mtd\nA001 Specifications FI\nFire Protection\nA002 Specifications ELECTRICAL\nMiscellaneous Item - Clg Mtd Automatic Sprinkler System: Yes - Existing\nEG000 Electrical General Information T Fire Alarm System: Yes - Existing\nA100 Demolition Plan Emergency Lighting: Yes - Existing\nSprinkler Head\nA101 Reflected Ceiling Demolition Plan E100 Electrical Demolition Plan\nMaintain existing building standard fire extinguisher locations.\nA102 Construction Plan\nProvide additional fire extinguishers as needed to comply with NFPA10.\nA103 Reflected Ceiling Plan E200 Lighting Plan Maximum travel distance to extinguisher 75 feet, unless noted otherwise.\nA104 Finishes and Furniture Plan Coordinate exact placement with Architect.\nE300 Power Plan\nSignage\nA200 Interior Elevations\nThe building owner does not intend to install exterior building signs, property\nE400 Technology Plan signs, or modify existing exterior signage in any way.\nA300 Sections and Details\nE500 Electrical Detail and Schedules\nE501 Electrical Detail and Schedules\nE600 Electrical Specifications\nE601 Electrical Specifications\nE602 Electrical Specifications\nExisting 2HR exit stairway complies with accessible\nmeans of egress per 1009.3.\nStairway egress width = 66\"; Egress capacity =\nwidth divided by 0.3 = 220 occupants.\nDoor is 90 minute rated with panic device and\naccess control. Door clear width is 34\"; Door\ncapacity = width divided by 0.2 = 170 occupants.\nPHASE 1 PHASE 2\nStair PHASE 2\n66 220 Door 1 ESAHP 1 ESAHP 2 ESAHP 2 ESAHP\n34\n170 CP = 30'\nPHASE 1 PHASE 2\nEXIT TD: 93' + 30' = 123' PHASE 1\n1 ESAHP 2 ESAHP 2 ESAHP PHASE 1 PHASE 2\n1 ESAHP\nCEF CEF\n'002\nCEF = '071\nBreak / Coffee Rooms REF. '03 = REF.\n+ '91\nR(NeIfC) RTreacsyhcle '071 + 2 ESAHP\nREF. Conference Rooms :DT '151\nR(NeIfC) RTreacsyhcle (CNoICffe)e O( T N ovI aeC sn) ter :DT 1 ESAHP\nM(NicICro)wave\n(CNoICffe)e O( T N ovI aeC sn) ter Entry / Waiting / Reception REF. M(NicICro)wave TD: 147' + 19' = 156' REF. PHASE 2\nPHASE 1\nOffice Areas\nREF. Existing 2HR exit stairway complies with accessible means of egress per 1009.3. 1 ESAHP 1 ESAHP 2 ESAHP\nStairway egress width = 66\"; Egress capacity =\nwidth divided by 0.3 = 220 occupants. PHASE 2\nDoor is 90 minute rated with panic device and access control. Door clear width is 46\"; Door PHASE 1 2 ESAHP\ncapacity = width divided by 0.2 = 230 occupants.\nCP = 19'\nPHASE 1\n1 ESAHP\nPHASE 2\nCR Stair Stair PHASE 1 PHASE 1 PHASE 1 CR PHASE 2\nCR 66 66 220 Door 220 34 170 1 ESAHP 1 ESAHP 1 ESAHP 2 ESAHP 2 ESAHP 2 ESAHP 2 ESAHP 2 ESAHP PHASE 2\nEXIT EXIT Door 46 PHASE 1 PHASE 1 PHASE 2 PHASE 2\n230\nLife Safety Symbols:\nExit Door / Stair Tag\nA Clear width (feet-inches)\nB Occupant Load capacity (No. of People)\nLine Types for Means of Egress:\nTravel Distance (300' max.) TD\nCommon Path (100' max.) CP\nExit Discharge:\nExit discharge arrow\nEGRESS PLAN KEYPLAN PHASING PLAN\nA1 A6 A12\nG000 NTS G000 NTS G000 NTS",
+    "RUCTION/REFLECTED CLG SYMBOLS",
+    "ELECTRICAL/DATA/COMM SYMBOLS",
+    "CODE SUMMARY",
+    "",
+    "",
+    "i n n e r s p a c e\ns t u d i o s\n335 north 8th street, suite c\nlincoln, nebraska 68508\n402.475.7234",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 19,
+   "sample": [
+    [
+     "",
+     "North Arrow Recessed Downlight - Demo\nRecessed Downlight - Extg\nColumn Reference Grid\nRecessed Downlight - New\nSection/Detail Callout Recessed Downlight - Emergency\nFluorescent Fixture - Demo\nInterior Elevation\nFluorescent Fixture - Extg\nE\nRoom Name & Number Fluorescent Fixture - New\nFluorescent Fixture - Emergency\nDoor Number\nHVAC Supply Outlet - Demo\nWall Type Indication - Demo HVAC Supply Outlet - Extg\nWall Type Indication - Extg HVAC Supply Outlet - New\nWall Type Indication - New HVAC Return Air Outlet - Demo\nKeynote HVAC Return Air Outlet - Extg\nSpot Elevation HVAC Return Air Outlet - New\nLighted Exit Sign - Clg Mtd\nRevision Number\nLighted Exit Sign - Wall Mtd\nMotion Sensor - Clg Mtd\nFire Protection Item - Clg Mtd\nFI\nMiscellaneous Item - Clg Mtd\nT\nSprinkler Head",
+     "A\nIn\nDuplex Receptacle Outlet Audible/Visual Alarm In\nQuadruplex Receptacle Outlet Closed Circuit Camera In\nIn\nEmergency Battery Pack w/\nN\nBlank Outlet Cover Plate Charger and Sealed Beam\nIn\nHeads\nIn\nTelephone Outlet Panelboard\nIn\nIn\nL\nData Outlet Fire Protection Cabinet U\nG\n2\nTelephone /Data Outlet T Miscellaneous Item - Wall Mtd A\nL\n5\nFloor Receptacle Outlet Motion Sensor - Wall Mtd\nL\nO\nFloor Telephone Outlet\nC\nITEM SYMBOL NOTATION O\nL\nFloor Data Outlet L\nFI Fire Indicator Strobe Occup\nFloor Telephone/Data Outlet FP Fire Pull Station\nLe\nSD Smoke Detector\nFloor In-feed,\nSystems Furnishings SP Speaker\nT Thermostat\nWall In-feed,\nSystems Furnishings\nPowerpole,\nSystems Furnishings ITEM STATUS\nS\nSingle Pole Switch E Extg item to remain and be TO\nfunctional\nD Extg item to demolish in its\nE\nentirety\nN\nR Extg item to relocate in its\nentirety and be functional H\nN\nN New item to provide in its\nentirety and be functional\nC\nF\nA\nF\nE\nM\nP\nM\nC\nS\nT\ns",
+     "pplicable Codes - Lincoln, NE\nternational Building Code (IBC),2021 Edition + Local Amendments\nternational Existing Building Code (IEBC), 2021 Edition + Local Amendments\nCompliance Method - Work Area Level 2 - reconfigure less than 50% of\nbuilding\nternational Residential Code (IRC), 2021 Edition + Local Amendments\nternational Energy Conservation Code (IECC), 2018 Edition + Local\nAmendments\national Electrical Code (NEC), 2023 Edition + Local Amendments\nternational Fire Code (IFC), 2021 Edition + Local Amendments\nternational Property Maintenance Code (IPMC), 2021 Edition + Local\nAmendments\nternational Mechanical Code (IMC), 2021 Edition + Local Amendments\nternational Fuel Gas Code (IFGC), 2021 Edition + Local Amendments\nincoln Hydronics Code + Local Amendments\nniform Plumbing Code (UPC), 2021 Edition + Local Amendments\nas Piping and Systems Code\n012 Life Safety Code (NFPA 101)\nccessibility Code - DOJ 2010 ADA Standards for Accessible Design\negal Description Of Property\n55 South 10th St., Ste 203\nincoln, NE 68508\nccupancy\nhange in Occupancy: No\nccupancy Classification: B\nevel 2 Gross Area: 46,675 SF\nevel 2 Remodel Area: 20,873 SF",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "permission to reproduce all or part of this drawing is hereby granted\nsolely for the limited purpose of construction of this project or archiving.\nunauthorized copying, disclosure, or construction use without written\npermission of innerspace studios is prohibited.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "do not scale drawings. verify all dimensions and clearances at site or\nfrom architectural, structural, shop, and other appropriate drawings.\nlay out and coordinate all work prior to installation to provide\nclearances required for operation, maintenance, and codes.\nverify non-interference with other work. do not fabricate prior to\nverification of clearances for all trades.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_5092 PDS Office Remodel Arch Construction Documents.pdf",
+   "sheet": 6,
+   "header_row": 0,
+   "headers": [
+    "Standard Abbreviations\n@ At LH Left Hand\nABV Above LHR Left Hand Reverse\nADJ Adjustable LS Lockset\nAFF Above Finish Floor MATL Material\nAL Aluminum MAX Maximum\nAC Acoustical Ceiling MECH Mechanical\nB Butts MEZZ Mezzanine\nBL Blinds MFR Manufacturer\nBLDG Building MIN Minimum\nBLK Block MISC Miscellaneous\nBLKHD Bulkhead MO Masonry Opening\nBM Beam MTL Metal\nBO Bottom of MW Moveable Wall\nBRK Brick NIC Not Included In Contract\nBSMT Basement NTS Not To Scale\nC Closer OC On Center\nCL Closet OD Outside Diameter\nCLG Ceiling OF/CI Owner Furnished/\nCMU Concrete Masonry Unit Contractor Installed\nCOL Column OHD Overhead Door\nCONC Concrete OPNG Opening\nCOND Condition OPP Opposite\nCONT Continuous PL Plastic Laminate\nCPT Carpet PLAS Plaster\nCRNR Corner PLYWD Plywood\nCSK Countersunk P Paint\nCT Ceramic Tile QT Quarry Tile\nDBL Double R Radius\nDESC Description RB Resilient Base\nDF Drinking Fountain REF Reference\nDIA Diameter REFR Refrigerator\nDISP Disposal REQD Required\nDMW Demountable Wall REST Restroom\nDPR Dispenser RH Right Hand\nDWG Drawing RHR Right Hand Reverse\nDWS Drawers RM Room\nDW Dishwasher RO Rough Opening\nEA Each RT Resilient Tile\nED Exit Device S Stop\nEL Elevation SC Special Coating\nELEC Electric SECT Section\nELEV Elevator SHLV Shelving\nEQ Equal SHT Sheet\nEW Eachway SIM Similar\nEWC Electric Water Cooler SP Solid Polymer\nEXTG Existing ST Stain\nFD Floor Drain STL Steel\nFF Factory Finish STOR Storage\nFIN Finish STRUCTStructural\nFLR Floor T Tile\nFND Foundation THK Thick\nFTC Floor To Ceiling TO Top Of\nFTG Fully Tempered Glass TOW Top Of Wall\nFV Field Verify TYP Typical\nGC General Contractor UNO Unless Noted Otherwise\nGL Glass VER Verify\nGWB Gypsum Wallboard VERT Vertical\nHT Height W Width\nHDWR Hardware WB Wood Base\nHM Hollow Metal WC Wall Covering\nHORIZ Horizontal WD Wood\nID Inside Diameter WNDW Window\nPLAN DTL: TYP HM DOOR JAMB SECT: TYP HM DOOR HEAD DTL: TYP TOP-OF-WALL KICKER DTL: TYP BOT-OF-DECK KICKER CONNECTION INSUL Insulation WP Wood Paneling\nF1 F4 F7 F10\nJNT Joint WT Window Treatment\nG001 3\" = 1'-0\" G001 3\" = 1'-0\" G001 3\" = 1'-0\" G001 no scale L Length W/ With\nLAV Lavatory W/O Without\nPaper towel dispenser Feminine napkin Mirror\nPull box Thermostat dispenser at\nSoap dispenser Fire extinguisher cabinet\nwomens only\nLavatory Drinking fountain\nSwitch Intercom\nPaper towel dispenser\nand waste receptacle\nElectrical outlet\nPhone jack\nCeiling mounted Wall mounted\nMiscellaneous Accessible Switches Room Designation Exit Signs Accessible Fixtures and Accessories\nTYPICAL MOUNTING HEIGHTS PLAN DTL: TYPICAL GWB CONTROL JOINT\nC1 C12\nG001 3/8\" = 1'-0\" G001 3\" = 1'-0\"\nFront Approach, Push Side Front Approach, Push Side Latch Approach, Pull Side Latch Approach, Push Side Hinge Approach, Push Side\nFront Approach, Pull Side without closer and latch with both closer and latch with closer with closer Hinge Approach, Pull Side with both closer and latch Doors in Series\nTYPICALl DOOR MANEUVERING CLEARANCES\nA1\nG001 3/8\" = 1'-0\"",
+    "Standard Abbreviations",
+    "i n n e r s p a c e\ns t u d i o s\n335 north 8th street, suite c\nlincoln, nebraska 68508\n402.475.7234",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "",
+     "@ At LH Left Hand\nABV Above LHR Left Hand Reverse\nADJ Adjustable LS Lockset\nAFF Above Finish Floor MATL Material\nAL Aluminum MAX Maximum\nAC Acoustical Ceiling MECH Mechanical\nB Butts MEZZ Mezzanine\nBL Blinds MFR Manufacturer\nBLDG Building MIN Minimum\nBLK Block MISC Miscellaneous\nBLKHD Bulkhead MO Masonry Opening\nBM Beam MTL Metal\nBO Bottom of MW Moveable Wall\nBRK Brick NIC Not Included In Contract\nBSMT Basement NTS Not To Scale\nC Closer OC On Center\nCL Closet OD Outside Diameter\nCLG Ceiling OF/CI Owner Furnished/\nCMU Concrete Masonry Unit Contractor Installed\nCOL Column OHD Overhead Door\nCONC Concrete OPNG Opening\nCOND Condition OPP Opposite\nCONT Continuous PL Plastic Laminate\nCPT Carpet PLAS Plaster\nCRNR Corner PLYWD Plywood\nCSK Countersunk P Paint\nCT Ceramic Tile QT Quarry Tile\nDBL Double R Radius\nDESC Description RB Resilient Base\nDF Drinking Fountain REF Reference\nDIA Diameter REFR Refrigerator\nDISP Disposal REQD Required\nDMW Demountable Wall REST Restroom\nDPR Dispenser RH Right Hand\nDWG Drawing RHR Right Hand Reverse\nDWS Drawers RM Room\nDW Dishwasher RO Rough Opening\nEA Each RT Resilient Tile\nED Exit Device S Stop\nEL Elevation SC Special Coating\nELEC Electric SECT Section\nELEV Elevator SHLV Shelving\nEQ Equal SHT Sheet\nEW Eachway SIM Similar\nEWC Electric Water Cooler SP Solid Polymer\nEXTG Existing ST Stain\nFD Floor Drain STL Steel\nFF Factory Finish STOR Storage\nFIN Finish STRUCTStructural\nFLR Floor T Tile\nFND Foundation THK Thick\nFTC Floor To Ceiling TO Top Of\nFTG Fully Tempered Glass TOW Top Of Wall\nFV Field Verify TYP Typical\nGC General Contractor UNO Unless Noted Otherwise\nGL Glass VER Verify\nGWB Gypsum Wallboard VERT Vertical\nHT Height W Width\nHDWR Hardware WB Wood Base\nHM Hollow Metal WC Wall Covering\nHORIZ Horizontal WD Wood\nID Inside Diameter WNDW Window\nINSUL Insulation WP Wood Paneling\nJNT Joint WT Window Treatment\nL Length W/ With\nLAV Lavatory W/O Without",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "permission to reproduce all or part of this drawing is hereby granted\nsolely for the limited purpose of construction of this project or archiving.\nunauthorized copying, disclosure, or construction use without written\npermission of innerspace studios is prohibited.",
+     ""
+    ],
+    [
+     "",
+     "",
+     "do not scale drawings. verify all dimensions and clearances at site or\nfrom architectural, structural, shop, and other appropriate drawings.\nlay out and coordinate all work prior to installation to provide\nclearances required for operation, maintenance, and codes.\nverify non-interference with other work. do not fabricate prior to\nverification of clearances for all trades.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_5092 PDS Office Remodel Arch Construction Documents.pdf",
+   "sheet": 14,
+   "header_row": 0,
+   "headers": [
+    "DOOR",
+    "",
+    "",
+    "",
+    "DOOR SIZE",
+    "",
+    "",
+    "FRAME",
+    "",
+    "",
+    "FRAME DETAIL",
+    "",
+    "",
+    "HAND",
+    "FIRE\nLABEL"
+   ],
+   "score": 2,
+   "n_rows": 19,
+   "sample": [
+    [
+     "No.",
+     "MAT'L",
+     "TYPE",
+     "FINISH",
+     "W",
+     "H",
+     "T",
+     "MAT'L",
+     "TYPE",
+     "FINISH",
+     "HEAD",
+     "JAMB",
+     "SILL",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "200",
+     "WD",
+     "1",
+     "ST1",
+     "3'-0\"",
+     "7'-0\"",
+     "1 3/4\"",
+     "HM",
+     "A",
+     "P7",
+     "-",
+     "-",
+     "-",
+     "LH",
+     "-",
+     "EXTG",
+     "EXTG",
+     "EXTG",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "EXTG",
+     "-",
+     "1",
+     "200",
+     "",
+     "",
+     ""
+    ],
+    [
+     "201A",
+     "WD",
+     "1",
+     "ST1",
+     "3'-0\"",
+     "7'-0\"",
+     "1 3/4\"",
+     "HM",
+     "A",
+     "P7",
+     "-",
+     "-",
+     "-",
+     "RH",
+     "-",
+     "EXTG",
+     "EXTG",
+     "EXTG",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "EXTG",
+     "-",
+     "1",
+     "201A",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_5092 PDS Office Remodel Arch Construction Documents.pdf",
+   "sheet": 17,
+   "header_row": 0,
+   "headers": [
+    "011000 SUMMARY proposed changes in the Work that may require is on time, ahead, or behind schedule. graphic representations or in written form. determine that products are undamaged and prevent entrance of moisture or other foreign e. Recommended \"turn around\" cycles. other incentives received from recycling\nadjustment to the Contract Sum or the Contract Contractor will determine how construction a. Other terms include \"shown\", \"noted\", properly protected. matter after cutting. f. Inspection procedures. building demolition materials shall accrue to\nA. Notify Architect if discrepancies between drawings Time. If necessary, the description will include behind schedule will be expedited and secure \"scheduled\", and \"specified\". 2. Comply with product manufacturer's written e. Proceed with patching after construction g. Shop drawings and product Data. Contractor.\nand/or specifications are encountered. supplemental or revised Drawings and commitments from parties involved to ensure 5. \"Furnish\": Means to supply and deliver to the instructions for temperature, humidity, ventilation, operations requiring cutting are complete. h. Product maintenance information. 3. Conduct selective demolition and debris-removal\nSpecifications. that current and subsequent activities will be Project site, ready for unloading, unpacking, and weather-protection requirements for storage. 6. Patching: Patch construction by filling, repairing, i. Fixture lamping schedule. operations to ensure minimum interference with\nB. Requirements of Division 01 Sections apply to the a. Proposal requests issued by the Architect are completed within the Contract Time. assembly, installation, and similar operations. 3. Schedule delivery to minimize overcrowding of refinishing, closing up, and similar operations 3. Do not use original Project Record Documents as roads, streets, walks, walkways, and other\nWork of all Sections. not instructions either to stop work in c. Architect will record and distribute the 6. \"Install\": Describes operations at the Project site construction space. following performance of other work. Patch with part of operation and maintenance manuals. adjacent occupied and used facilities.\nprogress or to execute the proposed change. meeting minutes to the Contractor for including the actual unloading, temporary storage, durable seams that are as invisible as practicable. 4. Protect construction indicated to remain against\nC. Cooperate fully with separate contractors so work 3. If latent or changed conditions require distribution to each subcontractor, supplier, or unpacking, assembling, erecting, placing, D. Manufacturer's disclaimers and limitations on product Provide materials and comply with installation M. Project Record Documents: Maintain a clean damage and soiling. When permitted by Architect,\nunder separate contracts may be carried out smoothly, modifications to the Contract, the Contractor may other entity concerned. anchoring, applying, working to dimension, finish, warranties do not relieve Contractor of obligations requirements specified in other Sections, where undamaged set of Contract Documents and Shop items may be removed to a suitable, protected\nwithout interfering with or delaying work under this initiate a claim by submitting a request for a 6. Preinstallation Conferences: Conduct curing, protecting, cleaning, and similar under requirements of the Contract Documents. applicable. Drawings. Mark the set to show the actual installation storage location during selective demolition and\nContract or other contracts. Coordinate the Work of change to the Architect. preinstallation conferences at Project site before operations. Contractor is responsible for cost of replacing or a. Inspection: Where feasible, test and inspect where the installation varies from the Work as originally cleaned and reinstalled in their original locations\nthis Contract with work performed under separate a. Include a statement outlining reasons for the each activity that requires coordination with other 7. \"Provide\": Means to furnish and install, complete rebuilding defective Work. patched areas after completion to shown. Give particular attention to concealed elements after selective demolition operations are complete.\ncontracts. change and the effect of the change on the construction. and ready for the intended use. demonstrate physical integrity of installation. that would be difficult to measure and record at a later 5. Remove demolition waste materials from Project\nWork. 8. \"Project site\": The space available to the E. Remove, replace, patch, and repair materials and b. Exposed Finishes: Restore exposed finishes date. site and dispose of them in an approved landfill\nD. Contractor shall have use of Project site for b. Provide a complete description of the B. Construction Progress Documentation: Contractor for performing construction activities. surfaces cut or damaged during Work by methods and of patched areas and extend finish restoration 1. Do not use record documents for construction acceptable to authorities having jurisdiction. Do\nconstruction operations during construction period as proposed change. 1. Contractor's Construction Schedule: Submit a 9. \"Regulations\": The laws, ordinances, statues, and with materials so as not to void existing warranties. into retained adjoining construction in a purposes; protect from deterioration and loss. not allow demolished materials to accumulate\ndetermined by Owner. Contractor's use of Project site c. Indicate the effect of the proposed change on comprehensive, fully developed, horizontal lawful orders issued by authorities having manner that will minimize evidence of 2. Mark to indicate the actual product installed with on-site. Remove and transport debris in a manner\nis limited by Owner's right to perform work, to retain the Contract Sum and Contract Time. Gantt-chart-type, Contractor's construction jurisdiction. Also, the rules, conventions, and patching and refinishing. proprietary name and model number, including that will prevent spillage on adjacent surfaces and\nother contractors on portions of Project, or remain 4. On Owner's approval of a Proposal Request, the schedule within 5 days of date established for agreements within the construction industry that 017000 EXECUTION AND CLOSEOUT c. Floors and Walls: Where walls or partitions product options selected. areas.\noperational during construction. Architect will issue a Change Order for signatures commencement of the Work. control performance of the Work. REQUIREMENTS that are removed extend one finished area 3. Provide access to record documents for the a. Remove debris from elevated portions of\nof the Owner and the Contractor on AIA Form a. Indicate each significant activity separately into another, patch and repair floor and wall Architect's reference during normal working hours. building by chute, hoist, or other device that\nE. Do not disturb portions of Project site beyond areas in G701. and in proper sequence. D. Tests and inspections not explicitly assigned to Owner A. In-Place Materials: Use materials for patching identical surfaces in the new space. Provide an even will convey debris to grade level in a\nwhich the Work is indicated. b. Indicate completion in advance of date are Contractor's responsibility. Perform additional to in-place materials. For exposed surfaces, use surface of uniform finish, color, texture, and N. Demonstration and Training: Instruct Owner's controlled descent acceptable to Owner.\n1. Keep driveways, parking areas, loading areas, and C. Payment Procedures: established for final completion. quality-control activities required to verify that the Work materials that visually match in-place adjacent surfaces appearance. Remove in-place floor and wall personnel in operation, adjustment, and maintenance 6. Return adjacent areas to condition existing before\nentrances serving the premises clear and 1. Schedule of Values: c. Update schedule to reflect actual construction complies with requirements, whether specified or not. to the fullest extent possible. coverings and replace with new materials, if of products, equipment, and systems. demolition operations began. Promptly repair\navailable to Owner, Owner's employees, Owner's a. Round amounts to nearest whole dollar, the progress and activities when requested. 1. Regardless of whether original tests or inspections necessary, to achieve uniform color and damage to adjacent construction caused by\ncustomers, other tenants, and emergency vehicles total shall equal the Contract Sum. were Contractor's responsibility, provide B. Examination and Acceptance of Conditions: Before appearance. demolition operations. Where repairs to existing\nat all times. Do not use these areas for parking or b. Provide a separate line item for each part of C. Photographic Documentation: quality-control services, including retesting and proceeding with each component of the Work, examine d. Ceilings: Patch, repair, or rehang in-place 024119 SELECTIVE STRUCTURE DEMOLITION surfaces are required, patch to product surfaces\nstorage of materials. Schedule deliveries to the Work where Application for Payment may 1. Take photographs using maximum range of depth reinspecting, for construction that replaced Work substrates, areas, and conditions, with Installer or ceilings as necessary to provide an suitable for new materials.\nminimize space and time requirements for storage include materials or equipment purchased or of field, and that are in focus, to clearly show Work that failed to comply with the Contract Documents. Applicator present where indicated, for compliance with even-plane surface of uniform appearance. A. Field Conditions:\nof material and equipment on-site. fabricated and stored, but not yet installed. using a digital camera with a minimum sensor 2. On completion of testing, inspecting, sample requirements for installation tolerances and other e. Exterior Building Enclosure: Patch 1. Conduct so Owner's and other tenant's operations\n2. Coordinate placement of dumpster with Architect c. Each item shall be complete, including total resolution of 8 megapixels. taking, and similar services, repair damaged conditions affecting performance. Record components in a manner that restores will not be disrupted. 061053 MISCELLANEOUS ROUGH CARPENTRY\nand authorities having jurisdiction. cost and proportionate share of general 2. Submit unaltered, original, full-size image file construction and restore substrates and finishes. observations. enclosure to a weathertight condition and 2. Notify Architect of discrepancies between existing\n3. Coordinate use of dock per Building Rules overhead and profit. named with unique description that indicates Provide materials and comply with installation 1. Examine roughing-in for mechanical and electrical ensures thermal and moisture integrity of conditions and Drawings before proceeding. A. Concealed blocking and plywood backing panels to be\nprovided by Owner or Building Manager. 2. Applications for Payment: purpose of photograph. requirements or match existing substrates and systems to verify actual locations of connections building enclosure. 3. It is not expected that hazardous materials will be fire-retardant-treated wood Interior Type A. Plywood to\n4. Schedule use of freight elevator per Building Rules a. Each application for Payment shall be finishes. Restore patched areas and extend before equipment and fixture installation. 7. Cleaning: Clean areas and spaces where cutting encountered in the Work. If suspected hazardous be DOC PS 1, Exposure 1, C-D Plugged, not less than\nprovided by Owner or Building Manager. consistent with previous applications and D. Submittal Procedures: restoration into adjoining areas with durable 2. Verify space requirements and dimensions of and patching are performed. Remove paint, materials are encountered, do not disturb and 3/4 inch nominal thickness, unless otherwise indicated.\na. Passenger elevators are for personnel only. payment as certified by the Architect and paid 1. Electronic copy of CAD files of the Contract seams that are as invisible as possible. items shown diagrammatically. mortar, oils, putty, and similar materials from notify Architect and Owner. Hazardous materials Dimension lumber framing to be No. 2 grade or better\n5. Comply with Building Rules provided by Owner or for by the Owner. Drawings will not be provided by Architect for a. Repair and protection are Contractor's 3. Examine walls, floors, and roofs for suitable adjacent finished surfaces. will be removed by Owner under a separate with 19 percent maximum moisture content.\nBuilding Manager as separate attachment. b. The period covered by each Application for Contractor's use in preparing submittals. responsibility, regardless of the assignment conditions where products and systems are to be contract.\nPayment is one month. 2. Coordinate preparation and processing of of responsibility for quality-control services. installed. F. Progress Cleaning: a. Provide statement of refrigerant recovery B. Provide miscellaneous lumber for support or\nF. Maintain portions of existing building affected by c. Use AIA Document G702 and Continuation submittals with performance of construction 4. Verify compatibility with and suitability of 1. Clean Project site and work areas daily, including signed by refrigerant recovery technician attachment of other construction. Set to required levels\nconstruction operations in a weathertight condition Sheets G703. activities. Transmit each submittal sufficiently in E. Coordinate with Architect to provide mockups substrates, including compatibility with existing common areas. Enforce requirements strictly. responsible for recovering refrigerant, stating and lines, with members plumb, true to line, cut, and\nthroughout construction period. Repair damage caused d. Complete every entry on the form, include advance of performance of related construction demonstrating aesthetic effects and workmanship finishes or primers. Dispose of materials lawfully. that all refrigerant that was present was fitted. Fit accurately to other construction. Locate\nby construction operations. notarization and execution by a person activities to avoid delay. where specifically indicated. Demolish and remove 5. Proceed with installation only after unsatisfactory 2. Clean areas where work is in progress to the level recovered and that recovery was performed furring, nailers, blocking, grounds, and similar supports\nauthorized to sign legal documents on behalf 3. Pack each submittal appropriately for transmittal mockups when directed by Architect. conditions have been corrected. Proceeding with of cleanliness necessary for proper execution of according to EPA regulations. Include name to comply with requirements for attaching other\nG. Perform the Work so as not to interfere with Owner's of the Contractor. and handling. Transmit each submittal from the the Work indicates acceptance of surfaces and the Work. and address of technician and date construction.\nand other building tenant's day-to-day operations. e. Entries shall match data on the Schedule of Contractor to the Architect using a transmittal conditions. 3. Keep installed work clean. Clean installed refrigerant was recovered. 1. Provide continuous 2x4 wood blocking between\n1. Notify the Owner not less than 72 hours in Values and the Contractor's Construction form. The Architect will not accept submittals 015000 TEMPORARY FACILITIES AND CONTROLS surfaces according to written instructions of 4. Maintain existing utilities indicated to remain in studs at the following locations:\nadvance of activities that will affect Owner's or Schedule. Use updated schedules if received from sources other than the Contractor. C. Field Measurements: Take field measurements as manufacturer or fabricator of product installed. service and protect against damage during a. Top and bottom of wall-hung cabinets.\nother building tenant's operations, including, but revisions were made. 4. Allow time for submittal review, including time for A. Installation and removal of temporary facilities shall be required to fit the Work properly. Recheck 4. Remove debris from concealed spaces before operations. Maintain fire-protection facilities. b. Wall-mounted door hardware other than wall\nnot limited to, utility interruptions, high levels of f. Include amounts of Change Orders issued resubmittals. Time for review will commence on included in the Contract Sum. Allow other entities to measurements before installing each product. Where enclosing the space. 5. Remove, replace, patch, and repair materials and stops.\nnoise and vibration, or odors. prior to the last day of the construction period receipt of submittal. No extension of the Contract use temporary facilities without cost. portions of the Work are indicated to fit to other 5. Clean exposed surfaces and protect as necessary surfaces cut or damaged during selective c. Grab bars.\n2. Maintain access to existing walkways, corridors, covered by the application. Time will be authorized because of failure to construction, verify dimensions of other construction by to ensure freedom from damage and deterioration demolition, by methods and with materials and d. Any equipment indicated to be wall-hung or\nand exits. g. With each Application for Payment, submit transmit submittals enough in advance of the B. Water, electric power, lighting, heating and cooling, field measurements before fabrication. Coordinate at time of Substantial Completion. using approved contractors so as not to void mounted to the wall.\nwaivers of mechanic's liens from entities Work to permit processing, including resubmittals. sanitary facilities, elevator, and stairs are available for fabrication schedule with construction progress to avoid 6. During handling and installation, clean and protect existing warranties.\nH. Smoking is not permitted within the building or within 25 lawfully entitled to file mechanic's liens for the a. Allow 10 business days for review of each use from Owner's existing system provided they are delaying the Work. construction in progress and adjoining materials C. Provide plywood backing panels where indicated and\nfeet of entrances, operable windows, or outdoor air construction period covered by the previous submittal. maintained in a condition acceptable to Owner and already in place. Apply protective covering where B. Examination: needed for utilities. Install by fastening to studs. Paint\nintakes. Use of tobacco products and other controlled application. b. For paper submittals submit three copies, Building Manager. D. Installation: Comply with manufacturer's written required to ensure protection from damage or 1. Verify that utilities have been disconnected and same as adjacent wall finish, unless otherwise\nsubstances within the existing building or on the Project h. When an application shows completion of an Architect will return two copies. 1. Provide connections and extensions of services as instructions and recommendations for installing deterioration at Completion. capped before starting. indicated. Coordinate sizes and locations with\nsite is not permitted. item, submit final or full waivers. c. For electronic submittals submit via email as required for construction operations. products in applications indicated. 7. Clean and provide maintenance on completed 2. Determine whether removing any element might Architect when not indicated on Drawings.\ni. The Owner reserves the right to designate PDF electronic file. Architect will return 1. Locate the Work and components of the Work construction as frequently as necessary through result in structural deficiency or unplanned\nI. Contractor personnel working on Project site to wear which entities involved in the Work must annotated file. C. Where sprinkler protection exists and is functional, accurately, in correct alignment and elevation, as the remainder of the construction period. Adjust collapse of any portion of structure or adjacent\nidentification tags approved by Owner and Building submit waivers. 5. Contractor to review each submittal and check for maintain it without interruption. If operations are indicated. and lubricate operable components to ensure structures. 062023 INTERIOR FINISH CARPENTRY\nManager at all times. j. With each Application for Payment, submit coordination with other Work of the Contract and performed close to sprinklers, shield them temporarily a. Make vertical work plumb and make operability without damaging effects. 3. When unanticipated mechanical, electrical, or\n1. Comply with Owner's and Building Manager's Contractor's waivers of mechanics liens for for compliance with the Contract Documents. Note with guards. Remove temporary guards at the end of horizontal work level. structural elements are encountered, investigate A. Submit samples for each type of trim, for each species\nrequirements for background and drug screenings the period of construction covered by the corrections and field dimensions. Mark with work shifts, whenever operations are paused, and b. Where space is limited, install components to G. Starting and Adjusting: and measure the nature and extent of the element. and cut, finished on one side.\nof Contractor personnel working on Project site. application. approval stamp before submitting to Architect. when nearby work is complete. maximize space available for maintenance 1. Start equipment and operating components to Submit a written report to the Architect.\n2. Maintain list of approved screened personnel with k. Submit waivers of lien on forms, executed in a. Incomplete submittals are unacceptable, will and ease of removal for replacement. confirm proper operation. Remove malfunctioning B. Before installation, condition materials to installation\nOwner's and Building Manager's representatives. a manner acceptable to Owner. be considered nonresponsive, and will be D. Provide project manager and superintendent with c. Conceal pipes, ducts, and wiring in finished units, replace with new units, and retest. C. Utility Services and Mechanical/Electrical Systems: areas for a minimum of 24 hours. Hardwoods to have\nl. Include retainage in amount of 10%, unless returned for resubmittal without review. cellular telephones. Provide project manager with areas unless otherwise indicated. 2. Adjust equipment for proper operation. Adjust 1. Maintain services/systems indicated to remain and 9 percent maximum moisture content.\nJ. Contractor's Warranty for all labor and materials to indicated otherwise in final contract. 6. Do not use Submittals without an appropriate final computer to maintain electronic communications. 2. Provide blocking and attachment plates and operating components for proper operation without protect against damage.\nhave a duration of One year from date of Final 3. Administrative actions and submittals that must stamp indicating action taken. anchors and fasteners of adequate size and binding. 2. Locate, identify, disconnect, and seal or cap off C. Install level, plumb, true, and aligned with adjacent\nCompletion. precede or coincide with submittal of first a. Distribute copies of final approved submittals E. Unauthorized signs are not permitted. number to securely anchor each component in 3. Test each piece of equipment to verify proper utility services and mechanical/electrical systems materials. Use concealed shims where necessary for\n1. Manufacturer's warranties, or warranties specified Application for Payment include the following: as necessary for performance of construction place, accurately located and aligned with other operation. Test and adjust controls and safeties. serving areas to be selectively demolished. alignment. Scribe and cut to fit adjoining work. Use\nin other Sections, of longer duration to run a. List of sub-contractors, including those activities. F. Provide waste-collection containers in sizes adequate portions of the Work. Where size and type of Replace damaged and malfunctioning controls and a. Provide services/systems that bypass area of fine finishing nails or finishing screws, countersunk and\nconcurrently. furnishing products or equipment. 7. Shop Drawings: Prepare Project-specific to handle waste from construction operations. attachments are not indicated, verify size and type equipment. selective demolition and maintain continuity filled flush, where face fastening is unavoidable. Install\n2. Manufacturer's disclaimers and limitations do not b. List of principal suppliers and fabricators. information, drawn accurately to scale. Do not required for load conditions. of services/systems to other parts of building. to tolerance of 1/8 inch in 96 inches for level and\nrelieve Contractor of obligations. c. Schedule of Values. base Shop Drawings on reproductions of the G. Provide facilities necessary for hoisting materials and a. Where mounting heights are not indicated, H. Protection of Installed Construction: Provide final b. Cap or plug remaining piping with same or plumb. Install adjoining with 1/32 inch maximum offset.\nd. Contractor's Construction Schedule. Contract Documents or standard printed data. personnel. mount components at heights directed by protection and maintain conditions that ensure installed compatible piping material.\ne. Schedule of unit prices. a. Except for templates, patterns and similar Architect. Work is without damage or deterioration at time of c. Cap or plug ducts with same or compatible D. Install standing and running trim with minimum number\n012000 PRICE AND PAYMENT PROCEDURES f. Submittal Schedule. full-size Drawings, submit Shop Drawings on H. Provide floor-to-ceiling dustproof partitions to limit dust b. Allow for building movement, including Substantial Completion. Comply with manufacturer's ductwork material. of joints practical, using full-length pieces to greatest\ng. List of Contractor's staff assignments. sheets at least 8-1/2 by 11 inches but no and dirt migration and to separate occupied areas from thermal expansion and contraction. written instructions for temperature and relative 3. Disconnect equipment at nearest fitting connection extent possible. Miter at returns and outside corners,\nA. Substitution Procedures: h. Copies of building permits. larger than 24 by 36 inches. fumes and noise. Seal joints and perimeter, protect c. Coordinate installation of anchorages. humidity. to services. Remove as whole units, complete and cope at inside corners, to produce tight-fitting\n1. Requests for substitution will be considered if i. Certificates of insurance and insurance 8. Product Data: Collect information into a single air-handling equipment, and provide walk-off mats at 3. Make joints of uniform width. Where joint locations with all controls. Owner and/or Building Manager joints. Use scarf joints for end-to-end joints. Fill gaps\nreceived within 15 days after award of the Work. policies. submittal for each element of construction and each entrance through temporary partition. in exposed work are not indicated, arrange joints I. Repair of the Work: has right of first refusal. between top of base and wall with wood filler, sand\nRequests received more than 15 days after 4. Administrative actions and submittals that must type of product or equipment. for the best visual effect. Fit exposed connections 1. Repair or remove and replace defective smooth, and finish same as wood base.\ncommencement of the Work may be considered or precede or coincide with submittal of Application 9. Samples: Submit manufacturer's standard sized I. Provide and manage a fire-prevention program together to form hairline joints. construction. Repairing includes replacing D. Protection:\nrejected at the discretion of the Architect. for Payment at Substantial Completion include the samples for review of kind, color, pattern, and complying with NFPA 241. 4. Use products, cleaners, and installation materials defective parts, refinishing damaged surfaces, 1. Provide temporary barricades and other protection E. For glass in wood frames, secure glass with removable\n2. Identify product or fabrication or installation following: texture for a check of these characteristics with that are not considered hazardous. touching up with matching materials, and properly required to prevent injury to people and damage to stops located on secure side of opening.\nmethod to be replaced. Include related a. Documentation supporting claim that the other elements and for a comparison of these J. Document and notify Architect of visible signs of mold adjusting operating equipment. Remove and adjacent buildings and facilities to remain.\nSpecification Section and Drawing numbers. Work is substantially complete. characteristics between submittal and actual that appear or are discovered during construction. E. Cutting and Patching: replace operating components that cannot be 2. Design, provide, and maintain shoring, bracing,\n3. Show compliance with requirements for b. Statement showing an accounting of changes component as delivered and installed. 1. Structural Elements: Notify Architect of locations repaired. and structural supports as required to preserve 064116 PLASTIC-LAMINATE-FACED\nsubstitutions and the following, as applicable: to the Contract Sum. a. Submit manufacturer's color charts showing K. Repair and clean permanent facilities used during and details, and await directions before 2. Remove and replace damaged surfaces that are stability and prevent movement, settlement, or ARCHITECTURAL CABINETS\na. Coordination information, including a list of 5. Administrative actions and submittals that must the full range of colors, textures, and patterns construction. Return them to their original condition, proceeding. Shore, brace, and support structural exposed to view if surfaces cannot be repaired collapse of construction and finishes to remain,\nchanges or modifications needed to other precede or coincide with submittal of final available for selection by Architect when unless renovation work is specified. elements. Do not change their load-carrying without visible evidence of repair. Remove and and to prevent unexpected or uncontrolled A. Submit the following:\nparts of the Work and to construction Application for Payment include the following: specific color selection not specified. capacities or increase deflections. replace chipped, scratched, and broken glass or movement or collapse of construction being 1. Shop drawings.\nperformed by Owner and separate a. Evidence of completion of Project closeout 10. Product Schedule: Prepare written summary 2. Operational Elements: Do not reduce their reflective surfaces. demolished. 2. Product data for cabinet hardware and\ncontractors, that will become necessary to requirements. indicating types of products required and their 016000 PRODUCT REQUIREMENTS capacity to perform as intended or that results in 3. Remove temporary barricades and protections accessories.\naccommodate proposed substitution. b. Updated final statement, accounting for final intended location in tabular form. increased maintenance or decreased operational J. Final Cleaning: Employ experienced workers or where hazards no longer exist. 3. Samples for plastic laminates for each color,\nb. Detailed comparison of significant qualities of changes to the Contract Sum. A. Provide products that comply with the Contract life or safety. professional cleaners for final cleaning. Clean each pattern, and surface finish.\nproposed substitution with those of the Work c. Evidence that claims have been settled. Documents, are undamaged and, unless otherwise 3. Other Construction Elements: Do not change their surface or unit to condition expected in a commercial E. Selective Demolition:\nspecified. Significant qualities may include 014000 QUALITY REQUIREMENTS indicated, are new at time of installation. load-carrying capacity or that results in reducing building cleaning and maintenance program. 1. Demolish and remove existing construction only to B. Comply with AWI's \u201cArchitectural Woodwork\nattributes such as performance, weight, size, 1. Provide products complete with accessories, trim, their capacity to perform as intended or that results 1. Replace disposable air filters and clean permanent the extent required by new construction and as Standards.\u201d\ndurability, visual effect, warranties, and 013000 ADMINISTRATIVE REQUIREMENTS A. Unless the Contract Documents include more stringent finish, fasteners, and other items needed for a in increased maintenance or decreased air filters. indicated. 1. Cabinets to be grade Custom, unless specified\nspecific features and requirements indicated. requirements, applicable construction industry complete installation and indicated use and effect. operational life or safety. 2. Clean exposed surfaces of diffusers, registers, and a. Neatly cut openings and holes plumb, square, elsewhere as Premium.\nIndicate deviations, if any, from the Work A. Project Management and Coordination: standards have the same force and effect as if bound 2. Where products are named, provide the named 4. Visual Elements: Do not reduce the aesthetic grills. and true to dimensions required. Use cutting 2. Cabinets to be frameless flush overlay\nspecified. 1. Contractor to coordinate construction operations or copied directly into the Contract Documents to the product. Substitutions may be considered at the qualities in the Architect's and Owner's opinion. 3. Clean light fixtures, lamps, globes, and reflectors. methods least likely to damage construction construction, unless indicated otherwise.\nc. Product Data, include drawings, descriptions, included in different Sections for efficient and extent referenced. discretion of the Architect. Remove and replace construction that has been Replace burned-out bulbs, those noticeably to remain or adjoining construction. Use hand\nfabrication, and installation procedures. orderly completion of the Work. 1. If compliance with two or more standards conflict, 3. Where products are accompanied by the term \"or cut and patched in a visually unsatisfactory dimmed by hours of use, and defective and noisy tools or small power tools designed for C. MDF to be Grade 130 with no urea-formaldehyde\nd. Samples, where applicable or requested. 2. Contractor to coordinate scheduling and timing of comply with the most stringent requirement. equal\" or \"basis-of design\", comparable products manner at no additional costs. starters. sawing or grinding, not hammering and resins. Particleboard to be Grade M-2 with no\ne. Detailed comparison of Contractor's required administrative procedures with other will be considered. 5. Cutting: Cut in-place construction by sawing, 4. Leave Project clean and ready for occupancy. chopping. urea-formaldehyde resin. Thermoset panels thermally\nConstruction Schedule using proposed activities to avoid conflicts and to ensure orderly B. The quantity or quality level shown or specified shall be a. Product description, attributes, and drilling, breaking, chipping, grinding, and similar 5. Use cleaning materials and agents recommended b. Cut or drill from the exposed or finished side fused, melamine-impregnated paper complying with\nsubstitution with products specified for the progress of the Work. the minimum provided or performed. The actual characteristics may be listed to establish the operations, including excavation, using methods by manufacturer or fabricator of the surface to be into concealed surfaces to avoid marring NEMA LD3, Grade VGL.\nWork, including effect on the overall Contract 3. RFIs: Immediately on discovery of the need for installation may comply exactly with the minimum significant qualities. least likely to damage elements retained or cleaned. Do not use cleaning agents that are existing finished surfaces.\nTime. additional information or interpretation of the quantity or quality specified, or it may exceed the b. Manufacturer's published attributes and adjoining construction. If possible, review potentially hazardous to health or property or that c. Do not use cutting torches until work area is D. Complete fabrication to maximum extent possible\nf. Cost information, including a proposal of Contract Documents, Contractor to prepare and minimum within reasonable limits. To comply with these characteristics also establish salient proposed procedures with original Installer; might damage finished surfaces. cleared of flammable materials. At concealed before shipment to Project site. Disassemble\nchange, if any, in the Contract Sum. submit an RFI. Submit in a prompt manner to requirements, indicated numeric values are minimum characteristics of product. comply with original Installer's written spaces, verify condition and contents of components only as necessary for shipment and\ng. Contractor's certification that proposed avoid delays in the Work. or maximum, as appropriate, for the context of c. Comparable products will be evaluated by the recommendations. K. Punchlist: Architect will prepare a list of items to be hidden space before starting flame-cutting installation. Where necessary for fitting at site, provide\nsubstitution complies with requirements in the a. Allow 7 working days for Architect's response. requirements. Refer uncertainties to Architect for a Architect during the submittal review. a. In general, use hand or small power tools completed and corrected at Substantial Completion. operation. Maintain portable fire-suppression ample allowance for scribing, trimming, and fitting.\nContract Documents, is compatible with Notify Architect within 3 days if Contractor decision before proceeding. 4. Where products are accompanied by the term \"as designed for sawing and grinding, not Contractor will submit a signed copy of punchlist stating devices during flame-cutting operations.\nrelated products and materials, and is disagrees with response or response selected,\" or a visual finish is not selected, hammering and chopping. Cut holes and that each item has been completed or otherwise d. Maintain fire watch during and for at least two E. Shop-cut openings to maximum extent possible.\nappropriate for applications indicated. warrants a change to the Contract. C. Definitions: Architect will make selection from manufacturer's slots neatly to minimum size required, and resolved for acceptance prior to Final Completion. hours after flame-cutting operations. Locate correctly sized and shaped openings accurately.\nh. Contractor's waiver of rights to additional b. Prepare and maintain a log of RFI's. Submit 1. \u201cExperienced\u201d: Means having successfully full product line options. with minimum disturbance of adjacent e. Locate equipment and remove debris and Sand edges of cutouts to remove splinters and burrs.\npayment or time that may subsequently log when requested. completed a minimum of five previous projects surfaces. Temporarily cover openings when L. Operation and Maintenance Data: Assemble a materials so as not to impose excessive loads\nbecome necessary because of the failure of 4. Preconstruction Conference: Architect will similar in nature. B. If Contractor is given option of selecting between two or not in use. complete set of operation and maintenance data, on supporting walls, floors, or framing. F. Before installation, condition cabinets to installation\nproposed substitution to produce indicated schedule and conduct a preconstruction 2. \"Approved\": When used in conjunction with the more products for use on Project, select product b. Finished Surfaces: Cut or drill from the including warranties, in format acceptable to Architect f. Dispose of demolished items and materials areas for a minimum of 24 hours.\nresults. conference before start or Work at a time Architect's action on the Contractor's submittals, compatible with products previously selected, even if exposed or finished side into concealed and Owner. promptly.\nconvenient to Owner and Contractor. applications, and requests, is limited to the previously selected products were also options. surfaces. 1. Include only sheets pertinent to product or 2. Except for items or materials indicated to be G. Install level, plumb, true, and straight. Shim as required\nB. Contract Modification Procedures: 5. Progress Meetings: Architect will conduct Architect's duties and responsibilities as stated in c. Concrete and Masonry: Cut using a cutting component installed. recycled, reused, salvaged, reinstalled, or with concealed shims. Install straight, level, and plumb\n1. Architect will issue supplemental instructions progress meetings at weekly intervals. the conditions of the contract. C. Deliver, store, and handle products using means and machine, such as an abrasive saw or a 2. Include the following type of information: otherwise indicated to remain Owner's property, to tolerance of 1/8 inch in 96 inches. Scribe and cut to\nauthorizing minor changes in the Work, not a. Items of significance that could affect 3. \"Directed\": Means an instruction by the Architect. methods that will prevent damage, deterioration, and diamond-core drill. a. Emergency instructions. remove demolition waste materials from Project fit adjoining work, refinish cut surfaces, and repair\ninvolving adjustment to the Contract Sum or the progress will be reviewed. a. Other terms include \"requested\", \"authorized\", loss, including theft and vandalism. Comply with d. Mechanical and Electrical Services: Cut off b. Spare parts list. site and legally dispose of them. Storage or sale damaged finish at cuts.\nContract Time. b. Progress since the last meeting will be \"selected\", \"required\", and \"permitted\". manufacturer's written instructions. pipe or conduit in walls or partitions to be c. Copies of warranties. of removed items or materials on-site is not\n2. Architect will issue a detailed description of reviewed to determine whether each activity 4. \"Indicated\": Means requirements expressed by 1. Inspect products on delivery to determine removed. Cap, valve, or plug and seal d. Wiring diagrams. permitted. H. Anchor to anchors or blocking built in or directly\ncompliance with the Contract Documents and to remaining portion of pipe or conduit to a. Revenues, savings, rebates, tax credits, and attached to substrates. Secure with countersunk,",
+    "i n n e r s p a c e\ns t u d i o s\n335 north 8th street, suite c\nlincoln, nebraska 68508\n402.475.7234",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 11,
+   "sample": [
+    [
+     "",
+     "permission to reproduce all or part of this drawing is hereby granted\nsolely for the limited purpose of construction of this project or archiving.\nunauthorized copying, disclosure, or construction use without written\npermission of innerspace studios is prohibited.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "do not scale drawings. verify all dimensions and clearances at site or\nfrom architectural, structural, shop, and other appropriate drawings.\nlay out and coordinate all work prior to installation to provide\nclearances required for operation, maintenance, and codes.\nverify non-interference with other work. do not fabricate prior to\nverification of clearances for all trades.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Mechanical/Electrical Engineers\nETI\nEngineering Technologies, Inc.\n825 M Street, Suite 200\nLincoln, NE 68508\n402-476-1273",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_5092 PDS Office Remodel Arch Construction Documents.pdf",
+   "sheet": 18,
+   "header_row": 0,
+   "headers": [
+    "concealed fasteners, and blind nailing. Use fine hardware schedule and templates. Reinforce doors horizontal forces by bracing, countersplaying, or surface. 122113 HORIZONTAL LOUVER BLINDS\nfinishing nails or finishing screws for exposed fastening, and frames to receive surface-mounted hardware. other equally effective means. E. For resilient sheet, unroll and allow to stabilize before\ncountersunk and filled flush. Provide labels on doors and frames where labeled 2. Do not attach hangers to tabs of composite steel installing. C. Provide materials for use within each paint system that A. Maintain and protect; or remove, salvage, and reinstall\n1. Fasten wall cabinets near top and bottom, and at doors are scheduled. floor deck, steel roof deck, or permanent metal are compatible with one another and substrates existing horizontal louver blinds on interior sidelite\nends not more than 16 inches o.c. for not less than forms. F. Scribe, cut, and fit to butt neatly and tightly to vertical indicated, under conditions of service and application. windows. Notify Building Manager and Architect of any\n1-1/2 inch penetration into concealed wood F. Set frames accurately in position; plumbed, aligned, 3. Do not connect or suspend steel framing from surfaces and permanent fixtures including built-in units that are damaged or defective.\nblocking. and braced securely until permanent anchors are set. ducts, pipes, or conduit. furniture, cabinets, pipes, outlets, and door frames. D. Verify suitability of substrates, including surface 1. Clean units thoroughly at completion of work.\nExtend struts vertically from top of frame to overhead 4. Install ceiling suspension systems that are level to Extend into toe spaces, door reveals, closets, and conditions and compatibility with existing finishes and 2. Provide new horizontal louver blinds at new\nI. Install without distortion so doors and drawers fit structural supports or substrates unless frame is within 1/8 inch in 12 feet measured lengthwise on similar openings. Extend to center of door openings. primers. Begin coating application only after interior sidelites to match existing.\nopenings properly and are accurately aligned. Adjust anchored to structural support at each jamb. Install each member and transversely between parallel unsatisfactory conditions have been corrected.\nhardware to center doors and drawers in openings and frames with removable glazing stops located on secure members. G. Maintain reference markers, holes, and openings that Beginning coating application constitutes Contractor's B. Submit the following:\nto provide unencumbered operation. Complete side of opening. are in place or marked for future cutting by repeating on acceptance of substrates and conditions. 1. Shop drawings including fabrication and\ninstallation of hardware and accessory items. 092900 GYPSUM BOARD flooring as marked on substrates. Use nonpermanent, installation details.\nG. Immediately after erection, sand smooth rusted or nonstaining marking device. E. Clean substrates of substances that could impair bond 2. Product data.\n072100 THERMAL INSULATION damaged areas of prime coat and apply touchup of A. Apply and finish gypsum board panels to comply with of paints, including dirt, oil, grease, and incompatible 3. Samples for each exposed finish.\ncompatible air-drying, rust-inhibitive primer. ASTM C 840. Remove and replace panels that are H Adhere to flooring substrates using a full spread of paints and encapsulants. Remove incompatible 4. Maintenance data with closeout submittals.\nA. Submit product data. wet, moisture damaged, and mold damaged. adhesive applied to substrate to produce a complete primers and reprime substrate with compatible primers\n081416 FLUSH WOOD DOORS 1. Isolate perimeter of gypsum board at structural installation without open cracks, voids, raising and as required. C. Fabricate units to comply with WCMA A 100.1. Slats to\nB. Install insulation that is undamaged, dry, and unsoiled. abutments by providing 1/4 inch wide space. puckering at joints, telegraphing of adhesive spreader be 1\u201d nonperforated aluminum with crowned profile and\nA. Submit the following: 2. Isolate length of gypsum board at floors by marks, and other surface imperfections. F. Apply paints to produce surface films without radiused corners, unless building standard is otherwise.\nC. Use widths and lengths that fill the entire wall cavity 1. Shop drawings including preparations for providing 1/2 inch wide space. cloudiness, spotting, holidays, laps, brush marks, roller\nformed by framing members to produce a friction fit. hardware and other pertinent details. 3. Seal joints between edges and spaces with I. Remove soil, visible adhesive, and surface blemishes tracking, runs, sags, ropiness, or other surface D. Fabricate units in sizes to fill window and other\nWhere wall cavity heights exceed 96 inches, support 2. Product data. acoustical sealant. from surfaces. Provide protective topcoat products as imperfections. Cut in sharp lines and color breaks. openings. Provide rails, cords, ladders, and materials\nunfaced blankets mechanically and support faced 3. Schedule prepared by supplier using same recommended by manufacturer. exposed to view matching slat color.\nblankets by taping flanges to flanges of studs. reference numbers for details and openings as B. Install water-resistant gypsum, glass-mat G. Paint items exposed in equipment rooms and occupied\nthose on Drawings. water-resistant, or cementitious backing panels where 096513 RESILIENT BASE AND ACCESSORIES spaces. Protect work of other trades against damage E. Install level, plumb, aligned and centered in openings,\na. Indicate requirements for veneer matching. tile is installed or other areas subject to wetting. Where from paint application. and aligned with adjacent units. Install intermediate\n078413 PENETRATION FIRESTOPPING b. Indicate coordination of glazing frames and tile backing panels abut other types of panels in same A. Submit the following: 1. Do not paint over Underwriters Laboratories, support as required to prevent deflection of headrail.\nstops with glazing requirements. plane, shim surfaces to produce a uniform plane across 1. Product data. factory Mutual, or other code-required labels or\nA. Install at all penetrations through fire-resistance-rated c. Indicate fire ratings for fire doors. panel surfaces. 2. Samples for each type and color. equipment name, identification, performance 122116 VERTICAL LOUVER BLINDS\nconstruction that complies with authorities having rating, or nomenclature plates.\njurisdiction. B. Interior solid-core doors to be Premium grade with C. Cover both faces of stud partition framing with gypsum B. Before installation, condition materials to installation 2. Apply additional coats if undercoats, stains, or A. Provide and install new vertical louver blinds at all\n1. Install at all new penetrations and any existing Grade A faces, unless otherwise indicated. Book panels in concealed space (above ceilings, etc.), areas for a minimum of 24 hours. other conditions show through final coat of paint exterior windows in the project area.\npenetrations. match veneer leaves, Slip match for rift cut red oak. except in chases that are braced internally. until paint film is of uniform finish, color, and\n2. Includes both empty openings and openings Core to be particleboard, glued wood stave, or 1. Except where concealed application is indicated or C. Fill cracks, holes, and depressions in substrates with appearance. Give special attention to ensure that B. Submit the following:\ncontaining penetrating items. structural composite lumber; five ply construction. required for sound, fire, air, or smoke ratings, trowelable leveling and patching compound. Remove surfaces, including edges, corners, crevices, 1. Shop drawings including fabrication and\ncoverage may include scraps of not less than 8 sq. bumps and ridges to produce a smooth uniform welds, and exposed fasteners, receive a dry film installation details.\nB. Penetration firestopping to resist spread of fire, resist C. Prepare doors to receive hardware according to the ft. in area. substrate. thickness equivalent to that of flat surfaces. 2. Product data.\npassage of smoke and other gases, and maintain door hardware schedule and templates. Provide labels 2. Fit gypsum panels around ducts, pipes, and 3. The term \"exposed surfaces\" includes area visible 3. Samples for each exposed finish.\noriginal fire-resistance rating of construction penetrated. on doors where labeled doors are scheduled. conduits. D. Apply to wall, columns, pilasters, casework and when permanent or built-in fixtures, convector 4. Maintenance data with closeout submittals.\nSystems shall be compatible with one another, with the 3. Where partitions intersect open concrete coffers, cabinets in toe spaces, and other permanent fixtures in covers, covers for finned tube radiation, grilles,\nsubstrates forming openings, and with penetrating D. Examine installed frames before hanging doors; verify concrete joints, and other structural members rooms and areas where base is required. and similar components are in place. Extend C. Fabricate units to comply with WCMA A 100.1. Slats to\nitems if any. that frames have been installed with plumb jambs and projecting below underside of floor/roof slab and coatings in these areas, as required, to maintain be 1\u201d nonperforated aluminum with crowned profile and\nlevel heads. decks, cut gypsum panels to fit profile formed by E. Install in lengths as long as practical without gaps at the system integrity and provide desired radiused corners, unless building standard is otherwise.\nC. Install forming materials and other accessories required coffers, joists, and other structural members; allow seams and with tops of adjacent pieces aligned. Do protection.\nto support fill materials during their application. After E. Seal edges of doors, edges of cutouts, and mortises 1/4 to 3/8 inch wide joints to install sealant. not use pieces less than 50\" long except where 4. Paint surfaces behind movable equipment and D. Fabricate units in sizes to fill window and other\nallowing fill materials to fully cure, remove combustible after fitting and machining. necessary. furniture the same as similar exposed surfaces. openings. Provide rails, cords, ladders, and materials\nforming materials and other accessories that are not D. Install cornerbead at outside corners. Use LC-bead at Paint surfaces behind permanently fixed exposed to view matching slat color.\npermanent components. 087100 DOOR HARDWARE exposed panel edges. Install control joints according to F. Tightly adhere to substrate throughout length of each equipment or furniture with prime coat only.\nASTM C 840, coordinate with Architect where wall piece in continuous contact with horizontal and vertical 5. Paint interior surfaces of ducts, where visible E. Install level, plumb, aligned and centered in openings,\nD. Apply materials so they contact and adhere to A. Submit the following: length exceeds 30 lineal feet, and in specific locations substrates. Do not stretch during installation. Job form through registers or grilles, with a flat, and aligned with adjacent units. Install intermediate\nsubstrates. For fill materials that will remain exposed 1. Product data. approved by Architect. outside and inside corners. non-specular black paint. support as required to prevent deflection of headrail.\nafter completing the Work, finish to produce smooth, 2. Samples for each exposed finish upon request. 6. Paint backsides of access panels and removable\nuniform surfaces that are flush with adjoining finishes. 3. Hardware schedule organized into \"hardware E. Treat gypsum board joints, interior angles, edge trim, G. Butt resilient molding accessories to adjacent materials or hinged covers to match exposed surfaces. 123661.16 SOLID SURFACING COUNTERTOPS\nsets.\" Include the following: control joints, penetrations, fastener heads, surface and tightly adhere to substrates throughout length of 7. Omit primer on metal surfaces that have been\na. Identification number, location, hand, fire defects, and elsewhere as required to prepare gypsum each piece. Install reducer strips at edges of carpet or shop-primed and touch-up painted.\nA. Submit the following:\n078443 JOINT FIRESTOPPING rating, and material of each door and frame. board surfaces for decoration. Apply joint tape over resilient floor covering that would otherwise be\n1. Shop drawings.\nb. Type, style, function, size, quantity, and finish gypsum board joints. Promptly remove residual joint exposed. H. At completion of construction activities of other trades,\n2. Product data.\nA. Install at all joints in or between fire-resistance-rated of each door hardware item. Include compound from adjacent surfaces. touch up and restore damaged or defaced painted\nconstruction systems that complies with authorities description and function of each lockset and 096800 CARPETING surfaces at no additional cost to the Contract Sum. 3. Samples for each material type.\nhaving jurisdiction. exit device. F. Finish panels to levels indicated below: 4. Maintenance data with closeout submittals.\n1. Install at exterior curtain-wall/floor intersections, if c. Complete designations of every item required 1. Level 1 for ceiling plenum areas, concealed areas, A. Submit the following: I. Paint exposed surfaces whether or not colors are\ndoes not exist. Coordinate with Architect and for each door or opening. and where indicated, unless a higher level of finish 1. Product data. designated in schedules, except where a surface or B. Fabricate in one piece with loose splashes for field\nOwner. d. Keying schedule detailing Owner's final is required for fire-resistance-rated assemblies and 2. Samples for each color and texture. material is specifically indicated not to be painted or is application.\nkeying instructions. sound-rated assemblies. 3. Maintenance data with closeout submittals. to remain neutral. Where an item or surface is not\nB. Joint firestopping systems to resist spread of fire, resist 2. Level 2 for substrate for tile, unless a higher level specifically mentioned, the Architect will select from\nC. Shop-cut openings to maximum extent possible.\npassage of smoke and other gases, and maintain B. For hardware on doors in an accessible route, comply of finish is required for acceptable lippage B. Comply with CRI's \u201cCRI Carpet Installation Standards.\u201d colors or finishes being provided.\nLocate correctly sized and shaped openings accurately.\noriginal fire-resistance rating of assemblies in or with DOJ's \u201c2010 ADA Standards for Accessible tolerances. Beginning installation constitutes Contractor's\nSlightly ease edges and corners, unless otherwise\nbetween which systems are installed. Systems to Design\u201d and with ICC A117.1. 3. Level 4 at surfaces that will be exposed to view, acceptance of substrates and conditions. J. Remove hardware and hardware accessories, plates\nindicated.\naccommodate building movements without impairing unless otherwise indicated. and covers, light fixture trims, and similar items already\nability to resist the passage of fire and hot gases. C. Distribute door hardware templates for doors, frames, 4. Level 5 where indicated on Drawings. C. Fill cracks, holes, and depressions in substrates with installed prior to surface preparation and painting.\nand other work. Verify any questions regarding trowelable leveling and patching compound. Remove Remove these items to completely paint the adjacent D. Complete fabrication to maximum extent possible\nC. Install forming materials and other accessories required mounting heights with Architect. 095113 ACOUSTICAL PANEL CEILINGS bumps and ridges to produce a smooth uniform surfaces. Have items reinstalled at completion of before shipment to Project site. Disassemble\nto support fill materials during their application. After substrate. painting operations by workers skilled in the trades components only as necessary for shipment and\nallowing fill materials to fully cure, remove combustible D. Where cutting and fitting are required to install A. Submit the following: involved. installation. Where necessary for fitting at site, provide\nforming materials and other accessories that are not hardware onto or into surfaces that are later to be 1. Product data. D. Use Johnsonite SubFloor Leveler System where edge ample allowance for scribing, trimming, and fitting.\npermanent components. painted or finished in another way, coordinate removal, 2. Samples for each type of acoustical panel upon of carpet meets other flooring of dissimilar height. K. At the end of each workday, remove empty cans, rags,\nstorage, and reinstallation of surface protective trim request. Taper underlayment to 1/8 inch in 1 foot maximum. rubbish, and other discarded paint materials from the E. Install over subtops with adhesive. Install level, plumb,\nD. Apply materials so they contact and adhere to units with finishing work. Do not install 3. Maintenance data with closeout submittals. site. true, and straight. Shim as required with concealed\nsubstrates. For fill materials that will remain exposed surface-mounted items until finishes have been E. Cut and fit to butt neatly and tightly to vertical surfaces shims. Install level and plumb to a tolerance of 1/8 inch\nafter completing the Work, finish to produce smooth, completed on substrates involved. B. Comply with ASTM C 636 and CISCA's \u201cCeiling and permanent fixtures including built-in furniture, 099300 STAINING AND TRANSPARENT FINISHING in 96 inches. Scribe and cut to fit adjoining work,\nuniform surfaces that are flush with adjoining finishes. 1. Adjust door control devices to compensate for final Systems Handbook.\u201d cabinets, pipes, outlets, door frames, edgings, refinish cut surfaces, and repair damaged finish at cuts.\noperation of heating and ventilating equipment and thresholds, and nosings. Bind or seal cut edges as A. Submit the following:\nto comply with accessibility requirements. C. Suspend ceiling hangers from building's structural recommended by carpet manufacturer. 1. Product data.\nF. Seal junctures of tops, splashes, and walls with\n079200 JOINT SEALANTS members, plumb and free from contact with insulation 2. Samples for each finish and color that is not\nmildew-resistant silicone sealant.\n088000 GLAZING or other objects within ceiling plenum. Splay hangers F. Extend into toe spaces, door reveals, closets, \u201cclear.\u201d\nA. Clean out joints immediately before installing sealants. only where required to miss obstructions; offset open-bottomed obstructions, removable flanges, 3. Maintenance data with closeout submittals.\nClean surfaces by means that do not stain, harm A. Submit samples for patterned glass only. resulting horizontal forces by bracing, countersplaying, alcoves, and similar openings. Extend to center of 123623.13 PLASTIC-LAMINATE-CLAD COUNTERTOPS\nsubstrates, or leave residues capable of interfering with or other equally effective means. Do not attach door openings. Install pattern parallel to walls and B. Comply with requirements in \u201cMPI Architectural\nadhesion. B. All glass to be tempered or safety laminate. Where hangers to steel deck tabs, steel roof deck, or directly borders, unless otherwise indicated. Painting Specification Manual.\u201d A. Submit the following:\nsafety or fire-protection-rated glazing labeling is from permanent metal forms or floor deck. 1. Shop drawings.\nB. Place sealants so they directly contact and fully wet required, permanently mark glazing with certification G. Maintain reference markers, holes, and openings that C. Provide materials for use within each finish system that 2. Product data for accessories.\njoint substrates. Completely fill recesses. Produce label. D. Install edge moldings and trim at perimeter of are in place or marked for future cutting by repeating on are compatible with one another and substrates\n3. Samples for each color, pattern, and surface\nuniform joints that allow optimum movement capability. acoustical ceiling area and where necessary to conceal flooring as marked on substrates. Use nonpermanent, indicated, under conditions of service and application.\nfinish.\nTool to form smooth, uniform beads. C. Adjust dimensions as required by Project conditions to edges of acoustical panels. Miter corners accurately nonstaining marking device.\n1. Provide concave joint profile, unless otherwise provide necessary bite, minimum edge and face and connect securely. Apply acoustical sealant in a D. Verify compatibility with and suitability of substrates,\nindicated. clearances, and adequate sealant thicknesses. Center continuous ribbon concealed on back of vertical legs of H. Where moveable wall partitions or other items are including compatibility with existing finishes. Begin B. Comply with AWI's \u201cArchitectural Woodwork Standards\u201d\n2. Provide acoustical sealants at both faces of glass lites in openings on setting blocks. Provide edge moldings before they are installed. Do not use exposed indicated for installation on top of carpet, install carpet finish application only after unsatisfactory conditions grade Custom. Fabricate in one piece with loose\npartitions. blocking where needed to prevent glass lites from fasteners, including pop rivets, on moldings and trim. before installing these items. have been corrected. Beginning application of finish splashes for field application.\n3. Provide sealant for joint between metal frames and moving sideways. system constitutes Contractor's acceptance of\nwall surfaces. E. Install suspension system runners so they are square I. Contractor responsible for \"lifting\" or moving existing substrates and conditions. C. MDF to be Grade 130 with no urea-formaldehyde\n4. Remove excess sealant and smears from adjacent D. Protect edges during handling and installation. and securely interlocked with one another. Remove systems furniture, freestanding furniture, equipment, resins. Particleboard to be Grade M-2 with no\nsurfaces until no residue remains. Remove and replace damaged glass. and replace dented, bent, or kinked members. and other items as needed to complete removal of E. Apply wood filler paste to open-grain woods to produce urea-formaldehyde resin. Core material at sinks made\nexisting flooring, preparation of subsurface, and smooth, glasslike finish. with exterior grade resins.\nC. Sealants for joints between plumbing fixtures and 092216 NON-STRUCTURAL METAL FRAMING F. For existing suspension system, remove and replace installation of new flooring.\nadjoining walls, floors, and counters to be intermediate and cross runners that are damaged or 1. Contractor responsible for maintaining condition of F. Apply finish system to produce surface films without\nD. Shop-cut openings to maximum extent possible.\nmildew-resistant silicone. A. Comply with ASTM C754 and applicable requirements have screw holes. Repair suspended ceiling mains existing furniture in its original locations and cloudiness, spotting, holidays, laps, brush marks, roller\nLocate correctly sized and shaped openings accurately.\nin ASTM C840. that are damaged or have screw holes; if the repair will original configurations. tracking, runs, sags, ropiness, or other surface\nSand edges of cutouts to remove splinters and burrs,\n1. Use conventional or embossed, high-strength steel be visually unsatisfactory, replace members as needed. 2. Electrical in-feeds to, and cabling thru, systems imperfections.\nseal by saturating with varnish.\n081113 HOLLOW METAL DOORS AND FRAMES studs and tracks complying with ASTM C645. furniture will not be disconnected.\n2. Depth: As indicated in Wall Type Definitions on G. Install acoustical panels with undamaged edges and fit 3. Contractor responsible for maintaining integrity of G. At completion of construction activities of other trades,\nE. Before installation, condition to installation areas for a\nA. Submit the following: Drawings. accurately into suspension system edge moldings and existing electrical and cabling connections to touch up and restore damaged or defaced finished\nminimum of 24 hours. Anchor securely by screwing\n1. Shop drawings including door edge details, frame 3. Base-Steel Thickness: 0.0296 inch (20 gauge) runners. Scribe and cut panels at borders and equipment and other similar items. wood surfaces at no additional cost to the Contract\nthrough corner blocks of base cabinets or other\nprofiles, metal thicknesses, preparations for minimum, unless indicated otherwise in Wall Type penetrations to provide a neat, precise fit. 4. Any necessary disassembly and reassembly of Sum.\nsupports into underside of countertop.\nhardware, and other details. Definitions on Drawings or due to deflection limits. furniture to be completed by installer(s) approved\n2. Product data. a. Deflection Limits: L/360, unless indicated 096500 RESILIENT FLOORING by Owner and Architect. If items cannot be staged H. Remove hardware and hardware accessories, plates\n3. Submit schedule prepared by supplier using same otherwise in Wall Type Definitions on on-site, Contractor responsible for transportation and covers, light fixture trims, and similar items already F. Complete fabrication to maximum extent possible\nreference numbers for details and openings as Drawings. A. Submit the following: and storage in a facility approved by Owner and installed prior to surface preparation and finish system before shipment to Project site. Disassemble\nthose on Drawings. 1. Product data. Architect. work. Remove these items to completely finish the components only as necessary for shipment and\na. Indicate coordination of glazing frames and B. Install framing members as follows: 2. Samples for each type, color, and pattern. 5. Contractor responsible for visiting site prior to adjacent surfaces. Have items reinstalled at installation. Where necessary for fitting at site, provide\nstops with glazing requirements. 1. Where installed directly against masonry walls or 3. Maintenance data with closeout submittals. submitting pricing to become familiar with extents completion of finish system work operations by workers ample allowance for scribing, trimming, and fitting.\nb. Indicate fire ratings for fire doors and frames. dissimilar metals, install isolation strip between of furniture and submitting questions to Architect. skilled in the trades involved.\nstuds and surface. B. Before installation, condition materials to installation\nG. Install level, plumb, true, and straight. Shim as required\nB. Comply with SDI standards and requirements. 2. Install cripple studs at door and other framed areas for a minimum of 24 hours. Close spaces to 099123 INTERIOR PAINTING I. At the end of each workday, remove empty cans, rags, with concealed shims. Install level and plumb to a\nopenings. traffic during installation and for 48 hours after rubbish, and other discarded paint materials from the tolerance of 1/8 inch in 96 inches. Scribe and cut to fit\nC. For welded frames, weld flush face joints continuously; 3. Install so fastening surfaces vary 1/8 inch installation. Beginning installation constitutes A. Submit the following: site. adjoining work, refinish cut surfaces, and repair\ngrind, fill, dress, and make smooth, flush, and invisible. maximum from the plane formed by faces of Contractor's acceptance of substrates and conditions. 1. Product data.\ndamaged finish at cuts.\nProvide countersunk screws and bolts for exposed adjacent framing. 2. Samples for each finish, color, and texture. 104413 FIRE EXTINGUISHER CABINETS\nfasteners. C. Fill cracks, holes, and depressions in substrates with 3. Maintenance data with closeout submittals.\nH. Seal junctures of tops, splashes, and walls with\nC. Suspend suspension system hangers from building trowelable leveling and patching compound. Remove A. Maintain and protect existing cabinets.\nmildew-resistant silicone sealant.\nD. Except on weather-stripped frames, drill stops to structure as follows: bumps and ridges to produce a smooth uniform B. Comply with requirements in \u201cMPI Architectural\nreceive 3 silencers on strike jambs of single-door 1. Install hangers plumb and free from contact with substrate. Painting Specification Manual.\u201d\nframes and 4 silencers on heads of double-door insulation or other objects within ceiling plenum 1. Provide primers that are compatible with finish 104416 FIRE EXTINGUISHERS\nframes. that are not part of supporting structural or D. For resilient tile, match for color and pattern by coats used.\nsuspension system. Splay hangers only where selecting tiles from cartons in the same sequence as 2. Do not apply succeeding coats until previous coat A. Maintain and protect existing extinguishers.\nE. Factory prepare hollow metal work to receive mortised required to miss obstructions and offset resulting manufactured and packaged, if so numbered. Discard has cured. Sand between applications where\nand concealed hardware according to the door broken, cracked, chipped, or deformed tiles. sanding is required to produce a smooth even",
+    "i n n e r s p a c e\ns t u d i o s\n335 north 8th street, suite c\nlincoln, nebraska 68508\n402.475.7234",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 11,
+   "sample": [
+    [
+     "",
+     "permission to reproduce all or part of this drawing is hereby granted\nsolely for the limited purpose of construction of this project or archiving.\nunauthorized copying, disclosure, or construction use without written\npermission of innerspace studios is prohibited.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "do not scale drawings. verify all dimensions and clearances at site or\nfrom architectural, structural, shop, and other appropriate drawings.\nlay out and coordinate all work prior to installation to provide\nclearances required for operation, maintenance, and codes.\nverify non-interference with other work. do not fabricate prior to\nverification of clearances for all trades.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Mechanical/Electrical Engineers\nETI\nEngineering Technologies, Inc.\n825 M Street, Suite 200\nLincoln, NE 68508\n402-476-1273",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_5092 PDS Office Remodel Mech Elec Construction Documents.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "MECHANICAL ABBREVIATIONS MECHANICAL SYMBOLS\nAFF ABOVE FINISHED FLOOR 1 NOTE REFERENCE\nAPPROX APPROXIMATE T THERMOSTAT AND ZONE NUMBER\nARCH ARCHITECTURAL\nROUND DUCTWORK SECTION\nBLDG BUILDING\nBOD BOTTOM OF DUCT\nSUPPLY AIR DUCTWORK SECTION\nBOP BOTTOM OF PIPE\nBTU BRITISH THERMAL UNIT\nRETURN, FRESH, OR EXHAUST AIR DUCTWORK SECTION\nBTUH BTU PER HOUR\nTURNING VANES IN DUCT\nCFM CUBIC FEET PER MINUTE\nCSA-US CANADIAN STANDARDS ASSOCIATION\n(FORMERLY AGA) RA\nRETURN OR EXHAUST AIR GRILLE\nCU-XX CONDENSING UNIT, XX=UNIT NUMBER XA\nDCW DOMESTIC COLD WATER CEILING SUPPLY DIFFUSER\nDEG DEGREE\nDEMO DEMOLITION\nHIGH EFFICIENCY TAKE-OFF, SEE SPECIFICATION\nDHW DOMESTIC HOT WATER\nDHWC DOMESTIC HOT WATER CIRCULATOR\nDIA DIAMETER DUCTWORK\nDN DOWN\nDWG DRAWING\nRECTANGULAR DUCTWORK BREAK MARK\nDWH-XX DOMESTIC WATER HEATER, XX=UNIT NUMBER\nROUND DUCTWORK BREAK MARK\nEF-XX EXHAUST FAN, XX=UNIT NUMBER\nERV-XX ENERGY RECOVERY VENTILATOR,\nXX=UNIT NUMBER\nEXIST EXISTING\nF-XX FURNACE, XX=UNIT NUMBER\nFD FIRE DAMPER\nFPM FEET PER MINUTE\nFSD FIRE & SMOKE DAMPER\nFT FEET OR FOOT\nG NATURAL GAS\nGAL GALLON\nGPH GALLONS PER HOUR\nGPM GALLONS PER MINUTE\nHVAC HEATING, VENTILATING, AND\nAIR CONDITIONING\nID INSIDE DIAMETER\nIN INCH\nKV KILOVOLT\nKW KILOWATT\nLB POUND\nLTG LIGHTING\nMAX MAXIMUM\nMFR MANUFACTURER\nMIN MINIMUM\nMTR MOTOR\nMECH MECHANICAL\nNC NORMALLY CLOSED\nNO NORMALLY OPEN OR NUMBER\nNOM NOMINAL\nNTS NOT TO SCALE\nOBD OPPOSED BLADE DAMPER\nOD OUTSIDE DIAMETER\nP-XX PUMP, XX=UNIT NUMBER\nPSI POUNDS PER SQAURE INCH\nP PROPANE\nQTY QUANTITY\nRA RETURN AIR\nRPM REVOLUTIONS PER MINUTE\nRTN RETURN\nRTU-XX ROOF TOP UNIT, XX=UNIT NUMBER\nSA SUPPLY AIR\nSD SMOKE DAMPER\nSEC SECOND (SECONDARY)\nSHT SHEET\nSQ SQUARE\nSS STAINLESS STEEL\nSTD STANDARD\nSWBD SWITCHBOARD\nTEMP TEMPERATURE\nTSTAT THERMOSTAT\nTYP TYPICAL\nUG UNDERGROUND\nUTIL UTILITY\nV VENT\nVOL VOLUME\nVTR VENT THROUGH ROOF\nW/ WITH\nW/O WITHOUT\nWG WATER GAUGE\nWT WEIGHT\nXA EXHAUST AIR\nDIAMETER OF\nXFMR TRANSFORMER\nCEILING DIFFUSER + 1\"\n\u00d8 DIAMETER\nMINIMUM 1/2\" DUCT LINER\nREGAIN BOX\nX\" DIA.\nX\" + 1\"\n(AS SHOWN ON PLANS)\nFLEXIBLE DUCT\n3'-0\" MAX.\nPLUMBING FIXTURE SCHEDULE PROJECT DESIGN CRITERIA\nMARK FUNCTION MANUFACTURER AND MODEL (OR EQUAL) WASTE VENT CW HW LOCATION:\nS-1 SINK 2\" 1-1/2\" 1/2\" 1/2\" CITY/STATE:\nAPPLICABLE CODES:\nEXTEND ROUND DUCT FROM BOTTOM BUILDING\nOF REGAIN BOX & CONNECT TO CEILING MECHANICAL\nCEILING DIFFUSER DIFFUSER. DUCT SHALL BE A MINIMUM PLUMBING\nOF 1\" IN HEIGHT. FUEL GAS\nENERGY\nELECTRICAL\n*WITH AMENDMENTS\nLATITUDE:\nDEG. N. LAT.\nELEVATION:\nFT. ABOVE SEA LEVEL\nASHRAE DESIGN CONDITIONS:\n0.4% DB/MCWB (COOLING)\n99.6% DB (HEATING)",
+    "i n n e r s p a c e\ns t u d i o s\n335 north 8th street, suite c\nlincoln, nebraska 68508\n402.475.7234",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 9,
+   "sample": [
+    [
+     "",
+     "permission to reproduce all or part of this drawing is hereby granted\nsolely for the limited purpose of construction of this project or archiving.\nunauthorized copying, disclosure, or construction use without written\npermission of innerspace studios is prohibited.\ndo not scale drawings. verify all dimensions and clearances at site or\nfrom architectural, structural, shop, and other appropriate drawings.\nlay out and coordinate all work prior to installation to provide\nclearances required for operation, maintenance, and codes.\nverify non-interference with other work. do not fabricate prior to\nverification of clearances for all trades.",
+     ""
+    ],
+    [
+     "",
+     "Mechanical/Electrical Engineers\nETI\nEngineering Technologies, Inc.\n825 M Street, Suite 200\nLincoln, NE 68508",
+     ""
+    ],
+    [
+     "",
+     "402-476-1273",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_5092 PDS Office Remodel Mech Elec Construction Documents.pdf",
+   "sheet": 4,
+   "header_row": 0,
+   "headers": [
+    "MISC. ELECTRICAL SYMBOLS POWER SYMBOLS SECURITY SYMBOLS\n1 PLAN OR DETAIL NOTE IDENTIFICATION DUPLEX CONVENIENCE RECEPTACLE ELECTRONIC ACCESS CONTROLLED DOOR\nWP - WP = WEATHERPROOF # LETTER = TYPE IN ACCESS CONTROL SCHEDULE. NO LETTER INDICATED\nGFCI - GFCI = GROUND FAULT CIRCUIT INTERRUPTER ROUGH-IN ONLY.\nXX DETAIL NUMBER\nDETAIL IDENTIFICATION\nSHT SHEET NUMBER DUPLEX CONVENIENCE RECEPTACLE MOUNTED HORIZONTAL ELECTRONIC MONITORED DOOR\n# LETTER = TYPE IN ACCESS CONTROL SCHEDULE. NO LETTER INDICATED\nXXXX CIRCUIT TAG, SEE ASSOCIATED SCHEDULE 4-PLEX CONVENIENCE RECEPTACLE ROUGH-IN ONLY.\nSURFACE MOUNTED RACEWAY, CEILING MOUNTED RECEPTACLE SURVEILLANCE CAMERA, FOV = FIELD OF VIEW (WHEN INDICATED)\nTYPE AS NOTED, WITH DEVICES AS INDICATED NUMBER = TYPE IN CAMERA SCHEDULE. NO LETTER INDICATED ROUGH-IN\nSPECIAL OUTLET OR CONNECTION, SEE PLAN AND SCHEDULE #,FOV ONLY.\nA-1 HOMERUN TO PANELBOARD, LETTER INDICATES PANEL\nDESIGNATION, NUMBER INDICATES CIRCUIT CR CARD READER, \"M\" MULLION MOUNTED\nMULTI-SERVICE AV WALL BOX\nCONDUIT CONCEALED IN WALLS OR CEILING, CROSSHATCHES INDICATE\nFLUSH MOUNTED DUPLEX FLOOR OUTLET\nNUMBER OF CONDUCTORS EXCEPT NO CROSSHATCHES INDICATE 2 ABBREVIATIONS\nCONDUCTORS (GROUND WIRES ARE NOT SHOWN)\nMULTI-SERVICE FLOOR BOX\nA AMPERES\nCONDUIT CONCEALED BELOW FLOOR\nJ JUNCTION BOX\nAC 4\" ABOVE COUNTERTOP OR BACKSPLASH TO CENTER\nT TELEPHONE RACEWAY\nJ WALL MOUNTED JUNCTION BOX\nAFF ABOVE FINISHED FLOOR\nTV TELEVISION RACEWAY\nPP POWER POLE\nAWG AMERICAN WIRE GAUGE\nHDMI PROVIDE HDMI CABLE IN CONDUIT\nTC TIME CLOCK\nBD BOARD\nEM EMERGENCY POWER AND LIGHTING CIRCUIT\nDISCONNECT SWITCH - FUSED\nC CONDUIT\nS SOUND SYSTEM RACEWAY\nDISCONNECT SWITCH - NON FUSED\nCU COPPER\nCONDUIT DOWN\nSURFACE MOUNTED PANELBOARD\nE INDICATES EXISTING TO REMAIN\nCONDUIT UP\nRECESSED MOUNTED PANELBOARD\nEB INDICATES EXISTING J-BOX AND CONDUIT IN WALL TO BE REUSED\nCONDUIT TO BE REMOVED\nDISTRIBUTION PANEL\nEF EXHAUST FAN\nEXPOSED CONDUIT\nCOMMUNICATION SYMBOLS EM EMERGENCY\nG GROUNDING CONDUCTOR\nCOMMUNICATIONS OUTLET, # INDICATES NUMBER OF CABLES / JACKS REQUIRED EMT ELECTRICAL METALLIC TUBING\nLV LOW VOLTAGE ELECTRICAL #D\n#T OF EACH TYPE, LETTER INDICATED TYPE OF JACK\n#H - D = DATA EWC ELECTRIC WATER COOLER\nGROUND CONNECTION #TV - T = TELEPHONE\n- H = HDMI\n- TV = TELEVISION F OR FRAC FRACTIONAL\nLIGHTING SYMBOLS\nWAP WIRELESS ACCESS POINT FA FIRE ALARM\na RECESSED OR SURFACE MOUNTED LIGHT FIXTURE, NUMBER = TYPE,\nFAAP FIRE ALARM ANNUNCIATOR PANEL\n# LETTER = SWITCH FIRE ALARM SYMBOLS\nFACP FIRE ALARM CONTROL PANEL\nHATCHING INDICATES EMERGENCY LIGHT FIXTURE, NUMBER = TYPE\n# F FIRE ALARM WITH ADA COMPLIANT FLASHING LIGHT, WALL MOUNTED\nGND GROUND\nWALL MOUNTED LIGHT FIXTURE, NUMBER = TYPE\n# F FIRE ALARM WITH ADA COMPLIANT FLASHING LIGHT, CEILING MOUNTED\nHVAC HEATING, VENTILATION, & AIR CONDITIONING\nLIGHT FIXTURE, NUMBER = TYPE\n# F FIRE ALARM HORN, WALL MOUNTED\nHZ HERTZ\nHATCHING INDICATES EMERGENCY LIGHT FIXTURE, NUMBER = TYPE\n# F FIRE ALARM HORN, CEILING MOUNTED\nKVA KILOVOLT AMPERES\nPENDANT MOUNTED LIGHT FIXTURE, NUMBER = TYPE\n# F FIRE ALARM HORN WITH ADA COMPLIANT FLASHING LIGHT, WALL MOUNTED\nKW KILOWATT\nWALL MOUNTED LINEAR LIGHT FIXTURE, NUMBER = TYPE F FIRE ALARM HORN WITH ADA COMPLIANT FLASHING LIGHT, CEILING MOUNTED\n#\nMCB MAIN CIRCUIT BREAKER\nLINEAR LIGHT FIXTURE, NUMBER = TYPE S FIRE ALARM SPEAKER, WALL MOUNTED\n#\nMLO MAIN LUG ONLY\nSINGLE FACED EXIT LIGHT, NUMBER = TYPE, HATCH INDICATES ILLUMINATED FACE,\n#\nARROW = CHEVRON DIRECTION\nNEC NATIONAL ELECTRICAL CODE\nDOUBLE FACED EXIT LIGHT, NUMBER = TYPE, HATCH INDICATES ILLUMINATED FACE,\n# NFPA NATIONAL FIRE PROTECTION ASSOCIATION\nARROW = CHEVRON DIRECTION\nNL NIGHT LIGHT, CONNECT TO UNSWITCHED LIGHTING CIRCUIT\nEXIT LIGHT WITH TWO EMERGENCY LIGHTING HEADS, NUMBER = TYPE,\n#\nHATCH INDICATES ILLUMINATED FACE, ARROW = CHEVRON DIRECTION\nP POLE\n#\nEMERGENCY LIGHT WALL PACK, NUMBER = TYPE\nPART PARTIAL CIRCUIT\n# STRIP LIGHT FIXTURE, NUMBER = TYPE PNL PANELBOARD\n2 DOUBLE POLE SWITCH PVC POLY VINYL CHLORIDE NON-METALLIC RACEWAY,\nSCHEDULE 40 OR SCHEDULE 80\n3 4\n, , SINGLE POLE SWITCH, 3-WAY SWITCH AND 4-WAY SWITCH\nREMOVE EQUIPMENT, INCLUDING MOUNTING HARDWARE, AND CONDUIT\nR\nAND CONDUCTORS TO SOURCE OF SUPPLY, UNLESS OTHERWISE NOTED\nLINE VOLTAGE DIMMER SWITCH\nREMOVE AND RELOCATE ITEM. EXTEND EXISTING CONDUIT AND/OR CABLING\nOS CEILING MOUNTED OCCUPANCY SENSOR RL AS REQUIRED TO NEW LOCATION, UNLESS OTHERWISE NOTED.\nSEE PLANS FOR NEW LOCATION.\nOS AUTOMATIC WALL SWITCH WITH OCCUPANCY SENSOR\nREMOVE AND REPLACE WITH NEW DEVICE. REUSE BOX AND CONDUIT IN\nRR\nWALL AND PROVIDE NEW CONDUIT AND WIRING TO DEVICE AS REQUIRED\nOS WALL MOUNTED OCCUPANCY SENSOR\nRMC STEEL RIGID METAL CONDUIT\nA LIGHTING CONTROL TAG. LETTER INDICATES TAG IN LIGHTING CONTROL SCHEDULE\nTYP TYPICAL\nLC LIGHTING CONTROL LOAD CONTROLLER. LETTER INDICATES LIGHTING CONTROLLED ZONE.\na\nV VOLTS\nLOW-VOLTAGE SWITCH, WHERE PRESENT, LETTER INDICATES LIGHTING CONTROL ZONE.\nS\na SEE LIGHTING CONTROL SCHEDULE. W WATT\nE EMERGENCY LIGHTING RELAY, SEE DETAIL WP INDICATES WEATHERPROOF\nP CEILING MOUNTED PHOTOCELL XFMR TRANSFORMER\nP WALL MOUNTED PHOTOCELL\nSOUND MASKING SYMBOLS\nS SOUND MASKING SPEAKER IN CEILING\nSM",
+    "i n n e r s p a c e\ns t u d i o s\n335 north 8th street, suite c\nlincoln, nebraska 68508\n402.475.7234",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 11,
+   "sample": [
+    [
+     "",
+     "permission to reproduce all or part of this drawing is hereby granted\nsolely for the limited purpose of construction of this project or archiving.\nunauthorized copying, disclosure, or construction use without written\npermission of innerspace studios is prohibited.\ndo not scale drawings. verify all dimensions and clearances at site or\nfrom architectural, structural, shop, and other appropriate drawings.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "lay out and coordinate all work prior to installation to provide\nclearances required for operation, maintenance, and codes.\nverify non-interference with other work. do not fabricate prior to\nverification of clearances for all trades.\nMechanical/Electrical Engineers",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ETI\nEngineering Technologies, Inc.\n825 M Street, Suite 200\nLincoln, NE 68508\n402-476-1273",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "_5092 PDS Office Remodel Mech Elec Construction Documents.pdf",
+   "sheet": 25,
+   "header_row": 0,
+   "headers": [
+    "DETAIL GENERAL NOTES\nA. NOT ALL DEVICS OR CONFIGURATIONS ARE INDICATED IN THIS DETAIL\nREFER TO PLANS FOR ADDITIONAL REQUIREMENTS.\nB. ALL DEVICES SHALL BE LOCATED TO MAINTAIN ADA MOUNTNG HEIGHT\nREQUIREMENTS.\nC. MOUNTING HEIGHTS INDICATED ARE TYPICAL, UNLESS NOTED OTHERWISE\nON THE PLANS.\nD. ALIGN DEVICES VERTICALLY AND HORIZONTALLY WHERE POSSIBLE.\nE. NOTIFY THE DESIGN TEAM WHERE ANY CONFLICTS EXIST.\nPROVIDE\nPULLSTRING IN\nDETAIL GENERAL NOTES\nEACH CONDUIT\nA. INSTALL OUTLET NO MORE THAN 12\"\nFROM 120V OUTLET.\nB. IN AREAS WITH INACCESSIBLE CEILING,\nROUTE CONDUIT TO ACCESSIBLE\nCEILING AND LABEL.\nC. IF 1\" CONDUIT CANNOT BE INSTALLED,\nINSULATING BUSHING PROVIDE TWO (2) 3/4\" CONDUITS.\nTURN CONDUIT OUT ABOVE D. IF BOXES CANNOT BE INSTALLED ON\nACCESSIBLE CEILING OPPOSITE SIDES OF STUD, PROVIDE\nSUPPORTS BETWEEN STUDS FOR\nMOUNTING.\nWALL STUD\nMINIMUM 1\" CONDUIT\nCONCEALED IN WALL\nDUPLEX 120V.\nRECEPTACLE\nCOMMUNICATIONS\nOUTLET\nM\n4 W 11 I / T 1 H 6 \" S S I N Q G U L A E R E G A B N O G X VAR O I U ES N T I N G\nP L A S T E R R I N G - S E E H P E L I A G N H S T\nBLANK COVER PLATE OR JACKS\nAND FACEPLATE AS SPECIFIED\nCOMMUNICATION ROUGH-IN DETAIL\n3\nE501 NO SCALE\nTYPICAL DEVICE ALIGNMENT DETAIL\n1\nE501\nACCESS CONTROL ROUGH-IN NOTES\n1. CONCEAL BOX ABOVE ACCESSIBLE CEILING WHEN POSSIBLE. WHERE\nBEING USED WITH SURFACE CONTACTS LOCATE CLOSE TO FRAME TO\nMINIMIZE LENGTH OF EXPOSED CABLE. IF RECESSED IN GYP CEILING,\nPROVIDE WITH 1-GANG PLASTER RING AND BLANK COVER PAINTED TO\nMATCH CEILING.\n2. INTERLOCK ADA ACTUATORS TO DOOR ACCESS SYSTEM.\n3. LOCATE ADJACENT TO ADA ACTUATORS, WHERE APPLICABLE.\n4. COORDINATE ALL ROUGH-INS REQUIRED WITH DOOR HARDWARE\nSPECIFICATIONS AND SECURITY CONTRACTOR FOR ELECTRONIC\nHARDWARE PROVIDED AT EACH LOCATION.\nPLASTIC BUSHING\n3/4\" CONDUIT TO ABOVE\nACCESSIBLE LAY-IN CEILING OR\nCABLE TRAY\n0-10V DIMMING\nWIRES, WHERE 4\" SQUARE BOX ABOVE\nVIOLET VIOLET REQUIRED DOOR ON SECURED SIDE\n20A 20A\nEMERGENCY HOT NORMAL HOT 1/2\" CONDUIT TO TOP OF FRAME FOR\n1/2\" CONDUIT TO EPT FOR\nDOOR CONTACTS. WHERE CONTACTS\n* LIGHTING ARE SURFACE MOUNTED USE CONNECTIONS TO ELEC PANIC\nCONTROL ARMORED CABLE DEVICES OR MORTICE LOCK\nDEVICE\nEMERGENCY EMERGENCY ADA OPERATOR (WHERE PRESENT)\nPOWER\nPANEL OR\nNORMAL\nINVERTER NORMAL SWITCHED\nPANEL\n1/2\" CONDUIT\nTEST SWITCH\nNORMAL\nLIGHT 1/2\" CONDUIT TO ELECTRIC STRIKE\nUTILITY\n(WHERE PRESENT)\nPOWER\nEMERGENCY LIGHT\nEMERGENCY NEUTRAL NORMAL NEUTRAL EPT (WHERE PRESENT)\n4\" SQUARE BOX BOX WITH SINGLE\nGANG PLASTER RING AT 46\" FOR PUSH\nTO EXIT BUTTON. (WHERE PRESENT\nDETAIL GENERAL NOTES * LIGHTING CONTROL DEVICE MAY BE RELAY, POWER PACK, SENSOR, FOR MAGNETIC LOCKS)\nRED FIRE ALARM JUMPER SWITCH, OR OTHER DEVICE. SEE PLANS.\nA. UL924 LISTED DEVICE. (WHERE REQUIRED) CR\nB. PROVIDE DEVICE COMPATIBLE WITH LIGHTING CONTROLS AND\nDIMMING PROTOCOL BEING PROVIDED.\nC. INSTALL DEVICE ABOVE AN ACCESSIBLE CEILING OR ADJACENT UL 924 LISTED DEVICE E 4\" SQUARE BOX WITH SINGLE\nTO SOURCE PANEL. REFER TO MANUFACTURER'S INSTALLATION 1 GANG PLASTER RING AT 46\"\nREQUIREMENTS. FOR CARD READER\n(WHERE PRESENT)\nD. REFER TO THE LIGHTING CONTROL SPECIFICATIONS FOR\nADDITIONAL REQUIREMENTS.\nEMERGENCY LIGHTING RELAY DETAIL ACCESS CONTROL ROUGH IN DETAIL\n2 4\nE501 NO SCALE E501 NO SCALE",
+    "i n n e r s p a c e\ns t u d i o s\n335 north 8th street, suite c\nlincoln, nebraska 68508\n402.475.7234\npermission to reproduce all or part of this drawing is hereby granted\nsolely for the limited purpose of construction of this project or archiving.\nunauthorized copying, disclosure, or construction use without written",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 11,
+   "sample": [
+    [
+     "",
+     "permission of innerspace studios is prohibited.\ndo not scale drawings. verify all dimensions and clearances at site or\nfrom architectural, structural, shop, and other appropriate drawings.\nlay out and coordinate all work prior to installation to provide\nclearances required for operation, maintenance, and codes.\nverify non-interference with other work. do not fabricate prior to\nverification of clearances for all trades.",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Mechanical/Electrical Engineers\nETI\nEngineering Technologies, Inc.\n825 M Street, Suite 200\nLincoln, NE 68508\n402-476-1273",
+     "",
+     ""
+    ],
+    [
+     "",
+     "\u2605\n\u2605",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 81.9,
+  "attachment_fetches": 17,
+  "attachment_seconds": 2.0,
+  "attachment_bytes": 18794060,
+  "max_fetch_seconds": 0.53,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-27T13:14:44.397908+00:00",
+ "extract_attempts": 1
+}
