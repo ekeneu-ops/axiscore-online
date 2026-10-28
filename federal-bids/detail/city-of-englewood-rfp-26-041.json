@@ -1,0 +1,826 @@
+{
+ "bid_id": "city-of-englewood-rfp-26-041",
+ "bid_number": "RFP-26-041",
+ "agency": "City of Englewood",
+ "src": "Open",
+ "title": "MILLER FIELD ENHANCEMENTS",
+ "close": "11/3/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 354,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 53,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Site testing",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Site testing 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "General conditions",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 General conditions 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Site survey",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Site survey 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "Permitting",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 Permitting 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine6",
+   "kind": "package_line",
+   "line": "1.5",
+   "desc": "Bonding, mobilization and insurance",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.5 Bonding, mobilization and insurance 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine7",
+   "kind": "package_line",
+   "line": "1.6",
+   "desc": "Additional Items (List)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.6 Additional Items (List) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine8",
+   "kind": "package_line",
+   "line": "1.7",
+   "desc": "Additional Items (List)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.7 Additional Items (List) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine10",
+   "kind": "package_line",
+   "line": "2.1",
+   "desc": "Demo Existing Trees - Large",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.1 Demo Existing Trees - Large 4 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine11",
+   "kind": "package_line",
+   "line": "2.2",
+   "desc": "Demo Existing Trees - Medium",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.2 Demo Existing Trees - Medium 2 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine12",
+   "kind": "package_line",
+   "line": "2.3",
+   "desc": "Tree Protection Fencing - Orange, Temporary",
+   "qty": "500",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.3 Tree Protection Fencing - Orange, Temporary 500 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine13",
+   "kind": "package_line",
+   "line": "2.4",
+   "desc": "6' Chain Link Construction Fence - Temporary",
+   "qty": "2050",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.4 6' Chain Link Construction Fence - Temporary 2050 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine14",
+   "kind": "package_line",
+   "line": "2.5",
+   "desc": "Relocate Existing Memorial Bench",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.5 Relocate Existing Memorial Bench 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine15",
+   "kind": "package_line",
+   "line": "2.6",
+   "desc": "Relocate Existing Tree",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.6 Relocate Existing Tree 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine16",
+   "kind": "package_line",
+   "line": "2.7",
+   "desc": "Demo Existing Curb and Gutter Along Park Perimeter",
+   "qty": "1235",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.7 Demo Existing Curb and Gutter Along Park Perimeter 1235 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine17",
+   "kind": "package_line",
+   "line": "2.8",
+   "desc": "Demo Existing Retaining Walls at Field",
+   "qty": "720",
+   "uom": "SFF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.8 Demo Existing Retaining Walls at Field 720 SFF No Response"
+  },
+  {
+   "ctl": "ucPackageLine18",
+   "kind": "package_line",
+   "line": "2.9",
+   "desc": "Demo Existing Fencing",
+   "qty": "2150",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.9 Demo Existing Fencing 2150 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine19",
+   "kind": "package_line",
+   "line": "2.10",
+   "desc": "Demo Existing Benches",
+   "qty": "175",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.10 Demo Existing Benches 175 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine20",
+   "kind": "package_line",
+   "line": "2.11",
+   "desc": "Demo (2) Existing Sheds",
+   "qty": "310",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.11 Demo (2) Existing Sheds 310 SF No Response"
+  },
+  {
+   "ctl": "ucPackageLine21",
+   "kind": "package_line",
+   "line": "2.12",
+   "desc": "Demo Existing Bleachers",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.12 Demo Existing Bleachers 5 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine22",
+   "kind": "package_line",
+   "line": "2.13",
+   "desc": "Demo Existing Concrete Flatwork",
+   "qty": "595",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.13 Demo Existing Concrete Flatwork 595 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine23",
+   "kind": "package_line",
+   "line": "2.14",
+   "desc": "Demo Existing Asphalt - T Patches in Roadway",
+   "qty": "340",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.14 Demo Existing Asphalt - T Patches in Roadway 340 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine24",
+   "kind": "package_line",
+   "line": "2.15",
+   "desc": "Demo Existing Asphalt - Parking Lot and West Bleacher Area",
+   "qty": "3700",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.15 Demo Existing Asphalt - Parking Lot and West Bleacher Area 3700 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine25",
+   "kind": "package_line",
+   "line": "2.16",
+   "desc": "Reset Existing Street Signage",
+   "qty": "11",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.16 Reset Existing Street Signage 11 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine26",
+   "kind": "package_line",
+   "line": "2.17",
+   "desc": "Demo Existing Utility Poles",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.17 Demo Existing Utility Poles 2 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine27",
+   "kind": "package_line",
+   "line": "2.18",
+   "desc": "Demo Existing Wet Utility Piping and Appurtenances",
+   "qty": "140",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.18 Demo Existing Wet Utility Piping and Appurtenances 140 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine28",
+   "kind": "package_line",
+   "line": "2.19",
+   "desc": "Demo Existing Wet Utility Structure",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.19 Demo Existing Wet Utility Structure 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine29",
+   "kind": "package_line",
+   "line": "2.20",
+   "desc": "Pavement Sawcut - Concrete",
+   "qty": "180",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.20 Pavement Sawcut - Concrete 180 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine30",
+   "kind": "package_line",
+   "line": "2.21",
+   "desc": "Pavement Sawcut - Asphalt",
+   "qty": "2430",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.21 Pavement Sawcut - Asphalt 2430 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine31",
+   "kind": "package_line",
+   "line": "2.22",
+   "desc": "Subgrade - 1' Scarify and Recompact Pavement Subgrade Prep",
+   "qty": "9000",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.22 Subgrade - 1' Scarify and Recompact Pavement Subgrade Prep 9000 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine32",
+   "kind": "package_line",
+   "line": "2.23",
+   "desc": "Earthwork - Cut and Fill Onsite Material",
+   "qty": "1590",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.23 Earthwork - Cut and Fill Onsite Material 1590 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine33",
+   "kind": "package_line",
+   "line": "2.24",
+   "desc": "Earthwork - Import Common Fill",
+   "qty": "7750",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.24 Earthwork - Import Common Fill 7750 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine34",
+   "kind": "package_line",
+   "line": "2.25",
+   "desc": "Allowance for Relocating Exist Utilities - Gas, Electric, Fiber Optic, etc.",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.25 Allowance for Relocating Exist Utilities - Gas, Electric, Fiber Optic, etc. 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine35",
+   "kind": "package_line",
+   "line": "2.26",
+   "desc": "Traffic Control",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.26 Traffic Control 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine36",
+   "kind": "package_line",
+   "line": "2.27",
+   "desc": "Additional Items (List)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.27 Additional Items (List) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine37",
+   "kind": "package_line",
+   "line": "2.28",
+   "desc": "Additional Items (List)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "2.28 Additional Items (List) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine39",
+   "kind": "package_line",
+   "line": "3.1",
+   "desc": "Asphalt T-Patch (Hand Mill & Patch)",
+   "qty": "3060",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.1 Asphalt T-Patch (Hand Mill & Patch) 3060 SF No Response"
+  },
+  {
+   "ctl": "ucPackageLine40",
+   "kind": "package_line",
+   "line": "3.2",
+   "desc": "Asphalt Paving for Street - Patchback for Storm Outfall and UE in Ithica Ave",
+   "qty": "35",
+   "uom": "TONS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.2 Asphalt Paving for Street - Patchback for Storm Outfall and UE in Ithica Ave 35 TONS No Response"
+  },
+  {
+   "ctl": "ucPackageLine41",
+   "kind": "package_line",
+   "line": "3.3",
+   "desc": "Asphalt Paving for Street - 6\" depth",
+   "qty": "235",
+   "uom": "TONS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.3 Asphalt Paving for Street - 6\" depth 235 TONS No Response"
+  },
+  {
+   "ctl": "ucPackageLine42",
+   "kind": "package_line",
+   "line": "3.4",
+   "desc": "Concrete Paving for Elati Street",
+   "qty": "40",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.4 Concrete Paving for Elati Street 40 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine43",
+   "kind": "package_line",
+   "line": "3.5",
+   "desc": "ADA Stall Concrete - 6\" depth",
+   "qty": "110",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.5 ADA Stall Concrete - 6\" depth 110 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine44",
+   "kind": "package_line",
+   "line": "3.6",
+   "desc": "Site Concrete - 4\" depth, Non-reinforced",
+   "qty": "6900",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.6 Site Concrete - 4\" depth, Non-reinforced 6900 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine45",
+   "kind": "package_line",
+   "line": "3.7",
+   "desc": "Site Entry Concrete - 6\" depth, Non-reinforced",
+   "qty": "135",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.7 Site Entry Concrete - 6\" depth, Non-reinforced 135 SY No Response"
+  },
+  {
+   "ctl": "ucPackageLine46",
+   "kind": "package_line",
+   "line": "3.8",
+   "desc": "Concrete - Curb and Gutter, 2' Pan",
+   "qty": "1480",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.8 Concrete - Curb and Gutter, 2' Pan 1480 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine47",
+   "kind": "package_line",
+   "line": "3.9",
+   "desc": "Concrete - Emergency Spillway Cutoff Wall, Reinforced",
+   "qty": "10",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.9 Concrete - Emergency Spillway Cutoff Wall, Reinforced 10 CY No Response"
+  },
+  {
+   "ctl": "ucPackageLine48",
+   "kind": "package_line",
+   "line": "3.10",
+   "desc": "Concrete - Curb - No Pan",
+   "qty": "560",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.10 Concrete - Curb - No Pan 560 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine49",
+   "kind": "package_line",
+   "line": "3.11",
+   "desc": "Concrete - Curb Ramp",
+   "qty": "15",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.11 Concrete - Curb Ramp 15 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine50",
+   "kind": "package_line",
+   "line": "3.12",
+   "desc": "Concrete - Reinforced Cross Drainage Pan",
+   "qty": "621",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.12 Concrete - Reinforced Cross Drainage Pan 621 LF No Response"
+  },
+  {
+   "ctl": "ucPackageLine51",
+   "kind": "package_line",
+   "line": "3.13",
+   "desc": "Striping - Symbols Paint",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.13 Striping - Symbols Paint 4 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine52",
+   "kind": "package_line",
+   "line": "3.14",
+   "desc": "Striping",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.14 Striping 1 LS No Response"
+  },
+  {
+   "ctl": "ucPackageLine53",
+   "kind": "package_line",
+   "line": "3.15",
+   "desc": "Signage - Site w/ Bollard",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.15 Signage - Site w/ Bollard 2 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine54",
+   "kind": "package_line",
+   "line": "3.16",
+   "desc": "Signage - Roadway",
+   "qty": "31",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.16 Signage - Roadway 31 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine55",
+   "kind": "package_line",
+   "line": "3.17",
+   "desc": "Additional Items (List)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.17 Additional Items (List) 1 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine56",
+   "kind": "package_line",
+   "line": "3.18",
+   "desc": "Additional Items (List)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "3.18 Additional Items (List) 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "RFP-26-041_final.pdf",
+  "Miller Park-Bid Set-Drawings.pdf",
+  "Miller Field-Bid Set-Specifications.pdf",
+  "Vortex combined drawings_ cut sheets_ specs.pdf",
+  "Bid Schedule_Miller Field.xlsx",
+  "General Terms and Conditions.pdf",
+  "CFC Template - 2026 - rev_d 2026.03.18.docx",
+  "2026_Final Drainage Report.pdf",
+  "Lighting Cut Sheets.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP-26-041_final.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Miller Park-Bid Set-Drawings.pdf",
+   "kind": "pdf",
+   "tables": 248,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Miller Field-Bid Set-Specifications.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vortex combined drawings_ cut sheets_ specs.pdf",
+   "kind": "pdf",
+   "tables": 96,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Bid Schedule_Miller Field.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "General Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "CFC Template - 2026 - rev_d 2026.03.18.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "2026_Final Drainage Report.pdf",
+   "kind": "pdf",
+   "tables": 46,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Lighting Cut Sheets.pdf",
+   "kind": "pdf",
+   "tables": 170,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "RFP-26-041_final.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Price Proposal\n\u2022 Does Proposal include cost-breakdown of each task line item and cost\nelement?\n\u2022 Are the proposed cost and work hours appropriate to the scope of work\nprovided?\n\u2022 Are the work hours reasonable for the effort required for line items and\noverall project scope?\n\u2022 Has Contractor demonstrated value in the cost and scope proposed?",
+    "30"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "Total possible points",
+     "100"
+    ]
+   ]
+  },
+  {
+   "source": "Vortex combined drawings_ cut sheets_ specs.pdf",
+   "sheet": 88,
+   "header_row": 1,
+   "headers": [
+    "BY",
+    "FROM",
+    "TO",
+    "ITEM",
+    "SIZE"
+   ],
+   "score": 2,
+   "n_rows": 1,
+   "sample": [
+    [
+     "OWNER",
+     "WATER DISTRIBUTION MANIFOLD D",
+     "FEATURES",
+     "L4\nOR L7",
+     "SEE P&E\nSCHEMATIC"
+    ]
+   ]
+  },
+  {
+   "source": "Bid Schedule_Miller Field.xlsx",
+   "sheet": 0,
+   "header_row": 2,
+   "headers": [
+    "Contractor: These unit prices are for addition and deletion of bid items by the Owner. The Total Cost is to equal the Unit Cost times the estimated quantity. The Unit Cost is to be for each item installed and completely finished. Contactor to determine his/her own quantities. These items listed are not to be construed as all inclusive. Any item not included should be added and described under Additional Items. Contractor is responsible for all items shown on plans and described in the specifications. The bid is to be lump sum. Unit Costs are to be used for quantity changes of 25% or less.",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 354,
+   "sample": [
+    [
+     "ITEM",
+     "QTY",
+     "UNIT",
+     "UNIT COST",
+     "TOTAL COST",
+     ""
+    ],
+    [
+     "BASE BID",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "PROJECT STARTUP",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 442.9,
+  "attachment_fetches": 9,
+  "attachment_seconds": 100.2,
+  "attachment_bytes": 224986440,
+  "max_fetch_seconds": 91.09,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-28T13:29:53.291688+00:00",
+ "extract_attempts": 1
+}

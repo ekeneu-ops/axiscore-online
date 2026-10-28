@@ -1,0 +1,106 @@
+{
+ "bid_id": "san-antonio-water-system-tx-26-26123",
+ "bid_number": "26-26123",
+ "agency": "San Antonio Water System, TX",
+ "src": "Open",
+ "title": "Metal Lab Gas Line Service",
+ "close": "11/2/2026 04:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "All work, services, materials, installation activities, and deliverables provided under this requirement shall be performed in strict accordance with the requirements set forth in the document titled SAWS_Metals_Lab_SOW 23 Oct 26. The objective is to provide safe, complete, and functional analytical gas line modifications that: (1) extend regulated helium service from Room 126 to a second instrument connection in Room 124; and (2) replace the existing argon and nitrogen terminal assemblies with one simplified customer-furnished assembly for each gas.",
+   "qty": "1",
+   "uom": "JOB",
+   "note": "Vendor will submit their approach to satisfying the objective, not to exceed 1 page.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 All work, services, materials, installation activities, and deliverables provided under this requirement shall be performed in strict accordance with the requirements set forth in the document titled SAWS_Metals_Lab_SOW 23 Oct 26. The objective is to provide safe, complete, and functional analytical gas line modifications that: (1) extend regulated helium service from Room 126 to a second instrument connection in Room 124; and (2) replace the existing argon and nitrogen terminal assemblies with one simplified customer-furnished assembly for each gas. 1 JOB No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms_and_Conditions_062220.pdf",
+  "Security Procedures 032125.pdf",
+  "No_Bid_Sheet _5_.docx",
+  "SAWS_Metals_Lab_SOW.pdf",
+  "METAL LABS GAS LINE RUN Insurance Standards.pdf",
+  "Building Layout.pdf",
+  "Gas Supply Plan.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms_and_Conditions_062220.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Security Procedures 032125.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "No_Bid_Sheet _5_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SAWS_Metals_Lab_SOW.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "METAL LABS GAS LINE RUN Insurance Standards.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Building Layout.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Gas Supply Plan.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 10.8,
+  "attachment_fetches": 7,
+  "attachment_seconds": 0.8,
+  "attachment_bytes": 2467581,
+  "max_fetch_seconds": 0.17,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-28T13:18:09.808737+00:00",
+ "extract_attempts": 1
+}
