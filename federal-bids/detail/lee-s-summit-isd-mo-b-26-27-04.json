@@ -1,0 +1,130 @@
+{
+ "bid_id": "lee-s-summit-isd-mo-b-26-27-04",
+ "bid_number": "B-26/27-04",
+ "agency": "Lee's Summit ISD, MO",
+ "src": "Open",
+ "title": "Commercial Kitchen Fire Suppression & Ventilation Maintenance Services",
+ "close": "11/4/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 3,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Fusible Link",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Fusible Link 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "Blow Off Cap",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 Blow Off Cap 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "Suppression Material",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 Suppression Material 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Terms and Conditions 092024 Revised.pdf",
+  "Commercial Kitchen Fire Suppression Systems Inspections Building Locations Exhibit A.pdf",
+  "Commercial Kitchen Fire Suppression Inspections _ Maintenance NFPA 17A _ 7.3 Exhibit B.pdf",
+  "Sample Insurance Certificate Revised 012025.pdf",
+  "3_-_E-Verify-LSR7__1_ _1_.pdf",
+  "4_-_MO_Tax_Exemption_Certificate.pdf",
+  "NFPA requirements for kitchen hood cleaning 2026.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Terms and Conditions 092024 Revised.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Commercial Kitchen Fire Suppression Systems Inspections Building Locations Exhibit A.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Commercial Kitchen Fire Suppression Inspections _ Maintenance NFPA 17A _ 7.3 Exhibit B.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sample Insurance Certificate Revised 012025.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "3_-_E-Verify-LSR7__1_ _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "4_-_MO_Tax_Exemption_Certificate.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "NFPA requirements for kitchen hood cleaning 2026.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 28.7,
+  "attachment_fetches": 7,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 1229598,
+  "max_fetch_seconds": 0.19,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-29T13:56:23.191319+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,155 @@
+{
+ "bid_id": "spring-branch-isd-tx-17049-addendum-2",
+ "bid_number": "17049 Addendum 2",
+ "agency": "Spring Branch ISD, TX",
+ "src": "Open",
+ "title": "Thornwood ES Replacement - CMAR- Step One",
+ "close": "11/4/2026 02:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "Stantec Presentation _ Pre-Submittal sign in 10-20-2026.pdf",
+  "AIA Document A133.pdf",
+  "Front-End CMaR-Thornwood ES Replacement - 2017 Bond.pdf",
+  "ATTACHMENT A - Owner Controlled Insurance Program.pdf",
+  "FORM A - Proposer_s Information.pdf",
+  "FORM B - References.pdf",
+  "FORM C - Reference Request Form Arch - Eng.pdf",
+  "FORM D - Conflict of Interest Questionnaire.pdf",
+  "Form E - Certificate of Interested Parties- Form HB1295.pdf",
+  "EDGAR Contract Addendum.pdf",
+  "FORM G - Exception Form.pdf",
+  "FORM I - Confidentiality Declaration Form.pdf",
+  "FORM M - Signature Page.pdf",
+  "Certificate of Insurance.pdf",
+  "Service Provider Contract Addendum and Pre-Service Affidavit.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Stantec Presentation _ Pre-Submittal sign in 10-20-2026.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "AIA Document A133.pdf",
+   "kind": "pdf",
+   "tables": 34,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Front-End CMaR-Thornwood ES Replacement - 2017 Bond.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "ATTACHMENT A - Owner Controlled Insurance Program.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "FORM A - Proposer_s Information.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORM B - References.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "FORM C - Reference Request Form Arch - Eng.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORM D - Conflict of Interest Questionnaire.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Form E - Certificate of Interested Parties- Form HB1295.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "EDGAR Contract Addendum.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "FORM G - Exception Form.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FORM I - Confidentiality Declaration Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "FORM M - Signature Page.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate of Insurance.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Service Provider Contract Addendum and Pre-Service Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 44.7,
+  "attachment_fetches": 15,
+  "attachment_seconds": 3.8,
+  "attachment_bytes": 12685164,
+  "max_fetch_seconds": 1.07,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-29T13:54:21.031401+00:00",
+ "extract_attempts": 1
+}

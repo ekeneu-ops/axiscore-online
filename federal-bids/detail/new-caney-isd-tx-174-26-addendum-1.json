@@ -1,0 +1,74 @@
+{
+ "bid_id": "new-caney-isd-tx-174-26-addendum-1",
+ "bid_number": "174.26 Addendum 1",
+ "agency": "New Caney ISD, TX",
+ "src": "Open",
+ "title": "Fundraising Services",
+ "close": "11/4/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "List the % of proceeds from sales or the % of donation that will be provided to NCISD",
+   "qty": "1",
+   "uom": "EA",
+   "note": "Item note: Enter \"0\" if not applicable",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 List the % of proceeds from sales or the % of donation that will be provided to NCISD 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "NCISD Bid Proposal General Terms and Conditions.pdf",
+  "1295 Instructions - UPDATED 10.26.2022.pdf",
+  "NCISD Product Vendor Packet.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "NCISD Bid Proposal General Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "1295 Instructions - UPDATED 10.26.2022.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "NCISD Product Vendor Packet.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 28.4,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.4,
+  "attachment_bytes": 2539609,
+  "max_fetch_seconds": 0.16,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-29T13:57:54.782846+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,102 @@
+{
+ "bid_id": "university-of-central-missouri-27-016-addendum-3",
+ "bid_number": "27-016 Addendum 3",
+ "agency": "University of Central Missouri",
+ "src": "Open",
+ "title": "UCM Agriculture - Purchase of Drones (Federal)",
+ "close": "11/2/2026 01:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Agricultural Spray Drone & Associated Equipment/Accessories as outlined in Section 5 of the General Specifications",
+   "qty": "1",
+   "uom": "Each",
+   "note": "Provide cost of one (1) piece of equipment and accessories according to specifications listed in Section 5 of the General Specifications in the Bid Attachment section. Lump Sum Cost must include delivery FOB destination. Enter 0 in Lump Sum Cost field if no bid for this Line Item.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 This item has been changed as part of an addendum. See 'Bid History' for details. Agricultural Spray Drone & Associated Equipment/Accessories as outlined in Section 5 of the General Specifications 1 Each No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Thermal Drone & Associated Equipment/Accessories as outlined in Section 6 of the General Specifications",
+   "qty": "1",
+   "uom": "Each",
+   "note": "Provide cost of one (1) piece of equipment and accessories according to specifications listed in Section 6 of the General Specifications in the Bid Attachment section. Lump Sum Cost must include delivery FOB destination. Enter 0 in Lump Sum Cost field if no bid for this Line Item.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 This item has been changed as part of an addendum. See 'Bid History' for details. Thermal Drone & Associated Equipment/Accessories as outlined in Section 6 of the General Specifications 1 Each No Response"
+  }
+ ],
+ "attachments_saved": [
+  "27-016 General Specifications - Agricultural Drones - Federal Revised 10.23.26.pdf",
+  "UCM FINAL IFB Terms and Conditions 04.08.26.pdf",
+  "UCMO tax-exempt FORM.pdf",
+  "Title II - Vendor Accessibility Questionnaire 10.21.26.docx",
+  "Title II iti_vpat2-5 for Bidders 10.21.26.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "27-016 General Specifications - Agricultural Drones - Federal Revised 10.23.26.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "UCM FINAL IFB Terms and Conditions 04.08.26.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "UCMO tax-exempt FORM.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Title II - Vendor Accessibility Questionnaire 10.21.26.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Title II iti_vpat2-5 for Bidders 10.21.26.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 28.6,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.9,
+  "attachment_bytes": 1031563,
+  "max_fetch_seconds": 0.35,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-29T13:13:26.394191+00:00",
+ "extract_attempts": 1
+}

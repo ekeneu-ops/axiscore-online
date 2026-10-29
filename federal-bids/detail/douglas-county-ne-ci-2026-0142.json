@@ -1,0 +1,122 @@
+{
+ "bid_id": "douglas-county-ne-ci-2026-0142",
+ "bid_number": "CI-2026-0142",
+ "agency": "Douglas County, NE",
+ "src": "Open",
+ "title": "Levi Carter Park Fishing Pier Improvements",
+ "close": "11/4/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "BASE BID",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": ""
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders _City_ Rev 03 20 2025_ ADA.docx",
+  "T_C _Service PB_ ADA.docx",
+  "Responsible Contractor Compliance Form _ADA_.docx",
+  "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+  "Certificate of Compliance _ADA_.docx",
+  "SEB Participation Disclosure form _bidders_ ADA.docx",
+  "Notice To Bidders.docx",
+  "Specifications - Levi Carter Park Fishing Pier Improvements.docx",
+  "Drawings - 2026-10-19_LCP_Fishing-Pier_100-Set.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders _City_ Rev 03 20 2025_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "T_C _Service PB_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Responsible Contractor Compliance Form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate of Compliance _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SEB Participation Disclosure form _bidders_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Notice To Bidders.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Specifications - Levi Carter Park Fishing Pier Improvements.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Drawings - 2026-10-19_LCP_Fishing-Pier_100-Set.pdf",
+   "kind": "pdf",
+   "tables": 19,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 35.1,
+  "attachment_fetches": 9,
+  "attachment_seconds": 1.0,
+  "attachment_bytes": 5946454,
+  "max_fetch_seconds": 0.3,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-29T13:51:31.306349+00:00",
+ "extract_attempts": 1
+}
