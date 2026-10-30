@@ -1,0 +1,193 @@
+{
+ "bid_id": "lee-county-fl-b270004lnd",
+ "bid_number": "B270004LND",
+ "agency": "Lee County, FL",
+ "src": "Invited",
+ "title": "Fiber Optic Cable, Parts & Installation - Annual",
+ "close": "12/11/2026 02:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 189,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "DOT Construction - Terms and Conditions.pdf",
+  "Lee County Insurance Requirement.pdf",
+  "Scope of Work and Specifications B270004LND.pdf",
+  "Special Conditions B270004LND.pdf",
+  "Bid Schedule B270004LND.xlsx",
+  "Affidavit of Immigration Laws E-Verify.pdf",
+  "Affidavit of Compliance 287.138 - 787.06.pdf",
+  "Negligence Breach and or Non-Compliance Disclosure.pdf",
+  "Sub-Contractor Consultant List.pdf",
+  "Reference Survey.pdf",
+  "Public Entity Crime Form.pdf",
+  "Vendor Background Screening Affidavit.pdf",
+  "Letter of Bondability Notice.pdf",
+  "Sunbiz_Sample.pdf",
+  "Draft contract B270004LND.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "DOT Construction - Terms and Conditions.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Lee County Insurance Requirement.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Scope of Work and Specifications B270004LND.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Special Conditions B270004LND.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Schedule B270004LND.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "Affidavit of Immigration Laws E-Verify.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit of Compliance 287.138 - 787.06.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Negligence Breach and or Non-Compliance Disclosure.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Sub-Contractor Consultant List.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Reference Survey.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Public Entity Crime Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Vendor Background Screening Affidavit.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Letter of Bondability Notice.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Sunbiz_Sample.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Draft contract B270004LND.pdf",
+   "kind": "pdf",
+   "tables": 8,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Bid Schedule B270004LND.xlsx",
+   "sheet": 0,
+   "header_row": 11,
+   "headers": [
+    "PRICING                                                                                                                                                                                                                                                                                                                                                                                                                                                         \nPricing shall be inclusive of all labor, equipment, supplies, overhead, profit, material, and any other incidental costs required to perform and complete all work as specified in the Contract Documents. All Unit Prices will be bid at the nearest whole penny.  The Excel document may contain formulas for convenience, however it is the Contractor\u2019s/Vendor's responsibility to verify all pricing and calculations are CORRECT. Lee County is not responsible for errors in formulas or calculations contained within Excel document(s).  \n\nThe County will only accept bids submitted on bid forms provided by the County. Bids submitted on other forms, other than those provided by the County, shall be deemed non-responsive and ineligible for award.\n\nContractor(s) are not required to bid all line items; however, Contractor(s) are asked to bid all lines applicable to their company for services they can provide under this contract. Where the Contractor cannot provide for a commodity or service, it is requested the Contractor indicate No Bid on the line item tab.\n\nContractor(s) who \u201cno bid\u201d an item cannot provide that item anytime throughout the term of this agreement including all renewals.",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 189,
+   "sample": [
+    [
+     "Fiber Optic Cable, Parts, and Installation-Annual",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Mobilization/Maintenance of Traffic",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Pay Item No.",
+     "Description",
+     "Unit of\nMeasure ",
+     "Estimated\nQuantity",
+     "Unit Price"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 28.6,
+  "attachment_fetches": 15,
+  "attachment_seconds": 1.3,
+  "attachment_bytes": 6696125,
+  "max_fetch_seconds": 0.19,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-30T13:29:23.156196+00:00",
+ "extract_attempts": 1
+}

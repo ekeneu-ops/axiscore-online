@@ -1,0 +1,67 @@
+{
+ "bid_id": "douglas-county-ne-ci-2026-0137",
+ "bid_number": "CI-2026-0137",
+ "agency": "Douglas County, NE",
+ "src": "Open",
+ "title": "Electric Shared Scooter Program for the City of Omaha (REBID)",
+ "close": "11/4/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "RFP_Electric Shared Scooter Program _2027_ _REBID_.docx",
+  "References form _ADA_.docx",
+  "Responsible Contractor Compliance Form _ADA_.docx",
+  "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "RFP_Electric Shared Scooter Program _2027_ _REBID_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "References form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Responsible Contractor Compliance Form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 24.6,
+  "attachment_fetches": 4,
+  "attachment_seconds": 1.4,
+  "attachment_bytes": 20895503,
+  "max_fetch_seconds": 1.14,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-30T13:37:54.000991+00:00",
+ "extract_attempts": 1
+}

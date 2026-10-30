@@ -1,0 +1,113 @@
+{
+ "bid_id": "city-of-college-station-itb-27-005-addendum-1",
+ "bid_number": "ITB #27-005 Addendum 1",
+ "agency": "City of College Station",
+ "src": "Open",
+ "title": "APA For the Purchase of Di-Electric Switchgears for CSU",
+ "close": "11/4/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 40,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "27-005  APA for Purchase of Di-Electric Switchgears.pdf",
+  "27-005 Addendum 1.pdf",
+  "ITB _27-005 Revised Bid Pricing Sheet 10.22.26.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "27-005  APA for Purchase of Di-Electric Switchgears.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "27-005 Addendum 1.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "ITB _27-005 Revised Bid Pricing Sheet 10.22.26.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "ITB _27-005 Revised Bid Pricing Sheet 10.22.26.xlsx",
+   "sheet": 0,
+   "header_row": 1,
+   "headers": [
+    "Item #",
+    "Description",
+    "CSU Provided Data",
+    "",
+    "Bidder Provided Data",
+    "",
+    "Quantity",
+    "Extended",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 40,
+   "sample": [
+    [
+     "Group A - Switchgears",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "A-1",
+     "SWITCHGEAR SOLID DI-ELEC 6-600/ 6-200 FUSED",
+     "Preferred Manufacturer",
+     "ELASTIMOLD",
+     "Manufacturer",
+     "",
+     "20",
+     "0",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Preferred Catalog Number",
+     "ESD314-UUKK-6622",
+     "Catalog Number",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 24.9,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 3332348,
+  "max_fetch_seconds": 0.26,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-30T13:38:20.384232+00:00",
+ "extract_attempts": 1
+}

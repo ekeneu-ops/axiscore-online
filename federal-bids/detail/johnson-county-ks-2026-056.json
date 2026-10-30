@@ -1,0 +1,158 @@
+{
+ "bid_id": "johnson-county-ks-2026-056",
+ "bid_number": "2026-056",
+ "agency": "Johnson County, KS",
+ "src": "Invited",
+ "title": "Johnson County Library (JCL) Central Fleet EV Chargers Installation Project",
+ "close": "11/20/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 28,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "BASE BID #1 (LUMP SUM): Install three (3) electrical vehicle chargers at the Johnson County Central Resource Library, include the provision of all other materials, labor, equipment, supervision, and any and all other items necessary to complete the project in accordance with the Clark & Enersen Drawings titled \"Johnson County CRL Fleet EV Charging Stations\" dated August 12, 2026, and the Project Manual dated October 27, 2026. Note: EV Chargers will be provided by the Owner.",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 BASE BID #1 (LUMP SUM): Install three (3) electrical vehicle chargers at the Johnson County Central Resource Library, include the provision of all other materials, labor, equipment, supervision, and any and all other items necessary to complete the project in accordance with the Clark & Enersen Drawings titled \"Johnson County CRL Fleet EV Charging Stations\" dated August 12, 2026, and the Project Manual dated October 27, 2026. Note: EV Chargers will be provided by the Owner. 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "ALTERNATE #1 (LUMP SUM): Provide all labor, materials, equipment, and services necessary to install a wall-mounted EPO Pushbutton per Key Note 8 on page E1.01 of the Clark & Enersen Drawings dated August 12, 2026.",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 ALTERNATE #1 (LUMP SUM): Provide all labor, materials, equipment, and services necessary to install a wall-mounted EPO Pushbutton per Key Note 8 on page E1.01 of the Clark & Enersen Drawings dated August 12, 2026. 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "2026-056 JCL Central Resource EV Chargers Installation Construction Drawings _8.12.2026_.pdf",
+  "2026-056 JCL Central Resource EV Chargers Installation Project Manual _10.27.2026_.pdf",
+  "2026-056 Bid Bond Form _Word_.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "2026-056 JCL Central Resource EV Chargers Installation Construction Drawings _8.12.2026_.pdf",
+   "kind": "pdf",
+   "tables": 18,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "2026-056 JCL Central Resource EV Chargers Installation Project Manual _10.27.2026_.pdf",
+   "kind": "pdf",
+   "tables": 32,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "2026-056 Bid Bond Form _Word_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "2026-056 JCL Central Resource EV Chargers Installation Construction Drawings _8.12.2026_.pdf",
+   "sheet": 0,
+   "header_row": 26,
+   "headers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "J\n(-)",
+    "2' X 4' TROFFER RECESSED IN GWBD OR PLASTER CEILING LETTER\nDENOTES FIXTURE TYPE.",
+    "USB",
+    "20A, 125V DOUBLE DUPLEX CONVENIENCE OUTLET (NEMA 5 - 20R) WITH USB\nCHARGING PORTS.\n20A, 125V DUPLEX CONVENIENCE OUTLET (NEMA 5 - 20R) WITH USB CHARGING\nPORTS.\n20A, 125V SIMPLEX OUTLET (NEMA 5 - 20R)\n20A, 125V RED DUPLEX CONVENIENCE OUTLET ON EMERGENCY SYSTEM\n(NEMA 5 - 20R)\n20A, 125V DUPLEX CONVENIENCE OUTLET - CEILING AND FLOOR MOUNTED\n(NEMA 5 - 20R)\nSPECIAL PURPOSE OUTLET, TYPE AS NOTED ON DRAWINGS.\n20A, 125V SAFETY DUPLEX CONVENIENCE OUTLET (NEMA 5- 20R)\nSURFACE MOUNTED RACEWAY. TYPE AND NUMBER OF DEVICES AS\nINDICATED, REFER TO SPECIFICATION AND DETAIL.\nSURFACE MOUNTED RACEWAY (RED OUTLETS ON STANDBY SYSTEM). TYPE\nAND NUMBER OF DEVICES AS INDICATED, REFER TO SPECIFICATION AND\nDETAIL.\nPIGTAIL DENOTES CONNECTION TO EQUIPMENT\nJUNCTION BOX - CEILING, FLOOR, AND WALL MOUNTING. WALL MOUNTED\nDEVICES SHALL BE FLUSH MOUNTED AT 18\" AFF UNLESS OTHERWISE NOTED.\n2 GANG TELECOMMUNICATIONS OUTLET BOX WITH SINGLE GANG EXTENSION\nRING FLUSH MOUNTED AT 18\" AFF UNLESS OTHERWISE NOTED. ROUTE (1) 1\"\nCONDUIT, CONCEALED, FROM BOX AND STUB ABOVE THE NEAREST\nACCESSIBLE CEILING. BUSH CONDUIT ENDS.\n2 GANG DATA OUTLET BOX AND COVERPLATE WITH SINGLE GANG EXTENSION\nRING FLUSH MOUNTED AT 18\" AFF UNLESS OTHERWISE NOTED. ROUTE (1) 1\"\nCONDUIT, CONCEALED, FROM BOX AND STUB ABOVE THE NEAREST\nACCESSIBLE CEILING. BUSH CONDUIT ENDS.\n2 GANG TELECOMMUNICATIONS/DATA OUTLET BOX WITH SINGLE GANG\nEXTENSION RING FLUSH MOUNTED AT 18\" AFF UNLESS OTHERWISE NOTED.\nROUTE (1) 1\" CONDUIT, CONCEALED, FROM BOX AND STUB ABOVE THE NEAREST\nACCESSIBLE CEILING. BUSH CONDUIT ENDS.\nTELEPHONE TERMINAL BOARD OR TERMINAL CABINET - SIZE AND TYPE AS\nINDICATED (TTB OR TTC).\nBRANCH CIRCUIT HOMERUN TO PANEL (NUMBER OF ARROWS INDICATES\nNUMBER OF CIRCUITS. NUMBER OF TICK MARKS INDICATES NUMBER OF\nWIRES) (NUMBER 12AWG, MINIMUM, UNLESS OTHERWISE NOTED). IF NO TICK\nMARKS ARE SHOWN, ASSUME 3- NUMBER 12 AWG IN 3/4\" CONDUIT.\nCONDUIT AND WIRE CONCEALED. NUMBER OF TICK MARKS INDICATES\nNUMBER OF WIRES (NUMBER 12AWG MINIMUM, UNLESS OTHERWISE NOTED) IF\nNO TICK MARKS ARE SHOWN, ASSUME 3-NUMBER 12 IN 3/4\" CONDUIT.\nPARTIAL CIRCUIT\nCONDUIT RISER UP\nCONDUIT RISER DOWN\nINDICATES BUSH AND CAP\nCONDUIT SEAL FITTING FOR HAZARDOUS AREAS\nCONDUIT STUBBED UP 6\" AFF AND CAPPED",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 28,
+   "sample": [
+    [
+     "TR",
+     "",
+     "",
+     "",
+     "TAMPER RESISTANT",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "USB",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "UGE",
+     "",
+     "",
+     "",
+     "UNDERGROUND ELECTRICAL",
+     "J\n(-)",
+     "2' X 4' TROFFER WITH EMERGENCY BATTERY BACKUP AND/OR ON EM\nCIRCUIT, RECESSED IN GWBD OR PLASTER CEILING. LETTER DENOTES\nFIXTURE TYPE.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 31.3,
+  "attachment_fetches": 3,
+  "attachment_seconds": 0.5,
+  "attachment_bytes": 5952887,
+  "max_fetch_seconds": 0.31,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-30T13:28:23.331435+00:00",
+ "extract_attempts": 1
+}

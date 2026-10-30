@@ -1,0 +1,138 @@
+{
+ "bid_id": "clemson-university-sc-0009180",
+ "bid_number": "0009180",
+ "agency": "Clemson University, SC",
+ "src": "Open",
+ "title": "Micro PL System",
+ "close": "11/5/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 108,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Enter your total price for Lot A as calculated by \"Attachment A\"",
+   "qty": "1",
+   "uom": "LO",
+   "note": "See scope of work and Attachment A for equipment specifications and additional notes related to this solicitation.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Enter your total price for Lot A as calculated by \"Attachment A\" 1 LO No Response"
+  }
+ ],
+ "attachments_saved": [
+  "0009180 SOW Micro PL System.pdf",
+  "0009180 Attachment A Pricing Worksheet.xlsx",
+  "IMPORTANT TAX NOTICE.doc",
+  "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+  "Purchase Terms and Conditions  Rev E - effective 12124.docx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "0009180 SOW Micro PL System.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "0009180 Attachment A Pricing Worksheet.xlsx",
+   "kind": "xlsx",
+   "tables": 2,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "IMPORTANT TAX NOTICE.doc",
+   "kind": ".doc",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Bidding Terms and Conditions Rev G - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Purchase Terms and Conditions  Rev E - effective 12124.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "0009180 Attachment A Pricing Worksheet.xlsx",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Qty",
+    "Preferred Vendor",
+    "Model #",
+    "Description",
+    "Unit Price",
+    "Extended Price",
+    "",
+    ""
+   ],
+   "score": 3,
+   "n_rows": 108,
+   "sample": [
+    [
+     "1",
+     "Thorlabs",
+     "MAX383",
+     "3-Axix NanoMax Stage, Stepper Motors",
+     "0",
+     "0",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Thorlabs",
+     "BSC203",
+     "3 Ch Benchtop Stepper Motor Controller",
+     "0",
+     "0",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Thorlabs",
+     "MJC3",
+     "3-Axis Microscopy Joystick Console",
+     "0",
+     "0",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 27.3,
+  "attachment_fetches": 5,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 696428,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-30T13:50:11.353252+00:00",
+ "extract_attempts": 1
+}

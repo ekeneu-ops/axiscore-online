@@ -1,0 +1,918 @@
+{
+ "bid_id": "clark-county-nevada-608087-26-addendum-1",
+ "bid_number": "608087-26 Addendum 1",
+ "agency": "Clark County, Nevada",
+ "src": "Open",
+ "title": "LAS VEGAS BOULEVARD - FLAMINGO ROAD TO SPRING MOUNTAIN ROAD (PHASE G) AND FLAMINGO ROAD - I-15 TO KOVAL LANE",
+ "close": "11/4/2026 05:15 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 8,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 47,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "107.01 - TRAFFIC CONTROL",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 107.01 - TRAFFIC CONTROL 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "107.02 - UNIFORMED TRAFFIC CONTROL OFFICER",
+   "qty": "100",
+   "uom": "HOUR",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 107.02 - UNIFORMED TRAFFIC CONTROL OFFICER 100 HOUR No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "109.03 - ADDITIONAL AMOUNT OVER $2,000.00/DAY AS DETERMINED BY BIDDER",
+   "qty": "10",
+   "uom": "DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 109.03 - ADDITIONAL AMOUNT OVER $2,000.00/DAY AS DETERMINED BY BIDDER 10 DAY No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "109.04 - ADDITIONAL SPECIAL EVENTS",
+   "qty": "30",
+   "uom": "DAY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 109.04 - ADDITIONAL SPECIAL EVENTS 30 DAY No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "200.01 - MOBILIZATION",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 200.01 - MOBILIZATION 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "202.01 - REMOVE PLANTMIX BITUMINOUS SURFACE",
+   "qty": "25650",
+   "uom": "SY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 202.01 - REMOVE PLANTMIX BITUMINOUS SURFACE 25650 SY No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "202.02 - REMOVE CONCRETE CURB AND GUTTER",
+   "qty": "5385",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 202.02 - REMOVE CONCRETE CURB AND GUTTER 5385 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "202.03 - REMOVE CONCRETE CURB",
+   "qty": "5600",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 202.03 - REMOVE CONCRETE CURB 5600 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "202.04 - REMOVE CONCRETE SIDEWALK",
+   "qty": "32150",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 202.04 - REMOVE CONCRETE SIDEWALK 32150 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "202.05 - REMOVE CONCRETE CROSS GUTTER/SPANDREL",
+   "qty": "7995",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 202.05 - REMOVE CONCRETE CROSS GUTTER/SPANDREL 7995 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "202.06 - REMOVE CONCRETE BUS TURN-OUT",
+   "qty": "1600",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 202.06 - REMOVE CONCRETE BUS TURN-OUT 1600 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "202.07 - REMOVE CONCRETE MEDIAN SURFACE",
+   "qty": "4250",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 202.07 - REMOVE CONCRETE MEDIAN SURFACE 4250 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "202.08 - REMOVE CONCRETE BARRIER RAIL",
+   "qty": "740",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 202.08 - REMOVE CONCRETE BARRIER RAIL 740 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "202.09 - REMOVE AND SALVAGE BOLLARD (T-BOLLARD)",
+   "qty": "96",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 202.09 - REMOVE AND SALVAGE BOLLARD (T-BOLLARD) 96 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "202.10 - REMOVE AND SALVAGE BOLLARD (SHALLOW MOUNT)",
+   "qty": "36",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 202.10 - REMOVE AND SALVAGE BOLLARD (SHALLOW MOUNT) 36 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "202.11 - REMOVE AND SALVAGE BOLLARD (DRILLED FOOTING)",
+   "qty": "8",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 202.11 - REMOVE AND SALVAGE BOLLARD (DRILLED FOOTING) 8 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "202.12 - REMOVE AND SALVAGE BOLLARD (VENETIAN)",
+   "qty": "72",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 202.12 - REMOVE AND SALVAGE BOLLARD (VENETIAN) 72 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "202.13 - REMOVE BOLLARD (UTILITY)",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 202.13 - REMOVE BOLLARD (UTILITY) 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "202.14 - REMOVE CONCRETE CROSS DRAIN",
+   "qty": "215",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 202.14 - REMOVE CONCRETE CROSS DRAIN 215 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "202.15 - REMOVE CONCRETE VALLEY GUTTER",
+   "qty": "415",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 202.15 - REMOVE CONCRETE VALLEY GUTTER 415 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "202.16 - REMOVE PORTABLE PRECAST CONCRETE BARRIER RAIL",
+   "qty": "38",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 202.16 - REMOVE PORTABLE PRECAST CONCRETE BARRIER RAIL 38 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine25",
+   "kind": "line",
+   "line": "25",
+   "desc": "202.17 - REMOVE WALL",
+   "qty": "1255",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "25 202.17 - REMOVE WALL 1255 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine26",
+   "kind": "line",
+   "line": "26",
+   "desc": "202.18 - REMOVE (8) 10-FT X 7-FT CAST-IN-PLACE REINFORCED CONCRETE BOX",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "26 202.18 - REMOVE (8) 10-FT X 7-FT CAST-IN-PLACE REINFORCED CONCRETE BOX 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine27",
+   "kind": "line",
+   "line": "27",
+   "desc": "202.19 - REMOVE DROP INLET",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "27 202.19 - REMOVE DROP INLET 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine28",
+   "kind": "line",
+   "line": "28",
+   "desc": "202.20 - REMOVE GATE",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "28 202.20 - REMOVE GATE 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine29",
+   "kind": "line",
+   "line": "29",
+   "desc": "202.21 - REMOVE AREA LIGHT",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "29 202.21 - REMOVE AREA LIGHT 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine30",
+   "kind": "line",
+   "line": "30",
+   "desc": "202.22 - REMOVE AND SALVAGE STREET LIGHT",
+   "qty": "23",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "30 202.22 - REMOVE AND SALVAGE STREET LIGHT 23 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine31",
+   "kind": "line",
+   "line": "31",
+   "desc": "202.23 - REMOVE AND SALVAGE WIRELESS SMALL CELL POLE",
+   "qty": "5",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "31 202.23 - REMOVE AND SALVAGE WIRELESS SMALL CELL POLE 5 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine32",
+   "kind": "line",
+   "line": "32",
+   "desc": "202.24 - REMOVE AND SALVAGE SIGN",
+   "qty": "87",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "32 202.24 - REMOVE AND SALVAGE SIGN 87 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine33",
+   "kind": "line",
+   "line": "33",
+   "desc": "202.25 - REMOVE AND SALVAGE PEDESTRIAN CONTAINMENT FENCE",
+   "qty": "560",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "33 202.25 - REMOVE AND SALVAGE PEDESTRIAN CONTAINMENT FENCE 560 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine34",
+   "kind": "line",
+   "line": "34",
+   "desc": "202.26 - REMOVE MEDIAN LANDSCAPE UPLIGHTING",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "34 202.26 - REMOVE MEDIAN LANDSCAPE UPLIGHTING 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine35",
+   "kind": "line",
+   "line": "35",
+   "desc": "202.27 - REMOVE PRIVATE ENTRY SIGN",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "35 202.27 - REMOVE PRIVATE ENTRY SIGN 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine36",
+   "kind": "line",
+   "line": "36",
+   "desc": "202.28 - REMOVE AND SALVAGE CONCRETE PAVERS",
+   "qty": "10750",
+   "uom": "SF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "36 202.28 - REMOVE AND SALVAGE CONCRETE PAVERS 10750 SF No Response"
+  },
+  {
+   "ctl": "ucBidLine37",
+   "kind": "line",
+   "line": "37",
+   "desc": "202.29 - REMOVE AND SALVAGE DECORATIVE FENCE",
+   "qty": "550",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "37 202.29 - REMOVE AND SALVAGE DECORATIVE FENCE 550 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine38",
+   "kind": "line",
+   "line": "38",
+   "desc": "202.30 - REMOVE SIDEWALK DRAIN",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "38 202.30 - REMOVE SIDEWALK DRAIN 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine39",
+   "kind": "line",
+   "line": "39",
+   "desc": "202.31 - REMOVE MEDIAN LANDSCAPING AND IRRIGATION",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "39 202.31 - REMOVE MEDIAN LANDSCAPING AND IRRIGATION 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine40",
+   "kind": "line",
+   "line": "40",
+   "desc": "202.32 - REMOVE ACP WATERLINE (CCPW)",
+   "qty": "423",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "40 202.32 - REMOVE ACP WATERLINE (CCPW) 423 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine41",
+   "kind": "line",
+   "line": "41",
+   "desc": "202.33 - REMOVE STORM DRAIN MANHOLE",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "41 202.33 - REMOVE STORM DRAIN MANHOLE 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine42",
+   "kind": "line",
+   "line": "42",
+   "desc": "202.34 - REMOVE STORM DRAIN PIPE",
+   "qty": "160",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "42 202.34 - REMOVE STORM DRAIN PIPE 160 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine43",
+   "kind": "line",
+   "line": "43",
+   "desc": "202.35 - REMOVE TRAFFIC STRIPING",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "43 202.35 - REMOVE TRAFFIC STRIPING 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine44",
+   "kind": "line",
+   "line": "44",
+   "desc": "202.36 - REMOVE PULL BOX",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "44 202.36 - REMOVE PULL BOX 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine45",
+   "kind": "line",
+   "line": "45",
+   "desc": "203.01 - ROADWAY EXCAVATION",
+   "qty": "4350",
+   "uom": "CY",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "45 203.01 - ROADWAY EXCAVATION 4350 CY No Response"
+  },
+  {
+   "ctl": "ucBidLine46",
+   "kind": "line",
+   "line": "46",
+   "desc": "212.01 - MEDIAN LANDSCAPING",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "46 212.01 - MEDIAN LANDSCAPING 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine47",
+   "kind": "line",
+   "line": "47",
+   "desc": "212.02 - MODIFY LANDSCAPING FROM \"LVB\" 213+28 TO 213+40 (WEST SIDE)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "47 212.02 - MODIFY LANDSCAPING FROM \"LVB\" 213+28 TO 213+40 (WEST SIDE) 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine48",
+   "kind": "line",
+   "line": "48",
+   "desc": "212.03 - MODIFY LANDSCAPING FROM \"LVB\" 213+75 TO 213+88 (WEST SIDE)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "48 212.03 - MODIFY LANDSCAPING FROM \"LVB\" 213+75 TO 213+88 (WEST SIDE) 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine49",
+   "kind": "line",
+   "line": "49",
+   "desc": "212.04 - MODIFY LANDSCAPING FROM \"LVB\" 224+19 TO 224+69 (EAST SIDE)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "49 212.04 - MODIFY LANDSCAPING FROM \"LVB\" 224+19 TO 224+69 (EAST SIDE) 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine50",
+   "kind": "line",
+   "line": "50",
+   "desc": "212.05 - MODIFY LANDSCAPING FROM \"FRE\" 122+70 TO 126+25 (SOUTH SIDE)",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "50 212.05 - MODIFY LANDSCAPING FROM \"FRE\" 122+70 TO 126+25 (SOUTH SIDE) 1 LS No Response"
+  }
+ ],
+ "attachments_saved": [
+  "608087-26 ad1_sdj.pdf",
+  "608087-26_sdj.pdf",
+  "608087-26 - Plans.pdf",
+  "608087-26 - Geotechnical Report.pdf",
+  "608087-26 Bid Attachment 1 - Bid Bond_sdj.pdf",
+  "608087-26 Bid Attachment 2 - 5_ Subcontractors List_sdj.pdf",
+  "608087-26 Bid Attachment 3 - 1_ Designation of Subcontractors_sdj.pdf",
+  "608087-26 Bid Attachment 4 - Affidavit Pertaining to Preference of Eligibility_sdj.pdf",
+  "608087-26 Bidder_s Statement of Authority to Submit Bid_sdj.pdf",
+  "608087-26 Disclosure of Ownership_sdj.pdf",
+  "FRR_DES.dwg",
+  "FRR_EX_CONT.dwg",
+  "FRR_LL.dwg",
+  "FRR_SD.dwg",
+  "FRR_ST.dwg",
+  "FRR_TOPO.dwg",
+  "FRR_TS.dwg",
+  "FRR_TT.dwg",
+  "FRR_XST.dwg",
+  "FRR_XUT.dwg",
+  "LVG_ALG.dwg",
+  "21_LVG_ALG.dwg",
+  "LVG_BOL.dwg",
+  "LVG_COMDES.dwg",
+  "LVG_DES.dwg",
+  "LVG_EX_CONT.dwg",
+  "LVG_SD.dwg",
+  "LVG_ST.dwg",
+  "LVG_TOPO.dwg",
+  "LVG_TS.dwg",
+  "LVG_TT.dwg",
+  "LVG_UU.dwg",
+  "LVG_XST.dwg",
+  "LVG_XTS.dwg",
+  "LVG_XUT.dwg"
+ ],
+ "parsed_docs": [
+  {
+   "name": "608087-26 ad1_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608087-26_sdj.pdf",
+   "kind": "pdf",
+   "tables": 10,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608087-26 - Plans.pdf",
+   "kind": "pdf",
+   "tables": 21,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608087-26 - Geotechnical Report.pdf",
+   "kind": "pdf",
+   "tables": 92,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "608087-26 Bid Attachment 1 - Bid Bond_sdj.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "608087-26 Bid Attachment 2 - 5_ Subcontractors List_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608087-26 Bid Attachment 3 - 1_ Designation of Subcontractors_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608087-26 Bid Attachment 4 - Affidavit Pertaining to Preference of Eligibility_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608087-26 Bidder_s Statement of Authority to Submit Bid_sdj.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "608087-26 Disclosure of Ownership_sdj.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_DES.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_EX_CONT.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_LL.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_SD.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_ST.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_TOPO.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_TS.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_TT.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_XST.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "FRR_XUT.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_ALG.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "21_LVG_ALG.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_BOL.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_COMDES.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_DES.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_EX_CONT.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_SD.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_ST.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_TOPO.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_TS.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_TT.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_UU.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_XST.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_XTS.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "LVG_XUT.dwg",
+   "kind": ".dwg",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "608087-26 - Geotechnical Report.pdf",
+   "sheet": 79,
+   "header_row": 1,
+   "headers": [
+    "Description",
+    "",
+    "Sieve\nSize",
+    "Grain Size",
+    "Approximate\nSize"
+   ],
+   "score": 2,
+   "n_rows": 8,
+   "sample": [
+    [
+     "Boulders",
+     "",
+     "> 12\u201d",
+     "> 12\u201d",
+     "Larger than\nbasketball-sized"
+    ],
+    [
+     "Cobbles",
+     "",
+     "3 - 12\u201d",
+     "3 - 12\u201d",
+     "Fist-sized to\nbasketball-sized"
+    ],
+    [
+     "Gravel",
+     "Coarse",
+     "3/4 - 3\u201d",
+     "3/4 - 3\u201d",
+     "Thumb-sized to\nfist-sized"
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 309.0,
+  "attachment_fetches": 35,
+  "attachment_seconds": 77.1,
+  "attachment_bytes": 219991630,
+  "max_fetch_seconds": 69.19,
+  "throttle_signals": 1,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-30T13:48:07.750076+00:00",
+ "extract_attempts": 1
+}
