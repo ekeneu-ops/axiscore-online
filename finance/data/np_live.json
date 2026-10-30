@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-30T07:43Z",
+ "asof": "2026-10-30T08:03Z",
  "ap": {
   "net": 177968.8,
   "credits": 0.0,
@@ -66,33 +66,33 @@
    "payable_total": 72.66,
    "parked_count": 31
   },
-  "asof": "2026-10-30T07:43Z",
-  "moved_pct": 9.8
+  "asof": "2026-10-30T08:03Z",
+  "moved_pct": 0.0
  },
  "held": {
-  "net": 160644.08,
-  "order_count": 1825,
-  "settlement_net": 10073.09,
+  "net": 164717.51,
+  "order_count": 1848,
+  "settlement_net": 14146.52,
   "settlement_balance": 11909.84,
   "settlement_available": 11848.79,
   "settlement_groups_open": 3,
   "groups_snapshot": "2026-10-30T07:06Z",
   "deferred_net": 150570.99,
-  "settlement_orders": 155,
+  "settlement_orders": 178,
   "deferred_orders": 1670,
   "deferred_oldest_days": 31,
   "walk": {
-   "released": 12212.31,
+   "released": 17269.57,
    "postsettle": 218.61,
-   "refunds": -2328.9,
+   "refunds": -3312.73,
    "account_events": -28.93,
    "deferred": 150570.99
   },
-  "fev_through": "2026-10-30T05:24Z",
+  "fev_through": "2026-10-30T07:57Z",
   "deferred_snapshot": "2026-10-30T07:06Z",
   "last_settlement_end": "2026-10-28",
-  "asof": "2026-10-30T07:43Z",
-  "moved_pct": 0.35
+  "asof": "2026-10-30T08:03Z",
+  "moved_pct": 2.54
  },
  "fba": {
   "value": 2110.85,
@@ -108,7 +108,7 @@
    "mirror": 52
   },
   "stock_asof": "2026-10-30T04:00Z",
-  "asof": "2026-10-30T07:43Z"
+  "asof": "2026-10-30T08:03Z"
  },
  "amex": {
   "owed": 5216.23,
@@ -121,7 +121,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-10-30T07:43Z"
+  "asof": "2026-10-30T08:03Z"
  },
  "card_in_transit": {
   "amount": 235.29,
@@ -132,14 +132,14 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-28",
-  "asof": "2026-10-30T07:43Z"
+  "asof": "2026-10-30T08:03Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 18702.79,
   "orders": 3,
   "oldest_days": 107,
-  "asof": "2026-10-30T07:43Z"
+  "asof": "2026-10-30T08:03Z"
  },
  "unbilled": {
   "cost": 4230.66,
@@ -164,6 +164,6 @@
     }
    }
   },
-  "asof": "2026-10-30T07:43Z"
+  "asof": "2026-10-30T08:03Z"
  }
 }
