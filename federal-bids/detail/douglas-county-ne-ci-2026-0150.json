@@ -1,0 +1,382 @@
+{
+ "bid_id": "douglas-county-ne-ci-2026-0150",
+ "bid_number": "CI-2026-0150",
+ "agency": "Douglas County, NE",
+ "src": "Open",
+ "title": "Span Wire Traffic Signal at 159th St. & Ida St.",
+ "close": "11/5/2026 12:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:traffic sign",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 24,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 24,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "MOBILIZATION, PERMITS, BONDS, AND INSURANCE",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 MOBILIZATION, PERMITS, BONDS, AND INSURANCE 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "FURNISH AND MAINTAIN TEMPORARY TRAFFIC CONTROL",
+   "qty": "1",
+   "uom": "LS",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 FURNISH AND MAINTAIN TEMPORARY TRAFFIC CONTROL 1 LS No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "INSTALL 40' WOOD POLE (PROVIDED BY CITY)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 INSTALL 40' WOOD POLE (PROVIDED BY CITY) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "4",
+   "desc": "INSTALL 40' WOOD POLE WITH 12' LUMINAIRE EXTENSION (PROVIDED BY CITY)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "4 INSTALL 40' WOOD POLE WITH 12' LUMINAIRE EXTENSION (PROVIDED BY CITY) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "INSTALL PEDESTAL POLE, TYPE PP-10 (PROVIDED BY CITY)",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 INSTALL PEDESTAL POLE, TYPE PP-10 (PROVIDED BY CITY) 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "INSTALL TR. SIGNAL, TYPE TS-1, W/T31 FACE, BACKPLATE & SW-1 MTG (PROVIDED BY CITY)",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 INSTALL TR. SIGNAL, TYPE TS-1, W/T31 FACE, BACKPLATE & SW-1 MTG (PROVIDED BY CITY) 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine7",
+   "kind": "line",
+   "line": "7",
+   "desc": "INSTALL TR. SIGNAL, TYPE TS-A, W/T31 FACE & B-4 ALT MTG (PROVIDED BY CITY)",
+   "qty": "4",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "7 INSTALL TR. SIGNAL, TYPE TS-A, W/T31 FACE & B-4 ALT MTG (PROVIDED BY CITY) 4 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "INSTALL TR. SIGNAL, TYPE TS-1LF, W/T32F FACE, BACKPLATE & SW-1 MTG (PROVIDED BY CITY)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 INSTALL TR. SIGNAL, TYPE TS-1LF, W/T32F FACE, BACKPLATE & SW-1 MTG (PROVIDED BY CITY) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "INSTALL TR. SIGNAL, TYPE TS-1LFF, W/T43F FACE, BACKPLATE & SW-1 MTG (PROVIDED BY CITY)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 INSTALL TR. SIGNAL, TYPE TS-1LFF, W/T43F FACE, BACKPLATE & SW-1 MTG (PROVIDED BY CITY) 2 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine10",
+   "kind": "line",
+   "line": "10",
+   "desc": "INSTALL PEDESTRIAN SIGNAL, TYPE PS-1, COUNTDOWN FACE & B-4 ALT MTG (PROVIDED BY CITY)",
+   "qty": "8",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "10 INSTALL PEDESTRIAN SIGNAL, TYPE PS-1, COUNTDOWN FACE & B-4 ALT MTG (PROVIDED BY CITY) 8 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "INSTALL ACCESSIBLE PEDESTRIAN PUSH BUTTON SYSTEM (APS) (PROVIDED BY CITY)",
+   "qty": "8",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 INSTALL ACCESSIBLE PEDESTRIAN PUSH BUTTON SYSTEM (APS) (PROVIDED BY CITY) 8 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine12",
+   "kind": "line",
+   "line": "12",
+   "desc": "INSTALL TRAFFIC SIGNAL CONTROLLER, TYPE TC-2070 WITH TRAFFIC SIGNAL CONTROLLER CABINET, TYPE 336L (PROVIDED BY CITY)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "12 INSTALL TRAFFIC SIGNAL CONTROLLER, TYPE TC-2070 WITH TRAFFIC SIGNAL CONTROLLER CABINET, TYPE 336L (PROVIDED BY CITY) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine13",
+   "kind": "line",
+   "line": "13",
+   "desc": "FURNISH AND INSTALL 2\" PVC CONDUIT - TRENCHED",
+   "qty": "84",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "13 FURNISH AND INSTALL 2\" PVC CONDUIT - TRENCHED 84 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine14",
+   "kind": "line",
+   "line": "14",
+   "desc": "FURNISH AND INSTALL 5/C #14 AWG TRAF. SIGNAL CABLE (SEE SPECIAL PROVISIONS)",
+   "qty": "84",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "14 FURNISH AND INSTALL 5/C #14 AWG TRAF. SIGNAL CABLE (SEE SPECIAL PROVISIONS) 84 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine15",
+   "kind": "line",
+   "line": "15",
+   "desc": "FURNISH AND INSTALL 16/C #14 AWG TRAF. SIGNAL CABLE (SEE SPECIAL PROVISIONS)",
+   "qty": "233",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "15 FURNISH AND INSTALL 16/C #14 AWG TRAF. SIGNAL CABLE (SEE SPECIAL PROVISIONS) 233 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine16",
+   "kind": "line",
+   "line": "16",
+   "desc": "FURNISH AND INSTALL 1/C NO. 6 BARE COPPER GROUNDING CONDUCTOR (1/C #8 BARE COPPER)",
+   "qty": "254",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "16 FURNISH AND INSTALL 1/C NO. 6 BARE COPPER GROUNDING CONDUCTOR (1/C #8 BARE COPPER) 254 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine17",
+   "kind": "line",
+   "line": "17",
+   "desc": "FURNISH AND INSTALL SERVICE CABLE (SC) (1/C #6 AWG COPPER, TYPE THWN)",
+   "qty": "70",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "17 FURNISH AND INSTALL SERVICE CABLE (SC) (1/C #6 AWG COPPER, TYPE THWN) 70 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine18",
+   "kind": "line",
+   "line": "18",
+   "desc": "FURNISH AND INSTALL SERVICE ENTRANCE CABLE (SEC) (1/C AWG COPPER, TYPE THWN)",
+   "qty": "80",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "18 FURNISH AND INSTALL SERVICE ENTRANCE CABLE (SEC) (1/C AWG COPPER, TYPE THWN) 80 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine19",
+   "kind": "line",
+   "line": "19",
+   "desc": "INSTALL SERVICE DISCONNECT PEDESTAL (PROVIDED BY CITY)",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "19 INSTALL SERVICE DISCONNECT PEDESTAL (PROVIDED BY CITY) 1 EA No Response"
+  },
+  {
+   "ctl": "ucBidLine20",
+   "kind": "line",
+   "line": "20",
+   "desc": "FURNISH AND INSTALL 2/C #16 PPB LEAD-IN CABLE (SEE SPECIAL PROVISIONS)",
+   "qty": "550",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "20 FURNISH AND INSTALL 2/C #16 PPB LEAD-IN CABLE (SEE SPECIAL PROVISIONS) 550 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine21",
+   "kind": "line",
+   "line": "21",
+   "desc": "FURNISH AND INSTALL 3/C #6 STREET LIGHTING CABLE",
+   "qty": "170",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "21 FURNISH AND INSTALL 3/C #6 STREET LIGHTING CABLE 170 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine22",
+   "kind": "line",
+   "line": "22",
+   "desc": "FURNISH AND INSTALL TETHER CABLE",
+   "qty": "344",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "22 FURNISH AND INSTALL TETHER CABLE 344 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine23",
+   "kind": "line",
+   "line": "23",
+   "desc": "FURNISH AND INSTALL SUPPORT CABLE",
+   "qty": "344",
+   "uom": "LF",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "23 FURNISH AND INSTALL SUPPORT CABLE 344 LF No Response"
+  },
+  {
+   "ctl": "ucBidLine24",
+   "kind": "line",
+   "line": "24",
+   "desc": "INSTALL 108W STREET LIGHTING LUMINAIRE (PROVIDED BY OPPD)",
+   "qty": "2",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "24 INSTALL 108W STREET LIGHTING LUMINAIRE (PROVIDED BY OPPD) 2 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders _City_ Rev 03 20 2025_ ADA.docx",
+  "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+  "Responsible Contractor Compliance Form _ADA_.docx",
+  "T_C _Service PB_ ADA.docx",
+  "Certificate of Compliance _ADA_.docx",
+  "SPECS_Span Wire Traffic Signal at 159th.docx",
+  "Traffic Signal at 159th _ Ida Plans.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders _City_ Rev 03 20 2025_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Affidavit for Emp Class Act _ADA_ 02 18 2025.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Responsible Contractor Compliance Form _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "T_C _Service PB_ ADA.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate of Compliance _ADA_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "SPECS_Span Wire Traffic Signal at 159th.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Traffic Signal at 159th _ Ida Plans.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 34.2,
+  "attachment_fetches": 7,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 2781287,
+  "max_fetch_seconds": 0.15,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:22:32.602762+00:00",
+ "extract_attempts": 1
+}

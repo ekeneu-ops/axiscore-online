@@ -1,0 +1,43 @@
+{
+ "bid_id": "city-of-college-station-itb-26-005",
+ "bid_number": "ITB 26-005",
+ "agency": "City of College Station",
+ "src": "Open",
+ "title": "BVSWMA Twin Oaks Landfill - APA Crushed Stone and Crushed Recycled Concrete",
+ "close": "11/5/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "demoted:con:concrete",
+ "extraction_status": "EXTRACT_FAILED:zero-candidate-tables",
+ "items_source": null,
+ "lines_recovered": 0,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "BVSWMA ITB 26-005 APA for Crushed Stone and Crushed Recycled Concrete.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "BVSWMA ITB 26-005 APA for Crushed Stone and Crushed Recycled Concrete.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 23.8,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 557641,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:26:40.192142+00:00",
+ "extract_attempts": 1
+}

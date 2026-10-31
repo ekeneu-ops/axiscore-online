@@ -1,0 +1,270 @@
+{
+ "bid_id": "wayne-finger-lakes-boces-ny-wfl-2027-51pw",
+ "bid_number": "WFL 2027-51PW",
+ "agency": "Wayne-Finger Lakes BOCES, NY",
+ "src": "Open",
+ "title": "Cooperative HVAC Services Bid",
+ "close": "11/5/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 26,
+ "grid_empty_or_form": true,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 0,
+ "onscreen_lines": [],
+ "attachments_saved": [
+  "BID WFL 2027-51PW HVAC Services.pdf",
+  "Prevailing Wage Schedules.zip",
+  "Standard Form of Agreement Form A.pdf",
+  "Bid Proposal Form B.pdf",
+  "Bidder Qualification Disclosure Form C.pdf",
+  "Certificate of Equipment Form D.pdf",
+  "Bidder Qualification Form E.pdf",
+  "References Form F.pdf",
+  "Questionnaire Form G.pdf",
+  "Bid Proposal Certification Form H.pdf",
+  "Resolution Form I.pdf",
+  "Declaration Form J.pdf",
+  "Forms Checklist MUST BE REVIEWED.pdf",
+  "HVAC Services Parts. WFL 2027-51PW_Attacmhment A.pdf",
+  "Attachment B - Insurance Requirements.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "BID WFL 2027-51PW HVAC Services.pdf",
+   "kind": "pdf",
+   "tables": 5,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "Prevailing Wage Schedules.zip",
+   "kind": ".zip",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Standard Form of Agreement Form A.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Proposal Form B.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Qualification Disclosure Form C.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Certificate of Equipment Form D.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Bidder Qualification Form E.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "References Form F.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Questionnaire Form G.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Bid Proposal Certification Form H.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Resolution Form I.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Declaration Form J.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Forms Checklist MUST BE REVIEWED.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "HVAC Services Parts. WFL 2027-51PW_Attacmhment A.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Attachment B - Insurance Requirements.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "BID WFL 2027-51PW HVAC Services.pdf",
+   "sheet": 2,
+   "header_row": 0,
+   "headers": [
+    "Line No.",
+    "",
+    "DESCRIPTION",
+    "",
+    "",
+    "",
+    "Rate or\nPercentage Bid",
+    "",
+    "EXTENDED PRICE",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 26,
+   "sample": [
+    [
+     "`",
+     "",
+     "Prevailing Wage",
+     "",
+     "Hours",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "",
+     "Labor Rates for Electrician (Building) ($/Man/Hour)",
+     "",
+     "250",
+     "",
+     "$X.XX",
+     "",
+     "$",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Labor Rates for Plumber (Building) ($/Man/Hour)",
+     "",
+     "250",
+     "",
+     "$X.XX",
+     "",
+     "$",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "BID WFL 2027-51PW HVAC Services.pdf",
+   "sheet": 3,
+   "header_row": 0,
+   "headers": [
+    "LINE\nNO.",
+    "",
+    "DESCRIPTION",
+    "",
+    "",
+    "",
+    "HOURLY RATE",
+    "",
+    "EXTENDED PRICE",
+    ""
+   ],
+   "score": 2,
+   "n_rows": 15,
+   "sample": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "Hours",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "",
+     "Specialized Equipment Rental Percent\nMark -Up over Contractors Cost. Not to\nexceed 10% (as specified in Item 10.3.3 of the\nSpecifications Section)",
+     "",
+     "$1,000",
+     "X",
+     "X%",
+     "",
+     "$",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Dollars",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 30.8,
+  "attachment_fetches": 15,
+  "attachment_seconds": 4.3,
+  "attachment_bytes": 30511360,
+  "max_fetch_seconds": 2.92,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:28:43.412835+00:00",
+ "extract_attempts": 1
+}

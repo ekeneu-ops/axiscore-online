@@ -1,0 +1,102 @@
+{
+ "bid_id": "city-of-laredo-tx-dog-food",
+ "bid_number": "Dog Food",
+ "agency": "City of Laredo, TX",
+ "src": "Invited",
+ "title": "Laredo Police Department",
+ "close": "11/6/2026 11:00 AM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 4,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 4,
+ "onscreen_lines": [
+  {
+   "ctl": "ucPackageLine2",
+   "kind": "package_line",
+   "line": "1.1",
+   "desc": "Hill's Science Diet K9 Adult, Maintenance Large Breed 35 lbs. bags. 300 is an estimated amount per year. Quantities are estimated only. The City reserves the right to purchase more or less than quantities indicated.",
+   "qty": "300",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.1 Hill's Science Diet K9 Adult, Maintenance Large Breed 35 lbs. bags. 300 is an estimated amount per year. Quantities are estimated only. The City reserves the right to purchase more or less than quantities indicated. 300 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine3",
+   "kind": "package_line",
+   "line": "1.2",
+   "desc": "Purina Pro Plan Adult Sensitive Skin & Stomach (Lamb & Oat Meal Formula) 24lb bag 300 is an estimated amount per year. Quantities are estimated only. The City reserves the right to purchase more or less than quantities indicated.",
+   "qty": "300",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.2 Purina Pro Plan Adult Sensitive Skin & Stomach (Lamb & Oat Meal Formula) 24lb bag 300 is an estimated amount per year. Quantities are estimated only. The City reserves the right to purchase more or less than quantities indicated. 300 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine4",
+   "kind": "package_line",
+   "line": "1.3",
+   "desc": "Purina Pro Plan Adult Sensitive Skin & Stomach (Salmon & Rice Formula) 40lb bag 300 is an estimated amount per year. Quantities are estimated only. The City reserves the right to purchase more or less than quantities indicated.",
+   "qty": "300",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.3 Purina Pro Plan Adult Sensitive Skin & Stomach (Salmon & Rice Formula) 40lb bag 300 is an estimated amount per year. Quantities are estimated only. The City reserves the right to purchase more or less than quantities indicated. 300 EA No Response"
+  },
+  {
+   "ctl": "ucPackageLine5",
+   "kind": "package_line",
+   "line": "1.4",
+   "desc": "Freight/Delivery Ship to Location: 4712 Maher Ave., Laredo, Texas 78041",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "PackageLine",
+   "block": "1.4 Freight/Delivery Ship to Location: 4712 Maher Ave., Laredo, Texas 78041 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "COI Revised_1-1-2021 _1_.pdf",
+  "COI Form Instructions.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "COI Revised_1-1-2021 _1_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "COI Form Instructions.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 26.6,
+  "attachment_fetches": 2,
+  "attachment_seconds": 0.2,
+  "attachment_bytes": 328277,
+  "max_fetch_seconds": 0.1,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:16:07.622524+00:00",
+ "extract_attempts": 1
+}

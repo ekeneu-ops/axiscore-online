@@ -1,0 +1,58 @@
+{
+ "bid_id": "city-of-edmond-ok-q27-100",
+ "bid_number": "Q27-100",
+ "agency": "City of Edmond, OK",
+ "src": "Open",
+ "title": "Print Employee Luncheon Invitations",
+ "close": "11/4/2026 03:30 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Project: City Employee Holiday Luncheon Invitations Quantity: 250 Size: 4\" x 9.25\" Paper: 80lb. Cover bright white - in house Color(s): 4/0 (single Sided) Bleeds: Yes",
+   "qty": "1",
+   "uom": "LT",
+   "note": "FIRM DELIVERY DEADLINE of 1 week (5 business days) from delivery of artwork to awarded vendor.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Project: City Employee Holiday Luncheon Invitations Quantity: 250 Size: 4\" x 9.25\" Paper: 80lb. Cover bright white - in house Color(s): 4/0 (single Sided) Bleeds: Yes 1 LT No Response"
+  }
+ ],
+ "attachments_saved": [
+  "25 Holiday Luncheon Template.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "25 Holiday Luncheon Template.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 26.7,
+  "attachment_fetches": 1,
+  "attachment_seconds": 0.1,
+  "attachment_bytes": 131145,
+  "max_fetch_seconds": 0.08,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:14:35.748323+00:00",
+ "extract_attempts": 1
+}

@@ -1,0 +1,187 @@
+{
+ "bid_id": "city-of-lincoln-ne-26-207",
+ "bid_number": "26-207",
+ "agency": "City of Lincoln, NE",
+ "src": "Invited",
+ "title": "Fresh Air Unit for Building 949",
+ "close": "11/13/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 3,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "949 Building Fresh Air Improvement Project",
+   "qty": "1",
+   "uom": "Lump Sum",
+   "note": "Per the Drawings/Plans and technical specification",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 949 Building Fresh Air Improvement Project 1 Lump Sum No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Instructions to Bidders 11-2023.pdf",
+  "Contract - City Const.pdf",
+  "SubmissionReceipt-ContractualInsuranceDeterminationForm-701.pdf",
+  "Contractual Insurance Result Guide.pdf",
+  "SPECS 2026-09-30 _COMBINED DELIVERABLE_.pdf",
+  "Drawings.pdf",
+  "Empl_Class_Act_EO.pdf",
+  "Empl_Class_Act_Aff.pdf",
+  "United States Citizenship Attestation Form.pdf",
+  "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+  "Foreign Adversary Contracting Prohibition Act Certification Form.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Instructions to Bidders 11-2023.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contract - City Const.pdf",
+   "kind": "pdf",
+   "tables": 9,
+   "note": "",
+   "candidates": 2
+  },
+  {
+   "name": "SubmissionReceipt-ContractualInsuranceDeterminationForm-701.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Contractual Insurance Result Guide.pdf",
+   "kind": "pdf",
+   "tables": 7,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SPECS 2026-09-30 _COMBINED DELIVERABLE_.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Drawings.pdf",
+   "kind": "pdf",
+   "tables": 90,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_EO.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "Empl_Class_Act_Aff.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  },
+  {
+   "name": "United States Citizenship Attestation Form.pdf",
+   "kind": "pdf",
+   "tables": 2,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Summary of Foreign Adversary Contracting Prohibition Act.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Foreign Adversary Contracting Prohibition Act Certification Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "Contract - City Const.pdf",
+   "sheet": 1,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Execution Date or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond [Amount]\nA t\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 16\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in this Performance Bond,\ndo each cause this Performance Bond to be duly executed by an authorized officer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  },
+  {
+   "source": "Contract - City Const.pdf",
+   "sheet": 5,
+   "header_row": 1,
+   "headers": [
+    "Owner\nName: City of Lincoln\nMailing address (principal place of business):\n555 S. 10th Street\nLincoln, NE 68508",
+    "Contract\nDescription (name and location):\n[Owner\u2019s project/contract name, and\nlocation of the project]\nContract Price: [Amount from Contract]\nEffective Date of Upon Execution or\nContract: Actual Date"
+   ],
+   "score": 2,
+   "n_rows": 3,
+   "sample": [
+    [
+     "Bond\nBond Amount: [Amount]\nDate of Bond:\n(Date of Bond cannot be earlier than Effective Date of\nContract)\nModifications to this Bond form:\nNone See Paragraph 18\n\u2610 \u2610",
+     ""
+    ],
+    [
+     "Surety and Contractor, intending to be legally bound hereby, subject to the terms set forth in\nthis Payment Bond, do each cause this Payment Bond to be duly executed by an authorized\nofficer, agent, or representative.",
+     ""
+    ],
+    [
+     "Contractor as Principal Surety\n(Full formal name of Contractor) (Full formal name of Surety) (corporate seal)\nBy:\nBy:\n(Signature) (Signature)(Attach Power of Attorney)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nAttest: Attest:\n(Signature) (Signature)\nName: Name:\n(Printed or typed) (Printed or typed)\nTitle: Title:\nNotes: (1) Provide supplemental execution by any additional parties, such as joint venturers. (2) Any singular\nreference to Contractor, Surety, Owner, or other party is considered plural where applicable.",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 34.5,
+  "attachment_fetches": 11,
+  "attachment_seconds": 1.0,
+  "attachment_bytes": 8756520,
+  "max_fetch_seconds": 0.25,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:19:00.842110+00:00",
+ "extract_attempts": 1
+}

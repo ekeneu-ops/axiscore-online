@@ -1,0 +1,82 @@
+{
+ "bid_id": "lubbock-isd-tx-2026-1134-rfp",
+ "bid_number": "2026-1134-RFP",
+ "agency": "Lubbock ISD, TX",
+ "src": "Open",
+ "title": "E-Rate Dedicated Wide Area Network Services",
+ "close": "11/5/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 1,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 1,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "Please see attached price list, fill it out, and submit it with your response.",
+   "qty": "1",
+   "uom": "EA",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 Please see attached price list, fill it out, and submit it with your response. 1 EA No Response"
+  }
+ ],
+ "attachments_saved": [
+  "Lubbock ISD EDGAR Provisions _6__rev 07.01.21.pdf",
+  "LISD General Solicitation Terms and Conditions _fs 2-19-26_4621607.2_.docx",
+  "Lubbock_ISD_WAN_RFP_FY2027_Final.docx",
+  "WAN RFP Price Sheet.xlsx"
+ ],
+ "parsed_docs": [
+  {
+   "name": "Lubbock ISD EDGAR Provisions _6__rev 07.01.21.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "LISD General Solicitation Terms and Conditions _fs 2-19-26_4621607.2_.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "Lubbock_ISD_WAN_RFP_FY2027_Final.docx",
+   "kind": ".docx",
+   "tables": 0,
+   "note": "unsupported format",
+   "candidates": 0
+  },
+  {
+   "name": "WAN RFP Price Sheet.xlsx",
+   "kind": "xlsx",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 27.6,
+  "attachment_fetches": 4,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 447521,
+  "max_fetch_seconds": 0.27,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:23:01.661850+00:00",
+ "extract_attempts": 1
+}

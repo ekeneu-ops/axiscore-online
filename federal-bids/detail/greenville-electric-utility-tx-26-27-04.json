@@ -4,7 +4,7 @@
  "agency": "Greenville Electric Utility, TX",
  "src": "Invited",
  "title": "October 2026 Transformer Request (2)",
- "close": "11/6/2026 04:00 PM (ET)",
+ "close": "11/13/2026 01:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -29,27 +29,27 @@
   }
  ],
  "attachments_saved": [
-  "Three Phase Padmount Transformer Specification _Rev1 October 2016_.doc",
-  "GEUS Vendor Forms 071625.pdf",
-  "S-004 GEUS Standard Terms and Conditions REV 082125.pdf"
+  "0_Three Phase Padmount Transformer Specification _Rev1 October 2016_.doc",
+  "1_GEUS Vendor Forms 071625.pdf",
+  "2_S-004 GEUS Standard Terms and Conditions REV 082125.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "Three Phase Padmount Transformer Specification _Rev1 October 2016_.doc",
+   "name": "0_Three Phase Padmount Transformer Specification _Rev1 October 2016_.doc",
    "kind": ".doc",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "GEUS Vendor Forms 071625.pdf",
+   "name": "1_GEUS Vendor Forms 071625.pdf",
    "kind": "pdf",
    "tables": 8,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "S-004 GEUS Standard Terms and Conditions REV 082125.pdf",
+   "name": "2_S-004 GEUS Standard Terms and Conditions REV 082125.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
@@ -61,14 +61,14 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 28.8,
+  "bid_seconds": 38.8,
   "attachment_fetches": 3,
-  "attachment_seconds": 0.7,
+  "attachment_seconds": 0.8,
   "attachment_bytes": 10241908,
-  "max_fetch_seconds": 0.56,
+  "max_fetch_seconds": 0.59,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-27T13:15:46.022902+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-31T13:17:58.909525+00:00",
+ "extract_attempts": 2
 }

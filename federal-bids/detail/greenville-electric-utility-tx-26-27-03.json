@@ -4,7 +4,7 @@
  "agency": "Greenville Electric Utility, TX",
  "src": "Invited",
  "title": "October 2026 Transformer Request",
- "close": "11/6/2026 04:00 PM (ET)",
+ "close": "11/13/2026 01:00 PM (ET)",
  "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
  "scope_status": "UNRESOLVED",
  "scope_reason": "title-uninformative",
@@ -29,27 +29,27 @@
   }
  ],
  "attachments_saved": [
-  "22 05-18_ Tech Spec - 1-Ph OH.doc",
-  "GEUS Vendor Forms 071625.pdf",
-  "S-004 GEUS Standard Terms and Conditions REV 082125.pdf"
+  "0_22 05-18_ Tech Spec - 1-Ph OH.doc",
+  "1_GEUS Vendor Forms 071625.pdf",
+  "2_S-004 GEUS Standard Terms and Conditions REV 082125.pdf"
  ],
  "parsed_docs": [
   {
-   "name": "22 05-18_ Tech Spec - 1-Ph OH.doc",
+   "name": "0_22 05-18_ Tech Spec - 1-Ph OH.doc",
    "kind": ".doc",
    "tables": 0,
    "note": "unsupported format",
    "candidates": 0
   },
   {
-   "name": "GEUS Vendor Forms 071625.pdf",
+   "name": "1_GEUS Vendor Forms 071625.pdf",
    "kind": "pdf",
    "tables": 8,
    "note": "",
    "candidates": 0
   },
   {
-   "name": "S-004 GEUS Standard Terms and Conditions REV 082125.pdf",
+   "name": "2_S-004 GEUS Standard Terms and Conditions REV 082125.pdf",
    "kind": "pdf",
    "tables": 0,
    "note": "text-layer PDF, no tables detected",
@@ -61,14 +61,14 @@
   "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
  ],
  "latency": {
-  "bid_seconds": 22.8,
+  "bid_seconds": 41.6,
   "attachment_fetches": 3,
-  "attachment_seconds": 1.1,
+  "attachment_seconds": 0.9,
   "attachment_bytes": 10195828,
-  "max_fetch_seconds": 0.84,
+  "max_fetch_seconds": 0.66,
   "throttle_signals": 0,
   "http_4xx_5xx": []
  },
- "captured_at": "2026-10-23T13:21:40.321195+00:00",
- "extract_attempts": 1
+ "captured_at": "2026-10-31T13:17:18.609071+00:00",
+ "extract_attempts": 2
 }

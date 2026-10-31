@@ -1,0 +1,118 @@
+{
+ "bid_id": "weslaco-isd-bid-27-11-19",
+ "bid_number": "Bid #27-11-19",
+ "agency": "Weslaco ISD",
+ "src": "Open",
+ "title": "Sale of Real Estate (Property A &amp; B)",
+ "close": "11/3/2026 05:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "grid-only",
+ "lines_recovered": 2,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 2,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine1",
+   "kind": "line",
+   "line": "1",
+   "desc": "BID OFFER FOR PROPERTY \"A\"",
+   "qty": "1",
+   "uom": "Bid Offer",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "1 BID OFFER FOR PROPERTY \"A\" 1 Bid Offer No Response Line excluded from response total"
+  },
+  {
+   "ctl": "ucBidLine4",
+   "kind": "line",
+   "line": "2",
+   "desc": "BID OFFER FOR PROPERTY \"B\"",
+   "qty": "1",
+   "uom": "Bid Offer",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 BID OFFER FOR PROPERTY \"B\" 1 Bid Offer No Response Line excluded from response total"
+  }
+ ],
+ "attachments_saved": [
+  "SECTION I - Property Description and Terms.pdf",
+  "SECTION II Exclusive Terms.pdf",
+  "SECTION III - Acceptance Form.pdf",
+  "SECTION IV - Felony Conviction.pdf",
+  "SECTION V - Non-Collusion _ Signature Sheet.pdf",
+  "Conflict of Interest - CIQ.pdf",
+  "Areal View of Property.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "SECTION I - Property Description and Terms.pdf",
+   "kind": "pdf",
+   "tables": 4,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION II Exclusive Terms.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION III - Acceptance Form.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION IV - Felony Conviction.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "SECTION V - Non-Collusion _ Signature Sheet.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Conflict of Interest - CIQ.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Areal View of Property.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "scanned/image PDF (no text layer)",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [],
+ "notes": [
+  "no attachment-sourced item table \u2014 on-screen lines are the only list (cross-check unavailable)"
+ ],
+ "latency": {
+  "bid_seconds": 27.3,
+  "attachment_fetches": 7,
+  "attachment_seconds": 0.6,
+  "attachment_bytes": 1402908,
+  "max_fetch_seconds": 0.13,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:13:42.310823+00:00",
+ "extract_attempts": 1
+}

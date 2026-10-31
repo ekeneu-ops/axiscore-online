@@ -1,0 +1,266 @@
+{
+ "bid_id": "harris-county-department-of-education-tx-27-001tc-addendum-1",
+ "bid_number": "27/001TC Addendum 1",
+ "agency": "Harris County Department of Education, TX",
+ "src": "Open",
+ "title": "General Contractor Job Order Contracting (JOC-IDIQ)",
+ "close": "11/5/2026 03:00 PM (ET)",
+ "url": "https://supplier.ionwave.net/VendorResponse/Bid/VResponseEvent.aspx",
+ "scope_status": "UNRESOLVED",
+ "scope_reason": "title-uninformative",
+ "extraction_status": "EXTRACTED",
+ "items_source": "attachments",
+ "lines_recovered": 9,
+ "grid_empty_or_form": false,
+ "onscreen_grid_count": 1,
+ "onscreen_priced_lines": 7,
+ "onscreen_lines": [
+  {
+   "ctl": "ucBidLine2",
+   "kind": "line",
+   "line": "2",
+   "desc": "Coefficient to be used with the eConverge unit price book for Regular hours as defined in the CSP.",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "This is a not to exceed price. This one will be used with the eConverge online data set. This shall be less than 1.0 to give our members best value.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "2 Coefficient to be used with the eConverge unit price book for Regular hours as defined in the CSP. 1 Percentage No Response"
+  },
+  {
+   "ctl": "ucBidLine3",
+   "kind": "line",
+   "line": "3",
+   "desc": "Coefficient for eConverge - after hours and overtime hours",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "3 Coefficient for eConverge - after hours and overtime hours 1 Percentage No Response"
+  },
+  {
+   "ctl": "ucBidLine5",
+   "kind": "line",
+   "line": "5",
+   "desc": "Coefficient to be used with the RSMeans unit price book for Regular hours as defined in the CSP.",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "This is a not to exceed price. This one will be used with the RSMeans online data set. This shall be less than 1.0 to give our members best value.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "5 Coefficient to be used with the RSMeans unit price book for Regular hours as defined in the CSP. 1 Percentage No Response"
+  },
+  {
+   "ctl": "ucBidLine6",
+   "kind": "line",
+   "line": "6",
+   "desc": "Coefficient for RSMeans online to be used for after hours and overtime hours",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "6 Coefficient for RSMeans online to be used for after hours and overtime hours 1 Percentage No Response"
+  },
+  {
+   "ctl": "ucBidLine8",
+   "kind": "line",
+   "line": "8",
+   "desc": "This is the coefficient to be used with the Sierra West Publishing UPB.",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "8 This is the coefficient to be used with the Sierra West Publishing UPB. 1 Percentage No Response"
+  },
+  {
+   "ctl": "ucBidLine9",
+   "kind": "line",
+   "line": "9",
+   "desc": "Coefficient to be used with Xactimate UPB",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "9 Coefficient to be used with Xactimate UPB 1 Percentage No Response"
+  },
+  {
+   "ctl": "ucBidLine11",
+   "kind": "line",
+   "line": "11",
+   "desc": "Usual and customary mark up for any non-pre-priced items that may come up. This is not a coefficient. It is a percent mark up of actual cost.",
+   "qty": "1",
+   "uom": "Percentage",
+   "note": "This is normally between 10 and 20%. For best value, we recommend 10%.",
+   "displayOnly": "false",
+   "lineType": "BidLine",
+   "block": "11 Usual and customary mark up for any non-pre-priced items that may come up. This is not a coefficient. It is a percent mark up of actual cost. 1 Percentage No Response"
+  }
+ ],
+ "attachments_saved": [
+  "27-001TC General Contractor _JOC-IDIQ_ RFP Docs.pdf",
+  "Section_10.0_Attachment_Guide_to_Completion_Checklist.pdf",
+  "10.0 Ionwave Packet Fillable Version 7.23.2026.pdf",
+  "Execution Of Offer Fillable Version 2YR 7.23.2026.pdf",
+  "HVAC_Example_RS_Means.pdf",
+  "eConverge Sample Estimate_27.001TC.pdf",
+  "Quality_Narrative.pdf",
+  "Marketing_Narrative.pdf",
+  "Cooperative Checklist Fillable Version 7.23.2026.pdf",
+  "Checkoff List Fillable Version 7.23.2026.pdf",
+  "27-001TC General Contractor Addendum_10.21.2026.pdf"
+ ],
+ "parsed_docs": [
+  {
+   "name": "27-001TC General Contractor _JOC-IDIQ_ RFP Docs.pdf",
+   "kind": "pdf",
+   "tables": 3,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Section_10.0_Attachment_Guide_to_Completion_Checklist.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "10.0 Ionwave Packet Fillable Version 7.23.2026.pdf",
+   "kind": "pdf",
+   "tables": 20,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Execution Of Offer Fillable Version 2YR 7.23.2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "HVAC_Example_RS_Means.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 1
+  },
+  {
+   "name": "eConverge Sample Estimate_27.001TC.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Quality_Narrative.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "Marketing_Narrative.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Cooperative Checklist Fillable Version 7.23.2026.pdf",
+   "kind": "pdf",
+   "tables": 1,
+   "note": "",
+   "candidates": 0
+  },
+  {
+   "name": "Checkoff List Fillable Version 7.23.2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  },
+  {
+   "name": "27-001TC General Contractor Addendum_10.21.2026.pdf",
+   "kind": "pdf",
+   "tables": 0,
+   "note": "text-layer PDF, no tables detected",
+   "candidates": 0
+  }
+ ],
+ "candidate_tables": [
+  {
+   "source": "HVAC_Example_RS_Means.pdf",
+   "sheet": 0,
+   "header_row": 0,
+   "headers": [
+    "Quantity",
+    "LineNumber",
+    "Description",
+    "Unit",
+    "Total O&P",
+    "Ext. Total O&P",
+    "Labor Type",
+    "Data Release",
+    "CCI Location",
+    "Notes"
+   ],
+   "score": 3,
+   "n_rows": 9,
+   "sample": [
+    [
+     "10",
+     "230505100400",
+     "Central station air handler, up thru 15 ton, selective\ndemolition",
+     "Ea.",
+     "$ 5 79.25",
+     "$ 5 ,792.50",
+     "RR",
+     "Year 2019 Quarter\n2 (Use most\nupdated available\nat time quote is\nrequested)",
+     "TEXAS / HOUSTON (770-772)",
+     "Insert any notes to\ndescribe where work is\nbeing done, what is\nbeing provided in this\nline item, etc"
+    ],
+    [
+     "1",
+     "237433101100",
+     "Rooftop air conditioner, single zone, electric cool, gas\nheat, 3 ton cooling, 60 MBH heating, includes,\nstandard controls, curb and economizer",
+     "Ea.",
+     "$ 4 ,359.00",
+     "$ 4 ,359.00",
+     "RR",
+     "Year 2019 Quarter\n2",
+     "TEXAS / HOUSTON (770-772)",
+     ""
+    ],
+    [
+     "3",
+     "237433101150",
+     "Rooftop air conditioner, single zone, electric cool, gas\nheat, 7.5 ton cooling, 170 MBH heating, includes,\nstandard controls, curb and economizer",
+     "Ea.",
+     "$ 8 ,213.65",
+     "$ 2 4,640.95",
+     "RR",
+     "Year 2019 Quarter\n2",
+     "TEXAS / HOUSTON (770-772)",
+     ""
+    ]
+   ]
+  }
+ ],
+ "notes": [],
+ "latency": {
+  "bid_seconds": 78.3,
+  "attachment_fetches": 11,
+  "attachment_seconds": 2.4,
+  "attachment_bytes": 23907111,
+  "max_fetch_seconds": 1.09,
+  "throttle_signals": 0,
+  "http_4xx_5xx": []
+ },
+ "captured_at": "2026-10-31T13:25:18.043541+00:00",
+ "extract_attempts": 1
+}
