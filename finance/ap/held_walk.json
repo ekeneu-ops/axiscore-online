@@ -1,20 +1,20 @@
 {
- "asof": "2026-11-01T18:44Z",
- "net": 179485.75,
+ "asof": "2026-11-01T23:21Z",
+ "net": 179027.45,
  "suspect": false,
  "alert": null,
  "walk": {
-  "released_net": 36925.21,
-  "released_orders": 435,
+  "released_net": 37112.66,
+  "released_orders": 436,
   "postsettle_net": 647.2,
-  "refunds_pending": -6443.51,
+  "refunds_pending": -6901.81,
   "account_events": -60.18,
-  "deferred_net": 148417.03,
-  "deferred_txns": 1645,
+  "deferred_net": 148229.58,
+  "deferred_txns": 1644,
   "deferred_orders": 1578,
-  "deferred_snapshot": "2026-11-01T18:06Z",
+  "deferred_snapshot": "2026-11-01T23:06Z",
   "last_settlement_end": "2026-10-28",
-  "fev_through": "2026-11-01T15:47Z"
+  "fev_through": "2026-11-01T18:25Z"
  },
  "validated": {
   "at": "2026-06-12T02:15Z",
