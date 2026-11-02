@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-02T18:46Z",
+ "asof": "2026-11-02T19:56Z",
  "ap": {
   "net": 192710.96,
   "credits": 0.0,
@@ -66,7 +66,7 @@
    "payable_total": 72.66,
    "parked_count": 32
   },
-  "asof": "2026-11-02T18:46Z",
+  "asof": "2026-11-02T19:56Z",
   "moved_pct": 0.0
  },
  "held": {
@@ -76,7 +76,7 @@
   "settlement_balance": 31863.87,
   "settlement_available": 31802.82,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-11-02T18:06Z",
+  "groups_snapshot": "2026-11-02T19:06Z",
   "deferred_net": 148063.85,
   "settlement_orders": 444,
   "deferred_orders": 1570,
@@ -89,10 +89,10 @@
    "deferred": 148063.85
   },
   "fev_through": "2026-11-02T16:42Z",
-  "deferred_snapshot": "2026-11-02T18:06Z",
+  "deferred_snapshot": "2026-11-02T19:06Z",
   "last_settlement_end": "2026-10-28",
-  "asof": "2026-11-02T18:46Z",
-  "moved_pct": -0.03
+  "asof": "2026-11-02T19:56Z",
+  "moved_pct": 0.0
  },
  "fba": {
   "value": 2206.11,
@@ -108,7 +108,7 @@
    "mirror": 52
   },
   "stock_asof": "2026-11-02T16:00Z",
-  "asof": "2026-11-02T18:46Z"
+  "asof": "2026-11-02T19:56Z"
  },
  "amex": {
   "owed": 7363.5,
@@ -121,7 +121,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-11-02T18:46Z"
+  "asof": "2026-11-02T19:56Z"
  },
  "card_in_transit": {
   "amount": 534.32,
@@ -132,14 +132,14 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-10-31",
-  "asof": "2026-11-02T18:46Z"
+  "asof": "2026-11-02T19:56Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 18596.86,
   "orders": 2,
   "oldest_days": 110,
-  "asof": "2026-11-02T18:46Z"
+  "asof": "2026-11-02T19:56Z"
  },
  "unbilled": {
   "cost": 5321.46,
@@ -147,8 +147,8 @@
   "oldest_days": 145,
   "no_cost_orders": 80,
   "no_cost_revenue": 19318.39,
-  "committed": 72043.54,
-  "committed_orders": 853,
+  "committed": 75505.05,
+  "committed_orders": 883,
   "revenue": 6998.79,
   "by_rollup": {
    "ISG": {
@@ -157,13 +157,13 @@
    },
    "_held": {
     "SPR": {
-     "cost": 50290.38,
+     "cost": 50439.74,
      "docs": 1234,
      "pool": 71394.18,
-     "orders": 343
+     "orders": 344
     }
    }
   },
-  "asof": "2026-11-02T18:46Z"
+  "asof": "2026-11-02T19:56Z"
  }
 }
