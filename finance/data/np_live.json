@@ -1,10 +1,10 @@
 {
- "asof": "2026-11-03T09:24Z",
+ "asof": "2026-11-03T15:46Z",
  "ap": {
-  "net": 216039.81,
+  "net": 215953.04,
   "credits": 0.0,
   "credit_count": 11,
-  "net_after_credits": 216039.81,
+  "net_after_credits": 215953.04,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -19,20 +19,20 @@
     "total": 1726.4
    },
    "PAY": {
-    "count": 2629,
-    "total": 182243.71
+    "count": 2633,
+    "total": 182307.33
    },
    "EXPECTED": {
     "count": 1,
     "total": 10047.11
    },
    "REVIEW": {
-    "count": 411,
-    "total": 28443.31
+    "count": 420,
+    "total": 28575.63
    },
    "UNSCORED": {
-    "count": 138,
-    "total": -214.14
+    "count": 127,
+    "total": -496.85
    },
    "PARKED": {
     "count": 33,
@@ -57,8 +57,8 @@
     "total": 37876.34
    },
    "SPR": {
-    "count": 2767,
-    "total": 125616.8
+    "count": 2769,
+    "total": 125530.03
    }
   },
   "fedex": {
@@ -66,33 +66,33 @@
    "payable_total": 72.66,
    "parked_count": 33
   },
-  "asof": "2026-11-03T09:24Z",
-  "moved_pct": 0.94
+  "asof": "2026-11-03T15:46Z",
+  "moved_pct": -0.04
  },
  "held": {
-  "net": 208452.66,
-  "order_count": 2787,
-  "settlement_net": 33903.07,
-  "settlement_balance": 35565.94,
-  "settlement_available": 35504.89,
+  "net": 208884.04,
+  "order_count": 2783,
+  "settlement_net": 37956.65,
+  "settlement_balance": 39710.67,
+  "settlement_available": 39649.62,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-11-03T09:06Z",
-  "deferred_net": 174549.59,
-  "settlement_orders": 469,
-  "deferred_orders": 2318,
-  "deferred_oldest_days": 31,
+  "groups_snapshot": "2026-11-03T15:06Z",
+  "deferred_net": 170927.39,
+  "settlement_orders": 511,
+  "deferred_orders": 2272,
+  "deferred_oldest_days": 29,
   "walk": {
-   "released": 40793.03,
-   "postsettle": 647.2,
-   "refunds": -7433.23,
+   "released": 44878.43,
+   "postsettle": 664.62,
+   "refunds": -7482.47,
    "account_events": -103.93,
-   "deferred": 174549.59
+   "deferred": 170927.39
   },
-  "fev_through": "2026-11-03T07:56Z",
-  "deferred_snapshot": "2026-11-03T09:06Z",
+  "fev_through": "2026-11-03T13:41Z",
+  "deferred_snapshot": "2026-11-03T15:06Z",
   "last_settlement_end": "2026-10-28",
-  "asof": "2026-11-03T09:24Z",
-  "moved_pct": -0.05
+  "asof": "2026-11-03T15:46Z",
+  "moved_pct": 0.21
  },
  "fba": {
   "value": 2206.11,
@@ -107,39 +107,39 @@
    "spapi": 1737,
    "mirror": 52
   },
-  "stock_asof": "2026-11-03T04:00Z",
-  "asof": "2026-11-03T09:24Z"
+  "stock_asof": "2026-11-03T12:00Z",
+  "asof": "2026-11-03T15:46Z"
  },
  "amex": {
-  "owed": 9690.24,
+  "owed": 9712.49,
   "last_autopay": "2026-10-22",
-  "txn_count": 53,
-  "pending_amt": 2662.71,
-  "last_txn": "2026-11-02",
+  "txn_count": 54,
+  "pending_amt": 2684.96,
+  "last_txn": "2026-11-03",
   "in_flight": {
    "amount": 0.0,
    "n": 0,
    "since": null
   },
-  "asof": "2026-11-03T09:24Z"
+  "asof": "2026-11-03T15:46Z"
  },
  "card_in_transit": {
-  "amount": 534.32,
-  "batches": 1,
+  "amount": 0.0,
+  "batches": 0,
   "basis": "authnet",
-  "oldest_days": 3,
+  "oldest_days": null,
   "stale_batches": 0,
   "stale_amount": 0.0,
   "stale_oldest_days": null,
-  "deposits_through": "2026-10-31",
-  "asof": "2026-11-03T09:24Z"
+  "deposits_through": "2026-11-03",
+  "asof": "2026-11-03T15:46Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 18596.86,
   "orders": 2,
   "oldest_days": 111,
-  "asof": "2026-11-03T09:24Z"
+  "asof": "2026-11-03T15:46Z"
  },
  "unbilled": {
   "cost": 5798.56,
@@ -147,8 +147,8 @@
   "oldest_days": 146,
   "no_cost_orders": 82,
   "no_cost_revenue": 19416.15,
-  "committed": 43429.66,
-  "committed_orders": 213,
+  "committed": 47611.25,
+  "committed_orders": 286,
   "revenue": 7760.02,
   "by_rollup": {
    "ISG": {
@@ -157,13 +157,13 @@
    },
    "_held": {
     "SPR": {
-     "cost": 63176.58,
-     "docs": 1253,
-     "pool": 71616.83,
-     "orders": 653
+     "cost": 61074.31,
+     "docs": 1242,
+     "pool": 71334.12,
+     "orders": 643
     }
    }
   },
-  "asof": "2026-11-03T09:24Z"
+  "asof": "2026-11-03T15:46Z"
  }
 }
