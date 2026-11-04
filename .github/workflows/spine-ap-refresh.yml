@@ -163,7 +163,7 @@ jobs:
           #   net_after_credits = net - open credits
           # eff_bucket mirrors db._eff_sql EXACTLY, in this CASE order:
           #   vendor_settled -> SETTLED  (vendor's own records show it settled, never payable)
-          #   rollup FEDEX with NO ap.fedex_open_items row -> PARKED
+          #   rollup FEDEX with NO ap.v_fedex_payable row -> PARKED
           #   sticky REVIEW->PAY move via ap.review_moves (UNIQUE(invoice_id), cannot fan out;
           #   net-invariant anyway, since PAY and REVIEW are both inside net)
           #
@@ -177,12 +177,19 @@ jobs:
           #   31 rows / $751.37     ERP-mirror freight rows -> STILL PARKED (Ekene's standing
           #                         decision; they sit outside FedEx's stated balance, and
           #                         everything outside it was ruled already paid)
-          # ap.fedex_open_items.invoice_number is the PRIMARY KEY (0142:42), so the LEFT JOIN
-          # marks rows and can never fan one out. The TABLE is joined, not ap.v_fedex_open_items,
-          # because db._eff_sql joins the table -- parity with the app IS the contract for this
-          # figure, and the view's extra asof filter would fork the definition. (The statement
-          # arm of ap.v_outstanding already applies max(asof) + paid_ledger itself, 0142:348.)
-          # Both roles already hold SELECT on it: 0142:366 grants ap_app AND finance_runner.
+          # 2026-11-03 (0191): the join is now ap.v_fedex_payable, which is BOTH of FBO's
+          # sources -- the hand statement snapshot (ap.fedex_open_items) and the #1343 daily
+          # collector load (fedex.invoices) -- and ap.v_outstanding's single FEDEX arm selects
+          # from that same view. Joining the snapshot TABLE was right while it was the only
+          # source; once 0188 listed collector-loaded invoices without teaching this rule about
+          # them, the SAME drift recurred, five times larger: 2 invoices / $11,195.36 of what
+          # FedEx says we owe were parked out of net_after_credits, so the net-position page's
+          # Vendor AP UNDERSTATED and Liquid Net Position OVERSTATED by that much. One view is
+          # what makes "listed" and "payable" the same set by construction, so parity with
+          # db._eff_sql is now structural rather than a thing two files have to keep agreeing on.
+          # Unique on invoice_number (both sources are keyed on it; the loaded branch excludes
+          # the statement's invoices), so the LEFT JOIN marks rows and can never fan one out.
+          # 0191 grants SELECT to ap_app AND finance_runner, per 0145's convention.
           #
           # credits come from ap.v_open_credits SCOPED to rollups that actually have a payable
           # book, so a credit is never deducted with no invoices to apply against. This is NOT
@@ -206,10 +213,10 @@ jobs:
           SQL3_TEXT_INLINE: >-
             SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup,
             CASE WHEN v.vendor_settled THEN 'SETTLED'
-            WHEN v.rollup='FEDEX' AND fo.invoice_number IS NULL THEN 'PARKED'
+            WHEN v.rollup='FEDEX' AND fp.invoice_number IS NULL THEN 'PARKED'
             WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket
             FROM ap.v_outstanding v LEFT JOIN ap.review_moves m ON m.invoice_id=v.invoice_id
-            LEFT JOIN ap.fedex_open_items fo ON fo.invoice_number=v.invoice_id),
+            LEFT JOIN ap.v_fedex_payable fp ON fp.invoice_number=v.invoice_id),
             bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1),
             nt AS (SELECT round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')),
             cr AS (SELECT count(*) n, round(COALESCE(sum(oc.amount),0)::numeric,2) s FROM ap.v_open_credits oc
@@ -223,7 +230,7 @@ jobs:
             FROM (SELECT rollup, count(*) n, round(sum(amount)::numeric,2) t FROM eff
             WHERE eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z),
             'book_from','2026-01-01','asof',to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'),
-            'definition','PAY+REVIEW+WAIT+UNSCORED+UNRESOLVED less open credits, SETTLED excluded; FedEx STATEMENT invoices payable, ERP-mirror FedEx PARKED, FedEx credits never netted (statement is already net)')
+            'definition','PAY+REVIEW+WAIT+UNSCORED+UNRESOLVED less open credits, SETTLED excluded; every invoice FedEx Billing Online says is open is payable (statement snapshot AND daily collector load, via ap.v_fedex_payable), ERP-mirror FedEx PARKED, FedEx credits never netted (statement is already net)')
             )::text,'UTF8'),'base64'),'\s','','g') AS d;
         run: |
           OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \

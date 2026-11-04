@@ -108,11 +108,24 @@ jobs:
           # halves above: shipped orders put their revenue on this page the day they ship,
           # but their supplier cost only arrives when the vendor invoice is keyed. Without
           # it the page is overstated. ap.v_unbilled_cost is grant-ed to finance_runner.
+          #
+          # The FEDEX park test joins ap.v_fedex_payable (0191), which is BOTH of FBO's
+          # sources: the hand statement snapshot and the #1343 daily collector load. It
+          # used to join the snapshot table alone, so once 0188 listed collector-loaded
+          # invoices every one of them was PARKED -- 2 invoices / $11,195.36 missing from
+          # ap.net_after_credits here, i.e. the page's Vendor AP line understated and
+          # Liquid Net Position OVERSTATED by that much. The 'fx' CTE below reads the same
+          # eff CTE, so payable_total/parked_count move with it and cannot disagree.
+          # ERP-mirror freight rows are in neither source and stay PARKED (Ekene
+          # 2026-09-16: everything outside FedEx's stated balance is already paid).
+          # 'ar_pending' is ar.v_pending_payment, which since 0189/0190 excludes an order
+          # whose exact total arrived as a posted bank inflow and one whose customer
+          # invoice is marked paid -- no change needed here, the view does it.
           SQL_TEXT_INLINE: >-
-            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' AND fo.invoice_number IS NULL THEN
+            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' AND fp.invoice_number IS NULL THEN
             'PARKED' WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket FROM ap.v_outstanding v LEFT JOIN
-            ap.review_moves m ON m.invoice_id=v.invoice_id LEFT JOIN ap.fedex_open_items fo ON
-            fo.invoice_number=v.invoice_id), bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1), fx AS (SELECT
+            ap.review_moves m ON m.invoice_id=v.invoice_id LEFT JOIN ap.v_fedex_payable fp ON
+            fp.invoice_number=v.invoice_id), bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1), fx AS (SELECT
             count(*) FILTER (WHERE q.b) n, round(coalesce(sum(q.amount) FILTER (WHERE q.b),0)::numeric,2) t, count(*) FILTER (WHERE NOT q.b) p FROM
             (SELECT amount, eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') b FROM eff WHERE rollup='FEDEX') q), nt AS
             (SELECT round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')), cr AS (SELECT count(*) n,
