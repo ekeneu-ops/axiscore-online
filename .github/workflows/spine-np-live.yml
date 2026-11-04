@@ -108,11 +108,32 @@ jobs:
           # halves above: shipped orders put their revenue on this page the day they ship,
           # but their supplier cost only arrives when the vendor invoice is keyed. Without
           # it the page is overstated. ap.v_unbilled_cost is grant-ed to finance_runner.
+          #
+          # The FEDEX park test (#1456) reads BOTH of FBO's sources: the hand statement
+          # snapshot (ap.fedex_open_items) and the #1343 daily collector load
+          # (fedex.invoices). It used to read the snapshot table alone, so once 0188 listed
+          # collector-loaded invoices every one of them was PARKED -- 2 invoices /
+          # $11,195.36 missing from ap.net_after_credits here, i.e. the page's Vendor AP
+          # line understated and Liquid Net Position OVERSTATED by that much. The 'fx' CTE
+          # below reads the same eff CTE, so payable_total/parked_count move with it and
+          # cannot disagree. ERP-mirror freight rows are in neither source and stay PARKED
+          # (Ekene 2026-09-16: everything outside FedEx's stated balance is already paid).
+          # #1456 fixed mission-control's copy of this rule and its DEAD TWIN of this file;
+          # this LIVE copy is the one that publishes np_live.json, and it stayed short for
+          # the rest of that day. Pinned by content, by repo, in
+          # platform/ap_app/tests/test_fedex_fbo_payable_live_feeds.py.
+          # 'ar_pending' is ar.v_pending_payment, which since 0189/0190 excludes an order
+          # whose exact total arrived as a posted bank inflow and one whose customer
+          # invoice is marked paid -- no change needed here, the view does it.
+          #
+          # BYTE BUDGET: ECS RunTask caps --overrides at 8192 bytes. After #1456's predicate
+          # this SQL is 7,938 B and the jq-built overrides JSON 8,088 B -- 104 B spare. An
+          # inline attempt past the cap fails the job outright with InvalidParameterException
+          # (loud, not a wrong number), but anything added here needs re-measuring first.
           SQL_TEXT_INLINE: >-
-            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' AND fo.invoice_number IS NULL THEN
+            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' AND NOT EXISTS(SELECT 1 FROM ap.fedex_open_items f WHERE f.invoice_number=v.invoice_id) AND NOT EXISTS(SELECT 1 FROM fedex.invoices i WHERE i.invoice_number=v.invoice_id) THEN
             'PARKED' WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket FROM ap.v_outstanding v LEFT JOIN
-            ap.review_moves m ON m.invoice_id=v.invoice_id LEFT JOIN ap.fedex_open_items fo ON
-            fo.invoice_number=v.invoice_id), bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1), fx AS (SELECT
+            ap.review_moves m ON m.invoice_id=v.invoice_id), bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1), fx AS (SELECT
             count(*) FILTER (WHERE q.b) n, round(coalesce(sum(q.amount) FILTER (WHERE q.b),0)::numeric,2) t, count(*) FILTER (WHERE NOT q.b) p FROM
             (SELECT amount, eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') b FROM eff WHERE rollup='FEDEX') q), nt AS
             (SELECT round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')), cr AS (SELECT count(*) n,
