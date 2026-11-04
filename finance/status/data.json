@@ -1,54 +1,56 @@
 {
- "generated": "2026-11-03T18:12:47Z",
- "prior_run": "2026-11-02T20:37:09Z",
+ "generated": "2026-11-04T18:23:00Z",
+ "prior_run": "2026-11-03T18:12:47Z",
  "overall": "ALERT",
- "stale_feeds": [],
+ "stale_feeds": [
+  "AP refresh (data.json)"
+ ],
  "checks": [
   {
    "feed": "spapi orders+items+fev",
    "cadence": "2-hourly",
-   "last": "2026-11-03T18:02:04.241351+00:00",
-   "age_h": 0.2,
+   "last": "2026-11-04T18:01:07.61708+00:00",
+   "age_h": 0.4,
    "status": "PASS",
    "detail": ""
   },
   {
    "feed": "spapi settlements",
    "cadence": "daily 08:00Z",
-   "last": "2026-11-03T08:00:43.905303+00:00",
-   "age_h": 10.2,
+   "last": "2026-11-04T08:00:46.092657+00:00",
+   "age_h": 10.4,
    "status": "PASS",
    "detail": ""
   },
   {
    "feed": "spapi deferred (nightly)",
    "cadence": "nightly 07:00Z",
-   "last": "2026-11-03T18:06:07.921733+00:00",
-   "age_h": 0.1,
+   "last": "2026-11-04T18:06:09.387969+00:00",
+   "age_h": 0.3,
    "status": "PASS",
    "detail": ""
   },
   {
    "feed": "AP refresh (data.json)",
    "cadence": "5x daily 02/08/14/20/23Z",
-   "last": "2026-11-03T15:48Z",
-   "age_h": 2.4,
-   "status": "PASS",
+   "last": "2026-11-04T08:35Z",
+   "age_h": 9.8,
+   "status": "STALE",
    "detail": ""
   },
   {
    "feed": "NP live hourly (AP + held)",
    "cadence": "hourly",
-   "last": "2026-11-03T17:18Z",
-   "age_h": 0.9,
+   "last": "2026-11-04T17:42Z",
+   "age_h": 0.7,
    "status": "PASS",
    "detail": ""
   },
   {
    "feed": "ESS audit",
    "cadence": "daily",
-   "last": "2026-11-03T16:24Z",
-   "age_h": 1.8,
+   "last": "2026-11-04T16:28Z",
+   "age_h": 1.9,
    "status": "PASS",
    "detail": ""
   },
@@ -63,53 +65,53 @@
   {
    "feed": "Plaid balances (net position)",
    "cadence": "~4-6h",
-   "last": "2026-11-03T15:45:23",
-   "age_h": 2.5,
+   "last": "2026-11-04T16:47:16",
+   "age_h": 1.6,
    "status": "PASS",
    "detail": ""
   },
   {
    "feed": "held-funds >20% self-check",
    "cadence": "every AP refresh",
-   "last": "2026-11-03T15:48Z",
-   "age_h": 2.4,
+   "last": "2026-11-04T08:35Z",
+   "age_h": 9.8,
    "status": "PASS",
-   "detail": "held.net $208,884.04 published normally"
+   "detail": "held.net $187,836.8 published normally"
   },
   {
    "feed": "SPR EDI watchdog",
    "cadence": "daily",
-   "last": "2026-11-03T15:49Z",
-   "age_h": 2.4,
+   "last": "2026-11-04T08:36Z",
+   "age_h": 9.8,
    "status": "ALERT",
    "detail": "ftp through 2026-10-17 / imported 2026-10-16"
   }
  ],
  "count_deltas_vs_prior_run": {
   "spapi_orders": {
-   "now": 30075,
-   "prior": 29805,
-   "delta": 270
+   "now": 30381,
+   "prior": 30075,
+   "delta": 306
   },
   "spapi_order_items": {
-   "now": 34498,
-   "prior": 34222,
-   "delta": 276
+   "now": 34819,
+   "prior": 34498,
+   "delta": 321
   },
   "spapi_financial_events": {
-   "now": 577671,
-   "prior": 576493,
-   "delta": 1178
+   "now": 579102,
+   "prior": 577671,
+   "delta": 1431
   },
   "spapi_settlement_lines": {
-   "now": 99181,
+   "now": 101502,
    "prior": 99181,
-   "delta": 0
+   "delta": 2321
   },
   "spapi_deferred_transactions": {
-   "now": 2326,
-   "prior": 1639,
-   "delta": 687
+   "now": 2530,
+   "prior": 2326,
+   "delta": 204
   },
   "vendor_invoice_list": {
    "now": 90445,
@@ -128,92 +130,92 @@
   }
  },
  "warehouse": {
-  "asof": "2026-11-03T18:11Z",
+  "asof": "2026-11-04T18:22Z",
   "watermarks": [
    {
-    "source": "orders",
-    "watermark": "2026-11-03T17:57:44+00:00",
-    "updated_at": "2026-11-03T18:01:21.131603+00:00"
-   },
-   {
-    "source": "order_items",
-    "watermark": "2026-11-03T18:01:23.278508+00:00",
-    "updated_at": "2026-11-03T18:02:04.073853+00:00"
+    "source": "fba_reimbursements",
+    "watermark": "2026-11-04T06:31:18.448953+00:00",
+    "updated_at": "2026-11-04T06:31:58.932436+00:00"
    },
    {
     "source": "fba_stranded",
-    "watermark": "2026-11-03T12:10:21+00:00",
-    "updated_at": "2026-11-03T16:40:49.269298+00:00"
-   },
-   {
-    "source": "financial_events",
-    "watermark": "2026-11-03T18:02:04.241351+00:00",
-    "updated_at": "2026-11-03T18:02:04.833176+00:00"
-   },
-   {
-    "source": "deferred",
-    "watermark": "2026-11-03T18:06:07.921733+00:00",
-    "updated_at": "2026-11-03T18:07:31.822663+00:00"
-   },
-   {
-    "source": "fba_inventory",
-    "watermark": "2026-11-03T16:49:49.426541+00:00",
-    "updated_at": "2026-11-03T16:49:51.685653+00:00"
-   },
-   {
-    "source": "fba_returns",
-    "watermark": "2026-11-03T06:31:15.47651+00:00",
-    "updated_at": "2026-11-03T06:31:35.897635+00:00"
-   },
-   {
-    "source": "fba_reimbursements",
-    "watermark": "2026-11-03T06:31:35.906056+00:00",
-    "updated_at": "2026-11-03T06:32:16.397145+00:00"
-   },
-   {
-    "source": "fba_live",
-    "watermark": "2026-11-03T16:49:51.776392+00:00",
-    "updated_at": "2026-11-03T16:54:02.416272+00:00"
+    "watermark": "2026-11-04T12:10:20+00:00",
+    "updated_at": "2026-11-04T16:40:52.206646+00:00"
    },
    {
     "source": "settlements",
-    "watermark": "2026-11-03T08:00:43.905303+00:00",
-    "updated_at": "2026-11-03T08:00:44.219061+00:00"
-   },
-   {
-    "source": "fba_planning",
-    "watermark": "2026-11-03T16:00:24+00:00",
-    "updated_at": "2026-11-03T16:54:03.359871+00:00"
+    "watermark": "2026-11-04T08:00:46.092657+00:00",
+    "updated_at": "2026-11-04T08:00:53.152864+00:00"
    },
    {
     "source": "returns",
-    "watermark": "2026-11-03T08:00:44.227323+00:00",
-    "updated_at": "2026-11-03T08:01:04.815048+00:00"
+    "watermark": "2026-11-04T08:00:53.187477+00:00",
+    "updated_at": "2026-11-04T08:01:13.756366+00:00"
+   },
+   {
+    "source": "fba_inventory",
+    "watermark": "2026-11-04T16:50:37.982155+00:00",
+    "updated_at": "2026-11-04T16:50:40.180426+00:00"
+   },
+   {
+    "source": "fba_live",
+    "watermark": "2026-11-04T16:50:40.276904+00:00",
+    "updated_at": "2026-11-04T16:54:56.702183+00:00"
+   },
+   {
+    "source": "fba_planning",
+    "watermark": "2026-11-04T16:00:22+00:00",
+    "updated_at": "2026-11-04T16:54:57.526876+00:00"
    },
    {
     "source": "fba_restock",
-    "watermark": "2026-11-03T16:15:30+00:00",
-    "updated_at": "2026-11-03T16:54:04.077559+00:00"
+    "watermark": "2026-11-04T16:15:27+00:00",
+    "updated_at": "2026-11-04T16:54:58.18941+00:00"
    },
    {
     "source": "fba_fees",
-    "watermark": "2026-11-03T16:54:07.157375+00:00",
-    "updated_at": "2026-11-03T16:59:13.800758+00:00"
+    "watermark": "2026-11-04T16:55:00.563683+00:00",
+    "updated_at": "2026-11-04T17:00:11.93021+00:00"
    },
    {
     "source": "fba_buybox",
-    "watermark": "2026-11-03T16:59:23.994395+00:00",
-    "updated_at": "2026-11-03T17:31:33.088326+00:00"
+    "watermark": "2026-11-04T17:00:27.805239+00:00",
+    "updated_at": "2026-11-04T17:29:28.37727+00:00"
    },
    {
-    "source": "orders_fees_refresh",
-    "watermark": "2026-11-03T17:57:53.410296+00:00",
-    "updated_at": "2026-11-03T17:57:53.410296+00:00"
+    "source": "orders",
+    "watermark": "2026-11-04T17:57:42+00:00",
+    "updated_at": "2026-11-04T18:00:43.409473+00:00"
+   },
+   {
+    "source": "order_items",
+    "watermark": "2026-11-04T18:00:45.961146+00:00",
+    "updated_at": "2026-11-04T18:01:06.658173+00:00"
+   },
+   {
+    "source": "financial_events",
+    "watermark": "2026-11-04T18:01:07.61708+00:00",
+    "updated_at": "2026-11-04T18:01:07.916665+00:00"
+   },
+   {
+    "source": "deferred",
+    "watermark": "2026-11-04T18:06:09.387969+00:00",
+    "updated_at": "2026-11-04T18:07:32.832297+00:00"
+   },
+   {
+    "source": "fba_returns",
+    "watermark": "2026-11-04T06:30:57.988243+00:00",
+    "updated_at": "2026-11-04T06:31:18.440061+00:00"
    },
    {
     "source": "orders_intake",
-    "watermark": "2026-11-03T18:08:48+00:00",
-    "updated_at": "2026-11-03T18:11:48.067924+00:00"
+    "watermark": "2026-11-04T18:18:42+00:00",
+    "updated_at": "2026-11-04T18:21:42.713736+00:00"
+   },
+   {
+    "source": "orders_fees_refresh",
+    "watermark": "2026-11-04T18:22:15.518689+00:00",
+    "updated_at": "2026-11-04T18:22:15.518689+00:00"
    },
    {
     "source": "payload_costs",
@@ -222,18 +224,18 @@
    }
   ],
   "counts": {
-   "spapi_orders": 30075,
-   "spapi_order_items": 34498,
-   "spapi_financial_events": 577671,
-   "spapi_settlement_lines": 99181,
-   "spapi_deferred_transactions": 2326,
+   "spapi_orders": 30381,
+   "spapi_order_items": 34819,
+   "spapi_financial_events": 579102,
+   "spapi_settlement_lines": 101502,
+   "spapi_deferred_transactions": 2530,
    "vendor_invoice_list": 90445,
    "vendor_credit_list": 7086,
    "isg_cost_file": 56471
   },
   "fresh": {
-   "fev_max_posted": "2026-11-03T17:32Z",
-   "deferred_max_posted": "2026-11-03T17:51Z",
+   "fev_max_posted": "2026-11-04T17:33Z",
+   "deferred_max_posted": "2026-11-04T17:58Z",
    "invoice_max_date": "2026-10-16"
   }
  }
