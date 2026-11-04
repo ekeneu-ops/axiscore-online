@@ -126,88 +126,103 @@ jobs:
           # whose exact total arrived as a posted bank inflow and one whose customer
           # invoice is marked paid -- no change needed here, the view does it.
           #
-          # BYTE BUDGET: ECS RunTask caps --overrides at 8192 bytes. After #1456's predicate
-          # this SQL is 7,938 B and the jq-built overrides JSON 8,088 B -- 104 B spare. An
-          # inline attempt past the cap fails the job outright with InvalidParameterException
-          # (loud, not a wrong number), but anything added here needs re-measuring first.
+          # BYTE BUDGET -- MEASURED, and the documented 8192 is NOT the number to budget
+          # against. RunTask says "Container Overrides length must be at most 8192", but it
+          # counts more than the jq-built JSON does: run 41777547799 was REJECTED at a
+          # locally-measured 8,088 B, while run 41762205061 was ACCEPTED at 8,014 B. So the
+          # real ceiling is somewhere in [8014, 8087] and 8,014 B is the largest size proven
+          # to run. #1456's predicate pushed this SQL to 7,938 B / 8,088 B overrides and the
+          # job died -- loud (InvalidParameterException, no number published) rather than
+          # wrong, which is the only reason the page did not go stale silently.
+          #
+          # The 144 B back came from whitespace alone: every space that SQL does not need,
+          # i.e. after ',' or '(' and before ')'. The park-rule predicate above is pinned
+          # byte-for-byte by the test, so it cannot be the thing that shrinks. Now 7,794 B
+          # SQL / 7,944 B overrides -- 70 B under the proven-good size. RE-MEASURE before
+          # adding anything here, against 8,014 and not 8,192:
+          #   jq -nc --arg sql "$SQL" '{containerOverrides:[{name:"finance-runner",
+          #     environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}' | wc -c
           SQL_TEXT_INLINE: >-
-            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount, v.rollup, CASE WHEN v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' AND NOT EXISTS(SELECT 1 FROM ap.fedex_open_items f WHERE f.invoice_number=v.invoice_id) AND NOT EXISTS(SELECT 1 FROM fedex.invoices i WHERE i.invoice_number=v.invoice_id) THEN
-            'PARKED' WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN 'PAY' ELSE v.bucket END AS eff_bucket FROM ap.v_outstanding v LEFT JOIN
-            ap.review_moves m ON m.invoice_id=v.invoice_id), bk AS (SELECT eff_bucket b, count(*) n, round(sum(amount)::numeric,2) t FROM eff GROUP BY 1), fx AS (SELECT
-            count(*) FILTER (WHERE q.b) n, round(coalesce(sum(q.amount) FILTER (WHERE q.b),0)::numeric,2) t, count(*) FILTER (WHERE NOT q.b) p FROM
-            (SELECT amount, eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') b FROM eff WHERE rollup='FEDEX') q), nt AS
-            (SELECT round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')), cr AS (SELECT count(*) n,
-            round(COALESCE(sum(oc.amount),0)::numeric,2) s FROM ap.v_open_credits oc WHERE oc.rollup <> 'FEDEX' AND oc.rollup IN (SELECT DISTINCT rollup FROM eff WHERE eff_bucket NOT IN
-            ('SETTLED','PARKED'))), bnd AS (SELECT max(period_end) e FROM spapi.settlements), unst AS (SELECT o.amazon_order_id id FROM spapi.orders o WHERE
-            o.order_status='Shipped' AND NOT EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE sl.amazon_order_id=o.amazon_order_id)), fev AS (SELECT
-            amazon_order_id cid, event_type et, posted_date pdt, amount a FROM spapi.financial_events), lp AS (SELECT unst.id, max(f.pdt) lpd FROM unst LEFT JOIN
-            fev f ON f.cid=unst.id AND f.et='Shipment' GROUP BY 1), rel AS (SELECT lp.id FROM lp, bnd WHERE lp.lpd > bnd.e), a2 AS (SELECT
-            round(coalesce(sum(a),0)::numeric,2) s, count(DISTINCT fev.cid) n FROM fev JOIN rel ON rel.id=fev.cid WHERE fev.et='Shipment'), d2 AS (SELECT
-            round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et='Shipment' AND pdt > bnd.e AND EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE
-            sl.amazon_order_id=fev.cid)), b2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et='Refund' AND pdt > bnd.e), c2 AS (SELECT
-            round(coalesce(sum(a),0)::numeric,2) s FROM fev, bnd WHERE et IN ('Adjustment','ServiceFee') AND pdt > bnd.e), df AS (SELECT
-            round(coalesce(sum(total),0)::numeric,2) s, count(DISTINCT amazon_order_id) no, max(snapshot_at) snap, max(now()::date -
-            posted_date::date) old FROM spapi.deferred_transactions), eg AS (SELECT
-            round(coalesce(sum(original_total),0)::numeric,2) bal, round(coalesce(sum(original_total - greatest(coalesce(beginning_balance,0),0)),0)::numeric,2) avl,
-            count(*) n, max(snapshot_at) snap FROM spapi.financial_event_groups WHERE processing_status='Open' AND currency_code='USD') SELECT
-            json_build_object('asof', to_char(now() at time zone 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'), 'ap', json_build_object('net',(SELECT s FROM
-            nt),'credits',(SELECT s FROM cr),'credit_count',(SELECT n FROM cr),'net_after_credits',round(((SELECT s FROM nt)-(SELECT s FROM
-            cr))::numeric,2),'buckets',(SELECT COALESCE(json_object_agg(b,json_build_object('count',n,'total',t)),'{}'::json) FROM bk),'by_rollup',(SELECT
-            COALESCE(json_object_agg(COALESCE(rollup,'UNMAPPED'),json_build_object('count',n,'total',t)),'{}'::json) FROM (SELECT rollup, count(*) n,
-            round(sum(amount)::numeric,2) t FROM eff WHERE eff_bucket IN ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z),'fedex',(SELECT
-            json_build_object('payable_count',n,'payable_total',t,'parked_count',p) FROM fx)), 'held',
-            json_build_object('net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM b2)+(SELECT s FROM c2)+(SELECT s FROM df),2),'order_count',(SELECT
-            n FROM a2)+(SELECT no FROM df),'settlement_net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s
-            FROM b2)+(SELECT s FROM c2),2),'settlement_balance',(SELECT bal FROM eg),'settlement_available',(SELECT avl FROM eg),'settlement_groups_open',(SELECT
-            n FROM eg),'groups_snapshot',to_char((SELECT snap FROM eg),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_net',(SELECT s FROM df),'settlement_orders',(SELECT n FROM
-            a2),'deferred_orders',(SELECT no FROM df),'deferred_oldest_days',(SELECT old FROM df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM d2),'refunds',(SELECT s FROM
-            b2),'account_events',(SELECT s FROM c2),'deferred',(SELECT s FROM df)),'fev_through',to_char((SELECT max(pdt) FROM
-            fev),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_snapshot',to_char((SELECT snap FROM df),'YYYY-MM-DD"T"HH24:MI"Z"'),'last_settlement_end',(SELECT e::date
-            FROM bnd)),
-            'fba', (SELECT json_build_object('value', round(e.val,2),
-            'qty', e.units, 'items', e.items, 'retail', round(e.retail,2),
-            'no_cost_items', e.no_cost_items, 'no_cost_units', e.no_cost_units,
-            'erp_default_units', e.erp_default_units,
-            'dash_value', round(d.stock_cost_value::numeric,2),
-            'stock_src', json_build_object('spapi', d.items_stock_from_spapi, 'mirror', d.items_stock_from_mirror),
-            'stock_asof', to_char(CASE WHEN d.mirror_as_of IS NOT NULL AND EXISTS (SELECT 1 FROM fba.v_planner mp
-            WHERE mp.stock_source = 'erp_mirror' AND COALESCE(mp.available, 0) > 0)
-            THEN LEAST(d.spapi_as_of, d.mirror_as_of) ELSE d.spapi_as_of END AT TIME ZONE 'UTC','YYYY-MM-DD"T"HH24:MI"Z"'))
-            FROM fba.v_dashboard d, LATERAL (SELECT COALESCE(sum(total_cost_of_stock),0)::numeric val,
-            COALESCE(sum(available),0) units, count(*) items,
-            COALESCE(sum(stock_value_my_price),0)::numeric retail,
-            count(*) FILTER (WHERE cost_true IS NULL) no_cost_items,
-            COALESCE(sum(available) FILTER (WHERE cost_true IS NULL),0) no_cost_units,
-            COALESCE(sum(available) FILTER (WHERE cost_basis='erp_default_inflated'),0) erp_default_units
-            FROM fba.v_stock_econ) e),
-            'amex', (SELECT json_build_object('owed', round(coalesce(sum(amount) FILTER (WHERE name NOT ILIKE '%AUTOPAY%'),0)::numeric,2),
-            'last_autopay', (SELECT max(posted_date)::text FROM plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%'),
-            'txn_count', count(*) FILTER (WHERE name NOT ILIKE '%AUTOPAY%'),
-            'pending_amt', round(coalesce(sum(amount) FILTER (WHERE pending),0)::numeric,2),
-            'last_txn', max(posted_date)::text,
-            'in_flight', (SELECT json_build_object('amount',round(coalesce(sum(b.amount),0)::numeric,2),'n',count(*),
-            'since',max(b.posted_date)::text) FROM plaid.transactions b WHERE b.item_label='boa' AND b.amount > 0 AND
-            b.name ILIKE '%AMERICAN EXPRESS%' AND b.posted_date >= now()::date - 45 AND NOT EXISTS (SELECT 1 FROM
-            plaid.transactions c WHERE c.item_label='amex' AND c.amount < 0 AND round(-c.amount,2) = round(b.amount,2)
-            AND c.posted_date BETWEEN b.posted_date - 10 AND b.posted_date + 10)))
-            FROM plaid.transactions WHERE item_label='amex'
-            AND posted_date >= (SELECT max(posted_date) FROM plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%')),
-            'card_in_transit', (SELECT json_build_object('amount', amount, 'batches', batches,
-            'basis', basis, 'oldest_days', oldest_days,
-            'stale_batches', stale_batches, 'stale_amount', stale_amount,
-            'stale_oldest_days', stale_oldest_days, 'deposits_through',
-            (SELECT max(posted_date)::text FROM plaid.transactions WHERE item_label='boa'
-            AND amount<0 AND name ILIKE '%MERCH DEP%')) FROM authnet.v_card_in_transit LIMIT 1),
-            'plaid_health', (SELECT COALESCE(json_agg(json_build_object('item', item_label,
-            'status', status, 'code', item_error_code)) FILTER (WHERE status <> 'ok'), '[]'::json)
-            FROM plaid.v_item_health),
-            'ar_pending', (SELECT json_build_object('amount', round(coalesce(sum(amount),0),2),
-            'orders', count(*), 'oldest_days', max(days_outstanding)) FROM ar.v_pending_payment),
-            'unbilled', (SELECT json_build_object('cost', cost, 'orders', orders,
-            'oldest_days', oldest_days, 'no_cost_orders', no_cost_orders,
-            'no_cost_revenue', no_cost_revenue, 'committed', committed,
-            'committed_orders', committed_orders, 'revenue', revenue,
-            'by_rollup', by_rollup) FROM ap.v_unbilled_cost LIMIT 1)) )::text,'UTF8'),'base64'),'\s','','g') AS d;
+            SELECT regexp_replace(encode(convert_to((WITH eff AS (SELECT v.amount,v.rollup,CASE WHEN
+            v.vendor_settled THEN 'SETTLED' WHEN v.rollup='FEDEX' AND NOT EXISTS(SELECT 1 FROM ap.fedex_open_items f
+            WHERE f.invoice_number=v.invoice_id) AND NOT EXISTS(SELECT 1 FROM fedex.invoices i WHERE
+            i.invoice_number=v.invoice_id) THEN 'PARKED' WHEN m.invoice_id IS NOT NULL AND v.bucket='REVIEW' THEN
+            'PAY' ELSE v.bucket END AS eff_bucket FROM ap.v_outstanding v LEFT JOIN ap.review_moves m ON
+            m.invoice_id=v.invoice_id),bk AS (SELECT eff_bucket b,count(*) n,round(sum(amount)::numeric,2) t FROM
+            eff GROUP BY 1),fx AS (SELECT count(*) FILTER (WHERE q.b) n,round(coalesce(sum(q.amount) FILTER (WHERE
+            q.b),0)::numeric,2) t,count(*) FILTER (WHERE NOT q.b) p FROM (SELECT amount,eff_bucket IN
+            ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') b FROM eff WHERE rollup='FEDEX') q),nt AS (SELECT
+            round(COALESCE(sum(t),0)::numeric,2) s FROM bk WHERE b IN
+            ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED')),cr AS (SELECT count(*)
+            n,round(COALESCE(sum(oc.amount),0)::numeric,2) s FROM ap.v_open_credits oc WHERE oc.rollup <> 'FEDEX'
+            AND oc.rollup IN (SELECT DISTINCT rollup FROM eff WHERE eff_bucket NOT IN ('SETTLED','PARKED'))),bnd AS
+            (SELECT max(period_end) e FROM spapi.settlements),unst AS (SELECT o.amazon_order_id id FROM spapi.orders
+            o WHERE o.order_status='Shipped' AND NOT EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE
+            sl.amazon_order_id=o.amazon_order_id)),fev AS (SELECT amazon_order_id cid,event_type et,posted_date
+            pdt,amount a FROM spapi.financial_events),lp AS (SELECT unst.id,max(f.pdt) lpd FROM unst LEFT JOIN fev f
+            ON f.cid=unst.id AND f.et='Shipment' GROUP BY 1),rel AS (SELECT lp.id FROM lp,bnd WHERE lp.lpd >
+            bnd.e),a2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s,count(DISTINCT fev.cid) n FROM fev JOIN rel
+            ON rel.id=fev.cid WHERE fev.et='Shipment'),d2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM
+            fev,bnd WHERE et='Shipment' AND pdt > bnd.e AND EXISTS (SELECT 1 FROM spapi.settlement_lines sl WHERE
+            sl.amazon_order_id=fev.cid)),b2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM fev,bnd WHERE
+            et='Refund' AND pdt > bnd.e),c2 AS (SELECT round(coalesce(sum(a),0)::numeric,2) s FROM fev,bnd WHERE et
+            IN ('Adjustment','ServiceFee') AND pdt > bnd.e),df AS (SELECT round(coalesce(sum(total),0)::numeric,2)
+            s,count(DISTINCT amazon_order_id) no,max(snapshot_at) snap,max(now()::date - posted_date::date) old FROM
+            spapi.deferred_transactions),eg AS (SELECT round(coalesce(sum(original_total),0)::numeric,2)
+            bal,round(coalesce(sum(original_total - greatest(coalesce(beginning_balance,0),0)),0)::numeric,2)
+            avl,count(*) n,max(snapshot_at) snap FROM spapi.financial_event_groups WHERE processing_status='Open'
+            AND currency_code='USD') SELECT json_build_object('asof',to_char(now() at time zone
+            'UTC','YYYY-MM-DD"T"HH24:MI"Z"'),'ap',json_build_object('net',(SELECT s FROM nt),'credits',(SELECT s
+            FROM cr),'credit_count',(SELECT n FROM cr),'net_after_credits',round(((SELECT s FROM nt)-(SELECT s FROM
+            cr))::numeric,2),'buckets',(SELECT
+            COALESCE(json_object_agg(b,json_build_object('count',n,'total',t)),'{}'::json) FROM
+            bk),'by_rollup',(SELECT
+            COALESCE(json_object_agg(COALESCE(rollup,'UNMAPPED'),json_build_object('count',n,'total',t)),'{}'::json)
+            FROM (SELECT rollup,count(*) n,round(sum(amount)::numeric,2) t FROM eff WHERE eff_bucket IN
+            ('PAY','REVIEW','WAIT','UNSCORED','UNRESOLVED') GROUP BY 1) z),'fedex',(SELECT
+            json_build_object('payable_count',n,'payable_total',t,'parked_count',p) FROM
+            fx)),'held',json_build_object('net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM
+            b2)+(SELECT s FROM c2)+(SELECT s FROM df),2),'order_count',(SELECT n FROM a2)+(SELECT no FROM
+            df),'settlement_net',round((SELECT s FROM a2)+(SELECT s FROM d2)+(SELECT s FROM b2)+(SELECT s FROM
+            c2),2),'settlement_balance',(SELECT bal FROM eg),'settlement_available',(SELECT avl FROM
+            eg),'settlement_groups_open',(SELECT n FROM eg),'groups_snapshot',to_char((SELECT snap FROM
+            eg),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_net',(SELECT s FROM df),'settlement_orders',(SELECT n FROM
+            a2),'deferred_orders',(SELECT no FROM df),'deferred_oldest_days',(SELECT old FROM
+            df),'walk',json_build_object('released',(SELECT s FROM a2),'postsettle',(SELECT s FROM
+            d2),'refunds',(SELECT s FROM b2),'account_events',(SELECT s FROM c2),'deferred',(SELECT s FROM
+            df)),'fev_through',to_char((SELECT max(pdt) FROM
+            fev),'YYYY-MM-DD"T"HH24:MI"Z"'),'deferred_snapshot',to_char((SELECT snap FROM
+            df),'YYYY-MM-DD"T"HH24:MI"Z"'),'last_settlement_end',(SELECT e::date FROM bnd)),'fba',(SELECT
+            json_build_object('value',round(e.val,2),'qty',e.units,'items',e.items,'retail',round(e.retail,2),'no_cost_items',e.no_cost_items,'no_cost_units',e.no_cost_units,'erp_default_units',e.erp_default_units,'dash_value',round(d.stock_cost_value::numeric,2),'stock_src',json_build_object('spapi',d.items_stock_from_spapi,'mirror',d.items_stock_from_mirror),'stock_asof',to_char(CASE
+            WHEN d.mirror_as_of IS NOT NULL AND EXISTS (SELECT 1 FROM fba.v_planner mp WHERE mp.stock_source =
+            'erp_mirror' AND COALESCE(mp.available,0) > 0) THEN LEAST(d.spapi_as_of,d.mirror_as_of) ELSE
+            d.spapi_as_of END AT TIME ZONE 'UTC','YYYY-MM-DD"T"HH24:MI"Z"')) FROM fba.v_dashboard d,LATERAL (SELECT
+            COALESCE(sum(total_cost_of_stock),0)::numeric val,COALESCE(sum(available),0) units,count(*)
+            items,COALESCE(sum(stock_value_my_price),0)::numeric retail,count(*) FILTER (WHERE cost_true IS NULL)
+            no_cost_items,COALESCE(sum(available) FILTER (WHERE cost_true IS NULL),0)
+            no_cost_units,COALESCE(sum(available) FILTER (WHERE cost_basis='erp_default_inflated'),0)
+            erp_default_units FROM fba.v_stock_econ) e),'amex',(SELECT
+            json_build_object('owed',round(coalesce(sum(amount) FILTER (WHERE name NOT ILIKE
+            '%AUTOPAY%'),0)::numeric,2),'last_autopay',(SELECT max(posted_date)::text FROM plaid.transactions WHERE
+            item_label='amex' AND name ILIKE '%AUTOPAY%'),'txn_count',count(*) FILTER (WHERE name NOT ILIKE
+            '%AUTOPAY%'),'pending_amt',round(coalesce(sum(amount) FILTER (WHERE
+            pending),0)::numeric,2),'last_txn',max(posted_date)::text,'in_flight',(SELECT
+            json_build_object('amount',round(coalesce(sum(b.amount),0)::numeric,2),'n',count(*),'since',max(b.posted_date)::text)
+            FROM plaid.transactions b WHERE b.item_label='boa' AND b.amount > 0 AND b.name ILIKE
+            '%AMERICAN EXPRESS%' AND b.posted_date >= now()::date - 45 AND NOT EXISTS (SELECT 1 FROM
+            plaid.transactions c WHERE c.item_label='amex' AND c.amount < 0 AND round(-c.amount,2) =
+            round(b.amount,2) AND c.posted_date BETWEEN b.posted_date - 10 AND b.posted_date + 10))) FROM
+            plaid.transactions WHERE item_label='amex' AND posted_date >= (SELECT max(posted_date) FROM
+            plaid.transactions WHERE item_label='amex' AND name ILIKE '%AUTOPAY%')),'card_in_transit',(SELECT
+            json_build_object('amount',amount,'batches',batches,'basis',basis,'oldest_days',oldest_days,'stale_batches',stale_batches,'stale_amount',stale_amount,'stale_oldest_days',stale_oldest_days,'deposits_through',(SELECT
+            max(posted_date)::text FROM plaid.transactions WHERE item_label='boa' AND amount<0 AND name ILIKE
+            '%MERCH DEP%')) FROM authnet.v_card_in_transit LIMIT 1),'plaid_health',(SELECT
+            COALESCE(json_agg(json_build_object('item',item_label,'status',status,'code',item_error_code)) FILTER
+            (WHERE status <> 'ok'),'[]'::json) FROM plaid.v_item_health),'ar_pending',(SELECT
+            json_build_object('amount',round(coalesce(sum(amount),0),2),'orders',count(*),'oldest_days',max(days_outstanding))
+            FROM ar.v_pending_payment),'unbilled',(SELECT
+            json_build_object('cost',cost,'orders',orders,'oldest_days',oldest_days,'no_cost_orders',no_cost_orders,'no_cost_revenue',no_cost_revenue,'committed',committed,'committed_orders',committed_orders,'revenue',revenue,'by_rollup',by_rollup)
+            FROM ap.v_unbilled_cost LIMIT 1)))::text,'UTF8'),'base64'),'\s','','g') AS d;
         run: |
           OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
             '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
