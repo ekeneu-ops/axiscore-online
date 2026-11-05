@@ -1,10 +1,10 @@
 {
- "asof": "2026-11-05T00:29Z",
+ "asof": "2026-11-05T03:04Z",
  "ap": {
-  "net": 206282.49,
+  "net": 211842.24,
   "credits": 0.0,
   "credit_count": 11,
-  "net_after_credits": 206282.49,
+  "net_after_credits": 211842.24,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -19,20 +19,20 @@
     "total": 1726.4
    },
    "PAY": {
-    "count": 1961,
-    "total": 167640.82
+    "count": 1982,
+    "total": 168244.59
    },
    "EXPECTED": {
     "count": 1,
     "total": 10047.11
    },
    "REVIEW": {
-    "count": 549,
-    "total": 33835.82
+    "count": 557,
+    "total": 33904.72
    },
    "UNSCORED": {
-    "count": 137,
-    "total": -761.08
+    "count": 237,
+    "total": 4126.0
    },
    "PARKED": {
     "count": 31,
@@ -57,8 +57,8 @@
     "total": 37876.34
    },
    "SPR": {
-    "count": 2229,
-    "total": 104382.74
+    "count": 2358,
+    "total": 109942.49
    }
   },
   "fedex": {
@@ -66,62 +66,62 @@
    "payable_total": 11268.02,
    "parked_count": 31
   },
-  "asof": "2026-11-05T00:29Z",
-  "moved_pct": 0.0
+  "asof": "2026-11-05T03:04Z",
+  "moved_pct": 2.7
  },
  "held": {
-  "net": 206449.44,
-  "order_count": 2786,
-  "settlement_net": 6562.04,
-  "settlement_balance": 6623.09,
-  "settlement_available": 6562.04,
+  "net": 206339.09,
+  "order_count": 2784,
+  "settlement_net": 7449.6,
+  "settlement_balance": 7621.0,
+  "settlement_available": 7559.95,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-11-05T00:06Z",
-  "deferred_net": 199887.4,
-  "settlement_orders": 102,
-  "deferred_orders": 2684,
+  "groups_snapshot": "2026-11-05T02:06Z",
+  "deferred_net": 198889.49,
+  "settlement_orders": 111,
+  "deferred_orders": 2673,
   "deferred_oldest_days": 31,
   "walk": {
-   "released": 6773.67,
+   "released": 7661.23,
    "postsettle": 24.18,
    "refunds": -208.82,
    "account_events": -26.99,
-   "deferred": 199887.4
+   "deferred": 198889.49
   },
-  "fev_through": "2026-11-04T23:50Z",
-  "deferred_snapshot": "2026-11-05T00:06Z",
+  "fev_through": "2026-11-05T01:43Z",
+  "deferred_snapshot": "2026-11-05T02:06Z",
   "last_settlement_end": "2026-11-04",
-  "asof": "2026-11-05T00:29Z",
-  "moved_pct": 9.86
+  "asof": "2026-11-05T03:04Z",
+  "moved_pct": -0.05
  },
  "fba": {
-  "value": 2094.34,
-  "qty": 234.0,
+  "value": 2084.48,
+  "qty": 232.0,
   "items": 20,
-  "retail": 3431.75,
+  "retail": 3423.87,
   "no_cost_items": 9,
   "no_cost_units": 27.0,
   "erp_default_units": 0,
-  "dash_value": 3776.64,
+  "dash_value": 3745.42,
   "stock_src": {
    "spapi": 1737,
    "mirror": 52
   },
-  "stock_asof": "2026-11-04T20:00Z",
-  "asof": "2026-11-05T00:29Z"
+  "stock_asof": "2026-11-05T00:00Z",
+  "asof": "2026-11-05T03:04Z"
  },
  "amex": {
-  "owed": 10119.16,
+  "owed": 10786.1,
   "last_autopay": "2026-10-22",
-  "txn_count": 61,
-  "pending_amt": 1938.37,
+  "txn_count": 62,
+  "pending_amt": 2605.31,
   "last_txn": "2026-11-04",
   "in_flight": {
    "amount": 0.0,
    "n": 0,
    "since": null
   },
-  "asof": "2026-11-05T00:29Z"
+  "asof": "2026-11-05T03:04Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -132,14 +132,14 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-11-03",
-  "asof": "2026-11-05T00:29Z"
+  "asof": "2026-11-05T03:04Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 13930.14,
   "orders": 1,
   "oldest_days": 35,
-  "asof": "2026-11-05T00:29Z"
+  "asof": "2026-11-05T03:04Z"
  },
  "unbilled": {
   "cost": 6399.58,
@@ -147,8 +147,8 @@
   "oldest_days": 148,
   "no_cost_orders": 113,
   "no_cost_revenue": 29889.36,
-  "committed": 41054.42,
-  "committed_orders": 258,
+  "committed": 41360.21,
+  "committed_orders": 271,
   "revenue": 8554.59,
   "by_rollup": {
    "ISG": {
@@ -157,13 +157,13 @@
    },
    "_held": {
     "SPR": {
-     "cost": 63236.06,
-     "docs": 1252,
-     "pool": 71069.89,
-     "orders": 571
+     "cost": 62312.64,
+     "docs": 1352,
+     "pool": 75956.97,
+     "orders": 548
     }
    }
   },
-  "asof": "2026-11-05T00:29Z"
+  "asof": "2026-11-05T03:04Z"
  }
 }
