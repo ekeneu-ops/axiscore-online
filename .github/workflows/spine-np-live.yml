@@ -125,6 +125,21 @@ jobs:
           # 'ar_pending' is ar.v_pending_payment, which since 0189/0190 excludes an order
           # whose exact total arrived as a posted bank inflow and one whose customer
           # invoice is marked paid -- no change needed here, the view does it.
+          # 'gaps' (0198, 2026-11-09) is ap.v_np_gaps: ONE key carrying BOTH net-position
+          # gap blocks, composed warehouse-side precisely because of the byte budget
+          # below. held.disbursement is Amazon money that has left Amazon and not yet
+          # reached BOA -- the held figure counts OPEN groups only, so a disbursement
+          # drops out of held the hour its group closes while the deposit arrives 0-4 days
+          # later, and without this the position understates by the whole transfer for
+          # those days. bank_unrecorded is a vendor payment that cleared BOA with no
+          # ap.paid_ledger entry, which understates the other way: the bank balance above
+          # is already down AND the AP line still carries the invoice. Ekene caught the
+          # first one of those by eye (Tech Trade, $10,047.11, 2026-11-06) after it had sat
+          # for three days. Spelling either block out here would not fit -- 69 B of
+          # headroom against two keys -- so both are one 36 B reference. BOTH VIEWS MUST
+          # EXIST BEFORE THIS MERGES: this is a single SELECT, so a missing view is a parse
+          # error that kills the feed, not a key the page can do without. Order is finance
+          # apply (0198) first, this file second.
           #
           # BYTE BUDGET -- MEASURED, and the documented 8192 is NOT the number to budget
           # against. RunTask says "Container Overrides length must be at most 8192", but it
@@ -137,8 +152,8 @@ jobs:
           #
           # The 144 B back came from whitespace alone: every space that SQL does not need,
           # i.e. after ',' or '(' and before ')'. The park-rule predicate above is pinned
-          # byte-for-byte by the test, so it cannot be the thing that shrinks. Now 7,794 B
-          # SQL / 7,944 B overrides -- 70 B under the proven-good size. RE-MEASURE before
+          # byte-for-byte by the test, so it cannot be the thing that shrinks. Now 7,830 B
+          # SQL / 7,981 B overrides -- 33 B under the proven-good size. RE-MEASURE before
           # adding anything here, against 8,014 and not 8,192:
           #   jq -nc --arg sql "$SQL" '{containerOverrides:[{name:"finance-runner",
           #     environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}' | wc -c
@@ -222,7 +237,7 @@ jobs:
             json_build_object('amount',round(coalesce(sum(amount),0),2),'orders',count(*),'oldest_days',max(days_outstanding))
             FROM ar.v_pending_payment),'unbilled',(SELECT
             json_build_object('cost',cost,'orders',orders,'oldest_days',oldest_days,'no_cost_orders',no_cost_orders,'no_cost_revenue',no_cost_revenue,'committed',committed,'committed_orders',committed_orders,'revenue',revenue,'by_rollup',by_rollup)
-            FROM ap.v_unbilled_cost LIMIT 1)))::text,'UTF8'),'base64'),'\s','','g') AS d;
+            FROM ap.v_unbilled_cost LIMIT 1),'gaps',(SELECT j FROM ap.v_np_gaps)))::text,'UTF8'),'base64'),'\s','','g') AS d;
         run: |
           OVERRIDES=$(jq -nc --arg sql "$SQL_TEXT_INLINE" \
             '{containerOverrides:[{name:"finance-runner",environment:[{name:"MODE",value:"query"},{name:"SQL_TEXT",value:$sql}]}]}')
