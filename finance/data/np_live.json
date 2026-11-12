@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-12T09:09Z",
+ "asof": "2026-11-12T09:18Z",
  "ap": {
   "net": 242187.1,
   "credits": 0.0,
@@ -62,8 +62,8 @@
    "payable_total": 20884.34,
    "parked_count": 31
   },
-  "asof": "2026-11-12T09:09Z",
-  "moved_pct": 3.36
+  "asof": "2026-11-12T09:18Z",
+  "moved_pct": 0.0
  },
  "held": {
   "net": 233599.83,
@@ -87,8 +87,8 @@
   "fev_through": "2026-11-12T07:57Z",
   "deferred_snapshot": "2026-11-12T09:06Z",
   "last_settlement_end": "2026-11-11",
-  "asof": "2026-11-12T09:09Z",
-  "moved_pct": -3.63
+  "asof": "2026-11-12T09:18Z",
+  "moved_pct": 0.0
  },
  "fba": {
   "value": 1880.92,
@@ -104,7 +104,7 @@
    "mirror": 52
   },
   "stock_asof": "2026-11-12T08:00Z",
-  "asof": "2026-11-12T09:09Z"
+  "asof": "2026-11-12T09:18Z"
  },
  "amex": {
   "owed": 13305.65,
@@ -117,7 +117,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-11-12T09:09Z"
+  "asof": "2026-11-12T09:18Z"
  },
  "card_in_transit": {
   "amount": 1557.44,
@@ -128,14 +128,14 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-11-10",
-  "asof": "2026-11-12T09:09Z"
+  "asof": "2026-11-12T09:18Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 0.0,
   "orders": 0,
   "oldest_days": null,
-  "asof": "2026-11-12T09:09Z"
+  "asof": "2026-11-12T09:18Z"
  },
  "unbilled": {
   "cost": 5792.59,
@@ -160,7 +160,7 @@
     }
    }
   },
-  "asof": "2026-11-12T09:09Z"
+  "asof": "2026-11-12T09:18Z"
  },
  "gaps": {
   "disbursement": {
