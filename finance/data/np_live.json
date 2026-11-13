@@ -1,10 +1,10 @@
 {
- "asof": "2026-11-13T07:42Z",
+ "asof": "2026-11-13T12:49Z",
  "ap": {
-  "net": 230040.09,
+  "net": 230185.05,
   "credits": 0.0,
   "credit_count": 11,
-  "net_after_credits": 230040.09,
+  "net_after_credits": 230185.05,
   "buckets": {
    "SETTLED": {
     "count": 76,
@@ -15,16 +15,16 @@
     "total": 3840.53
    },
    "PAY": {
-    "count": 2068,
-    "total": 168575.87
+    "count": 2073,
+    "total": 168880.16
    },
    "REVIEW": {
-    "count": 2145,
-    "total": 55232.52
+    "count": 2149,
+    "total": 55271.13
    },
    "UNSCORED": {
-    "count": 229,
-    "total": 2391.17
+    "count": 228,
+    "total": 2193.23
    },
    "PARKED": {
     "count": 31,
@@ -49,8 +49,8 @@
     "total": 37876.34
    },
    "SPR": {
-    "count": 4018,
-    "total": 150074.91
+    "count": 4026,
+    "total": 150219.87
    }
   },
   "fedex": {
@@ -58,49 +58,49 @@
    "payable_total": 20884.34,
    "parked_count": 31
   },
-  "asof": "2026-11-13T07:42Z",
-  "moved_pct": 2.48
+  "asof": "2026-11-13T12:49Z",
+  "moved_pct": 0.06
  },
  "held": {
-  "net": 269116.11,
-  "order_count": 4667,
-  "settlement_net": 20609.69,
-  "settlement_balance": 21357.19,
-  "settlement_available": 21132.23,
+  "net": 270818.6,
+  "order_count": 4743,
+  "settlement_net": 31316.49,
+  "settlement_balance": 32058.23,
+  "settlement_available": 31833.27,
   "settlement_groups_open": 3,
-  "groups_snapshot": "2026-11-13T07:06Z",
-  "deferred_net": 248506.42,
-  "settlement_orders": 472,
-  "deferred_orders": 4195,
+  "groups_snapshot": "2026-11-13T12:06Z",
+  "deferred_net": 239502.11,
+  "settlement_orders": 620,
+  "deferred_orders": 4123,
   "deferred_oldest_days": 31,
   "walk": {
-   "released": 21217.05,
-   "postsettle": 588.6,
-   "refunds": -1078.72,
-   "account_events": -117.24,
-   "deferred": 248506.42
+   "released": 32437.61,
+   "postsettle": 841.72,
+   "refunds": -1844.18,
+   "account_events": -118.66,
+   "deferred": 239502.11
   },
-  "fev_through": "2026-11-13T05:57Z",
-  "deferred_snapshot": "2026-11-13T07:06Z",
+  "fev_through": "2026-11-13T11:58Z",
+  "deferred_snapshot": "2026-11-13T12:06Z",
   "last_settlement_end": "2026-11-11",
-  "asof": "2026-11-13T07:42Z",
-  "moved_pct": 0.95
+  "asof": "2026-11-13T12:49Z",
+  "moved_pct": 0.63
  },
  "fba": {
-  "value": 1848.44,
-  "qty": 218.0,
-  "items": 18,
-  "retail": 2930.39,
+  "value": 1832.4,
+  "qty": 215.0,
+  "items": 17,
+  "retail": 2886.53,
   "no_cost_items": 9,
   "no_cost_units": 26.0,
   "erp_default_units": 0,
-  "dash_value": 3452.08,
+  "dash_value": 3436.04,
   "stock_src": {
    "spapi": 1736,
    "mirror": 52
   },
-  "stock_asof": "2026-11-13T04:00Z",
-  "asof": "2026-11-13T07:42Z"
+  "stock_asof": "2026-11-13T12:00Z",
+  "asof": "2026-11-13T12:49Z"
  },
  "amex": {
   "owed": 13267.71,
@@ -113,25 +113,25 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-11-13T07:42Z"
+  "asof": "2026-11-13T12:49Z"
  },
  "card_in_transit": {
-  "amount": 297.7,
-  "batches": 2,
+  "amount": 192.3,
+  "batches": 1,
   "basis": "authnet",
-  "oldest_days": 1,
+  "oldest_days": 0,
   "stale_batches": 0,
   "stale_amount": 0.0,
   "stale_oldest_days": null,
-  "deposits_through": "2026-11-12",
-  "asof": "2026-11-13T07:42Z"
+  "deposits_through": "2026-11-13",
+  "asof": "2026-11-13T12:49Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 0.0,
   "orders": 0,
   "oldest_days": null,
-  "asof": "2026-11-13T07:42Z"
+  "asof": "2026-11-13T12:49Z"
  },
  "unbilled": {
   "cost": 9972.28,
@@ -139,8 +139,8 @@
   "oldest_days": 142,
   "no_cost_orders": 65,
   "no_cost_revenue": 24447.06,
-  "committed": 32418.35,
-  "committed_orders": 445,
+  "committed": 32985.57,
+  "committed_orders": 465,
   "revenue": 13577.21,
   "by_rollup": {
    "ISG": {
@@ -149,14 +149,14 @@
    },
    "_held": {
     "SPR": {
-     "cost": 60226.41,
-     "docs": 1343,
-     "pool": 73971.18,
-     "orders": 489
+     "cost": 60033.84,
+     "docs": 1342,
+     "pool": 73773.24,
+     "orders": 484
     }
    }
   },
-  "asof": "2026-11-13T07:42Z"
+  "asof": "2026-11-13T12:49Z"
  },
  "gaps": {
   "disbursement": {
