@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T08:00:07.986153+00:00",
+  "generated_at": "2026-11-20T16:52:17.290571+00:00",
   "source_pipeline": "aws_finance_read_runner",
   "schema": "net_position_v3",
   "ap": {
@@ -36,7 +36,7 @@
     "note": "SUPERSEDED 2026-09-29. Ekene's manual $10,500 valuation of 2026-07-25 carried its own condition: \"Goes live only if an SP-API inventory valuation feed is wired up.\" That feed now exists - spine-np-live reads OUR OWN FBA module (fba.v_stock_econ, stock at true cost, quantities from the SP-API FBA snapshot) and publishes fba.value into np_live.json, which np.html applies last. No value is carried here on purpose: a fallback naming a figure nobody can defend would overstate the position the moment the live feed went quiet. Superseded figure kept in git history."
   },
   "plaid": {
-    "fetched_at": "2026-11-20T07:59:32.955683+00:00",
+    "fetched_at": "2026-11-20T16:51:38.838301+00:00",
     "env": "production",
     "source": "plaid_balance_v1_aws",
     "feed_runtime": "aws_read_runner",
@@ -45,7 +45,7 @@
         "key": "boa_checking_4908",
         "label": "BOA Checking (4908)",
         "type": "depository",
-        "amount": 104766.53
+        "amount": 27238.91
       },
       {
         "key": "boa_savings_4911",
@@ -63,7 +63,7 @@
         "key": "amex",
         "label": "Amex owed",
         "type": "credit",
-        "amount": -29758.07
+        "amount": -29972.38
       },
       {
         "key": "paypal",
