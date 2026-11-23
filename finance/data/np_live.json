@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-23T01:07Z",
+ "asof": "2026-11-23T01:22Z",
  "ap": {
   "net": 296145.3,
   "credits": 0.0,
@@ -58,33 +58,33 @@
    "payable_total": 29454.99,
    "parked_count": 31
   },
-  "asof": "2026-11-23T01:07Z",
+  "asof": "2026-11-23T01:22Z",
   "moved_pct": 0.0
  },
  "held": {
-  "net": 349864.2,
-  "order_count": 9081,
+  "net": 349680.37,
+  "order_count": 9079,
   "settlement_net": 5282.03,
   "settlement_balance": 5866.48,
   "settlement_available": 5486.19,
   "settlement_groups_open": 3,
   "groups_snapshot": "2026-11-23T01:06Z",
-  "deferred_net": 344582.17,
+  "deferred_net": 344398.34,
   "settlement_orders": 175,
-  "deferred_orders": 8906,
+  "deferred_orders": 8904,
   "deferred_oldest_days": 31,
   "walk": {
    "released": 6708.87,
    "postsettle": 100.9,
    "refunds": -1490.15,
    "account_events": -37.59,
-   "deferred": 344582.17
+   "deferred": 344398.34
   },
   "fev_through": "2026-11-22T23:06Z",
-  "deferred_snapshot": "2026-11-23T00:06Z",
+  "deferred_snapshot": "2026-11-23T01:06Z",
   "last_settlement_end": "2026-11-21",
-  "asof": "2026-11-23T01:07Z",
-  "moved_pct": 0.0
+  "asof": "2026-11-23T01:22Z",
+  "moved_pct": -0.05
  },
  "fba": {
   "value": 1565.58,
@@ -100,7 +100,7 @@
    "mirror": 52
   },
   "stock_asof": "2026-11-22T20:45Z",
-  "asof": "2026-11-23T01:07Z"
+  "asof": "2026-11-23T01:22Z"
  },
  "amex": {
   "owed": 165.11,
@@ -113,7 +113,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-11-23T01:07Z"
+  "asof": "2026-11-23T01:22Z"
  },
  "card_in_transit": {
   "amount": 0.0,
@@ -124,14 +124,14 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-11-21",
-  "asof": "2026-11-23T01:07Z"
+  "asof": "2026-11-23T01:22Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 0.0,
   "orders": 0,
   "oldest_days": null,
-  "asof": "2026-11-23T01:07Z"
+  "asof": "2026-11-23T01:22Z"
  },
  "unbilled": {
   "cost": 33445.38,
@@ -139,8 +139,8 @@
   "oldest_days": 147,
   "no_cost_orders": 65,
   "no_cost_revenue": 24422.71,
-  "committed": 69222.1,
-  "committed_orders": 1400,
+  "committed": 69245.44,
+  "committed_orders": 1402,
   "revenue": 42366.72,
   "by_rollup": {
    "ISG": {
@@ -160,7 +160,7 @@
     }
    }
   },
-  "asof": "2026-11-23T01:07Z"
+  "asof": "2026-11-23T01:22Z"
  },
  "gaps": {
   "disbursement": {
