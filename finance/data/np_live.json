@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-27T17:10Z",
+ "asof": "2026-11-27T17:51Z",
  "ap": {
   "net": 265486.02,
   "credits": 0.0,
@@ -58,7 +58,7 @@
    "payable_total": 32586.7,
    "parked_count": 31
   },
-  "asof": "2026-11-27T17:10Z",
+  "asof": "2026-11-27T17:51Z",
   "moved_pct": 0.0
  },
  "held": {
@@ -83,8 +83,8 @@
   "fev_through": "2026-11-27T15:59Z",
   "deferred_snapshot": "2026-11-27T17:06Z",
   "last_settlement_end": "2026-11-25",
-  "asof": "2026-11-27T17:10Z",
-  "moved_pct": 2.16
+  "asof": "2026-11-27T17:51Z",
+  "moved_pct": 0.0
  },
  "fba": {
   "value": 1514.41,
@@ -100,7 +100,7 @@
    "mirror": 50
   },
   "stock_asof": "2026-11-27T12:45Z",
-  "asof": "2026-11-27T17:10Z"
+  "asof": "2026-11-27T17:51Z"
  },
  "amex": {
   "owed": 4318.07,
@@ -113,7 +113,7 @@
    "n": 0,
    "since": null
   },
-  "asof": "2026-11-27T17:10Z"
+  "asof": "2026-11-27T17:51Z"
  },
  "card_in_transit": {
   "amount": 451.06,
@@ -124,43 +124,43 @@
   "stale_amount": 0.0,
   "stale_oldest_days": null,
   "deposits_through": "2026-11-26",
-  "asof": "2026-11-27T17:10Z"
+  "asof": "2026-11-27T17:51Z"
  },
  "plaid_health": [],
  "ar_pending": {
   "amount": 0.0,
   "orders": 0,
   "oldest_days": null,
-  "asof": "2026-11-27T17:10Z"
+  "asof": "2026-11-27T17:51Z"
  },
  "unbilled": {
-  "cost": 113808.37,
-  "orders": 2641,
+  "cost": 120438.7,
+  "orders": 2892,
   "oldest_days": 149,
   "no_cost_orders": 63,
   "no_cost_revenue": 24394.51,
-  "committed": 46960.44,
-  "committed_orders": 520,
-  "revenue": 150915.81,
+  "committed": 40183.26,
+  "committed_orders": 327,
+  "revenue": 160935.39,
   "by_rollup": {
    "ISG": {
-    "count": 116,
-    "total": 17149.21
+    "count": 146,
+    "total": 19310.8
    },
    "SPR": {
-    "count": 2525,
-    "total": 96659.16
+    "count": 2746,
+    "total": 101127.9
    },
    "_held": {
     "SPR": {
-     "cost": 71214.48,
+     "cost": 71239.83,
      "docs": 1413,
      "pool": 71257.23,
-     "orders": 3871
+     "orders": 3826
     }
    }
   },
-  "asof": "2026-11-27T17:10Z"
+  "asof": "2026-11-27T17:51Z"
  },
  "gaps": {
   "disbursement": {
